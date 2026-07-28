@@ -1,8 +1,50 @@
 {
-  "updated": "2026-07-28T20:12:37.355Z",
+  "updated": "2026-07-28T21:38:06.190Z",
   "count": 87,
   "sources": 9,
   "items": [
+    {
+      "id": "661343326",
+      "title": "MCP startup Runlayer accuses Rippling of stealing its product idea",
+      "titleZh": "MCP初创公司Runlayer指责Rippling窃取其产品创意",
+      "summary": "Runlayer is suing Rippling after Rippling evaluated the startup's MCP gateway product and then opted to build one itself.",
+      "link": "https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea/",
+      "pubDate": 1785271512000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1750474144",
+      "title": "Sam Altman is ready to decelerate",
+      "titleZh": "山姆·奥尔特曼准备减速",
+      "summary": "His change of position comes after \"the first security incident that I have felt very viscerally.\"",
+      "link": "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/",
+      "pubDate": 1785269828000,
+      "vendor": "techcrunch",
+      "category": "Safety",
+      "impact": "med",
+      "score": 37,
+      "scoreBreakdown": {
+        "cq": 12,
+        "kv": 1,
+        "cw": 10,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-4391099",
       "title": "Scientific computing in the age of agentic AI",
@@ -97,13 +139,13 @@
       "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
-      "score": 45,
+      "score": 44,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 15,
         "st": 14,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -454,13 +496,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 22,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -475,13 +517,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -501,48 +543,6 @@
         "cq": 20,
         "kv": 3,
         "cw": 12,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "374722970",
-      "title": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control",
-      "titleZh": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control",
-      "summary": "OpenAI's Hugging Face breach has reignited debate over AI alignment and control, exposing competing views on whether increasingly capable AI should be better aligned, better contained, or both.",
-      "link": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
-      "pubDate": 1785173322000,
-      "vendor": "techcrunch",
-      "category": "Safety",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 1,
-        "cw": 10,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1120283410",
-      "title": "Threads users can now chat with Meta AI in their DMs",
-      "titleZh": "用户现在可以在DM中与Meta AI聊天",
-      "summary": "Meta on Monday said it is rolling out its Meta AI chatbot within Threads' DMs, giving users a way to chat with the AI assistant.",
-      "link": "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/",
-      "pubDate": 1785170724000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 0,
-        "cw": 15,
         "st": 8,
         "rc": 2,
         "cs": 1
@@ -611,6 +611,27 @@
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "301974150",
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+      "titleZh": "前沿实验室特工入侵剖析： 2026年7月事件的技术时间表",
+      "summary": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+      "link": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "pubDate": 1785110400000,
+      "vendor": "huggingface",
+      "category": "Agent",
+      "impact": "med",
+      "score": 40,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 12,
+        "st": 14,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "HuggingFace"
     },
     {
       "id": "-1965105272",
@@ -1173,27 +1194,6 @@
         "cq": 7,
         "kv": 0,
         "cw": 15,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
-      "id": "367121160",
-      "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
-      "titleZh": "推出Real World VoiceEQ ：衡量语音AI的人类质量",
-      "summary": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
-      "link": "https://huggingface.co/blog/real-world-voiceeq",
-      "pubDate": 1784073600000,
-      "vendor": "huggingface",
-      "category": "Release",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 25,
         "st": 14,
         "rc": 0,
         "cs": 1
