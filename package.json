@@ -1,0 +1,15 @@
+{
+  "name": "ai-pulse-news-fetcher",
+  "version": "1.0.0",
+  "description": "AI Pulse 新闻预抓取脚本 - 抓取多厂商 RSS、Google News 聚合、GitHub Trending，解析并输出 JSON",
+  "main": "fetcher.js",
+  "scripts": {
+    "start": "node fetcher.js",
+    "fetch": "node fetcher.js --output news.json"
+  },
+  "keywords": ["ai", "news", "rss", "fetcher", "ai-pulse"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
