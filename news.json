@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T17:27:16.126Z",
+  "updated": "2026-07-28T18:54:40.391Z",
   "count": 87,
   "sources": 9,
   "items": [
@@ -34,13 +34,13 @@
       "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
-      "score": 47,
+      "score": 46,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 1,
         "cw": 15,
         "st": 14,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -55,13 +55,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 15,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google AI"
@@ -76,13 +76,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 45,
+      "score": 44,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -130,18 +130,18 @@
       "source": "TechCrunch"
     },
     {
-      "id": "-2012745485",
-      "title": "Recursive Superintelligence signs $410 million compute deal with Amazon",
-      "titleZh": "递归超级智能与亚马逊签署4.1亿美元的计算协议",
-      "summary": "Recursive’s $400 million outlay represents the bulk of the company’s fundraising to date.",
+      "id": "-1213033670",
+      "title": "Recursive Superintelligence signs $410M compute deal with Amazon",
+      "titleZh": "递归超级智能与亚马逊签署$ 4.1亿美元的计算协议",
+      "summary": "Recursive’s emphasis on self-improving AI systems means much of the budget that would traditionally go toward headcount and operations is put straight into compute, as the company seeks to automate it…",
       "link": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/",
       "pubDate": 1785244757000,
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 42,
+      "score": 46,
       "scoreBreakdown": {
-        "cq": 14,
+        "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
@@ -496,13 +496,13 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "high",
-      "score": 47,
+      "score": 46,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 3,
         "cw": 12,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -517,13 +517,13 @@
       "vendor": "techcrunch",
       "category": "Safety",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 1,
         "cw": 10,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
