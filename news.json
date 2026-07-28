@@ -1,8 +1,71 @@
 {
-  "updated": "2026-07-28T13:32:58.846Z",
-  "count": 106,
-  "sources": 11,
+  "updated": "2026-07-28T16:00:52.030Z",
+  "count": 87,
+  "sources": 9,
   "items": [
+    {
+      "id": "996025360",
+      "title": "Data centers may face temporary power cuts to prevent blackouts on largest US grid",
+      "titleZh": "数据中心可能面临临时停电，以防止美国最大电网停电",
+      "summary": "The largest grid operator in the U.S. says it will cut power to large data centers to prevent blackouts starting next year.",
+      "link": "https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/",
+      "pubDate": 1785253346000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-262208980",
+      "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+      "titleZh": "LFM2.5-用于CPU上快速长上下文推理的编码器",
+      "summary": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+      "pubDate": 1785250905000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
+      "id": "-2107774824",
+      "title": "Fish Audio raises $52M seed to build AI voice models for creators and enterprises",
+      "titleZh": "Fish Audio筹集了5200万美元的种子资金，为创作者和企业构建人工智能语音模型",
+      "summary": "Since launching last year, the startup today has more than 8 million people using the open-source or hosted version of its models, and now generates annual recurring revenue of $21 million.",
+      "link": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
+      "pubDate": 1785247200000,
+      "vendor": "techcrunch",
+      "category": "Release",
+      "impact": "high",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 25,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-72115545",
       "title": "Recursive Superintelligence signs $410 compute deal with Amazon",
@@ -13,37 +76,58 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
     },
     {
-      "id": "1158243633",
-      "title": "The AI cold war escalates as China and U.S. clash over Moonshot’s Kimi model",
-      "titleZh": "The AI cold war escalates as China and U.S. clash over Moonshot’s Kimi model",
-      "summary": "The AI cold war escalates as China and U.S. clash over Moonshot’s Kimi model calcalistech.com",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFQWFsZHBrbVIzcnhzRkVTRnZlUFV0ZlNuR2lQM0ttZWtBWGtzbFNmSGsxYlhEQ2w2OW9XUWNPa2JTcHR5eVFQNnlzSVZ1ZVVYOE1vTW9RbU15WTBTa0t0T1dnVnZzdkR1?oc=5",
-      "pubDate": 1785224160000,
-      "vendor": "kimi",
-      "category": "Research",
+      "id": "-1243449843",
+      "title": "5 ways AI Mode in Search helps you enjoy the real world",
+      "titleZh": "搜索中的AI模式帮助您享受真实世界的5种方式",
+      "summary": "It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert tickets or find the perf…",
+      "link": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+      "pubDate": 1785243600000,
+      "vendor": "google",
+      "category": "Product",
       "impact": "med",
-      "score": 59,
+      "score": 51,
       "scoreBreakdown": {
-        "cq": 20,
+        "cq": 16,
         "kv": 0,
-        "cw": 22,
-        "st": 12,
+        "cw": 15,
+        "st": 15,
         "rc": 4,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "Google AI"
+    },
+    {
+      "id": "-1128688110",
+      "title": "5 ways to host the ultimate dinner party with Google Search",
+      "titleZh": "使用Google搜索举办终极晚宴的5种方式",
+      "summary": "These AI features can help you craft a menu, design a tablescape, and handle other party-planning tasks.",
+      "link": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
+      "pubDate": 1785243600000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google AI"
     },
     {
       "id": "-1981529753",
@@ -277,69 +361,6 @@
       "source": "arXiv"
     },
     {
-      "id": "23734693",
-      "title": "Cursor ships Moonshot AI's record 2.8-trillion-parameter Kimi K3 on launch day",
-      "titleZh": "光标在发布日出货Moonshot AI创纪录的2.8万亿参数Kimi K3",
-      "summary": "Cursor ships Moonshot AI's record 2.8-trillion-parameter Kimi K3 on launch day Startup Fortune",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVFJPZ213QmowWThWUVJ5SFA3SzBnNGJpeHQ0QUlPU05ZOUxmbHdPQWx0d1hPY04xTnVmOVZ1dkdDb0FtWVhwdDFUODJ4QUlqSERhSkxmLXJMS2RUM2FjdUFwN09GeG5MN2x0THVZbjNqemE4MUFwSERxSjRqZzlLTS0tV3I5OFRnb1hObnE3dm5OV0MxZE40QmhGV2I5blNxT0VZQ3k5dw?oc=5",
-      "pubDate": 1785203907000,
-      "vendor": "kimi",
-      "category": "Release",
-      "impact": "high",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "193149682",
-      "title": "Chinese A.I. Start-Up Shows the World What It Has Built",
-      "titleZh": "中国的人工智能初创公司向世界展示了它所建立的东西",
-      "summary": "Chinese A.I. Start-Up Shows the World What It Has Built The New York Times China’s Moonshot to Release Breakthrough AI Model for Download Bloomberg.com From Silicon Valley to DC, the tech world is sud…",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9veDlGZlRsc29JNlFwSDFXUEI0V1pJMFBOR05lSjFtRmRWZmw4cldKUXFYaGVmZW9MM0JiMWt1Z0Jnem5od1AtdmJrdUhSZU5VZlVxZWVWaG1zUGNvR3dBQTVjckxrNjFUci00b3UxdHV3QUFXSVVnZ1N3ajJramc?oc=5",
-      "pubDate": 1785201035000,
-      "vendor": "kimi",
-      "category": "Release",
-      "impact": "high",
-      "score": 71,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 6,
-        "cw": 25,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "990464337",
-      "title": "LM Studio Bionic adds support for Moonshot AI’s Kimi K3 model",
-      "titleZh": "LM Studio Bionic adds support for Moonshot AI’s Kimi K3 model",
-      "summary": "LM Studio Bionic adds support for Moonshot AI’s Kimi K3 model 9to5Mac",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVVM0YjFic1NPcGl1VllWNnF1dGZ3RzFBc09iNDJUXzAxbnp5cjJEZVpCWlZnbkRXMWdOTUZyOHl5bHU2djdBaGtJdVBKQ2h4ZTM5QUFwTVdUa1phQS1tM1V1em1tRUIwdGk2NGdUY0Q3R0xzckw4dGpMbGw3MkljdEI0bEdfVmUybDFoc0REUjNOckJNLUJJ?oc=5",
-      "pubDate": 1785198060000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "high",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1727485647",
       "title": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
       "titleZh": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
@@ -403,27 +424,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "110909087",
-      "title": "What Is Moonshot AI’s Kimi K3 Model and Why Is It Making Waves?",
-      "titleZh": "What Is Moonshot AI’s Kimi K3 Model and Why Is It Making Waves?",
-      "summary": "What Is Moonshot AI’s Kimi K3 Model and Why Is It Making Waves? Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOGtDOFZKUUZyb25MMjJnN1Q1Vlp0UWdfel9yVFdtdXowR1d5ZURlVmVBWjZwc2pVMzRERVlWa1AyMzRzM3BfNzVVUmQxUFFHQnA4ZVhxa0hMRHg2OEQzTXJGcEZzLWFyUXlvMnRQbzVqZl9XSGFPTGFnSHpROWVQUnFsWlNuMi1SdThkcDViX1F4MXY2NF9iZVdseXJUVTFudkxkSVhuRFZBZkJYalNHV0JoYw?oc=5",
-      "pubDate": 1785177500000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "high",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "47730536",
       "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
       "titleZh": "微软推出首个网络安全模型，以及新的代理网络安全系统",
@@ -466,27 +466,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "-1248089024",
-      "title": "The AI giants’ new problem: open AI",
-      "titleZh": "The AI giants’ new problem: open AI",
-      "summary": "The AI giants’ new problem: open AI The Verge",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX0t5UEZhbHNyTG84LW1obTh2VFFRNHlYRUNyQ0h4V3RFSnBzNTd4ZjFvYUIwenZKa0FnMER3ZVhWMGczdUwyTzk0VnMyMWxMcXo5anM5SC0wUktjNlBkNTZtb2JTcTI3dDRoamFqVWJIaG02NHpZeHNGdmtWZHc0VmdvNjRoRHIxWGxRTEhnZG9hdzYwTUdqX1E1MVJTdzNtV2ZDRDhxYTA5WkpETDJsMnFn?oc=5",
-      "pubDate": 1785171110000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 12,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1120283410",
       "title": "Threads users can now chat with Meta AI in their DMs",
       "titleZh": "用户现在可以在DM中与Meta AI聊天",
@@ -506,132 +485,6 @@
         "cs": 1
       },
       "source": "TechCrunch"
-    },
-    {
-      "id": "943490083",
-      "title": "Google’s AI search is rapidly becoming the default, new data shows",
-      "titleZh": "Google’s AI search is rapidly becoming the default, new data shows",
-      "summary": "Google’s AI Overviews now appear in 43% of searches, underscoring how quickly AI-generated answers are becoming the default way people discover information online.",
-      "link": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/",
-      "pubDate": 1785167832000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "726466726",
-      "title": "Power up your AI infrastructure! A first look at the Smart Systems Stage agenda at TechCrunch Disrupt 2026",
-      "titleZh": "强化您的人工智能基础设施！ TechCrunch Disrupt 2026智能系统阶段议程首次亮相",
-      "summary": "At TechCrunch Disrupt 2026, the Smart Systems Stage will be where energy, infrastructure, and technology collide, covering everything from fusion breakthroughs to the grid strain AI is putting on the …",
-      "link": "https://techcrunch.com/2026/07/27/power-up-your-ai-infrastructure-a-first-look-at-the-smart-systems-stage-agenda-at-techcrunch-disrupt-2026/",
-      "pubDate": 1785166200000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-118287983",
-      "title": "Chinese AI models now handle nearly a third of enterprise tokens at one-tenth the cost of US rivals",
-      "titleZh": "中国人工智能模型现在以美国竞争对手的十分之一的成本处理近三分之一的企业代币",
-      "summary": "Chinese AI models now handle nearly a third of enterprise tokens at one-tenth the cost of US rivals MarketScale",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxONEQ2WVhlQ2l0ZVVMVlltc3BqNXdtM2tWcDhiRTlNZ0lERFQ4MFdneV8tejVTVnNnTFc2SXJqNHRPN2k3cUU1RUZjUk9PMkNTWWptNDhYY2oyVGVOMC1PUEladElkZG50b3JnRjhtcEZ0S1lnUUZXaFh1VDBzR3EwcEExVDVOVHVCakRZWmNOdTl5QWE0OEk4WGVEQzI5Zm1HUW40bkJwenJMRDZlNTJ6TTdEcXZjZG8yRV9oVlBNRFMxak5PcktnZERKM1dRYUcwM1lKMEozUGRBLVlySkM5c0V3VERjenlKOU1qdjVzVGZyODZ4?oc=5",
-      "pubDate": 1785163551000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1622672438",
-      "title": "Chip shortages forced China to find way to make cheaper AI models than US",
-      "titleZh": "芯片短缺迫使中国找到了制造比美国更便宜的人工智能模型的方法",
-      "summary": "Chip shortages forced China to find way to make cheaper AI models than US EUobserver",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOG9HTXZiVk1tR2JvcjRlX1A5c3ljRENqMk9MVzg3MUxrMklOUTQxQzU4akRKNnBvZF8zVGUzb25kR25nNjRQOFlYYTdSMHdhbkpCRnJGU0kxaU5jcXpqZ25reHlnN0IzSkJHMDEzdGFNbGZBVHZZZjJkbmVXRHAwMXRqaDNhNVFHaF8wWjJZUWRLQ2lYbWJkYk5jU0o0U0dyWnJZQnRJRQ?oc=5",
-      "pubDate": 1785161314000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1648485946",
-      "title": "Moonshot’s Kimi K3, the Chinese AI model spooking Silicon Valley",
-      "titleZh": "Moonshot’s Kimi K3, the Chinese AI model spooking Silicon Valley",
-      "summary": "Moonshot’s Kimi K3, the Chinese AI model spooking Silicon Valley The Week",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NQzRtWEhNWkFHMGl2b3hoNElzNFN6cW81TEFfTkM1dnBqQzdSd21LdGx3eFp2T0YtYVVXeWVkWGd4WW8yeW9ySWY3RVd3bm9jdUhiQ1lwckxOREkxYXZVNTNNNl9VRmFYWG5oZXNPOWdqRVc5SVVPMzRSbW9ZcTQ?oc=5",
-      "pubDate": 1785155577000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "high",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1737265623",
-      "title": "DeepSeek V4 vs GLM-5.2 vs Qwen: 10x Price Gap [2026] - tech",
-      "titleZh": "DeepSeek V4与GLM-5.2与Qwen ： 10倍价格差距[2026] -技术",
-      "summary": "DeepSeek V4 vs GLM-5.2 vs Qwen: 10x Price Gap [2026] tech-insider.org",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZaExtdWtZbHFzLWdWTkxJRXdtNnVjMC0wZ3hUcUo2dDJGQ0JtdlY5c0FnN0VZQ01CbTE4ckZfYXQxR3hkb1N5bkFDQl9vbE5UenJITlFRZy1STW9BUHFiX2VaSEo3MDJvWXBmYTZ3?oc=5",
-      "pubDate": 1785154855000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "high",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 15,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-811957981",
@@ -697,132 +550,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "-579119767",
-      "title": "DeepSeek said to have told backers of funding pause after viral posts",
-      "titleZh": "据称， DeepSeek在病毒式帖子后告诉支持者资金暂停",
-      "summary": "DeepSeek said to have told backers of funding pause after viral posts The Japan Times",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbnFLdzhHSHpPVENMRTEyLXVhYTlfNnZQZnlyUzdRTmp0Nkc3Nk1XOWZmSkZmWHJtV25mS0lENklPWFcwM3RUdnhaX2Y4ZlB4c2NiMlJXSXRLbmJGTUJiYjFSeTZsSEdfXzdteGRkU214NE10NlE1eGlkV0dCeWJXLWhCSlRFRWUzQWVZQnFTdW5mWnM?oc=5",
-      "pubDate": 1785120540000,
-      "vendor": "deepseek",
-      "category": "Funding",
-      "impact": "high",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 20,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1210570808",
-      "title": "China's Moonshot, Z.AI, and DeepSeek are challenging U.S. AI labs—and beating them on cost",
-      "titleZh": "China's Moonshot, Z.AI, and DeepSeek are challenging U.S. AI labs—and beating them on cost",
-      "summary": "China's Moonshot, Z.AI, and DeepSeek are challenging U.S. AI labs—and beating them on cost Fortune",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaEV5NHNvbGZGZjM0S2E4WVVLQXhWMU1zcVhnRTBWNVFQX1BOUFlxN3JGYTM3T0xuLXhPMHpQVlhNY1h0TFRkeXIyTGNuYVZXSUQwTk5ybUdLRjF4am5OdjFvY01tbk9ER3RrSDNRQ1VaSFJlLThLTS0zcFd4REpBSHdHRmxRRm4wUHduQ3NWSGw?oc=5",
-      "pubDate": 1785099600000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1715212646",
-      "title": "Cheaper, open and intelligent: Chinese AI models gain ground, as they make inroads in the US",
-      "titleZh": "更便宜、更开放、更智能：中国人工智能模型在美国取得进展",
-      "summary": "Cheaper, open and intelligent: Chinese AI models gain ground, as they make inroads in the US AP News",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdm5uUXhNOEcyUXB6LWVpNDJ3UkJZclpja1ctcFdYclhjenJISmRRZGZTT2hoTDFXa2NuQlVzdGRRYmJWTWRCelg1M3hzWnR4WjBRZThDNjRmckw5c2paZU9pZ282ZVJXeTR6SWxhSG9qdkFUdlkyWUdZRDNPVUVBZGthbExxWThEdW5DWEk1NmJCQUJzT0E?oc=5",
-      "pubDate": 1785038700000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1568185262",
-      "title": "DeepSeek Suspends Fundraising After Viral US-China Posts",
-      "titleZh": "DeepSeek在美中病毒帖子后暂停筹款",
-      "summary": "DeepSeek Suspends Fundraising After Viral US-China Posts Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZmM5SHI4SGhzcko5THg1SGx5a1RiY2p0MExUU0R0NHM3T2pjN0NaR1piRGhGbTVDQll5aElhOHpOWnFUNC14S1dHNUtMaElCLTZFLTd5SW5OTmEyb2lUT1ZhVE5qQ2JvNzRiX3JrMWNIcDB5YWJYZ2luLXFfSk5hNXpLMndhdHpfWURFVl9OcmVpSGUzeDBTdEJlUFQ4cUZHQXZTMjdyM1NfQ3Z5N09zX0FPMEtvQQ?oc=5",
-      "pubDate": 1784990995000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1053984307",
-      "title": "Which AI model is the best stock trader? A finance professor says he's got the answer.",
-      "titleZh": "哪个AI模型是最好的股票交易者？一位金融学教授说他找到了答案。",
-      "summary": "Which AI model is the best stock trader? A finance professor says he's got the answer. Business Insider",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUnc5ODQtMkNJNDg3UzZpbFRaeGN0Qk5VNjZNZm9lUDh0VGxiczByS1M4NFNZa2V2NjJiSGZ4OG9wRDFGZ1hmbFVmNHhPMjU3TE5ORnJfOVJGQU5sU3FnN2c3SHZnU1VvV19Vdk41TEw3U21UNFdsY1ZHTU5tc3VZS1VieEVFZ1RKOGVmeDR6VnpNU1YwVGxGakln?oc=5",
-      "pubDate": 1784970900000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1443203265",
-      "title": "Silicon Valley CEOs take a stand that helps their Chinese rivals",
-      "titleZh": "硅谷首席执行官采取帮助中国竞争对手的立场",
-      "summary": "Silicon Valley CEOs take a stand that helps their Chinese rivals The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcGlQNF9QRFVZd2NBR3BUTHd3SmdVRlhzUWE4Z0hVVElHV0Q3VS13MXNzQy1LdzRvQnNIaFoxNWJGRFQwTlNUMFFjUkhpdkVUNElWVzNQS0o0TVFZRUdXSmN2M2ZvWm9yS0pfdlM4MVI3cExtWjRKWUdtWWNUQkJhUk1weG1ZYmJ6Z2ZTMC1fV0VTQ016VDEySWl3V0V2OENIZnpkOWpuS3luUkJKTjAtdGlB?oc=5",
-      "pubDate": 1784948250000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1965105272",
       "title": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
       "titleZh": "在人工智能峰会上，韩国与NVIDIA及其合作伙伴勾勒出人工智能的未来",
@@ -842,48 +569,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-1566301778",
-      "title": "What is China’s Kimi K3 and why is the US so rattled by it?",
-      "titleZh": "What is China’s Kimi K3 and why is the US so rattled by it?",
-      "summary": "What is China’s Kimi K3 and why is the US so rattled by it? CNN",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV2lZYXNGZXdPOC1nMXl3UW04QXMzZGdJZWJlWUFGOV92ZVVSUEZVMU1HNUNoSjl2MnVFaF9Hdk1fMC1NN2NhZ1NHd3RJX0xsRDJnZ0JfbXBGN3NWLTlZSVlVSHFoQlo5eXhGNUV1M3RnY0otb184VHN0bGZhTWlpMVhBTQ?oc=5",
-      "pubDate": 1784858040000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-152767998",
-      "title": "Moonshot AI accessed Nvidia's chips despite Chinese export ban, White House official says",
-      "titleZh": "白宫官员称，尽管中国禁止出口，但Moonshot AI仍访问了Nvidia的芯片",
-      "summary": "Moonshot AI accessed Nvidia's chips despite Chinese export ban, White House official says CNBC",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNN0tXOXpfRFVEU3RYV29odERGREg0dXNxdjZaS2lPY0R4THN2LUpnOW5YdFlRa2dsaGhpZkhYWHBLZFhoYnM1ZnZmXzh5aEh2TVZ0MkJieENRWEVITVBJdEE4aDNvZG9rTUZYbTh0dEpBSFU3blg4SXFSZDZoTDJpd2NRWdIBiAFBVV95cUxOTTF3R3BBVS1mTWNxUnZRVHlzTmVqbUJQVTNoemdldnNXVmFxQXQxeDlCU0U5Uld6bDZPQ2JxTFdQdkZ5STk2TVlZQ0lTaml6QmxhYzlPZUt5WEMtdXA4M0dlRExuVkhXak1SU3pWWHlicXdPWUxUazZDQUVpdExXR2pHX3ZoMUwt?oc=5",
-      "pubDate": 1784805097000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1719240719",
@@ -1105,13 +790,13 @@
       "vendor": "deepmind",
       "category": "Release",
       "impact": "high",
-      "score": 66,
+      "score": 65,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
         "cw": 25,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "DeepMind"
@@ -1126,13 +811,13 @@
       "vendor": "nvidia",
       "category": "Agent",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 0,
         "cw": 12,
         "st": 10,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "NVIDIA"
@@ -1262,27 +947,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-769769758",
-      "title": "China’s DeepSeek AI Prepping for IPO, as It Becomes the Top AI Model",
-      "titleZh": "China’s DeepSeek AI Prepping for IPO, as It Becomes the Top AI Model",
-      "summary": "China’s DeepSeek AI Prepping for IPO, as It Becomes the Top AI Model MarketWise",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMWdhUE9VbUM3NDVhQ1F5eFVNYkF0RjIxRnR3T3pPMlNxdXZUdGN4SnV0bVQxekRjVjlrMHVWdjRCUnNZdXJ3NnFFa3JiSU54MGlETTh0SEt6UjdDdFVReDNOZXFPOFRseXFDc29pVlNKZi1qV1BkNHhwckFyUFJBRg?oc=5",
-      "pubDate": 1784308180000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "high",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1573518327",
@@ -1579,27 +1243,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "712915856",
-      "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
-      "titleZh": "PyTorch中的分析（第3部分） ：注意力就是你的分析",
-      "summary": "Profiling in PyTorch (Part 3): Attention is all you profile",
-      "link": "https://huggingface.co/blog/torch-attention-profile",
-      "pubDate": 1783641600000,
-      "vendor": "huggingface",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 15,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
       "id": "1537759388",
       "title": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
       "titleZh": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
@@ -1756,48 +1399,6 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
-    },
-    {
-      "id": "-1741597654",
-      "title": "Ask an AI expert: What exactly is the full stack?",
-      "titleZh": "向人工智能专家提问：全栈到底是什么？",
-      "summary": "A Google expert explains what it means to take a full-stack approach to AI and why it’s been the foundation of our AI work for so long.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
-      "pubDate": 1782748800000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
-    },
-    {
-      "id": "39458671",
-      "title": "Our latest Google Finance upgrades, including a new app",
-      "titleZh": "我们最新的Google财经升级，包括全新应用",
-      "summary": "The new Google Finance is coming out of beta and launching a new Android app.",
-      "link": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
-      "pubDate": 1782403200000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "high",
       "score": 51,
       "scoreBreakdown": {
         "cq": 18,
