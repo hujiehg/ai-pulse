@@ -1,13 +1,76 @@
 {
-  "updated": "2026-07-28T16:00:52.030Z",
+  "updated": "2026-07-28T17:27:16.126Z",
   "count": 87,
   "sources": 9,
   "items": [
     {
+      "id": "-4391099",
+      "title": "Scientific computing in the age of agentic AI",
+      "titleZh": "智能AI时代的科学计算",
+      "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+      "link": "https://openai.com/index/scientific-computing-agentic-ai",
+      "pubDate": 1785258000000,
+      "vendor": "openai",
+      "category": "Agent",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 12,
+        "st": 15,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "1593125851",
+      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+      "titleZh": "OlmoEarth平台：行星尺度上的地理空间推断",
+      "summary": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+      "link": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+      "pubDate": 1785256062000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 1,
+        "cw": 15,
+        "st": 14,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
+      "id": "-2053168468",
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "titleZh": "Gemini API托管代理： 3.6 Flash、挂钩等",
+      "summary": "We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "pubDate": 1785254400000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "Google AI"
+    },
+    {
       "id": "996025360",
       "title": "Data centers may face temporary power cuts to prevent blackouts on largest US grid",
       "titleZh": "数据中心可能面临临时停电，以防止美国最大电网停电",
-      "summary": "The largest grid operator in the U.S. says it will cut power to large data centers to prevent blackouts starting next year.",
+      "summary": "The decision arrives as the breakneck pace of data center construction has grid operators scrambling to generate power.",
       "link": "https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/",
       "pubDate": 1785253346000,
       "vendor": "techcrunch",
@@ -34,13 +97,13 @@
       "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 15,
         "st": 14,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -49,27 +112,27 @@
       "id": "-2107774824",
       "title": "Fish Audio raises $52M seed to build AI voice models for creators and enterprises",
       "titleZh": "Fish Audio筹集了5200万美元的种子资金，为创作者和企业构建人工智能语音模型",
-      "summary": "Since launching last year, the startup today has more than 8 million people using the open-source or hosted version of its models, and now generates annual recurring revenue of $21 million.",
+      "summary": "Since launching last year, the startup today has more than 8 million people using the open source or hosted version of its models, and now generates annual recurring revenue of $21 million.",
       "link": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
       "pubDate": 1785247200000,
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "high",
-      "score": 58,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 16,
-        "kv": 3,
+        "kv": 5,
         "cw": 25,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
     },
     {
-      "id": "-72115545",
-      "title": "Recursive Superintelligence signs $410 compute deal with Amazon",
-      "titleZh": "递归超级智能与亚马逊签署$ 410计算协议",
+      "id": "-2012745485",
+      "title": "Recursive Superintelligence signs $410 million compute deal with Amazon",
+      "titleZh": "递归超级智能与亚马逊签署4.1亿美元的计算协议",
       "summary": "Recursive’s $400 million outlay represents the bulk of the company’s fundraising to date.",
       "link": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/",
       "pubDate": 1785244757000,
@@ -475,13 +538,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -769,13 +832,13 @@
       "vendor": "openai",
       "category": "Release",
       "impact": "high",
-      "score": 66,
+      "score": 65,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
         "cw": 25,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "OpenAI"
@@ -858,27 +921,6 @@
         "cq": 20,
         "kv": 2,
         "cw": 22,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "949919408",
-      "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
-      "titleZh": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
-      "summary": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.",
-      "link": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
-      "pubDate": 1784592000000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 0,
-        "cw": 15,
         "st": 15,
         "rc": 0,
         "cs": 1
@@ -1089,27 +1131,6 @@
         "cq": 9,
         "kv": 1,
         "cw": 10,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
-      "id": "-1760110030",
-      "title": "What building Shippy taught us about building agents",
-      "titleZh": "关于建筑代理， Shippy教会了我们哪些建筑",
-      "summary": "What building Shippy taught us about building agents",
-      "link": "https://huggingface.co/blog/allenai/shippy-tech-blog",
-      "pubDate": 1784136581000,
-      "vendor": "huggingface",
-      "category": "Agent",
-      "impact": "med",
-      "score": 38,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 12,
         "st": 14,
         "rc": 0,
         "cs": 1
@@ -1388,27 +1409,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "968875376",
-      "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
-      "titleZh": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
-      "summary": "Google UK shares its latest Economic Impact Report and how to enable more people to unlock the benefits of AI-powered technologies.",
-      "link": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
-      "pubDate": 1782799200000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
     },
     {
       "id": "-16863888",
