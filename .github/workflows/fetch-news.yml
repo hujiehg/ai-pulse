@@ -1,0 +1,47 @@
+name: Fetch AI News
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  pull-requests: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run news fetcher
+        run: node fetcher.js --output news.json --verbose
+
+      - name: Verify news.json exists
+        run: |
+          echo "=== Checking news.json ==="
+          ls -la news.json || echo "news.json NOT FOUND!"
+          if [ -f news.json ]; then
+            echo "news.json size: $(wc -c < news.json) bytes"
+            echo "First 200 chars:"
+            head -c 200 news.json
+            echo ""
+          fi
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages
+          keep_files: false
+          exclude_assets: '.gitignore'
