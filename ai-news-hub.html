@@ -1728,6 +1728,8 @@ function renderStats(){
 }
 
 function renderTrendChart(){
+  const dom = $('chartTrend');
+  if(!dom || dom.offsetWidth === 0) return;
   const days = 7;
   const data = [];
   const labels = [];
@@ -1739,7 +1741,9 @@ function renderTrendChart(){
     data.push(count);
     labels.push((d.getMonth()+1) + '/' + d.getDate());
   }
-  const chart = echarts.init($('chartTrend'));
+  const existing = echarts.getInstanceByDom(dom);
+  if(existing) existing.dispose();
+  const chart = echarts.init(dom);
   const isDark = document.documentElement.dataset.theme === 'dark';
   const axisLineColor = isDark ? '#3a3a55' : '#d0d0de';
   const axisLabelColor = isDark ? '#8e8ea0' : '#8a8aa0';
@@ -1767,10 +1771,13 @@ function renderTrendChart(){
 
 function renderScoreChart(){
   const dom = $('chartScore');
-  if(!dom) return;
+  if(!dom || dom.offsetWidth === 0) return;
   const isDark = document.documentElement.dataset.theme === 'dark';
   const scored = STATE.news.filter(n=>n.score!=null);
-  if(scored.length === 0) return;
+  if(scored.length === 0){
+    dom.innerHTML = '<div style="text-align:center;color:var(--text-dim);font-size:11px;padding:30px 0">暂无评分数据</div>';
+    return;
+  }
   const ranges = [
     { name:'必读(85+)', min:85, max:101, color: isDark?'#ff6b6b':'#c50f1f' },
     { name:'重大(75-84)', min:75, max:85, color: isDark?'#fa5252':'#e81123' },
@@ -1783,6 +1790,8 @@ function renderScoreChart(){
     value: scored.filter(n => n.score >= r.min && n.score < r.max).length,
     itemStyle: { color: r.color }
   })).filter(d => d.value > 0);
+  const existing2 = echarts.getInstanceByDom(dom);
+  if(existing2) existing2.dispose();
   const chart = echarts.init(dom);
   const tooltipBg = isDark ? '#1e1e3a' : '#fff';
   const tooltipBorder = isDark ? '#2a2a45' : '#e5e5f0';
@@ -1803,7 +1812,7 @@ function renderScoreChart(){
 
 function renderVendorChart(){
   const dom = $('chartVendor');
-  if(!dom) return;
+  if(!dom || dom.offsetWidth === 0) return;
   const isDark = document.documentElement.dataset.theme === 'dark';
   const groups = {};
   STATE.news.forEach(n=>{
@@ -1816,6 +1825,8 @@ function renderVendorChart(){
   });
   const vendors = Object.entries(groups).map(([k,v])=>({name:VENDOR_MAP[k]?.name||k, ...v}))
     .sort((a,b)=>b.total-a.total).slice(0,8);
+  const existing3 = echarts.getInstanceByDom(dom);
+  if(existing3) existing3.dispose();
   const chart = echarts.init(dom);
   const axisLineColor = isDark ? '#3a3a55' : '#d0d0de';
   const axisLabelColor = isDark ? '#8e8ea0' : '#5a5a72';
@@ -3092,6 +3103,13 @@ fetchAllNews();
 
 // 每 15 分钟自动刷新
 setInterval(fetchAllNews, 15 * 60 * 1000);
+
+// 延迟重新渲染图表，确保容器宽度已就绪
+setTimeout(()=>{
+  renderTrendChart();
+  renderScoreChart();
+  renderVendorChart();
+}, 300);
 
 /* ---------- 鼠标悬停区域独占滚轮 ---------- */
 (function initHoverScroll(){
