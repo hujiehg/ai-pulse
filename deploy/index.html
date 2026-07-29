@@ -1,0 +1,3131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AI Pulse · 前沿资讯中心</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+<style>
+  :root{
+    --bg:#f3f3f7; --bg2:#ffffff; --bg-card:#ffffff;
+    --accent:#0067c0; --accent-light:#2b88d8; --accent-dark:#004578;
+    --accent-grad:linear-gradient(135deg,#0067c0,#2b88d8);
+    --purple:#7b3cb0; --purple-grad:linear-gradient(135deg,#7b3cb0,#a44bd6);
+    --teal:#008272; --teal-grad:linear-gradient(135deg,#008272,#00b294);
+    --orange:#ca5010; --orange-grad:linear-gradient(135deg,#ca5010,#f7630c);
+    --red:#c50f1f; --red-grad:linear-gradient(135deg,#c50f1f,#e81123);
+    --green:#107c10; --green-grad:linear-gradient(135deg,#107c10,#498205);
+    --text:#1a1a2e; --text-sub:#5a5a72; --text-dim:#8a8aa0;
+    --border:#e5e5f0; --border-strong:#d0d0de;
+    --shadow:0 2px 8px rgba(0,0,0,0.06), 0 0 1px rgba(0,0,0,0.08);
+    --shadow-hover:0 8px 24px rgba(0,103,192,0.14), 0 0 1px rgba(0,0,0,0.1);
+    --radius:10px; --radius-sm:6px;
+  }
+  [data-theme="dark"]{
+    --bg:#1a1a2e; --bg2:#16213e; --bg-card:#1e1e3a;
+    --accent:#4dabf7; --accent-light:#74c0fc; --accent-dark:#1971c2;
+    --accent-grad:linear-gradient(135deg,#4dabf7,#74c0fc);
+    --purple:#ae8ed8; --purple-grad:linear-gradient(135deg,#9775fa,#b197fc);
+    --teal:#20c997; --teal-grad:linear-gradient(135deg,#20c997,#38d9a9);
+    --orange:#ff922b; --orange-grad:linear-gradient(135deg,#ff922b,#ffa94d);
+    --red:#ff6b6b; --red-grad:linear-gradient(135deg,#ff6b6b,#fa5252);
+    --green:#40c057; --green-grad:linear-gradient(135deg,#40c057,#51cf66);
+    --text:#e0e0ef; --text-sub:#8e8ea0; --text-dim:#6c6c80;
+    --border:#2a2a45; --border-strong:#3a3a55;
+    --shadow:0 2px 8px rgba(0,0,0,0.3), 0 0 1px rgba(0,0,0,0.4);
+    --shadow-hover:0 8px 24px rgba(77,171,247,0.2), 0 0 1px rgba(0,0,0,0.3);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%;overflow:hidden}
+  body{
+    font-family:'Segoe UI','Inter',-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif;
+    background:var(--bg); color:var(--text); min-height:100vh;
+    display:flex;flex-direction:column;
+    -webkit-font-smoothing:antialiased;
+  }
+  .acrylic{
+    background:rgba(255,255,255,0.72);
+    backdrop-filter:blur(30px) saturate(140%);
+    -webkit-backdrop-filter:blur(30px) saturate(140%);
+  }
+  [data-theme="dark"] .acrylic{background:rgba(30,30,58,0.72)}
+  /* ===== Header ===== */
+  .header{
+    position:sticky;top:0;z-index:100;
+    border-bottom:1px solid var(--border);
+  }
+  .header-inner{
+    max-width:1640px;margin:0 auto;padding:14px 24px;
+    display:flex;align-items:center;gap:20px;
+  }
+  .logo{display:flex;align-items:center;gap:10px}
+  .logo-icon{
+    width:36px;height:36px;border-radius:8px;
+    background:var(--accent-grad);
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 3px 10px rgba(0,103,192,0.3);
+  }
+  .logo-icon svg{width:20px;height:20px;fill:#fff}
+  .logo-text{font-size:18px;font-weight:700;letter-spacing:-0.5px}
+  .logo-text b{color:var(--accent)}
+  .logo-sub{font-size:11px;color:var(--text-dim);font-weight:400}
+  .header-search{
+    flex:1;max-width:480px;position:relative;
+  }
+  .header-search input{
+    width:100%;padding:9px 14px 9px 38px;
+    border:1px solid var(--border-strong);border-radius:20px;
+    background:var(--bg2);font-size:13px;font-family:inherit;color:var(--text);
+    transition:border-color .2s, box-shadow .2s;
+  }
+  .header-search input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(0,103,192,0.12)}
+  .header-search svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);width:16px;height:16px;fill:var(--text-dim)}
+  .header-stats{display:flex;gap:16px;align-items:center}
+  .hstat{display:flex;flex-direction:column;align-items:flex-end;line-height:1.1}
+  .hstat .n{font-size:18px;font-weight:700;color:var(--accent);font-family:'Inter',sans-serif}
+  .hstat .l{font-size:9px;color:var(--text-dim);letter-spacing:1px;text-transform:uppercase}
+  .refresh-btn{
+    padding:8px 16px;border-radius:var(--radius-sm);border:1px solid var(--accent);
+    background:var(--accent-grad);color:#fff;font-size:12px;font-weight:600;font-family:inherit;
+    cursor:pointer;transition:transform .15s, box-shadow .2s;
+    display:flex;align-items:center;gap:6px;
+  }
+  .refresh-btn:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(0,103,192,0.3)}
+  .refresh-btn:active{transform:translateY(0)}
+  .refresh-btn svg{width:14px;height:14px;fill:#fff}
+  .refresh-btn.spinning svg{animation:spin 1s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+
+  /* ===== Theme Button ===== */
+  .theme-btn{
+    width:36px;height:36px;border-radius:var(--radius-sm);
+    border:1px solid var(--border-strong);background:var(--bg2);
+    cursor:pointer;display:flex;align-items:center;justify-content:center;
+    transition:all .15s;padding:0;
+  }
+  .theme-btn:hover{border-color:var(--accent);box-shadow:0 4px 12px rgba(0,103,192,0.18)}
+  .theme-btn svg{width:18px;height:18px;fill:var(--text-sub)}
+  .theme-btn:hover svg{fill:var(--accent)}
+  .theme-btn .icon-sun{display:block}
+  .theme-btn .icon-moon{display:none}
+  :root .theme-btn .icon-moon{display:none}
+  [data-theme="dark"] .theme-btn .icon-sun{display:none}
+  [data-theme="dark"] .theme-btn .icon-moon{display:block}
+
+  /* ===== Tabs ===== */
+  .tabs{
+    max-width:1640px;margin:0 auto;padding:12px 24px 0;
+    display:flex;gap:4px;flex-wrap:wrap;
+  }
+  .tab{
+    padding:8px 16px;border-radius:6px 6px 0 0;
+    font-size:13px;font-weight:500;color:var(--text-sub);cursor:pointer;
+    border:1px solid transparent;border-bottom:none;
+    transition:all .2s;position:relative;bottom:-1px;
+  }
+  .tab:hover{background:rgba(0,103,192,0.05);color:var(--accent)}
+  .tab.active{
+    background:var(--bg2);border-color:var(--border-strong);color:var(--accent);
+    font-weight:600;
+  }
+  .tab .badge{
+    display:inline-block;margin-left:6px;padding:1px 6px;border-radius:10px;
+    background:var(--accent);color:#fff;font-size:10px;font-weight:600;
+  }
+
+  /* ===== Layout ===== */
+  .main{max-width:1640px;margin:0 auto;padding:16px 24px 40px;overflow:hidden;flex:1;min-height:0}
+  .grid{display:flex;gap:0;align-items:stretch;height:100%}
+  .left-panel{width:280px;flex-shrink:0;padding-right:16px;height:100%;overflow-y:auto}
+  .grid>section{flex:1 1 0%;min-width:0;padding-right:16px;height:100%;overflow-y:auto}
+  .resizer{
+    flex-shrink:0;width:10px;cursor:col-resize;z-index:50;
+    background:#c0c4d0;border-left:1px solid #a0a4b0;border-right:1px solid #a0a4b0;
+    transition:background .2s,border-color .2s;border-radius:5px;
+    align-self:stretch;margin:8px 0;
+  }
+  .resizer:hover,.resizer.dragging{background:var(--accent);border-color:var(--accent)}
+  .right-panel{
+    display:flex;flex-direction:column;gap:16px;
+    width:var(--rpw,320px);min-width:240px;max-width:520px;flex-shrink:0;
+    height:100%;overflow-y:auto;
+  }
+  @media (max-width:1280px){.left-panel{width:240px}.resizer,.right-panel{display:none}}
+  @media (max-width:860px){.left-panel{display:none}.grid>section{padding-right:0}}
+
+  /* 独立滚动条 */
+  .left-panel::-webkit-scrollbar,.grid>section::-webkit-scrollbar,.right-panel::-webkit-scrollbar{width:5px}
+  .left-panel::-webkit-scrollbar-thumb,.grid>section::-webkit-scrollbar-thumb,.right-panel::-webkit-scrollbar-thumb{background:var(--border-strong);border-radius:3px}
+  .left-panel::-webkit-scrollbar-track,.grid>section::-webkit-scrollbar-track,.right-panel::-webkit-scrollbar-track{background:transparent}
+  .left-panel{scrollbar-width:thin;scrollbar-color:var(--border-strong) transparent;overscroll-behavior:contain}
+  .grid>section{scrollbar-width:thin;scrollbar-color:var(--border-strong) transparent;overscroll-behavior:contain}
+  .right-panel{scrollbar-width:thin;scrollbar-color:var(--border-strong) transparent;overscroll-behavior:contain}
+
+  /* ===== Card ===== */
+  .card{
+    background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);
+    box-shadow:var(--shadow);overflow:hidden;
+  }
+  .card-head{
+    padding:14px 16px 10px;border-bottom:1px solid var(--border);
+    display:flex;align-items:center;justify-content:space-between;
+  }
+  .card-title{font-size:13px;font-weight:600;color:var(--text)}
+  .card-title .ico{display:inline-block;width:16px;height:16px;margin-right:6px;vertical-align:-3px}
+  .card-body{padding:12px 16px}
+
+  /* ===== Left Panel: 厂商筛选 ===== */
+  
+  .vendor-list{display:flex;flex-direction:column;gap:2px}
+  .vendor-item{
+    display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:var(--radius-sm);
+    cursor:pointer;transition:background .15s;
+  }
+  .vendor-item:hover{background:rgba(0,103,192,0.06)}
+  .vendor-item.active{background:rgba(0,103,192,0.1)}
+  .vendor-logo{
+    width:28px;height:28px;border-radius:6px;display:flex;align-items:center;justify-content:center;
+    font-size:13px;font-weight:700;color:#fff;flex-shrink:0;
+  }
+  .vendor-info{flex:1;min-width:0}
+  .vendor-name{font-size:12px;font-weight:600}
+  .vendor-count{font-size:10px;color:var(--text-dim)}
+  .vendor-item.active .vendor-count{color:var(--accent)}
+  .vendor-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+
+  .cat-list{display:flex;flex-direction:column;gap:2px;margin-top:8px}
+  .cat-item{
+    display:flex;align-items:center;gap:8px;padding:7px 12px;border-radius:var(--radius-sm);
+    font-size:12px;color:var(--text-sub);cursor:pointer;transition:background .15s;
+  }
+  .cat-item:hover{background:rgba(0,103,192,0.06)}
+  .cat-item.active{background:rgba(0,103,192,0.1);color:var(--accent);font-weight:600}
+  .cat-item .num{margin-left:auto;font-size:10px;color:var(--text-dim)}
+
+  /* ===== Center: News Feed ===== */
+  .feed-head{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:0 0 12px;
+  }
+  .feed-title{font-size:16px;font-weight:700}
+  .feed-meta{font-size:11px;color:var(--text-dim)}
+  /* 双语标题切换按钮组 */
+  .title-mode-switch{
+    display:inline-flex;align-items:center;gap:2px;
+    padding:2px;border-radius:6px;background:rgba(0,0,0,0.04);
+  }
+  [data-theme="dark"] .title-mode-switch{background:rgba(255,255,255,0.05)}
+  .tm-btn{
+    border:none;background:transparent;color:var(--text-sub);
+    font-size:11px;font-weight:500;font-family:inherit;
+    padding:4px 10px;border-radius:4px;cursor:pointer;
+    transition:all .15s;line-height:1;
+  }
+  .tm-btn:hover{color:var(--text)}
+  .tm-btn.active{background:var(--accent);color:#fff;font-weight:600}
+  [data-theme="dark"] .tm-btn.active{background:var(--accent);color:#fff}
+  .news-list{display:flex;flex-direction:column;gap:10px}
+  .news-card{
+    background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);
+    padding:14px 16px;box-shadow:var(--shadow);
+    transition:box-shadow .2s, transform .15s, border-color .2s;
+    cursor:pointer;position:relative;
+  }
+  .news-card:hover{box-shadow:var(--shadow-hover);transform:translateY(-1px);border-color:var(--accent-light)}
+  .news-card.unread::before{
+    content:"";position:absolute;left:0;top:14px;bottom:14px;width:3px;
+    background:var(--accent);border-radius:0 2px 2px 0;
+  }
+  .news-top{display:flex;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap}
+  .vendor-tag{
+    display:inline-flex;align-items:center;gap:4px;
+    padding:2px 8px;border-radius:4px;font-size:10px;font-weight:600;color:#fff;
+  }
+  .cat-tag{
+    padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;
+    background:#eef0f5;color:var(--text-sub);
+  }
+  .cat-tag.Release{background:#e7f3ff;color:var(--accent)}
+  .cat-tag.Funding{background:#fff4e6;color:var(--orange)}
+  .cat-tag.Research{background:#f0eaff;color:var(--purple)}
+  .cat-tag.Safety{background:#ffe9ec;color:var(--red)}
+  .cat-tag.Product{background:#e6faf4;color:var(--teal)}
+  .cat-tag.Agent{background:#fff9e6;color:#a08400}
+  .news-time{font-size:10px;color:var(--text-dim);margin-left:auto}
+  .news-title{font-size:14px;font-weight:600;line-height:1.4;margin-bottom:6px;color:var(--text)}
+  .news-title a{color:inherit;text-decoration:none}
+  .news-card:hover .news-title{color:var(--accent)}
+  .news-title-en{font-size:11px;color:var(--text-dim);font-weight:400;margin-top:2px;line-height:1.3}
+  [data-theme="dark"] .news-title-en{color:var(--text-dim)}
+  .news-summary{font-size:12px;line-height:1.6;color:var(--text-sub)}
+  .news-summary b{color:var(--text);font-weight:600}
+  .news-foot{display:flex;align-items:center;gap:12px;margin-top:8px}
+  .news-source{font-size:10px;color:var(--text-dim)}
+  .news-source a{color:var(--accent);text-decoration:none}
+  /* 时间筛选按钮 */
+  .time-filter{display:inline-flex;align-items:center;gap:2px;padding:2px;border-radius:6px;background:rgba(0,0,0,0.04)}
+  [data-theme="dark"] .time-filter{background:rgba(255,255,255,0.05)}
+  .tf-btn{border:none;background:transparent;color:var(--text-sub);font-size:11px;font-weight:500;font-family:inherit;padding:4px 10px;border-radius:4px;cursor:pointer;transition:all .15s;line-height:1}
+  .tf-btn:hover{color:var(--text)}
+  .tf-btn.active{background:var(--accent);color:#fff;font-weight:600}
+  /* 收藏星标 */
+  .bookmark-btn{border:none;background:transparent;cursor:pointer;font-size:14px;color:var(--text-dim);padding:2px 4px;border-radius:4px;transition:all .15s;line-height:1}
+  .bookmark-btn:hover{color:var(--orange);transform:scale(1.15)}
+  .bookmark-btn.active{color:var(--orange)}
+  .news-foot .bookmark-btn{margin-left:auto}
+  /* 已收藏/已读筛选 */
+  .filter-item{display:flex;align-items:center;gap:8px;padding:6px 8px;border-radius:6px;cursor:pointer;font-size:12px;color:var(--text-sub);transition:background .15s}
+  .filter-item:hover{background:rgba(0,103,192,0.06)}
+  [data-theme="dark"] .filter-item:hover{background:rgba(255,255,255,0.05)}
+  .filter-item.active{background:rgba(0,103,192,0.1);color:var(--accent);font-weight:600}
+  [data-theme="dark"] .filter-item.active{background:rgba(77,171,247,0.15);color:var(--accent-light)}
+  .filter-item .icon{font-size:14px}
+  .filter-item .count{margin-left:auto;font-size:10px;color:var(--text-dim)}
+  .impact{
+    display:inline-flex;align-items:center;gap:3px;font-size:10px;font-weight:600;
+    padding:2px 6px;border-radius:4px;
+  }
+  .impact.high{background:#ffe9ec;color:var(--red)}
+  .impact.med{background:#fff4e6;color:var(--orange)}
+  .impact.low{background:#e6faf4;color:var(--teal)}
+  .score-badge{
+    display:inline-flex;align-items:center;gap:2px;font-size:10px;font-weight:700;
+    padding:2px 6px;border-radius:4px;cursor:default;
+  }
+  .score-badge.score-s{background:#ffe9ec;color:var(--red)}
+  .score-badge.score-h{background:#fff0f3;color:var(--red)}
+  .score-badge.score-m{background:#fff4e6;color:var(--orange)}
+  .score-badge.score-l{background:#e6faf4;color:var(--teal)}
+  .score-badge.score-n{background:#f0f0f5;color:var(--text-dim)}
+  .score-badge .score-num{font-size:9px;opacity:0.8;margin-left:2px}
+  .sort-switch{display:flex;gap:2px;background:var(--bg);border-radius:var(--radius-sm);padding:2px}
+  .sort-btn{padding:4px 10px;border:none;border-radius:4px;background:transparent;color:var(--text-sub);font-size:11px;cursor:pointer;transition:all .15s}
+  .sort-btn.active{background:var(--accent);color:#fff;font-weight:600}
+  .sort-btn:hover:not(.active){background:var(--border)}
+  .skeleton{
+    background:linear-gradient(90deg,#f0f0f5 25%,#e5e5f0 50%,#f0f0f5 75%);
+    background-size:200% 100%;animation:shimmer 1.5s infinite;
+    border-radius:4px;
+  }
+  @keyframes shimmer{to{background-position:-200% 0}}
+  .skel-card{padding:14px 16px;border:1px solid var(--border);border-radius:var(--radius);margin-bottom:10px}
+  .skel-title{height:16px;width:70%;margin-bottom:8px}
+  .skel-sum{height:12px;width:100%;margin-bottom:4px}
+  .skel-sum2{height:12px;width:85%}
+  /* 暗色模式：skeleton / cat-tag / impact 适配 */
+  [data-theme="dark"] .skeleton{
+    background:linear-gradient(90deg,#2a2a45 25%,#3a3a55 50%,#2a2a45 75%);
+    background-size:200% 100%;
+  }
+  [data-theme="dark"] .cat-tag{background:#2a2a45;color:var(--text-sub)}
+  [data-theme="dark"] .cat-tag.Release{background:#19314a;color:var(--accent)}
+  [data-theme="dark"] .cat-tag.Funding{background:#3a2a14;color:var(--orange)}
+  [data-theme="dark"] .cat-tag.Research{background:#2e2440;color:var(--purple)}
+  [data-theme="dark"] .cat-tag.Safety{background:#3a1f24;color:var(--red)}
+  [data-theme="dark"] .cat-tag.Product{background:#143830;color:var(--teal)}
+  [data-theme="dark"] .cat-tag.Agent{background:#3a3414;color:#c9a83a}
+  [data-theme="dark"] .impact.high{background:#3a1f24;color:var(--red)}
+  [data-theme="dark"] .impact.med{background:#3a2a14;color:var(--orange)}
+  [data-theme="dark"] .impact.low{background:#143830;color:var(--teal)}
+  [data-theme="dark"] .score-badge.score-s{background:#3a1f24;color:var(--red)}
+  [data-theme="dark"] .score-badge.score-h{background:#3a1f24;color:var(--red)}
+  [data-theme="dark"] .score-badge.score-m{background:#3a2a14;color:var(--orange)}
+  [data-theme="dark"] .score-badge.score-l{background:#143830;color:var(--teal)}
+  [data-theme="dark"] .score-badge.score-n{background:#2a2a45;color:var(--text-dim)}
+  [data-theme="dark"] .sort-btn:hover:not(.active){background:var(--border-strong)}
+  [data-theme="dark"] .trend-tag{background:#2a2a45;color:var(--text-sub)}
+
+  /* ===== Right Panel ===== */
+  .trend-list{display:flex;flex-wrap:wrap;gap:6px}
+  .trend-tag{
+    padding:4px 10px;border-radius:14px;font-size:11px;font-weight:500;
+    background:#eef0f5;color:var(--text-sub);cursor:pointer;transition:all .15s;
+  }
+  .trend-tag:hover{background:var(--accent);color:#fff}
+  .trend-tag .n{font-size:9px;opacity:.7;margin-left:3px}
+  #chartTrend{height:160px}
+  #chartScore{height:180px}
+  #chartVendor{height:220px}
+  .stat-row{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid var(--border);font-size:12px}
+  .stat-row:last-child{border-bottom:none}
+  .stat-row .k{color:var(--text-sub)}
+  .stat-row .v{font-weight:700;color:var(--accent)}
+
+  /* ===== Footer ===== */
+  .footer{
+    max-width:1640px;margin:0 auto;padding:20px 24px;
+    border-top:1px solid var(--border);
+    display:flex;justify-content:space-between;align-items:center;
+    font-size:11px;color:var(--text-dim);flex-wrap:wrap;gap:8px;
+  }
+  .footer a{color:var(--accent);text-decoration:none}
+
+  /* ===== Toast ===== */
+  .toast{
+    position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(100px);
+    background:var(--text);color:#fff;padding:10px 20px;border-radius:var(--radius-sm);
+    font-size:13px;box-shadow:0 8px 24px rgba(0,0,0,0.2);
+    transition:transform .3s;z-index:1000;
+  }
+  .toast.show{transform:translateX(-50%) translateY(0)}
+
+  /* ===== Responsive ===== */
+  @media (max-width:760px){
+    .header-inner{padding:10px 14px;flex-wrap:wrap}
+    .header-search{order:3;max-width:none;flex-basis:100%}
+    .header-stats{gap:10px}
+    .hstat .n{font-size:15px}
+    .tabs{padding:8px 14px 0}
+    .main{padding:12px 14px 30px}
+    .news-card{padding:12px}
+    .news-title{font-size:13px}
+  }
+
+  /* ===== Article Modal ===== */
+  .article-modal{
+    position:fixed;top:0;left:0;right:0;bottom:0;z-index:9999;
+    pointer-events:none;visibility:hidden;
+    transition:visibility 0s .35s;
+  }
+  .article-modal.open{
+    pointer-events:auto;visibility:visible;
+    transition:visibility 0s 0s;
+  }
+  .article-modal-backdrop{
+    position:absolute;top:0;left:0;right:0;bottom:0;
+    background:rgba(0,0,0,0.45);
+    opacity:0;transition:opacity .3s ease;
+  }
+  .article-modal.open .article-modal-backdrop{opacity:1}
+  .article-modal-container{
+    position:absolute;top:0;right:0;bottom:0;
+    width:var(--modal-w,min(680px,100vw));min-width:400px;max-width:90vw;
+    background:#fff;box-shadow:-8px 0 40px rgba(0,0,0,0.15);
+    transform:translateX(100%);transition:transform .35s cubic-bezier(.4,0,.2,1);
+    display:flex;flex-direction:column;overflow:hidden;
+  }
+  .modal-resizer{
+    position:absolute;left:0;top:0;bottom:0;width:10px;cursor:col-resize;z-index:100;
+    background:transparent;transition:background .2s;
+  }
+  .modal-resizer:hover,.modal-resizer.dragging{background:var(--accent)}
+  .article-modal.open .article-modal-container{transform:translateX(0)}
+  .article-modal-header{
+    padding:20px 28px 16px;border-bottom:1px solid var(--border);
+    background:#fff;flex-shrink:0;
+  }
+  .modal-header-inner{max-width:100%}
+  .modal-back-btn{
+    display:inline-flex;align-items:center;gap:6px;
+    padding:6px 14px;border:1px solid var(--border);border-radius:var(--radius-sm);
+    background:var(--bg2);font-size:12px;font-weight:500;color:var(--text-sub);
+    cursor:pointer;font-family:inherit;transition:all .15s;margin-bottom:14px;
+  }
+  .modal-back-btn:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .modal-meta{
+    display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px;
+  }
+  .modal-title{
+    font-size:20px;font-weight:700;line-height:1.4;color:var(--text);
+    margin-bottom:6px;
+  }
+  .modal-subtitle{font-size:12px;color:var(--text-dim)}
+  .article-modal-body{
+    flex:1;overflow-y:auto;padding:28px;
+    scrollbar-width:thin;scrollbar-color:#d0d0de transparent;
+  }
+  .article-modal-body::-webkit-scrollbar{width:6px}
+  .article-modal-body::-webkit-scrollbar-thumb{background:#d0d0de;border-radius:3px}
+  .article-modal-loading{
+    max-width:640px;margin:0 auto;
+  }
+  .article-modal-loading .skel-block{
+    margin-bottom:16px;
+  }
+  .article-modal-loading .skel-h1{height:24px;width:60%;margin-bottom:20px}
+  .article-modal-loading .skel-h2{height:18px;width:40%;margin-bottom:12px}
+  .article-modal-loading .skel-p{height:14px;width:100%;margin-bottom:8px}
+  .article-modal-loading .skel-p-short{height:14px;width:75%;margin-bottom:8px}
+  .article-modal-loading .skel-li{height:14px;width:90%;margin-bottom:10px;padding-left:12px}
+  .article-modal-loading .skel-divider{height:1px;background:var(--border);margin:24px 0}
+  .article-modal-content{
+    max-width:640px;margin:0 auto;font-size:15px;line-height:1.8;color:var(--text);
+  }
+  .article-modal-content h2.summary-heading{
+    font-size:16px;font-weight:700;color:var(--text);margin-bottom:12px;
+    padding-bottom:8px;
+    display:flex;align-items:center;gap:6px;
+  }
+  .article-modal-content .summary-section{margin-bottom:28px}
+  .article-modal-content .summary-text{
+    font-size:15px;line-height:1.8;color:#3a3a4a;
+  }
+  .article-modal-content .summary-points{
+    list-style:none;padding:0;margin:0;
+  }
+  .article-modal-content .summary-points li{
+    position:relative;padding:8px 0 8px 20px;font-size:14px;line-height:1.7;color:#3a3a4a;
+    border-bottom:1px solid #f0f0f5;
+  }
+  .article-modal-content .summary-points li:last-child{border-bottom:none}
+  .article-modal-content .summary-points li::before{
+    content:"";position:absolute;left:0;top:16px;width:8px;height:8px;
+    border-radius:50%;background:var(--accent);
+  }
+  .article-modal-content .summary-vendor{
+    display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+  }
+  .article-modal-content .vendor-badge{
+    display:inline-flex;align-items:center;gap:4px;
+    padding:6px 14px;border-radius:6px;font-size:13px;font-weight:600;color:#fff;
+  }
+  .article-modal-content .vendor-type{font-size:13px;color:var(--text-sub)}
+  .article-modal-content .article-text{
+    font-size:15px;line-height:1.8;color:#3a3a4a;margin-bottom:12px;
+  }
+  .article-modal-content .ai-fallback-note{
+    display:inline-block;padding:8px 14px;border-radius:var(--radius-sm);
+    background:#fff4e6;color:var(--orange);font-size:12px;margin-top:12px;
+  }
+  .article-modal-content .summary-disclaimer{
+    margin-top:32px;padding:14px 16px;border-radius:var(--radius-sm);
+    background:#f5f7fa;font-size:12px;line-height:1.6;color:var(--text-dim);
+  }
+  .article-modal-content .summary-disclaimer a{color:var(--accent);text-decoration:none}
+  .article-modal-content .summary-disclaimer a:hover{text-decoration:underline}
+  .article-modal-footer{
+    padding:16px 28px;border-top:1px solid var(--border);
+    background:#fff;flex-shrink:0;display:none;gap:12px;align-items:center;
+    justify-content:center;
+  }
+  .article-original-link{
+    display:inline-flex;align-items:center;gap:6px;
+    padding:10px 24px;border-radius:var(--radius-sm);
+    background:var(--accent-grad);color:#fff;font-size:14px;font-weight:600;
+    text-decoration:none;transition:all .2s;box-shadow:0 2px 8px rgba(0,103,192,0.25);
+  }
+  .article-original-link:hover{
+    transform:translateY(-1px);box-shadow:0 4px 16px rgba(0,103,192,0.35);
+    color:#fff;text-decoration:none;
+  }
+
+  /* 增强摘要正文样式 */
+  .article-modal-content p.summary-text {
+    margin-bottom: 16px;
+  }
+  .article-modal-content p.summary-text:last-child {
+    margin-bottom: 0;
+  }
+  .article-modal-content blockquote.summary-quote {
+    margin: 16px 0;
+    padding: 14px 18px;
+    border-left: 4px solid var(--accent-light);
+    background: #f8fafc;
+    border-radius: 0 8px 8px 0;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #4a4a5a;
+    font-style: italic;
+  }
+  .article-modal-content .summary-points li strong {
+    color: var(--accent-dark);
+    font-weight: 600;
+  }
+  .article-modal-content .info-card {
+    margin: 16px 0;
+    padding: 14px 16px;
+    border-radius: 8px;
+    background: #e7f3ff;
+    border: 1px solid #cce5ff;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #1a3a5c;
+  }
+  .article-modal-content .info-card.warn {
+    background: #fff4e6;
+    border-color: #ffd8a8;
+    color: #5c3a1a;
+  }
+  .article-modal-content .info-card.tip {
+    background: #e6faf4;
+    border-color: #a8f0d8;
+    color: #1a5c3a;
+  }
+  .article-modal-content b,
+  .article-modal-content strong {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  /* ===== Dark mode: Article Modal 适配 ===== */
+  [data-theme="dark"] .article-modal-container{background:var(--bg2);box-shadow:-8px 0 40px rgba(0,0,0,0.5)}
+  [data-theme="dark"] .modal-resizer:hover,[data-theme="dark"] .modal-resizer.dragging{background:var(--accent-light)}
+  [data-theme="dark"] .article-modal-header{background:var(--bg2)}
+  [data-theme="dark"] .article-modal-body{scrollbar-color:var(--border-strong) transparent}
+  [data-theme="dark"] .article-modal-body::-webkit-scrollbar-thumb{background:var(--border-strong)}
+  [data-theme="dark"] .article-modal-content .summary-text{color:#c0c0d0}
+  [data-theme="dark"] .article-modal-content .summary-points li{color:#c0c0d0;border-bottom:1px solid #2a2a45}
+  [data-theme="dark"] .article-modal-content .article-text{color:#c0c0d0}
+  [data-theme="dark"] .article-modal-content blockquote.summary-quote{background:#1e1e3a;color:#b0b0c0;border-left-color:var(--accent-light)}
+  [data-theme="dark"] .article-modal-content .info-card{background:#1a2a4a;border:1px solid #2a4a6a;color:#c0d0e0}
+  [data-theme="dark"] .article-modal-content .info-card.warn{background:#3a2a14;border-color:#5a4a24;color:#e0c890}
+  [data-theme="dark"] .article-modal-content .info-card.tip{background:#143830;border-color:#2a5a44;color:#90e0c0}
+  [data-theme="dark"] .article-modal-content .summary-disclaimer{background:#1e1e3a;color:var(--text-dim)}
+  [data-theme="dark"] .article-modal-footer{background:var(--bg2)}
+  [data-theme="dark"] .modal-back-btn{background:var(--bg-card)}
+
+  /* ===== Modal Responsive ===== */
+  @media (max-width:760px){
+    .article-modal-container{
+      width:100vw;right:0;
+    }
+    .article-modal-header{padding:16px 18px 12px}
+    .modal-title{font-size:17px}
+    .article-modal-body{padding:18px}
+    .article-modal-footer{padding:14px 18px}
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="header acrylic">
+  <div class="header-inner">
+    <div class="logo">
+      <div class="logo-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.2L19.5 8 12 11.8 4.5 8 12 4.2zM4 9.3l7 3.5v7.4l-7-3.5V9.3zm9 10.9v-7.4l7-3.5v7.4l-7 3.5z"/></svg>
+      </div>
+      <div>
+        <div class="logo-text">AI <b>Pulse</b></div>
+        <div class="logo-sub">前沿资讯中心 · v1.0</div>
+      </div>
+    </div>
+    <div class="header-search">
+      <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0A4.5 4.5 0 1 1 14 9.5 4.5 4.5 0 0 1 9.5 14z"/></svg>
+      <input id="searchInput" placeholder="搜索新闻、厂商、关键词…" />
+    </div>
+    <div class="header-stats">
+      <div class="hstat"><span class="n" id="statTotal">0</span><span class="l">总资讯</span></div>
+      <div class="hstat"><span class="n" id="statToday">0</span><span class="l">今日</span></div>
+      <div class="hstat"><span class="n" id="statSources">0</span><span class="l">数据源</span></div>
+    </div>
+    <button class="refresh-btn" id="refreshBtn">
+      <svg viewBox="0 0 24 24"><path d="M17.65 6.35A7.958 7.958 0 0 0 12 4a8 8 0 1 0 7.74 10h-2.08A6 6 0 1 1 12 6a5.94 5.94 0 0 1 4.22 1.78L13 11h7V4l-2.35 2.35z"/></svg>
+      <span>刷新</span>
+    </button>
+    <button class="theme-btn" id="themeBtn" title="切换主题">
+      <svg viewBox="0 0 24 24" class="icon-sun"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58a.996.996 0 0 0-1.41 0 .996.996 0 0 0 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37a.996.996 0 0 0-1.41 0 .996.996 0 0 0 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0a.996.996 0 0 0 0-1.41l-1.06-1.06zm1.06-10.96a.996.996 0 0 0 0-1.41.996.996 0 0 0-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36a.996.996 0 0 0 0-1.41.996.996 0 0 0-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"/></svg>
+      <svg viewBox="0 0 24 24" class="icon-moon"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- ===== TABS ===== -->
+<nav class="tabs" id="tabs">
+  <div class="tab active" data-cat="all">全部 <span class="badge" id="badge-all">0</span></div>
+  <div class="tab" data-cat="Release">发布</div>
+  <div class="tab" data-cat="Product">产品</div>
+  <div class="tab" data-cat="Research">研究</div>
+  <div class="tab" data-cat="Funding">融资</div>
+  <div class="tab" data-cat="Agent">Agent</div>
+  <div class="tab" data-cat="Safety">安全</div>
+</nav>
+
+<!-- ===== MAIN ===== -->
+<div class="main">
+<div class="grid">
+
+  <!-- LEFT: 厂商筛选 -->
+  <aside class="left-panel">
+    <div class="card">
+      <div class="card-head"><div class="card-title">厂商追踪</div></div>
+      <div class="card-body">
+        <div class="vendor-list" id="vendorList"></div>
+        <div style="margin-top:16px;padding-top:12px;border-top:1px solid var(--border)">
+          <div class="card-title" style="margin-bottom:8px">分类筛选</div>
+          <div class="cat-list" id="catList"></div>
+        </div>
+        <div style="margin-top:16px;padding-top:12px;border-top:1px solid var(--border)">
+          <div class="card-title" style="margin-bottom:8px">快捷筛选</div>
+          <div id="specialFilterList">
+            <div class="filter-item ${STATE.filterSpecial==='bookmarked'?'active':''}" data-special="bookmarked">
+              <span class="icon">★</span><span>已收藏</span><span class="count" id="bmCount">0</span>
+            </div>
+            <div class="filter-item ${STATE.filterSpecial==='read'?'active':''}" data-special="read">
+              <span class="icon">✓</span><span>已读</span><span class="count" id="readCount">0</span>
+            </div>
+            <div class="filter-item ${STATE.filterSpecial==='unread'?'active':''}" data-special="unread">
+              <span class="icon">○</span><span>未读</span><span class="count" id="unreadCount">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- CENTER: 资讯流 -->
+  <section>
+    <div class="feed-head">
+      <div>
+        <div class="feed-title" id="feedTitle">全部资讯</div>
+        <div class="feed-meta" id="feedMeta">加载中…</div>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+        <div class="time-filter">
+          <button class="tf-btn active" data-time="all">全部</button>
+          <button class="tf-btn" data-time="24h">24小时</button>
+          <button class="tf-btn" data-time="7d">7天</button>
+        </div>
+        <div class="title-mode-switch">
+          <button class="tm-btn" data-mode="zh">译文</button>
+          <button class="tm-btn" data-mode="bi">双语</button>
+          <button class="tm-btn" data-mode="en">原文</button>
+        </div>
+        <div class="sort-switch">
+          <button class="sort-btn active" data-sort="time">时间</button>
+          <button class="sort-btn" data-sort="score">评分</button>
+        </div>
+      </div>
+    </div>
+    <div class="news-list" id="newsList">
+      <div class="skel-card"><div class="skeleton skel-title"></div><div class="skeleton skel-sum"></div><div class="skeleton skel-sum2"></div></div>
+      <div class="skel-card"><div class="skeleton skel-title"></div><div class="skeleton skel-sum"></div><div class="skeleton skel-sum2"></div></div>
+      <div class="skel-card"><div class="skeleton skel-title"></div><div class="skeleton skel-sum"></div><div class="skeleton skel-sum2"></div></div>
+    </div>
+  </section>
+
+  <div class="resizer" id="panelResizer"></div>
+
+  <!-- RIGHT: 趋势 + 统计 -->
+  <aside class="right-panel" id="rightPanel">
+    <div class="card">
+      <div class="card-head"><div class="card-title">7日趋势</div></div>
+      <div class="card-body">
+        <div id="chartTrend"></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-head"><div class="card-title">AI 评分分布</div></div>
+      <div class="card-body">
+        <div id="chartScore"></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-head"><div class="card-title">厂商活跃度</div></div>
+      <div class="card-body">
+        <div id="chartVendor"></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-head"><div class="card-title">热门关键词</div></div>
+      <div class="card-body">
+        <div class="trend-list" id="trendList"></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-head"><div class="card-title">数据统计</div></div>
+      <div class="card-body" id="statBox"></div>
+    </div>
+  </aside>
+
+</div>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <span>AI Pulse · 数据来源：OpenAI / Anthropic / Google DeepMind / Hugging Face / arXiv / Google News 聚合</span>
+  <span>最后更新：<span id="lastUpdate">--</span></span>
+</footer>
+
+<!-- ===== Article Modal ===== -->
+<div class="article-modal" id="articleModal">
+  <div class="article-modal-backdrop" id="modalBackdrop"></div>
+  <div class="article-modal-container" id="modalContainer">
+    <div class="modal-resizer" id="modalResizer"></div>
+    <div class="article-modal-header" id="modalHeader">
+      <!-- 动态填充 -->
+    </div>
+    <div class="article-modal-body">
+      <div class="article-modal-loading" id="modalLoading">
+        <div class="skeleton skel-h1"></div>
+        <div class="skel-divider"></div>
+        <div class="skeleton skel-h2"></div>
+        <div class="skeleton skel-p"></div>
+        <div class="skeleton skel-p"></div>
+        <div class="skeleton skel-p-short"></div>
+        <div class="skel-divider"></div>
+        <div class="skeleton skel-h2"></div>
+        <div class="skeleton skel-li"></div>
+        <div class="skeleton skel-li"></div>
+        <div class="skeleton skel-li"></div>
+        <div class="skeleton skel-li"></div>
+        <div class="skel-divider"></div>
+        <div class="skeleton skel-h2"></div>
+        <div class="skeleton skel-p"></div>
+        <div class="skeleton skel-p-short"></div>
+      </div>
+      <div class="article-modal-content" id="modalContent">
+        <!-- AI 生成的摘要内容 -->
+      </div>
+    </div>
+    <div class="article-modal-footer" id="modalFooter">
+      <a class="article-original-link" id="originalLink" href="#" target="_blank" rel="noopener">
+        阅读原文 →
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+/* ============================================================
+   AI Pulse — 前沿资讯中心
+   多源 RSS 聚合 · 微软 Fluent Design 风格
+   ============================================================ */
+const $ = id => document.getElementById(id);
+
+/* ---------- 多代理 fallback（增加更多代理 + 并行竞速） ---------- */
+const PROXIES = [
+  u => `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(u)}`,
+  u => `https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`,
+  u => `https://corsproxy.io/?url=${encodeURIComponent(u)}`,
+  u => `https://api.codetabs.com/v1/proxy/?quest=${encodeURIComponent(u)}`,
+];
+const PROXY_TIMEOUT = 8000;  // 单代理超时 8 秒（原 15 秒）
+const RSS_CACHE_TTL = 10 * 60 * 1000;  // RSS 数据缓存 10 分钟
+
+/* ---------- 预生成 JSON 数据源配置 ---------- */
+// 将此占位符替换为你的 GitHub 用户名，例如 'https://yourname.github.io/ai-pulse/news.json'
+const JSON_DATA_URL = 'https://hujiehg.github.io/ai-pulse/news.json';
+// 如果 JSON 文件更新时间超过 30 分钟，认为过期，触发实时抓取
+const JSON_MAX_AGE = 30 * 60 * 1000;
+
+/* ---------- 厂商配置 ---------- */
+const VENDORS = [
+  { key:'openai',   name:'OpenAI',     color:'#10a37f', rss:'https://openai.com/news/rss.xml', init:'OA' },
+  { key:'anthropic',name:'Anthropic',  color:'#c96442', rss:'https://www.anthropic.com/news.xml', init:'AN' },
+  { key:'google',   name:'Google AI',  color:'#4285f4', rss:'https://blog.google/technology/ai/rss/', init:'G' },
+  { key:'huggingface',name:'HuggingFace',color:'#ff9d00',rss:'https://huggingface.co/blog/feed.xml', init:'HF' },
+  { key:'deepmind', name:'DeepMind',   color:'#00897b', rss:'https://deepmind.google/blog/rss.xml', init:'DM' },
+  { key:'kimi',     name:'Kimi',       color:'#7c3aed', rss:null, init:'K' },
+  { key:'qwen',     name:'Qwen',       color:'#615ced', rss:null, init:'Q' },
+  { key:'deepseek', name:'DeepSeek',   color:'#1e40af', rss:null, init:'DS' },
+  // 新增数据源（Phase 3）
+  { key:'arxiv',    name:'arXiv',      color:'#b31b1b', rss:'https://rss.arxiv.org/rss/cs.AI', init:'AX' },
+  { key:'nvidia',   name:'NVIDIA',     color:'#76b900', rss:'https://blogs.nvidia.com/blog/tag/artificial-intelligence/feed/', init:'NV' },
+  { key:'microsoft',name:'Microsoft',  color:'#0078d4', rss:'https://news.microsoft.com/en-in/tag/machine-learning/feed/', init:'MS' },
+  { key:'techcrunch',name:'TechCrunch',color:'#0a9e01', rss:'https://techcrunch.com/category/artificial-intelligence/feed/', init:'TC' },
+  { key:'venturebeat',name:'VentureBeat',color:'#ed1c24',rss:'https://venturebeat.com/category/ai/feed/', init:'VB' },
+  // 新增数据源（Phase 4）
+  { key:'hackernews',name:'HackerNews',color:'#ff6600', rss:'https://hnrss.org/frontpage?q=ai+OR+llm+OR+gpt+OR+claude+OR+gemini+OR+openai+OR+anthropic+OR+deepseek+OR+transformer', init:'HN' },
+  { key:'reddit_ml', name:'Reddit ML',  color:'#ff4500', rss:'https://www.reddit.com/r/MachineLearning/hot.rss', init:'RM' },
+  { key:'devto',    name:'Dev.to AI',  color:'#6366f1', rss:'https://dev.to/feed/tag/ai', init:'DV' },
+  { key:'arxiv_cl', name:'arXiv CL',   color:'#b31b1b', rss:'https://rss.arxiv.org/rss/cs.CL', init:'CL' },
+  { key:'arxiv_cv', name:'arXiv CV',   color:'#b31b1b', rss:'https://rss.arxiv.org/rss/cs.CV', init:'CV' },
+  { key:'jiqizhixin',name:'机器之心',  color:'#e60012', rss:null, init:'JZ' },
+  { key:'liangziwei',name:'量子位',    color:'#00a0e9', rss:null, init:'LZ' },
+];
+const VENDOR_MAP = {};
+VENDORS.forEach(v=>VENDOR_MAP[v.key]=v);
+
+/* ---------- 分类关键词 ---------- */
+const CAT_KEYWORDS = {
+  Release: ['launch','release','announce','introducing','unveil','发布','推出','上线','available now'],
+  Product: ['api','feature','update','app','chatgpt','claude','gemini','product','integration','功能','更新'],
+  Research: ['paper','research','study','benchmark','论文','研究','arxiv','model'],
+  Funding: ['funding','raise','investment','series','valuation','融资','估值','投资','ipo'],
+  Agent: ['agent','agentic','tool use','autonomous','智能体','代理'],
+  Safety: ['safety','alignment','security','risk','jailbreak','安全','对齐','风险'],
+};
+
+/* ---------- 状态 ---------- */
+const STATE = {
+  news: [],          // 所有新闻 {id,title,summary,link,pubDate,vendor,category,impact,source,read}
+  filterVendor: 'all',
+  filterCat: 'all',
+  filterTime: 'all',     // all / 24h / 7d
+  filterSpecial: 'all',  // all / bookmarked / read
+  searchQuery: '',
+  sortBy: 'time',        // time / score
+  lastUpdate: null,
+  sourcesLoaded: 0,
+  titleMode: localStorage.getItem('ai_pulse_title_mode') || 'zh',  // 标题显示模式：zh(译文) / bi(双语) / en(原文)
+  bookmarks: JSON.parse(localStorage.getItem('ai_pulse_bookmarks') || '[]'),  // 收藏的新闻 ID 列表
+  readHistory: JSON.parse(localStorage.getItem('ai_pulse_read_history') || '[]'),  // 已读新闻 ID 列表
+};
+
+/* ---------- 翻译缓存与限流 ---------- */
+const TRANSLATION_CACHE = JSON.parse(localStorage.getItem('ai_pulse_trans_cache') || '{}');
+const TRANSLATION_QUEUE = new Set();
+let TRANSLATION_IN_FLIGHT = 0;
+const MAX_CONCURRENT_TRANSLATIONS = 6;  // 并发翻译数（原 3）
+
+/* 增强备用词典（AI领域专业术语 + 常用词汇） */
+const FALLBACK_DICT = {
+  // 厂商/产品名
+  'openai': 'OpenAI', 'anthropic': 'Anthropic', 'google': '谷歌', 'deepmind': 'DeepMind',
+  'huggingface': 'Hugging Face', 'kimi': 'Kimi', 'qwen': '通义千问', 'deepseek': 'DeepSeek',
+  'chatgpt': 'ChatGPT', 'gpt-4': 'GPT-4', 'gpt-3': 'GPT-3', 'gpt-5': 'GPT-5', 'gpt-4o': 'GPT-4o',
+  'claude': 'Claude', 'gemini': 'Gemini', 'llama': 'Llama', 'mistral': 'Mistral', 'groq': 'Groq',
+  'moonshot': '月之暗面', 'alibaba': '阿里巴巴', 'baidu': '百度', 'bytedance': '字节跳动',
+  'meta': 'Meta', 'microsoft': '微软', 'nvidia': '英伟达', 'apple': '苹果',
+  // 核心AI概念
+  'artificial intelligence': '人工智能', 'ai model': 'AI 模型', 'large language model': '大语言模型',
+  'machine learning': '机器学习', 'deep learning': '深度学习', 'neural network': '神经网络',
+  'generative ai': '生成式 AI', 'foundation model': '基础模型', 'open source': '开源',
+  'reinforcement learning': '强化学习', 'supervised learning': '监督学习', 'unsupervised learning': '无监督学习',
+  'transfer learning': '迁移学习', 'few-shot learning': '小样本学习', 'zero-shot': '零样本',
+  'natural language processing': '自然语言处理', 'computer vision': '计算机视觉',
+  'speech recognition': '语音识别', 'text-to-speech': '文本转语音', 'text-to-image': '文本转图像',
+  // 模型架构/技术
+  'transformer': 'Transformer', 'attention mechanism': '注意力机制', 'self-attention': '自注意力',
+  'mixture of experts': '混合专家模型', 'moe': 'MoE', 'diffusion model': '扩散模型',
+  'gan': '生成对抗网络', 'vae': '变分自编码器', 'rag': '检索增强生成',
+  'prompt engineering': '提示工程', 'chain of thought': '思维链', 'function calling': '函数调用',
+  'tool use': '工具使用', 'code generation': '代码生成', 'context window': '上下文窗口',
+  'embedding': '嵌入向量', 'tokenization': '分词', 'fine-tuning': '微调', 'quantization': '量化',
+  'pruning': '剪枝', 'distillation': '知识蒸馏', 'inference': '推理', 'training': '训练',
+  'pre-training': '预训练', 'post-training': '后训练', 'rlhf': '人类反馈强化学习',
+  'constitutional ai': '宪法 AI', 'red teaming': '红队测试', 'jailbreak': '越狱',
+  // 数据/评测
+  'dataset': '数据集', 'benchmark': '基准测试', 'evaluation': '评估', 'metric': '指标',
+  'accuracy': '准确率', 'precision': '精确率', 'recall': '召回率', 'f1 score': 'F1 分数',
+  'bleu': 'BLEU', 'rouge': 'ROUGE', 'perplexity': '困惑度', 'hallucination': '幻觉',
+  'data augmentation': '数据增强', 'synthetic data': '合成数据', 'annotation': '标注',
+  // 部署/工程
+  'deployment': '部署', 'api': 'API', 'endpoint': '端点', 'latency': '延迟',
+  'throughput': '吞吐量', 'scalability': '可扩展性', 'availability': '可用性',
+  'cloud computing': '云计算', 'edge computing': '边缘计算', 'on-premise': '本地部署',
+  'gpu': 'GPU', 'tpu': 'TPU', 'compute': '算力', 'flops': '浮点运算',
+  // 应用/产品
+  'chatbot': '聊天机器人', 'virtual assistant': '虚拟助手', 'copilot': 'Copilot',
+  'code assistant': '代码助手', 'ai agent': 'AI 智能体', 'autonomous agent': '自主智能体',
+  'multimodal': '多模态', 'vision': '视觉', 'audio': '音频', 'video': '视频',
+  'plugin': '插件', 'extension': '扩展', 'integration': '集成', 'workflow': '工作流',
+  // 安全/伦理
+  'alignment': '对齐', 'safety': '安全', 'security': '安全性', 'privacy': '隐私',
+  'bias': '偏见', 'fairness': '公平性', 'transparency': '透明度', 'explainability': '可解释性',
+  'regulation': '监管', 'governance': '治理', 'ethics': '伦理', 'responsible ai': '负责任 AI',
+  // 商业/行业
+  'funding': '融资', 'investment': '投资', 'valuation': '估值', 'revenue': '收入',
+  'ipo': 'IPO', 'acquisition': '收购', 'merger': '合并', 'partnership': '合作',
+  'ecosystem': '生态', 'platform': '平台', 'developer': '开发者', 'enterprise': '企业',
+  'startup': '初创公司', 'unicorn': '独角兽', 'competitive': '竞争', 'market': '市场',
+  // 通用动词/名词
+  'launch': '发布', 'release': '发布', 'announce': '宣布', 'unveil': ' unveiled', 'introduce': '推出',
+  'update': '更新', 'upgrade': '升级', 'feature': '功能', 'capability': '能力',
+  'research': '研究', 'paper': '论文', 'study': '研究', 'report': '报告',
+  'breakthrough': '突破', 'innovation': '创新', 'advance': '进展', 'milestone': '里程碑',
+  'improve': '改进', 'enhance': '增强', 'optimize': '优化', 'accelerate': '加速',
+  'reduce': '减少', 'increase': '增加', 'expand': '扩展', 'support': '支持',
+  'enable': '使能够', 'allow': '允许', 'provide': '提供', 'offer': '提供',
+  'demonstrate': '展示', 'achieve': '实现', 'perform': '执行', 'generate': '生成',
+  'create': '创建', 'build': '构建', 'develop': '开发', 'design': '设计',
+  'claim': '声称', 'argue': '认为', 'suggest': '表明', 'show': '显示',
+  'new': '新', 'latest': '最新', 'recent': '最近', 'first': '首个',
+  'advanced': '先进', 'powerful': '强大', 'efficient': '高效', 'intelligent': '智能',
+  'billion': '十亿', 'million': '百万', 'trillion': '万亿',
+};
+
+async function translateText(text, from='en', to='zh') {
+  if (!text || typeof text !== 'string') return text;
+  const key = `${from}|${to}:${text}`;
+  if (TRANSLATION_CACHE[key]) return TRANSLATION_CACHE[key];
+
+  // 限流：如果正在进行中的翻译过多，直接返回原文占位
+  if (TRANSLATION_IN_FLIGHT >= MAX_CONCURRENT_TRANSLATIONS) {
+    return text + ' <span style="color:var(--text-dim);font-size:0.9em">(翻译中...)</span>';
+  }
+
+  TRANSLATION_IN_FLIGHT++;
+  try {
+    const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=${from}|${to}`;
+    const resp = await fetch(url, { signal: AbortSignal.timeout(8000) });
+    const data = await resp.json();
+    if (data && data.responseData && data.responseData.translatedText) {
+      const translated = data.responseData.translatedText;
+      // MyMemory 有时返回原文表示翻译失败
+      if (translated.toLowerCase() !== text.toLowerCase()) {
+        TRANSLATION_CACHE[key] = translated;
+        // 持久化缓存（限制大小）
+        try {
+          const keys = Object.keys(TRANSLATION_CACHE);
+          if (keys.length > 500) {
+            keys.slice(0, keys.length - 500).forEach(k => delete TRANSLATION_CACHE[k]);
+          }
+          localStorage.setItem('ai_pulse_trans_cache', JSON.stringify(TRANSLATION_CACHE));
+        } catch(e) {}
+        return translated;
+      }
+    }
+  } catch(e) {
+    console.warn('MyMemory translation failed:', e.message);
+  } finally {
+    TRANSLATION_IN_FLIGHT--;
+  }
+
+  // 备用：词典简单替换
+  let fallback = text;
+  for (const [en, zh] of Object.entries(FALLBACK_DICT)) {
+    const re = new RegExp(en.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
+    fallback = fallback.replace(re, zh);
+  }
+  TRANSLATION_CACHE[key] = fallback;
+  return fallback;
+}
+
+/* 批量翻译（用于新闻列表渲染后异步更新） */
+async function batchTranslateNews(list) {
+  let count = 0;
+  for (const n of list) {
+    if (count >= 8) break; // 每次渲染最多翻译8个新文本（原3个）
+    const titleKey = `en|zh:${n.title}`;
+    const sumKey = `en|zh:${n.summary}`;
+    const needsTitle = !TRANSLATION_CACHE[titleKey] && n.title && /^[\x00-\x7F]+$/.test(n.title);
+    const needsSum = !TRANSLATION_CACHE[sumKey] && n.summary && /^[\x00-\x7F]+$/.test(n.summary);
+
+    if (needsTitle) {
+      translateText(n.title).then(translated => {
+        if (translated) {
+          const el = document.querySelector(`.news-title[data-id="${n.id}"]`);
+          if (el) el.innerHTML = translated;
+          const mel = document.querySelector(`.modal-title[data-news-id="${n.id}"]`);
+          if (mel) mel.textContent = translated;
+        }
+      });
+      count++;
+    }
+    if (needsSum && count < 3) {
+      translateText(n.summary).then(translated => {
+        if (translated) {
+          const el = document.querySelector(`.news-summary[data-id="${n.id}"]`);
+          if (el) el.innerHTML = translated;
+        }
+      });
+      count++;
+    }
+  }
+}
+
+/* ---------- 工具函数 ---------- */
+function parseDate(str){
+  if(!str) return Date.now();
+  const d = new Date(str);
+  return isNaN(d) ? Date.now() : d.getTime();
+}
+function timeAgo(ts){
+  const diff = Date.now() - ts;
+  const m = Math.floor(diff/60000);
+  if(m<1) return '刚刚';
+  if(m<60) return m+'分钟前';
+  const h = Math.floor(m/60);
+  if(h<24) return h+'小时前';
+  const d = Math.floor(h/24);
+  if(d<7) return d+'天前';
+  return new Date(ts).toLocaleDateString('zh-CN');
+}
+function classify(title, desc){
+  const text = (title + ' ' + desc).toLowerCase();
+  let best = 'Product', bestScore = 0;
+  for(const [cat, kws] of Object.entries(CAT_KEYWORDS)){
+    let score = 0;
+    kws.forEach(k=>{ if(text.includes(k.toLowerCase())) score++; });
+    if(score > bestScore){ bestScore = score; best = cat; }
+  }
+  return best;
+}
+function detectVendor(title, desc, sourceUrl){
+  const text = (title + ' ' + desc).toLowerCase();
+  // 优先检测国产模型（避免被 Google/OpenAI 关键词抢占）
+  if(/kimi|moonshot|月之暗面/i.test(text)) return 'kimi';
+  if(/qwen|千问|通义/i.test(text)) return 'qwen';
+  if(/deepseek|深度求索/i.test(text)) return 'deepseek';
+  if(/机器之心|jiqizhixin/i.test(text)) return 'jiqizhixin';
+  if(/量子位|liangziwei|qwbit/i.test(text)) return 'liangziwei';
+  if(sourceUrl){
+    if(sourceUrl.includes('openai.com')) return 'openai';
+    if(sourceUrl.includes('anthropic.com')) return 'anthropic';
+    if(sourceUrl.includes('blog.google') || sourceUrl.includes('deepmind')) return 'google';
+    if(sourceUrl.includes('huggingface.co')) return 'huggingface';
+    if(sourceUrl.includes('arxiv.org')) return 'arxiv';
+    if(sourceUrl.includes('blogs.nvidia.com') || sourceUrl.includes('nvidia.com')) return 'nvidia';
+    if(sourceUrl.includes('microsoft.com')) return 'microsoft';
+    if(sourceUrl.includes('techcrunch.com')) return 'techcrunch';
+    if(sourceUrl.includes('venturebeat.com')) return 'venturebeat';
+    if(sourceUrl.includes('hnrss.org') || sourceUrl.includes('ycombinator')) return 'hackernews';
+    if(sourceUrl.includes('reddit.com')) return 'reddit_ml';
+    if(sourceUrl.includes('dev.to')) return 'devto';
+  }
+  if(/openai|gpt|chatgpt|sam altman/i.test(text)) return 'openai';
+  if(/anthropic|claude|sonnet|opus|haiku/i.test(text)) return 'anthropic';
+  if(/google|gemini|deepmind|bard/i.test(text)) return 'google';
+  if(/hugging|transformers|diffusers/i.test(text)) return 'huggingface';
+  if(/nvidia|cuda|tensorrt|omniverse/i.test(text)) return 'nvidia';
+  if(/microsoft|copilot|azure openai/i.test(text)) return 'microsoft';
+  if(/hacker.?news|hn\b/i.test(text) && !/hacker/.test(text.replace(/hacker.?news/i,''))) return 'hackernews';
+  if(/reddit|r\/(?:machinelearning|ml)/i.test(text)) return 'reddit_ml';
+  if(/dev\.to|devto/i.test(text)) return 'devto';
+  return 'other';
+}
+function assessImpact(title, desc, vendor){
+  const text = (title + ' ' + desc).toLowerCase();
+  let score = 0;
+  if(/launch|release|发布|推出|gpt-5|claude 5|gemini 3|kimi k|qwen[0-9]|deepseek v/i.test(text)) score += 2;
+  if(/funding|billion|融资|估值|ipo|acquisition|收购/i.test(text)) score += 2;
+  if(/safety|security|breach|jailbreak|leak|安全|泄露/i.test(text)) score += 1;
+  if(/api|developer|platform|开放/i.test(text)) score += 1;
+  if(vendor !== 'other') score += 1;
+  if(score >= 3) return 'high';
+  if(score >= 1) return 'med';
+  return 'low';
+}
+
+/* ---------- AI 智能评分系统 (0-100) ---------- */
+const SCORE_CATEGORY_WEIGHTS = { Release:25, Research:22, Funding:20, Product:15, Agent:12, Safety:10 };
+const SCORE_SOURCE_TRUST = {
+  openai:15, anthropic:15, google:15, deepmind:15, huggingface:14, arxiv:13, arxiv_cl:13, arxiv_cv:13,
+  kimi:12, qwen:12, deepseek:12, nvidia:10, microsoft:10, techcrunch:8, venturebeat:8, github:10,
+  hackernews:12, reddit_ml:10, devto:8, jiqizhixin:10, liangziwei:10, other:5
+};
+const SCORE_KEYWORDS = {
+  major: ['launch','release','announce','unveil','gpt-5','gpt-4','claude','gemini','kimi k','qwen','deepseek','foundation model','state-of-the-art','sota','breakthrough','open source','开源','发布','推出','重磅'],
+  research: ['paper','arxiv','benchmark','novel','zero-shot','few-shot','multimodal','rlhf','transformer','diffusion','moe','mamba','long context','reasoning','chain of thought','论文','研究','评测'],
+  funding: ['funding','raise','investment','series','valuation','billion','unicorn','ipo','acquisition','融资','估值','投资','收购','上市'],
+  security: ['safety','security','breach','jailbreak','leak','vulnerability','alignment','red team','安全','泄露','漏洞','越狱']
+};
+const SCORE_ENTITY_RE = /(?:GPT|Claude|Gemini|Llama|Mistral|Qwen|DeepSeek|Kimi|Moonshot|ChatGPT|OpenAI|Anthropic|Google|Meta|Microsoft|Nvidia|Transformer|Diffusion|RLHF|MoE|Mamba)\b/gi;
+
+function calculateNewsScore(item){
+  const title = (item.title||'').trim();
+  const summary = (item.summary||'').trim();
+  const raw = (item._rawContent||'').trim();
+  const vendor = item.vendor||'other';
+  const category = item.category||'Product';
+  const pubDate = item.pubDate||0;
+  const text = (title+' '+summary+' '+raw).toLowerCase();
+  let reasons = [];
+
+  // 1. 内容质量 (0-30)
+  let cq = 0;
+  const tLen = title.length;
+  cq += tLen>=40&&tLen<=100?6 : tLen>=25?4 : tLen>=15?2 : 1;
+  const sLen = summary.length;
+  cq += sLen>=200?8 : sLen>=100?6 : sLen>=50?4 : sLen>=20?2 : 0;
+  if(raw){
+    const paras = raw.split(/\n\s*\n/).filter(p=>p.trim().length>20);
+    cq += paras.length>=8?10 : paras.length>=5?8 : paras.length>=3?6 : 4;
+  } else { cq += sLen>100?4:1; }
+  const entities = (text.match(SCORE_ENTITY_RE)||[]).length;
+  cq += entities>=5?6 : entities>=3?4 : entities>=1?2 : 0;
+  cq = Math.min(cq, 30);
+
+  // 2. 关键词价值 (0-20)
+  let kv = 0;
+  let ms = 0; SCORE_KEYWORDS.major.forEach(k=>{ if(text.includes(k)) ms+=2; }); ms=Math.min(ms,8); kv+=ms;
+  let rs = 0; SCORE_KEYWORDS.research.forEach(k=>{ if(text.includes(k)) rs+=1; }); rs=Math.min(rs,6); kv+=rs;
+  let fs = 0; SCORE_KEYWORDS.funding.forEach(k=>{ if(text.includes(k)) fs+=1; }); fs=Math.min(fs,4); kv+=fs;
+  let ss = 0; SCORE_KEYWORDS.security.forEach(k=>{ if(text.includes(k)) ss+=0.5; }); ss=Math.min(ss,2); kv+=Math.round(ss);
+  kv = Math.min(kv, 20);
+
+  // 3. 类别权重 (0-25)
+  const cw = SCORE_CATEGORY_WEIGHTS[category] || 10;
+
+  // 4. 来源可信度 (0-15)
+  const st = SCORE_SOURCE_TRUST[vendor] || 5;
+
+  // 5. 时效性 (0-5)
+  let rc = 0;
+  if(pubDate){
+    const hrs = (Date.now()-pubDate)/3600000;
+    rc = hrs<2?5 : hrs<6?4 : hrs<24?3 : hrs<48?2 : hrs<168?1 : 0;
+  }
+
+  // 6. 交叉信号 (0-5)
+  let cs = 0;
+  if(item._multiSource){
+    const c = item._multiSource;
+    cs = c>=5?5 : c>=3?4 : c>=2?3 : 1;
+  }
+
+  const total = Math.min(Math.round(cq+kv+cw+st+rc+cs), 100);
+  return { score:total, breakdown:{ cq,kv,cw,st,rc,cs } };
+}
+
+function scoreToBadge(score){
+  if(score>=85) return { label:'🚀 必读', cls:'score-s', color:'var(--red)' };
+  if(score>=75) return { label:'🔥 重大', cls:'score-h', color:'var(--red)' };
+  if(score>=65) return { label:'⚡ 重要', cls:'score-m', color:'var(--orange)' };
+  if(score>=50) return { label:'★ 关注', cls:'score-l', color:'var(--teal)' };
+  return { label:'○ 一般', cls:'score-n', color:'var(--text-dim)' };
+}
+
+function batchScoreNews(items){
+  // 多源覆盖度
+  const groups = {};
+  items.forEach(n=>{ const k=(n.title||'').slice(0,50).toLowerCase(); if(!groups[k]) groups[k]=new Set(); groups[k].add(n.vendor); });
+  items.forEach(n=>{
+    const k=(n.title||'').slice(0,50).toLowerCase();
+    n._multiSource = groups[k]?.size || 1;
+    const r = calculateNewsScore(n);
+    n.score = r.score;
+    n.scoreBreakdown = r.breakdown;
+  });
+  return items;
+}
+
+function generateSummary(title, desc){
+  let text = desc || title;
+  text = text.replace(/<[^>]+>/g,'').replace(/&[a-z]+;/gi,' ').replace(/&#[0-9]+;/g,' ').replace(/\s+/g,' ').trim();
+  if(text.length > 200) text = text.slice(0,200) + '…';
+  return text;
+}
+function hashId(s){ return s.split('').reduce((a,c)=>((a<<5)-a+c.charCodeAt(0))|0,0)+'' }
+
+/* ---------- JSON 数据兼容处理 ---------- */
+function normalizeJSONItem(item){
+  return {
+    id: item.id || hashId(item.title + item.link),
+    title: item.title || '',
+    titleZh: item.titleZh || '',
+    summary: item.summary || '',
+    _rawContent: item._rawContent || item.summary || '',
+    link: item.link || '',
+    pubDate: item.pubDate || Date.now(),
+    vendor: item.vendor || 'other',
+    category: item.category || 'Product',
+    impact: item.impact || 'low',
+    score: item.score || null,
+    scoreBreakdown: item.scoreBreakdown || null,
+    source: item.source || '',
+    read: item.read || false,
+  };
+}
+
+/* ---------- RSS 解析：JSON 格式（rss2json） ---------- */
+function parseRSSJSON(json, vendorKey){
+  if(!json || json.status !== 'ok' || !json.items) return [];
+  return json.items.map(item=>{
+    const title = (item.title||'').trim();
+    const desc = (item.description||'').trim();
+    if(!title) return null;
+    return {
+      id: hashId(title + item.link),
+      title,
+      summary: generateSummary(title, desc),
+      _rawContent: item.content || desc || '',
+      link: item.link || '',
+      pubDate: parseDate(item.pubDate),
+      vendor: vendorKey,
+      category: classify(title, desc),
+      impact: assessImpact(title, desc, vendorKey),
+      source: VENDOR_MAP[vendorKey]?.name || vendorKey,
+      author: item.author || '',
+      read: false,
+    };
+  }).filter(Boolean);
+}
+
+/* ---------- RSS 解析：XML 格式（allorigins） ---------- */
+function parseRSS(xmlText, vendorKey){
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(xmlText, 'text/xml');
+  const items = doc.querySelectorAll('item');
+  const out = [];
+  items.forEach((item, i)=>{
+    const title = item.querySelector('title')?.textContent?.trim() || '';
+    const link = item.querySelector('link')?.textContent?.trim() || '';
+    const pubDate = item.querySelector('pubDate')?.textContent?.trim() || '';
+    const desc = item.querySelector('description')?.textContent?.trim() || '';
+    const creator = item.querySelector('creator')?.textContent?.trim() || '';
+    if(!title) return;
+    out.push({
+      id: hashId(title + link),
+      title,
+      summary: generateSummary(title, desc),
+      _rawContent: desc || '',
+      link,
+      pubDate: parseDate(pubDate),
+      vendor: vendorKey,
+      category: classify(title, desc),
+      impact: assessImpact(title, desc, vendorKey),
+      source: VENDOR_MAP[vendorKey]?.name || vendorKey,
+      author: creator,
+      read: false,
+    });
+  });
+  return out;
+}
+
+/* ---------- Google News 聚合（Kimi/Qwen/DeepSeek） ---------- */
+function parseGoogleNews(xmlText, query){
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(xmlText, 'text/xml');
+  const items = doc.querySelectorAll('item');
+  const out = [];
+  items.forEach(item=>{
+    const title = item.querySelector('title')?.textContent?.trim() || '';
+    const link = item.querySelector('link')?.textContent?.trim() || '';
+    const pubDate = item.querySelector('pubDate')?.textContent?.trim() || '';
+    const desc = item.querySelector('description')?.textContent?.trim() || '';
+    if(!title) return;
+    // Google News 标题格式："新闻标题 - 媒体名"，保留新闻标题部分
+    const cleanTitle = title.replace(/\s*-\s*[^-]+$/,'').trim() || title;
+    const vendor = detectVendor(cleanTitle, desc, '');
+    if(vendor === 'other') return;
+    out.push({
+      id: hashId(title + link),
+      title: cleanTitle,
+      summary: generateSummary(cleanTitle, desc),
+      _rawContent: desc || '',
+      link,
+      pubDate: parseDate(pubDate),
+      vendor,
+      category: classify(cleanTitle, desc),
+      impact: assessImpact(cleanTitle, desc, vendor),
+      source: 'Google News',
+      read: false,
+    });
+  });
+  return out;
+}
+
+/* ---------- 数据采集：并行代理竞速（最快返回者胜） ---------- */
+async function fetchWithProxies(rssUrl, vendorKey, isGoogleNews){
+  // 检查缓存
+  const cacheKey = `rss_cache:${vendorKey}:${rssUrl}`;
+  try {
+    const cached = JSON.parse(localStorage.getItem(cacheKey) || 'null');
+    if (cached && (Date.now() - cached.ts) < RSS_CACHE_TTL) {
+      return cached.data;
+    }
+  } catch(e) {}
+
+  // 并行尝试所有代理，取最先成功的（reject 失败的代理，确保 Promise.any 只返回有效数据）
+  const tryProxy = (proxyIdx) => new Promise((resolve, reject) => {
+    const proxyUrl = PROXIES[proxyIdx](rssUrl);
+    fetch(proxyUrl, { signal: AbortSignal.timeout(PROXY_TIMEOUT) })
+      .then(resp => {
+        if (!resp.ok) return reject(new Error(`HTTP ${resp.status}`));
+        return resp.text();
+      })
+      .then(text => {
+        if (proxyIdx === 0) {
+          try {
+            const json = JSON.parse(text);
+            if (json.status === 'ok' && json.items) {
+              const parsed = isGoogleNews ? parseGoogleNewsFromJSON(json) : parseRSSJSON(json, vendorKey);
+              if (parsed.length > 0) return resolve(parsed);
+              return reject(new Error('no items from rss2json'));
+            }
+          } catch(e) {}
+        }
+        const result = isGoogleNews ? parseGoogleNews(text, vendorKey) : parseRSS(text, vendorKey);
+        if (result.length > 0) return resolve(result);
+        reject(new Error('no items parsed'));
+      })
+      .catch(err => reject(err));
+  });
+
+  // 所有代理同时发起，取第一个非空结果
+  try {
+    const result = await Promise.any(PROXIES.map((_, i) => tryProxy(i)));
+    if (result && result.length > 0) {
+      // 写入缓存
+      try {
+        localStorage.setItem(cacheKey, JSON.stringify({ ts: Date.now(), data: result }));
+      } catch(e) {}
+      return result;
+    }
+  } catch(e) {
+    // 所有代理都失败，尝试回退到第一个代理的串行模式
+    for (let i = 0; i < PROXIES.length; i++) {
+      const proxyUrl = PROXIES[i](rssUrl);
+      try {
+        const resp = await fetch(proxyUrl, { signal: AbortSignal.timeout(PROXY_TIMEOUT) });
+        if (!resp.ok) continue;
+        const text = await resp.text();
+        if (i === 0) {
+          try {
+            const json = JSON.parse(text);
+            if (json.status === 'ok' && json.items) {
+              const r = isGoogleNews ? parseGoogleNewsFromJSON(json) : parseRSSJSON(json, vendorKey);
+              if (r.length > 0) return r;
+            }
+          } catch(e) {}
+        }
+        const r = isGoogleNews ? parseGoogleNews(text, vendorKey) : parseRSS(text, vendorKey);
+        if (r.length > 0) return r;
+      } catch(e) {}
+    }
+  }
+  return [];
+}
+
+/* ---------- Google News JSON 解析（rss2json） ---------- */
+function parseGoogleNewsFromJSON(json){
+  if(!json || !json.items) return [];
+  return json.items.map(item=>{
+    const title = (item.title||'').trim();
+    const desc = (item.description||'').trim();
+    if(!title) return null;
+    // Google News 标题格式："新闻标题 - 媒体名"，保留新闻标题部分
+    const cleanTitle = title.replace(/\s*-\s*[^-]+$/,'').trim() || title;
+    const vendor = detectVendor(cleanTitle, desc, '');
+    if(vendor === 'other') return null;
+    return {
+      id: hashId(title + item.link),
+      title: cleanTitle,
+      summary: generateSummary(cleanTitle, desc),
+      _rawContent: item.content || desc || '',
+      link: item.link || '',
+      pubDate: parseDate(item.pubDate),
+      vendor,
+      category: classify(cleanTitle, desc),
+      impact: assessImpact(cleanTitle, desc, vendor),
+      source: 'Google News',
+      read: false,
+    };
+  }).filter(Boolean);
+}
+
+/* ---------- 单源采集 ---------- */
+async function fetchRSS(vendorKey){
+  const v = VENDOR_MAP[vendorKey];
+  if(!v || !v.rss) return [];
+  return fetchWithProxies(v.rss, vendorKey, false);
+}
+
+async function fetchGoogleNews(query){
+  const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=en&gl=US&ceid=US:en`;
+  return fetchWithProxies(url, 'gnews', true);
+}
+
+/* ---------- GitHub Trending：热门 AI/ML 仓库 ---------- */
+async function fetchGitHubTrending(){
+  // 检查缓存
+  const cacheKey = 'rss_cache:github:trending';
+  try {
+    const cached = JSON.parse(localStorage.getItem(cacheKey) || 'null');
+    if (cached && (Date.now() - cached.ts) < RSS_CACHE_TTL) return cached.data;
+  } catch(e) {}
+
+  // GitHub Search API 原生支持 CORS，无需代理
+  const query = encodeURIComponent('topic:llm OR topic:transformer OR topic:machine-learning OR topic:ai stars:>=100 archived:false');
+  const url = `https://api.github.com/search/repositories?q=${query}&sort=stars&order=desc&per_page=15`;
+  try {
+    const resp = await fetch(url, {
+      headers: { 'Accept': 'application/vnd.github.v3+json', 'User-Agent': 'AI-Pulse' },
+      signal: AbortSignal.timeout(10000)
+    });
+    if (!resp.ok) return [];
+    const data = await resp.json();
+    if (!data.items) return [];
+    const items = data.items.map(repo => ({
+      id: hashId('gh:' + repo.full_name),
+      title: repo.full_name,
+      summary: (repo.description || 'No description') + ` · ⭐ ${repo.stargazers_count?.toLocaleString()} stars · ${repo.language || 'Unknown'}`,
+      _rawContent: repo.description || '',
+      link: repo.html_url,
+      pubDate: new Date(repo.pushed_at || repo.updated_at).getTime(),
+      vendor: 'github',
+      category: 'Release',
+      impact: repo.stargazers_count > 10000 ? 'high' : repo.stargazers_count > 1000 ? 'med' : 'low',
+      source: 'GitHub Trending',
+      read: false,
+    }));
+    try { localStorage.setItem(cacheKey, JSON.stringify({ ts: Date.now(), data: items })); } catch(e) {}
+    return items;
+  } catch(e) {
+    return [];
+  }
+}
+
+/* ---------- 从预生成 JSON 加载新闻（秒开） ---------- */
+async function loadFromJSON(url){
+  try {
+    const resp = await fetch(url, { signal: AbortSignal.timeout(5000) });
+    if (!resp.ok) return false;
+    const data = await resp.json();
+    if (!data.items || data.items.length === 0) return false;
+
+    STATE.news = data.items.map(normalizeJSONItem);
+    STATE.sourcesLoaded = data.sources || 0;
+    STATE.lastUpdate = new Date(data.updated || Date.now());
+
+    // 确保评分存在
+    if(!STATE.news[0]?.score) batchScoreNews(STATE.news);
+
+    // 缓存到 localStorage
+    try {
+      localStorage.setItem('ai_pulse_news_cache', JSON.stringify({
+        news: STATE.news,
+        sourcesLoaded: data.sources,
+        lastUpdate: Date.now(),
+      }));
+    } catch(e) {}
+
+    renderAll();
+    return true;
+  } catch(e) {
+    return false;
+  }
+}
+
+async function fetchAllNews(){
+  $('refreshBtn').classList.add('spinning');
+
+  // 尝试从预生成的 JSON 加载（秒开）
+  const jsonLoaded = await loadFromJSON(JSON_DATA_URL);
+  if (jsonLoaded) {
+    $('refreshBtn').classList.remove('spinning');
+    return; // JSON 加载成功，不需要实时抓取
+  }
+
+  // JSON 不可用，回退到实时抓取
+  $('newsList').innerHTML = '<div class="skel-card"><div class="skeleton skel-title"></div><div class="skeleton skel-sum"></div><div class="skeleton skel-sum2"></div></div><div class="skel-card"><div class="skeleton skel-title"></div><div class="skeleton skel-sum"></div><div class="skeleton skel-sum2"></div></div>';
+
+  const sourceTasks = [];
+  const sourceLabels = [];
+  // 官方 RSS
+  VENDORS.filter(v=>v.rss).forEach(v=> { sourceTasks.push(fetchRSS(v.key)); sourceLabels.push(v.name); });
+  // Google News 聚合国产模型
+  sourceTasks.push(fetchGoogleNews('Kimi Moonshot AI')); sourceLabels.push('Kimi');
+  sourceTasks.push(fetchGoogleNews('Qwen Alibaba model')); sourceLabels.push('Qwen');
+  sourceTasks.push(fetchGoogleNews('DeepSeek AI model')); sourceLabels.push('DeepSeek');
+  sourceTasks.push(fetchGoogleNews('机器之心 AI 人工智能')); sourceLabels.push('机器之心');
+  sourceTasks.push(fetchGoogleNews('量子位 AI 人工智能')); sourceLabels.push('量子位');
+
+  // 渐进式渲染：每个数据源返回后立即更新列表
+  let allNews = [];
+  let sourceCount = 0;
+  let completedCount = 0;
+  const totalSources = sourceTasks.length;
+
+  sourceTasks.forEach((task, idx) => {
+    task.then(result => {
+      completedCount++;
+      if (result && result.length > 0) {
+        allNews = allNews.concat(result);
+        sourceCount++;
+        // 去重
+        const seen = new Set();
+        allNews = allNews.filter(n=>{
+          const key = n.title.slice(0,100).toLowerCase();
+          if(seen.has(key)) return false;
+          seen.add(key);
+          return true;
+        });
+        allNews.sort((a,b)=> b.pubDate - a.pubDate);
+        // AI 智能评分
+        batchScoreNews(allNews);
+        STATE.news = allNews;
+        STATE.sourcesLoaded = sourceCount;
+        STATE.lastUpdate = new Date();
+        // 第一个数据源返回后立即渲染（后续数据源返回时增量更新）
+        if (sourceCount === 1) {
+          $('newsList').innerHTML = '';
+          renderAll();
+        } else {
+          renderNewsList();
+        }
+      }
+      // 全部完成
+      if (completedCount === totalSources) {
+        $('refreshBtn').classList.remove('spinning');
+        renderAll();
+        // 保存新闻数据到 localStorage，下次打开可秒开
+        try {
+          localStorage.setItem('ai_pulse_news_cache', JSON.stringify({
+            news: allNews,
+            sourcesLoaded: sourceCount,
+            lastUpdate: Date.now(),
+          }));
+        } catch(e) {}
+        showToast(`已加载 ${allNews.length} 条资讯 · ${sourceCount} 个数据源`);
+      }
+    }).catch(()=> { completedCount++; });
+  });
+}
+
+/* ---------- 渲染 ---------- */
+function getFilteredNews(){
+  let list = STATE.news;
+  if(STATE.filterVendor !== 'all') list = list.filter(n=> n.vendor === STATE.filterVendor);
+  if(STATE.filterCat !== 'all') list = list.filter(n=> n.category === STATE.filterCat);
+  // 时间窗口过滤
+  if(STATE.filterTime !== 'all'){
+    const now = Date.now();
+    const cutoff = STATE.filterTime === '24h' ? now - 24*60*60*1000 : now - 7*24*60*60*1000;
+    list = list.filter(n=> n.pubDate >= cutoff);
+  }
+  // 特殊筛选（收藏/已读/未读）
+  if(STATE.filterSpecial === 'bookmarked'){
+    list = list.filter(n=> STATE.bookmarks.includes(n.id));
+  } else if(STATE.filterSpecial === 'read'){
+    list = list.filter(n=> STATE.readHistory.includes(n.id));
+  } else if(STATE.filterSpecial === 'unread'){
+    list = list.filter(n=> !STATE.readHistory.includes(n.id));
+  }
+  if(STATE.searchQuery){
+    const q = STATE.searchQuery.toLowerCase();
+    list = list.filter(n=> n.title.toLowerCase().includes(q) || n.summary.toLowerCase().includes(q));
+  }
+  // 排序
+  if(STATE.sortBy === 'score'){
+    list = [...list].sort((a,b)=> (b.score||0) - (a.score||0) || (b.pubDate||0) - (a.pubDate||0));
+  }
+  return list;
+}
+
+function renderNewsList(){
+  const list = getFilteredNews();
+  const container = $('newsList');
+  if(list.length === 0){
+    container.innerHTML = '<div style="text-align:center;padding:40px 20px;color:var(--text-dim);font-size:13px">暂无相关资讯</div>';
+    return;
+  }
+  container.innerHTML = list.slice(0, 60).map(n=>{
+    const v = VENDOR_MAP[n.vendor] || {name:'其他', color:'#888', init:'?'};
+    const cachedTitle = TRANSLATION_CACHE[`en|zh:${n.title}`] || n.title;
+    const cachedSummary = TRANSLATION_CACHE[`en|zh:${n.summary}`] || n.summary;
+    const isRead = STATE.readHistory.includes(n.id);
+    const isBookmarked = STATE.bookmarks.includes(n.id);
+    // 根据标题显示模式生成标题 HTML
+    let titleHTML;
+    if(STATE.titleMode === 'en'){
+      titleHTML = n.title;
+    } else if(STATE.titleMode === 'bi'){
+      titleHTML = `${cachedTitle}<div class="news-title-en">${n.title}</div>`;
+    } else {
+      titleHTML = cachedTitle;
+    }
+    return `
+    <div class="news-card ${isRead?'':'unread'}" data-id="${n.id}" onclick="openArticle('${n.id}')">
+      <div class="news-top">
+        <span class="vendor-tag" style="background:${v.color}">${v.name}</span>
+        <span class="cat-tag ${n.category}">${n.category}</span>
+        <span class="impact ${n.impact}">${n.impact==='high'?'🔥 高影响':n.impact==='med'?'⚡ 中':'○ 低'}</span>
+        ${n.score!=null ? (()=>{ const b=scoreToBadge(n.score); return `<span class="score-badge ${b.cls}" title="AI评分:${n.score}/100 · 质量${n.scoreBreakdown?.cq||0} 关键词${n.scoreBreakdown?.kv||0} 类别${n.scoreBreakdown?.cw||0} 来源${n.scoreBreakdown?.st||0} 时效${n.scoreBreakdown?.rc||0}">${b.label}<span class="score-num">${n.score}</span></span>`; })() : ''}
+        <span class="news-time">${timeAgo(n.pubDate)}</span>
+      </div>
+      <div class="news-title" data-id="${n.id}" onclick="openArticle('${n.id}')">${titleHTML}</div>
+      <div class="news-summary" data-id="${n.id}">${cachedSummary}</div>
+      <div class="news-foot">
+        <span class="news-source">来源：<a href="${n.link}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${n.source}</a></span>
+        <button class="bookmark-btn ${isBookmarked?'active':''}" data-bookmark="${n.id}" onclick="toggleBookmark('${n.id}');event.stopPropagation()" title="${isBookmarked?'取消收藏':'收藏'}">${isBookmarked?'★':'☆'}</button>
+      </div>
+    </div>`;
+  }).join('');
+  // 异步翻译未缓存的内容
+  batchTranslateNews(list.slice(0, 60));
+}
+
+function markRead(id){
+  if(!STATE.readHistory.includes(id)){
+    STATE.readHistory.push(id);
+    // 限制历史记录最多 500 条
+    if(STATE.readHistory.length > 500) STATE.readHistory = STATE.readHistory.slice(-500);
+    try { localStorage.setItem('ai_pulse_read_history', JSON.stringify(STATE.readHistory)); } catch(e) {}
+  }
+}
+
+function toggleBookmark(id){
+  const idx = STATE.bookmarks.indexOf(id);
+  if(idx >= 0){
+    STATE.bookmarks.splice(idx, 1);
+    showToast('已取消收藏');
+  } else {
+    STATE.bookmarks.push(id);
+    showToast('已收藏');
+  }
+  try { localStorage.setItem('ai_pulse_bookmarks', JSON.stringify(STATE.bookmarks)); } catch(e) {}
+  renderNewsList();
+  renderSpecialFilters();
+}
+
+function renderVendors(){
+  const counts = {};
+  STATE.news.forEach(n=> counts[n.vendor] = (counts[n.vendor]||0) + 1);
+  const html = VENDORS.map(v=>{
+    const c = counts[v.key] || 0;
+    return `
+    <div class="vendor-item ${STATE.filterVendor===v.key?'active':''}" data-vendor="${v.key}">
+      <div class="vendor-logo" style="background:${v.color}">${v.init}</div>
+      <div class="vendor-info">
+        <div class="vendor-name">${v.name}</div>
+        <div class="vendor-count">${c} 条资讯</div>
+      </div>
+      <div class="vendor-dot" style="background:${c>0?'#107c10':'#ccc'}"></div>
+    </div>`;
+  }).join('') + `
+    <div class="vendor-item ${STATE.filterVendor==='all'?'active':''}" data-vendor="all">
+      <div class="vendor-logo" style="background:var(--accent)">ALL</div>
+      <div class="vendor-info">
+        <div class="vendor-name">全部厂商</div>
+        <div class="vendor-count">${STATE.news.length} 条资讯</div>
+      </div>
+    </div>`;
+  $('vendorList').innerHTML = html;
+
+  // 分类列表
+  const catCounts = {};
+  STATE.news.forEach(n=> catCounts[n.category] = (catCounts[n.category]||0) + 1);
+  const cats = ['Release','Product','Research','Funding','Agent','Safety'];
+  $('catList').innerHTML = cats.map(c=>`
+    <div class="cat-item ${STATE.filterCat===c?'active':''}" data-cat="${c}">
+      <span>${catLabel(c)}</span>
+      <span class="num">${catCounts[c]||0}</span>
+    </div>`).join('');
+}
+
+function catLabel(c){
+  return {Release:'发布',Product:'产品',Research:'研究',Funding:'融资',Agent:'Agent',Safety:'安全'}[c] || c;
+}
+
+function renderSpecialFilters(){
+  const bmCount = STATE.news.filter(n=> STATE.bookmarks.includes(n.id)).length;
+  const readCount = STATE.news.filter(n=> STATE.readHistory.includes(n.id)).length;
+  const unreadCount = STATE.news.length - readCount;
+  const bmEl = $('bmCount'); if(bmEl) bmEl.textContent = bmCount;
+  const readEl = $('readCount'); if(readEl) readEl.textContent = readCount;
+  const unreadEl = $('unreadCount'); if(unreadEl) unreadEl.textContent = unreadCount;
+  // 更新 active 状态
+  document.querySelectorAll('.filter-item').forEach(el=>{
+    el.classList.toggle('active', el.dataset.special === STATE.filterSpecial);
+  });
+}
+
+function renderStats(){
+  const today = new Date(); today.setHours(0,0,0,0);
+  const todayCount = STATE.news.filter(n=> n.pubDate >= today.getTime()).length;
+  $('statTotal').textContent = STATE.news.length;
+  $('statToday').textContent = todayCount;
+  $('statSources').textContent = STATE.sourcesLoaded;
+  $('lastUpdate').textContent = STATE.lastUpdate ? STATE.lastUpdate.toLocaleTimeString('zh-CN') : '--';
+  $('feedMeta').textContent = `共 ${STATE.news.length} 条 · ${STATE.sourcesLoaded} 个数据源 · 更新于 ${$('lastUpdate').textContent}`;
+
+  // 分类 badge
+  const catCounts = {};
+  STATE.news.forEach(n=> catCounts[n.category] = (catCounts[n.category]||0) + 1);
+  $('badge-all').textContent = STATE.news.length;
+
+  // 统计框
+  const highImpact = STATE.news.filter(n=>n.impact==='high').length;
+  const vendors = new Set(STATE.news.map(n=>n.vendor)).size;
+  const scored = STATE.news.filter(n=>n.score!=null);
+  const avgScore = scored.length>0 ? Math.round(scored.reduce((s,n)=>s+n.score,0)/scored.length) : 0;
+  const topScored = scored.length>0 ? Math.max(...scored.map(n=>n.score)) : 0;
+  $('statBox').innerHTML = `
+    <div class="stat-row"><span class="k">高影响资讯</span><span class="v">${highImpact}</span></div>
+    <div class="stat-row"><span class="k">平均评分</span><span class="v">${avgScore}</span></div>
+    <div class="stat-row"><span class="k">最高评分</span><span class="v">${topScored}</span></div>
+    <div class="stat-row"><span class="k">活跃厂商</span><span class="v">${vendors}</span></div>
+    <div class="stat-row"><span class="k">今日新增</span><span class="v">${todayCount}</span></div>
+  `;
+}
+
+function renderTrendChart(){
+  const days = 7;
+  const data = [];
+  const labels = [];
+  const now = new Date();
+  for(let i=days-1;i>=0;i--){
+    const d = new Date(now); d.setDate(d.getDate()-i); d.setHours(0,0,0,0);
+    const next = new Date(d); next.setDate(next.getDate()+1);
+    const count = STATE.news.filter(n=> n.pubDate >= d.getTime() && n.pubDate < next.getTime()).length;
+    data.push(count);
+    labels.push((d.getMonth()+1) + '/' + d.getDate());
+  }
+  const chart = echarts.init($('chartTrend'));
+  const isDark = document.documentElement.dataset.theme === 'dark';
+  const axisLineColor = isDark ? '#3a3a55' : '#d0d0de';
+  const axisLabelColor = isDark ? '#8e8ea0' : '#8a8aa0';
+  const splitLineColor = isDark ? '#2a2a45' : '#e5e5f0';
+  const tooltipBg = isDark ? '#1e1e3a' : '#fff';
+  const tooltipBorder = isDark ? '#2a2a45' : '#e5e5f0';
+  const tooltipText = isDark ? '#e0e0ef' : '#1a1a2e';
+  const barTop = isDark ? '#74c0fc' : '#2b88d8';
+  const barBottom = isDark ? '#4dabf7' : '#0067c0';
+  chart.setOption({
+    grid:{left:30,right:12,top:16,bottom:24},
+    xAxis:{type:'category',data:labels,axisLine:{lineStyle:{color:axisLineColor}},
+      axisLabel:{color:axisLabelColor,fontSize:10}},
+    yAxis:{type:'value',axisLine:{show:false},axisTick:{show:false},
+      axisLabel:{color:axisLabelColor,fontSize:10},splitLine:{lineStyle:{color:splitLineColor}}},
+    series:[{
+      type:'bar',data,barWidth:'50%',
+      itemStyle:{borderRadius:[4,4,0,0],
+        color:new echarts.graphic.LinearGradient(0,0,0,1,[
+          {offset:0,color:barTop},{offset:1,color:barBottom}])}
+    }],
+    tooltip:{trigger:'axis',backgroundColor:tooltipBg,borderColor:tooltipBorder,textStyle:{color:tooltipText,fontSize:11}}
+  });
+}
+
+function renderScoreChart(){
+  const dom = $('chartScore');
+  if(!dom) return;
+  const isDark = document.documentElement.dataset.theme === 'dark';
+  const scored = STATE.news.filter(n=>n.score!=null);
+  if(scored.length === 0) return;
+  const ranges = [
+    { name:'必读(85+)', min:85, max:101, color: isDark?'#ff6b6b':'#c50f1f' },
+    { name:'重大(75-84)', min:75, max:85, color: isDark?'#fa5252':'#e81123' },
+    { name:'重要(65-74)', min:65, max:75, color: isDark?'#ff922b':'#ca5010' },
+    { name:'关注(50-64)', min:50, max:65, color: isDark?'#20c997':'#008272' },
+    { name:'一般(<50)', min:0, max:50, color: isDark?'#6c6c80':'#8a8aa0' },
+  ];
+  const data = ranges.map(r => ({
+    name: r.name,
+    value: scored.filter(n => n.score >= r.min && n.score < r.max).length,
+    itemStyle: { color: r.color }
+  })).filter(d => d.value > 0);
+  const chart = echarts.init(dom);
+  const tooltipBg = isDark ? '#1e1e3a' : '#fff';
+  const tooltipBorder = isDark ? '#2a2a45' : '#e5e5f0';
+  const tooltipText = isDark ? '#e0e0ef' : '#1a1a2e';
+  const labelColor = isDark ? '#8e8ea0' : '#5a5a72';
+  chart.setOption({
+    tooltip:{trigger:'item',backgroundColor:tooltipBg,borderColor:tooltipBorder,textStyle:{color:tooltipText,fontSize:11},
+      formatter:p=>`${p.name}<br/>${p.value} 篇 (${p.percent}%)`},
+    legend:{orient:'vertical',right:5,top:'center',textStyle:{color:labelColor,fontSize:9},itemWidth:8,itemHeight:8},
+    series:[{
+      type:'pie',radius:['35%','65%'],center:['35%','50%'],
+      label:{show:false},labelLine:{show:false},
+      emphasis:{label:{show:true,fontSize:10,fontWeight:'bold',color:tooltipText}},
+      data
+    }]
+  });
+}
+
+function renderVendorChart(){
+  const dom = $('chartVendor');
+  if(!dom) return;
+  const isDark = document.documentElement.dataset.theme === 'dark';
+  const groups = {};
+  STATE.news.forEach(n=>{
+    const v = n.vendor || 'other';
+    if(!groups[v]) groups[v] = { total:0, high:0, med:0, low:0 };
+    groups[v].total++;
+    if(n.impact==='high') groups[v].high++;
+    else if(n.impact==='med') groups[v].med++;
+    else groups[v].low++;
+  });
+  const vendors = Object.entries(groups).map(([k,v])=>({name:VENDOR_MAP[k]?.name||k, ...v}))
+    .sort((a,b)=>b.total-a.total).slice(0,8);
+  const chart = echarts.init(dom);
+  const axisLineColor = isDark ? '#3a3a55' : '#d0d0de';
+  const axisLabelColor = isDark ? '#8e8ea0' : '#5a5a72';
+  const splitLineColor = isDark ? '#2a2a45' : '#e5e5f0';
+  const tooltipBg = isDark ? '#1e1e3a' : '#fff';
+  const tooltipBorder = isDark ? '#2a2a45' : '#e5e5f0';
+  const tooltipText = isDark ? '#e0e0ef' : '#1a1a2e';
+  chart.setOption({
+    grid:{left:70,right:12,top:8,bottom:20,containLabel:true},
+    xAxis:{type:'value',axisLine:{show:false},axisTick:{show:false},
+      axisLabel:{color:axisLabelColor,fontSize:9},splitLine:{lineStyle:{color:splitLineColor}}},
+    yAxis:{type:'category',data:vendors.map(v=>v.name),
+      axisLine:{lineStyle:{color:axisLineColor}},axisTick:{show:false},
+      axisLabel:{color:axisLabelColor,fontSize:9}},
+    tooltip:{trigger:'axis',backgroundColor:tooltipBg,borderColor:tooltipBorder,textStyle:{color:tooltipText,fontSize:11},
+      axisPointer:{type:'shadow'}},
+    series:[
+      {name:'高',type:'bar',stack:'t',barWidth:'50%',itemStyle:{color:isDark?'#ff6b6b':'#c50f1f'},
+        data:vendors.map(v=>v.high)},
+      {name:'中',type:'bar',stack:'t',barWidth:'50%',itemStyle:{color:isDark?'#ff922b':'#ca5010'},
+        data:vendors.map(v=>v.med)},
+      {name:'低',type:'bar',stack:'t',barWidth:'50%',itemStyle:{color:isDark?'#20c997':'#008272'},
+        data:vendors.map(v=>v.low)}
+    ]
+  });
+}
+
+function renderKeywords(){
+  const kws = {};
+  const stopWords = new Set(['the','a','an','and','or','to','of','in','for','on','with','is','are','was','were','be','will','that','this','it','as','at','by','from','has','have','new','said','says','的','了','在','是','和','与','为','了']);
+  STATE.news.forEach(n=>{
+    const words = (n.title + ' ' + n.summary).split(/[\s,，。.:：;；!！?？()（）"'']/);
+    words.forEach(w=>{
+      w = w.trim().toLowerCase();
+      if(w.length < 2 || stopWords.has(w)) return;
+      if(/^\d+$/.test(w)) return;
+      kws[w] = (kws[w]||0) + 1;
+    });
+  });
+  const sorted = Object.entries(kws).sort((a,b)=>b[1]-a[1]).slice(0, 24);
+  $('trendList').innerHTML = sorted.map(([w,c])=>`<span class="trend-tag">${w}<span class="n">${c}</span></span>`).join('');
+}
+
+function renderAll(){
+  renderVendors();
+  renderNewsList();
+  renderStats();
+  renderTrendChart();
+  renderScoreChart();
+  renderVendorChart();
+  renderKeywords();
+  renderSpecialFilters();
+}
+
+/* ---------- 交互事件 ---------- */
+function showToast(msg){
+  const t = $('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'), 3000);
+}
+
+document.addEventListener('click', e=>{
+  // 厂商筛选
+  const vi = e.target.closest('.vendor-item');
+  if(vi){
+    STATE.filterVendor = vi.dataset.vendor;
+    document.querySelectorAll('.vendor-item').forEach(x=>x.classList.toggle('active', x===vi));
+    $('feedTitle').textContent = STATE.filterVendor==='all' ? '全部资讯' : (VENDOR_MAP[STATE.filterVendor]?.name || '其他');
+    renderNewsList();
+    return;
+  }
+  // 分类筛选
+  const ci = e.target.closest('.cat-item');
+  if(ci){
+    STATE.filterCat = STATE.filterCat === ci.dataset.cat ? 'all' : ci.dataset.cat;
+    document.querySelectorAll('.cat-item').forEach(x=>x.classList.toggle('active', x===ci && STATE.filterCat===ci.dataset.cat));
+    renderNewsList();
+    return;
+  }
+  // Tab
+  const tab = e.target.closest('.tab');
+  if(tab){
+    STATE.filterCat = tab.dataset.cat;
+    document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active', t===tab));
+    renderNewsList();
+    return;
+  }
+  // 标题显示模式切换
+  const tm = e.target.closest('.tm-btn');
+  if(tm){
+    STATE.titleMode = tm.dataset.mode;
+    localStorage.setItem('ai_pulse_title_mode', STATE.titleMode);
+    document.querySelectorAll('.tm-btn').forEach(x=>x.classList.toggle('active', x===tm));
+    renderNewsList();
+    return;
+  }
+  // 排序切换
+  const sb = e.target.closest('.sort-btn');
+  if(sb){
+    STATE.sortBy = sb.dataset.sort;
+    document.querySelectorAll('.sort-btn').forEach(x=>x.classList.toggle('active', x===sb));
+    renderNewsList();
+    return;
+  }
+  // 时间窗口筛选
+  const tf = e.target.closest('.tf-btn');
+  if(tf){
+    STATE.filterTime = tf.dataset.time;
+    document.querySelectorAll('.tf-btn').forEach(x=>x.classList.toggle('active', x===tf));
+    renderNewsList();
+    return;
+  }
+  // 快捷筛选（收藏/已读/未读）
+  const sf = e.target.closest('.filter-item');
+  if(sf){
+    const key = sf.dataset.special;
+    STATE.filterSpecial = STATE.filterSpecial === key ? 'all' : key;
+    renderSpecialFilters();
+    renderNewsList();
+    return;
+  }
+});
+
+// 搜索
+$('searchInput').addEventListener('input', e=>{
+  STATE.searchQuery = e.target.value.trim();
+  renderNewsList();
+});
+
+// 刷新
+$('refreshBtn').addEventListener('click', ()=>{
+  if(!$('refreshBtn').classList.contains('spinning')) fetchAllNews();
+});
+
+// 主题切换
+function toggleTheme(){
+  const isDark = document.documentElement.dataset.theme === 'dark';
+  document.documentElement.dataset.theme = isDark ? '' : 'dark';
+  localStorage.setItem('ai_pulse_theme', isDark ? 'light' : 'dark');
+  renderTrendChart();
+  renderScoreChart();
+  renderVendorChart();
+}
+$('themeBtn').addEventListener('click', toggleTheme);
+
+// 窗口缩放
+window.addEventListener('resize', ()=>{
+  ['chartTrend','chartScore','chartVendor'].forEach(id=>{
+    const c = $(id);
+    if(c) echarts.getInstanceByDom(c)?.resize();
+  });
+});
+
+/* ---------- 文章详情模态框 ---------- */
+async function openArticle(id) {
+  const news = STATE.news.find(n => n.id === id);
+  if (!news) return;
+
+  markRead(id);
+
+  // 显示模态框
+  const modal = $('articleModal');
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+
+  // 填充头部信息
+  const v = VENDOR_MAP[news.vendor] || {name:'其他', color:'#888', init:'?'};
+  $('modalHeader').innerHTML = `
+    <div class="modal-header-inner">
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <button class="modal-back-btn" onclick="closeArticle()">← 返回</button>
+        <button class="bookmark-btn ${STATE.bookmarks.includes(news.id)?'active':''}" onclick="toggleBookmark('${news.id}')" title="${STATE.bookmarks.includes(news.id)?'取消收藏':'收藏'}" style="font-size:20px">${STATE.bookmarks.includes(news.id)?'★':'☆'}</button>
+      </div>
+      <div class="modal-meta">
+        <span class="vendor-tag" style="background:${v.color}">${v.name}</span>
+        <span class="cat-tag ${news.category}">${catLabel(news.category)}</span>
+        <span class="impact ${news.impact}">${news.impact==='high'?'🔥 高影响':news.impact==='med'?'⚡ 中影响':'○ 低影响'}</span>
+        ${news.score!=null ? (()=>{ const b=scoreToBadge(news.score); return `<span class="score-badge ${b.cls}" title="AI智能评分">${b.label}<span class="score-num">${news.score}</span></span>`; })() : ''}
+        <span class="news-time">${timeAgo(news.pubDate)}</span>
+      </div>
+      <h1 class="modal-title" data-news-id="${news.id}">${TRANSLATION_CACHE[`en|zh:${news.title}`] || news.title}</h1>
+      <div class="modal-subtitle">来源：${news.source} · ${new Date(news.pubDate).toLocaleDateString('zh-CN')}</div>
+    </div>
+  `;
+
+  // 设置原文链接
+  $('originalLink').href = news.link;
+
+  // 异步翻译标题（如果未缓存）
+  if (!TRANSLATION_CACHE[`en|zh:${news.title}`] && /^[\x00-\x7F]+$/.test(news.title)) {
+    translateText(news.title).then(translated => {
+      const mel = document.querySelector('.modal-title[data-news-id="' + news.id + '"]');
+      if (mel && translated) mel.textContent = translated;
+    });
+  }
+
+  // 显示加载骨架屏，隐藏内容
+  $('modalLoading').style.display = 'block';
+  $('modalContent').style.display = 'none';
+  $('modalFooter').style.display = 'none';
+
+  // 尝试生成 AI 摘要
+  try {
+    const aiSummary = await generateAISummary(news);
+    $('modalContent').innerHTML = aiSummary;
+    $('modalContent').style.display = 'block';
+    $('modalFooter').style.display = 'flex';
+  } catch(e) {
+    // AI 摘要失败时，直接显示原始描述
+    $('modalContent').innerHTML = `
+      <div class="article-text">${news.summary}</div>
+      <div class="ai-fallback-note">⚠️ AI 摘要生成失败，显示原始内容</div>
+    `;
+    $('modalContent').style.display = 'block';
+    $('modalFooter').style.display = 'flex';
+  } finally {
+    $('modalLoading').style.display = 'none';
+  }
+}
+
+function closeArticle() {
+  const modal = $('articleModal');
+  modal.classList.remove('open');
+  document.body.style.overflow = '';
+  renderNewsList(); // 刷新已读状态
+  renderSpecialFilters(); // 刷新收藏/已读计数
+}
+
+/* ---------- 科普风格摘要模板库（大幅扩充） ---------- */
+const ANALYSIS_TEMPLATES = {
+  openai: {
+    intro: [
+      "OpenAI 再次出手，这次带来的是其在 AI 领域的最新动作，值得每一位关注人工智能发展的人仔细了解。作为生成式 AI 的开创者，OpenAI 的每一步都在重新定义行业标准。",
+      "作为生成式 AI 领域的开创者和领头羊，OpenAI 的一举一动都牵动着整个行业的神经，这次也不例外。从 ChatGPT 爆火到 GPT-4 震撼发布，这家公司已经证明了它引领潮流的能力。",
+      "OpenAI 又放大招了。从 ChatGPT 到 GPT-4，这家公司一直在重新定义人机交互的边界。每次发布都不是简单的功能更新，而是对整个行业格局的重塑。",
+      "当大家都在猜测 GPT-5 何时到来时，OpenAI 用这次新动作再次证明了它的创新能力。让我们深入看看这次到底有什么值得关注的地方。",
+    ],
+    tech: [
+      "从技术实现来看，这背后依托的是 OpenAI 在大规模语言模型上的深厚积累。通过海量数据预训练加上人类反馈强化学习（RLHF），模型能够生成更加符合人类预期的输出。这种技术路线的核心在于'规模即智能'——更大的模型、更多的数据、更长的训练时间，往往能带来质的飞跃。",
+      "OpenAI 的技术路线一直以规模化和安全性并重著称。这次更新很可能在模型架构、训练数据或对齐技术上做了新的优化，使得输出质量进一步提升。特别值得注意的是，OpenAI 在推理效率上的改进，这意味着同样的能力可以用更低的成本提供给用户。",
+      "深入技术细节，我们会发现 OpenAI 的模型训练涉及多个关键环节：数据清洗与筛选、预训练、监督微调（SFT）、RLHF 以及后期的安全对齐。每个环节的改进都会对最终输出产生显著影响。",
+    ],
+    impact: [
+      "这一动向很可能加速整个 AI 行业的竞争格局变化，迫使 Google、Anthropic 等竞争对手加快产品迭代节奏。在 AI 这个'赢家通吃'的市场中，先发优势往往意味着生态锁定效应。",
+      "对于开发者和企业用户来说，这意味着可以更快地构建基于 OpenAI 技术的应用，降低 AI 落地的门槛。更重要的是，OpenAI 的定价策略往往会影响整个行业的商业化路径。",
+      "从行业生态来看，OpenAI 的每一步都在重塑开发者生态。更多基于其平台的创新应用将涌现，形成正向飞轮。这种生态效应一旦形成，竞争对手将很难打破。",
+      "对于普通消费者而言，OpenAI 的技术进步最终会通过更智能的产品体验体现出来。无论是更准确的回答、更自然的对话，还是更强大的创作辅助能力，最终受益的都是终端用户。",
+    ],
+    history: [
+      "回顾 OpenAI 的发展历程，从 2015 年成立时的非营利研究机构，到 2022 年 ChatGPT 引爆全球 AI 热潮，再到如今成为估值近千亿美元的商业巨头，这家公司已经完成了从研究到产品的完美转型。",
+      "OpenAI 的历史上有几个关键里程碑：2018 年发布 GPT-1 证明了生成式预训练的有效性；2019 年 GPT-2 展示了惊人的文本生成能力；2020 年 GPT-3 让'提示工程'成为新职业；2022 年 ChatGPT 让 AI 真正走入大众视野；2023 年 GPT-4 将多模态能力推向新高度。",
+    ],
+  },
+  anthropic: {
+    intro: [
+      "Anthropic 作为 AI 安全领域的坚定倡导者，这次的新动向再次体现了其对'有用、无害、诚实'（Helpful, Harmless, Honest）三大原则的坚持。在安全与能力之间寻找平衡，是 Anthropic 一贯的技术哲学。",
+      "在 OpenAI 和 Google 的夹缝中，Anthropic 走出了一条差异化的道路：把 AI 安全放在产品迭代的核心位置。这种策略让它在追求商业成功的同时，赢得了学术界和政策制定者的信任。",
+      "Claude 背后的 Anthropic 公司又有新动作了。这家公司一直以对齐研究和长上下文能力闻名。在 AI 安全日益受到关注的今天，Anthropic 的声音越来越重要。",
+      "当我们谈论 AI 安全时，Anthropic 是绕不开的名字。这家公司由前 OpenAI 研究团队核心成员创立，带着对 AI 安全的深刻思考进入赛场。",
+    ],
+    tech: [
+      "Anthropic 的核心技术优势在于 Constitutional AI（宪法 AI）和先进的对齐技术，让模型在保持能力的同时更加可控。 Constitutional AI 的核心思想是让模型遵循一套预设的原则（宪法），通过自我批评和修正来优化输出。",
+      "从架构上看，Anthropic 的模型在上下文窗口和长文本理解方面一直有领先表现，这得益于其在注意力机制上的创新优化。Claude 能够处理数十万字的上下文，这在法律、医疗、科研等需要处理大量文档的场景中具有巨大优势。",
+      "Anthropic 的技术栈还有一个独特之处：它非常重视可解释性研究。通过理解模型'在想什么'，研究团队能够更精准地控制模型行为，减少不可预测的输出。",
+    ],
+    impact: [
+      "这一进展对 AI 安全社区是一剂强心针，证明高性能和安全性并非不可兼得。这可能会影响整个行业对 AI 安全投入的态度和优先级。",
+      "对于需要处理敏感数据的企业客户来说，Anthropic 的可靠性和可控性使其成为越来越有吸引力的选择。在金融、医疗、法律等高风险行业，安全性往往是第一优先级。",
+      "Anthropic 的成功也证明了一个商业命题：安全不仅是成本，也可以是差异化竞争优势。在 AI 能力趋于同质化的趋势下，'更安全'可能成为用户选择的关键因素。",
+    ],
+    history: [
+      "Anthropic 成立于 2021 年，由 Dario 和 Daniela Amodei 兄妹领衔，两人都是前 OpenAI 核心研究人员。成立之初就获得了 5 亿美元融资，2023 年又获得 Google 30 亿美元投资，2024 年亚马逊追加 40 亿美元。",
+      "Anthropic 的 Claude 系列模型从 2023 年初开始逐步推出，凭借出色的长上下文能力和安全性迅速获得市场认可。Claude 3 系列的发布标志着 Anthropic 在综合能力上达到了与 GPT-4 竞争的水平。",
+    ],
+  },
+  google: {
+    intro: [
+      "Google DeepMind 带着它的技术底蕴又来了。作为 AI 研究历史最悠久、资源最雄厚的团队之一，Google 每次发声都不容忽视。从搜索到云、从手机到智能家居，AI 已经渗透到 Google 的每一条产品线。",
+      "在 Gemini 系列不断迭代的背景下，Google 这次释放了什么信号？让我们深入看看。作为拥有全球最多用户数据的科技公司之一，Google 在 AI 应用落地方面有着得天独厚的优势。",
+      "Google 在 AI 领域的布局堪称全产业链覆盖：从底层 TPU 芯片到上层应用，从基础研究到产品落地。这种垂直整合能力是其他公司难以复制的核心竞争力。",
+      "当我们还在讨论某个 AI 功能是否可行时，Google 可能已经把它部署到了数十亿用户的设备上。这就是拥有完整产品矩阵的科技巨头的实力。",
+    ],
+    tech: [
+      "Google 的技术栈一直具有独特的系统性优势：自研 TPU 芯片提供算力，TensorFlow/JAX 构建生态，Gemini 模型作为核心产品形成完整闭环。这种从芯片到应用的垂直整合，让 Google 在优化效率上拥有独特优势。",
+      "DeepMind 在强化学习和多模态理解方面的积累，为 Gemini 提供了坚实的研究基础。这次更新很可能整合了最新的研究成果。值得注意的是，Google 在多模态理解（同时处理文本、图像、音频、视频）方面一直处于领先地位。",
+      "从工程实现角度看，Google 的另一个优势是全球分布式基础设施。它的 AI 服务可以在全球多个数据中心就近部署，这意味着更低的延迟和更好的用户体验。",
+    ],
+    impact: [
+      "Google 的每一次重大更新都会直接影响数十亿用户的使用体验，其影响力远超一般的产品发布。当 Gemini 集成到搜索、Gmail、Docs 等产品中时，普通用户甚至不会意识到自己正在使用 AI。",
+      "这对 OpenAI 构成了直接竞争压力，可能促使后者加快 GPT 系列的下一代研发节奏。Google 的'免费+广告'商业模式也对 OpenAI 的订阅制构成了挑战。",
+      "对于 Android 生态的开发者来说，Google 的 AI 能力开放意味着可以在应用中轻松集成强大的智能功能，这将进一步巩固 Android 生态的竞争力。",
+    ],
+    history: [
+      "Google 的 AI 之路可以追溯到 2011 年 Google Brain 的成立。2014 年收购 DeepMind 是一个转折点，将顶尖 AI 研究纳入麾下。2017 年 Transformer 架构的论文《Attention Is All You Need》出自 Google 团队，至今仍是 NLP 领域的基石。",
+      "从 Bard 到 Gemini，Google 的对话 AI 产品经历了快速迭代。虽然初期在 ChatGPT 的压力下显得有些仓促，但 Gemini 1.5 及后续版本的发布证明 Google 正在找回自己的节奏。",
+    ],
+  },
+  huggingface: {
+    intro: [
+      "Hugging Face 作为开源 AI 生态的核心枢纽，这次的新动态再次证明了开源社区的力量。在 AI 领域，Hugging Face 已经从一个'表情包公司'成长为不可或缺的基础设施提供者。",
+      "如果说 OpenAI 代表了 AI 的'闭源精英路线'，那么 Hugging Face 就是'开源民主化'的最强代言人。它让最先进的 AI 技术不再只是大公司的专利。",
+      "Hugging Face 的每一次重要更新，都意味着全球数百万开发者可以更容易地获取、使用和贡献 AI 技术。这种开放协作的模式正在改变 AI 创新的速度和质量。",
+    ],
+    tech: [
+      "Hugging Face 的 Transformers 库已经成为事实上的行业标准，几乎所有主流模型都会在这里发布官方实现。从 BERT 到 GPT，从 Llama 到 Qwen，你想得到的模型几乎都能在这里找到。",
+      "开源生态的最大价值在于可复现性和社区协作。Hugging Face 通过标准化模型格式和训练流程，极大降低了研究门槛。一个研究生可以在自己的笔记本电脑上复现顶会论文的结果——这在 Hugging Face 出现之前是难以想象的。",
+      "除了模型托管，Hugging Face 还在数据集、评估基准、推理部署等方面建立了完整工具链。这种一站式解决方案让开发者可以专注于应用创新，而不必重复造轮子。",
+    ],
+    impact: [
+      "开源模型的每一次进步，都意味着中小企业和个人开发者能够以接近零成本使用顶尖 AI 能力。这对于创新生态的繁荣至关重要——不是每家公司都有数十亿美元的 AI 预算。",
+      "这对闭源商业模型形成了有力制衡，推动整个行业在开放与商业之间寻找平衡点。Meta 的 Llama 系列选择部分开源，很大程度上就是受到了开源社区成功的启发。",
+      "Hugging Face 的成功也催生了一种新的商业模式：围绕开源核心技术构建商业化服务。这种'开放核心'（Open Core）策略正在被越来越多的 AI 公司效仿。",
+    ],
+    history: [
+      "Hugging Face 成立于 2016 年，最初是一个聊天机器人应用公司。2019 年转型开源后，发布了 Transformers 库，迅速获得开发者社区的热烈响应。2023 年完成 2.35 亿美元 D 轮融资，估值达到 45 亿美元。",
+      "Hugging Face 的崛起恰逢 AI 模型规模快速增长的时期。它提供的标准化接口让开发者可以轻松切换不同模型，这种'即插即用'的体验极大降低了实验成本。",
+    ],
+  },
+  deepmind: {
+    intro: [
+      "DeepMind 作为 Google 旗下的顶级 AI 研究机构，一直站在人工智能探索的最前沿。与大多数追求商业化的 AI 公司不同，DeepMind 保持着浓厚的学术研究气质。",
+      "从 AlphaGo 到 AlphaFold，DeepMind 的历史就是一部 AI 突破史。这次他们又带来了什么？每一项成果都可能成为未来数年技术发展的基石。",
+      "DeepMind 的研究往往不局限于当下可用的技术，而是着眼于 AI 的根本性突破。这种'登月思维'让它在通用人工智能（AGI）的研究道路上走得很远。",
+    ],
+    tech: [
+      "DeepMind 的研究方法论一直以深度强化学习和科学发现为导向，其技术深度在学术界有口皆碑。从围棋到蛋白质折叠，从核聚变控制到天气预报，DeepMind 的技术版图异常广阔。",
+      "DeepMind 近年来在大型语言模型领域也投入了大量资源。Gemini 项目就是 DeepMind 和 Google Brain 合并后的产物，融合了两大团队的研究成果。",
+    ],
+    impact: [
+      "DeepMind 的研究成果往往具有基础性意义，可能在数年后才完全显现其商业价值。AlphaFold 对生物医学的影响就是一个绝佳例子——它解决了困扰科学家 50 年的蛋白质结构预测问题。",
+      "对于整个 AI 研究社区来说，DeepMind 发表的论文往往是必读材料。它的研究方法、实验设计和理论洞见为整个行业树立了标杆。",
+    ],
+    history: [
+      "DeepMind 成立于 2010 年，2014 年被 Google 以约 5 亿美元收购。创始人 Demis Hassabis 是围棋神童、游戏设计师和神经科学家的独特组合，这种跨学科背景深深影响了 DeepMind 的研究方向。",
+      "DeepMind 的历史上有多个里程碑：2015 年 AlphaGo 击败李世石；2018 年 AlphaFold 在 CASP12 中一鸣惊人；2020 年 AlphaFold 2 达到原子级精度；2023 年与 Google Brain 合并为 Google DeepMind。",
+    ],
+  },
+  kimi: {
+    intro: [
+      "月之暗面（Moonshot AI）旗下的 Kimi 是国内大模型赛道的重要玩家，以超长上下文窗口著称。在国产大模型百花齐放的 2024 年，Kimi 凭借差异化定位成功突围。",
+      "在国产大模型百花齐放的今天，Kimi 凭借其在长文本处理上的独特优势，走出了一条差异化道路。当大家都在比拼模型参数时，Kimi 选择把'长'做到极致。",
+      "Kimi 的崛起是国产 AI 创新活力的缩影。它证明了即使在算力和数据资源相对有限的情况下，通过聚焦特定场景也能建立竞争壁垒。",
+    ],
+    tech: [
+      "Kimi 的技术亮点在于对超长上下文的支持能力，这背后涉及复杂的位置编码优化和显存管理技术。传统 Transformer 的注意力机制复杂度随序列长度平方增长，Kimi 通过技术创新打破了这一瓶颈。",
+      "除了长上下文，Kimi 在多轮对话一致性、中文语义理解等方面也有独到之处。这些技术积累让它在特定场景下能够提供超越国际竞品的使用体验。",
+    ],
+    impact: [
+      "国产大模型的崛起意味着中国市场在 AI 基础设施上有了更多自主可控的选择，降低了对国外技术的依赖。在数据安全和合规要求日益严格的背景下，这一点尤为重要。",
+      "Kimi 的成功也为其他国产 AI 公司提供了启示：与其在通用能力上与国际巨头正面竞争，不如深耕特定场景建立差异化优势。",
+    ],
+    history: [
+      "月之暗面（Moonshot AI）成立于 2023 年 3 月，由清华大学和卡内基梅隆大学背景的团队创立。成立不到一年就完成多轮融资，估值超过 30 亿美元，成为中国 AI 创业浪潮中的明星公司。",
+      "Kimi 的名字来源于团队对'登月'（Moonshot）精神的认同。创始人杨植麟认为，大模型技术的突破需要长期主义和极致追求的'登月思维'。",
+    ],
+  },
+  qwen: {
+    intro: [
+      "阿里巴巴通义千问（Qwen）系列是国内开源大模型的标杆之作，其技术影响力已经超越国界。当很多国内模型还在封闭研发时，Qwen 选择了开放路线，这个决策的战略价值正在逐步显现。",
+      "Qwen 的成功证明了中国科技公司在大模型研发上已具备与国际顶尖水平同台竞技的实力。它不仅是阿里的技术名片，更是中国 AI 创新能力的重要象征。",
+      "在全球开源模型生态中，Qwen 已经成为不可忽视的力量。从 Qwen-7B 到 Qwen-72B，从语言模型到多模态模型，Qwen 家族正在快速成长。",
+    ],
+    tech: [
+      "Qwen 系列模型在训练数据的多语言覆盖和代码能力上表现突出，这得益于阿里巴巴在电商、云计算等场景积累的海量数据。多语言能力是 Qwen 区别于 Llama 等英语为主模型的重要特色。",
+      "从技术架构来看，Qwen 采用了当前业界主流的大模型设计范式，但在数据配比、训练策略和后处理上做了大量针对性优化。特别是在中文理解和生成方面，Qwen 的表现 often 优于同等规模的国际模型。",
+    ],
+    impact: [
+      "Qwen 的开源策略对全球开发者社区贡献巨大，许多海外项目都开始基于 Qwen 进行微调。这种'墙内开花墙外香'的现象，说明技术实力才是获得国际认可的根本。",
+      "对于阿里云来说，Qwen 不仅是技术产品，更是云服务生态的重要入口。通过开源模型吸引开发者，再引导至云平台获取商业化服务，这是一个已经被验证有效的商业模式。",
+    ],
+    history: [
+      "通义千问于 2023 年 4 月首次对外测试，8 月正式开源 Qwen-7B 和 Qwen-7B-Chat。此后快速迭代，陆续发布 14B、72B 版本以及多模态、代码专用等衍生模型。",
+      "Qwen 的开源策略在国内大厂中较为激进，这与其在云计算市场的竞争态势有关。通过开源建立生态影响力，是阿里云与 AWS、Azure 等国际化竞争对手抗衡的重要手段。",
+    ],
+  },
+  deepseek: {
+    intro: [
+      "DeepSeek（深度求索）以极高的训练效率和开源策略迅速崛起，成为 AI 领域的现象级公司。在 2024 年初，DeepSeek V3 的发布让整个行业重新思考大模型训练的成本结构。",
+      "在算力受限的背景下，DeepSeek 通过极致的工程优化实现了'以小博大'，对整个行业都有启示意义。它证明了算法创新可以部分弥补硬件资源的不足。",
+      "DeepSeek 的崛起是一个典型的'技术逆袭'故事。当外界普遍认为大模型竞赛是'有钱人的游戏'时，它用实际成果证明了工程创新的价值。",
+    ],
+    tech: [
+      "DeepSeek 的技术核心在于训练效率的极致优化：通过改进注意力机制、混合专家模型（MoE）架构和训练策略，用更少的资源达到更好的效果。其训练成本 reportedly 只有同类模型的几分之一。",
+      "DeepSeek 在 MoE 架构上的创新尤为值得关注。传统的密集模型（Dense Model）在推理时所有参数都参与计算，而 MoE 架构可以动态选择部分'专家'网络，在保持能力的同时大幅降低推理成本。",
+    ],
+    impact: [
+      "DeepSeek 的出现证明了大模型训练并非只有'大力出奇迹'一条路，算法和工程创新同样重要。这对于资源相对有限的团队是极大的鼓舞。",
+      "从行业成本结构来看，DeepSeek 的技术突破意味着 AI 能力的价格可能进一步下降。当训练成本大幅降低时，模型的商业化和普及速度都会加快。",
+      "DeepSeek 的成功也可能促使更多公司重新审视自己的技术路线——是继续堆砌算力，还是投入更多资源到算法创新上？",
+    ],
+    history: [
+      "DeepSeek（杭州深度求索人工智能基础技术研究有限公司）成立于 2023 年 5 月，由幻方量化创立。幻方是中国顶尖的量化对冲基金，在 AI 和算力方面有着深厚积累。",
+      "DeepSeek 在 2024 年初发布的 V3 模型 reportedly 仅用约 600 万美元的训练成本就达到了接近 GPT-4 的水平，这个消息在 AI 社区引发了巨大震动。随后发布的 R1 推理模型进一步巩固了其技术声誉。",
+    ],
+  },
+  other: {
+    intro: [
+      "这则 AI 行业动态虽然来自非头部厂商，但同样反映了当前技术发展的趋势和热点。在 AI 这个快速演进的领域，今天的'小众'可能就是明天的主流。",
+      "AI 行业的创新不仅来自巨头，许多中小团队和研究机构也在做出重要贡献。历史上很多改变行业的技术最初都来自小团队——Google  itself 就是从斯坦福的研究生项目起步的。",
+      "关注非头部厂商的动态，往往能更早发现行业趋势的变化。当技术成熟到可以被小公司采用时，往往意味着它即将进入大规模普及阶段。",
+    ],
+    tech: [
+      "从技术层面看，这体现了当前 AI 领域在模型能力、应用场景或工程实践上的持续探索。每一个小的改进，都可能是更大突破的前奏。",
+      "非头部厂商往往会在特定细分领域做出独特创新。因为他们没有大公司的包袱，可以更灵活地尝试新思路、新方法。",
+    ],
+    impact: [
+      "这类动态往往预示着新的技术方向或市场机会，值得行业观察者保持关注。在 AI 行业，颠覆往往来自意想不到的方向。",
+      "对于投资者来说，早期发现这些'潜力股'可能带来超额回报。历史上，很多 AI 独角兽在成名之前都经历过被低估的阶段。",
+    ],
+    history: [
+      "AI 领域的创新历来呈现多元化特征。从学术界的突破性论文到创业公司的产品创新，从个人开发者的开源贡献到大企业的战略布局，每一个环节都在推动行业前进。",
+      "回顾 AI 发展史，很多今天的大公司都曾经历过'other'阶段。OpenAI 在 2015 年成立时也只是一家小型非营利研究机构。",
+    ],
+  },
+};
+
+const TECH_EXPLANATION_TEMPLATES = {
+  Release: {
+    what: [
+      "这次发布的产品/技术，本质上是在解决当前 AI 应用中的某个核心痛点。它不是简单的功能堆砌，而是针对用户实际需求做出的系统性改进。很多时候，用户需要的不是更强大的模型，而是更可靠、更易用的产品。",
+      "从产品的定位来看，这次发布瞄准的是 AI 落地过程中的关键瓶颈，试图通过技术创新打开新的应用场景。发布一款产品不仅仅是技术的展示，更是对市场需求深刻理解的体现。",
+      "要理解这次发布的意义，我们需要把它放在整个产品路线图上看。它可能是某个长期战略的阶段性成果，也可能是对市场变化的快速响应。",
+    ],
+    how: [
+      "从技术架构来看，它采用了当前业界最先进的方法论：更大规模的预训练、更精细的对齐策略、更高效的推理优化，三管齐下提升综合表现。这种全方位的改进策略，说明团队在产品化方面做了充分准备。",
+      "背后的核心思路是通过改进模型对上下文的理解深度，以及输出质量的稳定性，让 AI 从'能用'走向'好用'。技术团队很可能在训练数据的质量筛选、模型架构的微调、以及推理阶段的优化上下了很大功夫。",
+      "如果深入底层技术，我们会发现这次改进涉及多个层面：数据层面（更高质量、更多样化的训练数据）、算法层面（更先进的架构设计和训练策略）、工程层面（更高效的推理和部署方案）。",
+    ],
+    why: [
+      "为什么这很重要？因为在实际应用中，用户最在意的往往不是模型在基准测试上的分数，而是它能否稳定、可靠地解决真实问题。这次更新正是朝着这个方向迈进。一个真正好用的 AI 产品，需要在准确性、一致性、响应速度和成本之间找到最佳平衡点。",
+      "其价值在于降低了高质量 AI 应用的技术门槛。以前需要复杂 prompt 工程才能完成的任务，现在可能通过更自然的交互就能实现。这意味着 AI 技术正在从'专家工具'向'大众产品'转变。",
+      "从更宏观的角度看，这次发布反映了 AI 行业从'技术竞赛'向'产品竞争'的转变。模型能力固然重要，但如何把这些能力封装成用户愿意付费的产品，才是商业化成功的关键。",
+    ],
+    diff: [
+      "与上一代或竞品相比，这次的改进不是渐进式的优化，而是在关键能力上实现了跨越。具体体现在理解深度、生成质量和响应速度等多个维度的同步提升。这种全方位的进步，往往需要团队在多个技术方向上同时取得突破。",
+      "值得注意的是，这次更新很可能在'长上下文理解'或'多轮对话一致性'等之前被视为难题的领域取得了突破。这些能力的提升虽然不会在基准测试上体现为耀眼的数字，但对实际用户体验的影响却是实实在在的。",
+      "对比同类产品的发布节奏，这次更新的时机选择也很有讲究。太早发布可能技术不成熟，太晚发布可能错失市场窗口。选择在此时推出，说明团队对技术成熟度和市场时机都有准确判断。",
+    ],
+  },
+  Product: {
+    what: [
+      "这次产品更新聚焦于提升用户体验和扩展功能边界。它不只是修修补补，而是在产品战略层面的重要迭代。产品团队显然花了大量时间研究用户反馈和使用数据，找出了最需要改进的关键环节。",
+      "从用户视角来看，这次更新解决的是日常使用中遇到的实际问题。无论是响应速度、交互方式还是输出质量，每一个改进点都对应着真实用户痛点。",
+    ],
+    how: [
+      "从实现方式上看，产品团队很可能结合了最新的模型能力升级和前端交互创新，让复杂 AI 能力以更直观的方式呈现给用户。技术能力的提升只有被用户感知到，才真正产生价值。",
+      "产品更新的背后往往是跨部门协作的结果：研究团队提供新的模型能力，产品团队设计交互方案，工程团队确保稳定部署，运营团队收集反馈优化。这次更新体现了这种协作的成效。",
+    ],
+    why: [
+      "产品层面的优化往往比模型层面的突破更直接影响用户留存。一个响应更快、界面更友好、错误更少的 AI 产品，用户粘性会显著提升。在竞争激烈的 AI 市场，产品体验往往是决定用户去留的关键因素。",
+      "更重要的是，产品迭代节奏的加快本身就是在向市场传递信号：这家公司有能力持续创新、快速响应。这种'执行力'在技术差距不大的情况下，往往成为竞争的分水岭。",
+    ],
+    diff: [
+      "相比之前的版本，这次更新在易用性和稳定性上都有明显改进。对于日常使用者来说，这些'润物细无声'的优化可能比参数量的增加更有感知价值。产品团队深谙一个道理：用户不会关心你用了多少参数，只会关心问题有没有被解决。",
+      "横向对比竞品，这次更新可能是在某个特定场景下建立了差异化优势。在 AI 产品日趋同质化的今天，找到并强化自己的独特价值主张尤为重要。",
+    ],
+  },
+  Research: {
+    what: [
+      "这项研究的核心贡献在于提出了新的方法或发现了新的规律，为 AI 领域的某个长期难题提供了全新的解决思路。好的研究往往不是给出答案，而是提出更好的问题。",
+      "从研究动机来看，团队选择这个方向说明他们识别出了当前技术路径中的根本性限制，并试图通过创新方法突破这些限制。这种'问题导向'的研究思路是产生高影响力工作的关键。",
+    ],
+    how: [
+      "研究团队通过严谨的实验设计和大量的对比验证，证明了新方法在特定任务上的有效性。这种基于证据的研究范式是科学进步的基石。论文中的每一个实验都经过精心设计，旨在排除干扰因素、确保结论可靠。",
+      "如果细读论文，我们会发现研究团队在方法设计上的巧思。他们可能借鉴了其他领域的技术（如物理学、生物学或认知科学），将其与 AI 结合产生新的突破。跨学科思维往往是创新的催化剂。",
+    ],
+    why: [
+      "学术研究的价值往往不会立即体现在产品中，但它为未来的技术突破埋下了种子。今天的基础研究，可能就是明天的行业标准。回顾 AI 发展史，很多改变行业的技术都源于多年前看似'无用'的学术研究。",
+      "这项研究的意义还在于它为后续研究者提供了新的工具和视角。即使方法本身不直接可用，其思想也可能启发其他团队做出更重要的突破。科学进步往往是累积性的，每一项工作都在为下一项铺路。",
+    ],
+    diff: [
+      "与之前的工作相比，这项研究在方法创新、实验规模或理论深度上都有显著提升，代表了该子领域的最新进展。特别值得注意的是，研究团队不仅在方法上创新，还可能开源了代码和数据，让社区可以复现和验证其结果。",
+      "从研究趋势来看，这项工作可能代表了一个新兴方向的开端。如果后续有更多团队跟进、改进和扩展，那么这篇论文就可能成为该领域的奠基之作。",
+    ],
+  },
+  Funding: {
+    what: [
+      "这轮资本运作不仅是对公司过往成绩的认可，更是对其未来发展潜力的押注。资金的注入将直接影响其技术研发和市场扩张的速度。对于 AI 公司来说，融资不仅仅是钱的问题，更是资源整合能力的体现。",
+      "从投资人的角度看，选择在这个时点投资这家公司，说明他们看到了某些市场尚未充分认识到价值。聪明的投资者往往在趋势明朗之前就已布局。",
+    ],
+    how: [
+      "从资本运作的角度看，此次融资可能涉及战略投资者和产业资本的参与，这意味着投资方看重的不仅是财务回报，还有生态协同价值。比如云计算厂商投资 AI 公司，既是为了财务回报，也是为了带动自身云服务的使用。",
+      "融资条款中的细节（如估值、股份比例、董事会席位、对赌条款等）往往能反映投资双方的地位和预期。高估值固然光鲜，但也意味着更高的业绩压力和退出期望。",
+    ],
+    why: [
+      "在 AI 这个烧钱的赛道上，充足的弹药是持续竞争力的保障。融资成功意味着公司可以在人才争夺、算力采购和产品研发上投入更多资源。在顶级 AI 研究人员年薪动辄数百万美元的今天，资金直接决定了能组建多强的团队。",
+      "更重要的是，大额融资本身就是一种市场信号。它向客户、合作伙伴和潜在员工传递了'这家公司值得信任'的信息。在 AI 这个充满不确定性的领域，信心有时候比现金更有价值。",
+    ],
+    diff: [
+      "与同类公司相比，这轮融资的估值和规模反映了资本市场对其独特定位的认可。在 AI 投资逐渐理性的当下，能获得大额融资本身就是一种实力证明。经历过 2023 年的投资热潮后，投资者变得更加挑剔，只有真正具备技术壁垒和商业前景的公司才能获得青睐。",
+      "纵向比较这家公司自身的融资历史，如果本轮估值相比上一轮有大幅提升，说明其业务发展和技术进展得到了资本的高度认可。这种'阶梯式'的成长轨迹是健康公司的典型特征。",
+    ],
+  },
+  Agent: {
+    what: [
+      "智能体（AI Agent）代表着 AI 从'回答问题'向'执行任务'的范式转变。这次进展意味着 AI 系统能够更自主地规划、调用工具并完成复杂目标。如果说聊天机器人是'顾问'，那么 Agent 就是'助手'——不仅能给建议，还能动手做事。",
+      "Agent 技术的核心在于'自主性'：给定一个目标，Agent 能够自主分解任务、选择工具、执行步骤、处理异常，直到目标达成。这种能力让 AI 从'被动响应'走向'主动执行'。",
+    ],
+    how: [
+      "实现这一能力需要多个技术模块的协同：任务规划模块负责拆解目标，工具调用模块负责与外部系统交互，记忆模块负责保持上下文连贯性，反思模块负责自我纠错。这些模块的协调配合是 Agent 系统设计的核心挑战。",
+      "从技术演进来看，现代 Agent 的能力提升得益于底层大模型的进步。更强的推理能力、更可靠的工具使用、更长的上下文记忆，都为 Agent 的实用性提供了基础。但如何把这些能力整合成一个稳定可靠的系统，仍然是一个开放性问题。",
+    ],
+    why: [
+      "Agent 是通往通用人工智能（AGI）的重要中间形态。当 AI 不仅能理解指令，还能自主执行时，其商业价值将呈指数级增长。想象一下，一个能自动帮你订机票、安排会议、撰写报告、回复邮件的 AI 助手，其效率提升是惊人的。",
+      "从产业应用的角度看，Agent 技术有望率先在客服、运维、数据分析、内容创作等重复性工作较多的领域落地。这些场景的特点是任务相对明确、流程可以标准化，最适合 Agent 发挥优势。",
+    ],
+    diff: [
+      "与早期的聊天机器人或简单自动化工具相比，现代 AI Agent 的核心区别在于'自主性'和'适应性'——它能在不确定环境中做出决策并调整策略。传统的自动化工具只能处理预定义的规则和流程，而 Agent 可以处理开放式、动态变化的任务。",
+      "与几个月前的 Agent 技术相比，这次进展可能在'可靠性'和'泛化性'上有所提升。早期的 Agent 演示往往很惊艳，但在真实场景中经常出错。如何平衡'能力'和'可靠性'，是 Agent 技术从 demo 走向产品的关键。",
+    ],
+  },
+  Safety: {
+    what: [
+      "AI 安全研究关注的是如何确保强大 AI 系统的行为符合人类意图。这次动态涉及的是 AI 治理、风险评估或对齐技术上的重要进展。在 AI 能力快速提升的背景下，安全研究的重要性怎么强调都不为过。",
+      "这次的安全动态可能涉及多个层面：技术层面（如何让模型更可控）、制度层面（如何建立有效的治理机制）、社会层面（如何应对 AI 带来的广泛影响）。这些维度相互交织，构成了 AI 安全的复杂图景。",
+    ],
+    how: [
+      "从技术手段上看，这可能涉及红队测试、Constitutional AI、可解释性研究或防御机制设计等多种方法的综合应用。安全不是单一技术能解决的问题，需要多层次、多角度的防御体系。",
+      "具体而言，这次的技术进展可能在以下某个方面取得了突破：更精确的价值对齐方法、更 robust 的对抗攻击防御、更有效的模型行为监控、或更透明的决策过程。每一项进步都让 AI 系统向'可信'更近一步。",
+    ],
+    why: [
+      "随着 AI 能力的快速提升，安全研究不再是可选项而是必选项。一个在安全方面有所松懈的 AI 系统，能力越强反而风险越大。这不是危言耸听——随着 AI 被用于越来越关键的决策场景（医疗诊断、金融交易、法律咨询等），任何安全漏洞都可能造成严重后果。",
+      "从更宏观的角度看，AI 安全关系到整个行业的可持续发展。如果公众对 AI 的安全性失去信任，监管收紧、采用放缓，最终损害的是所有从业者的利益。因此，投入安全研究不仅是对用户负责，也是对行业未来负责。",
+    ],
+    diff: [
+      "与以往的安全讨论多为理论层面不同，这次的进展更强调可落地的实践方案，试图在理论研究和工程实现之间搭建桥梁。从'应该做什么'到'具体怎么做'，是 AI 安全领域的重要转变。",
+      "对比不同厂商的安全策略，我们会发现各自的侧重点有所不同：有的注重技术对齐，有的强调红队测试，有的聚焦透明度和可解释性。这种多元化的安全研究格局，有助于从不同角度构建更全面的防护体系。",
+    ],
+  },
+};
+
+const BLOGGER_COMMENTS = [
+  "这条资讯值得持续关注，后续很可能会有更多相关动态浮出水面。根据我的经验，这种级别的发布往往是一系列动作的序幕。",
+  "从目前的公开信息来看，这个方向的潜力被低估了，建议保持跟踪。很多时候，真正的影响要过几个月才能完全显现。",
+  "不得不说，这波操作确实有水平，体现了团队对技术和市场的深刻理解。在 AI 这个快速变化的领域，能做出正确战略选择本身就是一种能力。",
+  "对于普通用户来说，这可能是个利好消息——竞争越激烈，我们能用到的产品就越好。而且价格很可能还会进一步下降。",
+  "技术细节虽然复杂，但最终受益的还是我们使用者，期待早日体验到实际效果。毕竟技术的价值最终要通过产品来体现。",
+  "又是一个'看着不起眼，实际影响深远'的进展，AI 行业就是这样充满惊喜。习惯了这个行业的节奏后，你会发现几乎每周都有值得关注的事情发生。",
+  "值得关注的不只是这个消息本身，而是它背后折射出的行业趋势和战略意图。看懂趋势比看懂单个事件更重要。",
+  "作为一个长期关注 AI 的博主，我觉得这次发布最打动我的不是技术指标，而是它展现出的产品思维。技术最终要服务于人。",
+  "如果让我用一句话总结这次动态的意义，那就是：AI 行业正在从'炫技'走向'务实'，这对于整个生态的健康发展是好事。",
+  "每次看到这样的进展，我都会感慨 AI 发展的速度远超想象。三年前还被认为是科幻的能力，今天已经成为产品功能。",
+  "对于想进入 AI 行业的朋友，我的建议是：不要只盯着大公司的动态，像今天这样的'小众'创新往往蕴含着更多机会。",
+  "坦白说，这个方向我盯了很久，这次终于等到了实质性进展。相信后续会有更多团队跟进，形成新的技术热点。",
+];
+
+/* 从文本中提取关键句 */
+function extractKeySentences(text, count=5) {
+  // 先彻底清理 HTML 标签和实体
+  let clean = text
+    .replace(/<[^>]+>/g, ' ')        // 去掉所有 HTML 标签
+    .replace(/&[a-z]+;/gi, ' ')       // 去掉 HTML 实体 (&nbsp; &amp; 等)
+    .replace(/&#[0-9]+;/g, ' ')       // 去掉数字实体
+    .replace(/\s+/g, ' ')             // 合并多余空格
+    .trim();
+  const sentences = clean.split(/[.!?。！？\n]+/).filter(s => s.trim().length > 15);
+  const scored = sentences.map(s => {
+    let score = 0;
+    const lower = s.toLowerCase();
+    if (/\d+/.test(s)) score += 2;
+    if (/\b(gpt|claude|gemini|llama|model|ai|training|benchmark|parameter|token)\b/i.test(s)) score += 2;
+    if (/\b(new|first|launch|release|announce|introduce|unveil)\b/i.test(lower)) score += 1;
+    if (s.length > 30 && s.length < 200) score += 1;
+    return { sentence: s.trim(), score };
+  });
+  scored.sort((a, b) => b.score - a.score);
+  return scored.slice(0, count).map(x => x.sentence);
+}
+
+/* 随机选取模板 */
+function pick(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
+
+/* 将英文内容翻译为中文（用于摘要中的原文引用） */
+async function translateForSummary(text) {
+  if (!text) return '';
+  // 如果已经缓存，直接返回
+  const key = `en|zh:${text}`;
+  if (TRANSLATION_CACHE[key]) return TRANSLATION_CACHE[key];
+  // 否则尝试翻译（但不阻塞）
+  translateText(text).then(t => {});
+  return text;
+}
+
+/* ---------- AI 摘要生成 ---------- */
+async function generateAISummary(news) {
+  // 深度抓取原文：尝试多种方式获取更多内容
+  let fullText = news.summary || '';
+  let extractedParagraphs = [];
+
+  // 方式1：通过 allorigins 抓取原文 HTML
+  try {
+    const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(news.link)}`;
+    const resp = await fetch(proxyUrl, { signal: AbortSignal.timeout(8000) });
+    if (resp.ok) {
+      const html = await resp.text();
+      const doc = new DOMParser().parseFromString(html, 'text/html');
+      doc.querySelectorAll('script,style,nav,footer,header,aside,iframe,form').forEach(el => el.remove());
+
+      // 尝试提取 article 标签内容
+      let articleText = '';
+      const article = doc.querySelector('article');
+      if (article) {
+        articleText = article.innerText.trim();
+        extractedParagraphs = article.innerText.split(/\n+/).filter(p => p.trim().length > 40).slice(0, 20);
+      }
+      // 尝试提取 main 标签内容
+      if (!articleText) {
+        const main = doc.querySelector('main');
+        if (main) {
+          articleText = main.innerText.trim();
+          extractedParagraphs = main.innerText.split(/\n+/).filter(p => p.trim().length > 40).slice(0, 20);
+        }
+      }
+      // 最后尝试 body 中较长段落
+      if (!articleText) {
+        const bodyParas = Array.from(doc.querySelectorAll('p'))
+          .map(p => p.innerText.trim())
+          .filter(t => t.length > 60 && t.length < 800);
+        if (bodyParas.length > 0) {
+          articleText = bodyParas.join('\n\n');
+          extractedParagraphs = bodyParas.slice(0, 20);
+        }
+      }
+
+      if (articleText.length > 100) {
+        fullText = articleText.slice(0, 4000);
+      }
+    }
+  } catch(e) {
+    console.warn('原文抓取失败:', e.message);
+  }
+
+  // 方式2：如果 rss2json 有 content 字段（通常比 description 更完整）
+  if (news._rawContent && news._rawContent.length > fullText.length) {
+    // 清理 HTML 标签后再使用
+    fullText = news._rawContent.replace(/<[^>]+>/g, ' ').replace(/&[a-z]+;/gi, ' ').replace(/&#[0-9]+;/g, ' ').replace(/\s+/g, ' ').trim();
+  }
+
+  // 方式3：尝试通过 rss2json 的 enclosure 或其他字段获取更多内容（暂无）
+
+  // 合并提取到的段落作为素材
+  const material = {
+    title: news.title,
+    summary: news.summary,
+    fullText: fullText,
+    paragraphs: extractedParagraphs,
+    keySentences: extractKeySentences(fullText, 6),
+    vendor: news.vendor,
+    category: news.category,
+    impact: news.impact,
+    source: news.source,
+    link: news.link,
+  };
+
+  // 生成结构化摘要
+  return generateSmartSummary(material);
+}
+
+function generateSmartSummary(m) {
+  const v = VENDOR_MAP[m.vendor] || { name: '其他', color: '#888' };
+  const tmpl = ANALYSIS_TEMPLATES[m.vendor] || ANALYSIS_TEMPLATES.other;
+  const techTmpl = TECH_EXPLANATION_TEMPLATES[m.category] || TECH_EXPLANATION_TEMPLATES.Product;
+
+  // 翻译标题
+  const titleCN = TRANSLATION_CACHE[`en|zh:${m.title}`] || m.title;
+
+  // 构建一句话速览
+  const oneLiner = generateOneLiner(m, v);
+
+  // 构建'这是什么'
+  const whatIsIt = generateWhatIsIt(m, v, tmpl, techTmpl);
+
+  // 构建技术详解
+  const techDetail = generateTechDetail(m, v, tmpl, techTmpl);
+
+  // 构建核心要点（7-8个）
+  const points = generatePoints(m, v);
+
+  // 构建竞品对比
+  const competitorAnalysis = generateCompetitorAnalysis(m, v);
+
+  // 构建对用户与开发者的影响
+  const userImpact = generateUserImpact(m, v);
+
+  // 构建行业影响
+  const industryImpact = generateIndustryImpact(m, v, tmpl);
+
+  // 构建相关背景
+  const background = generateBackground(m, v, tmpl);
+
+  // 构建未来展望
+  const futureOutlook = generateFutureOutlook(m, v);
+
+  // 博主点评
+  const comment = pick(BLOGGER_COMMENTS);
+
+  return `
+    <div class="article-summary">
+      <div class="summary-section">
+        <h2 class="summary-heading">📰 ${titleCN}</h2>
+      </div>
+
+      <div class="summary-section">
+        <h2 class="summary-heading">📌 一句话速览</h2>
+        <p class="summary-text" style="font-size:16px;font-weight:500;color:var(--accent-dark);background:#f0f7ff;padding:14px 16px;border-radius:8px;border-left:4px solid var(--accent);">${oneLiner}</p>
+      </div>
+
+      <div class="summary-section">
+        <h2 class="summary-heading">❓ 这是什么</h2>
+        ${whatIsIt}
+      </div>
+
+      <div class="summary-section">
+        <h2 class="summary-heading">🔬 技术/内容详解</h2>
+        ${techDetail}
+      </div>
+
+      <div class="summary-section">
+        <h2 class="summary-heading">🎯 核心要点</h2>
+        <ul class="summary-points">
+          ${points.map(p => `<li><strong>${p.title}</strong>：${p.desc}</li>`).join('')}
+        </ul>
+      </div>
+
+      <div class="summary-section">
+        <h2 class="summary-heading">⚔️ 竞品对比分析</h2>
+        ${competitorAnalysis}
+      </div>
+
+      <div class="summary-section">
+        <h2 class="summary-heading">👥 对用户与开发者的影响</h2>
+        ${userImpact}
+      </div>
+
+      <div class="summary-section">
+        <h2 class="summary-heading">🌊 行业影响与趋势分析</h2>
+        ${industryImpact}
+      </div>
+
+      <div class="summary-section">
+        <h2 class="summary-heading">🔗 相关背景</h2>
+        ${background}
+      </div>
+
+      <div class="summary-section">
+        <h2 class="summary-heading">🔮 未来展望</h2>
+        ${futureOutlook}
+      </div>
+
+      <div class="summary-disclaimer">
+        ℹ️ 免责声明：本文由 AI Pulse 智能摘要引擎基于公开信息自动生成，内容仅供参考。查看<a href="${m.link}" target="_blank" rel="noopener">原文</a>获取完整信息。
+      </div>
+    </div>
+  `;
+}
+
+function generateOneLiner(m, v) {
+  const catDesc = { Release: '发布了新产品/技术', Product: '推出了重要产品更新', Research: '发表了新的研究成果', Funding: '获得了新一轮融资', Agent: '在智能体领域有新进展', Safety: '发布了安全相关动态' };
+  const desc = catDesc[m.category] || '有了新的重要动态';
+  const impactDesc = m.impact === 'high' ? '，这在业内引发了高度关注' : m.impact === 'med' ? '，值得行业观察者留意' : '';
+
+  // 尝试从关键句中提取最核心的一句话，并确保翻译为中文
+  let core = '';
+  if (m.keySentences.length > 0) {
+    let raw = m.keySentences[0];
+    // 清理残留 HTML
+    raw = raw.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
+    const cacheKey = `en|zh:${raw}`;
+    if (TRANSLATION_CACHE[cacheKey]) {
+      core = TRANSLATION_CACHE[cacheKey];
+    } else if (/^[\x00-\x7F\s]+$/.test(raw)) {
+      // 英文内容：用本地词典做快速翻译，同时异步请求 API 翻译
+      core = quickTranslateCN(raw);
+    } else {
+      // 已经包含中文或其他语言，直接使用
+      core = raw;
+    }
+    if (core.length > 120) core = core.slice(0, 120) + '…';
+  }
+
+  // 如果翻译后仍有大量英文残留，跳过 core 只显示中文描述
+  if (core) {
+    const enWordCount = (core.match(/[a-zA-Z]{4,}/g) || []).length;
+    const totalWords = core.split(/\s+/).length;
+    if (enWordCount / Math.max(1, totalWords) > 0.5) {
+      // 英文占比过高，不显示 core
+      return `${v.name}${desc}${impactDesc}，这可能会对 AI 行业的竞争格局产生一定影响。`;
+    }
+    return `${v.name}${desc}：${core}${impactDesc}。`;
+  }
+  return `${v.name}${desc}${impactDesc}，这可能会对 AI 行业的竞争格局产生一定影响。`;
+}
+
+/* 本地词典快速翻译（用于一句话速览，不等待 API） */
+function quickTranslateCN(text) {
+  if (!text) return text;
+  // 先清理可能的残留 HTML
+  let result = text.replace(/<[^>]+>/g, ' ').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
+  // 按词组从长到短替换
+  const entries = Object.entries(FALLBACK_DICT).sort((a, b) => b[0].length - a[0].length);
+  for (const [en, zh] of entries) {
+    const re = new RegExp(en.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
+    result = result.replace(re, zh);
+  }
+  // 如果翻译后仍有大量英文字母（>30%），说明翻译不充分，
+  // 异步触发 API 翻译，同时返回词典翻译结果
+  const enRatio = (result.match(/[a-zA-Z]{3,}/g) || []).length / Math.max(1, result.split(/\s+/).length);
+  if (enRatio > 0.3 && /^[\x00-\x7F\s]+$/.test(text)) {
+    // 异步翻译，不阻塞当前渲染
+    translateText(text).then(t => {
+      if (t && t !== text) {
+        // 更新 DOM 中的一句话速览
+        document.querySelectorAll('.summary-text').forEach(el => {
+          if (el.textContent.includes(text.substring(0, 30))) {
+            const oldHTML = el.innerHTML;
+            el.innerHTML = oldHTML.replace(text, t);
+          }
+        });
+      }
+    }).catch(()=>{});
+  }
+  return result;
+}
+
+function generateWhatIsIt(m, v, tmpl, techTmpl) {
+  const parts = [];
+  parts.push(`<p class="summary-text"><strong>${v.name}</strong> ${pick(tmpl.intro)}</p>`);
+  parts.push(`<p class="summary-text">具体来说，${pick(techTmpl.what)} 用更通俗的话说，这项技术/产品试图解决的核心问题是：<strong>如何让 AI 在特定场景下表现得更好、更可靠、更易用</strong>。</p>`);
+  parts.push(`<p class="summary-text">对于不熟悉技术细节的读者，你可以这样理解：${pick(techTmpl.why)}</p>`);
+  return parts.join('');
+}
+
+function generateTechDetail(m, v, tmpl, techTmpl) {
+  const parts = [];
+
+  // 引言
+  parts.push(`<p class="summary-text">${pick(tmpl.tech)}</p>`);
+
+  // 技术原理
+  parts.push(`<p class="summary-text"><strong>技术原理层面：</strong>${pick(techTmpl.how)}</p>`);
+
+  // 为什么重要
+  parts.push(`<p class="summary-text"><strong>为什么这很重要？</strong>${pick(techTmpl.why)}</p>`);
+
+  // 区别/进步
+  parts.push(`<p class="summary-text"><strong>与之前相比有什么进步？</strong>${pick(techTmpl.diff)}</p>`);
+
+  // 如果有提取到的关键句，加入原文信息作为补充（翻译为中文）
+  if (m.keySentences.length >= 2) {
+    const rawQuotes = m.keySentences.slice(1, 4).map(s => {
+      // 先清理 HTML
+      const clean = s.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
+      const cacheKey = `en|zh:${clean}`;
+      if (TRANSLATION_CACHE[cacheKey]) return TRANSLATION_CACHE[cacheKey];
+      if (/^[\x00-\x7F\s]+$/.test(clean)) {
+        const translated = quickTranslateCN(clean);
+        // 检查英文占比，如果太高就跳过这条
+        const enWords = (translated.match(/[a-zA-Z]{4,}/g) || []).length;
+        const total = translated.split(/\s+/).length;
+        if (enWords / Math.max(1, total) > 0.5) return null; // 跳过英文过多的句子
+        return translated;
+      }
+      return clean;
+    }).filter(s => s !== null); // 过滤掉被跳过的
+    if (rawQuotes.length > 0) {
+      parts.push(`<blockquote class="summary-quote"><strong>📄 原文关键信息摘录：</strong><br/>${rawQuotes.join('；')}。</blockquote>`);
+    }
+  } else if (m.summary && m.summary.length > 30) {
+    let sumText = m.summary.slice(0, 300);
+    const sumCacheKey = `en|zh:${m.summary}`;
+    if (TRANSLATION_CACHE[sumCacheKey]) {
+      sumText = TRANSLATION_CACHE[sumCacheKey].slice(0, 300);
+    } else if (/^[\x00-\x7F\s]+$/.test(sumText)) {
+      const translated = quickTranslateCN(sumText);
+      const enWords = (translated.match(/[a-zA-Z]{4,}/g) || []).length;
+      const total = translated.split(/\s+/).length;
+      if (enWords / Math.max(1, total) > 0.5) {
+        // 英文过多，不显示原文摘要
+        sumText = null;
+      } else {
+        sumText = translated.slice(0, 300);
+      }
+    }
+    if (sumText) {
+      parts.push(`<blockquote class="summary-quote"><strong>📄 原文摘要：</strong><br/>${sumText}${m.summary.length > 300 ? '…' : ''}</blockquote>`);
+    }
+  }
+
+  return parts.join('');
+}
+
+function generatePoints(m, v) {
+  // 标题翻译为中文
+  let cleanTitle = m.title.replace(/^[^:]+:\s*/, '').slice(0, 80);
+  const titleCacheKey = `en|zh:${m.title}`;
+  if (TRANSLATION_CACHE[titleCacheKey]) {
+    cleanTitle = TRANSLATION_CACHE[titleCacheKey].replace(/^[^:]+:\s*/, '').slice(0, 80);
+  } else if (/^[\x00-\x7F]+$/.test(cleanTitle)) {
+    cleanTitle = quickTranslateCN(cleanTitle);
+  }
+  const catPoints = {
+    Release: [
+      { title: '发布内容', desc: `本次发布的核心是 ${cleanTitle}，这是 ${v.name} 产品矩阵中的重要一环。该产品的推出标志着 ${v.name} 在相关领域的技术积累已经到了可以产品化的阶段。` },
+      { title: '技术亮点', desc: '新产品/技术在架构设计、性能表现或用户体验上都有针对性优化，体现了团队对实际应用场景的深入理解。特别值得注意的是其在关键指标上的提升幅度。' },
+      { title: '目标用户', desc: '这次更新同时面向开发者生态和终端用户，试图在易用性和专业能力之间取得平衡。对于不同层次的用户，产品提供了相应的接入方式和使用体验。' },
+      { title: '竞争定位', desc: `在日益激烈的 AI 市场中，${v.name} 通过持续迭代巩固自身的技术护城河。这次发布的时机选择也体现了团队对市场节奏的精准把握。` },
+      { title: '商业模式', desc: '从定价策略和开放程度可以看出，这次发布背后有着清晰的商业考量。如何在技术领先和商业化之间找到平衡，是每一个 AI 产品都要面对的课题。' },
+      { title: '后续看点', desc: '建议关注其在真实场景中的用户反馈、基准测试表现以及生态建设进展。产品发布只是开始，真正的考验在于后续的市场接受度和迭代能力。' },
+      { title: '潜在局限', desc: '任何技术产品都有其适用范围和局限性。了解这些边界条件，有助于用户做出更合理的使用决策，避免对技术能力的过度期待。' },
+    ],
+    Product: [
+      { title: '更新内容', desc: `本次产品更新聚焦于功能增强和体验优化，核心改进体现在 ${cleanTitle} 方面。这些改进不是凭空想象，而是基于大量用户反馈和使用数据分析的结果。` },
+      { title: '用户体验', desc: '产品在交互流畅度、响应速度或输出质量上的提升，将直接影响用户的日常使用感受。在 AI 产品同质化加剧的今天，用户体验往往是决定胜负的关键。' },
+      { title: '生态整合', desc: `这次更新很可能是 ${v.name} 整体产品战略的一部分，服务于更大的生态布局。单独看每个更新可能不够惊艳，但放在整体战略中就能看出其深意。` },
+      { title: '差异化优势', desc: '相比同类产品，这次更新试图在特定场景下建立差异化竞争力。找到并强化自己的独特价值主张，是在激烈竞争中脱颖而出的关键。' },
+      { title: '迭代节奏', desc: '从发布频率可以看出，该产品的迭代已进入相对成熟的快车道。快速迭代既是优势的体现（执行力强），也可能是压力的反映（需要不断证明自己）。' },
+      { title: '用户反馈', desc: '产品更新的效果最终要通过用户反馈来验证。建议关注社区讨论、用户评分和使用数据的变化，这些比官方宣传更能反映真实情况。' },
+      { title: '改进空间', desc: '尽管有诸多改进，但产品可能仍存在一些待优化之处。客观认识这些不足，有助于我们对产品发展保持合理预期。' },
+    ],
+    Research: [
+      { title: '研究问题', desc: `这项研究试图解决 ${cleanTitle} 相关的核心科学问题。选择一个有价值的研究问题是成功的一半，这说明研究团队对领域前沿有着敏锐的洞察力。` },
+      { title: '方法创新', desc: '研究团队在方法论上做出了有意义的探索，为后续研究提供了新的工具和视角。方法层面的创新往往比单一任务的性能提升更有长远价值。' },
+      { title: '实验验证', desc: '通过充分的实验对比，研究证明了所提方法在特定任务上的有效性。严谨的实验设计是学术论文可信度的基石，也是区分高水平研究和低质量工作的关键。' },
+      { title: '学术价值', desc: '这项工作对所在子领域的理论框架或实践方法都有补充和推动作用。如果后续有大量引用和跟进研究，就说明这项工作确实触及了领域的重要问题。' },
+      { title: '应用前景', desc: '虽然属于基础研究，但其成果有望在数月到数年内转化为实际产品能力。从研究到产品的转化路径往往充满不确定性，但这项工作的应用潜力值得期待。' },
+      { title: '局限与展望', desc: '诚实地讨论研究局限是高水平论文的标志。了解这些局限有助于后续研究者找到改进方向，也帮助实践者判断该方法是否适用于自己的场景。' },
+      { title: '社区反响', desc: '论文发表后学术社区的反应（引用速度、后续工作、讨论热度）是衡量其影响力的重要指标。如果迅速成为领域热点，说明这项工作切中了关键问题。' },
+    ],
+    Funding: [
+      { title: '融资规模', desc: `本轮融资反映了资本市场对 ${v.name} 技术路线和商业模式的认可。融资规模的大小不仅取决于公司当前的表现，更取决于投资者对其未来成长空间的判断。` },
+      { title: '资金用途', desc: '预计资金将主要用于核心研发团队扩充、算力基础设施建设和国际市场拓展。在 AI 领域，人才和算力是最大的两项支出，融资的主要用途往往能反映公司的战略优先级。' },
+      { title: '竞争格局', desc: '充足的资本支持使其在与 OpenAI、Google 等巨头的竞争中拥有更多战略主动权。但资金只是必要条件，如何将资金转化为技术和产品优势，才是决定成败的关键。' },
+      { title: '投资人信号', desc: '参与融资的投资方背景也值得关注，可能预示着产业链整合或战略合作的机会。战略投资者的进入往往意味着更深层合作的可能性。' },
+      { title: '估值分析', desc: '估值水平反映了市场对公司未来收入的预期。高估值意味着高期待，也意味着更大的业绩压力。能否在下一轮继续提升估值，取决于这轮融资后的 execution 能力。' },
+      { title: '行业趋势', desc: '这笔融资是 AI 投资热潮持续升温的又一佐证，说明优质 AI 资产仍然稀缺。但投资热度不可能永远持续，公司需要在资本充裕时建立可持续的商业模式。' },
+      { title: '风险提示', desc: '大额融资固然可喜，但也可能带来扩张过快、管理复杂度上升等风险。历史上不乏融资顺利但后续发展不及预期的案例，保持理性很重要。' },
+    ],
+    Agent: [
+      { title: '核心能力', desc: `这次进展展示了 ${v.name} 在智能体自主决策、工具调用或任务规划方面的能力突破。Agent 能力的提升是一个系统工程，需要在多个维度上同时取得进展。` },
+      { title: '技术架构', desc: '现代 AI Agent 通常由感知、规划、记忆、工具调用和反思等多个模块协同工作。这次更新可能在某个或某几个模块上实现了关键突破，从而带动整体能力提升。' },
+      { title: '应用场景', desc: '从自动化办公到复杂研究助理，Agent 技术的落地场景正在快速扩展。但值得注意的是，不同场景对 Agent 的能力要求差异很大，通用 Agent 和专用 Agent 各有其适用空间。' },
+      { title: '安全挑战', desc: '赋予 AI 更多自主权的同时，如何确保其行为可控、可解释、可回溯，是亟待解决的问题。Agent 的安全性比聊天机器人更复杂，因为其行为可能影响真实世界。' },
+      { title: '可靠性问题', desc: '当前 Agent 技术面临的最大挑战之一是可靠性。演示效果 impressive，但在复杂、开放的真实环境中，Agent 的错误率仍然较高。这次更新在可靠性方面是否有实质改进值得关注。' },
+      { title: '生态意义', desc: `${v.name} 在 Agent 领域的布局，可能催生新的开发者平台和应用生态。如果提供友好的开发工具和丰富的集成选项，有望吸引大量开发者构建 Agent 应用。` },
+      { title: '商业化路径', desc: 'Agent 技术的商业化仍处于早期探索阶段。从按调用付费到按效果付费，从 SaaS 到 PaaS，不同的商业模式正在被市场检验。' },
+    ],
+    Safety: [
+      { title: '安全议题', desc: `这次动态涉及 AI 安全领域的重要议题：${cleanTitle}。安全研究的价值往往不会立即体现在产品指标上，但它是 AI 技术可持续发展的基石。` },
+      { title: '技术方法', desc: '可能采用了红队测试、对抗训练、Constitutional AI 或人类反馈强化学习等方法来提升安全性。不同方法的适用场景和效果各有不同，组合使用往往能取得更好效果。' },
+      { title: '行业意义', desc: 'AI 安全不是某个公司的单打独斗，而是需要全行业共同参与的系统性工程。这次进展为行业提供了新的思路和方法，有望被更多厂商借鉴和采用。' },
+      { title: '监管关联', desc: '随着各国 AI 监管框架的逐步落地，安全研究的重要性将持续上升。能够在安全方面率先建立标准和方法的公司，将在未来的监管环境中占据有利位置。' },
+      { title: '长远影响', desc: '可靠的安全机制是 AI 技术被广泛采纳的前提条件，这方面的投入具有长期价值。公众对 AI 的信任一旦建立，将加速 AI 在各个领域的渗透。' },
+      { title: '挑战与局限', desc: "当前 AI 安全研究仍面临诸多挑战：如何定义'安全'本身、如何平衡安全与能力、如何应对未知风险等。这些开放性问题需要全行业持续投入。" },
+      { title: '实践建议', desc: '对于正在使用或计划使用 AI 的企业，建议将安全评估纳入标准流程。选择已经过充分安全测试的模型和服务，是降低风险的有效方式。' },
+    ],
+  };
+
+  const base = catPoints[m.category] || catPoints.Product;
+
+  // 尝试从关键句生成额外要点（替换前两个要点的描述），确保翻译为中文
+  if (m.keySentences.length > 0) {
+    let ks = m.keySentences[0].replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim().slice(0, 120);
+    const ksCacheKey = `en|zh:${ks}`;
+    if (TRANSLATION_CACHE[ksCacheKey]) {
+      ks = TRANSLATION_CACHE[ksCacheKey].slice(0, 120);
+    } else if (/^[\x00-\x7F\s]+$/.test(ks)) {
+      const translated = quickTranslateCN(ks);
+      const enWords = (translated.match(/[a-zA-Z]{4,}/g) || []).length;
+      const total = translated.split(/\s+/).length;
+      // 英文占比过高则不替换，保留默认中文要点
+      if (enWords / Math.max(1, total) <= 0.5) {
+        base[0].desc = `据原文信息，${translated.slice(0, 120)}。这构成了本次动态的核心内容，值得首先关注。`;
+      }
+    } else {
+      base[0].desc = `据原文信息，${ks}。这构成了本次动态的核心内容，值得首先关注。`;
+    }
+  }
+  if (m.keySentences.length > 1) {
+    let ks = m.keySentences[1].replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim().slice(0, 120);
+    const ksCacheKey = `en|zh:${ks}`;
+    if (TRANSLATION_CACHE[ksCacheKey]) {
+      ks = TRANSLATION_CACHE[ksCacheKey].slice(0, 120);
+    } else if (/^[\x00-\x7F\s]+$/.test(ks)) {
+      const translated = quickTranslateCN(ks);
+      const enWords = (translated.match(/[a-zA-Z]{4,}/g) || []).length;
+      const total = translated.split(/\s+/).length;
+      if (enWords / Math.max(1, total) <= 0.5) {
+        base[1].desc = `进一步来看，${translated.slice(0, 120)}。这一点从技术角度尤为重要，因为它涉及到实现方案的关键设计选择。`;
+      }
+    } else {
+      base[1].desc = `进一步来看，${ks}。这一点从技术角度尤为重要，因为它涉及到实现方案的关键设计选择。`;
+    }
+  }
+
+  return base;
+}
+
+function generateCompetitorAnalysis(m, v) {
+  const parts = [];
+  const competitors = {
+    openai: { main: 'Google Gemini、Anthropic Claude、Meta Llama', advantage: '先发优势和生态锁定', challenge: '来自 Google 和 Anthropic 的正面竞争，以及开源模型的价格压力' },
+    anthropic: { main: 'OpenAI GPT 系列、Google Gemini', advantage: 'AI 安全性和长上下文能力', challenge: '市场份额相对较小，商业化能力有待验证' },
+    google: { main: 'OpenAI GPT、Anthropic Claude', advantage: '全产业链整合和海量用户基础', challenge: '产品迭代速度和市场敏感度' },
+    huggingface: { main: '各大云厂商的模型服务', advantage: '开源生态和社区影响力', challenge: '商业化路径和盈利能力' },
+    deepmind: { main: 'OpenAI、Anthropic', advantage: '研究深度和学术声誉', challenge: '研究成果转化为产品的速度' },
+    kimi: { main: '百度文心一言、字节豆包、阿里通义千问', advantage: '超长上下文和中文场景优化', challenge: '通用能力与国际顶尖模型的差距' },
+    qwen: { main: 'Meta Llama、Mistral、DeepSeek', advantage: '多语言能力和中文理解', challenge: '在国际市场建立品牌影响力' },
+    deepseek: { main: 'Qwen、Llama、Mistral', advantage: '训练效率和成本优势', challenge: '生态建设和开发者社区培育' },
+    other: { main: '各细分领域的主要玩家', advantage: '灵活性和专注度', challenge: '资源规模和品牌认知度' },
+  };
+  const c = competitors[m.vendor] || competitors.other;
+
+  parts.push(`<p class="summary-text"><strong>主要竞争对手：</strong>${v.name} 在这个领域的主要竞争对手包括 ${c.main}。这些厂商各有优势，形成了复杂的竞争格局。</p>`);
+  parts.push(`<p class="summary-text"><strong>${v.name} 的核心优势：</strong>${c.advantage} 是 ${v.name} 区别于竞争对手的关键特色。在 AI 能力日趋同质化的趋势下，差异化优势将成为竞争的关键。</p>`);
+  parts.push(`<p class="summary-text"><strong>面临的挑战：</strong>${c.challenge}。如何在保持自身优势的同时弥补短板，是 ${v.name} 需要持续思考的问题。</p>`);
+
+  // 根据 category 添加特定对比
+  if (m.category === 'Release' || m.category === 'Product') {
+    parts.push(`<p class="summary-text"><strong>产品层面横向对比：</strong>从产品功能、性能指标、定价策略和易用性等维度来看，这次更新使 ${v.name} 在特定场景下的竞争力得到增强。但用户最终选择哪个产品，往往取决于具体需求和使用场景，而非单纯的技术指标。</p>`);
+  } else if (m.category === 'Research') {
+    parts.push(`<p class="summary-text"><strong>学术层面横向对比：</strong>与同期发表的相关研究相比，这项工作在方法创新、实验规模和理论贡献上都有自己的特色。不同研究团队从各自角度切入同一问题，这种多元化的探索有助于领域更快发展。</p>`);
+  }
+
+  return parts.join('');
+}
+
+function generateUserImpact(m, v) {
+  const parts = [];
+  const catLabels = { Release: '产品发布', Product: '产品更新', Research: '研究成果', Funding: '融资动态', Agent: '智能体进展', Safety: '安全动态' };
+  const cat = catLabels[m.category] || '动态';
+
+  parts.push(`<p class="summary-text"><strong>对普通用户的影响：</strong>这次${cat}最终会通过产品体验的提升惠及普通用户。无论是更智能的助手、更准确的推荐，还是更便捷的创作工具，技术的进步终将转化为生活品质的改善。当然，这种转化的速度和程度取决于厂商的产品化能力。</p>`);
+
+  parts.push(`<p class="summary-text"><strong>对开发者的影响：</strong>对于技术开发者来说，这次${cat}意味着新的机会和选择。如果 ${v.name} 开放了 API 或发布了开发工具，开发者可以基于这些能力构建新的应用。即使不直接使用，了解行业最新动态也有助于开发者做出更好的技术选型决策。</p>`);
+
+  parts.push(`<p class="summary-text"><strong>对企业客户的影响：</strong>企业客户更关心的是稳定性、安全性和成本效益。这次${cat}如果在这些维度上有实质改进，将增强 ${v.name} 在企业市场的竞争力。对于正在评估 AI 供应商的企业来说，这次更新可能是一个重新评估的契机。</p>`);
+
+  parts.push(`<p class="summary-text"><strong>对 AI 从业者/研究人员的影响：</strong>对于从事 AI 相关工作的人来说，这次${cat}提供了新的研究素材和职业机会。技术迭代越快，对人才的需求越旺盛。但同时也意味着需要持续学习才能保持竞争力——在这个行业，原地踏步就等于退步。</p>`);
+
+  return parts.join('');
+}
+
+function generateIndustryImpact(m, v, tmpl) {
+  const parts = [];
+
+  parts.push(`<p class="summary-text">${pick(tmpl.impact)} 对于 AI 行业整体而言，这意味着技术迭代的速度在加快，竞争壁垒在不断被重新定义。在这个行业，半年前的'最先进'可能已经成为'基线'。</p>`);
+
+  parts.push(`<p class="summary-text"><strong>竞争格局变化：</strong>从厂商竞争格局来看，${v.name} 的这一动作会迫使主要竞争对手做出回应。OpenAI、Google、Anthropic 等头部玩家之间的'军备竞赛'已经进入白热化阶段，任何一方的新动作都会迅速引发连锁反应。这种竞争虽然激烈，但客观上加速了技术进步。</p>`);
+
+  parts.push(`<p class="summary-text"><strong>对供应链的影响：</strong>上游的芯片厂商（如 NVIDIA）、云服务商（如 AWS、Azure、GCP）和数据中心运营商都会间接受益于 AI 行业的快速发展。${v.name} 的业务扩张意味着更多的算力采购和云服务消费。</p>`);
+
+  parts.push(`<p class="summary-text"><strong>投资与创业环境：</strong>这次动态对 AI 投资市场也有信号意义。如果 ${v.name} 取得了实质性进展，可能会提振投资者对整个赛道信心，带动相关公司的估值上升。对于创业者来说，行业龙头的动态也提供了市场验证和方向指引。</p>`);
+
+  parts.push(`<p class="summary-text"><strong>监管与政策层面：</strong>随着 AI 能力的快速提升，各国监管框架也在加速完善。${v.name} 的这次${m.category === 'Safety' ? '安全研究为监管提供了技术基础' : '动态可能被监管机构纳入考量，影响政策制定的节奏和方向'}。</p>`);
+
+  return parts.join('');
+}
+
+function generateBackground(m, v, tmpl) {
+  const parts = [];
+
+  // 厂商历史
+  if (tmpl.history && tmpl.history.length > 0) {
+    parts.push(`<p class="summary-text"><strong>发展历程：</strong>${pick(tmpl.history)}</p>`);
+  } else {
+    parts.push(`<p class="summary-text"><strong>发展历程：</strong>${v.name} 在 AI 领域的发展并非一蹴而就。回顾其历程，从早期探索到如今的行业地位，每一步都伴随着技术突破和战略选择。</p>`);
+  }
+
+  const competitors = {
+    openai: 'Google 的 Gemini 系列、Anthropic 的 Claude 系列以及 Meta 的 Llama 开源生态都是其直接竞争对手。OpenAI 需要同时在闭源商业化和生态开放之间寻找平衡。',
+    anthropic: "OpenAI 的 GPT 系列和 Google 的 Gemini 在市场份额上占据优势，但 Anthropic 凭借安全性差异化竞争。其'慢即是快'的策略能否在长期竞争中胜出，仍有待观察。",
+    google: 'OpenAI 的 GPT 系列和 Anthropic 的 Claude 在对话场景上更为成熟，Google 则依托搜索和云服务的生态优势反击。Google 的挑战在于如何将研究优势转化为产品优势。',
+    huggingface: 'Hugging Face 的独特之处在于它不仅是技术提供者，更是开源社区的基础设施搭建者。它的竞争对手不是某个模型，而是各大云厂商的模型服务平台。',
+    deepmind: 'DeepMind 的研究常与 OpenAI 形成对照，前者更偏向科学发现，后者更侧重产品化。DeepMind 的终极目标是 AGI，而 OpenAI 更关注商业化路径。',
+    kimi: '在国内市场，Kimi 与百度的文心一言、字节的豆包、阿里的通义千问等形成竞争。每家公司都有自己的生态优势：百度有搜索和地图，字节有抖音和流量，阿里有云和电商。',
+    qwen: 'Qwen 在开源社区的主要竞争对手包括 Meta 的 Llama 系列和 Mistral 的模型。与这些国际开源模型相比，Qwen 的多语言能力和中文理解是其独特优势。',
+    deepseek: 'DeepSeek 以高效训练著称，与 Qwen、Llama 等开源模型在开发者社区中形成直接对比。它的出现让开源社区开始重新思考训练效率和成本结构。',
+    other: 'AI 行业竞争格局日趋复杂，各厂商在不同细分领域各有优势。头部玩家争夺通用能力制高点，垂直厂商深耕特定场景，开源社区推动技术民主化。',
+  };
+
+  parts.push(`<p class="summary-text"><strong>竞争格局：</strong>${competitors[m.vendor] || competitors.other}</p>`);
+
+  parts.push(`<p class="summary-text"><strong>近期行业趋势：</strong>值得关注的类似动态包括：各大厂商在上下文长度扩展、多模态能力增强、推理效率优化、Agent 自主能力提升等方向上的密集发布。这些趋势共同指向一个目标——让 AI 更强大、更便宜、更易用、更可控。</p>`);
+
+  parts.push(`<p class="summary-text"><strong>历史视角：</strong>如果把时间线拉长到 5-10 年，我们会发现 AI 行业正在经历从'技术驱动'到'应用驱动'的转型。早期拼的是模型能力和论文数量，现在拼的是产品体验、用户规模和商业化效率。${v.name} 的这次动态，正是这一转型过程中的一个缩影。</p>`);
+
+  return parts.join('');
+}
+
+function generateFutureOutlook(m, v) {
+  const parts = [];
+  const cat = m.category;
+
+  parts.push(`<p class="summary-text"><strong>短期展望（3-6 个月）：</strong>预计 ${v.name} 会基于这次${cat === 'Research' ? '研究成果' : '发布'}进行快速迭代和优化。如果市场反馈积极，可能会加速相关功能的推广和商业化。如果出现问题，团队也需要及时响应修复。</p>`);
+
+  if (cat === 'Release' || cat === 'Product') {
+    parts.push(`<p class="summary-text"><strong>中期展望（6-18 个月）：</strong>这次更新很可能只是一个更大产品路线图中的一环。我们可以期待后续在功能完善、生态扩展和国际化方面的进一步动作。同时，竞争对手的回应也将塑造市场的最终格局。</p>`);
+  } else if (cat === 'Research') {
+    parts.push(`<p class="summary-text"><strong>中期展望（6-18 个月）：</strong>这项研究的成果有望在后续研究中被扩展和改进。如果方法确实有效，我们可能会看到多个团队基于这项工作发表 follow-up 论文，形成新的研究热点。</p>`);
+  } else if (cat === 'Funding') {
+    parts.push(`<p class="summary-text"><strong>中期展望（6-18 个月）：</strong>拿到资金后，${v.name} 需要在人才引进、技术突破和产品增长上展现出实质性的进展。投资者会密切关注这些指标，以判断是否继续支持。</p>`);
+  } else {
+    parts.push(`<p class="summary-text"><strong>中期展望（6-18 个月）：</strong>这次进展将在 ${v.name} 的产品和技术路线中持续发酵。我们可以期待更多相关更新，以及行业其他玩家的跟进或差异化回应。</p>`);
+  }
+
+  parts.push(`<p class="summary-text"><strong>长期趋势（1-3 年）：</strong>从更长的时间尺度看，这次动态可能只是 AI 发展长河中的一个小浪花。但它所反映的技术方向和战略意图，可能对 ${v.name} 的长期竞争力产生深远影响。在 AI 这个变化飞快的行业，保持长期视角和短期执行力的平衡，是每家公司都要面对的挑战。</p>`);
+
+  parts.push(`<p class="summary-text"><strong>给读者的建议：</strong>对于关注 AI 发展的读者，我的建议是不必过分追逐每一个热点，而是建立系统性的认知框架。理解技术发展的底层逻辑、商业竞争的内在规律、以及社会影响的深远意义，才能在这个快速变化的时代保持清醒和主动。</p>`);
+
+  return parts.join('');
+}
+
+/* ---------- 模态框快捷键与交互 ---------- */
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeArticle();
+});
+
+$('modalBackdrop').addEventListener('click', closeArticle);
+
+/* ---------- 右侧面板拖动调整大小 ---------- */
+(function initResizer(){
+  const resizer = $('panelResizer');
+  const rightPanel = $('rightPanel');
+  if(!resizer || !rightPanel) return;
+
+  let startX, startW, isDragging = false;
+  const MIN_W = 240, MAX_W = 520;
+
+  // 恢复保存的宽度
+  try {
+    const saved = localStorage.getItem('ai_pulse_right_width');
+    if(saved){
+      rightPanel.style.setProperty('--rpw', saved + 'px');
+      rightPanel.style.width = saved + 'px';
+    }
+  } catch(e) {}
+
+  function startDrag(clientX){
+    isDragging = true;
+    startX = clientX;
+    startW = rightPanel.getBoundingClientRect().width;
+    resizer.classList.add('dragging');
+    document.body.style.cursor = 'col-resize';
+    document.body.style.userSelect = 'none';
+  }
+
+  function doDrag(clientX){
+    if(!isDragging) return;
+    const dx = startX - clientX; // 向左拖 = 变宽
+    let newW = Math.round(startW + dx);
+    newW = Math.max(MIN_W, Math.min(MAX_W, newW));
+    rightPanel.style.setProperty('--rpw', newW + 'px');
+    rightPanel.style.width = newW + 'px';
+    // 触发图表 resize
+    if(window.echarts){
+      document.querySelectorAll('#chartTrend,#chartScore,#chartVendor').forEach(el=>{
+        const inst = echarts.getInstanceByDom(el);
+        if(inst) inst.resize();
+      });
+    }
+  }
+
+  function endDrag(){
+    if(!isDragging) return;
+    isDragging = false;
+    resizer.classList.remove('dragging');
+    document.body.style.cursor = '';
+    document.body.style.userSelect = '';
+    try {
+      const w = rightPanel.getBoundingClientRect().width;
+      localStorage.setItem('ai_pulse_right_width', Math.round(w));
+    } catch(e) {}
+  }
+
+  // 鼠标事件
+  resizer.addEventListener('mousedown', e => { e.preventDefault(); startDrag(e.clientX); });
+  document.addEventListener('mousemove', e => doDrag(e.clientX));
+  document.addEventListener('mouseup', endDrag);
+
+  // 触屏事件
+  resizer.addEventListener('touchstart', e => { e.preventDefault(); startDrag(e.touches[0].clientX); }, {passive:false});
+  document.addEventListener('touchmove', e => { if(isDragging){ e.preventDefault(); doDrag(e.touches[0].clientX); } }, {passive:false});
+  document.addEventListener('touchend', endDrag);
+})();
+
+/* ---------- 详情面板拖动调整大小 ---------- */
+(function initModalResizer(){
+  const resizer = document.getElementById('modalResizer');
+  const container = document.getElementById('modalContainer');
+  if(!resizer || !container) return;
+
+  let startX, startW, isDragging = false;
+  const MIN_W = 400, MAX_W = Math.round(window.innerWidth * 0.9);
+
+  // 恢复保存的宽度
+  try {
+    const saved = localStorage.getItem('ai_pulse_modal_width');
+    if(saved) container.style.setProperty('--modal-w', saved + 'px');
+  } catch(e) {}
+
+  function startDrag(clientX){
+    isDragging = true;
+    startX = clientX;
+    startW = container.getBoundingClientRect().width;
+    resizer.classList.add('dragging');
+    document.body.style.cursor = 'col-resize';
+    document.body.style.userSelect = 'none';
+  }
+
+  function doDrag(clientX){
+    if(!isDragging) return;
+    const dx = startX - clientX; // 向左拖 = 变宽
+    let newW = Math.round(startW + dx);
+    newW = Math.max(MIN_W, Math.min(MAX_W, newW));
+    container.style.setProperty('--modal-w', newW + 'px');
+  }
+
+  function endDrag(){
+    if(!isDragging) return;
+    isDragging = false;
+    resizer.classList.remove('dragging');
+    document.body.style.cursor = '';
+    document.body.style.userSelect = '';
+    try {
+      const w = container.getBoundingClientRect().width;
+      localStorage.setItem('ai_pulse_modal_width', Math.round(w));
+    } catch(e) {}
+  }
+
+  resizer.addEventListener('mousedown', e => { e.preventDefault(); startDrag(e.clientX); });
+  document.addEventListener('mousemove', e => { if(isDragging) doDrag(e.clientX); });
+  document.addEventListener('mouseup', endDrag);
+
+  resizer.addEventListener('touchstart', e => { e.preventDefault(); startDrag(e.touches[0].clientX); }, {passive:false});
+  document.addEventListener('touchmove', e => { if(isDragging){ e.preventDefault(); doDrag(e.touches[0].clientX); } }, {passive:false});
+  document.addEventListener('touchend', endDrag);
+})();
+
+/* ---------- 启动 ---------- */
+// 应用保存的主题（暗色模式）
+try {
+  const savedTheme = localStorage.getItem('ai_pulse_theme');
+  if (savedTheme === 'dark') {
+    document.documentElement.dataset.theme = 'dark';
+  }
+} catch(e) {}
+
+// 初始化标题模式按钮 active 状态
+function initTitleModeButtons(){
+  document.querySelectorAll('.tm-btn').forEach(btn=>{
+    btn.classList.toggle('active', btn.dataset.mode === STATE.titleMode);
+  });
+}
+initTitleModeButtons();
+
+// 先尝试加载缓存的新闻数据（秒开效果）
+try {
+  const cachedNews = JSON.parse(localStorage.getItem('ai_pulse_news_cache') || 'null');
+  if (cachedNews && cachedNews.news && cachedNews.news.length > 0) {
+    STATE.news = cachedNews.news;
+    STATE.sourcesLoaded = cachedNews.sourcesLoaded || 0;
+    STATE.lastUpdate = new Date(cachedNews.lastUpdate || Date.now());
+    // 确保评分存在（兼容旧缓存）
+    if(!STATE.news[0]?.score) batchScoreNews(STATE.news);
+    renderAll();
+  }
+} catch(e) {}
+
+// 尝试从 JSON 或实时抓取更新
+fetchAllNews();
+
+// 每 15 分钟自动刷新
+setInterval(fetchAllNews, 15 * 60 * 1000);
+
+/* ---------- 鼠标悬停区域独占滚轮 ---------- */
+(function initHoverScroll(){
+  const panels = [
+    document.querySelector('.left-panel'),
+    document.querySelector('.grid > section'),
+    document.querySelector('.right-panel')
+  ].filter(Boolean);
+
+  panels.forEach(panel => {
+    panel.addEventListener('wheel', function(e) {
+      // 只有内容超出容器时才拦截滚轮
+      if (panel.scrollHeight <= panel.clientHeight) return;
+
+      const atTop    = panel.scrollTop <= 0;
+      const atBottom = panel.scrollTop + panel.clientHeight >= panel.scrollHeight - 1;
+      const scrollingDown = e.deltaY > 0;
+      const scrollingUp   = e.deltaY < 0;
+
+      // 未到边界时，完全阻止事件冒泡，只让当前面板滚动
+      if ((scrollingDown && !atBottom) || (scrollingUp && !atTop)) {
+        e.preventDefault();
+        e.stopPropagation();
+        panel.scrollTop += e.deltaY;
+      }
+      // 即使到了边界，也阻止事件继续传递到 body / 其他面板
+      else {
+        e.preventDefault();
+        e.stopPropagation();
+      }
+    }, { passive: false });
+  });
+})();
+</script>
+</body>
+</html>
