@@ -1,8 +1,50 @@
 {
-  "updated": "2026-07-29T11:02:33.108Z",
+  "updated": "2026-07-29T13:14:24.302Z",
   "count": 115,
   "sources": 12,
   "items": [
+    {
+      "id": "-1212224147",
+      "title": "As AI content floods the internet, Pangram raises $9M to detect it",
+      "titleZh": "随着人工智能内容涌入互联网， Pangram筹集了900万美元来检测它",
+      "summary": "Pangram has raised $9 million to scale its AI detection software. The startup has also released a new AI text detection model, Pangram 4, and an AI image detection model in research preview.",
+      "link": "https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it/",
+      "pubDate": 1785322800000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "high",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 22,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-220401866",
+      "title": "Chinese AI startup Kimi K3 sends U.S. chip stocks tumbling",
+      "titleZh": "中国人工智能初创公司Kimi K3让美国芯片股暴跌",
+      "summary": "Chinese AI startup Kimi K3 sends U.S. chip stocks tumbling qz.com",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5wUXRpOUlaWDhxR0d1eDd2c0t4YV9rQWZnM19uWjFCMS1vMWlNTlBVOW9DR2VDWjdURjNpV0F5RUJyYXA5YzRiVm03NmRsM0d1SkxsTno3NXY3ODM1MFU5QUQ0RGxWd19qRi03TXN2Y0o?oc=5",
+      "pubDate": 1785315638000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
     {
       "id": "864388579",
       "title": "Do Models Fake Alignment Without Clear Consequences?",
@@ -214,6 +256,27 @@
       "source": "arXiv"
     },
     {
+      "id": "1340156752",
+      "title": "Should China aim for the lead in making AI rules for the world?",
+      "titleZh": "中国是否应该瞄准率先为世界制定人工智能规则？",
+      "summary": "Should China aim for the lead in making AI rules for the world? South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPS2RoYXR3ZTJnVkMwOTZfM2VXM0lnZ0VvVkRLdWNwZDNwY292UFBkT1pWeVkxeFpyUEk4S1lueGh5M3dDUGppN3lUX0J4aG1sdGZjVHhweFlXVmRoaXRXZ1prSVBRcWVnQ1N5MUJLYVpYdGdQZkczdDZtQUlnTGlyVTRLTlJmS0Vna25Ld2JtT25ycHRFZVJqdGFOc3UxVzAxRTFR0gGjAUFVX3lxTE9CN2VnN3d4NzdiTTRYZk1RTF9GNG8zbTVScktXdG43QTJOUjlqcjBjMDBKOFVhNEhFenEyeXEwRDg4aUkxVU83bXB2eUtxdW5NRTE0NXZDTWpUTUVRclhXWVVHMTNqYW9HZ0tBWEJYLUU1UUZ2V2JDZHlhUkNQbGhuWE1FSU5OeHR2cjBzeWcxQjhhWkZicllBLTZpd01kYkJPQkU?oc=5",
+      "pubDate": 1785286813000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1393215533",
       "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
       "titleZh": "Cyera同意以10亿美元收购Oasis Security ，以保护扩散的人工智能代理商",
@@ -304,27 +367,6 @@
       "summary": "Moonshot AI’s Kimi K3 Model: What We Know Built In",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhcDB1RVoxaFRpTDBlWkt5Ykx0VEZZLUxvUkV1QnNLNmxselU0TVVXVUtxVGMySXZ0Zm42U0t5SFRreHp6VkprNm1HU3l5Q1A3eW1ENA?oc=5",
       "pubDate": 1785268310000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "high",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1993548543",
-      "title": "What to know about Moonshot AI and its new open-weight model Kimi K3",
-      "titleZh": "关于Moonshot AI及其新型开放式重量模型Kimi K3的知识",
-      "summary": "What to know about Moonshot AI and its new open-weight model Kimi K3 Fast Company",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb0wtbGt4bnZIZVh0eHJvTGpRdUNfZ3VfVXFINE9IbnAtaHU2dXBnMGpJUXhpbE9QMVVpeHRqQ2tPblNSTlF1MVlZeXphVWVjV3J2VTBPOWR5TUNEN0VjM2FXSUlkTmVudXkyWmFEZ2x0Sk5JYWVZWWd0Q282WlQxVDVyVHRkMXplMzRNVDNSTXAyd3lCSnJNZXdCcC1ud3JCMXZZanE1akI?oc=5",
-      "pubDate": 1785267117000,
       "vendor": "kimi",
       "category": "Research",
       "impact": "high",
@@ -496,13 +538,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google AI"
@@ -517,13 +559,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google AI"
@@ -538,13 +580,13 @@
       "vendor": "kimi",
       "category": "Research",
       "impact": "med",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 22,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -613,27 +655,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "-1125286200",
-      "title": "Satya Nadella says companies that trust one AI for everything may not survive",
-      "titleZh": "萨蒂亚·纳德拉（ Satya Nadella ）表示，信任一个AI的公司可能无法生存",
-      "summary": "Companies without their own models — or without a layer of AI infrastructure known as AI gateways to separate their prompts from the model itself — will be in trouble, Nadella says.",
-      "link": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
-      "pubDate": 1785187031000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "220479196",
       "title": "Kimi AI and kvcache-ai Open Sources 'AgentENV': A Distributed System that Powers Agentic Reinforcement Learning (RL) Training for Kimi K3",
       "titleZh": "Kimi AI和kvcache-ai开源“AgentENV” ：为Kimi K3提供代理强化学习（ RL ）培训的分布式系统",
@@ -679,16 +700,16 @@
       "id": "110909087",
       "title": "What Is Moonshot AI’s Kimi K3 Model and Why Is It Making Waves?",
       "titleZh": "What Is Moonshot AI’s Kimi K3 Model and Why Is It Making Waves?",
-      "summary": "What Is Moonshot AI’s Kimi K3 Model and Why Is It Making Waves? Bloomberg.com Chinese Start-Up Moonshot Details New A.I. Model The New York Times Moonshot’s Kimi K3 triggers debate over US bans on Chi…",
+      "summary": "What Is Moonshot AI’s Kimi K3 Model and Why Is It Making Waves? Bloomberg.com Chinese Start-Up Moonshot Details New A.I. Model The New York Times What is open-weight AI, the tech behind Kimi K3 that's…",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOGtDOFZKUUZyb25MMjJnN1Q1Vlp0UWdfel9yVFdtdXowR1d5ZURlVmVBWjZwc2pVMzRERVlWa1AyMzRzM3BfNzVVUmQxUFFHQnA4ZVhxa0hMRHg2OEQzTXJGcEZzLWFyUXlvMnRQbzVqZl9XSGFPTGFnSHpROWVQUnFsWlNuMi1SdThkcDViX1F4MXY2NF9iZVdseXJUVTFudkxkSVhuRFZBZkJYalNHV0JoYw?oc=5",
       "pubDate": 1785177500000,
       "vendor": "kimi",
       "category": "Research",
       "impact": "high",
-      "score": 65,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 24,
-        "kv": 4,
+        "kv": 2,
         "cw": 22,
         "st": 12,
         "rc": 2,
@@ -748,13 +769,13 @@
       "vendor": "qwen",
       "category": "Product",
       "impact": "high",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 4,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -865,27 +886,6 @@
       "source": "HuggingFace"
     },
     {
-      "id": "-189557778",
-      "title": "The faces behind China's AI rise: Meet the founders of DeepSeek, Z.ai and Moonshot AI",
-      "titleZh": "中国人工智能崛起背后的面孔：认识DeepSeek、Z.ai和Moonshot AI的创始人",
-      "summary": "The faces behind China's AI rise: Meet the founders of DeepSeek, Z.ai and Moonshot AI CNA",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORjFFajlOY2MzV1gwdTN1M09YUXBNS19CT0pJMVhjb05McEZTREs4ejY4SWN6YnpIbVVQRGFCT1ZTOWZ5THBmblpvWFFvNWZRZ2xKWVJHcndkdldnNTQ5SWV4aHFsT2hMazA5b1RFQzJDS3dGZExzeUp1TmV3QmQ1aXhPM2VsSzlOUzNkeEl6VDlQcFhhb2ZnQ3IyWHBidFJkaDNFQV9OVElYd1FpdFZfbVRpVzEwY2t6?oc=5",
-      "pubDate": 1785103200000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1210570808",
       "title": "China's Moonshot, Z.AI, and DeepSeek are challenging U.S. AI labs—and beating them on cost",
       "titleZh": "China's Moonshot, Z.AI, and DeepSeek are challenging U.S. AI labs—and beating them on cost",
@@ -928,10 +928,10 @@
       "source": "Google News"
     },
     {
-      "id": "1568185262",
+      "id": "-2042936933",
       "title": "DeepSeek Suspends Fundraising After Viral US-China Posts",
       "titleZh": "DeepSeek在美中病毒帖子后暂停筹款",
-      "summary": "DeepSeek Suspends Fundraising After Viral US-China Posts Bloomberg.com",
+      "summary": "DeepSeek Suspends Fundraising After Viral US-China Posts Bloomberg",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZmM5SHI4SGhzcko5THg1SGx5a1RiY2p0MExUU0R0NHM3T2pjN0NaR1piRGhGbTVDQll5aElhOHpOWnFUNC14S1dHNUtMaElCLTZFLTd5SW5OTmEyb2lUT1ZhVE5qQ2JvNzRiX3JrMWNIcDB5YWJYZ2luLXFfSk5hNXpLMndhdHpfWURFVl9OcmVpSGUzeDBTdEJlUFQ4cUZHQXZTMjdyM1NfQ3Z5N09zX0FPMEtvQQ?oc=5",
       "pubDate": 1784990995000,
       "vendor": "deepseek",
@@ -1105,13 +1105,13 @@
       "vendor": "openai",
       "category": "Release",
       "impact": "med",
-      "score": 63,
+      "score": 62,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 3,
         "cw": 25,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "OpenAI"
@@ -1126,13 +1126,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "OpenAI"
@@ -1147,13 +1147,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google AI"
@@ -1168,13 +1168,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "OpenAI"
