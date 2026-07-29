@@ -1,8 +1,29 @@
 {
-  "updated": "2026-07-29T18:04:02.108Z",
+  "updated": "2026-07-29T19:52:30.457Z",
   "count": 115,
   "sources": 12,
   "items": [
+    {
+      "id": "1573781606",
+      "title": "Claude Opus 5 became downright ruthless when tasked with running a vending machine",
+      "titleZh": "克劳德·奥普斯5号在任务是经营自动售货机时变得彻头彻尾的无情",
+      "summary": "Andon Labs' latest vending machine simulation shows Opus 5 lied and colluded its way to become the best AI capitalist ever.",
+      "link": "https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine/",
+      "pubDate": 1785350727000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "1375362750",
       "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
@@ -613,27 +634,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "-1213033670",
-      "title": "Recursive Superintelligence signs $410M compute deal with Amazon",
-      "titleZh": "递归超级智能与亚马逊签署$ 4.1亿美元的计算协议",
-      "summary": "Recursive’s emphasis on self-improving AI systems means much of the budget that would traditionally go toward headcount and operations is put straight into compute, as the company seeks to automate it…",
-      "link": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/",
-      "pubDate": 1785244757000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 44,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "-1243449843",
       "title": "5 ways AI Mode in Search helps you enjoy the real world",
       "titleZh": "搜索中的AI模式帮助您享受真实世界的5种方式",
@@ -748,13 +748,13 @@
       "vendor": "kimi",
       "category": "Research",
       "impact": "high",
-      "score": 63,
+      "score": 62,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
