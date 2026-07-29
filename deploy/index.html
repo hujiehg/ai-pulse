@@ -42,7 +42,7 @@
   html,body{height:100%;overflow:hidden}
   body{
     font-family:'Segoe UI','Inter',-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif;
-    background:var(--bg); color:var(--text); min-height:100vh;
+    background:var(--bg);color:var(--text);min-height:100vh;
     display:flex;flex-direction:column;
     -webkit-font-smoothing:antialiased;
   }
@@ -178,7 +178,6 @@
   .card-body{padding:12px 16px}
 
   /* ===== Left Panel: 厂商筛选 ===== */
-  
   .vendor-list{display:flex;flex-direction:column;gap:2px}
   .vendor-item{
     display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:var(--radius-sm);
@@ -3104,7 +3103,7 @@ setInterval(fetchAllNews, 15 * 60 * 1000);
 
   panels.forEach(panel => {
     panel.addEventListener('wheel', function(e) {
-      // 只有内容超出容器时才拦截滚轮
+      // 内容未超出容器时不处理，让事件自然消失
       if (panel.scrollHeight <= panel.clientHeight) return;
 
       const atTop    = panel.scrollTop <= 0;
@@ -3112,17 +3111,13 @@ setInterval(fetchAllNews, 15 * 60 * 1000);
       const scrollingDown = e.deltaY > 0;
       const scrollingUp   = e.deltaY < 0;
 
-      // 未到边界时，完全阻止事件冒泡，只让当前面板滚动
-      if ((scrollingDown && !atBottom) || (scrollingUp && !atTop)) {
+      // 到达边界时阻止默认滚动行为，防止滚动传递到其他区域
+      if ((scrollingDown && atBottom) || (scrollingUp && atTop)) {
         e.preventDefault();
-        e.stopPropagation();
-        panel.scrollTop += e.deltaY;
       }
-      // 即使到了边界，也阻止事件继续传递到 body / 其他面板
-      else {
-        e.preventDefault();
-        e.stopPropagation();
-      }
+      // 未到边界时不阻止默认行为，让浏览器原生滚动（流畅、支持触控板惯性）
+      // stopPropagation 确保事件不会冒泡到其他面板
+      e.stopPropagation();
     }, { passive: false });
   });
 })();
