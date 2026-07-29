@@ -5,6 +5,11 @@ on:
     - cron: '*/30 * * * *'  # 每30分钟
   workflow_dispatch:  # 手动触发
 
+permissions:
+  contents: write
+  pages: write
+  pull-requests: write
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -19,7 +24,18 @@ jobs:
         run: npm install
 
       - name: Run news fetcher
-        run: node fetcher.js --output news.json
+        run: node fetcher.js --output news.json --verbose
+
+      - name: Verify news.json exists
+        run: |
+          echo "=== Checking news.json ==="
+          ls -la news.json || echo "news.json NOT FOUND!"
+          if [ -f news.json ]; then
+            echo "news.json size: $(wc -c < news.json) bytes"
+            echo "First 200 chars:"
+            head -c 200 news.json
+            echo ""
+          fi
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
@@ -28,3 +44,4 @@ jobs:
           publish_dir: ./
           publish_branch: gh-pages
           keep_files: false
+          exclude_assets: '.gitignore'

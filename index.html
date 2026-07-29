@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AI Pulse · 前沿资讯中心</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+<style>
+  :root{
+    --bg:#f3f3f7; --bg2:#ffffff; --bg-card:#ffffff;
+    --accent:#0067c0; --accent-light:#2b88d8; --accent-dark:#004578;
+    --accent-grad:linear-gradient(135deg,#0067c0,#2b88d8);
+    --purple:#7b3cb0; --purple-grad:linear-gradient(135deg,#7b3cb0,#a44bd6);
+    --teal:#008272; --teal-grad:linear-gradient(135deg,#008272,#00b294);
+    --orange:#ca5010; --orange-grad:linear-gradient(135deg,#ca5010,#f7630c);
+    --red:#c50f1f; --red-grad:linear-gradient(135deg,#c50f1f,#e81123);
+    --green:#107c10; --green-grad:linear-gradient(135deg,#107c10,#498205);
+    --text:#1a1a2e; --text-sub:#5a5a72; --text-dim:#8a8aa0;
+    --border:#e5e5f0; --border-strong:#d0d0de;
+    --shadow:0 2px 8px rgba(0,0,0,0.06), 0 0 1px rgba(0,0,0,0.08);
+    --shadow-hover:0 8px 24px rgba(0,103,192,0.14), 0 0 1px rgba(0,0,0,0.1);
+    --radius:10px; --radius-sm:6px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    font-family:'Segoe UI','Inter',-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif;
+    background:var(--bg); color:var(--text); min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+  }
+  .acrylic{
+    background:rgba(255,255,255,0.72);
+    backdrop-filter:blur(30px) saturate(140%);
+    -webkit-backdrop-filter:blur(30px) saturate(140%);
+  }
+  /* ===== Header ===== */
+  .header{
+    position:sticky;top:0;z-index:100;
+    border-bottom:1px solid var(--border);
+  }
+  .header-inner{
+    max-width:1640px;margin:0 auto;padding:14px 24px;
+    display:flex;align-items:center;gap:20px;
+  }
+  .logo{display:flex;align-items:center;gap:10px}
+  .logo-icon{
+    width:36px;height:36px;border-radius:8px;
+    background:var(--accent-grad);
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 3px 10px rgba(0,103,192,0.3);
+  }
+  .logo-icon svg{width:20px;height:20px;fill:#fff}
+  .logo-text{font-size:18px;font-weight:700;letter-spacing:-0.5px}
+  .logo-text b{color:var(--accent)}
+  .logo-sub{font-size:11px;color:var(--text-dim);font-weight:400}
+  .header-search{
+    flex:1;max-width:480px;position:relative;
+  }
+  .header-search input{
+    width:100%;padding:9px 14px 9px 38px;
+    border:1px solid var(--border-strong);border-radius:20px;
+    background:var(--bg2);font-size:13px;font-family:inherit;color:var(--text);
+    transition:border-color .2s, box-shadow .2s;
+  }
+  .header-search input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(0,103,192,0.12)}
+  .header-search svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);width:16px;height:16px;fill:var(--text-dim)}
+  .header-stats{display:flex;gap:16px;align-items:center}
+  .hstat{display:flex;flex-direction:column;align-items:flex-end;line-height:1.1}
+  .hstat .n{font-size:18px;font-weight:700;color:var(--accent);font-family:'Inter',sans-serif}
+  .hstat .l{font-size:9px;color:var(--text-dim);letter-spacing:1px;text-transform:uppercase}
+  .refresh-btn{
+    padding:8px 16px;border-radius:var(--radius-sm);border:1px solid var(--accent);
+    background:var(--accent-grad);color:#fff;font-size:12px;font-weight:600;font-family:inherit;
+    cursor:pointer;transition:transform .15s, box-shadow .2s;
+    display:flex;align-items:center;gap:6px;
+  }
+  .refresh-btn:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(0,103,192,0.3)}
+  .refresh-btn:active{transform:translateY(0)}
+  .refresh-btn svg{width:14px;height:14px;fill:#fff}
+  .refresh-btn.spinning svg{animation:spin 1s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+
+  /* ===== Tabs ===== */
+  .tabs{
+    max-width:1640px;margin:0 auto;padding:12px 24px 0;
+    display:flex;gap:4px;flex-wrap:wrap;
+  }
+  .tab{
+    padding:8px 16px;border-radius:6px 6px 0 0;
+    font-size:13px;font-weight:500;color:var(--text-sub);cursor:pointer;
+    border:1px solid transparent;border-bottom:none;
+    transition:all .2s;position:relative;bottom:-1px;
+  }
+  .tab:hover{background:rgba(0,103,192,0.05);color:var(--accent)}
+  .tab.active{
+    background:var(--bg2);border-color:var(--border-strong);color:var(--accent);
+    font-weight:600;
+  }
+  .tab .badge{
+    display:inline-block;margin-left:6px;padding:1px 6px;border-radius:10px;
+    background:var(--accent);color:#fff;font-size:10px;font-weight:600;
+  }
+
+  /* ===== Layout ===== */
+  .main{max-width:1640px;margin:0 auto;padding:16px 24px 40px}
+  .grid{display:grid;grid-template-columns:280px 1fr 320px;gap:16px;align-items:start}
+  @media (max-width:1280px){.grid{grid-template-columns:240px 1fr}.right-panel{display:none}}
+  @media (max-width:860px){.grid{grid-template-columns:1fr}.left-panel{display:none}}
+
+  /* ===== Card ===== */
+  .card{
+    background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);
+    box-shadow:var(--shadow);overflow:hidden;
+  }
+  .card-head{
+    padding:14px 16px 10px;border-bottom:1px solid var(--border);
+    display:flex;align-items:center;justify-content:space-between;
+  }
+  .card-title{font-size:13px;font-weight:600;color:var(--text)}
+  .card-title .ico{display:inline-block;width:16px;height:16px;margin-right:6px;vertical-align:-3px}
+  .card-body{padding:12px 16px}
+
+  /* ===== Left Panel: 厂商筛选 ===== */
+  .left-panel{position:sticky;top:140px}
+  .vendor-list{display:flex;flex-direction:column;gap:2px}
+  .vendor-item{
+    display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:var(--radius-sm);
+    cursor:pointer;transition:background .15s;
+  }
+  .vendor-item:hover{background:rgba(0,103,192,0.06)}
+  .vendor-item.active{background:rgba(0,103,192,0.1)}
+  .vendor-logo{
+    width:28px;height:28px;border-radius:6px;display:flex;align-items:center;justify-content:center;
+    font-size:13px;font-weight:700;color:#fff;flex-shrink:0;
+  }
+  .vendor-info{flex:1;min-width:0}
+  .vendor-name{font-size:12px;font-weight:600}
+  .vendor-count{font-size:10px;color:var(--text-dim)}
+  .vendor-item.active .vendor-count{color:var(--accent)}
+  .vendor-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+
+  .cat-list{display:flex;flex-direction:column;gap:2px;margin-top:8px}
+  .cat-item{
+    display:flex;align-items:center;gap:8px;padding:7px 12px;border-radius:var(--radius-sm);
+    font-size:12px;color:var(--text-sub);cursor:pointer;transition:background .15s;
+  }
+  .cat-item:hover{background:rgba(0,103,192,0.06)}
+  .cat-item.active{background:rgba(0,103,192,0.1);color:var(--accent);font-weight:600}
+  .cat-item .num{margin-left:auto;font-size:10px;color:var(--text-dim)}
+
+  /* ===== Center: News Feed ===== */
+  .feed-head{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:0 0 12px;
+  }
+  .feed-title{font-size:16px;font-weight:700}
+  .feed-meta{font-size:11px;color:var(--text-dim)}
+  .news-list{display:flex;flex-direction:column;gap:10px}
+  .news-card{
+    background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);
+    padding:14px 16px;box-shadow:var(--shadow);
+    transition:box-shadow .2s, transform .15s, border-color .2s;
+    cursor:pointer;position:relative;
+  }
+  .news-card:hover{box-shadow:var(--shadow-hover);transform:translateY(-1px);border-color:var(--accent-light)}
+  .news-card.unread::before{
+    content:"";position:absolute;left:0;top:14px;bottom:14px;width:3px;
+    background:var(--accent);border-radius:0 2px 2px 0;
+  }
+  .news-top{display:flex;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap}
+  .vendor-tag{
+    display:inline-flex;align-items:center;gap:4px;
+    padding:2px 8px;border-radius:4px;font-size:10px;font-weight:600;color:#fff;
+  }
+  .cat-tag{
+    padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;
+    background:#eef0f5;color:var(--text-sub);
+  }
+  .cat-tag.Release{background:#e7f3ff;color:var(--accent)}
+  .cat-tag.Funding{background:#fff4e6;color:var(--orange)}
+  .cat-tag.Research{background:#f0eaff;color:var(--purple)}
+  .cat-tag.Safety{background:#ffe9ec;color:var(--red)}
+  .cat-tag.Product{background:#e6faf4;color:var(--teal)}
+  .cat-tag.Agent{background:#fff9e6;color:#a08400}
+  .news-time{font-size:10px;color:var(--text-dim);margin-left:auto}
+  .news-title{font-size:14px;font-weight:600;line-height:1.4;margin-bottom:6px;color:var(--text)}
+  .news-title a{color:inherit;text-decoration:none}
+  .news-card:hover .news-title{color:var(--accent)}
+  .news-summary{font-size:12px;line-height:1.6;color:var(--text-sub)}
+  .news-summary b{color:var(--text);font-weight:600}
+  .news-foot{display:flex;align-items:center;gap:12px;margin-top:8px}
+  .news-source{font-size:10px;color:var(--text-dim)}
+  .news-source a{color:var(--accent);text-decoration:none}
+  .impact{
+    display:inline-flex;align-items:center;gap:3px;font-size:10px;font-weight:600;
+    padding:2px 6px;border-radius:4px;
+  }
+  .impact.high{background:#ffe9ec;color:var(--red)}
+  .impact.med{background:#fff4e6;color:var(--orange)}
+  .impact.low{background:#e6faf4;color:var(--teal)}
+  .skeleton{
+    background:linear-gradient(90deg,#f0f0f5 25%,#e5e5f0 50%,#f0f0f5 75%);
+    background-size:200% 100%;animation:shimmer 1.5s infinite;
+    border-radius:4px;
+  }
+  @keyframes shimmer{to{background-position:-200% 0}}
+  .skel-card{padding:14px 16px;border:1px solid var(--border);border-radius:var(--radius);margin-bottom:10px}
+  .skel-title{height:16px;width:70%;margin-bottom:8px}
+  .skel-sum{height:12px;width:100%;margin-bottom:4px}
+  .skel-sum2{height:12px;width:85%}
+
+  /* ===== Right Panel ===== */
+  .right-panel{position:sticky;top:140px;display:flex;flex-direction:column;gap:16px}
+  .trend-list{display:flex;flex-wrap:wrap;gap:6px}
+  .trend-tag{
+    padding:4px 10px;border-radius:14px;font-size:11px;font-weight:500;
+    background:#eef0f5;color:var(--text-sub);cursor:pointer;transition:all .15s;
+  }
+  .trend-tag:hover{background:var(--accent);color:#fff}
+  .trend-tag .n{font-size:9px;opacity:.7;margin-left:3px}
+  #chartTrend{height:160px}
+  .stat-row{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid var(--border);font-size:12px}
+  .stat-row:last-child{border-bottom:none}
+  .stat-row .k{color:var(--text-sub)}
+  .stat-row .v{font-weight:700;color:var(--accent)}
+
+  /* ===== Footer ===== */
+  .footer{
+    max-width:1640px;margin:0 auto;padding:20px 24px;
+    border-top:1px solid var(--border);
+    display:flex;justify-content:space-between;align-items:center;
+    font-size:11px;color:var(--text-dim);flex-wrap:wrap;gap:8px;
+  }
+  .footer a{color:var(--accent);text-decoration:none}
+
+  /* ===== Toast ===== */
+  .toast{
+    position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(100px);
+    background:var(--text);color:#fff;padding:10px 20px;border-radius:var(--radius-sm);
+    font-size:13px;box-shadow:0 8px 24px rgba(0,0,0,0.2);
+    transition:transform .3s;z-index:1000;
+  }
+  .toast.show{transform:translateX(-50%) translateY(0)}
+
+  /* ===== Responsive ===== */
+  @media (max-width:760px){
+    .header-inner{padding:10px 14px;flex-wrap:wrap}
+    .header-search{order:3;max-width:none;flex-basis:100%}
+    .header-stats{gap:10px}
+    .hstat .n{font-size:15px}
+    .tabs{padding:8px 14px 0}
+    .main{padding:12px 14px 30px}
+    .news-card{padding:12px}
+    .news-title{font-size:13px}
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="header acrylic">
+  <div class="header-inner">
+    <div class="logo">
+      <div class="logo-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.2L19.5 8 12 11.8 4.5 8 12 4.2zM4 9.3l7 3.5v7.4l-7-3.5V9.3zm9 10.9v-7.4l7-3.5v7.4l-7 3.5z"/></svg>
+      </div>
+      <div>
+        <div class="logo-text">AI <b>Pulse</b></div>
+        <div class="logo-sub">前沿资讯中心 · v1.0</div>
+      </div>
+    </div>
+    <div class="header-search">
+      <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0A4.5 4.5 0 1 1 14 9.5 4.5 4.5 0 0 1 9.5 14z"/></svg>
+      <input id="searchInput" placeholder="搜索新闻、厂商、关键词…" />
+    </div>
+    <div class="header-stats">
+      <div class="hstat"><span class="n" id="statTotal">0</span><span class="l">总资讯</span></div>
+      <div class="hstat"><span class="n" id="statToday">0</span><span class="l">今日</span></div>
+      <div class="hstat"><span class="n" id="statSources">0</span><span class="l">数据源</span></div>
+    </div>
+    <button class="refresh-btn" id="refreshBtn">
+      <svg viewBox="0 0 24 24"><path d="M17.65 6.35A7.958 7.958 0 0 0 12 4a8 8 0 1 0 7.74 10h-2.08A6 6 0 1 1 12 6a5.94 5.94 0 0 1 4.22 1.78L13 11h7V4l-2.35 2.35z"/></svg>
+      <span>刷新</span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== TABS ===== -->
+<nav class="tabs" id="tabs">
+  <div class="tab active" data-cat="all">全部 <span class="badge" id="badge-all">0</span></div>
+  <div class="tab" data-cat="Release">发布</div>
+  <div class="tab" data-cat="Product">产品</div>
+  <div class="tab" data-cat="Research">研究</div>
+  <div class="tab" data-cat="Funding">融资</div>
+  <div class="tab" data-cat="Agent">Agent</div>
+  <div class="tab" data-cat="Safety">安全</div>
+</nav>
+
+<!-- ===== MAIN ===== -->
+<div class="main">
+<div class="grid">
+
+  <!-- LEFT: 厂商筛选 -->
+  <aside class="left-panel">
+    <div class="card">
+      <div class="card-head"><div class="card-title">厂商追踪</div></div>
+      <div class="card-body">
+        <div class="vendor-list" id="vendorList"></div>
+        <div style="margin-top:16px;padding-top:12px;border-top:1px solid var(--border)">
+          <div class="card-title" style="margin-bottom:8px">分类筛选</div>
+          <div class="cat-list" id="catList"></div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- CENTER: 资讯流 -->
+  <section>
+    <div class="feed-head">
+      <div>
+        <div class="feed-title" id="feedTitle">全部资讯</div>
+        <div class="feed-meta" id="feedMeta">加载中…</div>
+      </div>
+    </div>
+    <div class="news-list" id="newsList">
+      <div class="skel-card"><div class="skeleton skel-title"></div><div class="skeleton skel-sum"></div><div class="skeleton skel-sum2"></div></div>
+      <div class="skel-card"><div class="skeleton skel-title"></div><div class="skeleton skel-sum"></div><div class="skeleton skel-sum2"></div></div>
+      <div class="skel-card"><div class="skeleton skel-title"></div><div class="skeleton skel-sum"></div><div class="skeleton skel-sum2"></div></div>
+    </div>
+  </section>
+
+  <!-- RIGHT: 趋势 + 统计 -->
+  <aside class="right-panel">
+    <div class="card">
+      <div class="card-head"><div class="card-title">7日趋势</div></div>
+      <div class="card-body">
+        <div id="chartTrend"></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-head"><div class="card-title">热门关键词</div></div>
+      <div class="card-body">
+        <div class="trend-list" id="trendList"></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-head"><div class="card-title">数据统计</div></div>
+      <div class="card-body" id="statBox"></div>
+    </div>
+  </aside>
+
+</div>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <span>AI Pulse · 数据来源：OpenAI / Anthropic / Google DeepMind / Hugging Face / arXiv / Google News 聚合</span>
+  <span>最后更新：<span id="lastUpdate">--</span></span>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script>
+/* ============================================================
+   AI Pulse — 前沿资讯中心
+   多源 RSS 聚合 · 微软 Fluent Design 风格
+   ============================================================ */
+const $ = id => document.getElementById(id);
+
+/* ---------- 多代理 fallback ---------- */
+const PROXIES = [
+  u => `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(u)}`,   // 主：返回 JSON
+  u => `https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`,              // 备：返回 XML
+];
+
+/* ---------- 厂商配置 ---------- */
+const VENDORS = [
+  { key:'openai',   name:'OpenAI',     color:'#10a37f', rss:'https://openai.com/news/rss.xml', init:'OA' },
+  { key:'anthropic',name:'Anthropic',  color:'#c96442', rss:'https://www.anthropic.com/news.xml', init:'AN' },
+  { key:'google',   name:'Google AI',  color:'#4285f4', rss:'https://blog.google/technology/ai/rss/', init:'G' },
+  { key:'huggingface',name:'HuggingFace',color:'#ff9d00',rss:'https://huggingface.co/blog/feed.xml', init:'HF' },
+  { key:'deepmind', name:'DeepMind',   color:'#00897b', rss:'https://deepmind.google/blog/rss.xml', init:'DM' },
+  { key:'kimi',     name:'Kimi',       color:'#7c3aed', rss:null, init:'K' },
+  { key:'qwen',     name:'Qwen',       color:'#615ced', rss:null, init:'Q' },
+  { key:'deepseek', name:'DeepSeek',   color:'#1e40af', rss:null, init:'DS' },
+];
+const VENDOR_MAP = {};
+VENDORS.forEach(v=>VENDOR_MAP[v.key]=v);
+
+/* ---------- 分类关键词 ---------- */
+const CAT_KEYWORDS = {
+  Release: ['launch','release','announce','introducing','unveil','发布','推出','上线','available now'],
+  Product: ['api','feature','update','app','chatgpt','claude','gemini','product','integration','功能','更新'],
+  Research: ['paper','research','study','benchmark','论文','研究','arxiv','model'],
+  Funding: ['funding','raise','investment','series','valuation','融资','估值','投资','ipo'],
+  Agent: ['agent','agentic','tool use','autonomous','智能体','代理'],
+  Safety: ['safety','alignment','security','risk','jailbreak','安全','对齐','风险'],
+};
+
+/* ---------- 状态 ---------- */
+const STATE = {
+  news: [],          // 所有新闻 {id,title,summary,link,pubDate,vendor,category,impact,source,read}
+  filterVendor: 'all',
+  filterCat: 'all',
+  searchQuery: '',
+  lastUpdate: null,
+  sourcesLoaded: 0,
+};
+
+/* ---------- 工具函数 ---------- */
+function parseDate(str){
+  if(!str) return Date.now();
+  const d = new Date(str);
+  return isNaN(d) ? Date.now() : d.getTime();
+}
+function timeAgo(ts){
+  const diff = Date.now() - ts;
+  const m = Math.floor(diff/60000);
+  if(m<1) return '刚刚';
+  if(m<60) return m+'分钟前';
+  const h = Math.floor(m/60);
+  if(h<24) return h+'小时前';
+  const d = Math.floor(h/24);
+  if(d<7) return d+'天前';
+  return new Date(ts).toLocaleDateString('zh-CN');
+}
+function classify(title, desc){
+  const text = (title + ' ' + desc).toLowerCase();
+  let best = 'Product', bestScore = 0;
+  for(const [cat, kws] of Object.entries(CAT_KEYWORDS)){
+    let score = 0;
+    kws.forEach(k=>{ if(text.includes(k.toLowerCase())) score++; });
+    if(score > bestScore){ bestScore = score; best = cat; }
+  }
+  return best;
+}
+function detectVendor(title, desc, sourceUrl){
+  const text = (title + ' ' + desc).toLowerCase();
+  // 优先检测国产模型（避免被 Google/OpenAI 关键词抢占）
+  if(/kimi|moonshot|月之暗面/i.test(text)) return 'kimi';
+  if(/qwen|千问|通义/i.test(text)) return 'qwen';
+  if(/deepseek|深度求索/i.test(text)) return 'deepseek';
+  if(sourceUrl){
+    if(sourceUrl.includes('openai.com')) return 'openai';
+    if(sourceUrl.includes('anthropic.com')) return 'anthropic';
+    if(sourceUrl.includes('blog.google') || sourceUrl.includes('deepmind')) return 'google';
+    if(sourceUrl.includes('huggingface.co')) return 'huggingface';
+  }
+  if(/openai|gpt|chatgpt|sam altman/i.test(text)) return 'openai';
+  if(/anthropic|claude|sonnet|opus|haiku/i.test(text)) return 'anthropic';
+  if(/google|gemini|deepmind|bard/i.test(text)) return 'google';
+  if(/hugging|transformers|diffusers/i.test(text)) return 'huggingface';
+  return 'other';
+}
+function assessImpact(title, desc, vendor){
+  const text = (title + ' ' + desc).toLowerCase();
+  let score = 0;
+  if(/launch|release|发布|推出|gpt-5|claude 5|gemini 3|kimi k|qwen[0-9]|deepseek v/i.test(text)) score += 2;
+  if(/funding|billion|融资|估值|ipo|acquisition|收购/i.test(text)) score += 2;
+  if(/safety|security|breach|jailbreak|leak|安全|泄露/i.test(text)) score += 1;
+  if(/api|developer|platform|开放/i.test(text)) score += 1;
+  if(vendor !== 'other') score += 1;
+  if(score >= 3) return 'high';
+  if(score >= 1) return 'med';
+  return 'low';
+}
+function generateSummary(title, desc){
+  let text = desc || title;
+  text = text.replace(/<[^>]+>/g,'').replace(/\s+/g,' ').trim();
+  if(text.length > 200) text = text.slice(0,200) + '…';
+  return text;
+}
+function hashId(s){ return s.split('').reduce((a,c)=>((a<<5)-a+c.charCodeAt(0))|0,0)+'' }
+
+/* ---------- RSS 解析：JSON 格式（rss2json） ---------- */
+function parseRSSJSON(json, vendorKey){
+  if(!json || json.status !== 'ok' || !json.items) return [];
+  return json.items.map(item=>{
+    const title = (item.title||'').trim();
+    const desc = (item.description||'').trim();
+    if(!title) return null;
+    return {
+      id: hashId(title + item.link),
+      title,
+      summary: generateSummary(title, desc),
+      link: item.link || '',
+      pubDate: parseDate(item.pubDate),
+      vendor: vendorKey,
+      category: classify(title, desc),
+      impact: assessImpact(title, desc, vendorKey),
+      source: VENDOR_MAP[vendorKey]?.name || vendorKey,
+      author: item.author || '',
+      read: false,
+    };
+  }).filter(Boolean);
+}
+
+/* ---------- RSS 解析：XML 格式（allorigins） ---------- */
+function parseRSS(xmlText, vendorKey){
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(xmlText, 'text/xml');
+  const items = doc.querySelectorAll('item');
+  const out = [];
+  items.forEach((item, i)=>{
+    const title = item.querySelector('title')?.textContent?.trim() || '';
+    const link = item.querySelector('link')?.textContent?.trim() || '';
+    const pubDate = item.querySelector('pubDate')?.textContent?.trim() || '';
+    const desc = item.querySelector('description')?.textContent?.trim() || '';
+    const creator = item.querySelector('creator')?.textContent?.trim() || '';
+    if(!title) return;
+    out.push({
+      id: hashId(title + link),
+      title,
+      summary: generateSummary(title, desc),
+      link,
+      pubDate: parseDate(pubDate),
+      vendor: vendorKey,
+      category: classify(title, desc),
+      impact: assessImpact(title, desc, vendorKey),
+      source: VENDOR_MAP[vendorKey]?.name || vendorKey,
+      author: creator,
+      read: false,
+    });
+  });
+  return out;
+}
+
+/* ---------- Google News 聚合（Kimi/Qwen/DeepSeek） ---------- */
+function parseGoogleNews(xmlText, query){
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(xmlText, 'text/xml');
+  const items = doc.querySelectorAll('item');
+  const out = [];
+  items.forEach(item=>{
+    const title = item.querySelector('title')?.textContent?.trim() || '';
+    const link = item.querySelector('link')?.textContent?.trim() || '';
+    const pubDate = item.querySelector('pubDate')?.textContent?.trim() || '';
+    const desc = item.querySelector('description')?.textContent?.trim() || '';
+    if(!title) return;
+    // Google News 标题格式："新闻标题 - 媒体名"，保留新闻标题部分
+    const cleanTitle = title.replace(/\s*-\s*[^-]+$/,'').trim() || title;
+    const vendor = detectVendor(cleanTitle, desc, '');
+    if(vendor === 'other') return;
+    out.push({
+      id: hashId(title + link),
+      title: cleanTitle,
+      summary: generateSummary(cleanTitle, desc),
+      link,
+      pubDate: parseDate(pubDate),
+      vendor,
+      category: classify(cleanTitle, desc),
+      impact: assessImpact(cleanTitle, desc, vendor),
+      source: 'Google News',
+      read: false,
+    });
+  });
+  return out;
+}
+
+/* ---------- 数据采集：多代理 fallback ---------- */
+async function fetchWithProxies(rssUrl, vendorKey, isGoogleNews){
+  for(let i=0; i<PROXIES.length; i++){
+    const proxyUrl = PROXIES[i](rssUrl);
+    try{
+      const resp = await fetch(proxyUrl, {signal: AbortSignal.timeout(15000)});
+      if(!resp.ok) continue;
+      const text = await resp.text();
+      // rss2json 返回 JSON
+      if(i === 0){
+        try{
+          const json = JSON.parse(text);
+          if(json.status === 'ok' && json.items){
+            return isGoogleNews ? parseGoogleNewsFromJSON(json) : parseRSSJSON(json, vendorKey);
+          }
+        }catch(e){ /* 非 JSON，继续 */ }
+      }
+      // allorigins 返回 XML
+      if(isGoogleNews) return parseGoogleNews(text, vendorKey);
+      return parseRSS(text, vendorKey);
+    }catch(e){
+      console.warn(`Proxy ${i} failed for ${vendorKey}:`, e.message);
+    }
+  }
+  return [];
+}
+
+/* ---------- Google News JSON 解析（rss2json） ---------- */
+function parseGoogleNewsFromJSON(json){
+  if(!json || !json.items) return [];
+  return json.items.map(item=>{
+    const title = (item.title||'').trim();
+    const desc = (item.description||'').trim();
+    if(!title) return null;
+    // Google News 标题格式："新闻标题 - 媒体名"，保留新闻标题部分
+    const cleanTitle = title.replace(/\s*-\s*[^-]+$/,'').trim() || title;
+    const vendor = detectVendor(cleanTitle, desc, '');
+    if(vendor === 'other') return null;
+    return {
+      id: hashId(title + item.link),
+      title: cleanTitle,
+      summary: generateSummary(cleanTitle, desc),
+      link: item.link || '',
+      pubDate: parseDate(item.pubDate),
+      vendor,
+      category: classify(cleanTitle, desc),
+      impact: assessImpact(cleanTitle, desc, vendor),
+      source: 'Google News',
+      read: false,
+    };
+  }).filter(Boolean);
+}
+
+/* ---------- 单源采集 ---------- */
+async function fetchRSS(vendorKey){
+  const v = VENDOR_MAP[vendorKey];
+  if(!v || !v.rss) return [];
+  return fetchWithProxies(v.rss, vendorKey, false);
+}
+
+async function fetchGoogleNews(query){
+  const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=en&gl=US&ceid=US:en`;
+  return fetchWithProxies(url, 'gnews', true);
+}
+
+async function fetchAllNews(){
+  $('refreshBtn').classList.add('spinning');
+  $('newsList').innerHTML = '<div class="skel-card"><div class="skeleton skel-title"></div><div class="skeleton skel-sum"></div><div class="skeleton skel-sum2"></div></div><div class="skel-card"><div class="skeleton skel-title"></div><div class="skeleton skel-sum"></div><div class="skeleton skel-sum2"></div></div>';
+
+  const tasks = [];
+  // 官方 RSS
+  VENDORS.filter(v=>v.rss).forEach(v=> tasks.push(fetchRSS(v.key)));
+  // Google News 聚合国产模型（英文查询更稳定）
+  tasks.push(fetchGoogleNews('Kimi Moonshot AI'));
+  tasks.push(fetchGoogleNews('Qwen Alibaba model'));
+  tasks.push(fetchGoogleNews('DeepSeek AI model'));
+
+  const results = await Promise.allSettled(tasks);
+  let allNews = [];
+  let sourceCount = 0;
+  results.forEach(r=>{
+    if(r.status === 'fulfilled' && r.value.length > 0){
+      allNews = allNews.concat(r.value);
+      sourceCount++;
+    }
+  });
+
+  // 去重（按标题相似度）
+  const seen = new Set();
+  allNews = allNews.filter(n=>{
+    const key = n.title.slice(0,60).toLowerCase();
+    if(seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+
+  // 排序：按时间倒序
+  allNews.sort((a,b)=> b.pubDate - a.pubDate);
+
+  STATE.news = allNews;
+  STATE.sourcesLoaded = sourceCount;
+  STATE.lastUpdate = new Date();
+  $('refreshBtn').classList.remove('spinning');
+  renderAll();
+  showToast(`已加载 ${allNews.length} 条资讯 · ${sourceCount} 个数据源`);
+}
+
+/* ---------- 渲染 ---------- */
+function getFilteredNews(){
+  let list = STATE.news;
+  if(STATE.filterVendor !== 'all') list = list.filter(n=> n.vendor === STATE.filterVendor);
+  if(STATE.filterCat !== 'all') list = list.filter(n=> n.category === STATE.filterCat);
+  if(STATE.searchQuery){
+    const q = STATE.searchQuery.toLowerCase();
+    list = list.filter(n=> n.title.toLowerCase().includes(q) || n.summary.toLowerCase().includes(q));
+  }
+  return list;
+}
+
+function renderNewsList(){
+  const list = getFilteredNews();
+  const container = $('newsList');
+  if(list.length === 0){
+    container.innerHTML = '<div style="text-align:center;padding:40px 20px;color:var(--text-dim);font-size:13px">暂无相关资讯</div>';
+    return;
+  }
+  container.innerHTML = list.slice(0, 60).map(n=>{
+    const v = VENDOR_MAP[n.vendor] || {name:'其他', color:'#888', init:'?'};
+    return `
+    <div class="news-card ${n.read?'':'unread'}" data-id="${n.id}">
+      <div class="news-top">
+        <span class="vendor-tag" style="background:${v.color}">${v.name}</span>
+        <span class="cat-tag ${n.category}">${n.category}</span>
+        <span class="impact ${n.impact}">${n.impact==='high'?'🔥 高影响':n.impact==='med'?'⚡ 中':'○ 低'}</span>
+        <span class="news-time">${timeAgo(n.pubDate)}</span>
+      </div>
+      <div class="news-title"><a href="${n.link}" target="_blank" rel="noopener" onclick="markRead('${n.id}')">${n.title}</a></div>
+      <div class="news-summary">${n.summary}</div>
+      <div class="news-foot">
+        <span class="news-source">来源：<a href="${n.link}" target="_blank" rel="noopener">${n.source}</a></span>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function markRead(id){
+  const n = STATE.news.find(x=>x.id===id);
+  if(n) n.read = true;
+}
+
+function renderVendors(){
+  const counts = {};
+  STATE.news.forEach(n=> counts[n.vendor] = (counts[n.vendor]||0) + 1);
+  const html = VENDORS.map(v=>{
+    const c = counts[v.key] || 0;
+    return `
+    <div class="vendor-item ${STATE.filterVendor===v.key?'active':''}" data-vendor="${v.key}">
+      <div class="vendor-logo" style="background:${v.color}">${v.init}</div>
+      <div class="vendor-info">
+        <div class="vendor-name">${v.name}</div>
+        <div class="vendor-count">${c} 条资讯</div>
+      </div>
+      <div class="vendor-dot" style="background:${c>0?'#107c10':'#ccc'}"></div>
+    </div>`;
+  }).join('') + `
+    <div class="vendor-item ${STATE.filterVendor==='all'?'active':''}" data-vendor="all">
+      <div class="vendor-logo" style="background:var(--accent)">ALL</div>
+      <div class="vendor-info">
+        <div class="vendor-name">全部厂商</div>
+        <div class="vendor-count">${STATE.news.length} 条资讯</div>
+      </div>
+    </div>`;
+  $('vendorList').innerHTML = html;
+
+  // 分类列表
+  const catCounts = {};
+  STATE.news.forEach(n=> catCounts[n.category] = (catCounts[n.category]||0) + 1);
+  const cats = ['Release','Product','Research','Funding','Agent','Safety'];
+  $('catList').innerHTML = cats.map(c=>`
+    <div class="cat-item ${STATE.filterCat===c?'active':''}" data-cat="${c}">
+      <span>${catLabel(c)}</span>
+      <span class="num">${catCounts[c]||0}</span>
+    </div>`).join('');
+}
+
+function catLabel(c){
+  return {Release:'发布',Product:'产品',Research:'研究',Funding:'融资',Agent:'Agent',Safety:'安全'}[c] || c;
+}
+
+function renderStats(){
+  const today = new Date(); today.setHours(0,0,0,0);
+  const todayCount = STATE.news.filter(n=> n.pubDate >= today.getTime()).length;
+  $('statTotal').textContent = STATE.news.length;
+  $('statToday').textContent = todayCount;
+  $('statSources').textContent = STATE.sourcesLoaded;
+  $('lastUpdate').textContent = STATE.lastUpdate ? STATE.lastUpdate.toLocaleTimeString('zh-CN') : '--';
+  $('feedMeta').textContent = `共 ${STATE.news.length} 条 · ${STATE.sourcesLoaded} 个数据源 · 更新于 ${$('lastUpdate').textContent}`;
+
+  // 分类 badge
+  const catCounts = {};
+  STATE.news.forEach(n=> catCounts[n.category] = (catCounts[n.category]||0) + 1);
+  $('badge-all').textContent = STATE.news.length;
+
+  // 统计框
+  const highImpact = STATE.news.filter(n=>n.impact==='high').length;
+  const vendors = new Set(STATE.news.map(n=>n.vendor)).size;
+  $('statBox').innerHTML = `
+    <div class="stat-row"><span class="k">高影响资讯</span><span class="v">${highImpact}</span></div>
+    <div class="stat-row"><span class="k">活跃厂商</span><span class="v">${vendors}</span></div>
+    <div class="stat-row"><span class="k">今日新增</span><span class="v">${todayCount}</span></div>
+    <div class="stat-row"><span class="k">平均/源</span><span class="v">${STATE.sourcesLoaded>0?Math.round(STATE.news.length/STATE.sourcesLoaded):0}</span></div>
+  `;
+}
+
+function renderTrendChart(){
+  const days = 7;
+  const data = [];
+  const labels = [];
+  const now = new Date();
+  for(let i=days-1;i>=0;i--){
+    const d = new Date(now); d.setDate(d.getDate()-i); d.setHours(0,0,0,0);
+    const next = new Date(d); next.setDate(next.getDate()+1);
+    const count = STATE.news.filter(n=> n.pubDate >= d.getTime() && n.pubDate < next.getTime()).length;
+    data.push(count);
+    labels.push((d.getMonth()+1) + '/' + d.getDate());
+  }
+  const chart = echarts.init($('chartTrend'));
+  chart.setOption({
+    grid:{left:30,right:12,top:16,bottom:24},
+    xAxis:{type:'category',data:labels,axisLine:{lineStyle:{color:'#d0d0de'}},
+      axisLabel:{color:'#8a8aa0',fontSize:10}},
+    yAxis:{type:'value',axisLine:{show:false},axisTick:{show:false},
+      axisLabel:{color:'#8a8aa0',fontSize:10},splitLine:{lineStyle:{color:'#e5e5f0'}}},
+    series:[{
+      type:'bar',data,barWidth:'50%',
+      itemStyle:{borderRadius:[4,4,0,0],
+        color:new echarts.graphic.LinearGradient(0,0,0,1,[
+          {offset:0,color:'#2b88d8'},{offset:1,color:'#0067c0'}])}
+    }],
+    tooltip:{trigger:'axis',backgroundColor:'#fff',borderColor:'#e5e5f0',textStyle:{color:'#1a1a2e',fontSize:11}}
+  });
+}
+
+function renderKeywords(){
+  const kws = {};
+  const stopWords = new Set(['the','a','an','and','or','to','of','in','for','on','with','is','are','was','were','be','will','that','this','it','as','at','by','from','has','have','new','said','says','的','了','在','是','和','与','为','了']);
+  STATE.news.forEach(n=>{
+    const words = (n.title + ' ' + n.summary).split(/[\s,，。.:：;；!！?？()（）"'']/);
+    words.forEach(w=>{
+      w = w.trim().toLowerCase();
+      if(w.length < 2 || stopWords.has(w)) return;
+      if(/^\d+$/.test(w)) return;
+      kws[w] = (kws[w]||0) + 1;
+    });
+  });
+  const sorted = Object.entries(kws).sort((a,b)=>b[1]-a[1]).slice(0, 24);
+  $('trendList').innerHTML = sorted.map(([w,c])=>`<span class="trend-tag">${w}<span class="n">${c}</span></span>`).join('');
+}
+
+function renderAll(){
+  renderVendors();
+  renderNewsList();
+  renderStats();
+  renderTrendChart();
+  renderKeywords();
+}
+
+/* ---------- 交互事件 ---------- */
+function showToast(msg){
+  const t = $('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'), 3000);
+}
+
+document.addEventListener('click', e=>{
+  // 厂商筛选
+  const vi = e.target.closest('.vendor-item');
+  if(vi){
+    STATE.filterVendor = vi.dataset.vendor;
+    document.querySelectorAll('.vendor-item').forEach(x=>x.classList.toggle('active', x===vi));
+    $('feedTitle').textContent = STATE.filterVendor==='all' ? '全部资讯' : (VENDOR_MAP[STATE.filterVendor]?.name || '其他');
+    renderNewsList();
+    return;
+  }
+  // 分类筛选
+  const ci = e.target.closest('.cat-item');
+  if(ci){
+    STATE.filterCat = STATE.filterCat === ci.dataset.cat ? 'all' : ci.dataset.cat;
+    document.querySelectorAll('.cat-item').forEach(x=>x.classList.toggle('active', x===ci && STATE.filterCat===ci.dataset.cat));
+    renderNewsList();
+    return;
+  }
+  // Tab
+  const tab = e.target.closest('.tab');
+  if(tab){
+    STATE.filterCat = tab.dataset.cat;
+    document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active', t===tab));
+    renderNewsList();
+    return;
+  }
+});
+
+// 搜索
+$('searchInput').addEventListener('input', e=>{
+  STATE.searchQuery = e.target.value.trim();
+  renderNewsList();
+});
+
+// 刷新
+$('refreshBtn').addEventListener('click', ()=>{
+  if(!$('refreshBtn').classList.contains('spinning')) fetchAllNews();
+});
+
+// 窗口缩放
+window.addEventListener('resize', ()=>{
+  const c = $('chartTrend');
+  if(c) echarts.getInstanceByDom(c)?.resize();
+});
+
+/* ---------- 启动 ---------- */
+fetchAllNews();
+// 每 5 分钟自动刷新
+setInterval(fetchAllNews, 5 * 60 * 1000);
+</script>
+</body>
+</html>

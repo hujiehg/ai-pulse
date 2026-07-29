@@ -7,3 +7,11 @@ news.json
 coverage/
 dist/
 build/
+
+# 排除早期原型和截图
+dashboard-live.html
+dashboard-live-multi.html
+dashboard-mobile.html
+dashboard-offline.html
+fetcher-content.txt
+.uploads/
