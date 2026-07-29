@@ -1,8 +1,50 @@
 {
-  "updated": "2026-07-29T22:52:42.198Z",
+  "updated": "2026-07-29T23:55:24.047Z",
   "count": 116,
   "sources": 12,
   "items": [
+    {
+      "id": "456005618",
+      "title": "Mark Zuckerberg predicts that billions of people will have personal AI agents in five years",
+      "titleZh": "马克·扎克伯格预测，在五年内，数十亿人将拥有个人人工智能代理",
+      "summary": "As Meta pours billions into AI infrastructure and agents, Zuckerberg is working to convince investors that the payoff will be worth the price.",
+      "link": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/",
+      "pubDate": 1785366011000,
+      "vendor": "techcrunch",
+      "category": "Agent",
+      "impact": "high",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 12,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-91362372",
+      "title": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag",
+      "titleZh": "微软从Anthropic投资中获得了32 $ B ，但OpenAI是一个混合袋",
+      "summary": "When Microsoft reported killer fourth-quarter earnings for its fiscal 2026 year (which ended June 30), it tucked in an interesting little tidbit about how its investments in the two biggest, and compe…",
+      "link": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/",
+      "pubDate": 1785365163000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 1,
+        "cw": 20,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "2089518685",
       "title": "Zuckerberg says Meta’s enterprise AI opportunity extends beyond agents",
@@ -34,13 +76,13 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 1,
         "cw": 12,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,13 +97,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 22,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -149,6 +191,27 @@
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "-809497425",
+      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "titleZh": "启用两个设置如何使我们在ARC-AGI-3基准测试中的分数增加两倍",
+      "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+      "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "pubDate": 1785337200000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "high",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
     },
     {
       "id": "-1790730272",
@@ -508,27 +571,6 @@
       "source": "Google News"
     },
     {
-      "id": "-1393215533",
-      "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
-      "titleZh": "Cyera同意以10亿美元收购Oasis Security ，以保护扩散的人工智能代理商",
-      "summary": "The deal is Cyera's third acquisition this year.",
-      "link": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/",
-      "pubDate": 1785283745000,
-      "vendor": "techcrunch",
-      "category": "Agent",
-      "impact": "high",
-      "score": 38,
-      "scoreBreakdown": {
-        "cq": 12,
-        "kv": 2,
-        "cw": 12,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "-343473939",
       "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
       "titleZh": "GPT-5.6如何将前沿情报与前沿效率融合",
@@ -548,27 +590,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "1161650077",
-      "title": "Bot-detection startup Spur nabs $200M from Insight",
-      "titleZh": "机器人检测初创公司Spur从Insight获得2亿美元$",
-      "summary": "Spur Intelligence has raised a $200 million round from Insight Partners for its tech that can identify legit human traffic from bots.",
-      "link": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/",
-      "pubDate": 1785274174000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 20,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "-4391099",
@@ -991,10 +1012,10 @@
       "source": "Google News"
     },
     {
-      "id": "-2042936933",
+      "id": "1568185262",
       "title": "DeepSeek Suspends Fundraising After Viral US-China Posts",
       "titleZh": "DeepSeek在美中病毒帖子后暂停筹款",
-      "summary": "DeepSeek Suspends Fundraising After Viral US-China Posts Bloomberg",
+      "summary": "DeepSeek Suspends Fundraising After Viral US-China Posts Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZmM5SHI4SGhzcko5THg1SGx5a1RiY2p0MExUU0R0NHM3T2pjN0NaR1piRGhGbTVDQll5aElhOHpOWnFUNC14S1dHNUtMaElCLTZFLTd5SW5OTmEyb2lUT1ZhVE5qQ2JvNzRiX3JrMWNIcDB5YWJYZ2luLXFfSk5hNXpLMndhdHpfWURFVl9OcmVpSGUzeDBTdEJlUFQ4cUZHQXZTMjdyM1NfQ3Z5N09zX0FPMEtvQQ?oc=5",
       "pubDate": 1784990995000,
       "vendor": "deepseek",
@@ -1236,27 +1257,6 @@
         "cq": 18,
         "kv": 0,
         "cw": 25,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "-1636782095",
-      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
-      "titleZh": "NTT DATA Group通过Codex将事件分析时间缩短至30分钟",
-      "summary": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
-      "link": "https://openai.com/index/ntt-data",
-      "pubDate": 1784678400000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
         "st": 15,
         "rc": 0,
         "cs": 1
