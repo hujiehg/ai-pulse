@@ -2500,84 +2500,45 @@ function generateSmartSummary(m) {
   // 构建一句话速览
   const oneLiner = generateOneLiner(m, v);
 
-  // 构建'这是什么'
-  const whatIsIt = generateWhatIsIt(m, v, tmpl, techTmpl);
+  // 构建核心解读（合并"这是什么"+"技术详解"）
+  const coreAnalysis = generateCoreAnalysis(m, v, tmpl, techTmpl);
 
-  // 构建技术详解
-  const techDetail = generateTechDetail(m, v, tmpl, techTmpl);
+  // 构建关键要点（3-4个精炼要点）
+  const points = generateKeyPoints(m, v);
 
-  // 构建核心要点（7-8个）
-  const points = generatePoints(m, v);
+  // 构建影响分析（合并"竞品对比"+"用户影响"+"行业影响"）
+  const impactAnalysis = generateImpactAnalysis(m, v, tmpl);
 
-  // 构建竞品对比
-  const competitorAnalysis = generateCompetitorAnalysis(m, v);
-
-  // 构建对用户与开发者的影响
-  const userImpact = generateUserImpact(m, v);
-
-  // 构建行业影响
-  const industryImpact = generateIndustryImpact(m, v, tmpl);
-
-  // 构建相关背景
-  const background = generateBackground(m, v, tmpl);
-
-  // 构建未来展望
-  const futureOutlook = generateFutureOutlook(m, v);
-
-  // 博主点评
-  const comment = pick(BLOGGER_COMMENTS);
+  // 构建展望（合并"背景"+"未来展望"）
+  const outlook = generateOutlook(m, v, tmpl);
 
   return `
     <div class="article-summary">
       <div class="summary-section">
         <h2 class="summary-heading">📰 ${titleCN}</h2>
+        <p class="summary-text" style="font-size:16px;font-weight:500;color:var(--accent-dark);background:#f0f7ff;padding:14px 16px;border-radius:8px;border-left:4px solid var(--accent);margin-top:12px;">${oneLiner}</p>
       </div>
 
       <div class="summary-section">
-        <h2 class="summary-heading">📌 一句话速览</h2>
-        <p class="summary-text" style="font-size:16px;font-weight:500;color:var(--accent-dark);background:#f0f7ff;padding:14px 16px;border-radius:8px;border-left:4px solid var(--accent);">${oneLiner}</p>
+        <h2 class="summary-heading">🔍 核心解读</h2>
+        ${coreAnalysis}
       </div>
 
       <div class="summary-section">
-        <h2 class="summary-heading">❓ 这是什么</h2>
-        ${whatIsIt}
-      </div>
-
-      <div class="summary-section">
-        <h2 class="summary-heading">🔬 技术/内容详解</h2>
-        ${techDetail}
-      </div>
-
-      <div class="summary-section">
-        <h2 class="summary-heading">🎯 核心要点</h2>
+        <h2 class="summary-heading">🎯 关键要点</h2>
         <ul class="summary-points">
           ${points.map(p => `<li><strong>${p.title}</strong>：${p.desc}</li>`).join('')}
         </ul>
       </div>
 
       <div class="summary-section">
-        <h2 class="summary-heading">⚔️ 竞品对比分析</h2>
-        ${competitorAnalysis}
+        <h2 class="summary-heading">📊 影响分析</h2>
+        ${impactAnalysis}
       </div>
 
       <div class="summary-section">
-        <h2 class="summary-heading">👥 对用户与开发者的影响</h2>
-        ${userImpact}
-      </div>
-
-      <div class="summary-section">
-        <h2 class="summary-heading">🌊 行业影响与趋势分析</h2>
-        ${industryImpact}
-      </div>
-
-      <div class="summary-section">
-        <h2 class="summary-heading">🔗 相关背景</h2>
-        ${background}
-      </div>
-
-      <div class="summary-section">
-        <h2 class="summary-heading">🔮 未来展望</h2>
-        ${futureOutlook}
+        <h2 class="summary-heading">🔮 展望与背景</h2>
+        ${outlook}
       </div>
 
       <div class="summary-disclaimer">
@@ -2655,6 +2616,184 @@ function quickTranslateCN(text) {
   return result;
 }
 
+/* ===== 精简版摘要生成函数 ===== */
+
+function generateCoreAnalysis(m, v, tmpl, techTmpl) {
+  const parts = [];
+  // 一段话讲清楚这是什么
+  parts.push(`<p class="summary-text"><strong>${v.name}</strong> ${pick(tmpl.intro)} ${pick(techTmpl.what)}简单来说，这项动态的核心在于<strong>让 AI 在特定场景下更强大、更可靠或更易用</strong>。</p>`);
+  // 技术要点（一段）
+  parts.push(`<p class="summary-text"><strong>技术层面：</strong>${pick(techTmpl.how)} 与之前的方案相比，${pick(techTmpl.diff)}</p>`);
+  // 原文关键信息（如果有）
+  if (m.keySentences.length >= 2) {
+    const rawQuotes = m.keySentences.slice(1, 3).map(s => {
+      const clean = s.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
+      const cacheKey = `en|zh:${clean}`;
+      if (TRANSLATION_CACHE[cacheKey]) return TRANSLATION_CACHE[cacheKey];
+      if (/^[\x00-\x7F\s]+$/.test(clean)) {
+        const translated = quickTranslateCN(clean);
+        const enWords = (translated.match(/[a-zA-Z]{4,}/g) || []).length;
+        const total = translated.split(/\s+/).length;
+        if (enWords / Math.max(1, total) > 0.5) return null;
+        return translated;
+      }
+      return clean;
+    }).filter(s => s !== null);
+    if (rawQuotes.length > 0) {
+      parts.push(`<blockquote class="summary-quote"><strong>📄 原文要点：</strong>${rawQuotes.join('；')}。</blockquote>`);
+    }
+  } else if (m.summary && m.summary.length > 30) {
+    let sumText = m.summary.slice(0, 300);
+    const sumCacheKey = `en|zh:${m.summary}`;
+    if (TRANSLATION_CACHE[sumCacheKey]) {
+      sumText = TRANSLATION_CACHE[sumCacheKey].slice(0, 300);
+    } else if (/^[\x00-\x7F\s]+$/.test(sumText)) {
+      const translated = quickTranslateCN(sumText);
+      const enWords = (translated.match(/[a-zA-Z]{4,}/g) || []).length;
+      const total = translated.split(/\s+/).length;
+      if (enWords / Math.max(1, total) <= 0.5) sumText = translated.slice(0, 300);
+      else sumText = null;
+    }
+    if (sumText) parts.push(`<blockquote class="summary-quote"><strong>📄 原文摘要：</strong>${sumText}${m.summary.length > 300 ? '…' : ''}</blockquote>`);
+  }
+  return parts.join('');
+}
+
+function generateKeyPoints(m, v) {
+  let cleanTitle = m.title.replace(/^[^:]+:\s*/, '').slice(0, 80);
+  const titleCacheKey = `en|zh:${m.title}`;
+  if (TRANSLATION_CACHE[titleCacheKey]) {
+    cleanTitle = TRANSLATION_CACHE[titleCacheKey].replace(/^[^:]+:\s*/, '').slice(0, 80);
+  } else if (/^[\x00-\x7F]+$/.test(cleanTitle)) {
+    cleanTitle = quickTranslateCN(cleanTitle);
+  }
+
+  const catPoints = {
+    Release: [
+      { title: '发布内容', desc: `${v.name} 推出了 ${cleanTitle}，这是其产品矩阵中的重要更新，标志着相关技术已进入产品化阶段。` },
+      { title: '技术亮点', desc: '在架构设计、性能表现或用户体验上有针对性优化，关键指标有实质提升。' },
+      { title: '竞争定位', desc: `在 AI 市场竞争中，这次发布体现了 ${v.name} 对市场节奏的把握和技术护城河的巩固。` },
+      { title: '后续看点', desc: '关注真实场景的用户反馈、基准测试表现及生态建设进展——产品发布只是开始。' },
+    ],
+    Product: [
+      { title: '更新内容', desc: `本次更新聚焦 ${cleanTitle}，基于用户反馈和数据分析进行的针对性改进。` },
+      { title: '用户体验', desc: '在交互流畅度、响应速度或输出质量上的提升，直接影响日常使用感受。' },
+      { title: '差异化', desc: `相比同类产品，${v.name} 试图在特定场景建立差异化竞争力。` },
+      { title: '迭代节奏', desc: '从发布频率看，该产品已进入快速迭代期，后续值得持续关注。' },
+    ],
+    Research: [
+      { title: '研究问题', desc: `这项研究针对 ${cleanTitle} 相关的核心科学问题，选题具有较高的前沿价值。` },
+      { title: '方法创新', desc: '在方法论上做出有意义的探索，为后续研究提供了新工具和新视角。' },
+      { title: '实验验证', desc: '通过充分的实验对比证明了方法有效性，实验设计严谨。' },
+      { title: '应用前景', desc: '虽属基础研究，但成果有望在数月到数年内转化为实际产品能力。' },
+    ],
+    Funding: [
+      { title: '融资规模', desc: `本轮融资反映了资本市场对 ${v.name} 技术路线和商业模式的认可。` },
+      { title: '资金用途', desc: '预计主要用于研发团队扩充、算力建设和市场拓展。' },
+      { title: '竞争格局', desc: '充足资本使其在与巨头的竞争中拥有更多战略主动权，但资金转化能力是关键。' },
+      { title: '行业信号', desc: '这笔融资说明优质 AI 资产仍受追捧，但公司需在资本充裕时建立可持续模式。' },
+    ],
+    Agent: [
+      { title: '核心能力', desc: `${v.name} 在智能体自主决策、工具调用或任务规划方面取得进展。` },
+      { title: '技术架构', desc: '可能在感知、规划、记忆或工具调用等模块上实现了关键突破。' },
+      { title: '可靠性挑战', desc: '演示效果出色，但在复杂真实环境中错误率仍较高，可靠性是最大挑战。' },
+      { title: '商业化路径', desc: 'Agent 商业化处于早期探索，从按调用付费到按效果付费各有尝试。' },
+    ],
+    Safety: [
+      { title: '安全议题', desc: `涉及 AI 安全重要议题：${cleanTitle}，是 AI 可持续发展的基石。` },
+      { title: '技术方法', desc: '可能采用红队测试、对抗训练或 RLHF 等方法提升安全性。' },
+      { title: '行业意义', desc: '为行业提供新的安全思路和方法，有望被更多厂商借鉴。' },
+      { title: '监管关联', desc: '随着各国 AI 监管落地，安全研究的重要性将持续上升。' },
+    ],
+  };
+
+  const base = catPoints[m.category] || catPoints.Product;
+
+  // 用原文关键句替换前两个要点的描述
+  if (m.keySentences.length > 0) {
+    let ks = m.keySentences[0].replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim().slice(0, 120);
+    const ksCacheKey = `en|zh:${ks}`;
+    if (TRANSLATION_CACHE[ksCacheKey]) {
+      ks = TRANSLATION_CACHE[ksCacheKey].slice(0, 120);
+    } else if (/^[\x00-\x7F\s]+$/.test(ks)) {
+      const translated = quickTranslateCN(ks);
+      const enWords = (translated.match(/[a-zA-Z]{4,}/g) || []).length;
+      const total = translated.split(/\s+/).length;
+      if (enWords / Math.max(1, total) <= 0.5) {
+        base[0].desc = `据原文，${translated.slice(0, 120)}。`;
+      }
+    } else {
+      base[0].desc = `据原文，${ks}。`;
+    }
+  }
+  if (m.keySentences.length > 1) {
+    let ks = m.keySentences[1].replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim().slice(0, 120);
+    const ksCacheKey = `en|zh:${ks}`;
+    if (TRANSLATION_CACHE[ksCacheKey]) {
+      ks = TRANSLATION_CACHE[ksCacheKey].slice(0, 120);
+    } else if (/^[\x00-\x7F\s]+$/.test(ks)) {
+      const translated = quickTranslateCN(ks);
+      const enWords = (translated.match(/[a-zA-Z]{4,}/g) || []).length;
+      const total = translated.split(/\s+/).length;
+      if (enWords / Math.max(1, total) <= 0.5) {
+        base[1].desc = `进一步来看，${translated.slice(0, 120)}。`;
+      }
+    } else {
+      base[1].desc = `进一步来看，${ks}。`;
+    }
+  }
+
+  return base;
+}
+
+function generateImpactAnalysis(m, v, tmpl) {
+  const parts = [];
+  const competitors = {
+    openai: 'Google Gemini、Anthropic Claude、Meta Llama',
+    anthropic: 'OpenAI GPT 系列、Google Gemini',
+    google: 'OpenAI GPT、Anthropic Claude',
+    huggingface: '各大云厂商的模型服务',
+    deepmind: 'OpenAI、Anthropic',
+    kimi: '百度文心一言、字节豆包、阿里通义千问',
+    qwen: 'Meta Llama、Mistral、DeepSeek',
+    deepseek: 'Qwen、Llama、Mistral',
+    other: '各细分领域的主要玩家',
+  };
+  const compStr = competitors[m.vendor] || competitors.other;
+
+  // 竞争格局（一段）
+  parts.push(`<p class="summary-text"><strong>竞争格局：</strong>${v.name} 的主要竞争对手包括 ${compStr}。这次动态会迫使对手做出回应，头部玩家之间的"军备竞赛"已进入白热化阶段。</p>`);
+  // 对用户和开发者的影响（一段）
+  const catLabels = { Release: '产品发布', Product: '产品更新', Research: '研究成果', Funding: '融资动态', Agent: '智能体进展', Safety: '安全动态' };
+  const cat = catLabels[m.category] || '动态';
+  parts.push(`<p class="summary-text"><strong>对用户与开发者：</strong>这次${cat}最终会通过产品体验提升惠及用户。对开发者而言，如果 ${v.name} 开放了 API 或开发工具，将带来新的应用构建机会。企业客户则更关注稳定性、安全性和成本效益的改善。</p>`);
+  // 行业趋势（一段）
+  parts.push(`<p class="summary-text"><strong>行业影响：</strong>${pick(tmpl.impact)} AI 行业技术迭代速度持续加快，半年前的"最先进"可能已成为今天的"基线"。这次动态也对投资市场有信号意义，可能带动相关赛道信心。</p>`);
+
+  return parts.join('');
+}
+
+function generateOutlook(m, v, tmpl) {
+  const parts = [];
+  const cat = m.category;
+
+  // 短期展望（一段）
+  parts.push(`<p class="summary-text"><strong>短期（3-6 个月）：</strong>预计 ${v.name} 会基于这次${cat === 'Research' ? '研究成果' : '发布'}快速迭代。市场反馈积极则加速推广，出现问题则需及时修复。</p>`);
+  // 中长期展望（一段）
+  if (cat === 'Release' || cat === 'Product') {
+    parts.push(`<p class="summary-text"><strong>中长期（6-18 个月）：</strong>这次更新可能是更大产品路线图的一环，后续在功能完善、生态扩展方面值得期待。竞争对手的回应也将塑造最终格局。</p>`);
+  } else if (cat === 'Research') {
+    parts.push(`<p class="summary-text"><strong>中长期（6-18 个月）：</strong>研究成果有望被扩展和改进，若方法有效，可能引发多个团队的跟进研究，形成新的研究热点。</p>`);
+  } else if (cat === 'Funding') {
+    parts.push(`<p class="summary-text"><strong>中长期（6-18 个月）：</strong>${v.name} 需在人才引进、技术突破和产品增长上展现实质进展，投资者会密切关注这些指标。</p>`);
+  } else {
+    parts.push(`<p class="summary-text"><strong>中长期（6-18 个月）：</strong>这次进展将在 ${v.name} 的技术路线中持续发酵，可期待更多相关更新和行业跟进。</p>`);
+  }
+
+  return parts.join('');
+}
+
+/* ===== 以下为旧函数保留兼容（已不再调用） ===== */
 function generateWhatIsIt(m, v, tmpl, techTmpl) {
   const parts = [];
   parts.push(`<p class="summary-text"><strong>${v.name}</strong> ${pick(tmpl.intro)}</p>`);
