@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T01:27:27.187Z",
+  "updated": "2026-07-30T03:30:49.439Z",
   "count": 116,
   "sources": 12,
   "items": [
@@ -13,13 +13,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 0,
         "cw": 22,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -97,13 +97,13 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 1,
         "cw": 12,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -118,13 +118,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 22,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -139,13 +139,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -277,6 +277,27 @@
       "source": "OpenAI"
     },
     {
+      "id": "-1347808310",
+      "title": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export and Chinese import controls to acquire compute",
+      "titleZh": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export and Chinese import controls to acquire compute",
+      "summary": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export and Chinese import controls to acquire compute Tom's Hardware",
+      "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNc3pUREd5Tk9LWC1SSGE2OEUyTWlGYzZYX0lYbjVtTHhqdzIxaFZfRkp4Nm9zNU95LWlQZXVQSGtmS05LQXBjVVhycUFHT1QzWU5GRjQzdVJHQ1FSTXNVTHhPZlU2YUdta3Buc21aZ0FJQWJYSFpzQ0luaDF0bERWdGF0TWxsT3FiSkY3c29LamR1LUpBSFpRcUM5MGlpWTN5S3FIR09EM3c2NkFCRHpvdTF0WGg5V0k3TEVaUlJhc1hhU1dnUmlvUDlkY3JoaUx3RG5FTnEtaEdxYnp3dUpfYkpMUTk4ZzBCS3hOQUgwMXROc1pZYkI2QXlNUEFxNERrX2U4WGpYWU5VZDJCdEFyY3d4XzNOX3pXek5qMWFJWUJjUmNXUHhfZ1VEa0FPdFBzUkhja2diZU1lalVYcVRGaFE4Y2dSVnFtdUIzYTV3?oc=5",
+      "pubDate": 1785319200000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-220401866",
       "title": "Chinese AI startup Kimi K3 sends U.S. chip stocks tumbling",
       "titleZh": "中国人工智能初创公司Kimi K3让美国芯片股暴跌",
@@ -343,7 +364,7 @@
       "id": "864388579",
       "title": "Do Models Fake Alignment Without Clear Consequences?",
       "titleZh": "模型是否在没有明确后果的情况下虚假对齐？",
-      "summary": "arXiv:2607.24758v1 Announce Type: new Abstract: Large language models are capable of recognizing evaluation contexts and altering their behavior to reflect evaluator expectations rather than typical d…",
+      "summary": "arXiv:2607.24758v2 Announce Type: new Abstract: Large language models are capable of recognizing evaluation contexts and altering their behavior to reflect evaluator expectations rather than typical d…",
       "link": "https://arxiv.org/abs/2607.24758",
       "pubDate": 1785297600000,
       "vendor": "arxiv",
@@ -739,11 +760,11 @@
       "source": "Google News"
     },
     {
-      "id": "-171421028",
+      "id": "220479196",
       "title": "Kimi AI and kvcache-ai Open Sources 'AgentENV': A Distributed System that Powers Agentic Reinforcement Learning (RL) Training for Kimi K3",
       "titleZh": "Kimi AI和kvcache-ai开源“AgentENV” ：为Kimi K3提供代理强化学习（ RL ）培训的分布式系统",
       "summary": "Kimi AI and kvcache-ai Open Sources 'AgentENV': A Distributed System that Powers Agentic Reinforcement Learning (RL) Training for Kimi K3 MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVE9JRDFaTFVSWi0xb2l1LWVYZmh0NmNzbWgyWGtYekJyZFh5ZU9rcjg2S3JWMVgwMzViYWx4SFJLT1o5dlpKeXp5VUxjSWJpcTZ0SjF2T3d3cUs0bjRHQ0trNVVtV3N1RkR1cDJfcDFJQkVMa004aTkxSmtnQXJxbEhPNzNMOTRsNDdseEdR0gGTAUFVX3lxTE1ETlM2dEUxU0R4d3NYcU41allfbEdkaG8yTEZYa0VMNGVBMVMtT0E2cTF3ck1DRlRyR29OZnI2dkxUUkxGNG5mUDlPa29GNU5xY2szbExtbjMzN3dRQndkdzV5X2g1aVR1Vm94bjg2amhBSTJqa29JbHUwR19SNXdwN0w0d04tNG1DYXJWMjhzR0dKWQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVE9JRDFaTFVSWi0xb2l1LWVYZmh0NmNzbWgyWGtYekJyZFh5ZU9rcjg2S3JWMVgwMzViYWx4SFJLT1o5dlpKeXp5VUxjSWJpcTZ0SjF2T3d3cUs0bjRHQ0trNVVtV3N1RkR1cDJfcDFJQkVMa004aTkxSmtnQXJxbEhPNzNMOTRsNDdseEdR?oc=5",
       "pubDate": 1785185333000,
       "vendor": "kimi",
       "category": "Agent",
@@ -796,6 +817,27 @@
         "kv": 6,
         "cw": 25,
         "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-118287983",
+      "title": "Chinese AI models now handle nearly a third of enterprise tokens at one-tenth the cost of US rivals",
+      "titleZh": "中国人工智能模型现在以美国竞争对手的十分之一的成本处理近三分之一的企业代币",
+      "summary": "Chinese AI models now handle nearly a third of enterprise tokens at one-tenth the cost of US rivals MarketScale",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxONEQ2WVhlQ2l0ZVVMVlltc3BqNXdtM2tWcDhiRTlNZ0lERFQ4MFdneV8tejVTVnNnTFc2SXJqNHRPN2k3cUU1RUZjUk9PMkNTWWptNDhYY2oyVGVOMC1PUEladElkZG50b3JnRjhtcEZ0S1lnUUZXaFh1VDBzR3EwcEExVDVOVHVCakRZWmNOdTl5QWE0OEk4WGVEQzI5Zm1HUW40bkJwenJMRDZlNTJ6TTdEcXZjZG8yRV9oVlBNRFMxak5PcktnZERKM1dRYUcwM1lKMEozUGRBLVlySkM5c0V3VERjenlKOU1qdjVzVGZyODZ4?oc=5",
+      "pubDate": 1785163551000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
         "rc": 1,
         "cs": 1
       },
@@ -907,27 +949,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "-579119767",
-      "title": "DeepSeek said to have told backers of funding pause after viral posts",
-      "titleZh": "据称， DeepSeek在病毒式帖子后告诉支持者资金暂停",
-      "summary": "DeepSeek said to have told backers of funding pause after viral posts The Japan Times",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbnFLdzhHSHpPVENMRTEyLXVhYTlfNnZQZnlyUzdRTmp0Nkc3Nk1XOWZmSkZmWHJtV25mS0lENklPWFcwM3RUdnhaX2Y4ZlB4c2NiMlJXSXRLbmJGTUJiYjFSeTZsSEdfXzdteGRkU214NE10NlE1eGlkV0dCeWJXLWhCSlRFRWUzQWVZQnFTdW5mWnM?oc=5",
-      "pubDate": 1785120540000,
-      "vendor": "deepseek",
-      "category": "Funding",
-      "impact": "high",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 20,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "301974150",
       "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
       "titleZh": "前沿实验室特工入侵剖析： 2026年7月事件的技术时间表",
@@ -970,27 +991,6 @@
       "source": "Google News"
     },
     {
-      "id": "-176579396",
-      "title": "Making sense of the panic over Chinese AI",
-      "titleZh": "理解对中国人工智能的恐慌",
-      "summary": "Making sense of the panic over Chinese AI TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWnNONkdiUi1nanlMQ2NsQjdJVzdub25OMTcyQTdBWUN2aVpnMGxXSlpweklEbXVtMkJMRS1nN1IxaVRBU3NZYndOLWx1Tjk3WEF2N1loLXJhMEQ1LU9rcU9oV0FlWlFjaDROWmJ6dktBWWZZeXBXUFRmOFhoSVBzSUNB?oc=5",
-      "pubDate": 1785094857000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1715212646",
       "title": "Cheaper, open and intelligent: Chinese AI models gain ground, as they make inroads in the US",
       "titleZh": "更便宜、更开放、更智能：中国人工智能模型在美国取得进展",
@@ -1027,27 +1027,6 @@
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1443203265",
-      "title": "Silicon Valley CEOs take a stand that helps their Chinese rivals",
-      "titleZh": "硅谷首席执行官采取帮助中国竞争对手的立场",
-      "summary": "Silicon Valley CEOs take a stand that helps their Chinese rivals The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcGlQNF9QRFVZd2NBR3BUTHd3SmdVRlhzUWE4Z0hVVElHV0Q3VS13MXNzQy1LdzRvQnNIaFoxNWJGRFQwTlNUMFFjUkhpdkVUNElWVzNQS0o0TVFZRUdXSmN2M2ZvWm9yS0pfdlM4MVI3cExtWjRKWUdtWWNUQkJhUk1weG1ZYmJ6Z2ZTMC1fV0VTQ016VDEySWl3V0V2OENIZnpkOWpuS3luUkJKTjAtdGlB?oc=5",
-      "pubDate": 1784948250000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
         "rc": 1,
         "cs": 1
       },
@@ -2097,6 +2076,27 @@
         "cq": 18,
         "kv": 2,
         "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-807368284",
+      "title": "China's DeepSeek releases preview of long-awaited V4 model as AI race intensifies",
+      "titleZh": "随着人工智能竞赛的加剧，中国的DeepSeek发布了期待已久的V4车型的预览",
+      "summary": "China's DeepSeek releases preview of long-awaited V4 model as AI race intensifies CNBC",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd3BGX1RVY2NmcVZoZnpqQ0hDTmdhem9nVE5wLWlKN2lIYzNuVjJtUjdqeU9oWWIxVjY4WG1BU0ctMm5VNURWZmhnU05IQTVnakRJUFJSeHI5dFB0WThCb1h1Q2Fnb3k5aUwyTUd6NEZ3bU1LRWs5OHZvTi1MQlJpVzNMbnRzcDd6UkZxdFlsX0FycjU5SVc4ONIBngFBVV95cUxQWWFDRGp5MGRYM2FYZ0lvN0Y5cTVOSm56QmZQeENWTzdUQzVXOVZIQjVZZy1OcnJLeEFzSklFVEpWdWV6d05POWktN2JIbkJzQnhSZDdtRm1VQzBEbjR3ZjNyQ0VjSkVpenFrWGM5MnFWdndlVTg5OGgwMUpJa0RONnF2em9hdGhycjNGdmpmZHlQSEdudTMyRm1mdjVQUQ?oc=5",
+      "pubDate": 1777014000000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
         "st": 12,
         "rc": 0,
         "cs": 1

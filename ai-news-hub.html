@@ -818,6 +818,7 @@ const VENDORS = [
   { key:'arxiv',    name:'arXiv',      color:'#b31b1b', rss:'https://rss.arxiv.org/rss/cs.AI', init:'AX' },
   { key:'nvidia',   name:'NVIDIA',     color:'#76b900', rss:'https://blogs.nvidia.com/blog/tag/artificial-intelligence/feed/', init:'NV' },
   { key:'microsoft',name:'Microsoft',  color:'#0078d4', rss:'https://news.microsoft.com/en-in/tag/machine-learning/feed/', init:'MS' },
+  { key:'meta',     name:'Meta',       color:'#0668e1', rss:null, init:'M' },
   { key:'techcrunch',name:'TechCrunch',color:'#0a9e01', rss:'https://techcrunch.com/category/artificial-intelligence/feed/', init:'TC' },
   { key:'venturebeat',name:'VentureBeat',color:'#ed1c24',rss:'https://venturebeat.com/category/ai/feed/', init:'VB' },
   // 新增数据源（Phase 4）
@@ -931,10 +932,17 @@ const FALLBACK_DICT = {
   'billion': '十亿', 'million': '百万', 'trillion': '万亿',
 };
 
+/* 检测翻译 API 返回的错误文本 */
+function isBadTranslation(text) {
+  if (!text) return true;
+  const t = text.toLowerCase();
+  return t.includes('mymemory warning') || t.includes('you used all available') || t.includes('usageimits');
+}
+
 async function translateText(text, from='en', to='zh') {
   if (!text || typeof text !== 'string') return text;
   const key = `${from}|${to}:${text}`;
-  if (TRANSLATION_CACHE[key]) return TRANSLATION_CACHE[key];
+  if (TRANSLATION_CACHE[key] && !isBadTranslation(TRANSLATION_CACHE[key])) return TRANSLATION_CACHE[key];
 
   // 限流：如果正在进行中的翻译过多，直接返回原文占位
   if (TRANSLATION_IN_FLIGHT >= MAX_CONCURRENT_TRANSLATIONS) {
@@ -948,8 +956,8 @@ async function translateText(text, from='en', to='zh') {
     const data = await resp.json();
     if (data && data.responseData && data.responseData.translatedText) {
       const translated = data.responseData.translatedText;
-      // MyMemory 有时返回原文表示翻译失败
-      if (translated.toLowerCase() !== text.toLowerCase()) {
+      // 过滤 API 错误文本和原文返回
+      if (translated.toLowerCase() !== text.toLowerCase() && !isBadTranslation(translated)) {
         TRANSLATION_CACHE[key] = translated;
         // 持久化缓存（限制大小）
         try {
@@ -985,12 +993,12 @@ async function batchTranslateNews(list) {
     if (count >= 8) break; // 每次渲染最多翻译8个新文本（原3个）
     const titleKey = `en|zh:${n.title}`;
     const sumKey = `en|zh:${n.summary}`;
-    const needsTitle = !TRANSLATION_CACHE[titleKey] && n.title && /^[\x00-\x7F]+$/.test(n.title);
-    const needsSum = !TRANSLATION_CACHE[sumKey] && n.summary && /^[\x00-\x7F]+$/.test(n.summary);
+    const needsTitle = (!TRANSLATION_CACHE[titleKey] || isBadTranslation(TRANSLATION_CACHE[titleKey])) && n.title && /^[\x00-\x7F]+$/.test(n.title);
+    const needsSum = (!TRANSLATION_CACHE[sumKey] || isBadTranslation(TRANSLATION_CACHE[sumKey])) && n.summary && /^[\x00-\x7F]+$/.test(n.summary);
 
     if (needsTitle) {
       translateText(n.title).then(translated => {
-        if (translated) {
+        if (translated && !isBadTranslation(translated)) {
           const el = document.querySelector(`.news-title[data-id="${n.id}"]`);
           if (el) el.innerHTML = translated;
           const mel = document.querySelector(`.modal-title[data-news-id="${n.id}"]`);
@@ -1001,7 +1009,7 @@ async function batchTranslateNews(list) {
     }
     if (needsSum && count < 3) {
       translateText(n.summary).then(translated => {
-        if (translated) {
+        if (translated && !isBadTranslation(translated)) {
           const el = document.querySelector(`.news-summary[data-id="${n.id}"]`);
           if (el) el.innerHTML = translated;
         }
@@ -1066,10 +1074,23 @@ function detectVendor(title, desc, sourceUrl){
   if(/hugging|transformers|diffusers/i.test(text)) return 'huggingface';
   if(/nvidia|cuda|tensorrt|omniverse/i.test(text)) return 'nvidia';
   if(/microsoft|copilot|azure openai/i.test(text)) return 'microsoft';
+  if(/meta|llama|zuckerberg/i.test(text)) return 'meta';
   if(/hacker.?news|hn\b/i.test(text) && !/hacker/.test(text.replace(/hacker.?news/i,''))) return 'hackernews';
   if(/reddit|r\/(?:machinelearning|ml)/i.test(text)) return 'reddit_ml';
   if(/dev\.to|devto/i.test(text)) return 'devto';
   return 'other';
+}
+
+/* 新闻源厂商：对于来自新闻媒体的资讯，尝试从标题/内容检测实际涉及的 AI 公司 */
+const NEWS_SOURCE_VENDORS = new Set(['techcrunch','venturebeat','hackernews','reddit_ml','devto','arxiv_cl','arxiv_cv']);
+const AI_COMPANY_VENDORS = new Set(['openai','anthropic','google','deepmind','huggingface','kimi','qwen','deepseek','microsoft','meta','nvidia']);
+function resolveVendor(vendorKey, title, desc, link){
+  // 只有新闻源才需要二次检测
+  if(!NEWS_SOURCE_VENDORS.has(vendorKey)) return vendorKey;
+  // 只从标题和内容检测实际 AI 公司（不传 link，避免匹配到新闻源域名）
+  const detected = detectVendor(title, desc, '');
+  if(AI_COMPANY_VENDORS.has(detected)) return detected;
+  return vendorKey;
 }
 function assessImpact(title, desc, vendor){
   const text = (title + ' ' + desc).toLowerCase();
@@ -1088,7 +1109,7 @@ function assessImpact(title, desc, vendor){
 const SCORE_CATEGORY_WEIGHTS = { Release:25, Research:22, Funding:20, Product:15, Agent:12, Safety:10 };
 const SCORE_SOURCE_TRUST = {
   openai:15, anthropic:15, google:15, deepmind:15, huggingface:14, arxiv:13, arxiv_cl:13, arxiv_cv:13,
-  kimi:12, qwen:12, deepseek:12, nvidia:10, microsoft:10, techcrunch:8, venturebeat:8, github:10,
+  kimi:12, qwen:12, deepseek:12, nvidia:10, microsoft:10, meta:12, techcrunch:8, venturebeat:8, github:10,
   hackernews:12, reddit_ml:10, devto:8, jiqizhixin:10, liangziwei:10, other:5
 };
 const SCORE_KEYWORDS = {
@@ -1195,7 +1216,7 @@ function normalizeJSONItem(item){
     _rawContent: item._rawContent || item.summary || '',
     link: item.link || '',
     pubDate: item.pubDate || Date.now(),
-    vendor: item.vendor || 'other',
+    vendor: resolveVendor(item.vendor || 'other', item.title || '', item.summary || '', item.link || ''),
     category: item.category || 'Product',
     impact: item.impact || 'low',
     score: item.score || null,
@@ -1219,7 +1240,7 @@ function parseRSSJSON(json, vendorKey){
       _rawContent: item.content || desc || '',
       link: item.link || '',
       pubDate: parseDate(item.pubDate),
-      vendor: vendorKey,
+      vendor: resolveVendor(vendorKey, title, desc, item.link || ''),
       category: classify(title, desc),
       impact: assessImpact(title, desc, vendorKey),
       source: VENDOR_MAP[vendorKey]?.name || vendorKey,
@@ -1249,7 +1270,7 @@ function parseRSS(xmlText, vendorKey){
       _rawContent: desc || '',
       link,
       pubDate: parseDate(pubDate),
-      vendor: vendorKey,
+      vendor: resolveVendor(vendorKey, title, desc, link),
       category: classify(title, desc),
       impact: assessImpact(title, desc, vendorKey),
       source: VENDOR_MAP[vendorKey]?.name || vendorKey,
@@ -1590,8 +1611,10 @@ function renderNewsList(){
   }
   container.innerHTML = list.slice(0, 60).map(n=>{
     const v = VENDOR_MAP[n.vendor] || {name:'其他', color:'#888', init:'?'};
-    const cachedTitle = TRANSLATION_CACHE[`en|zh:${n.title}`] || n.title;
-    const cachedSummary = TRANSLATION_CACHE[`en|zh:${n.summary}`] || n.summary;
+    const cachedTitleRaw = TRANSLATION_CACHE[`en|zh:${n.title}`];
+    const cachedTitle = (cachedTitleRaw && !isBadTranslation(cachedTitleRaw)) ? cachedTitleRaw : n.title;
+    const cachedSummaryRaw = TRANSLATION_CACHE[`en|zh:${n.summary}`];
+    const cachedSummary = (cachedSummaryRaw && !isBadTranslation(cachedSummaryRaw)) ? cachedSummaryRaw : n.summary;
     const isRead = STATE.readHistory.includes(n.id);
     const isBookmarked = STATE.bookmarks.includes(n.id);
     // 根据标题显示模式生成标题 HTML
@@ -2009,7 +2032,7 @@ async function openArticle(id) {
         ${news.score!=null ? (()=>{ const b=scoreToBadge(news.score); return `<span class="score-badge ${b.cls}" title="AI智能评分">${b.label}<span class="score-num">${news.score}</span></span>`; })() : ''}
         <span class="news-time">${timeAgo(news.pubDate)}</span>
       </div>
-      <h1 class="modal-title" data-news-id="${news.id}">${TRANSLATION_CACHE[`en|zh:${news.title}`] || news.title}</h1>
+      <h1 class="modal-title" data-news-id="${news.id}">${(() => { const t = TRANSLATION_CACHE[`en|zh:${news.title}`]; return (t && !isBadTranslation(t)) ? t : news.title; })()}</h1>
       <div class="modal-subtitle">来源：${news.source} · ${new Date(news.pubDate).toLocaleDateString('zh-CN')}</div>
     </div>
   `;
@@ -2017,11 +2040,12 @@ async function openArticle(id) {
   // 设置原文链接
   $('originalLink').href = news.link;
 
-  // 异步翻译标题（如果未缓存）
-  if (!TRANSLATION_CACHE[`en|zh:${news.title}`] && /^[\x00-\x7F]+$/.test(news.title)) {
+  // 异步翻译标题（如果未缓存或缓存的是错误文本）
+  const titleCacheVal = TRANSLATION_CACHE[`en|zh:${news.title}`];
+  if ((!titleCacheVal || isBadTranslation(titleCacheVal)) && /^[\x00-\x7F]+$/.test(news.title)) {
     translateText(news.title).then(translated => {
       const mel = document.querySelector('.modal-title[data-news-id="' + news.id + '"]');
-      if (mel && translated) mel.textContent = translated;
+      if (mel && translated && !isBadTranslation(translated)) mel.textContent = translated;
     });
   }
 
@@ -2060,342 +2084,143 @@ function closeArticle() {
 /* ---------- 科普风格摘要模板库（大幅扩充） ---------- */
 const ANALYSIS_TEMPLATES = {
   openai: {
-    intro: [
-      "OpenAI 再次出手，这次带来的是其在 AI 领域的最新动作，值得每一位关注人工智能发展的人仔细了解。作为生成式 AI 的开创者，OpenAI 的每一步都在重新定义行业标准。",
-      "作为生成式 AI 领域的开创者和领头羊，OpenAI 的一举一动都牵动着整个行业的神经，这次也不例外。从 ChatGPT 爆火到 GPT-4 震撼发布，这家公司已经证明了它引领潮流的能力。",
-      "OpenAI 又放大招了。从 ChatGPT 到 GPT-4，这家公司一直在重新定义人机交互的边界。每次发布都不是简单的功能更新，而是对整个行业格局的重塑。",
-      "当大家都在猜测 GPT-5 何时到来时，OpenAI 用这次新动作再次证明了它的创新能力。让我们深入看看这次到底有什么值得关注的地方。",
-    ],
-    tech: [
-      "从技术实现来看，这背后依托的是 OpenAI 在大规模语言模型上的深厚积累。通过海量数据预训练加上人类反馈强化学习（RLHF），模型能够生成更加符合人类预期的输出。这种技术路线的核心在于'规模即智能'——更大的模型、更多的数据、更长的训练时间，往往能带来质的飞跃。",
-      "OpenAI 的技术路线一直以规模化和安全性并重著称。这次更新很可能在模型架构、训练数据或对齐技术上做了新的优化，使得输出质量进一步提升。特别值得注意的是，OpenAI 在推理效率上的改进，这意味着同样的能力可以用更低的成本提供给用户。",
-      "深入技术细节，我们会发现 OpenAI 的模型训练涉及多个关键环节：数据清洗与筛选、预训练、监督微调（SFT）、RLHF 以及后期的安全对齐。每个环节的改进都会对最终输出产生显著影响。",
-    ],
-    impact: [
-      "这一动向很可能加速整个 AI 行业的竞争格局变化，迫使 Google、Anthropic 等竞争对手加快产品迭代节奏。在 AI 这个'赢家通吃'的市场中，先发优势往往意味着生态锁定效应。",
-      "对于开发者和企业用户来说，这意味着可以更快地构建基于 OpenAI 技术的应用，降低 AI 落地的门槛。更重要的是，OpenAI 的定价策略往往会影响整个行业的商业化路径。",
-      "从行业生态来看，OpenAI 的每一步都在重塑开发者生态。更多基于其平台的创新应用将涌现，形成正向飞轮。这种生态效应一旦形成，竞争对手将很难打破。",
-      "对于普通消费者而言，OpenAI 的技术进步最终会通过更智能的产品体验体现出来。无论是更准确的回答、更自然的对话，还是更强大的创作辅助能力，最终受益的都是终端用户。",
-    ],
-    history: [
-      "回顾 OpenAI 的发展历程，从 2015 年成立时的非营利研究机构，到 2022 年 ChatGPT 引爆全球 AI 热潮，再到如今成为估值近千亿美元的商业巨头，这家公司已经完成了从研究到产品的完美转型。",
-      "OpenAI 的历史上有几个关键里程碑：2018 年发布 GPT-1 证明了生成式预训练的有效性；2019 年 GPT-2 展示了惊人的文本生成能力；2020 年 GPT-3 让'提示工程'成为新职业；2022 年 ChatGPT 让 AI 真正走入大众视野；2023 年 GPT-4 将多模态能力推向新高度。",
-    ],
+    context: 'OpenAI 是 ChatGPT 和 GPT 系列模型的开发商，也是这轮生成式 AI 浪潮的开创者，其每一步动作都在影响行业走向。',
+    competitors: 'Google Gemini、Anthropic Claude、Meta Llama',
   },
   anthropic: {
-    intro: [
-      "Anthropic 作为 AI 安全领域的坚定倡导者，这次的新动向再次体现了其对'有用、无害、诚实'（Helpful, Harmless, Honest）三大原则的坚持。在安全与能力之间寻找平衡，是 Anthropic 一贯的技术哲学。",
-      "在 OpenAI 和 Google 的夹缝中，Anthropic 走出了一条差异化的道路：把 AI 安全放在产品迭代的核心位置。这种策略让它在追求商业成功的同时，赢得了学术界和政策制定者的信任。",
-      "Claude 背后的 Anthropic 公司又有新动作了。这家公司一直以对齐研究和长上下文能力闻名。在 AI 安全日益受到关注的今天，Anthropic 的声音越来越重要。",
-      "当我们谈论 AI 安全时，Anthropic 是绕不开的名字。这家公司由前 OpenAI 研究团队核心成员创立，带着对 AI 安全的深刻思考进入赛场。",
-    ],
-    tech: [
-      "Anthropic 的核心技术优势在于 Constitutional AI（宪法 AI）和先进的对齐技术，让模型在保持能力的同时更加可控。 Constitutional AI 的核心思想是让模型遵循一套预设的原则（宪法），通过自我批评和修正来优化输出。",
-      "从架构上看，Anthropic 的模型在上下文窗口和长文本理解方面一直有领先表现，这得益于其在注意力机制上的创新优化。Claude 能够处理数十万字的上下文，这在法律、医疗、科研等需要处理大量文档的场景中具有巨大优势。",
-      "Anthropic 的技术栈还有一个独特之处：它非常重视可解释性研究。通过理解模型'在想什么'，研究团队能够更精准地控制模型行为，减少不可预测的输出。",
-    ],
-    impact: [
-      "这一进展对 AI 安全社区是一剂强心针，证明高性能和安全性并非不可兼得。这可能会影响整个行业对 AI 安全投入的态度和优先级。",
-      "对于需要处理敏感数据的企业客户来说，Anthropic 的可靠性和可控性使其成为越来越有吸引力的选择。在金融、医疗、法律等高风险行业，安全性往往是第一优先级。",
-      "Anthropic 的成功也证明了一个商业命题：安全不仅是成本，也可以是差异化竞争优势。在 AI 能力趋于同质化的趋势下，'更安全'可能成为用户选择的关键因素。",
-    ],
-    history: [
-      "Anthropic 成立于 2021 年，由 Dario 和 Daniela Amodei 兄妹领衔，两人都是前 OpenAI 核心研究人员。成立之初就获得了 5 亿美元融资，2023 年又获得 Google 30 亿美元投资，2024 年亚马逊追加 40 亿美元。",
-      "Anthropic 的 Claude 系列模型从 2023 年初开始逐步推出，凭借出色的长上下文能力和安全性迅速获得市场认可。Claude 3 系列的发布标志着 Anthropic 在综合能力上达到了与 GPT-4 竞争的水平。",
-    ],
+    context: 'Anthropic 是 Claude 系列模型的开发商，由前 OpenAI 核心成员创立，在 AI 安全对齐研究方面有深厚积累。',
+    competitors: 'OpenAI GPT 系列、Google Gemini',
   },
   google: {
-    intro: [
-      "Google DeepMind 带着它的技术底蕴又来了。作为 AI 研究历史最悠久、资源最雄厚的团队之一，Google 每次发声都不容忽视。从搜索到云、从手机到智能家居，AI 已经渗透到 Google 的每一条产品线。",
-      "在 Gemini 系列不断迭代的背景下，Google 这次释放了什么信号？让我们深入看看。作为拥有全球最多用户数据的科技公司之一，Google 在 AI 应用落地方面有着得天独厚的优势。",
-      "Google 在 AI 领域的布局堪称全产业链覆盖：从底层 TPU 芯片到上层应用，从基础研究到产品落地。这种垂直整合能力是其他公司难以复制的核心竞争力。",
-      "当我们还在讨论某个 AI 功能是否可行时，Google 可能已经把它部署到了数十亿用户的设备上。这就是拥有完整产品矩阵的科技巨头的实力。",
-    ],
-    tech: [
-      "Google 的技术栈一直具有独特的系统性优势：自研 TPU 芯片提供算力，TensorFlow/JAX 构建生态，Gemini 模型作为核心产品形成完整闭环。这种从芯片到应用的垂直整合，让 Google 在优化效率上拥有独特优势。",
-      "DeepMind 在强化学习和多模态理解方面的积累，为 Gemini 提供了坚实的研究基础。这次更新很可能整合了最新的研究成果。值得注意的是，Google 在多模态理解（同时处理文本、图像、音频、视频）方面一直处于领先地位。",
-      "从工程实现角度看，Google 的另一个优势是全球分布式基础设施。它的 AI 服务可以在全球多个数据中心就近部署，这意味着更低的延迟和更好的用户体验。",
-    ],
-    impact: [
-      "Google 的每一次重大更新都会直接影响数十亿用户的使用体验，其影响力远超一般的产品发布。当 Gemini 集成到搜索、Gmail、Docs 等产品中时，普通用户甚至不会意识到自己正在使用 AI。",
-      "这对 OpenAI 构成了直接竞争压力，可能促使后者加快 GPT 系列的下一代研发节奏。Google 的'免费+广告'商业模式也对 OpenAI 的订阅制构成了挑战。",
-      "对于 Android 生态的开发者来说，Google 的 AI 能力开放意味着可以在应用中轻松集成强大的智能功能，这将进一步巩固 Android 生态的竞争力。",
-    ],
-    history: [
-      "Google 的 AI 之路可以追溯到 2011 年 Google Brain 的成立。2014 年收购 DeepMind 是一个转折点，将顶尖 AI 研究纳入麾下。2017 年 Transformer 架构的论文《Attention Is All You Need》出自 Google 团队，至今仍是 NLP 领域的基石。",
-      "从 Bard 到 Gemini，Google 的对话 AI 产品经历了快速迭代。虽然初期在 ChatGPT 的压力下显得有些仓促，但 Gemini 1.5 及后续版本的发布证明 Google 正在找回自己的节奏。",
-    ],
+    context: 'Google DeepMind 拥有 Gemini 系列模型和自研 TPU 芯片，是从芯片到应用全栈整合的科技巨头。',
+    competitors: 'OpenAI GPT、Anthropic Claude',
   },
   huggingface: {
-    intro: [
-      "Hugging Face 作为开源 AI 生态的核心枢纽，这次的新动态再次证明了开源社区的力量。在 AI 领域，Hugging Face 已经从一个'表情包公司'成长为不可或缺的基础设施提供者。",
-      "如果说 OpenAI 代表了 AI 的'闭源精英路线'，那么 Hugging Face 就是'开源民主化'的最强代言人。它让最先进的 AI 技术不再只是大公司的专利。",
-      "Hugging Face 的每一次重要更新，都意味着全球数百万开发者可以更容易地获取、使用和贡献 AI 技术。这种开放协作的模式正在改变 AI 创新的速度和质量。",
-    ],
-    tech: [
-      "Hugging Face 的 Transformers 库已经成为事实上的行业标准，几乎所有主流模型都会在这里发布官方实现。从 BERT 到 GPT，从 Llama 到 Qwen，你想得到的模型几乎都能在这里找到。",
-      "开源生态的最大价值在于可复现性和社区协作。Hugging Face 通过标准化模型格式和训练流程，极大降低了研究门槛。一个研究生可以在自己的笔记本电脑上复现顶会论文的结果——这在 Hugging Face 出现之前是难以想象的。",
-      "除了模型托管，Hugging Face 还在数据集、评估基准、推理部署等方面建立了完整工具链。这种一站式解决方案让开发者可以专注于应用创新，而不必重复造轮子。",
-    ],
-    impact: [
-      "开源模型的每一次进步，都意味着中小企业和个人开发者能够以接近零成本使用顶尖 AI 能力。这对于创新生态的繁荣至关重要——不是每家公司都有数十亿美元的 AI 预算。",
-      "这对闭源商业模型形成了有力制衡，推动整个行业在开放与商业之间寻找平衡点。Meta 的 Llama 系列选择部分开源，很大程度上就是受到了开源社区成功的启发。",
-      "Hugging Face 的成功也催生了一种新的商业模式：围绕开源核心技术构建商业化服务。这种'开放核心'（Open Core）策略正在被越来越多的 AI 公司效仿。",
-    ],
-    history: [
-      "Hugging Face 成立于 2016 年，最初是一个聊天机器人应用公司。2019 年转型开源后，发布了 Transformers 库，迅速获得开发者社区的热烈响应。2023 年完成 2.35 亿美元 D 轮融资，估值达到 45 亿美元。",
-      "Hugging Face 的崛起恰逢 AI 模型规模快速增长的时期。它提供的标准化接口让开发者可以轻松切换不同模型，这种'即插即用'的体验极大降低了实验成本。",
-    ],
+    context: 'Hugging Face 是全球最大的开源 AI 模型托管平台，被称为"AI 界的 GitHub"，推动着 AI 技术的民主化。',
+    competitors: '各大云厂商的模型服务平台',
   },
   deepmind: {
-    intro: [
-      "DeepMind 作为 Google 旗下的顶级 AI 研究机构，一直站在人工智能探索的最前沿。与大多数追求商业化的 AI 公司不同，DeepMind 保持着浓厚的学术研究气质。",
-      "从 AlphaGo 到 AlphaFold，DeepMind 的历史就是一部 AI 突破史。这次他们又带来了什么？每一项成果都可能成为未来数年技术发展的基石。",
-      "DeepMind 的研究往往不局限于当下可用的技术，而是着眼于 AI 的根本性突破。这种'登月思维'让它在通用人工智能（AGI）的研究道路上走得很远。",
-    ],
-    tech: [
-      "DeepMind 的研究方法论一直以深度强化学习和科学发现为导向，其技术深度在学术界有口皆碑。从围棋到蛋白质折叠，从核聚变控制到天气预报，DeepMind 的技术版图异常广阔。",
-      "DeepMind 近年来在大型语言模型领域也投入了大量资源。Gemini 项目就是 DeepMind 和 Google Brain 合并后的产物，融合了两大团队的研究成果。",
-    ],
-    impact: [
-      "DeepMind 的研究成果往往具有基础性意义，可能在数年后才完全显现其商业价值。AlphaFold 对生物医学的影响就是一个绝佳例子——它解决了困扰科学家 50 年的蛋白质结构预测问题。",
-      "对于整个 AI 研究社区来说，DeepMind 发表的论文往往是必读材料。它的研究方法、实验设计和理论洞见为整个行业树立了标杆。",
-    ],
-    history: [
-      "DeepMind 成立于 2010 年，2014 年被 Google 以约 5 亿美元收购。创始人 Demis Hassabis 是围棋神童、游戏设计师和神经科学家的独特组合，这种跨学科背景深深影响了 DeepMind 的研究方向。",
-      "DeepMind 的历史上有多个里程碑：2015 年 AlphaGo 击败李世石；2018 年 AlphaFold 在 CASP12 中一鸣惊人；2020 年 AlphaFold 2 达到原子级精度；2023 年与 Google Brain 合并为 Google DeepMind。",
-    ],
+    context: 'DeepMind 是 Google 旗下的顶级 AI 研究机构，在强化学习和科学发现领域屡有突破（AlphaGo、AlphaFold）。',
+    competitors: 'OpenAI、Anthropic',
   },
   kimi: {
-    intro: [
-      "月之暗面（Moonshot AI）旗下的 Kimi 是国内大模型赛道的重要玩家，以超长上下文窗口著称。在国产大模型百花齐放的 2024 年，Kimi 凭借差异化定位成功突围。",
-      "在国产大模型百花齐放的今天，Kimi 凭借其在长文本处理上的独特优势，走出了一条差异化道路。当大家都在比拼模型参数时，Kimi 选择把'长'做到极致。",
-      "Kimi 的崛起是国产 AI 创新活力的缩影。它证明了即使在算力和数据资源相对有限的情况下，通过聚焦特定场景也能建立竞争壁垒。",
-    ],
-    tech: [
-      "Kimi 的技术亮点在于对超长上下文的支持能力，这背后涉及复杂的位置编码优化和显存管理技术。传统 Transformer 的注意力机制复杂度随序列长度平方增长，Kimi 通过技术创新打破了这一瓶颈。",
-      "除了长上下文，Kimi 在多轮对话一致性、中文语义理解等方面也有独到之处。这些技术积累让它在特定场景下能够提供超越国际竞品的使用体验。",
-    ],
-    impact: [
-      "国产大模型的崛起意味着中国市场在 AI 基础设施上有了更多自主可控的选择，降低了对国外技术的依赖。在数据安全和合规要求日益严格的背景下，这一点尤为重要。",
-      "Kimi 的成功也为其他国产 AI 公司提供了启示：与其在通用能力上与国际巨头正面竞争，不如深耕特定场景建立差异化优势。",
-    ],
-    history: [
-      "月之暗面（Moonshot AI）成立于 2023 年 3 月，由清华大学和卡内基梅隆大学背景的团队创立。成立不到一年就完成多轮融资，估值超过 30 亿美元，成为中国 AI 创业浪潮中的明星公司。",
-      "Kimi 的名字来源于团队对'登月'（Moonshot）精神的认同。创始人杨植麟认为，大模型技术的突破需要长期主义和极致追求的'登月思维'。",
-    ],
+    context: '月之暗面（Moonshot AI）旗下 Kimi 以超长上下文窗口在国内大模型市场占据差异化位置。',
+    competitors: '百度文心一言、字节豆包、阿里通义千问',
   },
   qwen: {
-    intro: [
-      "阿里巴巴通义千问（Qwen）系列是国内开源大模型的标杆之作，其技术影响力已经超越国界。当很多国内模型还在封闭研发时，Qwen 选择了开放路线，这个决策的战略价值正在逐步显现。",
-      "Qwen 的成功证明了中国科技公司在大模型研发上已具备与国际顶尖水平同台竞技的实力。它不仅是阿里的技术名片，更是中国 AI 创新能力的重要象征。",
-      "在全球开源模型生态中，Qwen 已经成为不可忽视的力量。从 Qwen-7B 到 Qwen-72B，从语言模型到多模态模型，Qwen 家族正在快速成长。",
-    ],
-    tech: [
-      "Qwen 系列模型在训练数据的多语言覆盖和代码能力上表现突出，这得益于阿里巴巴在电商、云计算等场景积累的海量数据。多语言能力是 Qwen 区别于 Llama 等英语为主模型的重要特色。",
-      "从技术架构来看，Qwen 采用了当前业界主流的大模型设计范式，但在数据配比、训练策略和后处理上做了大量针对性优化。特别是在中文理解和生成方面，Qwen 的表现 often 优于同等规模的国际模型。",
-    ],
-    impact: [
-      "Qwen 的开源策略对全球开发者社区贡献巨大，许多海外项目都开始基于 Qwen 进行微调。这种'墙内开花墙外香'的现象，说明技术实力才是获得国际认可的根本。",
-      "对于阿里云来说，Qwen 不仅是技术产品，更是云服务生态的重要入口。通过开源模型吸引开发者，再引导至云平台获取商业化服务，这是一个已经被验证有效的商业模式。",
-    ],
-    history: [
-      "通义千问于 2023 年 4 月首次对外测试，8 月正式开源 Qwen-7B 和 Qwen-7B-Chat。此后快速迭代，陆续发布 14B、72B 版本以及多模态、代码专用等衍生模型。",
-      "Qwen 的开源策略在国内大厂中较为激进，这与其在云计算市场的竞争态势有关。通过开源建立生态影响力，是阿里云与 AWS、Azure 等国际化竞争对手抗衡的重要手段。",
-    ],
+    context: '阿里通义千问（Qwen）是国内开源大模型的标杆，多语言和代码能力突出，已获国际社区认可。',
+    competitors: 'Meta Llama、Mistral、DeepSeek',
   },
   deepseek: {
-    intro: [
-      "DeepSeek（深度求索）以极高的训练效率和开源策略迅速崛起，成为 AI 领域的现象级公司。在 2024 年初，DeepSeek V3 的发布让整个行业重新思考大模型训练的成本结构。",
-      "在算力受限的背景下，DeepSeek 通过极致的工程优化实现了'以小博大'，对整个行业都有启示意义。它证明了算法创新可以部分弥补硬件资源的不足。",
-      "DeepSeek 的崛起是一个典型的'技术逆袭'故事。当外界普遍认为大模型竞赛是'有钱人的游戏'时，它用实际成果证明了工程创新的价值。",
-    ],
-    tech: [
-      "DeepSeek 的技术核心在于训练效率的极致优化：通过改进注意力机制、混合专家模型（MoE）架构和训练策略，用更少的资源达到更好的效果。其训练成本 reportedly 只有同类模型的几分之一。",
-      "DeepSeek 在 MoE 架构上的创新尤为值得关注。传统的密集模型（Dense Model）在推理时所有参数都参与计算，而 MoE 架构可以动态选择部分'专家'网络，在保持能力的同时大幅降低推理成本。",
-    ],
-    impact: [
-      "DeepSeek 的出现证明了大模型训练并非只有'大力出奇迹'一条路，算法和工程创新同样重要。这对于资源相对有限的团队是极大的鼓舞。",
-      "从行业成本结构来看，DeepSeek 的技术突破意味着 AI 能力的价格可能进一步下降。当训练成本大幅降低时，模型的商业化和普及速度都会加快。",
-      "DeepSeek 的成功也可能促使更多公司重新审视自己的技术路线——是继续堆砌算力，还是投入更多资源到算法创新上？",
-    ],
-    history: [
-      "DeepSeek（杭州深度求索人工智能基础技术研究有限公司）成立于 2023 年 5 月，由幻方量化创立。幻方是中国顶尖的量化对冲基金，在 AI 和算力方面有着深厚积累。",
-      "DeepSeek 在 2024 年初发布的 V3 模型 reportedly 仅用约 600 万美元的训练成本就达到了接近 GPT-4 的水平，这个消息在 AI 社区引发了巨大震动。随后发布的 R1 推理模型进一步巩固了其技术声誉。",
-    ],
+    context: 'DeepSeek（深度求索）以极高的训练效率著称，用远低于同行的成本达到了接近顶尖的水平。',
+    competitors: 'Qwen、Llama、Mistral',
+  },
+  meta: {
+    context: 'Meta 是 Llama 系列开源大模型的开发商，选择开源路线推动 AI 民主化，在开源社区拥有巨大影响力。',
+    competitors: 'OpenAI GPT、Google Gemini、Mistral',
+  },
+  microsoft: {
+    context: '微软通过 Azure 云服务和 Copilot 产品矩阵深度布局 AI，是 OpenAI 的最大投资方和战略合作伙伴。',
+    competitors: 'Google Cloud、AWS、Salesforce',
+  },
+  nvidia: {
+    context: 'NVIDIA 是全球 AI 算力基础设施的核心供应商，其 GPU 和 CUDA 生态几乎垄断了 AI 训练和推理硬件市场。',
+    competitors: 'AMD、Intel、Google TPU',
   },
   other: {
-    intro: [
-      "这则 AI 行业动态虽然来自非头部厂商，但同样反映了当前技术发展的趋势和热点。在 AI 这个快速演进的领域，今天的'小众'可能就是明天的主流。",
-      "AI 行业的创新不仅来自巨头，许多中小团队和研究机构也在做出重要贡献。历史上很多改变行业的技术最初都来自小团队——Google  itself 就是从斯坦福的研究生项目起步的。",
-      "关注非头部厂商的动态，往往能更早发现行业趋势的变化。当技术成熟到可以被小公司采用时，往往意味着它即将进入大规模普及阶段。",
-    ],
-    tech: [
-      "从技术层面看，这体现了当前 AI 领域在模型能力、应用场景或工程实践上的持续探索。每一个小的改进，都可能是更大突破的前奏。",
-      "非头部厂商往往会在特定细分领域做出独特创新。因为他们没有大公司的包袱，可以更灵活地尝试新思路、新方法。",
-    ],
-    impact: [
-      "这类动态往往预示着新的技术方向或市场机会，值得行业观察者保持关注。在 AI 行业，颠覆往往来自意想不到的方向。",
-      "对于投资者来说，早期发现这些'潜力股'可能带来超额回报。历史上，很多 AI 独角兽在成名之前都经历过被低估的阶段。",
-    ],
-    history: [
-      "AI 领域的创新历来呈现多元化特征。从学术界的突破性论文到创业公司的产品创新，从个人开发者的开源贡献到大企业的战略布局，每一个环节都在推动行业前进。",
-      "回顾 AI 发展史，很多今天的大公司都曾经历过'other'阶段。OpenAI 在 2015 年成立时也只是一家小型非营利研究机构。",
-    ],
+    context: '',
+    competitors: '各细分领域的主要玩家',
   },
 };
 
 const TECH_EXPLANATION_TEMPLATES = {
-  Release: {
-    what: [
-      "这次发布的产品/技术，本质上是在解决当前 AI 应用中的某个核心痛点。它不是简单的功能堆砌，而是针对用户实际需求做出的系统性改进。很多时候，用户需要的不是更强大的模型，而是更可靠、更易用的产品。",
-      "从产品的定位来看，这次发布瞄准的是 AI 落地过程中的关键瓶颈，试图通过技术创新打开新的应用场景。发布一款产品不仅仅是技术的展示，更是对市场需求深刻理解的体现。",
-      "要理解这次发布的意义，我们需要把它放在整个产品路线图上看。它可能是某个长期战略的阶段性成果，也可能是对市场变化的快速响应。",
-    ],
-    how: [
-      "从技术架构来看，它采用了当前业界最先进的方法论：更大规模的预训练、更精细的对齐策略、更高效的推理优化，三管齐下提升综合表现。这种全方位的改进策略，说明团队在产品化方面做了充分准备。",
-      "背后的核心思路是通过改进模型对上下文的理解深度，以及输出质量的稳定性，让 AI 从'能用'走向'好用'。技术团队很可能在训练数据的质量筛选、模型架构的微调、以及推理阶段的优化上下了很大功夫。",
-      "如果深入底层技术，我们会发现这次改进涉及多个层面：数据层面（更高质量、更多样化的训练数据）、算法层面（更先进的架构设计和训练策略）、工程层面（更高效的推理和部署方案）。",
-    ],
-    why: [
-      "为什么这很重要？因为在实际应用中，用户最在意的往往不是模型在基准测试上的分数，而是它能否稳定、可靠地解决真实问题。这次更新正是朝着这个方向迈进。一个真正好用的 AI 产品，需要在准确性、一致性、响应速度和成本之间找到最佳平衡点。",
-      "其价值在于降低了高质量 AI 应用的技术门槛。以前需要复杂 prompt 工程才能完成的任务，现在可能通过更自然的交互就能实现。这意味着 AI 技术正在从'专家工具'向'大众产品'转变。",
-      "从更宏观的角度看，这次发布反映了 AI 行业从'技术竞赛'向'产品竞争'的转变。模型能力固然重要，但如何把这些能力封装成用户愿意付费的产品，才是商业化成功的关键。",
-    ],
-    diff: [
-      "与上一代或竞品相比，这次的改进不是渐进式的优化，而是在关键能力上实现了跨越。具体体现在理解深度、生成质量和响应速度等多个维度的同步提升。这种全方位的进步，往往需要团队在多个技术方向上同时取得突破。",
-      "值得注意的是，这次更新很可能在'长上下文理解'或'多轮对话一致性'等之前被视为难题的领域取得了突破。这些能力的提升虽然不会在基准测试上体现为耀眼的数字，但对实际用户体验的影响却是实实在在的。",
-      "对比同类产品的发布节奏，这次更新的时机选择也很有讲究。太早发布可能技术不成熟，太晚发布可能错失市场窗口。选择在此时推出，说明团队对技术成熟度和市场时机都有准确判断。",
-    ],
-  },
-  Product: {
-    what: [
-      "这次产品更新聚焦于提升用户体验和扩展功能边界。它不只是修修补补，而是在产品战略层面的重要迭代。产品团队显然花了大量时间研究用户反馈和使用数据，找出了最需要改进的关键环节。",
-      "从用户视角来看，这次更新解决的是日常使用中遇到的实际问题。无论是响应速度、交互方式还是输出质量，每一个改进点都对应着真实用户痛点。",
-    ],
-    how: [
-      "从实现方式上看，产品团队很可能结合了最新的模型能力升级和前端交互创新，让复杂 AI 能力以更直观的方式呈现给用户。技术能力的提升只有被用户感知到，才真正产生价值。",
-      "产品更新的背后往往是跨部门协作的结果：研究团队提供新的模型能力，产品团队设计交互方案，工程团队确保稳定部署，运营团队收集反馈优化。这次更新体现了这种协作的成效。",
-    ],
-    why: [
-      "产品层面的优化往往比模型层面的突破更直接影响用户留存。一个响应更快、界面更友好、错误更少的 AI 产品，用户粘性会显著提升。在竞争激烈的 AI 市场，产品体验往往是决定用户去留的关键因素。",
-      "更重要的是，产品迭代节奏的加快本身就是在向市场传递信号：这家公司有能力持续创新、快速响应。这种'执行力'在技术差距不大的情况下，往往成为竞争的分水岭。",
-    ],
-    diff: [
-      "相比之前的版本，这次更新在易用性和稳定性上都有明显改进。对于日常使用者来说，这些'润物细无声'的优化可能比参数量的增加更有感知价值。产品团队深谙一个道理：用户不会关心你用了多少参数，只会关心问题有没有被解决。",
-      "横向对比竞品，这次更新可能是在某个特定场景下建立了差异化优势。在 AI 产品日趋同质化的今天，找到并强化自己的独特价值主张尤为重要。",
-    ],
-  },
-  Research: {
-    what: [
-      "这项研究的核心贡献在于提出了新的方法或发现了新的规律，为 AI 领域的某个长期难题提供了全新的解决思路。好的研究往往不是给出答案，而是提出更好的问题。",
-      "从研究动机来看，团队选择这个方向说明他们识别出了当前技术路径中的根本性限制，并试图通过创新方法突破这些限制。这种'问题导向'的研究思路是产生高影响力工作的关键。",
-    ],
-    how: [
-      "研究团队通过严谨的实验设计和大量的对比验证，证明了新方法在特定任务上的有效性。这种基于证据的研究范式是科学进步的基石。论文中的每一个实验都经过精心设计，旨在排除干扰因素、确保结论可靠。",
-      "如果细读论文，我们会发现研究团队在方法设计上的巧思。他们可能借鉴了其他领域的技术（如物理学、生物学或认知科学），将其与 AI 结合产生新的突破。跨学科思维往往是创新的催化剂。",
-    ],
-    why: [
-      "学术研究的价值往往不会立即体现在产品中，但它为未来的技术突破埋下了种子。今天的基础研究，可能就是明天的行业标准。回顾 AI 发展史，很多改变行业的技术都源于多年前看似'无用'的学术研究。",
-      "这项研究的意义还在于它为后续研究者提供了新的工具和视角。即使方法本身不直接可用，其思想也可能启发其他团队做出更重要的突破。科学进步往往是累积性的，每一项工作都在为下一项铺路。",
-    ],
-    diff: [
-      "与之前的工作相比，这项研究在方法创新、实验规模或理论深度上都有显著提升，代表了该子领域的最新进展。特别值得注意的是，研究团队不仅在方法上创新，还可能开源了代码和数据，让社区可以复现和验证其结果。",
-      "从研究趋势来看，这项工作可能代表了一个新兴方向的开端。如果后续有更多团队跟进、改进和扩展，那么这篇论文就可能成为该领域的奠基之作。",
-    ],
-  },
-  Funding: {
-    what: [
-      "这轮资本运作不仅是对公司过往成绩的认可，更是对其未来发展潜力的押注。资金的注入将直接影响其技术研发和市场扩张的速度。对于 AI 公司来说，融资不仅仅是钱的问题，更是资源整合能力的体现。",
-      "从投资人的角度看，选择在这个时点投资这家公司，说明他们看到了某些市场尚未充分认识到价值。聪明的投资者往往在趋势明朗之前就已布局。",
-    ],
-    how: [
-      "从资本运作的角度看，此次融资可能涉及战略投资者和产业资本的参与，这意味着投资方看重的不仅是财务回报，还有生态协同价值。比如云计算厂商投资 AI 公司，既是为了财务回报，也是为了带动自身云服务的使用。",
-      "融资条款中的细节（如估值、股份比例、董事会席位、对赌条款等）往往能反映投资双方的地位和预期。高估值固然光鲜，但也意味着更高的业绩压力和退出期望。",
-    ],
-    why: [
-      "在 AI 这个烧钱的赛道上，充足的弹药是持续竞争力的保障。融资成功意味着公司可以在人才争夺、算力采购和产品研发上投入更多资源。在顶级 AI 研究人员年薪动辄数百万美元的今天，资金直接决定了能组建多强的团队。",
-      "更重要的是，大额融资本身就是一种市场信号。它向客户、合作伙伴和潜在员工传递了'这家公司值得信任'的信息。在 AI 这个充满不确定性的领域，信心有时候比现金更有价值。",
-    ],
-    diff: [
-      "与同类公司相比，这轮融资的估值和规模反映了资本市场对其独特定位的认可。在 AI 投资逐渐理性的当下，能获得大额融资本身就是一种实力证明。经历过 2023 年的投资热潮后，投资者变得更加挑剔，只有真正具备技术壁垒和商业前景的公司才能获得青睐。",
-      "纵向比较这家公司自身的融资历史，如果本轮估值相比上一轮有大幅提升，说明其业务发展和技术进展得到了资本的高度认可。这种'阶梯式'的成长轨迹是健康公司的典型特征。",
-    ],
-  },
-  Agent: {
-    what: [
-      "智能体（AI Agent）代表着 AI 从'回答问题'向'执行任务'的范式转变。这次进展意味着 AI 系统能够更自主地规划、调用工具并完成复杂目标。如果说聊天机器人是'顾问'，那么 Agent 就是'助手'——不仅能给建议，还能动手做事。",
-      "Agent 技术的核心在于'自主性'：给定一个目标，Agent 能够自主分解任务、选择工具、执行步骤、处理异常，直到目标达成。这种能力让 AI 从'被动响应'走向'主动执行'。",
-    ],
-    how: [
-      "实现这一能力需要多个技术模块的协同：任务规划模块负责拆解目标，工具调用模块负责与外部系统交互，记忆模块负责保持上下文连贯性，反思模块负责自我纠错。这些模块的协调配合是 Agent 系统设计的核心挑战。",
-      "从技术演进来看，现代 Agent 的能力提升得益于底层大模型的进步。更强的推理能力、更可靠的工具使用、更长的上下文记忆，都为 Agent 的实用性提供了基础。但如何把这些能力整合成一个稳定可靠的系统，仍然是一个开放性问题。",
-    ],
-    why: [
-      "Agent 是通往通用人工智能（AGI）的重要中间形态。当 AI 不仅能理解指令，还能自主执行时，其商业价值将呈指数级增长。想象一下，一个能自动帮你订机票、安排会议、撰写报告、回复邮件的 AI 助手，其效率提升是惊人的。",
-      "从产业应用的角度看，Agent 技术有望率先在客服、运维、数据分析、内容创作等重复性工作较多的领域落地。这些场景的特点是任务相对明确、流程可以标准化，最适合 Agent 发挥优势。",
-    ],
-    diff: [
-      "与早期的聊天机器人或简单自动化工具相比，现代 AI Agent 的核心区别在于'自主性'和'适应性'——它能在不确定环境中做出决策并调整策略。传统的自动化工具只能处理预定义的规则和流程，而 Agent 可以处理开放式、动态变化的任务。",
-      "与几个月前的 Agent 技术相比，这次进展可能在'可靠性'和'泛化性'上有所提升。早期的 Agent 演示往往很惊艳，但在真实场景中经常出错。如何平衡'能力'和'可靠性'，是 Agent 技术从 demo 走向产品的关键。",
-    ],
-  },
-  Safety: {
-    what: [
-      "AI 安全研究关注的是如何确保强大 AI 系统的行为符合人类意图。这次动态涉及的是 AI 治理、风险评估或对齐技术上的重要进展。在 AI 能力快速提升的背景下，安全研究的重要性怎么强调都不为过。",
-      "这次的安全动态可能涉及多个层面：技术层面（如何让模型更可控）、制度层面（如何建立有效的治理机制）、社会层面（如何应对 AI 带来的广泛影响）。这些维度相互交织，构成了 AI 安全的复杂图景。",
-    ],
-    how: [
-      "从技术手段上看，这可能涉及红队测试、Constitutional AI、可解释性研究或防御机制设计等多种方法的综合应用。安全不是单一技术能解决的问题，需要多层次、多角度的防御体系。",
-      "具体而言，这次的技术进展可能在以下某个方面取得了突破：更精确的价值对齐方法、更 robust 的对抗攻击防御、更有效的模型行为监控、或更透明的决策过程。每一项进步都让 AI 系统向'可信'更近一步。",
-    ],
-    why: [
-      "随着 AI 能力的快速提升，安全研究不再是可选项而是必选项。一个在安全方面有所松懈的 AI 系统，能力越强反而风险越大。这不是危言耸听——随着 AI 被用于越来越关键的决策场景（医疗诊断、金融交易、法律咨询等），任何安全漏洞都可能造成严重后果。",
-      "从更宏观的角度看，AI 安全关系到整个行业的可持续发展。如果公众对 AI 的安全性失去信任，监管收紧、采用放缓，最终损害的是所有从业者的利益。因此，投入安全研究不仅是对用户负责，也是对行业未来负责。",
-    ],
-    diff: [
-      "与以往的安全讨论多为理论层面不同，这次的进展更强调可落地的实践方案，试图在理论研究和工程实现之间搭建桥梁。从'应该做什么'到'具体怎么做'，是 AI 安全领域的重要转变。",
-      "对比不同厂商的安全策略，我们会发现各自的侧重点有所不同：有的注重技术对齐，有的强调红队测试，有的聚焦透明度和可解释性。这种多元化的安全研究格局，有助于从不同角度构建更全面的防护体系。",
-    ],
-  },
+  Release:  { label: '产品发布' },
+  Product:  { label: '产品更新' },
+  Research: { label: '研究成果' },
+  Funding:  { label: '融资动态' },
+  Agent:    { label: '智能体进展' },
+  Safety:   { label: '安全动态' },
 };
 
 const BLOGGER_COMMENTS = [
-  "这条资讯值得持续关注，后续很可能会有更多相关动态浮出水面。根据我的经验，这种级别的发布往往是一系列动作的序幕。",
-  "从目前的公开信息来看，这个方向的潜力被低估了，建议保持跟踪。很多时候，真正的影响要过几个月才能完全显现。",
-  "不得不说，这波操作确实有水平，体现了团队对技术和市场的深刻理解。在 AI 这个快速变化的领域，能做出正确战略选择本身就是一种能力。",
-  "对于普通用户来说，这可能是个利好消息——竞争越激烈，我们能用到的产品就越好。而且价格很可能还会进一步下降。",
-  "技术细节虽然复杂，但最终受益的还是我们使用者，期待早日体验到实际效果。毕竟技术的价值最终要通过产品来体现。",
-  "又是一个'看着不起眼，实际影响深远'的进展，AI 行业就是这样充满惊喜。习惯了这个行业的节奏后，你会发现几乎每周都有值得关注的事情发生。",
-  "值得关注的不只是这个消息本身，而是它背后折射出的行业趋势和战略意图。看懂趋势比看懂单个事件更重要。",
-  "作为一个长期关注 AI 的博主，我觉得这次发布最打动我的不是技术指标，而是它展现出的产品思维。技术最终要服务于人。",
-  "如果让我用一句话总结这次动态的意义，那就是：AI 行业正在从'炫技'走向'务实'，这对于整个生态的健康发展是好事。",
-  "每次看到这样的进展，我都会感慨 AI 发展的速度远超想象。三年前还被认为是科幻的能力，今天已经成为产品功能。",
-  "对于想进入 AI 行业的朋友，我的建议是：不要只盯着大公司的动态，像今天这样的'小众'创新往往蕴含着更多机会。",
-  "坦白说，这个方向我盯了很久，这次终于等到了实质性进展。相信后续会有更多团队跟进，形成新的技术热点。",
+  "值得持续跟踪，这类动态往往是一系列变化的信号。",
+  "技术细节背后，更值得关注的是它对产品体验的实际影响。",
+  "竞争加剧对用户是好事——产品会更好，价格会更低。",
+  "AI 行业迭代极快，今天的突破可能很快成为明天的基线。",
+  "这个方向的潜力可能被低估了，建议保持关注。",
 ];
 
-/* 从文本中提取关键句 */
-function extractKeySentences(text, count=5) {
-  // 先彻底清理 HTML 标签和实体
+/* 从文本中提取关键句（改进版：更精准的内容识别） */
+function extractKeySentences(text, count=6) {
   let clean = text
-    .replace(/<[^>]+>/g, ' ')        // 去掉所有 HTML 标签
-    .replace(/&[a-z]+;/gi, ' ')       // 去掉 HTML 实体 (&nbsp; &amp; 等)
-    .replace(/&#[0-9]+;/g, ' ')       // 去掉数字实体
-    .replace(/\s+/g, ' ')             // 合并多余空格
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&[a-z]+;/gi, ' ')
+    .replace(/&#[0-9]+;/g, ' ')
+    .replace(/\s+/g, ' ')
     .trim();
-  const sentences = clean.split(/[.!?。！？\n]+/).filter(s => s.trim().length > 15);
+
+  // 改进分割：保护常见缩写中的句点（U.S., U.K., e.g., i.e., Inc., Corp. 等）
+  const protected0 = clean.replace(/\b([A-Z])\.\s?([A-Z])\./g, '$1\u0001$2\u0002'); // U.S. -> U\x01S\x02
+  const protected1 = protected0.replace(/\b(e\.g|i\.e|etc|Inc|Corp|Ltd|Co|vs|Mr|Mrs|Dr|Prof|Sr|Jr)\./gi, '$1\u0001');
+  const sentences = protected1.split(/[.!?。！？\n]+/).map(s =>
+    s.replace(/\u0001/g, '.').replace(/\u0002/g, '.').trim()
+  ).filter(s => {
+    const t = s.trim();
+    return t.length > 15 && t.length < 400;
+  });
+
   const scored = sentences.map(s => {
     let score = 0;
     const lower = s.toLowerCase();
-    if (/\d+/.test(s)) score += 2;
-    if (/\b(gpt|claude|gemini|llama|model|ai|training|benchmark|parameter|token)\b/i.test(s)) score += 2;
-    if (/\b(new|first|launch|release|announce|introduce|unveil)\b/i.test(lower)) score += 1;
-    if (s.length > 30 && s.length < 200) score += 1;
-    return { sentence: s.trim(), score };
+    const t = s.trim();
+
+    if (/\d+(\.\d+)?%/.test(s)) score += 4;
+    if (/\$[\d,.]+[bmkn]?/i.test(s)) score += 4;
+    if (/\b[vV]?\d+(\.\d+)+\b/.test(s)) score += 3;
+    if (/\b\d+[bBmM]\b/.test(s)) score += 3;
+    if (/\b\d{2,}\b/.test(s)) score += 2;
+
+    if (/\b(gpt|claude|gemini|llama|mistral|qwen|deepseek|kimi|chatgpt|copilot|alpha[f]?old|alphago)\b/i.test(s)) score += 2;
+
+    if (/\b(launch|release|announce|introduc|unveil|deploy|roll out|ship|open.?source|publish)\b/i.test(lower)) score += 2;
+
+    if (/\b(first|best|fastest|cheapest|most|better|faster|cheaper|outperform|surpass|beat|state.of.the.art|sota|frontier)\b/i.test(lower)) score += 2;
+
+    if (/\b(capab|perform|accuracy|benchmark|score|evaluat|reason|context|multimodal|vision|code|tool)\b/i.test(lower)) score += 1;
+
+    if (t.length >= 30 && t.length <= 200) score += 1;
+    if (t.length > 300) score -= 2;
+
+    if (/\b(cookie|subscribe|sign up|log in|copyright|privacy policy|terms of|all rights reserved)\b/i.test(lower)) score -= 5;
+
+    return { sentence: t, score };
   });
+
   scored.sort((a, b) => b.score - a.score);
-  return scored.slice(0, count).map(x => x.sentence);
+
+  const result = [];
+  for (const item of scored) {
+    if (result.length >= count) break;
+    let isDup = false;
+    for (const r of result) {
+      const overlap = findOverlap(item.sentence, r.sentence);
+      if (overlap > 0.5) { isDup = true; break; }
+    }
+    if (!isDup && item.score > 0) result.push(item);
+  }
+  return result.map(x => x.sentence);
+}
+
+/* 计算两个句子的重叠度（0-1） */
+function findOverlap(a, b) {
+  const wordsA = a.toLowerCase().split(/\s+/);
+  const wordsB = b.toLowerCase().split(/\s+/);
+  const setB = new Set(wordsB);
+  let common = 0;
+  for (const w of wordsA) {
+    if (setB.has(w) && w.length > 3) common++;
+  }
+  return common / Math.max(wordsA.length, wordsB.length);
 }
 
 /* 随机选取模板 */
@@ -2408,7 +2233,7 @@ async function translateForSummary(text) {
   if (!text) return '';
   // 如果已经缓存，直接返回
   const key = `en|zh:${text}`;
-  if (TRANSLATION_CACHE[key]) return TRANSLATION_CACHE[key];
+  if (TRANSLATION_CACHE[key] && !isBadTranslation(TRANSLATION_CACHE[key])) return TRANSLATION_CACHE[key];
   // 否则尝试翻译（但不阻塞）
   translateText(text).then(t => {});
   return text;
@@ -2493,91 +2318,54 @@ function generateSmartSummary(m) {
   const v = VENDOR_MAP[m.vendor] || { name: '其他', color: '#888' };
   const tmpl = ANALYSIS_TEMPLATES[m.vendor] || ANALYSIS_TEMPLATES.other;
   const techTmpl = TECH_EXPLANATION_TEMPLATES[m.category] || TECH_EXPLANATION_TEMPLATES.Product;
+  const catLabel = techTmpl ? techTmpl.label : '动态';
 
-  // 翻译标题
-  const titleCN = TRANSLATION_CACHE[`en|zh:${m.title}`] || m.title;
+  // 翻译标题（过滤翻译 API 错误文本）
+  const titleTrans = TRANSLATION_CACHE[`en|zh:${m.title}`];
+  const titleCN = (titleTrans && !isBadTranslation(titleTrans)) ? titleTrans : m.title;
 
   // 构建一句话速览
   const oneLiner = generateOneLiner(m, v);
 
-  // 构建'这是什么'
-  const whatIsIt = generateWhatIsIt(m, v, tmpl, techTmpl);
+  // 构建核心解读（合并"这是什么"+"技术详解"）
+  const coreAnalysis = generateCoreAnalysis(m, v, tmpl);
 
-  // 构建技术详解
-  const techDetail = generateTechDetail(m, v, tmpl, techTmpl);
+  // 构建关键要点（3-4个精炼要点）
+  const points = generateKeyPoints(m, v);
 
-  // 构建核心要点（7-8个）
-  const points = generatePoints(m, v);
+  // 构建影响分析（合并"竞品对比"+"用户影响"+"行业影响"）
+  const impactAnalysis = generateImpactAnalysis(m, v, tmpl);
 
-  // 构建竞品对比
-  const competitorAnalysis = generateCompetitorAnalysis(m, v);
-
-  // 构建对用户与开发者的影响
-  const userImpact = generateUserImpact(m, v);
-
-  // 构建行业影响
-  const industryImpact = generateIndustryImpact(m, v, tmpl);
-
-  // 构建相关背景
-  const background = generateBackground(m, v, tmpl);
-
-  // 构建未来展望
-  const futureOutlook = generateFutureOutlook(m, v);
-
-  // 博主点评
-  const comment = pick(BLOGGER_COMMENTS);
+  // 构建展望（合并"背景"+"未来展望"）
+  const outlook = generateOutlook(m, v, tmpl);
 
   return `
     <div class="article-summary">
       <div class="summary-section">
         <h2 class="summary-heading">📰 ${titleCN}</h2>
+        <p class="summary-text" style="font-size:16px;font-weight:500;color:var(--accent-dark);background:#f0f7ff;padding:14px 16px;border-radius:8px;border-left:4px solid var(--accent);margin-top:12px;">${oneLiner}</p>
       </div>
 
       <div class="summary-section">
-        <h2 class="summary-heading">📌 一句话速览</h2>
-        <p class="summary-text" style="font-size:16px;font-weight:500;color:var(--accent-dark);background:#f0f7ff;padding:14px 16px;border-radius:8px;border-left:4px solid var(--accent);">${oneLiner}</p>
+        <h2 class="summary-heading">🔍 核心解读</h2>
+        ${coreAnalysis}
       </div>
 
       <div class="summary-section">
-        <h2 class="summary-heading">❓ 这是什么</h2>
-        ${whatIsIt}
-      </div>
-
-      <div class="summary-section">
-        <h2 class="summary-heading">🔬 技术/内容详解</h2>
-        ${techDetail}
-      </div>
-
-      <div class="summary-section">
-        <h2 class="summary-heading">🎯 核心要点</h2>
+        <h2 class="summary-heading">🎯 关键要点</h2>
         <ul class="summary-points">
           ${points.map(p => `<li><strong>${p.title}</strong>：${p.desc}</li>`).join('')}
         </ul>
       </div>
 
       <div class="summary-section">
-        <h2 class="summary-heading">⚔️ 竞品对比分析</h2>
-        ${competitorAnalysis}
+        <h2 class="summary-heading">📊 影响分析</h2>
+        ${impactAnalysis}
       </div>
 
       <div class="summary-section">
-        <h2 class="summary-heading">👥 对用户与开发者的影响</h2>
-        ${userImpact}
-      </div>
-
-      <div class="summary-section">
-        <h2 class="summary-heading">🌊 行业影响与趋势分析</h2>
-        ${industryImpact}
-      </div>
-
-      <div class="summary-section">
-        <h2 class="summary-heading">🔗 相关背景</h2>
-        ${background}
-      </div>
-
-      <div class="summary-section">
-        <h2 class="summary-heading">🔮 未来展望</h2>
-        ${futureOutlook}
+        <h2 class="summary-heading">🔮 展望与背景</h2>
+        ${outlook}
       </div>
 
       <div class="summary-disclaimer">
@@ -2599,7 +2387,7 @@ function generateOneLiner(m, v) {
     // 清理残留 HTML
     raw = raw.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
     const cacheKey = `en|zh:${raw}`;
-    if (TRANSLATION_CACHE[cacheKey]) {
+    if (TRANSLATION_CACHE[cacheKey] && !isBadTranslation(TRANSLATION_CACHE[cacheKey])) {
       core = TRANSLATION_CACHE[cacheKey];
     } else if (/^[\x00-\x7F\s]+$/.test(raw)) {
       // 英文内容：用本地词典做快速翻译，同时异步请求 API 翻译
@@ -2641,7 +2429,7 @@ function quickTranslateCN(text) {
   if (enRatio > 0.3 && /^[\x00-\x7F\s]+$/.test(text)) {
     // 异步翻译，不阻塞当前渲染
     translateText(text).then(t => {
-      if (t && t !== text) {
+      if (t && t !== text && !isBadTranslation(t)) {
         // 更新 DOM 中的一句话速览
         document.querySelectorAll('.summary-text').forEach(el => {
           if (el.textContent.includes(text.substring(0, 30))) {
@@ -2655,6 +2443,249 @@ function quickTranslateCN(text) {
   return result;
 }
 
+/* ===== 精简版摘要生成函数 ===== */
+
+function generateCoreAnalysis(m, v, tmpl) {
+  const parts = [];
+
+  if (tmpl.context) {
+    parts.push(`<p class="summary-text">${tmpl.context}</p>`);
+  }
+
+  const translatedSentences = m.keySentences.slice(0, 3).map(s => {
+    const clean = s.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
+    if (clean.length < 10) return null;
+    const cacheKey = `en|zh:${clean}`;
+    if (TRANSLATION_CACHE[cacheKey] && !isBadTranslation(TRANSLATION_CACHE[cacheKey])) return TRANSLATION_CACHE[cacheKey];
+    if (/^[\x00-\x7F\s]+$/.test(clean)) {
+      const translated = quickTranslateCN(clean);
+      const enWords = (translated.match(/[a-zA-Z]{4,}/g) || []).length;
+      const total = translated.split(/\s+/).length;
+      if (enWords / Math.max(1, total) > 0.5) return null;
+      return translated;
+    }
+    return clean;
+  }).filter(s => s && s.length > 10);
+
+  if (translatedSentences.length > 0) {
+    parts.push(`<p class="summary-text">${translatedSentences.join(' ')}</p>`);
+  } else if (m.summary && m.summary.length > 30) {
+    let sumText = m.summary.slice(0, 350);
+    const sumCacheKey = `en|zh:${m.summary}`;
+    if (TRANSLATION_CACHE[sumCacheKey] && !isBadTranslation(TRANSLATION_CACHE[sumCacheKey])) {
+      sumText = TRANSLATION_CACHE[sumCacheKey].slice(0, 350);
+    } else if (/^[\x00-\x7F\s]+$/.test(sumText)) {
+      const translated = quickTranslateCN(sumText);
+      const enWords = (translated.match(/[a-zA-Z]{4,}/g) || []).length;
+      const total = translated.split(/\s+/).length;
+      if (enWords / Math.max(1, total) <= 0.5) sumText = translated.slice(0, 350);
+      else sumText = null;
+    }
+    if (sumText) {
+      parts.push(`<p class="summary-text">${sumText}${m.summary.length > 350 ? '\u2026' : ''}</p>`);
+    }
+  }
+
+  if (m.keySentences.length > 3) {
+    const extraQuotes = m.keySentences.slice(3, 5).map(s => {
+      const clean = s.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
+      const cacheKey = `en|zh:${clean}`;
+      if (TRANSLATION_CACHE[cacheKey] && !isBadTranslation(TRANSLATION_CACHE[cacheKey])) return TRANSLATION_CACHE[cacheKey];
+      if (/^[\x00-\x7F\s]+$/.test(clean)) {
+        const translated = quickTranslateCN(clean);
+        const enWords = (translated.match(/[a-zA-Z]{4,}/g) || []).length;
+        const total = translated.split(/\s+/).length;
+        if (enWords / Math.max(1, total) > 0.5) return null;
+        return translated;
+      }
+      return clean;
+    }).filter(s => s && s.length > 10);
+
+    if (extraQuotes.length > 0) {
+      parts.push(`<blockquote class="summary-quote">${extraQuotes.join('\uff1b')}\u3002</blockquote>`);
+    }
+  }
+
+  return parts.join('');
+}
+
+function generateKeyPoints(m, v) {
+  let cleanTitle = m.title.replace(/^[^:]+:\s*/, '').slice(0, 80);
+  const titleCacheKey = `en|zh:${m.title}`;
+  if (TRANSLATION_CACHE[titleCacheKey] && !isBadTranslation(TRANSLATION_CACHE[titleCacheKey])) {
+    cleanTitle = TRANSLATION_CACHE[titleCacheKey].replace(/^[^:]+:\s*/, '').slice(0, 80);
+  } else if (/^[\x00-\x7F]+$/.test(cleanTitle)) {
+    cleanTitle = quickTranslateCN(cleanTitle);
+  }
+
+  const dataSentences = [];
+  const techSentences = [];
+  const impactSentences = [];
+  const otherSentences = [];
+
+  for (const s of m.keySentences) {
+    const clean = s.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
+    if (clean.length < 10) continue;
+
+    let translated = clean;
+    const cacheKey = `en|zh:${clean}`;
+    if (TRANSLATION_CACHE[cacheKey] && !isBadTranslation(TRANSLATION_CACHE[cacheKey])) {
+      translated = TRANSLATION_CACHE[cacheKey];
+    } else if (/^[\x00-\x7F\s]+$/.test(clean)) {
+      const t = quickTranslateCN(clean);
+      const enWords = (t.match(/[a-zA-Z]{4,}/g) || []).length;
+      const total = t.split(/\s+/).length;
+      if (enWords / Math.max(1, total) <= 0.5) translated = t;
+      else continue;
+    }
+
+    const lower = clean.toLowerCase();
+
+    if (/\d+(\.\d+)?%|\$[\d,.]+|\b\d+[bBmM]\b|\b\d{2,}\b/.test(clean)) {
+      dataSentences.push(translated);
+    } else if (/\b(model|train|param|context|multimodal|architect|attention|token|infer|fine.?tun|embed|dataset|benchmark)\b/i.test(lower)) {
+      techSentences.push(translated);
+    } else if (/\b(compet|market|user|develop|enterprise|price|cost|adopt|deploy|integrat|ecosystem|open.?source)\b/i.test(lower)) {
+      impactSentences.push(translated);
+    } else {
+      otherSentences.push(translated);
+    }
+  }
+
+  const points = [];
+
+  points.push({
+    title: '\u4e8b\u4ef6\u6982\u8981',
+    desc: `${v.name} ${cleanTitle}\u3002`
+  });
+
+  if (dataSentences.length > 0) {
+    points.push({
+      title: '\u5173\u952e\u6570\u636e',
+      desc: dataSentences[0].slice(0, 120) + (dataSentences[0].length > 120 ? '\u2026' : '')
+    });
+  }
+
+  if (techSentences.length > 0) {
+    points.push({
+      title: '\u6280\u672f\u8981\u70b9',
+      desc: techSentences[0].slice(0, 120) + (techSentences[0].length > 120 ? '\u2026' : '')
+    });
+  }
+
+  if (impactSentences.length > 0) {
+    points.push({
+      title: '\u5f71\u54cd\u4e0e\u610f\u4e49',
+      desc: impactSentences[0].slice(0, 120) + (impactSentences[0].length > 120 ? '\u2026' : '')
+    });
+  }
+
+  let otherIdx = 0;
+  while (points.length < 3 && otherIdx < otherSentences.length) {
+    const s = otherSentences[otherIdx];
+    points.push({
+      title: '\u66f4\u591a\u7ec6\u8282',
+      desc: s.slice(0, 120) + (s.length > 120 ? '\u2026' : '')
+    });
+    otherIdx++;
+  }
+
+  if (points.length < 3) {
+    const catLabel = { Release:'\u53d1\u5e03', Product:'\u66f4\u65b0', Research:'\u7814\u7a76', Funding:'\u878d\u8d44', Agent:'\u667a\u80fd\u4f53', Safety:'\u5b89\u5168' }[m.category] || '\u52a8\u6001';
+    if (points.length < 3) {
+      points.push({
+        title: '\u5173\u6ce8\u4ef7\u503c',
+        desc: `\u8fd9\u6b21${catLabel}\u503c\u5f97\u5173\u6ce8\uff0c\u53ef\u80fd\u5bf9 ${v.name} \u7684\u4ea7\u54c1\u8def\u7ebf\u548c\u884c\u4e1a\u7ade\u4e89\u683c\u5c40\u4ea7\u751f\u5f71\u54cd\u3002`
+      });
+    }
+  }
+
+  return points;
+}
+
+function generateImpactAnalysis(m, v, tmpl) {
+  const parts = [];
+  const compStr = tmpl.competitors || '\u5404\u7ec6\u5206\u9886\u57df\u7684\u4e3b\u8981\u73a9\u5bb6';
+  const catLabel = { Release:'\u53d1\u5e03', Product:'\u66f4\u65b0', Research:'\u7814\u7a76', Funding:'\u878d\u8d44', Agent:'\u8fdb\u5c55', Safety:'\u52a8\u6001' }[m.category] || '\u52a8\u6001';
+
+  parts.push(`<p class="summary-text"><strong>\u7ade\u4e89\u683c\u5c40\uff1a</strong>${v.name} \u7684\u4e3b\u8981\u7ade\u4e89\u5bf9\u624b\u5305\u62ec ${compStr}\u3002\u8fd9\u6b21${catLabel}\u53ef\u80fd\u4fc3\u4f7f\u5bf9\u624b\u52a0\u5feb\u76f8\u5e94\u65b9\u5411\u7684\u5e03\u5c40\u3002</p>`);
+
+  let impactText = '';
+  for (const s of m.keySentences) {
+    const clean = s.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
+    const lower = clean.toLowerCase();
+    if (/\b(user|develop|enterprise|customer|applic|deploy|adopt|integrat|price|cost|access|avail|free|open)\b/i.test(lower)) {
+      let translated = clean;
+      const cacheKey = `en|zh:${clean}`;
+      if (TRANSLATION_CACHE[cacheKey] && !isBadTranslation(TRANSLATION_CACHE[cacheKey])) {
+        translated = TRANSLATION_CACHE[cacheKey];
+      } else if (/^[\x00-\x7F\s]+$/.test(clean)) {
+        const t = quickTranslateCN(clean);
+        const enWords = (t.match(/[a-zA-Z]{4,}/g) || []).length;
+        const total = t.split(/\s+/).length;
+        if (enWords / Math.max(1, total) <= 0.5) translated = t;
+      }
+      if (translated && translated.length > 15 && translated.length < 200) {
+        impactText = translated;
+        break;
+      }
+    }
+  }
+
+  if (impactText) {
+    parts.push(`<p class="summary-text"><strong>\u5bf9\u7528\u6237\u4e0e\u5f00\u53d1\u8005\uff1a</strong>${impactText}</p>`);
+  } else {
+    parts.push(`<p class="summary-text"><strong>\u5bf9\u7528\u6237\u4e0e\u5f00\u53d1\u8005\uff1a</strong>\u8fd9\u6b21${catLabel}\u7684\u6700\u7ec8\u4ef7\u503c\u53d6\u51b3\u4e8e\u5b83\u80fd\u5426\u5728\u5b9e\u9645\u4f7f\u7528\u4e2d\u5e26\u6765\u4f53\u9a8c\u63d0\u5347\u3002\u5982\u679c ${v.name} \u540c\u65f6\u5f00\u653e\u4e86 API \u6216\u5f00\u53d1\u5de5\u5177\uff0c\u5f00\u53d1\u8005\u5c06\u83b7\u5f97\u65b0\u7684\u6784\u5efa\u673a\u4f1a\u3002</p>`);
+  }
+
+  return parts.join('');
+}
+
+function generateOutlook(m, v, tmpl) {
+  const parts = [];
+  const cat = m.category;
+  const catVerb = { Release:'\u53d1\u5e03', Product:'\u66f4\u65b0', Research:'\u7814\u7a76', Funding:'\u878d\u8d44', Agent:'\u8fdb\u5c55', Safety:'\u52a8\u6001' }[cat] || '\u52a8\u6001';
+
+  let outlookText = '';
+  for (const s of m.keySentences) {
+    const clean = s.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
+    const lower = clean.toLowerCase();
+    if (/\b(future|plan|roadmap|next|upcom|will|expect|soon|later|rollout|expand|integrat|vision|goal)\b/i.test(lower)) {
+      let translated = clean;
+      const cacheKey = `en|zh:${clean}`;
+      if (TRANSLATION_CACHE[cacheKey] && !isBadTranslation(TRANSLATION_CACHE[cacheKey])) {
+        translated = TRANSLATION_CACHE[cacheKey];
+      } else if (/^[\x00-\x7F\s]+$/.test(clean)) {
+        const t = quickTranslateCN(clean);
+        const enWords = (t.match(/[a-zA-Z]{4,}/g) || []).length;
+        const total = t.split(/\s+/).length;
+        if (enWords / Math.max(1, total) <= 0.5) translated = t;
+      }
+      if (translated && translated.length > 15 && translated.length < 200) {
+        outlookText = translated;
+        break;
+      }
+    }
+  }
+
+  if (outlookText) {
+    parts.push(`<p class="summary-text"><strong>\u540e\u7eed\u770b\u70b9\uff1a</strong>${outlookText}</p>`);
+  } else {
+    if (cat === 'Research') {
+      parts.push(`<p class="summary-text"><strong>\u540e\u7eed\u770b\u70b9\uff1a</strong>\u8fd9\u9879${catVerb}\u7684\u5b9e\u7528\u4ef7\u503c\u8fd8\u9700\u540e\u7eed\u5de5\u4f5c\u9a8c\u8bc1\u3002\u5982\u679c\u65b9\u6cd5\u6709\u6548\uff0c\u53ef\u80fd\u5f15\u53d1\u66f4\u591a\u56e2\u961f\u8ddf\u8fdb\uff0c\u5f62\u6210\u65b0\u7684\u7814\u7a76\u70ed\u70b9\u3002</p>`);
+    } else if (cat === 'Funding') {
+      parts.push(`<p class="summary-text"><strong>\u540e\u7eed\u770b\u70b9\uff1a</strong>${v.name} \u62ff\u5230\u8d44\u91d1\u540e\uff0c\u5173\u952e\u770b\u80fd\u5426\u5728\u6280\u672f\u548c\u4ea7\u54c1\u4e0a\u5151\u73b0\u9884\u671f\u3002\u4eba\u624d\u5f15\u8fdb\u548c\u7b97\u529b\u6269\u5f20\u662f\u8fd1\u671f\u89c2\u5bdf\u91cd\u70b9\u3002</p>`);
+    } else {
+      parts.push(`<p class="summary-text"><strong>\u540e\u7eed\u770b\u70b9\uff1a</strong>\u5173\u6ce8 ${v.name} \u8fd9\u6b21${catVerb}\u7684\u5e02\u573a\u53cd\u9988\u548c\u540e\u7eed\u8fed\u4ee3\u8282\u594f\uff0c\u4ee5\u53ca\u7ade\u4e89\u5bf9\u624b\u7684\u56de\u5e94\u52a8\u4f5c\u3002</p>`);
+    }
+  }
+
+  parts.push(`<p class="summary-text" style="color:var(--text-dim);font-style:italic;border-top:1px solid var(--border);padding-top:10px;margin-top:8px;">${pick(BLOGGER_COMMENTS)}</p>`);
+
+  return parts.join('');
+}
+
+/* ===== 以下为旧函数保留兼容（已不再调用） ===== */
 function generateWhatIsIt(m, v, tmpl, techTmpl) {
   const parts = [];
   parts.push(`<p class="summary-text"><strong>${v.name}</strong> ${pick(tmpl.intro)}</p>`);
@@ -2684,7 +2715,7 @@ function generateTechDetail(m, v, tmpl, techTmpl) {
       // 先清理 HTML
       const clean = s.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
       const cacheKey = `en|zh:${clean}`;
-      if (TRANSLATION_CACHE[cacheKey]) return TRANSLATION_CACHE[cacheKey];
+      if (TRANSLATION_CACHE[cacheKey] && !isBadTranslation(TRANSLATION_CACHE[cacheKey])) return TRANSLATION_CACHE[cacheKey];
       if (/^[\x00-\x7F\s]+$/.test(clean)) {
         const translated = quickTranslateCN(clean);
         // 检查英文占比，如果太高就跳过这条
@@ -2701,7 +2732,7 @@ function generateTechDetail(m, v, tmpl, techTmpl) {
   } else if (m.summary && m.summary.length > 30) {
     let sumText = m.summary.slice(0, 300);
     const sumCacheKey = `en|zh:${m.summary}`;
-    if (TRANSLATION_CACHE[sumCacheKey]) {
+    if (TRANSLATION_CACHE[sumCacheKey] && !isBadTranslation(TRANSLATION_CACHE[sumCacheKey])) {
       sumText = TRANSLATION_CACHE[sumCacheKey].slice(0, 300);
     } else if (/^[\x00-\x7F\s]+$/.test(sumText)) {
       const translated = quickTranslateCN(sumText);
@@ -2726,7 +2757,7 @@ function generatePoints(m, v) {
   // 标题翻译为中文
   let cleanTitle = m.title.replace(/^[^:]+:\s*/, '').slice(0, 80);
   const titleCacheKey = `en|zh:${m.title}`;
-  if (TRANSLATION_CACHE[titleCacheKey]) {
+  if (TRANSLATION_CACHE[titleCacheKey] && !isBadTranslation(TRANSLATION_CACHE[titleCacheKey])) {
     cleanTitle = TRANSLATION_CACHE[titleCacheKey].replace(/^[^:]+:\s*/, '').slice(0, 80);
   } else if (/^[\x00-\x7F]+$/.test(cleanTitle)) {
     cleanTitle = quickTranslateCN(cleanTitle);
@@ -2794,7 +2825,7 @@ function generatePoints(m, v) {
   if (m.keySentences.length > 0) {
     let ks = m.keySentences[0].replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim().slice(0, 120);
     const ksCacheKey = `en|zh:${ks}`;
-    if (TRANSLATION_CACHE[ksCacheKey]) {
+    if (TRANSLATION_CACHE[ksCacheKey] && !isBadTranslation(TRANSLATION_CACHE[ksCacheKey])) {
       ks = TRANSLATION_CACHE[ksCacheKey].slice(0, 120);
     } else if (/^[\x00-\x7F\s]+$/.test(ks)) {
       const translated = quickTranslateCN(ks);
@@ -2811,7 +2842,7 @@ function generatePoints(m, v) {
   if (m.keySentences.length > 1) {
     let ks = m.keySentences[1].replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim().slice(0, 120);
     const ksCacheKey = `en|zh:${ks}`;
-    if (TRANSLATION_CACHE[ksCacheKey]) {
+    if (TRANSLATION_CACHE[ksCacheKey] && !isBadTranslation(TRANSLATION_CACHE[ksCacheKey])) {
       ks = TRANSLATION_CACHE[ksCacheKey].slice(0, 120);
     } else if (/^[\x00-\x7F\s]+$/.test(ks)) {
       const translated = quickTranslateCN(ks);
