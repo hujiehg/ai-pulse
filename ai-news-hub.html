@@ -2314,62 +2314,57 @@ async function generateAISummary(news) {
   return generateSmartSummary(material);
 }
 
+/* 统一的句子翻译助手：返回中译文，失败返回 null */
+function trSen(raw) {
+  if (!raw) return null;
+  const clean = raw.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
+  if (clean.length < 10) return null;
+  const cacheKey = `en|zh:${clean}`;
+  if (TRANSLATION_CACHE[cacheKey] && !isBadTranslation(TRANSLATION_CACHE[cacheKey])) {
+    return TRANSLATION_CACHE[cacheKey];
+  }
+  if (/^[\x00-\x7F\s]+$/.test(clean)) {
+    const t = quickTranslateCN(clean);
+    const enWords = (t.match(/[a-zA-Z]{4,}/g) || []).length;
+    const total = t.split(/\s+/).length;
+    if (enWords / Math.max(1, total) <= 0.5) return t;
+    return null;
+  }
+  return clean;
+}
+
 function generateSmartSummary(m) {
   const v = VENDOR_MAP[m.vendor] || { name: '其他', color: '#888' };
   const tmpl = ANALYSIS_TEMPLATES[m.vendor] || ANALYSIS_TEMPLATES.other;
   const techTmpl = TECH_EXPLANATION_TEMPLATES[m.category] || TECH_EXPLANATION_TEMPLATES.Product;
   const catLabel = techTmpl ? techTmpl.label : '动态';
 
-  // 翻译标题（过滤翻译 API 错误文本）
   const titleTrans = TRANSLATION_CACHE[`en|zh:${m.title}`];
   const titleCN = (titleTrans && !isBadTranslation(titleTrans)) ? titleTrans : m.title;
 
-  // 构建一句话速览
   const oneLiner = generateOneLiner(m, v);
-
-  // 构建核心解读（合并"这是什么"+"技术详解"）
-  const coreAnalysis = generateCoreAnalysis(m, v, tmpl);
-
-  // 构建关键要点（3-4个精炼要点）
-  const points = generateKeyPoints(m, v);
-
-  // 构建影响分析（合并"竞品对比"+"用户影响"+"行业影响"）
-  const impactAnalysis = generateImpactAnalysis(m, v, tmpl);
-
-  // 构建展望（合并"背景"+"未来展望"）
-  const outlook = generateOutlook(m, v, tmpl);
+  const detail = generateDetail(m, v, tmpl);
+  const impact = generateImpactAndOutlook(m, v, tmpl);
 
   return `
     <div class="article-summary">
       <div class="summary-section">
-        <h2 class="summary-heading">📰 ${titleCN}</h2>
+        <h2 class="summary-heading">${titleCN}</h2>
         <p class="summary-text" style="font-size:16px;font-weight:500;color:var(--accent-dark);background:#f0f7ff;padding:14px 16px;border-radius:8px;border-left:4px solid var(--accent);margin-top:12px;">${oneLiner}</p>
       </div>
 
       <div class="summary-section">
-        <h2 class="summary-heading">🔍 核心解读</h2>
-        ${coreAnalysis}
+        <h2 class="summary-heading">详细解读</h2>
+        ${detail}
       </div>
 
       <div class="summary-section">
-        <h2 class="summary-heading">🎯 关键要点</h2>
-        <ul class="summary-points">
-          ${points.map(p => `<li><strong>${p.title}</strong>：${p.desc}</li>`).join('')}
-        </ul>
-      </div>
-
-      <div class="summary-section">
-        <h2 class="summary-heading">📊 影响分析</h2>
-        ${impactAnalysis}
-      </div>
-
-      <div class="summary-section">
-        <h2 class="summary-heading">🔮 展望与背景</h2>
-        ${outlook}
+        <h2 class="summary-heading">影响与展望</h2>
+        ${impact}
       </div>
 
       <div class="summary-disclaimer">
-        ℹ️ 免责声明：本文由 AI Pulse 智能摘要引擎基于公开信息自动生成，内容仅供参考。查看<a href="${m.link}" target="_blank" rel="noopener">原文</a>获取完整信息。
+        \u2139\ufe0f 免责声明：本文由 AI Pulse 智能摘要引擎基于公开信息自动生成，内容仅供参考。查看<a href="${m.link}" target="_blank" rel="noopener">原文</a>获取完整信息。
       </div>
     </div>
   `;
@@ -2445,64 +2440,44 @@ function quickTranslateCN(text) {
 
 /* ===== 精简版摘要生成函数 ===== */
 
-function generateCoreAnalysis(m, v, tmpl) {
+function generateDetail(m, v, tmpl) {
   const parts = [];
+  const catLabel = (TECH_EXPLANATION_TEMPLATES[m.category]||{}).label || '动态';
 
-  if (tmpl.context) {
-    parts.push(`<p class="summary-text">${tmpl.context}</p>`);
-  }
+  // 第一段：厂商背景 + 事件概述，融入第一个关键句
+  let p1 = '';
+  if (tmpl.context) p1 = tmpl.context + ' ';
+  p1 += `${v.name}这次${catLabel}值得关注`;
+  const first = trSen(m.keySentences[0]);
+  if (first) p1 += '：' + first;
+  else p1 += '。';
+  parts.push(`<p class="summary-text">${p1}</p>`);
 
-  const translatedSentences = m.keySentences.slice(0, 3).map(s => {
-    const clean = s.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
-    if (clean.length < 10) return null;
-    const cacheKey = `en|zh:${clean}`;
-    if (TRANSLATION_CACHE[cacheKey] && !isBadTranslation(TRANSLATION_CACHE[cacheKey])) return TRANSLATION_CACHE[cacheKey];
-    if (/^[\x00-\x7F\s]+$/.test(clean)) {
-      const translated = quickTranslateCN(clean);
-      const enWords = (translated.match(/[a-zA-Z]{4,}/g) || []).length;
-      const total = translated.split(/\s+/).length;
-      if (enWords / Math.max(1, total) > 0.5) return null;
-      return translated;
+  // 后续段落：把剩余关键句整合成连贯段落，不再拆成碎片列表
+  const rest = m.keySentences.slice(1).map(s => trSen(s)).filter(s => s && s.length > 10);
+  if (rest.length > 0) {
+    if (rest.length <= 2) {
+      parts.push(`<p class="summary-text">${rest.join(' ')}</p>`);
+    } else {
+      const mid = Math.ceil(rest.length / 2);
+      parts.push(`<p class="summary-text">${rest.slice(0, mid).join(' ')}</p>`);
+      parts.push(`<p class="summary-text">${rest.slice(mid).join(' ')}</p>`);
     }
-    return clean;
-  }).filter(s => s && s.length > 10);
-
-  if (translatedSentences.length > 0) {
-    parts.push(`<p class="summary-text">${translatedSentences.join(' ')}</p>`);
   } else if (m.summary && m.summary.length > 30) {
-    let sumText = m.summary.slice(0, 350);
+    // 关键句不足时回退到 RSS 摘要
+    let sumText = m.summary.slice(0, 400);
     const sumCacheKey = `en|zh:${m.summary}`;
     if (TRANSLATION_CACHE[sumCacheKey] && !isBadTranslation(TRANSLATION_CACHE[sumCacheKey])) {
-      sumText = TRANSLATION_CACHE[sumCacheKey].slice(0, 350);
+      sumText = TRANSLATION_CACHE[sumCacheKey].slice(0, 400);
     } else if (/^[\x00-\x7F\s]+$/.test(sumText)) {
       const translated = quickTranslateCN(sumText);
       const enWords = (translated.match(/[a-zA-Z]{4,}/g) || []).length;
       const total = translated.split(/\s+/).length;
-      if (enWords / Math.max(1, total) <= 0.5) sumText = translated.slice(0, 350);
+      if (enWords / Math.max(1, total) <= 0.5) sumText = translated.slice(0, 400);
       else sumText = null;
     }
     if (sumText) {
-      parts.push(`<p class="summary-text">${sumText}${m.summary.length > 350 ? '\u2026' : ''}</p>`);
-    }
-  }
-
-  if (m.keySentences.length > 3) {
-    const extraQuotes = m.keySentences.slice(3, 5).map(s => {
-      const clean = s.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
-      const cacheKey = `en|zh:${clean}`;
-      if (TRANSLATION_CACHE[cacheKey] && !isBadTranslation(TRANSLATION_CACHE[cacheKey])) return TRANSLATION_CACHE[cacheKey];
-      if (/^[\x00-\x7F\s]+$/.test(clean)) {
-        const translated = quickTranslateCN(clean);
-        const enWords = (translated.match(/[a-zA-Z]{4,}/g) || []).length;
-        const total = translated.split(/\s+/).length;
-        if (enWords / Math.max(1, total) > 0.5) return null;
-        return translated;
-      }
-      return clean;
-    }).filter(s => s && s.length > 10);
-
-    if (extraQuotes.length > 0) {
-      parts.push(`<blockquote class="summary-quote">${extraQuotes.join('\uff1b')}\u3002</blockquote>`);
+      parts.push(`<p class="summary-text">${sumText}${m.summary.length > 400 ? '\u2026' : ''}</p>`);
     }
   }
 
@@ -2603,83 +2578,53 @@ function generateKeyPoints(m, v) {
   return points;
 }
 
-function generateImpactAnalysis(m, v, tmpl) {
+function generateImpactAndOutlook(m, v, tmpl) {
   const parts = [];
-  const compStr = tmpl.competitors || '\u5404\u7ec6\u5206\u9886\u57df\u7684\u4e3b\u8981\u73a9\u5bb6';
-  const catLabel = { Release:'\u53d1\u5e03', Product:'\u66f4\u65b0', Research:'\u7814\u7a76', Funding:'\u878d\u8d44', Agent:'\u8fdb\u5c55', Safety:'\u52a8\u6001' }[m.category] || '\u52a8\u6001';
-
-  parts.push(`<p class="summary-text"><strong>\u7ade\u4e89\u683c\u5c40\uff1a</strong>${v.name} \u7684\u4e3b\u8981\u7ade\u4e89\u5bf9\u624b\u5305\u62ec ${compStr}\u3002\u8fd9\u6b21${catLabel}\u53ef\u80fd\u4fc3\u4f7f\u5bf9\u624b\u52a0\u5feb\u76f8\u5e94\u65b9\u5411\u7684\u5e03\u5c40\u3002</p>`);
-
-  let impactText = '';
-  for (const s of m.keySentences) {
-    const clean = s.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
-    const lower = clean.toLowerCase();
-    if (/\b(user|develop|enterprise|customer|applic|deploy|adopt|integrat|price|cost|access|avail|free|open)\b/i.test(lower)) {
-      let translated = clean;
-      const cacheKey = `en|zh:${clean}`;
-      if (TRANSLATION_CACHE[cacheKey] && !isBadTranslation(TRANSLATION_CACHE[cacheKey])) {
-        translated = TRANSLATION_CACHE[cacheKey];
-      } else if (/^[\x00-\x7F\s]+$/.test(clean)) {
-        const t = quickTranslateCN(clean);
-        const enWords = (t.match(/[a-zA-Z]{4,}/g) || []).length;
-        const total = t.split(/\s+/).length;
-        if (enWords / Math.max(1, total) <= 0.5) translated = t;
-      }
-      if (translated && translated.length > 15 && translated.length < 200) {
-        impactText = translated;
-        break;
-      }
-    }
-  }
-
-  if (impactText) {
-    parts.push(`<p class="summary-text"><strong>\u5bf9\u7528\u6237\u4e0e\u5f00\u53d1\u8005\uff1a</strong>${impactText}</p>`);
-  } else {
-    parts.push(`<p class="summary-text"><strong>\u5bf9\u7528\u6237\u4e0e\u5f00\u53d1\u8005\uff1a</strong>\u8fd9\u6b21${catLabel}\u7684\u6700\u7ec8\u4ef7\u503c\u53d6\u51b3\u4e8e\u5b83\u80fd\u5426\u5728\u5b9e\u9645\u4f7f\u7528\u4e2d\u5e26\u6765\u4f53\u9a8c\u63d0\u5347\u3002\u5982\u679c ${v.name} \u540c\u65f6\u5f00\u653e\u4e86 API \u6216\u5f00\u53d1\u5de5\u5177\uff0c\u5f00\u53d1\u8005\u5c06\u83b7\u5f97\u65b0\u7684\u6784\u5efa\u673a\u4f1a\u3002</p>`);
-  }
-
-  return parts.join('');
-}
-
-function generateOutlook(m, v, tmpl) {
-  const parts = [];
+  const compStr = tmpl.competitors || '各细分领域的主要玩家';
+  const catLabel = (TECH_EXPLANATION_TEMPLATES[m.category]||{}).label || '动态';
   const cat = m.category;
-  const catVerb = { Release:'\u53d1\u5e03', Product:'\u66f4\u65b0', Research:'\u7814\u7a76', Funding:'\u878d\u8d44', Agent:'\u8fdb\u5c55', Safety:'\u52a8\u6001' }[cat] || '\u52a8\u6001';
 
+  // 竞争格局
+  parts.push(`<p class="summary-text">${v.name}的主要竞争对手包括${compStr}。这次${catLabel}可能促使对手加快相应方向的布局，头部玩家之间的竞争将更加激烈。</p>`);
+
+  // 从原文中提取影响和展望相关的信息
+  let impactText = '';
   let outlookText = '';
   for (const s of m.keySentences) {
     const clean = s.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
     const lower = clean.toLowerCase();
-    if (/\b(future|plan|roadmap|next|upcom|will|expect|soon|later|rollout|expand|integrat|vision|goal)\b/i.test(lower)) {
-      let translated = clean;
-      const cacheKey = `en|zh:${clean}`;
-      if (TRANSLATION_CACHE[cacheKey] && !isBadTranslation(TRANSLATION_CACHE[cacheKey])) {
-        translated = TRANSLATION_CACHE[cacheKey];
-      } else if (/^[\x00-\x7F\s]+$/.test(clean)) {
-        const t = quickTranslateCN(clean);
-        const enWords = (t.match(/[a-zA-Z]{4,}/g) || []).length;
-        const total = t.split(/\s+/).length;
-        if (enWords / Math.max(1, total) <= 0.5) translated = t;
-      }
-      if (translated && translated.length > 15 && translated.length < 200) {
-        outlookText = translated;
-        break;
-      }
+    const translated = trSen(s);
+    if (!translated || translated.length < 15) continue;
+
+    if (!impactText && /\b(user|develop|enterprise|customer|applic|deploy|adopt|integrat|price|cost|access|avail|free|open|market|compet)\b/i.test(lower)) {
+      impactText = translated;
+    } else if (!outlookText && /\b(future|plan|roadmap|next|upcom|will|expect|soon|later|rollout|expand|vision|goal)\b/i.test(lower)) {
+      outlookText = translated;
     }
+    if (impactText && outlookText) break;
   }
 
+  // 对用户和开发者的影响
+  if (impactText) {
+    parts.push(`<p class="summary-text">对用户和开发者而言，${impactText}</p>`);
+  } else {
+    parts.push(`<p class="summary-text">这次${catLabel}的最终价值取决于它能否在实际使用中带来体验提升。如果${v.name}同时开放了 API 或开发工具，开发者将获得新的构建机会。</p>`);
+  }
+
+  // 后续展望
   if (outlookText) {
-    parts.push(`<p class="summary-text"><strong>\u540e\u7eed\u770b\u70b9\uff1a</strong>${outlookText}</p>`);
+    parts.push(`<p class="summary-text">后续来看，${outlookText}</p>`);
   } else {
     if (cat === 'Research') {
-      parts.push(`<p class="summary-text"><strong>\u540e\u7eed\u770b\u70b9\uff1a</strong>\u8fd9\u9879${catVerb}\u7684\u5b9e\u7528\u4ef7\u503c\u8fd8\u9700\u540e\u7eed\u5de5\u4f5c\u9a8c\u8bc1\u3002\u5982\u679c\u65b9\u6cd5\u6709\u6548\uff0c\u53ef\u80fd\u5f15\u53d1\u66f4\u591a\u56e2\u961f\u8ddf\u8fdb\uff0c\u5f62\u6210\u65b0\u7684\u7814\u7a76\u70ed\u70b9\u3002</p>`);
+      parts.push(`<p class="summary-text">后续来看，这项研究的实用价值还需验证。如果方法有效，可能引发更多团队跟进，形成新的研究热点。</p>`);
     } else if (cat === 'Funding') {
-      parts.push(`<p class="summary-text"><strong>\u540e\u7eed\u770b\u70b9\uff1a</strong>${v.name} \u62ff\u5230\u8d44\u91d1\u540e\uff0c\u5173\u952e\u770b\u80fd\u5426\u5728\u6280\u672f\u548c\u4ea7\u54c1\u4e0a\u5151\u73b0\u9884\u671f\u3002\u4eba\u624d\u5f15\u8fdb\u548c\u7b97\u529b\u6269\u5f20\u662f\u8fd1\u671f\u89c2\u5bdf\u91cd\u70b9\u3002</p>`);
+      parts.push(`<p class="summary-text">后续来看，${v.name}拿到资金后，关键看能否在技术和产品上兑现预期。人才引进和算力扩张是近期观察重点。</p>`);
     } else {
-      parts.push(`<p class="summary-text"><strong>\u540e\u7eed\u770b\u70b9\uff1a</strong>\u5173\u6ce8 ${v.name} \u8fd9\u6b21${catVerb}\u7684\u5e02\u573a\u53cd\u9988\u548c\u540e\u7eed\u8fed\u4ee3\u8282\u594f\uff0c\u4ee5\u53ca\u7ade\u4e89\u5bf9\u624b\u7684\u56de\u5e94\u52a8\u4f5c\u3002</p>`);
+      parts.push(`<p class="summary-text">后续来看，关注${v.name}这次${catLabel}的市场反馈和迭代节奏，以及竞争对手的回应动作。</p>`);
     }
   }
 
+  // 博主点评
   parts.push(`<p class="summary-text" style="color:var(--text-dim);font-style:italic;border-top:1px solid var(--border);padding-top:10px;margin-top:8px;">${pick(BLOGGER_COMMENTS)}</p>`);
 
   return parts.join('');

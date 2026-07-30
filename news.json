@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T11:50:24.602Z",
+  "updated": "2026-07-30T12:25:01.017Z",
   "count": 116,
   "sources": 12,
   "items": [
@@ -760,27 +760,6 @@
       "source": "Google News"
     },
     {
-      "id": "1880389854",
-      "title": "DeepSeek V4 is here: How it compares to ChatGPT, Claude, Gemini",
-      "titleZh": "DeepSeek V4来了：与ChatGPT、Claude、Gemini相比如何",
-      "summary": "DeepSeek V4 is here: How it compares to ChatGPT, Claude, Gemini Mashable",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNLXRWZ1ZVaXI5MDBqdWtjLWc0VFB4Y1hMRl84M0FCQ1haa3JvRjBNVnQtUzlxYm5lcm9ScUx3QXVPV2ZjcGoyRWo5Njk1NnEwdXVIZ09ScDd5aFpJLU1JblpObkRIbENvcFh4ZDl6ZkNSVHVuZW9nLUZzNFdiSThyVWlaeF9JeDlI?oc=5",
-      "pubDate": 1785222000000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "high",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 6,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "990464337",
       "title": "LM Studio Bionic adds support for Moonshot AI’s Kimi K3 model",
       "titleZh": "LM Studio Bionic adds support for Moonshot AI’s Kimi K3 model",
@@ -858,6 +837,27 @@
         "cq": 12,
         "kv": 0,
         "cw": 15,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-118287983",
+      "title": "Chinese AI models now handle nearly a third of enterprise tokens at one-tenth the cost of US rivals",
+      "titleZh": "中国人工智能模型现在以美国竞争对手的十分之一的成本处理近三分之一的企业代币",
+      "summary": "Chinese AI models now handle nearly a third of enterprise tokens at one-tenth the cost of US rivals MarketScale",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxONEQ2WVhlQ2l0ZVVMVlltc3BqNXdtM2tWcDhiRTlNZ0lERFQ4MFdneV8tejVTVnNnTFc2SXJqNHRPN2k3cUU1RUZjUk9PMkNTWWptNDhYY2oyVGVOMC1PUEladElkZG50b3JnRjhtcEZ0S1lnUUZXaFh1VDBzR3EwcEExVDVOVHVCakRZWmNOdTl5QWE0OEk4WGVEQzI5Zm1HUW40bkJwenJMRDZlNTJ6TTdEcXZjZG8yRV9oVlBNRFMxak5PcktnZERKM1dRYUcwM1lKMEozUGRBLVlySkM5c0V3VERjenlKOU1qdjVzVGZyODZ4?oc=5",
+      "pubDate": 1785163551000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 22,
         "st": 15,
         "rc": 1,
         "cs": 1
