@@ -1,8 +1,134 @@
 {
-  "updated": "2026-07-30T13:29:03.016Z",
+  "updated": "2026-07-30T15:32:16.266Z",
   "count": 107,
   "sources": 11,
   "items": [
+    {
+      "id": "-1228531513",
+      "title": "Nscale buys Anyscale as it seeks to own more of the AI compute stack",
+      "titleZh": "Nscale收购Anyscale ，因为它试图拥有更多的AI计算堆栈",
+      "summary": "British AI neocloud Nscale is buying software startup Anyscale, which helps companies scale their AI workloads across data centers and servers.",
+      "link": "https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack/",
+      "pubDate": 1785424755000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1251376815",
+      "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+      "titleZh": "GPU管理：为什么空闲的GPU是新的停飞飞机",
+      "summary": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+      "link": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+      "pubDate": 1785424149000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
+      "id": "-1497534054",
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "titleZh": "Gemini Robotics ER 2 ：通过视频理解、任务编排和多机器人协作为机器人技术提供动力",
+      "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic app…",
+      "link": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+      "pubDate": 1785423659000,
+      "vendor": "deepmind",
+      "category": "Product",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "DeepMind"
+    },
+    {
+      "id": "-894447933",
+      "title": "Forward-deployed engineers are the AI industry’s latest talent obsession",
+      "titleZh": "Forward-deployed engineers are the AI industry’s latest talent obsession",
+      "summary": "A new study estimates only 2,000 U.S. engineers have the expertise to deliver meaningful AI ROI, as enterprises race to hire forward-deployed engineers to implement AI at scale.",
+      "link": "https://techcrunch.com/2026/07/30/forward-deployed-engineers-are-the-ai-industrys-latest-talent-obsession/",
+      "pubDate": 1785423600000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1948880432",
+      "title": "In the Hugging Face breach, OpenAI’s hacker was noisy and fast — but not unstoppable",
+      "titleZh": "In the Hugging Face breach, OpenAI’s hacker was noisy and fast — but not unstoppable",
+      "summary": "Cybersecurity experts told TechCrunch that one of the biggest lessons to be taken from the OpenAI hack against Hugging Face has nothing to do with AI, but traditional cybersecurity defense.",
+      "link": "https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable/",
+      "pubDate": 1785422912000,
+      "vendor": "techcrunch",
+      "category": "Safety",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 1,
+        "cw": 10,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "24958310",
+      "title": "TechCrunch Disrupt 2026’s biggest stage features leaders from Amazon, Replit, Tether, with much more to come",
+      "titleZh": "TechCrunch Disrupt 2026’s biggest stage features leaders from Amazon, Replit, Tether, with much more to come",
+      "summary": "The Disrupt Stage is where many of the biggest conversations in technology happen, with a legacy that stretches back for more than a decade.",
+      "link": "https://techcrunch.com/2026/07/30/techcrunch-disrupt-2026s-biggest-stage-features-leaders-from-amazon-replit-tether-with-much-more-to-come/",
+      "pubDate": 1785420000000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 43,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "1892688800",
       "title": "Dili raises $21.7M to bring AI compliance to the infrastructure boom",
@@ -13,13 +139,13 @@
       "vendor": "techcrunch",
       "category": "Funding",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 20,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -34,13 +160,13 @@
       "vendor": "kimi",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -382,69 +508,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "-1084617883",
-      "title": "Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI",
-      "titleZh": "Thinking Machines联合创始人Lilian Weng因健康原因离开公司，然后加入OpenAI",
-      "summary": "Weng previously served as the VP of AI Safety Research at OpenAI.",
-      "link": "https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai/",
-      "pubDate": 1785359268000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 22,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1358331221",
-      "title": "The Hugging Face break-in explained",
-      "titleZh": "“拥抱的脸”破门而入解释说",
-      "summary": "Another way to think about the whole thing is to picture a bear at a campsite. (Really, we are going there.)",
-      "link": "https://techcrunch.com/2026/07/29/the-hugging-face-ai-break-in-as-told-through-an-increasingly-committed-bear-metaphor/",
-      "pubDate": 1785354289000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1573781606",
-      "title": "Claude Opus 5 became downright ruthless when tasked with running a vending machine",
-      "titleZh": "克劳德·奥普斯5号在任务是经营自动售货机时变得彻头彻尾的无情",
-      "summary": "Andon Labs' latest vending machine simulation shows Opus 5 lied and colluded its way to become the best AI capitalist ever.",
-      "link": "https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine/",
-      "pubDate": 1785350727000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "1375362750",
       "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
       "titleZh": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
@@ -466,27 +529,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "76707954",
-      "title": "Hint, a new AI startup co-founded by Martha Stewart, offers an AI assistant for homeowners",
-      "titleZh": "由玛莎·斯图尔特（ Martha Stewart ）共同创立的新人工智能初创公司HINT为房主提供人工智能助手",
-      "summary": "AI home management startup Hint, co-founded by Martha Stewart, wants to become an “AI for your home,” combining property records, maintenance schedules, home documents, and an AI assistant into a sing…",
-      "link": "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners/",
-      "pubDate": 1785339309000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "-809497425",
       "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
       "titleZh": "启用两个设置如何使我们在ARC-AGI-3基准测试中的分数增加两倍",
@@ -496,13 +538,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "high",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -685,16 +727,37 @@
       "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 15,
         "st": 14,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "HuggingFace"
+    },
+    {
+      "id": "890765335",
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "titleZh": "Gemini Robotics 2为机器人带来全身智能",
+      "summary": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "link": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "pubDate": 1785244897000,
+      "vendor": "deepmind",
+      "category": "Product",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 13,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "DeepMind"
     },
     {
       "id": "-1243449843",
@@ -1621,27 +1684,6 @@
       "source": "Google News"
     },
     {
-      "id": "1028994421",
-      "title": "Welcome Inkling by Thinking Machines",
-      "titleZh": "思考机器的欢迎墨迹",
-      "summary": "Welcome Inkling by Thinking Machines",
-      "link": "https://huggingface.co/blog/thinkingmachines-inkling",
-      "pubDate": 1784073600000,
-      "vendor": "huggingface",
-      "category": "Product",
-      "impact": "med",
-      "score": 37,
-      "scoreBreakdown": {
-        "cq": 7,
-        "kv": 0,
-        "cw": 15,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
       "id": "431772486",
       "title": "Nemotron Labs: How Open Models Give Enterprises and Nations AI They Can Trust, Control and Customize",
       "titleZh": "Nemotron Labs ：开放模型如何为企业和国家提供他们可以信任、控制和定制的人工智能",
@@ -1844,48 +1886,6 @@
       "scoreBreakdown": {
         "cq": 13,
         "kv": 2,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "DeepMind"
-    },
-    {
-      "id": "-16863888",
-      "title": "Introducing computer use in Gemini 3.5 Flash",
-      "titleZh": "在Gemini 3.5 Flash中引入计算机使用",
-      "summary": "Introducing computer use in Gemini 3.5 Flash",
-      "link": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
-      "pubDate": 1782318601000,
-      "vendor": "deepmind",
-      "category": "Release",
-      "impact": "high",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 2,
-        "cw": 25,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "DeepMind"
-    },
-    {
-      "id": "245029162",
-      "title": "Unlocking UK house-building with AI-accelerated planning",
-      "titleZh": "通过人工智能加速规划解锁英国房屋建筑",
-      "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
-      "link": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
-      "pubDate": 1781645390000,
-      "vendor": "deepmind",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
         "cw": 15,
         "st": 15,
         "rc": 0,
