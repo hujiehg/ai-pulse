@@ -1,8 +1,50 @@
 {
-  "updated": "2026-07-30T12:25:01.017Z",
-  "count": 116,
-  "sources": 12,
+  "updated": "2026-07-30T13:29:03.016Z",
+  "count": 107,
+  "sources": 11,
   "items": [
+    {
+      "id": "1892688800",
+      "title": "Dili raises $21.7M to bring AI compliance to the infrastructure boom",
+      "titleZh": "帝力融资$ 2170万，将人工智能合规带入基础设施热潮",
+      "summary": "The Series A was led by Khosla Ventures, with participation from Allianz, Rebel Fund, Brick and Mortar Ventures’ Darren Bechtel, and Y Combinator’s Garry Tan.",
+      "link": "https://techcrunch.com/2026/07/30/dili-raises-15-million-to-bring-ai-compliance-to-the-infrastructure-boom/",
+      "pubDate": 1785416400000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 20,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1397028935",
+      "title": "What Chinese AI model Kimi’s success says about the next phase of US-China AI race",
+      "titleZh": "What Chinese AI model Kimi’s success says about the next phase of US-China AI race",
+      "summary": "What Chinese AI model Kimi’s success says about the next phase of US-China AI race The Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOai1pRzRqMi05b2hJWHNmZVhUcXNqc3huR2hfVHkxbEU1ZzBHUUpEMkg3Ymc2SGxIeUxYa1hkQWpBYURYeTY0YWVLMGFEREc0aF9Peld6MV9FQ3lCNWw4Vm9GczJMZFZNcjhHMEJkVHo3aGRUdlRkNFdfLW5BX0k4RWNBTWw2azBHVzZxR2lLQWlaeXZRTnIyaFV2ZEc4RXNnWWNteXVjcHcxRm9Ha0RQZG1UZXJfV3FsZHfSAcABQVVfeXFMTmlIUjhkSEthM0dMVFZYbUlicHR1Z3hYQVEzZUo3Q2F3eTZxbVlad2ZQMU5IVG1MeU03clVibGZsMW01MUlWMFN5WWhkQjI2RW04cTIwTnJvd0JPNnZ6a2stVlpwWnFYazltUTllUWcxVjRtM05JZmFaYWw0NURqSWIxM3ZJb3dEOUlIMGJkT3F5OHRnWXJjQkFaYzJ6eDE5NzZGLVlTN3VGdG84RlFTVHNJQmZrdlNrWjFEYWJYWmYw?oc=5",
+      "pubDate": 1785403500000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 22,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
     {
       "id": "-1411755220",
       "title": "Alibaba's Qwen Audio 3.0 tops OpenAI on new speech benchmark score",
@@ -13,13 +55,13 @@
       "vendor": "qwen",
       "category": "Research",
       "impact": "med",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 3,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -466,31 +508,10 @@
       "source": "OpenAI"
     },
     {
-      "id": "-1790730272",
-      "title": "Encore AI raises $30M to build AI agents that learn from customer calls",
-      "titleZh": "Encore AI筹集了3000万美元，用于构建从客户电话中学习的人工智能代理",
-      "summary": "The startup analyzes calls, messages, and CRM data to identify effective sales techniques and turn them into playbooks for AI agents.",
-      "link": "https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/",
-      "pubDate": 1785336066000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 20,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1310174359",
+      "id": "858250012",
       "title": "China’s Moonshot AI Passes Funding Goal to Hit $35 Billion Value",
       "titleZh": "China’s Moonshot AI Passes Funding Goal to Hit $35 Billion Value",
-      "summary": "China’s Moonshot AI Passes Funding Goal to Hit $35 Billion Value Bloomberg.com",
+      "summary": "China’s Moonshot AI Passes Funding Goal to Hit $35 Billion Value Bloomberg",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPb0N0WDlMd1dFLUVQS1Bfd2U5WDgzVFdydjV3dVNUbHpKX3BmV2l5cWtIRDRWSlZfTHZZYW96QVd5RVliVHJUYWFCLXhnaXozT21NNWppODlGYkw0UzdNd1l2X0V4LUdnR0llajVMZ2VNS29iZEFBSU50LV8zWjhXRHpEVVp2UThjVlhjbVkySHJua3hQZTB5U1EzVUtHdEFJV0NicnhDMEFFNDJ4ek9PSG5RdEY?oc=5",
       "pubDate": 1785320180000,
       "vendor": "kimi",
@@ -527,27 +548,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "-1347808310",
-      "title": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export and Chinese import controls to acquire compute",
-      "titleZh": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export and Chinese import controls to acquire compute",
-      "summary": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export and Chinese import controls to acquire compute Tom's Hardware",
-      "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNc3pUREd5Tk9LWC1SSGE2OEUyTWlGYzZYX0lYbjVtTHhqdzIxaFZfRkp4Nm9zNU95LWlQZXVQSGtmS05LQXBjVVhycUFHT1QzWU5GRjQzdVJHQ1FSTXNVTHhPZlU2YUdta3Buc21aZ0FJQWJYSFpzQ0luaDF0bERWdGF0TWxsT3FiSkY3c29LamR1LUpBSFpRcUM5MGlpWTN5S3FIR09EM3c2NkFCRHpvdTF0WGg5V0k3TEVaUlJhc1hhU1dnUmlvUDlkY3JoaUx3RG5FTnEtaEdxYnp3dUpfYkpMUTk4ZzBCS3hOQUgwMXROc1pZYkI2QXlNUEFxNERrX2U4WGpYWU5VZDJCdEFyY3d4XzNOX3pXek5qMWFJWUJjUmNXUHhfZ1VEa0FPdFBzUkhja2diZU1lalVYcVRGaFE4Y2dSVnFtdUIzYTV3?oc=5",
-      "pubDate": 1785319200000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-220401866",
@@ -706,13 +706,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google AI"
@@ -727,13 +727,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google AI"
@@ -748,22 +748,22 @@
       "vendor": "kimi",
       "category": "Research",
       "impact": "med",
-      "score": 57,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 22,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
     },
     {
-      "id": "990464337",
+      "id": "-920739260",
       "title": "LM Studio Bionic adds support for Moonshot AI’s Kimi K3 model",
       "titleZh": "LM Studio Bionic adds support for Moonshot AI’s Kimi K3 model",
-      "summary": "LM Studio Bionic adds support for Moonshot AI’s Kimi K3 model 9to5Mac",
+      "summary": "LM Studio Bionic adds support for Moonshot AI’s Kimi K3 model 9to5mac.com",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVVM0YjFic1NPcGl1VllWNnF1dGZ3RzFBc09iNDJUXzAxbnp5cjJEZVpCWlZnbkRXMWdOTUZyOHl5bHU2djdBaGtJdVBKQ2h4ZTM5QUFwTVdUa1phQS1tM1V1em1tRUIwdGk2NGdUY0Q3R0xzckw4dGpMbGw3MkljdEI0bEdfVmUybDFoc0REUjNOckJNLUJJ?oc=5",
       "pubDate": 1785198060000,
       "vendor": "kimi",
@@ -784,17 +784,17 @@
       "id": "193149682",
       "title": "Chinese A.I. Start-Up Shows the World What It Has Built",
       "titleZh": "中国的人工智能初创公司向世界展示了它所建立的东西",
-      "summary": "Chinese A.I. Start-Up Shows the World What It Has Built The New York Times What Is Moonshot AI’s Kimi K3 Model and Why Is It Making Waves? Bloomberg.com What is open-weight AI, the tech behind Kimi K3…",
+      "summary": "Chinese A.I. Start-Up Shows the World What It Has Built The New York Times Moonshot AI releases weights for Kimi-K3, firing a shot across the bow of OpenAI and Anthropic — open-weight model performs a…",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9veDlGZlRsc29JNlFwSDFXUEI0V1pJMFBOR05lSjFtRmRWZmw4cldKUXFYaGVmZW9MM0JiMWt1Z0Jnem5od1AtdmJrdUhSZU5VZlVxZWVWaG1zUGNvR3dBQTVjckxrNjFUci00b3UxdHV3QUFXSVVnZ1N3ajJramc?oc=5",
       "pubDate": 1785185952000,
       "vendor": "kimi",
-      "category": "Research",
+      "category": "Release",
       "impact": "high",
-      "score": 62,
+      "score": 67,
       "scoreBreakdown": {
         "cq": 24,
-        "kv": 2,
-        "cw": 22,
+        "kv": 4,
+        "cw": 25,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -823,6 +823,27 @@
       "source": "Google News"
     },
     {
+      "id": "-842010723",
+      "title": "China ‘threatens’ US over investigation after US government accused Kimi K3 AI model maker Moonshot AI of",
+      "titleZh": "China ‘threatens’ US over investigation after US government accused Kimi K3 AI model maker Moonshot AI of",
+      "summary": "China ‘threatens’ US over investigation after US government accused Kimi K3 AI model maker Moonshot AI of The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQR1gwUXpjZjc3Vl96a0NCSTJBZGJLVWw3V2ZxV2JoNjR4RjloNWFrUTlRdG5zd094cTZWR0IwREV1R0lMVnkzYmtLM0xvcGFVT3VCM2lCMmQzS0V1dUVJOWYtNVpwWWRUdVVCdktTeThRR0M4UEJHWlNoeGRLOGdpTVpiZFVxWWlSMHAzbmhCTmU3Um5kT0RTU2NMUW5OR1gxbXAwaHN5UU96VEVCUWFFSDlnaHJMbnB1RlBxbEpfOGdDR3dNajdjbnI5WTRWdEZqejc3clB5QXpUNlBUdW5ZQzVuNFVtaXlrYVdrUl9jeFBncFJBZE9CLTFWX21XMnVzX3BiTVE2ZF9jNGNFeFZsejBTMVVnX213TlQ2S3hqdEgwb2VRd0hHZHBQeEtueWFVWFlFTDlWMUNSRFlnVk4w0gHEAkFVX3lxTE1RXzZlTE5wcW8tSkFaNXhRRXQ2c1BBOU92MzhtSjNwMVh2RjBlQm5JRjJjd1Q5Z2tzSEJ3dUViUWx6Q1VXSXV2eGZNT1ktaE96em12bk1YZkVBcnRLWFFtZ3VMUFlBWHBHVS1HRDVlTTQzemRaRUR1cDN2RkcxelFmeXluRG05ZV9GZGNwb21PT2htNTVfUGJsNk9IN3hZSHpPMnU3dUZ4bVFjREZnaS01eUFuSlppUm8zZElVdV9KSzlWMlNlVEljV0hvTUt5SXhpRkFLT3kzVEtqTVVoeTRucTRydkE3S1JJd19wQTdXZzhOU2FpVUwwU3A5WG4zdVhWT2pTaUkyTUxhV05XUV9VVzQ2TzhIbVRpLVR5SEZOYW9fY0hMYjVTMEVDRHI3S2RPdldvUGdqNmNYVVdZUzJ5NldncA?oc=5",
+      "pubDate": 1785175140000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "high",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1248089024",
       "title": "The AI giants’ new problem: open AI",
       "titleZh": "The AI giants’ new problem: open AI",
@@ -838,69 +859,6 @@
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-118287983",
-      "title": "Chinese AI models now handle nearly a third of enterprise tokens at one-tenth the cost of US rivals",
-      "titleZh": "中国人工智能模型现在以美国竞争对手的十分之一的成本处理近三分之一的企业代币",
-      "summary": "Chinese AI models now handle nearly a third of enterprise tokens at one-tenth the cost of US rivals MarketScale",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxONEQ2WVhlQ2l0ZVVMVlltc3BqNXdtM2tWcDhiRTlNZ0lERFQ4MFdneV8tejVTVnNnTFc2SXJqNHRPN2k3cUU1RUZjUk9PMkNTWWptNDhYY2oyVGVOMC1PUEladElkZG50b3JnRjhtcEZ0S1lnUUZXaFh1VDBzR3EwcEExVDVOVHVCakRZWmNOdTl5QWE0OEk4WGVEQzI5Zm1HUW40bkJwenJMRDZlNTJ6TTdEcXZjZG8yRV9oVlBNRFMxak5PcktnZERKM1dRYUcwM1lKMEozUGRBLVlySkM5c0V3VERjenlKOU1qdjVzVGZyODZ4?oc=5",
-      "pubDate": 1785163551000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1622672438",
-      "title": "Chip shortages forced China to find way to make cheaper AI models than US",
-      "titleZh": "芯片短缺迫使中国找到了制造比美国更便宜的人工智能模型的方法",
-      "summary": "Chip shortages forced China to find way to make cheaper AI models than US EUobserver",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOG9HTXZiVk1tR2JvcjRlX1A5c3ljRENqMk9MVzg3MUxrMklOUTQxQzU4akRKNnBvZF8zVGUzb25kR25nNjRQOFlYYTdSMHdhbkpCRnJGU0kxaU5jcXpqZ25reHlnN0IzSkJHMDEzdGFNbGZBVHZZZjJkbmVXRHAwMXRqaDNhNVFHaF8wWjJZUWRLQ2lYbWJkYk5jU0o0U0dyWnJZQnRJRQ?oc=5",
-      "pubDate": 1785161314000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1737265623",
-      "title": "DeepSeek V4 vs GLM-5.2 vs Qwen: 10x Price Gap [2026] - tech",
-      "titleZh": "DeepSeek V4与GLM-5.2与Qwen ： 10倍价格差距[2026] -技术",
-      "summary": "DeepSeek V4 vs GLM-5.2 vs Qwen: 10x Price Gap [2026] tech-insider.org",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZaExtdWtZbHFzLWdWTkxJRXdtNnVjMC0wZ3hUcUo2dDJGQ0JtdlY5c0FnN0VZQ01CbTE4ckZfYXQxR3hkb1N5bkFDQl9vbE5UenJITlFRZy1STW9BUHFiX2VaSEo3MDJvWXBmYTZ3?oc=5",
-      "pubDate": 1785154855000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "high",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 15,
-        "st": 12,
         "rc": 1,
         "cs": 1
       },
@@ -989,69 +947,6 @@
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "1210570808",
-      "title": "China's Moonshot, Z.AI, and DeepSeek are challenging U.S. AI labs—and beating them on cost",
-      "titleZh": "China's Moonshot, Z.AI, and DeepSeek are challenging U.S. AI labs—and beating them on cost",
-      "summary": "China's Moonshot, Z.AI, and DeepSeek are challenging U.S. AI labs—and beating them on cost Fortune",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaEV5NHNvbGZGZjM0S2E4WVVLQXhWMU1zcVhnRTBWNVFQX1BOUFlxN3JGYTM3T0xuLXhPMHpQVlhNY1h0TFRkeXIyTGNuYVZXSUQwTk5ybUdLRjF4am5OdjFvY01tbk9ER3RrSDNRQ1VaSFJlLThLTS0zcFd4REpBSHdHRmxRRm4wUHduQ3NWSGw?oc=5",
-      "pubDate": 1785099600000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1715212646",
-      "title": "Cheaper, open and intelligent: Chinese AI models gain ground, as they make inroads in the US",
-      "titleZh": "更便宜、更开放、更智能：中国人工智能模型在美国取得进展",
-      "summary": "Cheaper, open and intelligent: Chinese AI models gain ground, as they make inroads in the US AP News",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdm5uUXhNOEcyUXB6LWVpNDJ3UkJZclpja1ctcFdYclhjenJISmRRZGZTT2hoTDFXa2NuQlVzdGRRYmJWTWRCelg1M3hzWnR4WjBRZThDNjRmckw5c2paZU9pZ282ZVJXeTR6SWxhSG9qdkFUdlkyWUdZRDNPVUVBZGthbExxWThEdW5DWEk1NmJCQUJzT0E?oc=5",
-      "pubDate": 1785038700000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1568185262",
-      "title": "DeepSeek Suspends Fundraising After Viral US-China Posts",
-      "titleZh": "DeepSeek在美中病毒帖子后暂停筹款",
-      "summary": "DeepSeek Suspends Fundraising After Viral US-China Posts Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZmM5SHI4SGhzcko5THg1SGx5a1RiY2p0MExUU0R0NHM3T2pjN0NaR1piRGhGbTVDQll5aElhOHpOWnFUNC14S1dHNUtMaElCLTZFLTd5SW5OTmEyb2lUT1ZhVE5qQ2JvNzRiX3JrMWNIcDB5YWJYZ2luLXFfSk5hNXpLMndhdHpfWURFVl9OcmVpSGUzeDBTdEJlUFQ4cUZHQXZTMjdyM1NfQ3Z5N09zX0FPMEtvQQ?oc=5",
-      "pubDate": 1784990995000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1965105272",
@@ -1516,27 +1411,6 @@
       "source": "Google News"
     },
     {
-      "id": "-769769758",
-      "title": "China’s DeepSeek AI Prepping for IPO, as It Becomes the Top AI Model",
-      "titleZh": "China’s DeepSeek AI Prepping for IPO, as It Becomes the Top AI Model",
-      "summary": "China’s DeepSeek AI Prepping for IPO, as It Becomes the Top AI Model MarketWise",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMWdhUE9VbUM3NDVhQ1F5eFVNYkF0RjIxRnR3T3pPMlNxdXZUdGN4SnV0bVQxekRjVjlrMHVWdjRCUnNZdXJ3NnFFa3JiSU54MGlETTh0SEt6UjdDdFVReDNOZXFPOFRseXFDc29pVlNKZi1qV1BkNHhwckFyUFJBRg?oc=5",
-      "pubDate": 1784308180000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "high",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1573518327",
       "title": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
       "titleZh": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
@@ -1873,27 +1747,6 @@
       "source": "Google AI"
     },
     {
-      "id": "1103944332",
-      "title": "DeepSeek’s AI chip plans",
-      "titleZh": "DeepSeek’s AI chip plans",
-      "summary": "DeepSeek’s AI chip plans Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNXhkWWdodzA5SFgySnR4ckdTcWFLYmI0Yk9EZ3dYRWdia1NCZG1JQXB6aG1HamlQV2E0b182eTVFM1poSlViTkxNMkx3bVBONmZNRkpqZTJRRHlYY3g3VkExNlAzdkR3V05PY3hkZzRJQ0xnQkE5SHBkRzd6SVdUd21OSkZVcDhhQjhkei1hZw?oc=5",
-      "pubDate": 1783407600000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 12,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1490050698",
       "title": "NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community",
       "titleZh": "NVIDIA和Hugging Face为LeRobot的开放机器人社区带来了新的模型和框架",
@@ -2060,48 +1913,6 @@
         "cs": 1
       },
       "source": "VentureBeat"
-    },
-    {
-      "id": "-1632583155",
-      "title": "Three reasons why DeepSeek’s new model matters",
-      "titleZh": "Three reasons why DeepSeek’s new model matters",
-      "summary": "Three reasons why DeepSeek’s new model matters MIT Technology Review",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSzNrdWNGN1EyM2pNR1pBUnhaT3hHYk1nZXhXMzVKUXB3T09za2dCTXZYMDRvdVpEUnZRUnRhYnRwdV9OTFpST3VQbTktdndyYklBWjk3M2RicUx2MnJUaWtGMkUzQS1qZjNXWmI2cFZ5bEVnUk00WHRJN3I5R3FfeWs2VdIBiAFBVV95cUxNTk4tcnJDa0tDV2s2cGlnZGdJZXBNUnFXajFhUjJpVjQ5NzA2UWJUaVZwTEZtd0k0d3dRdEl0MVNHS0R1MElBNHQxWjdzS2VnX0VFQVQyM1lqX05tOVNmU2djTEY2WTM3Ujk3bXBTZ2pmNE9KekVrWWVqa2hUTjhncEZ1bEw4MjJs?oc=5",
-      "pubDate": 1777014000000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-807368284",
-      "title": "China's DeepSeek releases preview of long-awaited V4 model as AI race intensifies",
-      "titleZh": "随着人工智能竞赛的加剧，中国的DeepSeek发布了期待已久的V4车型的预览",
-      "summary": "China's DeepSeek releases preview of long-awaited V4 model as AI race intensifies CNBC",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd3BGX1RVY2NmcVZoZnpqQ0hDTmdhem9nVE5wLWlKN2lIYzNuVjJtUjdqeU9oWWIxVjY4WG1BU0ctMm5VNURWZmhnU05IQTVnakRJUFJSeHI5dFB0WThCb1h1Q2Fnb3k5aUwyTUd6NEZ3bU1LRWs5OHZvTi1MQlJpVzNMbnRzcDd6UkZxdFlsX0FycjU5SVc4ONIBngFBVV95cUxQWWFDRGp5MGRYM2FYZ0lvN0Y5cTVOSm56QmZQeENWTzdUQzVXOVZIQjVZZy1OcnJLeEFzSklFVEpWdWV6d05POWktN2JIbkJzQnhSZDdtRm1VQzBEbjR3ZjNyQ0VjSkVpenFrWGM5MnFWdndlVTg5OGgwMUpJa0RONnF2em9hdGhycjNGdmpmZHlQSEdudTMyRm1mdjVQUQ?oc=5",
-      "pubDate": 1777014000000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1380991222",
