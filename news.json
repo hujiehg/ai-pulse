@@ -1,8 +1,218 @@
 {
-  "updated": "2026-07-30T03:46:25.825Z",
-  "count": 116,
-  "sources": 12,
+  "updated": "2026-07-30T04:30:02.029Z",
+  "count": 107,
+  "sources": 11,
   "items": [
+    {
+      "id": "1740420305",
+      "title": "Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models",
+      "titleZh": "探究推理性能的起源： RL与SFT微调模型中数学问题解决的表示质量",
+      "summary": "arXiv:2607.26119v1 Announce Type: new Abstract: Large reasoning models trained via reinforcement learning (RL) have been increasingly shown to outperform their supervised fine-tuned (SFT) counterparts…",
+      "link": "https://arxiv.org/abs/2607.26119",
+      "pubDate": 1785384000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1734464349",
+      "title": "Even More Deception: Objective Misalignment in Mixed-Motive LLM Multi-Agent Systems",
+      "titleZh": "更多的欺骗：混合动态LLM多Agent系统中的目标错位",
+      "summary": "arXiv:2607.26120v1 Announce Type: new Abstract: Large Language Models (LLMs)-powered multi-agent systems are increasingly deployed in mixed-motive environments, where agents operate under asymmetric i…",
+      "link": "https://arxiv.org/abs/2607.26120",
+      "pubDate": 1785384000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1141116175",
+      "title": "ClinLens: Towards Long-Horizon Coding Agents for Longitudinal Multimodal Clinical Data Science",
+      "titleZh": "ClinLens ：面向纵向多模式临床数据科学的长视野编码剂",
+      "summary": "arXiv:2607.26155v1 Announce Type: new Abstract: Clinical data-science agents must transform heterogeneous longitudinal records into auditable analyses, yet existing benchmarks largely isolate medical …",
+      "link": "https://arxiv.org/abs/2607.26155",
+      "pubDate": 1785384000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 69,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 8,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1281584692",
+      "title": "When benchmark inferences do not compose: Projectibility in AI evaluation",
+      "titleZh": "当基准推断不成立时：人工智能评估中的可预测性",
+      "summary": "arXiv:2607.26159v1 Announce Type: new Abstract: An AI benchmark result rarely reaches a consequential claim in one step. Evaluators generalize it to further cases, interpret it as evidence of capabili…",
+      "link": "https://arxiv.org/abs/2607.26159",
+      "pubDate": 1785384000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-342266553",
+      "title": "GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning",
+      "titleZh": "GuideSkill ：不断发展的可执行法学硕士代理技能，以指导原则为基础的临床推理",
+      "summary": "arXiv:2607.26160v1 Announce Type: new Abstract: Clinical practice guidelines (CPGs) encode diagnostic criteria, but LLM systems typically retrieve guideline text or absorb it through training rather t…",
+      "link": "https://arxiv.org/abs/2607.26160",
+      "pubDate": 1785384000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 67,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 8,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-99236105",
+      "title": "GoGoTB: Agentic RTL Verification with Specification-Grounded Coverage Closure",
+      "titleZh": "GoGoTB ：带有规格接地覆盖结束的代理RTL验证",
+      "summary": "arXiv:2607.26181v1 Announce Type: new Abstract: Functional verification dominates integrated circuit (IC) front-end engineering effort, and a single missed bug that escapes to silicon can trigger a co…",
+      "link": "https://arxiv.org/abs/2607.26181",
+      "pubDate": 1785384000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1659268709",
+      "title": "Position: Evaluation Scores Are Perishable Knowledge Claims",
+      "titleZh": "职位：评估分数是易腐烂的知识声明",
+      "summary": "arXiv:2607.26191v1 Announce Type: new Abstract: Evaluation methodologies for language models increasingly combine multiple signals, from automated metrics and LLM-as-judge ratings to human assessments…",
+      "link": "https://arxiv.org/abs/2607.26191",
+      "pubDate": 1785384000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "108045434",
+      "title": "TraceCoder: Explainable and Auditable Code Generation with Position-Key Snippet Versioning",
+      "titleZh": "TraceCoder ：使用Position-Key代码段版本控制生成可解释和可审计的代码",
+      "summary": "arXiv:2607.26307v1 Announce Type: new Abstract: Contemporary LLM-based coding agents produce code as black-box outputs: the rationale behind each line is hidden, the evolution of the code through benc…",
+      "link": "https://arxiv.org/abs/2607.26307",
+      "pubDate": 1785384000000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 15,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1919671429",
+      "title": "Exploring Structures in Physics Problems: Can AI Agents Discover Statistical Mechanical Mappings?",
+      "titleZh": "探索物理问题中的结构：人工智能代理能否发现统计机械映射？",
+      "summary": "arXiv:2607.26367v1 Announce Type: new Abstract: An important skill in theoretical physics is to recognize when a new problem can be transformed into a known model. We study this skill as an AI-agent t…",
+      "link": "https://arxiv.org/abs/2607.26367",
+      "pubDate": 1785384000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1139395111",
+      "title": "CaM-Wolf: Causal-Aware Multimodal Agents for Social Deduction Games",
+      "titleZh": "CaM-Wolf ：用于社交演绎游戏的因果感知多式联运代理",
+      "summary": "arXiv:2607.26393v1 Announce Type: new Abstract: Social deduction games (SDGs) such as Werewolf have become challenging testbeds for AI agents. These games require complex social skills such as reasoni…",
+      "link": "https://arxiv.org/abs/2607.26393",
+      "pubDate": 1785384000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
     {
       "id": "-1509595643",
       "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
@@ -76,13 +286,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -277,321 +487,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "-1347808310",
-      "title": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export and Chinese import controls to acquire compute",
-      "titleZh": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export and Chinese import controls to acquire compute",
-      "summary": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export and Chinese import controls to acquire compute Tom's Hardware",
-      "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNc3pUREd5Tk9LWC1SSGE2OEUyTWlGYzZYX0lYbjVtTHhqdzIxaFZfRkp4Nm9zNU95LWlQZXVQSGtmS05LQXBjVVhycUFHT1QzWU5GRjQzdVJHQ1FSTXNVTHhPZlU2YUdta3Buc21aZ0FJQWJYSFpzQ0luaDF0bERWdGF0TWxsT3FiSkY3c29LamR1LUpBSFpRcUM5MGlpWTN5S3FIR09EM3c2NkFCRHpvdTF0WGg5V0k3TEVaUlJhc1hhU1dnUmlvUDlkY3JoaUx3RG5FTnEtaEdxYnp3dUpfYkpMUTk4ZzBCS3hOQUgwMXROc1pZYkI2QXlNUEFxNERrX2U4WGpYWU5VZDJCdEFyY3d4XzNOX3pXek5qMWFJWUJjUmNXUHhfZ1VEa0FPdFBzUkhja2diZU1lalVYcVRGaFE4Y2dSVnFtdUIzYTV3?oc=5",
-      "pubDate": 1785319200000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-220401866",
-      "title": "Chinese AI startup Kimi K3 sends U.S. chip stocks tumbling",
-      "titleZh": "中国人工智能初创公司Kimi K3让美国芯片股暴跌",
-      "summary": "Chinese AI startup Kimi K3 sends U.S. chip stocks tumbling qz.com",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5wUXRpOUlaWDhxR0d1eDd2c0t4YV9rQWZnM19uWjFCMS1vMWlNTlBVOW9DR2VDWjdURjNpV0F5RUJyYXA5YzRiVm03NmRsM0d1SkxsTno3NXY3ODM1MFU5QUQ0RGxWd19qRi03TXN2Y0o?oc=5",
-      "pubDate": 1785315638000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-145810738",
-      "title": "Moonshot AI Surpasses Funding Goal to Hit $35 Billion Value",
-      "titleZh": "Moonshot AI超额完成融资目标，价值350亿$",
-      "summary": "Moonshot AI Surpasses Funding Goal to Hit $35 Billion Value Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPb0N0WDlMd1dFLUVQS1Bfd2U5WDgzVFdydjV3dVNUbHpKX3BmV2l5cWtIRDRWSlZfTHZZYW96QVd5RVliVHJUYWFCLXhnaXozT21NNWppODlGYkw0UzdNd1l2X0V4LUdnR0llajVMZ2VNS29iZEFBSU50LV8zWjhXRHpEVVp2UThjVlhjbVkySHJua3hQZTB5U1EzVUtHdEFJV0NicnhDMEFFNDJ4ek9PSG5RdEY?oc=5",
-      "pubDate": 1785313142000,
-      "vendor": "kimi",
-      "category": "Funding",
-      "impact": "high",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 20,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "716988720",
-      "title": "China’s Moonshot AI Passes Funding Goal to Hit $35 Billion Value",
-      "titleZh": "China’s Moonshot AI Passes Funding Goal to Hit $35 Billion Value",
-      "summary": "China’s Moonshot AI Passes Funding Goal to Hit $35 Billion Value Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ2dBellnZTJucUUzWWpzRVJXMHZTWHdpU2ZQb3paaUFpTHo4bHFyUTJWS2k5d1c2ZkhQSzNIT0htT2hyRWhiWGFVVUl6Ukg1WnE0Tkc3TFdhVTVIZ3FMY212S2lOQWlCR2xncU9DX2hsbmM5dGM2UERIdE9YaUJWd2JDNmRZQlMzQkVDejBORjM2ZEdWTHQta0dsYnM?oc=5",
-      "pubDate": 1785313142000,
-      "vendor": "kimi",
-      "category": "Funding",
-      "impact": "high",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 20,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "864388579",
-      "title": "Do Models Fake Alignment Without Clear Consequences?",
-      "titleZh": "模型是否在没有明确后果的情况下虚假对齐？",
-      "summary": "arXiv:2607.24758v2 Announce Type: new Abstract: Large language models are capable of recognizing evaluation contexts and altering their behavior to reflect evaluator expectations rather than typical d…",
-      "link": "https://arxiv.org/abs/2607.24758",
-      "pubDate": 1785297600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-603410154",
-      "title": "Beyond Memory: A Templated Substrate for Heterogeneous Collaborative Knowledge Work with LLM Agents",
-      "titleZh": "超越记忆：与LLM代理进行异构协作知识工作的模板化基板",
-      "summary": "arXiv:2607.24759v1 Announce Type: new Abstract: Research projects, educational efforts, and adjacent knowledge work accumulate findings, decisions, and reasoning that future collaborators rarely recov…",
-      "link": "https://arxiv.org/abs/2607.24759",
-      "pubDate": 1785297600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1358319539",
-      "title": "Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels",
-      "titleZh": "Kernel Forge ：基于LLM的CUDA内核生成和优化的Agent线束",
-      "summary": "arXiv:2607.24762v1 Announce Type: new Abstract: Machine learning models are increasingly embedded in everyday software, and most of their runtime is spent in a small set of compute kernels such as mat…",
-      "link": "https://arxiv.org/abs/2607.24762",
-      "pubDate": 1785297600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 69,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1268220449",
-      "title": "CaRE Compute-aware Remasking Evaluation Protocol for Masked Diffusion Language Models",
-      "titleZh": "用于掩码扩散语言模型的CaRE计算感知重掩码评估协议",
-      "summary": "arXiv:2607.24763v1 Announce Type: new Abstract: Masked diffusion language models (MDLMs) are advancing rapidly, yet the evaluation standards needed to reliably interpret their progress have not kept p…",
-      "link": "https://arxiv.org/abs/2607.24763",
-      "pubDate": 1785297600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 69,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 8,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1726938196",
-      "title": "GrocLM: Grocery Category Recommendation in E-Commerce with Large Language Models",
-      "titleZh": "GrocLM ：大型语言模型电子商务中的生鲜杂货类别推荐",
-      "summary": "arXiv:2607.24764v1 Announce Type: new Abstract: The rapid growth of online grocery shopping requires recommendation systems that capture cyclical purchasing behavior and diverse user intents. Traditio…",
-      "link": "https://arxiv.org/abs/2607.24764",
-      "pubDate": 1785297600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-99143014",
-      "title": "Crystalis: Progressive Nucleation and Semantic Annealing for Coordinated Multi-View Visualization Generation",
-      "titleZh": "Crystalis ：用于协调多视图可视化生成的渐进成核和语义退火",
-      "summary": "arXiv:2607.24766v1 Announce Type: new Abstract: Large language models (LLMs) can generate individual charts, but coordinated multi-view visualizations (CMVs), where views share data flows and cross-vi…",
-      "link": "https://arxiv.org/abs/2607.24766",
-      "pubDate": 1785297600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1535900422",
-      "title": "PATHFinder Agent for Tailored Prenatal Care",
-      "titleZh": "PATHFinder量身定制的产前护理代理",
-      "summary": "arXiv:2607.24768v1 Announce Type: new Abstract: Prenatal care is an important preventive service designed to improve outcomes for pregnant individuals. The American College of Obstetricians and Gyneco…",
-      "link": "https://arxiv.org/abs/2607.24768",
-      "pubDate": 1785297600000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "high",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 5,
-        "cw": 15,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "852484706",
-      "title": "LLM Scheming Inversely Scales with Pretraining Language Coverage",
-      "titleZh": "LLM Scheming与预训练语言覆盖率成反比",
-      "summary": "arXiv:2607.24769v1 Announce Type: new Abstract: With the growing capabilities of frontier models, AI alignment becomes increasingly critical in high-risk deployment settings. While recent work has emp…",
-      "link": "https://arxiv.org/abs/2607.24769",
-      "pubDate": 1785297600000,
-      "vendor": "arxiv",
-      "category": "Safety",
-      "impact": "high",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 10,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1152889604",
-      "title": "ProcAgent: An Agentic Framework for Procedural Task Guidance on Edge with Human-in-the-Loop",
-      "titleZh": "ProcAgent ：人工循环边缘程序任务指导的代理框架",
-      "summary": "arXiv:2607.24770v1 Announce Type: new Abstract: Procedural tasks such as furniture assembly and home repair impose substantial cognitive demands because users must interpret instructions, track task p…",
-      "link": "https://arxiv.org/abs/2607.24770",
-      "pubDate": 1785297600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1381878754",
-      "title": "RoCo-ACE: Rollout-Conditioned Online Distillation for Retention-Aware Knowledge Injection",
-      "titleZh": "RoCo-ACE ：用于保留感知知识注入的推出条件在线蒸馏",
-      "summary": "arXiv:2607.24771v1 Announce Type: new Abstract: Knowledge injection updates pretrained MLLMs with new factual or domain-specific knowledge, but fitting full authoritative answers can cause drift in no…",
-      "link": "https://arxiv.org/abs/2607.24771",
-      "pubDate": 1785297600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1340156752",
-      "title": "Should China aim for the lead in making AI rules for the world?",
-      "titleZh": "中国是否应该瞄准率先为世界制定人工智能规则？",
-      "summary": "Should China aim for the lead in making AI rules for the world? South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPS2RoYXR3ZTJnVkMwOTZfM2VXM0lnZ0VvVkRLdWNwZDNwY292UFBkT1pWeVkxeFpyUEk4S1lueGh5M3dDUGppN3lUX0J4aG1sdGZjVHhweFlXVmRoaXRXZ1prSVBRcWVnQ1N5MUJLYVpYdGdQZkczdDZtQUlnTGlyVTRLTlJmS0Vna25Ld2JtT25ycHRFZVJqdGFOc3UxVzAxRTFR0gGjAUFVX3lxTE9CN2VnN3d4NzdiTTRYZk1RTF9GNG8zbTVScktXdG43QTJOUjlqcjBjMDBKOFVhNEhFenEyeXEwRDg4aUkxVU83bXB2eUtxdW5NRTE0NXZDTWpUTUVRclhXWVVHMTNqYW9HZ0tBWEJYLUU1UUZ2V2JDZHlhUkNQbGhuWE1FSU5OeHR2cjBzeWcxQjhhWkZicllBLTZpd01kYkJPQkU?oc=5",
-      "pubDate": 1785286813000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-343473939",
       "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
       "titleZh": "GPT-5.6如何将前沿情报与前沿效率融合",
@@ -737,90 +632,6 @@
         "cs": 1
       },
       "source": "Google AI"
-    },
-    {
-      "id": "-2093340205",
-      "title": "Chinese AI Startup Moonshot Seeks More Nvidia Blackwell Chips for Next Model",
-      "titleZh": "中国人工智能初创公司Moonshot为下一代车型寻求更多Nvidia Blackwell芯片",
-      "summary": "Chinese AI Startup Moonshot Seeks More Nvidia Blackwell Chips for Next Model The Information",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOY2w3NlpMZ1haVUgzU1dPdVU4cVVTVTF1Ylk3ZkpjUU0tWFNacWxYMDdfbjNTcXlPSl8xVm1JYWFOdXBENTJJbkk5ZExlNUlYQnlRby1pSmhLRUYwa0JTQ1VDUDJBUVB6YWY4RTRPWXFJbldwQll3bnR3TzlHc2dJMnlGS2FkSUVKcWVCTW1pMkw3ZG1oZzhjMEJWalFJVF9TelFTZTVFWmwzSDQ?oc=5",
-      "pubDate": 1785243600000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 22,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "220479196",
-      "title": "Kimi AI and kvcache-ai Open Sources 'AgentENV': A Distributed System that Powers Agentic Reinforcement Learning (RL) Training for Kimi K3",
-      "titleZh": "Kimi AI和kvcache-ai开源“AgentENV” ：为Kimi K3提供代理强化学习（ RL ）培训的分布式系统",
-      "summary": "Kimi AI and kvcache-ai Open Sources 'AgentENV': A Distributed System that Powers Agentic Reinforcement Learning (RL) Training for Kimi K3 MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVE9JRDFaTFVSWi0xb2l1LWVYZmh0NmNzbWgyWGtYekJyZFh5ZU9rcjg2S3JWMVgwMzViYWx4SFJLT1o5dlpKeXp5VUxjSWJpcTZ0SjF2T3d3cUs0bjRHQ0trNVVtV3N1RkR1cDJfcDFJQkVMa004aTkxSmtnQXJxbEhPNzNMOTRsNDdseEdR?oc=5",
-      "pubDate": 1785185333000,
-      "vendor": "kimi",
-      "category": "Agent",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 12,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1248089024",
-      "title": "The AI giants’ new problem: open AI",
-      "titleZh": "The AI giants’ new problem: open AI",
-      "summary": "The AI giants’ new problem: open AI The Verge",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX0t5UEZhbHNyTG84LW1obTh2VFFRNHlYRUNyQ0h4V3RFSnBzNTd4ZjFvYUIwenZKa0FnMER3ZVhWMGczdUwyTzk0VnMyMWxMcXo5anM5SC0wUktjNlBkNTZtb2JTcTI3dDRoamFqVWJIaG02NHpZeHNGdmtWZHc0VmdvNjRoRHIxWGxRTEhnZG9hdzYwTUdqX1E1MVJTdzNtV2ZDRDhxYTA5WkpETDJsMnFn?oc=5",
-      "pubDate": 1785171110000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 44,
-      "scoreBreakdown": {
-        "cq": 12,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "468747391",
-      "title": "China’s Moonshot to Release Breakthrough AI Model for Download",
-      "titleZh": "China’s Moonshot to Release Breakthrough AI Model for Download",
-      "summary": "China’s Moonshot to Release Breakthrough AI Model for Download Bloomberg.com Chinese Start-Up Moonshot Details New A.I. Model The New York Times What is open-weight AI, the tech behind Kimi K3 that's …",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSmtYSDI3eU9xMml4XzdCZV85a29MLXVtRjFsX2JOQ2hvTTJJMXZWQTd4ZjZiUlhNNDhnMTZMZVlmSEstSGNqcFA0TWtLTm90LTNsbEFDZHZNb1JobWRhVjg2N0FXLXBsWlFXZDVvcTJmcUdOLVdFWjF2SnNfQlRfV1pNZFRHQ2JkZHhRUVRjUmVNenBXVFl0czFSclBOeDAweVAzMVE1QlpwSTNQX0F5Vk5oRQ?oc=5",
-      "pubDate": 1785166434000,
-      "vendor": "kimi",
-      "category": "Release",
-      "impact": "high",
-      "score": 69,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 6,
-        "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-118287983",
@@ -1052,6 +863,27 @@
         "cs": 1
       },
       "source": "NVIDIA"
+    },
+    {
+      "id": "1594116607",
+      "title": "China Is AI-Maxxing",
+      "titleZh": "中国是AI-Maxxing",
+      "summary": "China Is AI-Maxxing Foreign Policy",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX3R4S2JETm45a1ZnM29hUGxid1hoOEVaWW5fNnVERVczVWFFQ2EzRURnMnJ5ZWEyd09VMHNBYlFualBOM04tUy1wQzJESDFRa3FITjVLc0J6NkpWWmFRZWVGTHhtZ2dzdEJxcnhWR1k5N3BQRzlMdGhPREJNNUhvd3g2ZmdYbmtMNzA2NldWLWNqbTBmdlVwVzRrZFZfTmM5ZWd0c29HcldrUFU?oc=5",
+      "pubDate": 1784837678000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 10,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "1719240719",
@@ -1453,27 +1285,6 @@
       "source": "Google News"
     },
     {
-      "id": "-1430322369",
-      "title": "Alibaba's Qwen takes on Kimi K3 with open-weight Qwen 3.8, says model is \"second only to Fable 5\" - the",
-      "titleZh": "阿里巴巴的Qwen采用开放式Qwen 3.8对抗Kimi K3 ，称该车型“仅次于寓言5” -",
-      "summary": "Alibaba's Qwen takes on Kimi K3 with open-weight Qwen 3.8, says model is \"second only to Fable 5\" the-decoder.com",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTG0xQlFyWkRjUzh5SS01dzdlVnBhN2MyMWFWekVjREJvMFV3LUNfbUM0SVFyMUROZ0M0cEpPdkFkU1pMQkNGa3R6Q3pYakVITUdrZ0R6c0RYTUVJQzZJNFlGaEZHdTlkVlFGNm1BVzQyT3o5cW1fT015Q0loRHhKeGtsNU9ZYVQ3RHFLVnk5YjhwZDVnNHBjRTNRODE5UnM1S3FlbDAzVlBiLXYzeHhSVC1sVll5MGczUkE?oc=5",
-      "pubDate": 1784444400000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "high",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-133979032",
       "title": "Alibaba Previews Qwen3.8-Max, a 2.4 Trillion-Parameter Multimodal Model, Days After Moonshot's Kimi K3 Open-Weight Launch",
       "titleZh": "阿里巴巴预览Qwen3.8-Max ，一个2.4万亿参数的多式联运模型，在Moonshot的Kimi K3开放式重量发布后的几天",
@@ -1705,18 +1516,18 @@
       "source": "HuggingFace"
     },
     {
-      "id": "1018948029",
+      "id": "-1273608880",
       "title": "Alibaba’s U.S.-listed shares rise 4% after Qwen AI set to be integrated in Apple Intelligence",
       "titleZh": "Alibaba’s U.S.-listed shares rise 4% after Qwen AI set to be integrated in Apple Intelligence",
-      "summary": "Alibaba’s U.S.-listed shares rise 4% after Qwen AI set to be integrated in Apple Intelligence CNBC",
+      "summary": "Alibaba’s U.S.-listed shares rise 4% after Qwen AI set to be integrated in Apple Intelligence cnbc.com",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1KZGV6dDJ6U2R1eTJ1bFZleUhNX1FtMXFaOFBWaklmVE1PWV9vNVhDZGgybFdIQUlHNW5QNm53Z3B0LWdZUG9GaE0ySDNwaFUzT2R1YzhJWHRUM2c3Z2Y4cXNpS1I1RE5LWXEwT3FYMlo2TnJiMF9rc2JLZ9IBgAFBVV95cUxNSkp6a051Tm55Q1RtU0g5REJwajJnSUlqZi04NUJkNTkwYVFtNVNpLTBFOGh5VDFwYUVPc01sSVVZYko4SE9wS0ItTzFHQjF5emZRNzhWcTZOeVZ0UEQ2Vi0tWi1EN01CV1VabG1Jc1pvVGtKeFM0aDlnUTI3TDZYaw?oc=5",
       "pubDate": 1784098800000,
       "vendor": "qwen",
       "category": "Product",
       "impact": "med",
-      "score": 48,
+      "score": 50,
       "scoreBreakdown": {
-        "cq": 18,
+        "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
