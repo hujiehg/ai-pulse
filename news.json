@@ -1,8 +1,29 @@
 {
-  "updated": "2026-07-31T05:50:10.460Z",
-  "count": 117,
-  "sources": 12,
+  "updated": "2026-07-31T08:36:31.540Z",
+  "count": 107,
+  "sources": 11,
   "items": [
+    {
+      "id": "663831922",
+      "title": "Advancing responsible AI across Europe",
+      "titleZh": "在整个欧洲推进负责任的人工智能",
+      "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+      "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "pubDate": 1785510000000,
+      "vendor": "openai",
+      "category": "Safety",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 1,
+        "cw": 10,
+        "st": 15,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
     {
       "id": "1740420305",
       "title": "Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models",
@@ -13,13 +34,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 4,
         "cw": 22,
         "st": 13,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "arXiv"
@@ -34,13 +55,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 65,
+      "score": 64,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 6,
         "cw": 22,
         "st": 13,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "arXiv"
@@ -55,13 +76,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 69,
+      "score": 68,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 8,
         "cw": 22,
         "st": 13,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "arXiv"
@@ -76,13 +97,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 65,
+      "score": 64,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 6,
         "cw": 22,
         "st": 13,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "arXiv"
@@ -97,13 +118,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "high",
-      "score": 67,
+      "score": 66,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 8,
         "cw": 22,
         "st": 13,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "arXiv"
@@ -118,13 +139,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 5,
         "cw": 22,
         "st": 13,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "arXiv"
@@ -139,13 +160,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 5,
         "cw": 22,
         "st": 13,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "arXiv"
@@ -160,13 +181,13 @@
       "vendor": "arxiv",
       "category": "Product",
       "impact": "med",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 6,
         "cw": 15,
         "st": 13,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "arXiv"
@@ -181,13 +202,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 65,
+      "score": 64,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 6,
         "cw": 22,
         "st": 13,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "arXiv"
@@ -202,13 +223,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 5,
         "cw": 22,
         "st": 13,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "arXiv"
@@ -223,13 +244,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 1,
         "cw": 22,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -338,27 +359,6 @@
         "cs": 1
       },
       "source": "TechCrunch"
-    },
-    {
-      "id": "461638259",
-      "title": "DeepSeek is developing a massive AI data centre in Inner Mongolia",
-      "titleZh": "DeepSeek正在内蒙古开发一个大规模的人工智能数据中心",
-      "summary": "DeepSeek is developing a massive AI data centre in Inner Mongolia AFR",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcjlZdm53RUMyek9mRTFic2p2MC1GUVpVQWZ0ZlVwRVlkb3dOY3FSaldMUUFKOEpvZ1RUcnlJMDgxSS1oTS1RZXR6a3NxUGxvd2V4eENGdWJrNW5XS2ZtY2pmanF4dnJpUkJsR0U5ZE5MWEVSM2RxMi1tVmtmRnIteWJCRTlyRU5RN0hoaXJPcnZrSHRIQ3I3QS1OVkFpSUNWbjJiRVJlS2FYN1lyS191azhR?oc=5",
-      "pubDate": 1785439800000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1040482821",
@@ -550,22 +550,22 @@
       "source": "Google News"
     },
     {
-      "id": "-1411755220",
+      "id": "1795332223",
       "title": "Alibaba's Qwen Audio 3.0 tops OpenAI on new speech benchmark score",
       "titleZh": "阿里巴巴的Qwen Audio 3.0在新的语音基准分数上超过OpenAI",
-      "summary": "Alibaba's Qwen Audio 3.0 tops OpenAI on new speech benchmark score BetaNews",
+      "summary": "Alibaba's Qwen Audio 3.0 tops OpenAI on new speech benchmark score betanews.com",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBPSGh6ejItSmhUWGpxX3BldmxTUmIwYmRad2tranBZdzJ1YThkVk9UbWROV0VkaE9ySC13enBoSnV1eC1hYWRtNzlhZ09yXzdSOUxXejRWS0hDNi1JcUlPd29VUXNHYXdpTUpkR0RFY3VvN21pVi15Zw?oc=5",
       "pubDate": 1785393331000,
       "vendor": "qwen",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 3,
         "cw": 22,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -991,48 +991,6 @@
       "source": "Google News"
     },
     {
-      "id": "-118287983",
-      "title": "Chinese AI models now handle nearly a third of enterprise tokens at one-tenth the cost of US rivals",
-      "titleZh": "中国人工智能模型现在以美国竞争对手的十分之一的成本处理近三分之一的企业代币",
-      "summary": "Chinese AI models now handle nearly a third of enterprise tokens at one-tenth the cost of US rivals MarketScale",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxONEQ2WVhlQ2l0ZVVMVlltc3BqNXdtM2tWcDhiRTlNZ0lERFQ4MFdneV8tejVTVnNnTFc2SXJqNHRPN2k3cUU1RUZjUk9PMkNTWWptNDhYY2oyVGVOMC1PUEladElkZG50b3JnRjhtcEZ0S1lnUUZXaFh1VDBzR3EwcEExVDVOVHVCakRZWmNOdTl5QWE0OEk4WGVEQzI5Zm1HUW40bkJwenJMRDZlNTJ6TTdEcXZjZG8yRV9oVlBNRFMxak5PcktnZERKM1dRYUcwM1lKMEozUGRBLVlySkM5c0V3VERjenlKOU1qdjVzVGZyODZ4?oc=5",
-      "pubDate": 1785163551000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1737265623",
-      "title": "DeepSeek V4 vs GLM-5.2 vs Qwen: 10x Price Gap [2026] - tech",
-      "titleZh": "DeepSeek V4与GLM-5.2与Qwen ： 10倍价格差距[2026] -技术",
-      "summary": "DeepSeek V4 vs GLM-5.2 vs Qwen: 10x Price Gap [2026] tech-insider.org",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZaExtdWtZbHFzLWdWTkxJRXdtNnVjMC0wZ3hUcUo2dDJGQ0JtdlY5c0FnN0VZQ01CbTE4ckZfYXQxR3hkb1N5bkFDQl9vbE5UenJITlFRZy1STW9BUHFiX2VaSEo3MDJvWXBmYTZ3?oc=5",
-      "pubDate": 1785154855000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "high",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-811957981",
       "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
       "titleZh": "NVIDIA Cosmos-H-Dreams ：为手术机器人带来实时生成模拟",
@@ -1115,27 +1073,6 @@
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "1210570808",
-      "title": "China's Moonshot, Z.AI, and DeepSeek are challenging U.S. AI labs—and beating them on cost",
-      "titleZh": "China's Moonshot, Z.AI, and DeepSeek are challenging U.S. AI labs—and beating them on cost",
-      "summary": "China's Moonshot, Z.AI, and DeepSeek are challenging U.S. AI labs—and beating them on cost Fortune",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaEV5NHNvbGZGZjM0S2E4WVVLQXhWMU1zcVhnRTBWNVFQX1BOUFlxN3JGYTM3T0xuLXhPMHpQVlhNY1h0TFRkeXIyTGNuYVZXSUQwTk5ybUdLRjF4am5OdjFvY01tbk9ER3RrSDNRQ1VaSFJlLThLTS0zcFd4REpBSHdHRmxRRm4wUHduQ3NWSGw?oc=5",
-      "pubDate": 1785099600000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1965105272",
@@ -1257,27 +1194,6 @@
         "cq": 18,
         "kv": 3,
         "cw": 25,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "-2073316211",
-      "title": "How news organizations are using AI to advance their vital missions",
-      "titleZh": "新闻机构如何利用人工智能推进其重要使命",
-      "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
-      "link": "https://openai.com/index/how-news-organizations-are-using-ai",
-      "pubDate": 1784725200000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
         "st": 15,
         "rc": 0,
         "cs": 1
@@ -1474,11 +1390,11 @@
       "source": "NVIDIA"
     },
     {
-      "id": "137782455",
-      "title": "Alibaba's Tongyi Lab Releases Qwen-Audio-3.0-TTS, a Hosted Text-to-Speech Model in Flash and Plus Tiers Across 16 Languages",
-      "titleZh": "阿里巴巴同益实验室发布Qwen-Audio-3.0-TTS ，这是一种跨16种语言的Flash和Plus层托管文本语音转换模型",
-      "summary": "Alibaba's Tongyi Lab Releases Qwen-Audio-3.0-TTS, a Hosted Text-to-Speech Model in Flash and Plus Tiers Across 16 Languages MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdWRIcGhMSncyNjljZlFoV2tKd0R4bHk4U2ZnQjFlSXpoNFNqZThOSm1BSjI2LWdiS0k5RzdnOFprVlFRVHkyZ09FX0NCUVhkR0dQVHVmQmhwUlNqeHplMUl0UGZObXM5ckJPTUVac1JMSjBCU0xWc0lKbkRDU1RNc3ZpeGdrbE05TVJoMGxUNWt2SDlSWWcyQzZVSTdHOThSZ2xhUXJoYThoME9tQm51b1ZTZklsS2RsZEhwMklSQVNZeUs0ZElHT0dqZEdiVnNqTEh0TmprX0MxN3JDXzUxZ2pvb1lxaWtSNGNTclFCVk1mRS1v?oc=5",
+      "id": "2095524845",
+      "title": "Alibaba’s Tongyi Lab Releases Qwen-Audio-3.0-TTS, a Hosted Text-to-Speech Model in Flash and Plus Tiers Across 16 Languages",
+      "titleZh": "Alibaba’s Tongyi Lab Releases Qwen-Audio-3.0-TTS, a Hosted Text-to-Speech Model in Flash and Plus Tiers Across 16 Languages",
+      "summary": "Alibaba’s Tongyi Lab Releases Qwen-Audio-3.0-TTS, a Hosted Text-to-Speech Model in Flash and Plus Tiers Across 16 Languages MarkTechPost",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdWRIcGhMSncyNjljZlFoV2tKd0R4bHk4U2ZnQjFlSXpoNFNqZThOSm1BSjI2LWdiS0k5RzdnOFprVlFRVHkyZ09FX0NCUVhkR0dQVHVmQmhwUlNqeHplMUl0UGZObXM5ckJPTUVac1JMSjBCU0xWc0lKbkRDU1RNc3ZpeGdrbE05TVJoMGxUNWt2SDlSWWcyQzZVSTdHOThSZ2xhUXJoYThoME9tQm51b1ZTZklsS2RsZEhwMklSQVNZeUs0ZElHT0dqZEdiVnNqTEh0TmprX0MxN3JDXzUxZ2pvb1lxaWtSNGNTclFCVk1mRS1v0gH6AUFVX3lxTE5XbVRFaXFpd094ZHo2cWdqVjRNRjgxNl9lSnRWUFFrY2tCZzkwVk8xWFpsbzh0bmNPOGtHZWt5YjFiRXZQWjJuZjZrRnhnUmxBREVabFU3blBrZzRmdDlqbTYwYTFkNXQ0dzJNM2R1Z2FkcXRCcjNtUGdQQWJPZldfQjQ4eEpUZkZ4aTRrUTFRLWlnOEMwbGRrcHRoTXUtclpfamVpQnAzN3NFQURWaE1acWJsc3ZoaHU3Y3YyeUVIX2k3TmFfV1JlWjBtQnB6eVAxMG0tOUZyeHhEbE9TSGtDVUlrYVFERTVDbkpNVVZQOEl0N1A1LXowdHc?oc=5",
       "pubDate": 1784530800000,
       "vendor": "qwen",
       "category": "Release",
@@ -1516,10 +1432,10 @@
       "source": "Google News"
     },
     {
-      "id": "-1269452608",
+      "id": "345982035",
       "title": "Alibaba Shares Rise After Unveiling Upgraded Flagship AI Model",
       "titleZh": "阿里巴巴在推出升级版旗舰AI车型后股价上涨",
-      "summary": "Alibaba Shares Rise After Unveiling Upgraded Flagship AI Model Bloomberg",
+      "summary": "Alibaba Shares Rise After Unveiling Upgraded Flagship AI Model Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdWxzei1DVGFMSTdOMzhQdWVTXzg1SHdqNWlsaU81Tmphb1UxOUlvbVJFZXpBdTRlTXhQRTQzdWRlT1ZRWHNRTmV2alYyTlVVenljdEg4c1VZekJUUUhNZ0ZwQl9nMVZMVlgzWF9uWUJpdXpxaHNmRVJlZ19QdlJmTF80OFFPYnJ3enRENm5ka21oVVB2U3hDUjhqMVhYeUFwdHJJNw?oc=5",
       "pubDate": 1784444400000,
       "vendor": "google",
@@ -1551,27 +1467,6 @@
         "cq": 18,
         "kv": 4,
         "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-769769758",
-      "title": "China’s DeepSeek AI Prepping for IPO, as It Becomes the Top AI Model",
-      "titleZh": "China’s DeepSeek AI Prepping for IPO, as It Becomes the Top AI Model",
-      "summary": "China’s DeepSeek AI Prepping for IPO, as It Becomes the Top AI Model MarketWise",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMWdhUE9VbUM3NDVhQ1F5eFVNYkF0RjIxRnR3T3pPMlNxdXZUdGN4SnV0bVQxekRjVjlrMHVWdjRCUnNZdXJ3NnFFa3JiSU54MGlETTh0SEt6UjdDdFVReDNOZXFPOFRseXFDc29pVlNKZi1qV1BkNHhwckFyUFJBRg?oc=5",
-      "pubDate": 1784308180000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "high",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 22,
         "st": 12,
         "rc": 0,
         "cs": 1
@@ -1852,27 +1747,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "834291319",
-      "title": "EXCLUSIVE: China's DeepSeek developing its own AI chip, sources say",
-      "titleZh": "独家：消息人士称，中国的DeepSeek正在开发自己的人工智能芯片",
-      "summary": "EXCLUSIVE: China's DeepSeek developing its own AI chip, sources say Reuters",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSGRQQzRJX0VFTThJbC1JZnM2NUpNVHZQeEhxODdQejNBODNSLXpYMGdvSWxJMVhRSFBEOWplZy1NMU5qSnFxc3dpOEczN01EcVRQSk1mSXo3ejlMaUoxcks3LURaeGZ0Q3EyZ2dBQVN0QkRXNWg0YWpyOXJ2TjUtLVF4elZRU1VqdUVCdEhGNnFfYV9uYTdaT3V4MVFEZ2swRmlfRw?oc=5",
-      "pubDate": 1783580400000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1537759388",
       "title": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
       "titleZh": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
@@ -1913,27 +1787,6 @@
         "cs": 1
       },
       "source": "Google AI"
-    },
-    {
-      "id": "1103944332",
-      "title": "DeepSeek’s AI chip plans",
-      "titleZh": "DeepSeek’s AI chip plans",
-      "summary": "DeepSeek’s AI chip plans Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNXhkWWdodzA5SFgySnR4ckdTcWFLYmI0Yk9EZ3dYRWdia1NCZG1JQXB6aG1HamlQV2E0b182eTVFM1poSlViTkxNMkx3bVBONmZNRkpqZTJRRHlYY3g3VkExNlAzdkR3V05PY3hkZzRJQ0xnQkE5SHBkRzd6SVdUd21OSkZVcDhhQjhkei1hZw?oc=5",
-      "pubDate": 1783407600000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 12,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1490050698",
@@ -2060,69 +1913,6 @@
         "cs": 1
       },
       "source": "VentureBeat"
-    },
-    {
-      "id": "-1632583155",
-      "title": "Three reasons why DeepSeek’s new model matters",
-      "titleZh": "Three reasons why DeepSeek’s new model matters",
-      "summary": "Three reasons why DeepSeek’s new model matters MIT Technology Review",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSzNrdWNGN1EyM2pNR1pBUnhaT3hHYk1nZXhXMzVKUXB3T09za2dCTXZYMDRvdVpEUnZRUnRhYnRwdV9OTFpST3VQbTktdndyYklBWjk3M2RicUx2MnJUaWtGMkUzQS1qZjNXWmI2cFZ5bEVnUk00WHRJN3I5R3FfeWs2VdIBiAFBVV95cUxNTk4tcnJDa0tDV2s2cGlnZGdJZXBNUnFXajFhUjJpVjQ5NzA2UWJUaVZwTEZtd0k0d3dRdEl0MVNHS0R1MElBNHQxWjdzS2VnX0VFQVQyM1lqX05tOVNmU2djTEY2WTM3Ujk3bXBTZ2pmNE9KekVrWWVqa2hUTjhncEZ1bEw4MjJs?oc=5",
-      "pubDate": 1777014000000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1998661165",
-      "title": "China’s DeepSeek rolls out a long-anticipated update of its AI model",
-      "titleZh": "China’s DeepSeek rolls out a long-anticipated update of its AI model",
-      "summary": "China’s DeepSeek rolls out a long-anticipated update of its AI model AP News",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU2pHYXJUc25BSWltX01IcEhVQUlfMy1aVjhRcERjajZKOThMYkEyQTk4d1UxcjBuazFYNEt6R1ZDLXd2aFZXTEdvTDNYc1hMUkZha29VaGo5WHI1dXljN1Zid3AxdHNoa3hFMlVjMGhfaUdlZXUwTEpfRkdmTFMyMnV1TmFWNjBTLWdoRw?oc=5",
-      "pubDate": 1777014000000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-807368284",
-      "title": "China's DeepSeek releases preview of long-awaited V4 model as AI race intensifies",
-      "titleZh": "随着人工智能竞赛的加剧，中国的DeepSeek发布了期待已久的V4车型的预览",
-      "summary": "China's DeepSeek releases preview of long-awaited V4 model as AI race intensifies CNBC",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd3BGX1RVY2NmcVZoZnpqQ0hDTmdhem9nVE5wLWlKN2lIYzNuVjJtUjdqeU9oWWIxVjY4WG1BU0ctMm5VNURWZmhnU05IQTVnakRJUFJSeHI5dFB0WThCb1h1Q2Fnb3k5aUwyTUd6NEZ3bU1LRWs5OHZvTi1MQlJpVzNMbnRzcDd6UkZxdFlsX0FycjU5SVc4ONIBngFBVV95cUxQWWFDRGp5MGRYM2FYZ0lvN0Y5cTVOSm56QmZQeENWTzdUQzVXOVZIQjVZZy1OcnJLeEFzSklFVEpWdWV6d05POWktN2JIbkJzQnhSZDdtRm1VQzBEbjR3ZjNyQ0VjSkVpenFrWGM5MnFWdndlVTg5OGgwMUpJa0RONnF2em9hdGhycjNGdmpmZHlQSEdudTMyRm1mdjVQUQ?oc=5",
-      "pubDate": 1777014000000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1380991222",
