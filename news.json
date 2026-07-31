@@ -1,15 +1,36 @@
 {
-  "updated": "2026-07-31T15:37:18.977Z",
+  "updated": "2026-07-31T17:21:11.103Z",
   "count": 97,
   "sources": 10,
   "items": [
     {
-      "id": "-1817837145",
-      "title": "SpaceX won’t remove all of xAI’s unpermitted turbines for another year",
-      "titleZh": "SpaceX won’t remove all of xAI’s unpermitted turbines for another year",
-      "summary": "SpaceX is building a new power plant for xAI's Colossus data centers, but it won't remove existing, unpermitted turbines for many more months.",
-      "link": "https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year/",
-      "pubDate": 1785510977000,
+      "id": "-742375523",
+      "title": "Disrupting a Criminal Scam Operation",
+      "titleZh": "扰乱犯罪诈骗行动",
+      "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "pubDate": 1785801600000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 15,
+        "st": 15,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "-9531442",
+      "title": "Snapchat no longer rewards fully AI-generated Spotlight content",
+      "titleZh": "Snapchat不再奖励完全由人工智能生成的Spotlight内容",
+      "summary": "Snapchat has adjusted its recommendation systems to ensure that only videos created by real people are eligible for Spotlight recommendations, taking a stance against AI slop.",
+      "link": "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/",
+      "pubDate": 1785516548000,
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
@@ -25,6 +46,48 @@
       "source": "TechCrunch"
     },
     {
+      "id": "-317058436",
+      "title": "Siri AI could come with a paywall for power users",
+      "titleZh": "Siri AI可以为高级用户提供付费墙",
+      "summary": "Apple CEO Tim Cook envisions users being able to buy more compute for Siri AI via Apple's existing iCloud+ subscriptions.",
+      "link": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/",
+      "pubDate": 1785514098000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1817837145",
+      "title": "SpaceX won’t remove all of xAI’s unpermitted turbines for another year",
+      "titleZh": "SpaceX won’t remove all of xAI’s unpermitted turbines for another year",
+      "summary": "SpaceX is building a new power plant for xAI's Colossus data centers, but it won't remove existing, unpermitted turbines for many more months.",
+      "link": "https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year/",
+      "pubDate": 1785510977000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
       "id": "663831922",
       "title": "Advancing responsible AI across Europe",
       "titleZh": "在整个欧洲推进负责任的人工智能",
@@ -34,13 +97,13 @@
       "vendor": "openai",
       "category": "Safety",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 1,
         "cw": 10,
         "st": 15,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "OpenAI"
@@ -55,13 +118,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 12,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "OpenAI"
@@ -76,13 +139,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 1,
         "cw": 22,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -343,7 +406,7 @@
       "id": "-1016794295",
       "title": "Anthropic says its own AI models breached three companies during security tests",
       "titleZh": "Anthropic表示，其自己的人工智能模型在安全测试期间入侵了三家公司",
-      "summary": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents",
+      "summary": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents.",
       "link": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
       "pubDate": 1785460014000,
       "vendor": "techcrunch",
@@ -459,48 +522,6 @@
         "cq": 14,
         "kv": 0,
         "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1040482821",
-      "title": "Google says it fixed more Chrome bugs in June than over the past two years, thanks to AI",
-      "titleZh": "谷歌表示，得益于人工智能，它在6月份修复了比过去两年更多的Chrome错误",
-      "summary": "As experts have warned for the last two years, some companies — like Microsoft and now Google — are finding and patching an exponential number of bugs in their products, thanks to the use of LLMs and …",
-      "link": "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/",
-      "pubDate": 1785437878000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1097197788",
-      "title": "LinkedIn adds a button to report AI-generated ‘slop’",
-      "titleZh": "LinkedIn adds a button to report AI-generated ‘slop’",
-      "summary": "LinkedIn is introducing new ways to reduce low-quality AI-generated posts, including a “seems like AI slop” reporting option. It's also replacing its own AI writing feature with a proofreading tool.",
-      "link": "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/",
-      "pubDate": 1785434721000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 25,
         "st": 8,
         "rc": 3,
         "cs": 1
@@ -664,13 +685,13 @@
       "vendor": "deepmind",
       "category": "Release",
       "impact": "high",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 25,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "DeepMind"
@@ -1094,27 +1115,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-941083246",
-      "title": "How AI is expanding what people do at work",
-      "titleZh": "人工智能如何扩展人们在工作中的工作",
-      "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
-      "link": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "pubDate": 1785123000000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
     },
     {
       "id": "301974150",
