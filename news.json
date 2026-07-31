@@ -1,8 +1,29 @@
 {
-  "updated": "2026-07-31T13:13:20.272Z",
-  "count": 107,
-  "sources": 11,
+  "updated": "2026-07-31T15:37:18.977Z",
+  "count": 97,
+  "sources": 10,
   "items": [
+    {
+      "id": "-1817837145",
+      "title": "SpaceX won’t remove all of xAI’s unpermitted turbines for another year",
+      "titleZh": "SpaceX won’t remove all of xAI’s unpermitted turbines for another year",
+      "summary": "SpaceX is building a new power plant for xAI's Colossus data centers, but it won't remove existing, unpermitted turbines for many more months.",
+      "link": "https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year/",
+      "pubDate": 1785510977000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "663831922",
       "title": "Advancing responsible AI across Europe",
@@ -25,43 +46,64 @@
       "source": "OpenAI"
     },
     {
-      "id": "-2115458231",
-      "title": "Alibaba’s Qwen AI model in beta testing in Tesla cars in China",
-      "titleZh": "Alibaba’s Qwen AI model in beta testing in Tesla cars in China",
-      "summary": "Alibaba’s Qwen AI model in beta testing in Tesla cars in China Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaUp1cmtOektjX3FaTUtXeXFNVkw1dG9ZcVZHbmU0YjMtLU5EN25VUHBSV2hDLVZVV18wdzgwNkRLMFZxRlR5a193aGxzRmFyV2Y0ZU1ETjZPMFp1cW5BbjdqbGhwNHFBNkJsa1JEdkZoTG42d3VLNWxHMy03YnB6Y3hVWk0yZTJJVnRIamVtSkRva2VsVDV3S19hU2FPX3F3bnAtVFJaQU5MRW5vRjhkSmFqcmh0V20xV2c?oc=5",
-      "pubDate": 1785489818000,
-      "vendor": "qwen",
-      "category": "Research",
+      "id": "-1495399880",
+      "title": "Building abundant intelligence",
+      "titleZh": "构建丰富的智力",
+      "summary": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
+      "link": "https://openai.com/index/building-abundant-intelligence",
+      "pubDate": 1785510000000,
+      "vendor": "openai",
+      "category": "Product",
       "impact": "med",
-      "score": 59,
+      "score": 48,
       "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 4,
+        "cq": 12,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 5,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "OpenAI"
     },
     {
-      "id": "1278394482",
+      "id": "-1365363987",
+      "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
+      "titleZh": "Smallest.ai筹集了1300万$ ，以构建听起来真正人性化的超高速语音人工智能",
+      "summary": "The startup is building voice models designed to make AI phone calls pass the Turing test.",
+      "link": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
+      "pubDate": 1785509231000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 1,
+        "cw": 22,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-137288481",
       "title": "Alibaba’s Qwen AI model in beta testing in Tesla cars in China By Investing.com",
       "titleZh": "Alibaba’s Qwen AI model in beta testing in Tesla cars in China By Investing.com",
-      "summary": "Alibaba’s Qwen AI model in beta testing in Tesla cars in China By Investing.com Investing.com Nigeria",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNak9aY1drZXFHdUVPZ0hLVHR2M3VPZGxjdEJZV0JzNW5hVkhwTXBNOG94cDdJSmFtdEtqTG9rLUJMNjdlRWUyeDZSTnJtbWlWWjV6MDdwcllWX2RaRm0tekJHQ2FCU25kcUtsdlBjYWk0Zk95NmVPLXdXc0szMnhPdVRMMGRKcndRV1VMVXZfWjhUU0hBQzg0WHV3ZVQ5VEJaOWdIQ1dEZGJlbVd1aW9qYlNaT0lkTVpmTlVwa2VnZw?oc=5",
-      "pubDate": 1785488746000,
+      "summary": "Alibaba’s Qwen AI model in beta testing in Tesla cars in China By Investing.com Investing.com Canada",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTHVRVUxHbURVdVMzM19WM0lJVlJMdFlBU3ZfNGp4NHd3dVY3OTdyWGpqMUE0VkFNNy03M243cGNoYTI1dWFfdDB1UjMxRWYwenNaTDVYYnpGd3UxSHNxd3JyUUtIdk5IeUFqYm9QTUtqeUNsWVNjNTRhRkhhMTNpdVp4cXpkYTAtMmY4Q3ZLbXFVZFpxZWRvM1E2cUVzX1l0azdobW83SC03SmNDX2t3RzZQTFZfNXFRYzUwNE5lSQ?oc=5",
+      "pubDate": 1785490187000,
       "vendor": "qwen",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -466,48 +508,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "372154048",
-      "title": "Okta buys AI security startup Permiso — source says for about $200M",
-      "titleZh": "Okta buys AI security startup Permiso — source says for about $200M",
-      "summary": "The deal gives Okta identity threat detection capabilities as enterprises seek to secure AI agents and other non-human identities across cloud environments.",
-      "link": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/",
-      "pubDate": 1785427782000,
-      "vendor": "techcrunch",
-      "category": "Agent",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 12,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-205662704",
-      "title": "Meta says AI is making it easier to build new apps — and more are coming",
-      "titleZh": "Meta says AI is making it easier to build new apps — and more are coming",
-      "summary": "Meta says AI is making it dramatically easier to build and launch new consumer apps, with CEO Mark Zuckerberg telling investors the company has more new consumer products on the way.",
-      "link": "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/",
-      "pubDate": 1785426076000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "high",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "1251376815",
       "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
       "titleZh": "GPU管理：为什么空闲的GPU是新的停飞飞机",
@@ -517,13 +517,13 @@
       "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 15,
         "st": 14,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -538,13 +538,13 @@
       "vendor": "deepmind",
       "category": "Product",
       "impact": "med",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "DeepMind"
@@ -613,6 +613,27 @@
       "source": "Google News"
     },
     {
+      "id": "-1411755220",
+      "title": "Alibaba's Qwen Audio 3.0 tops OpenAI on new speech benchmark score",
+      "titleZh": "阿里巴巴的Qwen Audio 3.0在新的语音基准分数上超过OpenAI",
+      "summary": "Alibaba's Qwen Audio 3.0 tops OpenAI on new speech benchmark score BetaNews",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBPSGh6ejItSmhUWGpxX3BldmxTUmIwYmRad2tranBZdzJ1YThkVk9UbWROV0VkaE9ySC13enBoSnV1eC1hYWRtNzlhZ09yXzdSOUxXejRWS0hDNi1JcUlPd29VUXNHYXdpTUpkR0RFY3VvN21pVi15Zw?oc=5",
+      "pubDate": 1785393331000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 3,
+        "cw": 22,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1175407644",
       "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
       "titleZh": "Avatarin如何使用GPT-Realtime构建全天候零售代理",
@@ -664,13 +685,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "high",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -1117,27 +1138,6 @@
       "source": "HuggingFace"
     },
     {
-      "id": "1120103850",
-      "title": "Qwen-VLA: Alibaba’s Unified Vision-Language-Action Model Brings Versatile Robot Control to a New Level",
-      "titleZh": "Qwen-VLA: Alibaba’s Unified Vision-Language-Action Model Brings Versatile Robot Control to a New Level",
-      "summary": "Qwen-VLA: Alibaba’s Unified Vision-Language-Action Model Brings Versatile Robot Control to a New Level quasa.io",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOVhyV3Mtb1RHNzR0azhuUWx2cTdsQjNNRlEzcG53Tk13aG1ITnVqSkVHRVZCdWlxODBjcV9RRjRvVHVKSVY5andnVmp1am83cHRHcVVZMVl5QmJ1TGhBM1p5YXhSd0FNNkxzcl94TEZpaWhhZGNjZk1RdnhXNVdJTXpiVF9iNFFGdUkxQkdiVXVOc0R2ZFF1QVRxc19kb3V6cjQxelF6cHEzOFVsaVRyeUZFcTNpRXZzU1JlOGRTZnFpQQ?oc=5",
-      "pubDate": 1785110039000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1965105272",
       "title": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
       "titleZh": "在人工智能峰会上，韩国与NVIDIA及其合作伙伴勾勒出人工智能的未来",
@@ -1157,27 +1157,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "1719240719",
-      "title": "Launching Health in ChatGPT",
-      "titleZh": "在ChatGPT中启动Health",
-      "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
-      "link": "https://openai.com/index/health-in-chatgpt",
-      "pubDate": 1784764800000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "high",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "OpenAI"
     },
     {
       "id": "1471838759",
@@ -1468,6 +1447,27 @@
         "kv": 2,
         "cw": 25,
         "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-668586889",
+      "title": "Alibaba previews Qwen3.8, claims it’s second only to Claude Fable 5",
+      "titleZh": "Alibaba previews Qwen3.8, claims it’s second only to Claude Fable 5",
+      "summary": "Alibaba previews Qwen3.8, claims it’s second only to Claude Fable 5 SiliconANGLE",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTTF4a04tTUx3S0dzcUdqendHSDRGbEh4cWpVN0RMSHF2NkNTVW9kXzl2WUJTVmhLZWNqWFBfRkpuMzhDSk9ITXhhYS1rYkgwSmlFdWFUTDNUdlA5Ml9SRXpGallKRm9aN3E3RWN6eDBYMHoyT1I0ZUZHcGZiNXhVMzdxWW5XUmU2ZXNCS2pYbG5xOHBt?oc=5",
+      "pubDate": 1784444400000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "high",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 15,
+        "st": 12,
         "rc": 0,
         "cs": 1
       },
@@ -2039,216 +2039,6 @@
         "cs": 1
       },
       "source": "VentureBeat"
-    },
-    {
-      "id": "251294355",
-      "title": "Technology, recovery, and responsibility",
-      "titleZh": "技术、恢复和责任",
-      "summary": "By Sriram Rajamani, Managing Director, Microsoft Research India We started 2021 with the hope that the COVID-19 vaccines will immunize enough of the world’s population to give herd immunity in the com…",
-      "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
-      "pubDate": 1615961906000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 2,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "1792312368",
-      "title": "Directorate General of Training, Ministry of Skill Development and Entrepreneurship, partners with Microsoft and NASSCOM Foundation to empower students with next generation digital skills",
-      "titleZh": "技能发展和创业部培训总局与微软和NASSCOM基金会合作，为学生提供下一代数字技能",
-      "summary": "The blended curriculum will impact 1.2 lakh students across 3000 Industrial Training Institutes (ITI) in India New Delhi, January 7, 2021: With a vision to empower the next generation of learners, the…",
-      "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
-      "pubDate": 1610002951000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 3,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "58206720",
-      "title": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
-      "titleZh": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
-      "summary": "Multilingual omni-channel service reduces wait time for queries, improves customer satisfaction by 70% New Delhi, January 5, 2021 – Powered by Microsoft Azure, Indian Railway Catering and Tourism Corp…",
-      "link": "https://news.microsoft.com/en-in/microsoft-azure-powered-corover-developed-irctc-ai-chatbot-askdisha/",
-      "pubDate": 1609824612000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-1890804461",
-      "title": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
-      "titleZh": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
-      "summary": "• The initiative aims to skill 1 million students in AI by 2021 • The AI Classroom Series will deliver Microsoft’s AI, machine learning and data science expertise to undergraduate students at no cost …",
-      "link": "https://news.microsoft.com/en-in/nasscom-futureskills-microsoft-launch-ai-classroom-series-skill-students/",
-      "pubDate": 1599716180000,
-      "vendor": "microsoft",
-      "category": "Release",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 4,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-1460121599",
-      "title": "Industry and research – better together",
-      "titleZh": "Industry and research – better together",
-      "summary": "By Sriram Rajamani, Distinguished Scientist and Managing Director, Microsoft Research India at Microsoft Manik Varma, researcher in the Microsoft Research (MSR) India lab was awarded the prestigious S…",
-      "link": "https://news.microsoft.com/en-in/industry-and-research-better-together-sriram-rajamani/",
-      "pubDate": 1598613057000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 4,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-1887675878",
-      "title": "NSDC and Microsoft collaborate to empower Indian youth with digital skills",
-      "titleZh": "NSDC和微软合作，为印度青年提供数字技能",
-      "summary": "The initiative aims at skilling over 1 lakh youth in the next 12 months New Delhi, July 08, 2020: With a vision to transform India into a skilled nation, the National Skill Development Corporation (NS…",
-      "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
-      "pubDate": 1594186160000,
-      "vendor": "microsoft",
-      "category": "Release",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 4,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "652542494",
-      "title": "Empowering developers to achieve more at the Microsoft Developer Conference",
-      "titleZh": "帮助开发人员在Microsoft开发者大会上取得更大成就",
-      "summary": "New Delhi, June 18, 2020: Underlining the critical role of developers in innovations that will power economic recovery, the Microsoft Developer Conference brought together developers and tech professi…",
-      "link": "https://news.microsoft.com/en-in/microsoft-developer-conference/",
-      "pubDate": 1592461746000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 2,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-150806068",
-      "title": "Microsoft announces program to accelerate growth of agritech startups in India",
-      "titleZh": "微软宣布加速印度农业科技创业公司发展的计划",
-      "summary": "New Delhi, June 03, 2020: Microsoft announced the launch of a program for agritech startups in India that are committed to driving transformation in agriculture. The Microsoft for Agritech Startups pr…",
-      "link": "https://news.microsoft.com/en-in/microsoft-agritech-startups-program-india-launch/",
-      "pubDate": 1591162175000,
-      "vendor": "microsoft",
-      "category": "Release",
-      "impact": "high",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 5,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "297070690",
-      "title": "Microsoft empowers startups in India to achieve more",
-      "titleZh": "微软助力印度初创企业实现更多",
-      "summary": "Five startups showcase their unique propositions at Future Decoded Tech Summit Bengaluru, February 25, 2020: Startups are an indisputable innovation engine, and Microsoft is partnering with startups a…",
-      "link": "https://news.microsoft.com/en-in/microsoft-empowers-startups-in-india-to-achieve-more/",
-      "pubDate": 1582633175000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 4,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "1830923333",
-      "title": "Myntra accelerates its digital transformation journey with Microsoft Cloud",
-      "titleZh": "Myntra借助微软云加速其数字化转型之旅",
-      "summary": "reimagines online shopping experience for customers Azure powers biggest-ever End of Reason Sale New Delhi, February 19, 2020: Myntra, India’s leading destination for fashion and lifestyle, has partne…",
-      "link": "https://news.microsoft.com/en-in/myntra-digital-transformation-microsoft-cloud/",
-      "pubDate": 1582092103000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 0,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
     }
   ]
 }
