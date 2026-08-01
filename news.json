@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-01T01:55:02.321Z",
-  "count": 117,
-  "sources": 12,
+  "updated": "2026-08-01T05:20:26.040Z",
+  "count": 107,
+  "sources": 11,
   "items": [
     {
       "id": "-1213350492",
@@ -13,13 +13,13 @@
       "vendor": "kimi",
       "category": "Research",
       "impact": "high",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -34,13 +34,13 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 45,
+      "score": 44,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 12,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,13 +55,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -485,216 +485,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "1740420305",
-      "title": "Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models",
-      "titleZh": "探究推理性能的起源： RL与SFT微调模型中数学问题解决的表示质量",
-      "summary": "arXiv:2607.26119v1 Announce Type: new Abstract: Large reasoning models trained via reinforcement learning (RL) have been increasingly shown to outperform their supervised fine-tuned (SFT) counterparts…",
-      "link": "https://arxiv.org/abs/2607.26119",
-      "pubDate": 1785470400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1734464349",
-      "title": "Even More Deception: Objective Misalignment in Mixed-Motive LLM Multi-Agent Systems",
-      "titleZh": "更多的欺骗：混合动态LLM多Agent系统中的目标错位",
-      "summary": "arXiv:2607.26120v1 Announce Type: new Abstract: Large Language Models (LLMs)-powered multi-agent systems are increasingly deployed in mixed-motive environments, where agents operate under asymmetric i…",
-      "link": "https://arxiv.org/abs/2607.26120",
-      "pubDate": 1785470400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1141116175",
-      "title": "ClinLens: Towards Long-Horizon Coding Agents for Longitudinal Multimodal Clinical Data Science",
-      "titleZh": "ClinLens ：面向纵向多模式临床数据科学的长视野编码剂",
-      "summary": "arXiv:2607.26155v1 Announce Type: new Abstract: Clinical data-science agents must transform heterogeneous longitudinal records into auditable analyses, yet existing benchmarks largely isolate medical …",
-      "link": "https://arxiv.org/abs/2607.26155",
-      "pubDate": 1785470400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 67,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 8,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1281584692",
-      "title": "When benchmark inferences do not compose: Projectibility in AI evaluation",
-      "titleZh": "当基准推断不成立时：人工智能评估中的可预测性",
-      "summary": "arXiv:2607.26159v1 Announce Type: new Abstract: An AI benchmark result rarely reaches a consequential claim in one step. Evaluators generalize it to further cases, interpret it as evidence of capabili…",
-      "link": "https://arxiv.org/abs/2607.26159",
-      "pubDate": 1785470400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-342266553",
-      "title": "GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning",
-      "titleZh": "GuideSkill ：不断发展的可执行法学硕士代理技能，以指导原则为基础的临床推理",
-      "summary": "arXiv:2607.26160v1 Announce Type: new Abstract: Clinical practice guidelines (CPGs) encode diagnostic criteria, but LLM systems typically retrieve guideline text or absorb it through training rather t…",
-      "link": "https://arxiv.org/abs/2607.26160",
-      "pubDate": 1785470400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 8,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-99236105",
-      "title": "GoGoTB: Agentic RTL Verification with Specification-Grounded Coverage Closure",
-      "titleZh": "GoGoTB ：带有规格接地覆盖结束的代理RTL验证",
-      "summary": "arXiv:2607.26181v1 Announce Type: new Abstract: Functional verification dominates integrated circuit (IC) front-end engineering effort, and a single missed bug that escapes to silicon can trigger a co…",
-      "link": "https://arxiv.org/abs/2607.26181",
-      "pubDate": 1785470400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1659268709",
-      "title": "Position: Evaluation Scores Are Perishable Knowledge Claims",
-      "titleZh": "职位：评估分数是易腐烂的知识声明",
-      "summary": "arXiv:2607.26191v1 Announce Type: new Abstract: Evaluation methodologies for language models increasingly combine multiple signals, from automated metrics and LLM-as-judge ratings to human assessments…",
-      "link": "https://arxiv.org/abs/2607.26191",
-      "pubDate": 1785470400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "108045434",
-      "title": "TraceCoder: Explainable and Auditable Code Generation with Position-Key Snippet Versioning",
-      "titleZh": "TraceCoder ：使用Position-Key代码段版本控制生成可解释和可审计的代码",
-      "summary": "arXiv:2607.26307v1 Announce Type: new Abstract: Contemporary LLM-based coding agents produce code as black-box outputs: the rationale behind each line is hidden, the evolution of the code through benc…",
-      "link": "https://arxiv.org/abs/2607.26307",
-      "pubDate": 1785470400000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 6,
-        "cw": 15,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1919671429",
-      "title": "Exploring Structures in Physics Problems: Can AI Agents Discover Statistical Mechanical Mappings?",
-      "titleZh": "探索物理问题中的结构：人工智能代理能否发现统计机械映射？",
-      "summary": "arXiv:2607.26367v1 Announce Type: new Abstract: An important skill in theoretical physics is to recognize when a new problem can be transformed into a known model. We study this skill as an AI-agent t…",
-      "link": "https://arxiv.org/abs/2607.26367",
-      "pubDate": 1785470400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1139395111",
-      "title": "CaM-Wolf: Causal-Aware Multimodal Agents for Social Deduction Games",
-      "titleZh": "CaM-Wolf ：用于社交演绎游戏的因果感知多式联运代理",
-      "summary": "arXiv:2607.26393v1 Announce Type: new Abstract: Social deduction games (SDGs) such as Werewolf have become challenging testbeds for AI agents. These games require complex social skills such as reasoni…",
-      "link": "https://arxiv.org/abs/2607.26393",
-      "pubDate": 1785470400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
     },
     {
       "id": "-1016794295",
@@ -1432,27 +1222,6 @@
       "source": "Google AI"
     },
     {
-      "id": "570928501",
-      "title": "Alibaba Qwen 3.8 Max Shows China Closing in on U.S. Models",
-      "titleZh": "阿里巴巴Qwen 3.8 Max显示中国正在接近美国车型",
-      "summary": "Alibaba Qwen 3.8 Max Shows China Closing in on U.S. Models AI Business",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaV8yNTk4bTdGa3NMeHgwYWF0Sk5TdFlQcU9Sam1QNXhuRzRoVlRpS2dGV05NMGxLeWY1djVUM184YzdTdGRyTGd6OTlhZkVTSHZhcWF5RWVwMzhEWkZyUHNQOXlKbEtadDdTalF1U3JpeUZyMnBEWGtJVHpoZTZQM18yYWZCY00yNlJIMW1uN0tSY3gzSGc?oc=5",
-      "pubDate": 1784650652000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1306097999",
       "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
       "titleZh": "隆重推出Gemini 3.6 Flash、3.5 Flash-Lite和3.5 Flash Cyber",
@@ -1621,10 +1390,10 @@
       "source": "Google News"
     },
     {
-      "id": "-1269452608",
+      "id": "345982035",
       "title": "Alibaba Shares Rise After Unveiling Upgraded Flagship AI Model",
       "titleZh": "阿里巴巴在推出升级版旗舰AI车型后股价上涨",
-      "summary": "Alibaba Shares Rise After Unveiling Upgraded Flagship AI Model Bloomberg",
+      "summary": "Alibaba Shares Rise After Unveiling Upgraded Flagship AI Model Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdWxzei1DVGFMSTdOMzhQdWVTXzg1SHdqNWlsaU81Tmphb1UxOUlvbVJFZXpBdTRlTXhQRTQzdWRlT1ZRWHNRTmV2alYyTlVVenljdEg4c1VZekJUUUhNZ0ZwQl9nMVZMVlgzWF9uWUJpdXpxaHNmRVJlZ19QdlJmTF80OFFPYnJ3enRENm5ka21oVVB2U3hDUjhqMVhYeUFwdHJJNw?oc=5",
       "pubDate": 1784444400000,
       "vendor": "google",
@@ -1636,6 +1405,27 @@
         "kv": 2,
         "cw": 25,
         "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-650546028",
+      "title": "Alibaba Previews Qwen3.8-Max, a 2.4 Trillion-Parameter Multimodal Model, Days After Moonshot’s Kimi K3 Open-Weight Launch",
+      "titleZh": "Alibaba Previews Qwen3.8-Max, a 2.4 Trillion-Parameter Multimodal Model, Days After Moonshot’s Kimi K3 Open-Weight Launch",
+      "summary": "Alibaba Previews Qwen3.8-Max, a 2.4 Trillion-Parameter Multimodal Model, Days After Moonshot’s Kimi K3 Open-Weight Launch MarkTechPost",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNM3VQYkQ0bHcwZGQyVnJCSUhxNXNOMFZrcjdmMnE0RmZUQjlsREdFdklJdkhwdldPTkJNYW9mWUp3RExlX3pSSEtRRXZHWnlXcE8xYWQzTUpOYkNOWkRmQnZHRDhwTGpDSFpmWlQ3TWx3Z05FY3FKS3FrdWNCSEVLa2R3bHlFTFYzX2g4SnNJSXh5LVJ4R1h2T250ek1PRkJ4OTBZNjVTVU9QTW1JTm1DYWZ2WUZFOS1wamVLb3FhWWpSa3B4cWdtRmlVbTB1bWd0Vk5Samh3QkYwWHlmNVhKYXJrcll6Vng5UGRmRm11NWPSAfYBQVVfeXFMTXd5V0hyd094dzljWDdQZ0lYVXR3eG5HUFVjWmJEMnpLTGpvV0tTZFNhSmM2ZjFia19hcTUtcGFKdGYzbDlteXd4ejhuWUpZWU1fYWswWVBsa0RHZWRSTUlSTnByNVdMbmdHWkRYU2ZJalZoMlR1cmlNeGNhU1oySkVvZDZmajdqYW5ZM0I2VndxYTFtSGplQUMxSURQNENESFBIWGp3VVRrWEhkQzVTTXA3QnpKcVo3S3hBTUk4OWNmT1VUYjVuVlpmRFg1ZEtuTV9ZTktIZXFrSXFheDUwNVRlcHJZZFQtcXNQUENBWEE4WlVORjZn?oc=5",
+      "pubDate": 1784444400000,
+      "vendor": "kimi",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 7,
+        "cw": 25,
+        "st": 12,
         "rc": 0,
         "cs": 1
       },
@@ -1831,10 +1621,10 @@
       "source": "Google News"
     },
     {
-      "id": "644926284",
+      "id": "-1677150415",
       "title": "Apple Intelligence approved in China with Alibaba Qwen AI model",
       "titleZh": "Apple Intelligence通过阿里巴巴Qwen AI模型在中国获得批准",
-      "summary": "Apple Intelligence approved in China with Alibaba Qwen AI model finance.yahoo.com",
+      "summary": "Apple Intelligence approved in China with Alibaba Qwen AI model Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQN2NKenRmNW5EdTBxMVg4RVdOOHRUR1VCMDN4RHkwUUFxZmphWGRZLV9Rd2hMR3VrcWNwZFZWMGw2MTM3S2kxTGJJWWRCbGpCZmZmMUFNOU1Dc2VnNnRuOU93RHNLcXhHYVMyMFZGX1VISGxiNlQwMmctczUzWlFUM1E0OVZOMUxSV1hRUjhsMGIxcjlyb1R1SVlacFg5QjhtMExhUGhETnA?oc=5",
       "pubDate": 1784098800000,
       "vendor": "qwen",
