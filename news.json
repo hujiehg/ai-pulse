@@ -1,8 +1,29 @@
 {
-  "updated": "2026-08-01T05:20:26.040Z",
+  "updated": "2026-08-01T07:42:07.671Z",
   "count": 107,
   "sources": 11,
   "items": [
+    {
+      "id": "156404667",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "titleZh": "数学和理论计算机科学的十大进展",
+      "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+      "link": "https://openai.com/index/ten-advances-in-mathematics",
+      "pubDate": 1785542400000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
     {
       "id": "-1213350492",
       "title": "US lawmakers investigate DoorDash’s use of Moonshot AI’s Kimi K2.6 model",
@@ -340,27 +361,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "-596922497",
-      "title": "Moonshot’s Kimi Built on 20,000 Nvidia Chip Cluster From Alibaba",
-      "titleZh": "Moonshot’s Kimi Built on 20,000 Nvidia Chip Cluster From Alibaba",
-      "summary": "Moonshot’s Kimi Built on 20,000 Nvidia Chip Cluster From Alibaba Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ282X01oVUs5N1JNVE1keDhwLUsyNk85a1VBVEhROXlzU1pQSVVaZDJiWHhSVTFWZFdjMnhUdHpDZm1UU3lKVU9LSjJLaXJNMEUyVHoyMWhhSlZoZlpPTUtEZjFiejQ5QTVHR3ZhSGF2ZzhfZ0xIWTZJbmlpUVdXUlU2bHFGT0hUazllb1RtbFh6c3IyREl4aWl0MmctNERxY1FuQ1dSRHhjSExnSW02NC0wVXFDZw?oc=5",
-      "pubDate": 1785506529000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-169429154",
       "title": "AI labs want to pump the brakes, but Amazon and SpaceX are still blasting off",
       "titleZh": "人工智能实验室想要踩刹车，但亚马逊和SpaceX仍在爆发",
@@ -380,6 +380,27 @@
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "-1598876790",
+      "title": "Moonshot’s Kimi Uses 20,000 Nvidia Chip Cluster From Alibaba",
+      "titleZh": "Moonshot’s Kimi Uses 20,000 Nvidia Chip Cluster From Alibaba",
+      "summary": "Moonshot’s Kimi Uses 20,000 Nvidia Chip Cluster From Alibaba Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ282X01oVUs5N1JNVE1keDhwLUsyNk85a1VBVEhROXlzU1pQSVVaZDJiWHhSVTFWZFdjMnhUdHpDZm1UU3lKVU9LSjJLaXJNMEUyVHoyMWhhSlZoZlpPTUtEZjFiejQ5QTVHR3ZhSGF2ZzhfZ0xIWTZJbmlpUVdXUlU2bHFGT0hUazllb1RtbFh6c3IyREl4aWl0MmctNERxY1FuQ1dSRHhjSExnSW02NC0wVXFDZw?oc=5",
+      "pubDate": 1785500363000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "1433522674",
@@ -445,27 +466,6 @@
       "source": "Google News"
     },
     {
-      "id": "1564159793",
-      "title": "DeepSeek Unveils Public Beta API for Flagship AI Model",
-      "titleZh": "DeepSeek推出面向旗舰AI模型的公共测试版API",
-      "summary": "DeepSeek Unveils Public Beta API for Flagship AI Model Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR1pZTHVrcm9PbnNRSENDdzlxTlJQVW9OMXE4d1pwYzhGNXJrODZyN0hmRkxKR2ktMjAyU1BDZ0JKZkRPbEZKcVJxRzZXd3pSQUdtMkIzZUlSY2ZXMDE1ZS15bG1VYmNRS190aVViVnJjTFM1X1dTZy1XM2QyMG1ka3htc1dYaTFXa0c5OUZrSmRzZGM5VXpBRFFmZXc1aC1QMEZocjVjVVc?oc=5",
-      "pubDate": 1785481455000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "med",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "284275636",
       "title": "Univé builds an AI-ready workforce",
       "titleZh": "Univé builds an AI-ready workforce",
@@ -475,16 +475,37 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "1564159793",
+      "title": "DeepSeek Unveils Public Beta API for Flagship AI Model",
+      "titleZh": "DeepSeek推出面向旗舰AI模型的公共测试版API",
+      "summary": "DeepSeek Unveils Public Beta API for Flagship AI Model Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR1pZTHVrcm9PbnNRSENDdzlxTlJQVW9OMXE4d1pwYzhGNXJrODZyN0hmRkxKR2ktMjAyU1BDZ0JKZkRPbEZKcVJxRzZXd3pSQUdtMkIzZUlSY2ZXMDE1ZS15bG1VYmNRS190aVViVnJjTFM1X1dTZy1XM2QyMG1ka3htc1dYaTFXa0c5OUZrSmRzZGM5VXpBRFFmZXc1aC1QMEZocjVjVVc?oc=5",
+      "pubDate": 1785480600000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1016794295",
@@ -634,27 +655,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "-1397028935",
-      "title": "What Chinese AI model Kimi’s success says about the next phase of US-China AI race",
-      "titleZh": "What Chinese AI model Kimi’s success says about the next phase of US-China AI race",
-      "summary": "What Chinese AI model Kimi’s success says about the next phase of US-China AI race The Indian Express",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOai1pRzRqMi05b2hJWHNmZVhUcXNqc3huR2hfVHkxbEU1ZzBHUUpEMkg3Ymc2SGxIeUxYa1hkQWpBYURYeTY0YWVLMGFEREc0aF9Peld6MV9FQ3lCNWw4Vm9GczJMZFZNcjhHMEJkVHo3aGRUdlRkNFdfLW5BX0k4RWNBTWw2azBHVzZxR2lLQWlaeXZRTnIyaFV2ZEc4RXNnWWNteXVjcHcxRm9Ha0RQZG1UZXJfV3FsZHfSAcABQVVfeXFMTmlIUjhkSEthM0dMVFZYbUlicHR1Z3hYQVEzZUo3Q2F3eTZxbVlad2ZQMU5IVG1MeU03clVibGZsMW01MUlWMFN5WWhkQjI2RW04cTIwTnJvd0JPNnZ6a2stVlpwWnFYazltUTllUWcxVjRtM05JZmFaYWw0NURqSWIxM3ZJb3dEOUlIMGJkT3F5OHRnWXJjQkFaYzJ6eDE5NzZGLVlTN3VGdG84RlFTVHNJQmZrdlNrWjFEYWJYWmYw?oc=5",
-      "pubDate": 1785403500000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 22,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1411755220",
       "title": "Alibaba's Qwen Audio 3.0 tops OpenAI on new speech benchmark score",
       "titleZh": "阿里巴巴的Qwen Audio 3.0在新的语音基准分数上超过OpenAI",
@@ -664,13 +664,13 @@
       "vendor": "qwen",
       "category": "Research",
       "impact": "med",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 3,
         "cw": 22,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -844,6 +844,27 @@
       "source": "Google News"
     },
     {
+      "id": "535702914",
+      "title": "I gave Claude Opus 5 and Kimi K3 15 impossible prompts — the winner surprised me",
+      "titleZh": "I gave Claude Opus 5 and Kimi K3 15 impossible prompts — the winner surprised me",
+      "summary": "I gave Claude Opus 5 and Kimi K3 15 impossible prompts — the winner surprised me tomsguide.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT0E5R0ZMVzNCMWxQVHo0QlZPQVc5RU9sRThQQ3RrV29jYm5VWnpUTGRIZFZHeG1ueUI0ZFFLc2d5RW5JajhvMG1UQVdpZjJieU9LeTJ4X1g1SHBDV3d0eXd5RF9ub1hZU1V2MlVtTi1vaFpYOVZOVXpTZzdxV2RNZEVrYUpFWGQzX0ZTam4xLTA5czlFMHIzWnJuLW5IOWxBdjVyc2JNVE96Wlk?oc=5",
+      "pubDate": 1785301200000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-343473939",
       "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
       "titleZh": "GPT-5.6如何将前沿情报与前沿效率融合",
@@ -857,27 +878,6 @@
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
-        "cw": 12,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "-4391099",
-      "title": "Scientific computing in the age of agentic AI",
-      "titleZh": "智能AI时代的科学计算",
-      "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
-      "link": "https://openai.com/index/scientific-computing-agentic-ai",
-      "pubDate": 1785258000000,
-      "vendor": "openai",
-      "category": "Agent",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
         "cw": 12,
         "st": 15,
         "rc": 1,
@@ -1010,27 +1010,6 @@
         "cs": 1
       },
       "source": "Google AI"
-    },
-    {
-      "id": "-2093340205",
-      "title": "Chinese AI Startup Moonshot Seeks More Nvidia Blackwell Chips for Next Model",
-      "titleZh": "中国人工智能初创公司Moonshot为下一代车型寻求更多Nvidia Blackwell芯片",
-      "summary": "Chinese AI Startup Moonshot Seeks More Nvidia Blackwell Chips for Next Model The Information",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOY2w3NlpMZ1haVUgzU1dPdVU4cVVTVTF1Ylk3ZkpjUU0tWFNacWxYMDdfbjNTcXlPSl8xVm1JYWFOdXBENTJJbkk5ZExlNUlYQnlRby1pSmhLRUYwa0JTQ1VDUDJBUVB6YWY4RTRPWXFJbldwQll3bnR3TzlHc2dJMnlGS2FkSUVKcWVCTW1pMkw3ZG1oZzhjMEJWalFJVF9TelFTZTVFWmwzSDQ?oc=5",
-      "pubDate": 1785243600000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-811957981",
@@ -1432,6 +1411,27 @@
       "source": "Google News"
     },
     {
+      "id": "-769769758",
+      "title": "China’s DeepSeek AI Prepping for IPO, as It Becomes the Top AI Model",
+      "titleZh": "China’s DeepSeek AI Prepping for IPO, as It Becomes the Top AI Model",
+      "summary": "China’s DeepSeek AI Prepping for IPO, as It Becomes the Top AI Model MarketWise",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMWdhUE9VbUM3NDVhQ1F5eFVNYkF0RjIxRnR3T3pPMlNxdXZUdGN4SnV0bVQxekRjVjlrMHVWdjRCUnNZdXJ3NnFFa3JiSU54MGlETTh0SEt6UjdDdFVReDNOZXFPOFRseXFDc29pVlNKZi1qV1BkNHhwckFyUFJBRg?oc=5",
+      "pubDate": 1784308180000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "high",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "1573518327",
       "title": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
       "titleZh": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
@@ -1556,6 +1556,27 @@
         "cs": 1
       },
       "source": "DeepMind"
+    },
+    {
+      "id": "-1521191503",
+      "title": "Kimi K3",
+      "titleZh": "Kimi K3",
+      "summary": "Kimi K3 ARC Prize",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ocUhickxvTEVhLW1XUkV4U09YRDJ6YllwbGZBeW1UZndQNVVoZGR4Qmp3Y0IzSWUtME56STlWenpiVklXcWZhM2F4bm9OaHRCZlVFVVZiRGs?oc=5",
+      "pubDate": 1784185200000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 39,
+      "scoreBreakdown": {
+        "cq": 9,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "1300654619",
@@ -1703,27 +1724,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "834291319",
-      "title": "EXCLUSIVE: China's DeepSeek developing its own AI chip, sources say",
-      "titleZh": "独家：消息人士称，中国的DeepSeek正在开发自己的人工智能芯片",
-      "summary": "EXCLUSIVE: China's DeepSeek developing its own AI chip, sources say Reuters",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSGRQQzRJX0VFTThJbC1JZnM2NUpNVHZQeEhxODdQejNBODNSLXpYMGdvSWxJMVhRSFBEOWplZy1NMU5qSnFxc3dpOEczN01EcVRQSk1mSXo3ejlMaUoxcks3LURaeGZ0Q3EyZ2dBQVN0QkRXNWg0YWpyOXJ2TjUtLVF4elZRU1VqdUVCdEhGNnFfYV9uYTdaT3V4MVFEZ2swRmlfRw?oc=5",
-      "pubDate": 1783580400000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1537759388",
