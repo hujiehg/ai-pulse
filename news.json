@@ -1,8 +1,302 @@
 {
-  "updated": "2026-08-03T01:06:11.373Z",
-  "count": 97,
-  "sources": 10,
+  "updated": "2026-08-03T04:58:38.321Z",
+  "count": 117,
+  "sources": 12,
   "items": [
+    {
+      "id": "-447746665",
+      "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
+      "titleZh": "Agentic AI中的OpenClaw和Ollama ：面向完全自主和可扩展的AI Agent系统",
+      "summary": "arXiv:2607.28629v1 Announce Type: new Abstract: The rapid transition from reactive large language models (LLMs) to persistent, action-capable systems has exposed critical gaps in the architectural und…",
+      "link": "https://arxiv.org/abs/2607.28629",
+      "pubDate": 1785729600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 73,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 10,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1579927729",
+      "title": "Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review",
+      "titleZh": "人工智能可以评估人工智能科学家吗？使用自动多模型评审的自主研究生成系统的基准研究",
+      "summary": "arXiv:2607.28631v1 Announce Type: new Abstract: AI Scientist systems capable of autonomous research have the potential to significantly accelerate scientific discovery. However, evaluating and compari…",
+      "link": "https://arxiv.org/abs/2607.28631",
+      "pubDate": 1785729600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 75,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 12,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1139576885",
+      "title": "LLM Framework for Discovering Major Mathematical Conjectures: AI's Quest for the Next Riemann Hypothesis",
+      "titleZh": "发现主要数学猜想的法学硕士框架：人工智能对下一个黎曼假设的探索",
+      "summary": "arXiv:2607.28632v1 Announce Type: new Abstract: Major mathematical conjectures still depend heavily on expert intuition, so a unified method for the systematic generation and validation of conjectures…",
+      "link": "https://arxiv.org/abs/2607.28632",
+      "pubDate": 1785729600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1148808642",
+      "title": "ThinkReset: Learnable Intermediate Interface Construction for Bounded-Context Long-Horizon Reasoning",
+      "titleZh": "ThinkReset ：用于有界上下文长视野推理的可学习中间接口构建",
+      "summary": "arXiv:2607.28642v1 Announce Type: new Abstract: Long chain-of-thought reasoning improves performance on complex problems, but it also introduces redundancy accumulation, context overflow, and error an…",
+      "link": "https://arxiv.org/abs/2607.28642",
+      "pubDate": 1785729600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-64128444",
+      "title": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
+      "titleZh": "TAPR ：使用任务感知提示重写器提高LLM性能",
+      "summary": "arXiv:2607.28657v1 Announce Type: new Abstract: Large Language Models (LLMs) often require carefully crafted prompts to unlock their full potential, which can be a barrier for non-expert users. This w…",
+      "link": "https://arxiv.org/abs/2607.28657",
+      "pubDate": 1785729600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-2024051961",
+      "title": "Empowering Cross-Domain Sequential Recommendation with Hybrid Tokenization and Serial-Parallel Decoding",
+      "titleZh": "通过混合令牌化和串行并行解码增强跨域顺序推荐",
+      "summary": "arXiv:2607.28659v1 Announce Type: new Abstract: Cross-domain sequential recommendation (CDSR) aims to model users' dynamic interest transitions and sequential patterns across multiple domains. Recentl…",
+      "link": "https://arxiv.org/abs/2607.28659",
+      "pubDate": 1785729600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "698306030",
+      "title": "An Ontology-Guided, Deduplication-Aware Extraction Layer for Knowledge Graph Construction from Heterogeneous Documents",
+      "titleZh": "本体引导的重复数据删除感知提取层，用于从异构文档中构建知识图",
+      "summary": "arXiv:2607.28662v1 Announce Type: new Abstract: Large language models extract entities and relationships from unstructured documents fluently but inconsistently: type vocabularies fracture across docu…",
+      "link": "https://arxiv.org/abs/2607.28662",
+      "pubDate": 1785729600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1493107597",
+      "title": "How Hard Does It Think? Analyzing Step-Aware Reasoning Energy in LLM Chain-of-Thought Trajectories",
+      "titleZh": "它有多难思考？分析LLM思维链轨迹中的步骤感知推理能量",
+      "summary": "arXiv:2607.28674v1 Announce Type: new Abstract: Understanding how computational effort is allocated across individual chain-of-thought (CoT) reasoning steps remains an open challenge: existing interpr…",
+      "link": "https://arxiv.org/abs/2607.28674",
+      "pubDate": 1785729600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 68,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1590768231",
+      "title": "Reasoning in Real World Clinical Care: Why Large Language Models Are Not Yet Safe for Autonomous Clinical Decision Support",
+      "titleZh": "现实世界临床护理中的推理：为什么大型语言模型对自主临床决策支持来说还不安全",
+      "summary": "arXiv:2607.28677v1 Announce Type: new Abstract: LLM now pass medical licensing examinations and, in curated cases, can rival physicians at diagnostic reasoning. These developments have accelerated the…",
+      "link": "https://arxiv.org/abs/2607.28677",
+      "pubDate": 1785729600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "2091827602",
+      "title": "ViSAGE: Constructing Self-Correcting Memories for Long-Form Video Understanding",
+      "titleZh": "ViSAGE ：构建自我纠正记忆以实现长视频理解",
+      "summary": "arXiv:2607.28678v1 Announce Type: new Abstract: Multimodal agents operating in long-horizon environments must build and continually update multimedia memories to support entity-consistent, temporally …",
+      "link": "https://arxiv.org/abs/2607.28678",
+      "pubDate": 1785729600000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 15,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1200221117",
+      "title": "Alibaba unveils its most capable AI model to date, not far behind Moonshot's in size",
+      "titleZh": "阿里巴巴推出迄今为止最强大的人工智能模型，与Moonshot的规模相差不远",
+      "summary": "Alibaba unveils its most capable AI model to date, not far behind Moonshot's in size Reuters",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObUlCNHp6dVFoTEtqbkF3aFZqaVNUUVRJd0dicUhkb2tidzdkUWg0OVp1SU94aFJ1dmdkbDZIZGxMQVNWMm5vYXNKR0JicHNwZWRVX25ZY0hHaTNVUVdIWGdBNERsS3hDT29CdzlydEFGbFJzblgyempKcjljLVFELTVPRjdHVnRrOVRmQUs5QWVFQlg3aWVET1lNcDE4R2wwSC1vazRDaTNTZFhURm9qUGFfWGE5Sk1pMHNBUWx3TG85S1lZSWV4TUJxRU11UVhMR2Iw?oc=5",
+      "pubDate": 1785729480000,
+      "vendor": "kimi",
+      "category": "Release",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 25,
+        "st": 12,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1771746299",
+      "title": "Alibaba unveils Qwen 3.8-MAX AI model; shares jump",
+      "titleZh": "阿里巴巴推出Qwen 3.8-MAX AI模型；股票跳跃",
+      "summary": "Alibaba unveils Qwen 3.8-MAX AI model; shares jump Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZWtLeXQ0dlJaaWE3eHlkWGUwLU10VXcwSU1iLWlmbTlJUW9MUFFTOVZEZ1ZxV1h1S0J6cXQ5VEpwci1uRXNOdFU5aVp3VndpRW1OcXNDekg3UzFKdzdydmx0WHJodmlJb3lyek5Dc25mdGxPbF8zSWcyZEJOeURUVzBoN1pFSjJoUU9HMkpDVnU2RmE2TUVSMWQ1TFhjZThwTzZLYmtPYw?oc=5",
+      "pubDate": 1785726467000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1187702445",
+      "title": "Alibaba’s AI model Qwen3.8-Max widely accessible ahead of open-weights release",
+      "titleZh": "Alibaba’s AI model Qwen3.8-Max widely accessible ahead of open-weights release",
+      "summary": "Alibaba’s AI model Qwen3.8-Max widely accessible ahead of open-weights release South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ2JaU2cyc2JoeTZWTk5Sa0JWOVZxUnlSaTd0NDhLZzVWX3U1RHZaRjBZTVg5cExTdVluWFZQamkyeVh2RklTVDYwNXQ0eER0eXpPbDJIWUVwSHZsNm1WbVBoOWItN3RiWUtyMVliZGIzVlZxb054MlpPd2JiLWlXSDVwQjd5ZmVlNjV0UV9QY1lTeFNqMkxPMUR2VGMwZG5iVWhNSE5XdFdkQ0pfNnRGZEZrMjlvVDhUYURyedIBvAFBVV95cUxNUjRzZjVrM0hfN3FGVUoyaFMzRUdvdjQxLUlsWVdTNjNXU3FzWGk4SXp0dDJQUElUdTNhTEVKYnZCNVhnWWJyb0tDWVlldXhlVDBqQnlvV1NxeGw4U3ZsLUJ6NzZzSlR2cDY3ekNPTlVmekotUGJfNmtLSWV1c1I3NDdDR21NVFVXSDNQTU5QWEE1bW11UkVPY2ZsbDhqWEdiSXg1ZnlwcmEwN2RzdzF1RGQzLWtxQXJxTW5ZRw?oc=5",
+      "pubDate": 1785726099000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1045694488",
+      "title": "Alibaba Says Its New Qwen3.8-Max Model Trails Only Anthropic's Claude",
+      "titleZh": "阿里巴巴称其新款Qwen3.8-Max车型仅落后于Anthropic的Claude",
+      "summary": "Alibaba Says Its New Qwen3.8-Max Model Trails Only Anthropic's Claude Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTWcyY0tCT2hSbkY1TmJlbXhWVWJRc1lBU1VxM1Qyd21XYlJVaEIxZ2hCR3ZJYUxfVFRnajRuN21VTWFpNDYtWG5OUlVsYVdfLVdhUkVZcGRBOFcwdVJOTW9oaUxkXzUtSzV5X25PRFg2S2x6QWFCUFJiQnBTSk81dkdnNzM0ZUhfZnhrVzI1dGhjbE9IeVBxZEVRTQ?oc=5",
+      "pubDate": 1785725418000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "high",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 15,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
     {
       "id": "1444302188",
       "title": "Sam Altman and AI’s decel debate",
@@ -13,16 +307,37 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "800703517",
+      "title": "Alibaba Bankrolled Kimi K3 With 20,000 Nvidia Chips: Now Qwen Is Losing to Its Own Compute",
+      "titleZh": "阿里巴巴为Kimi K3提供2万Nvidia芯片：现在Qwen正在失去自己的计算能力",
+      "summary": "Alibaba Bankrolled Kimi K3 With 20,000 Nvidia Chips: Now Qwen Is Losing to Its Own Compute Tech Times",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWDlYTHViMXIyQ1FmeVN2b24yUV9qdERkand2Tk5sRVptQlNxWTV4S1I5cjdkWHR2cnB5NUZZRzBqTEZMNEhNZlFqOEZOMUlkWUdpUjNleUx2VWNHVW4zX0dndE1IT0ZpM2stZTFLdDRoS1phQ3pqVm44a2ZPcmZ3MHh5aVhNYWxlZnE2Q2RIUUFqMlM3Mk42VEMwU2d0TUI3MUFZQ09DOUhDTl81RExrTzhVZXNtdlhJQTNOWlp2clZ1bmlXQ3hfME0wZ0s?oc=5",
+      "pubDate": 1785697550000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-2092681559",
@@ -1264,6 +1579,69 @@
       "source": "NVIDIA"
     },
     {
+      "id": "345982035",
+      "title": "Alibaba Shares Rise After Unveiling Upgraded Flagship AI Model",
+      "titleZh": "阿里巴巴在推出升级版旗舰AI车型后股价上涨",
+      "summary": "Alibaba Shares Rise After Unveiling Upgraded Flagship AI Model Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdWxzei1DVGFMSTdOMzhQdWVTXzg1SHdqNWlsaU81Tmphb1UxOUlvbVJFZXpBdTRlTXhQRTQzdWRlT1ZRWHNRTmV2alYyTlVVenljdEg4c1VZekJUUUhNZ0ZwQl9nMVZMVlgzWF9uWUJpdXpxaHNmRVJlZ19QdlJmTF80OFFPYnJ3enRENm5ka21oVVB2U3hDUjhqMVhYeUFwdHJJNw?oc=5",
+      "pubDate": 1784444400000,
+      "vendor": "google",
+      "category": "Release",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 25,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1454851199",
+      "title": "Alibaba previews Qwen3.8, claiming its strength trails only Anthropic’s Fable 5",
+      "titleZh": "Alibaba previews Qwen3.8, claiming its strength trails only Anthropic’s Fable 5",
+      "summary": "Alibaba previews Qwen3.8, claiming its strength trails only Anthropic’s Fable 5 South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPakRPRHUwd1M1b09VMGxEN2t6V3JfNzVsc3Zpcko1djRPaXVpdlAxYTh1eld2MkVSTUVlV1VCOXExUHkzSnFMQ2h3aXV0SHdEN2g4UXRBTlYzMm5rQnBVQmVpNzZwSWdkRG1ybU4zQ1p4dXFaWjUwTGxFQzRQM0FzVUE1TTM4UjllUDFWRjRKZS14MjdTbmhkZVYtR1BaenF2RlRydXZvTWstdmJMRFNhSGZKONIBswFBVV95cUxPLVNNNUpSUTZvb3ZlaUVrN2NWOF9nX21xNTFfbl9BUEg0VkpfZnh5M05HcVhoT0g3NDZsLWVRNlJud21VWGRSdzlweXR5dTN0NzFSLU5Rc1N1cks3SzZkd0JveFdPb0swTC01LWhlbmpfVXF2U3BFQTUtb2RjaXJxQUVqUXpSVlBZWGQzak1BMm5GTUJUZGdNUDc3c3VLeXhSd0pESkdTRXQ5WkkyNGMtdFlfdw?oc=5",
+      "pubDate": 1784444400000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "high",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-637693689",
+      "title": "Alibaba Previews Qwen3.8-Max, a 2.4 Trillion-Parameter Multimodal Model, Days After Moonshot’s Kimi K3 Open-Weight Launch",
+      "titleZh": "Alibaba Previews Qwen3.8-Max, a 2.4 Trillion-Parameter Multimodal Model, Days After Moonshot’s Kimi K3 Open-Weight Launch",
+      "summary": "Alibaba Previews Qwen3.8-Max, a 2.4 Trillion-Parameter Multimodal Model, Days After Moonshot’s Kimi K3 Open-Weight Launch marktechpost.com",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNM3VQYkQ0bHcwZGQyVnJCSUhxNXNOMFZrcjdmMnE0RmZUQjlsREdFdklJdkhwdldPTkJNYW9mWUp3RExlX3pSSEtRRXZHWnlXcE8xYWQzTUpOYkNOWkRmQnZHRDhwTGpDSFpmWlQ3TWx3Z05FY3FKS3FrdWNCSEVLa2R3bHlFTFYzX2g4SnNJSXh5LVJ4R1h2T250ek1PRkJ4OTBZNjVTVU9QTW1JTm1DYWZ2WUZFOS1wamVLb3FhWWpSa3B4cWdtRmlVbTB1bWd0Vk5Samh3QkYwWHlmNVhKYXJrcll6Vng5UGRmRm11NWPSAfYBQVVfeXFMTXd5V0hyd094dzljWDdQZ0lYVXR3eG5HUFVjWmJEMnpLTGpvV0tTZFNhSmM2ZjFia19hcTUtcGFKdGYzbDlteXd4ejhuWUpZWU1fYWswWVBsa0RHZWRSTUlSTnByNVdMbmdHWkRYU2ZJalZoMlR1cmlNeGNhU1oySkVvZDZmajdqYW5ZM0I2VndxYTFtSGplQUMxSURQNENESFBIWGp3VVRrWEhkQzVTTXA3QnpKcVo3S3hBTUk4OWNmT1VUYjVuVlpmRFg1ZEtuTV9ZTktIZXFrSXFheDUwNVRlcHJZZFQtcXNQUENBWEE4WlVORjZn?oc=5",
+      "pubDate": 1784444400000,
+      "vendor": "kimi",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 7,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "1573518327",
       "title": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
       "titleZh": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
@@ -1430,6 +1808,48 @@
         "cs": 1
       },
       "source": "HuggingFace"
+    },
+    {
+      "id": "1018948029",
+      "title": "Alibaba’s U.S.-listed shares rise 4% after Qwen AI set to be integrated in Apple Intelligence",
+      "titleZh": "Alibaba’s U.S.-listed shares rise 4% after Qwen AI set to be integrated in Apple Intelligence",
+      "summary": "Alibaba’s U.S.-listed shares rise 4% after Qwen AI set to be integrated in Apple Intelligence CNBC",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1KZGV6dDJ6U2R1eTJ1bFZleUhNX1FtMXFaOFBWaklmVE1PWV9vNVhDZGgybFdIQUlHNW5QNm53Z3B0LWdZUG9GaE0ySDNwaFUzT2R1YzhJWHRUM2c3Z2Y4cXNpS1I1RE5LWXEwT3FYMlo2TnJiMF9rc2JLZ9IBgAFBVV95cUxNSkp6a051Tm55Q1RtU0g5REJwajJnSUlqZi04NUJkNTkwYVFtNVNpLTBFOGh5VDFwYUVPc01sSVVZYko4SE9wS0ItTzFHQjF5emZRNzhWcTZOeVZ0UEQ2Vi0tWi1EN01CV1VabG1Jc1pvVGtKeFM0aDlnUTI3TDZYaw?oc=5",
+      "pubDate": 1784098800000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1677150415",
+      "title": "Apple Intelligence approved in China with Alibaba Qwen AI model",
+      "titleZh": "Apple Intelligence通过阿里巴巴Qwen AI模型在中国获得批准",
+      "summary": "Apple Intelligence approved in China with Alibaba Qwen AI model Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQN2NKenRmNW5EdTBxMVg4RVdOOHRUR1VCMDN4RHkwUUFxZmphWGRZLV9Rd2hMR3VrcWNwZFZWMGw2MTM3S2kxTGJJWWRCbGpCZmZmMUFNOU1Dc2VnNnRuOU93RHNLcXhHYVMyMFZGX1VISGxiNlQwMmctczUzWlFUM1E0OVZOMUxSV1hRUjhsMGIxcjlyb1R1SVlacFg5QjhtMExhUGhETnA?oc=5",
+      "pubDate": 1784098800000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "431772486",
