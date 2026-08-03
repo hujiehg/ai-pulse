@@ -1,34 +1,34 @@
 {
-  "updated": "2026-08-03T21:38:26.649Z",
-  "count": 109,
-  "sources": 11,
+  "updated": "2026-08-03T22:54:03.939Z",
+  "count": 116,
+  "sources": 12,
   "items": [
     {
       "id": "86053905",
       "title": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
       "titleZh": "AWS正在帮助氛围编码初创公司Superblocks ，其影响很大",
-      "summary": "AWS now allows vibe coding tool Superblocks to be embedded into the private clouds of AWS customers. It's another step towards decoupling apps from models.",
+      "summary": "AWS now allows vibe-coding tool Superblocks to be embedded into the private clouds of AWS customers. It's another step toward decoupling apps from models.",
       "link": "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/",
       "pubDate": 1785787200000,
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 45,
+      "score": 44,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
     },
     {
-      "id": "716791132",
-      "title": "DesignArena creators raise $7.9 million to bring taste to AI models",
-      "titleZh": "DesignArena创作者筹集了790万美元（ $ 790万） ，为人工智能模型带来品味",
-      "summary": "DesignArena is used by 5.3 million people around the world, providing critical human evaluations to frontier labs.",
+      "id": "-608275328",
+      "title": "Design Arena creators raise $7.9 million to bring taste to AI models",
+      "titleZh": "Design Arena创作者筹集了790万$ ，为人工智能模型带来品味",
+      "summary": "Design Arena is used by 5.3 million people around the world, providing critical human evaluations to frontier labs.",
       "link": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
       "pubDate": 1785785337000,
       "vendor": "techcrunch",
@@ -88,20 +88,20 @@
       "source": "TechCrunch"
     },
     {
-      "id": "1669934910",
-      "title": "Alibaba unveils its largest, most capable AI model yet as DeepSeek launches ultra-low-cost rival",
-      "titleZh": "随着DeepSeek推出超低成本竞争对手，阿里巴巴推出了迄今为止规模最大、能力最强的人工智能模型",
-      "summary": "Alibaba unveils its largest, most capable AI model yet as DeepSeek launches ultra-low-cost rival The American Bazaar",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdk9pNGE3LWVFSEtVVDNzZjRKWmtsZlQ5VTVNZ3p5LThXN1pDYV9Ud0JWTGtYM1VaVkNKZUpON0tidWhoNTlUeEREbURvWmNrb2VLQ1dybjhwSXM4SE01b05MUUg3SnBuSVBNSFlPZXlJTDViazEwdTA0b0MyOTNtNGdTcVlqbGRUcVhEUnFOWVZ0N3ZNdThlTXRaNVlLN1RfemFj?oc=5",
-      "pubDate": 1785781202000,
+      "id": "62900184",
+      "title": "DeepSeek Doubles Down on Low-Cost AI With V4-Flash Update",
+      "titleZh": "DeepSeek借助V4-Flash更新将低成本人工智能加倍",
+      "summary": "DeepSeek Doubles Down on Low-Cost AI With V4-Flash Update mitsloanme.com",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOajhCa01nM0xUYW1YdkwyZ2ZYUTZVWE10RXlqUjlNemVEbTN4b0Q5cnBPa2VxQ0txU3k2bmtSYjlsRkZLTk45ZkY5dUJBNExTM2dZcmoxWEo4MzZFS20yVmtBVTZxRHd5Rl9GQmlUVFNiaDJkQkNKQlRvYUJjb3BaVEt6Q3d5MzM5YkVuY0VHYzkxS0dfODlZ?oc=5",
+      "pubDate": 1785779225000,
       "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 68,
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
       "scoreBreakdown": {
-        "cq": 20,
-        "kv": 6,
-        "cw": 25,
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
         "st": 12,
         "rc": 4,
         "cs": 1
@@ -139,13 +139,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -160,13 +160,13 @@
       "vendor": "deepseek",
       "category": "Agent",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 3,
         "cw": 12,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -256,27 +256,6 @@
       "source": "Google News"
     },
     {
-      "id": "-579675011",
-      "title": "DeepSeek's V4-Flash undercut rival AI models on operating costs, report shows",
-      "titleZh": "报告显示， DeepSeek的V4-Flash在运营成本方面削弱了竞争对手的AI模型",
-      "summary": "DeepSeek's V4-Flash undercut rival AI models on operating costs, report shows Seeking Alpha",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOb1R3eXlTOExqa1VqdUtWTjhpdjdrMFhiQmFlTDB0NVd0TFJ3Q19BbnJwRnhYN1l3R1hFbnJWUGVIV25HbC1HZ1E1eVBTRTd4c29tZVhIUGM2NUVIM3M3MVJZbnJlV2pEUG9TSWZJYllBNTdTdnluTVViYUJmUzhiYjFsc0x5eno1QnAyRWRaVjExamk5cnRET3ZmclhmVDV3OFhfVTVEZF82U3JzQXF4X0VSOA?oc=5",
-      "pubDate": 1785754711000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1957177209",
       "title": "Alibaba shares rally after unveiling its 'most powerful' AI model as U.S.-China competition heats up",
       "titleZh": "随着美中竞争加剧，阿里巴巴在推出其“最强大”的人工智能模型后股价上涨",
@@ -298,10 +277,10 @@
       "source": "Google News"
     },
     {
-      "id": "47528574",
+      "id": "-342403380",
       "title": "DeepSeek’s V4-Flash Is the Cheapest Well-Known AI Model to Run, Research Firm Finds",
       "titleZh": "DeepSeek’s V4-Flash Is the Cheapest Well-Known AI Model to Run, Research Firm Finds",
-      "summary": "DeepSeek’s V4-Flash Is the Cheapest Well-Known AI Model to Run, Research Firm Finds technology.org",
+      "summary": "DeepSeek’s V4-Flash Is the Cheapest Well-Known AI Model to Run, Research Firm Finds Technology Org",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMXhzNENFRzVWZldNNHdxN1lKLVhQUk83M2FTUG1kWjl0b1BRZS1QaVRBVTQwb3NsZ3dXVnpNNlExazB5eVp1c29ITFBVNklCSDQ2MWpGWEZjR2duMFRmWDdJLTkxbmd6WUIzazhFM0RGX3RmRGNmR2xIT0dGLW5aTklNdzY3RmZN?oc=5",
       "pubDate": 1785752572000,
       "vendor": "deepseek",
@@ -382,6 +361,27 @@
       "source": "Google News"
     },
     {
+      "id": "611179142",
+      "title": "Alibaba unveils its largest AI model yet, DeepSeek’s latest model is ultra-low cost",
+      "titleZh": "Alibaba unveils its largest AI model yet, DeepSeek’s latest model is ultra-low cost",
+      "summary": "Alibaba unveils its largest AI model yet, DeepSeek’s latest model is ultra-low cost WTVB",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcmd4U0RpYThyLS1ZUmhxRUE3YjBBUFNiM3NCdWpZdUlUUTJWN2NodFdCWmNxU1lkSVIyanFkQ0lFTE1wSWRZQi1FM3hSR0NMbnVkOHBpbmx3RXF3VkFMb2NPMXhfVWd3SDhjYm9Qc2ZlZm1DcjB3VTAxX05QTnUyZFc0Q0lWNXpYNDJOLUhRN0xwSG1wb1JCVkZ2SUNQand6VlBWTjYwV2J5eWtOZ0JUWGpWbw?oc=5",
+      "pubDate": 1785746167000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "615752399",
       "title": "Alibaba Qwen Releases Qwen3.8-Max: A 2.4 Trillion Parameter MoE Model and the Most Capable One in the Qwen Family to Date",
       "titleZh": "阿里巴巴Qwen发布Qwen3.8-Max ： 2.4万亿参数MoE模型，是迄今为止Qwen家族中功能最强的一个",
@@ -424,10 +424,10 @@
       "source": "OpenAI"
     },
     {
-      "id": "-529548436",
+      "id": "-1697001705",
       "title": "Alibaba's new Qwen AI model falls short of 'second only to Fable 5' claim",
       "titleZh": "阿里巴巴新款Qwen AI机型未达到“仅次于寓言5”的说法",
-      "summary": "Alibaba's new Qwen AI model falls short of 'second only to Fable 5' claim Nikkei Asia",
+      "summary": "Alibaba's new Qwen AI model falls short of 'second only to Fable 5' claim asia.nikkei.com",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcTJXZUh1VnNGRFU5WGlaeGxJS3pNZ19vdmNVQkVZM3R6QmpKdml1VGdHaW1OVEl5WS16WEdhbi1EUXhKVGFER3lnY2dYTk82Vm4xdVVLQmVSbkdoNUVicnZTMEdqRm02eU81RzhCclgzSjZJck1LM2JRbk9nQkkyUXg2ckdubGx6bFJwVlFlcWlQZnpIWVJncmt1MUNVbUUybGwyWThlNlFpNVpBUnV6OXAtNi1jM2cxNy03QTNMME5kY1JtUzdaVERZeEtKLUJSSm1zRUln?oc=5",
       "pubDate": 1785735780000,
       "vendor": "qwen",
@@ -886,10 +886,10 @@
       "source": "OpenAI"
     },
     {
-      "id": "-1213350492",
+      "id": "328793170",
       "title": "US lawmakers investigate DoorDash’s use of Moonshot AI’s Kimi K2.6 model",
       "titleZh": "US lawmakers investigate DoorDash’s use of Moonshot AI’s Kimi K2.6 model",
-      "summary": "US lawmakers investigate DoorDash’s use of Moonshot AI’s Kimi K2.6 model South China Morning Post",
+      "summary": "US lawmakers investigate DoorDash’s use of Moonshot AI’s Kimi K2.6 model scmp.com",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWlVnUFVUZTZ6ZWVnTElrblFhMVNfRHFhWXpLRjlzaWhtNUVmRFRSNFNxQzgwZXVGaUlOVGl2NmgtRTdrLW5GcXdjVjRuVnVZdXlPazYtdHIwMWZqcjBLWmNBaFBrWUh3T1Zqa3hxZlNyYU1Zc1dlMmpaVFR4ajhuc29KRlZHUGdxZ1dhQ2s1RGxyZVAtRlZMbWFIaXZacjFnZ200ODF1TzMzakczZHhMemhUbDdqUy1KX0RhRE1HVTdQd9IBwgFBVV95cUxORWdsQUZ5UVZBdDUzb1JJMndsbW1SUDdXcjJJSGdvb0dvRklzMlJkSUtKRWNRSHVac2Y0MmxjZWtiNzRWSEJ5TVp1dzR6RmJER0xKOEZzQ09vYW9qdXZnNWxOWVY2MFdnVlY2QkN2LU1Ja25SckJGdWQ5NWt4dGxMUHN5cTZZOFI5Z182bGVHLTM0NlFsN0ZLNExvT3RabFNtaUppdXcwTEFYRlRFZjRBeHEtbVg2bmpRVllfaVh3VDJPdw?oc=5",
       "pubDate": 1785538401000,
       "vendor": "kimi",
@@ -970,10 +970,10 @@
       "source": "OpenAI"
     },
     {
-      "id": "-887768852",
+      "id": "-596922497",
       "title": "Moonshot’s Kimi Built on 20,000 Nvidia Chip Cluster From Alibaba",
       "titleZh": "Moonshot’s Kimi Built on 20,000 Nvidia Chip Cluster From Alibaba",
-      "summary": "Moonshot’s Kimi Built on 20,000 Nvidia Chip Cluster From Alibaba Bloomberg",
+      "summary": "Moonshot’s Kimi Built on 20,000 Nvidia Chip Cluster From Alibaba Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ282X01oVUs5N1JNVE1keDhwLUsyNk85a1VBVEhROXlzU1pQSVVaZDJiWHhSVTFWZFdjMnhUdHpDZm1UU3lKVU9LSjJLaXJNMEUyVHoyMWhhSlZoZlpPTUtEZjFiejQ5QTVHR3ZhSGF2ZzhfZ0xIWTZJbmlpUVdXUlU2bHFGT0hUazllb1RtbFh6c3IyREl4aWl0MmctNERxY1FuQ1dSRHhjSExnSW02NC0wVXFDZw?oc=5",
       "pubDate": 1785506529000,
       "vendor": "kimi",
@@ -1180,10 +1180,10 @@
       "source": "OpenAI"
     },
     {
-      "id": "210722254",
+      "id": "-1993548543",
       "title": "What to know about Moonshot AI and its new open-weight model Kimi K3",
       "titleZh": "关于Moonshot AI及其新型开放式重量模型Kimi K3的知识",
-      "summary": "What to know about Moonshot AI and its new open-weight model Kimi K3 fastcompany.com",
+      "summary": "What to know about Moonshot AI and its new open-weight model Kimi K3 Fast Company",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb0wtbGt4bnZIZVh0eHJvTGpRdUNfZ3VfVXFINE9IbnAtaHU2dXBnMGpJUXhpbE9QMVVpeHRqQ2tPblNSTlF1MVlZeXphVWVjV3J2VTBPOWR5TUNEN0VjM2FXSUlkTmVudXkyWmFEZ2x0Sk5JYWVZWWd0Q282WlQxVDVyVHRkMXplMzRNVDNSTXAyd3lCSnJNZXdCcC1ud3JCMXZZanE1akI?oc=5",
       "pubDate": 1785267117000,
       "vendor": "kimi",
@@ -2081,6 +2081,153 @@
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "-1093452510",
+      "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
+      "titleZh": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
+      "summary": "For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On T…",
+      "link": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
+      "pubDate": 1779212700000,
+      "vendor": "venturebeat",
+      "category": "Product",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 13,
+        "cw": 15,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "-1380991222",
+      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+      "titleZh": "Railway获得1亿美元$ ，通过AI原生云基础设施挑战AWS",
+      "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B fundi…",
+      "link": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+      "pubDate": 1769090400000,
+      "vendor": "venturebeat",
+      "category": "Product",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 14,
+        "cw": 15,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "749662964",
+      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+      "titleZh": "Claude Code每月的费用高达$ 200。Goose免费做同样的事情。",
+      "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive. Claude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the…",
+      "link": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+      "pubDate": 1768831200000,
+      "vendor": "venturebeat",
+      "category": "Product",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 11,
+        "cw": 15,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "1646974166",
+      "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+      "titleZh": "Listen Labs在病毒式广告牌招聘噱头后筹集了6900万$ ，以扩大人工智能客户访谈规模",
+      "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent $5,…",
+      "link": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+      "pubDate": 1768572060000,
+      "vendor": "venturebeat",
+      "category": "Product",
+      "impact": "high",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 8,
+        "cw": 15,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "-455015964",
+      "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+      "titleZh": "Salesforce推出新的Slackbot AI代理，在工作场所AI中与微软和谷歌作战",
+      "summary": "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot, the company's workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powe…",
+      "link": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+      "pubDate": 1768309200000,
+      "vendor": "venturebeat",
+      "category": "Product",
+      "impact": "high",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 9,
+        "cw": 15,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "-301141418",
+      "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+      "titleZh": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+      "summary": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team bui…",
+      "link": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+      "pubDate": 1768217400000,
+      "vendor": "venturebeat",
+      "category": "Product",
+      "impact": "high",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 10,
+        "cw": 15,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "2076277904",
+      "title": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
+      "titleZh": "Nous Research的NousCoder-14B是一个直接登陆Claude Code时刻的开源编码模型",
+      "summary": "Nous Research, the open-source artificial intelligence startup backed by crypto venture firm Paradigm, released a new competitive programming model on Monday that it says matches or exceeds several la…",
+      "link": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
+      "pubDate": 1767816000000,
+      "vendor": "venturebeat",
+      "category": "Product",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 14,
+        "cw": 15,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
     },
     {
       "id": "251294355",
