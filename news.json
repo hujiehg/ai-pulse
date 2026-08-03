@@ -1,8 +1,92 @@
 {
-  "updated": "2026-08-03T18:44:42.455Z",
+  "updated": "2026-08-03T20:22:17.943Z",
   "count": 115,
   "sources": 12,
   "items": [
+    {
+      "id": "86053905",
+      "title": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
+      "titleZh": "AWS正在帮助氛围编码初创公司Superblocks ，其影响很大",
+      "summary": "AWS now allows vibe coding tool Superblocks to be embedded into the private clouds of AWS customers. It's another step towards decoupling apps from models.",
+      "link": "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/",
+      "pubDate": 1785787200000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "716791132",
+      "title": "DesignArena creators raise $7.9 million to bring taste to AI models",
+      "titleZh": "DesignArena创作者筹集了790万美元（ $ 790万） ，为人工智能模型带来品味",
+      "summary": "DesignArena is used by 5.3 million people around the world, providing critical human evaluations to frontier labs.",
+      "link": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
+      "pubDate": 1785785337000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 20,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "173131406",
+      "title": "Influencers draw backlash for attending OpenAI’s first luxury trip",
+      "titleZh": "Influencers draw backlash for attending OpenAI’s first luxury trip",
+      "summary": "OpenAI’s first-ever influencer brand trip is sparking online backlash as tensions over the use of AI continue.",
+      "link": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/",
+      "pubDate": 1785784196000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-696894761",
+      "title": "Apple finally fixed Siri. So why does it feel anticlimactic?",
+      "titleZh": "苹果终于修复了Siri。那么，为什么它会让人感觉到逆高潮呢？",
+      "summary": "Apple’s long-awaited AI overhaul finally makes Siri the assistant it was always supposed to be. But after years of delays, the launch lands in an AI landscape where chatbots have evolved into agents t…",
+      "link": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/",
+      "pubDate": 1785782623000,
+      "vendor": "techcrunch",
+      "category": "Release",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 25,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "1874248284",
       "title": "Alibaba's new Qwen model is also taking your job, but this time it's great - the",
@@ -13,21 +97,21 @@
       "vendor": "qwen",
       "category": "Research",
       "impact": "med",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google News"
     },
     {
-      "id": "-636951669",
-      "title": "Congress’s favorite AI tool? ChatGPT",
-      "titleZh": "Congress’s favorite AI tool? ChatGPT",
+      "id": "-1770512068",
+      "title": "Congress’ favorite AI tool? ChatGPT",
+      "titleZh": "Congress’ favorite AI tool? ChatGPT",
       "summary": "House spending records show OpenAI's ChatGPT dominates paid AI use on Capitol Hill, with congressional offices relying on the chatbot to draft memos, summarize legislation, and assist constituent comm…",
       "link": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
       "pubDate": 1785775255000,
@@ -55,13 +139,13 @@
       "vendor": "deepseek",
       "category": "Release",
       "impact": "high",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -76,13 +160,13 @@
       "vendor": "deepseek",
       "category": "Release",
       "impact": "med",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -685,30 +769,9 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1558575629",
-      "title": "Sam Altman is still making the case for parenting via ChatGPT",
-      "titleZh": "Sam Altman仍在通过ChatGPT提出养育子女的理由",
-      "summary": "OpenAI's CEO seemed excited to share a \"cool use case\" for parents.",
-      "link": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
-      "pubDate": 1785604054000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
@@ -718,18 +781,18 @@
       "source": "TechCrunch"
     },
     {
-      "id": "2019645003",
-      "title": "This $9 key physically locks your most addictive apps",
-      "titleZh": "这把$ 9的钥匙可以锁定您最令人上瘾的应用程序",
-      "summary": "This $9 NFC key requires you to physically scan it to unlock distracting apps on your phone.",
-      "link": "https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps/",
-      "pubDate": 1785599897000,
+      "id": "1558575629",
+      "title": "Sam Altman is still making the case for parenting via ChatGPT",
+      "titleZh": "Sam Altman仍在通过ChatGPT提出养育子女的理由",
+      "summary": "This isn’t the first time a tech CEO has promised that AI can shield users — and specifically users’ morning commutes — from the messiness and inefficiency of human experience.",
+      "link": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
+      "pubDate": 1785604054000,
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 39,
+      "score": 43,
       "scoreBreakdown": {
-        "cq": 14,
+        "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
@@ -800,69 +863,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "1236285211",
-      "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
-      "titleZh": "据报道， OpenAI发现证据表明其更多特工疯狂",
-      "summary": "OpenAI has reportedly found evidence of additional agent misbehavior as it looks into the incident that occurred with Hugging Face.",
-      "link": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
-      "pubDate": 1785538046000,
-      "vendor": "techcrunch",
-      "category": "Agent",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "106299093",
-      "title": "India is starting to pay for apps, not just download them",
-      "titleZh": "印度开始为应用付费，而不仅仅是下载应用",
-      "summary": "India's app market generated a record $345 million in Q2.",
-      "link": "https://techcrunch.com/2026/07/31/india-is-starting-to-pay-for-apps-not-just-download-them/",
-      "pubDate": 1785532065000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 39,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-537906574",
-      "title": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
-      "titleZh": "谷歌在发布一天后取消了其地球人工智能功能，在批评中它会传播错误信息",
-      "summary": "A tool that allowed anyone to generate fake AI-generated imagery and superimpose it over real Google Earth maps quickly spurred backlash.",
-      "link": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
-      "pubDate": 1785527248000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "high",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 25,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "-1843020852",
