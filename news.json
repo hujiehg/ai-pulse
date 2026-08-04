@@ -1,8 +1,113 @@
 {
-  "updated": "2026-08-04T19:08:48.368Z",
-  "count": 106,
-  "sources": 11,
+  "updated": "2026-08-04T20:51:00.603Z",
+  "count": 95,
+  "sources": 10,
   "items": [
+    {
+      "id": "1831418712",
+      "title": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
+      "titleZh": "开放式人工智能模型正在迎头赶上前沿。安全漏洞依然存在。",
+      "summary": "A new SaferAI report finds Z.ai's open-weight GLM-5.2 approaches frontier AI capabilities while lacking key safety mitigations, renewing concerns that powerful open models could outpace governance and…",
+      "link": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+      "pubDate": 1785873926000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1423921986",
+      "title": "Anthropic signs $10B deal with AI cloud startup Volta",
+      "titleZh": "Anthropic与AI云初创公司Volta签订了$ 100亿的交易",
+      "summary": "Anthropic has been on a cloud partnership spree in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta.",
+      "link": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
+      "pubDate": 1785872920000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "high",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 1,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1881102646",
+      "title": "Meet Wrinkles, an app that uncovers the hidden stories of the places around you",
+      "titleZh": "认识Wrinkles ，这是一款应用程序，可以揭示您周围地方的隐藏故事",
+      "summary": "Wrinkles, available on both iOS and Android, essentially acts as an AI-powered audio tour guide that reveals hidden history and local stories.",
+      "link": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/",
+      "pubDate": 1785872074000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "373385343",
+      "title": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
+      "titleZh": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
+      "summary": "The week-old Open Secure AI Alliance, spearheaded by Nvidia and grown to over 120 companies, already has proposals out for defending against AI agents.",
+      "link": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
+      "pubDate": 1785871729000,
+      "vendor": "techcrunch",
+      "category": "Agent",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 12,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1807560689",
+      "title": "Opinion | This is the real AI divide",
+      "titleZh": "意见|这是真正的人工智能鸿沟",
+      "summary": "Opinion | This is the real AI divide The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTFVldndNN2JYZTBQOWFfbmhWa05yUVk3c3NjQk13dFhDZmwxWFlyUE10NWcybml6bFRrVTl6YjBPVGFSY0E3N2dFNDZGTXZHZS03ajlnV3I3eGhsVGMxOFF5UjMtc0pFd2hCcVotVi1OSFBEM29tcmdxSFdoY2JLanRscDBxQ0ZQelFzWFlVbWZaQnVtTVlFWXBObHhqZTlvTVNzTThiTlZWR0tMTzhudHlocw?oc=5",
+      "pubDate": 1785866400000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
     {
       "id": "-823134228",
       "title": "Spotify expands AI remix and covers project with Merlin partnership",
@@ -44,27 +149,6 @@
         "cs": 1
       },
       "source": "TechCrunch"
-    },
-    {
-      "id": "-1807560689",
-      "title": "Opinion | This is the real AI divide",
-      "titleZh": "意见|这是真正的人工智能鸿沟",
-      "summary": "Opinion | This is the real AI divide The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTFVldndNN2JYZTBQOWFfbmhWa05yUVk3c3NjQk13dFhDZmwxWFlyUE10NWcybml6bFRrVTl6YjBPVGFSY0E3N2dFNDZGTXZHZS03ajlnV3I3eGhsVGMxOFF5UjMtc0pFd2hCcVotVi1OSFBEM29tcmdxSFdoY2JLanRscDBxQ0ZQelFzWFlVbWZaQnVtTVlFWXBObHhqZTlvTVNzTThiTlZWR0tMTzhudHlocw?oc=5",
-      "pubDate": 1785857545000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 4,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-371612279",
@@ -139,13 +223,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -160,13 +244,13 @@
       "vendor": "huggingface",
       "category": "Agent",
       "impact": "med",
-      "score": 40,
+      "score": 39,
       "scoreBreakdown": {
         "cq": 9,
         "kv": 0,
         "cw": 12,
         "st": 14,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -270,27 +354,6 @@
         "cq": 18,
         "kv": 4,
         "cw": 25,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-587676096",
-      "title": "DeepSeek V4-Flash Undercuts US AI Rivals",
-      "titleZh": "DeepSeek V4-Flash削弱美国人工智能竞争对手",
-      "summary": "DeepSeek V4-Flash Undercuts US AI Rivals Silicon UK",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ieUxyQlhZa2w1SkRsZGR4U2VMbkQxVXd2SkFRVUoxdmR5a0lGMV9wamFLVWhlTHRDTzBsZGRKX2ZPUjhzQndKcm0tSGpDeWJIMG02ZDUtb3JqX3NrU1NvQ2NDc0dXd9IBa0FVX3lxTE9pd1BkZnNYeFlQQTltb3o0anVuTHR2cEJMSXVBaE04b3RHOE0xSndZMTdWRG85UmtHZlZ5aUJ4RzBNUkl0bVVycUJMdDdWbl9lRFhYdi1VelV5anYzMWI5aW9SZE1QcjRLS2Q0?oc=5",
-      "pubDate": 1785835829000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "high",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
         "st": 12,
         "rc": 3,
         "cs": 1
@@ -550,27 +613,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "896561996",
-      "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
-      "titleZh": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
-      "summary": "After a quarter that delivered $1 billion in profit, Palantir CEO Alex Karp on Monday once again warned that AI frontier labs are too untrustworthy for enterprises.",
-      "link": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
-      "pubDate": 1785799190000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "high",
-      "score": 44,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "727468694",
       "title": "Apple is getting this wrong",
       "titleZh": "苹果搞错了",
@@ -590,69 +632,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "86053905",
-      "title": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
-      "titleZh": "AWS正在帮助氛围编码初创公司Superblocks ，其影响很大",
-      "summary": "AWS now allows vibe-coding tool Superblocks to be embedded into the private clouds of AWS customers. It's another step toward decoupling apps from models.",
-      "link": "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/",
-      "pubDate": 1785787200000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-608275328",
-      "title": "Design Arena creators raise $7.9 million to bring taste to AI models",
-      "titleZh": "Design Arena创作者筹集了790万$ ，为人工智能模型带来品味",
-      "summary": "Design Arena is used by 5.3 million people around the world, providing critical human evaluations to frontier labs.",
-      "link": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
-      "pubDate": 1785785337000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 20,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "173131406",
-      "title": "Influencers draw backlash for attending OpenAI’s first luxury trip",
-      "titleZh": "Influencers draw backlash for attending OpenAI’s first luxury trip",
-      "summary": "OpenAI’s first-ever influencer brand trip is sparking online backlash as tensions over the use of AI continue.",
-      "link": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/",
-      "pubDate": 1785784196000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "439905084",
@@ -676,90 +655,6 @@
       "source": "Google AI"
     },
     {
-      "id": "2020087623",
-      "title": "DeepSeek releases cheaper new AI model as China’s price war intensifies",
-      "titleZh": "DeepSeek releases cheaper new AI model as China’s price war intensifies",
-      "summary": "DeepSeek releases cheaper new AI model as China’s price war intensifies Semafor",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNU3hCYlVtUENITVY0NW5sX3J0R0dXRFpkSmZndlkwX2h1UWlpbmJaMGQ4UEppZXJqdHd4cXJpVHN1MG82RGs2WGpNOXcybU9QbDFFMWpRX0h0R29rQ2c4OHlqQVI1OERKWFVLYmpLQnF2VVhLNjZJeENMNFdWLWFCRUVVUkx1czhGWE1HaHdZclhEdDZ6OHZsNzNsNFgxZTJzZDJHcDNfcjJmaFl4RjVQSUZqNHhVdw?oc=5",
-      "pubDate": 1785766800000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1691273913",
-      "title": "DeepSeek unveils AI model 100 times cheaper than top rivals",
-      "titleZh": "DeepSeek推出比顶级竞争对手便宜100倍的人工智能模型",
-      "summary": "DeepSeek unveils AI model 100 times cheaper than top rivals ITP.net",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVzlXTXdqYzNBNHRGaHFoLTZVR2d0ZndUZVMzdTkySXRWNlFRcEtXRWp5aG1FM3dkU09teFBjRGdZdFhoLTRBZDJ5TTFseWxXeEZhNVdsRlVEMlFjak9Bd2FmdExrYmJqNzlMNGZCR3FvZ2F2RV9WU09QVmVHay1tWVR0dG9ZWUtsa1o5UTlqM2R1Tk9FUXJ0Ug?oc=5",
-      "pubDate": 1785761496000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1360413929",
-      "title": "DeepSeek's latest AI model is by far the cheapest of major models to run",
-      "titleZh": "DeepSeek最新的人工智能模型是迄今为止运行最便宜的主要模型",
-      "summary": "DeepSeek's latest AI model is by far the cheapest of major models to run qz.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LdndDZTBmMElKV1oweFJyeG9OMXRLVWxkc1NJbXNrTFVkUW1TSmZaTUNSRzQ0bHZQSzExX21uTDNST3N2NVFGbENzS3A2a3JTd1FrckVkRXppNWlQblMwY2dnakQ0Mm1hczA3eEUzNFFvNjJBOWc?oc=5",
-      "pubDate": 1785757991000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-579675011",
-      "title": "DeepSeek's V4-Flash undercut rival AI models on operating costs, report shows",
-      "titleZh": "报告显示， DeepSeek的V4-Flash在运营成本方面削弱了竞争对手的AI模型",
-      "summary": "DeepSeek's V4-Flash undercut rival AI models on operating costs, report shows Seeking Alpha",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOb1R3eXlTOExqa1VqdUtWTjhpdjdrMFhiQmFlTDB0NVd0TFJ3Q19BbnJwRnhYN1l3R1hFbnJWUGVIV25HbC1HZ1E1eVBTRTd4c29tZVhIUGM2NUVIM3M3MVJZbnJlV2pEUG9TSWZJYllBNTdTdnluTVViYUJmUzhiYjFsc0x5eno1QnAyRWRaVjExamk5cnRET3ZmclhmVDV3OFhfVTVEZF82U3JzQXF4X0VSOA?oc=5",
-      "pubDate": 1785754711000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1957177209",
       "title": "Alibaba shares rally after unveiling its 'most powerful' AI model as U.S.-China competition heats up",
       "titleZh": "随着美中竞争加剧，阿里巴巴在推出其“最强大”的人工智能模型后股价上涨",
@@ -775,69 +670,6 @@
         "kv": 2,
         "cw": 25,
         "st": 15,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-342403380",
-      "title": "DeepSeek’s V4-Flash Is the Cheapest Well-Known AI Model to Run, Research Firm Finds",
-      "titleZh": "DeepSeek’s V4-Flash Is the Cheapest Well-Known AI Model to Run, Research Firm Finds",
-      "summary": "DeepSeek’s V4-Flash Is the Cheapest Well-Known AI Model to Run, Research Firm Finds Technology Org",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMXhzNENFRzVWZldNNHdxN1lKLVhQUk83M2FTUG1kWjl0b1BRZS1QaVRBVTQwb3NsZ3dXVnpNNlExazB5eVp1c29ITFBVNklCSDQ2MWpGWEZjR2duMFRmWDdJLTkxbmd6WUIzazhFM0RGX3RmRGNmR2xIT0dGLW5aTklNdzY3RmZN?oc=5",
-      "pubDate": 1785752572000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-171402462",
-      "title": "New DeepSeek AI Model 105x Cheaper Than Fable 5—What It Costs Workers",
-      "titleZh": "New DeepSeek AI Model 105x Cheaper Than Fable 5—What It Costs Workers",
-      "summary": "New DeepSeek AI Model 105x Cheaper Than Fable 5—What It Costs Workers Forbes",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTzM3UTZzS0JsX2pMbXZhQURlVlo2bHZOR21xYlBTT0NlT05MSWZSVFd0c2FpckVTZThfRl9RcWxnaVNMdnRRM3h4OE5vMG80MzlycUlGZWNTNWM2UWRoeXVQUUt6b3prSXhRVmpwbXBuOUdQSTBaTlU4emRqbjNEckhkMEZRREpCRFlNMG14MHdMc255V0tCS3dXMkR3Q1dyQ2dUai01S3RnRmdwZVpscW5KUzV6Nm1VdWRydTlLSQ?oc=5",
-      "pubDate": 1785750924000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "500134282",
-      "title": "Alibaba unveils its largest AI model yet, DeepSeek's latest model is ultra-low cost",
-      "titleZh": "阿里巴巴推出其迄今为止最大的人工智能模型， DeepSeek的最新模型是超低成本",
-      "summary": "Alibaba unveils its largest AI model yet, DeepSeek's latest model is ultra-low cost Reuters",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObUlCNHp6dVFoTEtqbkF3aFZqaVNUUVRJd0dicUhkb2tidzdkUWg0OVp1SU94aFJ1dmdkbDZIZGxMQVNWMm5vYXNKR0JicHNwZWRVX25ZY0hHaTNVUVdIWGdBNERsS3hDT29CdzlydEFGbFJzblgyempKcjljLVFELTVPRjdHVnRrOVRmQUs5QWVFQlg3aWVET1lNcDE4R2wwSC1vazRDaTNTZFhURm9qUGFfWGE5Sk1pMHNBUWx3TG85S1lZSWV4TUJxRU11UVhMR2Iw?oc=5",
-      "pubDate": 1785749984000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
         "rc": 2,
         "cs": 1
       },
@@ -928,20 +760,20 @@
       "source": "Google News"
     },
     {
-      "id": "-464609805",
-      "title": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says",
-      "titleZh": "研究公司表示， DeepSeek的新人工智能模型是迄今为止运行的最便宜的知名模型。",
-      "summary": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says Reuters",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTnd6ckhOVUhwcGJjRmxRdlhObS1ncXRhZm9OeVUwaEgwOTg5YmNBTGVWcHZsdXd4dXVrWWdlZGtsYkw0eDIyY1A3NjdSM0o0bFBGUEZRNDF2NjYwZEtCamNpeTFqN3ZaQVlTclNuQWYxNXh4ZVlqaWF3WkNNVk1fbmJXcTdISlBmUVVWS01STmFYZldLSGk5akJQZVB5X09OSzVoVWF4Wko4TEF4cGozQUlWM202dFJWMGxSRTdpcTNaaUp6bmNyZXpWbVRFb2JoSzdCVQ?oc=5",
-      "pubDate": 1785735729000,
+      "id": "500134282",
+      "title": "Alibaba unveils its largest AI model yet, DeepSeek's latest model is ultra-low cost",
+      "titleZh": "阿里巴巴推出其迄今为止最大的人工智能模型， DeepSeek的最新模型是超低成本",
+      "summary": "Alibaba unveils its largest AI model yet, DeepSeek's latest model is ultra-low cost Reuters",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObUlCNHp6dVFoTEtqbkF3aFZqaVNUUVRJd0dicUhkb2tidzdkUWg0OVp1SU94aFJ1dmdkbDZIZGxMQVNWMm5vYXNKR0JicHNwZWRVX25ZY0hHaTNVUVdIWGdBNERsS3hDT29CdzlydEFGbFJzblgyempKcjljLVFELTVPRjdHVnRrOVRmQUs5QWVFQlg3aWVET1lNcDE4R2wwSC1vazRDaTNTZFhURm9qUGFfWGE5Sk1pMHNBUWx3TG85S1lZSWV4TUJxRU11UVhMR2Iw?oc=5",
+      "pubDate": 1785729480000,
       "vendor": "deepseek",
-      "category": "Research",
+      "category": "Release",
       "impact": "med",
-      "score": 59,
+      "score": 62,
       "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
         "st": 12,
         "rc": 2,
         "cs": 1
@@ -1010,27 +842,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "-1937431074",
-      "title": "DeepSeek's new bargain model accelerates AI's race to zero",
-      "titleZh": "DeepSeek的新讨价还价模式加速了人工智能的零竞赛",
-      "summary": "DeepSeek's new bargain model accelerates AI's race to zero Axios",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04emlXWXpVQXhNcjJsU1d5ZmhnU1J2TFRyeFlxM2hqUUNUNVR2UmxFQUNBanYwWnd5ZUpTRnptVEh2TXU2NU5aa0FRbFV6ejVPd2wxWFNXa3RoaTZPQ0dQSHc0Tkk4WE93Q1JwV0tIWGNBaGNG?oc=5",
-      "pubDate": 1785589463000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "156404667",
@@ -1159,27 +970,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "1564159793",
-      "title": "DeepSeek Unveils Public Beta API for Flagship AI Model",
-      "titleZh": "DeepSeek推出面向旗舰AI模型的公共测试版API",
-      "summary": "DeepSeek Unveils Public Beta API for Flagship AI Model Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR1pZTHVrcm9PbnNRSENDdzlxTlJQVW9OMXE4d1pwYzhGNXJrODZyN0hmRkxKR2ktMjAyU1BDZ0JKZkRPbEZKcVJxRzZXd3pSQUdtMkIzZUlSY2ZXMDE1ZS15bG1VYmNRS190aVViVnJjTFM1X1dTZy1XM2QyMG1ka3htc1dYaTFXa0c5OUZrSmRzZGM5VXpBRFFmZXc1aC1QMEZocjVjVVc?oc=5",
-      "pubDate": 1785480600000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-742375523",
       "title": "Disrupting a Criminal Scam Operation",
       "titleZh": "扰乱犯罪诈骗行动",
@@ -1283,6 +1073,27 @@
         "cs": 1
       },
       "source": "DeepMind"
+    },
+    {
+      "id": "-1993548543",
+      "title": "What to know about Moonshot AI and its new open-weight model Kimi K3",
+      "titleZh": "关于Moonshot AI及其新型开放式重量模型Kimi K3的知识",
+      "summary": "What to know about Moonshot AI and its new open-weight model Kimi K3 Fast Company",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb0wtbGt4bnZIZVh0eHJvTGpRdUNfZ3VfVXFINE9IbnAtaHU2dXBnMGpJUXhpbE9QMVVpeHRqQ2tPblNSTlF1MVlZeXphVWVjV3J2VTBPOWR5TUNEN0VjM2FXSUlkTmVudXkyWmFEZ2x0Sk5JYWVZWWd0Q282WlQxVDVyVHRkMXplMzRNVDNSTXAyd3lCSnJNZXdCcC1ud3JCMXZZanE1akI?oc=5",
+      "pubDate": 1785267117000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "high",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "1593125851",
@@ -1453,27 +1264,6 @@
       "source": "HuggingFace"
     },
     {
-      "id": "-352104456",
-      "title": "Yang Zhilin, the rock star founder behind China’s Moonshot AI",
-      "titleZh": "Yang Zhilin, the rock star founder behind China’s Moonshot AI",
-      "summary": "Yang Zhilin, the rock star founder behind China’s Moonshot AI Financial Times",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbUlvRC1OQTRveGd1VWVtaUdpRTZDUWVfNlNWU0pjU1JFTmUzNmlfc1RzSU12cjFnYktTdjVadm5pNms0dXZZWDI2YmVNOHE0YnUxcnNPLTFPQlRyOFJwdzJ1RFc1bWt1ang0cWNhTWhHeHN5NElqdXJrWlBnSl96VEIyT00?oc=5",
-      "pubDate": 1784876400000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1965105272",
       "title": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
       "titleZh": "在人工智能峰会上，韩国与NVIDIA及其合作伙伴勾勒出人工智能的未来",
@@ -1493,27 +1283,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "1089530523",
-      "title": "What is China’s Kimi K3 and why is the US so rattled by it? | CNN Business",
-      "titleZh": "What is China’s Kimi K3 and why is the US so rattled by it? | CNN Business",
-      "summary": "What is China’s Kimi K3 and why is the US so rattled by it? | CNN Business CNN",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV2lZYXNGZXdPOC1nMXl3UW04QXMzZGdJZWJlWUFGOV92ZVVSUEZVMU1HNUNoSjl2MnVFaF9Hdk1fMC1NN2NhZ1NHd3RJX0xsRDJnZ0JfbXBGN3NWLTlZSVlVSHFoQlo5eXhGNUV1M3RnY0otb184VHN0bGZhTWlpMVhBTQ?oc=5",
-      "pubDate": 1784790000000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1493276743",
@@ -1768,27 +1537,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "50324622",
-      "title": "China's 2.8-trillion-parameter Kimi K3 beats Claude Fable 5 in Frontend Code Arena benchmark— Moonshot AI delivers largest open-weight AI model ever, as China works around U.S. compute limits",
-      "titleZh": "China's 2.8-trillion-parameter Kimi K3 beats Claude Fable 5 in Frontend Code Arena benchmark— Moonshot AI delivers largest open-weight AI model ever, as China works around U.S. compute limits",
-      "summary": "China's 2.8-trillion-parameter Kimi K3 beats Claude Fable 5 in Frontend Code Arena benchmark— Moonshot AI delivers largest open-weight AI model ever, as China works around U.S. compute limits Tom's Ha…",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNT25TNFlXeVFQMmVqWFYtSS1oSkpEUl9WeExTZUpmZEtFb1RpQ3dRbGxGV1hVWjNpMkRxTlpaQk5NSXNfdzlmYmg1cW5MUGlmR3FpeHV2bmpzMDBXQW1mV1B0N3QzUmZOOFU5T0w1QWFqYldjWnZER0t0UmNzcGZBQll1dWZBNEYyWTV3dnZvMkRzTkhqNHBDak5TTXd4b080eUJGbExOSUVCeU5Cd1ZmUWVXUG1SUQ?oc=5",
-      "pubDate": 1784271600000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 5,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1448355146",
       "title": "China just erased America's AI lead",
       "titleZh": "中国刚刚抹去了美国的人工智能领先地位",
@@ -1804,6 +1552,27 @@
         "kv": 0,
         "cw": 15,
         "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "50324622",
+      "title": "China's 2.8-trillion-parameter Kimi K3 beats Claude Fable 5 in Frontend Code Arena benchmark— Moonshot AI delivers largest open-weight AI model ever, as China works around U.S. compute limits",
+      "titleZh": "China's 2.8-trillion-parameter Kimi K3 beats Claude Fable 5 in Frontend Code Arena benchmark— Moonshot AI delivers largest open-weight AI model ever, as China works around U.S. compute limits",
+      "summary": "China's 2.8-trillion-parameter Kimi K3 beats Claude Fable 5 in Frontend Code Arena benchmark— Moonshot AI delivers largest open-weight AI model ever, as China works around U.S. compute limits Tom's Ha…",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNT25TNFlXeVFQMmVqWFYtSS1oSkpEUl9WeExTZUpmZEtFb1RpQ3dRbGxGV1hVWjNpMkRxTlpaQk5NSXNfdzlmYmg1cW5MUGlmR3FpeHV2bmpzMDBXQW1mV1B0N3QzUmZOOFU5T0w1QWFqYldjWnZER0t0UmNzcGZBQll1dWZBNEYyWTV3dnZvMkRzTkhqNHBDak5TTXd4b080eUJGbExOSUVCeU5Cd1ZmUWVXUG1SUQ?oc=5",
+      "pubDate": 1784271600000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 5,
+        "cw": 22,
+        "st": 12,
         "rc": 0,
         "cs": 1
       },
