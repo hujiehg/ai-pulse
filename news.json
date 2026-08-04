@@ -1,8 +1,71 @@
 {
-  "updated": "2026-08-04T11:02:38.920Z",
+  "updated": "2026-08-04T13:15:20.855Z",
   "count": 106,
   "sources": 11,
   "items": [
+    {
+      "id": "-2100121415",
+      "title": "The latest AI news we announced in July 2026",
+      "titleZh": "我们在2026年7月宣布的最新人工智能新闻",
+      "summary": "Here are Google’s latest AI updates from July 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
+      "pubDate": 1785848400000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "Google AI"
+    },
+    {
+      "id": "1095480516",
+      "title": "EON wants to move the data superhighway from ocean fiber to space lasers",
+      "titleZh": "EON希望将数据高速公路从海洋光纤转移到太空激光器",
+      "summary": "Endeavour Optical Networks is planning to launch the fastest space laser communications system yet built.",
+      "link": "https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers/",
+      "pubDate": 1785844800000,
+      "vendor": "techcrunch",
+      "category": "Release",
+      "impact": "high",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 25,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-417176775",
+      "title": "Box CEO Aaron Levie Warns AI Pricing Could Collapse as Open-Weight Models Like Qwen Close the Gap On Clos",
+      "titleZh": "Box首席执行官Aaron Levie警告说，随着像Qwen这样的开放式模型缩小差距，人工智能定价可能会崩溃",
+      "summary": "Box CEO Aaron Levie Warns AI Pricing Could Collapse as Open-Weight Models Like Qwen Close the Gap On Clos Benzinga",
+      "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxPeWxiQ2Z1RHZZcnMxY2Q3Y3FfWjBJY1c5bUtoUnBpLU84UkJXdlFVMmMtdlVrU1l0TE01Ym54Mmt0MzN5RVNjV1B3ZWZIdUs0VWNkbDViYkhTVmYwZHhoczBiUDRqVmQxZEQ3dmF1QnRuSWVuby0wN0dMRWVXTGExUEdqT1hCeWVoTWZOaHQ2bnlYTm9KVjlqc0lXcmo4VHRlcEJXUzVjQWV3UGtuQ2JyaDFJcE1rX2ZseWRMVXhMdXYzM2pYSU95VjQtVXB2Ym5ieE5ldXd1ZldhN20tTkY3b0tmUVZOUjl0Nm91NUxZVWlrZUdfbm5ueThPMm12UmFNVERrTEpLNDVNZ2l5Z240WWZyTThXQmxTdHNDUi1n?oc=5",
+      "pubDate": 1785842859000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
     {
       "id": "1312498185",
       "title": "Revisiting Classic Thought Experiments to Measure Consciousness for Artificial Intelligence Safety",
@@ -235,27 +298,6 @@
       "source": "Google News"
     },
     {
-      "id": "-1343398857",
-      "title": "Qwen3.8-Max arrives with a bold claim: it outperforms GPT-5.6 Sol Max and Fable 5 on agentic computer use",
-      "titleZh": "Qwen3.8-Max带来了一个大胆的声明：它在代理计算机使用方面的表现优于GPT-5.6 Sol Max和Fable 5",
-      "summary": "Qwen3.8-Max arrives with a bold claim: it outperforms GPT-5.6 Sol Max and Fable 5 on agentic computer use VentureBeat",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPd1ZETHFzOWVnazJIQ3l2RkpxUjQtMWwtVkxBZE42bG1vM04taHVPcWswQWFrYUJpSG5ZRXBxNzNjOWtCRjBKY0M2VEpNVFMtLWp6U2NvbGhDRl9EbVJ1dHpTT3FXY1BFR0dkWFpuQ0tQdjF1RzVjMHZwa1hVcmtCYjZkV190TDN4blZjTDZjbmI3WkFTdDV5ZEUyT0JiYzRqWWVWQkNrS190MWRBWmlLZjlwNDJiZi12UjJiMWRudXpFeWJBUldrVzI4dzBfUjFPV2o2TnFR?oc=5",
-      "pubDate": 1785801058000,
-      "vendor": "qwen",
-      "category": "Agent",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 12,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "896561996",
       "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
       "titleZh": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
@@ -445,27 +487,6 @@
       "source": "Google News"
     },
     {
-      "id": "1330387789",
-      "title": "New DeepSeek model cheapest of well-known models to run: research firm",
-      "titleZh": "新的DeepSeek模型运行最便宜的知名模型：研究公司",
-      "summary": "New DeepSeek model cheapest of well-known models to run: research firm Taipei Times",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MYUpXRkNYMTNTS2wya1UyMGJJUHRhLXQzTmZnZFE4S2E2S0g4eG9vSkJEa2ZKUTllVG04eU5LNTVhaHNyMF9SQWlZT0lsLTFQMW9lSHpwTGY5SWp3QWJzVG1Uamt0NTRlOUlST0xXUGYtM1c5TXc?oc=5",
-      "pubDate": 1785772800000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "2020087623",
       "title": "DeepSeek releases cheaper new AI model as China’s price war intensifies",
       "titleZh": "DeepSeek releases cheaper new AI model as China’s price war intensifies",
@@ -496,13 +517,13 @@
       "vendor": "deepseek",
       "category": "Release",
       "impact": "med",
-      "score": 63,
+      "score": 62,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -514,27 +535,6 @@
       "summary": "DeepSeek's latest AI model is by far the cheapest of major models to run qz.com",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LdndDZTBmMElKV1oweFJyeG9OMXRLVWxkc1NJbXNrTFVkUW1TSmZaTUNSRzQ0bHZQSzExX21uTDNST3N2NVFGbENzS3A2a3JTd1FrckVkRXppNWlQblMwY2dnakQ0Mm1hczA3eEUzNFFvNjJBOWc?oc=5",
       "pubDate": 1785757991000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-356827136",
-      "title": "China’s DeepSeek tests AI ‘harness’ as cheap V4 model jolts Silicon Valley",
-      "titleZh": "China’s DeepSeek tests AI ‘harness’ as cheap V4 model jolts Silicon Valley",
-      "summary": "China’s DeepSeek tests AI ‘harness’ as cheap V4 model jolts Silicon Valley South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSW5vN0ppc1VxeTcxbVNnWFJOZ3o0cFBMRmh5X3F2d3RIMnozcUUyQ3Zkay0wVktWWkI3cXFkTnBXYzNfRHNac2dqelNsN0tvTVg2ZVZVanVUdDJJaUhNaG1Wdzdib0xaUzVqRWJXNjlLTnJOeW95NzZMNS1IN2JqVUVLTV9EbVdvdFBrY0tJeEZGQTRwWjI0V3pNMEJxS3V1aVF1Skp3QTBESGZ3UGJSVTFPbUtTYnZDMGs2dmVFX09tMTN3YUFfc0xR0gHKAUFVX3lxTE84bW5aS283anptQmxMYTdMVmpndGhqT1VYVDJzYkw4ay0tSGJuNHFaNXVUcHVRcGQtWGllR1Z0eGlUanNmcU91U1pnbzY3Ukh0R1ZqZFd0LWhxYmJ6OEc5RHFNMXlPZFJqcXFweXlGMmhwZTNyX0NSaG5nWGl2Z1gxTEFZN0kwOU1PcHBtR0tFa1QxSXVWM0tCbGcxSERyYW50dktjQUdlRERiOURINXNBSGNaR3lLN0dYSTlpVnE3cTJXTlFGVHJOc1E?oc=5",
-      "pubDate": 1785754807000,
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
@@ -586,6 +586,27 @@
         "kv": 2,
         "cw": 25,
         "st": 15,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-342403380",
+      "title": "DeepSeek’s V4-Flash Is the Cheapest Well-Known AI Model to Run, Research Firm Finds",
+      "titleZh": "DeepSeek’s V4-Flash Is the Cheapest Well-Known AI Model to Run, Research Firm Finds",
+      "summary": "DeepSeek’s V4-Flash Is the Cheapest Well-Known AI Model to Run, Research Firm Finds Technology Org",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMXhzNENFRzVWZldNNHdxN1lKLVhQUk83M2FTUG1kWjl0b1BRZS1QaVRBVTQwb3NsZ3dXVnpNNlExazB5eVp1c29ITFBVNklCSDQ2MWpGWEZjR2duMFRmWDdJLTkxbmd6WUIzazhFM0RGX3RmRGNmR2xIT0dGLW5aTklNdzY3RmZN?oc=5",
+      "pubDate": 1785752572000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
         "rc": 2,
         "cs": 1
       },
@@ -723,7 +744,7 @@
       "titleZh": "研究公司表示， DeepSeek的新人工智能模型是迄今为止运行的最便宜的知名模型。",
       "summary": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says Reuters",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTnd6ckhOVUhwcGJjRmxRdlhObS1ncXRhZm9OeVUwaEgwOTg5YmNBTGVWcHZsdXd4dXVrWWdlZGtsYkw0eDIyY1A3NjdSM0o0bFBGUEZRNDF2NjYwZEtCamNpeTFqN3ZaQVlTclNuQWYxNXh4ZVlqaWF3WkNNVk1fbmJXcTdISlBmUVVWS01STmFYZldLSGk5akJQZVB5X09OSzVoVWF4Wko4TEF4cGozQUlWM202dFJWMGxSRTdpcTNaaUp6bmNyZXpWbVRFb2JoSzdCVQ?oc=5",
-      "pubDate": 1785735660000,
+      "pubDate": 1785735729000,
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
@@ -857,27 +878,6 @@
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "41523583",
-      "title": "YouTuber Hank Green says his AI usage is ‘not healthy’",
-      "titleZh": "YouTuber Hank Green says his AI usage is ‘not healthy’",
-      "summary": "Green offered a remarkable apology, saying that \"the level of dopamine that I've been getting from interacting with LLMs ... is not healthy for me or good for the world.\"",
-      "link": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
-      "pubDate": 1785613545000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
         "cw": 15,
         "st": 8,
         "rc": 1,
@@ -1031,6 +1031,27 @@
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "1564159793",
+      "title": "DeepSeek Unveils Public Beta API for Flagship AI Model",
+      "titleZh": "DeepSeek推出面向旗舰AI模型的公共测试版API",
+      "summary": "DeepSeek Unveils Public Beta API for Flagship AI Model Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR1pZTHVrcm9PbnNRSENDdzlxTlJQVW9OMXE4d1pwYzhGNXJrODZyN0hmRkxKR2ktMjAyU1BDZ0JKZkRPbEZKcVJxRzZXd3pSQUdtMkIzZUlSY2ZXMDE1ZS15bG1VYmNRS190aVViVnJjTFM1X1dTZy1XM2QyMG1ka3htc1dYaTFXa0c5OUZrSmRzZGM5VXpBRFFmZXc1aC1QMEZocjVjVVc?oc=5",
+      "pubDate": 1785480600000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-742375523",
@@ -1252,13 +1273,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google AI"
@@ -1273,13 +1294,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google AI"
@@ -2012,27 +2033,6 @@
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
-    },
-    {
-      "id": "-1958719249",
-      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
-      "titleZh": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
-      "summary": "Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit for 150 education and industry leaders.",
-      "link": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
-      "pubDate": 1782921600000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
         "cw": 15,
         "st": 15,
         "rc": 0,
