@@ -1,8 +1,50 @@
 {
-  "updated": "2026-08-03T22:54:03.939Z",
+  "updated": "2026-08-04T00:01:15.928Z",
   "count": 116,
   "sources": 12,
   "items": [
+    {
+      "id": "896561996",
+      "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
+      "titleZh": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
+      "summary": "After a quarter that delivered $1 billion in profit, Palantir CEO Alex Karp on Monday once again warned that AI frontier labs are too untrustworthy for enterprises.",
+      "link": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
+      "pubDate": 1785799190000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "high",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 1,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "350760885",
+      "title": "China turns up the heat with open model blitz as US model makers panic",
+      "titleZh": "随着美国模型制造商的恐慌，中国通过开放式模型闪电战加剧了热度",
+      "summary": "China turns up the heat with open model blitz as US model makers panic The Register",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdGJGRU15a1BadWpRVUU1MUdhV2Y0TkF3WmJ1QUFXX2dVNEV3c3EzTXFIX21hcU1hN2NoelF4Q051TG10U2RGel9xcFg0V1NIejhqTlVMN28xNVlMRU05czZOM2hQeFNJVjdIRjBRa3NPVmx6VGh3dWhpcE81OHdFYllyako3MDdCQ1FtMDA1TmZIYm04eDZPVmlTNWdRbkJyZWJ0a0NzaFp0ZzZCTjBIbHo1S29qU3RMeE1LOG5iREhIanBSbEE?oc=5",
+      "pubDate": 1785796800000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
     {
       "id": "86053905",
       "title": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
@@ -97,13 +139,13 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -118,13 +160,13 @@
       "vendor": "qwen",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -223,27 +265,6 @@
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1259932928",
-      "title": "Alibaba Introduces 2.4 Trillion-Parameter Qwen3.8-Max AI Model With 1 Million-Token Context Window",
-      "titleZh": "阿里巴巴推出2.4万亿参数Qwen3.8-Max AI模型，带有100万令牌上下文窗口",
-      "summary": "Alibaba Introduces 2.4 Trillion-Parameter Qwen3.8-Max AI Model With 1 Million-Token Context Window Pulse 2.0",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTGYxbDJyR2l0bGJvLS03WGFyS0IyZG5lWUhVSDNnVHNBamN1RlpEb0ZteUl1a3FMejlNeEtzWlNuMS1mbGIydVlnN1N0VXg4a2g1Y0pQVjFjVVhUd3BWWkJoaXhoa1RET1YxTUJyOWYxS3hsbEQydDE5OERwdm84Qi1tTDJQQkpOSVlLWi1zUzVSaUQyZ3pKZU96cGNmaGVMcWQxY0FIem53dkVKLUV4azVGQUVaOHM0cHfSAb8BQVVfeXFMTjdUa0FLd2JqeVVUYkZWdWJWWFA0YWZTU25OdUtGRXZBTDlUeHJZcndPUXR5YVJ5dHNYSUtJc0Q2cXpWSFh4NFpCc3hnQjMtbG5iVkx1MTg0dnhwY3pDUnVwLVpWU1FkbjNxWkxlSjc0d0VRMjhuUDJDNkY1b25hV3YwZV8ya2lhNWVMemZlS2FLTTFxT09Rd2dwZUtjS3RXNVZ3cm11ZE44dWFTcVJMZV9SRWZ3dVBuRTQ0eGgwdDg?oc=5",
-      "pubDate": 1785755526000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "high",
       "score": 58,
       "scoreBreakdown": {
         "cq": 18,
@@ -466,10 +487,10 @@
       "source": "Google News"
     },
     {
-      "id": "-1142309809",
+      "id": "-956846302",
       "title": "Alibaba Adds to China AI Breakthroughs With New Qwen Model",
       "titleZh": "阿里巴巴推出Qwen新车型助力中国人工智能突破",
-      "summary": "Alibaba Adds to China AI Breakthroughs With New Qwen Model Bloomberg",
+      "summary": "Alibaba Adds to China AI Breakthroughs With New Qwen Model Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWjlHM1ZsVFZ2VWZiRG4xcTd3aWdrU2U2SEwySXh3RWxPYWhBSlM0MTU2M2M3dlVDTnN5TDVUUkJvUGw5WXczVlB0ZzBPMk5NTjhOWkwwcGRHYWk4MGVUdjhRNUc5NXFkN1BFSHdrVnJtM0ZXSDNwM3phcnA5WE1LWjMwbUVhRHV2YUl2SmFBUVZUbXNTQ0EtZVBXRHhoSjlobzJuOWk4SnJvalVfZTdaWkVtRHdjN21v?oc=5",
       "pubDate": 1785732600000,
       "vendor": "qwen",
@@ -814,27 +835,6 @@
       "score": 41,
       "scoreBreakdown": {
         "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1558575629",
-      "title": "Sam Altman is still making the case for parenting via ChatGPT",
-      "titleZh": "Sam Altman仍在通过ChatGPT提出养育子女的理由",
-      "summary": "This isn’t the first time a tech CEO has promised that AI can shield users — and specifically users’ morning commutes — from the messiness and inefficiency of human experience.",
-      "link": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
-      "pubDate": 1785604054000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
