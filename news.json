@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-04T17:30:42.334Z",
-  "count": 116,
-  "sources": 12,
+  "updated": "2026-08-04T19:08:48.368Z",
+  "count": 106,
+  "sources": 11,
   "items": [
     {
       "id": "-823134228",
@@ -13,13 +13,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 47,
+      "score": 46,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -34,13 +34,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 47,
+      "score": 46,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,13 +55,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google News"
@@ -86,6 +86,48 @@
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "284586930",
+      "title": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use",
+      "titleZh": "NVIDIA Alpamayo 2 Super ，面向机器人出租车和自动驾驶车辆的前沿开放模型，现已商用",
+      "summary": "For robotaxis and other autonomous vehicles (AVs), the hardest problems aren’t the everyday scenarios. They’re the rare, complex situations that are difficult to anticipate and train for. Handling the…",
+      "link": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/",
+      "pubDate": 1785855649000,
+      "vendor": "nvidia",
+      "category": "Research",
+      "impact": "med",
+      "score": 78,
+      "scoreBreakdown": {
+        "cq": 28,
+        "kv": 13,
+        "cw": 22,
+        "st": 10,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
+      "id": "-346425660",
+      "title": "As AI Increases Demands on Memory, Storage Steps Up",
+      "titleZh": "随着人工智能对内存的需求增加，存储也随之增加",
+      "summary": "Surging AI demands are driving the need for massive datasets and context windows that burst past the confines of system memory. But rising needs aren’t met by simply adding more storage capacity. What…",
+      "link": "https://blogs.nvidia.com/blog/ai-storage-fms/",
+      "pubDate": 1785855647000,
+      "vendor": "nvidia",
+      "category": "Product",
+      "impact": "med",
+      "score": 69,
+      "scoreBreakdown": {
+        "cq": 30,
+        "kv": 9,
+        "cw": 15,
+        "st": 10,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "NVIDIA"
     },
     {
       "id": "1898816854",
@@ -139,13 +181,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 15,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google AI"
@@ -160,13 +202,13 @@
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "high",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 4,
         "cw": 25,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -181,32 +223,74 @@
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "high",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 25,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
     },
     {
-      "id": "-417176775",
-      "title": "Box CEO Aaron Levie Warns AI Pricing Could Collapse as Open-Weight Models Like Qwen Close the Gap On Clos",
-      "titleZh": "Box首席执行官Aaron Levie警告说，随着像Qwen这样的开放式模型缩小差距，人工智能定价可能会崩溃",
-      "summary": "Box CEO Aaron Levie Warns AI Pricing Could Collapse as Open-Weight Models Like Qwen Close the Gap On Clos Benzinga",
-      "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxPeWxiQ2Z1RHZZcnMxY2Q3Y3FfWjBJY1c5bUtoUnBpLU84UkJXdlFVMmMtdlVrU1l0TE01Ym54Mmt0MzN5RVNjV1B3ZWZIdUs0VWNkbDViYkhTVmYwZHhoczBiUDRqVmQxZEQ3dmF1QnRuSWVuby0wN0dMRWVXTGExUEdqT1hCeWVoTWZOaHQ2bnlYTm9KVjlqc0lXcmo4VHRlcEJXUzVjQWV3UGtuQ2JyaDFJcE1rX2ZseWRMVXhMdXYzM2pYSU95VjQtVXB2Ym5ieE5ldXd1ZldhN20tTkY3b0tmUVZOUjl0Nm91NUxZVWlrZUdfbm5ueThPMm12UmFNVERrTEpLNDVNZ2l5Z240WWZyTThXQmxTdHNDUi1n?oc=5",
-      "pubDate": 1785842859000,
+      "id": "1067190132",
+      "title": "Alibaba Qwen 3.8 Max AI Model Launches With 2.4 Trillion Parameters and Powerful Features",
+      "titleZh": "阿里巴巴Qwen 3.8 Max人工智能模型推出2.4万亿个参数和强大功能",
+      "summary": "Alibaba Qwen 3.8 Max AI Model Launches With 2.4 Trillion Parameters and Powerful Features Techgenyz",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0tQmRndktSdjYtS29hTGdFWUF1bWVMOVFIWVVzUXJPajFLblVCRXd2Sk5QZllKY21meUZKa0lmMjRFM1hMOVRDUXhWdGk1YVl0bE5UejdLZ3gyVTJ3UnA3WkZPMHIxWnd1dGdEOXJkZl9rWWE1dVNVRy12aGc?oc=5",
+      "pubDate": 1785843544000,
       "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
+      "category": "Release",
+      "impact": "high",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "2048402797",
+      "title": "Alibaba Releases New Qwen Model, Consolidates AI Office Tools",
+      "titleZh": "阿里巴巴发布新Qwen模型，整合AI办公工具",
+      "summary": "Alibaba Releases New Qwen Model, Consolidates AI Office Tools Caixin Global",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ0hlYmtqNlh6VTBqdTgzX3U1Nzcxb3JiUDA5LXQtZGlpTm1yQ0hyT2g4bl91OWl2WGI2d2FiS1ZOanZBcmZIdFV6SElVS28zUy1FNnQ1ZXpoN1dRTk9pU0NSQmFpQ2pwYnF3Qi1oRjRQWHFyYXZ6TWJULVlEWm5fX0lrbWhwblViWWZ2U0lMYXBBei15bGE1ellNbTg0QVgxV2preHlVdlR2YWhGbFNCVnJ4RlJSQQ?oc=5",
+      "pubDate": 1785836640000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-587676096",
+      "title": "DeepSeek V4-Flash Undercuts US AI Rivals",
+      "titleZh": "DeepSeek V4-Flash削弱美国人工智能竞争对手",
+      "summary": "DeepSeek V4-Flash Undercuts US AI Rivals Silicon UK",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ieUxyQlhZa2w1SkRsZGR4U2VMbkQxVXd2SkFRVUoxdmR5a0lGMV9wamFLVWhlTHRDTzBsZGRKX2ZPUjhzQndKcm0tSGpDeWJIMG02ZDUtb3JqX3NrU1NvQ2NDc0dXd9IBa0FVX3lxTE9pd1BkZnNYeFlQQTltb3o0anVuTHR2cEJMSXVBaE04b3RHOE0xSndZMTdWRG85UmtHZlZ5aUJ4RzBNUkl0bVVycUJMdDdWbl9lRFhYdi1VelV5anYzMWI5aW9SZE1QcjRLS2Q0?oc=5",
+      "pubDate": 1785835829000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "high",
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
-        "cw": 22,
+        "cw": 15,
         "st": 12,
         "rc": 3,
         "cs": 1
@@ -571,48 +655,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "1874248284",
-      "title": "Alibaba's new Qwen model is also taking your job, but this time it's great - the",
-      "titleZh": "阿里巴巴的新Qwen模式也在接替你的工作，但这次很棒-",
-      "summary": "Alibaba's new Qwen model is also taking your job, but this time it's great the-decoder.com",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVEcyT1JPeVQxbmc2NENZREZrMEFNT25hblZQNGtIUlZiX2NvZVdYSnU5emo0WnNzM2pPTWwweGhOMU41TGRQMzVxTGFiblhEUUxLalR5ZjJSTTNTWVR5aVBMWjk2Rk44ckFfamo0cjlZTXBSQXhoQUVjYThqN2tDNm95Tlh0aWhQdnkxUGFiR21jUTNNa1NVQXp1eXU?oc=5",
-      "pubDate": 1785777353000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1104377284",
-      "title": "Chinese Actor Weaponizes Deepseek AI Agent to Attack Security Firm",
-      "titleZh": "中国演员武器化Deepseek AI特工攻击安全公司",
-      "summary": "Chinese Actor Weaponizes Deepseek AI Agent to Attack Security Firm Dark Reading",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZHg5X0VzcnpwNFllMkNFTkVxZUZpOXVQZ2xfclBCMEJwQ0t2RGUtcnB5Wk16ZWtKb1E4eGd5S2FaNlR5aUI2VzFNMURoS002ZHlzTEtCY2RRbDdYbE05TVZDOFFvTHIzWnotNzVEbHhQaGRQOVVBZ0pQajFGbWp5ME5rM1B0aDR3c0JLb3pmWk5FX1BFcFhFR2UwTWcxMWlSNTNWcUlQMklvLUk?oc=5",
-      "pubDate": 1785774905000,
-      "vendor": "deepseek",
-      "category": "Agent",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 12,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "439905084",
       "title": "Inside our 353,000-person vibe coding course",
       "titleZh": "在我们353,000人的氛围编码课程中",
@@ -781,6 +823,27 @@
       "source": "Google News"
     },
     {
+      "id": "500134282",
+      "title": "Alibaba unveils its largest AI model yet, DeepSeek's latest model is ultra-low cost",
+      "titleZh": "阿里巴巴推出其迄今为止最大的人工智能模型， DeepSeek的最新模型是超低成本",
+      "summary": "Alibaba unveils its largest AI model yet, DeepSeek's latest model is ultra-low cost Reuters",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObUlCNHp6dVFoTEtqbkF3aFZqaVNUUVRJd0dicUhkb2tidzdkUWg0OVp1SU94aFJ1dmdkbDZIZGxMQVNWMm5vYXNKR0JicHNwZWRVX25ZY0hHaTNVUVdIWGdBNERsS3hDT29CdzlydEFGbFJzblgyempKcjljLVFELTVPRjdHVnRrOVRmQUs5QWVFQlg3aWVET1lNcDE4R2wwSC1vazRDaTNTZFhURm9qUGFfWGE5Sk1pMHNBUWx3TG85S1lZSWV4TUJxRU11UVhMR2Iw?oc=5",
+      "pubDate": 1785749984000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-308196723",
       "title": "Alibaba's new AI claims to match Claude, upping the US-China AI race",
       "titleZh": "阿里巴巴的新人工智能声称与克劳德相匹配，提升了美中人工智能竞赛",
@@ -879,27 +942,6 @@
         "cq": 20,
         "kv": 2,
         "cw": 22,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "500134282",
-      "title": "Alibaba unveils its largest AI model yet, DeepSeek's latest model is ultra-low cost",
-      "titleZh": "阿里巴巴推出其迄今为止最大的人工智能模型， DeepSeek的最新模型是超低成本",
-      "summary": "Alibaba unveils its largest AI model yet, DeepSeek's latest model is ultra-low cost Reuters",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObUlCNHp6dVFoTEtqbkF3aFZqaVNUUVRJd0dicUhkb2tidzdkUWg0OVp1SU94aFJ1dmdkbDZIZGxMQVNWMm5vYXNKR0JicHNwZWRVX25ZY0hHaTNVUVdIWGdBNERsS3hDT29CdzlydEFGbFJzblgyempKcjljLVFELTVPRjdHVnRrOVRmQUs5QWVFQlg3aWVET1lNcDE4R2wwSC1vazRDaTNTZFhURm9qUGFfWGE5Sk1pMHNBUWx3TG85S1lZSWV4TUJxRU11UVhMR2Iw?oc=5",
-      "pubDate": 1785729480000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
         "st": 12,
         "rc": 2,
         "cs": 1
@@ -1957,27 +1999,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "1537759388",
-      "title": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
-      "titleZh": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
-      "summary": "Max single-threaded CPUs at scale are a new category of CPUs built for the agentic AI era. Across the creation and deployment of an agentic system, the CPU is on the critical path for reasoning, respo…",
-      "link": "https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/",
-      "pubDate": 1783436452000,
-      "vendor": "nvidia",
-      "category": "Agent",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 2,
-        "cw": 12,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
       "id": "598468957",
       "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
       "titleZh": "在Gemini API中扩展托管代理：后台任务、远程MCP等",
@@ -1997,27 +2018,6 @@
         "cs": 1
       },
       "source": "Google AI"
-    },
-    {
-      "id": "-1490050698",
-      "title": "NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community",
-      "titleZh": "NVIDIA和Hugging Face为LeRobot的开放机器人社区带来了新的模型和框架",
-      "summary": "Open source AI has shown how quickly developers can innovate when models, data and tools are shared. Robotics has the same opportunity, but advancements in physical AI development can still be gated b…",
-      "link": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/",
-      "pubDate": 1783404026000,
-      "vendor": "nvidia",
-      "category": "Research",
-      "impact": "med",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 8,
-        "cw": 22,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
     },
     {
       "id": "-923036018",
@@ -2228,216 +2228,6 @@
         "cs": 1
       },
       "source": "VentureBeat"
-    },
-    {
-      "id": "251294355",
-      "title": "Technology, recovery, and responsibility",
-      "titleZh": "技术、恢复和责任",
-      "summary": "By Sriram Rajamani, Managing Director, Microsoft Research India We started 2021 with the hope that the COVID-19 vaccines will immunize enough of the world’s population to give herd immunity in the com…",
-      "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
-      "pubDate": 1615961906000,
-      "vendor": "microsoft",
-      "category": "Research",
-      "impact": "high",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 2,
-        "cw": 22,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "1792312368",
-      "title": "Directorate General of Training, Ministry of Skill Development and Entrepreneurship, partners with Microsoft and NASSCOM Foundation to empower students with next generation digital skills",
-      "titleZh": "技能发展和创业部培训总局与微软和NASSCOM基金会合作，为学生提供下一代数字技能",
-      "summary": "The blended curriculum will impact 1.2 lakh students across 3000 Industrial Training Institutes (ITI) in India New Delhi, January 7, 2021: With a vision to empower the next generation of learners, the…",
-      "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
-      "pubDate": 1610002951000,
-      "vendor": "microsoft",
-      "category": "Release",
-      "impact": "high",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 3,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "58206720",
-      "title": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
-      "titleZh": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
-      "summary": "Multilingual omni-channel service reduces wait time for queries, improves customer satisfaction by 70% New Delhi, January 5, 2021 – Powered by Microsoft Azure, Indian Railway Catering and Tourism Corp…",
-      "link": "https://news.microsoft.com/en-in/microsoft-azure-powered-corover-developed-irctc-ai-chatbot-askdisha/",
-      "pubDate": 1609824612000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-1890804461",
-      "title": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
-      "titleZh": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
-      "summary": "• The initiative aims to skill 1 million students in AI by 2021 • The AI Classroom Series will deliver Microsoft’s AI, machine learning and data science expertise to undergraduate students at no cost …",
-      "link": "https://news.microsoft.com/en-in/nasscom-futureskills-microsoft-launch-ai-classroom-series-skill-students/",
-      "pubDate": 1599716180000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 4,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-1460121599",
-      "title": "Industry and research – better together",
-      "titleZh": "Industry and research – better together",
-      "summary": "By Sriram Rajamani, Distinguished Scientist and Managing Director, Microsoft Research India at Microsoft Manik Varma, researcher in the Microsoft Research (MSR) India lab was awarded the prestigious S…",
-      "link": "https://news.microsoft.com/en-in/industry-and-research-better-together-sriram-rajamani/",
-      "pubDate": 1598613057000,
-      "vendor": "microsoft",
-      "category": "Research",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 4,
-        "cw": 22,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-1887675878",
-      "title": "NSDC and Microsoft collaborate to empower Indian youth with digital skills",
-      "titleZh": "NSDC和微软合作，为印度青年提供数字技能",
-      "summary": "The initiative aims at skilling over 1 lakh youth in the next 12 months New Delhi, July 08, 2020: With a vision to transform India into a skilled nation, the National Skill Development Corporation (NS…",
-      "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
-      "pubDate": 1594186160000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "high",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 4,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "652542494",
-      "title": "Empowering developers to achieve more at the Microsoft Developer Conference",
-      "titleZh": "帮助开发人员在Microsoft开发者大会上取得更大成就",
-      "summary": "New Delhi, June 18, 2020: Underlining the critical role of developers in innovations that will power economic recovery, the Microsoft Developer Conference brought together developers and tech professi…",
-      "link": "https://news.microsoft.com/en-in/microsoft-developer-conference/",
-      "pubDate": 1592461746000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 2,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-150806068",
-      "title": "Microsoft announces program to accelerate growth of agritech startups in India",
-      "titleZh": "微软宣布加速印度农业科技创业公司发展的计划",
-      "summary": "New Delhi, June 03, 2020: Microsoft announced the launch of a program for agritech startups in India that are committed to driving transformation in agriculture. The Microsoft for Agritech Startups pr…",
-      "link": "https://news.microsoft.com/en-in/microsoft-agritech-startups-program-india-launch/",
-      "pubDate": 1591162175000,
-      "vendor": "microsoft",
-      "category": "Release",
-      "impact": "high",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 5,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "297070690",
-      "title": "Microsoft empowers startups in India to achieve more",
-      "titleZh": "微软助力印度初创企业实现更多",
-      "summary": "Five startups showcase their unique propositions at Future Decoded Tech Summit Bengaluru, February 25, 2020: Startups are an indisputable innovation engine, and Microsoft is partnering with startups a…",
-      "link": "https://news.microsoft.com/en-in/microsoft-empowers-startups-in-india-to-achieve-more/",
-      "pubDate": 1582633175000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 4,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "1830923333",
-      "title": "Myntra accelerates its digital transformation journey with Microsoft Cloud",
-      "titleZh": "Myntra借助微软云加速其数字化转型之旅",
-      "summary": "reimagines online shopping experience for customers Azure powers biggest-ever End of Reason Sale New Delhi, February 19, 2020: Myntra, India’s leading destination for fashion and lifestyle, has partne…",
-      "link": "https://news.microsoft.com/en-in/myntra-digital-transformation-microsoft-cloud/",
-      "pubDate": 1582092103000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 0,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
     }
   ]
 }
