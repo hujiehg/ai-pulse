@@ -1,8 +1,92 @@
 {
-  "updated": "2026-08-04T13:15:20.855Z",
+  "updated": "2026-08-04T15:46:34.661Z",
   "count": 106,
   "sources": 11,
   "items": [
+    {
+      "id": "-1807560689",
+      "title": "Opinion | This is the real AI divide",
+      "titleZh": "意见|这是真正的人工智能鸿沟",
+      "summary": "Opinion | This is the real AI divide The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTFVldndNN2JYZTBQOWFfbmhWa05yUVk3c3NjQk13dFhDZmwxWFlyUE10NWcybml6bFRrVTl6YjBPVGFSY0E3N2dFNDZGTXZHZS03ajlnV3I3eGhsVGMxOFF5UjMtc0pFd2hCcVotVi1OSFBEM29tcmdxSFdoY2JLanRscDBxQ0ZQelFzWFlVbWZaQnVtTVlFWXBObHhqZTlvTVNzTThiTlZWR0tMTzhudHlocw?oc=5",
+      "pubDate": 1785857545000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-371612279",
+      "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
+      "titleZh": "埃隆·马斯克（ Elon Musk ）花了一半的时间在特斯拉财报电话会议上谈论机器人和人工智能",
+      "summary": "An analysis of the last seven years of Tesla earnings calls shows just little attention Musk pays to Tesla's car business.",
+      "link": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
+      "pubDate": 1785856806000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1898816854",
+      "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
+      "titleZh": "苹果表示，更多的前员工可能已将机密数据带到OpenAI",
+      "summary": "Apple says its trade secrets investigation into OpenAI has widened. In a new court filing, Apple claims additional former staff may have retained or accessed confidential information.",
+      "link": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+      "pubDate": 1785852181000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-201715684",
+      "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+      "titleZh": "使用LFM2.5-2.6B在任何地方部署本地代理",
+      "summary": "Deploy local agents everywhere with LFM2.5-2.6B",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+      "pubDate": 1785851909000,
+      "vendor": "huggingface",
+      "category": "Agent",
+      "impact": "med",
+      "score": 41,
+      "scoreBreakdown": {
+        "cq": 9,
+        "kv": 0,
+        "cw": 12,
+        "st": 14,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
     {
       "id": "-2100121415",
       "title": "The latest AI news we announced in July 2026",
@@ -13,16 +97,37 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 15,
         "st": 15,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google AI"
+    },
+    {
+      "id": "1645579816",
+      "title": "Is the future of data centers portable? Runware builds a pod to find out",
+      "titleZh": "数据中心的未来是便携式的吗？ Runware构建一个Pod来查找",
+      "summary": "On Tuesday, AI infrastructure company Runware announced the launch of its own modular data center called Sonic Inference Pod.",
+      "link": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
+      "pubDate": 1785848400000,
+      "vendor": "techcrunch",
+      "category": "Release",
+      "impact": "high",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 4,
+        "cw": 25,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
     },
     {
       "id": "1095480516",
@@ -34,13 +139,13 @@
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "high",
-      "score": 57,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 25,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,13 +160,13 @@
       "vendor": "qwen",
       "category": "Research",
       "impact": "med",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google News"
@@ -487,6 +592,27 @@
       "source": "Google News"
     },
     {
+      "id": "439905084",
+      "title": "Inside our 353,000-person vibe coding course",
+      "titleZh": "在我们353,000人的氛围编码课程中",
+      "summary": "Kaggle’s AI Agents Intensive with Google brought learners together in a no-cost course to build and deploy the next frontier of AI.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+      "pubDate": 1785769200000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google AI"
+    },
+    {
       "id": "2020087623",
       "title": "DeepSeek releases cheaper new AI model as China’s price war intensifies",
       "titleZh": "DeepSeek releases cheaper new AI model as China’s price war intensifies",
@@ -496,13 +622,13 @@
       "vendor": "deepseek",
       "category": "Release",
       "impact": "high",
-      "score": 63,
+      "score": 62,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -611,27 +737,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-854365256",
-      "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
-      "titleZh": "马克·贝尼奥夫（ Marc Benioff ）支持的初创公司认为人工智能可以解决人工智能部署问题",
-      "summary": "June emerged from stealth today with a $20 million pre-seed round to make AI adoption simpler.",
-      "link": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
-      "pubDate": 1785751200000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 40,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "-171402462",
@@ -842,48 +947,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "1444302188",
-      "title": "Sam Altman and AI’s decel debate",
-      "titleZh": "Sam Altman and AI’s decel debate",
-      "summary": "On the latest episode of Equity, we discuss why Sam Altman is calling on the industry to \"pace the rate of AI development.\"",
-      "link": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
-      "pubDate": 1785704062000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 40,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-2092681559",
-      "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
-      "titleZh": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
-      "summary": "Despite a lawsuit from xAI, a Minnesota ban on apps that allow users to “nudify” images can move forward.",
-      "link": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
-      "pubDate": 1785615964000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "-1937431074",
@@ -1222,27 +1285,6 @@
       "source": "Google AI"
     },
     {
-      "id": "-262208980",
-      "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
-      "titleZh": "LFM2.5-用于CPU上快速长上下文推理的编码器",
-      "summary": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
-      "pubDate": 1785250905000,
-      "vendor": "huggingface",
-      "category": "Product",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 15,
-        "st": 14,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
       "id": "890765335",
       "title": "Gemini Robotics 2 brings whole body intelligence to robots",
       "titleZh": "Gemini Robotics 2为机器人带来全身智能",
@@ -1252,13 +1294,13 @@
       "vendor": "deepmind",
       "category": "Product",
       "impact": "med",
-      "score": 47,
+      "score": 46,
       "scoreBreakdown": {
         "cq": 13,
         "kv": 2,
         "cw": 15,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "DeepMind"
@@ -1411,10 +1453,10 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-1566301778",
-      "title": "What is China’s Kimi K3 and why is the US so rattled by it?",
-      "titleZh": "What is China’s Kimi K3 and why is the US so rattled by it?",
-      "summary": "What is China’s Kimi K3 and why is the US so rattled by it? CNN",
+      "id": "1089530523",
+      "title": "What is China’s Kimi K3 and why is the US so rattled by it? | CNN Business",
+      "titleZh": "What is China’s Kimi K3 and why is the US so rattled by it? | CNN Business",
+      "summary": "What is China’s Kimi K3 and why is the US so rattled by it? | CNN Business CNN",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV2lZYXNGZXdPOC1nMXl3UW04QXMzZGdJZWJlWUFGOV92ZVVSUEZVMU1HNUNoSjl2MnVFaF9Hdk1fMC1NN2NhZ1NHd3RJX0xsRDJnZ0JfbXBGN3NWLTlZSVlVSHFoQlo5eXhGNUV1M3RnY0otb184VHN0bGZhTWlpMVhBTQ?oc=5",
       "pubDate": 1784790000000,
       "vendor": "kimi",
@@ -1684,20 +1726,20 @@
       "source": "DeepMind"
     },
     {
-      "id": "888498936",
-      "title": "China's Moonshot unveils world's largest open AI model, closing in on US rivals",
-      "titleZh": "中国的Moonshot推出了世界上最大的开放式人工智能模型，接近美国的竞争对手",
-      "summary": "China's Moonshot unveils world's largest open AI model, closing in on US rivals Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUFBidnJRbHRkSDh4WXNUVlBOY1VmZ3NCSlRhQzEwZWY3dGJfeXlMQ1FWN1FheElOWU0wdFBJZ2p0Y0VDSnd2RDlDSExSQ3lOb19UYkc4Q0d6UEtsQzN4TWg2LWtianhwbEgtZmR4OWs4QU9QbjM3RkJqNHI2TmgzRVRxcXhuRlE4ZHdlRFRvNlBvWUxYUkFQRmZ1Y3NaeWh1V0swM2NHaW5NcEg2UGdiOHFMMzN4bGMweVE?oc=5",
+      "id": "50324622",
+      "title": "China's 2.8-trillion-parameter Kimi K3 beats Claude Fable 5 in Frontend Code Arena benchmark— Moonshot AI delivers largest open-weight AI model ever, as China works around U.S. compute limits",
+      "titleZh": "China's 2.8-trillion-parameter Kimi K3 beats Claude Fable 5 in Frontend Code Arena benchmark— Moonshot AI delivers largest open-weight AI model ever, as China works around U.S. compute limits",
+      "summary": "China's 2.8-trillion-parameter Kimi K3 beats Claude Fable 5 in Frontend Code Arena benchmark— Moonshot AI delivers largest open-weight AI model ever, as China works around U.S. compute limits Tom's Ha…",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNT25TNFlXeVFQMmVqWFYtSS1oSkpEUl9WeExTZUpmZEtFb1RpQ3dRbGxGV1hVWjNpMkRxTlpaQk5NSXNfdzlmYmg1cW5MUGlmR3FpeHV2bmpzMDBXQW1mV1B0N3QzUmZOOFU5T0w1QWFqYldjWnZER0t0UmNzcGZBQll1dWZBNEYyWTV3dnZvMkRzTkhqNHBDak5TTXd4b080eUJGbExOSUVCeU5Cd1ZmUWVXUG1SUQ?oc=5",
       "pubDate": 1784271600000,
       "vendor": "kimi",
-      "category": "Release",
-      "impact": "med",
-      "score": 58,
+      "category": "Research",
+      "impact": "high",
+      "score": 62,
       "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 25,
+        "cq": 22,
+        "kv": 5,
+        "cw": 22,
         "st": 12,
         "rc": 0,
         "cs": 1
@@ -1720,27 +1762,6 @@
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-571418147",
-      "title": "China’s Moonshot AI Adds More Fuel to Wall Street’s Chip Selloff",
-      "titleZh": "China’s Moonshot AI Adds More Fuel to Wall Street’s Chip Selloff",
-      "summary": "China’s Moonshot AI Adds More Fuel to Wall Street’s Chip Selloff WSJ",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTVud1RGOWRKaW1XUkcwaVBvVkVWQ0plMmdKX3ZOOUIzbjJiRlp2WFZ6bmszbDhRYUVYQ3FMaExjWHJ6QVhJaTVmOE9wMlB2YS0wNktFMjBORnUybWxJTGhTVG5Mend0WHh3Q1Njc0stU0dwcHdHZGtaazd6Q2xCM2thb0czeGE4MEJSVm1Rd1hCaW9hSmw1cg?oc=5",
-      "pubDate": 1784271600000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 15,
-        "st": 12,
         "rc": 0,
         "cs": 1
       },
@@ -2018,27 +2039,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "-1660070023",
-      "title": "The latest AI news we announced in June 2026",
-      "titleZh": "我们在2026年6月宣布的最新人工智能新闻",
-      "summary": "Here are Google’s latest AI updates from June 2026.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
-      "pubDate": 1782929700000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
     },
     {
       "id": "64253751",
