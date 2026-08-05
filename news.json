@@ -1,25 +1,88 @@
 {
-  "updated": "2026-08-05T14:45:21.419Z",
-  "count": 115,
-  "sources": 12,
+  "updated": "2026-08-05T16:27:52.899Z",
+  "count": 105,
+  "sources": 11,
   "items": [
+    {
+      "id": "1286525569",
+      "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
+      "titleZh": "Shopify表示，人工智能搜索正在推动更多的流量和销售，而不是取代谷歌",
+      "summary": "Shopify says AI isn’t cannibalizing search traffic the way it has for publishers. Instead, AI-driven traffic and orders to Shopify stores tripled year over year in Q2.",
+      "link": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
+      "pubDate": 1785945374000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-314658423",
+      "title": "Hark previews its browser use agent for completing tasks",
+      "titleZh": "Hark预览其浏览器使用代理来完成任务",
+      "summary": "Hark claims that its browser use agent is faster and cheaper than competition.",
+      "link": "https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks/",
+      "pubDate": 1785944787000,
+      "vendor": "techcrunch",
+      "category": "Agent",
+      "impact": "med",
+      "score": 40,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 12,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1018399095",
+      "title": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals",
+      "titleZh": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals",
+      "summary": "On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
+      "link": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals/",
+      "pubDate": 1785942300000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 43,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-1149406654",
       "title": "Anthropic is hiring an AI chip design team",
       "titleZh": "Anthropic正在聘请人工智能芯片设计团队",
-      "summary": "Anthropic is building a team for designing its own custom AI chips. The Claude-maker said it would co-design hardware and models to help its technology run faster and more efficiently.",
+      "summary": "Anthropic is building a team for designing its own custom AI chips. The Claude maker said it would co-design hardware and models to help its technology run faster and more efficiently.",
       "link": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
       "pubDate": 1785939198000,
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
         "cw": 15,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -67,27 +130,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "203590064",
-      "title": "Alibaba, DeepSeek push China’s AI model race towards lower costs",
-      "titleZh": "Alibaba, DeepSeek push China’s AI model race towards lower costs",
-      "summary": "Alibaba, DeepSeek push China’s AI model race towards lower costs AI News",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTExMbG9EMnNRR1l5NFpLbjNtSzNoX0pPTTVoOEVaSm5WZDJQWTZ3OVJZOGlUYTBSa1FoRlJ1VFdJUFFxaEd1WloyeFRlSVZ0YTdZS01WQjExODNNbnhubzRzNHZpRVl2NndaMzJXTUJ6Z3JnMWRWWmg2SjdjRVNLLTJ6S3NVcnRKc0RncVluMmdnZElnT2Vn?oc=5",
-      "pubDate": 1785924145000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 4,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1539076124",
       "title": "Alibaba Launches 2.4T Parameter Model Qwen 3.8-Max",
       "titleZh": "阿里巴巴推出2.4T参数型号Qwen 3.8-Max",
@@ -97,13 +139,13 @@
       "vendor": "qwen",
       "category": "Release",
       "impact": "high",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -445,27 +487,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "373385343",
-      "title": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
-      "titleZh": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
-      "summary": "The week-old Open Secure AI Alliance, spearheaded by Nvidia and grown to over 120 companies, already has proposals out for defending against AI agents.",
-      "link": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
-      "pubDate": 1785871729000,
-      "vendor": "techcrunch",
-      "category": "Agent",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "-299352283",
       "title": "Third-party cyber evaluations involving OpenAI models",
       "titleZh": "涉及OpenAI模型的第三方网络评估",
@@ -508,48 +529,6 @@
       "source": "Google News"
     },
     {
-      "id": "-823134228",
-      "title": "Spotify expands AI remix and covers project with Merlin partnership",
-      "titleZh": "Spotify与Merlin合作扩展AI混音并涵盖项目",
-      "summary": "Spotify says Merlin, which represents more than 30,000 independent labels and distributors, has joined Universal Music Group in backing its upcoming AI-powered remix and covers product. The paid tool …",
-      "link": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
-      "pubDate": 1785858606000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1065762455",
-      "title": "Texas halts new data centers as governor calls for audits",
-      "titleZh": "德克萨斯州因州长要求审计而停止新数据中心",
-      "summary": "Tech companies and developers have been scouring the U.S. for places to build data centers, and they’ve been drawn to Texas’ loose regulations and seemingly abundant power supply. But even Texas can b…",
-      "link": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
-      "pubDate": 1785858155000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "284586930",
       "title": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use",
       "titleZh": "NVIDIA Alpamayo 2 Super ，面向机器人出租车和自动驾驶车辆的前沿开放模型，现已商用",
@@ -559,13 +538,13 @@
       "vendor": "nvidia",
       "category": "Research",
       "impact": "med",
-      "score": 77,
+      "score": 76,
       "scoreBreakdown": {
         "cq": 28,
         "kv": 13,
         "cw": 22,
         "st": 10,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "NVIDIA"
@@ -580,13 +559,13 @@
       "vendor": "nvidia",
       "category": "Product",
       "impact": "med",
-      "score": 68,
+      "score": 67,
       "scoreBreakdown": {
         "cq": 30,
         "kv": 9,
         "cw": 15,
         "st": 10,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "NVIDIA"
@@ -697,27 +676,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "-1328271999",
-      "title": "China-based hacker employs DeepSeek in autonomous threat campaign",
-      "titleZh": "中国黑客在自主威胁活动中使用DeepSeek",
-      "summary": "China-based hacker employs DeepSeek in autonomous threat campaign Cybersecurity Dive",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaHk2YzBweHZGbEwtYTJxUWI3cVJ3MXg5R0htbFF3cDA2S1NqVThZRVM3dzVZbGVoVmExeHFBOGVYa0F5UGEzVVBzWndNYlZJTVA4MGo2b1ktOGdVWjZmQV9tZWZMaVVBcEIyWkcyLUtyamdURzRuSGtpOG9NSXZudXlCU3c2YWVmRHRKelpB?oc=5",
-      "pubDate": 1785771443000,
-      "vendor": "deepseek",
-      "category": "Agent",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 12,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "439905084",
       "title": "Inside our 353,000-person vibe coding course",
       "titleZh": "在我们353,000人的氛围编码课程中",
@@ -727,79 +685,16 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google AI"
-    },
-    {
-      "id": "2020087623",
-      "title": "DeepSeek releases cheaper new AI model as China’s price war intensifies",
-      "titleZh": "DeepSeek releases cheaper new AI model as China’s price war intensifies",
-      "summary": "DeepSeek releases cheaper new AI model as China’s price war intensifies Semafor",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNU3hCYlVtUENITVY0NW5sX3J0R0dXRFpkSmZndlkwX2h1UWlpbmJaMGQ4UEppZXJqdHd4cXJpVHN1MG82RGs2WGpNOXcybU9QbDFFMWpRX0h0R29rQ2c4OHlqQVI1OERKWFVLYmpLQnF2VVhLNjZJeENMNFdWLWFCRUVVUkx1czhGWE1HaHdZclhEdDZ6OHZsNzNsNFgxZTJzZDJHcDNfcjJmaFl4RjVQSUZqNHhVdw?oc=5",
-      "pubDate": 1785766800000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1360413929",
-      "title": "DeepSeek's latest AI model is by far the cheapest of major models to run",
-      "titleZh": "DeepSeek最新的人工智能模型是迄今为止运行最便宜的主要模型",
-      "summary": "DeepSeek's latest AI model is by far the cheapest of major models to run qz.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LdndDZTBmMElKV1oweFJyeG9OMXRLVWxkc1NJbXNrTFVkUW1TSmZaTUNSRzQ0bHZQSzExX21uTDNST3N2NVFGbENzS3A2a3JTd1FrckVkRXppNWlQblMwY2dnakQ0Mm1hczA3eEUzNFFvNjJBOWc?oc=5",
-      "pubDate": 1785757991000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-579675011",
-      "title": "DeepSeek's V4-Flash undercut rival AI models on operating costs, report shows",
-      "titleZh": "报告显示， DeepSeek的V4-Flash在运营成本方面削弱了竞争对手的AI模型",
-      "summary": "DeepSeek's V4-Flash undercut rival AI models on operating costs, report shows Seeking Alpha",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOb1R3eXlTOExqa1VqdUtWTjhpdjdrMFhiQmFlTDB0NVd0TFJ3Q19BbnJwRnhYN1l3R1hFbnJWUGVIV25HbC1HZ1E1eVBTRTd4c29tZVhIUGM2NUVIM3M3MVJZbnJlV2pEUG9TSWZJYllBNTdTdnluTVViYUJmUzhiYjFsc0x5eno1QnAyRWRaVjExamk5cnRET3ZmclhmVDV3OFhfVTVEZF82U3JzQXF4X0VSOA?oc=5",
-      "pubDate": 1785754711000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1957177209",
@@ -817,48 +712,6 @@
         "kv": 2,
         "cw": 25,
         "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-342403380",
-      "title": "DeepSeek’s V4-Flash Is the Cheapest Well-Known AI Model to Run, Research Firm Finds",
-      "titleZh": "DeepSeek’s V4-Flash Is the Cheapest Well-Known AI Model to Run, Research Firm Finds",
-      "summary": "DeepSeek’s V4-Flash Is the Cheapest Well-Known AI Model to Run, Research Firm Finds Technology Org",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMXhzNENFRzVWZldNNHdxN1lKLVhQUk83M2FTUG1kWjl0b1BRZS1QaVRBVTQwb3NsZ3dXVnpNNlExazB5eVp1c29ITFBVNklCSDQ2MWpGWEZjR2duMFRmWDdJLTkxbmd6WUIzazhFM0RGX3RmRGNmR2xIT0dGLW5aTklNdzY3RmZN?oc=5",
-      "pubDate": 1785752572000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-171402462",
-      "title": "New DeepSeek AI Model 105x Cheaper Than Fable 5—What It Costs Workers",
-      "titleZh": "New DeepSeek AI Model 105x Cheaper Than Fable 5—What It Costs Workers",
-      "summary": "New DeepSeek AI Model 105x Cheaper Than Fable 5—What It Costs Workers Forbes",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTzM3UTZzS0JsX2pMbXZhQURlVlo2bHZOR21xYlBTT0NlT05MSWZSVFd0c2FpckVTZThfRl9RcWxnaVNMdnRRM3h4OE5vMG80MzlycUlGZWNTNWM2UWRoeXVQUUt6b3prSXhRVmpwbXBuOUdQSTBaTlU4emRqbjNEckhkMEZRREpCRFlNMG14MHdMc255V0tCS3dXMkR3Q1dyQ2dUai01S3RnRmdwZVpscW5KUzV6Nm1VdWRydTlLSQ?oc=5",
-      "pubDate": 1785750924000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
         "rc": 1,
         "cs": 1
       },
@@ -949,27 +802,6 @@
       "source": "Google News"
     },
     {
-      "id": "-464609805",
-      "title": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says",
-      "titleZh": "研究公司表示， DeepSeek的新人工智能模型是迄今为止运行的最便宜的知名模型。",
-      "summary": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says Reuters",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTnd6ckhOVUhwcGJjRmxRdlhObS1ncXRhZm9OeVUwaEgwOTg5YmNBTGVWcHZsdXd4dXVrWWdlZGtsYkw0eDIyY1A3NjdSM0o0bFBGUEZRNDF2NjYwZEtCamNpeTFqN3ZaQVlTclNuQWYxNXh4ZVlqaWF3WkNNVk1fbmJXcTdISlBmUVVWS01STmFYZldLSGk5akJQZVB5X09OSzVoVWF4Wko4TEF4cGozQUlWM202dFJWMGxSRTdpcTNaaUp6bmNyZXpWbVRFb2JoSzdCVQ?oc=5",
-      "pubDate": 1785735660000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "6048119",
       "title": "Alibaba unveils Qwen 3.8-MAX AI model; shares rally",
       "titleZh": "阿里巴巴推出Qwen 3.8-MAX AI模型；股市反弹",
@@ -1031,27 +863,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "-1937431074",
-      "title": "DeepSeek's new bargain model accelerates AI's race to zero",
-      "titleZh": "DeepSeek的新讨价还价模式加速了人工智能的零竞赛",
-      "summary": "DeepSeek's new bargain model accelerates AI's race to zero Axios",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04emlXWXpVQXhNcjJsU1d5ZmhnU1J2TFRyeFlxM2hqUUNUNVR2UmxFQUNBanYwWnd5ZUpTRnptVEh2TXU2NU5aa0FRbFV6ejVPd2wxWFNXa3RoaTZPQ0dQSHc0Tkk4WE93Q1JwV0tIWGNBaGNG?oc=5",
-      "pubDate": 1785589463000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "156404667",
@@ -1222,27 +1033,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "-1577921868",
-      "title": "Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks",
-      "titleZh": "中文威胁演员利用人工智能模型进行自主网络攻击",
-      "summary": "Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks Unit 42",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9LV3htRFIydFlrVy1ZelByWWk2RFpkNGlvUWtvVksxcktJZVJkSWJpSjJLd25XbmRmYTN4UjVaTzlCSXB1clVQZzRoelFEdm1yM09Va2szZnQzN3N5cU9BUUpqNGFqUW1hM0llUmV0d3p0VXZkVk90MzFwRTk?oc=5",
-      "pubDate": 1785406262000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1375362750",
       "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
       "titleZh": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
@@ -1252,13 +1042,13 @@
       "vendor": "deepmind",
       "category": "Release",
       "impact": "high",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 25,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "DeepMind"
