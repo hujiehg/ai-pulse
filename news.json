@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-04T23:32:24.537Z",
-  "count": 95,
-  "sources": 10,
+  "updated": "2026-08-05T01:42:51.037Z",
+  "count": 115,
+  "sources": 12,
   "items": [
     {
       "id": "358583031",
@@ -76,13 +76,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -97,13 +97,13 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 12,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -118,13 +118,13 @@
       "vendor": "openai",
       "category": "Research",
       "impact": "med",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 22,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "OpenAI"
@@ -139,13 +139,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -601,13 +601,13 @@
       "vendor": "qwen",
       "category": "Research",
       "impact": "med",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 22,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -622,13 +622,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -676,6 +676,90 @@
       "source": "Google AI"
     },
     {
+      "id": "2020087623",
+      "title": "DeepSeek releases cheaper new AI model as China’s price war intensifies",
+      "titleZh": "DeepSeek releases cheaper new AI model as China’s price war intensifies",
+      "summary": "DeepSeek releases cheaper new AI model as China’s price war intensifies Semafor",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNU3hCYlVtUENITVY0NW5sX3J0R0dXRFpkSmZndlkwX2h1UWlpbmJaMGQ4UEppZXJqdHd4cXJpVHN1MG82RGs2WGpNOXcybU9QbDFFMWpRX0h0R29rQ2c4OHlqQVI1OERKWFVLYmpLQnF2VVhLNjZJeENMNFdWLWFCRUVVUkx1czhGWE1HaHdZclhEdDZ6OHZsNzNsNFgxZTJzZDJHcDNfcjJmaFl4RjVQSUZqNHhVdw?oc=5",
+      "pubDate": 1785766800000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1691273913",
+      "title": "DeepSeek unveils AI model 100 times cheaper than top rivals",
+      "titleZh": "DeepSeek推出比顶级竞争对手便宜100倍的人工智能模型",
+      "summary": "DeepSeek unveils AI model 100 times cheaper than top rivals ITP.net",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVzlXTXdqYzNBNHRGaHFoLTZVR2d0ZndUZVMzdTkySXRWNlFRcEtXRWp5aG1FM3dkU09teFBjRGdZdFhoLTRBZDJ5TTFseWxXeEZhNVdsRlVEMlFjak9Bd2FmdExrYmJqNzlMNGZCR3FvZ2F2RV9WU09QVmVHay1tWVR0dG9ZWUtsa1o5UTlqM2R1Tk9FUXJ0Ug?oc=5",
+      "pubDate": 1785761496000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1360413929",
+      "title": "DeepSeek's latest AI model is by far the cheapest of major models to run",
+      "titleZh": "DeepSeek最新的人工智能模型是迄今为止运行最便宜的主要模型",
+      "summary": "DeepSeek's latest AI model is by far the cheapest of major models to run qz.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LdndDZTBmMElKV1oweFJyeG9OMXRLVWxkc1NJbXNrTFVkUW1TSmZaTUNSRzQ0bHZQSzExX21uTDNST3N2NVFGbENzS3A2a3JTd1FrckVkRXppNWlQblMwY2dnakQ0Mm1hczA3eEUzNFFvNjJBOWc?oc=5",
+      "pubDate": 1785757991000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-579675011",
+      "title": "DeepSeek's V4-Flash undercut rival AI models on operating costs, report shows",
+      "titleZh": "报告显示， DeepSeek的V4-Flash在运营成本方面削弱了竞争对手的AI模型",
+      "summary": "DeepSeek's V4-Flash undercut rival AI models on operating costs, report shows Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOb1R3eXlTOExqa1VqdUtWTjhpdjdrMFhiQmFlTDB0NVd0TFJ3Q19BbnJwRnhYN1l3R1hFbnJWUGVIV25HbC1HZ1E1eVBTRTd4c29tZVhIUGM2NUVIM3M3MVJZbnJlV2pEUG9TSWZJYllBNTdTdnluTVViYUJmUzhiYjFsc0x5eno1QnAyRWRaVjExamk5cnRET3ZmclhmVDV3OFhfVTVEZF82U3JzQXF4X0VSOA?oc=5",
+      "pubDate": 1785754711000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1957177209",
       "title": "Alibaba shares rally after unveiling its 'most powerful' AI model as U.S.-China competition heats up",
       "titleZh": "随着美中竞争加剧，阿里巴巴在推出其“最强大”的人工智能模型后股价上涨",
@@ -697,10 +781,73 @@
       "source": "Google News"
     },
     {
-      "id": "-308196723",
+      "id": "-342403380",
+      "title": "DeepSeek’s V4-Flash Is the Cheapest Well-Known AI Model to Run, Research Firm Finds",
+      "titleZh": "DeepSeek’s V4-Flash Is the Cheapest Well-Known AI Model to Run, Research Firm Finds",
+      "summary": "DeepSeek’s V4-Flash Is the Cheapest Well-Known AI Model to Run, Research Firm Finds Technology Org",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMXhzNENFRzVWZldNNHdxN1lKLVhQUk83M2FTUG1kWjl0b1BRZS1QaVRBVTQwb3NsZ3dXVnpNNlExazB5eVp1c29ITFBVNklCSDQ2MWpGWEZjR2duMFRmWDdJLTkxbmd6WUIzazhFM0RGX3RmRGNmR2xIT0dGLW5aTklNdzY3RmZN?oc=5",
+      "pubDate": 1785752572000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-177668528",
+      "title": "Alibaba unveils biggest AI model as DeepSeek sets new low-cost benchmark",
+      "titleZh": "随着DeepSeek设定新的低成本基准，阿里巴巴推出了最大的人工智能模型",
+      "summary": "Alibaba unveils biggest AI model as DeepSeek sets new low-cost benchmark Daily Sabah",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNlpvQkh2ZW1ERUt5R1VxaDc2UXZQM1lKWVp2MGotc0lTUk9yQlU1N016Tm9IV21mdnZlMG14OUVoRkc0dmtZNGNXTmo1cmpWV2t1M0Y5Q0p2cDhMUVpZakVfSzhyYS1NVHNmaFltYjJ3OVVkZzYxaGpBVkJsM1F1OEZnTm45Yl82ZHl1LVRtMTN5cHdHOEN1QkFrYWk5MDZkTlVCNmdHanhFbDdkNjFlc2JfU2luLU0?oc=5",
+      "pubDate": 1785751860000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-171402462",
+      "title": "New DeepSeek AI Model 105x Cheaper Than Fable 5—What It Costs Workers",
+      "titleZh": "New DeepSeek AI Model 105x Cheaper Than Fable 5—What It Costs Workers",
+      "summary": "New DeepSeek AI Model 105x Cheaper Than Fable 5—What It Costs Workers Forbes",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTzM3UTZzS0JsX2pMbXZhQURlVlo2bHZOR21xYlBTT0NlT05MSWZSVFd0c2FpckVTZThfRl9RcWxnaVNMdnRRM3h4OE5vMG80MzlycUlGZWNTNWM2UWRoeXVQUUt6b3prSXhRVmpwbXBuOUdQSTBaTlU4emRqbjNEckhkMEZRREpCRFlNMG14MHdMc255V0tCS3dXMkR3Q1dyQ2dUai01S3RnRmdwZVpscW5KUzV6Nm1VdWRydTlLSQ?oc=5",
+      "pubDate": 1785750924000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-999735686",
       "title": "Alibaba's new AI claims to match Claude, upping the US-China AI race",
       "titleZh": "阿里巴巴的新人工智能声称与克劳德相匹配，提升了美中人工智能竞赛",
-      "summary": "Alibaba's new AI claims to match Claude, upping the US-China AI race Euronews.com",
+      "summary": "Alibaba's new AI claims to match Claude, upping the US-China AI race Euronews",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTjl0bmpiQ3MxWlZhT0VkaktyWGJOMWE3YXB5a0RuWTRuX0lxUWFWSUF4YldHQWdwa3hIRzFKQ2haM0dZME5TaEt1QUpBUmd4SkcydDlfVFkzSUxMMkZvcWZrVnVHSnl6akI0Z3N2RkFTRjVNdUJsNUwyUTRDQWVQUVM3OW9BNG42UXFFU1pDNGN4WlVSQWdQNE9yNFBGazBoT2J2dlRBVkduYmFqTVNOSWQ3VlMtTEFjRWRTMi1DZw?oc=5",
       "pubDate": 1785745961000,
       "vendor": "anthropic",
@@ -772,6 +919,27 @@
       "score": 57,
       "scoreBreakdown": {
         "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-464609805",
+      "title": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says",
+      "titleZh": "研究公司表示， DeepSeek的新人工智能模型是迄今为止运行的最便宜的知名模型。",
+      "summary": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says Reuters",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTnd6ckhOVUhwcGJjRmxRdlhObS1ncXRhZm9OeVUwaEgwOTg5YmNBTGVWcHZsdXd4dXVrWWdlZGtsYkw0eDIyY1A3NjdSM0o0bFBGUEZRNDF2NjYwZEtCamNpeTFqN3ZaQVlTclNuQWYxNXh4ZVlqaWF3WkNNVk1fbmJXcTdISlBmUVVWS01STmFYZldLSGk5akJQZVB5X09OSzVoVWF4Wko4TEF4cGozQUlWM202dFJWMGxSRTdpcTNaaUp6bmNyZXpWbVRFb2JoSzdCVQ?oc=5",
+      "pubDate": 1785735660000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 20,
         "kv": 2,
         "cw": 22,
         "st": 12,
@@ -853,16 +1021,37 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "-1937431074",
+      "title": "DeepSeek's new bargain model accelerates AI's race to zero",
+      "titleZh": "DeepSeek的新讨价还价模式加速了人工智能的零竞赛",
+      "summary": "DeepSeek's new bargain model accelerates AI's race to zero Axios",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04emlXWXpVQXhNcjJsU1d5ZmhnU1J2TFRyeFlxM2hqUUNUNVR2UmxFQUNBanYwWnd5ZUpTRnptVEh2TXU2NU5aa0FRbFV6ejVPd2wxWFNXa3RoaTZPQ0dQSHc0Tkk4WE93Q1JwV0tIWGNBaGNG?oc=5",
+      "pubDate": 1785589463000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "156404667",
@@ -968,6 +1157,27 @@
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "1564159793",
+      "title": "DeepSeek Unveils Public Beta API for Flagship AI Model",
+      "titleZh": "DeepSeek推出面向旗舰AI模型的公共测试版API",
+      "summary": "DeepSeek Unveils Public Beta API for Flagship AI Model Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR1pZTHVrcm9PbnNRSENDdzlxTlJQVW9OMXE4d1pwYzhGNXJrODZyN0hmRkxKR2ktMjAyU1BDZ0JKZkRPbEZKcVJxRzZXd3pSQUdtMkIzZUlSY2ZXMDE1ZS15bG1VYmNRS190aVViVnJjTFM1X1dTZy1XM2QyMG1ka3htc1dYaTFXa0c5OUZrSmRzZGM5VXpBRFFmZXc1aC1QMEZocjVjVVc?oc=5",
+      "pubDate": 1785480600000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-742375523",
@@ -1997,6 +2207,216 @@
         "cs": 1
       },
       "source": "VentureBeat"
+    },
+    {
+      "id": "251294355",
+      "title": "Technology, recovery, and responsibility",
+      "titleZh": "技术、恢复和责任",
+      "summary": "By Sriram Rajamani, Managing Director, Microsoft Research India We started 2021 with the hope that the COVID-19 vaccines will immunize enough of the world’s population to give herd immunity in the com…",
+      "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
+      "pubDate": 1615961906000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 2,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "1792312368",
+      "title": "Directorate General of Training, Ministry of Skill Development and Entrepreneurship, partners with Microsoft and NASSCOM Foundation to empower students with next generation digital skills",
+      "titleZh": "技能发展和创业部培训总局与微软和NASSCOM基金会合作，为学生提供下一代数字技能",
+      "summary": "The blended curriculum will impact 1.2 lakh students across 3000 Industrial Training Institutes (ITI) in India New Delhi, January 7, 2021: With a vision to empower the next generation of learners, the…",
+      "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
+      "pubDate": 1610002951000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 3,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "58206720",
+      "title": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
+      "titleZh": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
+      "summary": "Multilingual omni-channel service reduces wait time for queries, improves customer satisfaction by 70% New Delhi, January 5, 2021 – Powered by Microsoft Azure, Indian Railway Catering and Tourism Corp…",
+      "link": "https://news.microsoft.com/en-in/microsoft-azure-powered-corover-developed-irctc-ai-chatbot-askdisha/",
+      "pubDate": 1609824612000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1890804461",
+      "title": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
+      "titleZh": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
+      "summary": "• The initiative aims to skill 1 million students in AI by 2021 • The AI Classroom Series will deliver Microsoft’s AI, machine learning and data science expertise to undergraduate students at no cost …",
+      "link": "https://news.microsoft.com/en-in/nasscom-futureskills-microsoft-launch-ai-classroom-series-skill-students/",
+      "pubDate": 1599716180000,
+      "vendor": "microsoft",
+      "category": "Release",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1460121599",
+      "title": "Industry and research – better together",
+      "titleZh": "Industry and research – better together",
+      "summary": "By Sriram Rajamani, Distinguished Scientist and Managing Director, Microsoft Research India at Microsoft Manik Varma, researcher in the Microsoft Research (MSR) India lab was awarded the prestigious S…",
+      "link": "https://news.microsoft.com/en-in/industry-and-research-better-together-sriram-rajamani/",
+      "pubDate": 1598613057000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1887675878",
+      "title": "NSDC and Microsoft collaborate to empower Indian youth with digital skills",
+      "titleZh": "NSDC和微软合作，为印度青年提供数字技能",
+      "summary": "The initiative aims at skilling over 1 lakh youth in the next 12 months New Delhi, July 08, 2020: With a vision to transform India into a skilled nation, the National Skill Development Corporation (NS…",
+      "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
+      "pubDate": 1594186160000,
+      "vendor": "microsoft",
+      "category": "Release",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 4,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "652542494",
+      "title": "Empowering developers to achieve more at the Microsoft Developer Conference",
+      "titleZh": "帮助开发人员在Microsoft开发者大会上取得更大成就",
+      "summary": "New Delhi, June 18, 2020: Underlining the critical role of developers in innovations that will power economic recovery, the Microsoft Developer Conference brought together developers and tech professi…",
+      "link": "https://news.microsoft.com/en-in/microsoft-developer-conference/",
+      "pubDate": 1592461746000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 2,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-150806068",
+      "title": "Microsoft announces program to accelerate growth of agritech startups in India",
+      "titleZh": "微软宣布加速印度农业科技创业公司发展的计划",
+      "summary": "New Delhi, June 03, 2020: Microsoft announced the launch of a program for agritech startups in India that are committed to driving transformation in agriculture. The Microsoft for Agritech Startups pr…",
+      "link": "https://news.microsoft.com/en-in/microsoft-agritech-startups-program-india-launch/",
+      "pubDate": 1591162175000,
+      "vendor": "microsoft",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 5,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "297070690",
+      "title": "Microsoft empowers startups in India to achieve more",
+      "titleZh": "微软助力印度初创企业实现更多",
+      "summary": "Five startups showcase their unique propositions at Future Decoded Tech Summit Bengaluru, February 25, 2020: Startups are an indisputable innovation engine, and Microsoft is partnering with startups a…",
+      "link": "https://news.microsoft.com/en-in/microsoft-empowers-startups-in-india-to-achieve-more/",
+      "pubDate": 1582633175000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 4,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "1830923333",
+      "title": "Myntra accelerates its digital transformation journey with Microsoft Cloud",
+      "titleZh": "Myntra借助微软云加速其数字化转型之旅",
+      "summary": "reimagines online shopping experience for customers Azure powers biggest-ever End of Reason Sale New Delhi, February 19, 2020: Myntra, India’s leading destination for fashion and lifestyle, has partne…",
+      "link": "https://news.microsoft.com/en-in/myntra-digital-transformation-microsoft-cloud/",
+      "pubDate": 1582092103000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 0,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
     }
   ]
 }
