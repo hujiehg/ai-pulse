@@ -1,8 +1,29 @@
 {
-  "updated": "2026-08-05T18:03:06.654Z",
-  "count": 95,
+  "updated": "2026-08-05T20:04:01.362Z",
+  "count": 97,
   "sources": 10,
   "items": [
+    {
+      "id": "175106031",
+      "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
+      "titleZh": "杰夫·迪恩（ Jeff Dean ）和其他顶尖人工智能研究人员将离开谷歌，创办自己的初创公司",
+      "summary": "The legendary Google executive is joined by other outgoing Google execs in a joint mission to use AI to push forward the process of scientific discovery.",
+      "link": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
+      "pubDate": 1785958219000,
+      "vendor": "techcrunch",
+      "category": "Release",
+      "impact": "high",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 25,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "1286525569",
       "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
@@ -88,6 +109,27 @@
       "source": "TechCrunch"
     },
     {
+      "id": "-1860432156",
+      "title": "NVIDIA and Partners Build in America, for America",
+      "titleZh": "NVIDIA及其合作伙伴在美国为美国打造",
+      "summary": "NVIDIA and its partners are investing in American manufacturing, supply chains, energy grids and skilled workforces so the U.S. can produce the infrastructure needed for better healthcare, breakthroug…",
+      "link": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
+      "pubDate": 1785934847000,
+      "vendor": "nvidia",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 10,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
       "id": "83014357",
       "title": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store",
       "titleZh": "MacPaw利用Liquid AI为其应用商店的开发人员构建提供设备上推断",
@@ -97,13 +139,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -144,27 +186,6 @@
         "cq": 18,
         "kv": 4,
         "cw": 25,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1057747250",
-      "title": "China’s Moonshot AI seeks US$50b round as year-end Hong Kong IPO eyed: sources",
-      "titleZh": "China’s Moonshot AI seeks US$50b round as year-end Hong Kong IPO eyed: sources",
-      "summary": "China’s Moonshot AI seeks US$50b round as year-end Hong Kong IPO eyed: sources South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVlphUDdzRGRuSkhBLTYxR3M3bFZlc0NmaXNqaHQ2c1JVV0lCZDA1aU1hNEVBWG1UMFl2NmJxTTAyeDNndmZmZU1uZWc1RFgzTWlfT0pWcDgxUnZRVi1pbm8wUFM4eVFsOTF1dElTeVJZV3lrZlRwdkhtWlhKNW9pMHVlbndOTThIQzJhTFpud0tRVDZuWTVRM09ZaHM5M01XZjRHYjNZdWZnemx4S3BidFpOOVZyR1VyRTVxbk1xbGFmaXph0gHEAUFVX3lxTFBaZlcxSGFkRVVLZjNmMFdTU25mVzhWZmxHWlZqSzc5ZlJpNnZuR0o0OEdFamZIcXJOYjhBeEJ0TGs2cUdYZGVHbWs0OW9OMWZnWVFKOU9fd3hmSkxoYlBiRFdCSUQ1YTRxZGR6d0dtM2V2ZmZvb1k5akx0bTBqTG51MDdkSDgyRTl3ekZlbkgyMGM5UUdFNlliaGdtSEFrd0w2NXA4eWRzM3pvSnp2MUIySUhFVnlzVk1HWXA1czYydHhTRlM?oc=5",
-      "pubDate": 1785914652000,
-      "vendor": "kimi",
-      "category": "Funding",
-      "impact": "high",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 1,
-        "cw": 20,
         "st": 12,
         "rc": 3,
         "cs": 1
@@ -382,27 +403,6 @@
       "source": "arXiv"
     },
     {
-      "id": "1527197415",
-      "title": "Alibaba Just Gave Away Its Best AI Model For Free, Almost Matching Claude and ChatGPT",
-      "titleZh": "阿里巴巴免费赠送最佳人工智能模型，几乎匹配Claude和ChatGPT",
-      "summary": "Alibaba Just Gave Away Its Best AI Model For Free, Almost Matching Claude and ChatGPT Decrypt",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5sWUpmQ3BSVzN2TldzUl9ibGFMSVJ2aDlFNXVaN1BoZDZSV2ZLaDJ5T1RiQ3VvRHBBQ2N2bjZxbkFaU2l3S1RLUTBBSXd0UHl1WGhnQUVTbFVTUmVBLXJ3Qnp5REZIYTl4clBHZnpieW5ZOW9qa3hRT28tUW_SAYQBQVVfeXFMT3RzdUhuSUNzY25RY2gxUExoMHM1b3NnN0RraGhaLW5FRjJuZ2p3LWgxcTkwTmZDSXVaV1o4aXpUblIycnZEMUoyWm9aUXNFTzBoTENZODFua3F2RXBNWFJxWFNzWXN3SXBlcGo5ZF9zUFRxQTEwWUozNV9iU3F0bEV4Wmcz?oc=5",
-      "pubDate": 1785878374000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 15,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "358583031",
       "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
       "titleZh": "今年到目前为止， SpaceX已经购买了价值3.29亿美元的特斯拉Megapacks",
@@ -454,34 +454,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "high",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 1,
         "cw": 15,
         "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1881102646",
-      "title": "Meet Wrinkles, an app that uncovers the hidden stories of the places around you",
-      "titleZh": "认识Wrinkles ，这是一款应用程序，可以揭示您周围地方的隐藏故事",
-      "summary": "Wrinkles, available on both iOS and Android, essentially acts as an AI-powered audio tour guide that reveals hidden history and local stories.",
-      "link": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/",
-      "pubDate": 1785872074000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -496,16 +475,37 @@
       "vendor": "openai",
       "category": "Research",
       "impact": "med",
-      "score": 63,
+      "score": 62,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 22,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "1527197415",
+      "title": "Alibaba Just Gave Away Its Best AI Model For Free, Almost Matching Claude and ChatGPT",
+      "titleZh": "阿里巴巴免费赠送最佳人工智能模型，几乎匹配Claude和ChatGPT",
+      "summary": "Alibaba Just Gave Away Its Best AI Model For Free, Almost Matching Claude and ChatGPT Decrypt",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5sWUpmQ3BSVzN2TldzUl9ibGFMSVJ2aDlFNXVaN1BoZDZSV2ZLaDJ5T1RiQ3VvRHBBQ2N2bjZxbkFaU2l3S1RLUTBBSXd0UHl1WGhnQUVTbFVTUmVBLXJ3Qnp5REZIYTl4clBHZnpieW5ZOW9qa3hRT28tUW_SAYQBQVVfeXFMT3RzdUhuSUNzY25RY2gxUExoMHM1b3NnN0RraGhaLW5FRjJuZ2p3LWgxcTkwTmZDSXVaV1o4aXpUblIycnZEMUoyWm9aUXNFTzBoTENZODFua3F2RXBNWFJxWFNzWXN3SXBlcGo5ZF9zUFRxQTEwWUozNV9iU3F0bEV4Wmcz?oc=5",
+      "pubDate": 1785863809000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "284586930",
@@ -718,6 +718,27 @@
       "source": "Google News"
     },
     {
+      "id": "-308196723",
+      "title": "Alibaba's new AI claims to match Claude, upping the US-China AI race",
+      "titleZh": "阿里巴巴的新人工智能声称与克劳德相匹配，提升了美中人工智能竞赛",
+      "summary": "Alibaba's new AI claims to match Claude, upping the US-China AI race Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTjl0bmpiQ3MxWlZhT0VkaktyWGJOMWE3YXB5a0RuWTRuX0lxUWFWSUF4YldHQWdwa3hIRzFKQ2haM0dZME5TaEt1QUpBUmd4SkcydDlfVFkzSUxMMkZvcWZrVnVHSnl6akI0Z3N2RkFTRjVNdUJsNUwyUTRDQWVQUVM3OW9BNG42UXFFU1pDNGN4WlVSQWdQNE9yNFBGazBoT2J2dlRBVkduYmFqTVNOSWQ3VlMtTEFjRWRTMi1DZw?oc=5",
+      "pubDate": 1785745961000,
+      "vendor": "anthropic",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "615752399",
       "title": "Alibaba Qwen Releases Qwen3.8-Max: A 2.4 Trillion Parameter MoE Model and the Most Capable One in the Qwen Family to Date",
       "titleZh": "阿里巴巴Qwen发布Qwen3.8-Max ： 2.4万亿参数MoE模型，是迄今为止Qwen家族中功能最强的一个",
@@ -760,10 +781,10 @@
       "source": "OpenAI"
     },
     {
-      "id": "-529548436",
+      "id": "-1697001705",
       "title": "Alibaba's new Qwen AI model falls short of 'second only to Fable 5' claim",
       "titleZh": "阿里巴巴新款Qwen AI机型未达到“仅次于寓言5”的说法",
-      "summary": "Alibaba's new Qwen AI model falls short of 'second only to Fable 5' claim Nikkei Asia",
+      "summary": "Alibaba's new Qwen AI model falls short of 'second only to Fable 5' claim asia.nikkei.com",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcTJXZUh1VnNGRFU5WGlaeGxJS3pNZ19vdmNVQkVZM3R6QmpKdml1VGdHaW1OVEl5WS16WEdhbi1EUXhKVGFER3lnY2dYTk82Vm4xdVVLQmVSbkdoNUVicnZTMEdqRm02eU81RzhCclgzSjZJck1LM2JRbk9nQkkyUXg2ckdubGx6bFJwVlFlcWlQZnpIWVJncmt1MUNVbUUybGwyWThlNlFpNVpBUnV6OXAtNi1jM2cxNy03QTNMME5kY1JtUzdaVERZeEtKLUJSSm1zRUln?oc=5",
       "pubDate": 1785735780000,
       "vendor": "qwen",
@@ -907,27 +928,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "-596922497",
-      "title": "Moonshot’s Kimi Built on 20,000 Nvidia Chip Cluster From Alibaba",
-      "titleZh": "Moonshot’s Kimi Built on 20,000 Nvidia Chip Cluster From Alibaba",
-      "summary": "Moonshot’s Kimi Built on 20,000 Nvidia Chip Cluster From Alibaba Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ282X01oVUs5N1JNVE1keDhwLUsyNk85a1VBVEhROXlzU1pQSVVaZDJiWHhSVTFWZFdjMnhUdHpDZm1UU3lKVU9LSjJLaXJNMEUyVHoyMWhhSlZoZlpPTUtEZjFiejQ5QTVHR3ZhSGF2ZzhfZ0xIWTZJbmlpUVdXUlU2bHFGT0hUazllb1RtbFh6c3IyREl4aWl0MmctNERxY1FuQ1dSRHhjSExnSW02NC0wVXFDZw?oc=5",
-      "pubDate": 1785506529000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "284275636",
       "title": "Univé builds an AI-ready workforce",
       "titleZh": "Univé builds an AI-ready workforce",
@@ -1031,27 +1031,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "-1347808310",
-      "title": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export and Chinese import controls to acquire compute",
-      "titleZh": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export and Chinese import controls to acquire compute",
-      "summary": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export and Chinese import controls to acquire compute Tom's Hardware",
-      "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNc3pUREd5Tk9LWC1SSGE2OEUyTWlGYzZYX0lYbjVtTHhqdzIxaFZfRkp4Nm9zNU95LWlQZXVQSGtmS05LQXBjVVhycUFHT1QzWU5GRjQzdVJHQ1FSTXNVTHhPZlU2YUdta3Buc21aZ0FJQWJYSFpzQ0luaDF0bERWdGF0TWxsT3FiSkY3c29LamR1LUpBSFpRcUM5MGlpWTN5S3FIR09EM3c2NkFCRHpvdTF0WGg5V0k3TEVaUlJhc1hhU1dnUmlvUDlkY3JoaUx3RG5FTnEtaEdxYnp3dUpfYkpMUTk4ZzBCS3hOQUgwMXROc1pZYkI2QXlNUEFxNERrX2U4WGpYWU5VZDJCdEFyY3d4XzNOX3pXek5qMWFJWUJjUmNXUHhfZ1VEa0FPdFBzUkhja2diZU1lalVYcVRGaFE4Y2dSVnFtdUIzYTV3?oc=5",
-      "pubDate": 1785319200000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1593125851",
@@ -1222,27 +1201,6 @@
       "source": "HuggingFace"
     },
     {
-      "id": "-352104456",
-      "title": "Yang Zhilin, the rock star founder behind China’s Moonshot AI",
-      "titleZh": "Yang Zhilin, the rock star founder behind China’s Moonshot AI",
-      "summary": "Yang Zhilin, the rock star founder behind China’s Moonshot AI Financial Times",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbUlvRC1OQTRveGd1VWVtaUdpRTZDUWVfNlNWU0pjU1JFTmUzNmlfc1RzSU12cjFnYktTdjVadm5pNms0dXZZWDI2YmVNOHE0YnUxcnNPLTFPQlRyOFJwdzJ1RFc1bWt1ang0cWNhTWhHeHN5NElqdXJrWlBnSl96VEIyT00?oc=5",
-      "pubDate": 1784876400000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1965105272",
       "title": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
       "titleZh": "在人工智能峰会上，韩国与NVIDIA及其合作伙伴勾勒出人工智能的未来",
@@ -1262,48 +1220,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-614190061",
-      "title": "What is China’s Kimi K3 and why is the US so rattled by it?",
-      "titleZh": "What is China’s Kimi K3 and why is the US so rattled by it?",
-      "summary": "What is China’s Kimi K3 and why is the US so rattled by it? CNN",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVGMzc2NleDljRVlmY0J4UFU4Ni1nSm9ZNDhWNDlmZlZ3SjVlTnNuYkx5c3RuQTJqTFFxak5hZ29GeVFOR0h2TGFqbm9KNDNZcWxEdElGSl8zdy1mblJrOF9tUXdyR002QjlDdndJdUZJcDNUV3dibEpMdU9wd1g5NExRM01Nc2V4?oc=5",
-      "pubDate": 1784790000000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1493276743",
-      "title": "China's Moonshot AI stole from Anthropic, Trump tech adviser says",
-      "titleZh": "特朗普技术顾问表示，中国的Moonshot AI从Anthropic窃取",
-      "summary": "China's Moonshot AI stole from Anthropic, Trump tech adviser says BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iWFdWWk1rRjktUk5wZnBrNHBnd0xhU01XRmo1dTV0aHpGWmRDcTJhWndnUzV3R25aT2VjSHZxaWNzUUhWZF9MeVZnSkRZZUlJYXJrc3RBM2Vvdw?oc=5",
-      "pubDate": 1784790000000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1471838759",
@@ -1411,27 +1327,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-1860432156",
-      "title": "NVIDIA and Partners Build in America, for America",
-      "titleZh": "NVIDIA及其合作伙伴在美国为美国打造",
-      "summary": "NVIDIA and its partners are investing in American manufacturing, supply chains, energy grids and skilled workforces so the U.S. can produce the infrastructure needed for better healthcare, breakthroug…",
-      "link": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
-      "pubDate": 1784638847000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "med",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
       "id": "-402539099",
       "title": "Grabette: an open system to record robot-manipulation data",
       "titleZh": "Grabette ：用于记录机器人操作数据的开放系统",
@@ -1493,27 +1388,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "2124842462",
-      "title": "China delivers a one-two punch to America’s AI dominance",
-      "titleZh": "China delivers a one-two punch to America’s AI dominance",
-      "summary": "China delivers a one-two punch to America’s AI dominance The Verge",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcTQ1UEdiYk1ZdGlvRkVOMjJaV083RVhycWt5bUJmMndZczJTY2hzeHIxX05fOUg0SkhCalhCaDBUcFRsN0dfMEVwaTc5bE9UaXUyVHJLLS15ZkY3bS1icGh5T3F6Y3hjZHFLejZXMVFHRFExb1dzVl9HQVFxLVJqZF9zVU9tVm5ONnB0cDVrZkVNcElSRGYzSXRGYi1STlFJUHNVNl8xUHRwekU0VUdTOE9xU2JaX2tSemc?oc=5",
-      "pubDate": 1784530800000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1573518327",
@@ -1810,27 +1684,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "-15770957",
-      "title": "Moonshot AI Launches Kimi Work, a Local Desktop Agent Reportedly Running on Kimi K2.6 With a 300-Sub-Agent Agent Swarm",
-      "titleZh": "据报道， Moonshot AI推出了Kimi Work ，这是一个本地桌面代理，在Kimi K2.6上运行，具有300个子代理的Agent Swarm",
-      "summary": "Moonshot AI Launches Kimi Work, a Local Desktop Agent Reportedly Running on Kimi K2.6 With a 300-Sub-Agent Agent Swarm MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNNjdSaEdTd2puTm9CZ29vOUQ0MEtUZkZ3anBrYldzcHltSTNGTHNYbW44NEI1NDk0bVdFOFpISkNxQU1pTzF5RnB6R3hmRGxqWG0wQzVTajQzd1BHWjhFSmdmTlltcDJVWm9yaDU2cEMzeXFVRGVFaURmYTk0MzJkMURTRzdwVjdvTG5ab3JjMmFqWk5LTzduaXpEeHdrMzJKUkVhZUZ4dm42a21TNG9PZWY2SUxkei1Dbzc4NlJCUUx1STRDckdPMllQZFBLT3dTR2VJRlZXZktvY1hQLVlUZ2Z5aTZPWTIwYW54VVdjMA?oc=5",
-      "pubDate": 1781247600000,
-      "vendor": "kimi",
-      "category": "Release",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1093452510",
       "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
       "titleZh": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
@@ -1850,27 +1703,6 @@
         "cs": 1
       },
       "source": "VentureBeat"
-    },
-    {
-      "id": "-308196723",
-      "title": "Alibaba's new AI claims to match Claude, upping the US-China AI race",
-      "titleZh": "阿里巴巴的新人工智能声称与克劳德相匹配，提升了美中人工智能竞赛",
-      "summary": "Alibaba's new AI claims to match Claude, upping the US-China AI race Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTjl0bmpiQ3MxWlZhT0VkaktyWGJOMWE3YXB5a0RuWTRuX0lxUWFWSUF4YldHQWdwa3hIRzFKQ2haM0dZME5TaEt1QUpBUmd4SkcydDlfVFkzSUxMMkZvcWZrVnVHSnl6akI0Z3N2RkFTRjVNdUJsNUwyUTRDQWVQUVM3OW9BNG42UXFFU1pDNGN4WlVSQWdQNE9yNFBGazBoT2J2dlRBVkduYmFqTVNOSWQ3VlMtTEFjRWRTMi1DZw?oc=5",
-      "pubDate": 1772956800000,
-      "vendor": "anthropic",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1380991222",
@@ -1997,6 +1829,216 @@
         "cs": 1
       },
       "source": "VentureBeat"
+    },
+    {
+      "id": "251294355",
+      "title": "Technology, recovery, and responsibility",
+      "titleZh": "技术、恢复和责任",
+      "summary": "By Sriram Rajamani, Managing Director, Microsoft Research India We started 2021 with the hope that the COVID-19 vaccines will immunize enough of the world’s population to give herd immunity in the com…",
+      "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
+      "pubDate": 1615961906000,
+      "vendor": "microsoft",
+      "category": "Research",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 2,
+        "cw": 22,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "1792312368",
+      "title": "Directorate General of Training, Ministry of Skill Development and Entrepreneurship, partners with Microsoft and NASSCOM Foundation to empower students with next generation digital skills",
+      "titleZh": "技能发展和创业部培训总局与微软和NASSCOM基金会合作，为学生提供下一代数字技能",
+      "summary": "The blended curriculum will impact 1.2 lakh students across 3000 Industrial Training Institutes (ITI) in India New Delhi, January 7, 2021: With a vision to empower the next generation of learners, the…",
+      "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
+      "pubDate": 1610002951000,
+      "vendor": "microsoft",
+      "category": "Release",
+      "impact": "high",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 3,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "58206720",
+      "title": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
+      "titleZh": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
+      "summary": "Multilingual omni-channel service reduces wait time for queries, improves customer satisfaction by 70% New Delhi, January 5, 2021 – Powered by Microsoft Azure, Indian Railway Catering and Tourism Corp…",
+      "link": "https://news.microsoft.com/en-in/microsoft-azure-powered-corover-developed-irctc-ai-chatbot-askdisha/",
+      "pubDate": 1609824612000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "high",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1890804461",
+      "title": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
+      "titleZh": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
+      "summary": "• The initiative aims to skill 1 million students in AI by 2021 • The AI Classroom Series will deliver Microsoft’s AI, machine learning and data science expertise to undergraduate students at no cost …",
+      "link": "https://news.microsoft.com/en-in/nasscom-futureskills-microsoft-launch-ai-classroom-series-skill-students/",
+      "pubDate": 1599716180000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "high",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1460121599",
+      "title": "Industry and research – better together",
+      "titleZh": "Industry and research – better together",
+      "summary": "By Sriram Rajamani, Distinguished Scientist and Managing Director, Microsoft Research India at Microsoft Manik Varma, researcher in the Microsoft Research (MSR) India lab was awarded the prestigious S…",
+      "link": "https://news.microsoft.com/en-in/industry-and-research-better-together-sriram-rajamani/",
+      "pubDate": 1598613057000,
+      "vendor": "microsoft",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 22,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1887675878",
+      "title": "NSDC and Microsoft collaborate to empower Indian youth with digital skills",
+      "titleZh": "NSDC和微软合作，为印度青年提供数字技能",
+      "summary": "The initiative aims at skilling over 1 lakh youth in the next 12 months New Delhi, July 08, 2020: With a vision to transform India into a skilled nation, the National Skill Development Corporation (NS…",
+      "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
+      "pubDate": 1594186160000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "high",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 4,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "652542494",
+      "title": "Empowering developers to achieve more at the Microsoft Developer Conference",
+      "titleZh": "帮助开发人员在Microsoft开发者大会上取得更大成就",
+      "summary": "New Delhi, June 18, 2020: Underlining the critical role of developers in innovations that will power economic recovery, the Microsoft Developer Conference brought together developers and tech professi…",
+      "link": "https://news.microsoft.com/en-in/microsoft-developer-conference/",
+      "pubDate": 1592461746000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 2,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-150806068",
+      "title": "Microsoft announces program to accelerate growth of agritech startups in India",
+      "titleZh": "微软宣布加速印度农业科技创业公司发展的计划",
+      "summary": "New Delhi, June 03, 2020: Microsoft announced the launch of a program for agritech startups in India that are committed to driving transformation in agriculture. The Microsoft for Agritech Startups pr…",
+      "link": "https://news.microsoft.com/en-in/microsoft-agritech-startups-program-india-launch/",
+      "pubDate": 1591162175000,
+      "vendor": "microsoft",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 5,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "297070690",
+      "title": "Microsoft empowers startups in India to achieve more",
+      "titleZh": "微软助力印度初创企业实现更多",
+      "summary": "Five startups showcase their unique propositions at Future Decoded Tech Summit Bengaluru, February 25, 2020: Startups are an indisputable innovation engine, and Microsoft is partnering with startups a…",
+      "link": "https://news.microsoft.com/en-in/microsoft-empowers-startups-in-india-to-achieve-more/",
+      "pubDate": 1582633175000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 4,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "1830923333",
+      "title": "Myntra accelerates its digital transformation journey with Microsoft Cloud",
+      "titleZh": "Myntra借助微软云加速其数字化转型之旅",
+      "summary": "reimagines online shopping experience for customers Azure powers biggest-ever End of Reason Sale New Delhi, February 19, 2020: Myntra, India’s leading destination for fashion and lifestyle, has partne…",
+      "link": "https://news.microsoft.com/en-in/myntra-digital-transformation-microsoft-cloud/",
+      "pubDate": 1582092103000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 0,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
     }
   ]
 }
