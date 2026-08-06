@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T10:29:45.676Z",
+  "updated": "2026-08-06T12:27:27.971Z",
   "count": 115,
   "sources": 12,
   "items": [
@@ -13,13 +13,13 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -475,37 +475,16 @@
       "vendor": "techcrunch",
       "category": "Funding",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 20,
         "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "203590064",
-      "title": "Alibaba, DeepSeek push China’s AI model race towards lower costs",
-      "titleZh": "Alibaba, DeepSeek push China’s AI model race towards lower costs",
-      "summary": "Alibaba, DeepSeek push China’s AI model race towards lower costs AI News",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTExMbG9EMnNRR1l5NFpLbjNtSzNoX0pPTTVoOEVaSm5WZDJQWTZ3OVJZOGlUYTBSa1FoRlJ1VFdJUFFxaEd1WloyeFRlSVZ0YTdZS01WQjExODNNbnhubzRzNHZpRVl2NndaMzJXTUJ6Z3JnMWRWWmg2SjdjRVNLLTJ6S3NVcnRKc0RncVluMmdnZElnT2Vn?oc=5",
-      "pubDate": 1785924145000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
         "rc": 2,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "TechCrunch"
     },
     {
       "id": "-1057747250",
@@ -802,6 +781,27 @@
       "source": "Google News"
     },
     {
+      "id": "-1691273913",
+      "title": "DeepSeek unveils AI model 100 times cheaper than top rivals",
+      "titleZh": "DeepSeek推出比顶级竞争对手便宜100倍的人工智能模型",
+      "summary": "DeepSeek unveils AI model 100 times cheaper than top rivals ITP.net",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVzlXTXdqYzNBNHRGaHFoLTZVR2d0ZndUZVMzdTkySXRWNlFRcEtXRWp5aG1FM3dkU09teFBjRGdZdFhoLTRBZDJ5TTFseWxXeEZhNVdsRlVEMlFjak9Bd2FmdExrYmJqNzlMNGZCR3FvZ2F2RV9WU09QVmVHay1tWVR0dG9ZWUtsa1o5UTlqM2R1Tk9FUXJ0Ug?oc=5",
+      "pubDate": 1785761496000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "1360413929",
       "title": "DeepSeek's latest AI model is by far the cheapest of major models to run",
       "titleZh": "DeepSeek最新的人工智能模型是迄今为止运行最便宜的主要模型",
@@ -970,10 +970,10 @@
       "source": "Google News"
     },
     {
-      "id": "-1311546842",
+      "id": "-464609805",
       "title": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says",
       "titleZh": "研究公司表示， DeepSeek的新人工智能模型是迄今为止运行的最便宜的知名模型。",
-      "summary": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says reuters.com",
+      "summary": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says Reuters",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTnd6ckhOVUhwcGJjRmxRdlhObS1ncXRhZm9OeVUwaEgwOTg5YmNBTGVWcHZsdXd4dXVrWWdlZGtsYkw0eDIyY1A3NjdSM0o0bFBGUEZRNDF2NjYwZEtCamNpeTFqN3ZaQVlTclNuQWYxNXh4ZVlqaWF3WkNNVk1fbmJXcTdISlBmUVVWS01STmFYZldLSGk5akJQZVB5X09OSzVoVWF4Wko4TEF4cGozQUlWM202dFJWMGxSRTdpcTNaaUp6bmNyZXpWbVRFb2JoSzdCVQ?oc=5",
       "pubDate": 1785735729000,
       "vendor": "deepseek",
