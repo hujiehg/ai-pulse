@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-07T23:05:15.454Z",
-  "count": 288,
+  "updated": "2026-08-07T23:57:56.041Z",
+  "count": 290,
   "sources": 12,
   "items": [
     {
@@ -34,13 +34,13 @@
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "med",
-      "score": 57,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 25,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,13 +55,13 @@
       "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
-      "score": 45,
+      "score": 44,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 15,
         "st": 14,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -88,6 +88,27 @@
       "source": "TechCrunch"
     },
     {
+      "id": "-937106851",
+      "title": "China’s Top AI Model Evaded Testing Environment, Researchers Say",
+      "titleZh": "China’s Top AI Model Evaded Testing Environment, Researchers Say",
+      "summary": "China’s Top AI Model Evaded Testing Environment, Researchers Say Bloomberg",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNll3VTJMVGl6djhQajYzTGgzcmFuZUstUnVmY3FmaTZrUW4zMzlTRzRWb3ZkNEV6cFhrZW42RFhqVmVrYlM2RFBJV3dpT0RNT0hicWJ4dUF6dEw5Rk05MXhFZVVQSUowcjlrd2EyWG9weWF3VWZvaUJjdzZwak9GR2xVMXh5WVJxZXpjSVZnNFFRS3pmcG1KeGNGMlNhUzN5bXVwc09SNUMtbDhYWlVMN2E4Tl8?oc=5",
+      "pubDate": 1786117097000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "1238397198",
       "title": "Responding to the next frontier of critical cyber capabilities",
       "titleZh": "应对关键网络能力的下一个前沿",
@@ -107,27 +128,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "-351762268",
-      "title": "Moonshot AI’s Kimi K3 breaks out of sandbox as developers lose control",
-      "titleZh": "Moonshot AI’s Kimi K3 breaks out of sandbox as developers lose control",
-      "summary": "Moonshot AI’s Kimi K3 breaks out of sandbox as developers lose control CryptoRank",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaExSUmR6bU9xeHFJNDVRZHc0VGpLOGE2eF9YYy0tc0dlenFDZlhQT3hZWmU3dlVYLUlDNFNfcy1GSWZROUE4RTJIWUYyVnhlQnRRSHd5dmd0cnZIczEtcVFXRExWeVJRSlpqQVhHaFhzbWV3QjFxMzZSdG1LTmZiOXlpT0FrQQ?oc=5",
-      "pubDate": 1786115660000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1661110588",
@@ -172,20 +172,20 @@
       "source": "Google News"
     },
     {
-      "id": "-705024327",
-      "title": "BABA Stock At Near Two-Month Highs — Kimi AI's Moonshot Reportedly Has A Power Agreement With Alibaba For 20K Nvidia Chips",
-      "titleZh": "BABA Stock At Near Two-Month Highs — Kimi AI's Moonshot Reportedly Has A Power Agreement With Alibaba For 20K Nvidia Chips",
-      "summary": "BABA Stock At Near Two-Month Highs — Kimi AI's Moonshot Reportedly Has A Power Agreement With Alibaba For 20K Nvidia Chips Stocktwits",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS2JaOUJUMmZyYlh4NW1YV1NTVW90S1BJVEFHdGdqQnVYaGczX2RaaHlLYjB4anJadVMtTUU2Z200Tm92Unl0V3dBUjQtNnZ0alBneGlQUE5lTkI0RklNYlRZUzNQX3hDeEtiV1d0andiNTdrWWVVZW1vM1ZMbFhxMlBQTi1GUnphelYzMEpvZlY4cXlsVnQycHQtbkx5bWpWSExGNnlRZ3EtbW9BRnc?oc=5",
-      "pubDate": 1786113334000,
+      "id": "1919882972",
+      "title": "Chinese startup Moonshot's AI model breaks out of testing environment, researchers say",
+      "titleZh": "研究人员表示，中国初创公司Moonshot的人工智能模型打破了测试环境",
+      "summary": "Chinese startup Moonshot's AI model breaks out of testing environment, researchers say Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc2Q3eXFPcENXOWZ2cFkyM0lQUEdyMGhqTTdDbHc5dWZMa0xhV2x1U0RpZ2pUT0d5MjdNNjlHR1ZVRklMZmxnZHA3VHJyRnBJTzhsR2Jpc1dGQ2F2cnQ1VkhsMHBiZ3FQOU5BTWNjVERRdktTRjQ2UEFQMi10VmZIQzNQdzlacXc3U2lrNUJFUHV1djVlRGhvYVhCejRpX0w1dDFkS202MU5hUDBSS285b0Q3TnZORE8xZWJoM0F1VU9HVWR1Qkwzdk93?oc=5",
+      "pubDate": 1786113505000,
       "vendor": "kimi",
-      "category": "Product",
+      "category": "Research",
       "impact": "med",
-      "score": 51,
+      "score": 56,
       "scoreBreakdown": {
-        "cq": 20,
+        "cq": 18,
         "kv": 0,
-        "cw": 15,
+        "cw": 22,
         "st": 12,
         "rc": 3,
         "cs": 1
@@ -193,20 +193,20 @@
       "source": "Google News"
     },
     {
-      "id": "-1405354056",
-      "title": "Kimi K3 Exploits Sandbox Loophole in Alarming Test",
-      "titleZh": "Kimi K3利用沙盒漏洞进行报警测试",
-      "summary": "Kimi K3 Exploits Sandbox Loophole in Alarming Test SQ Magazine",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wU2J5UkhtMDY5Y0M3ckdSWGVRVGQ1Z0dVSjU1LXRkcHhsNl9pRnh3bUFfTVBxOVl1Sjl2X3RtYXJma1RvMlJPMjVWNndRMU1sdHB0TFhGUklOQ3dn?oc=5",
-      "pubDate": 1786112710000,
+      "id": "1375271958",
+      "title": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say",
+      "titleZh": "研究人员表示，中国人工智能模型Kimi逃脱了网络安全测试环境",
+      "summary": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX2NpajBveEZEMlMxOS1TVjlwaDZJYmVmWU1EZnZHbTJBaHZWbkxYdG44aF92TkZ3MW9RUlM2dWlFTFMtTGZXb1R1a0oydzE0YU81WHh4S1pHd3JOaDd5OW5BT1Y4VWItaVBZekVYcFM2T2dMNWlBSjU0eGpnaXJOeDE0bkJSNDFKaVhmdFE5WFMzVEZYWG1BWGJmc1FENl9haTFBdTVFNVRzRVNzS0ZsNUtyQ1ZvdjFWbmc?oc=5",
+      "pubDate": 1786112911000,
       "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 51,
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
       "scoreBreakdown": {
         "cq": 18,
-        "kv": 2,
-        "cw": 15,
+        "kv": 1,
+        "cw": 22,
         "st": 12,
         "rc": 3,
         "cs": 1
@@ -277,6 +277,27 @@
       "source": "Google News"
     },
     {
+      "id": "93680876",
+      "title": "Another AI Goes Rogue as Moonshot’s Kimi K3 Escapes Into the Internet",
+      "titleZh": "Another AI Goes Rogue as Moonshot’s Kimi K3 Escapes Into the Internet",
+      "summary": "Another AI Goes Rogue as Moonshot’s Kimi K3 Escapes Into the Internet TipRanks",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZ2MzZ3llb0Nmc0FDbHlwSXFmeUNpeFdnMlZ4MXVPOFhsa3pNNENDcHBQTHkwby1HT0dFY0xoZzRwVWdTTEYxU3NQdzBnbHhTWmlHZXlrSTF3b1VGcXpkUUcyaTlIY0pBWlM1RTVTeEJsWnVsZzFFSmoyR2wxZWNEZVFsbzRKVlN5WUpBbVhMQ1F1UXltekFGdlpIeE9LZ00?oc=5",
+      "pubDate": 1786109020000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-2096880445",
       "title": "Alibaba is planning to charge big commercial users of its next open-source AI model",
       "titleZh": "阿里巴巴计划向下一个开源人工智能模型的大型商业用户收费",
@@ -298,60 +319,18 @@
       "source": "Google News"
     },
     {
-      "id": "-1206287883",
-      "title": "Moonshot’s Kimi AI model has also escaped from a test environment",
-      "titleZh": "Moonshot’s Kimi AI model has also escaped from a test environment",
-      "summary": "Moonshot’s Kimi AI model has also escaped from a test environment csoonline.com",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMDhaSlRfdWMtamhjSkRLcDBuRGpWQjBhN0JrZDU4M19CMlNpeTFsNFhwS0ZqX2V2SGZvSzBmMUdsWVo1clhQd1p4ZWFPLU12eGVuVnRDczVMbU4zT01mdmJDVWpPa2lNbjV0NmFLN0RkUktGUjZiV3dfUmhlQ0Rxd1dYeGZoWVpIU1lNbENHUTNfLWs5RmlFMkVXVExodXJtVnFqWEI0Y2RzYUFwUUFBRQ?oc=5",
-      "pubDate": 1786106618000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-318577236",
-      "title": "Moonshot's Kimi K3 AI model broke out of a cybersecurity testing sandbox",
-      "titleZh": "Moonshot的Kimi K3 AI模型突破了网络安全测试沙箱",
-      "summary": "Moonshot's Kimi K3 AI model broke out of a cybersecurity testing sandbox qz.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ESTRRQWlkVEJXeHZsR1NkRGhncnZHZWNDdFNwSzVSckQwRUlBeE1zMzdEYTlJZ1RxZ2g5OV9Sb1RVQk9tRDZQcTc1c3k1a0F3dktHbkJRZXp4UGFTS1BjOGxVQ2g5bTQ?oc=5",
-      "pubDate": 1786105321000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "high",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 3,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1719325751",
+      "id": "-1586235936",
       "title": "Alibaba plans to charge big users of its next open-source AI model: Report",
       "titleZh": "阿里巴巴计划向其下一个开源人工智能模型的大用户收费：报告",
-      "summary": "Alibaba plans to charge big users of its next open-source AI model: Report enterpriseai.economictimes.indiatimes.com",
+      "summary": "Alibaba plans to charge big users of its next open-source AI model: Report ETEnterpriseai.com",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNYUZqRlBkZzVSSVFfM2VDcXdxcXJ0bWJmNllXUU04RURlXzZ3aTZ2eTJELUNXOFVBT3MyWWNLR3UxSXZ2MGRiZF9MUVpfVWt2WG8xYy1fYnU1NTZ2aWcydkFpLTU1X3U3bVFhMW1Ia2ZyUC1jcXRwN2MzSzF6YWRqaEU3TU5DYUxLZEhLQmlxTHBELUlubU5kZDY3VFd4ejV3U3l1VGdjcU53RHZkVVZrT2hncUN0RU1XVTE0ZUlmZDk2ZVJ5SUYzRVBRTjY5XzJNMnZzYnBSdDJhLWplV0wzVNIB5gFBVV95cUxNb2cwQVMybng3V3lFZU4zNEhJZTNVVXZqQ0h0SGw2MEl6VV9ZVTdFMnhFWVptWko2WGNWekw4U2N6TXVFQ0ZfN01jRWZPS1pqcUhrOUZSRHMzbHlfVHpqdWlhNGQwTkEwVUxyVzNCQV84aVI2dGtXMmJoUWw0ZHNaQ091c2VDWC1qclhZRnRxSlpCbjZlaDJ4N21fYzRWdjJ1dXFxUWNPdnd3NnhZWFZJa0NIeEFDdGxFc29mTWRZa09LS1hBQTJQbUVqbmZVUXJ2UnMxSmlZU2ZLaXNVS0diVU5faHBiZw?oc=5",
       "pubDate": 1786103967000,
       "vendor": "google",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 57,
       "scoreBreakdown": {
-        "cq": 18,
+        "cq": 16,
         "kv": 0,
         "cw": 22,
         "st": 15,
@@ -380,6 +359,27 @@
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "-2105140046",
+      "title": "Chinese AI Model Moonshot Kimi K3 Also Escaped Its Testing Environment",
+      "titleZh": "中国人工智能模型Moonshot Kimi K3也逃脱了测试环境",
+      "summary": "Chinese AI Model Moonshot Kimi K3 Also Escaped Its Testing Environment Engadget",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdHRWOHRscWZMMDI5N0ZWbV9NOG4xS01HazZ6RTdlSWJvcTNSWGFsaC01cDZDbEZGOEZrSUo1U3lfQjY5WUY4SVYyTjJTOVptMTBRSVBPSU43Y3oxWG1uNzZfWWRYYnBDUllzWVVoTlMwNEtxNXhaQ2N0d0gwZEFiVnB3dw?oc=5",
+      "pubDate": 1786099444000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "797397387",
@@ -529,6 +529,27 @@
       "source": "OpenAI"
     },
     {
+      "id": "346633231",
+      "title": "China’s Kimi K3 AI model escapes a closed cyber test: researchers",
+      "titleZh": "China’s Kimi K3 AI model escapes a closed cyber test: researchers",
+      "summary": "China’s Kimi K3 AI model escapes a closed cyber test: researchers South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQWlxY05iSlRiWm9ISG5HVEVIX01yLTlUbmE4UDRkd1VtNTJfUEg4VE9UMGw5aGtvXzlkeDNVVy1mQVJESXlSOW9McUo1VTVxRU83NGdtT01reVB4aXp5VU9jNnFxSHFidDN5LUtPSUVqaWtGX185V3c3Vm83OHpkaEpWUTlDcnc1SF9QNEtYYmxpalBTd3YxeGl1S2ZNcEZ3MFRHLVhFRkF1d0ZOelhHZkhkZ24tcFp1bS1sM0JUMTAwWnFWSk96VnlsMEFCN21q0gHQAUFVX3lxTFBCZXJtRVB3R2otOVhZTzNtOTNQejJKT2I4ODd6aDdGYXlHYWJlWXVfWGdVcDFQdkpZakRPZDkxNmFDX3Z5dTlYZ0pUREowWmZyTzBwWUt6dkJJU2w1RDFFbU5GckRYNzZMVWtOaGtFSHhNTFZFbnh0bl93a2FfcXoySkNXTXI3dWVmUVdibGp6RjhRSmtmZkFZTk5XYkZxUEZSelY4aWhPUmt4OXFUWTcwWDRNSXh5WW1Cb2VXY2ZKLW5paERxVFJIZlltT0hweGk?oc=5",
+      "pubDate": 1786089606000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "high",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1379884960",
       "title": "'Plot Twists' in Global AI. Google, Frontier Models & DeepSeek. ARD #136",
       "titleZh": "全球人工智能中的“情节扭曲”。Google ， Frontier Models & DeepSeek。ARD # 136",
@@ -541,6 +562,27 @@
       "score": 60,
       "scoreBreakdown": {
         "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1623297171",
+      "title": "DeepSeek invests in Unitree to co-develop AI models for humanoid robots",
+      "titleZh": "DeepSeek投资Unitree ，共同开发人形机器人的人工智能模型",
+      "summary": "DeepSeek invests in Unitree to co-develop AI models for humanoid robots 디지털투데이",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPV1RQZzBFUG95eHVlNlJ6bXUybE45OVF5ekFzWkE3ZS11Q3VOSWVnMElfSDNWYTlYRHFXZzh3NHlzbmdvdjA5aFVoYmdhYUZ1Ykw2ZGE2Vy1PSFpNcEFfRVpYSi1Qd0tsZWlYQzU0WnhlQnQteXVUMzRTcFRfemJFZ3RNU24tZXBEeFM5ODljWEt3b0RKS0lQTUpYVmQycl9qMnY5dDV1UzFGN2piX1oteHhjdkhSY0k?oc=5",
+      "pubDate": 1786084158000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 18,
         "kv": 2,
         "cw": 22,
         "st": 12,
@@ -585,27 +627,6 @@
         "cq": 18,
         "kv": 4,
         "cw": 25,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-332717618",
-      "title": "What Is Kimi? Moonshot AI Business Model, Kimi K3, Funding and IPO Outlook",
-      "titleZh": "什么是Kimi ？ Moonshot AI商业模式、Kimi K3、融资和IPO展望",
-      "summary": "What Is Kimi? Moonshot AI Business Model, Kimi K3, Funding and IPO Outlook mexc.co",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNckItT3NWXzhVckE3aVFhR3hWVk9zZHkyMUdZRnNSRV9ReGoxU3FxY05sTTZDamxDTmNNZmhOcTV5TWhKaVF4UHoyY2lsLV9oclBPWnVqRmZqTUVuSTFydldFYU5nbTliNHhXWU9COUowaFVLMU9Tb3ZsUFAtZTBxVjBPa0V6UjM2RFBYcENDWUp0Y0NBZVJ6VDRzTy01OTdDdUNYc3VDczIyaUk?oc=5",
-      "pubDate": 1786081008000,
-      "vendor": "kimi",
-      "category": "Funding",
-      "impact": "high",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 20,
         "st": 12,
         "rc": 3,
         "cs": 1
@@ -973,18 +994,18 @@
       "id": "-241689768",
       "title": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
       "titleZh": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
-      "summary": "One of China’s Most Powerful AI Models Has Also Escaped Containment WIRED Chinese startup Moonshot's AI model breaks out of testing environment, researchers say Reuters Chinese AI model Kimi escaped i…",
+      "summary": "One of China’s Most Powerful AI Models Has Also Escaped Containment WIRED",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzUHl5MU1HbXJUemVtQWI4MzVQYmtWaUhHU19SMUp3bnFEY1NGaTN0LVpibXhwUTFNamtZMFBuLTNmOFhsN2VMRXRGWU9yMFBLbVlFNkhKVTVNc3JtdXRnY093aDdWaUJhcVhaX2NTQkgxNFhPdWw1SQ?oc=5",
       "pubDate": 1786065360000,
-      "vendor": "kimi",
+      "vendor": "google",
       "category": "Research",
-      "impact": "high",
-      "score": 65,
+      "impact": "med",
+      "score": 57,
       "scoreBreakdown": {
-        "cq": 24,
-        "kv": 3,
+        "cq": 16,
+        "kv": 0,
         "cw": 22,
-        "st": 12,
+        "st": 15,
         "rc": 3,
         "cs": 1
       },
@@ -1012,10 +1033,10 @@
       "source": "Google News"
     },
     {
-      "id": "1332779646",
+      "id": "428314948",
       "title": "Alibaba’s latest AI model puts it back in the great game",
       "titleZh": "Alibaba’s latest AI model puts it back in the great game",
-      "summary": "Alibaba’s latest AI model puts it back in the great game Financial Times",
+      "summary": "Alibaba’s latest AI model puts it back in the great game ft.com",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeUtoZ0x3NVNLSEZsYVFjc0poMlJ2NmN1UGJWR2FicFFhX2ZMMGowYWtUSUNFbjg0dzVubXdmbUNkYkJIaldJdDZPU3JhWDFjVXBPaDdUanBpWHdhR3VvUERkdEhvbTJtUkh4SUNoSF9pX0FYcGFkRlJMUm5Lak5tUWlkZm8?oc=5",
       "pubDate": 1786057203000,
       "vendor": "google",
@@ -1201,10 +1222,10 @@
       "source": "Google News"
     },
     {
-      "id": "-600192656",
+      "id": "-1739366071",
       "title": "DeepSeek Prepares Significant Price Hike: Is the Ultra-Cheap AI Era Over?",
       "titleZh": "DeepSeek准备大幅提价：超便宜的人工智能时代结束了吗？",
-      "summary": "DeepSeek Prepares Significant Price Hike: Is the Ultra-Cheap AI Era Over? Android Headlines",
+      "summary": "DeepSeek Prepares Significant Price Hike: Is the Ultra-Cheap AI Era Over? androidheadlines.com",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVUg1ejNrblZDbU9CRm1LUDVDaGp2LUMtN3haMHM1SDVDdElqbnEwLURnOFFIRVNrQjlGTlB1SnB3VFl2YU1wTkNNNy1SeUswRlZRZGV6LXJYM2JlX2ZIN0hpaWd4ZWEzenVkdWhrWXZlYjZhWGdJWGhrMm5IQ3QxamNvYTN0MVZUaXVqTy0tTFVCSUhfUHNJ?oc=5",
       "pubDate": 1786032025000,
       "vendor": "deepseek",
@@ -1810,27 +1831,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "-1807560689",
-      "title": "Opinion | This is the real AI divide",
-      "titleZh": "意见|这是真正的人工智能鸿沟",
-      "summary": "Opinion | This is the real AI divide The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTFVldndNN2JYZTBQOWFfbmhWa05yUVk3c3NjQk13dFhDZmwxWFlyUE10NWcybml6bFRrVTl6YjBPVGFSY0E3N2dFNDZGTXZHZS03ajlnV3I3eGhsVGMxOFF5UjMtc0pFd2hCcVotVi1OSFBEM29tcmdxSFdoY2JLanRscDBxQ0ZQelFzWFlVbWZaQnVtTVlFWXBObHhqZTlvTVNzTThiTlZWR0tMTzhudHlocw?oc=5",
-      "pubDate": 1785866400000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1527197415",
       "title": "Alibaba Just Gave Away Its Best AI Model For Free, Almost Matching Claude and ChatGPT",
       "titleZh": "阿里巴巴免费赠送最佳人工智能模型，几乎匹配Claude和ChatGPT",
@@ -1852,10 +1852,10 @@
       "source": "Google News"
     },
     {
-      "id": "1022835657",
+      "id": "1196718103",
       "title": "Alibaba, MiniMax to open-source new AI models",
       "titleZh": "阿里巴巴， MiniMax开源新AI模型",
-      "summary": "Alibaba, MiniMax to open-source new AI models manilatimes.net",
+      "summary": "Alibaba, MiniMax to open-source new AI models The Manila Times",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNM2VOU1hkX1l5YjFfZmVpOFhBN0VSWHNQVGFxN3lhOXlGZTBURHNnNG1jbjlneC1qRWg4RGlyeUNTSTRwNXEyaVBjR3Z5dlFndWxaUG13MXk5R0NfYzZvbkl1cjJGMTlWeDJZSnJjcUR5NHF6VXZzTXhMSXdKSXpmMloxMkNHYUJFcktaNVVUbDF4dmpObDFmZ25HbXB4Y1VWSlJQWE5tYW5UZkdiRWE3TXBVdmdoSDBCbUNySkNB0gG-AUFVX3lxTE0zZU5TWGRfWXliMV9mZWk4WEE3RVJYc1BUYXE3eWE5eUZlMFREc2c0bWNuOWd4LWpFaDhEaXJ5Q1NJNHA1cTJpUGNHdnl2UWd1bFpQbXcxeTlHQ19jNm9uSXVyMkYxOVZ4MllKcmNxRHk0cXpVdnNNeExJd0pJemYyWjEyQ0dhQkVyS1o1VVRsMXh2ak5sMWZnbkdtcHhjVVZKUlBYTm1hblRmR2JFYTdNcFV2Z2hIMEJtQ3JKQ0E?oc=5",
       "pubDate": 1785859380000,
       "vendor": "google",
@@ -1915,10 +1915,10 @@
       "source": "NVIDIA"
     },
     {
-      "id": "513627273",
+      "id": "271025860",
       "title": "Alibaba’s Qwen 3.8 Max costs $2 per million tokens — open weights arrive Aug 10",
       "titleZh": "Alibaba’s Qwen 3.8 Max costs $2 per million tokens — open weights arrive Aug 10",
-      "summary": "Alibaba’s Qwen 3.8 Max costs $2 per million tokens — open weights arrive Aug 10 martincid.com",
+      "summary": "Alibaba’s Qwen 3.8 Max costs $2 per million tokens — open weights arrive Aug 10 Martin Cid Magazine",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb3I5dnBKMEwzYnJJSnRjejBrS0FyZ3kwYW52Z1MtWjEyLVd0c1gwb2lEdTZScmRXT3dpVTlpYVhTeWltcGk1c1huZDI2YzNoSThBZlV6VmRzLWRhWV9SWENJZm1SdE4zelpLSW11N2ktUnpnSEZwejBCSFQwSS1CRWcydVRDMUg5LXVZLWtJcUtnWlVJbVloME5UTHR6QlI5WWY5bE5memQyQi11ejBqOVFhd2luUnc?oc=5",
       "pubDate": 1785853737000,
       "vendor": "qwen",
@@ -2020,10 +2020,10 @@
       "source": "Google News"
     },
     {
-      "id": "-1803407508",
+      "id": "-417176775",
       "title": "Box CEO Aaron Levie Warns AI Pricing Could Collapse as Open-Weight Models Like Qwen Close the Gap On Clos",
       "titleZh": "Box首席执行官Aaron Levie警告说，随着像Qwen这样的开放式模型缩小差距，人工智能定价可能会崩溃",
-      "summary": "Box CEO Aaron Levie Warns AI Pricing Could Collapse as Open-Weight Models Like Qwen Close the Gap On Clos benzinga.com",
+      "summary": "Box CEO Aaron Levie Warns AI Pricing Could Collapse as Open-Weight Models Like Qwen Close the Gap On Clos Benzinga",
       "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxPeWxiQ2Z1RHZZcnMxY2Q3Y3FfWjBJY1c5bUtoUnBpLU84UkJXdlFVMmMtdlVrU1l0TE01Ym54Mmt0MzN5RVNjV1B3ZWZIdUs0VWNkbDViYkhTVmYwZHhoczBiUDRqVmQxZEQ3dmF1QnRuSWVuby0wN0dMRWVXTGExUEdqT1hCeWVoTWZOaHQ2bnlYTm9KVjlqc0lXcmo4VHRlcEJXUzVjQWV3UGtuQ2JyaDFJcE1rX2ZseWRMVXhMdXYzM2pYSU95VjQtVXB2Ym5ieE5ldXd1ZldhN20tTkY3b0tmUVZOUjl0Nm91NUxZVWlrZUdfbm5ueThPMm12UmFNVERrTEpLNDVNZ2l5Z240WWZyTThXQmxTdHNDUi1n?oc=5",
       "pubDate": 1785842859000,
       "vendor": "qwen",
@@ -2335,6 +2335,27 @@
       "source": "Google News"
     },
     {
+      "id": "38724265",
+      "title": "Alibaba unveils its largest AI model yet; DeepSeek's latest model is ultra-low cost | Gulf Times",
+      "titleZh": "阿里巴巴推出其最大的人工智能模型; DeepSeek的最新模型是超低成本|海湾时报",
+      "summary": "Alibaba unveils its largest AI model yet; DeepSeek's latest model is ultra-low cost | Gulf Times Gulf Times",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMVVEOEJmRHRlcWQzbExuVy11RUIxMGc2ZS1oa2w4UEdFMUpEN2VTTVRYcjBjZkVlZ1RjeFZ1akt6QUI5TkFZb0VFV19OQTMwS1JXaFNVOEZTNUkwcTZXd3NNeDd4MkpEbGFGdWdfSEg0R1h3VmpyNjVZaWMydjh6NjlvZGdzMkxMMU1VSE1WYVI4emxGcEdWYkdtREZ6Y0lQOHFTbmFIV05qUXNrTnNlQS1vaTExV3F2ZHhSZGwzQzhpTFlFVl9ycEp4Ui3SAdIBQVVfeXFMTlVESlF3dDZvWFpBMVVxN3BwMy1wcVhMSV9BZkMwNzhDSTViVHNQeHA3S1AwUDNzck9Bd1l0TGxVRE9kaDUzNzFqd1RsQmlrclg2SXdjYWhQcEwzQUZrM0s1LUp2dGIyOVFtSHNTUTRNYzAzamVHZUt4a2pmeFdMRHUzVTkxLVMwWkVQWTBuZjRxYUZaV25KN2lNMDkxUndad2Noc1RyRDFVMDFyXzItblFnbHdUZktPcjVvNkNiUFdnRmdrZkQ2N0RMZEl6bFZZWkVB?oc=5",
+      "pubDate": 1785771600000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1328271999",
       "title": "China-based hacker employs DeepSeek in autonomous threat campaign",
       "titleZh": "中国黑客在自主威胁活动中使用DeepSeek",
@@ -2419,10 +2440,10 @@
       "source": "Google News"
     },
     {
-      "id": "1270292907",
-      "title": "Alibaba Qwen3.8-Max claims 16-day autonomous coding run - developer",
-      "titleZh": "阿里巴巴Qwen3.8-Max声称16天自主编码运行-开发人员",
-      "summary": "Alibaba Qwen3.8-Max claims 16-day autonomous coding run developer-tech.com",
+      "id": "-2071838554",
+      "title": "Alibaba Qwen3.8-Max claims 16-day autonomous coding run",
+      "titleZh": "阿里巴巴Qwen3.8-Max声称16天自主编码运行",
+      "summary": "Alibaba Qwen3.8-Max claims 16-day autonomous coding run Developer Tech News",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcFRWOFY2aE16X3NzTk91ZWR0NF9ieEM1RXQ5UW12S3pCb3BPUWk0bzZVd0QydnNCNS1PQUdXYnEwZGZ5R1pldGZPRldlamxUbEhpNWFOaHRZQ1ZvOEpPZDJQQVh0QTlJVFUzUkMxTTdUYjhJbWRhRVR6c2RlVmxZMmNwZEFEcFc1UGZWOTdfUDZZdFlzRmln?oc=5",
       "pubDate": 1785769633000,
       "vendor": "qwen",
@@ -2524,18 +2545,18 @@
       "source": "Google News"
     },
     {
-      "id": "-460670561",
+      "id": "802169618",
       "title": "Alibaba unveils Qwen 3.8 Max as DeepSeek undercuts AI rivals with ultra-low-cost model",
       "titleZh": "阿里巴巴推出Qwen 3.8 Max ， DeepSeek以超低成本模式击败人工智能竞争对手",
-      "summary": "Alibaba unveils Qwen 3.8 Max as DeepSeek undercuts AI rivals with ultra-low-cost model Firstpost",
+      "summary": "Alibaba unveils Qwen 3.8 Max as DeepSeek undercuts AI rivals with ultra-low-cost model firstpost.com",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeG82R0ZocG9VbGdIdHFPMUJMU0RZeEhfRW1XOHlEdGxLSG14T2ZFeDM0aTF4RE1DNUthOExEa1NoMkZ6bXpQci16RTk1RVJpc1RuMmNnUU1rX0xEb285djdTbk9xbFJsRWZaMHJfV2ZEcV9mQVBYTlY3YkMxMGlCaE81UXhXQTlqanBPRXdhMnpDcFE1bGtYYkFzbHQ5YVVIOXRFSHVxazdpam9BY3dLak1rNWRvNnNpeGR0MEFwUnk4Z0tnZVJVclhHMNIB0AFBVV95cUxNOUtKV2hPaWY2U1JPVjNudktKOEh6aENMSk5ZX2F6U2lEU0hSMTNxeWZHdmxuZERKbWMyMkdKTnlEazdneHg5ZS1hMGx5YUxuNGpzWVFEWThSX1plRlo4Q0w3X1k2YlhINk91QVdhQ3diTGpiQWVMSXFEN1pLNDhtYl82OXJ6UzVaenlxaWRteV9ReS1ReDNQSkZYaTdrOG50X1B0YU9ndUVRV2RyLXRXT19aN2QtemJGNVZKWV82OHBYM2xGNnlLLWN1SEJIekNq?oc=5",
       "pubDate": 1785764499000,
       "vendor": "qwen",
       "category": "Release",
       "impact": "med",
-      "score": 65,
+      "score": 67,
       "scoreBreakdown": {
-        "cq": 20,
+        "cq": 22,
         "kv": 6,
         "cw": 25,
         "st": 12,
@@ -2853,27 +2874,6 @@
         "cq": 20,
         "kv": 4,
         "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "529660175",
-      "title": "Alibaba unveils biggest AI model as DeepSeek sets new low-cost benchmark | Daily Sabah",
-      "titleZh": "随着DeepSeek设定新的低成本基准，阿里巴巴推出了最大的人工智能模型| Daily Sabah",
-      "summary": "Alibaba unveils biggest AI model as DeepSeek sets new low-cost benchmark | Daily Sabah dailysabah.com",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNlpvQkh2ZW1ERUt5R1VxaDc2UXZQM1lKWVp2MGotc0lTUk9yQlU1N016Tm9IV21mdnZlMG14OUVoRkc0dmtZNGNXTmo1cmpWV2t1M0Y5Q0p2cDhMUVpZakVfSzhyYS1NVHNmaFltYjJ3OVVkZzYxaGpBVkJsM1F1OEZnTm45Yl82ZHl1LVRtMTN5cHdHOEN1QkFrYWk5MDZkTlVCNmdHanhFbDdkNjFlc2JfU2luLU3SAbwBQVVfeXFMTUFtb3lWa0dSTzBsbzYzSlhrc1RtWEU4aE5tbHlhU0RSa1dZeTNJM25OdTctd21LRDdxdjh6aTZLNzJGT3RNU1FhaFNUTU5UOGJwbjhKTTltLVpBOEg1WlppLTU1cE5lQjJxTzdiejBnc3plNERFNHJWMG5ubzhib3BjS2lpdHR1YXhxMHo4YXJHV2hjem5xMC11UW1Nc3duOGJCUlg3UE5JWmtLYlBSTnNGM2w1aEJwNkF4TUY?oc=5",
-      "pubDate": 1785751860000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 5,
-        "cw": 22,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -3805,10 +3805,10 @@
       "source": "HuggingFace"
     },
     {
-      "id": "-1926112795",
+      "id": "-1443203265",
       "title": "Silicon Valley CEOs take a stand that helps their Chinese rivals",
       "titleZh": "硅谷首席执行官采取帮助中国竞争对手的立场",
-      "summary": "Silicon Valley CEOs take a stand that helps their Chinese rivals washingtonpost.com",
+      "summary": "Silicon Valley CEOs take a stand that helps their Chinese rivals The Washington Post",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcGlQNF9QRFVZd2NBR3BUTHd3SmdVRlhzUWE4Z0hVVElHV0Q3VS13MXNzQy1LdzRvQnNIaFoxNWJGRFQwTlNUMFFjUkhpdkVUNElWVzNQS0o0TVFZRUdXSmN2M2ZvWm9yS0pfdlM4MVI3cExtWjRKWUdtWWNUQkJhUk1weG1ZYmJ6Z2ZTMC1fV0VTQ016VDEySWl3V0V2OENIZnpkOWpuS3luUkJKTjAtdGlB?oc=5",
       "pubDate": 1784876400000,
       "vendor": "google",
@@ -3845,6 +3845,27 @@
         "cs": 1
       },
       "source": "NVIDIA"
+    },
+    {
+      "id": "-614190061",
+      "title": "What is China’s Kimi K3 and why is the US so rattled by it?",
+      "titleZh": "What is China’s Kimi K3 and why is the US so rattled by it?",
+      "summary": "What is China’s Kimi K3 and why is the US so rattled by it? CNN",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVGMzc2NleDljRVlmY0J4UFU4Ni1nSm9ZNDhWNDlmZlZ3SjVlTnNuYkx5c3RuQTJqTFFxak5hZ29GeVFOR0h2TGFqbm9KNDNZcWxEdElGSl8zdy1mblJrOF9tUXdyR002QjlDdndJdUZJcDNUV3dibEpMdU9wd1g5NExRM01Nc2V4?oc=5",
+      "pubDate": 1784790000000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "1471838759",
@@ -4162,10 +4183,10 @@
       "source": "Google News"
     },
     {
-      "id": "-1887808477",
+      "id": "1848251222",
       "title": "‘More serious than DeepSeek’: Chinese start-up kills AI euphoria",
       "titleZh": "‘More serious than DeepSeek’: Chinese start-up kills AI euphoria",
-      "summary": "‘More serious than DeepSeek’: Chinese start-up kills AI euphoria AFR",
+      "summary": "‘More serious than DeepSeek’: Chinese start-up kills AI euphoria afr.com",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcUpuQjh4WEVvQlhVbDV2WDVBSXVsM2lIOWpsZC1BYXdpVUxQcVAzNjZybC16SGFnWG8wSzN1a3gxSHBHLVpuRUVjdG55STE0bTFuV252bDhYQk1JN1MxRnN3RXJPWktRQ3dqNmRUMUVad1hUdzZtblJFMTBkOE5YRllaLVpjenIyODNOTVlRZ0FjN2dMYlA5T0d0YXgtQU1DOXNIaU1LSERzWlktSkRtWUJUdGprMVEwQVZiMA?oc=5",
       "pubDate": 1784530800000,
       "vendor": "deepseek",
@@ -4437,7 +4458,7 @@
     {
       "id": "-1227667067",
       "title": "Apple Intelligence approved for launch in China with Alibaba and Baidu",
-      "titleZh": "Apple Intelligence获准与阿里巴巴和百度合作在中国推出",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 29 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "Apple Intelligence approved for launch in China with Alibaba and Baidu TechCrunch",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZVV1M3NBV3JZb05FUWZ4TTNoZVlXZS13OHdlUnI3YWlrZDQ3SkdnN0hsc2xZSm90Tm9nVV90OFhTdkpmczNLV1hCOGc4UWE2MzBkZ2F5OFh0QkhBa1ZuSWxJTTRTX0JRTWN4YlpsNGI5bkxPX05jeERBazNVTnB1MmhNRnBBNEp5WFEzWkZoc1EtNkMwWl9RaWdkQlczVVZlZHE1czFsRQ?oc=5",
       "pubDate": 1784185200000,
@@ -4500,7 +4521,7 @@
     {
       "id": "-1677150415",
       "title": "Apple Intelligence approved in China with Alibaba Qwen AI model",
-      "titleZh": "Apple Intelligence通过阿里巴巴Qwen AI模型在中国获得批准",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 28 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "Apple Intelligence approved in China with Alibaba Qwen AI model Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQN2NKenRmNW5EdTBxMVg4RVdOOHRUR1VCMDN4RHkwUUFxZmphWGRZLV9Rd2hMR3VrcWNwZFZWMGw2MTM3S2kxTGJJWWRCbGpCZmZmMUFNOU1Dc2VnNnRuOU93RHNLcXhHYVMyMFZGX1VISGxiNlQwMmctczUzWlFUM1E0OVZOMUxSV1hRUjhsMGIxcjlyb1R1SVlacFg5QjhtMExhUGhETnA?oc=5",
       "pubDate": 1784098800000,
@@ -4521,7 +4542,7 @@
     {
       "id": "-238819187",
       "title": "Alibaba Stock Is Jumping -- Apple Picks Qwen AI for China iPhones",
-      "titleZh": "阿里巴巴股价大涨--苹果为中国iPhone挑选Qwen AI",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 28 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "Alibaba Stock Is Jumping -- Apple Picks Qwen AI for China iPhones Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ3lVODgyZzBMdTZQTDhTdHIxMko5eVktZWs0akkzSkVKcWx6dzNkOEJkcEVlTzVWbzBOTEE3YTU1WnZSMzNlSnlzRFNtc1lpUzNBOElaa1pUWEJHU1ZFbFRPbS1Ud0ZtLUFIdVdqSEYxTGVKSm85aEJKTnBkM2ViQThOb2ZHUjUzXzdHT0d6VDhHbGZMU3Z6V2NNYzZ1dw?oc=5",
       "pubDate": 1784098800000,
@@ -4542,7 +4563,7 @@
     {
       "id": "827405406",
       "title": "Celebrating 25 years of visual search innovation",
-      "titleZh": "庆祝视觉搜索创新25周年",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 28 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "Google Images is turning 25. Here’s a look back at some major milestones — and new ways to explore and create visual content.",
       "link": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
       "pubDate": 1784044800000,
@@ -4582,10 +4603,10 @@
       "source": "DeepMind"
     },
     {
-      "id": "-1739935756",
+      "id": "-1081606815",
       "title": "DeepSeek AI review",
-      "titleZh": "DeepSeek AI审核",
-      "summary": "DeepSeek AI review techradar.com",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 27 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "summary": "DeepSeek AI review TechRadar",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9McE45d2hOb2JQR0RXYTgyd2NKLUREYi14RHh5Q2dLVGpoemNNSk1pOUZtUUwyQ3lNeUpySVBWUW5aVkdVNUJqakVBdlcxRGlGUzBqM2VqbmU3Wmdx?oc=5",
       "pubDate": 1783926000000,
       "vendor": "deepseek",
@@ -4605,7 +4626,7 @@
     {
       "id": "834291319",
       "title": "EXCLUSIVE: China's DeepSeek developing its own AI chip, sources say",
-      "titleZh": "独家：消息人士称，中国的DeepSeek正在开发自己的人工智能芯片",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 27 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "EXCLUSIVE: China's DeepSeek developing its own AI chip, sources say Reuters",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSGRQQzRJX0VFTThJbC1JZnM2NUpNVHZQeEhxODdQejNBODNSLXpYMGdvSWxJMVhRSFBEOWplZy1NMU5qSnFxc3dpOEczN01EcVRQSk1mSXo3ejlMaUoxcks3LURaeGZ0Q3EyZ2dBQVN0QkRXNWg0YWpyOXJ2TjUtLVF4elZRU1VqdUVCdEhGNnFfYV9uYTdaT3V4MVFEZ2swRmlfRw?oc=5",
       "pubDate": 1783580400000,
@@ -4626,7 +4647,7 @@
     {
       "id": "-474484405",
       "title": "DeepSeek AI Traffic Jumps To 17% As Startups Cut Costs",
-      "titleZh": "随着初创公司削减成本， DeepSeek AI流量跃升至17%",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 26 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "DeepSeek AI Traffic Jumps To 17% As Startups Cut Costs Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMGhIbFN5bXo2Zi1kQk4wNmVsYkZlMm5PQkZPdnpqTGczS0JPQjVxRkNXUUtUQ3VQSXpZZm5abWpIVXNPZlZtSEZaQnF5LTRaOXJqWkZsYlJ1OFAwQmt4THU3ZVg5UGNXOTVIbzUxZW9UTnA4cmFoLXFhd2lpTEtpNW1vemhPbTBvYm1jYmVxc0dhVjJEUHFR?oc=5",
       "pubDate": 1783494000000,
@@ -4647,7 +4668,7 @@
     {
       "id": "598468957",
       "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
-      "titleZh": "在Gemini API中扩展托管代理：后台任务、远程MCP等",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 26 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
       "pubDate": 1783414440000,
@@ -4689,7 +4710,7 @@
     {
       "id": "-923036018",
       "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
-      "titleZh": "Google DeepMind和A24宣布建立史无前例的研究合作伙伴关系",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 25 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "Google DeepMind and A24 announce first-of-its-kind research partnership",
       "link": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
       "pubDate": 1783088743000,
@@ -4710,7 +4731,7 @@
     {
       "id": "-428704740",
       "title": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
-      "titleZh": "Anthropic称阿里巴巴非法提取Claude AI模型功能",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 25 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities Reuters",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUjhQd2FfckN3bVZ1MS1YQUs1OUJ2R0lsVDREY0tJMlRPbVBTMHFscE92X3B5UnVOajZaYnhsSUhNSHdmNE1md3hIc0FJWWRfcEktajFjTjBkX04tNEIxOVpFajd3eWJJRk05T1d2WTJhRjF5Mkl1TFNjbTJNY0czVGR2bDNFVTdrOUI5czR1dUZpckVzMXdqenJNbGppNjVVWXZNbHpUMlIteTJ1Q3hnSDltTnpSSFBhWmpZ?oc=5",
       "pubDate": 1782370800000,
@@ -4731,7 +4752,7 @@
     {
       "id": "2071403194",
       "title": "Alibaba slashes Qwen AI model price during US working hours in fight for users",
-      "titleZh": "阿里巴巴在美国工作时间大幅下调Qwen AI车型价格为用户而战",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 25 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "Alibaba slashes Qwen AI model price during US working hours in fight for users South China Morning Post",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMno4RkJQQXQ0TS1IeFJGbnVCbGFiYUNWakg4amY1cjFSV0lUMmxJVXRreGRUdHpsb3JSY2RWbk9OdmNmaEJpRHV4aUpkbjh0WFlXb0R3ZHlQOTZ5OU0tTnVSU3ktZnAwbXZUbURfZEVtNENscmV6dklKVHVuZU44Y2ROMHkwbEVOSUN6Uklsb2Z1ZWpuRDdEUFNfaHVhd0RsSklxaUlLNF9VeEMzaXZSa2xMNmhxQjNEa0xKYWRhbUJ2ZVhnVENtRmdoc9IBywFBVV95cUxOb29qSkhUTWlwdnlsRXg3Z2o2LWFfZVA5bmRyODBrTmE1VDRueUxEYzZVNnZjV29QcVpIV1JzSWI5QXF5cHBISDdNM0hhZUhVUkpFOFI1LUZaTmh1Unc4N0NIcXk3cVZidE5VbXRzT3lKZEZmQldzYmx0S1d6c2dZLXNnY21zV3V3YTRWemVBSFI5dmVUSTRaX1RXZElfdzBBQUhtWHN6QVRzX1NFU3pVSkVFeGlVYmdsdDh2LW9ld2dCUHlaOXVCcEtucw?oc=5",
       "pubDate": 1782284400000,
@@ -4752,7 +4773,7 @@
     {
       "id": "169888846",
       "title": "DeepSeek 2.0? New Chinese AI model GLM-5.2 generates buzz in Silicon Valley",
-      "titleZh": "DeepSeek 2.0 ？新的中国人工智能模型GLM-5.2在硅谷引起轰动",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 24 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "DeepSeek 2.0? New Chinese AI model GLM-5.2 generates buzz in Silicon Valley The American Bazaar",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ3ZmcXVnTkVuZTAyVy1MQklDVGxiN1VBbFh2Q3RYNXJfSnZPVVY1bHRQZG1NYkhWXzVDZDBKVWFTSXlYNWVPX19NdWhWUG9EZzRWMXdTcW9YZHhGZC1RVFlnUzlWdE1lY2dEaXA3T2pRdTB0Ty0yTVNnUmJRY1pQVGE2ZldncWg3aHU1Nmh6WlpvbFBlMzdZVmJDMGEzb0tYWlJMOUEyNVBaSEM1?oc=5",
       "pubDate": 1782111600000,
@@ -4773,7 +4794,7 @@
     {
       "id": "1370162408",
       "title": "Update: DeepSeek AI and the Great Talent Competition",
-      "titleZh": "更新： DeepSeek AI与伟大的人才竞争",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 23 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "Update: DeepSeek AI and the Great Talent Competition Hoover Institution",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQmZ1SFhrclk4WG9SWGNkZzlCQmsyd3ZHb2o1b2ZjbkRiYXhleUNQM2NqSTFlUDI1dzF4QkdBZWlVTlAyU0VYUFFLQXpXNVQzVVhBM09reWxwXzRKNFI4RHdkR2hZenh0SlNBWWhCS2lzT3hKdFFkYWY4cVlkcjIycVozWW5EdlhWd2Uw?oc=5",
       "pubDate": 1781593200000,
@@ -4792,10 +4813,10 @@
       "source": "Google News"
     },
     {
-      "id": "-112315913",
+      "id": "702651428",
       "title": "DeepSeek Becomes China’s Most Valuable AI Startup After $7.4 Billion Fundraise",
       "titleZh": "DeepSeek Becomes China’s Most Valuable AI Startup After $7.4 Billion Fundraise",
-      "summary": "DeepSeek Becomes China’s Most Valuable AI Startup After $7.4 Billion Fundraise WSJ",
+      "summary": "DeepSeek Becomes China’s Most Valuable AI Startup After $7.4 Billion Fundraise wsj.com",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZW9fYTRXcDI4QTYzd2s3OVR4S1FHQnNBXzk1NGpqUThndmc4bmxOcExIVURZYXR4ZmEzOWowSmdVZDRILUpxQzZESl9yMlNPTkh1YjRqaG5CQWFDaFJyUFhBWXJkbG90NU1IWGxZcTlOdXZkZGpWbm4tM05hMUpVLTdxVlJ6Qk5lZ2hCZlVFUEwyd0lCX3pZNHRvME1BVktSMDBJTm8yWlJtaV9jYkk3RjM3RUdZR1JEdUE?oc=5",
       "pubDate": 1781593200000,
       "vendor": "deepseek",
@@ -4815,7 +4836,7 @@
     {
       "id": "1113669151",
       "title": "Hong Kong unveils HKGAI-V3 model built on domestic tech and DeepSeek V4",
-      "titleZh": "香港推出基于国内技术和DeepSeek V4的HKGAI-V3型号",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 23 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "Hong Kong unveils HKGAI-V3 model built on domestic tech and DeepSeek V4 South China Morning Post",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMU1BaHJIcnpWdGQydTVhVkwwN01QNWxnYVIxa004RHlSWGtsdHZZMFNmMkhKMHRrUnNnU0FWWXpQczBSX3NTYVlWbl9yMUpvZVl3dkd6VmFod2poM1MxNlRkMVVtZzJCM2pYQVJKSGd5cmFtNmZ2WFNTd3FkVl9QVjFxanhLVVdiLW9VU3V3WmhEaFpFczlpMDIzMy1PcjVMcy1zcERJOFVOOXlONXZxV1J0bHozcElrT2M5dGs2dmp0QdIBwgFBVV95cUxOQXA4LWJsdDN1eHdCenZUSk9TcjlwOUl5TmJYd0xGM1FSU2s0NkdUb2ZkUU1ySTNGeHR6Q2M1eGFPOU5EejR0N0JfbTF4UVZfRWdrd3VReEtVS21nYVEyd3BOeVUzNnlIRmdqWnYtcTBFQXlMRUM0b1p2ekZpY3hQcDZ1MWsxRHpvZ0UtOGtMSkotZE9vSVBRVnoxVHFxdTA3MUVrbkdwUFVxY05VTnhfOXE0R3N0WFhCR1gyRFNMdm9FUQ?oc=5",
       "pubDate": 1780470000000,
@@ -4857,7 +4878,7 @@
     {
       "id": "-851958425",
       "title": "DeepSeek V4 Pro tops global bang-for-buck ranking after 75% price cut",
-      "titleZh": "DeepSeek V4 Pro在降价75%后在全球排名中名列前茅",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 23 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "DeepSeek V4 Pro tops global bang-for-buck ranking after 75% price cut South China Morning Post",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONXRuam1QbWFKZzFUWjlWbjNqUGEwajdTaGYzaTNHTjhiZ3JHS0xFeEQ5aGttZFhNVWJ6TmpPYWJrSHVXOVdRYUJ5ckt5eXlhb0tDcUNWaFh0RVNFcHRRUmZ5ZGNYdDAtZDdZdXo2TTYzR1pwY1NTMkxyZHRhc3lLMENBNFNUX2plOGpLbDVNN0dvSFdqb2k2SDlRaGZsOVFzd2FYbzRNRDBRQkNybTJiM0t4b0k1LTFxS1HSAboBQVVfeXFMTl9nMm1heF9tZmdHWFVZR1d4OVlxQWw5bE5haGpSRFEzM2IyVW1lZ2dJSmNsVF9aZ05Qc09sQ2Zna25aODZyQ18wQzdFV2Z4akxFUjNMRnV0RnppSTJQYVF0R19HZVVvbHEwYWNOVGxWNkZZS2piTmZGbHNqckYtMElIeGF0TU1VbFBlNmFxamFIN0tTM0tBYmRlNGZpRDZXZU85c0RvejBNRFZiSmRHRDJNTjhfWHR2ZGpR?oc=5",
       "pubDate": 1779606000000,
@@ -4899,7 +4920,7 @@
     {
       "id": "-1116372352",
       "title": "Alibaba teases new Qwen previews, highest-ranking Chinese AI models on Arena",
-      "titleZh": "阿里巴巴在Arena上推出新的Qwen预览版，排名最高的中国人工智能模型",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 22 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "Alibaba teases new Qwen previews, highest-ranking Chinese AI models on Arena South China Morning Post",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOb1FrZU5fc0puTlhfcVZBQ0FISmdIZ0VYTmRtdXYwN0pJbHJKZDN1Q3ZXa1RZMXNjSFNBRTVEc0dQY0RGS3BpY1RqXzdES3dhYmwyMHhJdmdyRjVUWkJwbEdXZWg2VUIxWFh1V2ZCemFGTWFMQkJSbllZQVFPaW5EYnA2bnRjbmNET29pczNzbnEzRUhjNzFYbnl3SG1kT3dJUWJjZlpGa1Q2YU5VNFJJNlBQUWxycW9fcDQ1bk5WUEg4RmJ20gHEAUFVX3lxTE5ETEMwbXk0NXdSMl9CcEkxbHNpR1lKcVJWQl9CSGtQZ1YtNmtWUGpSLTBUVE9GOWJoTUR4R2tRaktzeWRtLWRic0JWd0tJTXIwc1NYSzJFakNZQjgxZWMtQVNqRW1Hbnhwdkc3Sk9WUzM5b0M4M3hlNHNhZ0N5RWN2OWpDX2Z6Z3ZObWJrSzAtaEYtaTdGTzdCaEQxWUE2eExQc1E1aENRMlJLbjBLa3FPWmFNZW1YYWJLbkg0T2dmTElWQVU?oc=5",
       "pubDate": 1779174000000,
@@ -4920,7 +4941,7 @@
     {
       "id": "-1578636811",
       "title": "Why DeepSeek V4 is changing the AI model race",
-      "titleZh": "为什么DeepSeek V4正在改变人工智能模型竞赛",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 21 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "Why DeepSeek V4 is changing the AI model race Digital Watch Observatory",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5QcVEzRnVWRno5d2RzYTFQTU5oWk9sUnMxWHE0UDlVT1RBRDdsSDZGQ05PMW50M3lUVFRhbVBGbE4tTHdZV1k1cWhpVHpkbG9zOTJWb3EzZ2hrOVJYMmM1UzZKeG5TVHNTM3ZGSldn?oc=5",
       "pubDate": 1778050800000,
@@ -4962,7 +4983,7 @@
     {
       "id": "1082929012",
       "title": "DeepSeek unveils new AI model tailored for Huawei chips as China pushes for tech autonomy",
-      "titleZh": "随着中国推动技术自主， DeepSeek推出了为华为芯片量身定制的新AI模型",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 21 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "DeepSeek unveils new AI model tailored for Huawei chips as China pushes for tech autonomy Reuters",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUVllcUNPUUdaaW1PZlVEblJFME5Ecnl3R1lvQmYwTVRUdUE2dng2cTdDNUFkTmVkRzNIcEk5WTRKdDJEX3BudElma2hGUjFTTDRTR2xNcndid2VzVmx6Y192Z0FmcDMwVm5nY3ZGY0k3VFVJZFM0dk9vYlhnTGNfU2tlbnRRLVJSbGpXS0J5X1k0MUh1LUZZSE54QUlXNzZLdDNyX3ZicVl0QzA?oc=5",
       "pubDate": 1777186800000,
@@ -4981,10 +5002,10 @@
       "source": "Google News"
     },
     {
-      "id": "-1151959410",
+      "id": "833074177",
       "title": "DeepSeek’s long-awaited new model fails to narrow US lead in AI",
       "titleZh": "DeepSeek’s long-awaited new model fails to narrow US lead in AI",
-      "summary": "DeepSeek’s long-awaited new model fails to narrow US lead in AI AFR",
+      "summary": "DeepSeek’s long-awaited new model fails to narrow US lead in AI afr.com",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWXA5dVpVdUxEMDNPb3I0ZzlQM3RmYWdoTnhnTmFUdHBPMlZLSDJhNDJUM2JSSXpZTkhDSjhqNlZ6Q2tRUmtYZVpBcVYwaTNNWV9aRUQtcDdWcHRNeFFWVEgtV1l6Wm9YaF9xRXZTRHgySFh3ZFJ5eEhqS2JZTG1oMVhwZUJCRFEtdVFFRTR6TUp1aFBpRDJpTkF2NlpJZ3FrcG9WM0w2T25Pc2FpX2ow?oc=5",
       "pubDate": 1777100400000,
       "vendor": "deepseek",
@@ -5004,7 +5025,7 @@
     {
       "id": "1880389854",
       "title": "DeepSeek V4 is here: How it compares to ChatGPT, Claude, Gemini",
-      "titleZh": "DeepSeek V4来了：与ChatGPT、Claude、Gemini相比如何",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 21 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "DeepSeek V4 is here: How it compares to ChatGPT, Claude, Gemini Mashable",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNLXRWZ1ZVaXI5MDBqdWtjLWc0VFB4Y1hMRl84M0FCQ1haa3JvRjBNVnQtUzlxYm5lcm9ScUx3QXVPV2ZjcGoyRWo5Njk1NnEwdXVIZ09ScDd5aFpJLU1JblpObkRIbENvcFh4ZDl6ZkNSVHVuZW9nLUZzNFdiSThyVWlaeF9JeDlI?oc=5",
       "pubDate": 1777068021000,
@@ -5044,10 +5065,10 @@
       "source": "Google News"
     },
     {
-      "id": "500300464",
+      "id": "1998661165",
       "title": "China’s DeepSeek rolls out a long-anticipated update of its AI model",
       "titleZh": "China’s DeepSeek rolls out a long-anticipated update of its AI model",
-      "summary": "China’s DeepSeek rolls out a long-anticipated update of its AI model apnews.com",
+      "summary": "China’s DeepSeek rolls out a long-anticipated update of its AI model AP News",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU2pHYXJUc25BSWltX01IcEhVQUlfMy1aVjhRcERjajZKOThMYkEyQTk4d1UxcjBuazFYNEt6R1ZDLXd2aFZXTEdvTDNYc1hMUkZha29VaGo5WHI1dXljN1Zid3AxdHNoa3hFMlVjMGhfaUdlZXUwTEpfRkdmTFMyMnV1TmFWNjBTLWdoRw?oc=5",
       "pubDate": 1777014000000,
       "vendor": "deepseek",
@@ -5088,7 +5109,7 @@
     {
       "id": "-807368284",
       "title": "China's DeepSeek releases preview of long-awaited V4 model as AI race intensifies",
-      "titleZh": "随着人工智能竞赛的加剧，中国的DeepSeek发布了期待已久的V4车型的预览",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 20 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "China's DeepSeek releases preview of long-awaited V4 model as AI race intensifies CNBC",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd3BGX1RVY2NmcVZoZnpqQ0hDTmdhem9nVE5wLWlKN2lIYzNuVjJtUjdqeU9oWWIxVjY4WG1BU0ctMm5VNURWZmhnU05IQTVnakRJUFJSeHI5dFB0WThCb1h1Q2Fnb3k5aUwyTUd6NEZ3bU1LRWs5OHZvTi1MQlJpVzNMbnRzcDd6UkZxdFlsX0FycjU5SVc4ONIBngFBVV95cUxQWWFDRGp5MGRYM2FYZ0lvN0Y5cTVOSm56QmZQeENWTzdUQzVXOVZIQjVZZy1OcnJLeEFzSklFVEpWdWV6d05POWktN2JIbkJzQnhSZDdtRm1VQzBEbjR3ZjNyQ0VjSkVpenFrWGM5MnFWdndlVTg5OGgwMUpJa0RONnF2em9hdGhycjNGdmpmZHlQSEdudTMyRm1mdjVQUQ?oc=5",
       "pubDate": 1777014000000,
@@ -5109,7 +5130,7 @@
     {
       "id": "2048149594",
       "title": "China's DeepSeek launches preview of new AI model",
-      "titleZh": "中国的DeepSeek推出新AI模型预览",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 20 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "China's DeepSeek launches preview of new AI model dw.com",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5yVWNVNmNtTGlQc1ppV3lZNW55TjJiUVJxOHhOTG9ESWhzeFJQNlZJck9HVXNzX3hkWWhfRnNfTDlmdEx2TGJuRGJvN1pfcndnUFQyUUpnbFA0emdSZHVISDVCNm4xRWY5dlNKWmxMRdIBb0FVX3lxTE84MDl4aHFpdzVZLVZQZ1o1RmFrNzhmMHVWVXo1elpZUG5LWjdvTVFVMnp0aUl4WXNtcGxhR2tOQktaVDg1WU5GVm1kN0oxYVVOWUFMdzNTSlpDVG80SU1Da0FHZVBOZFhQMlZkYVY2Zw?oc=5",
       "pubDate": 1777014000000,
@@ -5130,7 +5151,7 @@
     {
       "id": "753875017",
       "title": "DeepSeek Unveils Flagship AI Model a Year After Breakthrough",
-      "titleZh": "DeepSeek在突破一年后推出旗舰AI模型",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 19 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "DeepSeek Unveils Flagship AI Model a Year After Breakthrough Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYlBaam5rSExHaXJZZEM3WjgydGtwVjJpNjFBY2lkOElwbUEzZS1hSDZVRW9tbVFCdFlfck5iNGJYc21mSTBSbVB1UTREbExCUEFqdDlmZjZiRjh6eVlvTUotTTlPNUcxdUJZWWNUemhGQXVqVmtvdUJZWGJ5V3pLUzNQYlIzWnIzcnFmNFZMbkJxTVZ0Q0xaRzZDRkIzdzZHZmlkMGpZdml3enNNX010dW5B?oc=5",
       "pubDate": 1777014000000,
@@ -5151,7 +5172,7 @@
     {
       "id": "-132182614",
       "title": "US-China AI race intensifies as DeepSeek releases 'reduced' cost model",
-      "titleZh": "随着DeepSeek发布“降低”成本模型，美中人工智能竞赛愈演愈烈",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 19 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "US-China AI race intensifies as DeepSeek releases 'reduced' cost model France 24",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOV1B1X3BGd1JSU0lBWjVtVEp0S0tiTzhCU2pHRkVlVEswRW45U1BFdjRQZHBQNlB2Y1VWOFJGU21NRnF2dnhQNHo1MnJiUUZucXRoWWdlbUdQR04ySmUzaTFzM3JycnJMTlZrbnNPMW83MXRvdkptM2FxdWNPZ1ZpZXZyQ2tUYlJ3NExqRHBXejJ6Mlhrek9TUW42MXVVLVpNQU5PNW1UbUlWQXNrTTQ3b2NQRDVtc2JCSUdDdA?oc=5",
       "pubDate": 1777014000000,
@@ -5172,7 +5193,7 @@
     {
       "id": "1452788226",
       "title": "DeepSeek-V4, the Chinese AI model adapted for Huawei chips",
-      "titleZh": "DeepSeek-V4 ，适用于华为芯片的中国人工智能模型",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 18 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "DeepSeek-V4, the Chinese AI model adapted for Huawei chips Reuters",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWHNGM0lqMWwzNGo5QXFCYjBNYzlKc0VWT05hOUg0RWVscnlHRnVVVWMtS1hEOWtuSzQ3SUVyT2hTZWJZR18tSkRSVXhzWnhsMnNuakM0ZmNHMzlmMGt6MDBWODhsdUZRWVR3eGRnZVJaS2t1Nl9hd200QUduM2ZMb0tEMWl4Tzd5dk8wQnE5OTJVaTU1TEk4bHlRNEZSUQ?oc=5",
       "pubDate": 1777014000000,
@@ -5193,7 +5214,7 @@
     {
       "id": "-1741684126",
       "title": "DeepSeek V4 Pro is the #1 open weights model on GDPval-AA",
-      "titleZh": "DeepSeek V4 Pro是GDPval-AA上排名第一的开放权重模型",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 18 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "DeepSeek V4 Pro is the #1 open weights model on GDPval-AA LinkedIn",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUEV3R3VrMi0wR2FjdzV2cmJKbkZYWGE0Tmo4OTl0TUt4OFkxa0d4emN6Y29zR3FLTnE5RVNuQmxZbmJJSGF6UHJCNnNoTWlucWJkN0k5eE5NVjVDMXhHRUk2endNb1ZpUk1qZHVLRkMyTi16YlVNZjNGRkVFVjEtNUN5R0w1ejhxeVo2OE1tczhWUU9leWxzTjhFZjFqcVpmTlFfR3hn?oc=5",
       "pubDate": 1777014000000,
@@ -5235,7 +5256,7 @@
     {
       "id": "-2117993412",
       "title": "Build with DeepSeek V4 Using NVIDIA Blackwell and GPU-Accelerated Endpoints | NVIDIA Technical Blog",
-      "titleZh": "使用NVIDIA Blackwell和GPU加速端点使用DeepSeek V4构建| NVIDIA技术博客",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 18 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "Build with DeepSeek V4 Using NVIDIA Blackwell and GPU-Accelerated Endpoints | NVIDIA Technical Blog NVIDIA Developer",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcm83QlFwRXlfWHhmOTNib0UyYjlmSlNwX1RnVlVQV2ZUbi1TcnIxc1lKVllNdUt5VlU4M0VjVTdIbG9ETVQtUnNrVE40OEFPTFdFbDVxV3lSMGFsQjFObS1kS2Q3QnNEYkJJUVlzMHNJQ01OT2ZrbGhMYUdaUlYzWV8wd1RCZWxKYXZNUGstYkpUa3FRelVXeWZFVFppS0s4WmFrX1NuWEV4YVlaenFz?oc=5",
       "pubDate": 1777014000000,
@@ -5275,10 +5296,10 @@
       "source": "Google News"
     },
     {
-      "id": "654083944",
+      "id": "103177990",
       "title": "DeepSeek returns with new AI model amid US-China tech rivalry",
-      "titleZh": "在美中科技竞争中， DeepSeek以新的人工智能模式回归",
-      "summary": "DeepSeek returns with new AI model amid US-China tech rivalry Türkiye Today",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 17 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "summary": "DeepSeek returns with new AI model amid US-China tech rivalry turkiyetoday.com",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcll0V25GZ0lWRnA4c3UzRnhWSW1pY1FDbmhCYlk3Wm9NRkRxMHFPQ3NaM2NnbE5JRUxCU3l5Nnd1MHZOTFplR2wtSjJnSnFSYi1CVUxzdkdiSzh5T2lJZTlRMFFyMUtzUy1hTWZ0VGR3T1ljQmZuV3hqYjZYMDhKc3BEN3k2Mjh5Z25xUGVPUmE3c2VKNVlURVNydXhGMTZTc2lkeG1yYnpSa2c?oc=5",
       "pubDate": 1777014000000,
       "vendor": "deepseek",
@@ -5319,7 +5340,7 @@
     {
       "id": "-965748400",
       "title": "DeepSeek-V4 arrives with near state-of-the-art intelligence at fraction of the cost of Opus 4.7, GPT-5.5",
-      "titleZh": "DeepSeek-V4以接近最先进的智能技术推出，成本仅为Opus 4.7、GPT-5.5的一小部分。",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 16 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "DeepSeek-V4 arrives with near state-of-the-art intelligence at fraction of the cost of Opus 4.7, GPT-5.5 VentureBeat",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNS0N0YmpHV29teWlaeWp4aW12dTlzS3c2OVFqc1YyekdSRkVRRjNHeVE5MGhBa1lCLWV2NVhFNU9zNXdJemVpcFljR2lyMzQzZU5LQlVXTFIxSHJ2b2RlSTVIZnpaR21aRTFxWHR4aUM4V3dFRUxZa0w4TUViZ0RSVWVITEx1V1A2cWJIcXh3V05tOWwxQmh2ZFZ0TVd6Wi15dGk1emFWMTJTRHFKd0hxamo5T2I1WHBxc3BjbkxRRUFBcE1YMVA3ZGVCbjM?oc=5",
       "pubDate": 1777014000000,
@@ -5331,6 +5352,27 @@
         "cq": 20,
         "kv": 6,
         "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1080496623",
+      "title": "China’s DeepSeek launches new AI model",
+      "titleZh": "China’s DeepSeek launches new AI model",
+      "summary": "China’s DeepSeek launches new AI model Semafor",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUXIwdXNyTi1hbDJSdmtKQTQ3WC1MV0FMVXJMRnM0R0VOQTJiSWpybzFqS0swOXFCTjREam1lRjMtS0V3bGFLOHRPM1NWQkZKN1F2VTZkaDMxbUh5ak5ScFdDemRsenRGZnBjMm1QVkprY01DZlNwMWxUU1hUV2VlcmJ1bUlhNjQ?oc=5",
+      "pubDate": 1777014000000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 4,
+        "cw": 25,
         "st": 12,
         "rc": 0,
         "cs": 1
@@ -5361,7 +5403,7 @@
     {
       "id": "-1234635617",
       "title": "China's DeepSeek AI chatbot suffers longest outage since viral rise in early 2025",
-      "titleZh": "中国的DeepSeek人工智能聊天机器人遭遇自2025年初病毒式崛起以来最长的停机时间",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 16 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "China's DeepSeek AI chatbot suffers longest outage since viral rise in early 2025 Reuters",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPd3VuNmlYcXgwTkl5dzRCSzBQVHVRUjgxSV9FN210WThyUnNTZ3JBa055MXpTVGdSZHd6ak9vUUZzNEpKZDIyQndsakhzVHNkdGNrdW5DX3NpdTNNNXlYdzBJTjkwR25BU1dLRlRleU9xTDZzUjJJQzBYcVJCbWpsRVp6cEdGTmZlQ2xGOTRQZEozNm5FY21iNVA5dWc1aHF2bUVSRUFUYWQ0Q05vVzBGbGVMVFp3UjZJWHBCaFdxUmZJUQ?oc=5",
       "pubDate": 1774767600000,
@@ -5382,7 +5424,7 @@
     {
       "id": "1551082635",
       "title": "DeepSeek to release long-awaited AI model to challenge ChatGPT",
-      "titleZh": "DeepSeek发布期待已久的人工智能模型，挑战ChatGPT",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 16 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "DeepSeek to release long-awaited AI model to challenge ChatGPT Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRkF0eE9HenI4ZVgwaGl2TGkwQnlfOWQxVGNaRGg3amh0X1BMUFQtSS1MTWRJb3Q3RF9wMnJVODFEUlZ0VHFnX1NJTUtzTnpGeHVjUVBLWFpuUGhDZlRBb2pUeWs4R3JRcTFMLXRMRXYwbnRhdEZNMHdsUGZCcXlLYmJRU20?oc=5",
       "pubDate": 1772438400000,
@@ -5403,7 +5445,7 @@
     {
       "id": "1929117073",
       "title": "DeepSeek Poised to Unveil Latest AI Model",
-      "titleZh": "DeepSeek准备推出最新的人工智能模型",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 16 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "DeepSeek Poised to Unveil Latest AI Model PYMNTS.com",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOVpKeml5OU03SGdrS0w5cEFKT0RxUVBQYzh3YzBDRG9nelZQd2hNQTdTZE9SUkRkdWlTbThLQTV0RnZBdVJPXzUyblJNT0tjTTJza2sxRnVVdzZCMmFEYXhVYWNDNGFqQjRHN3ZpNFQ2c1gwTmtMay11OENsMzUwRW5hejVzSlJHWDZ2ZkQzd21CQ1VQOHhKY0xJVXFKRUJX?oc=5",
       "pubDate": 1772352000000,
@@ -5422,10 +5464,10 @@
       "source": "Google News"
     },
     {
-      "id": "-719515832",
+      "id": "-237536894",
       "title": "DeepSeek to release long-awaited AI model in new challenge to US rivals",
-      "titleZh": "DeepSeek将发布期待已久的人工智能模型，迎接美国竞争对手的新挑战",
-      "summary": "DeepSeek to release long-awaited AI model in new challenge to US rivals Financial Times",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 14 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "summary": "DeepSeek to release long-awaited AI model in new challenge to US rivals ft.com",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY3BPTkJuYUx2WmpNUTZ2MUhBYk1iYU00WlVQWldKWjV5WFUwX2VrMF9SM0c2bC1TdllXSDl2Y1N3UU5CcUxTSGVHb0ZlZlhHS2pnVmdEa2tSSFpSQ0tpLVI4MHEwNUlOWUd3RXhoS0Y0YlhhbkVpejFfUTVtcWV6aGFKZkg?oc=5",
       "pubDate": 1772179200000,
       "vendor": "deepseek",
@@ -5445,7 +5487,7 @@
     {
       "id": "-1247038488",
       "title": "DeepSeek withholds latest AI model from US chipmakers including Nvidia, sources say",
-      "titleZh": "消息人士称， DeepSeek从包括英伟达在内的美国芯片制造商那里扣留了最新的人工智能模型",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 14 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "DeepSeek withholds latest AI model from US chipmakers including Nvidia, sources say Reuters",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZmcycGJtVHZxelpFYjVibVpKcnF5V1JWMkRJS1p0eHdiNHM1cm9tRUNLZVdTeFJMRmkxdE50UVVjbFpSNUo5Z3ZGN1EtZlZtdHA2QXMzNVh4T09hUTJodExLOWNUallOZV9FNVZncWR3T040dFdCc3psR20tOFV4QkFiQm10Q2NMRXFBWVIxYWZ4Rmo0NGx4V09kb19HLWl4SEYyWm5OOW9RN2J1QktacG9FS0RtdlBpT3k1a085ZjFkaWs?oc=5",
       "pubDate": 1772092800000,
@@ -5466,7 +5508,7 @@
     {
       "id": "238695767",
       "title": "DeepSeek-R1: Why This Open-Source Reasoning Model Is Breaking the Internet",
-      "titleZh": "DeepSeek-R1 ：为什么这种开源推理模型正在打破互联网",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 14 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "DeepSeek-R1: Why This Open-Source Reasoning Model Is Breaking the Internet SitePoint",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5La0ZKNDZ1RkEyYkNpM2s5Vm54azNaelh6Z2JLdFhqdnJoWklMS3BzdXkwTUw2S0toRlZDdkdjcU9PNmlyWk0xVE1GSW5qZ0dmZFpYMGpCWXp6UUVyMnFaYlJGTl9DS1FGcDBsMw?oc=5",
       "pubDate": 1772006400000,
@@ -5487,7 +5529,7 @@
     {
       "id": "610383881",
       "title": "China's DeepSeek trained AI model on Nvidia's best chip despite US ban, official says",
-      "titleZh": "中国的DeepSeek在Nvidia最好的芯片上训练人工智能模型，尽管美国禁止",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 14 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "China's DeepSeek trained AI model on Nvidia's best chip despite US ban, official says Reuters",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYko5c1BzTGVuUV9VZl9CMGczWm5RdThBeW00Mm5BX3NDb2Z6XzZuNGstMWs1Y2pSZS1wcWdndEZBc3YwSEtNT0ZnXzNjUUFncWN5eHFEbXZ1ZmEyR3M3dFg2TU5tZzQ0QXdhZTJhTXJGSWxyXzRMcDJxZllwRXgxQTFhbkZ2RjFJbDViNmd2enRZWGtZcVV1cE9nUXFUNFQtQzFoZ01lRkc3YTlueXhwZVUxQTVkeDBfTlZmaWxlX1g0X0tCRFE?oc=5",
       "pubDate": 1771920000000,
@@ -5508,7 +5550,7 @@
     {
       "id": "1079436892",
       "title": "OpenAI says China's DeepSeek trained its AI by distilling US models, memo shows",
-      "titleZh": "OpenAI表示，中国的DeepSeek通过提炼美国模型来训练其人工智能，备忘录显示",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 13 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "OpenAI says China's DeepSeek trained its AI by distilling US models, memo shows Reuters",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOS1JWNDM3elpGZUJXbnA3bS04V0FicHdfV0hyNll1QTg4cmoxWElkVUtrYkcwZnEwYzhZOWpQdE9rU1ZrQ1AyLUtoekRXbFoxTmFtbS1zRzAtaXlabzB0eXN1TlpnQktIVV8wOUtuU1BleWlWZl9BNjVTdkQzdEVISWpnZE5DQ194T2RFMWhMQUpDVVBjU0ZqWUNrZ05qblNxblJOQlgtQlJzSTJ6Ty1rQ1JFdXpKMURLczB4dnVYVQ?oc=5",
       "pubDate": 1770969600000,
@@ -5550,7 +5592,7 @@
     {
       "id": "-2011290945",
       "title": "DeepSeek boosts AI model with 10-fold token addition as Zhipu AI unveils GLM-5",
-      "titleZh": "随着Zhipu AI推出GLM-5 ， DeepSeek通过添加10倍代币来提升AI模型",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 12 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "DeepSeek boosts AI model with 10-fold token addition as Zhipu AI unveils GLM-5 South China Morning Post",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUS1yUzlDZTVxQkhnMDg2MlF3NURXVEMwbERTZmtKNHpkQTNxd2o3ZG1JYjl6Qm1vSExsLXhlYm02YUtCclp2dWNmOWR5eWx3WmNwZnNoOXRnVzNRcF9SdG40c3pFTUxWMGlldlBTQlI2VnlBdW40cTFGVXlSQU5hMGJHUURCcHlFa05HVDZfeVplS2pETDdJNTVmUXhvRXNQQk1ZekdGS1VSWHZtN2RqZGxNZG1SNmY1S2I3LVlYZ2lBV0QxTVB6ctIByAFBVV95cUxPTTQ5ZUF1TmNuSy1MWUNkSVg2Q1hCcDNhSEoxLXAxWll3ZGo2YTF3M0VuMGpjZDRXaWFJUk1aVGxacUQxVWhpcGZ2akZ6QzYybWxwbDRMUFB4eFQ0cDJORW1rOVdDa0RRTU9DZjBORGV0c0QtVFNXbUlTMnFsbHBrQW5jVVFIbElpUGRLa3dJVmxVYmJTeGhaNlRzN2xEQTFzZ0tPcmdBVFlRTFZvdFlubVo5aE9XTTJiSl9BeDhhRWpNeFR2YWRiWg?oc=5",
       "pubDate": 1770796800000,
@@ -5569,10 +5611,10 @@
       "source": "Google News"
     },
     {
-      "id": "-208982909",
+      "id": "-443597589",
       "title": "DeepSeek V4 Is Coming This Month. Why It Could Rattle the Markets, Again.",
-      "titleZh": "DeepSeek V4将于本月推出。为什么它会再次震撼市场。",
-      "summary": "DeepSeek V4 Is Coming This Month. Why It Could Rattle the Markets, Again. fool.com",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 12 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "summary": "DeepSeek V4 Is Coming This Month. Why It Could Rattle the Markets, Again. The Motley Fool",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObzI4NVdqZm5nVEkyVzl6TWRMRTA4VGMwdElvSzc0ZUtqVklFb3lZMHNJU0FZWldMYzV2NlhyYm9kUGpDVVVHaW56VU1GSmhsMkNYdHZnRmFTa0hVQ3RCalhFNnh4V2NGVUtiR2lfMVpyT1VXbV9jMmpYd2xod1pMRzVtUUNfeDJQY09BbXJ0SGZjMzRyVmYwNw?oc=5",
       "pubDate": 1770796800000,
       "vendor": "deepseek",
@@ -5592,7 +5634,7 @@
     {
       "id": "-1380991222",
       "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
-      "titleZh": "Railway获得1亿美元$ ，通过AI原生云基础设施挑战AWS",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 12 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B fundi…",
       "link": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
       "pubDate": 1769090400000,
@@ -5613,7 +5655,7 @@
     {
       "id": "749662964",
       "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
-      "titleZh": "Claude Code每月的费用高达$ 200。Goose免费做同样的事情。",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 11 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive. Claude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the…",
       "link": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
       "pubDate": 1768831200000,
@@ -5634,7 +5676,7 @@
     {
       "id": "1646974166",
       "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
-      "titleZh": "Listen Labs在病毒式广告牌招聘噱头后筹集了6900万$ ，以扩大人工智能客户访谈规模",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 11 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent $5,…",
       "link": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
       "pubDate": 1768572060000,
@@ -5655,7 +5697,7 @@
     {
       "id": "-455015964",
       "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
-      "titleZh": "Salesforce推出新的Slackbot AI代理，在工作场所AI中与微软和谷歌作战",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 10 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot, the company's workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powe…",
       "link": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
       "pubDate": 1768309200000,
@@ -5697,7 +5739,7 @@
     {
       "id": "-7180705",
       "title": "DeepSeek to launch new AI model focused on coding in February, The Information reports",
-      "titleZh": "The Information报告称， DeepSeek将于2月推出专注于编码的新人工智能模型",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 10 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "DeepSeek to launch new AI model focused on coding in February, The Information reports Reuters",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNX1k4VVFWRHJzZnVudkVWLW5fdzVmWGpXR0s5NEl3c19Lb093THh4ckVwRGpLckd2U201S1Iyam9LUFFRYVJDTms0bnN0cHlYMi04N3JYaVJFYUxyOHl1SGNHYVFjU1g0TFg4N055N2x2dk55cE13OG5VQjdZX1VTbmJFWktsRUlhNThIODlLekNMNTQwYllrbkIxNkRDc0ZfbGV6WDRNenE0TGE3LTBGYTA2b19kdTZGS0dv?oc=5",
       "pubDate": 1767945600000,
@@ -5718,7 +5760,7 @@
     {
       "id": "2076277904",
       "title": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
-      "titleZh": "Nous Research的NousCoder-14B是一个直接登陆Claude Code时刻的开源编码模型",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 09 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "Nous Research, the open-source artificial intelligence startup backed by crypto venture firm Paradigm, released a new competitive programming model on Monday that it says matches or exceeds several la…",
       "link": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
       "pubDate": 1767816000000,
@@ -5737,18 +5779,18 @@
       "source": "VentureBeat"
     },
     {
-      "id": "-57848215",
+      "id": "1913029599",
       "title": "Beyond DeepSeek: China's Diverse Open-Weight AI Ecosystem and Its Policy Implications",
-      "titleZh": "Beyond DeepSeek ：中国多样化的开放式人工智能生态系统及其政策含义",
-      "summary": "Beyond DeepSeek: China's Diverse Open-Weight AI Ecosystem and Its Policy Implications Stanford HAI",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 09 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "summary": "Beyond DeepSeek: China's Diverse Open-Weight AI Ecosystem and Its Policy Implications hai.stanford.edu",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZ0hQRmUyZTBfTDllbWlYQV9HclRlaUNrWjdlMXM5dk1qQ3FPbVVVMTFkUnlOTUR0enBncV9JS2tsanJScXFFNWJEczZ2bGhWNUlsN0tMN0t3RlBYUDdER2Y0Q2IxVGkxN2M4b21yVmxPOFlXeXBLT19NdS1ZQWNZWFJBSTBfOWNCSG9PZjJwVUFMYkxNUUJpNHAzdkJFdWZRMEkxdzQ0TUQtWHBwZzc2QV92ME93UQ?oc=5",
       "pubDate": 1765872000000,
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 48,
+      "score": 50,
       "scoreBreakdown": {
-        "cq": 18,
+        "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
@@ -5781,7 +5823,7 @@
     {
       "id": "-1629058919",
       "title": "DeepSeek v3.2: What's new and how does it compare to ChatGPT?",
-      "titleZh": "DeepSeek v3.2 ：有什么新功能，与ChatGPT相比如何？",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 09 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "DeepSeek v3.2: What's new and how does it compare to ChatGPT? Mashable",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4tc2lUOVpTNG9nbENRZHNkTzUzN09fa2dZZ3hhUHRpamRuRXh1ZU9VOHFjV2hCRkM0VzRreERDZll5NzdHWnkzVnN6OG5ENVpyMmcxXzA1LVU2elN1MTR0aUROUnJ2SUxUUmc?oc=5",
       "pubDate": 1764748800000,
@@ -5823,7 +5865,7 @@
     {
       "id": "-1250311024",
       "title": "CAISI Evaluation of DeepSeek AI Models Finds Shortcomings and Risks",
-      "titleZh": "CAISI对DeepSeek AI模型的评估发现缺点和风险",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 08 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "CAISI Evaluation of DeepSeek AI Models Finds Shortcomings and Risks National Institute of Standards and Technology (.gov)",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWHFpMGNmSVhLclh0VGFJbE5wTmpuV0dBT1oyRGFXZkVGOHVwQzRtRmg4bFVUVGpZWEczSVp2LXNiRmZfRjBlbTlRNm91bERGTDRFOVBIaVpITU16S0tSYkxtX19wb0E5S0hTS3dJLWlKYXBIaVNzWW9aQ2xzQTRfM1NyOHZDbDBJUnpQdkxkaU95U1ctSmdNb090cTBsNFl2UVJmMWtQcklSaGtsdWdF?oc=5",
       "pubDate": 1759215600000,
@@ -5844,7 +5886,7 @@
     {
       "id": "251294355",
       "title": "Technology, recovery, and responsibility",
-      "titleZh": "技术、恢复和责任",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 07 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "By Sriram Rajamani, Managing Director, Microsoft Research India We started 2021 with the hope that the COVID-19 vaccines will immunize enough of the world’s population to give herd immunity in the com…",
       "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
       "pubDate": 1615961906000,
@@ -5865,7 +5907,7 @@
     {
       "id": "1792312368",
       "title": "Directorate General of Training, Ministry of Skill Development and Entrepreneurship, partners with Microsoft and NASSCOM Foundation to empower students with next generation digital skills",
-      "titleZh": "技能发展和创业部培训总局与微软和NASSCOM基金会合作，为学生提供下一代数字技能",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 07 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "The blended curriculum will impact 1.2 lakh students across 3000 Industrial Training Institutes (ITI) in India New Delhi, January 7, 2021: With a vision to empower the next generation of learners, the…",
       "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
       "pubDate": 1610002951000,
@@ -5949,7 +5991,7 @@
     {
       "id": "-1887675878",
       "title": "NSDC and Microsoft collaborate to empower Indian youth with digital skills",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 54 MINUTES 47 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 07 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "The initiative aims at skilling over 1 lakh youth in the next 12 months New Delhi, July 08, 2020: With a vision to transform India into a skilled nation, the National Skill Development Corporation (NS…",
       "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
       "pubDate": 1594186160000,
@@ -5970,7 +6012,7 @@
     {
       "id": "652542494",
       "title": "Empowering developers to achieve more at the Microsoft Developer Conference",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 54 MINUTES 47 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 06 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "New Delhi, June 18, 2020: Underlining the critical role of developers in innovations that will power economic recovery, the Microsoft Developer Conference brought together developers and tech professi…",
       "link": "https://news.microsoft.com/en-in/microsoft-developer-conference/",
       "pubDate": 1592461746000,
@@ -5991,7 +6033,7 @@
     {
       "id": "-150806068",
       "title": "Microsoft announces program to accelerate growth of agritech startups in India",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 54 MINUTES 46 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 05 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "New Delhi, June 03, 2020: Microsoft announced the launch of a program for agritech startups in India that are committed to driving transformation in agriculture. The Microsoft for Agritech Startups pr…",
       "link": "https://news.microsoft.com/en-in/microsoft-agritech-startups-program-india-launch/",
       "pubDate": 1591162175000,
@@ -6012,7 +6054,7 @@
     {
       "id": "297070690",
       "title": "Microsoft empowers startups in India to achieve more",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 54 MINUTES 46 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 05 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "Five startups showcase their unique propositions at Future Decoded Tech Summit Bengaluru, February 25, 2020: Startups are an indisputable innovation engine, and Microsoft is partnering with startups a…",
       "link": "https://news.microsoft.com/en-in/microsoft-empowers-startups-in-india-to-achieve-more/",
       "pubDate": 1582633175000,
@@ -6033,7 +6075,7 @@
     {
       "id": "1830923333",
       "title": "Myntra accelerates its digital transformation journey with Microsoft Cloud",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 54 MINUTES 45 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  09 HOURS 02 MINUTES 05 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
       "summary": "reimagines online shopping experience for customers Azure powers biggest-ever End of Reason Sale New Delhi, February 19, 2020: Myntra, India’s leading destination for fashion and lifestyle, has partne…",
       "link": "https://news.microsoft.com/en-in/myntra-digital-transformation-microsoft-cloud/",
       "pubDate": 1582092103000,
