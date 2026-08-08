@@ -1,8 +1,29 @@
 {
-  "updated": "2026-08-08T21:21:19.995Z",
+  "updated": "2026-08-08T21:54:17.464Z",
   "count": 96,
   "sources": 10,
   "items": [
+    {
+      "id": "1501438537",
+      "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
+      "titleZh": "计划中的亚马逊数据中心可能成为美国最大的气候污染者",
+      "summary": "As part of a planned Texas data center, Amazon is investing in an on-site power plant that could reportedly become the largest source of climate pollution in the United States.",
+      "link": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+      "pubDate": 1786224242000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "246964082",
       "title": "OpenAI acquires presentation startup NextSlide",
@@ -13,13 +34,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 47,
+      "score": 46,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,13 +76,13 @@
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "med",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 25,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -412,13 +433,13 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -433,13 +454,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -459,27 +480,6 @@
         "cq": 20,
         "kv": 0,
         "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1136068917",
-      "title": "Naïve raises $28.5M to automate the grunt work of setting up and running a company",
-      "titleZh": "Naïve raises $28.5M to automate the grunt work of setting up and running a company",
-      "summary": "Taking vibe-coding a step further, Naïve claims its infra can automate most of the work in setting up and running a business.",
-      "link": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
-      "pubDate": 1786035637000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 20,
         "st": 8,
         "rc": 1,
         "cs": 1
