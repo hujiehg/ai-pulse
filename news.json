@@ -1,8 +1,29 @@
 {
-  "updated": "2026-08-09T14:26:47.062Z",
+  "updated": "2026-08-09T15:00:54.144Z",
   "count": 97,
   "sources": 10,
   "items": [
+    {
+      "id": "706826287",
+      "title": "The AI safety test is becoming a safety risk",
+      "titleZh": "人工智能安全测试正在成为一种安全风险",
+      "summary": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with i…",
+      "link": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+      "pubDate": 1786285800000,
+      "vendor": "techcrunch",
+      "category": "Safety",
+      "impact": "high",
+      "score": 43,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 10,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "1501438537",
       "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
@@ -202,13 +223,13 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -380,27 +401,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "1055982266",
-      "title": "ChatGPT brings unlimited text chats to free users",
-      "titleZh": "ChatGPT为免费用户带来无限文本聊天",
-      "summary": "OpenAI said that ChatGPT free and Go users are also getting a new think button for complex queries.",
-      "link": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
-      "pubDate": 1786037682000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "337400670",
