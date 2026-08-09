@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-09T16:25:15.309Z",
-  "count": 194,
+  "updated": "2026-08-09T17:05:18.307Z",
+  "count": 193,
   "sources": 11,
   "items": [
     {
@@ -34,13 +34,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 45,
+      "score": 44,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,13 +55,13 @@
       "vendor": "openai",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 22,
         "st": 15,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google News"
@@ -76,13 +76,13 @@
       "vendor": "techcrunch",
       "category": "Safety",
       "impact": "high",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 10,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -193,27 +193,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "-684686492",
-      "title": "Kimi K3 Explained: Moonshot AI's Next-Gen Open Source Model Deep Dive Gloucester Vs Sale (ycpWK6R0eo)",
-      "titleZh": "Kimi K3解释： Moonshot AI的下一代开源模型深潜格洛斯特与销售（ ycpWK6R0eo ）",
-      "summary": "Kimi K3 Explained: Moonshot AI's Next-Gen Open Source Model Deep Dive Gloucester Vs Sale (ycpWK6R0eo) Mshale",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Mb0Rqd2hZWXl5cUZicE1UV1RuT1A1alY1R0t0NVFYZ05tTTBNTFZ3TDdxdmVEblBfSU5EYTNrRTRyU2VRSkhvUG5TOFhtSlJiZnZiNTBjWDFqdGs?oc=5",
-      "pubDate": 1786212377000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "430548184",
       "title": "Kimi K3’s Sandbox Escape Exposes a Growing Security Risk for AI Agents",
       "titleZh": "Kimi K3’s Sandbox Escape Exposes a Growing Security Risk for AI Agents",
@@ -223,13 +202,34 @@
       "vendor": "kimi",
       "category": "Safety",
       "impact": "high",
-      "score": 47,
+      "score": 46,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 3,
         "cw": 10,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1746107262",
+      "title": "Alibaba plans revenue sharing for major users of Qwen AI model",
+      "titleZh": "阿里巴巴计划为Qwen AI模型的主要用户提供收入分成",
+      "summary": "Alibaba plans revenue sharing for major users of Qwen AI model The American Bazaar",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZnBEVUhFM3BvelA5c1YzWmpKVE5ycUhKNnlhanBPa3M4V2dqY0ppNWU4Z29XNUtBMkJBS0lSZGthXzhSNHVtM3JSMjJTaFFFbzFvS3owSmtOVEw3dFVWNVp2cVplMFVvQThqem02ek9ZeThKZy1FM0FRc05vVUM2VV9scHBmWjV2T1JaOFJKTnQtVkZnZ3NrbEw2LXlDc0FOVTFULUVjQllReHBscW83RmhWX2Y?oc=5",
+      "pubDate": 1786193220000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -1432,10 +1432,10 @@
       "source": "Google News"
     },
     {
-      "id": "-1370542033",
+      "id": "1634031631",
       "title": "DeepSeek Plans ‘Significant’ Price Increase for Its AI Services",
       "titleZh": "DeepSeek Plans ‘Significant’ Price Increase for Its AI Services",
-      "summary": "DeepSeek Plans ‘Significant’ Price Increase for Its AI Services bloomberg.com",
+      "summary": "DeepSeek Plans ‘Significant’ Price Increase for Its AI Services Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeEdGNC1EbVlyR2pvLWxTSUxsQXlTRjBhaDIwUFJuc1k4eERFa3hpdWN5bF9GQXBBQlU0QUp3U0JPZko0S3paX2dmeFNRYVVRY3RQbWNTSXZCaVQ5VjdPdC1HdGRPT2ZuOXc1X1Zpc2hNeDZ3Qk1XcWJDVEt2aHlOMVlscmtyTW9yNVJ1V3pDbWJCRThvZlFTTktVTFpQOUdReE9ZNjJMbDFxQUpXaVFZSUJn?oc=5",
       "pubDate": 1785988920000,
       "vendor": "deepseek",
@@ -1453,10 +1453,10 @@
       "source": "Google News"
     },
     {
-      "id": "-1538581370",
+      "id": "-206433207",
       "title": "Can Moonshot’s Kimi K3 now stay in orbit?",
       "titleZh": "Can Moonshot’s Kimi K3 now stay in orbit?",
-      "summary": "Can Moonshot’s Kimi K3 now stay in orbit? The Japan Times",
+      "summary": "Can Moonshot’s Kimi K3 now stay in orbit? japantimes.co.jp",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcElCY3UyemN6d21LTVdreG1oUEdwRV9SQU1CdzNtMXVjM2ZfbFF1UXRrRWZLU1RmcDJyS1FlNE5BZHpiSFVlU1BkR3FJZHBvRkJjUFJXek56eERMMnVXMEtqTmY2TTA3SmUwQ0pObEJnRm04ZzRuVDAtT0RzQ1k1RkdUN0YxV3NF?oc=5",
       "pubDate": 1785983880000,
       "vendor": "kimi",
@@ -1810,27 +1810,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "-1328271999",
-      "title": "China-based hacker employs DeepSeek in autonomous threat campaign",
-      "titleZh": "中国黑客在自主威胁活动中使用DeepSeek",
-      "summary": "China-based hacker employs DeepSeek in autonomous threat campaign Cybersecurity Dive",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaHk2YzBweHZGbEwtYTJxUWI3cVJ3MXg5R0htbFF3cDA2S1NqVThZRVM3dzVZbGVoVmExeHFBOGVYa0F5UGEzVVBzWndNYlZJTVA4MGo2b1ktOGdVWjZmQV9tZWZMaVVBcEIyWkcyLUtyamdURzRuSGtpOG9NSXZudXlCU3c2YWVmRHRKelpB?oc=5",
-      "pubDate": 1785771443000,
-      "vendor": "deepseek",
-      "category": "Agent",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 12,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1236684491",
       "title": "Behind the Term Sheet: Moonshot AI",
       "titleZh": "术语表背后： Moonshot AI",
@@ -1894,10 +1873,10 @@
       "source": "Google News"
     },
     {
-      "id": "2085974057",
+      "id": "1288047463",
       "title": "Regulate, Don’t Ban, Chinese AI Models",
       "titleZh": "Regulate, Don’t Ban, Chinese AI Models",
-      "summary": "Regulate, Don’t Ban, Chinese AI Models Just Security",
+      "summary": "Regulate, Don’t Ban, Chinese AI Models justsecurity.org",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9QUFRfbzg4VFlsLUZ6Vk43dWV6bnJzbFBHeFFSZFRhbV9WQjBoczJSVkVCOXJkUGljamhHYnJ1cDRCNVNONE5NWnRlMVphcjA1XzljcHJZUHlaQm1NMGREVEFRMExmMU52VDhkNlBKZl9KcUx2cDNPQ1c3UHA?oc=5",
       "pubDate": 1785761614000,
       "vendor": "google",
@@ -2524,10 +2503,10 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-38880516",
+      "id": "193149682",
       "title": "Chinese A.I. Start-Up Shows the World What It Has Built",
       "titleZh": "中国的人工智能初创公司向世界展示了它所建立的东西",
-      "summary": "Chinese A.I. Start-Up Shows the World What It Has Built nytimes.com",
+      "summary": "Chinese A.I. Start-Up Shows the World What It Has Built The New York Times",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9veDlGZlRsc29JNlFwSDFXUEI0V1pJMFBOR05lSjFtRmRWZmw4cldKUXFYaGVmZW9MM0JiMWt1Z0Jnem5od1AtdmJrdUhSZU5VZlVxZWVWaG1zUGNvR3dBQTVjckxrNjFUci00b3UxdHV3QUFXSVVnZ1N3ajJramc?oc=5",
       "pubDate": 1785135600000,
       "vendor": "google",
@@ -2776,10 +2755,10 @@
       "source": "Google News"
     },
     {
-      "id": "412115058",
+      "id": "217564711",
       "title": "The 4 qualities that make the Moonshot AI founder so exceptional, according to his Ph.D. advisor",
       "titleZh": "根据Moonshot AI创始人的博士顾问的说法，这位创始人如此与众不同的4个特质",
-      "summary": "The 4 qualities that make the Moonshot AI founder so exceptional, according to his Ph.D. advisor businessinsider.com",
+      "summary": "The 4 qualities that make the Moonshot AI founder so exceptional, according to his Ph.D. advisor Business Insider",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRUVTVlA2c1VPVUkzTTU5dmRjVjBxYzRiT3VvMHlWU3QyT2lvNDdsZTdwQlo5RzN3bkprb0NFTmc2dHo0YzFoZjhvNWE0c2R3ZjFDUlMzRHNKekZRLWZYeGlOYUlRLVhvTEZkQ28xdk8zRFNxY3FtY2RmWkJjVV9rU3E4eHZIdlhLZ1FOVVloQ0hLU1Z1U3NRTHdFUTl1NW0xU016MmZiSGZhZw?oc=5",
       "pubDate": 1784790000000,
       "vendor": "kimi",
@@ -2860,10 +2839,10 @@
       "source": "Google AI"
     },
     {
-      "id": "1703635863",
+      "id": "1472961650",
       "title": "A top White House official is escalating the fight over Moonshot AI's viral Kimi K3 model",
       "titleZh": "一位白宫高级官员正在加剧围绕Moonshot AI病毒式Kimi K3模型的斗争",
-      "summary": "A top White House official is escalating the fight over Moonshot AI's viral Kimi K3 model businessinsider.com",
+      "summary": "A top White House official is escalating the fight over Moonshot AI's viral Kimi K3 model Business Insider",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSzZ1N3U2NWtENHFpcUhlOGhaMS1XVzJ0cFFOc2syRGVEc3ZSQmx2dHRHNV90N1VyNWNvZHdsVWVRMkxpNUsxcTdZLURUZzZEaTc4ZlhqaFRoWlBIaXdGcUZzYmhBTlNEcFZpNzN3LXJSWGFEWnRhd3pxUVRYWjB5V2RzZC1UdFhKWkUw?oc=5",
       "pubDate": 1784703600000,
       "vendor": "kimi",
@@ -2965,10 +2944,10 @@
       "source": "Google News"
     },
     {
-      "id": "1728007207",
+      "id": "1837183892",
       "title": "What China's Internet Is Saying About Moonshot's Hot New Kimi Model",
       "titleZh": "中国互联网对Moonshot的热门新Kimi模型的评价",
-      "summary": "What China's Internet Is Saying About Moonshot's Hot New Kimi Model businessinsider.com",
+      "summary": "What China's Internet Is Saying About Moonshot's Hot New Kimi Model Business Insider",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcEZyY2dTVHlORWprYjZzZ1A0aDdsWEdkSEVuNXVreHlyYTZ0aE80enByWkg4ZFBKU2hLNU15NHZyVkxOMXNkSzg2ZzJUVWQ1VzRtc19RWWNSVkdnMzBXLUNwSklpakdBa3M2cHhuNHpxSm52VXpfcGJQNFFPeVZOb2ZmTUlVOEVlM2s2SWM1SVdBcXVPcWlPSVpUaVlTUQ?oc=5",
       "pubDate": 1784617200000,
       "vendor": "kimi",
@@ -3175,10 +3154,10 @@
       "source": "Google News"
     },
     {
-      "id": "-105166726",
+      "id": "715704047",
       "title": "Meet Yang Zhilin, the CEO and founder behind China's buzzy new Kimi K3 AI model",
       "titleZh": "认识中国新型Kimi K3 AI模型的首席执行官兼创始人杨志林",
-      "summary": "Meet Yang Zhilin, the CEO and founder behind China's buzzy new Kimi K3 AI model businessinsider.com",
+      "summary": "Meet Yang Zhilin, the CEO and founder behind China's buzzy new Kimi K3 AI model Business Insider",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMkVNb0lPeFBmRkpSalRIZkNlcjYtOXBzQTdEazFoS2t1MHBtN1pWMFBJdTBVY2lmdEY0Rm5mX2xXclFvT0pHNmd6bVFhbVc0S0h4cUNqQ0xWTnI0ZlBmODU1OGZWX1pYYjBrMTNzQ0xac203WjQ1eXF4cGI3dHV1TjVoeXUxVE5WazNtYUs1LXUyX2M?oc=5",
       "pubDate": 1784358000000,
       "vendor": "kimi",
@@ -3238,10 +3217,10 @@
       "source": "DeepMind"
     },
     {
-      "id": "-1192906461",
+      "id": "-163707957",
       "title": "China’s Latest A.I. Breakthrough Threatens America’s Lead",
       "titleZh": "China’s Latest A.I. Breakthrough Threatens America’s Lead",
-      "summary": "China’s Latest A.I. Breakthrough Threatens America’s Lead nytimes.com",
+      "summary": "China’s Latest A.I. Breakthrough Threatens America’s Lead The New York Times",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UYkVrd05BamRNRHcyZ19xN1FyaklNdVBYUXlFcTQ4dGhjYWdrb0Z1LWxhdnV0VWVmOU9rNnVjQUpIZHQ5SmdCZDd2MDVNQk5rR2NSM2x4QkVhNVp2SVhJcF9jZGdmQjlJTnhTdmlOdGotbzZ0X3pFMTVwVQ?oc=5",
       "pubDate": 1784271600000,
       "vendor": "google",
@@ -3875,13 +3854,13 @@
       "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
       "pubDate": 1615961906000,
       "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
+      "category": "Research",
+      "impact": "high",
+      "score": 59,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 2,
-        "cw": 15,
+        "cw": 22,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -3896,13 +3875,13 @@
       "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
       "pubDate": 1610002951000,
       "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
+      "category": "Release",
+      "impact": "high",
+      "score": 61,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 3,
-        "cw": 15,
+        "cw": 25,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -3918,7 +3897,7 @@
       "pubDate": 1609824612000,
       "vendor": "microsoft",
       "category": "Product",
-      "impact": "med",
+      "impact": "high",
       "score": 50,
       "scoreBreakdown": {
         "cq": 22,
@@ -3938,13 +3917,13 @@
       "link": "https://news.microsoft.com/en-in/nasscom-futureskills-microsoft-launch-ai-classroom-series-skill-students/",
       "pubDate": 1599716180000,
       "vendor": "microsoft",
-      "category": "Release",
+      "category": "Product",
       "impact": "high",
-      "score": 62,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 4,
-        "cw": 25,
+        "cw": 15,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -3959,13 +3938,13 @@
       "link": "https://news.microsoft.com/en-in/industry-and-research-better-together-sriram-rajamani/",
       "pubDate": 1598613057000,
       "vendor": "microsoft",
-      "category": "Product",
+      "category": "Research",
       "impact": "med",
-      "score": 52,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 4,
-        "cw": 15,
+        "cw": 22,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -3980,13 +3959,13 @@
       "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
       "pubDate": 1594186160000,
       "vendor": "microsoft",
-      "category": "Release",
-      "impact": "med",
-      "score": 64,
+      "category": "Product",
+      "impact": "high",
+      "score": 54,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 4,
-        "cw": 25,
+        "cw": 15,
         "st": 10,
         "rc": 0,
         "cs": 1
