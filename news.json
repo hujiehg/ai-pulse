@@ -1,8 +1,218 @@
 {
-  "updated": "2026-08-10T03:13:41.310Z",
-  "count": 106,
-  "sources": 11,
+  "updated": "2026-08-10T05:04:31.435Z",
+  "count": 116,
+  "sources": 12,
   "items": [
+    {
+      "id": "-1888369106",
+      "title": "Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Learning to Multi-Semantic Basis Learning",
+      "titleZh": "走向多标签图基础模型：从单向量表示学习到多语义基础学习",
+      "summary": "arXiv:2608.06394v1 Announce Type: new Abstract: Multi-label node classification is an important yet challenging task in graph learning, where nodes exhibit multiple semantics simultaneously. Existing …",
+      "link": "https://arxiv.org/abs/2608.06394",
+      "pubDate": 1786334400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-421573758",
+      "title": "EntropyMoE: Entropy-Aware Sparse Expert Routing for Tokenizer-Free LLMs",
+      "titleZh": "EntropyMoE ：无令牌LLM的熵感知稀疏专家路由",
+      "summary": "arXiv:2608.06398v1 Announce Type: new Abstract: Recent byte-level large language models (LLMs) have made tokenizer-free modeling increasingly competitive by grouping bytes into dynamically sized patch…",
+      "link": "https://arxiv.org/abs/2608.06398",
+      "pubDate": 1786334400000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 5,
+        "cw": 15,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "378007506",
+      "title": "Beyond Routing Weights: Faithful Response-Level Interpretation of Mixture-of-Experts Reward Models via Contribution Contrast",
+      "titleZh": "超越路线权重：通过贡献对比对专家混合奖励模型的忠实响应水平解读",
+      "summary": "arXiv:2608.06400v1 Announce Type: new Abstract: Reward models are central to learning from human preferences, yet identifying what drives their predictions remains challenging. Recent sparse Mixture-o…",
+      "link": "https://arxiv.org/abs/2608.06400",
+      "pubDate": 1786334400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1262170073",
+      "title": "Interpretable Unsupervised Community Detection with LLM-Symbolized Structured Processes",
+      "titleZh": "使用LLM符号化结构化过程的可解释的无监督社区检测",
+      "summary": "arXiv:2608.06402v1 Announce Type: new Abstract: Community detection is a fundamental task in graph analytics that aims to identify cohesive groups of entities with similar behaviors or interests. Clas…",
+      "link": "https://arxiv.org/abs/2608.06402",
+      "pubDate": 1786334400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "970583084",
+      "title": "ADIAS: Automated Design of Interactive Agentic Systems",
+      "titleZh": "ADIAS ：交互式代理系统的自动化设计",
+      "summary": "arXiv:2608.06410v1 Announce Type: new Abstract: Automated agent design improves agent harnesses through iterative revision, evaluation, and feedback summarization. Existing methods are largely candida…",
+      "link": "https://arxiv.org/abs/2608.06410",
+      "pubDate": 1786334400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1962626268",
+      "title": "Learning to Predict Middle-Layer Attention in MLLMs for Visual Token Prunin",
+      "titleZh": "学习预测可视化令牌Prunin的MLLM中的中层注意力",
+      "summary": "arXiv:2608.06411v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) achieve strong performance across diverse vision-language tasks, but their efficiency is limited by the cost of…",
+      "link": "https://arxiv.org/abs/2608.06411",
+      "pubDate": 1786334400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1720446383",
+      "title": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
+      "titleZh": "WebGrader ：使用自我进化的程序化评分器培训LLM进行Web开发",
+      "summary": "arXiv:2608.06474v1 Announce Type: new Abstract: Large language models increasingly generate complete websites from natural-language descriptions, and reinforcement learning has become a central approa…",
+      "link": "https://arxiv.org/abs/2608.06474",
+      "pubDate": 1786334400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 68,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "2020146898",
+      "title": "Can MLLMs Decode the Creative Leap? Introducing C4 for Cross-Concept Understanding",
+      "titleZh": "MLLM可以解码创意飞跃吗？引入C4以实现跨概念理解",
+      "summary": "arXiv:2608.06501v1 Announce Type: new Abstract: Creative capabilities of MLLMs matter in design, communication, education, and human--AI collaboration, yet remain difficult to evaluate because explici…",
+      "link": "https://arxiv.org/abs/2608.06501",
+      "pubDate": 1786334400000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "med",
+      "score": 67,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 25,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1003590183",
+      "title": "KNOWPLAN: Knowledge-Driven AI Agents for Smart Degree Pathway Planning",
+      "titleZh": "KNOWPLAN ：面向智能学位路径规划的知识驱动型人工智能代理",
+      "summary": "arXiv:2608.06530v1 Announce Type: new Abstract: Planning a degree from official university sources requires solving two problems in order. The institution's curriculum must first be reconstructed from…",
+      "link": "https://arxiv.org/abs/2608.06530",
+      "pubDate": 1786334400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1061167361",
+      "title": "TaskSense: Focusing on What Matters in World Models",
+      "titleZh": "TaskSense ：关注世界模型中的重要因素",
+      "summary": "arXiv:2608.06544v1 Announce Type: new Abstract: World models for visual control typically learn compact latent states by reconstructing observations, implicitly encouraging representations to preserve…",
+      "link": "https://arxiv.org/abs/2608.06544",
+      "pubDate": 1786334400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
     {
       "id": "-1500241104",
       "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
@@ -949,10 +1159,10 @@
       "source": "Google AI"
     },
     {
-      "id": "1628923714",
+      "id": "-956846302",
       "title": "Alibaba Adds to China AI Breakthroughs With New Qwen Model",
       "titleZh": "阿里巴巴推出Qwen新车型助力中国人工智能突破",
-      "summary": "Alibaba Adds to China AI Breakthroughs With New Qwen Model bloomberg.com",
+      "summary": "Alibaba Adds to China AI Breakthroughs With New Qwen Model Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWjlHM1ZsVFZ2VWZiRG4xcTd3aWdrU2U2SEwySXh3RWxPYWhBSlM0MTU2M2M3dlVDTnN5TDVUUkJvUGw5WXczVlB0ZzBPMk5NTjhOWkwwcGRHYWk4MGVUdjhRNUc5NXFkN1BFSHdrVnJtM0ZXSDNwM3phcnA5WE1LWjMwbUVhRHV2YUl2SmFBUVZUbXNTQ0EtZVBXRHhoSjlobzJuOWk4SnJvalVfZTdaWkVtRHdjN21v?oc=5",
       "pubDate": 1785803580000,
       "vendor": "qwen",
@@ -1054,10 +1264,10 @@
       "source": "Google News"
     },
     {
-      "id": "-1957177209",
+      "id": "-258416806",
       "title": "Alibaba shares rally after unveiling its 'most powerful' AI model as U.S.-China competition heats up",
       "titleZh": "随着美中竞争加剧，阿里巴巴在推出其“最强大”的人工智能模型后股价上涨",
-      "summary": "Alibaba shares rally after unveiling its 'most powerful' AI model as U.S.-China competition heats up CNBC",
+      "summary": "Alibaba shares rally after unveiling its 'most powerful' AI model as U.S.-China competition heats up cnbc.com",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoOHNuTXBFVE9uUDBvRm5oSFBmSHFvZ0R1T256QzJUNXFOTjVyZDJlT19NNUxhM1NwVXQzS08tZFlmRXRDVzE0Q3lobzFGYllSMWJPNVdIUzRaSHpLbklBNjBZNWpGS0RVUEMyOERfNUJzOVMzWXh4MUIycjVudmvSAYQBQVVfeXFMTmNfWEdiZ0E3andENy1sZXZhLVZxWi1FY0ZyZnozeDFxQXppQzI1NGdDZlVlODZBR0I5dGhvaHJlWmhfWnJFekhyT050aUo3UTFRTWFxUnkwN3JFSDliXzNJVjh1T2JwY2RESVgyT2I5UDZQMVFlalR6dDI4cmU0T2toLWJV?oc=5",
       "pubDate": 1785753275000,
       "vendor": "google",
