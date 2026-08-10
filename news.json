@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T16:25:10.404Z",
+  "updated": "2026-08-10T17:24:13.243Z",
   "count": 117,
   "sources": 12,
   "items": [
@@ -13,13 +13,13 @@
       "vendor": "google",
       "category": "Agent",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 12,
         "st": 15,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google AI"
@@ -97,13 +97,13 @@
       "vendor": "deepseek",
       "category": "Release",
       "impact": "med",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -2258,13 +2258,13 @@
       "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
       "pubDate": 1615961906000,
       "vendor": "microsoft",
-      "category": "Research",
-      "impact": "high",
-      "score": 59,
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 2,
-        "cw": 22,
+        "cw": 15,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -2279,13 +2279,13 @@
       "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
       "pubDate": 1610002951000,
       "vendor": "microsoft",
-      "category": "Release",
-      "impact": "high",
-      "score": 61,
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 3,
-        "cw": 25,
+        "cw": 15,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -2301,7 +2301,7 @@
       "pubDate": 1609824612000,
       "vendor": "microsoft",
       "category": "Product",
-      "impact": "high",
+      "impact": "med",
       "score": 50,
       "scoreBreakdown": {
         "cq": 22,
@@ -2321,13 +2321,13 @@
       "link": "https://news.microsoft.com/en-in/nasscom-futureskills-microsoft-launch-ai-classroom-series-skill-students/",
       "pubDate": 1599716180000,
       "vendor": "microsoft",
-      "category": "Product",
+      "category": "Release",
       "impact": "high",
-      "score": 52,
+      "score": 62,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 4,
-        "cw": 15,
+        "cw": 25,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -2342,13 +2342,13 @@
       "link": "https://news.microsoft.com/en-in/industry-and-research-better-together-sriram-rajamani/",
       "pubDate": 1598613057000,
       "vendor": "microsoft",
-      "category": "Research",
+      "category": "Product",
       "impact": "med",
-      "score": 59,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 4,
-        "cw": 22,
+        "cw": 15,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -2363,13 +2363,13 @@
       "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
       "pubDate": 1594186160000,
       "vendor": "microsoft",
-      "category": "Product",
-      "impact": "high",
-      "score": 54,
+      "category": "Release",
+      "impact": "med",
+      "score": 64,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 4,
-        "cw": 15,
+        "cw": 25,
         "st": 10,
         "rc": 0,
         "cs": 1
