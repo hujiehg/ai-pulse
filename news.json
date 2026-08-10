@@ -1,8 +1,29 @@
 {
-  "updated": "2026-08-10T09:56:37.519Z",
+  "updated": "2026-08-10T11:00:01.411Z",
   "count": 117,
   "sources": 12,
   "items": [
+    {
+      "id": "1098109061",
+      "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+      "titleZh": "让知识蒸馏便宜到足以大规模运行",
+      "summary": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+      "link": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "pubDate": 1786356336000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
     {
       "id": "-1888369106",
       "title": "Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Learning to Multi-Semantic Basis Learning",
@@ -13,13 +34,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 5,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -34,13 +55,13 @@
       "vendor": "arxiv",
       "category": "Product",
       "impact": "med",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 5,
         "cw": 15,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -55,13 +76,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 63,
+      "score": 62,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 5,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -76,13 +97,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 6,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -97,13 +118,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 63,
+      "score": 62,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 5,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -118,13 +139,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 63,
+      "score": 62,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 5,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -139,13 +160,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "high",
-      "score": 67,
+      "score": 66,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 7,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -160,13 +181,13 @@
       "vendor": "arxiv",
       "category": "Release",
       "impact": "med",
-      "score": 66,
+      "score": 65,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 5,
         "cw": 25,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -181,13 +202,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 3,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -202,16 +223,37 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 3,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
+    },
+    {
+      "id": "1081432690",
+      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+      "titleZh": "Muse Glimmer回归Meta ：本地、代理、多式联运和开源",
+      "summary": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+      "link": "https://huggingface.co/blog/muse-glimmer",
+      "pubDate": 1786320000000,
+      "vendor": "huggingface",
+      "category": "Agent",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 13,
+        "kv": 3,
+        "cw": 12,
+        "st": 14,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "HuggingFace"
     },
     {
       "id": "-1500241104",
@@ -433,13 +475,13 @@
       "vendor": "qwen",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -1264,22 +1306,22 @@
       "source": "Google News"
     },
     {
-      "id": "-258416806",
+      "id": "-1957177209",
       "title": "Alibaba shares rally after unveiling its 'most powerful' AI model as U.S.-China competition heats up",
       "titleZh": "随着美中竞争加剧，阿里巴巴在推出其“最强大”的人工智能模型后股价上涨",
-      "summary": "Alibaba shares rally after unveiling its 'most powerful' AI model as U.S.-China competition heats up cnbc.com",
+      "summary": "Alibaba shares rally after unveiling its 'most powerful' AI model as U.S.-China competition heats up CNBC",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoOHNuTXBFVE9uUDBvRm5oSFBmSHFvZ0R1T256QzJUNXFOTjVyZDJlT19NNUxhM1NwVXQzS08tZFlmRXRDVzE0Q3lobzFGYllSMWJPNVdIUzRaSHpLbklBNjBZNWpGS0RVUEMyOERfNUJzOVMzWXh4MUIycjVudmvSAYQBQVVfeXFMTmNfWEdiZ0E3andENy1sZXZhLVZxWi1FY0ZyZnozeDFxQXppQzI1NGdDZlVlODZBR0I5dGhvaHJlWmhfWnJFekhyT050aUo3UTFRTWFxUnkwN3JFSDliXzNJVjh1T2JwY2RESVgyT2I5UDZQMVFlalR6dDI4cmU0T2toLWJV?oc=5",
       "pubDate": 1785753275000,
       "vendor": "google",
       "category": "Release",
       "impact": "med",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 25,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google News"
@@ -1957,27 +1999,6 @@
       "source": "Google AI"
     },
     {
-      "id": "-1631877466",
-      "title": "Newer Models, Same Advantage",
-      "titleZh": "新型号，同等优势",
-      "summary": "Newer Models, Same Advantage",
-      "link": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
-      "pubDate": 1784202588000,
-      "vendor": "huggingface",
-      "category": "Research",
-      "impact": "med",
-      "score": 44,
-      "scoreBreakdown": {
-        "cq": 7,
-        "kv": 0,
-        "cw": 22,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
       "id": "2109677188",
       "title": "Our approach to bioresilience",
       "titleZh": "我们的生物复原力方法",
@@ -1997,27 +2018,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "1300654619",
-      "title": "Security incident disclosure — July 2026",
-      "titleZh": "Security incident disclosure — July 2026",
-      "summary": "Security incident disclosure — July 2026",
-      "link": "https://huggingface.co/blog/security-incident-july-2026",
-      "pubDate": 1784160000000,
-      "vendor": "huggingface",
-      "category": "Safety",
-      "impact": "med",
-      "score": 35,
-      "scoreBreakdown": {
-        "cq": 9,
-        "kv": 1,
-        "cw": 10,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
     },
     {
       "id": "827405406",
