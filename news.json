@@ -1,8 +1,113 @@
 {
-  "updated": "2026-08-10T22:11:33.305Z",
+  "updated": "2026-08-10T23:05:46.800Z",
   "count": 117,
   "sources": 12,
   "items": [
+    {
+      "id": "40314761",
+      "title": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI",
+      "titleZh": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI",
+      "summary": "On Monday, Mark Zuckerberg published a 6,500-word manifesto about personal AI, largely about the possibilities for the \"personal superintelligence\" systems Meta AI is building.",
+      "link": "https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/",
+      "pubDate": 1786395182000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1901935826",
+      "title": "Tech industry is buzzing after a Claude agent hacked into a gym",
+      "titleZh": "在克劳德特工入侵健身房后，科技行业嗡嗡作响",
+      "summary": "An OpenClaw agent hacked into a gym's reservation system to bump its human boss higher on a class' waitlist. And the tech industry took notice.",
+      "link": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
+      "pubDate": 1786392264000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "904516361",
+      "title": "What building an AI-native finance function taught me",
+      "titleZh": "构建AI原生金融功能教会了我什么",
+      "summary": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
+      "link": "https://openai.com/index/building-an-ai-native-finance-function",
+      "pubDate": 1786381200000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "104119672",
+      "title": "Build Low-Latency Multilingual Voice Agents: Open Weights &amp; Full Deployment Control with NVIDIA Magpie TTS",
+      "titleZh": "构建低延迟多语言语音代理：使用NVIDIA Magpie TTS实现开放权重和全面部署控制",
+      "summary": "Build Low-Latency Multilingual Voice Agents: Open Weights Full Deployment Control with NVIDIA Magpie TTS",
+      "link": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "pubDate": 1786379136000,
+      "vendor": "huggingface",
+      "category": "Agent",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 12,
+        "st": 14,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
+      "id": "-198634887",
+      "title": "Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision",
+      "titleZh": "Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision",
+      "summary": "Meta’s new open-weight Muse Glimmer model offers a glimpse of Mark Zuckerberg’s personal superintelligence vision, as well as the emerging divide between AI users can own and access.",
+      "link": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
+      "pubDate": 1786378813000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 22,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "727962758",
       "title": "DeepSeek to get a 'significant' price hike soon",
@@ -149,6 +254,48 @@
         "cs": 1
       },
       "source": "HuggingFace"
+    },
+    {
+      "id": "1850947071",
+      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+      "titleZh": "随着网络防御窗口的缩小，黎明不断扩大",
+      "summary": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
+      "link": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "pubDate": 1786356000000,
+      "vendor": "openai",
+      "category": "Research",
+      "impact": "high",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 3,
+        "cw": 22,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "2041688883",
+      "title": "Putting frontier cyber models in more trusted hands",
+      "titleZh": "将前沿网络模型交到更值得信赖的人手中",
+      "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
+      "link": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+      "pubDate": 1786356000000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
     },
     {
       "id": "934507106",
@@ -382,6 +529,27 @@
       "source": "arXiv"
     },
     {
+      "id": "1312000749",
+      "title": "Premium seats are coming to ChatGPT Business",
+      "titleZh": "ChatGPT Business即将推出高级版座位",
+      "summary": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
+      "link": "https://openai.com/index/premium-seats-chatgpt-business",
+      "pubDate": 1786320000000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
       "id": "1081432690",
       "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
       "titleZh": "Muse Glimmer回归Meta ：本地、代理、多式联运和开源",
@@ -469,7 +637,7 @@
       "id": "706826287",
       "title": "The AI safety test is becoming a safety risk",
       "titleZh": "人工智能安全测试正在成为一种安全风险",
-      "summary": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with i…",
+      "summary": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards, and regulation can keep pace with …",
       "link": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
       "pubDate": 1786285800000,
       "vendor": "techcrunch",
@@ -496,30 +664,30 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
     },
     {
-      "id": "1501438537",
-      "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
+      "id": "-396549837",
+      "title": "Planned Amazon data center could become the biggest climate polluter in the US",
       "titleZh": "计划中的亚马逊数据中心可能成为美国最大的气候污染者",
-      "summary": "As part of a planned Texas data center, Amazon is investing in an on-site power plant that could reportedly become the largest source of climate pollution in the United States.",
+      "summary": "AI has already had a significant impact on Amazon’s carbon emissions, which it reported were up 16% last year — the wrong direction for a company that pledged to eliminate its carbon emissions by 2040…",
       "link": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
       "pubDate": 1786224242000,
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 41,
+      "score": 43,
       "scoreBreakdown": {
-        "cq": 16,
+        "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
@@ -532,7 +700,7 @@
       "id": "246964082",
       "title": "OpenAI acquires presentation startup NextSlide",
       "titleZh": "OpenAI收购演示文稿初创公司NextSlide",
-      "summary": "NextSlide says its team members are now working on ChatGPT.",
+      "summary": "Founder Ahmed Beshry describes the startup’s product as one “that could turn prompts, notes, documents, or research into a polished, editable presentation.”",
       "link": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
       "pubDate": 1786218073000,
       "vendor": "techcrunch",
@@ -592,48 +760,6 @@
       "source": "Google News"
     },
     {
-      "id": "277976246",
-      "title": "OpenAI says it slowed Astra model development over security concerns",
-      "titleZh": "OpenAI表示，由于安全问题，它放慢了Astra模型的开发速度",
-      "summary": "OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-pro…",
-      "link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
-      "pubDate": 1786142904000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 1,
-        "cw": 22,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-552220268",
-      "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
-      "titleZh": "Rippling在几个月内在人工智能上投入了数百万美元后，它构建了一个员工ROI工具",
-      "summary": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
-      "link": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
-      "pubDate": 1786138211000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 25,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "-1331977386",
       "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
       "titleZh": "TutorMoments ：人工智能导师是否知道什么时候该提供帮助，什么时候该退缩？",
@@ -653,27 +779,6 @@
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "-820392857",
-      "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
-      "titleZh": "Cloudflare推出专为人工智能代理构建的浏览器Kitesurf",
-      "summary": "Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents mo…",
-      "link": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
-      "pubDate": 1786119369000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "high",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 25,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "1238397198",
@@ -1033,27 +1138,6 @@
       "source": "Google News"
     },
     {
-      "id": "1712516396",
-      "title": "From asking to doing: How the world is putting ChatGPT to work",
-      "titleZh": "从提问到做：世界如何让ChatGPT发挥作用",
-      "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
-      "link": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
-      "pubDate": 1785974400000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "669722495",
       "title": "Baseten on Hugging Face Inference Providers 🔥",
       "titleZh": "Baseten on Hugging Face Inference Providers 🔥",
@@ -1115,27 +1199,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-299352283",
-      "title": "Third-party cyber evaluations involving OpenAI models",
-      "titleZh": "涉及OpenAI模型的第三方网络评估",
-      "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
-      "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "pubDate": 1785870000000,
-      "vendor": "openai",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
     },
     {
       "id": "284586930",
@@ -1220,48 +1283,6 @@
         "cs": 1
       },
       "source": "Google AI"
-    },
-    {
-      "id": "-313625791",
-      "title": "New ways to learn and teach with ChatGPT Work and Codex",
-      "titleZh": "使用ChatGPT Work和Codex学习和教学的新方法",
-      "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
-      "link": "https://openai.com/index/learn-teach-chatgpt-work-codex",
-      "pubDate": 1785801600000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "727468694",
-      "title": "Apple is getting this wrong",
-      "titleZh": "苹果搞错了",
-      "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
-      "link": "https://openai.com/index/apple-is-getting-this-wrong",
-      "pubDate": 1785794400000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "OpenAI"
     },
     {
       "id": "439905084",
@@ -1871,27 +1892,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-402539099",
-      "title": "Grabette: an open system to record robot-manipulation data",
-      "titleZh": "Grabette ：用于记录机器人操作数据的开放系统",
-      "summary": "Grabette: an open system to record robot-manipulation data",
-      "link": "https://huggingface.co/blog/grabette",
-      "pubDate": 1784592000000,
-      "vendor": "huggingface",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 15,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
     },
     {
       "id": "-704281125",
