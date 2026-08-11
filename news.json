@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T23:59:36.298Z",
+  "updated": "2026-08-11T01:23:35.669Z",
   "count": 117,
   "sources": 12,
   "items": [
@@ -538,13 +538,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -559,13 +559,13 @@
       "vendor": "huggingface",
       "category": "Agent",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 13,
         "kv": 3,
         "cw": 12,
         "st": 14,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "HuggingFace"
