@@ -1,8 +1,29 @@
 {
-  "updated": "2026-08-12T16:26:24.315Z",
+  "updated": "2026-08-12T17:27:45.355Z",
   "count": 97,
   "sources": 10,
   "items": [
+    {
+      "id": "265250582",
+      "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+      "titleZh": "推出OlmoEarth嵌入：从OlmoEarth Studio自定义嵌入导出以进行下游分析",
+      "summary": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+      "link": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+      "pubDate": 1786551276000,
+      "vendor": "huggingface",
+      "category": "Release",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 1,
+        "cw": 25,
+        "st": 14,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
     {
       "id": "-421504267",
       "title": "Lovable confirms new $13.3B valuation, raises another $400M",
@@ -46,6 +67,27 @@
       "source": "TechCrunch"
     },
     {
+      "id": "515973975",
+      "title": "China’s Moonshot AI Kimi K3 Abused GitHub Access During Security Test",
+      "titleZh": "China’s Moonshot AI Kimi K3 Abused GitHub Access During Security Test",
+      "summary": "China’s Moonshot AI Kimi K3 Abused GitHub Access During Security Test Hackread",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSzlwTHpxbkVZajFRN3lhSGU0engzZFpyRnl1Z1F0VE1kbC1SQ1RoRTNYbkVqVXF3NFAzLVV2TUNhV2hpZTVXZU9VWFpxSmREVkwzU1V6UUVTeEZ2TzVSLXowZHpncGYyYUhmQTR5bzB1V0V6cHV2eUFheXhIZ2w3eQ?oc=5",
+      "pubDate": 1786545291000,
+      "vendor": "kimi",
+      "category": "Safety",
+      "impact": "high",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 3,
+        "cw": 10,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "651321850",
       "title": "Everything announced at Made by Google ’26: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features",
       "titleZh": "Everything announced at Made by Google ’26: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features",
@@ -67,6 +109,48 @@
       "source": "TechCrunch"
     },
     {
+      "id": "-2029733216",
+      "title": "Putting sign language AI into users’ hands",
+      "titleZh": "Putting sign language AI into users’ hands",
+      "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+      "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "pubDate": 1786543319000,
+      "vendor": "deepmind",
+      "category": "Release",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 25,
+        "st": 15,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "DeepMind"
+    },
+    {
+      "id": "1047380107",
+      "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
+      "titleZh": "LFM2.5-VL-3B提供更好、更快的边缘视觉能力",
+      "summary": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+      "pubDate": 1786543251000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
       "id": "-68148076",
       "title": "AI code-testing startup Blacksmith’s valuation jumps almost 10x in less than a year",
       "titleZh": "AI code-testing startup Blacksmith’s valuation jumps almost 10x in less than a year",
@@ -76,13 +160,13 @@
       "vendor": "techcrunch",
       "category": "Funding",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 1,
         "cw": 20,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -109,18 +193,18 @@
       "source": "Google News"
     },
     {
-      "id": "1750136793",
-      "title": "Claude Distillation Claims Return After Researchers Probe Kimi K3",
-      "titleZh": "Claude Distillation声称在研究人员探测Kimi K3后返回",
-      "summary": "Claude Distillation Claims Return After Researchers Probe Kimi K3 Windows Report",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMUZtZlp0enlndm1JczllYmEwUER3bUo3YnNPQS1vNFpVYW1aVHRPTGNjWC16M2U5YnlxOHo0SVhGcjZPSUVyX1VuR3NIME11emw2cnVESWEySUJfTy1xLS1BTF9MUjlXQ21IU0hSbTRrX0NCZ2JrVFBNVEQ4ZkNwdXZ6YTlIV2tidmtBeGVQT25SdmZWa1c0?oc=5",
-      "pubDate": 1786520052000,
-      "vendor": "kimi",
+      "id": "-1934805017",
+      "title": "Alibaba To Introduce Revenue Sharing For Qwen 3.8-Max Open Weights",
+      "titleZh": "阿里巴巴为Qwen 3.8-Max开放权重引入收入分享",
+      "summary": "Alibaba To Introduce Revenue Sharing For Qwen 3.8-Max Open Weights Open Source For You",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeDlPLWdueWVNem5TUWdZUEVOUTdqUmFaRXJFYXBwLVRSaEh5VndKU1ZwcWJmUWs5OVl1ckpEMlVwTTduT240TXFLUlV4XzV2Q0hXQ1FFZkxjanJTYjc3V09FeTJCSGdMSFJ3VTdZWkx0U2FuaUF4YW56T2lWa0JRTg?oc=5",
+      "pubDate": 1786515448000,
+      "vendor": "qwen",
       "category": "Product",
-      "impact": "high",
-      "score": 55,
+      "impact": "med",
+      "score": 53,
       "scoreBreakdown": {
-        "cq": 20,
+        "cq": 18,
         "kv": 4,
         "cw": 15,
         "st": 12,
@@ -128,6 +212,27 @@
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "-1528079564",
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "titleZh": "从协助到执行：企业如何让人工智能发挥作用",
+      "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+      "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "pubDate": 1786514400000,
+      "vendor": "openai",
+      "category": "Agent",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 12,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
     },
     {
       "id": "462968823",
@@ -340,6 +445,27 @@
       "source": "arXiv"
     },
     {
+      "id": "318207240",
+      "title": "Kimi K3: China's AI Challenger Rattles Silicon Valley",
+      "titleZh": "Kimi K3 ：中国的人工智能挑战者震撼硅谷",
+      "summary": "Kimi K3: China's AI Challenger Rattles Silicon Valley StartupHub.ai",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZWFuZTBUV0FMdkZES1JaUkdRbFdlUnlJR3k5TXcyNHBZejZPdU5ZSTNKLW9SX05vOUwzY2RScG9qUW1EVUF1aTBvcjhOUWJtdFdQVl9wODd3QjdfRkQ4eC13RWROQ0pRT3dGZDBkVVpuNDQ2NWRxb0lfYm81d1NwcXNpZ1ozZnd1ZWpnZlpTVzRjSUZDMXVqUV90SkhRa3ZETkY5d0dScmVPQjhta19sTFVDc0RWdw?oc=5",
+      "pubDate": 1786486142000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "983035024",
       "title": "Accel closes oversubscribed $550M India fund within weeks, 19 months after its last",
       "titleZh": "Accel在几周内完成了超额认购的$ 5.5亿印度基金，距离上一次",
@@ -454,13 +580,13 @@
       "vendor": "google",
       "category": "Research",
       "impact": "med",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 22,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google AI"
@@ -601,13 +727,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -622,13 +748,13 @@
       "vendor": "huggingface",
       "category": "Agent",
       "impact": "med",
-      "score": 45,
+      "score": 44,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 12,
         "st": 14,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -802,27 +928,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "540531064",
-      "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
-      "titleZh": "Virgin Atlantic借助ChatGPT Work提升客户旅程",
-      "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
-      "link": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-      "pubDate": 1786320000000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "1081432690",
       "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
       "titleZh": "Muse Glimmer回归Meta ：本地、代理、多式联运和开源",
@@ -844,27 +949,6 @@
       "source": "HuggingFace"
     },
     {
-      "id": "-10088307",
-      "title": "Moonshot AI's 2.8 Trillion Parameter Model Just Became the First From China to Top a Major Coding Benchmark",
-      "titleZh": "Moonshot AI的2.8万亿参数模型刚刚成为中国首个领先的主要编码基准",
-      "summary": "Moonshot AI's 2.8 Trillion Parameter Model Just Became the First From China to Top a Major Coding Benchmark Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcDVVbTdOQ0pSUi1YeVphVExQdnltbEhZYWRtajZHWkNuOTAtSFhieldQY21MaXRlbzloR3lqelRBUWFNS1ZYZ1d3cmRXSGFQeFJvUnJDVnZsbDk1THNaNGpqdlZYTGR3RWZ0TURYVGpVLTc5Si0yVjdReUpUQjF0aXpzckV2R3BjX05QZTF4U2xITDQ?oc=5",
-      "pubDate": 1786252800000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1033415691",
       "title": "Apple says Mac users in China can connect to Alibaba's Qwen AI service",
       "titleZh": "苹果表示，中国的Mac用户可以连接到阿里巴巴的Qwen AI服务",
@@ -884,27 +968,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-1331977386",
-      "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
-      "titleZh": "TutorMoments ：人工智能导师是否知道什么时候该提供帮助，什么时候该退缩？",
-      "summary": "TutorMoments: Do AI tutors know when to help and when to hold back?",
-      "link": "https://huggingface.co/blog/allenai/tutormoments",
-      "pubDate": 1786125212000,
-      "vendor": "huggingface",
-      "category": "Product",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 15,
-        "st": 14,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "HuggingFace"
     },
     {
       "id": "1919882972",
@@ -970,6 +1033,27 @@
       "source": "Google News"
     },
     {
+      "id": "-2105140046",
+      "title": "Chinese AI Model Moonshot Kimi K3 Also Escaped Its Testing Environment",
+      "titleZh": "中国人工智能模型Moonshot Kimi K3也逃脱了测试环境",
+      "summary": "Chinese AI Model Moonshot Kimi K3 Also Escaped Its Testing Environment Engadget",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdHRWOHRscWZMMDI5N0ZWbV9NOG4xS01HazZ6RTdlSWJvcTNSWGFsaC01cDZDbEZGOEZrSUo1U3lfQjY5WUY4SVYyTjJTOVptMTBRSVBPSU43Y3oxWG1uNzZfWWRYYnBDUllzWVVoTlMwNEtxNXhaQ2N0d0gwZEFiVnB3dw?oc=5",
+      "pubDate": 1786099444000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "high",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-804806878",
       "title": "Alibaba tests new business model for Qwen open-source AI",
       "titleZh": "阿里巴巴测试Qwen开源人工智能的新商业模式",
@@ -991,10 +1075,10 @@
       "source": "Google News"
     },
     {
-      "id": "-241689768",
+      "id": "2032631179",
       "title": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
       "titleZh": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
-      "summary": "One of China’s Most Powerful AI Models Has Also Escaped Containment WIRED",
+      "summary": "One of China’s Most Powerful AI Models Has Also Escaped Containment wired.com",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzUHl5MU1HbXJUemVtQWI4MzVQYmtWaUhHU19SMUp3bnFEY1NGaTN0LVpibXhwUTFNamtZMFBuLTNmOFhsN2VMRXRGWU9yMFBLbVlFNkhKVTVNc3JtdXRnY093aDdWaUJhcVhaX2NTQkgxNFhPdWw1SQ?oc=5",
       "pubDate": 1786065360000,
       "vendor": "google",
@@ -1159,27 +1243,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-201715684",
-      "title": "Deploy local agents everywhere with LFM2.5-2.6B",
-      "titleZh": "使用LFM2.5-2.6B在任何地方部署本地代理",
-      "summary": "Deploy local agents everywhere with LFM2.5-2.6B",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
-      "pubDate": 1785851909000,
-      "vendor": "huggingface",
-      "category": "Agent",
-      "impact": "med",
-      "score": 36,
-      "scoreBreakdown": {
-        "cq": 9,
-        "kv": 0,
-        "cw": 12,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
       "id": "-2100121415",
       "title": "The latest AI news we announced in July 2026",
       "titleZh": "我们在2026年7月宣布的最新人工智能新闻",
@@ -1279,27 +1342,6 @@
         "kv": 2,
         "cw": 25,
         "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-529548436",
-      "title": "Alibaba's new Qwen AI model falls short of 'second only to Fable 5' claim",
-      "titleZh": "阿里巴巴新款Qwen AI机型未达到“仅次于寓言5”的说法",
-      "summary": "Alibaba's new Qwen AI model falls short of 'second only to Fable 5' claim Nikkei Asia",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcTJXZUh1VnNGRFU5WGlaeGxJS3pNZ19vdmNVQkVZM3R6QmpKdml1VGdHaW1OVEl5WS16WEdhbi1EUXhKVGFER3lnY2dYTk82Vm4xdVVLQmVSbkdoNUVicnZTMEdqRm02eU81RzhCclgzSjZJck1LM2JRbk9nQkkyUXg2ckdubGx6bFJwVlFlcWlQZnpIWVJncmt1MUNVbUUybGwyWThlNlFpNVpBUnV6OXAtNi1jM2cxNy03QTNMME5kY1JtUzdaVERZeEtKLUJSSm1zRUln?oc=5",
-      "pubDate": 1785740400000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
         "rc": 0,
         "cs": 1
       },
@@ -1600,27 +1642,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-1566301778",
-      "title": "What is China’s Kimi K3 and why is the US so rattled by it?",
-      "titleZh": "What is China’s Kimi K3 and why is the US so rattled by it?",
-      "summary": "What is China’s Kimi K3 and why is the US so rattled by it? CNN",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV2lZYXNGZXdPOC1nMXl3UW04QXMzZGdJZWJlWUFGOV92ZVVSUEZVMU1HNUNoSjl2MnVFaF9Hdk1fMC1NN2NhZ1NHd3RJX0xsRDJnZ0JfbXBGN3NWLTlZSVlVSHFoQlo5eXhGNUV1M3RnY0otb184VHN0bGZhTWlpMVhBTQ?oc=5",
-      "pubDate": 1784790000000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1493276743",
       "title": "China's Moonshot AI stole from Anthropic, Trump tech adviser says",
       "titleZh": "特朗普技术顾问表示，中国的Moonshot AI从Anthropic窃取",
@@ -1865,27 +1886,6 @@
       "scoreBreakdown": {
         "cq": 20,
         "kv": 4,
-        "cw": 25,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "DeepMind"
-    },
-    {
-      "id": "-923036018",
-      "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
-      "titleZh": "Google DeepMind和A24宣布建立史无前例的研究合作伙伴关系",
-      "summary": "Google DeepMind and A24 announce first-of-its-kind research partnership",
-      "link": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
-      "pubDate": 1783088743000,
-      "vendor": "deepmind",
-      "category": "Release",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 13,
-        "kv": 2,
         "cw": 25,
         "st": 15,
         "rc": 0,
