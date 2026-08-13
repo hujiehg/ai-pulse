@@ -1,8 +1,113 @@
 {
-  "updated": "2026-08-13T21:37:03.958Z",
-  "count": 106,
-  "sources": 11,
+  "updated": "2026-08-13T22:32:56.918Z",
+  "count": 116,
+  "sources": 12,
   "items": [
+    {
+      "id": "-1808041965",
+      "title": "Writer introduces new AI model and upgraded harness to contain token costs",
+      "titleZh": "Writer引入新的AI模型和升级后的线束以控制代币成本",
+      "summary": "Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
+      "link": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+      "pubDate": 1786655604000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 22,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-849146061",
+      "title": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
+      "titleZh": "Databricks希望筹集$ 10亿，投资者希望筹集$ 150亿。它以$ 1900亿的估值结算为$ 50亿。",
+      "summary": "AI is expensive, Ali Ghodsi tells TechCrunch. With so many investors wanting into his latest round, he said yes to more than planned.",
+      "link": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
+      "pubDate": 1786652079000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 20,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-20265392",
+      "title": "OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed",
+      "titleZh": "OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed",
+      "summary": "OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.",
+      "link": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+      "pubDate": 1786648960000,
+      "vendor": "techcrunch",
+      "category": "Release",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 25,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1413910640",
+      "title": "IBM partners with OpenAI to bolster enterprise AI push",
+      "titleZh": "IBM与OpenAI合作支持企业AI推送",
+      "summary": "IBM plans to train and certify tens of thousands of consultants on OpenAI's technologies as part of this deal.",
+      "link": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
+      "pubDate": 1786648789000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "746988165",
+      "title": "Anthropic set AI agents loose on the same task. They started a turf war.",
+      "titleZh": "Anthropic让AI智能体在相同的任务上松动。他们发动了一场地盘战争。",
+      "summary": "Anthropic researchers found AI agents can clash, collude, and coordinate in unexpected ways, raising new questions about whether today’s safety tests capture the risks of multi-agent systems.",
+      "link": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+      "pubDate": 1786645694000,
+      "vendor": "techcrunch",
+      "category": "Safety",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 1,
+        "cw": 10,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "1372529249",
       "title": "DeepSeek officially launches V4-Pro AI model in August 2026",
@@ -23,6 +128,27 @@
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "2055285091",
+      "title": "OpenAI hires new CRO as executive shake-up continues",
+      "titleZh": "OpenAI聘请新的首席风险官，因为高管重组仍在继续",
+      "summary": "OpenAI has replaced chief revenue officer Denise Dresser after just nine months on the job, tapping Wiz president and chief operating officer Dali Rajic to take on frontier lab's top sales job.",
+      "link": "https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/",
+      "pubDate": 1786640833000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
     },
     {
       "id": "104702852",
@@ -88,6 +214,27 @@
       "source": "TechCrunch"
     },
     {
+      "id": "-1002928293",
+      "title": "Instead of Wi-Fi: Chinese bars have started offering access to the DeepSeek AI",
+      "titleZh": "代替Wi-Fi ：中国酒吧已开始提供DeepSeek人工智能的访问权限",
+      "summary": "Instead of Wi-Fi: Chinese bars have started offering access to the DeepSeek AI Mezha",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcXBpN05nOGswVFpWbmxUb2dYYVcxVnJqLWdweUxRUkVYcXNncmFGS2czOVhpYUROdFR4NUEzYU1NR29jenFlbmdhTl9kYkFRYWd4NWxEWGxTVDJoczM4WEROOU9DRmc0Z0dNUldCYUYwbzluT2hPYlBmNnBzYlpnVS0xbVZaSjZjMGfSAY8BQVVfeXFMUGJsd05GZVhub1h5WFpkcnBxZGNzM3B0RTYxRzhvT1ZwczBuV2FaNmx3TVk5eXBDa3RROTJ6TFBJS1BicEFGbE1tZTFxTGRxVFVUNkt0SjQxMVlYcTJvckoyRWF3T2t0MzdmYUhNOGJBdjRlYmswT1pfRkFFUzdkUkdMUGNXbTNlcUVMcHBscmc?oc=5",
+      "pubDate": 1786634520000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-380982692",
       "title": "Nvidia’s new $500B plan is risky but brilliant, especially for aging GPUs",
       "titleZh": "Nvidia’s new $500B plan is risky but brilliant, especially for aging GPUs",
@@ -107,6 +254,27 @@
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "1413051314",
+      "title": "DeepSeek releases official V4 Pro model with sharply higher user prices",
+      "titleZh": "DeepSeek发布官方V4 Pro型号，用户价格大幅上涨",
+      "summary": "DeepSeek releases official V4 Pro model with sharply higher user prices Nikkei Asia",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNVnNWV1J2dkJoaGViYk84TWhrd19Hc0pEMlBodmdsMjVfZGRmMUpGdUIwMzdURXJiZmdEVy1UTzRPa2dUX0pjMWZud1pfWlp0V0gxVW1qLXpSUER5S1puR1UxWDZPWldMaGpjYm40RmNaVHA0MV9TRFNoS3VOTEMydWVZVTJ5MFg5Q2JTM3h4dTdqSWp4MEVvTnJYTUZVU3Y0WmJBTk9QNjYxLVJtX1Bud25MZV9pU0xCWUNSbzJmTTFHdnJtWllKSDN6aHF5RTJFTXVyOTln?oc=5",
+      "pubDate": 1786633560000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "48655489",
@@ -151,6 +319,27 @@
       "source": "TechCrunch"
     },
     {
+      "id": "-1865787428",
+      "title": "Alibaba adds commercial restrictions to open-weight Qwen3.8-Max AI model",
+      "titleZh": "阿里巴巴为开放权重的Qwen3.8-Max AI模型增加商业限制",
+      "summary": "Alibaba adds commercial restrictions to open-weight Qwen3.8-Max AI model South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTURVS2Vyakt4UFJUN1hwSVM2N19aLThVMFpaQ3VsUEVqZFNfd1ZLTHZJdThlWFdVbUU1NE05eVpIMjFIeDJHZUpOOVRCbUY0VWhqRnBtaXBONi1CNkJoSVo4VGxxSEk2UTZxV2JQQXJXbUFvMUJmOXNmRGZTeUw2SDBXR2FjeUhXTzVfX0hwamlUdXVQSzNaSnBQdUFrczVJYy1kYm1Ib2pqTzRvdzhIdUZIa0FMb29ZSW81OVBtZ9IBvwFBVV95cUxOSGhqY1BtYWtqdzJzOEx5NXhVclY4Z0xZdllFbHUxX1BsdEVYZjZZYV9BMV9pYWVzV2d1VlVfRFo0S0VzRDU5YlBjV1pBcFlNZ2tjdVpyVDhaZlU5QWNoZWJpTVdPU3BIcWFBYkVnSWtIbGZpVGZYYUVfYnU3Y2w1bWpxRjJBWjBzZ3l6Yk9SVklRMW1tUWVZZGVoMEFCUktZQV80OTVsVzJsbHFGa0VNQmRKb3FQMkdMVEs1S1ZTOA?oc=5",
+      "pubDate": 1786627807000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "high",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "1783795739",
       "title": "DeepSeek releases official V4 Pro model as it steps up expansion",
       "titleZh": "DeepSeek在加强扩张的同时发布官方V4 Pro型号",
@@ -163,27 +352,6 @@
       "score": 63,
       "scoreBreakdown": {
         "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-619630375",
-      "title": "DeepSeek tweaks API pricing as it launches frontier DeepSeek-V4-Pro model (DEEPSEEK:Private)",
-      "titleZh": "DeepSeek调整API定价，推出前沿DeepSeek-V4-Pro模型（ DEEPSEEK ：私有）",
-      "summary": "DeepSeek tweaks API pricing as it launches frontier DeepSeek-V4-Pro model (DEEPSEEK:Private) Seeking Alpha",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSW5OSHpYaWlGbjk4ZWZWQXo2blJkQWpiS3Iwc0RxRm9RREU1ajhfSVBxRVdtNGtqZDQwNnl4UEhYVU5zbHNVVVppWlVOcEdFVkxTd0pxUU40cC03dWxyckRlTDRFaTRGR0xmRlptWlF4UXdtNnZabWVTV3IwUS1ScFN3N1pDbGZNS0FtN28zLWwxdFhGNWd1Z3hSZ20yMG9Ld2F6VkFaVExmc0lOZ0U5UQ?oc=5",
-      "pubDate": 1786622948000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 67,
-      "scoreBreakdown": {
-        "cq": 22,
         "kv": 4,
         "cw": 25,
         "st": 12,
@@ -233,27 +401,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "637239328",
-      "title": "DeepSeek’s new AI model gets mixed benchmark results",
-      "titleZh": "DeepSeek’s new AI model gets mixed benchmark results",
-      "summary": "DeepSeek’s new AI model gets mixed benchmark results Tech in Asia",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBFMGVkNDJnY3FPVkx3UTREYm1SVjUxeFFRNXZuQ3dubVJwLWk1MXFvSFdydlE0TXM2a1RCWFlmOGd2dUl6aFFCZVFYRFZEWGVqUGU4ZEFkalRVam90NTBVWnlkbzhiNkF3VmFpRmtNcGJxeHhBdUgtTg?oc=5",
-      "pubDate": 1786611120000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-487428515",
@@ -538,136 +685,10 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 47,
+      "score": 46,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-2028857870",
-      "title": "Amazon will train on Twitch streamers’ content by default, unless they opt out",
-      "titleZh": "Amazon will train on Twitch streamers’ content by default, unless they opt out",
-      "summary": "\"If this was opt-in, nobody would opt in,\" Twitch CPO Mike Minton said on a livestream responding to user feedback. \"That's honestly the answer.\"",
-      "link": "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
-      "pubDate": 1786565440000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1811065347",
-      "title": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
-      "titleZh": "据报道，人工智能编程初创公司Cognition已经在谈判以400亿美元的估值筹集资金",
-      "summary": "Cognition may be looking to raise another mega round just a few months after raising $1 billion at a $26 billion valuation.",
-      "link": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
-      "pubDate": 1786558752000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 3,
-        "cw": 20,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "353123717",
-      "title": "As AI safety concerns mount, three pioneers make the case for staying open",
-      "titleZh": "随着人工智能安全问题的日益增加，三位先驱提出了保持开放的理由",
-      "summary": "At Ai4, three of the world's most respected AI experts — Geoffrey Hinton, Fei-Fei Li, and Andrew Ng — debated regulation, open source access, and how America can compete as China advances in Asia.",
-      "link": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
-      "pubDate": 1786557060000,
-      "vendor": "techcrunch",
-      "category": "Safety",
-      "impact": "med",
-      "score": 40,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 3,
-        "cw": 10,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1831048509",
-      "title": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
-      "titleZh": "OpenAI支持的Thrive Holdings筹集了$ 2B ，将AI带入企业",
-      "summary": "Thrive Holdings has raised $2 billion in new funding at a $12 billion valuation from investors like SoftBank, D1 Capital Partners, and Altimeter Capital.",
-      "link": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
-      "pubDate": 1786556489000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "high",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 20,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "428752247",
-      "title": "Mesh, Automattic’s CRM for everyone, comes to Android",
-      "titleZh": "Mesh, Automattic’s CRM for everyone, comes to Android",
-      "summary": "Mesh, an AI-powered contacts app and relationship manager from Automattic, is now an Android app.",
-      "link": "https://techcrunch.com/2026/08/12/mesh-automattics-crm-for-everyone-comes-to-android/",
-      "pubDate": 1786553878000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 40,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1133393828",
-      "title": "Why Stream ring-maker Sandbar says the future of AI wearables is voice",
-      "titleZh": "为什么Stream戒指制造商Sandbar说人工智能可穿戴设备的未来是语音",
-      "summary": "AI notetaking hardware has taken off over the past couple of years, with credit-card-sized devices, pendants, pins, and even transcribing earbuds all promising to capture your meetings and turn them i…",
-      "link": "https://techcrunch.com/video/why-stream-ring-maker-sandbar-says-the-future-of-ai-wearables-is-voice/",
-      "pubDate": 1786553162000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 44,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
         "cw": 15,
         "st": 8,
         "rc": 2,
@@ -1957,31 +1978,10 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-1454851199",
-      "title": "Alibaba previews Qwen3.8, claiming its strength trails only Anthropic’s Fable 5",
-      "titleZh": "Alibaba previews Qwen3.8, claiming its strength trails only Anthropic’s Fable 5",
-      "summary": "Alibaba previews Qwen3.8, claiming its strength trails only Anthropic’s Fable 5 South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPakRPRHUwd1M1b09VMGxEN2t6V3JfNzVsc3Zpcko1djRPaXVpdlAxYTh1eld2MkVSTUVlV1VCOXExUHkzSnFMQ2h3aXV0SHdEN2g4UXRBTlYzMm5rQnBVQmVpNzZwSWdkRG1ybU4zQ1p4dXFaWjUwTGxFQzRQM0FzVUE1TTM4UjllUDFWRjRKZS14MjdTbmhkZVYtR1BaenF2RlRydXZvTWstdmJMRFNhSGZKONIBswFBVV95cUxPLVNNNUpSUTZvb3ZlaUVrN2NWOF9nX21xNTFfbl9BUEg0VkpfZnh5M05HcVhoT0g3NDZsLWVRNlJud21VWGRSdzlweXR5dTN0NzFSLU5Rc1N1cks3SzZkd0JveFdPb0swTC01LWhlbmpfVXF2U3BFQTUtb2RjaXJxQUVqUXpSVlBZWGQzak1BMm5GTUJUZGdNUDc3c3VLeXhSd0pESkdTRXQ5WkkyNGMtdFlfdw?oc=5",
-      "pubDate": 1784444400000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "345982035",
+      "id": "912581747",
       "title": "Alibaba Shares Rise After Unveiling Upgraded Flagship AI Model",
       "titleZh": "阿里巴巴在推出升级版旗舰AI车型后股价上涨",
-      "summary": "Alibaba Shares Rise After Unveiling Upgraded Flagship AI Model Bloomberg.com",
+      "summary": "Alibaba Shares Rise After Unveiling Upgraded Flagship AI Model bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdWxzei1DVGFMSTdOMzhQdWVTXzg1SHdqNWlsaU81Tmphb1UxOUlvbVJFZXpBdTRlTXhQRTQzdWRlT1ZRWHNRTmV2alYyTlVVenljdEg4c1VZekJUUUhNZ0ZwQl9nMVZMVlgzWF9uWUJpdXpxaHNmRVJlZ19QdlJmTF80OFFPYnJ3enRENm5ka21oVVB2U3hDUjhqMVhYeUFwdHJJNw?oc=5",
       "pubDate": 1784444400000,
       "vendor": "google",
@@ -2228,6 +2228,216 @@
         "cs": 1
       },
       "source": "VentureBeat"
+    },
+    {
+      "id": "251294355",
+      "title": "Technology, recovery, and responsibility",
+      "titleZh": "技术、恢复和责任",
+      "summary": "By Sriram Rajamani, Managing Director, Microsoft Research India We started 2021 with the hope that the COVID-19 vaccines will immunize enough of the world’s population to give herd immunity in the com…",
+      "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
+      "pubDate": 1615961906000,
+      "vendor": "microsoft",
+      "category": "Research",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 2,
+        "cw": 22,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "1792312368",
+      "title": "Directorate General of Training, Ministry of Skill Development and Entrepreneurship, partners with Microsoft and NASSCOM Foundation to empower students with next generation digital skills",
+      "titleZh": "技能发展和创业部培训总局与微软和NASSCOM基金会合作，为学生提供下一代数字技能",
+      "summary": "The blended curriculum will impact 1.2 lakh students across 3000 Industrial Training Institutes (ITI) in India New Delhi, January 7, 2021: With a vision to empower the next generation of learners, the…",
+      "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
+      "pubDate": 1610002951000,
+      "vendor": "microsoft",
+      "category": "Release",
+      "impact": "high",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 3,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "58206720",
+      "title": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
+      "titleZh": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
+      "summary": "Multilingual omni-channel service reduces wait time for queries, improves customer satisfaction by 70% New Delhi, January 5, 2021 – Powered by Microsoft Azure, Indian Railway Catering and Tourism Corp…",
+      "link": "https://news.microsoft.com/en-in/microsoft-azure-powered-corover-developed-irctc-ai-chatbot-askdisha/",
+      "pubDate": 1609824612000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "high",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1890804461",
+      "title": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
+      "titleZh": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
+      "summary": "• The initiative aims to skill 1 million students in AI by 2021 • The AI Classroom Series will deliver Microsoft’s AI, machine learning and data science expertise to undergraduate students at no cost …",
+      "link": "https://news.microsoft.com/en-in/nasscom-futureskills-microsoft-launch-ai-classroom-series-skill-students/",
+      "pubDate": 1599716180000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "high",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1460121599",
+      "title": "Industry and research – better together",
+      "titleZh": "Industry and research – better together",
+      "summary": "By Sriram Rajamani, Distinguished Scientist and Managing Director, Microsoft Research India at Microsoft Manik Varma, researcher in the Microsoft Research (MSR) India lab was awarded the prestigious S…",
+      "link": "https://news.microsoft.com/en-in/industry-and-research-better-together-sriram-rajamani/",
+      "pubDate": 1598613057000,
+      "vendor": "microsoft",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 22,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1887675878",
+      "title": "NSDC and Microsoft collaborate to empower Indian youth with digital skills",
+      "titleZh": "NSDC和微软合作，为印度青年提供数字技能",
+      "summary": "The initiative aims at skilling over 1 lakh youth in the next 12 months New Delhi, July 08, 2020: With a vision to transform India into a skilled nation, the National Skill Development Corporation (NS…",
+      "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
+      "pubDate": 1594186160000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "high",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 4,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "652542494",
+      "title": "Empowering developers to achieve more at the Microsoft Developer Conference",
+      "titleZh": "帮助开发人员在Microsoft开发者大会上取得更大成就",
+      "summary": "New Delhi, June 18, 2020: Underlining the critical role of developers in innovations that will power economic recovery, the Microsoft Developer Conference brought together developers and tech professi…",
+      "link": "https://news.microsoft.com/en-in/microsoft-developer-conference/",
+      "pubDate": 1592461746000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 2,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-150806068",
+      "title": "Microsoft announces program to accelerate growth of agritech startups in India",
+      "titleZh": "微软宣布加速印度农业科技创业公司发展的计划",
+      "summary": "New Delhi, June 03, 2020: Microsoft announced the launch of a program for agritech startups in India that are committed to driving transformation in agriculture. The Microsoft for Agritech Startups pr…",
+      "link": "https://news.microsoft.com/en-in/microsoft-agritech-startups-program-india-launch/",
+      "pubDate": 1591162175000,
+      "vendor": "microsoft",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 5,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "297070690",
+      "title": "Microsoft empowers startups in India to achieve more",
+      "titleZh": "微软助力印度初创企业实现更多",
+      "summary": "Five startups showcase their unique propositions at Future Decoded Tech Summit Bengaluru, February 25, 2020: Startups are an indisputable innovation engine, and Microsoft is partnering with startups a…",
+      "link": "https://news.microsoft.com/en-in/microsoft-empowers-startups-in-india-to-achieve-more/",
+      "pubDate": 1582633175000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 4,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "1830923333",
+      "title": "Myntra accelerates its digital transformation journey with Microsoft Cloud",
+      "titleZh": "Myntra借助微软云加速其数字化转型之旅",
+      "summary": "reimagines online shopping experience for customers Azure powers biggest-ever End of Reason Sale New Delhi, February 19, 2020: Myntra, India’s leading destination for fashion and lifestyle, has partne…",
+      "link": "https://news.microsoft.com/en-in/myntra-digital-transformation-microsoft-cloud/",
+      "pubDate": 1582092103000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 0,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
     }
   ]
 }
