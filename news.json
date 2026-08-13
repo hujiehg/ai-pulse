@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T22:32:56.918Z",
+  "updated": "2026-08-13T23:33:24.193Z",
   "count": 116,
   "sources": 12,
   "items": [
@@ -13,13 +13,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 22,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -130,6 +130,27 @@
       "source": "Google News"
     },
     {
+      "id": "-1804326395",
+      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+      "titleZh": "使用Strands Agent、LeRobot和Hugging Face Storage Buckets从一个地方记录、训练和部署",
+      "summary": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+      "link": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "pubDate": 1786641364000,
+      "vendor": "huggingface",
+      "category": "Agent",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 12,
+        "st": 14,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
       "id": "2055285091",
       "title": "OpenAI hires new CRO as executive shake-up continues",
       "titleZh": "OpenAI聘请新的首席风险官，因为高管重组仍在继续",
@@ -139,16 +160,37 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "-880752733",
+      "title": "Introducing Gemini 3.7 Flash",
+      "titleZh": "隆重推出Gemini 3.7 Flash",
+      "summary": "Introducing Gemini 3.7 Flash",
+      "link": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+      "pubDate": 1786640658000,
+      "vendor": "deepmind",
+      "category": "Release",
+      "impact": "high",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 9,
+        "kv": 2,
+        "cw": 25,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "DeepMind"
     },
     {
       "id": "104702852",
@@ -160,13 +202,13 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "high",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 8,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -181,13 +223,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google AI"
@@ -359,6 +401,48 @@
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "1217145544",
+      "title": "The builder’s guide to GPT‑5.6",
+      "titleZh": "The builder’s guide to GPT‑5.6",
+      "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+      "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "pubDate": 1786618800000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "high",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "1758574929",
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "titleZh": "预览超快模式： GPT-5.6 SOL ，速度高达14倍",
+      "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+      "link": "https://openai.com/index/previewing-ultrafast",
+      "pubDate": 1786615200000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "high",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
     },
     {
       "id": "727962758",
@@ -674,6 +758,27 @@
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "1278128570",
+      "title": "What We Learned by Reproducing 2,200 papers from ICML",
+      "titleZh": "我们从ICML转载2200篇论文中学到了什么",
+      "summary": "What We Learned by Reproducing 2,200 papers from ICML",
+      "link": "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "pubDate": 1786579200000,
+      "vendor": "huggingface",
+      "category": "Research",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 1,
+        "cw": 22,
+        "st": 14,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "HuggingFace"
     },
     {
       "id": "718756768",
@@ -1094,48 +1199,6 @@
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "2041688883",
-      "title": "Putting frontier cyber models in more trusted hands",
-      "titleZh": "将前沿网络模型交到更值得信赖的人手中",
-      "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
-      "link": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
-      "pubDate": 1786356000000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "1850947071",
-      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
-      "titleZh": "随着网络防御窗口的缩小，黎明不断扩大",
-      "summary": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
-      "link": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "pubDate": 1786356000000,
-      "vendor": "openai",
-      "category": "Research",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 3,
-        "cw": 22,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
     },
     {
       "id": "1081432690",
@@ -1726,27 +1789,6 @@
       "source": "Google AI"
     },
     {
-      "id": "-811957981",
-      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
-      "titleZh": "NVIDIA Cosmos-H-Dreams ：为手术机器人带来实时生成模拟",
-      "summary": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
-      "link": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
-      "pubDate": 1785144740000,
-      "vendor": "huggingface",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 13,
-        "kv": 0,
-        "cw": 15,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
       "id": "1093733276",
       "title": "Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security",
       "titleZh": "行业领导者团结在开放安全的人工智能联盟中，以实现人工智能的安全和保障",
@@ -1766,27 +1808,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "301974150",
-      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
-      "titleZh": "前沿实验室特工入侵剖析： 2026年7月事件的技术时间表",
-      "summary": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
-      "link": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
-      "pubDate": 1785110400000,
-      "vendor": "huggingface",
-      "category": "Agent",
-      "impact": "med",
-      "score": 38,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 12,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
     },
     {
       "id": "-1965105272",
@@ -2055,27 +2076,6 @@
         "cq": 14,
         "kv": 0,
         "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "DeepMind"
-    },
-    {
-      "id": "-839339036",
-      "title": "Empowering India’s next generation of innovators with ATL Saathi",
-      "titleZh": "Empowering India’s next generation of innovators with ATL Saathi",
-      "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
-      "link": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
-      "pubDate": 1783946248000,
-      "vendor": "deepmind",
-      "category": "Release",
-      "impact": "high",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 25,
         "st": 15,
         "rc": 0,
         "cs": 1
