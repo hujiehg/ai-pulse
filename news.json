@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T17:14:01.968Z",
+  "updated": "2026-08-15T17:44:31.817Z",
   "count": 97,
   "sources": 10,
   "items": [
@@ -286,13 +286,13 @@
       "vendor": "qwen",
       "category": "Product",
       "impact": "high",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -622,13 +622,13 @@
       "vendor": "huggingface",
       "category": "Agent",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 12,
         "st": 14,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "HuggingFace"
