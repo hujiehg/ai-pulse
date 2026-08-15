@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T23:46:14.697Z",
+  "updated": "2026-08-15T00:41:12.155Z",
   "count": 97,
   "sources": 10,
   "items": [
@@ -34,13 +34,13 @@
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -193,10 +193,10 @@
       "source": "Google News"
     },
     {
-      "id": "-2016155837",
+      "id": "1188159030",
       "title": "DeepSeek's AI Models Are About To Cost Four Times More",
       "titleZh": "DeepSeek的人工智能模型成本将增加四倍",
-      "summary": "DeepSeek's AI Models Are About To Cost Four Times More Engadget",
+      "summary": "DeepSeek's AI Models Are About To Cost Four Times More engadget.com",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT2FId1BnQ0MyY3Rzem9GYVo0blhJUnVqMEpYektCc1F5cy0xS09SODdqOEZrNXZGZE1NVlR6TGFacEw1Uzh6SEtfQzBEU2pfSDRpTW9YRVBoSlJyNElwcmJBOFZmVzIyVHZZS0hhcmJ6cWkzeWlMc2pOQmMwX055Yg?oc=5",
       "pubDate": 1786705104000,
       "vendor": "deepseek",
@@ -496,13 +496,13 @@
       "vendor": "huggingface",
       "category": "Research",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 9,
         "kv": 0,
         "cw": 22,
         "st": 14,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -811,13 +811,13 @@
       "vendor": "huggingface",
       "category": "Research",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 1,
         "cw": 22,
         "st": 14,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -1201,10 +1201,10 @@
       "source": "HuggingFace"
     },
     {
-      "id": "1575914922",
+      "id": "-937106851",
       "title": "China’s Top AI Model Evaded Testing Environment, Researchers Say",
       "titleZh": "China’s Top AI Model Evaded Testing Environment, Researchers Say",
-      "summary": "China’s Top AI Model Evaded Testing Environment, Researchers Say Bloomberg.com",
+      "summary": "China’s Top AI Model Evaded Testing Environment, Researchers Say Bloomberg",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNll3VTJMVGl6djhQajYzTGgzcmFuZUstUnVmY3FmaTZrUW4zMzlTRzRWb3ZkNEV6cFhrZW42RFhqVmVrYlM2RFBJV3dpT0RNT0hicWJ4dUF6dEw5Rk05MXhFZVVQSUowcjlrd2EyWG9weWF3VWZvaUJjdzZwak9GR2xVMXh5WVJxZXpjSVZnNFFRS3pmcG1KeGNGMlNhUzN5bXVwc09SNUMtbDhYWlVMN2E4Tl8?oc=5",
       "pubDate": 1786117097000,
       "vendor": "google",
@@ -1235,27 +1235,6 @@
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1375271958",
-      "title": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say",
-      "titleZh": "研究人员表示，中国人工智能模型Kimi逃脱了网络安全测试环境",
-      "summary": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX2NpajBveEZEMlMxOS1TVjlwaDZJYmVmWU1EZnZHbTJBaHZWbkxYdG44aF92TkZ3MW9RUlM2dWlFTFMtTGZXb1R1a0oydzE0YU81WHh4S1pHd3JOaDd5OW5BT1Y4VWItaVBZekVYcFM2T2dMNWlBSjU0eGpnaXJOeDE0bkJSNDFKaVhmdFE5WFMzVEZYWG1BWGJmc1FENl9haTFBdTVFNVRzRVNzS0ZsNUtyQ1ZvdjFWbmc?oc=5",
-      "pubDate": 1786112911000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
         "cw": 22,
         "st": 12,
         "rc": 0,
@@ -1682,6 +1661,27 @@
         "cs": 1
       },
       "source": "NVIDIA"
+    },
+    {
+      "id": "-614190061",
+      "title": "What is China’s Kimi K3 and why is the US so rattled by it?",
+      "titleZh": "What is China’s Kimi K3 and why is the US so rattled by it?",
+      "summary": "What is China’s Kimi K3 and why is the US so rattled by it? CNN",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVGMzc2NleDljRVlmY0J4UFU4Ni1nSm9ZNDhWNDlmZlZ3SjVlTnNuYkx5c3RuQTJqTFFxak5hZ29GeVFOR0h2TGFqbm9KNDNZcWxEdElGSl8zdy1mblJrOF9tUXdyR002QjlDdndJdUZJcDNUV3dibEpMdU9wd1g5NExRM01Nc2V4?oc=5",
+      "pubDate": 1784790000000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "1493276743",
