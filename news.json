@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T09:18:36.940Z",
+  "updated": "2026-08-15T09:49:20.966Z",
   "count": 117,
   "sources": 12,
   "items": [
@@ -550,6 +550,27 @@
       "source": "Google News"
     },
     {
+      "id": "1891311706",
+      "title": "AI Scans 150 Bitcoin Repos as Kimi K3 Flags 12+ Flaws",
+      "titleZh": "AI扫描150个比特币Repos作为Kimi K3标记12个以上的缺陷",
+      "summary": "AI Scans 150 Bitcoin Repos as Kimi K3 Flags 12+ Flaws FinanceFeeds",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObnA4T18xcmRUdW5aalpkRENMY3NQVGE1OXdUT1BuTVpHd2hqVWlxbmlGR1VUWlcxNFF0V2VjVWpSR01UTnZ4a3Z4ZkVTT05hTmlXUTJ1QXh5QUREX0p0SjZYMnlzTmMxN3pGekNoZXVsRF9CbFZJWFptRU1GSGw0cjJrcFNsYkp6aG8tc2s5Rl9WbnZ4MkphcW44VVdQbVdmQ09ZZTVtaFFHcWlEQVdDS0hYTl9Ra19y?oc=5",
+      "pubDate": 1786687956000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "235311960",
       "title": "DeepSeek Lifts AI Model Prices Fourfold",
       "titleZh": "DeepSeek将AI模型价格提高了四倍",
@@ -611,27 +632,6 @@
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "-2078693499",
-      "title": "'Bitcoin Is Burning': Red Team Turns to Chinese AI to Find Flaws",
-      "titleZh": "“比特币正在燃烧” ：红队转向中国人工智能寻找缺陷",
-      "summary": "'Bitcoin Is Burning': Red Team Turns to Chinese AI to Find Flaws Decrypt",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TYWdVMkQ3a3RsRm9KZGtSYV9LTmxXRWJIcENoYnVBVF9YX1FKZVNIYXhacS1weG1VNW1sUWJfalQtN0YtZm42djIzVkt2c1hxS3VRMlZpNlQ1Q0xpR3otOXByUXRoZkNnVHh0aFU2T3BoaHBo0gF8QVVfeXFMUFhnSnp6WGN3MG1KaE5rVlByR3ZZbXdMUi1zaGxnQkxVdWdJS1RWVk02NFlFVXdRd3F0d1l3SGZOdEtQdjlielk3ZWFNZXl1RkRLN0U5SGRqV3pYUFNlRUlPQnI4T2E5UnI0bXVqZ25hdGJoOHpxTElLeWp0NA?oc=5",
-      "pubDate": 1786660567000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 15,
-        "st": 15,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1808041965",
@@ -1390,31 +1390,10 @@
       "source": "HuggingFace"
     },
     {
-      "id": "1575914922",
-      "title": "China’s Top AI Model Evaded Testing Environment, Researchers Say",
-      "titleZh": "China’s Top AI Model Evaded Testing Environment, Researchers Say",
-      "summary": "China’s Top AI Model Evaded Testing Environment, Researchers Say Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNll3VTJMVGl6djhQajYzTGgzcmFuZUstUnVmY3FmaTZrUW4zMzlTRzRWb3ZkNEV6cFhrZW42RFhqVmVrYlM2RFBJV3dpT0RNT0hicWJ4dUF6dEw5Rk05MXhFZVVQSUowcjlrd2EyWG9weWF3VWZvaUJjdzZwak9GR2xVMXh5WVJxZXpjSVZnNFFRS3pmcG1KeGNGMlNhUzN5bXVwc09SNUMtbDhYWlVMN2E4Tl8?oc=5",
-      "pubDate": 1786117097000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1919882972",
+      "id": "-1057194289",
       "title": "Chinese startup Moonshot's AI model breaks out of testing environment, researchers say",
       "titleZh": "研究人员表示，中国初创公司Moonshot的人工智能模型打破了测试环境",
-      "summary": "Chinese startup Moonshot's AI model breaks out of testing environment, researchers say Reuters",
+      "summary": "Chinese startup Moonshot's AI model breaks out of testing environment, researchers say reuters.com",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc2Q3eXFPcENXOWZ2cFkyM0lQUEdyMGhqTTdDbHc5dWZMa0xhV2x1U0RpZ2pUT0d5MjdNNjlHR1ZVRklMZmxnZHA3VHJyRnBJTzhsR2Jpc1dGQ2F2cnQ1VkhsMHBiZ3FQOU5BTWNjVERRdktTRjQ2UEFQMi10VmZIQzNQdzlacXc3U2lrNUJFUHV1djVlRGhvYVhCejRpX0w1dDFkS202MU5hUDBSS285b0Q3TnZORE8xZWJoM0F1VU9HVWR1Qkwzdk93?oc=5",
       "pubDate": 1786113505000,
       "vendor": "kimi",
@@ -1432,10 +1411,10 @@
       "source": "Google News"
     },
     {
-      "id": "1375271958",
+      "id": "-369863773",
       "title": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say",
       "titleZh": "研究人员表示，中国人工智能模型Kimi逃脱了网络安全测试环境",
-      "summary": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say TechCrunch",
+      "summary": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say techcrunch.com",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX2NpajBveEZEMlMxOS1TVjlwaDZJYmVmWU1EZnZHbTJBaHZWbkxYdG44aF92TkZ3MW9RUlM2dWlFTFMtTGZXb1R1a0oydzE0YU81WHh4S1pHd3JOaDd5OW5BT1Y4VWItaVBZekVYcFM2T2dMNWlBSjU0eGpnaXJOeDE0bkJSNDFKaVhmdFE5WFMzVEZYWG1BWGJmc1FENl9haTFBdTVFNVRzRVNzS0ZsNUtyQ1ZvdjFWbmc?oc=5",
       "pubDate": 1786112911000,
       "vendor": "kimi",
@@ -1447,6 +1426,27 @@
         "kv": 1,
         "cw": 22,
         "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1575914922",
+      "title": "China’s Top AI Model Evaded Testing Environment, Researchers Say",
+      "titleZh": "China’s Top AI Model Evaded Testing Environment, Researchers Say",
+      "summary": "China’s Top AI Model Evaded Testing Environment, Researchers Say Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNll3VTJMVGl6djhQajYzTGgzcmFuZUstUnVmY3FmaTZrUW4zMzlTRzRWb3ZkNEV6cFhrZW42RFhqVmVrYlM2RFBJV3dpT0RNT0hicWJ4dUF6dEw5Rk05MXhFZVVQSUowcjlrd2EyWG9weWF3VWZvaUJjdzZwak9GR2xVMXh5WVJxZXpjSVZnNFFRS3pmcG1KeGNGMlNhUzN5bXVwc09SNUMtbDhYWlVMN2E4Tl8?oc=5",
+      "pubDate": 1786086000000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
         "rc": 0,
         "cs": 1
       },
