@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-15T12:20:00.993Z",
-  "count": 117,
-  "sources": 12,
+  "updated": "2026-08-15T13:07:28.345Z",
+  "count": 107,
+  "sources": 11,
   "items": [
     {
       "id": "-1847414722",
@@ -13,13 +13,13 @@
       "vendor": "qwen",
       "category": "Research",
       "impact": "high",
-      "score": 63,
+      "score": 62,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 3,
         "cw": 22,
         "st": 12,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google News"
@@ -34,13 +34,13 @@
       "vendor": "qwen",
       "category": "Research",
       "impact": "high",
-      "score": 63,
+      "score": 62,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 3,
         "cw": 22,
         "st": 12,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google News"
@@ -256,27 +256,6 @@
       "source": "arXiv"
     },
     {
-      "id": "-2145328936",
-      "title": "DeepSeek's innovative harness treats everything as a plug-in",
-      "titleZh": "DeepSeek的创新线束将所有内容视为插件",
-      "summary": "DeepSeek's innovative harness treats everything as a plug-in The Register",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTkNqNmFRc1NrYzRHSVdGMUU2Y3AzMWptWWY3V3FDbnNTU0lzaTNyZlJuYmhFNDFjay1BbWc1UmZ4LXA4VGMzYlJUX0o0SFo0YzlrbHMwLVdzRXVQTEVXNjhOaThkekJSX0U4UVNDMXZ1M3hHMDA3MlBZczQ5U1BZWnlEVy1kN191aUdZRkdVeFF1M2Fyb2hfY1RydFlXSmFlZHFKWmFyWUZ6TTY5RHRZNFVVYU9Sb1k?oc=5",
-      "pubDate": 1786739156000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1641565103",
       "title": "Apple secretly trained its own AI model for China with Alibaba's help",
       "titleZh": "在阿里巴巴的帮助下，苹果秘密为中国培训了自己的人工智能模型",
@@ -311,27 +290,6 @@
       "scoreBreakdown": {
         "cq": 20,
         "kv": 4,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-462187390",
-      "title": "DeepSeek's New V4 Pro AI Model Quadruples Prices but Remains Far Cheaper Than Western AI",
-      "titleZh": "DeepSeek的新V4 Pro人工智能模型价格翻了两番，但仍然比西方人工智能便宜得多",
-      "summary": "DeepSeek's New V4 Pro AI Model Quadruples Prices but Remains Far Cheaper Than Western AI Android Headlines",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdkJ3ZExwdDhFQWlvVFRDcU5IaXI5Q3F1WUpGSWVLd1lOWWM3bjdzVm9XSFRPWDMzMTVPOGNldi10UGJVTms3YlIxUUt2MFBUTmxyMm9aT1l0RnMxdVlVLVlBbnZpc0hTbktRUS1SZjEwYmdGaFc2djczdUNvbkIxaXA1bEVCVlJrUFdmMm5Ka1RCQ2FZc001aTRieG1DYVppblRvdTJodw?oc=5",
-      "pubDate": 1786729966000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
         "cw": 22,
         "st": 12,
         "rc": 3,
@@ -424,27 +382,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "1460504015",
-      "title": "DeepSeek Open-Sources the Missing Layer Between AI Models and Agents",
-      "titleZh": "DeepSeek开源人工智能模型和智能体之间缺失的层",
-      "summary": "DeepSeek Open-Sources the Missing Layer Between AI Models and Agents HPCwire",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR0U3dEtvVWEtc1BnWEV5T1E2aWQ0SWdOaVVFUlFkb2piTV85NDFIVzBqU29FVzhIWFRXUkNrOFh4cFR3dEgyRlRTdlhyTUw1WFFCQTdpSnVicmlhZmNwZXkyNkQ0c1AyWld6eld4NU1RMTFOenExVWJvejNpVVlLZEk3dWhmdG9aR2xuS0lablVrclBiTTUxVWxzLXBPdVk0VTA0WTdMOVRSTmFPVmhGRF9HMmd2eE0?oc=5",
-      "pubDate": 1786721884000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1303876713",
       "title": "Kog is going deeper to squeeze more inference out of GPUs",
       "titleZh": "KOG正在更深入地从GPU中挤出更多推理",
@@ -517,74 +454,11 @@
       "vendor": "kimi",
       "category": "Release",
       "impact": "high",
-      "score": 65,
+      "score": 64,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 4,
         "cw": 25,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-2016155837",
-      "title": "DeepSeek's AI Models Are About To Cost Four Times More",
-      "titleZh": "DeepSeek的人工智能模型成本将增加四倍",
-      "summary": "DeepSeek's AI Models Are About To Cost Four Times More Engadget",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT2FId1BnQ0MyY3Rzem9GYVo0blhJUnVqMEpYektCc1F5cy0xS09SODdqOEZrNXZGZE1NVlR6TGFacEw1Uzh6SEtfQzBEU2pfSDRpTW9YRVBoSlJyNElwcmJBOFZmVzIyVHZZS0hhcmJ6cWkzeWlMc2pOQmMwX055Yg?oc=5",
-      "pubDate": 1786705104000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1891311706",
-      "title": "AI Scans 150 Bitcoin Repos as Kimi K3 Flags 12+ Flaws",
-      "titleZh": "AI扫描150个比特币Repos作为Kimi K3标记12个以上的缺陷",
-      "summary": "AI Scans 150 Bitcoin Repos as Kimi K3 Flags 12+ Flaws FinanceFeeds",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObnA4T18xcmRUdW5aalpkRENMY3NQVGE1OXdUT1BuTVpHd2hqVWlxbmlGR1VUWlcxNFF0V2VjVWpSR01UTnZ4a3Z4ZkVTT05hTmlXUTJ1QXh5QUREX0p0SjZYMnlzTmMxN3pGekNoZXVsRF9CbFZJWFptRU1GSGw0cjJrcFNsYkp6aG8tc2s5Rl9WbnZ4MkphcW44VVdQbVdmQ09ZZTVtaFFHcWlEQVdDS0hYTl9Ra19y?oc=5",
-      "pubDate": 1786687956000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "235311960",
-      "title": "DeepSeek Lifts AI Model Prices Fourfold",
-      "titleZh": "DeepSeek将AI模型价格提高了四倍",
-      "summary": "DeepSeek Lifts AI Model Prices Fourfold WSJ",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQd0hZUGVrZmdGTmVpTkVseXpHNzFmZ1cxaUdrT0I0Q1ZVYjFlVnZPdDFUZkV4RWdjMEpoUGxyQ0xEeHJ2VWVKZ0ZLZHc4bURlcEJyVWpUaWZXT0xqR3ljTmZXLXJjZ3FDaHFmRkVkanF1MHhRTlU3dTRtLWxJbDBFVTVB?oc=5",
-      "pubDate": 1786682160000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 2,
-        "cw": 22,
         "st": 12,
         "rc": 2,
         "cs": 1
@@ -632,6 +506,27 @@
         "cs": 1
       },
       "source": "HuggingFace"
+    },
+    {
+      "id": "-2078693499",
+      "title": "'Bitcoin Is Burning': Red Team Turns to Chinese AI to Find Flaws",
+      "titleZh": "“比特币正在燃烧” ：红队转向中国人工智能寻找缺陷",
+      "summary": "'Bitcoin Is Burning': Red Team Turns to Chinese AI to Find Flaws Decrypt",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TYWdVMkQ3a3RsRm9KZGtSYV9LTmxXRWJIcENoYnVBVF9YX1FKZVNIYXhacS1weG1VNW1sUWJfalQtN0YtZm42djIzVkt2c1hxS3VRMlZpNlQ1Q0xpR3otOXByUXRoZkNnVHh0aFU2T3BoaHBo0gF8QVVfeXFMUFhnSnp6WGN3MG1KaE5rVlByR3ZZbXdMUi1zaGxnQkxVdWdJS1RWVk02NFlFVXdRd3F0d1l3SGZOdEtQdjlielk3ZWFNZXl1RkRLN0U5SGRqV3pYUFNlRUlPQnI4T2E5UnI0bXVqZ25hdGJoOHpxTElLeWp0NA?oc=5",
+      "pubDate": 1786660567000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 1,
+        "cw": 15,
+        "st": 15,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1808041965",
@@ -739,27 +634,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "1372529249",
-      "title": "DeepSeek officially launches V4-Pro AI model in August 2026",
-      "titleZh": "DeepSeek于2026年8月正式推出V4-Pro AI模型",
-      "summary": "DeepSeek officially launches V4-Pro AI model in August 2026 qz.com",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5DM1B4azQ2dkZ6MUVJZnp6V3ZkTl9RMU84Q09HOWJoTXR5R1lST3JJQXQ3NlJNa25JVGRGR3NKbXRmcGZ1WGtCejF6NkJHYVd2bFdyQ1prWGRTRHdJZ29SVm9hRQ?oc=5",
-      "pubDate": 1786644795000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1804326395",
       "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
       "titleZh": "使用Strands Agent、LeRobot和Hugging Face Storage Buckets从一个地方记录、训练和部署",
@@ -802,27 +676,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "104702852",
-      "title": "DeepSeek Harness launches as open source rival to Claude Code, alongside V4-Pro on API with higher prices",
-      "titleZh": "DeepSeek Harness作为Claude Code的开源竞争对手推出，同时推出价格更高的API V4-Pro",
-      "summary": "DeepSeek Harness launches as open source rival to Claude Code, alongside V4-Pro on API with higher prices VentureBeat",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeVA0OGxrdGxzcGV1VUtwei1fLVFhNUE4M3BNd0lLb1hpS2xoNXlWUzJzWU1YUDM4dElQVjIwcm1qQWsxeUdoOEF6ZGEta1lEaEJLd3g4bE5ITUtqLVpZSlp3X21LZDd5T3lPelI0cHhBaEdiOTBrYkdRbV9td1c4bWVCdUlUNGNjTmx1RTI2T19QMEtyTGZPWW42Z1BQVzRPdjZ6UkNyd3hfWFdQWVU1LTMtdEtpeE84S1FzbmdOLVZmWFRrVk5aLVJsbW5nSzdrU0RIRUNR?oc=5",
-      "pubDate": 1786639675000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "high",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 8,
-        "cw": 15,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1961739353",
       "title": "Bring your spreadsheet data to life with Sheets canvas",
       "titleZh": "使用Sheets画布，让您的电子表格数据栩栩如生",
@@ -842,48 +695,6 @@
         "cs": 1
       },
       "source": "Google AI"
-    },
-    {
-      "id": "631066276",
-      "title": "DeepSeek Increases Prices for AI Services by Multiple Times",
-      "titleZh": "DeepSeek将人工智能服务的价格提高了数倍",
-      "summary": "DeepSeek Increases Prices for AI Services by Multiple Times Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdUxaa1c4YnFUXy02QUVYQnh0bmFaenVrcXEwYkg3VUt0Vk1fQlNRc0dTbHhBdXBvWXlfODloS3JrT2ZOMVZhd05KUlNZNVFaUkMxc1h4OUlpQ2FLZnhJY2JUeDBRVTNQUzNQelctaDdfX3NyMFdkeVY4d0psRk56OVdfdlNRSm5YbFhkWWR1bnc1X1Qyc1FaWGFMNnQyLVFBVVgxSGNpVVM5c3JyY2NR?oc=5",
-      "pubDate": 1786633228000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1364078772",
-      "title": "DeepSeek launches V4 Pro at prices up to 14 times higher than V4 Flash",
-      "titleZh": "DeepSeek推出V4 Pro ，价格比V4 Flash高出14倍",
-      "summary": "DeepSeek launches V4 Pro at prices up to 14 times higher than V4 Flash Reuters",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVzBOcmxUZXZzV20xU1pZMnI1X0JKRzV1SUJwcGhzaE1JZDZfUTZqVDZMVXNhUHFoY295SHZuLWZZbTlXa1AtUmI2dkRhRWliRXFBYzdZQlROdUVzZ2dNc2pHLUhvdTFBSVpSTW9SaHBQUnJubTdMX2FQUkhHTDhiUGtiZDUxLTRQXzRrZERqSzlOSXZpMWYxUzVWeXFCdW1HZEVWbWMtVDhFU1BCSkE?oc=5",
-      "pubDate": 1786625760000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1217145544",
@@ -947,27 +758,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "-84501905",
-      "title": "DeepSeek’s flagship AI model update underwhelms – except in cybersecurity",
-      "titleZh": "DeepSeek’s flagship AI model update underwhelms – except in cybersecurity",
-      "summary": "DeepSeek’s flagship AI model update underwhelms – except in cybersecurity scmp.com",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNN1hCb3pST191TjItOVFxZi1vMzhfMm9QZjEyQ2VfbGk0NzhjRWdhT2pub3p5bmM1VDdwZ1ZQYXVMSk9Kc0tZUHlGcnFhSE1ZVmdRclRwM0hITHFGbkFnZUgxMUVoTjVoWTEyTnhHRmc2TUpMc2RGRU9DYTRSZ1FWdVVEczhsY2tpcThUSHNsckZyeVhZQnNMSFcyaGUzMU9PMWhQN28wMkFTRXRFYzdmMWhwck5vX2dWdnQ0N1N0c0VyY00z0gHEAUFVX3lxTFA5SGNMa2U2SzhpUFF3WU5rZmhFNjZHMFJfTUNIT2wzWlhzMVNGNTRralpYVWV0bzVZUnFXZW1Gbm1NYlZaWjZ1YW94UHgwd3hxQmFGWjZ4NndscC1KVjJkaFJnZjNiLU9SeW9yRUFhQzAzamZkQkR6UXVKcWxYSzFVb1RtTGd2NE1CWjROVkpiR0JmNkk4aTVnZ1hEMS1YUllCcHlzUnNfeUZqWjdIblRSU3dxcGNuZExfdmIwdzlRRW9JMEs?oc=5",
-      "pubDate": 1786608032000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1278128570",
@@ -1411,10 +1201,10 @@
       "source": "Google News"
     },
     {
-      "id": "-369863773",
+      "id": "1375271958",
       "title": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say",
       "titleZh": "研究人员表示，中国人工智能模型Kimi逃脱了网络安全测试环境",
-      "summary": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say techcrunch.com",
+      "summary": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say TechCrunch",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX2NpajBveEZEMlMxOS1TVjlwaDZJYmVmWU1EZnZHbTJBaHZWbkxYdG44aF92TkZ3MW9RUlM2dWlFTFMtTGZXb1R1a0oydzE0YU81WHh4S1pHd3JOaDd5OW5BT1Y4VWItaVBZekVYcFM2T2dMNWlBSjU0eGpnaXJOeDE0bkJSNDFKaVhmdFE5WFMzVEZYWG1BWGJmc1FENl9haTFBdTVFNVRzRVNzS0ZsNUtyQ1ZvdjFWbmc?oc=5",
       "pubDate": 1786112911000,
       "vendor": "kimi",
@@ -1432,10 +1222,10 @@
       "source": "Google News"
     },
     {
-      "id": "1575914922",
+      "id": "-937106851",
       "title": "China’s Top AI Model Evaded Testing Environment, Researchers Say",
       "titleZh": "China’s Top AI Model Evaded Testing Environment, Researchers Say",
-      "summary": "China’s Top AI Model Evaded Testing Environment, Researchers Say Bloomberg.com",
+      "summary": "China’s Top AI Model Evaded Testing Environment, Researchers Say Bloomberg",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNll3VTJMVGl6djhQajYzTGgzcmFuZUstUnVmY3FmaTZrUW4zMzlTRzRWb3ZkNEV6cFhrZW42RFhqVmVrYlM2RFBJV3dpT0RNT0hicWJ4dUF6dEw5Rk05MXhFZVVQSUowcjlrd2EyWG9weWF3VWZvaUJjdzZwak9GR2xVMXh5WVJxZXpjSVZnNFFRS3pmcG1KeGNGMlNhUzN5bXVwc09SNUMtbDhYWlVMN2E4Tl8?oc=5",
       "pubDate": 1786086000000,
       "vendor": "google",
@@ -1894,19 +1684,19 @@
       "source": "NVIDIA"
     },
     {
-      "id": "1493276743",
-      "title": "China's Moonshot AI stole from Anthropic, Trump tech adviser says",
-      "titleZh": "特朗普技术顾问表示，中国的Moonshot AI从Anthropic窃取",
-      "summary": "China's Moonshot AI stole from Anthropic, Trump tech adviser says BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iWFdWWk1rRjktUk5wZnBrNHBnd0xhU01XRmo1dTV0aHpGWmRDcTJhWndnUzV3R25aT2VjSHZxaWNzUUhWZF9MeVZnSkRZZUlJYXJrc3RBM2Vvdw?oc=5",
+      "id": "-614190061",
+      "title": "What is China’s Kimi K3 and why is the US so rattled by it?",
+      "titleZh": "What is China’s Kimi K3 and why is the US so rattled by it?",
+      "summary": "What is China’s Kimi K3 and why is the US so rattled by it? CNN",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVGMzc2NleDljRVlmY0J4UFU4Ni1nSm9ZNDhWNDlmZlZ3SjVlTnNuYkx5c3RuQTJqTFFxak5hZ29GeVFOR0h2TGFqbm9KNDNZcWxEdElGSl8zdy1mblJrOF9tUXdyR002QjlDdndJdUZJcDNUV3dibEpMdU9wd1g5NExRM01Nc2V4?oc=5",
       "pubDate": 1784790000000,
       "vendor": "kimi",
       "category": "Product",
-      "impact": "med",
+      "impact": "high",
       "score": 48,
       "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
+        "cq": 18,
+        "kv": 2,
         "cw": 15,
         "st": 12,
         "rc": 0,
