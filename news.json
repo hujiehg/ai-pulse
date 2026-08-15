@@ -1,8 +1,218 @@
 {
-  "updated": "2026-08-15T04:02:12.644Z",
+  "updated": "2026-08-15T04:36:32.128Z",
   "count": 117,
   "sources": 12,
   "items": [
+    {
+      "id": "1295918555",
+      "title": "Position: Reasoning is a Learnable Rule-Based Process",
+      "titleZh": "职位：推理是一个可学习的基于规则的流程",
+      "summary": "arXiv:2608.12325v1 Announce Type: new Abstract: Autonomous reasoning is among the most scientifically and economically motivating topics in AI today. Historically the purview of symbolic AI, recent ad…",
+      "link": "https://arxiv.org/abs/2608.12325",
+      "pubDate": 1786766400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-622448918",
+      "title": "Diagnostic Foundation for Evaluating LLMs' Research Integrity as Co-Scientists",
+      "titleZh": "评估LLM作为共同科学家的研究诚信的诊断基础",
+      "summary": "arXiv:2608.12345v1 Announce Type: new Abstract: Language models are increasingly deployed as co-scientists, yet their ability to uphold research integrity under institutional pressure remains unmeasur…",
+      "link": "https://arxiv.org/abs/2608.12345",
+      "pubDate": 1786766400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "736803593",
+      "title": "Position: The Alignment Community is Unintentionally Building a Censor's Toolkit",
+      "titleZh": "职位： Alignment社区正在无意中构建审查工具包",
+      "summary": "arXiv:2608.12346v1 Announce Type: new Abstract: This position paper argues that modern AI alignment methods - originally designed to prevent harmful output - are dual-use technologies that may easily …",
+      "link": "https://arxiv.org/abs/2608.12346",
+      "pubDate": 1786766400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1043011919",
+      "title": "Agreement Is Not Alignment: Divergent Moral Grounds in Human and LLM Ethical Judgments",
+      "titleZh": "协议不是一致的：人类和LLM道德判断中的不同道德基础",
+      "summary": "arXiv:2608.12368v1 Announce Type: new Abstract: Agreement with human judgments is a common proxy for evaluating the alignment of large language models (LLMs). Yet agreement in final labels does not sh…",
+      "link": "https://arxiv.org/abs/2608.12368",
+      "pubDate": 1786766400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "2135544520",
+      "title": "Multi-Agent Scheduling with LLM-Assisted Contract Net Negotiation for Stream Processing in Mobile Edge Computing",
+      "titleZh": "在移动边缘计算中使用LLM辅助合同净协商进行多代理调度",
+      "summary": "arXiv:2608.12371v1 Announce Type: new Abstract: Stream-processing systems increasingly operate across heterogeneous mobile edge--cloud infrastructures, where workload volatility, resource contention, …",
+      "link": "https://arxiv.org/abs/2608.12371",
+      "pubDate": 1786766400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-593756006",
+      "title": "Position: We Need Practical AI Alignment Methods to Mirror Human Reasoning",
+      "titleZh": "位置：我们需要实用的AI对齐方法来反映人类推理",
+      "summary": "arXiv:2608.12372v1 Announce Type: new Abstract: AI systems are increasingly employed as decision aids, decision delegates, or autonomous decision-makers. This position paper argues that in many settin…",
+      "link": "https://arxiv.org/abs/2608.12372",
+      "pubDate": 1786766400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1003407536",
+      "title": "Don't Want Your LLM to Recommend Nuclear Strike? Try Asking It in Japanese",
+      "titleZh": "不想让您的法学硕士推荐核打击？尝试用日语提问",
+      "summary": "arXiv:2608.12373v1 Announce Type: new Abstract: Large language models are increasingly used in strategic and advisory contexts, yet their safety alignment is typically evaluated in English only. We te…",
+      "link": "https://arxiv.org/abs/2608.12373",
+      "pubDate": 1786766400000,
+      "vendor": "arxiv",
+      "category": "Safety",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 11,
+        "cw": 10,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1543726551",
+      "title": "Dual-Flow Transformers: Decoupling the Primary Prefill Path from Additional Decode Computation",
+      "titleZh": "双流变压器：从附加解码计算中解耦主预填充路径",
+      "summary": "arXiv:2608.12385v1 Announce Type: new Abstract: As large language models serve more requests, cumulative inference cost is becoming increasingly important relative to one-time training cost. The two i…",
+      "link": "https://arxiv.org/abs/2608.12385",
+      "pubDate": 1786766400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1301252370",
+      "title": "Learning to Adapt Cross-Domain Preferences via Meta-LoRA for LLM Personalization",
+      "titleZh": "学习通过Meta-LoRA调整跨领域偏好以实现LLM个性化",
+      "summary": "arXiv:2608.12389v1 Announce Type: new Abstract: Cross-domain zero- or few-shot personalization aims to generate user-preferred responses in unseen conversational domains from only a handful of target-…",
+      "link": "https://arxiv.org/abs/2608.12389",
+      "pubDate": 1786766400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 68,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1635659471",
+      "title": "Research Assistant: AstraZeneca's Agentic System for R&amp;D",
+      "titleZh": "研究助理：阿斯利康研发代理系统",
+      "summary": "arXiv:2608.12395v1 Announce Type: new Abstract: We describe Research Assistant, an internal LLM-based system developed at AstraZeneca to help scientists and clinicians explore biomedical questions acr…",
+      "link": "https://arxiv.org/abs/2608.12395",
+      "pubDate": 1786766400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
     {
       "id": "-2145328936",
       "title": "DeepSeek's innovative harness treats everything as a plug-in",
@@ -412,226 +622,16 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-1711986513",
-      "title": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
-      "titleZh": "多LLM Agent系统的动态治理，以实现协作会话结果",
-      "summary": "arXiv:2608.11207v1 Announce Type: new Abstract: When two LLM agents with structurally opposed objectives interact across multiple turns, the absence of a shared goal function produces not competition …",
-      "link": "https://arxiv.org/abs/2608.11207",
-      "pubDate": 1786680000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-138231572",
-      "title": "Distribird: Literature-Informed Prior Distribution Design for Bayesian Model Calibration",
-      "titleZh": "Distribird ：贝叶斯模型校准的文献知情事先分布设计",
-      "summary": "arXiv:2608.11210v1 Announce Type: new Abstract: Bayesian calibration of process-based models requires a prior distribution for each model parameter. Despite decades of methodological work, researchers…",
-      "link": "https://arxiv.org/abs/2608.11210",
-      "pubDate": 1786680000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-376914548",
-      "title": "A Forced-Structure Reduction and Verifiable Bounds for Conway's 99-Graph",
-      "titleZh": "Conway's 99-Graph的强制结构缩减和可验证边界",
-      "summary": "arXiv:2608.11211v1 Announce Type: new Abstract: Conway's 99-graph problem asks whether a strongly regular graph with parameters $\\mathrm{srg}(99,14,1,2)$ exists. We report a systematic, fully reproduc…",
-      "link": "https://arxiv.org/abs/2608.11211",
-      "pubDate": 1786680000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "765978098",
-      "title": "Detecting a Route Flip Is Easier Than Knowing Whether to Fix It: Causal Route-Mediated Damage in Quantized Mixture-of-Experts",
-      "titleZh": "检测路线翻转比知道是否修复它更容易：量化混合专家中的因果路线介导的损坏",
-      "summary": "arXiv:2608.11212v1 Announce Type: new Abstract: Top-k Mixture-of-Experts (MoE) routing is discontinuous, so a deployment-motivated numerical disturbance -- simulated 4-bit KV-cache quantization read b…",
-      "link": "https://arxiv.org/abs/2608.11212",
-      "pubDate": 1786680000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "581238430",
-      "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
-      "titleZh": "Poor Man's Agentic Modeling ：在笔记本电脑上模拟大型LLM-Agent社团",
-      "summary": "arXiv:2608.11215v1 Announce Type: new Abstract: Simulating societies of many large language model (LLM) agents is expensive, yet the questions asked of such simulations are usually macroscopic: phase …",
-      "link": "https://arxiv.org/abs/2608.11215",
-      "pubDate": 1786680000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-2086170653",
-      "title": "AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research",
-      "titleZh": "AutoWorldModel-Bench ：以国家为中心的自动化世界模型研究的基准",
-      "summary": "arXiv:2608.11216v1 Announce Type: new Abstract: World modeling is an unsettled field: architectures, training objectives, and state representations interact in complex ways, and no single recipe domin…",
-      "link": "https://arxiv.org/abs/2608.11216",
-      "pubDate": 1786680000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-721963262",
-      "title": "MaSRead: Content-Addressed Reading of Replicated Latent Stores",
-      "titleZh": "MaSRead ：复制潜在商店的内容寻址读数",
-      "summary": "arXiv:2608.11218v1 Announce Type: new Abstract: Independent agents that reason in latent space can share computed state as key-value cache fragments rather than text. Merged by a conflict-free replica…",
-      "link": "https://arxiv.org/abs/2608.11218",
-      "pubDate": 1786680000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "539558400",
-      "title": "From Monolithic to Modular: Segment-level Automatic Prompt Optimization",
-      "titleZh": "从整体式到模块化：段级自动提示优化",
-      "summary": "arXiv:2608.11219v1 Announce Type: new Abstract: Automatic Prompt Optimization (APO) often rewrites prompts monolithically, which can improve one behavior while degrading others. We present SAPO, a seg…",
-      "link": "https://arxiv.org/abs/2608.11219",
-      "pubDate": 1786680000000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "med",
-      "score": 70,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 7,
-        "cw": 25,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1529761324",
-      "title": "LLMs in Process Diagram Engineering: From Optimal PFDs to Validated P&amp;IDs",
-      "titleZh": "过程图工程中的LLM ：从最佳PFD到经过验证的P&amp;ID",
-      "summary": "arXiv:2608.11220v1 Announce Type: new Abstract: Nowadays, the creation of a process flow diagram (PFD) and its subsequent transformation into a piping and instrumentation diagram (P ID) is predominant…",
-      "link": "https://arxiv.org/abs/2608.11220",
-      "pubDate": 1786680000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "292480325",
-      "title": "A Conceptual Framework for Refining Influence Knowledge from Simulation Evidence in Cyber-Physical Systems",
-      "titleZh": "从网络物理系统中的模拟证据中提炼影响知识的概念框架",
-      "summary": "arXiv:2608.11221v1 Announce Type: new Abstract: Cyber-physical systems (CPS) are typically developed by multiple stakeholders who produce artefacts tailored to their specific domains of expertise. The…",
-      "link": "https://arxiv.org/abs/2608.11221",
-      "pubDate": 1786680000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
     },
     {
       "id": "1201026427",
