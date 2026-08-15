@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-15T18:16:34.526Z",
-  "count": 97,
-  "sources": 10,
+  "updated": "2026-08-15T18:56:56.449Z",
+  "count": 194,
+  "sources": 11,
   "items": [
     {
       "id": "-942010839",
@@ -13,13 +13,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "high",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 1,
         "cw": 15,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -34,13 +34,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -61,6 +61,27 @@
         "kv": 0,
         "cw": 15,
         "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1425039034",
+      "title": "DeepSeek Releases V4 Pro AI Model With Agent Upgrades - businesstimes",
+      "titleZh": "DeepSeek发布带有代理升级的V4 Pro AI模型- businesstimes",
+      "summary": "DeepSeek Releases V4 Pro AI Model With Agent Upgrades businesstimes-bd.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE05eXYtNjlBS3ZWTTZ1WE9tN2VVMkQ5VUhkR194cjV6Mm9WcG4xVURHc0FwaUhTQkR3WWtxb1hTOWVuMkozU1p3TWVoU2VCNXBKZjYwb1V0dWpsLWp0N1E?oc=5",
+      "pubDate": 1786780207000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
         "rc": 3,
         "cs": 1
       },
@@ -277,6 +298,69 @@
       "source": "arXiv"
     },
     {
+      "id": "-1883066972",
+      "title": "DeepSeek Harness: Unlock the Agent Black Box for Transparent, Controllable AI Agent Operations",
+      "titleZh": "DeepSeek线束：解锁代理黑匣子，实现透明、可控的AI代理操作",
+      "summary": "DeepSeek Harness: Unlock the Agent Black Box for Transparent, Controllable AI Agent Operations 36Kr",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8yTEN3TnlFUFVjaXdSblJOakNqOFdTNGxFNGlUbEVQWDR2Wmg3WDIybzg4RU1XTlFkN0VqTW96QlBWalA3WUR1MzdYMWxhc1FPXzYw?oc=5",
+      "pubDate": 1786758673000,
+      "vendor": "deepseek",
+      "category": "Agent",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 12,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-2145328936",
+      "title": "DeepSeek's innovative harness treats everything as a plug-in",
+      "titleZh": "DeepSeek的创新线束将所有内容视为插件",
+      "summary": "DeepSeek's innovative harness treats everything as a plug-in The Register",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTkNqNmFRc1NrYzRHSVdGMUU2Y3AzMWptWWY3V3FDbnNTU0lzaTNyZlJuYmhFNDFjay1BbWc1UmZ4LXA4VGMzYlJUX0o0SFo0YzlrbHMwLVdzRXVQTEVXNjhOaThkekJSX0U4UVNDMXZ1M3hHMDA3MlBZczQ5U1BZWnlEVy1kN191aUdZRkdVeFF1M2Fyb2hfY1RydFlXSmFlZHFKWmFyWUZ6TTY5RHRZNFVVYU9Sb1k?oc=5",
+      "pubDate": 1786739156000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-462187390",
+      "title": "DeepSeek's New V4 Pro AI Model Quadruples Prices but Remains Far Cheaper Than Western AI",
+      "titleZh": "DeepSeek的新V4 Pro人工智能模型价格翻了两番，但仍然比西方人工智能便宜得多",
+      "summary": "DeepSeek's New V4 Pro AI Model Quadruples Prices but Remains Far Cheaper Than Western AI Android Headlines",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdkJ3ZExwdDhFQWlvVFRDcU5IaXI5Q3F1WUpGSWVLd1lOWWM3bjdzVm9XSFRPWDMzMTVPOGNldi10UGJVTms3YlIxUUt2MFBUTmxyMm9aT1l0RnMxdVlVLVlBbnZpc0hTbktRUS1SZjEwYmdGaFc2djczdUNvbkIxaXA1bEVCVlJrUFdmMm5Ka1RCQ2FZc001aTRieG1DYVppblRvdTJodw?oc=5",
+      "pubDate": 1786729966000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1138679391",
       "title": "Qwen3.8 Open Weights Ship Under Two Different Licenses",
       "titleZh": "Qwen3.8开放式配重在两个不同的许可证下发货",
@@ -340,6 +424,27 @@
       "source": "TechCrunch"
     },
     {
+      "id": "-1854663504",
+      "title": "DeepSeek raises AI model prices as new V4 models arrive",
+      "titleZh": "随着新V4车型的推出， DeepSeek提高了AI车型的价格",
+      "summary": "DeepSeek raises AI model prices as new V4 models arrive Tech Edition",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMlZaV2RRNGZ5bEpGLW56VllqSHdhNDd6c0MySWVadVdUaVlsdzB2bWFzVjN4aUtYc2l6eVJac1Q4LTF1QzBfUm1vdmdiSktza3pqQVhQRFI5cC0xU2I0djg0SFcycFJYTzlXbnpIYWlIOUNQdjNrell6M2VSUWV0LVF0Mi1OQQ?oc=5",
+      "pubDate": 1786722659000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1168974513",
       "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
       "titleZh": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
@@ -359,6 +464,27 @@
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "-258315396",
+      "title": "DeepSeek Open-Sources the Missing Layer Between AI Models and Agents",
+      "titleZh": "DeepSeek开源人工智能模型和智能体之间缺失的层",
+      "summary": "DeepSeek Open-Sources the Missing Layer Between AI Models and Agents hpcwire.com",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR0U3dEtvVWEtc1BnWEV5T1E2aWQ0SWdOaVVFUlFkb2piTV85NDFIVzBqU29FVzhIWFRXUkNrOFh4cFR3dEgyRlRTdlhyTUw1WFFCQTdpSnVicmlhZmNwZXkyNkQ0c1AyWld6eld4NU1RMTFOenExVWJvejNpVVlLZEk3dWhmdG9aR2xuS0lablVrclBiTTUxVWxzLXBPdVk0VTA0WTdMOVRSTmFPVmhGRF9HMmd2eE0?oc=5",
+      "pubDate": 1786721884000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1303876713",
@@ -445,6 +571,111 @@
       "source": "Google News"
     },
     {
+      "id": "1025170484",
+      "title": "Back in the Harness: DeepSeek continues its pivot towards agentic AI",
+      "titleZh": "回到线束： DeepSeek继续转向智能AI",
+      "summary": "Back in the Harness: DeepSeek continues its pivot towards agentic AI South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORWpHVE1iYWxXRUcxbnk2QWdPMzRxZi1WU3h4S3ItaXAtOTI4QXJYUDZlanQ1NzU3RVBCMFhoRGpKcnNjX1hhdnhnU2l4VzV6bkxhbjJMWUc0eUw5Q0dCLVBMaG04VEItSzJ1azdJeUFNTlBTbWV1UWJxYjlHTm5BUU1LdzRvTkFXOWJNbzQwUFJUQnBucEdBV2JGVmdFY2lvOFJCY1Z1STV3VjJIUG5STW9zUjI3Z0pPdEVjUElQOWRscWR3WUVMTmxMONIBywFBVV95cUxPaE5kY3RhSWU5cVduT2xSZmE1UEJZcUEzNTFnQVFvRHJPR1g4RDFQSmVDRzVOU3hQQ1NRbnRIWUJud0dnTFJwMEFIUFo2UWs2QWhzNWduUDNXZElWV1RjS3gwNGgzQ1ZMVl9rLWdrLVBNcDdhR2V1TWZuVnlDSmxhUUhnaWZEal9KTVZHYWhfWU50TldRbDNHT1BFNE01ckhtY0JqRlBvMFVwa094bzVHLXdUcXhHOVNrUG1HV08xeWc1OS1oRGVydFpFMA?oc=5",
+      "pubDate": 1786705432000,
+      "vendor": "deepseek",
+      "category": "Agent",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 12,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-2016155837",
+      "title": "DeepSeek's AI Models Are About To Cost Four Times More",
+      "titleZh": "DeepSeek的人工智能模型成本将增加四倍",
+      "summary": "DeepSeek's AI Models Are About To Cost Four Times More Engadget",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT2FId1BnQ0MyY3Rzem9GYVo0blhJUnVqMEpYektCc1F5cy0xS09SODdqOEZrNXZGZE1NVlR6TGFacEw1Uzh6SEtfQzBEU2pfSDRpTW9YRVBoSlJyNElwcmJBOFZmVzIyVHZZS0hhcmJ6cWkzeWlMc2pOQmMwX055Yg?oc=5",
+      "pubDate": 1786705104000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1867806852",
+      "title": "😺 Google, OpenAI, DeepSeek dropped models today",
+      "titleZh": "😺 Google, OpenAI, DeepSeek dropped models today",
+      "summary": "😺 Google, OpenAI, DeepSeek dropped models today The Neuron",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTEkzU3JMLURSMkhEV29JU1B0OExCb1RLdUZrRUlfVzVSSFZ1ZW90YzVtLU5XTlhyakRGdFJOa0JJS1NuMnRhbVNyV09DTjBXZU8wTzVZQjVuLVNkRlRld0RYeGFXVDhDS0pIUXZhNkZWMXhQcENsSWlpYzVhb19mTVhR?oc=5",
+      "pubDate": 1786700131000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1521851567",
+      "title": "DeepSeek V4 Pro launches as US-China open AI model race intensifies",
+      "titleZh": "随着美中开放式人工智能模型竞赛的加剧， DeepSeek V4 Pro发布",
+      "summary": "DeepSeek V4 Pro launches as US-China open AI model race intensifies Tech Wire Asia",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVUg5RjFfWXA3R1BhYy1nTXBIQmRwQy1qZWhJMEVRQnd6cXFKSVMzcWw0d2l5SlVSMjE4bVM4WEYxdlhVdzI1bldnME5nR3BuRXVqOFVIbnhUaUt6a0ZjSFNCZWFqUDRQWEhReUZDcS1WWGNmX2FNeWVuYVBld1Z1dlRpRQ?oc=5",
+      "pubDate": 1786698084000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1685745955",
+      "title": "DeepSeek Unveils Premium V4 Pro AI Model with Competitive Pricing Strategy",
+      "titleZh": "DeepSeek推出具有竞争力定价策略的高级V4 Pro AI模型",
+      "summary": "DeepSeek Unveils Premium V4 Pro AI Model with Competitive Pricing Strategy Devdiscourse",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYlo2eC1aZEFtOWNWSnBpNlVWbnNqclVNMXVwUEFRei1NZzlUMHV2NjJ2aF9fdFUxMkFyZjBHcGM4SnQwbUtsU0xhR0RjMEd4V3U0bUt6WnI0bHpqdnJMOGFyV0Ixa1BJeVIwRV9zMnBibmJzS1RaNFVndGQ4NFhTSXFIZVFuczJHVGhVSDZGLVl6ZXZZcFh0MzJWODRGR0x4ZU8yOUhzTzRsR0dMd3VWUV8wTHJCSmhmVDBrSk9QN2VCNUlDdkFFNm1n0gHPAUFVX3lxTFB6NDR6cUNTdHpPaVZxemI3Y1l3OGsyTDVZN2w0Mi1xUnRIY2R4R21xSThjdEdVTlQyWWo5SEJOZjhhV2FVSE9NZWZ0N1FxcWpvRFpqM2sybFhLTnpETnJ6d1FjNzVMcHBGOFQySXR6b3NEcUFqeUlUTWZyWnl5elctdXA1OVYtVVdTSHRuMFYxQVlaNTVSa3Q4QnJtSHZRUUNFaFRJdWhfekhDMmEzZVpaM2R0Mm1HVWhqV3c5SjJ1X0FPdzZQY3RuT3pBWGpCbw?oc=5",
+      "pubDate": 1786689571000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-310566909",
       "title": "Apple trained its own AI model for China, and handed the brain to Alibaba",
       "titleZh": "苹果为中国训练了自己的人工智能模型，并将大脑交给了阿里巴巴",
@@ -487,6 +718,27 @@
       "source": "Google News"
     },
     {
+      "id": "235311960",
+      "title": "DeepSeek Lifts AI Model Prices Fourfold",
+      "titleZh": "DeepSeek将AI模型价格提高了四倍",
+      "summary": "DeepSeek Lifts AI Model Prices Fourfold WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQd0hZUGVrZmdGTmVpTkVseXpHNzFmZ1cxaUdrT0I0Q1ZVYjFlVnZPdDFUZkV4RWdjMEpoUGxyQ0xEeHJ2VWVKZ0ZLZHc4bURlcEJyVWpUaWZXT0xqR3ljTmZXLXJjZ3FDaHFmRkVkanF1MHhRTlU3dTRtLWxJbDBFVTVB?oc=5",
+      "pubDate": 1786682160000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1237856160",
       "title": "EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say",
       "titleZh": "独家：消息人士称，苹果在阿里巴巴的支持下为中国市场培训自己的人工智能模型",
@@ -502,6 +754,111 @@
         "kv": 0,
         "cw": 15,
         "st": 15,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-557488495",
+      "title": "DeepSeek launches V4 Pro model with enhanced AI agent capabilities",
+      "titleZh": "DeepSeek推出具有增强AI代理功能的V4 Pro型号",
+      "summary": "DeepSeek launches V4 Pro model with enhanced AI agent capabilities news.cgtn.com",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOEZib1RaV0VRcU1wRjV2dlhGMF9ua014anY1R0FTVDE3elFNdlhhSTRReloxbGZiWmlQa1JySjRyLTQ2bW9EWXRBcGZxMk9lVXRiSHZNdTFvOUZiUDFSYzZhN3hVQldjN1VjNDctUmVZLVREdWZYQzJzTzBfTU5LaWpjSldHVEFRTkRzNk1QMUEwM3NWMXpDVnNWc012aW1BLW9EZXp6VlY3ZGFXNnRydG9GamZya2xadEVZbXJvSEs?oc=5",
+      "pubDate": 1786676369000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1902164178",
+      "title": "DeepSeek raises some V4 prices by more than 10x as AI demand strains capacity",
+      "titleZh": "DeepSeek将一些V4版本的价格提高了10倍以上，因为人工智能需求使产能紧张",
+      "summary": "DeepSeek raises some V4 prices by more than 10x as AI demand strains capacity InfoWorld",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNld3NEVLV3RXb1ZDdTdFMkU1T25hX21kMHVGanViSVA4WVhoSWFORlc5UFpWV1dSNHdlc0dNdFhXWjlQanBUYUhPaS00SExzaV9rajhRb202Vk9Yeks1OWtSeE5oNmtxbnphTVA5OFAwcVJCOTJYb3dyc2NDYVNnQ3pqeUp0MUVFR3U4MkZHcHIzVjJqLURhcHM4YnViYWdqVnE0UGF0V3pWYnJVR2RWSV84NkZPTklIcUtFa3NWUS1QZw?oc=5",
+      "pubDate": 1786673790000,
+      "vendor": "deepseek",
+      "category": "Funding",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 20,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1990603833",
+      "title": "Why is DeepSeek's Harness a black whale?",
+      "titleZh": "为什么DeepSeek的线束是黑鲸？",
+      "summary": "Why is DeepSeek's Harness a black whale? 36Kr",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0zbmMtVDZEeUs5dzMyd05rdE5OTmlCR1AwOE1kS0xJR201U3hKZEZBQ2ZraEVTZmJRWlo4SFBNVGhTME4yd3FGUkM5SkpNMm9iT2pJ?oc=5",
+      "pubDate": 1786671252000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-550824593",
+      "title": "DeepSeek to raise V4 AI prices, add peak rates",
+      "titleZh": "DeepSeek提高V4 AI价格，增加峰值费率",
+      "summary": "DeepSeek to raise V4 AI prices, add peak rates Tech in Asia",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCcVR1TlVmcE9MWloxLU04WWtQOEpSa0JKVVliRlhvbFlZVFZzeXoyc0lPNWlYMVRzdUMyek5jUmQxTnBPcENKTFZRNmZQbFdUcEZzZk9VNFVkSXRKTEJDNzYyMGp5M1pXSXozQm5IUHJrTlV1OURtaTNqeTB5ZFk?oc=5",
+      "pubDate": 1786670820000,
+      "vendor": "deepseek",
+      "category": "Funding",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 20,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "571767980",
+      "title": "DeepSeek raises peak prices of flagship AI models to more than four times current levels ahead of IPO",
+      "titleZh": "DeepSeek在IPO之前将旗舰AI模型的峰值价格提高到当前水平的四倍以上",
+      "summary": "DeepSeek raises peak prices of flagship AI models to more than four times current levels ahead of IPO The Business Times",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQWlVDQmRBRnBtUmhJWERNVDhOXzhGSzFIa0NSYjdleEh6c0dkeWZNR3lGNzNDb2lWcFctSnh6OE91TmdieUtJTEpZUzdYTzJxYUhMTmdkUFRBV0RrUVlFMEo3LWhmS0l5T0VpaDMyajRFblVlTF80bXVIUHRsYTJabERPOG1tUkdIT0lfZFRxQ3BCRTU2MS00ZTdzd0kweUtPLWxHVlV6NkNBRDZ2X3ZuWWNJYmhwSlpCTTJkcGVyTzR6SzJzelRtRHJXSm0xQ2gyMGppYk0tLWk3LUJUOUVRVnBVaXNfTWwwcjVOSQ?oc=5",
+      "pubDate": 1786668300000,
+      "vendor": "deepseek",
+      "category": "Funding",
+      "impact": "high",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 20,
+        "st": 12,
         "rc": 2,
         "cs": 1
       },
@@ -527,6 +884,27 @@
         "cs": 1
       },
       "source": "HuggingFace"
+    },
+    {
+      "id": "441569477",
+      "title": "AI Models: Google Gemini 3.7 Flash, OpenAI Ultrafast, DeepSeek V4-Pro",
+      "titleZh": "AI模型： Google Gemini 3.7 Flash、OpenAI Ultrafast、DeepSeek V4-Pro",
+      "summary": "AI Models: Google Gemini 3.7 Flash, OpenAI Ultrafast, DeepSeek V4-Pro heise online",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNV2NiNEI3WVNvZVY5Q21ZUE9PTjdUc3hxN3pqS01FRFVnS1l2NzRJcW5BR19LNmNnUWVIeW9aRE12RERoeFFqc0lhdElpVDNnWGtDNGZtN3ptbVRRYmlRTG15ZGFSQ2lWY2tpcGhBZzdhSDlDM0hJMEdCQTRFSzNwV0dzbEx5a09jQlJPNHNGMmZYTlpSRHhTMUhRQzQ4X2tRUnBZaHV3ODA2cURaMHc?oc=5",
+      "pubDate": 1786658400000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "high",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 15,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1808041965",
@@ -613,6 +991,27 @@
       "source": "TechCrunch"
     },
     {
+      "id": "1372529249",
+      "title": "DeepSeek officially launches V4-Pro AI model in August 2026",
+      "titleZh": "DeepSeek于2026年8月正式推出V4-Pro AI模型",
+      "summary": "DeepSeek officially launches V4-Pro AI model in August 2026 qz.com",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5DM1B4azQ2dkZ6MUVJZnp6V3ZkTl9RMU84Q09HOWJoTXR5R1lST3JJQXQ3NlJNa25JVGRGR3NKbXRmcGZ1WGtCejF6NkJHYVd2bFdyQ1prWGRTRHdJZ29SVm9hRQ?oc=5",
+      "pubDate": 1786644795000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1804326395",
       "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
       "titleZh": "使用Strands Agent、LeRobot和Hugging Face Storage Buckets从一个地方记录、训练和部署",
@@ -655,6 +1054,27 @@
       "source": "DeepMind"
     },
     {
+      "id": "104702852",
+      "title": "DeepSeek Harness launches as open source rival to Claude Code, alongside V4-Pro on API with higher prices",
+      "titleZh": "DeepSeek Harness作为Claude Code的开源竞争对手推出，同时推出价格更高的API V4-Pro",
+      "summary": "DeepSeek Harness launches as open source rival to Claude Code, alongside V4-Pro on API with higher prices VentureBeat",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeVA0OGxrdGxzcGV1VUtwei1fLVFhNUE4M3BNd0lLb1hpS2xoNXlWUzJzWU1YUDM4dElQVjIwcm1qQWsxeUdoOEF6ZGEta1lEaEJLd3g4bE5ITUtqLVpZSlp3X21LZDd5T3lPelI0cHhBaEdiOTBrYkdRbV9td1c4bWVCdUlUNGNjTmx1RTI2T19QMEtyTGZPWW42Z1BQVzRPdjZ6UkNyd3hfWFdQWVU1LTMtdEtpeE84S1FzbmdOLVZmWFRrVk5aLVJsbW5nSzdrU0RIRUNR?oc=5",
+      "pubDate": 1786639675000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "high",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 8,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1961739353",
       "title": "Bring your spreadsheet data to life with Sheets canvas",
       "titleZh": "使用Sheets画布，让您的电子表格数据栩栩如生",
@@ -674,6 +1094,195 @@
         "cs": 1
       },
       "source": "Google AI"
+    },
+    {
+      "id": "-1138475448",
+      "title": "China's Fierce AI Race: DeepSeek Debuts V4 Pro Model With Eye On $74 Billion Valuation",
+      "titleZh": "中国激烈的人工智能竞赛： DeepSeek以740亿美元的估值推出V4 Pro车型",
+      "summary": "China's Fierce AI Race: DeepSeek Debuts V4 Pro Model With Eye On $74 Billion Valuation NDTV Profit",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWGR6OEIyTU5tVWMwSGtETHB2WFNPbzk5WC02WmV3MHNTRXl4TUtQQk44SllKSnRoM0IyR3VZbi1NQ0tqZ2NVUGNSajQwTFd4U1pLVjV6MURjQjJVek82TEU1UElJeng4akVzX2dLVkF6MG9WV3NSZy1XcXJxY0pRRWRqbWd3NXFrejh5MEk3MWo4SXFfWmw2Q0R1S3pGZ0g0OGwzdzAtbWZweVl0cU5BUGR5RHdJLU9ER0lUZmcxX2lFcWxDdjlrS3B30gHSAUFVX3lxTE1EWlU1YlhaUlRKenZBak04WTdXNXlNWFhTRHU4bGxYekl1MEJFcUxhVzJuQS05X0thNVNuZ0gwX2VTa2F0d0hKNlg5LXBqUEFXRGhFWDIzdDhMRXBGeHZaV3BzNEFnMG54cGhWS2xmTnZIanlDY242a1ZoMnkxQTNWU0ZEamR2STUzWXZPdkppZ3JCdDN4YjEwS1AtZk5XNmowSWZiWk90UFNMeVRaa3o4TDJZY2U0LThreUNENEJlWWc4cjdPaWVnM21oZEdJX1M1UQ?oc=5",
+      "pubDate": 1786639098000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "high",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1002928293",
+      "title": "Instead of Wi-Fi: Chinese bars have started offering access to the DeepSeek AI",
+      "titleZh": "代替Wi-Fi ：中国酒吧已开始提供DeepSeek人工智能的访问权限",
+      "summary": "Instead of Wi-Fi: Chinese bars have started offering access to the DeepSeek AI Mezha",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcXBpN05nOGswVFpWbmxUb2dYYVcxVnJqLWdweUxRUkVYcXNncmFGS2czOVhpYUROdFR4NUEzYU1NR29jenFlbmdhTl9kYkFRYWd4NWxEWGxTVDJoczM4WEROOU9DRmc0Z0dNUldCYUYwbzluT2hPYlBmNnBzYlpnVS0xbVZaSjZjMGfSAY8BQVVfeXFMUGJsd05GZVhub1h5WFpkcnBxZGNzM3B0RTYxRzhvT1ZwczBuV2FaNmx3TVk5eXBDa3RROTJ6TFBJS1BicEFGbE1tZTFxTGRxVFVUNkt0SjQxMVlYcTJvckoyRWF3T2t0MzdmYUhNOGJBdjRlYmswT1pfRkFFUzdkUkdMUGNXbTNlcUVMcHBscmc?oc=5",
+      "pubDate": 1786634520000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "2063247838",
+      "title": "DeepSeek Officially Launches V4 Pro Model As AI Competition Intensifies",
+      "titleZh": "随着人工智能竞争的加剧， DeepSeek正式推出V4 Pro模型",
+      "summary": "DeepSeek Officially Launches V4 Pro Model As AI Competition Intensifies Arise News",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVWhiMVloUmEzRW1iaWNscXZ6REtWYXRQWEU3WDNiN3ZCZlVWOWpPTWFyMF9NWFBGaXM4aVlFRkZ6REhDd3JoLTgyaWRMQkItS2gyNGNWcXpxb0xHc0drNktjMzhPRG52dmF1bmRUTkhjRlMtU3lLLTN0c3J4Q2l5c3NZc3dtY28wV1NHZnRfRFRGZDM0ZUxHQQ?oc=5",
+      "pubDate": 1786633613000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1413051314",
+      "title": "DeepSeek releases official V4 Pro model with sharply higher user prices",
+      "titleZh": "DeepSeek发布官方V4 Pro型号，用户价格大幅上涨",
+      "summary": "DeepSeek releases official V4 Pro model with sharply higher user prices Nikkei Asia",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNVnNWV1J2dkJoaGViYk84TWhrd19Hc0pEMlBodmdsMjVfZGRmMUpGdUIwMzdURXJiZmdEVy1UTzRPa2dUX0pjMWZud1pfWlp0V0gxVW1qLXpSUER5S1puR1UxWDZPWldMaGpjYm40RmNaVHA0MV9TRFNoS3VOTEMydWVZVTJ5MFg5Q2JTM3h4dTdqSWp4MEVvTnJYTUZVU3Y0WmJBTk9QNjYxLVJtX1Bud25MZV9pU0xCWUNSbzJmTTFHdnJtWllKSDN6aHF5RTJFTXVyOTln?oc=5",
+      "pubDate": 1786633560000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1514394799",
+      "title": "DeepSeek Increases Prices for AI Services by Multiple Times",
+      "titleZh": "DeepSeek将人工智能服务的价格提高了数倍",
+      "summary": "DeepSeek Increases Prices for AI Services by Multiple Times Bloomberg",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdUxaa1c4YnFUXy02QUVYQnh0bmFaenVrcXEwYkg3VUt0Vk1fQlNRc0dTbHhBdXBvWXlfODloS3JrT2ZOMVZhd05KUlNZNVFaUkMxc1h4OUlpQ2FLZnhJY2JUeDBRVTNQUzNQelctaDdfX3NyMFdkeVY4d0psRk56OVdfdlNRSm5YbFhkWWR1bnc1X1Qyc1FaWGFMNnQyLVFBVVgxSGNpVVM5c3JyY2NR?oc=5",
+      "pubDate": 1786633228000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "411583977",
+      "title": "DeepSeek officially launches V4 Pro as China's AI race heats up",
+      "titleZh": "随着中国人工智能竞赛升温， DeepSeek正式推出V4 Pro",
+      "summary": "DeepSeek officially launches V4 Pro as China's AI race heats up The News International",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS0tvb1VHWmVlZFVBd0xDOXpqd0trOGVJR0x0VG5BTm9kcHloSllTSVNZMlhTcHRFdDJ1YjR2YkNFRXpYTE9CQ0dQTWkzYXY2a1d0NkxCSUhzMEtDQ19tOUxsRDVBLXlPQ1RZODV4YTR4VUZOa3ptcTdjdlc5cEJSdS1IcjVORkRSMm92SklVVjlQemxfbXl0Sk5KY1JOclQ4Mm1iMkJFVdIBowFBVV95cUxNRE5WYVItZlpXUGQ4SkI5TDhiVVVjeDRUUzkzc0s0eXp6YVc0bmlldnhqZzFDTG1NTGtFZkRkcUJmZnQyOVFFODNJSWNSZm81eEJVcnNWd1ByT0QxZ3AwMnFHeUNQYkVubjlwem9tRUxuQTZTeWRoeW9XSlRFNVFjM245ejBjOU5Xb2pCRWw3VUNDN1VrTFZma0hvYjhvckF0NHZn?oc=5",
+      "pubDate": 1786631856000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1364078772",
+      "title": "DeepSeek launches V4 Pro at prices up to 14 times higher than V4 Flash",
+      "titleZh": "DeepSeek推出V4 Pro ，价格比V4 Flash高出14倍",
+      "summary": "DeepSeek launches V4 Pro at prices up to 14 times higher than V4 Flash Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVzBOcmxUZXZzV20xU1pZMnI1X0JKRzV1SUJwcGhzaE1JZDZfUTZqVDZMVXNhUHFoY295SHZuLWZZbTlXa1AtUmI2dkRhRWliRXFBYzdZQlROdUVzZ2dNc2pHLUhvdTFBSVpSTW9SaHBQUnJubTdMX2FQUkhHTDhiUGtiZDUxLTRQXzRrZERqSzlOSXZpMWYxUzVWeXFCdW1HZEVWbWMtVDhFU1BCSkE?oc=5",
+      "pubDate": 1786625760000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-619630375",
+      "title": "DeepSeek tweaks API pricing as it launches frontier DeepSeek-V4-Pro model (DEEPSEEK:Private)",
+      "titleZh": "DeepSeek调整API定价，推出前沿DeepSeek-V4-Pro模型（ DEEPSEEK ：私有）",
+      "summary": "DeepSeek tweaks API pricing as it launches frontier DeepSeek-V4-Pro model (DEEPSEEK:Private) Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSW5OSHpYaWlGbjk4ZWZWQXo2blJkQWpiS3Iwc0RxRm9RREU1ajhfSVBxRVdtNGtqZDQwNnl4UEhYVU5zbHNVVVppWlVOcEdFVkxTd0pxUU40cC03dWxyckRlTDRFaTRGR0xmRlptWlF4UXdtNnZabWVTV3IwUS1ScFN3N1pDbGZNS0FtN28zLWwxdFhGNWd1Z3hSZ20yMG9Ld2F6VkFaVExmc0lOZ0U5UQ?oc=5",
+      "pubDate": 1786622948000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1161641872",
+      "title": "DeepSeek AI's Pricing Shake-Up: Peak vs. Off-Peak Rates Announced",
+      "titleZh": "DeepSeek AI的定价调整：宣布高峰与非高峰价格",
+      "summary": "DeepSeek AI's Pricing Shake-Up: Peak vs. Off-Peak Rates Announced Devdiscourse",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNanB0TUxSblp5aGU4ajloa3ZGT3g5NDFyRzEtcmRYbFQxVjh0c1dwdTB5RF8zampoakhQUVhPb1M2cWEySjlQRTJjTlZUY2kxaEpXSUJaYlJUdDJ1Z3E4U0RUekpNYm1nV3pVR09LYm5MRDJ1YnlHdGdxdk51LUUzbV9ZR3FZNS12Q1o2a2IweXVTT3BPc3F4MUhKdVRMelV4M244UWlpNUo4RlNHTk94T29aZ2d4dG1FZ2fSAb8BQVVfeXFMT2FtZnVQQkVuSU42VF9acHBiNWI0WElDOTVlTkJkaTFmMHR0bVFmLTJrQ3AwWVBPbG82NGhLUjE1MGFRWUlOVlJqbUc5c3owcDNGb09GV0JhZ0N4TVozNzNtTWdVWTRnb3hoeV8wd19ZQUlPZHNyM3RIVTkxQUtBVGdKN1FzV05OaHlVZGxkTWxRSjhpaTRIV0g5Zll0RnZEMXkzNkt3Rmc4MFN3OGNBb0FVWWVBbWxHYW5UblkzV00?oc=5",
+      "pubDate": 1786622134000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "1217145544",
@@ -739,6 +1348,69 @@
       "source": "OpenAI"
     },
     {
+      "id": "-591508286",
+      "title": "DeepSeek’s new AI model gets mixed benchmark results",
+      "titleZh": "DeepSeek’s new AI model gets mixed benchmark results",
+      "summary": "DeepSeek’s new AI model gets mixed benchmark results Tech in Asia",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yMjdyYU5YWDA5UnJoYjdYMXVGM0FHVUJfMVNEbG9NQnE4Y01XTm41UlBEaDhfS2VsMk9tV09XSjRVNXlhUWZwdDRhX2Rad2NyWW9LS3N4TUdpU0ZyN0tHb01SU3JjMEd2d0VpM3c1RUFHaGJqVGoxRVY4TDZjRG8?oc=5",
+      "pubDate": 1786611120000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-487428515",
+      "title": "DeepSeek’s flagship AI model update underwhelms – except in cybersecurity",
+      "titleZh": "DeepSeek’s flagship AI model update underwhelms – except in cybersecurity",
+      "summary": "DeepSeek’s flagship AI model update underwhelms – except in cybersecurity South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNN1hCb3pST191TjItOVFxZi1vMzhfMm9QZjEyQ2VfbGk0NzhjRWdhT2pub3p5bmM1VDdwZ1ZQYXVMSk9Kc0tZUHlGcnFhSE1ZVmdRclRwM0hITHFGbkFnZUgxMUVoTjVoWTEyTnhHRmc2TUpMc2RGRU9DYTRSZ1FWdVVEczhsY2tpcThUSHNsckZyeVhZQnNMSFcyaGUzMU9PMWhQN28wMkFTRXRFYzdmMWhwck5vX2dWdnQ0N1N0c0VyY00z0gHEAUFVX3lxTFA5SGNMa2U2SzhpUFF3WU5rZmhFNjZHMFJfTUNIT2wzWlhzMVNGNTRralpYVWV0bzVZUnFXZW1Gbm1NYlZaWjZ1YW94UHgwd3hxQmFGWjZ4NndscC1KVjJkaFJnZjNiLU9SeW9yRUFhQzAzamZkQkR6UXVKcWxYSzFVb1RtTGd2NE1CWjROVkpiR0JmNkk4aTVnZ1hEMS1YUllCcHlzUnNfeUZqWjdIblRSU3dxcGNuZExfdmIwdzlRRW9JMEs?oc=5",
+      "pubDate": 1786608032000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "928412456",
+      "title": "China’s DeepSeek launches V4 Pro model, on par with Anthropic’s Claude Fable 5",
+      "titleZh": "China’s DeepSeek launches V4 Pro model, on par with Anthropic’s Claude Fable 5",
+      "summary": "China’s DeepSeek launches V4 Pro model, on par with Anthropic’s Claude Fable 5 Global Times",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5LYlpSY18wMlhCT0F5VmRUQTVTR09BMk1JVC1CM0FXSUhidnFpQm1NSUJuT3ZmX3VIY1AtbG1fSmY5cmd5RUxkVXd3TmhlVlJWVHFPa1VCNFk5UldBT0JwemxR?oc=5",
+      "pubDate": 1786601580000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 25,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "1680665",
       "title": "Open Weights, Closed Revenue Ceiling: Alibaba’s Qwen 3.8 License Is a Platform Play, Not a Gift",
       "titleZh": "Open Weights, Closed Revenue Ceiling: Alibaba’s Qwen 3.8 License Is a Platform Play, Not a Gift",
@@ -753,6 +1425,48 @@
         "cq": 20,
         "kv": 2,
         "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1379666558",
+      "title": "DeepSeek updates V4 Pro model, eyes AI agent development",
+      "titleZh": "DeepSeek更新V4 Pro机型， EYES AI代理开发",
+      "summary": "DeepSeek updates V4 Pro model, eyes AI agent development The Standard (HK)",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWF9qWTJjSlBiM2F5WVdxUjJUX2d6MEJxQkZodnRBRWVaUTR1bTFsQ29JVHVjaHdzR1o3QndWbm5Oa3BZOUhZMFRzclZoRTU2ZGF5Z2lIZE1FWW9ZRm51cm8yREwxd3otS2NZWXk0RjJBUlR6TWtOQjhHYWYtc2lQVHB4cVhPUUJibkpCZTFTR0RueFdlV3RQZ0NPR19GSVk2ZDNYWjU1bmlNMDZpd2VhMF93?oc=5",
+      "pubDate": 1786593685000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1170212705",
+      "title": "China's DeepSeek upgrades its V4 Pro model",
+      "titleZh": "中国的DeepSeek升级其V4 Pro机型",
+      "summary": "China's DeepSeek upgrades its V4 Pro model China Daily",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1NQ2FsMU5heFota05IRmpFb21QNzFFNkZkQ3dXNTMyYUZzcUFfRWZTaTI2VDBHMW53VFJON2ptb3ctR21zT0lackhMMDNoWFVseXFrTkljOVE5eGphUmYxc3NadGE4SUxWVFo5bmhNdzZuNFoyUmdzWURjc2Y2QQ?oc=5",
+      "pubDate": 1786588145000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -779,6 +1493,69 @@
         "cs": 1
       },
       "source": "HuggingFace"
+    },
+    {
+      "id": "-1094407088",
+      "title": "DeepSeek Ships V4 Pro as Its Flagship Model Leaves Preview",
+      "titleZh": "DeepSeek推出V4 Pro作为旗舰型号预览",
+      "summary": "DeepSeek Ships V4 Pro as Its Flagship Model Leaves Preview Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSUtUU2tfNW0tSl9LOGRQRFg3TVZKbkVXS2w2VXpNS3NRcU5ocEpObTctX2JfNEI0MDZsQldVY05Na01aYlNRM3R0WVZ4dThZMi1lak40c0dBRGFSTkFZUS1NQjQ0M2MzN2hnV0E1b0hack1WeExiTEJkbU9uQV9IMWRBcWhmcVk?oc=5",
+      "pubDate": 1786555262000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1760389752",
+      "title": "DeepSeek Prices Its New V4-Pro-0813 Model At $0.87 Per 1 Million Output Tokens, As The Chinese AI Lab Comes Out Second Only To Anthropic On Token Consumption",
+      "titleZh": "DeepSeek将其新的V4-Pro-0813型号定价为每100万个输出代币0.87 $ ，因为中国人工智能实验室在代币消费方面仅次于人类",
+      "summary": "DeepSeek Prices Its New V4-Pro-0813 Model At $0.87 Per 1 Million Output Tokens, As The Chinese AI Lab Comes Out Second Only To Anthropic On Token Consumption Wccftech",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQVWtXaHcwUDFfdHdUVDRBemZSRGxiTEhSQnY5VWZ2VG9GV3ppdDR1RFZoVUZWaEdpdmxtcVR6ZER6cFhNcXM2VTB6SHR0TGp5dW54STJnREt3UW9CVTBheUFHcEM3bGlXdDZpVGFUVWpnQXJQXzhBUXVaNDdnd3o2cERWOXBsZ21rRUtXa3JfSFVvUGNPZENJZkplVm1peDRqQWsxbzlXZTlIYkN2Mm14TEF2em1LZE9GeGRtMVkzal91RjEwNjl5Qk5MWklIUjlkVnBNQW5mdGlwd21jVDlWcXBqU2V3dUtpYTE5d2Y1ZVZIZ0JzajJqbEo0cEdaVW8tV2tV0gGIAkFVX3lxTE1sMHFOaXpuakYwMFdWbUVEU3REV1hMLXhVaGFYWTJSVV9EQWF5UFVLTFZ3YUwteDFCdHpJRDI0QXVBd3RpNmFzWjdib2JiN2Q0Ylo4RVdOcnRBbVZjYTFQaU5MS0k2dVVPRngzTnd4VkxObUpjUFpRLTY4MkFrbHc0X3o2NWRtcWFtZE9aa0M0REVvbzFxby14X25ieWxCVjl6OEdidVA1c2Z0SkRrVVQwQTVVRnFGZGt2WTBnZ2M3LVAtRDVlYlJQUkNZUU5ISXdDZDlmdFdlN3JxOFdZUmd3NTBvNW5wX184Z0lWTHdHa0hhaGFjZU1BcFJvWnFGQ3l1RGZ0bXV3VQ?oc=5",
+      "pubDate": 1786553779000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "2072216258",
+      "title": "DeepSeek Publicizes Efforts to Challenge Anthropic’s Claude Code",
+      "titleZh": "DeepSeek Publicizes Efforts to Challenge Anthropic’s Claude Code",
+      "summary": "DeepSeek Publicizes Efforts to Challenge Anthropic’s Claude Code Bloomberg",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbVR5Qm1Mb1dzd1BRNzUxYjlnQlhPbmZVV1l3STR0UDV5d19VaDloOTdXUGp2LWNJNk5RVTdrS04zTUw5aEZQUnRXSkRLUXpPUUc2OTdGMHZ2cmVKejNLek56SlhDVG1IbnBoZzRpMFNOa1FvbDVXMDVmemFXVnZDTUxkc2NfQ0thRm9pcVpDZ1FMTWNMWnlud0plN1p5NmhVY0JHdnYzRzU1OVJyNms1T1FlZFlYZw?oc=5",
+      "pubDate": 1786552157000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "265250582",
@@ -811,6 +1588,27 @@
       "vendor": "qwen",
       "category": "Product",
       "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1655147333",
+      "title": "Muse Spark 1.2 vs DeepSeek V4 Flash: Five Points, Thirteen Times the Cost per Task",
+      "titleZh": "Muse Spark 1.2 vs DeepSeek V4 Flash ： 5分，每项任务成本的13倍",
+      "summary": "Muse Spark 1.2 vs DeepSeek V4 Flash: Five Points, Thirteen Times the Cost per Task nerdbot",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbGFlME5sa3llODdNeURSY19fME5zc1dyNlp6X2ZZQXNtbFdXOUpKdHA5dzdkd3BSR1VRTU03dF9SOG5rTEpkQjh2WXFOU3NWdkZ1V3dZWW9FU3JacTFveU9La25OYkhtQnYwd1J5QjJBMUlrRE9UY29UWS1MamdETUpJMkgta082eGhuT3NzckZCQVRmcDd6NkQ4emVydFdUbF9ENHkwWW1EdGJpd3ZGSlRB?oc=5",
+      "pubDate": 1786544840000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "high",
       "score": 49,
       "scoreBreakdown": {
         "cq": 18,
@@ -865,6 +1663,27 @@
       "source": "HuggingFace"
     },
     {
+      "id": "-750371824",
+      "title": "Microsoft's new MAI Code 1.1 Flash gets crushed by Deepseek on both price and performance - the",
+      "titleZh": "微软新的MAI Code 1.1 Flash在价格和性能上都被Deepseek压垮了-",
+      "summary": "Microsoft's new MAI Code 1.1 Flash gets crushed by Deepseek on both price and performance the-decoder.com",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMDBBa0MyTHB4TGliZzZxN3dYcmhKdWp2LXJYR09JQndOblhLcGZKYXpzRENPV1FsZkJkN2VwbktBUFdlWXoyVlRJTnFhSDdza0FWVHZmb1FzeG1hVThjaTV2bWdzU1ltZDM3dFZ6ZWxGUVY4VjJ0NFFWV0hpOFhFa093blN3cVdxaXVqNVVKT21fTGV2X0NEZG85cDFGb3FBVXB0WF94bE8xOFlybmlUVEtnMA?oc=5",
+      "pubDate": 1786530172000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1528079564",
       "title": "From assistance to execution: How enterprises put AI to work",
       "titleZh": "从协助到执行：企业如何让人工智能发挥作用",
@@ -884,6 +1703,48 @@
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "-176971995",
+      "title": "Harness Emerges into the Spotlight as DeepSeek Shifts Beyond Exclusive Model Development",
+      "titleZh": "随着DeepSeek超越独家模型开发，线束成为焦点",
+      "summary": "Harness Emerges into the Spotlight as DeepSeek Shifts Beyond Exclusive Model Development 36Kr",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XMGp4UnQyNG1UaWNKSDFvZ1VzTWxRbTNZbU12UXNpcS1MWGx3QUhDdFpreEN4V1dieDVMUUpGVjVMajFoQ0l4cWFQZUtQQk9jdnZV?oc=5",
+      "pubDate": 1786503850000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1794157077",
+      "title": "Hetzner Quietly Launched a Free API for DeepSeek, GLM and Qwen Models",
+      "titleZh": "Hetzner悄悄推出适用于DeepSeek、GLM和Qwen模型的免费API",
+      "summary": "Hetzner Quietly Launched a Free API for DeepSeek, GLM and Qwen Models Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRDgtUU56aThWdFhCaEVrT1ZoOGZMNHlCakMxNXRCdFZGTEpEZEhaV0s1djJlODItUDNMTmlvZ2lPbkY3am81YW1tNlNDOHVvenVGazhYcmNfbmNxS0hPRzMyeGRCaE9IUzhNbmZNa1VQak5faGdHNUQyTGJfd3djX2pCY2FacmtJQTFya29IVThSdHZvU19sc2VSNng?oc=5",
+      "pubDate": 1786502187000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 25,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1233875998",
@@ -1010,6 +1871,27 @@
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "-2050026923",
+      "title": "DeepSeek, Unitree Join Forces to Develop Robotics AI Models",
+      "titleZh": "DeepSeek与Unitree联手开发机器人AI模型",
+      "summary": "DeepSeek, Unitree Join Forces to Develop Robotics AI Models thelec.net",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QOGF6TkZXTTFpSWNNTGVQR24xTWVUazFqWldLVE5yaFpEZmloRVZ2ZjdqRm03S0ZlOV9aeHBSSXZIQjl3SERDemlOSm9rSjFMYVV5bk9YTmJEeTgwM3RrM1NpRGxhdWs?oc=5",
+      "pubDate": 1786434463000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "1891460870",
@@ -1327,6 +2209,27 @@
       "source": "Google News"
     },
     {
+      "id": "-112111688",
+      "title": "DeepSeek AI Cyberattack Hits 460 Targets [2026] - tech",
+      "titleZh": "DeepSeek AI网络攻击击中460个目标[2026] -科技",
+      "summary": "DeepSeek AI Cyberattack Hits 460 Targets [2026] tech-insider.org",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE96QnF0Y1RadVN1T3VjZDF2N1ctUWcySEtLWENuUmFCVDNqeG1sUGM1N2VLX3JPSEZSQlZYTWl0eVd4UzRRREpoa2tGRkdnaC02bEMtMzhQN0xJWkNEZi1ic25PdWZDMGcxdEQ3cnpyQ2JxMzNE?oc=5",
+      "pubDate": 1785999600000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "669722495",
       "title": "Baseten on Hugging Face Inference Providers 🔥",
       "titleZh": "Baseten on Hugging Face Inference Providers 🔥",
@@ -1474,6 +2377,111 @@
       "source": "Google News"
     },
     {
+      "id": "-171402462",
+      "title": "New DeepSeek AI Model 105x Cheaper Than Fable 5—What It Costs Workers",
+      "titleZh": "New DeepSeek AI Model 105x Cheaper Than Fable 5—What It Costs Workers",
+      "summary": "New DeepSeek AI Model 105x Cheaper Than Fable 5—What It Costs Workers Forbes",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTzM3UTZzS0JsX2pMbXZhQURlVlo2bHZOR21xYlBTT0NlT05MSWZSVFd0c2FpckVTZThfRl9RcWxnaVNMdnRRM3h4OE5vMG80MzlycUlGZWNTNWM2UWRoeXVQUUt6b3prSXhRVmpwbXBuOUdQSTBaTlU4emRqbjNEckhkMEZRREpCRFlNMG14MHdMc255V0tCS3dXMkR3Q1dyQ2dUai01S3RnRmdwZVpscW5KUzV6Nm1VdWRydTlLSQ?oc=5",
+      "pubDate": 1785740400000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1553092249",
+      "title": "DeepSeek unveils AI model 100 times cheaper than top rivals",
+      "titleZh": "DeepSeek推出比顶级竞争对手便宜100倍的人工智能模型",
+      "summary": "DeepSeek unveils AI model 100 times cheaper than top rivals itp.net",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVzlXTXdqYzNBNHRGaHFoLTZVR2d0ZndUZVMzdTkySXRWNlFRcEtXRWp5aG1FM3dkU09teFBjRGdZdFhoLTRBZDJ5TTFseWxXeEZhNVdsRlVEMlFjak9Bd2FmdExrYmJqNzlMNGZCR3FvZ2F2RV9WU09QVmVHay1tWVR0dG9ZWUtsa1o5UTlqM2R1Tk9FUXJ0Ug?oc=5",
+      "pubDate": 1785740400000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1104377284",
+      "title": "Chinese Actor Weaponizes Deepseek AI Agent to Attack Security Firm",
+      "titleZh": "中国演员武器化Deepseek AI特工攻击安全公司",
+      "summary": "Chinese Actor Weaponizes Deepseek AI Agent to Attack Security Firm Dark Reading",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZHg5X0VzcnpwNFllMkNFTkVxZUZpOXVQZ2xfclBCMEJwQ0t2RGUtcnB5Wk16ZWtKb1E4eGd5S2FaNlR5aUI2VzFNMURoS002ZHlzTEtCY2RRbDdYbE05TVZDOFFvTHIzWnotNzVEbHhQaGRQOVVBZ0pQajFGbWp5ME5rM1B0aDR3c0JLb3pmWk5FX1BFcFhFR2UwTWcxMWlSNTNWcUlQMklvLUk?oc=5",
+      "pubDate": 1785740400000,
+      "vendor": "deepseek",
+      "category": "Agent",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 12,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1386420429",
+      "title": "DeepSeek launches ultra-low-cost AI model",
+      "titleZh": "DeepSeek推出超低成本人工智能模型",
+      "summary": "DeepSeek launches ultra-low-cost AI model gulfbusiness.com",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTUZOT1lCOTduWVpiTG5sZjFEZTdINTNfbWMwR0pTc1VCZFlqN0xQTVNtcEhjUTNvMllFREtpS28zRDk2WFBFT3dJM2FIV1c2STloMXVMV3Jpb2lhMWFYdDNVMHBXdE5FUkEySXJFdC11UHZvY051YVVVV0p3WEFuZE9TU3VTRzU3Tkx1U2c4X2ZONlhJc05jNW1YZWRISlk?oc=5",
+      "pubDate": 1785740400000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-464609805",
+      "title": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says",
+      "titleZh": "研究公司表示， DeepSeek的新人工智能模型是迄今为止运行的最便宜的知名模型。",
+      "summary": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says Reuters",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTnd6ckhOVUhwcGJjRmxRdlhObS1ncXRhZm9OeVUwaEgwOTg5YmNBTGVWcHZsdXd4dXVrWWdlZGtsYkw0eDIyY1A3NjdSM0o0bFBGUEZRNDF2NjYwZEtCamNpeTFqN3ZaQVlTclNuQWYxNXh4ZVlqaWF3WkNNVk1fbmJXcTdISlBmUVVWS01STmFYZldLSGk5akJQZVB5X09OSzVoVWF4Wko4TEF4cGozQUlWM202dFJWMGxSRTdpcTNaaUp6bmNyZXpWbVRFb2JoSzdCVQ?oc=5",
+      "pubDate": 1785654000000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1213350492",
       "title": "US lawmakers investigate DoorDash’s use of Moonshot AI’s Kimi K2.6 model",
       "titleZh": "US lawmakers investigate DoorDash’s use of Moonshot AI’s Kimi K2.6 model",
@@ -1488,6 +2496,69 @@
         "cq": 20,
         "kv": 2,
         "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1937431074",
+      "title": "DeepSeek's new bargain model accelerates AI's race to zero",
+      "titleZh": "DeepSeek的新讨价还价模式加速了人工智能的零竞赛",
+      "summary": "DeepSeek's new bargain model accelerates AI's race to zero Axios",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04emlXWXpVQXhNcjJsU1d5ZmhnU1J2TFRyeFlxM2hqUUNUNVR2UmxFQUNBanYwWnd5ZUpTRnptVEh2TXU2NU5aa0FRbFV6ejVPd2wxWFNXa3RoaTZPQ0dQSHc0Tkk4WE93Q1JwV0tIWGNBaGNG?oc=5",
+      "pubDate": 1785567600000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1854155795",
+      "title": "DeepSeek is developing massive AI data center in Inner Mongolia",
+      "titleZh": "DeepSeek正在内蒙古开发大规模人工智能数据中心",
+      "summary": "DeepSeek is developing massive AI data center in Inner Mongolia The Japan Times",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYzlGQnlDZDlpa1B5UWZMaGRUWXRUcExkeC1PTzdnLW5DNnUxa256ZWZTaG5ONGd0a2g5TURISnpEWnoyQWpZUUwwdndsLUlCQW10bVZrUEdrZzBOMEZfdXBHeHk3ZXBpVGowRFlRVVU3SU9aUll2RzV3SzFRQnBNdkJ1NHZEb2VkSUdOQw?oc=5",
+      "pubDate": 1785567600000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-476556540",
+      "title": "Hacker uses DeepSeek AI to autonomously attack vulnerable servers",
+      "titleZh": "黑客使用DeepSeek AI自主攻击易受攻击的服务器",
+      "summary": "Hacker uses DeepSeek AI to autonomously attack vulnerable servers BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMnlPMUdnOWxYczNTVHFucnJWSTZkYWJ5S3FxYTZDSU9ySE5yRWVSZTVaMExVcjZzb1hQdWoyU0lkMC01ejV4emtPZ1RaU1pfOHpZR0VRNUk4WmpKZ2lmWjVzY2Qwa2NCVFpMVzF6dVBoUDJocjZOYU9tRktYUTRmaEJPbHVDRjJhQzZwbVo3YXJYTDhDR0ZOZ3FHc2Vta1JwbjhIMlNnYTFDVWpIQkVtaFBGWdIBuAFBVV95cUxNZmthZE9NaU5RYnBwNVk0OHhVRE1PUk5nZWlwZVA0ZEJjSlVtWkhOUG1uVFd1ejFwSkR2MmtUNGZUdUZuQjV4TERQSlBfQTZaVzBWYktRSllVSVlZVTVRekc2M1FMVktNOHdCTnQ1QjZ5SG9MY1RqZ3VIOVZlUDBaV2ZzTjNQQ05qUnMwUUZ6eUgtYTdraHZCU011U094VXJ1dXNrTlBKdDFHazlwdEZfSmJRNHlDa1FT?oc=5",
+      "pubDate": 1785481200000,
+      "vendor": "deepseek",
+      "category": "Agent",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 12,
         "st": 12,
         "rc": 0,
         "cs": 1
@@ -1663,6 +2734,27 @@
       "source": "NVIDIA"
     },
     {
+      "id": "-579119767",
+      "title": "DeepSeek said to have told backers of funding pause after viral posts",
+      "titleZh": "据称， DeepSeek在病毒式帖子后告诉支持者资金暂停",
+      "summary": "DeepSeek said to have told backers of funding pause after viral posts The Japan Times",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbnFLdzhHSHpPVENMRTEyLXVhYTlfNnZQZnlyUzdRTmp0Nkc3Nk1XOWZmSkZmWHJtV25mS0lENklPWFcwM3RUdnhaX2Y4ZlB4c2NiMlJXSXRLbmJGTUJiYjFSeTZsSEdfXzdteGRkU214NE10NlE1eGlkV0dCeWJXLWhCSlRFRWUzQWVZQnFTdW5mWnM?oc=5",
+      "pubDate": 1785135600000,
+      "vendor": "deepseek",
+      "category": "Funding",
+      "impact": "high",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 20,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1965105272",
       "title": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
       "titleZh": "在人工智能峰会上，韩国与NVIDIA及其合作伙伴勾勒出人工智能的未来",
@@ -1831,6 +2923,27 @@
       "source": "NVIDIA"
     },
     {
+      "id": "685274002",
+      "title": "China's DeepSeek to raise fresh capital at $74 billion valuation ahead of onshore IPO, sources say",
+      "titleZh": "消息人士称，中国的DeepSeek将在在岸IPO之前以740亿美元的估值筹集新资本",
+      "summary": "China's DeepSeek to raise fresh capital at $74 billion valuation ahead of onshore IPO, sources say Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVDlhV1Zhbi1ieWRUeEJIa3ZIbTh3SF9HanFHeWEwYU05aU9hbUlDTUlCVDlPTjY2TnNtWE0zRGZWX2l6NGhQZnpOZTdGY2dlaWFyN1NFWVJfbTZ1QXdhcUp5ajhEaTZ6SlFwZVlFY2VlS25lb011dHpUQkVHd2lITGg4NlNxMTZNY3NfbVJkYzVrY1puTlRBSkNuNlREYldEVjFQMEUwZjRVSHNsRFRNZ0ozRklGdzZRQ2VnQmtDQi1KNTdzc1NWWWlR?oc=5",
+      "pubDate": 1784358000000,
+      "vendor": "deepseek",
+      "category": "Funding",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 20,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1263228432",
       "title": "Introducing Gemini 3.5 Flash Cyber",
       "titleZh": "隆重推出Gemini 3.5 Flash Cyber",
@@ -1894,6 +3007,216 @@
       "source": "DeepMind"
     },
     {
+      "id": "1103944332",
+      "title": "DeepSeek’s AI chip plans",
+      "titleZh": "DeepSeek’s AI chip plans",
+      "summary": "DeepSeek’s AI chip plans Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNXhkWWdodzA5SFgySnR4ckdTcWFLYmI0Yk9EZ3dYRWdia1NCZG1JQXB6aG1HamlQV2E0b182eTVFM1poSlViTkxNMkx3bVBONmZNRkpqZTJRRHlYY3g3VkExNlAzdkR3V05PY3hkZzRJQ0xnQkE5SHBkRzd6SVdUd21OSkZVcDhhQjhkei1hZw?oc=5",
+      "pubDate": 1783407600000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 12,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1553918806",
+      "title": "DeepSeek’s AI Chip: China’s Next Big Move in the AI Race",
+      "titleZh": "DeepSeek’s AI Chip: China’s Next Big Move in the AI Race",
+      "summary": "DeepSeek’s AI Chip: China’s Next Big Move in the AI Race Modern Diplomacy",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQS1HWTV5ejYtSVNJNmFBMzV4clNPd0d0UUE4SWxCZG1ZQmQ2RkpFb3ZkbXpUZmszVjQ0NS1iajdZVHQwVzNUUXhRWDd3S0VvQ0xUY0xiNklhSzBCSnk3RGxndnVTcVFJaTQtZGdLUV85TjRaVVdfb0xYOWZBTl9GR3hVU3lIbEpXUFNrdzdpTzlKOEdvTk44?oc=5",
+      "pubDate": 1783407600000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "169888846",
+      "title": "DeepSeek 2.0? New Chinese AI model GLM-5.2 generates buzz in Silicon Valley",
+      "titleZh": "DeepSeek 2.0 ？新的中国人工智能模型GLM-5.2在硅谷引起轰动",
+      "summary": "DeepSeek 2.0? New Chinese AI model GLM-5.2 generates buzz in Silicon Valley The American Bazaar",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ3ZmcXVnTkVuZTAyVy1MQklDVGxiN1VBbFh2Q3RYNXJfSnZPVVY1bHRQZG1NYkhWXzVDZDBKVWFTSXlYNWVPX19NdWhWUG9EZzRWMXdTcW9YZHhGZC1RVFlnUzlWdE1lY2dEaXA3T2pRdTB0Ty0yTVNnUmJRY1pQVGE2ZldncWg3aHU1Nmh6WlpvbFBlMzdZVmJDMGEzb0tYWlJMOUEyNVBaSEM1?oc=5",
+      "pubDate": 1782111600000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1681655104",
+      "title": "Microsoft DeepSeek: a Chinese model for Copilot Cowork?",
+      "titleZh": "Microsoft DeepSeek ： Copilot Cowork的中国模式？",
+      "summary": "Microsoft DeepSeek: a Chinese model for Copilot Cowork? The Next Web",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91a2NjYmI3RkJTeFdjMEhNQjNuR1FQXzlINDhxTm1SZndMVWtFYXFfUU5DMm9QdVJhd3QycTRRbU9GTC1VcjlWZC1JalR2QlJzUGVwMDNSN2VXVktXUndyakxKQ296ZWRQQWtubHlB?oc=5",
+      "pubDate": 1781679600000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "840838282",
+      "title": "EXCLUSIVE: US holds off blacklisting China's DeepSeek, more than 100 firms deemed security risks, sources say",
+      "titleZh": "独家：消息人士称，美国推迟将中国的DeepSeek列入黑名单， 100多家公司认为存在安全风险",
+      "summary": "EXCLUSIVE: US holds off blacklisting China's DeepSeek, more than 100 firms deemed security risks, sources say Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT1ZFS3dvdUZNbkFCNUxiU1dWc0RxNzk5bWlqVl8xQTlDTFh0c2llcU1CZHRvRHRhZllDbDhhT3Y4T21DdjNjUkFydHE5X2FwcFB1ZkQ0QjdHTWRscHM2MWNITUJsS2NiVms0RmdWbHA5SHpucXAxejJOWFd0UjNuMVhKa0Rqc290QnhZWEhEYzBJeUpERWdhVmFPQ196cjQtel83cTdFVlRhd1V6TXc4X1pkUS1KbWhJeGNhcWY3emkzMTQ?oc=5",
+      "pubDate": 1781679600000,
+      "vendor": "deepseek",
+      "category": "Safety",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 10,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1370162408",
+      "title": "Update: DeepSeek AI and the Great Talent Competition",
+      "titleZh": "更新： DeepSeek AI与伟大的人才竞争",
+      "summary": "Update: DeepSeek AI and the Great Talent Competition Hoover Institution",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQmZ1SFhrclk4WG9SWGNkZzlCQmsyd3ZHb2o1b2ZjbkRiYXhleUNQM2NqSTFlUDI1dzF4QkdBZWlVTlAyU0VYUFFLQXpXNVQzVVhBM09reWxwXzRKNFI4RHdkR2hZenh0SlNBWWhCS2lzT3hKdFFkYWY4cVlkcjIycVozWW5EdlhWd2Uw?oc=5",
+      "pubDate": 1781593200000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-112315913",
+      "title": "DeepSeek Becomes China’s Most Valuable AI Startup After $7.4 Billion Fundraise",
+      "titleZh": "DeepSeek Becomes China’s Most Valuable AI Startup After $7.4 Billion Fundraise",
+      "summary": "DeepSeek Becomes China’s Most Valuable AI Startup After $7.4 Billion Fundraise WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZW9fYTRXcDI4QTYzd2s3OVR4S1FHQnNBXzk1NGpqUThndmc4bmxOcExIVURZYXR4ZmEzOWowSmdVZDRILUpxQzZESl9yMlNPTkh1YjRqaG5CQWFDaFJyUFhBWXJkbG90NU1IWGxZcTlOdXZkZGpWbm4tM05hMUpVLTdxVlJ6Qk5lZ2hCZlVFUEwyd0lCX3pZNHRvME1BVktSMDBJTm8yWlJtaV9jYkk3RjM3RUdZR1JEdUE?oc=5",
+      "pubDate": 1781593200000,
+      "vendor": "deepseek",
+      "category": "Funding",
+      "impact": "high",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 20,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1473593297",
+      "title": "Microsoft eyes DeepSeek for enterprise AI",
+      "titleZh": "针对企业AI的Microsoft EYES DeepSeek",
+      "summary": "Microsoft eyes DeepSeek for enterprise AI Yahoo Tech",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNT19rcTF5eXdiaXpEZkF1cFJLenNONS1hY0FFVVVTZnNVWm9xS2dockt1UGFkZGwtalhuaklXamVhcEZodUxoQ2tCQlRJTWxYSjRzTTg3bmMxbjdId1VCWndXWXVrZWplWFJKMUd1d2RsYkxnUTRRbWtQWElFLTRFX2Y2NHFYNTNZenByQXgtZ3A2ZUlMQVMyaUY0bw?oc=5",
+      "pubDate": 1781593200000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1113669151",
+      "title": "Hong Kong unveils HKGAI-V3 model built on domestic tech and DeepSeek V4",
+      "titleZh": "香港推出基于国内技术和DeepSeek V4的HKGAI-V3型号",
+      "summary": "Hong Kong unveils HKGAI-V3 model built on domestic tech and DeepSeek V4 South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMU1BaHJIcnpWdGQydTVhVkwwN01QNWxnYVIxa004RHlSWGtsdHZZMFNmMkhKMHRrUnNnU0FWWXpQczBSX3NTYVlWbl9yMUpvZVl3dkd6VmFod2poM1MxNlRkMVVtZzJCM2pYQVJKSGd5cmFtNmZ2WFNTd3FkVl9QVjFxanhLVVdiLW9VU3V3WmhEaFpFczlpMDIzMy1PcjVMcy1zcERJOFVOOXlONXZxV1J0bHozcElrT2M5dGs2dmp0QdIBwgFBVV95cUxOQXA4LWJsdDN1eHdCenZUSk9TcjlwOUl5TmJYd0xGM1FSU2s0NkdUb2ZkUU1ySTNGeHR6Q2M1eGFPOU5EejR0N0JfbTF4UVZfRWdrd3VReEtVS21nYVEyd3BOeVUzNnlIRmdqWnYtcTBFQXlMRUM0b1p2ekZpY3hQcDZ1MWsxRHpvZ0UtOGtMSkotZE9vSVBRVnoxVHFxdTA3MUVrbkdwUFVxY05VTnhfOXE0R3N0WFhCR1gyRFNMdm9FUQ?oc=5",
+      "pubDate": 1780470000000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1647718971",
+      "title": "DeepSeek’s steep V4-Pro price cut escalates AI pricing war",
+      "titleZh": "DeepSeek’s steep V4-Pro price cut escalates AI pricing war",
+      "summary": "DeepSeek’s steep V4-Pro price cut escalates AI pricing war InfoWorld",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRXhPbVpqN2w4RkExZjdzME1mVDJTOVkwVDJCWXkyWkVXakFJT0czeTluaG0xZXl5ZHhFR0dfZjM3c0dQTkxNUHQ2el9lUi1QRjFpUVdiLXhKcXFJWlQzMVlPRTZJcWk1c0lfSGM2UnlBd3ZpeXBQLW1yRTJUMTNiQVZWNEtkSldhQUNvRFBQTE1NMVBaOURNTGVvSi1jWldSTUg1elpSOA?oc=5",
+      "pubDate": 1779692400000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1093452510",
       "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
       "titleZh": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
@@ -1913,6 +3236,636 @@
         "cs": 1
       },
       "source": "VentureBeat"
+    },
+    {
+      "id": "-1578636811",
+      "title": "Why DeepSeek V4 is changing the AI model race",
+      "titleZh": "为什么DeepSeek V4正在改变人工智能模型竞赛",
+      "summary": "Why DeepSeek V4 is changing the AI model race Digital Watch Observatory",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5QcVEzRnVWRno5d2RzYTFQTU5oWk9sUnMxWHE0UDlVT1RBRDdsSDZGQ05PMW50M3lUVFRhbVBGbE4tTHdZV1k1cWhpVHpkbG9zOTJWb3EzZ2hrOVJYMmM1UzZKeG5TVHNTM3ZGSldn?oc=5",
+      "pubDate": 1778050800000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "high",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1699327462",
+      "title": "China’s DeepSeek prices new V4 AI model at 97% below OpenAI’s GPT-5.5",
+      "titleZh": "China’s DeepSeek prices new V4 AI model at 97% below OpenAI’s GPT-5.5",
+      "summary": "China’s DeepSeek prices new V4 AI model at 97% below OpenAI’s GPT-5.5 South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdm4yR2dnZUFELXBZeHFJN2xkdm1sRFBZMTVFLTl3eU9RdVQ3UGlZbG5HNTlhZDlpOElXaXVLZmlYc2dheU9TLVc3bGs5WWFsMlB2SEJhbHJuc3ZLeXMtN3ZSVE15NDJXU0RWMlpKd1ZfMERzdXZDOVlWeXJqMmdZRFRqZWtsSEJPS1AxUHVndENmbGwzSHVDZlA2eG05TlB2cW1NZVN1UlE2cTVsbWxpbDZOSzJ2ZE3SAbcBQVVfeXFMTjBBalhBSVQydU8zcENVeUI3S3Exc0I3em1zaGV0WGYzR24tQW9HUjlxdHJRREJpQ3ZJZl9wLTRoOU8tcjNKaW9GcXZxX0tnR3RMUDZxT195S002V2thOFFsYkRkVEY5enhpTkhuXzc1SVhnejdqNEt5S1hLLU9ZZWlTRHZXMXNaanRlMHNSZHRCSjBWcGVKNEppTW9kVEt3Vkt6WU5ZdE1FVmFXemJnU3VEVUM4Q3pr?oc=5",
+      "pubDate": 1777359600000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1584623795",
+      "title": "China's DeepSeek slashes prices for new AI model",
+      "titleZh": "中国的DeepSeek大幅削减新型人工智能模型的价格",
+      "summary": "China's DeepSeek slashes prices for new AI model Reuters",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYTFXalJZZE92UmRhTmtwaUoxaDIyQWU0QjFnZ3NCUDVnbmpHNGpDaFlEeG1ZTzJsaHVMeWk2SHkwWUlwQzZ4ZnJtblQ5dEgtZmJ1cG5SOUZNektfMTBoVmxIX3R5cGRGQWs2eTNqNTY2bnpuLTlRSHJPaWprTDFSMF9TMUdrcThsNnQySjZrS01QblFnNVE?oc=5",
+      "pubDate": 1777186800000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1082929012",
+      "title": "DeepSeek unveils new AI model tailored for Huawei chips as China pushes for tech autonomy",
+      "titleZh": "随着中国推动技术自主， DeepSeek推出了为华为芯片量身定制的新AI模型",
+      "summary": "DeepSeek unveils new AI model tailored for Huawei chips as China pushes for tech autonomy Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUVllcUNPUUdaaW1PZlVEblJFME5Ecnl3R1lvQmYwTVRUdUE2dng2cTdDNUFkTmVkRzNIcEk5WTRKdDJEX3BudElma2hGUjFTTDRTR2xNcndid2VzVmx6Y192Z0FmcDMwVm5nY3ZGY0k3VFVJZFM0dk9vYlhnTGNfU2tlbnRRLVJSbGpXS0J5X1k0MUh1LUZZSE54QUlXNzZLdDNyX3ZicVl0QzA?oc=5",
+      "pubDate": 1777186800000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1880389854",
+      "title": "DeepSeek V4 is here: How it compares to ChatGPT, Claude, Gemini",
+      "titleZh": "DeepSeek V4来了：与ChatGPT、Claude、Gemini相比如何",
+      "summary": "DeepSeek V4 is here: How it compares to ChatGPT, Claude, Gemini Mashable",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNLXRWZ1ZVaXI5MDBqdWtjLWc0VFB4Y1hMRl84M0FCQ1haa3JvRjBNVnQtUzlxYm5lcm9ScUx3QXVPV2ZjcGoyRWo5Njk1NnEwdXVIZ09ScDd5aFpJLU1JblpObkRIbENvcFh4ZDl6ZkNSVHVuZW9nLUZzNFdiSThyVWlaeF9JeDlI?oc=5",
+      "pubDate": 1777068021000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "high",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1518566782",
+      "title": "Three reasons why DeepSeek’s new model matters",
+      "titleZh": "Three reasons why DeepSeek’s new model matters",
+      "summary": "Three reasons why DeepSeek’s new model matters technologyreview.com",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSzNrdWNGN1EyM2pNR1pBUnhaT3hHYk1nZXhXMzVKUXB3T09za2dCTXZYMDRvdVpEUnZRUnRhYnRwdV9OTFpST3VQbTktdndyYklBWjk3M2RicUx2MnJUaWtGMkUzQS1qZjNXWmI2cFZ5bEVnUk00WHRJN3I5R3FfeWs2VdIBiAFBVV95cUxNTk4tcnJDa0tDV2s2cGlnZGdJZXBNUnFXajFhUjJpVjQ5NzA2UWJUaVZwTEZtd0k0d3dRdEl0MVNHS0R1MElBNHQxWjdzS2VnX0VFQVQyM1lqX05tOVNmU2djTEY2WTM3Ujk3bXBTZ2pmNE9KekVrWWVqa2hUTjhncEZ1bEw4MjJs?oc=5",
+      "pubDate": 1777014000000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1998661165",
+      "title": "China’s DeepSeek rolls out a long-anticipated update of its AI model",
+      "titleZh": "China’s DeepSeek rolls out a long-anticipated update of its AI model",
+      "summary": "China’s DeepSeek rolls out a long-anticipated update of its AI model AP News",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU2pHYXJUc25BSWltX01IcEhVQUlfMy1aVjhRcERjajZKOThMYkEyQTk4d1UxcjBuazFYNEt6R1ZDLXd2aFZXTEdvTDNYc1hMUkZha29VaGo5WHI1dXljN1Zid3AxdHNoa3hFMlVjMGhfaUdlZXUwTEpfRkdmTFMyMnV1TmFWNjBTLWdoRw?oc=5",
+      "pubDate": 1777014000000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "707703589",
+      "title": "DeepSeek previews new AI model that ‘closes the gap’ with frontier models",
+      "titleZh": "DeepSeek previews new AI model that ‘closes the gap’ with frontier models",
+      "summary": "DeepSeek previews new AI model that ‘closes the gap’ with frontier models techcrunch.com",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWTkwWkktandzT2ZKZTFpNVM5czRCYm8zZkpHblJra043c2xmUUpWV0NVZWpLZ1hNNFZWMTd4MFZNTF9saXhWYlJDY2djUGd1SUJONU8zSW13czRzUlFvWktoeW9CWlpJcmFFdGtnSGZzanNsM3REWk55V3FZMjlHUjROVFJ4LVlaU2stcUY4YWpoWDZWcHFLbThwTnpxZlZGV0x3VHhWVWpsdw?oc=5",
+      "pubDate": 1777014000000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-807368284",
+      "title": "China's DeepSeek releases preview of long-awaited V4 model as AI race intensifies",
+      "titleZh": "随着人工智能竞赛的加剧，中国的DeepSeek发布了期待已久的V4车型的预览",
+      "summary": "China's DeepSeek releases preview of long-awaited V4 model as AI race intensifies CNBC",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd3BGX1RVY2NmcVZoZnpqQ0hDTmdhem9nVE5wLWlKN2lIYzNuVjJtUjdqeU9oWWIxVjY4WG1BU0ctMm5VNURWZmhnU05IQTVnakRJUFJSeHI5dFB0WThCb1h1Q2Fnb3k5aUwyTUd6NEZ3bU1LRWs5OHZvTi1MQlJpVzNMbnRzcDd6UkZxdFlsX0FycjU5SVc4ONIBngFBVV95cUxQWWFDRGp5MGRYM2FYZ0lvN0Y5cTVOSm56QmZQeENWTzdUQzVXOVZIQjVZZy1OcnJLeEFzSklFVEpWdWV6d05POWktN2JIbkJzQnhSZDdtRm1VQzBEbjR3ZjNyQ0VjSkVpenFrWGM5MnFWdndlVTg5OGgwMUpJa0RONnF2em9hdGhycjNGdmpmZHlQSEdudTMyRm1mdjVQUQ?oc=5",
+      "pubDate": 1777014000000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1513864102",
+      "title": "China's DeepSeek launches preview of new AI model",
+      "titleZh": "中国的DeepSeek推出新AI模型预览",
+      "summary": "China's DeepSeek launches preview of new AI model DW.com",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5yVWNVNmNtTGlQc1ppV3lZNW55TjJiUVJxOHhOTG9ESWhzeFJQNlZJck9HVXNzX3hkWWhfRnNfTDlmdEx2TGJuRGJvN1pfcndnUFQyUUpnbFA0emdSZHVISDVCNm4xRWY5dlNKWmxMRdIBb0FVX3lxTE84MDl4aHFpdzVZLVZQZ1o1RmFrNzhmMHVWVXo1elpZUG5LWjdvTVFVMnp0aUl4WXNtcGxhR2tOQktaVDg1WU5GVm1kN0oxYVVOWUFMdzNTSlpDVG80SU1Da0FHZVBOZFhQMlZkYVY2Zw?oc=5",
+      "pubDate": 1777014000000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-520586",
+      "title": "DeepSeek Unveils Flagship AI Model a Year After Breakthrough",
+      "titleZh": "DeepSeek在突破一年后推出旗舰AI模型",
+      "summary": "DeepSeek Unveils Flagship AI Model a Year After Breakthrough Bloomberg",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYlBaam5rSExHaXJZZEM3WjgydGtwVjJpNjFBY2lkOElwbUEzZS1hSDZVRW9tbVFCdFlfck5iNGJYc21mSTBSbVB1UTREbExCUEFqdDlmZjZiRjh6eVlvTUotTTlPNUcxdUJZWWNUemhGQXVqVmtvdUJZWGJ5V3pLUzNQYlIzWnIzcnFmNFZMbkJxTVZ0Q0xaRzZDRkIzdzZHZmlkMGpZdml3enNNX010dW5B?oc=5",
+      "pubDate": 1777014000000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1452788226",
+      "title": "DeepSeek-V4, the Chinese AI model adapted for Huawei chips",
+      "titleZh": "DeepSeek-V4 ，适用于华为芯片的中国人工智能模型",
+      "summary": "DeepSeek-V4, the Chinese AI model adapted for Huawei chips Reuters",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWHNGM0lqMWwzNGo5QXFCYjBNYzlKc0VWT05hOUg0RWVscnlHRnVVVWMtS1hEOWtuSzQ3SUVyT2hTZWJZR18tSkRSVXhzWnhsMnNuakM0ZmNHMzlmMGt6MDBWODhsdUZRWVR3eGRnZVJaS2t1Nl9hd200QUduM2ZMb0tEMWl4Tzd5dk8wQnE5OTJVaTU1TEk4bHlRNEZSUQ?oc=5",
+      "pubDate": 1777014000000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1741684126",
+      "title": "DeepSeek V4 Pro is the #1 open weights model on GDPval-AA",
+      "titleZh": "DeepSeek V4 Pro是GDPval-AA上排名第一的开放权重模型",
+      "summary": "DeepSeek V4 Pro is the #1 open weights model on GDPval-AA LinkedIn",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUEV3R3VrMi0wR2FjdzV2cmJKbkZYWGE0Tmo4OTl0TUt4OFkxa0d4emN6Y29zR3FLTnE5RVNuQmxZbmJJSGF6UHJCNnNoTWlucWJkN0k5eE5NVjVDMXhHRUk2endNb1ZpUk1qZHVLRkMyTi16YlVNZjNGRkVFVjEtNUN5R0w1ejhxeVo2OE1tczhWUU9leWxzTjhFZjFqcVpmTlFfR3hn?oc=5",
+      "pubDate": 1777014000000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "high",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1483668202",
+      "title": "China’s DeepSeek Says New V4 AI Model Can Run on Huawei Chips",
+      "titleZh": "China’s DeepSeek Says New V4 AI Model Can Run on Huawei Chips",
+      "summary": "China’s DeepSeek Says New V4 AI Model Can Run on Huawei Chips Asia Financial",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOa3Z0M3Vyejg2VllNWncyaHBXSy15MWktLVdIaG9valgtRjBydWJVNHZGeWZWMmxFSVVPTnlnVi1zOFBHanNWczhoS2hmeFZRVHIzY3ZneXhZV0JfbzhPWHU5a1hOZld4eDJfbG50NHBWVzlZOWZZU2pVVzM0OVhPLXBBSTBtZDRhV1VLUGlpX2p1RFNm?oc=5",
+      "pubDate": 1777014000000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-2117993412",
+      "title": "Build with DeepSeek V4 Using NVIDIA Blackwell and GPU-Accelerated Endpoints | NVIDIA Technical Blog",
+      "titleZh": "使用NVIDIA Blackwell和GPU加速端点使用DeepSeek V4构建| NVIDIA技术博客",
+      "summary": "Build with DeepSeek V4 Using NVIDIA Blackwell and GPU-Accelerated Endpoints | NVIDIA Technical Blog NVIDIA Developer",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcm83QlFwRXlfWHhmOTNib0UyYjlmSlNwX1RnVlVQV2ZUbi1TcnIxc1lKVllNdUt5VlU4M0VjVTdIbG9ETVQtUnNrVE40OEFPTFdFbDVxV3lSMGFsQjFObS1kS2Q3QnNEYkJJUVlzMHNJQ01OT2ZrbGhMYUdaUlYzWV8wd1RCZWxKYXZNUGstYkpUa3FRelVXeWZFVFppS0s4WmFrX1NuWEV4YVlaenFz?oc=5",
+      "pubDate": 1777014000000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "high",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-957319180",
+      "title": "Nvidia Faces Headache From DeepSeek’s New AI Model. The Stock Is Rising.",
+      "titleZh": "Nvidia Faces Headache From DeepSeek’s New AI Model. The Stock Is Rising.",
+      "summary": "Nvidia Faces Headache From DeepSeek’s New AI Model. The Stock Is Rising. Barron's",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdmJUUVhPSVBlQzVIXzlSNFRKZ0xYTkdZRGc2ZldBaU15YjZVd054OU9kS1ZkNUh1dEVDZ0xkMzlmOWkxNTFlODBMSWl4UUZYb01TUmpZWjQ1QlVCSUthR2RYTnNPeE5nLW1VMEdjaFJlTXg2elhMNnNqRDktR09zZ1U0MFIxVG1mcXJybQ?oc=5",
+      "pubDate": 1777014000000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "654083944",
+      "title": "DeepSeek returns with new AI model amid US-China tech rivalry",
+      "titleZh": "在美中科技竞争中， DeepSeek以新的人工智能模式回归",
+      "summary": "DeepSeek returns with new AI model amid US-China tech rivalry Türkiye Today",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcll0V25GZ0lWRnA4c3UzRnhWSW1pY1FDbmhCYlk3Wm9NRkRxMHFPQ3NaM2NnbE5JRUxCU3l5Nnd1MHZOTFplR2wtSjJnSnFSYi1CVUxzdkdiSzh5T2lJZTlRMFFyMUtzUy1hTWZ0VGR3T1ljQmZuV3hqYjZYMDhKc3BEN3k2Mjh5Z25xUGVPUmE3c2VKNVlURVNydXhGMTZTc2lkeG1yYnpSa2c?oc=5",
+      "pubDate": 1777014000000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-69668449",
+      "title": "China’s DeepSeek previews new AI model a year after jolting US rivals",
+      "titleZh": "China’s DeepSeek previews new AI model a year after jolting US rivals",
+      "summary": "China’s DeepSeek previews new AI model a year after jolting US rivals The Verge",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQXFIMkFadXNIZXZOdnR3aW9DSWJOTHlDeG9HZE5DNGJQME45b3dMbm9aTi1zMnlzMGtVS2pqRW04RnBHbmhveC1OZWVkSU5zcmwxbjVhY1RCUTVNdkVUUkJpQ3NXa3IwTEJGWDVuSVBFTXhKMVRFckJTZ2JjYW5tUEhzSXNyWHMwYW54TENMV3o?oc=5",
+      "pubDate": 1777014000000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-84172967",
+      "title": "‘Horrible’ for US if DeepSeek AI models run on Huawei chips: Nvidia CEO",
+      "titleZh": "‘Horrible’ for US if DeepSeek AI models run on Huawei chips: Nvidia CEO",
+      "summary": "‘Horrible’ for US if DeepSeek AI models run on Huawei chips: Nvidia CEO South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUG85UkFSaTlaZ05ONi0tZWJsLXdBMzlaZTNLSVA5eTU4MVpfQTJ5enVCNUhYVkdHbVVEOWUxUlF1MWczcTRmUDdiUEgzVnRPOGgwX1RWd2pFWjZpa0Rma3g0M3hYVV9HRDVIWG9HRzBwTDZjM1VmenNzTTA1cVVwTUY5UjQ5eXNRMlR1d3pUNGRURS05MGh3b0ZMNzBHNlJuRDNtUXhlRU4xRVZRSDZ0cHRVMDFPTTlXaGNHU1Jn0gG-AUFVX3lxTFA2eDFZaF9qalhhRDN6Zzk3aXYzc2lEWFZVVEo1eUQ1RkduNDA5YVIwdzJkRVRZMzM0eUlsVHlZZmQ5LVBjTlg5OVliY09BRk42R3J4SGdhbldhanpwX1gwQlEwMndYX0dOUko3Nm11YXZMMEpBTnNqVjZINnVFRVZBRDYzQUxsbnNEbVFUdFJxSFhqQ19GM0pyWFJwVFp4bV9MdGlWRWl6b0YxaHc3M1dyWkI5UXg1UFFhR21jVlE?oc=5",
+      "pubDate": 1776409200000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1234635617",
+      "title": "China's DeepSeek AI chatbot suffers longest outage since viral rise in early 2025",
+      "titleZh": "中国的DeepSeek人工智能聊天机器人遭遇自2025年初病毒式崛起以来最长的停机时间",
+      "summary": "China's DeepSeek AI chatbot suffers longest outage since viral rise in early 2025 Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPd3VuNmlYcXgwTkl5dzRCSzBQVHVRUjgxSV9FN210WThyUnNTZ3JBa055MXpTVGdSZHd6ak9vUUZzNEpKZDIyQndsakhzVHNkdGNrdW5DX3NpdTNNNXlYdzBJTjkwR25BU1dLRlRleU9xTDZzUjJJQzBYcVJCbWpsRVp6cEdGTmZlQ2xGOTRQZEozNm5FY21iNVA5dWc1aHF2bUVSRUFUYWQ0Q05vVzBGbGVMVFp3UjZJWHBCaFdxUmZJUQ?oc=5",
+      "pubDate": 1774767600000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1003382997",
+      "title": "Mystery AI model revealed to be Xiaomi's following suspicions it was DeepSeek V4",
+      "titleZh": "神秘的人工智能模型透露是小米之后的怀疑是DeepSeek V4",
+      "summary": "Mystery AI model revealed to be Xiaomi's following suspicions it was DeepSeek V4 Reuters",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNclBvcWpScEJkOUV5UXVrakVPTm00WHU0S1N1bkEzQ2NtLUNqQ0pwaTB5eWgxaXpHbDdfQ1Fsdzk1RG1EVkFCdkdFdHN2VWVqaklJQTFWeEYxUHRYc1dxNjh1dkdEcThielUtWWdkbmp6Q21EWU00YmdZMWV2QktLYkhfQ3NrVnZBLVU5UWtUSzljd2tfU2dENW1IdzZONXhRNmp5UmllanhSX2tlU3pDOHphanRGVVdyZ1RaR25URmIwd21rb1d4T3p5VXAtdTBQ?oc=5",
+      "pubDate": 1773817200000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "high",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1950564296",
+      "title": "ChatGPT vs. DeepSeek: What 5,000 Chinese Stocks Reveal About AI’s Limits",
+      "titleZh": "ChatGPT vs. DeepSeek: What 5,000 Chinese Stocks Reveal About AI’s Limits",
+      "summary": "ChatGPT vs. DeepSeek: What 5,000 Chinese Stocks Reveal About AI’s Limits Harvard Business School",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb0FfZ2lrQzF2N1RjbjRyd2pnSXpDSjVzbmpORXIxZ1lRQXl1Y3hXSUFZcDlEMXJ4dW9MdkdqSS1YR00wd0pCSDA5TmkxbWJFX1c2d0NPRVQ5MG42TlpvOFRGVXF4SkdfZlJOYS15T24wN1RHR2U3cWVQamdfS3E4Y3pMNEtSem43ZFhRdUhuOVJNU3oweWF1SWFXRC1xYTR5RTRqSVJsZlEyYmNYS3c?oc=5",
+      "pubDate": 1772784000000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1551082635",
+      "title": "DeepSeek to release long-awaited AI model to challenge ChatGPT",
+      "titleZh": "DeepSeek发布期待已久的人工智能模型，挑战ChatGPT",
+      "summary": "DeepSeek to release long-awaited AI model to challenge ChatGPT Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRkF0eE9HenI4ZVgwaGl2TGkwQnlfOWQxVGNaRGg3amh0X1BMUFQtSS1MTWRJb3Q3RF9wMnJVODFEUlZ0VHFnX1NJTUtzTnpGeHVjUVBLWFpuUGhDZlRBb2pUeWs4R3JRcTFMLXRMRXYwbnRhdEZNMHdsUGZCcXlLYmJRU20?oc=5",
+      "pubDate": 1772438400000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1929117073",
+      "title": "DeepSeek Poised to Unveil Latest AI Model",
+      "titleZh": "DeepSeek准备推出最新的人工智能模型",
+      "summary": "DeepSeek Poised to Unveil Latest AI Model PYMNTS.com",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOVpKeml5OU03SGdrS0w5cEFKT0RxUVBQYzh3YzBDRG9nelZQd2hNQTdTZE9SUkRkdWlTbThLQTV0RnZBdVJPXzUyblJNT0tjTTJza2sxRnVVdzZCMmFEYXhVYWNDNGFqQjRHN3ZpNFQ2c1gwTmtMay11OENsMzUwRW5hejVzSlJHWDZ2ZkQzd21CQ1VQOHhKY0xJVXFKRUJX?oc=5",
+      "pubDate": 1772352000000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-719515832",
+      "title": "DeepSeek to release long-awaited AI model in new challenge to US rivals",
+      "titleZh": "DeepSeek将发布期待已久的人工智能模型，迎接美国竞争对手的新挑战",
+      "summary": "DeepSeek to release long-awaited AI model in new challenge to US rivals Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY3BPTkJuYUx2WmpNUTZ2MUhBYk1iYU00WlVQWldKWjV5WFUwX2VrMF9SM0c2bC1TdllXSDl2Y1N3UU5CcUxTSGVHb0ZlZlhHS2pnVmdEa2tSSFpSQ0tpLVI4MHEwNUlOWUd3RXhoS0Y0YlhhbkVpejFfUTVtcWV6aGFKZkg?oc=5",
+      "pubDate": 1772179200000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1488281868",
+      "title": "EXCLUSIVE: DeepSeek withholds latest AI model from US chipmakers including Nvidia, sources say",
+      "titleZh": "独家：消息人士称， DeepSeek扣留了包括英伟达在内的美国芯片制造商的最新人工智能模型",
+      "summary": "EXCLUSIVE: DeepSeek withholds latest AI model from US chipmakers including Nvidia, sources say Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZmcycGJtVHZxelpFYjVibVpKcnF5V1JWMkRJS1p0eHdiNHM1cm9tRUNLZVdTeFJMRmkxdE50UVVjbFpSNUo5Z3ZGN1EtZlZtdHA2QXMzNVh4T09hUTJodExLOWNUallOZV9FNVZncWR3T040dFdCc3psR20tOFV4QkFiQm10Q2NMRXFBWVIxYWZ4Rmo0NGx4V09kb19HLWl4SEYyWm5OOW9RN2J1QktacG9FS0RtdlBpT3k1a085ZjFkaWs?oc=5",
+      "pubDate": 1772092800000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1558840787",
+      "title": "EXCLUSIVE: China's DeepSeek trained AI model on Nvidia's best chip despite US ban, official says",
+      "titleZh": "独家：官方称，尽管美国禁止，但中国的DeepSeek在英伟达最好的芯片上训练了人工智能模型",
+      "summary": "EXCLUSIVE: China's DeepSeek trained AI model on Nvidia's best chip despite US ban, official says Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYko5c1BzTGVuUV9VZl9CMGczWm5RdThBeW00Mm5BX3NDb2Z6XzZuNGstMWs1Y2pSZS1wcWdndEZBc3YwSEtNT0ZnXzNjUUFncWN5eHFEbXZ1ZmEyR3M3dFg2TU5tZzQ0QXdhZTJhTXJGSWxyXzRMcDJxZllwRXgxQTFhbkZ2RjFJbDViNmd2enRZWGtZcVV1cE9nUXFUNFQtQzFoZ01lRkc3YTlueXhwZVUxQTVkeDBfTlZmaWxlX1g0X0tCRFE?oc=5",
+      "pubDate": 1771920000000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1079436892",
+      "title": "OpenAI says China's DeepSeek trained its AI by distilling US models, memo shows",
+      "titleZh": "OpenAI表示，中国的DeepSeek通过提炼美国模型来训练其人工智能，备忘录显示",
+      "summary": "OpenAI says China's DeepSeek trained its AI by distilling US models, memo shows Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOS1JWNDM3elpGZUJXbnA3bS04V0FicHdfV0hyNll1QTg4cmoxWElkVUtrYkcwZnEwYzhZOWpQdE9rU1ZrQ1AyLUtoekRXbFoxTmFtbS1zRzAtaXlabzB0eXN1TlpnQktIVV8wOUtuU1BleWlWZl9BNjVTdkQzdEVISWpnZE5DQ194T2RFMWhMQUpDVVBjU0ZqWUNrZ05qblNxblJOQlgtQlJzSTJ6Ty1rQ1JFdXpKMURLczB4dnVYVQ?oc=5",
+      "pubDate": 1770969600000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "226614674",
+      "title": "OpenAI accuses China’s DeepSeek of stealing AI technology",
+      "titleZh": "OpenAI accuses China’s DeepSeek of stealing AI technology",
+      "summary": "OpenAI accuses China’s DeepSeek of stealing AI technology Los Angeles Times",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM1UwTHowWEN6dUR4SHVFTTFlQXc1a3JPRlFEUkJXSjN1MkpVN1VJWUk3emFlclkzT3RKNjkzNjAzTXZGNTNiNm1HYTJ1OVpoNzJKX0MwNEh1dTFabURCcHluSlQ2MlNPTXVidzgwLWtLekFhTG05b2F4VVVsUE9na3p4Zi01cFprSHE4WXNSUWpoenN1NlJQcVdRUzZENjFYdGJRSVlVYmE1QQ?oc=5",
+      "pubDate": 1770969600000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-2011290945",
+      "title": "DeepSeek boosts AI model with 10-fold token addition as Zhipu AI unveils GLM-5",
+      "titleZh": "随着Zhipu AI推出GLM-5 ， DeepSeek通过添加10倍代币来提升AI模型",
+      "summary": "DeepSeek boosts AI model with 10-fold token addition as Zhipu AI unveils GLM-5 South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUS1yUzlDZTVxQkhnMDg2MlF3NURXVEMwbERTZmtKNHpkQTNxd2o3ZG1JYjl6Qm1vSExsLXhlYm02YUtCclp2dWNmOWR5eWx3WmNwZnNoOXRnVzNRcF9SdG40c3pFTUxWMGlldlBTQlI2VnlBdW40cTFGVXlSQU5hMGJHUURCcHlFa05HVDZfeVplS2pETDdJNTVmUXhvRXNQQk1ZekdGS1VSWHZtN2RqZGxNZG1SNmY1S2I3LVlYZ2lBV0QxTVB6ctIByAFBVV95cUxPTTQ5ZUF1TmNuSy1MWUNkSVg2Q1hCcDNhSEoxLXAxWll3ZGo2YTF3M0VuMGpjZDRXaWFJUk1aVGxacUQxVWhpcGZ2akZ6QzYybWxwbDRMUFB4eFQ0cDJORW1rOVdDa0RRTU9DZjBORGV0c0QtVFNXbUlTMnFsbHBrQW5jVVFIbElpUGRLa3dJVmxVYmJTeGhaNlRzN2xEQTFzZ0tPcmdBVFlRTFZvdFlubVo5aE9XTTJiSl9BeDhhRWpNeFR2YWRiWg?oc=5",
+      "pubDate": 1770796800000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1380991222",
@@ -2020,6 +3973,27 @@
       "source": "VentureBeat"
     },
     {
+      "id": "-7180705",
+      "title": "DeepSeek to launch new AI model focused on coding in February, The Information reports",
+      "titleZh": "The Information报告称， DeepSeek将于2月推出专注于编码的新人工智能模型",
+      "summary": "DeepSeek to launch new AI model focused on coding in February, The Information reports Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNX1k4VVFWRHJzZnVudkVWLW5fdzVmWGpXR0s5NEl3c19Lb093THh4ckVwRGpLckd2U201S1Iyam9LUFFRYVJDTms0bnN0cHlYMi04N3JYaVJFYUxyOHl1SGNHYVFjU1g0TFg4N055N2x2dk55cE13OG5VQjdZX1VTbmJFWktsRUlhNThIODlLekNMNTQwYllrbkIxNkRDc0ZfbGV6WDRNenE0TGE3LTBGYTA2b19kdTZGS0dv?oc=5",
+      "pubDate": 1767945600000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "2076277904",
       "title": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
       "titleZh": "Nous Research的NousCoder-14B是一个直接登陆Claude Code时刻的开源编码模型",
@@ -2039,6 +4013,69 @@
         "cs": 1
       },
       "source": "VentureBeat"
+    },
+    {
+      "id": "-2077699463",
+      "title": "A look under the hood of DeepSeek’s AI models doesn’t provide all the answers",
+      "titleZh": "A look under the hood of DeepSeek’s AI models doesn’t provide all the answers",
+      "summary": "A look under the hood of DeepSeek’s AI models doesn’t provide all the answers Science News",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1mVDRIY0dGNGJsSWFTSDZ4TWNvTThYY2hySUI3V1FydTEtUGFOb2V3eXpFVENQTGZPWklsODBVTmptbE9WZkJmZEVaa0RUd2p3Rm0zdlJWNUtGYlQwbHpya2FqTk1JZHVodjFveWRCZlJsbzNELTBxVkdB?oc=5",
+      "pubDate": 1765267200000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "264477363",
+      "title": "DeepSeek v3.2: What it is, how it compares to ChatGPT, how to try it",
+      "titleZh": "DeepSeek v3.2 ：它是什么，它与ChatGPT相比如何，如何尝试",
+      "summary": "DeepSeek v3.2: What it is, how it compares to ChatGPT, how to try it Mashable",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4tc2lUOVpTNG9nbENRZHNkTzUzN09fa2dZZ3hhUHRpamRuRXh1ZU9VOHFjV2hCRkM0VzRreERDZll5NzdHWnkzVnN6OG5ENVpyMmcxXzA1LVU2elN1MTR0aUROUnJ2SUxUUmc?oc=5",
+      "pubDate": 1764748800000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "high",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1250311024",
+      "title": "CAISI Evaluation of DeepSeek AI Models Finds Shortcomings and Risks",
+      "titleZh": "CAISI对DeepSeek AI模型的评估发现缺点和风险",
+      "summary": "CAISI Evaluation of DeepSeek AI Models Finds Shortcomings and Risks National Institute of Standards and Technology (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWHFpMGNmSVhLclh0VGFJbE5wTmpuV0dBT1oyRGFXZkVGOHVwQzRtRmg4bFVUVGpZWEczSVp2LXNiRmZfRjBlbTlRNm91bERGTDRFOVBIaVpITU16S0tSYkxtX19wb0E5S0hTS3dJLWlKYXBIaVNzWW9aQ2xzQTRfM1NyOHZDbDBJUnpQdkxkaU95U1ctSmdNb090cTBsNFl2UVJmMWtQcklSaGtsdWdF?oc=5",
+      "pubDate": 1759215600000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 3,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     }
   ]
 }
