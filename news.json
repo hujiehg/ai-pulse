@@ -1,21 +1,42 @@
 {
-  "updated": "2026-08-16T11:13:09.528Z",
+  "updated": "2026-08-16T11:44:01.404Z",
   "count": 105,
   "sources": 11,
   "items": [
     {
-      "id": "487213832",
-      "title": "DeepSeek and Alibaba Open Access to AI Models, Competition Gets Tighter",
-      "titleZh": "DeepSeek和阿里巴巴开放人工智能模型，竞争更加激烈",
-      "summary": "DeepSeek and Alibaba Open Access to AI Models, Competition Gets Tighter VOI.ID",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE11d3hZYUFZaHdXdjNSMWhZS1loalI5emFLZHZaWHo5aC0tVkVDa2Mydmo4YW1iOGpfaVB5eDBTdk5OemJUNnhrYTZKY9IBQkFVX3lxTE1URy1yWnU3aTR4MW5kUFN2RVE1Ti13eFNGT1hWd0FCam1SX0Z1UURXUlpxQkFnRmw4WFRDQlRwZUdQQQ?oc=5",
-      "pubDate": 1786867218000,
-      "vendor": "deepseek",
+      "id": "-365945736",
+      "title": "Alibaba's AI model Qwen tops global downloads ahead of Meta, Google",
+      "titleZh": "阿里巴巴的人工智能模型Qwen在全球下载量中领先于谷歌Meta",
+      "summary": "Alibaba's AI model Qwen tops global downloads ahead of Meta, Google The Standard (HK)",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdDJBOHV6bG82REVwb3lvMjE2ckU2MmYwTzNXTExhTmhfTmpEdlhZV2RXYVQwMm1QVFFBajhxMUw0RHVwTEphM3hITDlHSkxKdHBwdGZjdWMwOER0Uk1wSFE1WkdPX0J2QUlNOGk3QnFZd1BGTXJEcmVhS2ZpbkR6b29vNW5WVmwxWS01NjZWaXprMmxUOEF3Q1FMTkk5b3RmZ2d1Y3VxaHpqWmstMEpwSVY0NGRIeUQ0SHpv?oc=5",
+      "pubDate": 1786877300000,
+      "vendor": "qwen",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 62,
       "scoreBreakdown": {
-        "cq": 18,
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-708493724",
+      "title": "Alibaba’s open-source AI model Qwen overtakes Meta, Google to claim top spot globally: report",
+      "titleZh": "Alibaba’s open-source AI model Qwen overtakes Meta, Google to claim top spot globally: report",
+      "summary": "Alibaba’s open-source AI model Qwen overtakes Meta, Google to claim top spot globally: report Global Times",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBENmJOcWJDcGR0blh0cDlCQkk1bmw4a0s1NGZ3TVphR1A0bU1YWlBJbVFfaWFpc1dLeU1JQWJmNjZlN0F3ZmRSR3VZc0w2Z2w4dWpsdlpKWTJFTzZYdzRXRUxn?oc=5",
+      "pubDate": 1786867020000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 22,
         "kv": 2,
         "cw": 22,
         "st": 12,
@@ -60,48 +81,6 @@
         "cq": 20,
         "kv": 3,
         "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "177786282",
-      "title": "Alibaba’s Qwen tops Hugging Face with 3 billion downloads",
-      "titleZh": "Alibaba’s Qwen tops Hugging Face with 3 billion downloads",
-      "summary": "Alibaba’s Qwen tops Hugging Face with 3 billion downloads Tech in Asia",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOEktZ014S1JFeWlGU3dKaTFDdkppNFd1bVVPRTlzMTF0RWVyUFNoeUxVX0xyQmlnTVQ0TmM0X3owM3ZlOWduOXJWcEI5aEhxem4zS3dQTE43cUdLZm9Xamg3NkpJbV9CSnVtWk4wSmVDMngxUjdYbnZhbUlmcE9yd0Y5R2o?oc=5",
-      "pubDate": 1786839180000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1631300720",
-      "title": "Alibaba announced that its Qwen AI models have been downloaded more than 3 billion times",
-      "titleZh": "阿里巴巴宣布其Qwen AI模型已下载超过30亿次",
-      "summary": "Alibaba announced that its Qwen AI models have been downloaded more than 3 billion times UA.NEWS",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeGlBaHBxUkVtTEpwbFh2VklCMjFmQVA4UkVXSnlsRG5sVWxRUW9rWi1jQ3FQb25YTl9GSHRubkZaZDBSUmdnTEZBQ3ZmV1FMdzI5ZEUxSjVLQkhsUF9hd25WUzhIVDhiOFI3c2ZHeG5iSDMwUFcwUGhTdlZJMklSemdmOXJhdVYxQ0NQVDFUVi1JcGlsUmxVdllR?oc=5",
-      "pubDate": 1786835184000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 25,
         "st": 12,
         "rc": 3,
         "cs": 1
@@ -235,27 +214,6 @@
       "source": "Google News"
     },
     {
-      "id": "-1237856160",
-      "title": "EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say",
-      "titleZh": "独家：消息人士称，苹果在阿里巴巴的支持下为中国市场培训自己的人工智能模型",
-      "summary": "EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say Reuters",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVDU1cndzcnNhVERISGg5M3psalAyTEVrR2JKSEExUTVoV0JkSjJZZVRIOW40N1lweld1bXEzYWRrNEZxb2w2YzctanRaNnRnckRJLWRINnlpVnlnbXZvSUxBRFN6QUNvb01UMXhXVmp3MDNDTnN2TGZveTdlam9Gem93RFFaZVFSazRzWUpmZXI0VlV3VU56cjZPUUNXQk9GTzFTdkpzMTdvRnF6RUllb1NMbm02OFFiUEJhQXhab1JjZ0w3QWhPT0VqUVZpc0xEYXBV?oc=5",
-      "pubDate": 1786743959000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "2041251344",
       "title": "Alibaba's Qwen team releases Qwen 3.8 models with open weights under the Apache 2.0 license - the",
       "titleZh": "阿里巴巴的Qwen团队在Apache 2.0许可证下发布了具有开放权重的Qwen 3.8型号-",
@@ -317,6 +275,27 @@
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "1460504015",
+      "title": "DeepSeek Open-Sources the Missing Layer Between AI Models and Agents",
+      "titleZh": "DeepSeek开源人工智能模型和智能体之间缺失的层",
+      "summary": "DeepSeek Open-Sources the Missing Layer Between AI Models and Agents HPCwire",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR0U3dEtvVWEtc1BnWEV5T1E2aWQ0SWdOaVVFUlFkb2piTV85NDFIVzBqU29FVzhIWFRXUkNrOFh4cFR3dEgyRlRTdlhyTUw1WFFCQTdpSnVicmlhZmNwZXkyNkQ0c1AyWld6eld4NU1RMTFOenExVWJvejNpVVlLZEk3dWhmdG9aR2xuS0lablVrclBiTTUxVWxzLXBPdVk0VTA0WTdMOVRSTmFPVmhGRF9HMmd2eE0?oc=5",
+      "pubDate": 1786721884000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1303876713",
@@ -403,10 +382,10 @@
       "source": "Google News"
     },
     {
-      "id": "-2016155837",
+      "id": "1188159030",
       "title": "DeepSeek's AI Models Are About To Cost Four Times More",
       "titleZh": "DeepSeek的人工智能模型成本将增加四倍",
-      "summary": "DeepSeek's AI Models Are About To Cost Four Times More Engadget",
+      "summary": "DeepSeek's AI Models Are About To Cost Four Times More engadget.com",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT2FId1BnQ0MyY3Rzem9GYVo0blhJUnVqMEpYektCc1F5cy0xS09SODdqOEZrNXZGZE1NVlR6TGFacEw1Uzh6SEtfQzBEU2pfSDRpTW9YRVBoSlJyNElwcmJBOFZmVzIyVHZZS0hhcmJ6cWkzeWlMc2pOQmMwX055Yg?oc=5",
       "pubDate": 1786705104000,
       "vendor": "deepseek",
@@ -418,6 +397,27 @@
         "kv": 2,
         "cw": 22,
         "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1237856160",
+      "title": "EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say",
+      "titleZh": "独家：消息人士称，苹果在阿里巴巴的支持下为中国市场培训自己的人工智能模型",
+      "summary": "EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say Reuters",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVDU1cndzcnNhVERISGg5M3psalAyTEVrR2JKSEExUTVoV0JkSjJZZVRIOW40N1lweld1bXEzYWRrNEZxb2w2YzctanRaNnRnckRJLWRINnlpVnlnbXZvSUxBRFN6QUNvb01UMXhXVmp3MDNDTnN2TGZveTdlam9Gem93RFFaZVFSazRzWUpmZXI0VlV3VU56cjZPUUNXQk9GTzFTdkpzMTdvRnF6RUllb1NMbm02OFFiUEJhQXhab1JjZ0w3QWhPT0VqUVZpc0xEYXBV?oc=5",
+      "pubDate": 1786704425000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
         "rc": 1,
         "cs": 1
       },
