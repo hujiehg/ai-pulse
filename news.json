@@ -1,8 +1,50 @@
 {
-  "updated": "2026-08-17T12:24:24.512Z",
-  "count": 104,
+  "updated": "2026-08-17T13:15:28.281Z",
+  "count": 105,
   "sources": 11,
   "items": [
+    {
+      "id": "592228126",
+      "title": "Test, Standardize, Restrict: A U.S. Policy for Chinese AI Models",
+      "titleZh": "测试、标准化、限制：美国对中国人工智能模型的政策",
+      "summary": "Test, Standardize, Restrict: A U.S. Policy for Chinese AI Models Just Security",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9sbm1ERi1oQ2RkSGg0Umc2Ukw3QWNGYXFEeUR0eVJXZUhKQ0Z0NWtFV3NyRW5GbG04YjlpbGQ1M1lfWXZlbmRtS1pRQV9MMmlsUlUyZ09ieWFudUFrOGVsVmJCcGJkMHFHcWpKWEtOVnhWeGNTSXZxMVQwZGlFUQ?oc=5",
+      "pubDate": 1786972081000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 1,
+        "cw": 22,
+        "st": 15,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1948821414",
+      "title": "Opinion | America is arguing over the wrong AI obstacle",
+      "titleZh": "意见|美国正在争论错误的人工智能障碍",
+      "summary": "Opinion | America is arguing over the wrong AI obstacle South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUDFBU2ktSGVWSjF3QUphd052TmVKT2E4UEhvN1FkUjlNbEpIeWZkOHBDR0tncGdSMzZfZWxIS3F4NmpjWHB1UUxYR3JVZVpSX2ZQaS1vR281TlNib0ZLZjFTVWp0TVNJeFUxeDlEUWY3N2hUZmkwQ3pSbm1vZkNqRV9TUlZEQ1liN2h0bXhLeEFxSmdXSEJWTW1KQk5pd9IBngFBVV95cUxQZ3gxZFRWeFAybnZIN3lsY1QyTEstNWFfOUZoUHplSi1WNzd4Yi04cm5FOW54WklqZnc3eG1Tc3hicmxpcXA2eUxicXJBZ1V3RG5DNmRGN1lBNzRXVHBwRmltOFBjRWctVWhxeW81VFg2OXlZUW0yUi1vRGRGQ3ZURFFJUEhvWEJQLU4xZzJQTVhZcm9ocGZXUTdsdXp4UQ?oc=5",
+      "pubDate": 1786969808000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
     {
       "id": "1960589420",
       "title": "Alibaba’s Qwen AI Models Surpass 3 Billion Downloads, Outpace Meta and Google",
@@ -529,6 +571,27 @@
       "source": "TechCrunch"
     },
     {
+      "id": "1460504015",
+      "title": "DeepSeek Open-Sources the Missing Layer Between AI Models and Agents",
+      "titleZh": "DeepSeek开源人工智能模型和智能体之间缺失的层",
+      "summary": "DeepSeek Open-Sources the Missing Layer Between AI Models and Agents HPCwire",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR0U3dEtvVWEtc1BnWEV5T1E2aWQ0SWdOaVVFUlFkb2piTV85NDFIVzBqU29FVzhIWFRXUkNrOFh4cFR3dEgyRlRTdlhyTUw1WFFCQTdpSnVicmlhZmNwZXkyNkQ0c1AyWld6eld4NU1RMTFOenExVWJvejNpVVlLZEk3dWhmdG9aR2xuS0lablVrclBiTTUxVWxzLXBPdVk0VTA0WTdMOVRSTmFPVmhGRF9HMmd2eE0?oc=5",
+      "pubDate": 1786721884000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1303876713",
       "title": "Kog is going deeper to squeeze more inference out of GPUs",
       "titleZh": "KOG正在更深入地从GPU中挤出更多推理",
@@ -655,27 +718,6 @@
       "source": "HuggingFace"
     },
     {
-      "id": "-2078693499",
-      "title": "'Bitcoin Is Burning': Red Team Turns to Chinese AI to Find Flaws",
-      "titleZh": "“比特币正在燃烧” ：红队转向中国人工智能寻找缺陷",
-      "summary": "'Bitcoin Is Burning': Red Team Turns to Chinese AI to Find Flaws Decrypt",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TYWdVMkQ3a3RsRm9KZGtSYV9LTmxXRWJIcENoYnVBVF9YX1FKZVNIYXhacS1weG1VNW1sUWJfalQtN0YtZm42djIzVkt2c1hxS3VRMlZpNlQ1Q0xpR3otOXByUXRoZkNnVHh0aFU2T3BoaHBo0gF8QVVfeXFMUFhnSnp6WGN3MG1KaE5rVlByR3ZZbXdMUi1zaGxnQkxVdWdJS1RWVk02NFlFVXdRd3F0d1l3SGZOdEtQdjlielk3ZWFNZXl1RkRLN0U5SGRqV3pYUFNlRUlPQnI4T2E5UnI0bXVqZ25hdGJoOHpxTElLeWp0NA?oc=5",
-      "pubDate": 1786660567000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1372529249",
       "title": "DeepSeek officially launches V4-Pro AI model in August 2026",
       "titleZh": "DeepSeek于2026年8月正式推出V4-Pro AI模型",
@@ -779,48 +821,6 @@
         "cs": 1
       },
       "source": "Google AI"
-    },
-    {
-      "id": "48655489",
-      "title": "DeepSeek increases prices for AI services by multiple times",
-      "titleZh": "DeepSeek将人工智能服务的价格提高了多倍",
-      "summary": "DeepSeek increases prices for AI services by multiple times Fortune",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOE5pSGgzbjNDSVJYTmZ1UVRJWGxfaWZia3dSNG0tSjlhNEEydlhoRlhNVEw2T0ZnYjVSSkhlVHpyZ1ZTcEdYSTFLTWZjZ0ZrMjRGQ19KN25PUjM5WVJzd29WLW5LTkM1eEZIM3VhQ1prM2RVYjBMTGtOcTNtOElSWXhFb0FFZmFKejNjWnlJdEpOWE8zdHc?oc=5",
-      "pubDate": 1786633440000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1364078772",
-      "title": "DeepSeek launches V4 Pro at prices up to 14 times higher than V4 Flash",
-      "titleZh": "DeepSeek推出V4 Pro ，价格比V4 Flash高出14倍",
-      "summary": "DeepSeek launches V4 Pro at prices up to 14 times higher than V4 Flash Reuters",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVzBOcmxUZXZzV20xU1pZMnI1X0JKRzV1SUJwcGhzaE1JZDZfUTZqVDZMVXNhUHFoY295SHZuLWZZbTlXa1AtUmI2dkRhRWliRXFBYzdZQlROdUVzZ2dNc2pHLUhvdTFBSVpSTW9SaHBQUnJubTdMX2FQUkhHTDhiUGtiZDUxLTRQXzRrZERqSzlOSXZpMWYxUzVWeXFCdW1HZEVWbWMtVDhFU1BCSkE?oc=5",
-      "pubDate": 1786625881000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1217145544",
@@ -1348,10 +1348,10 @@
       "source": "Google News"
     },
     {
-      "id": "-559660662",
+      "id": "1575914922",
       "title": "China’s Top AI Model Evaded Testing Environment, Researchers Say",
       "titleZh": "China’s Top AI Model Evaded Testing Environment, Researchers Say",
-      "summary": "China’s Top AI Model Evaded Testing Environment, Researchers Say bloomberg.com",
+      "summary": "China’s Top AI Model Evaded Testing Environment, Researchers Say Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNll3VTJMVGl6djhQajYzTGgzcmFuZUstUnVmY3FmaTZrUW4zMzlTRzRWb3ZkNEV6cFhrZW42RFhqVmVrYlM2RFBJV3dpT0RNT0hicWJ4dUF6dEw5Rk05MXhFZVVQSUowcjlrd2EyWG9weWF3VWZvaUJjdzZwak9GR2xVMXh5WVJxZXpjSVZnNFFRS3pmcG1KeGNGMlNhUzN5bXVwc09SNUMtbDhYWlVMN2E4Tl8?oc=5",
       "pubDate": 1786086000000,
       "vendor": "google",
@@ -1663,20 +1663,41 @@
       "source": "Google News"
     },
     {
-      "id": "-1180544086",
-      "title": "Moonshot’s Kimi Uses 20,000 Nvidia Chip Cluster From Alibaba",
-      "titleZh": "Moonshot’s Kimi Uses 20,000 Nvidia Chip Cluster From Alibaba",
-      "summary": "Moonshot’s Kimi Uses 20,000 Nvidia Chip Cluster From Alibaba bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ282X01oVUs5N1JNVE1keDhwLUsyNk85a1VBVEhROXlzU1pQSVVaZDJiWHhSVTFWZFdjMnhUdHpDZm1UU3lKVU9LSjJLaXJNMEUyVHoyMWhhSlZoZlpPTUtEZjFiejQ5QTVHR3ZhSGF2ZzhfZ0xIWTZJbmlpUVdXUlU2bHFGT0hUazllb1RtbFh6c3IyREl4aWl0MmctNERxY1FuQ1dSRHhjSExnSW02NC0wVXFDZw?oc=5",
-      "pubDate": 1785481200000,
-      "vendor": "kimi",
-      "category": "Product",
+      "id": "-464609805",
+      "title": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says",
+      "titleZh": "研究公司表示， DeepSeek的新人工智能模型是迄今为止运行的最便宜的知名模型。",
+      "summary": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says Reuters",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTnd6ckhOVUhwcGJjRmxRdlhObS1ncXRhZm9OeVUwaEgwOTg5YmNBTGVWcHZsdXd4dXVrWWdlZGtsYkw0eDIyY1A3NjdSM0o0bFBGUEZRNDF2NjYwZEtCamNpeTFqN3ZaQVlTclNuQWYxNXh4ZVlqaWF3WkNNVk1fbmJXcTdISlBmUVVWS01STmFYZldLSGk5akJQZVB5X09OSzVoVWF4Wko4TEF4cGozQUlWM202dFJWMGxSRTdpcTNaaUp6bmNyZXpWbVRFb2JoSzdCVQ?oc=5",
+      "pubDate": 1785654000000,
+      "vendor": "deepseek",
+      "category": "Research",
       "impact": "med",
-      "score": 48,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 20,
-        "kv": 0,
-        "cw": 15,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1937431074",
+      "title": "DeepSeek's new bargain model accelerates AI's race to zero",
+      "titleZh": "DeepSeek的新讨价还价模式加速了人工智能的零竞赛",
+      "summary": "DeepSeek's new bargain model accelerates AI's race to zero Axios",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04emlXWXpVQXhNcjJsU1d5ZmhnU1J2TFRyeFlxM2hqUUNUNVR2UmxFQUNBanYwWnd5ZUpTRnptVEh2TXU2NU5aa0FRbFV6ejVPd2wxWFNXa3RoaTZPQ0dQSHc0Tkk4WE93Q1JwV0tIWGNBaGNG?oc=5",
+      "pubDate": 1785567600000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
         "st": 12,
         "rc": 0,
         "cs": 1
