@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T23:42:52.703Z",
+  "updated": "2026-08-17T00:41:24.425Z",
   "count": 86,
   "sources": 9,
   "items": [
@@ -235,10 +235,10 @@
       "source": "TechCrunch"
     },
     {
-      "id": "1531231604",
+      "id": "-1672627249",
       "title": "After Moonshot’s Kimi K3, U.S. AI rivals launch new models and upgrades",
       "titleZh": "After Moonshot’s Kimi K3, U.S. AI rivals launch new models and upgrades",
-      "summary": "After Moonshot’s Kimi K3, U.S. AI rivals launch new models and upgrades thehindu.com",
+      "summary": "After Moonshot’s Kimi K3, U.S. AI rivals launch new models and upgrades The Hindu",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOU2pSWUNQRkRWWmJDYWl5MHROcGhsQU10dDlha3BjazRJOUVDdE9ONDJmYzdINjZORTJoWks3N1llRWgzdGFuWlB4NFpocUdHLWRlVHptQ2xqZzVubUlzWGpscUFiOElObG4tRzNSYTkxM09ESUhEWlZmN2MzbUo5MGt6ZVBPZE9COXh0eW9sS0l6U3I3SEhyZ0ItTy1wRE9FZTVFdWpoSjFNOW1mVWJKd1Rva2FOczBQTS02ZTlRSTFxNV8wZ0d1OUg1Ny3SAdMBQVVfeXFMTWRLZEpKa2FCWENNSXJuN19Xd2pkeERjQVVldFFpOWdrRVVtUFpGUnhUaXhxdUF0MVZWdHNQRGV6SGYxQ1B5OEpuVXdrMTdYX1NQU05wOUJYSW1aeGN5Rl9aZ1BPempmVlFYQzNTeldSYXdFWi1VbEo5WFpBbVpjeDFJVTcyQXdMZi1vbHlCMFViNVUzNmFZTV9EYVJGdG15OExra1FzNFpydXhhZHFXUS1IdExMalp3Q1QxcDBWWUc2TUlodnY5cmlMRW83TVp6bDJNOA?oc=5",
       "pubDate": 1786712040000,
       "vendor": "kimi",
@@ -937,13 +937,13 @@
       "vendor": "huggingface",
       "category": "Agent",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 13,
         "kv": 3,
         "cw": 12,
         "st": 14,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -1264,27 +1264,6 @@
       "source": "Google News"
     },
     {
-      "id": "-1598876790",
-      "title": "Moonshot’s Kimi Uses 20,000 Nvidia Chip Cluster From Alibaba",
-      "titleZh": "Moonshot’s Kimi Uses 20,000 Nvidia Chip Cluster From Alibaba",
-      "summary": "Moonshot’s Kimi Uses 20,000 Nvidia Chip Cluster From Alibaba Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ282X01oVUs5N1JNVE1keDhwLUsyNk85a1VBVEhROXlzU1pQSVVaZDJiWHhSVTFWZFdjMnhUdHpDZm1UU3lKVU9LSjJLaXJNMEUyVHoyMWhhSlZoZlpPTUtEZjFiejQ5QTVHR3ZhSGF2ZzhfZ0xIWTZJbmlpUVdXUlU2bHFGT0hUazllb1RtbFh6c3IyREl4aWl0MmctNERxY1FuQ1dSRHhjSExnSW02NC0wVXFDZw?oc=5",
-      "pubDate": 1785481200000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1497534054",
       "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
       "titleZh": "Gemini Robotics ER 2 ：通过视频理解、任务编排和多机器人协作为机器人技术提供动力",
@@ -1472,6 +1451,27 @@
         "cs": 1
       },
       "source": "NVIDIA"
+    },
+    {
+      "id": "-614190061",
+      "title": "What is China’s Kimi K3 and why is the US so rattled by it?",
+      "titleZh": "What is China’s Kimi K3 and why is the US so rattled by it?",
+      "summary": "What is China’s Kimi K3 and why is the US so rattled by it? CNN",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVGMzc2NleDljRVlmY0J4UFU4Ni1nSm9ZNDhWNDlmZlZ3SjVlTnNuYkx5c3RuQTJqTFFxak5hZ29GeVFOR0h2TGFqbm9KNDNZcWxEdElGSl8zdy1mblJrOF9tUXdyR002QjlDdndJdUZJcDNUV3dibEpMdU9wd1g5NExRM01Nc2V4?oc=5",
+      "pubDate": 1784790000000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-273870782",
