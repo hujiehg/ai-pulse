@@ -1,8 +1,92 @@
 {
-  "updated": "2026-08-17T16:18:48.967Z",
+  "updated": "2026-08-17T16:54:25.294Z",
   "count": 105,
   "sources": 11,
   "items": [
+    {
+      "id": "-780881004",
+      "title": "Amazon, once an online bookseller, is destroying rare books to train AI models",
+      "titleZh": "曾经是一家在线书商的亚马逊正在销毁稀有书籍来训练人工智能模型",
+      "summary": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available online.",
+      "link": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+      "pubDate": 1786984724000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "925427767",
+      "title": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
+      "titleZh": "Groq筹集了3.5亿美元，以推动其从人工智能芯片到新云的转变",
+      "summary": "Groq raised $350 million at a $3.5 billion valuation as the former AI chipmaker pivots to a neocloud business and expands its Nvidia-powered data center footprint.",
+      "link": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+      "pubDate": 1786983312000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "high",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 20,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-700473303",
+      "title": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
+      "titleZh": "英伟达向OpenAI项目背后的软银数据中心开发商投资15亿$",
+      "summary": "Nvidia's investment in SoftBank's data center developer will guarantee its chips power an OpenAI data center.",
+      "link": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
+      "pubDate": 1786979784000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 1,
+        "cw": 20,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1945763480",
+      "title": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
+      "titleZh": "Wispr以20亿美元的估值筹集了2.8亿美元，因为它超越了听写",
+      "summary": "Wispr’s total funding is now over $361 million.",
+      "link": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
+      "pubDate": 1786972205000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "high",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 12,
+        "kv": 3,
+        "cw": 20,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "592228126",
       "title": "Test, Standardize, Restrict: A U.S. Policy for Chinese AI Models",
@@ -496,13 +580,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "high",
-      "score": 41,
+      "score": 40,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 1,
         "cw": 15,
         "st": 8,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -529,48 +613,6 @@
       "source": "Google News"
     },
     {
-      "id": "-430769557",
-      "title": "Google will now allow users to remove visible watermark from its AI generations",
-      "titleZh": "谷歌现在允许用户从其AI代中删除可见的水印",
-      "summary": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
-      "link": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
-      "pubDate": 1786724020000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 22,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1168974513",
-      "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
-      "titleZh": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
-      "summary": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its ow…",
-      "link": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
-      "pubDate": 1786722208000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "high",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 25,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "1460504015",
       "title": "DeepSeek Open-Sources the Missing Layer Between AI Models and Agents",
       "titleZh": "DeepSeek开源人工智能模型和智能体之间缺失的层",
@@ -590,48 +632,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-1303876713",
-      "title": "Kog is going deeper to squeeze more inference out of GPUs",
-      "titleZh": "KOG正在更深入地从GPU中挤出更多推理",
-      "summary": "The idea that GPUs are poorly suited for agentic workflows may be a misconception, according to French startup Kog.",
-      "link": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
-      "pubDate": 1786719011000,
-      "vendor": "techcrunch",
-      "category": "Agent",
-      "impact": "med",
-      "score": 38,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1707863363",
-      "title": "Hyperscalers might regret embracing natural gas if new forecast proves correct",
-      "titleZh": "如果新的预测被证明是正确的，超大规模企业可能会后悔拥抱天然气",
-      "summary": "Natural gas prices could triple in some parts of the U.S., which could saddle hyperscalers with massive bills to power their AI data centers.",
-      "link": "https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/",
-      "pubDate": 1786716300000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "-1672627249",
@@ -1189,13 +1189,13 @@
       "vendor": "huggingface",
       "category": "Agent",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 12,
         "st": 14,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "HuggingFace"
