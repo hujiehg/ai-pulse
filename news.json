@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T17:54:10.060Z",
+  "updated": "2026-08-17T18:24:50.326Z",
   "count": 105,
   "sources": 11,
   "items": [
@@ -34,13 +34,13 @@
       "vendor": "techcrunch",
       "category": "Funding",
       "impact": "high",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 3,
         "cw": 20,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -65,6 +65,27 @@
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "-130874406",
+      "title": "Apple brings Alibaba's Qwen AI to Mac users in China, signaling a new era of localized enterprise AI integration",
+      "titleZh": "苹果将阿里巴巴的Qwen AI带给中国Mac用户，标志着本地化企业AI集成的新时代",
+      "summary": "Apple brings Alibaba's Qwen AI to Mac users in China, signaling a new era of localized enterprise AI integration MarketScale",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxONVlpcDdwTlhkSUNSZFdXVG5xbi1xeVBvOW5WckxSbE00SnVWM01LXzhsOGFqWFh2cXRmMEg2bXZRQk9QUUJtTFluMUlTYkFRdXJvSUl5a0hYdENMalBESzhxV3hiUnVHZnBOX0Vxb1NRM2NWS0JBWmtCMzlZTUZXUDVPQ3M0a3lMdi01QkFIaHNNRGFkMUhnYWR5dHEwM3NwWHZHNWprZmo0ZU9jcGVZcHVWczZYMVpIZWpOV1dpeG44Q0dSTDc3X0V0TjYyZHVhMWRIelgtRGdSSnRvSTNZbnhoc2hFbU5qeVlhNkwwZ2tzYUV6b3Vv?oc=5",
+      "pubDate": 1786979119000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1945763480",
@@ -104,27 +125,6 @@
         "cw": 22,
         "st": 15,
         "rc": 4,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1960589420",
-      "title": "Alibaba’s Qwen AI Models Surpass 3 Billion Downloads, Outpace Meta and Google",
-      "titleZh": "Alibaba’s Qwen AI Models Surpass 3 Billion Downloads, Outpace Meta and Google",
-      "summary": "Alibaba’s Qwen AI Models Surpass 3 Billion Downloads, Outpace Meta and Google citybiz",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPS2Jtc09SYi1ad1lnTkxwLVJVWnlJUGlpYXFtM3NIb2x3b3RVV3J0U0ZMankxaHdVakdZa2FRQXlYT3ZlQ2hKb1VORHlEb3FReWZsaVB0NTMwX253eWwxc25adkRuU2Z3d0JqNWlCWmxaR041NlZiRXJncHp3MjFsZVpqWGF4b00xcF9xWF9PdmNxckp4VVNncjZJSlZhZ3I0MUZhSU5yZUY0TnJmTkwyQlJLYW4?oc=5",
-      "pubDate": 1786966539000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "high",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 3,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -634,10 +634,10 @@
       "source": "TechCrunch"
     },
     {
-      "id": "2102934542",
+      "id": "812540910",
       "title": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google",
       "titleZh": "阿里巴巴AI模型下载量突破30亿，通过Meta ，谷歌",
-      "summary": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google bloomberg.com",
+      "summary": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNkdXS05xRW1WQ2ItQmhUZEd1SVowVkJISVhwQ1Z5STF5dnJkV2pVRmExN1JoLXNEMkZKdGV1eGZnWnVvV2I1QllUZ3JJTktoeFdKa3JtY3NSMFlBRUYta3k5d2RJdnFzVUJIMGVGY2V0SThGTG94SlEzMl9KQWRsZkduN0RycGx1SjBGOVViQVNvbXE4TS1WdTU2MGhLNjhZLUtUVHM2WVF3ZGZKalBmOURR?oc=5",
       "pubDate": 1786785366000,
       "vendor": "google",
