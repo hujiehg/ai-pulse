@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T23:45:34.791Z",
+  "updated": "2026-08-18T00:40:37.257Z",
   "count": 115,
   "sources": 12,
   "items": [
@@ -46,6 +46,27 @@
       "source": "Google News"
     },
     {
+      "id": "-767038709",
+      "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+      "titleZh": "同一集群，利用率提高33分：订单发生了哪些变化",
+      "summary": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+      "link": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "pubDate": 1786995981000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
       "id": "229981946",
       "title": "Alibaba Stock Rises as Qwen AI Model Escalates Battle With Meta",
       "titleZh": "随着Qwen AI模型与Meta的战斗升级，阿里巴巴股价上涨",
@@ -55,13 +76,13 @@
       "vendor": "qwen",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -1514,27 +1535,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "669722495",
-      "title": "Baseten on Hugging Face Inference Providers 🔥",
-      "titleZh": "Baseten on Hugging Face Inference Providers 🔥",
-      "summary": "Baseten on Hugging Face Inference Providers 🔥",
-      "link": "https://huggingface.co/blog/baseten",
-      "pubDate": 1785974400000,
-      "vendor": "huggingface",
-      "category": "Product",
-      "impact": "med",
-      "score": 39,
-      "scoreBreakdown": {
-        "cq": 9,
-        "kv": 0,
-        "cw": 15,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
     },
     {
       "id": "-1860432156",
