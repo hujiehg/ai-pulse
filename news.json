@@ -1,8 +1,29 @@
 {
-  "updated": "2026-08-18T04:06:23.167Z",
+  "updated": "2026-08-18T05:01:57.097Z",
   "count": 115,
   "sources": 12,
   "items": [
+    {
+      "id": "-1846290200",
+      "title": "Anthropic’s annualized revenue surges to $65B",
+      "titleZh": "Anthropic’s annualized revenue surges to $65B",
+      "summary": "The model maker added $18 billion in annualized revenue in two months.",
+      "link": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
+      "pubDate": 1787010986000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "high",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 1,
+        "cw": 22,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-331093353",
       "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
@@ -286,13 +307,13 @@
       "vendor": "openai",
       "category": "Funding",
       "impact": "med",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 20,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -647,27 +668,6 @@
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-438670837",
-      "title": "Anthropic shares more details about how Claude’s new watermarks will work",
-      "titleZh": "Anthropic shares more details about how Claude’s new watermarks will work",
-      "summary": "How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?",
-      "link": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
-      "pubDate": 1786820319000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
         "cw": 15,
         "st": 8,
         "rc": 1,
@@ -1327,27 +1327,6 @@
       "source": "Google News"
     },
     {
-      "id": "1375271958",
-      "title": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say",
-      "titleZh": "研究人员表示，中国人工智能模型Kimi逃脱了网络安全测试环境",
-      "summary": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX2NpajBveEZEMlMxOS1TVjlwaDZJYmVmWU1EZnZHbTJBaHZWbkxYdG44aF92TkZ3MW9RUlM2dWlFTFMtTGZXb1R1a0oydzE0YU81WHh4S1pHd3JOaDd5OW5BT1Y4VWItaVBZekVYcFM2T2dMNWlBSjU0eGpnaXJOeDE0bkJSNDFKaVhmdFE5WFMzVEZYWG1BWGJmc1FENl9haTFBdTVFNVRzRVNzS0ZsNUtyQ1ZvdjFWbmc?oc=5",
-      "pubDate": 1786086000000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1575914922",
       "title": "China’s Top AI Model Evaded Testing Environment, Researchers Say",
       "titleZh": "China’s Top AI Model Evaded Testing Environment, Researchers Say",
@@ -1369,10 +1348,31 @@
       "source": "Google News"
     },
     {
-      "id": "-2105140046",
+      "id": "1375271958",
+      "title": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say",
+      "titleZh": "研究人员表示，中国人工智能模型Kimi逃脱了网络安全测试环境",
+      "summary": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX2NpajBveEZEMlMxOS1TVjlwaDZJYmVmWU1EZnZHbTJBaHZWbkxYdG44aF92TkZ3MW9RUlM2dWlFTFMtTGZXb1R1a0oydzE0YU81WHh4S1pHd3JOaDd5OW5BT1Y4VWItaVBZekVYcFM2T2dMNWlBSjU0eGpnaXJOeDE0bkJSNDFKaVhmdFE5WFMzVEZYWG1BWGJmc1FENl9haTFBdTVFNVRzRVNzS0ZsNUtyQ1ZvdjFWbmc?oc=5",
+      "pubDate": 1786086000000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-862043355",
       "title": "Chinese AI Model Moonshot Kimi K3 Also Escaped Its Testing Environment",
       "titleZh": "中国人工智能模型Moonshot Kimi K3也逃脱了测试环境",
-      "summary": "Chinese AI Model Moonshot Kimi K3 Also Escaped Its Testing Environment Engadget",
+      "summary": "Chinese AI Model Moonshot Kimi K3 Also Escaped Its Testing Environment engadget.com",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdHRWOHRscWZMMDI5N0ZWbV9NOG4xS01HazZ6RTdlSWJvcTNSWGFsaC01cDZDbEZGOEZrSUo1U3lfQjY5WUY4SVYyTjJTOVptMTBRSVBPSU43Y3oxWG1uNzZfWWRYYnBDUllzWVVoTlMwNEtxNXhaQ2N0d0gwZEFiVnB3dw?oc=5",
       "pubDate": 1786086000000,
       "vendor": "kimi",
