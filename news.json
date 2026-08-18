@@ -1,8 +1,71 @@
 {
-  "updated": "2026-08-18T22:49:17.166Z",
+  "updated": "2026-08-18T23:14:56.378Z",
   "count": 106,
   "sources": 11,
   "items": [
+    {
+      "id": "-1702253277",
+      "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
+      "titleZh": "Cursor利用GitHub的挫败感，推出竞争对手的托管平台",
+      "summary": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favorite, GitHub.",
+      "link": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
+      "pubDate": 1787091265000,
+      "vendor": "techcrunch",
+      "category": "Release",
+      "impact": "high",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 25,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1950737040",
+      "title": "OpenAI institutes new safeguards after Hugging Face breach",
+      "titleZh": "OpenAI在拥抱人脸违规后实施新的保障措施",
+      "summary": "The new safeguards include more detailed monitoring of models during the development process, as well as greater emphasis on alignment and security during the post-training process.",
+      "link": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
+      "pubDate": 1787076000000,
+      "vendor": "techcrunch",
+      "category": "Safety",
+      "impact": "med",
+      "score": 43,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 10,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1304541439",
+      "title": "Etched’s valuation doubles to $21B in a month",
+      "titleZh": "Etched’s valuation doubles to $21B in a month",
+      "summary": "Jane Street has installed Etched's first shipped AI cluster system, and was so impressed, it led another massive round, the startup says.",
+      "link": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/",
+      "pubDate": 1787073718000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 1,
+        "cw": 20,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-1686504480",
       "title": "Why Apple’s camera-equipped AirPods may not be the ‘pervert pods’ consumers fear",
@@ -235,10 +298,10 @@
       "source": "Google News"
     },
     {
-      "id": "-860032426",
+      "id": "723067561",
       "title": "Why China’s Affordable AI Is a Worry for Silicon Valley",
       "titleZh": "Why China’s Affordable AI Is a Worry for Silicon Valley",
-      "summary": "Why China’s Affordable AI Is a Worry for Silicon Valley bloomberg.com",
+      "summary": "Why China’s Affordable AI Is a Worry for Silicon Valley Bloomberg",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNHlXQnR2VElTbFIwRjFSbm5aVW4wdTJHWE9LdnAyLWZSbWh2WkF2R0J4d1Q1Y2xkenF3ZVU1WmlpX0w3dzQ0TEpRbHBRU2MzVUsta19LLTdQZk8zY2JsY3dVLVFMdWpPRmRuNHdGUGlwT0o0UElVSWNRQzd2bXMzSE8xVTd3Unl6dzREMEFCc0FPSFJRUllhU01aelRSdk14a292TTIteV9uQnpVYThGTDN6Y043SDI1M1E?oc=5",
       "pubDate": 1787025660000,
       "vendor": "google",
@@ -571,69 +634,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "925427767",
-      "title": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
-      "titleZh": "Groq筹集了3.5亿美元，以推动其从人工智能芯片到新云的转变",
-      "summary": "Groq raised $350 million at a $3.5 billion valuation as the former AI chipmaker pivots to a neocloud business and expands its Nvidia-powered data center footprint.",
-      "link": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
-      "pubDate": 1786983312000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 20,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-700473303",
-      "title": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
-      "titleZh": "英伟达向OpenAI项目背后的软银数据中心开发商投资15亿$",
-      "summary": "Nvidia's investment in SoftBank's data center developer will guarantee its chips power an OpenAI data center.",
-      "link": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
-      "pubDate": 1786979784000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 1,
-        "cw": 20,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1945763480",
-      "title": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
-      "titleZh": "Wispr以20亿美元的估值筹集了2.8亿美元，因为它超越了听写",
-      "summary": "The funds will allow Wispr to increase its footprint as it ventures into new areas, such as meetings, with its newly released note-taker tool.",
-      "link": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
-      "pubDate": 1786972205000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "high",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 4,
-        "cw": 20,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "592228126",
       "title": "Test, Standardize, Restrict: A U.S. Policy for Chinese AI Models",
       "titleZh": "测试、标准化、限制：美国对中国人工智能模型的政策",
@@ -781,10 +781,10 @@
       "source": "Google News"
     },
     {
-      "id": "1188159030",
+      "id": "-2016155837",
       "title": "DeepSeek's AI Models Are About To Cost Four Times More",
       "titleZh": "DeepSeek的人工智能模型成本将增加四倍",
-      "summary": "DeepSeek's AI Models Are About To Cost Four Times More engadget.com",
+      "summary": "DeepSeek's AI Models Are About To Cost Four Times More Engadget",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT2FId1BnQ0MyY3Rzem9GYVo0blhJUnVqMEpYektCc1F5cy0xS09SODdqOEZrNXZGZE1NVlR6TGFacEw1Uzh6SEtfQzBEU2pfSDRpTW9YRVBoSlJyNElwcmJBOFZmVzIyVHZZS0hhcmJ6cWkzeWlMc2pOQmMwX055Yg?oc=5",
       "pubDate": 1786705104000,
       "vendor": "deepseek",
