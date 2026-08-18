@@ -1,8 +1,50 @@
 {
-  "updated": "2026-08-18T10:55:32.303Z",
+  "updated": "2026-08-18T11:18:22.435Z",
   "count": 115,
   "sources": 12,
   "items": [
+    {
+      "id": "-1767452105",
+      "title": "Partnering with CodeAI to prepare the first AI generation",
+      "titleZh": "与CodeAI合作，准备第一代人工智能",
+      "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+      "link": "https://openai.com/index/partnering-with-codeai",
+      "pubDate": 1787050800000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "-1961352052",
+      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+      "titleZh": "面向青少年的ChatGPT简介：专为学习打造，以保护为后盾",
+      "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+      "link": "https://openai.com/index/chatgpt-for-teens",
+      "pubDate": 1787050800000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
     {
       "id": "1521851567",
       "title": "DeepSeek V4 Pro launches as US-China open AI model race intensifies",
@@ -20,6 +62,27 @@
         "cw": 25,
         "st": 12,
         "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "998841974",
+      "title": "Why China’s Affordable AI Is a Worry for Silicon Valley",
+      "titleZh": "Why China’s Affordable AI Is a Worry for Silicon Valley",
+      "summary": "Why China’s Affordable AI Is a Worry for Silicon Valley Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNHlXQnR2VElTbFIwRjFSbm5aVW4wdTJHWE9LdnAyLWZSbWh2WkF2R0J4d1Q1Y2xkenF3ZVU1WmlpX0w3dzQ0TEpRbHBRU2MzVUsta19LLTdQZk8zY2JsY3dVLVFMdWpPRmRuNHdGUGlwT0o0UElVSWNRQzd2bXMzSE8xVTd3Unl6dzREMEFCc0FPSFJRUllhU01aelRSdk14a292TTIteV9uQnpVYThGTDN6Y043SDI1M1E?oc=5",
+      "pubDate": 1787025660000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -823,27 +886,6 @@
       "source": "HuggingFace"
     },
     {
-      "id": "1372529249",
-      "title": "DeepSeek officially launches V4-Pro AI model in August 2026",
-      "titleZh": "DeepSeek于2026年8月正式推出V4-Pro AI模型",
-      "summary": "DeepSeek officially launches V4-Pro AI model in August 2026 qz.com",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5DM1B4azQ2dkZ6MUVJZnp6V3ZkTl9RMU84Q09HOWJoTXR5R1lST3JJQXQ3NlJNa25JVGRGR3NKbXRmcGZ1WGtCejF6NkJHYVd2bFdyQ1prWGRTRHdJZ29SVm9hRQ?oc=5",
-      "pubDate": 1786644795000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1804326395",
       "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
       "titleZh": "使用Strands Agent、LeRobot和Hugging Face Storage Buckets从一个地方记录、训练和部署",
@@ -1157,48 +1199,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-1180676603",
-      "title": "Testing ads in ChatGPT",
-      "titleZh": "在ChatGPT中测试广告",
-      "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
-      "link": "https://openai.com/index/testing-ads-in-chatgpt",
-      "pubDate": 1786442400000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "-132008238",
-      "title": "Daybreak models are now available on AWS",
-      "titleZh": "破晓型号现已在AWS上提供",
-      "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
-      "link": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-      "pubDate": 1786442400000,
-      "vendor": "openai",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 22,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "OpenAI"
     },
     {
       "id": "104119672",
