@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T16:57:43.183Z",
+  "updated": "2026-08-18T17:20:58.508Z",
   "count": 115,
   "sources": 12,
   "items": [
@@ -109,6 +109,27 @@
       "source": "Google News"
     },
     {
+      "id": "-1235103931",
+      "title": "DeepSeek Releases V4 Pro At 14 Times The Price Of Its Cheapest Model",
+      "titleZh": "DeepSeek以14倍于其最便宜型号的价格发布V4 Pro",
+      "summary": "DeepSeek Releases V4 Pro At 14 Times The Price Of Its Cheapest Model Forbes",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPS1RUX0hsd3JSTUh3ZzQyM09NeUlDclVQV3dqV1h4WkdPVWpUUDBORlMzMDNtNUctWVV0LTkyUkJPdkp0SDYxREhIcmlUVDU0dlZNWlVrcmRCSHZDazdXMFRQMEkzUWVuWnNidTQ0Q1RtUzMxdVpGTHBfYTYxT2NZd3hJSW55U3BLaGFvd2FjQVp5SFdWX1VPanpSYmdHMUEtVDNKUlgyNVVLMFFkYTctYXpVUDhQZw?oc=5",
+      "pubDate": 1787051951000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1767452105",
       "title": "Partnering with CodeAI to prepare the first AI generation",
       "titleZh": "与CodeAI合作，准备第一代人工智能",
@@ -118,13 +139,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "OpenAI"
@@ -139,13 +160,55 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "-1753697878",
+      "title": "Kimi K3: Advanced Multimodal Intelligence Tool",
+      "titleZh": "Kimi K3 ：高级多式联运智能工具",
+      "summary": "Kimi K3: Advanced Multimodal Intelligence Tool Dynamic Business",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWHIwVnVDZnhiZlMtczB4ckk4ZnY3akRBbFFvVmpCLTJxQ1Zlc1FWblFael90MUEzcXBiNWJDOWhxRzJGSTlIVzlsODFONC1xSmxMU0dLa01XYlNxd1dfOUI3YzhrQUNRNkpwdXk5UVRWUE9YN3JXOEVHblJFeEhYZkwwcDNvLTV4TDRwLV9qalQ?oc=5",
+      "pubDate": 1787042972000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1345410277",
+      "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+      "titleZh": "Asana使用Codex在2周内完成了5年的工程工作",
+      "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
+      "link": "https://openai.com/index/asana",
+      "pubDate": 1787036400000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
         "cs": 1
       },
       "source": "OpenAI"
@@ -172,10 +235,10 @@
       "source": "Google News"
     },
     {
-      "id": "998841974",
+      "id": "723067561",
       "title": "Why China’s Affordable AI Is a Worry for Silicon Valley",
       "titleZh": "Why China’s Affordable AI Is a Worry for Silicon Valley",
-      "summary": "Why China’s Affordable AI Is a Worry for Silicon Valley Bloomberg.com",
+      "summary": "Why China’s Affordable AI Is a Worry for Silicon Valley Bloomberg",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNHlXQnR2VElTbFIwRjFSbm5aVW4wdTJHWE9LdnAyLWZSbWh2WkF2R0J4d1Q1Y2xkenF3ZVU1WmlpX0w3dzQ0TEpRbHBRU2MzVUsta19LLTdQZk8zY2JsY3dVLVFMdWpPRmRuNHdGUGlwT0o0UElVSWNRQzd2bXMzSE8xVTd3Unl6dzREMEFCc0FPSFJRUllhU01aelRSdk14a292TTIteV9uQnpVYThGTDN6Y043SDI1M1E?oc=5",
       "pubDate": 1787025660000,
       "vendor": "google",
@@ -464,27 +527,6 @@
         "cs": 1
       },
       "source": "TechCrunch"
-    },
-    {
-      "id": "-1406016265",
-      "title": "Strategy shift: DeepSeek sharply raises prices",
-      "titleZh": "策略转变： DeepSeek大幅提价",
-      "summary": "Strategy shift: DeepSeek sharply raises prices Table.Briefings",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSVlxZk90WmFrWHBaa3p5aS1sMkFrQzBCenRiZkJGZ2JMZDBnOXpydmNiTUFYVUU2WXAzNklkRDRFMnJUNUZDX0VLQTQ3Wk5DOXV5RTlqOE51dnN5eF9oMlUzOUh6MHZfY1hkOHVOVXBtaWo1M1JVcThnRkhCMWVOWkpDMi1BUQ?oc=5",
-      "pubDate": 1786997793000,
-      "vendor": "deepseek",
-      "category": "Funding",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 20,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-767038709",
@@ -1117,27 +1159,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "-1233875998",
-      "title": "How RingCentral builds AI-native work from engineering to ops",
-      "titleZh": "RingCentral如何构建从工程到运营的人工智能原生工作",
-      "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
-      "link": "https://openai.com/index/ringcentral",
-      "pubDate": 1786492800000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "2005007345",
       "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
       "titleZh": "我们的研究医疗人工智能系统AMIE在一项首创的研究中展示了实时临床视频咨询功能。",
@@ -1147,13 +1168,13 @@
       "vendor": "google",
       "category": "Research",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 22,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google AI"
@@ -1871,27 +1892,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-1566301778",
-      "title": "What is China’s Kimi K3 and why is the US so rattled by it?",
-      "titleZh": "What is China’s Kimi K3 and why is the US so rattled by it?",
-      "summary": "What is China’s Kimi K3 and why is the US so rattled by it? CNN",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV2lZYXNGZXdPOC1nMXl3UW04QXMzZGdJZWJlWUFGOV92ZVVSUEZVMU1HNUNoSjl2MnVFaF9Hdk1fMC1NN2NhZ1NHd3RJX0xsRDJnZ0JfbXBGN3NWLTlZSVlVSHFoQlo5eXhGNUV1M3RnY0otb184VHN0bGZhTWlpMVhBTQ?oc=5",
-      "pubDate": 1784790000000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-273870782",
