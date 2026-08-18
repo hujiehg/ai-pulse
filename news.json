@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T07:14:43.184Z",
+  "updated": "2026-08-18T08:02:12.530Z",
   "count": 115,
   "sources": 12,
   "items": [
@@ -13,13 +13,13 @@
       "vendor": "deepseek",
       "category": "Release",
       "impact": "high",
-      "score": 65,
+      "score": 64,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google News"
@@ -517,13 +517,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google AI"
@@ -664,13 +664,13 @@
       "vendor": "qwen",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
