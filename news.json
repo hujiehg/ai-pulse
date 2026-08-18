@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T17:52:26.645Z",
+  "updated": "2026-08-18T18:24:36.559Z",
   "count": 115,
   "sources": 12,
   "items": [
@@ -13,13 +13,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 1,
         "cw": 15,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -97,13 +97,13 @@
       "vendor": "qwen",
       "category": "Research",
       "impact": "med",
-      "score": 65,
+      "score": 64,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 4,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -485,6 +485,27 @@
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "-1360393801",
+      "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+      "titleZh": "使用句子变换器进行多矢量（后期交互）嵌入模型",
+      "summary": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+      "link": "https://huggingface.co/blog/multi-vector-encoder",
+      "pubDate": 1787011200000,
+      "vendor": "huggingface",
+      "category": "Research",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 1,
+        "cw": 22,
+        "st": 14,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "HuggingFace"
     },
     {
       "id": "-1846290200",
@@ -1278,27 +1299,6 @@
         "cq": 11,
         "kv": 0,
         "cw": 15,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
-      "id": "1081432690",
-      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
-      "titleZh": "Muse Glimmer回归Meta ：本地、代理、多式联运和开源",
-      "summary": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
-      "link": "https://huggingface.co/blog/muse-glimmer",
-      "pubDate": 1786320000000,
-      "vendor": "huggingface",
-      "category": "Agent",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 13,
-        "kv": 3,
-        "cw": 12,
         "st": 14,
         "rc": 0,
         "cs": 1
