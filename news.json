@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T02:11:22.033Z",
+  "updated": "2026-08-18T03:16:04.028Z",
   "count": 115,
   "sources": 12,
   "items": [
@@ -34,13 +34,13 @@
       "vendor": "deepseek",
       "category": "Funding",
       "impact": "med",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 3,
         "cw": 20,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -718,27 +718,6 @@
       "source": "Google News"
     },
     {
-      "id": "-1672627249",
-      "title": "After Moonshot’s Kimi K3, U.S. AI rivals launch new models and upgrades",
-      "titleZh": "After Moonshot’s Kimi K3, U.S. AI rivals launch new models and upgrades",
-      "summary": "After Moonshot’s Kimi K3, U.S. AI rivals launch new models and upgrades The Hindu",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOU2pSWUNQRkRWWmJDYWl5MHROcGhsQU10dDlha3BjazRJOUVDdE9ONDJmYzdINjZORTJoWks3N1llRWgzdGFuWlB4NFpocUdHLWRlVHptQ2xqZzVubUlzWGpscUFiOElObG4tRzNSYTkxM09ESUhEWlZmN2MzbUo5MGt6ZVBPZE9COXh0eW9sS0l6U3I3SEhyZ0ItTy1wRE9FZTVFdWpoSjFNOW1mVWJKd1Rva2FOczBQTS02ZTlRSTFxNV8wZ0d1OUg1Ny3SAdMBQVVfeXFMTWRLZEpKa2FCWENNSXJuN19Xd2pkeERjQVVldFFpOWdrRVVtUFpGUnhUaXhxdUF0MVZWdHNQRGV6SGYxQ1B5OEpuVXdrMTdYX1NQU05wOUJYSW1aeGN5Rl9aZ1BPempmVlFYQzNTeldSYXdFWi1VbEo5WFpBbVpjeDFJVTcyQXdMZi1vbHlCMFViNVUzNmFZTV9EYVJGdG15OExra1FzNFpydXhhZHFXUS1IdExMalp3Q1QxcDBWWUc2TUlodnY5cmlMRW83TVp6bDJNOA?oc=5",
-      "pubDate": 1786712040000,
-      "vendor": "kimi",
-      "category": "Release",
-      "impact": "high",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-2016155837",
       "title": "DeepSeek's AI Models Are About To Cost Four Times More",
       "titleZh": "DeepSeek的人工智能模型成本将增加四倍",
@@ -1348,27 +1327,6 @@
       "source": "Google News"
     },
     {
-      "id": "1575914922",
-      "title": "China’s Top AI Model Evaded Testing Environment, Researchers Say",
-      "titleZh": "China’s Top AI Model Evaded Testing Environment, Researchers Say",
-      "summary": "China’s Top AI Model Evaded Testing Environment, Researchers Say Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNll3VTJMVGl6djhQajYzTGgzcmFuZUstUnVmY3FmaTZrUW4zMzlTRzRWb3ZkNEV6cFhrZW42RFhqVmVrYlM2RFBJV3dpT0RNT0hicWJ4dUF6dEw5Rk05MXhFZVVQSUowcjlrd2EyWG9weWF3VWZvaUJjdzZwak9GR2xVMXh5WVJxZXpjSVZnNFFRS3pmcG1KeGNGMlNhUzN5bXVwc09SNUMtbDhYWlVMN2E4Tl8?oc=5",
-      "pubDate": 1786086000000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1375271958",
       "title": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say",
       "titleZh": "研究人员表示，中国人工智能模型Kimi逃脱了网络安全测试环境",
@@ -1384,6 +1342,27 @@
         "kv": 1,
         "cw": 22,
         "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1575914922",
+      "title": "China’s Top AI Model Evaded Testing Environment, Researchers Say",
+      "titleZh": "China’s Top AI Model Evaded Testing Environment, Researchers Say",
+      "summary": "China’s Top AI Model Evaded Testing Environment, Researchers Say Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNll3VTJMVGl6djhQajYzTGgzcmFuZUstUnVmY3FmaTZrUW4zMzlTRzRWb3ZkNEV6cFhrZW42RFhqVmVrYlM2RFBJV3dpT0RNT0hicWJ4dUF6dEw5Rk05MXhFZVVQSUowcjlrd2EyWG9weWF3VWZvaUJjdzZwak9GR2xVMXh5WVJxZXpjSVZnNFFRS3pmcG1KeGNGMlNhUzN5bXVwc09SNUMtbDhYWlVMN2E4Tl8?oc=5",
+      "pubDate": 1786086000000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
         "rc": 0,
         "cs": 1
       },
@@ -1892,6 +1871,27 @@
         "cs": 1
       },
       "source": "NVIDIA"
+    },
+    {
+      "id": "-614190061",
+      "title": "What is China’s Kimi K3 and why is the US so rattled by it?",
+      "titleZh": "What is China’s Kimi K3 and why is the US so rattled by it?",
+      "summary": "What is China’s Kimi K3 and why is the US so rattled by it? CNN",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVGMzc2NleDljRVlmY0J4UFU4Ni1nSm9ZNDhWNDlmZlZ3SjVlTnNuYkx5c3RuQTJqTFFxak5hZ29GeVFOR0h2TGFqbm9KNDNZcWxEdElGSl8zdy1mblJrOF9tUXdyR002QjlDdndJdUZJcDNUV3dibEpMdU9wd1g5NExRM01Nc2V4?oc=5",
+      "pubDate": 1784790000000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-273870782",
