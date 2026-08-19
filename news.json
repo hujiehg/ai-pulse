@@ -1,8 +1,29 @@
 {
-  "updated": "2026-08-19T05:33:37.135Z",
+  "updated": "2026-08-19T06:28:12.723Z",
   "count": 114,
   "sources": 12,
   "items": [
+    {
+      "id": "-1715923194",
+      "title": "The U.S. is discussing restrictions on Chinese AI models",
+      "titleZh": "美国正在讨论对中国人工智能模型的限制",
+      "summary": "The U.S. is discussing restrictions on Chinese AI models UA.NEWS",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYTZ0OXNKRXU1dzF5WUNUYkVsTlpKdnF6Z3VOa3RDLWgtcEdSa0Jlb1VoUzhUOWpqOUNsTkN3eWpVN0daX09SLXJZWTlQWVdBSmpxYlY5ampSX3V4RU9TSFlWUjc1aWdYNkI2WHk2Vk5JeTRkV1QwLVhXWTBoWF9ZYkw1bWY3ZGVCVVZ5dg?oc=5",
+      "pubDate": 1787108235000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
     {
       "id": "-1702253277",
       "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
@@ -317,27 +338,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "-1753697878",
-      "title": "Kimi K3: Advanced Multimodal Intelligence Tool",
-      "titleZh": "Kimi K3 ：高级多式联运智能工具",
-      "summary": "Kimi K3: Advanced Multimodal Intelligence Tool Dynamic Business",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWHIwVnVDZnhiZlMtczB4ckk4ZnY3akRBbFFvVmpCLTJxQ1Zlc1FWblFael90MUEzcXBiNWJDOWhxRzJGSTlIVzlsODFONC1xSmxMU0dLa01XYlNxd1dfOUI3YzhrQUNRNkpwdXk5UVRWUE9YN3JXOEVHblJFeEhYZkwwcDNvLTV4TDRwLV9qalQ?oc=5",
-      "pubDate": 1787042972000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1345410277",
@@ -1306,6 +1306,27 @@
       "source": "HuggingFace"
     },
     {
+      "id": "-10088307",
+      "title": "Moonshot AI's 2.8 Trillion Parameter Model Just Became the First From China to Top a Major Coding Benchmark",
+      "titleZh": "Moonshot AI的2.8万亿参数模型刚刚成为中国首个领先的主要编码基准",
+      "summary": "Moonshot AI's 2.8 Trillion Parameter Model Just Became the First From China to Top a Major Coding Benchmark Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcDVVbTdOQ0pSUi1YeVphVExQdnltbEhZYWRtajZHWkNuOTAtSFhieldQY21MaXRlbzloR3lqelRBUWFNS1ZYZ1d3cmRXSGFQeFJvUnJDVnZsbDk1THNaNGpqdlZYTGR3RWZ0TURYVGpVLTc5Si0yVjdReUpUQjF0aXpzckV2R3BjX05QZTF4U2xITDQ?oc=5",
+      "pubDate": 1786258800000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-804806878",
       "title": "Alibaba tests new business model for Qwen open-source AI",
       "titleZh": "阿里巴巴测试Qwen开源人工智能的新商业模式",
@@ -1327,21 +1348,42 @@
       "source": "Google News"
     },
     {
-      "id": "1575914922",
-      "title": "China’s Top AI Model Evaded Testing Environment, Researchers Say",
-      "titleZh": "China’s Top AI Model Evaded Testing Environment, Researchers Say",
-      "summary": "China’s Top AI Model Evaded Testing Environment, Researchers Say Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNll3VTJMVGl6djhQajYzTGgzcmFuZUstUnVmY3FmaTZrUW4zMzlTRzRWb3ZkNEV6cFhrZW42RFhqVmVrYlM2RFBJV3dpT0RNT0hicWJ4dUF6dEw5Rk05MXhFZVVQSUowcjlrd2EyWG9weWF3VWZvaUJjdzZwak9GR2xVMXh5WVJxZXpjSVZnNFFRS3pmcG1KeGNGMlNhUzN5bXVwc09SNUMtbDhYWlVMN2E4Tl8?oc=5",
+      "id": "-2105140046",
+      "title": "Chinese AI Model Moonshot Kimi K3 Also Escaped Its Testing Environment",
+      "titleZh": "中国人工智能模型Moonshot Kimi K3也逃脱了测试环境",
+      "summary": "Chinese AI Model Moonshot Kimi K3 Also Escaped Its Testing Environment Engadget",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdHRWOHRscWZMMDI5N0ZWbV9NOG4xS01HazZ6RTdlSWJvcTNSWGFsaC01cDZDbEZGOEZrSUo1U3lfQjY5WUY4SVYyTjJTOVptMTBRSVBPSU43Y3oxWG1uNzZfWWRYYnBDUllzWVVoTlMwNEtxNXhaQ2N0d0gwZEFiVnB3dw?oc=5",
       "pubDate": 1786086000000,
-      "vendor": "google",
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "high",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1919882972",
+      "title": "Chinese startup Moonshot's AI model breaks out of testing environment, researchers say",
+      "titleZh": "研究人员表示，中国初创公司Moonshot的人工智能模型打破了测试环境",
+      "summary": "Chinese startup Moonshot's AI model breaks out of testing environment, researchers say Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc2Q3eXFPcENXOWZ2cFkyM0lQUEdyMGhqTTdDbHc5dWZMa0xhV2x1U0RpZ2pUT0d5MjdNNjlHR1ZVRklMZmxnZHA3VHJyRnBJTzhsR2Jpc1dGQ2F2cnQ1VkhsMHBiZ3FQOU5BTWNjVERRdktTRjQ2UEFQMi10VmZIQzNQdzlacXc3U2lrNUJFUHV1djVlRGhvYVhCejRpX0w1dDFkS202MU5hUDBSS285b0Q3TnZORE8xZWJoM0F1VU9HVWR1Qkwzdk93?oc=5",
+      "pubDate": 1786086000000,
+      "vendor": "kimi",
       "category": "Research",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
-        "cq": 16,
+        "cq": 18,
         "kv": 0,
         "cw": 22,
-        "st": 15,
+        "st": 12,
         "rc": 0,
         "cs": 1
       },
@@ -1361,27 +1403,6 @@
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-2105140046",
-      "title": "Chinese AI Model Moonshot Kimi K3 Also Escaped Its Testing Environment",
-      "titleZh": "中国人工智能模型Moonshot Kimi K3也逃脱了测试环境",
-      "summary": "Chinese AI Model Moonshot Kimi K3 Also Escaped Its Testing Environment Engadget",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdHRWOHRscWZMMDI5N0ZWbV9NOG4xS01HazZ6RTdlSWJvcTNSWGFsaC01cDZDbEZGOEZrSUo1U3lfQjY5WUY4SVYyTjJTOVptMTBRSVBPSU43Y3oxWG1uNzZfWWRYYnBDUllzWVVoTlMwNEtxNXhaQ2N0d0gwZEFiVnB3dw?oc=5",
-      "pubDate": 1786086000000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "high",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
         "cw": 22,
         "st": 12,
         "rc": 0,
@@ -1432,27 +1453,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-1363628534",
-      "title": "Kimi K3 from Moonshot AI is now available on Databricks through Unity AI Gateway",
-      "titleZh": "来自Moonshot AI的Kimi K3现已通过Unity AI网关在Databricks上提供",
-      "summary": "Kimi K3 from Moonshot AI is now available on Databricks through Unity AI Gateway Databricks",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeEVuMTdPdkpLc3d1TXRweDg2NkdFeHBsMC1lWWZIMTBNMWZiTTJRMVNjOWpLWDhXYVJnb3lfLXpaTmtqd2xwMjBwb1F3LUpsWUcxT1pWUmdaRDVrSzJ5Y0FCdHJlUjRhX21LUkVubUIyWTB4S2hPRXR2N3JGM0NMSzVETXRrYlo3bzZHOXZCV0hNWFNnZGFIMzlLVTltUmJqZzZB?oc=5",
-      "pubDate": 1785999600000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-241689768",
       "title": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
       "titleZh": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
@@ -1468,6 +1468,27 @@
         "kv": 0,
         "cw": 22,
         "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1363628534",
+      "title": "Kimi K3 from Moonshot AI is now available on Databricks through Unity AI Gateway",
+      "titleZh": "来自Moonshot AI的Kimi K3现已通过Unity AI网关在Databricks上提供",
+      "summary": "Kimi K3 from Moonshot AI is now available on Databricks through Unity AI Gateway Databricks",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeEVuMTdPdkpLc3d1TXRweDg2NkdFeHBsMC1lWWZIMTBNMWZiTTJRMVNjOWpLWDhXYVJnb3lfLXpaTmtqd2xwMjBwb1F3LUpsWUcxT1pWUmdaRDVrSzJ5Y0FCdHJlUjRhX21LUkVubUIyWTB4S2hPRXR2N3JGM0NMSzVETXRrYlo3bzZHOXZCV0hNWFNnZGFIMzlLVTltUmJqZzZB?oc=5",
+      "pubDate": 1785999600000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
         "rc": 0,
         "cs": 1
       },
@@ -1621,6 +1642,27 @@
       "source": "Google News"
     },
     {
+      "id": "-1213350492",
+      "title": "US lawmakers investigate DoorDash’s use of Moonshot AI’s Kimi K2.6 model",
+      "titleZh": "US lawmakers investigate DoorDash’s use of Moonshot AI’s Kimi K2.6 model",
+      "summary": "US lawmakers investigate DoorDash’s use of Moonshot AI’s Kimi K2.6 model South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWlVnUFVUZTZ6ZWVnTElrblFhMVNfRHFhWXpLRjlzaWhtNUVmRFRSNFNxQzgwZXVGaUlOVGl2NmgtRTdrLW5GcXdjVjRuVnVZdXlPazYtdHIwMWZqcjBLWmNBaFBrWUh3T1Zqa3hxZlNyYU1Zc1dlMmpaVFR4ajhuc29KRlZHUGdxZ1dhQ2s1RGxyZVAtRlZMbWFIaXZacjFnZ200ODF1TzMzakczZHhMemhUbDdqUy1KX0RhRE1HVTdQd9IBwgFBVV95cUxORWdsQUZ5UVZBdDUzb1JJMndsbW1SUDdXcjJJSGdvb0dvRklzMlJkSUtKRWNRSHVac2Y0MmxjZWtiNzRWSEJ5TVp1dzR6RmJER0xKOEZzQ09vYW9qdXZnNWxOWVY2MFdnVlY2QkN2LU1Ja25SckJGdWQ5NWt4dGxMUHN5cTZZOFI5Z182bGVHLTM0NlFsN0ZLNExvT3RabFNtaUppdXcwTEFYRlRFZjRBeHEtbVg2bmpRVllfaVh3VDJPdw?oc=5",
+      "pubDate": 1785567600000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "high",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1937431074",
       "title": "DeepSeek's new bargain model accelerates AI's race to zero",
       "titleZh": "DeepSeek的新讨价还价模式加速了人工智能的零竞赛",
@@ -1635,27 +1677,6 @@
         "cq": 18,
         "kv": 2,
         "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1598876790",
-      "title": "Moonshot’s Kimi Uses 20,000 Nvidia Chip Cluster From Alibaba",
-      "titleZh": "Moonshot’s Kimi Uses 20,000 Nvidia Chip Cluster From Alibaba",
-      "summary": "Moonshot’s Kimi Uses 20,000 Nvidia Chip Cluster From Alibaba Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ282X01oVUs5N1JNVE1keDhwLUsyNk85a1VBVEhROXlzU1pQSVVaZDJiWHhSVTFWZFdjMnhUdHpDZm1UU3lKVU9LSjJLaXJNMEUyVHoyMWhhSlZoZlpPTUtEZjFiejQ5QTVHR3ZhSGF2ZzhfZ0xIWTZJbmlpUVdXUlU2bHFGT0hUazllb1RtbFh6c3IyREl4aWl0MmctNERxY1FuQ1dSRHhjSExnSW02NC0wVXFDZw?oc=5",
-      "pubDate": 1785481200000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
         "st": 12,
         "rc": 0,
         "cs": 1
@@ -1684,10 +1705,10 @@
       "source": "DeepMind"
     },
     {
-      "id": "-298865671",
+      "id": "1090493009",
       "title": "With Moonshot’s free Kimi K3, China changes the sovereign AI playbook",
       "titleZh": "With Moonshot’s free Kimi K3, China changes the sovereign AI playbook",
-      "summary": "With Moonshot’s free Kimi K3, China changes the sovereign AI playbook restofworld.org",
+      "summary": "With Moonshot’s free Kimi K3, China changes the sovereign AI playbook Rest of World",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9zVFBQM0JyaEJhS2FiNnNGUERzNnYxV0E2TnBPSmJQdXhTZDVMZDR6bVNXNkFmWEY5Vmp3cERnTzZzam1xb2hoU2Jjb2xka0pYd2s1cEtvLXZyUVFYVkFvc3RhakF5NjVWUXFXUTA3STctV1FGVkx1ajFB?oc=5",
       "pubDate": 1785394800000,
       "vendor": "kimi",
@@ -1724,27 +1745,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "-1347808310",
-      "title": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export and Chinese import controls to acquire compute",
-      "titleZh": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export and Chinese import controls to acquire compute",
-      "summary": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export and Chinese import controls to acquire compute Tom's Hardware",
-      "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNc3pUREd5Tk9LWC1SSGE2OEUyTWlGYzZYX0lYbjVtTHhqdzIxaFZfRkp4Nm9zNU95LWlQZXVQSGtmS05LQXBjVVhycUFHT1QzWU5GRjQzdVJHQ1FSTXNVTHhPZlU2YUdta3Buc21aZ0FJQWJYSFpzQ0luaDF0bERWdGF0TWxsT3FiSkY3c29LamR1LUpBSFpRcUM5MGlpWTN5S3FIR09EM3c2NkFCRHpvdTF0WGg5V0k3TEVaUlJhc1hhU1dnUmlvUDlkY3JoaUx3RG5FTnEtaEdxYnp3dUpfYkpMUTk4ZzBCS3hOQUgwMXROc1pZYkI2QXlNUEFxNERrX2U4WGpYWU5VZDJCdEFyY3d4XzNOX3pXek5qMWFJWUJjUmNXUHhfZ1VEa0FPdFBzUkhja2diZU1lalVYcVRGaFE4Y2dSVnFtdUIzYTV3?oc=5",
-      "pubDate": 1785308400000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-2053168468",
