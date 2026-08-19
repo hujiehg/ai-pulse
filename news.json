@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T19:02:31.191Z",
+  "updated": "2026-08-19T19:49:04.180Z",
   "count": 114,
   "sources": 12,
   "items": [
@@ -403,27 +403,6 @@
       "source": "arXiv"
     },
     {
-      "id": "-1715923194",
-      "title": "The U.S. is discussing restrictions on Chinese AI models",
-      "titleZh": "美国正在讨论对中国人工智能模型的限制",
-      "summary": "The U.S. is discussing restrictions on Chinese AI models UA.NEWS",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYTZ0OXNKRXU1dzF5WUNUYkVsTlpKdnF6Z3VOa3RDLWgtcEdSa0Jlb1VoUzhUOWpqOUNsTkN3eWpVN0daX09SLXJZWTlQWVdBSmpxYlY5ampSX3V4RU9TSFlWUjc1aWdYNkI2WHk2Vk5JeTRkV1QwLVhXWTBoWF9ZYkw1bWY3ZGVCVVZ5dg?oc=5",
-      "pubDate": 1787108235000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1702253277",
       "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
       "titleZh": "Cursor利用GitHub的挫败感，推出竞争对手的托管平台",
@@ -811,13 +790,13 @@
       "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 15,
         "st": 14,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -1871,6 +1850,27 @@
         "cs": 1
       },
       "source": "NVIDIA"
+    },
+    {
+      "id": "-357909748",
+      "title": "What Is Moonshot AI’s Kimi K3 Model and Why Is It Making Waves?",
+      "titleZh": "What Is Moonshot AI’s Kimi K3 Model and Why Is It Making Waves?",
+      "summary": "What Is Moonshot AI’s Kimi K3 Model and Why Is It Making Waves? Bloomberg",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOGtDOFZKUUZyb25MMjJnN1Q1Vlp0UWdfel9yVFdtdXowR1d5ZURlVmVBWjZwc2pVMzRERVlWa1AyMzRzM3BfNzVVUmQxUFFHQnA4ZVhxa0hMRHg2OEQzTXJGcEZzLWFyUXlvMnRQbzVqZl9XSGFPTGFnSHpROWVQUnFsWlNuMi1SdThkcDViX1F4MXY2NF9iZVdseXJUVTFudkxkSVhuRFZBZkJYalNHV0JoYw?oc=5",
+      "pubDate": 1785135600000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "high",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1965105272",
