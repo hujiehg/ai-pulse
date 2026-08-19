@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T04:07:14.778Z",
+  "updated": "2026-08-19T05:01:29.503Z",
   "count": 114,
   "sources": 12,
   "items": [
@@ -13,13 +13,13 @@
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "high",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 25,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -853,13 +853,13 @@
       "vendor": "openai",
       "category": "Funding",
       "impact": "med",
-      "score": 57,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 20,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -943,27 +943,6 @@
         "kv": 1,
         "cw": 22,
         "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1460504015",
-      "title": "DeepSeek Open-Sources the Missing Layer Between AI Models and Agents",
-      "titleZh": "DeepSeek开源人工智能模型和智能体之间缺失的层",
-      "summary": "DeepSeek Open-Sources the Missing Layer Between AI Models and Agents HPCwire",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR0U3dEtvVWEtc1BnWEV5T1E2aWQ0SWdOaVVFUlFkb2piTV85NDFIVzBqU29FVzhIWFRXUkNrOFh4cFR3dEgyRlRTdlhyTUw1WFFCQTdpSnVicmlhZmNwZXkyNkQ0c1AyWld6eld4NU1RMTFOenExVWJvejNpVVlLZEk3dWhmdG9aR2xuS0lablVrclBiTTUxVWxzLXBPdVk0VTA0WTdMOVRSTmFPVmhGRF9HMmd2eE0?oc=5",
-      "pubDate": 1786721884000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
         "rc": 1,
         "cs": 1
       },
@@ -1633,6 +1612,27 @@
       "score": 57,
       "scoreBreakdown": {
         "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1937431074",
+      "title": "DeepSeek's new bargain model accelerates AI's race to zero",
+      "titleZh": "DeepSeek的新讨价还价模式加速了人工智能的零竞赛",
+      "summary": "DeepSeek's new bargain model accelerates AI's race to zero Axios",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04emlXWXpVQXhNcjJsU1d5ZmhnU1J2TFRyeFlxM2hqUUNUNVR2UmxFQUNBanYwWnd5ZUpTRnptVEh2TXU2NU5aa0FRbFV6ejVPd2wxWFNXa3RoaTZPQ0dQSHc0Tkk4WE93Q1JwV0tIWGNBaGNG?oc=5",
+      "pubDate": 1785567600000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
         "kv": 2,
         "cw": 22,
         "st": 12,
