@@ -1,8 +1,29 @@
 {
-  "updated": "2026-08-19T10:54:22.134Z",
+  "updated": "2026-08-19T11:18:42.543Z",
   "count": 104,
   "sources": 11,
   "items": [
+    {
+      "id": "1841248900",
+      "title": "Relativity Networks raises $22 million to bring a faster kind of fiber to data centers",
+      "titleZh": "Relativity Networks筹集了2200万美元，为数据中心带来更快的光纤",
+      "summary": "Relativity Networks deals in hollow-core fiber, a rarely deployed technology that allows data to be transmitted 30% faster than conventional fiber.",
+      "link": "https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers/",
+      "pubDate": 1787133600000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 1,
+        "cw": 20,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-1825119447",
       "title": "Qwen 3.8: How a 27B Open Model Rivals GPT-5.6 and Claude Opus",
@@ -517,13 +538,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -538,13 +559,13 @@
       "vendor": "openai",
       "category": "Safety",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 10,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -559,13 +580,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -781,27 +802,6 @@
       "source": "Google News"
     },
     {
-      "id": "1993754140",
-      "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
-      "titleZh": "最初销售书籍的亚马逊正在销毁罕见的文本来训练人工智能",
-      "summary": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available online.",
-      "link": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
-      "pubDate": 1786984724000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "-105299292",
       "title": "Alibaba launches Qwen AI model for laptops to meet Meta's challenge (BABA:NYSE)",
       "titleZh": "阿里巴巴推出适用于笔记本电脑的Qwen AI模型，以应对Meta的挑战（ BABA ：纽约证券交易所）",
@@ -1012,27 +1012,6 @@
       "source": "Google News"
     },
     {
-      "id": "-2145328936",
-      "title": "DeepSeek's innovative harness treats everything as a plug-in",
-      "titleZh": "DeepSeek的创新线束将所有内容视为插件",
-      "summary": "DeepSeek's innovative harness treats everything as a plug-in The Register",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTkNqNmFRc1NrYzRHSVdGMUU2Y3AzMWptWWY3V3FDbnNTU0lzaTNyZlJuYmhFNDFjay1BbWc1UmZ4LXA4VGMzYlJUX0o0SFo0YzlrbHMwLVdzRXVQTEVXNjhOaThkekJSX0U4UVNDMXZ1M3hHMDA3MlBZczQ5U1BZWnlEVy1kN191aUdZRkdVeFF1M2Fyb2hfY1RydFlXSmFlZHFKWmFyWUZ6TTY5RHRZNFVVYU9Sb1k?oc=5",
-      "pubDate": 1786739156000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-2016155837",
       "title": "DeepSeek's AI Models Are About To Cost Four Times More",
       "titleZh": "DeepSeek的人工智能模型成本将增加四倍",
@@ -1115,6 +1094,27 @@
         "cs": 1
       },
       "source": "DeepMind"
+    },
+    {
+      "id": "104702852",
+      "title": "DeepSeek Harness launches as open source rival to Claude Code, alongside V4-Pro on API with higher prices",
+      "titleZh": "DeepSeek Harness作为Claude Code的开源竞争对手推出，同时推出价格更高的API V4-Pro",
+      "summary": "DeepSeek Harness launches as open source rival to Claude Code, alongside V4-Pro on API with higher prices VentureBeat",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeVA0OGxrdGxzcGV1VUtwei1fLVFhNUE4M3BNd0lLb1hpS2xoNXlWUzJzWU1YUDM4dElQVjIwcm1qQWsxeUdoOEF6ZGEta1lEaEJLd3g4bE5ITUtqLVpZSlp3X21LZDd5T3lPelI0cHhBaEdiOTBrYkdRbV9td1c4bWVCdUlUNGNjTmx1RTI2T19QMEtyTGZPWW42Z1BQVzRPdjZ6UkNyd3hfWFdQWVU1LTMtdEtpeE84S1FzbmdOLVZmWFRrVk5aLVJsbW5nSzdrU0RIRUNR?oc=5",
+      "pubDate": 1786639675000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "high",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 8,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1961739353",
