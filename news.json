@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T20:53:05.315Z",
+  "updated": "2026-08-19T21:18:27.340Z",
   "count": 104,
   "sources": 11,
   "items": [
@@ -13,16 +13,37 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "high",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 15,
         "st": 15,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "-1587342959",
+      "title": "DeepSeek Open-Sources the Missing Layer Between AI Models and Agents",
+      "titleZh": "DeepSeek开源人工智能模型和智能体之间缺失的层",
+      "summary": "DeepSeek Open-Sources the Missing Layer Between AI Models and Agents HPCwire",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRVJ2aDZjWFFmalp0LTJPeS10andIdzNKOE5SS29EeWw3ZDQwTUZ3RkQ1NHluV0NPTnBvZkQxT1JqREo3SE1zdVVWZEJwaDNPTGM5X19JVFVCdkFkR20yalgxUVpzV1l4QWR1d3JNR21pT3VsSVhOVUlWTFczWUYxS0x5dDd0WWRkZW5Udk1VYXJfSnpaRmYwVGY4b2hzamRtOTQwdFM5NmhmN29KV0s3cA?oc=5",
+      "pubDate": 1787158319000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "1107591694",
@@ -55,13 +76,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -487,10 +508,10 @@
       "source": "OpenAI"
     },
     {
-      "id": "998841974",
+      "id": "723067561",
       "title": "Why China’s Affordable AI Is a Worry for Silicon Valley",
       "titleZh": "Why China’s Affordable AI Is a Worry for Silicon Valley",
-      "summary": "Why China’s Affordable AI Is a Worry for Silicon Valley Bloomberg.com",
+      "summary": "Why China’s Affordable AI Is a Worry for Silicon Valley Bloomberg",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNHlXQnR2VElTbFIwRjFSbm5aVW4wdTJHWE9LdnAyLWZSbWh2WkF2R0J4d1Q1Y2xkenF3ZVU1WmlpX0w3dzQ0TEpRbHBRU2MzVUsta19LLTdQZk8zY2JsY3dVLVFMdWpPRmRuNHdGUGlwT0o0UElVSWNRQzd2bXMzSE8xVTd3Unl6dzREMEFCc0FPSFJRUllhU01aelRSdk14a292TTIteV9uQnpVYThGTDN6Y043SDI1M1E?oc=5",
       "pubDate": 1787025660000,
       "vendor": "google",
@@ -550,27 +571,6 @@
       "source": "HuggingFace"
     },
     {
-      "id": "-1406016265",
-      "title": "Strategy shift: DeepSeek sharply raises prices",
-      "titleZh": "策略转变： DeepSeek大幅提价",
-      "summary": "Strategy shift: DeepSeek sharply raises prices Table.Briefings",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSVlxZk90WmFrWHBaa3p5aS1sMkFrQzBCenRiZkJGZ2JMZDBnOXpydmNiTUFYVUU2WXAzNklkRDRFMnJUNUZDX0VLQTQ3Wk5DOXV5RTlqOE51dnN5eF9oMlUzOUh6MHZfY1hkOHVOVXBtaWo1M1JVcThnRkhCMWVOWkpDMi1BUQ?oc=5",
-      "pubDate": 1786997793000,
-      "vendor": "deepseek",
-      "category": "Funding",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 20,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-767038709",
       "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
       "titleZh": "同一集群，利用率提高33分：订单发生了哪些变化",
@@ -613,10 +613,10 @@
       "source": "Google News"
     },
     {
-      "id": "229981946",
+      "id": "-757238457",
       "title": "Alibaba Stock Rises as Qwen AI Model Escalates Battle With Meta",
       "titleZh": "随着Qwen AI模型与Meta的战斗升级，阿里巴巴股价上涨",
-      "summary": "Alibaba Stock Rises as Qwen AI Model Escalates Battle With Meta TradingView",
+      "summary": "Alibaba Stock Rises as Qwen AI Model Escalates Battle With Meta tradingview.com",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNHVwYTFrSGxHNTNqekFPS2xTSmpCZk1MWE1KWVBBUElETGtrNXVHYjdFUVN5RFlSQzBJUmYyNnpfeDhFdHRORXVNeUVQX2ZCTEUxWGJpdlFhSDRmWU5XbFo1eWNJZ2FaR1I0V28zVU9fZlRQcWZEU0NRbjh6blRDaVcyZnd5Wk4xdmxnQ0hROXljOFduVWtsMi1GU3Z2b1FMdlpVQVNacGpzYTNhWTdpT3dxVFg5V1JtVnl1aWRKVG0?oc=5",
       "pubDate": 1786989318000,
       "vendor": "qwen",
@@ -802,10 +802,10 @@
       "source": "Google News"
     },
     {
-      "id": "812540910",
+      "id": "-1499710693",
       "title": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google",
       "titleZh": "阿里巴巴AI模型下载量突破30亿，通过Meta ，谷歌",
-      "summary": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google Bloomberg.com",
+      "summary": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google Bloomberg",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNkdXS05xRW1WQ2ItQmhUZEd1SVowVkJISVhwQ1Z5STF5dnJkV2pVRmExN1JoLXNEMkZKdGV1eGZnWnVvV2I1QllUZ3JJTktoeFdKa3JtY3NSMFlBRUYta3k5d2RJdnFzVUJIMGVGY2V0SThGTG94SlEzMl9KQWRsZkduN0RycGx1SjBGOVViQVNvbXE4TS1WdTU2MGhLNjhZLUtUVHM2WVF3ZGZKalBmOURR?oc=5",
       "pubDate": 1786785366000,
       "vendor": "google",
@@ -823,10 +823,10 @@
       "source": "Google News"
     },
     {
-      "id": "-2016155837",
+      "id": "1188159030",
       "title": "DeepSeek's AI Models Are About To Cost Four Times More",
       "titleZh": "DeepSeek的人工智能模型成本将增加四倍",
-      "summary": "DeepSeek's AI Models Are About To Cost Four Times More Engadget",
+      "summary": "DeepSeek's AI Models Are About To Cost Four Times More engadget.com",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT2FId1BnQ0MyY3Rzem9GYVo0blhJUnVqMEpYektCc1F5cy0xS09SODdqOEZrNXZGZE1NVlR6TGFacEw1Uzh6SEtfQzBEU2pfSDRpTW9YRVBoSlJyNElwcmJBOFZmVzIyVHZZS0hhcmJ6cWkzeWlMc2pOQmMwX055Yg?oc=5",
       "pubDate": 1786705104000,
       "vendor": "deepseek",
