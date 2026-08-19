@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T17:49:25.183Z",
+  "updated": "2026-08-19T18:21:32.782Z",
   "count": 104,
   "sources": 11,
   "items": [
@@ -109,6 +109,27 @@
       "source": "TechCrunch"
     },
     {
+      "id": "-448161651",
+      "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
+      "titleZh": "LFM2.5 Q4\\_0量化感知蒸馏检查点",
+      "summary": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
+      "link": "https://huggingface.co/blog/LiquidAI/qad",
+      "pubDate": 1787147329000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
       "id": "-1012061117",
       "title": "AI isn’t close to curing cancer. This startup says it knows what it will take.",
       "titleZh": "AI isn’t close to curing cancer. This startup says it knows what it will take.",
@@ -118,13 +139,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 40,
+      "score": 39,
       "scoreBreakdown": {
         "cq": 12,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -149,27 +170,6 @@
         "cs": 1
       },
       "source": "TechCrunch"
-    },
-    {
-      "id": "-1047422448",
-      "title": "Digest: Google's New Search Console Feature; Qwen Overtakes Meta",
-      "titleZh": "Digest ： Google全新Search Console功能； Qwen超越Meta",
-      "summary": "Digest: Google's New Search Console Feature; Qwen Overtakes Meta exchangewire.com",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdmxuRVJPbTJuNFVCMktJaTF4eHRVclk3Q29Mc29Nd2lCQ1dzQ0w1NDhkcUpzWWJDQkRiQUxpV2Fsdk5VTkJ1eHNTY3dlRG4zQTNLTlRJV190Ylo3OFRqYzJvNWZZNmpFamh3NjZnX01vQXl4Umt0bDc5b0NjWVpmY0RhblBfb2czbElHemU3eC1aTjhaY1pHT3dza1hGVnpGMDk1T3dCNXlXUDA?oc=5",
-      "pubDate": 1787127468000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1387493835",
@@ -496,13 +496,13 @@
       "vendor": "huggingface",
       "category": "Agent",
       "impact": "med",
-      "score": 39,
+      "score": 38,
       "scoreBreakdown": {
         "cq": 9,
         "kv": 0,
         "cw": 12,
         "st": 14,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -517,13 +517,13 @@
       "vendor": "techcrunch",
       "category": "Safety",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 10,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -853,13 +853,13 @@
       "vendor": "qwen",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -901,6 +901,27 @@
         "kv": 1,
         "cw": 22,
         "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1960589420",
+      "title": "Alibaba’s Qwen AI Models Surpass 3 Billion Downloads, Outpace Meta and Google",
+      "titleZh": "Alibaba’s Qwen AI Models Surpass 3 Billion Downloads, Outpace Meta and Google",
+      "summary": "Alibaba’s Qwen AI Models Surpass 3 Billion Downloads, Outpace Meta and Google citybiz",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPS2Jtc09SYi1ad1lnTkxwLVJVWnlJUGlpYXFtM3NIb2x3b3RVV3J0U0ZMankxaHdVakdZa2FRQXlYT3ZlQ2hKb1VORHlEb3FReWZsaVB0NTMwX253eWwxc25adkRuU2Z3d0JqNWlCWmxaR041NlZiRXJncHp3MjFsZVpqWGF4b00xcF9xWF9PdmNxckp4VVNncjZJSlZhZ3I0MUZhSU5yZUY0TnJmTkwyQlJLYW4?oc=5",
+      "pubDate": 1786966539000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 3,
+        "cw": 22,
+        "st": 12,
         "rc": 1,
         "cs": 1
       },
@@ -1220,27 +1241,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "1047380107",
-      "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
-      "titleZh": "LFM2.5-VL-3B提供更好、更快的边缘视觉能力",
-      "summary": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
-      "pubDate": 1786543251000,
-      "vendor": "huggingface",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 15,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
     },
     {
       "id": "2005007345",
