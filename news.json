@@ -1,8 +1,29 @@
 {
-  "updated": "2026-08-20T10:57:05.514Z",
+  "updated": "2026-08-20T11:19:26.320Z",
   "count": 115,
   "sources": 12,
   "items": [
+    {
+      "id": "297443023",
+      "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
+      "titleZh": "币安现在允许人工智能代理进行交易，但控制它们在很大程度上取决于用户",
+      "summary": "Binance's Agent OS works with tools including ChatGPT, Claude Code, and Cursor.",
+      "link": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
+      "pubDate": 1787218200000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "1216286942",
       "title": "AI: China’s AI Momentum, in Downloads &amp; Valuations (part 1). AI-RTZ #1184",
@@ -13,13 +34,13 @@
       "vendor": "google",
       "category": "Funding",
       "impact": "med",
-      "score": 57,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 1,
         "cw": 20,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -529,27 +550,6 @@
       "source": "VentureBeat"
     },
     {
-      "id": "-336863285",
-      "title": "Calendly throws its hat into meeting note-taker circus",
-      "titleZh": "Calendly将帽子扔进会议记录员马戏团",
-      "summary": "Calendly is also releasing a meeting scheduling assistant called Callie.",
-      "link": "https://techcrunch.com/2026/08/19/calendly-throws-its-hat-into-meeting-note-taker-circus/",
-      "pubDate": 1787148579000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "-448161651",
       "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
       "titleZh": "LFM2.5 Q4\\_0量化感知蒸馏检查点",
@@ -706,13 +706,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -727,13 +727,13 @@
       "vendor": "openai",
       "category": "Safety",
       "impact": "med",
-      "score": 47,
+      "score": 46,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 10,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -748,13 +748,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
