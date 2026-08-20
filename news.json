@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T06:29:33.018Z",
+  "updated": "2026-08-20T07:25:17.112Z",
   "count": 115,
   "sources": 12,
   "items": [
@@ -349,13 +349,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "high",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -748,13 +748,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
