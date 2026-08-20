@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-20T02:12:53.843Z",
-  "count": 104,
-  "sources": 11,
+  "updated": "2026-08-20T03:24:11.264Z",
+  "count": 114,
+  "sources": 12,
   "items": [
     {
       "id": "12180127",
@@ -338,6 +338,216 @@
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "-480278475",
+      "title": "GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents",
+      "titleZh": "GxP-Agent ：使用LLM代理进行可靠临床试验编程的流程-DAG拓扑",
+      "summary": "arXiv:2608.16890v1 Announce Type: new Abstract: Clinical trial programming -- transforming study protocols into analysis-ready datasets under CDISC standards -- is a bottleneck in regulatory submissio…",
+      "link": "https://arxiv.org/abs/2608.16890",
+      "pubDate": 1787112000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 68,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 9,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1188124566",
+      "title": "Runtime Governance for Agentic AI: Action-Boundary Control with Trusted Provenance and Fail-Closed Execution",
+      "titleZh": "Agentic AI的运行时治理：具有可信来源和失败关闭执行的动作边界控制",
+      "summary": "arXiv:2608.16891v1 Announce Type: new Abstract: Agentic AI systems request tool actions that can modify files, send messages, launch jobs, or change workflow state. This shifts the safety problem from…",
+      "link": "https://arxiv.org/abs/2608.16891",
+      "pubDate": 1787112000000,
+      "vendor": "arxiv",
+      "category": "Agent",
+      "impact": "high",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 6,
+        "cw": 12,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-615874926",
+      "title": "The Price of Thinking: Reasoning Effort as a Model-Specific API Contract",
+      "titleZh": "思考的代价：作为模型特定API合约的推理工作",
+      "summary": "arXiv:2608.16956v1 Announce Type: new Abstract: API buyers purchase a dated contract, not a model name alone: the contract includes the requested and served model, reasoning-effort term or its omissio…",
+      "link": "https://arxiv.org/abs/2608.16956",
+      "pubDate": 1787112000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-202860881",
+      "title": "FedPref: Federated Preference Learning for Structured Radiology Report Extraction",
+      "titleZh": "FedPref ：结构化放射学报告提取的联合偏好学习",
+      "summary": "arXiv:2608.16971v1 Announce Type: new Abstract: Radiology reports describe findings and locations in free text, but downstream search and analysis require these relations in a fixed schema. Learning t…",
+      "link": "https://arxiv.org/abs/2608.16971",
+      "pubDate": 1787112000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1879692594",
+      "title": "The Problem Is the Problem: Towards Scalable Mathematical Discovery",
+      "titleZh": "问题是问题：实现可扩展的数学发现",
+      "summary": "arXiv:2608.16977v1 Announce Type: new Abstract: AI systems are increasingly capable of contributing to mathematical research. In research practice, frontier-model reasoning is a limited resource, and …",
+      "link": "https://arxiv.org/abs/2608.16977",
+      "pubDate": 1787112000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-2021393274",
+      "title": "SkillEffect: Checked Lowering for Memory-Bounded Agent Tools",
+      "titleZh": "SkillEffect ：检查内存受限的座席工具的降低",
+      "summary": "arXiv:2608.17007v1 Announce Type: new Abstract: Agent Skills can specify procedural and resource obligations for tool use, and language models instantiate them as concrete programs. However, when mode…",
+      "link": "https://arxiv.org/abs/2608.17007",
+      "pubDate": 1787112000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1112537446",
+      "title": "Memory Is Communication: The Frontier Between Remembering and Signaling",
+      "titleZh": "记忆是沟通：记忆和信号之间的边界",
+      "summary": "arXiv:2608.17053v1 Announce Type: new Abstract: A bounded agent may obtain information for a decision from its own past, from peers, or from both sources. Retaining task-relevant history can reduce la…",
+      "link": "https://arxiv.org/abs/2608.17053",
+      "pubDate": 1787112000000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 25,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "298833874",
+      "title": "DiSCO: Defending text-to-image generation through distribution-guided contrastive prompt optimization",
+      "titleZh": "DiSCO ：通过分布引导的对比提示优化来捍卫文本到图像的生成",
+      "summary": "arXiv:2608.17067v1 Announce Type: new Abstract: As text-to-image generative models advance, they raise critical safety concerns, particularly the generation of Not-Safe-For-Work (NSFW) content such as…",
+      "link": "https://arxiv.org/abs/2608.17067",
+      "pubDate": 1787112000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-321039507",
+      "title": "KernelArc: A Multi-Agent Framework for GPU Kernel Optimization",
+      "titleZh": "KernelArc ： GPU内核优化的多代理框架",
+      "summary": "arXiv:2608.17071v1 Announce Type: new Abstract: We present KernelArc, a multi-agent framework for autonomous GPU kernel optimization across heterogeneous workloads. Strategy-specialized agents run in …",
+      "link": "https://arxiv.org/abs/2608.17071",
+      "pubDate": 1787112000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-978073256",
+      "title": "A decodability criterion predicts when hidden-state selection beats majority voting in large language models",
+      "titleZh": "可解码性标准预测隐藏状态选择何时在大型语言模型中击败多数投票",
+      "summary": "arXiv:2608.17124v1 Announce Type: new Abstract: Combining the answers a large language model (LLM) samples for a question into one decision is a test-time information fusion problem, usually solved by…",
+      "link": "https://arxiv.org/abs/2608.17124",
+      "pubDate": 1787112000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
     },
     {
       "id": "1700330188",
@@ -1143,7 +1353,7 @@
       "titleZh": "Moonshot AI的2.8万亿参数模型刚刚成为中国首个领先的主要编码基准",
       "summary": "Moonshot AI's 2.8 Trillion Parameter Model Just Became the First From China to Top a Major Coding Benchmark Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcDVVbTdOQ0pSUi1YeVphVExQdnltbEhZYWRtajZHWkNuOTAtSFhieldQY21MaXRlbzloR3lqelRBUWFNS1ZYZ1d3cmRXSGFQeFJvUnJDVnZsbDk1THNaNGpqdlZYTGR3RWZ0TURYVGpVLTc5Si0yVjdReUpUQjF0aXpzckV2R3BjX05QZTF4U2xITDQ?oc=5",
-      "pubDate": 1786258800000,
+      "pubDate": 1786172400000,
       "vendor": "kimi",
       "category": "Research",
       "impact": "med",
@@ -1663,10 +1873,10 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-357909748",
+      "id": "110909087",
       "title": "What Is Moonshot AI’s Kimi K3 Model and Why Is It Making Waves?",
       "titleZh": "What Is Moonshot AI’s Kimi K3 Model and Why Is It Making Waves?",
-      "summary": "What Is Moonshot AI’s Kimi K3 Model and Why Is It Making Waves? Bloomberg",
+      "summary": "What Is Moonshot AI’s Kimi K3 Model and Why Is It Making Waves? Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOGtDOFZKUUZyb25MMjJnN1Q1Vlp0UWdfel9yVFdtdXowR1d5ZURlVmVBWjZwc2pVMzRERVlWa1AyMzRzM3BfNzVVUmQxUFFHQnA4ZVhxa0hMRHg2OEQzTXJGcEZzLWFyUXlvMnRQbzVqZl9XSGFPTGFnSHpROWVQUnFsWlNuMi1SdThkcDViX1F4MXY2NF9iZVdseXJUVTFudkxkSVhuRFZBZkJYalNHV0JoYw?oc=5",
       "pubDate": 1785135600000,
       "vendor": "kimi",
