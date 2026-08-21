@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T17:00:46.171Z",
+  "updated": "2026-08-21T17:29:17.259Z",
   "count": 116,
   "sources": 12,
   "items": [
@@ -44,6 +44,48 @@
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "1476793118",
+      "title": "The DOJ is investigating a16z. What does this mean for venture capital?",
+      "titleZh": "美国司法部正在调查a16z。这对风险投资意味着什么？",
+      "summary": "Andreessen Horowitz has two partners sitting on the boards of companies that now compete with each other: Ben Horowitz at Databricks and Martin Casado at Fivetran. Nothing too scandalous on the surfac…",
+      "link": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
+      "pubDate": 1787320800000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "114693346",
+      "title": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+      "titleZh": "随着发射选项枯竭， Starcloud为轨道数据中心筹集了2.5亿美元$",
+      "summary": "There's about to be a big fight to secure access to space.",
+      "link": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
+      "pubDate": 1787320800000,
+      "vendor": "techcrunch",
+      "category": "Release",
+      "impact": "high",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 3,
+        "cw": 25,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
     },
     {
       "id": "-932053064",
@@ -529,27 +571,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "-704709405",
-      "title": "A third of web pages published since ChatGPT’s launch show signs of AI authorship, study finds",
-      "titleZh": "A third of web pages published since ChatGPT’s launch show signs of AI authorship, study finds",
-      "summary": "ChatGPT and other AI models are now authoring and editing much of the new web.",
-      "link": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
-      "pubDate": 1787246338000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "high",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "411496737",
       "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
       "titleZh": "使用LFM2.5-DSpark ，推理速度提高3.2倍",
@@ -569,27 +590,6 @@
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "-611972642",
-      "title": "Ramp launches its own AI model router, called Router",
-      "titleZh": "RAMP推出自己的AI模型路由器，名为Router",
-      "summary": "Ramp has launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between various large language models via an API.",
-      "link": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
-      "pubDate": 1787244360000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "high",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 25,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "1741439369",
