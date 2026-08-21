@@ -1,8 +1,29 @@
 {
-  "updated": "2026-08-21T13:26:56.721Z",
+  "updated": "2026-08-21T14:06:35.051Z",
   "count": 115,
   "sources": 12,
   "items": [
+    {
+      "id": "-932053064",
+      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "titleZh": "从雅达利到前夕在线：在15年游戏人工智能研究的基础上再接再厉",
+      "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+      "link": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "pubDate": 1787313588000,
+      "vendor": "deepmind",
+      "category": "Research",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 22,
+        "st": 15,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "DeepMind"
+    },
     {
       "id": "2019821398",
       "title": "DeepSeek says new AI model V4-Flash-Vision-Exp comes close to Anthropic's Opus 4.8",
@@ -13,13 +34,13 @@
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google News"
@@ -34,13 +55,13 @@
       "vendor": "deepseek",
       "category": "Release",
       "impact": "med",
-      "score": 65,
+      "score": 64,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google News"
@@ -2055,27 +2076,6 @@
         "cq": 20,
         "kv": 3,
         "cw": 25,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "DeepMind"
-    },
-    {
-      "id": "2109677188",
-      "title": "Our approach to bioresilience",
-      "titleZh": "我们的生物复原力方法",
-      "summary": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
-      "link": "https://deepmind.google/blog/our-approach-to-bioresilience/",
-      "pubDate": 1784194242000,
-      "vendor": "deepmind",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 15,
         "st": 15,
         "rc": 0,
         "cs": 1
