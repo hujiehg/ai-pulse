@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T14:06:35.051Z",
+  "updated": "2026-08-21T15:02:42.834Z",
   "count": 115,
   "sources": 12,
   "items": [
@@ -76,13 +76,13 @@
       "vendor": "qwen",
       "category": "Release",
       "impact": "high",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -559,13 +559,13 @@
       "vendor": "kimi",
       "category": "Safety",
       "impact": "high",
-      "score": 47,
+      "score": 46,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 3,
         "cw": 10,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -685,13 +685,13 @@
       "vendor": "venturebeat",
       "category": "Product",
       "impact": "high",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 5,
         "cw": 15,
         "st": 8,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "VentureBeat"
