@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T17:57:50.127Z",
+  "updated": "2026-08-21T18:25:16.670Z",
   "count": 116,
   "sources": 12,
   "items": [
@@ -97,13 +97,13 @@
       "vendor": "deepmind",
       "category": "Research",
       "impact": "med",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 22,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "DeepMind"
@@ -424,6 +424,27 @@
       "source": "TechCrunch"
     },
     {
+      "id": "-1628192312",
+      "title": "Measuring benchmark optimization in speech recognition",
+      "titleZh": "语音识别中的测量基准优化",
+      "summary": "Measuring benchmark optimization in speech recognition",
+      "link": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "pubDate": 1787270400000,
+      "vendor": "huggingface",
+      "category": "Research",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 1,
+        "cw": 22,
+        "st": 14,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
       "id": "-65454790",
       "title": "OpenAI is gaining on Anthropic with business users, new data indicates",
       "titleZh": "新数据显示， OpenAI正在通过业务用户在Anthropic上获益",
@@ -538,13 +559,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -1451,27 +1472,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "104119672",
-      "title": "Build Low-Latency Multilingual Voice Agents: Open Weights &amp; Full Deployment Control with NVIDIA Magpie TTS",
-      "titleZh": "构建低延迟多语言语音代理：使用NVIDIA Magpie TTS实现开放权重和全面部署控制",
-      "summary": "Build Low-Latency Multilingual Voice Agents: Open Weights Full Deployment Control with NVIDIA Magpie TTS",
-      "link": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
-      "pubDate": 1786379136000,
-      "vendor": "huggingface",
-      "category": "Agent",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 12,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
     },
     {
       "id": "-8260048",
