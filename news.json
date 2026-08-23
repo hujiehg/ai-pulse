@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T05:31:16.940Z",
+  "updated": "2026-08-23T05:57:10.932Z",
   "count": 107,
   "sources": 11,
   "items": [
@@ -109,27 +109,6 @@
       "source": "Google News"
     },
     {
-      "id": "-1297435364",
-      "title": "Beijing’s AGI Bar Serves Free DeepSeek Tokens Alongside the Drinks",
-      "titleZh": "Beijing’s AGI Bar Serves Free DeepSeek Tokens Alongside the Drinks",
-      "summary": "Beijing’s AGI Bar Serves Free DeepSeek Tokens Alongside the Drinks Technology Org",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOU1nXzVTSTkybmlXUS1hZDBETTVPaHZJMTNjMkcxdk5hdUhneHVKY3JLOC1yMmtlWXBjcUN3ZDhjWXpvdzIyYm9HQ25kSE5IY09UTC1lUUc5RW5rNUpSS3A3dmVQckxDT2ZxRW9tWmZBalJKbnpCU2VVcnZBVGoyWQ?oc=5",
-      "pubDate": 1787381100000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1451027144",
       "title": "Qwen 3.8 Closes the Reasoning Gap, but Agentic Coding Remains a US Stronghold",
       "titleZh": "Qwen 3.8缩小了推理差距，但代理编码仍然是美国的据点",
@@ -139,13 +118,13 @@
       "vendor": "qwen",
       "category": "Agent",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 3,
         "cw": 12,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -296,6 +275,27 @@
         "cs": 1
       },
       "source": "DeepMind"
+    },
+    {
+      "id": "2019821398",
+      "title": "DeepSeek says new AI model V4-Flash-Vision-Exp comes close to Anthropic's Opus 4.8",
+      "titleZh": "DeepSeek表示，新的人工智能模型V4-Flash-Vision-Exp接近Anthropic的Opus 4.8",
+      "summary": "DeepSeek says new AI model V4-Flash-Vision-Exp comes close to Anthropic's Opus 4.8 Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMGlsWVFFR18xYWZBQnkxN0ZSYThmZjY5cVJaZm5FTDJTVndUSmFpSXI5bE5aRVRKdGNGbE93WktSVzYxVU94LVE1QlJzM0RmN0cxTDd6RDJ5Ny0zVWUzbHdtTlIzSHdPcGp4UDNIb01iSDJBOEhvci1vbWgxZmdpZGEtM2c5dVRmSTU2VFpCSEE4ckRRSlZuT2ZVM2loYmNKR1k5TnlWYnNFbjRVVGxiNE5lZER5QmVMQkE?oc=5",
+      "pubDate": 1787312726000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-23763736",
@@ -676,10 +676,10 @@
       "source": "OpenAI"
     },
     {
-      "id": "723067561",
+      "id": "998841974",
       "title": "Why China’s Affordable AI Is a Worry for Silicon Valley",
       "titleZh": "Why China’s Affordable AI Is a Worry for Silicon Valley",
-      "summary": "Why China’s Affordable AI Is a Worry for Silicon Valley Bloomberg",
+      "summary": "Why China’s Affordable AI Is a Worry for Silicon Valley Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNHlXQnR2VElTbFIwRjFSbm5aVW4wdTJHWE9LdnAyLWZSbWh2WkF2R0J4d1Q1Y2xkenF3ZVU1WmlpX0w3dzQ0TEpRbHBRU2MzVUsta19LLTdQZk8zY2JsY3dVLVFMdWpPRmRuNHdGUGlwT0o0UElVSWNRQzd2bXMzSE8xVTd3Unl6dzREMEFCc0FPSFJRUllhU01aelRSdk14a292TTIteV9uQnpVYThGTDN6Y043SDI1M1E?oc=5",
       "pubDate": 1787025660000,
       "vendor": "google",
@@ -1285,6 +1285,27 @@
       "source": "Google News"
     },
     {
+      "id": "-2105140046",
+      "title": "Chinese AI Model Moonshot Kimi K3 Also Escaped Its Testing Environment",
+      "titleZh": "中国人工智能模型Moonshot Kimi K3也逃脱了测试环境",
+      "summary": "Chinese AI Model Moonshot Kimi K3 Also Escaped Its Testing Environment Engadget",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdHRWOHRscWZMMDI5N0ZWbV9NOG4xS01HazZ6RTdlSWJvcTNSWGFsaC01cDZDbEZGOEZrSUo1U3lfQjY5WUY4SVYyTjJTOVptMTBRSVBPSU43Y3oxWG1uNzZfWWRYYnBDUllzWVVoTlMwNEtxNXhaQ2N0d0gwZEFiVnB3dw?oc=5",
+      "pubDate": 1786086000000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "high",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "337400670",
       "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
       "titleZh": "WeatherNext ： AI模型在气旋预报方面取得突破",
@@ -1327,27 +1348,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-241689768",
-      "title": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
-      "titleZh": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
-      "summary": "One of China’s Most Powerful AI Models Has Also Escaped Containment WIRED",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzUHl5MU1HbXJUemVtQWI4MzVQYmtWaUhHU19SMUp3bnFEY1NGaTN0LVpibXhwUTFNamtZMFBuLTNmOFhsN2VMRXRGWU9yMFBLbVlFNkhKVTVNc3JtdXRnY093aDdWaUJhcVhaX2NTQkgxNFhPdWw1SQ?oc=5",
-      "pubDate": 1785999600000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1363628534",
       "title": "Kimi K3 from Moonshot AI is now available on Databricks through Unity AI Gateway",
       "titleZh": "来自Moonshot AI的Kimi K3现已通过Unity AI网关在Databricks上提供",
@@ -1363,6 +1363,27 @@
         "kv": 2,
         "cw": 15,
         "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-241689768",
+      "title": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
+      "titleZh": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
+      "summary": "One of China’s Most Powerful AI Models Has Also Escaped Containment WIRED",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzUHl5MU1HbXJUemVtQWI4MzVQYmtWaUhHU19SMUp3bnFEY1NGaTN0LVpibXhwUTFNamtZMFBuLTNmOFhsN2VMRXRGWU9yMFBLbVlFNkhKVTVNc3JtdXRnY093aDdWaUJhcVhaX2NTQkgxNFhPdWw1SQ?oc=5",
+      "pubDate": 1785999600000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
         "rc": 0,
         "cs": 1
       },
@@ -1483,27 +1504,6 @@
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1213350492",
-      "title": "US lawmakers investigate DoorDash’s use of Moonshot AI’s Kimi K2.6 model",
-      "titleZh": "US lawmakers investigate DoorDash’s use of Moonshot AI’s Kimi K2.6 model",
-      "summary": "US lawmakers investigate DoorDash’s use of Moonshot AI’s Kimi K2.6 model South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWlVnUFVUZTZ6ZWVnTElrblFhMVNfRHFhWXpLRjlzaWhtNUVmRFRSNFNxQzgwZXVGaUlOVGl2NmgtRTdrLW5GcXdjVjRuVnVZdXlPazYtdHIwMWZqcjBLWmNBaFBrWUh3T1Zqa3hxZlNyYU1Zc1dlMmpaVFR4ajhuc29KRlZHUGdxZ1dhQ2s1RGxyZVAtRlZMbWFIaXZacjFnZ200ODF1TzMzakczZHhMemhUbDdqUy1KX0RhRE1HVTdQd9IBwgFBVV95cUxORWdsQUZ5UVZBdDUzb1JJMndsbW1SUDdXcjJJSGdvb0dvRklzMlJkSUtKRWNRSHVac2Y0MmxjZWtiNzRWSEJ5TVp1dzR6RmJER0xKOEZzQ09vYW9qdXZnNWxOWVY2MFdnVlY2QkN2LU1Ja25SckJGdWQ5NWt4dGxMUHN5cTZZOFI5Z182bGVHLTM0NlFsN0ZLNExvT3RabFNtaUppdXcwTEFYRlRFZjRBeHEtbVg2bmpRVllfaVh3VDJPdw?oc=5",
-      "pubDate": 1785567600000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "high",
       "score": 57,
       "scoreBreakdown": {
         "cq": 20,
@@ -1873,27 +1873,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-1755971090",
-      "title": "Moonshot AI Suspends Kimi K3 Subscriptions After User Influx - Dividend Earnings Report",
-      "titleZh": "Moonshot AI在用户大量涌入后暂停Kimi K3订阅-股息收益报告",
-      "summary": "Moonshot AI Suspends Kimi K3 Subscriptions After User Influx - Dividend Earnings Report vinanet.vn",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcHlNWnJwbHFWVDQtWkxIWEFiUTVPd3ZkQUppYjVTQ1dKaFJsY0V2NGZrZG41MFp3d3hRQUR5Ui0ydmJOcmU1U1VfWkl6YVl2WU5TWVhKeFhYSXJlT1Y0QTB6bzJBSFpvREpNX1dRa0dyemRRZ0ZwUjVUVk5kOWZoT1dwb2tNa1BQcGMtVjZublM0MVFScmQzdmJxc1E1aW91S29wbA?oc=5",
-      "pubDate": 1784530800000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1263228432",
       "title": "Introducing Gemini 3.5 Flash Cyber",
       "titleZh": "隆重推出Gemini 3.5 Flash Cyber",
@@ -1913,6 +1892,27 @@
         "cs": 1
       },
       "source": "DeepMind"
+    },
+    {
+      "id": "170047455",
+      "title": "China's Moonshot AI Unveils Kimi K3 Model, Claims Rivalry with OpenAI and Anthropic - Earnings Acceleration Picks",
+      "titleZh": "中国的Moonshot AI推出Kimi K3车型，声称与OpenAI和Anthropic竞争-收益加速选择",
+      "summary": "China's Moonshot AI Unveils Kimi K3 Model, Claims Rivalry with OpenAI and Anthropic - Earnings Acceleration Picks vinanet.vn",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ0M2TGcxSkpZM2hqUXg3ZVZyMXFOV1RnMHRUSy1LeWY4YlFqQV83Ukl5T19VV3BtRS1Obkdqb3BUUWR3RnFicklRamdySEVYaV9kNVlGb2NTZHVyUXhHaFJzMDRZeE1ReG5HbGpDbThJZUNBY3lwa0dZa0VQOGhZTVRuX3c0c2hPVVJHb2JEMXRvenczaWpfV2pucEdfMV9pSW1PeEt3TUdNWno3UkVSVF80YzRyNl9wVHBMNFlmYw?oc=5",
+      "pubDate": 1784271600000,
+      "vendor": "kimi",
+      "category": "Release",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1093452510",
