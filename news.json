@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T12:28:40.773Z",
+  "updated": "2026-08-24T13:31:17.939Z",
   "count": 117,
   "sources": 12,
   "items": [
@@ -13,13 +13,13 @@
       "vendor": "qwen",
       "category": "Product",
       "impact": "high",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 6,
         "cw": 15,
         "st": 12,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google News"
@@ -34,13 +34,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -1105,13 +1105,13 @@
       "vendor": "google",
       "category": "Research",
       "impact": "med",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 1,
         "cw": 22,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google News"
