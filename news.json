@@ -1,8 +1,29 @@
 {
-  "updated": "2026-08-24T07:36:58.625Z",
-  "count": 106,
-  "sources": 11,
+  "updated": "2026-08-24T08:39:04.573Z",
+  "count": 116,
+  "sources": 12,
   "items": [
+    {
+      "id": "856866268",
+      "title": "Moonshot AI's Kimi K2.5 to Retire End of August; 2.8 Trillion-Parameter K3 Takes Over",
+      "titleZh": "Moonshot AI的Kimi K2.5将于8月底退役; 2.8万亿参数K3接管",
+      "summary": "Moonshot AI's Kimi K2.5 to Retire End of August; 2.8 Trillion-Parameter K3 Takes Over finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80Vkl5WWtmRE9TcHYxTUt5OEtVYzROTGV5YmVjTk9hYzVHLWM4ZkxETGpxNFhrUEpneFJrbERRbVhycDJGaWNhMmhhaTBUNExiZ2o4bzBoVWxqdkM5ZE9hV2N1eUdicm4zbEJDckpfN0NhM0VpSXc?oc=5",
+      "pubDate": 1787553644000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
     {
       "id": "-1024047954",
       "title": "Nvidia Is Coming for OpenAI and DeepSeek With $6 Billion Poolside Deal to Build a Powerful Open-Weight AI",
@@ -25,22 +46,232 @@
       "source": "Google News"
     },
     {
+      "id": "-1050954595",
+      "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
+      "titleZh": "SDAD ： AI-Native SDLC的规范驱动代理开发",
+      "summary": "arXiv:2608.20341v1 Announce Type: new Abstract: Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Softw…",
+      "link": "https://arxiv.org/abs/2608.20341",
+      "pubDate": 1787544000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 8,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "9223949",
+      "title": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
+      "titleZh": "PrimeAgentOrchestrator ：用于个人人工智能基础设施的内存配置代理生成",
+      "summary": "arXiv:2608.20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present P…",
+      "link": "https://arxiv.org/abs/2608.20342",
+      "pubDate": 1787544000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1369054636",
+      "title": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
+      "titleZh": "真相深藏：通过潜在意图验证反击语义伪装",
+      "summary": "arXiv:2608.20378v1 Announce Type: new Abstract: Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation…",
+      "link": "https://arxiv.org/abs/2608.20378",
+      "pubDate": 1787544000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1651274189",
+      "title": "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications",
+      "titleZh": "多式联运代理框架的基础和前沿调查：技术和应用",
+      "summary": "arXiv:2608.20379v1 Announce Type: new Abstract: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has produced agen…",
+      "link": "https://arxiv.org/abs/2608.20379",
+      "pubDate": 1787544000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "2005066431",
+      "title": "Interpretable Multimodal Classification with Linear Discriminant Tree Ensembles",
+      "titleZh": "使用线性判别树集成的可解释多模态分类",
+      "summary": "arXiv:2608.20384v1 Announce Type: new Abstract: Multimodal affect and behaviour classifiers that fuse heterogeneous text, audio, and visual streams must simultaneously achieve competitive accuracy and…",
+      "link": "https://arxiv.org/abs/2608.20384",
+      "pubDate": 1787544000000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 15,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1222097536",
+      "title": "Representation Affects Retrieval: A Case Study of Skill Discovery and Routing in a Multimodal Agent Harness",
+      "titleZh": "表示影响检索：多式联运座席线束中的技能发现和路由案例研究",
+      "summary": "arXiv:2608.20389v1 Announce Type: new Abstract: A production agent harness must discover and rank, from a growing library of skills, the one most appropriate for a user's task. At small scale this sel…",
+      "link": "https://arxiv.org/abs/2608.20389",
+      "pubDate": 1787544000000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 5,
+        "cw": 15,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "365566289",
+      "title": "Nexus: Depth-Adaptive KV-Cache Splicing and Retrieval-Decoupled Tool Routing for Agentic LLMs on Unified Memory",
+      "titleZh": "Nexus ：用于统一内存上的Agentic LLM的深度自适应KV缓存拼接和检索-解耦工具路由",
+      "summary": "arXiv:2608.20397v1 Announce Type: new Abstract: Agentic large language models (LLMs) on the Model Context Protocol (MCP) re-encode verbose tool schemas every turn, so prefill - quadratic in sequence l…",
+      "link": "https://arxiv.org/abs/2608.20397",
+      "pubDate": 1787544000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1609636888",
+      "title": "Environmental Slow AI: Design Principles for Generative Systems",
+      "titleZh": "环境慢AI ：生成系统的设计原则",
+      "summary": "arXiv:2608.20398v1 Announce Type: new Abstract: Generative AI (genAI) systems produce cultural artefacts at scale, but they also reflect embedded cultural values through their design. Once identified,…",
+      "link": "https://arxiv.org/abs/2608.20398",
+      "pubDate": 1787544000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1147914351",
+      "title": "When Retrieval Fails Before It Begins: Structurally Indirect Prerequisite Eviction as a Retention Failure in Agentic Memory",
+      "titleZh": "当检索在开始之前失败时：结构间接的前提条件驱逐作为代理内存中的保留失败",
+      "summary": "arXiv:2608.20400v1 Announce Type: new Abstract: Agentic memory under a fixed budget involves two stages: retention and retrieval. Existing retrieval-centered paradigms implicitly assume necessary evid…",
+      "link": "https://arxiv.org/abs/2608.20400",
+      "pubDate": 1787544000000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 6,
+        "cw": 25,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "592196117",
+      "title": "World models of environment, agent and joint agent-environment systems",
+      "titleZh": "环境、代理和联合代理-环境系统的世界模型",
+      "summary": "arXiv:2608.20401v1 Announce Type: new Abstract: World models are a central component of model-based reinforcement learning. They are usually discussed in terms of what variables they predict, such as …",
+      "link": "https://arxiv.org/abs/2608.20401",
+      "pubDate": 1787544000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
       "id": "1991645773",
       "title": "Kimi K3 Pushes Open-Source Models to the Frontier's Doorstep",
       "titleZh": "Kimi K3将开源模型推向前沿",
       "summary": "Kimi K3 Pushes Open-Source Models to the Frontier's Doorstep Pandaily",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81UGZmTllhR3pIYy16TGxJbS1qaDJHYTBCOGs3SHA4Qm1oY3RCRDIxd0M4M295UFczOWVSRGRPTC1jbi1iaU54cFdjMXU5d0VvV1N6SjVLdlIzWk5hSVBCZE9uQmpmb2dLVjBBbWRlNm5QWUgw?oc=5",
-      "pubDate": 1787537146000,
+      "pubDate": 1787537124000,
       "vendor": "kimi",
       "category": "Research",
       "impact": "high",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -916,13 +1147,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
         "cw": 15,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google AI"
@@ -949,10 +1180,10 @@
       "source": "Google News"
     },
     {
-      "id": "-1499710693",
+      "id": "812540910",
       "title": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google",
       "titleZh": "阿里巴巴AI模型下载量突破30亿，通过Meta ，谷歌",
-      "summary": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google Bloomberg",
+      "summary": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNkdXS05xRW1WQ2ItQmhUZEd1SVowVkJISVhwQ1Z5STF5dnJkV2pVRmExN1JoLXNEMkZKdGV1eGZnWnVvV2I1QllUZ3JJTktoeFdKa3JtY3NSMFlBRUYta3k5d2RJdnFzVUJIMGVGY2V0SThGTG94SlEzMl9KQWRsZkduN0RycGx1SjBGOVViQVNvbXE4TS1WdTU2MGhLNjhZLUtUVHM2WVF3ZGZKalBmOURR?oc=5",
       "pubDate": 1786785366000,
       "vendor": "google",
@@ -1243,48 +1474,6 @@
       "source": "Google AI"
     },
     {
-      "id": "1375271958",
-      "title": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say",
-      "titleZh": "研究人员表示，中国人工智能模型Kimi逃脱了网络安全测试环境",
-      "summary": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX2NpajBveEZEMlMxOS1TVjlwaDZJYmVmWU1EZnZHbTJBaHZWbkxYdG44aF92TkZ3MW9RUlM2dWlFTFMtTGZXb1R1a0oydzE0YU81WHh4S1pHd3JOaDd5OW5BT1Y4VWItaVBZekVYcFM2T2dMNWlBSjU0eGpnaXJOeDE0bkJSNDFKaVhmdFE5WFMzVEZYWG1BWGJmc1FENl9haTFBdTVFNVRzRVNzS0ZsNUtyQ1ZvdjFWbmc?oc=5",
-      "pubDate": 1786086000000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-2105140046",
-      "title": "Chinese AI Model Moonshot Kimi K3 Also Escaped Its Testing Environment",
-      "titleZh": "中国人工智能模型Moonshot Kimi K3也逃脱了测试环境",
-      "summary": "Chinese AI Model Moonshot Kimi K3 Also Escaped Its Testing Environment Engadget",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdHRWOHRscWZMMDI5N0ZWbV9NOG4xS01HazZ6RTdlSWJvcTNSWGFsaC01cDZDbEZGOEZrSUo1U3lfQjY5WUY4SVYyTjJTOVptMTBRSVBPSU43Y3oxWG1uNzZfWWRYYnBDUllzWVVoTlMwNEtxNXhaQ2N0d0gwZEFiVnB3dw?oc=5",
-      "pubDate": 1786086000000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "high",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1919882972",
       "title": "Chinese startup Moonshot's AI model breaks out of testing environment, researchers say",
       "titleZh": "研究人员表示，中国初创公司Moonshot的人工智能模型打破了测试环境",
@@ -1298,6 +1487,27 @@
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1375271958",
+      "title": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say",
+      "titleZh": "研究人员表示，中国人工智能模型Kimi逃脱了网络安全测试环境",
+      "summary": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX2NpajBveEZEMlMxOS1TVjlwaDZJYmVmWU1EZnZHbTJBaHZWbkxYdG44aF92TkZ3MW9RUlM2dWlFTFMtTGZXb1R1a0oydzE0YU81WHh4S1pHd3JOaDd5OW5BT1Y4VWItaVBZekVYcFM2T2dMNWlBSjU0eGpnaXJOeDE0bkJSNDFKaVhmdFE5WFMzVEZYWG1BWGJmc1FENl9haTFBdTVFNVRzRVNzS0ZsNUtyQ1ZvdjFWbmc?oc=5",
+      "pubDate": 1786086000000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
         "cw": 22,
         "st": 12,
         "rc": 0,
@@ -1369,27 +1579,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-241689768",
-      "title": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
-      "titleZh": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
-      "summary": "One of China’s Most Powerful AI Models Has Also Escaped Containment WIRED",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzUHl5MU1HbXJUemVtQWI4MzVQYmtWaUhHU19SMUp3bnFEY1NGaTN0LVpibXhwUTFNamtZMFBuLTNmOFhsN2VMRXRGWU9yMFBLbVlFNkhKVTVNc3JtdXRnY093aDdWaUJhcVhaX2NTQkgxNFhPdWw1SQ?oc=5",
-      "pubDate": 1785999600000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1363628534",
       "title": "Kimi K3 from Moonshot AI is now available on Databricks through Unity AI Gateway",
       "titleZh": "来自Moonshot AI的Kimi K3现已通过Unity AI网关在Databricks上提供",
@@ -1405,6 +1594,27 @@
         "kv": 2,
         "cw": 15,
         "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-241689768",
+      "title": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
+      "titleZh": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
+      "summary": "One of China’s Most Powerful AI Models Has Also Escaped Containment WIRED",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzUHl5MU1HbXJUemVtQWI4MzVQYmtWaUhHU19SMUp3bnFEY1NGaTN0LVpibXhwUTFNamtZMFBuLTNmOFhsN2VMRXRGWU9yMFBLbVlFNkhKVTVNc3JtdXRnY093aDdWaUJhcVhaX2NTQkgxNFhPdWw1SQ?oc=5",
+      "pubDate": 1785999600000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
         "rc": 0,
         "cs": 1
       },
