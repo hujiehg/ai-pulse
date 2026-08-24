@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T06:02:26.243Z",
+  "updated": "2026-08-24T07:36:58.625Z",
   "count": 106,
   "sources": 11,
   "items": [
@@ -13,13 +13,13 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "high",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 3,
         "cw": 15,
         "st": 12,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google News"
@@ -485,27 +485,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "1624705325",
-      "title": "DeepSeek | Rise, Technologies, Impact, &amp; Global Response",
-      "titleZh": "DeepSeek |崛起、技术、影响和全球响应",
-      "summary": "DeepSeek | Rise, Technologies, Impact, Global Response Encyclopedia Britannica",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE14aVZsR1psY1J4VTdFSHZJOXh2b3B2cjItM1B3M2IybnJRMzR5OU9HMFRmYTlTbVpuY3ZUX1FDYTh4cDlFdVZHZkgyam1nUXVBN2pF?oc=5",
-      "pubDate": 1787209200000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "728380654",
@@ -1003,6 +982,27 @@
       "score": 55,
       "scoreBreakdown": {
         "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "235311960",
+      "title": "DeepSeek Lifts AI Model Prices Fourfold",
+      "titleZh": "DeepSeek将AI模型价格提高了四倍",
+      "summary": "DeepSeek Lifts AI Model Prices Fourfold WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQd0hZUGVrZmdGTmVpTkVseXpHNzFmZ1cxaUdrT0I0Q1ZVYjFlVnZPdDFUZkV4RWdjMEpoUGxyQ0xEeHJ2VWVKZ0ZLZHc4bURlcEJyVWpUaWZXT0xqR3ljTmZXLXJjZ3FDaHFmRkVkanF1MHhRTlU3dTRtLWxJbDBFVTVB?oc=5",
+      "pubDate": 1786690800000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 14,
         "kv": 2,
         "cw": 22,
         "st": 12,
