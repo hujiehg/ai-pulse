@@ -1,8 +1,71 @@
 {
-  "updated": "2026-08-24T17:05:08.072Z",
+  "updated": "2026-08-24T17:56:56.804Z",
   "count": 107,
   "sources": 11,
   "items": [
+    {
+      "id": "1750493489",
+      "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
+      "titleZh": "Valor ， Point72回归General Intuition ，估值为$ 6B ，因为人工智能初创公司进军机器人领域",
+      "summary": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from new inves…",
+      "link": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
+      "pubDate": 1787585058000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "high",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 20,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "2110332348",
+      "title": "OpenAI is building AI agents for everything. Will everyone use them?",
+      "titleZh": "OpenAI正在为所有事物构建人工智能代理。大家都会用吗？",
+      "summary": "Inside the frontier lab’s push to bring AI agents from software engineers to the masses.",
+      "link": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
+      "pubDate": 1787583600000,
+      "vendor": "techcrunch",
+      "category": "Agent",
+      "impact": "med",
+      "score": 41,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 12,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "675786411",
+      "title": "Hugging Face reportedly in talks to be acquired for $13B",
+      "titleZh": "据报道， Hugging Face正在进行谈判，将以130亿美元的价格收购",
+      "summary": "Hugging Face has reportedly been fielding acquisition offers that would value the company at around $13B. But with the founders' feeling of responsibility to community, doubts arise as to whether a sa…",
+      "link": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
+      "pubDate": 1787579246000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "high",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "269181425",
       "title": "Alibaba launches AI video model Wan 3.0 after Qwen beats Gemini and ChatGPT in coding",
@@ -466,27 +529,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "-1706441715",
-      "title": "Frontier AI labs still won’t say how they’d contain a rogue model",
-      "titleZh": "Frontier AI labs still won’t say how they’d contain a rogue model",
-      "summary": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially…",
-      "link": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
-      "pubDate": 1787414400000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "-1451027144",
       "title": "Qwen 3.8 Closes the Reasoning Gap, but Agentic Coding Remains a US Stronghold",
       "titleZh": "Qwen 3.8缩小了推理差距，但代理编码仍然是美国的据点",
@@ -506,48 +548,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "1984037198",
-      "title": "Anthropic’s Opus 4.6 is a smut-machine",
-      "titleZh": "Anthropic’s Opus 4.6 is a smut-machine",
-      "summary": "Anthropic forbids its Claude models from generating sexually explicit content. But a series of tests conducted by TechCrunch found that it didn't take much to get past the restriction.",
-      "link": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
-      "pubDate": 1787353645000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 3,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1098494687",
-      "title": "Nvidia partners with data center developer Cloverleaf",
-      "titleZh": "英伟达与数据中心开发商Cloverleaf合作",
-      "summary": "Nvidia continues to pour money into data center development — just as AI data centers bring lots of money into Nvidia.",
-      "link": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
-      "pubDate": 1787351858000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "-1552308517",
