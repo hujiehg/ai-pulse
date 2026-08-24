@@ -1,8 +1,29 @@
 {
-  "updated": "2026-08-24T17:56:56.804Z",
+  "updated": "2026-08-24T18:27:11.131Z",
   "count": 107,
   "sources": 11,
   "items": [
+    {
+      "id": "-39583581",
+      "title": "Chinese Hackers Use DeepSeek to Boost Attacks, Researchers Say",
+      "titleZh": "研究人员称，中国黑客使用DeepSeek来增强攻击",
+      "summary": "Chinese Hackers Use DeepSeek to Boost Attacks, Researchers Say Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUzhVcmx3UnRJMGN0SmJRclJnZTlrWnh2c0t4Nm5kQ1g4YWNvQVJScXVTZjNldm03VmdLdHp2Y1p6d3pJZUZoM01tQlBENlFMRGJQcm9hMEI5LVJtQ29yOGdaUnFxekg5X3BCXzdPNWJxQlpPclNiT3VYaDVqY2dCWDVTbGRHWlpoSTk3c2FPWHZPWmxtNXIzNUNLOC1VWGhtQTlxeEk1YWRxWHZ4dGhkMkJn?oc=5",
+      "pubDate": 1787591629000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
     {
       "id": "1750493489",
       "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
@@ -67,6 +88,48 @@
       "source": "TechCrunch"
     },
     {
+      "id": "2073634869",
+      "title": "AI Weekly: Codex Growth Overtakes Claude Code; DeepSeek Quietly Launches Vision Model",
+      "titleZh": "《人工智能周刊》： Codex增长超越Claude代码； DeepSeek悄然推出愿景模型",
+      "summary": "AI Weekly: Codex Growth Overtakes Claude Code; DeepSeek Quietly Launches Vision Model finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02dlFiYVh5emEzZjNBdlJZN3BqRWtraVJ3T2kwYXdVajJHZmh6MGszSk1ydmJmVDlaV254WjFlSjRlZHdGYkhvc0Mtd3pKV212Y1NQSk0xVURtM2VIbGFqamozaERCTVFNcm91RDZDMndzTEE1SUE?oc=5",
+      "pubDate": 1787578500000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 70,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 6,
+        "cw": 25,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "198360427",
+      "title": "Nvidia Fires a $7 Billion Warning Shot at OpenAI, DeepSeek and Kimi With Poolside Deal: Report (UPDATED)",
+      "titleZh": "英伟达通过池畔交易向OpenAI、DeepSeek和Kimi发出70亿美元的警告：报告（更新）",
+      "summary": "Nvidia Fires a $7 Billion Warning Shot at OpenAI, DeepSeek and Kimi With Poolside Deal: Report (UPDATED) Benzinga",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLVNLVjRGZ3lWZnlMdG1XbkVNLTFCcDZQY1RxVGFxX0NGYmd1UXdtN2lQX0RJT0l5c216bjhuUTJReXpsMF90Nmx2bFZVNG1sT2JWNTh4bGs2ek5KR1Q3eFZRLXJEVzZCb19YV0dqSmhVb3c3MUNxcWMwS0c2SzRGM00wbExmcE5taTllWU1CUFl5bmlMLTBEcUZZXzVRNU1NeF9ETHV3?oc=5",
+      "pubDate": 1787577420000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 3,
+        "cw": 15,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "269181425",
       "title": "Alibaba launches AI video model Wan 3.0 after Qwen beats Gemini and ChatGPT in coding",
       "titleZh": "Qwen在编码方面击败Gemini和ChatGPT后，阿里巴巴推出AI视频模型Wan 3.0",
@@ -101,27 +164,6 @@
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1024047954",
-      "title": "Nvidia Is Coming for OpenAI and DeepSeek With $6 Billion Poolside Deal to Build a Powerful Open-Weight AI",
-      "titleZh": "英伟达将以60亿美元的池畔交易收购OpenAI和DeepSeek ，以构建强大的开放式人工智能",
-      "summary": "Nvidia Is Coming for OpenAI and DeepSeek With $6 Billion Poolside Deal to Build a Powerful Open-Weight AI Benzinga",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLVNLVjRGZ3lWZnlMdG1XbkVNLTFCcDZQY1RxVGFxX0NGYmd1UXdtN2lQX0RJT0l5c216bjhuUTJReXpsMF90Nmx2bFZVNG1sT2JWNTh4bGs2ek5KR1Q3eFZRLXJEVzZCb19YV0dqSmhVb3c3MUNxcWMwS0c2SzRGM00wbExmcE5taTllWU1CUFl5bmlMLTBEcUZZXzVRNU1NeF9ETHV3?oc=5",
-      "pubDate": 1787545315000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "high",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 3,
         "cw": 15,
         "st": 12,
         "rc": 3,
@@ -338,27 +380,6 @@
         "cs": 1
       },
       "source": "arXiv"
-    },
-    {
-      "id": "1137806027",
-      "title": "Meta AI vs Perplexity vs DeepSeek: 130M vs 45M Users [2026] - tech",
-      "titleZh": "Meta AI vs Perplexity vs DeepSeek ： 1.3亿vs 4500万用户[2026] -科技",
-      "summary": "Meta AI vs Perplexity vs DeepSeek: 130M vs 45M Users [2026] tech-insider.org",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5GODNHVFRJN2JFbUw0d0s0WVhUcDUzWmZyWkgxVF9MdkxncHdPSGFET0YycThlckZiVzFoQWNhMlJJOXUzMWg5a0htcnlfV0phRlBtX3lvdG5OYTZSdnJuMVZmaDZPVkZXMERnSkNPMlpld25NX0E?oc=5",
-      "pubDate": 1787520714000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-42716154",
@@ -739,27 +760,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "728380654",
-      "title": "The Open-Sourcing of DeepSeek Harness Opens the Door to Modular, Unbundled AI Agent Infrastructure",
-      "titleZh": "DeepSeek线束的开源为模块化、非捆绑式AI Agent基础设施打开了大门",
-      "summary": "The Open-Sourcing of DeepSeek Harness Opens the Door to Modular, Unbundled AI Agent Infrastructure infoq.com",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBEdEF3TWc0c2lRc3BaOWdWM21zMk1vVWNvdTVKYVRmbUNyY2tEYnhpVkdhanpLc183NUJrbjhtLXY4WXdGcVhiUDdxYm5nU2tmUXNkWVFOTHNoMHFaLU1NQ28tdw?oc=5",
-      "pubDate": 1787202398000,
-      "vendor": "deepseek",
-      "category": "Agent",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 12,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1785538471",
       "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
       "titleZh": "Stampli使用ChatGPT Work将发布时间缩短了68%",
@@ -1084,13 +1084,13 @@
       "vendor": "qwen",
       "category": "Research",
       "impact": "med",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google News"
