@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T18:26:12.921Z",
+  "updated": "2026-08-25T19:08:51.874Z",
   "count": 117,
   "sources": 12,
   "items": [
@@ -76,13 +76,13 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 41,
+      "score": 40,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 12,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -149,6 +149,48 @@
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "-1513614047",
+      "title": "The full stack behind abundant intelligence",
+      "titleZh": "丰富智慧背后的全栈",
+      "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+      "link": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "pubDate": 1787641500000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "-1502302600",
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "titleZh": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "link": "https://openai.com/index/jalapeno-first-results",
+      "pubDate": 1787641200000,
+      "vendor": "openai",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
     },
     {
       "id": "-178049293",
@@ -417,6 +459,27 @@
         "cq": 18,
         "kv": 0,
         "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "2145206586",
+      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+      "titleZh": "ChatGPT Work和Codex管理插件简介",
+      "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
+      "link": "https://openai.com/index/introducing-admin-plugin",
+      "pubDate": 1787616000000,
+      "vendor": "openai",
+      "category": "Release",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 25,
         "st": 15,
         "rc": 3,
         "cs": 1
@@ -1012,27 +1075,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "-1486992197",
-      "title": "Strengthening democratic oversight in national security",
-      "titleZh": "加强国家安全民主监督",
-      "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
-      "link": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-      "pubDate": 1787079600000,
-      "vendor": "openai",
-      "category": "Release",
-      "impact": "high",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 25,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "-469415874",
       "title": "How Much Memory Does Your Agent Actually Need?",
       "titleZh": "您的客服代表实际需要多少内存？",
@@ -1073,48 +1115,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-1767452105",
-      "title": "Partnering with CodeAI to prepare the first AI generation",
-      "titleZh": "与CodeAI合作，准备第一代人工智能",
-      "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
-      "link": "https://openai.com/index/partnering-with-codeai",
-      "pubDate": 1787050800000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "1804872271",
-      "title": "Pacing model development in an era of cyber-critical capabilities",
-      "titleZh": "网络关键能力时代的起搏模型开发",
-      "summary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
-      "link": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "pubDate": 1787050800000,
-      "vendor": "openai",
-      "category": "Safety",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 10,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "OpenAI"
     },
     {
       "id": "-1360393801",
