@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T05:57:02.318Z",
+  "updated": "2026-08-25T06:30:23.991Z",
   "count": 107,
   "sources": 11,
   "items": [
@@ -55,13 +55,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -296,27 +296,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "856866268",
-      "title": "Moonshot AI's Kimi K2.5 to Retire End of August; 2.8 Trillion-Parameter K3 Takes Over",
-      "titleZh": "Moonshot AI的Kimi K2.5将于8月底退役; 2.8万亿参数K3接管",
-      "summary": "Moonshot AI's Kimi K2.5 to Retire End of August; 2.8 Trillion-Parameter K3 Takes Over finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80Vkl5WWtmRE9TcHYxTUt5OEtVYzROTGV5YmVjTk9hYzVHLWM4ZkxETGpxNFhrUEpneFJrbERRbVhycDJGaWNhMmhhaTBUNExiZ2o4bzBoVWxqdkM5ZE9hV2N1eUdicm4zbEJDckpfN0NhM0VpSXc?oc=5",
-      "pubDate": 1787553360000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1050954595",
@@ -674,6 +653,27 @@
         "cs": 1
       },
       "source": "DeepMind"
+    },
+    {
+      "id": "782138679",
+      "title": "Alibaba Ships Qwen App Update and Puts Wan 3.0 Into Public Test, With One Eye on Enterprise Buyers",
+      "titleZh": "阿里巴巴发布Qwen App更新并公开测试Wan 3.0 ，只关注企业买家",
+      "summary": "Alibaba Ships Qwen App Update and Puts Wan 3.0 Into Public Test, With One Eye on Enterprise Buyers Pandaily",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaVNZRHBBUzhBSzJsTVBYbnowTk1aci1vRWZZMFR5OE4wSGltS2xJRzBoMGViV1hySjQ5OUlTYS1KRkdkTWZmT1ROMGZocFhKVDAtVXNyb2J1NXJzVDJhRTMxN2tSRU5OUWtsV3BybDNoSzBJTUVpMGxueHVxbkUwQm9NOFJuWnIwc3lB?oc=5",
+      "pubDate": 1787309075000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "758870532",
@@ -1159,27 +1159,6 @@
       "source": "Google AI"
     },
     {
-      "id": "-708493724",
-      "title": "Alibaba’s open-source AI model Qwen overtakes Meta, Google to claim top spot globally: report",
-      "titleZh": "Alibaba’s open-source AI model Qwen overtakes Meta, Google to claim top spot globally: report",
-      "summary": "Alibaba’s open-source AI model Qwen overtakes Meta, Google to claim top spot globally: report Global Times",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBENmJOcWJDcGR0blh0cDlCQkk1bmw4a0s1NGZ3TVphR1A0bU1YWlBJbVFfaWFpc1dLeU1JQWJmNjZlN0F3ZmRSR3VZc0w2Z2w4dWpsdlpKWTJFTzZYdzRXRUxn?oc=5",
-      "pubDate": 1786867020000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-991096918",
       "title": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google",
       "titleZh": "阿里巴巴AI模型下载量突破30亿，通过Meta ，谷歌",
@@ -1474,6 +1453,27 @@
       "source": "Google News"
     },
     {
+      "id": "-1033415691",
+      "title": "Apple says Mac users in China can connect to Alibaba's Qwen AI service",
+      "titleZh": "苹果表示，中国的Mac用户可以连接到阿里巴巴的Qwen AI服务",
+      "summary": "Apple says Mac users in China can connect to Alibaba's Qwen AI service Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbXVFWnRmd080YXVJQl95andMTEs4bzBySU9OUzFROUdVcVU5UUtjMFF1LVY3WWNEMTZ3di1hM203OUhjQ2d6MFF0NlNWcUdJUndQZXlBWmRXZVhXc2RnSVdORFdmVEZFTWFkNnVVSjVOZFV4NDFkcVo3Z1VramQ5NUZPSkhJclk4R2tuVEtVRzJRNkVmYXhSeTk5NmJ5d0JIRkdSQ1RVR1NnOG5hdmJON0Zlb2t4QV82SWhvZkhWbS1PZw?oc=5",
+      "pubDate": 1786172400000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "1375271958",
       "title": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say",
       "titleZh": "研究人员表示，中国人工智能模型Kimi逃脱了网络安全测试环境",
@@ -1508,6 +1508,27 @@
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-2105140046",
+      "title": "Chinese AI Model Moonshot Kimi K3 Also Escaped Its Testing Environment",
+      "titleZh": "中国人工智能模型Moonshot Kimi K3也逃脱了测试环境",
+      "summary": "Chinese AI Model Moonshot Kimi K3 Also Escaped Its Testing Environment Engadget",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdHRWOHRscWZMMDI5N0ZWbV9NOG4xS01HazZ6RTdlSWJvcTNSWGFsaC01cDZDbEZGOEZrSUo1U3lfQjY5WUY4SVYyTjJTOVptMTBRSVBPSU43Y3oxWG1uNzZfWWRYYnBDUllzWVVoTlMwNEtxNXhaQ2N0d0gwZEFiVnB3dw?oc=5",
+      "pubDate": 1786086000000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "high",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
         "cw": 22,
         "st": 12,
         "rc": 0,
@@ -1724,27 +1745,6 @@
         "cs": 1
       },
       "source": "Google AI"
-    },
-    {
-      "id": "-1142309809",
-      "title": "Alibaba Adds to China AI Breakthroughs With New Qwen Model",
-      "titleZh": "阿里巴巴推出Qwen新车型助力中国人工智能突破",
-      "summary": "Alibaba Adds to China AI Breakthroughs With New Qwen Model Bloomberg",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWjlHM1ZsVFZ2VWZiRG4xcTd3aWdrU2U2SEwySXh3RWxPYWhBSlM0MTU2M2M3dlVDTnN5TDVUUkJvUGw5WXczVlB0ZzBPMk5NTjhOWkwwcGRHYWk4MGVUdjhRNUc5NXFkN1BFSHdrVnJtM0ZXSDNwM3phcnA5WE1LWjMwbUVhRHV2YUl2SmFBUVZUbXNTQ0EtZVBXRHhoSjlobzJuOWk4SnJvalVfZTdaWkVtRHdjN21v?oc=5",
-      "pubDate": 1785740400000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "615752399",
