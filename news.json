@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T19:08:51.874Z",
+  "updated": "2026-08-25T19:55:18.277Z",
   "count": 117,
   "sources": 12,
   "items": [
@@ -23,6 +23,27 @@
         "cs": 1
       },
       "source": "Google AI"
+    },
+    {
+      "id": "1481393797",
+      "title": "Granite 4.2 LLMs: How They're Built",
+      "titleZh": "Granite 4.2 LLM ：如何构建",
+      "summary": "Granite 4.2 LLMs: How They're Built",
+      "link": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "pubDate": 1787670854000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 41,
+      "scoreBreakdown": {
+        "cq": 7,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "HuggingFace"
     },
     {
       "id": "-403995766",
@@ -529,27 +550,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "238748322",
-      "title": "China’s Hackers Use DeepSeek for Attacks, Researchers Say",
-      "titleZh": "China’s Hackers Use DeepSeek for Attacks, Researchers Say",
-      "summary": "China’s Hackers Use DeepSeek for Attacks, Researchers Say Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZEpqTmlyY1RnNmtHTEJVXzBnb0IyaU9FdHdQbnlOSTI1cVg3YW1rbzdrU2NyWjR6YmowOG1pemFmSnZaZ1lMY24tWUIzQTRWMUVDUmFFeVVncWVjM3p1VFAxWGVjTzkyTXRiMURPYTlFU0FQV19UQlU4a01JZU8tUmt4c29oNUdRUUQ3WVVUUkNWRjRkdU0xSG52VWI2UDVQQ3YxQXA5Qm9XSGZUblozcFVETEhHQ0lBSW5ZcExn?oc=5",
-      "pubDate": 1787601621000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-296054528",
       "title": "Amjad Masad, CEO and co-founder of Replit, joins the Disrupt Stage at TechCrunch Disrupt 2026",
       "titleZh": "Replit首席执行官兼联合创始人Amjad Masad加入TechCrunch Disrupt 2026的颠覆阶段",
@@ -576,7 +576,7 @@
       "titleZh": "中国黑客使用DeepSeek AI来加强攻击",
       "summary": "Chinese hackers use DeepSeek AI to boost attacks Investing.com",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSGg3WTE3TGdhd01MME1ROXYtY2lxbGJuSjJtT3Z2Zi1oZlcwMXg3NFZHSkU5MGE3bHlYSjJZSHJ1Q2Vla0pRcWw4d3dLaEhTV1VlV2g5Ukc2Wk56WHJCN2lBS3Vtd2h6WXF0dm5wckFEUjZveWpwZnYxVW9kM1FvYzBMNnNlX0NaWFVmbU4zTVd0enFwdnFleWJpX0JwUnU1NmdWdWNveFQ?oc=5",
-      "pubDate": 1787595734000,
+      "pubDate": 1787596008000,
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
@@ -611,6 +611,27 @@
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "1457384779",
+      "title": "Chinese Hackers Use DeepSeek to Boost Attacks, Researchers Say",
+      "titleZh": "研究人员称，中国黑客使用DeepSeek来增强攻击",
+      "summary": "Chinese Hackers Use DeepSeek to Boost Attacks, Researchers Say Bloomberg",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOT2E1YTlxSExtTk53U3V5bmVUUTQ5YWc5YzZEZVJ3UHdwcFhmNldMWTMwWUljX3ZZTzZLZ0NMVHVQcXRsUm1IN0JBZEVLbHIya1hFUjBHY2s5ckZ2RUJWRWEtZi1uXzVMNXpKc2ZaWWRmaG9GYWlVTGhkSlA3OVBpdF9zS0NNVHcwM2tSeVpyZHYwa2stYWRGZFJ6dHhGaWhySkFxanlBMDExYkdFUWU5V21tQ0xRaVpGXzNtSDBhVTdYUTVCdmlEcE1nTXl4dw?oc=5",
+      "pubDate": 1787591629000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "1750493489",
@@ -1299,27 +1320,6 @@
         "cq": 9,
         "kv": 0,
         "cw": 22,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
-      "id": "-1804326395",
-      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-      "titleZh": "使用Strands Agent、LeRobot和Hugging Face Storage Buckets从一个地方记录、训练和部署",
-      "summary": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-      "link": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-      "pubDate": 1786641364000,
-      "vendor": "huggingface",
-      "category": "Agent",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 12,
         "st": 14,
         "rc": 0,
         "cs": 1
