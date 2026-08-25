@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T13:29:03.493Z",
+  "updated": "2026-08-25T14:14:51.608Z",
   "count": 117,
   "sources": 12,
   "items": [
@@ -13,13 +13,13 @@
       "vendor": "huggingface",
       "category": "Research",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 22,
         "st": 14,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -256,27 +256,6 @@
       "source": "arXiv"
     },
     {
-      "id": "1227385309",
-      "title": "Deepseek ‘AI of choice’ for hackers, who use it to boost attacks, say researchers",
-      "titleZh": "Deepseek ‘AI of choice’ for hackers, who use it to boost attacks, say researchers",
-      "summary": "Deepseek ‘AI of choice’ for hackers, who use it to boost attacks, say researchers The Business Times",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUzZPS1BuaExJNTRObFhSNVd0RlhhTy1hOGpCY2JDNlJ6Vk9RNklCZDFTbnhCVFpUamljMk5RTHRvdGUzUGZ0LVRWbURBNUgxYlREXzJmWWJpQU9JZG52ZE1xX1lEbjZxV0Z0VXRza29wWG80cWthaGFUdzZwU0dFSzltUkM2MUpTUTlqMjFwSUt1LWNGVW51dDhfODMxenFfOWhEd29RR1k2NEdpcUk3QXpqUlc?oc=5",
-      "pubDate": 1787622960000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1910627899",
       "title": "Chinese State Hackers Doubled Their Attack Volume Using DeepSeek AI",
       "titleZh": "使用DeepSeek AI的中国国家黑客的攻击量翻了一番",
@@ -382,27 +361,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "238748322",
-      "title": "China’s Hackers Use DeepSeek for Attacks, Researchers Say",
-      "titleZh": "China’s Hackers Use DeepSeek for Attacks, Researchers Say",
-      "summary": "China’s Hackers Use DeepSeek for Attacks, Researchers Say Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZEpqTmlyY1RnNmtHTEJVXzBnb0IyaU9FdHdQbnlOSTI1cVg3YW1rbzdrU2NyWjR6YmowOG1pemFmSnZaZ1lMY24tWUIzQTRWMUVDUmFFeVVncWVjM3p1VFAxWGVjTzkyTXRiMURPYTlFU0FQV19UQlU4a01JZU8tUmt4c29oNUdRUUQ3WVVUUkNWRjRkdU0xSG52VWI2UDVQQ3YxQXA5Qm9XSGZUblozcFVETEhHQ0lBSW5ZcExn?oc=5",
-      "pubDate": 1787601621000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-296054528",
       "title": "Amjad Masad, CEO and co-founder of Replit, joins the Disrupt Stage at TechCrunch Disrupt 2026",
       "titleZh": "Replit首席执行官兼联合创始人Amjad Masad加入TechCrunch Disrupt 2026的颠覆阶段",
@@ -466,6 +424,27 @@
       "source": "TechCrunch"
     },
     {
+      "id": "1457384779",
+      "title": "Chinese Hackers Use DeepSeek to Boost Attacks, Researchers Say",
+      "titleZh": "研究人员称，中国黑客使用DeepSeek来增强攻击",
+      "summary": "Chinese Hackers Use DeepSeek to Boost Attacks, Researchers Say Bloomberg",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOT2E1YTlxSExtTk53U3V5bmVUUTQ5YWc5YzZEZVJ3UHdwcFhmNldMWTMwWUljX3ZZTzZLZ0NMVHVQcXRsUm1IN0JBZEVLbHIya1hFUjBHY2s5ckZ2RUJWRWEtZi1uXzVMNXpKc2ZaWWRmaG9GYWlVTGhkSlA3OVBpdF9zS0NNVHcwM2tSeVpyZHYwa2stYWRGZFJ6dHhGaWhySkFxanlBMDExYkdFUWU5V21tQ0xRaVpGXzNtSDBhVTdYUTVCdmlEcE1nTXl4dw?oc=5",
+      "pubDate": 1787591629000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "1750493489",
       "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
       "titleZh": "Valor ， Point72回归General Intuition ，估值为$ 6B ，因为人工智能初创公司进军机器人领域",
@@ -517,13 +496,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "high",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -716,6 +695,27 @@
         "cs": 1
       },
       "source": "DeepMind"
+    },
+    {
+      "id": "2019821398",
+      "title": "DeepSeek says new AI model V4-Flash-Vision-Exp comes close to Anthropic's Opus 4.8",
+      "titleZh": "DeepSeek表示，新的人工智能模型V4-Flash-Vision-Exp接近Anthropic的Opus 4.8",
+      "summary": "DeepSeek says new AI model V4-Flash-Vision-Exp comes close to Anthropic's Opus 4.8 Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMGlsWVFFR18xYWZBQnkxN0ZSYThmZjY5cVJaZm5FTDJTVndUSmFpSXI5bE5aRVRKdGNGbE93WktSVzYxVU94LVE1QlJzM0RmN0cxTDd6RDJ5Ny0zVWUzbHdtTlIzSHdPcGp4UDNIb01iSDJBOEhvci1vbWgxZmdpZGEtM2c5dVRmSTU2VFpCSEE4ckRRSlZuT2ZVM2loYmNKR1k5TnlWYnNFbjRVVGxiNE5lZER5QmVMQkE?oc=5",
+      "pubDate": 1787312726000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "782138679",
