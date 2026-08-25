@@ -1,8 +1,29 @@
 {
-  "updated": "2026-08-25T12:29:29.005Z",
+  "updated": "2026-08-25T13:29:03.493Z",
   "count": 117,
   "sources": 12,
   "items": [
+    {
+      "id": "-588755811",
+      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "titleZh": "量化感知愈合：压缩的4位模型，性能优于其全精度原始",
+      "summary": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "link": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "pubDate": 1787657964000,
+      "vendor": "huggingface",
+      "category": "Research",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 22,
+        "st": 14,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
     {
       "id": "-538450779",
       "title": "DeepSeek, ChatGPT and Claude: How Chinese hackers are using AI in cyberattacks",
@@ -298,6 +319,27 @@
       "source": "TechCrunch"
     },
     {
+      "id": "457724172",
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "titleZh": "颠覆俄罗斯新的秘密影响力运动",
+      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "pubDate": 1787616000000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
       "id": "1988952107",
       "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
       "titleZh": "连接它，运行它，部署它： Gradio中的AI工作流程",
@@ -496,13 +538,13 @@
       "vendor": "anthropic",
       "category": "Product",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -737,6 +779,27 @@
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "1703336301",
+      "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+      "titleZh": "拥抱人脸推理端点、作业和存储桶如何在带有代码的论文上进行强大搜索",
+      "summary": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+      "link": "https://huggingface.co/blog/pwc-search",
+      "pubDate": 1787270400000,
+      "vendor": "huggingface",
+      "category": "Research",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 1,
+        "cw": 22,
+        "st": 14,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "HuggingFace"
     },
     {
       "id": "-1628192312",
@@ -1033,27 +1096,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "-1961352052",
-      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
-      "titleZh": "面向青少年的ChatGPT简介：专为学习打造，以保护为后盾",
-      "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
-      "link": "https://openai.com/index/chatgpt-for-teens",
-      "pubDate": 1787050800000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "-1360393801",
       "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
       "titleZh": "使用句子变换器进行多矢量（后期交互）嵌入模型",
@@ -1306,48 +1348,6 @@
       "source": "Google AI"
     },
     {
-      "id": "1278128570",
-      "title": "What We Learned by Reproducing 2,200 papers from ICML",
-      "titleZh": "我们从ICML转载2200篇论文中学到了什么",
-      "summary": "What We Learned by Reproducing 2,200 papers from ICML",
-      "link": "https://huggingface.co/blog/icml-2026-open-reproductions",
-      "pubDate": 1786579200000,
-      "vendor": "huggingface",
-      "category": "Research",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 1,
-        "cw": 22,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
-      "id": "265250582",
-      "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
-      "titleZh": "推出OlmoEarth嵌入：从OlmoEarth Studio自定义嵌入导出以进行下游分析",
-      "summary": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
-      "link": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-      "pubDate": 1786551276000,
-      "vendor": "huggingface",
-      "category": "Release",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 1,
-        "cw": 25,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
       "id": "-2029733216",
       "title": "Putting sign language AI into users’ hands",
       "titleZh": "Putting sign language AI into users’ hands",
@@ -1437,7 +1437,7 @@
       "titleZh": "Moonshot AI的2.8万亿参数模型刚刚成为中国首个领先的主要编码基准",
       "summary": "Moonshot AI's 2.8 Trillion Parameter Model Just Became the First From China to Top a Major Coding Benchmark Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcDVVbTdOQ0pSUi1YeVphVExQdnltbEhZYWRtajZHWkNuOTAtSFhieldQY21MaXRlbzloR3lqelRBUWFNS1ZYZ1d3cmRXSGFQeFJvUnJDVnZsbDk1THNaNGpqdlZYTGR3RWZ0TURYVGpVLTc5Si0yVjdReUpUQjF0aXpzckV2R3BjX05QZTF4U2xITDQ?oc=5",
-      "pubDate": 1786172400000,
+      "pubDate": 1786258800000,
       "vendor": "kimi",
       "category": "Research",
       "impact": "med",
@@ -1957,6 +1957,27 @@
       "source": "NVIDIA"
     },
     {
+      "id": "193149682",
+      "title": "Chinese A.I. Start-Up Shows the World What It Has Built",
+      "titleZh": "中国的人工智能初创公司向世界展示了它所建立的东西",
+      "summary": "Chinese A.I. Start-Up Shows the World What It Has Built The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9veDlGZlRsc29JNlFwSDFXUEI0V1pJMFBOR05lSjFtRmRWZmw4cldKUXFYaGVmZW9MM0JiMWt1Z0Jnem5od1AtdmJrdUhSZU5VZlVxZWVWaG1zUGNvR3dBQTVjckxrNjFUci00b3UxdHV3QUFXSVVnZ1N3ajJramc?oc=5",
+      "pubDate": 1785135600000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1965105272",
       "title": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
       "titleZh": "在人工智能峰会上，韩国与NVIDIA及其合作伙伴勾勒出人工智能的未来",
@@ -2102,27 +2123,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "-590892879",
-      "title": "Moonshot’s Kimi K3 pushes Chinese AI into Fable-level territory",
-      "titleZh": "Moonshot’s Kimi K3 pushes Chinese AI into Fable-level territory",
-      "summary": "Moonshot’s Kimi K3 pushes Chinese AI into Fable-level territory Fortune",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNmpxdXVqWlU3TWhraGVLa290R191VEZ3UmVwRXA0QzhhQzVUcGJNUm5oR3hUNnNxUThjVmk2c1k5VmVzeXExT1hOMFhtMHpTQ25USUJiZzBaRkI4MFRiZmJLTGhIdE5UZGg5cnJ3Z1RiX2hfcnlKOXhadmJtZkRiSU8xU2cxV2tiNVVBakFsUWhFX3h2ZnNBeWVR?oc=5",
-      "pubDate": 1784185200000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1093452510",
