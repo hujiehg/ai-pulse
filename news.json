@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T14:14:51.608Z",
+  "updated": "2026-08-25T15:14:28.027Z",
   "count": 117,
   "sources": 12,
   "items": [
@@ -475,13 +475,13 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 40,
+      "score": 39,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 12,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -1957,27 +1957,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "193149682",
-      "title": "Chinese A.I. Start-Up Shows the World What It Has Built",
-      "titleZh": "中国的人工智能初创公司向世界展示了它所建立的东西",
-      "summary": "Chinese A.I. Start-Up Shows the World What It Has Built The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9veDlGZlRsc29JNlFwSDFXUEI0V1pJMFBOR05lSjFtRmRWZmw4cldKUXFYaGVmZW9MM0JiMWt1Z0Jnem5od1AtdmJrdUhSZU5VZlVxZWVWaG1zUGNvR3dBQTVjckxrNjFUci00b3UxdHV3QUFXSVVnZ1N3ajJramc?oc=5",
-      "pubDate": 1785135600000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1965105272",
       "title": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
       "titleZh": "在人工智能峰会上，韩国与NVIDIA及其合作伙伴勾勒出人工智能的未来",
@@ -1997,6 +1976,27 @@
         "cs": 1
       },
       "source": "NVIDIA"
+    },
+    {
+      "id": "-1566301778",
+      "title": "What is China’s Kimi K3 and why is the US so rattled by it?",
+      "titleZh": "What is China’s Kimi K3 and why is the US so rattled by it?",
+      "summary": "What is China’s Kimi K3 and why is the US so rattled by it? CNN",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV2lZYXNGZXdPOC1nMXl3UW04QXMzZGdJZWJlWUFGOV92ZVVSUEZVMU1HNUNoSjl2MnVFaF9Hdk1fMC1NN2NhZ1NHd3RJX0xsRDJnZ0JfbXBGN3NWLTlZSVlVSHFoQlo5eXhGNUV1M3RnY0otb184VHN0bGZhTWlpMVhBTQ?oc=5",
+      "pubDate": 1784790000000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-273870782",
