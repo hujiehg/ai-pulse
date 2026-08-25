@@ -1,8 +1,92 @@
 {
-  "updated": "2026-08-25T17:05:34.920Z",
+  "updated": "2026-08-25T17:54:26.202Z",
   "count": 117,
   "sources": 12,
   "items": [
+    {
+      "id": "-403995766",
+      "title": "Gamma acquires Accel-backed design startup Lica",
+      "titleZh": "Gamma收购Accel支持的设计初创公司Lica",
+      "summary": "Lica co-founders are going to work on Gamma's new research team.",
+      "link": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/",
+      "pubDate": 1787670000000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 22,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-888073236",
+      "title": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
+      "titleZh": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
+      "summary": "Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
+      "link": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+      "pubDate": 1787667724000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 22,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "947718385",
+      "title": "Accel-backed Keenable is indexing the web for AI agents",
+      "titleZh": "Accel支持的Keenable正在为人工智能代理索引网络",
+      "summary": "Now exiting stealth mode with a $26 million seed round, Keenable has been building a vast web search index for AI agents.",
+      "link": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/",
+      "pubDate": 1787662800000,
+      "vendor": "techcrunch",
+      "category": "Agent",
+      "impact": "med",
+      "score": 41,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 12,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-87400376",
+      "title": "‘The world seems to be ready’: An interview with OpenAI head of product Thibault Sottiaux",
+      "titleZh": "‘The world seems to be ready’: An interview with OpenAI head of product Thibault Sottiaux",
+      "summary": "TechCrunch talks agents, UX, and reporting to Greg Brockman with OpenAI's head of product.",
+      "link": "https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux/",
+      "pubDate": 1787659200000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-588755811",
       "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
@@ -13,13 +97,13 @@
       "vendor": "huggingface",
       "category": "Research",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 22,
         "st": 14,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -487,27 +571,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "675786411",
-      "title": "Hugging Face reportedly in talks to be acquired for $13B",
-      "titleZh": "据报道， Hugging Face正在进行谈判，将以130亿美元的价格收购",
-      "summary": "Hugging Face has reportedly been fielding acquisition offers that would value the company at around $13B. But with the founders' feeling of responsibility to community, doubts arise as to whether a sa…",
-      "link": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
-      "pubDate": 1787579246000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "high",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "-2002351906",
       "title": "Here's how Thomson Reuters is loosening Claude's costly grip",
       "titleZh": "以下是汤森路透(Thomson Reuters)如何放松克劳德(Claude)代价高昂的控制",
@@ -569,69 +632,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "2120993673",
-      "title": "Who’s behind the new ‘stealth model’ Ox Alpha?",
-      "titleZh": "Who’s behind the new ‘stealth model’ Ox Alpha?",
-      "summary": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation.",
-      "link": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
-      "pubDate": 1787515296000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "969641949",
-      "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
-      "titleZh": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
-      "summary": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
-      "link": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
-      "pubDate": 1787512448000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "111222188",
-      "title": "Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash",
-      "titleZh": "Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash",
-      "summary": "Flock Safety faces a growing public outcry over concerns that its surveillance technology could be misused.",
-      "link": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/",
-      "pubDate": 1787499000000,
-      "vendor": "techcrunch",
-      "category": "Safety",
-      "impact": "med",
-      "score": 37,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 10,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "-1451027144",
