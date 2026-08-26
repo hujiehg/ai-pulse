@@ -1,8 +1,218 @@
 {
-  "updated": "2026-08-26T03:32:36.119Z",
+  "updated": "2026-08-26T04:32:40.756Z",
   "count": 116,
   "sources": 12,
   "items": [
+    {
+      "id": "669489142",
+      "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
+      "titleZh": "渲染：在LLM记忆评估中控制面向读者的证据",
+      "summary": "arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a mem…",
+      "link": "https://arxiv.org/abs/2608.23568",
+      "pubDate": 1787716800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 68,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1289534372",
+      "title": "ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence",
+      "titleZh": "ESQ-Bench ：评估NL2SQL方言泛化和静默语义分歧的多层企业Oracle基准",
+      "summary": "arXiv:2608.23569v1 Announce Type: new Abstract: State-of-the-art Natural Language to SQL (NL2SQL) models report execution accuracy exceeding 89 percent on established benchmarks such as Spider and BIR…",
+      "link": "https://arxiv.org/abs/2608.23569",
+      "pubDate": 1787716800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 75,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 12,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1992854131",
+      "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
+      "titleZh": "LLM代理使用模拟模型执行对照实验",
+      "summary": "arXiv:2608.23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scientific and engineering tasks require more…",
+      "link": "https://arxiv.org/abs/2608.23622",
+      "pubDate": 1787716800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-581554982",
+      "title": "A survey detection channel overrides the pixels in an astronomical foundation model, and biases tomographic mean redshifts",
+      "titleZh": "调查检测通道覆盖天文基础模型中的像素，并偏置层析成像平均红移",
+      "summary": "arXiv:2608.23626v1 Announce Type: new Abstract: Foundation models for astronomy are trained on survey pixels together with the catalogue products derived from those pixels. Those catalogues are incomp…",
+      "link": "https://arxiv.org/abs/2608.23626",
+      "pubDate": 1787716800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-460912611",
+      "title": "TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery",
+      "titleZh": "TRACE ：用于多目标材料发现的过渡感知残留控制",
+      "summary": "arXiv:2608.23631v1 Announce Type: new Abstract: Multi-objective materials discovery with LLM agents is often limited not only by how many candidates can be proposed, but by how effectively each costly…",
+      "link": "https://arxiv.org/abs/2608.23631",
+      "pubDate": 1787716800000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "med",
+      "score": 68,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 25,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-661657701",
+      "title": "Function-Level Execution Feedback for Code Preference Optimization",
+      "titleZh": "代码偏好优化的功能级执行反馈",
+      "summary": "arXiv:2608.23632v1 Announce Type: new Abstract: Process supervision has improved mathematical reasoning, where intermediate steps are naturally expressed as chains of thought. In code generation, howe…",
+      "link": "https://arxiv.org/abs/2608.23632",
+      "pubDate": 1787716800000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "med",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1828016759",
+      "title": "Auditing the Synthetic Memoir: Measuring Scene-Level Confabulation in LLM-Generated Autobiography Against the Documented Record of the Life It Describes",
+      "titleZh": "审核合成回忆录：根据法学硕士自传中描述的生活记录来衡量场景层面的混淆",
+      "summary": "arXiv:2608.23640v1 Announce Type: new Abstract: When a large language model (LLM) is asked to write a person's life, how much of what it writes actually happened? We present a scene-level case-study a…",
+      "link": "https://arxiv.org/abs/2608.23640",
+      "pubDate": 1787716800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "2145691092",
+      "title": "How much of a measured AI preference is the model, and how much is the instrument?",
+      "titleZh": "所测量的人工智能偏好模型有多少，仪器有多少？",
+      "summary": "arXiv:2608.23641v1 Announce Type: new Abstract: Model welfare research infers what a model prefers from the answers returned to prompts written to elicit preferences. Keeling et al. (2024), Mazeika et…",
+      "link": "https://arxiv.org/abs/2608.23641",
+      "pubDate": 1787716800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1228279170",
+      "title": "AI Agents Push Humans Out of the Loop",
+      "titleZh": "人工智能代理将人类推出循环",
+      "summary": "arXiv:2608.23642v1 Announce Type: new Abstract: AI agents pose significant risks as they are granted increasing autonomy. A commonly proposed solution is human oversight and keeping a ''human in the l…",
+      "link": "https://arxiv.org/abs/2608.23642",
+      "pubDate": 1787716800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-560318423",
+      "title": "FLARE: A Systematic, Uncertainty-Aware Framework for Evidence-Based Adoption of Artificial Intelligence in Healthcare",
+      "titleZh": "FLARE ：在医疗保健领域采用基于证据的人工智能的系统性、不确定性感知框架",
+      "summary": "arXiv:2608.23643v1 Announce Type: new Abstract: Artificial intelligence is increasingly being introduced into healthcare workflows, yet most evaluations emphasize model accuracy rather than whether ad…",
+      "link": "https://arxiv.org/abs/2608.23643",
+      "pubDate": 1787716800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
     {
       "id": "389505089",
       "title": "Moonshot AI: what the Chinese AI startup does and builds",
@@ -74,6 +284,27 @@
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zakl4TFNncFRWSFcySWk4ZFE1bndQMC05UFB2cWJuTnNWNUpWYm13TVlRTVJsZ19RT1lMUktKZktTazRzdGp6RW5RTXB1Nm5mdERiZFBEcjNfQTRjbTR0a0dWSFBhcmVCY0g5RDdGbUdsb3hGVUE?oc=5",
       "pubDate": 1787682180000,
       "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-112729700",
+      "title": "Chinese State Hackers Double Attack Volume Using DeepSeek AI, Researchers Say",
+      "titleZh": "研究人员称，中国国家黑客使用DeepSeek AI进行双重攻击",
+      "summary": "Chinese State Hackers Double Attack Volume Using DeepSeek AI, Researchers Say finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EU2xNc2N3dUhIUk11VTlwUWJ6YmlldG1VT0dIVzljZXlTcWpwYnJ3LWNFY0YxcGkwc0YwMUJiRXcwZGJCTHVOYjNoaUtRNUVSYXRQVEtGcVFYQy10cVJuS0hPbUF3V3hWRjJyWFlwRXJ6NVYzMGc?oc=5",
+      "pubDate": 1787682120000,
+      "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
       "score": 58,
@@ -317,216 +548,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "-178049293",
-      "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
-      "titleZh": "KVBoost ：块级键值缓存重用与偏差引导计算实现高效大型语言模型推断",
-      "summary": "arXiv:2608.21362v1 Announce Type: new Abstract: Transformer-based large language models (LLMs) incur high prefill latency because key-value (KV) tensors must be recomputed for each request. Existing p…",
-      "link": "https://arxiv.org/abs/2608.21362",
-      "pubDate": 1787630400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-905747039",
-      "title": "AIREP: A Protocol for Per-Decision Evidence in AI Runtime Governance",
-      "titleZh": "AIREP ： AI运行时治理中按决策证据的协议",
-      "summary": "arXiv:2608.21363v1 Announce Type: new Abstract: A protocol is presented for recording the governance decisions of automated AI runtimes. When a runtime releases, blocks, defers, redacts, or escalates …",
-      "link": "https://arxiv.org/abs/2608.21363",
-      "pubDate": 1787630400000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "high",
-      "score": 66,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 25,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1510958427",
-      "title": "Reviewing Model Collapse and Countermeasures",
-      "titleZh": "审查模型崩溃和对策",
-      "summary": "arXiv:2608.21366v1 Announce Type: new Abstract: Driven by massive amounts of web-scale data, generative AI (GenAI) has achieved remarkable progress, enabling various applications in diverse sectors. T…",
-      "link": "https://arxiv.org/abs/2608.21366",
-      "pubDate": 1787630400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1178820156",
-      "title": "AI Learning and Conceptual Transfer in the Game of Hidden Rules",
-      "titleZh": "隐藏规则游戏中的人工智能学习和概念转移",
-      "summary": "arXiv:2608.21372v1 Announce Type: new Abstract: This report summarizes the work conducted on the Game of Hidden Rules (GOHR), focusing on reinforcement learning agents trained to infer hidden rules fr…",
-      "link": "https://arxiv.org/abs/2608.21372",
-      "pubDate": 1787630400000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "med",
-      "score": 66,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 25,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "2079012306",
-      "title": "LitReview Arena: Evaluating Literature Review Agents with Battle-Style Peer Review Platform",
-      "titleZh": "LitReview Arena ：使用战斗风格的同行评审平台评估文献评审代理",
-      "summary": "arXiv:2608.21374v1 Announce Type: new Abstract: Literature reviews are essential to scientific progress, but rigorously evaluating automatically generated reviews remains difficult because many aspect…",
-      "link": "https://arxiv.org/abs/2608.21374",
-      "pubDate": 1787630400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "724948114",
-      "title": "SchemaRouter: Field-Aware Tool Routing for Efficient Heterogeneous Agentic RAG",
-      "titleZh": "SchemaRouter ：高效异构Agentic RAG的现场感知工具路由",
-      "summary": "arXiv:2608.21375v1 Announce Type: new Abstract: Heterogeneous agentic retrieval-augmented generation (RAG) systems increasingly orchestrate external APIs, internal databases, vector stores, and graph …",
-      "link": "https://arxiv.org/abs/2608.21375",
-      "pubDate": 1787630400000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 15,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-352611344",
-      "title": "RIACT: A Responsible AI System for Personalized Study Habit Tracking and Early Burnout Signal Detection in University Students",
-      "titleZh": "RIACT ：大学生个性化学习习惯跟踪和早期倦怠信号检测的负责任人工智能系统",
-      "summary": "arXiv:2608.21379v1 Announce Type: new Abstract: Student burnout is highly prevalent in higher education, with reported rates ranging from 12% to over 70% and consistently exceeding those of the workin…",
-      "link": "https://arxiv.org/abs/2608.21379",
-      "pubDate": 1787630400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "2128733576",
-      "title": "There Is No Neutral Harness: Modern LLM Leaderboards Are Manufactured by Config-Fragile Items",
-      "titleZh": "没有中性线束：现代LLM排行榜由配置易碎物品制造",
-      "summary": "arXiv:2608.21382v1 Announce Type: new Abstract: Multiple-choice benchmarks fix the questions and the correct answers, but not the harness: the order of the options, the wording of the prompt, and whet…",
-      "link": "https://arxiv.org/abs/2608.21382",
-      "pubDate": 1787630400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 7,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "332728184",
-      "title": "Spyre-Accelerated Retrieval-Augmented Generation on IBM LinuxONE: A Cloud-Native Architecture for Secure, High-Throughput Enterprise AI Inference",
-      "titleZh": "IBM LinuxONE上的Spyre加速检索增强生成：用于安全、高吞吐量企业AI推理的云原生架构",
-      "summary": "arXiv:2608.21393v1 Announce Type: new Abstract: Running large language models inside enterprise environments has always bumped up against a practical wall: the data lives in one place, the AI horsepow…",
-      "link": "https://arxiv.org/abs/2608.21393",
-      "pubDate": 1787630400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "338616682",
-      "title": "Hate Speech Classification In Roman Urdu: A Comparative Study On Parameter Efficient Fine-Tuning And Prompt Engineering",
-      "titleZh": "罗马乌尔都语仇恨言论分类：参数高效微调与提示工程的比较研究",
-      "summary": "arXiv:2608.21408v1 Announce Type: new Abstract: Due to the widespread accessibility of the internet and social media, toxic and hateful con-tent has grown exponentially, causing significant distress a…",
-      "link": "https://arxiv.org/abs/2608.21408",
-      "pubDate": 1787630400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
     },
     {
       "id": "1910627899",
@@ -863,27 +884,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "2019821398",
-      "title": "DeepSeek says new AI model V4-Flash-Vision-Exp comes close to Anthropic's Opus 4.8",
-      "titleZh": "DeepSeek表示，新的人工智能模型V4-Flash-Vision-Exp接近Anthropic的Opus 4.8",
-      "summary": "DeepSeek says new AI model V4-Flash-Vision-Exp comes close to Anthropic's Opus 4.8 Seeking Alpha",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMGlsWVFFR18xYWZBQnkxN0ZSYThmZjY5cVJaZm5FTDJTVndUSmFpSXI5bE5aRVRKdGNGbE93WktSVzYxVU94LVE1QlJzM0RmN0cxTDd6RDJ5Ny0zVWUzbHdtTlIzSHdPcGp4UDNIb01iSDJBOEhvci1vbWgxZmdpZGEtM2c5dVRmSTU2VFpCSEE4ckRRSlZuT2ZVM2loYmNKR1k5TnlWYnNFbjRVVGxiNE5lZER5QmVMQkE?oc=5",
-      "pubDate": 1787312726000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "758870532",
