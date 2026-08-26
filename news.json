@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T06:42:41.725Z",
+  "updated": "2026-08-26T07:40:19.454Z",
   "count": 116,
   "sources": 12,
   "items": [
@@ -580,13 +580,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -601,13 +601,13 @@
       "vendor": "openai",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 22,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -816,27 +816,6 @@
         "cq": 18,
         "kv": 2,
         "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1451027144",
-      "title": "Qwen 3.8 Closes the Reasoning Gap, but Agentic Coding Remains a US Stronghold",
-      "titleZh": "Qwen 3.8缩小了推理差距，但代理编码仍然是美国的据点",
-      "summary": "Qwen 3.8 Closes the Reasoning Gap, but Agentic Coding Remains a US Stronghold forkast.news",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZjh4T2ktbGhlTHhNRThtci1wRkEwZDR2Um5fdGcycDdQNGJCcDllWVRMd3F1M3JnLWZuRUxBOTFsR2c4cGVQZDRWWTdad3JIT1pNdENGOVJQNjZDOFdlRkV4czV1b041N3dNWlZZZUlPckVMTFZjTVhOdzhnNHlTR3Q0YTRFLXVBYlNGbnBYOWlwZXB0eERSUThkSGpYZzQ?oc=5",
-      "pubDate": 1787377560000,
-      "vendor": "qwen",
-      "category": "Agent",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 12,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -1105,13 +1084,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "high",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "OpenAI"
@@ -1745,6 +1724,27 @@
         "cs": 1
       },
       "source": "Google AI"
+    },
+    {
+      "id": "-956846302",
+      "title": "Alibaba Adds to China AI Breakthroughs With New Qwen Model",
+      "titleZh": "阿里巴巴推出Qwen新车型助力中国人工智能突破",
+      "summary": "Alibaba Adds to China AI Breakthroughs With New Qwen Model Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWjlHM1ZsVFZ2VWZiRG4xcTd3aWdrU2U2SEwySXh3RWxPYWhBSlM0MTU2M2M3dlVDTnN5TDVUUkJvUGw5WXczVlB0ZzBPMk5NTjhOWkwwcGRHYWk4MGVUdjhRNUc5NXFkN1BFSHdrVnJtM0ZXSDNwM3phcnA5WE1LWjMwbUVhRHV2YUl2SmFBUVZUbXNTQ0EtZVBXRHhoSjlobzJuOWk4SnJvalVfZTdaWkVtRHdjN21v?oc=5",
+      "pubDate": 1785740400000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-464609805",
