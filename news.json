@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T08:34:27.686Z",
+  "updated": "2026-08-26T09:33:53.947Z",
   "count": 116,
   "sources": 12,
   "items": [
@@ -34,13 +34,13 @@
       "vendor": "qwen",
       "category": "Agent",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 12,
         "st": 12,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google News"
@@ -265,13 +265,13 @@
       "vendor": "techcrunch",
       "category": "Funding",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 2,
         "cw": 20,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -426,7 +426,7 @@
     {
       "id": "1918725553",
       "title": "Claude Cowork finally remembers what you told the app in chat",
-      "titleZh": "Claude Cowork finally remembers what you told the app in chat",
+      "titleZh": "Claude Cowork终于记得您在聊天中告诉应用程序的内容",
       "summary": "Anthropic is giving Claude a shared memory across chat and Cowork, so users no longer have to repeatedly brief the AI on projects, preferences, and other context.",
       "link": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
       "pubDate": 1787680233000,
@@ -760,6 +760,27 @@
       "source": "HuggingFace"
     },
     {
+      "id": "238748322",
+      "title": "China’s Hackers Use DeepSeek for Attacks, Researchers Say",
+      "titleZh": "China’s Hackers Use DeepSeek for Attacks, Researchers Say",
+      "summary": "China’s Hackers Use DeepSeek for Attacks, Researchers Say Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZEpqTmlyY1RnNmtHTEJVXzBnb0IyaU9FdHdQbnlOSTI1cVg3YW1rbzdrU2NyWjR6YmowOG1pemFmSnZaZ1lMY24tWUIzQTRWMUVDUmFFeVVncWVjM3p1VFAxWGVjTzkyTXRiMURPYTlFU0FQV19UQlU4a01JZU8tUmt4c29oNUdRUUQ3WVVUUkNWRjRkdU0xSG52VWI2UDVQQ3YxQXA5Qm9XSGZUblozcFVETEhHQ0lBSW5ZcExn?oc=5",
+      "pubDate": 1787601621000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-819194011",
       "title": "Chinese hackers use DeepSeek AI to boost attacks",
       "titleZh": "中国黑客使用DeepSeek AI来加强攻击",
@@ -774,27 +795,6 @@
         "cq": 18,
         "kv": 2,
         "cw": 15,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1457384779",
-      "title": "Chinese Hackers Use DeepSeek to Boost Attacks, Researchers Say",
-      "titleZh": "研究人员称，中国黑客使用DeepSeek来增强攻击",
-      "summary": "Chinese Hackers Use DeepSeek to Boost Attacks, Researchers Say Bloomberg",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOT2E1YTlxSExtTk53U3V5bmVUUTQ5YWc5YzZEZVJ3UHdwcFhmNldMWTMwWUljX3ZZTzZLZ0NMVHVQcXRsUm1IN0JBZEVLbHIya1hFUjBHY2s5ckZ2RUJWRWEtZi1uXzVMNXpKc2ZaWWRmaG9GYWlVTGhkSlA3OVBpdF9zS0NNVHcwM2tSeVpyZHYwa2stYWRGZFJ6dHhGaWhySkFxanlBMDExYkdFUWU5V21tQ0xRaVpGXzNtSDBhVTdYUTVCdmlEcE1nTXl4dw?oc=5",
-      "pubDate": 1787591629000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
         "st": 12,
         "rc": 2,
         "cs": 1
@@ -1308,7 +1308,7 @@
     {
       "id": "592228126",
       "title": "Test, Standardize, Restrict: A U.S. Policy for Chinese AI Models",
-      "titleZh": "Test, Standardize, Restrict: A U.S. Policy for Chinese AI Models",
+      "titleZh": "测试、标准化、限制：美国对中国人工智能模型的政策",
       "summary": "Test, Standardize, Restrict: A U.S. Policy for Chinese AI Models Just Security",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9sbm1ERi1oQ2RkSGg0Umc2Ukw3QWNGYXFEeUR0eVJXZUhKQ0Z0NWtFV3NyRW5GbG04YjlpbGQ1M1lfWXZlbmRtS1pRQV9MMmlsUlUyZ09ieWFudUFrOGVsVmJCcGJkMHFHcWpKWEtOVnhWeGNTSXZxMVQwZGlFUQ?oc=5",
       "pubDate": 1786950000000,
@@ -1896,7 +1896,7 @@
     {
       "id": "890765335",
       "title": "Gemini Robotics 2 brings whole body intelligence to robots",
-      "titleZh": "Gemini Robotics 2为机器人带来全身智能",
+      "titleZh": "Gemini Robotics 2 brings whole body intelligence to robots",
       "summary": "Gemini Robotics 2 brings whole body intelligence to robots",
       "link": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
       "pubDate": 1785244897000,
