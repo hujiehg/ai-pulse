@@ -1,8 +1,29 @@
 {
-  "updated": "2026-08-25T23:47:48.611Z",
-  "count": 97,
-  "sources": 10,
+  "updated": "2026-08-26T00:49:05.297Z",
+  "count": 195,
+  "sources": 11,
   "items": [
+    {
+      "id": "828656167",
+      "title": "Alibaba to Release Qwen 3.8-Flash-Next as a Preview of What Qwen 4 Will Offer",
+      "titleZh": "阿里巴巴发布Qwen 3.8-Flash-Next作为Qwen 4将提供的预览",
+      "summary": "Alibaba to Release Qwen 3.8-Flash-Next as a Preview of What Qwen 4 Will Offer Decrypt",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ONXh5VW9jMlg2bmV2OFhETHZNV3FnS1ZLZk85VWdHakdEMGRYaXFoRmpsTFhLQ3BwWmNXX01fRGhUQUtSdS1YTXZBSmZLeDg5ZnJSSUx6dnNTbUpSUU1yR0JmS0xWX1d3TW9FTTcwbEx1eGFwaXdz0gF_QVVfeXFMT1I4UnpTZHFhQXJIaFFRakhzd3JZRnI4LVhkSWx1dkNJVmt1M1lGSVkwTVVXMU8xQXBFZTB6MWlLZUh5Y2Ytb19BaEhROTFhc1NvdlRtaVJtTE9yUXhEYmczY0RZQlh1dGl4QUtZRnNjZTRNbzl6WDhhUWktZ0VxZw?oc=5",
+      "pubDate": 1787692564000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
     {
       "id": "-1062522448",
       "title": "Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding",
@@ -25,6 +46,27 @@
       "source": "TechCrunch"
     },
     {
+      "id": "1337133296",
+      "title": "Thomson Reuters Shifts Legal AI Work to In-House Model Built on Alibaba's Qwen",
+      "titleZh": "Thomson Reuters Shifts Legal AI Work to In-House Model Built on Alibaba's Qwen",
+      "summary": "Thomson Reuters Shifts Legal AI Work to In-House Model Built on Alibaba's Qwen finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zakl4TFNncFRWSFcySWk4ZFE1bndQMC05UFB2cWJuTnNWNUpWYm13TVlRTVJsZ19RT1lMUktKZktTazRzdGp6RW5RTXB1Nm5mdERiZFBEcjNfQTRjbTR0a0dWSFBhcmVCY0g5RDdGbUdsb3hGVUE?oc=5",
+      "pubDate": 1787682180000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "1918725553",
       "title": "Claude Cowork finally remembers what you told the app in chat",
       "titleZh": "Claude Cowork终于记得您在聊天中告诉应用程序的内容",
@@ -34,13 +76,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -128,6 +170,27 @@
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "1225036248",
+      "title": "Alibaba to Release Next-Gen \"Qwen3.8-Flash-Next\" Model for Qwen4 on August 27",
+      "titleZh": "阿里巴巴将于8月27日发布适用于Qwen4的下一代“Qwen3.8-Flash-Next”型号",
+      "summary": "Alibaba to Release Next-Gen \"Qwen3.8-Flash-Next\" Model for Qwen4 on August 27 finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBEdmF3MHJPZ0RWRGV1bWszZzY0VGljMWVrMnVMN3UtY2JIclU5dG5RbUpNeUxkWGlVekZsSEQzdjhGTU1ybVlSeE1zcVFJakJqNFI4RXNlZmhmQVFQMkRsQjlneTF6d0d3Q2xRWjRIT3B4bkd3MVE?oc=5",
+      "pubDate": 1787666700000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "947718385",
@@ -496,13 +559,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -517,13 +580,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -538,13 +601,13 @@
       "vendor": "openai",
       "category": "Release",
       "impact": "med",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 25,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -559,13 +622,13 @@
       "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 15,
         "st": 14,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -615,7 +678,7 @@
     {
       "id": "-819194011",
       "title": "Chinese hackers use DeepSeek AI to boost attacks",
-      "titleZh": "中国黑客使用DeepSeek AI来加强攻击",
+      "titleZh": "Chinese hackers use DeepSeek AI to boost attacks",
       "summary": "Chinese hackers use DeepSeek AI to boost attacks Investing.com",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSGg3WTE3TGdhd01MME1ROXYtY2lxbGJuSjJtT3Z2Zi1oZlcwMXg3NFZHSkU5MGE3bHlYSjJZSHJ1Q2Vla0pRcWw4d3dLaEhTV1VlV2g5Ukc2Wk56WHJCN2lBS3Vtd2h6WXF0dm5wckFEUjZveWpwZnYxVW9kM1FvYzBMNnNlX0NaWFVmbU4zTVd0enFwdnFleWJpX0JwUnU1NmdWdWNveFQ?oc=5",
       "pubDate": 1787596008000,
@@ -676,6 +739,27 @@
       "source": "Google News"
     },
     {
+      "id": "-2002351906",
+      "title": "Here's how Thomson Reuters is loosening Claude's costly grip",
+      "titleZh": "以下是汤森路透(Thomson Reuters)如何放松克劳德(Claude)代价高昂的控制",
+      "summary": "Here's how Thomson Reuters is loosening Claude's costly grip Business Insider",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNTlJeGxyakhWMlAyR0JTaEV6UDVnaTZmWVMxYk9SSk5wNktnU3gyVnZWdzRBek5CMjJsdExoWXBkNzJlQlZUQWVsbmVoTkcyQWZlX1p4ZUo1YUdkajlXUkw2TV83eTM1WFdsSUphQmU0eWo0dXExYjlKSXgwNlZzSzRRMDBOLWthMTNVbTFlU3JuTURNZ0tpWA?oc=5",
+      "pubDate": 1787576400000,
+      "vendor": "anthropic",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "273853240",
       "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
       "titleZh": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
@@ -695,6 +779,111 @@
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "269181425",
+      "title": "Alibaba launches AI video model Wan 3.0 after Qwen beats Gemini and ChatGPT in coding",
+      "titleZh": "Qwen在编码方面击败Gemini和ChatGPT后，阿里巴巴推出AI视频模型Wan 3.0",
+      "summary": "Alibaba launches AI video model Wan 3.0 after Qwen beats Gemini and ChatGPT in coding India Today",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTEZ2d0M4ZFFSVGgyMTAwdWRFNXViQm1QNjFZbFRfSXRMNF8tdmwwOXM2Si1WQnpKSjJaNEp6bHVIaDhYa044Q1dUQjhoMDN5WUI0RGloWG4wSXVnSi1YRzlJd3dMQUR0VFRTaEJYLTREVFU0VlhsYkE4MUpHM0thZVh5ampGRHZ4b2pOaXRoTjF3Ujc2dk5jY3dKZ0ltLW4zSmktclhTalpfeVVkMllmZHRycG1VdUt2Qy1UdGcxVmNRamRTOUp0MXd3TdIBywFBVV95cUxNTEZ2d0M4ZFFSVGgyMTAwdWRFNXViQm1QNjFZbFRfSXRMNF8tdmwwOXM2Si1WQnpKSjJaNEp6bHVIaDhYa044Q1dUQjhoMDN5WUI0RGloWG4wSXVnSi1YRzlJd3dMQUR0VFRTaEJYLTREVFU0VlhsYkE4MUpHM0thZVh5ampGRHZ4b2pOaXRoTjF3Ujc2dk5jY3dKZ0ltLW4zSmktclhTalpfeVVkMllmZHRycG1VdUt2Qy1UdGcxVmNRamRTOUp0MXd3TQ?oc=5",
+      "pubDate": 1787568981000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "high",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 15,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-653219711",
+      "title": "African businesses keep options open as Chinese AI gains ground",
+      "titleZh": "随着中国人工智能取得进展，非洲企业保持选择余地",
+      "summary": "African businesses keep options open as Chinese AI gains ground South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPakdKUWc4TkNfTWd0eUZtcWxHREUxWTBqYU1PSjR3NG03VWFnQ0F6Qm9MSi1qYlNpdUQtemRsWVdsQy1DazdVdHhncDJzN1dLWlBGZnpRZ2xJZ0NDbWo3Z0V0S3FzR2F2eXZlek9jWDFtTkZ6dFAxRml0UkI1SmUxdXprWnZzQmYtX2x5cWY2cEVVTXg5MVlHbnNVOTdIaHZETzFkcV9kT2oteW1nQ0diZ1h0cWZOLTVTLVdac9IBvAFBVV95cUxOR1R0NWJZOThjR1BpV2gxMlZPaWxxZ0Y4NjVhSWE3WFJoRm1Wa2EzVWtDNFgxbTNDS0F1NG9XQXZTWGZkYzZWNVByYzJPbC1UeHVnVmJxM3RnSTQzZFplUVN2ZFFaaWpLNk5idEhsRTl4Z1BCQ1FwZHUyMVZ0S0JCSHFmR1FabHNMS19IRHN3T3g4anh3YmlyWEVJRVo5N1RoSUZ2aUtEdHkzZmVxMkpCbkdnWWV5emJ0aTU5cg?oc=5",
+      "pubDate": 1787486405000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-756549187",
+      "title": "Alibaba announces $10.2bn share placement as Chinese companies expand AI investment",
+      "titleZh": "随着中国公司扩大人工智能投资，阿里巴巴宣布配售102 $",
+      "summary": "Alibaba announces $10.2bn share placement as Chinese companies expand AI investment Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNEdNMFc2bXZIeDFtSUVHaURibi1oU1VRSFU0SzF0MlAxYUJheEt1U1d1djktaEtza1ZuVGJGS0U2LWZmQXlYYXJwR0V4WFJKWnRQMDJ0eVhseUlZNlA5Qzc2eFE1a3JzRGxaTEZvXzl2NTlWUS1BSFVCd1VsNzZBcTJ5ZnE?oc=5",
+      "pubDate": 1787474007000,
+      "vendor": "google",
+      "category": "Release",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 25,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1451027144",
+      "title": "Qwen 3.8 Closes the Reasoning Gap, but Agentic Coding Remains a US Stronghold",
+      "titleZh": "Qwen 3.8缩小了推理差距，但代理编码仍然是美国的据点",
+      "summary": "Qwen 3.8 Closes the Reasoning Gap, but Agentic Coding Remains a US Stronghold forkast.news",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZjh4T2ktbGhlTHhNRThtci1wRkEwZDR2Um5fdGcycDdQNGJCcDllWVRMd3F1M3JnLWZuRUxBOTFsR2c4cGVQZDRWWTdad3JIT1pNdENGOVJQNjZDOFdlRkV4czV1b041N3dNWlZZZUlPckVMTFZjTVhOdzhnNHlTR3Q0YTRFLXVBYlNGbnBYOWlwZXB0eERSUThkSGpYZzQ?oc=5",
+      "pubDate": 1787377560000,
+      "vendor": "qwen",
+      "category": "Agent",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 12,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1825119447",
+      "title": "Qwen 3.8: How a 27B Open Model Rivals GPT-5.6 and Claude Opus",
+      "titleZh": "Qwen 3.8 ： 27B Open Model如何与GPT-5.6和Claude Opus竞争",
+      "summary": "Qwen 3.8: How a 27B Open Model Rivals GPT-5.6 and Claude Opus Intelligent Living",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ORXVMLUpicUJCbUItTlBJMVM1VHRCQjhYYkIyM0pRTzdQaF81QTZfRWVXNjBDSHFfanlHdUdWU0ZzS1dHeW9CN29lWHA3UU5HM0dQbFFsUFRqd3hTS3NqVnNlNnloemE5OW5MTlEwcExjN3lqUms1dzZ2dmg?oc=5",
+      "pubDate": 1787341001000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "high",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-932053064",
@@ -732,6 +921,69 @@
         "cq": 20,
         "kv": 2,
         "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "782138679",
+      "title": "Alibaba Ships Qwen App Update and Puts Wan 3.0 Into Public Test, With One Eye on Enterprise Buyers",
+      "titleZh": "阿里巴巴发布Qwen App更新并公开测试Wan 3.0 ，只关注企业买家",
+      "summary": "Alibaba Ships Qwen App Update and Puts Wan 3.0 Into Public Test, With One Eye on Enterprise Buyers Pandaily",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaVNZRHBBUzhBSzJsTVBYbnowTk1aci1vRWZZMFR5OE4wSGltS2xJRzBoMGViV1hySjQ5OUlTYS1KRkdkTWZmT1ROMGZocFhKVDAtVXNyb2J1NXJzVDJhRTMxN2tSRU5OUWtsV3BybDNoSzBJTUVpMGxueHVxbkUwQm9NOFJuWnIwc3lB?oc=5",
+      "pubDate": 1787309075000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1466190745",
+      "title": "A Local Opus? Alibaba Qwen Open-Sources Qwen3.8-27B — Frontier Coding and Agent Scores That Runs on 17GB of RAM",
+      "titleZh": "A Local Opus? Alibaba Qwen Open-Sources Qwen3.8-27B — Frontier Coding and Agent Scores That Runs on 17GB of RAM",
+      "summary": "A Local Opus? Alibaba Qwen Open-Sources Qwen3.8-27B — Frontier Coding and Agent Scores That Runs on 17GB of RAM Pandaily",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTmliWEpKTlFCcXVkd1AxSjRtM1drNUp2b1FJWG9YeU13NEhyZ1VLQXB1QVBxc3diV3h0NTlTeU1OREVYcGpvTHBsUHlWcHp3ckZvRm9ZNXM2NVhiYUNtSG9nSVdlRERPZUVwRV93ZG1sN2tUV0NQSGR5Z21VSjdEWV9Zck1JalNGSVIzRg?oc=5",
+      "pubDate": 1787304858000,
+      "vendor": "qwen",
+      "category": "Agent",
+      "impact": "high",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 12,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1666669336",
+      "title": "Alibaba Releases Qwen-UI-Agent: Making Models Truly Use Every Screen",
+      "titleZh": "阿里巴巴发布Qwen-UI-Agent ：让模型真正使用每一个屏幕",
+      "summary": "Alibaba Releases Qwen-UI-Agent: Making Models Truly Use Every Screen Pandaily",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOT2dmN2gwUm5GWGdwV0E3OWxtei1FclU5b3NPaWZoUEpUbnNZWHhkNTBGZEZWVEN2RDFyUHBreTFMQ2RITDFnczVLUnZxUUtaX05wRUlINngyU0IxZ0xaYzc0dnBPanVOQ0ppLTU4WnB1N3ZuQl9BMUpqVXZaMXE2d3hzSHMyME9RcllCeVc1VnNLWm02ckk4?oc=5",
+      "pubDate": 1787304005000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -844,6 +1096,27 @@
       "source": "HuggingFace"
     },
     {
+      "id": "-1882376533",
+      "title": "Alibaba Launches Major Business Restructuring: E-Commerce Merger, Cloud-Chip Integration, Qwen Spun Off as Standalone Unit",
+      "titleZh": "阿里巴巴启动重大业务重组：电商并购、云芯片整合、Qwen独立分拆",
+      "summary": "Alibaba Launches Major Business Restructuring: E-Commerce Merger, Cloud-Chip Integration, Qwen Spun Off as Standalone Unit finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1JY2Q2cmVRYUNLTV91V2FPZ3h0c3FEdjdhMFJHSklqMFJvRnpmZ2xZdUNqRm80OW1OdFNoampmakFWZlhPZ19uQ00ycE9FY2dnUzd3UlVUNmlEVG9CV29kVXA1Z2dYcm9xT3JtU1dxd0ppdVdKVmc?oc=5",
+      "pubDate": 1787230500000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1210991592",
       "title": "Introducing AI Futures",
       "titleZh": "AI Futures简介",
@@ -949,6 +1222,48 @@
       "source": "VentureBeat"
     },
     {
+      "id": "1694951976",
+      "title": "China's Qwen AI gets uncensored version, it will take illegal and unethical requests from users",
+      "titleZh": "中国的Qwen AI获得未经审查的版本，它将接受用户的非法和不道德的请求",
+      "summary": "China's Qwen AI gets uncensored version, it will take illegal and unethical requests from users India Today",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPN0d5ZGpsSmc1MkVLZGVsVkJjaWgtVG00WnZDeDlWbG9BZnJhTWY2OUtmdkYxZVNNWFRseGRLUTRtbDVVUDZpSU1PNXVYU3cyTU5kejBQOUNqcVQ5dVB3ODdYODFMbUhwQm5MUWFKSFFiT3BnMWJCS1B5TGlISFRucW1aN3pMVjVfb2lPYVoteHhKYWRzYWxzcmNiUTRVbWszZ0FodkxpWDZwVlJzY0txS0N0NmlZVGd0UENfQnRaTkVNWGhCZ0pabTZqVTd5SWlGUk40cE9sVUpDRlZTbmY1bjlXdzVPRllOQW1td0hwRlbSAfYBQVVfeXFMUEJBT1hCbzE3d3VzX3FDeXVmZi0tLVVDSlkwWERxbjhTVi15U2M2YkRDSXMtWnBiQWZCT1BuUUdhMEFYbEY1MHJkcWZrS3djSlZPZGEtZEFWMC12eUt2Y2JOQWdyYURjcVhrSHU0WDZpcFZvMEZ5ejF0OU5ldFlSWDBINkxESjNIMDNLVkV4SlV5Z0ZBd1ludGgyRllwak42aV8tRFNsM21TWXBZQlhzZDRQNzhGcHJuX2tFZzJHNWJQdDdLRjJUdVBDbTVsTDBmUTZMZVk3a2UtaHpial94TjJ5TEJoY0xQVnV6cWVWNVFQcEJpNVJB?oc=5",
+      "pubDate": 1787135566000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1047422448",
+      "title": "Digest: Google's New Search Console Feature; Qwen Overtakes Meta",
+      "titleZh": "Digest ： Google全新Search Console功能； Qwen超越Meta",
+      "summary": "Digest: Google's New Search Console Feature; Qwen Overtakes Meta exchangewire.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdmxuRVJPbTJuNFVCMktJaTF4eHRVclk3Q29Mc29Nd2lCQ1dzQ0w1NDhkcUpzWWJDQkRiQUxpV2Fsdk5VTkJ1eHNTY3dlRG4zQTNLTlRJV190Ylo3OFRqYzJvNWZZNmpFamh3NjZnX01vQXl4Umt0bDc5b0NjWVpmY0RhblBfb2czbElHemU3eC1aTjhaY1pHT3dza1hGVnpGMDk1T3dCNXlXUDA?oc=5",
+      "pubDate": 1787127975000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1387493835",
       "title": "Replit expands access to software creation with GPT-5.6 Luna",
       "titleZh": "Replit通过GPT-5.6 Luna扩展了对软件创建的访问",
@@ -1012,6 +1327,48 @@
       "source": "HuggingFace"
     },
     {
+      "id": "1667867601",
+      "title": "Alibaba’s TSMC-Built 5nm RISC-V Chip, XuanTie C950, Now Runs Qwen-3.8 27B Model Natively, Unlocking Massive Vertical Integration Tailwinds",
+      "titleZh": "Alibaba’s TSMC-Built 5nm RISC-V Chip, XuanTie C950, Now Runs Qwen-3.8 27B Model Natively, Unlocking Massive Vertical Integration Tailwinds",
+      "summary": "Alibaba’s TSMC-Built 5nm RISC-V Chip, XuanTie C950, Now Runs Qwen-3.8 27B Model Natively, Unlocking Massive Vertical Integration Tailwinds Wccftech",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRkpQQWpTWGg5N2hBeUVGazlnQzNialpBblQ5SURxWG51SW9VQ1huclhQOFNERXJ4NS1BUzRCTUw3WHJYbXhuaWp1UENFcGJ0MExQLU1odHRUUTZnUE1DeHZjdjBwcDFzUlgxZm1UeWw2M0p2MTluZlZBXzR4SXFZaWIwZ2J2Si1yS2xoWU5idFltWWd0eUtJdTZZRVFRNklRY3JJc3hnektBeWQyRHM2YmNnT0VjN0hNZElDNUtHZEU2d3p5SnlzMldBakQzbjRWY1pCNlliQl83el83c1VYSGdDR0M0eTNlbDdDRtIB8gFBVV95cUxQbVJzb2E0eTk1dzJJTEZTRndwQnhhTDVQb1I2aTFHQ3pwZ3RNUU9tRkw5UUdWN01KYmdVR0VyMnZ5cVhTUkx5OW95MmhQUDNQR1dub1FuQ2Y0TDlYOFViSXZOT2NHU0x3R1VXd3pCRWhSXzRHTXo1enlrSUJWZF9oM2w5RTZBTEl1M2xmR09Rck1yRDdXX3kwVHVvLTdlWXplWjJweC1Gcy1kb3M3cE5hYzFGTzdHVDVic0hTaE8tS0ZGNV93Y0NhMHpzWXE3cEtFbDhRNzlRRGwzeERPYnNhZUtkRkNlcVJBZW9uc3NjSmE4QQ?oc=5",
+      "pubDate": 1787069414000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1686568900",
+      "title": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
+      "titleZh": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
+      "summary": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRVNJbE00UDhJSkVIaktiZTNYR01uZTVVNXd1SV9yMGpJM2dILU1SeWVFQXphS0dmYVNsekZrckVQVkNQNndYaWkxS1lKdXJRdE5MWVFJVVJvNHNPWlVUcVhJc2lRbFRiMFdhODdJeXJuTjZNcTg4enJpbEhMdTYxaDlpenFsSDVWUENpcDdxalM5UWR3OG10dUlMYXNSRjNhdGRYX04wN2s2aF9mb2hfbjJHY1FJT1F2WS1TQU8yc3NXMlFxSEtxX29Ca9IBywFBVV95cUxNekQyWHA4bjlBc09IbGwyajJaMEl1LVp0RXk0aWE5Q3hNWXlLUU5JcWxVRjg0ZHcwN05jN3pva3c1QzBjTjlJUl9CLWVVMkhxSjBCT2I0eFZhNkZwNDYwM0tVS3J1X1plS1J5bm02bzM4YWxPOEpXMzdhSEtRRkI0MzRYc3RFQUJRNmdid2lsMWRDM0tkcjFjUFlmZHBZdDZiR05CWkd0MHBFb3dZdHZCTHNCVjU3ZHlRMmM5TVhoTVlkZzBJV0x3UFRsdw?oc=5",
+      "pubDate": 1787054405000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1360393801",
       "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
       "titleZh": "使用句子变换器进行多矢量（后期交互）嵌入模型",
@@ -1054,6 +1411,111 @@
       "source": "HuggingFace"
     },
     {
+      "id": "1246641722",
+      "title": "Alibaba Qwen 3.8 27B Model Targets Edge AI",
+      "titleZh": "阿里巴巴Qwen 3.8 27B车型瞄准边缘AI",
+      "summary": "Alibaba Qwen 3.8 27B Model Targets Edge AI AI Business",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNnJGUXNWZ0hVNGhRaHdNTnlVOU1mRnhpeHFBZE5ubWZUZEdYdEFHWkpZRXE1UEtTd25ybEhZVHQta1JJRUp6TDJJT25lWm1hVFByVzJJWjdpYzBtNTZUUVZxZm5oX2VyOWlkTlJuc3NBX09ZT2p1VUs4MEJDQks4Z0F3WFNtQQ?oc=5",
+      "pubDate": 1786991057000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "229981946",
+      "title": "Alibaba Stock Rises as Qwen AI Model Escalates Battle With Meta",
+      "titleZh": "随着Qwen AI模型与Meta的战斗升级，阿里巴巴股价上涨",
+      "summary": "Alibaba Stock Rises as Qwen AI Model Escalates Battle With Meta TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNHVwYTFrSGxHNTNqekFPS2xTSmpCZk1MWE1KWVBBUElETGtrNXVHYjdFUVN5RFlSQzBJUmYyNnpfeDhFdHRORXVNeUVQX2ZCTEUxWGJpdlFhSDRmWU5XbFo1eWNJZ2FaR1I0V28zVU9fZlRQcWZEU0NRbjh6blRDaVcyZnd5Wk4xdmxnQ0hROXljOFduVWtsMi1GU3Z2b1FMdlpVQVNacGpzYTNhWTdpT3dxVFg5V1JtVnl1aWRKVG0?oc=5",
+      "pubDate": 1786989318000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1049413484",
+      "title": "Alibaba is launching an open-weight AI model designed to run on laptops, rivaling Meta",
+      "titleZh": "阿里巴巴正在推出一款旨在在笔记本电脑上运行的开放式人工智能模型，可与Meta",
+      "summary": "Alibaba is launching an open-weight AI model designed to run on laptops, rivaling Meta qz.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5tN0kzZnREUjA5cTJMcFdzdUwtZm9LUF9vRVgzMVMzaTF6enUzaXkzWjZQY3E0WEl5NzJ3YVd2Vm9jZENuVjJVWmRWbHptb2w2YWpzZ1VpbUFseFdUMkNTVEJXMEU5clRjbGhuVHg3YWZrejNWdEE?oc=5",
+      "pubDate": 1786967653000,
+      "vendor": "google",
+      "category": "Release",
+      "impact": "high",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 25,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1960589420",
+      "title": "Alibaba’s Qwen AI Models Surpass 3 Billion Downloads, Outpace Meta and Google",
+      "titleZh": "Alibaba’s Qwen AI Models Surpass 3 Billion Downloads, Outpace Meta and Google",
+      "summary": "Alibaba’s Qwen AI Models Surpass 3 Billion Downloads, Outpace Meta and Google citybiz",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPS2Jtc09SYi1ad1lnTkxwLVJVWnlJUGlpYXFtM3NIb2x3b3RVV3J0U0ZMankxaHdVakdZa2FRQXlYT3ZlQ2hKb1VORHlEb3FReWZsaVB0NTMwX253eWwxc25adkRuU2Z3d0JqNWlCWmxaR041NlZiRXJncHp3MjFsZVpqWGF4b00xcF9xWF9PdmNxckp4VVNncjZJSlZhZ3I0MUZhSU5yZUY0TnJmTkwyQlJLYW4?oc=5",
+      "pubDate": 1786966539000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "high",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 3,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1579222402",
+      "title": "Alibaba answers Meta’s AI challenge with new laptop-ready model",
+      "titleZh": "Alibaba answers Meta’s AI challenge with new laptop-ready model",
+      "summary": "Alibaba answers Meta’s AI challenge with new laptop-ready model CNBC",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNGFodld0bUNaak0zcjNiZU5MbmF6NWhrVjIxTFl5Tkl1MEFSOENuczNza1cwRGFnSXlTcU1sLUJmeWJMTjNOUG1RTFBzMTNMRGJsQzFHTlgzbkp3cmIwdy03N2tYd2RuN2Z0QnZzUGxWTmJJM2lWMVVIWkk3MUFkcjNtWkFqVHBlVjEw0gGQAUFVX3lxTE9LV0xtYUQ5UXpDNVIzYXk5VXVrUGREUFBQSlJyS0NDNzNkdDhSeVBXZkt0QVBKY09TOUtldVpUQjA4SEQ1UmsxaVpaMWdGeWFHdUg5MFVqTTRkRFItRTFWU2FiY3NSRjBMN0NDLTJMNXkwRTJrdi16OTlPd3VyU3RZeFZINEV2c29IeFFUSkhvWg?oc=5",
+      "pubDate": 1786965863000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "1625615024",
       "title": "Get closer to the game with Gemini and Pixel",
       "titleZh": "通过Gemini和Pixel更接近游戏",
@@ -1075,6 +1537,426 @@
       "source": "Google AI"
     },
     {
+      "id": "-105299292",
+      "title": "Alibaba launches Qwen AI model for laptops to meet Meta's challenge (BABA:NYSE)",
+      "titleZh": "阿里巴巴推出适用于笔记本电脑的Qwen AI模型，以应对Meta的挑战（ BABA ：纽约证券交易所）",
+      "summary": "Alibaba launches Qwen AI model for laptops to meet Meta's challenge (BABA:NYSE) Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaHUzdzBtMEhETUhQUFpmZmdtTDk5bm40ai1MUFp1clVScDIyaVp6YnNYRDNhbmxtVUk2QmQ0REVFUC0xN2R0YnNaZnpWQXk4SFJ4UXNkTXg0OVB4OThQSTRtWnNGSTZqczhkNkU0M1g3OFVUVks3LVhiSGZxeTBDU01laVh6Tk5tWlZSQ3IyWG1ObXhWaWNnUk8tdUVESHU1OVc5NUdyVQ?oc=5",
+      "pubDate": 1786950000000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1388169236",
+      "title": "Qwen3.8-27B runs frontier-class coding agents and reasoning locally, no cloud API required",
+      "titleZh": "Qwen3.8-27B在本地运行前沿级编码代理和推理，无需云API",
+      "summary": "Qwen3.8-27B runs frontier-class coding agents and reasoning locally, no cloud API required VentureBeat",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY2NGbjBLTlVBVkRSckJQaXM3MlVaREhiM2dPWmZVdmhBQ3BOa2VST3AtWEdPVVFoeUxFcGxhenV1R0tybjZndktrVW90OVBXVUc3X3RjZFMtWHZEN2Y5N3l6YmxET3h0Z28tTmFqTGt6U2FfODA3UVNzLVQxdjJ1T3RTY0lXeFBDQ2JPMFJQbkhVSFpKdDhXc0xvNVF5aVo2NExkU1VHblF1a1psaFZFTVlDRlZVdjJnNkw5VlBkeGgzUQ?oc=5",
+      "pubDate": 1786950000000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "high",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-148488252",
+      "title": "3 million downloads and counting: this new free Chinese AI model is driving the internet crazy",
+      "titleZh": "300万次下载和计数：这种新的免费中国人工智能模式正在推动互联网疯狂",
+      "summary": "3 million downloads and counting: this new free Chinese AI model is driving the internet crazy Cybernews",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWlU2Smh3b3ZGbHFUM0lxT244T2wtWVlhS1RoSEtkeDEzMnhNLXF1Q3hielg5R25HS1ZsbXBILUZ4cHIxOG5RYzFoVnZzbHV1cVo0b0VqblMwcFVfTzJaVEFWZnVISWh3c1ZKWVdTOHVYNE1Kc0tQb1lPcE9qTkpVbTU3d0w?oc=5",
+      "pubDate": 1786950000000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-2087976883",
+      "title": "BABA Stock Gains Ground: Alibaba Reportedly Sells Gaming Unit For $1.5B As Qwen Fuels Bigger AI Push",
+      "titleZh": "巴巴股票上涨：据报道，随着Qwen推动更大的人工智能推动，阿里巴巴以15亿美元的价格出售游戏部门",
+      "summary": "BABA Stock Gains Ground: Alibaba Reportedly Sells Gaming Unit For $1.5B As Qwen Fuels Bigger AI Push TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOWjI1TWQ5VW5Jc1EtbUtJYklObnBYVF9hbWZicDNDSTBROHhPbUxvOXh6V1hyeElENnRNNEEySGhMZkFaQkxaTHlpTUZsN21SSTR2NFZoWDRyak4xZ09fdElEQTMwR1RCSDZzdlFPbWFMZW1kYzFuUlFpdEF3aWZ0Vy04TjVrLVo2V1hGMnNaVzd3YzV6aDBORWVrbmZaYmhkbHBoRk1HX2RyYjlMQnF0dWZHOEdZT0s1SlprbFhvcGp1S3RNekRnS084dmZqMDl6R2pDV3c3X2ZTRXQ4LW9JUkZYcGVoMGRGTFYwYW15M0Y?oc=5",
+      "pubDate": 1786950000000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-147837591",
+      "title": "Alibaba's Qwen 3.8-27B Tops Hugging Face Global Model Trend",
+      "titleZh": "阿里巴巴的Qwen 3.8-27B顶级拥抱面全球模特趋势",
+      "summary": "Alibaba's Qwen 3.8-27B Tops Hugging Face Global Model Trend GuruFocus",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOFNRbjNaOFNvdVN5cTZGNEphRHM3UF8yc01LY3l3dmQ1MUpJbEoxQlZvS252dDRFYzUzV1ZXbjJhd2h4Mkl3eUhEaXB3MXVwQVpwMFFIR2FOby1JdHh0bjhraEp2SzBXODd1VVJVOXJGV3RyYUVMb3V2a1lXT1NBS2VjVGsyYTNWVmVkbk9iQVJQRTJqZ19UbTdDcw?oc=5",
+      "pubDate": 1786945306000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-679183300",
+      "title": "Alibaba's Qwen hits 3B downloads, passing Meta and Google in open AI",
+      "titleZh": "阿里巴巴的Qwen点击3B下载，在开放AI中超过Meta和谷歌",
+      "summary": "Alibaba's Qwen hits 3B downloads, passing Meta and Google in open AI Dealroom",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc2NNZ2sxc2FOZkVBNzBYZDhLdlNpZWlDZFE4anloMDVJVUM0ZFlaX3NGUlFtOE1icG43dktON29pdnMxUjJNdDFNUEtSMEpLaVJLcXZ6N0NCSXl1eUIzWVZuM2JLU1lOekNsVm1Xa2hxMHV2NWpaWFU4WTB1MXg3dU0xcnZZajNOd2JzaE1ldjhtY3phSmdtc0pCQV92VWhLdExv?oc=5",
+      "pubDate": 1786943236000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1945021500",
+      "title": "Apple reportedly builds China-specific AI model with Alibaba as Qwen partnership deepens",
+      "titleZh": "据报道，随着Qwen合作伙伴关系的深化，苹果与阿里巴巴建立了针对中国的人工智能模型",
+      "summary": "Apple reportedly builds China-specific AI model with Alibaba as Qwen partnership deepens digitimes",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBtdm9LY0pPRHY0Q1JrdU9IQjNDSm9FLUhnSkREZmpWczVqNG9meXh2SHQ1dklhZXZGb0k0cHBINS1pdmxidmZ0OVRuTWhTZjYtakdwN3NuVDIxUmhZZjZ0NzBOQ2FlRWFqT3dyUHpDNUZxc1IybXFoMk00VTdiZw?oc=5",
+      "pubDate": 1786936442000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1322168236",
+      "title": "Watch Alibaba Reports World-Beating 3 Billion Downloads for Qwen | The China Show | 8/17/2026",
+      "titleZh": "观看阿里巴巴报告Qwen全球下载量突破30亿|中国展| 2026年8月17日",
+      "summary": "Watch Alibaba Reports World-Beating 3 Billion Downloads for Qwen | The China Show | 8/17/2026 Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQY0FIamJYclFaRDI3LUlIY1htZDk0QXQ1REd4NkxNWXExeVNlMjdlbklCMW8xS1hKN2ZKc1Z2VG1JZk90clotb19IZ0piY0I4aWE4blc5SWUxUy02cnJBLTVEZngzQmhXQWRESFJEZ3VRVDZoRVNvYS1WcnhQbEZZRHZkZ3pfQQ?oc=5",
+      "pubDate": 1786924800000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "high",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 3,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "681778695",
+      "title": "Grok vs Meta AI vs Qwen: 1B vs 117M vs 10M Users [2026] - tech",
+      "titleZh": "Grok vs Meta AI vs Qwen ： 1B vs 1.17亿vs 1000万用户[2026] -科技",
+      "summary": "Grok vs Meta AI vs Qwen: 1B vs 117M vs 10M Users [2026] tech-insider.org",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pZDVyQlY2czZGRF9rVkVmT2ZhdUNEeHlwS1BmWmpZSTBVeGZiU2tleWRDUF9XRHpJMXBSODZvckk1Z21hN1Z0Vkd1ZVRGSGlRcUxDemxHMy1qRUxqLTdYRGxWYldLbG1N?oc=5",
+      "pubDate": 1786915809000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1849817359",
+      "title": "How Alibaba's Qwen Overtook Meta And Google In The Open AI Race",
+      "titleZh": "阿里巴巴的Qwen如何在开放式人工智能竞赛中超越Meta和谷歌",
+      "summary": "How Alibaba's Qwen Overtook Meta And Google In The Open AI Race NDTV Profit",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYWFvV3VxemVjekRrUzA0WFRoa3g5SWZhZkJETVFLLXdaUnZwZGk4c2ZiczRVTl9UcGlRYlJNZlVWU0pOY2xUbHJJMDNqQ2Vfb2hlWmxKVmltNGZnb0YyTkxJWFNrRlRNellOWkdSbGlKYmNWQUhVTmZ4bmU1RDFfN3hsSnM5amNfSmJUbnZRenVGdDFHYllkbnJaQzZTWGp5bldrZ3IxYTB0cjFBN1HSAbYBQVVfeXFMT19XYkF6MTJLN3FzN0JDck10enNYNDRlRGlRVXF3cXVQRU16RkpVbUgzX2htWVN4b3pZSm1zazJvcXpWTTFTQVFWeWRKVEJFN2Q2MkRxUWVnMzgwSGpSRUdSTC1ScFM2TWIzSEhnMWlVMHVVSVQ4emRLYlQtYzNsOHRXRFo0MzZHNVBCYW1MSXY2dEtVdEQ4VmxIdVRXelI3SG5OTlNwSU9iV0VUTDhxWXJXQl9OeUE?oc=5",
+      "pubDate": 1786892173000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-365945736",
+      "title": "Alibaba's AI model Qwen tops global downloads ahead of Meta, Google",
+      "titleZh": "阿里巴巴的人工智能模型Qwen在全球下载量中领先于谷歌Meta",
+      "summary": "Alibaba's AI model Qwen tops global downloads ahead of Meta, Google The Standard (HK)",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdDJBOHV6bG82REVwb3lvMjE2ckU2MmYwTzNXTExhTmhfTmpEdlhZV2RXYVQwMm1QVFFBajhxMUw0RHVwTEphM3hITDlHSkxKdHBwdGZjdWMwOER0Uk1wSFE1WkdPX0J2QUlNOGk3QnFZd1BGTXJEcmVhS2ZpbkR6b29vNW5WVmwxWS01NjZWaXprMmxUOEF3Q1FMTkk5b3RmZ2d1Y3VxaHpqWmstMEpwSVY0NGRIeUQ0SHpv?oc=5",
+      "pubDate": 1786877300000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1434569966",
+      "title": "Alibaba's Qwen becomes world's most downloaded open AI model",
+      "titleZh": "阿里巴巴的Qwen成为全球下载量最大的开放式AI模型",
+      "summary": "Alibaba's Qwen becomes world's most downloaded open AI model China Daily",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9DMWpvcFhUeGpXMmNSQkh6NzRYWmVud3VUdFlKUEIxRTFwOTRLV3BlNjYxTHVMQy1neV90cEVYZ0pYUWRVdFM4SUF3MjFiZjZRaGhyeXNJQjJNY3dERXVNTE8xdm1PeTFPWWw5d2VzdTk3eUgycnBsUWZjN19NQQ?oc=5",
+      "pubDate": 1786863600000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-708493724",
+      "title": "Alibaba’s open-source AI model Qwen overtakes Meta, Google to claim top spot globally: report",
+      "titleZh": "Alibaba’s open-source AI model Qwen overtakes Meta, Google to claim top spot globally: report",
+      "summary": "Alibaba’s open-source AI model Qwen overtakes Meta, Google to claim top spot globally: report Global Times",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBENmJOcWJDcGR0blh0cDlCQkk1bmw4a0s1NGZ3TVphR1A0bU1YWlBJbVFfaWFpc1dLeU1JQWJmNjZlN0F3ZmRSR3VZc0w2Z2w4dWpsdlpKWTJFTzZYdzRXRUxn?oc=5",
+      "pubDate": 1786863600000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "316407086",
+      "title": "Alibaba Overtakes Google and Meta With 3 Billion AI Model Downloads",
+      "titleZh": "阿里巴巴以30亿AI模型下载量超越谷歌和Meta",
+      "summary": "Alibaba Overtakes Google and Meta With 3 Billion AI Model Downloads PYMNTS.com",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNnBoUUtCUy1kYy1JS18wSG9XcU1pM0daWFpJRWxMajJsNGsyZFJ0TEJvakFBQm1LSVAzR2h1VGk2OHdOS2dtQVdWdmdDYXFKVHdSbDRUTElHVmt6TjdsR0lYM1BxaU1DX3h4T1hucmZuemU3V2dOd1BlOHBrWGxFUlZERWljakFoOHBZdzR0cDNYNWFoZU9mSHZpWEwyX1h2U0RkLURiUnl4Tkd5bUVfcS1OcEtCeEhnaGRUdWwwb05jRnc?oc=5",
+      "pubDate": 1786863600000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 1,
+        "cw": 22,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1631300720",
+      "title": "Alibaba announced that its Qwen AI models have been downloaded more than 3 billion times",
+      "titleZh": "阿里巴巴宣布其Qwen AI模型已下载超过30亿次",
+      "summary": "Alibaba announced that its Qwen AI models have been downloaded more than 3 billion times UA.NEWS",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeGlBaHBxUkVtTEpwbFh2VklCMjFmQVA4UkVXSnlsRG5sVWxRUW9rWi1jQ3FQb25YTl9GSHRubkZaZDBSUmdnTEZBQ3ZmV1FMdzI5ZEUxSjVLQkhsUF9hd25WUzhIVDhiOFI3c2ZHeG5iSDMwUFcwUGhTdlZJMklSemdmOXJhdVYxQ0NQVDFUVi1JcGlsUmxVdllR?oc=5",
+      "pubDate": 1786863600000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-991096918",
+      "title": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google",
+      "titleZh": "阿里巴巴AI模型下载量突破30亿，通过Meta ，谷歌",
+      "summary": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZjdzU3AtQnFGVDExc1hfUWRTV3JpWHgya2wtSHFEU2t5d3NnYWZKb2hpY0JiYVF2cnFNeDF6R2FMLTh6SG1oMjdOd2ZLdlhlMl9MNVEwTVh4X29Fb0dTRWRlSXI1cm9RRXZtOThiUUVmcHhDQXB2VTQxVXNaZUk2Tk42cXItTDV4RE1aNXgyNWw?oc=5",
+      "pubDate": 1786777200000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 1,
+        "cw": 22,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-953158190",
+      "title": "Alibaba AI downloads top 3B beating Meta, Google (BABA:NYSE)",
+      "titleZh": "阿里巴巴AI下载TOP 3B击败Meta ，谷歌（ BABA ： NYSE ）",
+      "summary": "Alibaba AI downloads top 3B beating Meta, Google (BABA:NYSE) Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSjUyOGFTaF9ES2tDdjg0N2w5Ui1GOFVFZFRSLVFLWm9IakdrSW01akZ0U1d5d05VR05kVEtIcEpnN0ZGcW50R09TLWZTVGF0eFlZWlQ5ODlMUWJjQWhxZnVyOWdfcTIzNk5jZDUxRDZPSDNxVEVVUVhRWldCblZ1RVUzdVNrVG9oNWhhd0pR?oc=5",
+      "pubDate": 1786777200000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "2016025034",
+      "title": "Alibaba's Qwen Claims Open-Source AI Crown with Over 3 Billion Downloads",
+      "titleZh": "阿里巴巴的Qwen声称拥有超过30亿次下载的开源AI冠军",
+      "summary": "Alibaba's Qwen Claims Open-Source AI Crown with Over 3 Billion Downloads finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5rejF4dnlwcVNVa29XY2k4T0M0bWRiUmFHM0lEU0l3TDFGYTRkakgwY2lNbmlhMHpzYzJSZUhiUDE2eTNNTjNTdE16WmdZX21JSG5QamhLTWFHcGFMT3lFZ2FmWHdlVnd0RndWdDBlMEZHVS12Q0E?oc=5",
+      "pubDate": 1786777200000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "high",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1237856160",
+      "title": "EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say",
+      "titleZh": "独家：消息人士称，苹果在阿里巴巴的支持下为中国市场培训自己的人工智能模型",
+      "summary": "EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say Reuters",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVDU1cndzcnNhVERISGg5M3psalAyTEVrR2JKSEExUTVoV0JkSjJZZVRIOW40N1lweld1bXEzYWRrNEZxb2w2YzctanRaNnRnckRJLWRINnlpVnlnbXZvSUxBRFN6QUNvb01UMXhXVmp3MDNDTnN2TGZveTdlam9Gem93RFFaZVFSazRzWUpmZXI0VlV3VU56cjZPUUNXQk9GTzFTdkpzMTdvRnF6RUllb1NMbm02OFFiUEJhQXhab1JjZ0w3QWhPT0VqUVZpc0xEYXBV?oc=5",
+      "pubDate": 1786690800000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1138679391",
+      "title": "Qwen3.8 Open Weights Ship Under Two Different Licenses",
+      "titleZh": "Qwen3.8开放式配重在两个不同的许可证下发货",
+      "summary": "Qwen3.8 Open Weights Ship Under Two Different Licenses SQ Magazine",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBEUGVaQTFNb214a0t1Tng4NnRPUWZCcVlpYWQyalV3Ym9sU2hQbHYzRWlkUHZqbmstQ2dxdUdmYTBFRE1OdVhaUnVrMnVvbVdhSVdLZnNxM2lRZzRoWW9yRXBXMmJyOW9Tb2c4?oc=5",
+      "pubDate": 1786690800000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "high",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-2016155837",
       "title": "DeepSeek's AI Models Are About To Cost Four Times More",
       "titleZh": "DeepSeek的人工智能模型成本将增加四倍",
@@ -1090,6 +1972,27 @@
         "kv": 2,
         "cw": 22,
         "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-310566909",
+      "title": "Apple trained its own AI model for China, and handed the brain to Alibaba",
+      "titleZh": "苹果为中国训练了自己的人工智能模型，并将大脑交给了阿里巴巴",
+      "summary": "Apple trained its own AI model for China, and handed the brain to Alibaba The Next Web",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9Ob2o2NEVyWFdCelZiT3FmbG5lTGlVdjVlMGZmWFI0RDlDeEtLeGswaHBEQnc5MzNQb25QZ1ZFMC1WcTl0M2RIeUVYQW9hZjRsanN3UzhKSEViX2d3MFN3N0dZWFJMd1FLeERIWjVB?oc=5",
+      "pubDate": 1786688315000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
         "rc": 0,
         "cs": 1
       },
@@ -1159,6 +2062,27 @@
       "source": "Google AI"
     },
     {
+      "id": "254535996",
+      "title": "Alibaba (BABA) Stock May Be 37% Undervalued After Qwen Licensing Shift",
+      "titleZh": "Qwen许可转换后阿里巴巴（ BABA ）股价可能被低估37%",
+      "summary": "Alibaba (BABA) Stock May Be 37% Undervalued After Qwen Licensing Shift Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONTB6TDRDbHBPb3FqRnlDckZxbHlrUmRick9kRWlJVEQ5Y1l1MHJ1Q0U1MWR0b280T2N6UHZmMGd2SHJPU2NyclFPa19EZDhpWWJobXI0aTRoa29YODZ2cTNZRWFlMEZnVzdXbFlCXzNVQzBYT3h5OXJ2bV9neDBXd2lZNl9sMVRmSElfbk5Qc3RZY1p5?oc=5",
+      "pubDate": 1786604400000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-2029733216",
       "title": "Putting sign language AI into users’ hands",
       "titleZh": "Putting sign language AI into users’ hands",
@@ -1178,6 +2102,90 @@
         "cs": 1
       },
       "source": "DeepMind"
+    },
+    {
+      "id": "192778782",
+      "title": "Day 0 Support for Qwen 3 8 on AMD Instinct GPUs",
+      "titleZh": "第0天支持AMD Instinct GPU上的Qwen 3 8",
+      "summary": "Day 0 Support for Qwen 3 8 on AMD Instinct GPUs AMD",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRWRqTkpGbDBOQ2xkS216SjM4MUZVdjNQdDhuaC10elRpNlhBRlFDQ1BMbURRb1ZNTzA4MXUydnhPQ0F4OEE4RXhzdWJ6LU0tMXVIYUNlRW5sdm5veEdnQjhnZHZZakxtWkdUR1locUtxeTVTZFBzcU9VZG4yVVdTcV90OHJKYkNNajBkbU9LUmhpS2pPMjJCR1c0NzhvbDMwV012Mnd0Z25OdExYRVd5NFMyeFVocUxBOWUw?oc=5",
+      "pubDate": 1786518000000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1680665",
+      "title": "Open Weights, Closed Revenue Ceiling: Alibaba’s Qwen 3.8 License Is a Platform Play, Not a Gift",
+      "titleZh": "Open Weights, Closed Revenue Ceiling: Alibaba’s Qwen 3.8 License Is a Platform Play, Not a Gift",
+      "summary": "Open Weights, Closed Revenue Ceiling: Alibaba’s Qwen 3.8 License Is a Platform Play, Not a Gift forkast.news",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS25yRjdqaTNqbzJrY0NzQ1BDZHdWMHpMcTZBaWF3TjNpX2xNQUVFSFZwd2xqWHFHbV9XMkt5T2huSWtOb1JZdXFTelNLQWwtQlBkbnNlbjRDVUFhTFY3VksyUVo5TlJrODQ3WlE1MWlJcmJfUERDWVVIa01vRlFxUnQzQnQzUG83TEhiaFlHWWt4SVJnXzNIcmhLVTdEQVctNTRmRHJuOGU5eTJVcmsyamtkTQ?oc=5",
+      "pubDate": 1786518000000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1123339485",
+      "title": "Alibaba Open-Sources 2.4 Trillion-Parameter Large AI Model, Performance Matches Fable 5",
+      "titleZh": "阿里巴巴开源2.4万亿参数大AI模型，性能匹配寓言5",
+      "summary": "Alibaba Open-Sources 2.4 Trillion-Parameter Large AI Model, Performance Matches Fable 5 36Kr",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xaThlQ0JRRzNTWWZYY05sRDJjMmcyU252cS1kWDkzNUM2aHFXZ1g2cXBoV0xCcjF4NmFneEFoMGlkNUdkX2pmclVjX3ZMdmRFZ1Nj?oc=5",
+      "pubDate": 1786518000000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1552129176",
+      "title": "Alibaba's new Qwen AI claims to match unsupervised working skills touted by Claude",
+      "titleZh": "阿里巴巴的新Qwen AI声称与Claude吹捧的无监督工作技能相匹配",
+      "summary": "Alibaba's new Qwen AI claims to match unsupervised working skills touted by Claude AOL.com",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ac0RNTk8yVDJYN190M19aZFFRdGd4UXZhY2dkLUM0T2k2c05uZWpnZWRlYUtuLXZ2dUdJR0gtNWFJamR1ejRrYlJ1N1ZkVHVRRmxsakRmQ296c0E4RmQ3M1dneUstNFp5NWxjUVJMNmw5em1iSjNlSk1ORzNEZw?oc=5",
+      "pubDate": 1786471474000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "2005007345",
@@ -1243,6 +2251,237 @@
       "source": "Google AI"
     },
     {
+      "id": "-1009422054",
+      "title": "Apple Briefly Posts China Guide for Connecting Siri to Qwen AI",
+      "titleZh": "苹果简要发布将Siri连接到Qwen AI的中国指南",
+      "summary": "Apple Briefly Posts China Guide for Connecting Siri to Qwen AI MacRumors",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNN1o0dERsMDZRdkVHM21XbnBqbE1zdE81N0x0a0RoV01oVS15VEdCWUVTSFFyTENOMlVJcTVSVTloQWtwUW1SbkxXeXlwb1Y4VU90VG1nc0NfLVBMZ1dfdTN1Y0lVS3FsTkE4eldXa2E1STBNTVJhcHVlQ29GZ01seVZmbXVFWDVQcGF0VW5QSQ?oc=5",
+      "pubDate": 1786345200000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1148886413",
+      "title": "Apple quickly pulls support document saying Mac users in China could link to Alibaba’s Qwen AI service",
+      "titleZh": "Apple quickly pulls support document saying Mac users in China could link to Alibaba’s Qwen AI service",
+      "summary": "Apple quickly pulls support document saying Mac users in China could link to Alibaba’s Qwen AI service MacDailyNews",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWF9QdS1SWTBPUWROcXFYUzRVN3RqRzFtLThXNlZvMHJTWjlncVhNU3otYklrNEJDT1djRFJ1WThUd0ljRUQzWm14VmxTWXhWMUhIeWlTenoxWXhlMnBlZEliMGpCQUxEWTdXZHNzLTNhcE9hRDFkU24yTGlENXM2SC1oczZZZ2JhM0NJT0RYUXB1c29IeU1lN2kxSnJQS0Y4Yy1wM3R2SjVNM0l0Q3BUNnphRHp6TnBQbEsyQ0VhdmI5cG1tYzNmdV96RmVnZTBUZEpuRdIB2gFBVV95cUxQNVhiRU9qUEp4VGl5X3lnVGMzSFVCNHZYWjBPTUJ4ak9kQkUyMk15YjNVQlZnLUp4dGkxMU9jSmtfcnVlUngxaHZWREowN3NmdHFtUjdONlF4M0JpendqalhTYkhzYy15MF84M3BneVh0SlRVQzhvTkNFSklDU0ZTVnV3UTlSS2hMY2lUb05ZcXhCeEJmN1BGMlRxdWxtd1BEbjFiaE43VEF5eUxtZm5sTklVUnlwMnpWWXRDc3JyRjhUaFpNS1Jsd1ZsZHNGdFRfN3RXamM2RUExdw?oc=5",
+      "pubDate": 1786345200000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1921570859",
+      "title": "Apple deletes guide on Chinese mainland Mac users accessing Alibaba’s Qwen AI",
+      "titleZh": "Apple deletes guide on Chinese mainland Mac users accessing Alibaba’s Qwen AI",
+      "summary": "Apple deletes guide on Chinese mainland Mac users accessing Alibaba’s Qwen AI Global Times",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBnWkZncWhEdW5nWWlIMk8yaF9GcnhLN2l6c1JEbC1CRFpsa051TlBsVkJBYkFudjVnd1NVOTNRVExlbzRsVk15ckZhLXlWa0tmbTZCTnBoUDBWWW5SdU92b3F3?oc=5",
+      "pubDate": 1786258800000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1033415691",
+      "title": "Apple says Mac users in China can connect to Alibaba's Qwen AI service",
+      "titleZh": "苹果表示，中国的Mac用户可以连接到阿里巴巴的Qwen AI服务",
+      "summary": "Apple says Mac users in China can connect to Alibaba's Qwen AI service Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbXVFWnRmd080YXVJQl95andMTEs4bzBySU9OUzFROUdVcVU5UUtjMFF1LVY3WWNEMTZ3di1hM203OUhjQ2d6MFF0NlNWcUdJUndQZXlBWmRXZVhXc2RnSVdORFdmVEZFTWFkNnVVSjVOZFV4NDFkcVo3Z1VramQ5NUZPSkhJclk4R2tuVEtVRzJRNkVmYXhSeTk5NmJ5d0JIRkdSQ1RVR1NnOG5hdmJON0Zlb2t4QV82SWhvZkhWbS1PZw?oc=5",
+      "pubDate": 1786172400000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1316264924",
+      "title": "Apple Intelligence formally integrates Alibaba's Qwen model on macOS",
+      "titleZh": "Apple Intelligence正式将阿里巴巴的Qwen模型集成到macOS上",
+      "summary": "Apple Intelligence formally integrates Alibaba's Qwen model on macOS Global Times",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE15LWYxZWN1Ulh3aGlJTjN0d3VRQ2ptaTd4UUYyYV9udHpKTkJuN3JjSXRBRm9qWF9KYnlyMzBkWVRXMWRkejdaV2w3dnp6WE5GVVpvTG55VjJ1aWpBbjVHR2NR?oc=5",
+      "pubDate": 1786172400000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1746107262",
+      "title": "Alibaba plans revenue sharing for major users of Qwen AI model",
+      "titleZh": "阿里巴巴计划为Qwen AI模型的主要用户提供收入分成",
+      "summary": "Alibaba plans revenue sharing for major users of Qwen AI model The American Bazaar",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZnBEVUhFM3BvelA5c1YzWmpKVE5ycUhKNnlhanBPa3M4V2dqY0ppNWU4Z29XNUtBMkJBS0lSZGthXzhSNHVtM3JSMjJTaFFFbzFvS3owSmtOVEw3dFVWNVp2cVplMFVvQThqem02ek9ZeThKZy1FM0FRc05vVUM2VV9scHBmWjV2T1JaOFJKTnQtVkZnZ3NrbEw2LXlDc0FOVTFULUVjQllReHBscW83RmhWX2Y?oc=5",
+      "pubDate": 1786172400000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1143347296",
+      "title": "Apple says Mac users in China can connect to Alibaba’s Qwen AI service",
+      "titleZh": "Apple says Mac users in China can connect to Alibaba’s Qwen AI service",
+      "summary": "Apple says Mac users in China can connect to Alibaba’s Qwen AI service WSAU",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUm1xdHVUbmpmS2lZa0R0OUc2VE5MRHRvRUlFOE1xLUVVR3E4akZEeFh6cFpTM1Y2eXdqb3REcEMwa3FfQjBGbWdzWmd4WHE1NDhDcnlGVmJNT1hZQnh4Z25HM3RxY2N3YTJrcUdwcFU3Q2xvUFRjcVNDTF9wMEN3MXcwWmtyWTVjeHpHNW9ycUFJTkI4cXRDQ3I3bThwc2M?oc=5",
+      "pubDate": 1786172400000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-219434516",
+      "title": "Alibaba plans revenue sharing for next open-source Qwen AI model",
+      "titleZh": "Alibaba plans revenue sharing for next open-source Qwen AI model",
+      "summary": "Alibaba plans revenue sharing for next open-source Qwen AI model qz.com",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1QNXpYQzl1QUZ5RW53SEZjQmFmejc2alNvUFFuWWZsMk1YYTNYRWFfNFhzcGZmQ2xfaHJlSjMtUlpXYjdkcEoyemk4T0xxenBVb3ZNSzk5Zzc1dVJZSW4yOVNGdUNCS3NkZUJlR2xkcw?oc=5",
+      "pubDate": 1786086000000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-804806878",
+      "title": "Alibaba tests new business model for Qwen open-source AI",
+      "titleZh": "阿里巴巴测试Qwen开源人工智能的新商业模式",
+      "summary": "Alibaba tests new business model for Qwen open-source AI AI News",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZmY0cFpRYlYyZ1hlaWg2NVdKYWZueEFvWVBhWFpQUTJxQVFkalJKSFE5V2tFNEJBMmUyUDJIYVA2MElHcWRSdEE4bENoNjctb3lyb0Q2NWY2dEFZWG9iWlAwWnBPQ0xXc0RYMzhtbGpIcmozYlZKM2NRdWVXNjgxRFBwVXRHQlpMZVVWMEhKSjFXellSNDh2bA?oc=5",
+      "pubDate": 1786086000000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-566195951",
+      "title": "Alibaba wants to charge the biggest users of its ‘open’ AI model",
+      "titleZh": "Alibaba wants to charge the biggest users of its ‘open’ AI model",
+      "summary": "Alibaba wants to charge the biggest users of its ‘open’ AI model The Next Web",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBHZWVORDVXYnpEckd1LWcxU2VFNk94eU92enBsRVdZcjhVamhRLXB6LWlsbWpaSlNqTXZxSGk0eGhMcG5VSzlfNWcyeUxCQzBGQm4yak4xRGowZ1dreURhZkw3dTAwT3dMUVZXWEVJdjNnQjg5Z1dXTA?oc=5",
+      "pubDate": 1786086000000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-545169709",
+      "title": "Alibaba Plans Revenue Sharing for Large Users of Its Open Qwen AI Model",
+      "titleZh": "阿里巴巴计划为其开放的Qwen AI模型的大型用户分享收入",
+      "summary": "Alibaba Plans Revenue Sharing for Large Users of Its Open Qwen AI Model Межа. Новини України.",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNUzlUQmFCLUk2OC1URGM1d3Y1dEtSM3hZYkl5MXo0N2xLWUZYTC1IdmNWd2hrU3dpWXNDMFE0VUpBUnFjVHRxd2ZrTk90dVRsTWY4SHNSTjN1VVJRZ0YwbkM1ZG4xYmNzTVFn?oc=5",
+      "pubDate": 1786086000000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "337400670",
       "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
       "titleZh": "WeatherNext ： AI模型在气旋预报方面取得突破",
@@ -1285,6 +2524,69 @@
       "source": "NVIDIA"
     },
     {
+      "id": "1606403868",
+      "title": "Alibaba plans revenue-sharing for commercial users of next Qwen AI model - Reuters",
+      "titleZh": "阿里巴巴计划为下一代Qwen AI模型的商业用户分享收入-路透社",
+      "summary": "Alibaba plans revenue-sharing for commercial users of next Qwen AI model - Reuters Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOLVV2bEZoZGVDVFVBVzU2REZtNmEyRXBxRTNULW5EOHFSZFoxR05ENXhjY01rTXRBUFpIR0RBcEVONUtzMVU4cXN2Z3lTMzdsWlYtbi13a1luYnVOUVY1YjhRMVVJOFVNb1AwOUhITWNHQlI2d1I1U3I0NTZLY2RZWGtBY0JVdGY0MXRNZjdhUjVkOFZ5anRsTzJKN0xTUmlKWC1lOWJsaGJ5S2thRVhuN0l3Sktmb2VfMEtncVNTa1dEUVVDbHR0MmNVU3lZbk5BXy00?oc=5",
+      "pubDate": 1785999600000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1332779646",
+      "title": "Alibaba’s latest AI model puts it back in the great game",
+      "titleZh": "Alibaba’s latest AI model puts it back in the great game",
+      "summary": "Alibaba’s latest AI model puts it back in the great game Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeUtoZ0x3NVNLSEZsYVFjc0poMlJ2NmN1UGJWR2FicFFhX2ZMMGowYWtUSUNFbjg0dzVubXdmbUNkYkJIaldJdDZPU3JhWDFjVXBPaDdUanBpWHdhR3VvUERkdEhvbTJtUkh4SUNoSF9pX0FYcGFkRlJMUm5Lak5tUWlkZm8?oc=5",
+      "pubDate": 1785999600000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "2107861325",
+      "title": "Qwen 3.8-Max and Claude Opus 5 show why raw benchmark scores don't predict the bill",
+      "titleZh": "Qwen 3.8-Max和Claude Opus 5展示了为什么原始基准分数不能预测账单",
+      "summary": "Qwen 3.8-Max and Claude Opus 5 show why raw benchmark scores don't predict the bill VentureBeat",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNEItdTFINFNkdHFOeVFzSHpQdVJVM1RzTFFYcDRMUVVCNUVONUxxQUN5dTRjcXBVTmdSS2ZaQXZWMUlCaTVpbmZwTWMxcnNyWENUY3dLMW5kLWttbWRIZmJycUpqNzNmdDJiQTRaZW1sRXVrRzRkSFdIS2VrMkNFaUNGMnhtR0N6eGVZN3VzVi1zZ0ZxUEE0eTFSNldTNlhuOGFPbWJqRUtaeFVvMk1JRURkbElCcjR5dkRKdA?oc=5",
+      "pubDate": 1785999600000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 5,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1860432156",
       "title": "NVIDIA and Partners Build in America, for America",
       "titleZh": "NVIDIA及其合作伙伴在美国为美国打造",
@@ -1304,6 +2606,48 @@
         "cs": 1
       },
       "source": "NVIDIA"
+    },
+    {
+      "id": "769480634",
+      "title": "Alibaba Qwen Update Sends Clear Signal on AI Chip Resilience",
+      "titleZh": "阿里巴巴Qwen更新发出AI芯片弹性的清晰信号",
+      "summary": "Alibaba Qwen Update Sends Clear Signal on AI Chip Resilience Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWk9YRG9BQmZMa1FJTm1FMHVSdkl0OGpuU2FNcmk1NUNpOS1sMHhlS2ExQ1hpSTVaQjRQaHBPVmdmNzNLeXJYb01ocjNIRWJZd21Db2ozbFpKaFdRVzdiNElSZmFYWFpwMW5paDc5eWtWR0dYN19Bd1h1U1BLbnBfdHFoaEpHT3R5bks2WkhjazVrbHl5aER0Rko2TQ?oc=5",
+      "pubDate": 1785913200000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1539076124",
+      "title": "Alibaba Launches 2.4T Parameter Model Qwen 3.8-Max",
+      "titleZh": "阿里巴巴推出2.4T参数型号Qwen 3.8-Max",
+      "summary": "Alibaba Launches 2.4T Parameter Model Qwen 3.8-Max thelec.net",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA1cEZDWkVYV1FqV2QtUUwxMVR1RmxybDh3S2N3WGwtemptN0FzU1k3U3N4aGxtZ2tJbVh5alhzUWdJTGxpeUoyNUxlNDJmdkJDanhpdUM5emoteW9iN2ZFZkpqZzI1VGs?oc=5",
+      "pubDate": 1785913200000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "284586930",
@@ -1369,6 +2713,69 @@
       "source": "Google AI"
     },
     {
+      "id": "2048402797",
+      "title": "Alibaba Releases New Qwen Model, Consolidates AI Office Tools",
+      "titleZh": "阿里巴巴发布新Qwen模型，整合AI办公工具",
+      "summary": "Alibaba Releases New Qwen Model, Consolidates AI Office Tools Caixin Global",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ0hlYmtqNlh6VTBqdTgzX3U1Nzcxb3JiUDA5LXQtZGlpTm1yQ0hyT2g4bl91OWl2WGI2d2FiS1ZOanZBcmZIdFV6SElVS28zUy1FNnQ1ZXpoN1dRTk9pU0NSQmFpQ2pwYnF3Qi1oRjRQWHFyYXZ6TWJULVlEWm5fX0lrbWhwblViWWZ2U0lMYXBBei15bGE1ellNbTg0QVgxV2preHlVdlR2YWhGbFNCVnJ4RlJSQQ?oc=5",
+      "pubDate": 1785826800000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1837500723",
+      "title": "Qwen launches Qwen3.8-Max, its most capable model at 2.4T parameters",
+      "titleZh": "Qwen推出2.4T参数下功能最强的Qwen3.8-Max",
+      "summary": "Qwen launches Qwen3.8-Max, its most capable model at 2.4T parameters Dealroom",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ1JMODctZlJTUEJCbktmTV9RZG85MllLOGpLeTRYX3M0SWdiOEtUQlF6dE9TOVdEQ19UVVh5M0EtbnZUOWZEa0lTd1cyd2NGN0tLeHpiY01ZNmxTVFd6a0ZSbk9GTWVwYkZ3N21qMjdtb3dnbTFNUm96S2k4cjRhaW9BZmp0ZW1XcTVBLVB2bFBqQ1RJZU9BeEd6ank3TmdWLUZZ?oc=5",
+      "pubDate": 1785783185000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-2071838554",
+      "title": "Alibaba Qwen3.8-Max claims 16-day autonomous coding run",
+      "titleZh": "阿里巴巴Qwen3.8-Max声称16天自主编码运行",
+      "summary": "Alibaba Qwen3.8-Max claims 16-day autonomous coding run Developer Tech News",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcFRWOFY2aE16X3NzTk91ZWR0NF9ieEM1RXQ5UW12S3pCb3BPUWk0bzZVd0QydnNCNS1PQUdXYnEwZGZ5R1pldGZPRldlamxUbEhpNWFOaHRZQ1ZvOEpPZDJQQVh0QTlJVFUzUkMxTTdUYjhJbWRhRVR6c2RlVmxZMmNwZEFEcFc1UGZWOTdfUDZZdFlzRmln?oc=5",
+      "pubDate": 1785769633000,
+      "vendor": "qwen",
+      "category": "Agent",
+      "impact": "high",
+      "score": 43,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 12,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "439905084",
       "title": "Inside our 353,000-person vibe coding course",
       "titleZh": "在我们353,000人的氛围编码课程中",
@@ -1388,6 +2795,300 @@
         "cs": 1
       },
       "source": "Google AI"
+    },
+    {
+      "id": "615752399",
+      "title": "Alibaba Qwen Releases Qwen3.8-Max: A 2.4 Trillion Parameter MoE Model and the Most Capable One in the Qwen Family to Date",
+      "titleZh": "阿里巴巴Qwen发布Qwen3.8-Max ： 2.4万亿参数MoE模型，是迄今为止Qwen家族中功能最强的一个",
+      "summary": "Alibaba Qwen Releases Qwen3.8-Max: A 2.4 Trillion Parameter MoE Model and the Most Capable One in the Qwen Family to Date MarkTechPost",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xdU5hVFRUbVlFWmdpaUpnOGZ3VUl5UkdLemlEUUdiU2dqZzIxb3JCeWdKRHRoaHFvYjZuT01qQXlTdEwxU1phdTFESVRETkh5UGFOLTNYOXdJd3FGVXFIU09nNThiRFVQVHNkLUhsMDRrTGw0dG5Rd05kcEgtU2fSAYQBQVVfeXFMUHZ1N054NWlabzdxYVZoVkFsTDZqS0VxamU0UEh4a09yZm5PN3l1VnQwWF9UUnc2RWVzZ1ZGU0h3dXFMMDN4RGswQUMwNDFWcFcwN2ZYSTRJb0UxNllNOFZnZlZfQUFKeXZ4VGF5LVhtYTBSZXhjb1c1bzlYVmV5T216ejdS?oc=5",
+      "pubDate": 1785740400000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 5,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1867332200",
+      "title": "Alibaba joined ranks of Chinese AI breakthroughs with new Qwen model",
+      "titleZh": "阿里巴巴以全新Qwen车型加入中国人工智能突破行列",
+      "summary": "Alibaba joined ranks of Chinese AI breakthroughs with new Qwen model Українські Національні Новини (УНН)",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPU1VJTUxzWmVCb292Q2VpT3FkUXZpUnpuMGZGMTJCR29WMEYzVVR2R1FlQ0N6bFpwZ0dOdmNGU2M0bUR4bEVyWV81el9oclZfZ0Z2dHJkNXp0MHFhSlV0VDRVcjlxQkRWMHplUWpIME5WUTJDdThIRDJYZzZmUWxQR0JtT0hpRHprTzJINklpT0NVdHNrc3IxdTlmekpLOFZ2cl9j0gGiAUFVX3lxTE9FYUxxMUtNei1US3ExZEFhYjZibjJqeE85ZEozZjdVYnI0YkItd21DcUtESHBLZlltN1NmRkFUN25aTlpDQjc1VEJJeDBOenZWYlVHQnAwVk5OX25yT1FSbV9INzVIUU5TVUsydGNYdVNmbEZlb01OdUZLbm8yTkV6Y1ZtRklVSlpCc2hXY05Lb0tPcEdEZDdzVnc3UTd5ZUY1Zw?oc=5",
+      "pubDate": 1785740400000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-496176154",
+      "title": "Alibaba launches Qwen3.8-Max, its largest AI model yet",
+      "titleZh": "阿里巴巴推出有史以来最大的人工智能模型Qwen3.8-Max",
+      "summary": "Alibaba launches Qwen3.8-Max, its largest AI model yet qz.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9yc0Vzc2drLXFHWjZIQjhxWmlnNTBENGxsM1Z4emRhcWJ5Nm1xaWhYV2xUVEFrZ1YxOFI1X05QTDZNcHZHOTVfM01PZ0xDeHl3Y2NzY0hfeHp4VlBGanIxeTBJbU5RZkk?oc=5",
+      "pubDate": 1785740400000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1462491460",
+      "title": "Watch Alibaba's New Model, Amazon's AI Win and Apple's Next Chapter | Bloomberg Tech 8/3/2026",
+      "titleZh": "Watch Alibaba's New Model, Amazon's AI Win and Apple's Next Chapter | Bloomberg Tech 8/3/2026",
+      "summary": "Watch Alibaba's New Model, Amazon's AI Win and Apple's Next Chapter | Bloomberg Tech 8/3/2026 Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZVZ4QUdQZTNPZ3NWR3Zwb1BnYlN2VWxlbTVaeTE2Y1hXazhLeHdFelZiWGk0eGtVb3dNWTY3Q0xKWnVWNUM2aEZYYUJEbGRoeWdmSmZkSEdMQlFINWlyMnZ0NlQ0elpXTHpQeHhkYktTa0V1dnUwU1NrMnM2TVVTajRxY18?oc=5",
+      "pubDate": 1785740400000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1125005298",
+      "title": "Alibaba, MiniMax to open-source new AI models, lowering costs for global developers, users",
+      "titleZh": "阿里巴巴、MiniMax开源新AI模型，降低全球开发者、用户成本",
+      "summary": "Alibaba, MiniMax to open-source new AI models, lowering costs for global developers, users Global Times",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1BQUFnYU9pYkFEay1Ud28teVc4R2RZenBEaHlTRlhYcWdSYU50aHY5NHcyZ2VTek04Q195N0JGQ3hoVkVPa1lxbkgtTHpxaEZKQkcxX3Voc3JJdTlYa1Bld2ZB?oc=5",
+      "pubDate": 1785740400000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1874248284",
+      "title": "Alibaba's new Qwen model is also taking your job, but this time it's great - the",
+      "titleZh": "阿里巴巴的新Qwen模式也在接替你的工作，但这次很棒-",
+      "summary": "Alibaba's new Qwen model is also taking your job, but this time it's great the-decoder.com",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVEcyT1JPeVQxbmc2NENZREZrMEFNT25hblZQNGtIUlZiX2NvZVdYSnU5emo0WnNzM2pPTWwweGhOMU41TGRQMzVxTGFiblhEUUxLalR5ZjJSTTNTWVR5aVBMWjk2Rk44ckFfamo0cjlZTXBSQXhoQUVjYThqN2tDNm95Tlh0aWhQdnkxUGFiR21jUTNNa1NVQXp1eXU?oc=5",
+      "pubDate": 1785740400000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-529548436",
+      "title": "Alibaba's new Qwen AI model falls short of 'second only to Fable 5' claim",
+      "titleZh": "阿里巴巴新款Qwen AI机型未达到“仅次于寓言5”的说法",
+      "summary": "Alibaba's new Qwen AI model falls short of 'second only to Fable 5' claim Nikkei Asia",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcTJXZUh1VnNGRFU5WGlaeGxJS3pNZ19vdmNVQkVZM3R6QmpKdml1VGdHaW1OVEl5WS16WEdhbi1EUXhKVGFER3lnY2dYTk82Vm4xdVVLQmVSbkdoNUVicnZTMEdqRm02eU81RzhCclgzSjZJck1LM2JRbk9nQkkyUXg2ckdubGx6bFJwVlFlcWlQZnpIWVJncmt1MUNVbUUybGwyWThlNlFpNVpBUnV6OXAtNi1jM2cxNy03QTNMME5kY1JtUzdaVERZeEtKLUJSSm1zRUln?oc=5",
+      "pubDate": 1785740400000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "456318103",
+      "title": "Alibaba releases new Qwen AI model with performance rivalling Anthropic’s Fable",
+      "titleZh": "Alibaba releases new Qwen AI model with performance rivalling Anthropic’s Fable",
+      "summary": "Alibaba releases new Qwen AI model with performance rivalling Anthropic’s Fable The Business Times",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORElRSk5lTTB4d1hoSWU2blRORlBSREpxSTBwR0xWSWtkY0RBNENLSDJDbldSUWprLTBmRXFjRnhnZHNOYTB5QzRBM1dubk9yc2VrNHZCdm1KdVBiYmlmS3k4TGpvSm8yT2VIY3p2TUs3Y1VZdmpxc2NQUU1xTkhQMkxsZThZVER4UFRpS196MHp3aXNhNThUbHAyOTJTLXBwRGVnZ2g0Z0M4dFg2NEZDVVZtSy1kMTJJZ3o4cVV3WHNFcUdORzd5ZWxMNW1YUXJHX2xWcG95TUx5QQ?oc=5",
+      "pubDate": 1785740400000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1556079632",
+      "title": "Alibaba releases AI model Qwen to challenge US rival Anthropic’s Fable",
+      "titleZh": "Alibaba releases AI model Qwen to challenge US rival Anthropic’s Fable",
+      "summary": "Alibaba releases AI model Qwen to challenge US rival Anthropic’s Fable The Straits Times",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZlVCV3M1WkxBTXFGaHJOYTVveFBKSUVKRFFLSkFxMkt3UDliVlR6dVN5YUVPemNLMXdCaEpiS0VfVlN3b09PVGZzcnVOTEJPQTc2YmdDN21WUlpLdGlHakJpR0JYcFFmTVpUd3NHWm9ZdUNZUWN2MV9hZ05PNTNmV1ctRVpSYmhZc2QzM1RmcWx1eFVwb2NFYndtaDFwTGl1Z19wUGdSUQ?oc=5",
+      "pubDate": 1785740400000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1563633940",
+      "title": "Alibaba shares climb 4% after launch of most powerful Qwen model yet",
+      "titleZh": "阿里巴巴股价在推出最强大的Qwen车型后上涨4%",
+      "summary": "Alibaba shares climb 4% after launch of most powerful Qwen model yet Proactive financial news",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeXdONktzRDNpT2NBZ1JNbW1qRnVqOHRzbzJ3Q3phek83d2FqOFpLX0hvZVVuY0w4Qm9BVGZfY21HZ09rbE5iX01CVW1xNklFT25fQVBGVERqSGtvejRWVGo4QmhuR0VqSGtobHVoMjZXOU81aEd4a0lZTEZUQnRBZzdrQ09yVVZscE42UVVwVkdZWkZvckQwbHRuWlhqVTN6QXEwVlFzSWJQUGpIU3NObnpGRGpLUDAzUDFzWnhkLXpCM3JtVFh6OVRVRkpQZGI0dHJITw?oc=5",
+      "pubDate": 1785740400000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-460670561",
+      "title": "Alibaba unveils Qwen 3.8 Max as DeepSeek undercuts AI rivals with ultra-low-cost model",
+      "titleZh": "阿里巴巴推出Qwen 3.8 Max ， DeepSeek以超低成本模式击败人工智能竞争对手",
+      "summary": "Alibaba unveils Qwen 3.8 Max as DeepSeek undercuts AI rivals with ultra-low-cost model Firstpost",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeG82R0ZocG9VbGdIdHFPMUJMU0RZeEhfRW1XOHlEdGxLSG14T2ZFeDM0aTF4RE1DNUthOExEa1NoMkZ6bXpQci16RTk1RVJpc1RuMmNnUU1rX0xEb285djdTbk9xbFJsRWZaMHJfV2ZEcV9mQVBYTlY3YkMxMGlCaE81UXhXQTlqanBPRXdhMnpDcFE1bGtYYkFzbHQ5YVVIOXRFSHVxazdpam9BY3dLak1rNWRvNnNpeGR0MEFwUnk4Z0tnZVJVclhHMNIB0AFBVV95cUxNOUtKV2hPaWY2U1JPVjNudktKOEh6aENMSk5ZX2F6U2lEU0hSMTNxeWZHdmxuZERKbWMyMkdKTnlEazdneHg5ZS1hMGx5YUxuNGpzWVFEWThSX1plRlo4Q0w3X1k2YlhINk91QVdhQ3diTGpiQWVMSXFEN1pLNDhtYl82OXJ6UzVaenlxaWRteV9ReS1ReDNQSkZYaTdrOG50X1B0YU9ndUVRV2RyLXRXT19aN2QtemJGNVZKWV82OHBYM2xGNnlLLWN1SEJIekNq?oc=5",
+      "pubDate": 1785740400000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1970195931",
+      "title": "Fortune Tech: Alibaba vs Moonshot, CXMT’s big moment, SpaceX’s startup surge",
+      "titleZh": "Fortune Tech: Alibaba vs Moonshot, CXMT’s big moment, SpaceX’s startup surge",
+      "summary": "Fortune Tech: Alibaba vs Moonshot, CXMT’s big moment, SpaceX’s startup surge Fortune",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS1E4OUJ1WkxKQUs4aGVnS09TX1M3b2xfZnVpUE5NUHpGWFE3dUxOUzRQZ1oxbm04dTZkck9WejNsOUtmNG4wQnJOX2tndWlLTzJQLXlMVElkZFFUQVFNeTlTc2RUY0tjcE95SF9VUmNubXEtVFJSZEZjMV9BWndpTw?oc=5",
+      "pubDate": 1785740400000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1866064810",
+      "title": "Inside Alibaba’s AI acceleration: A deep dive into Qwen 3.8 Max and QwenWork",
+      "titleZh": "Inside Alibaba’s AI acceleration: A deep dive into Qwen 3.8 Max and QwenWork",
+      "summary": "Inside Alibaba’s AI acceleration: A deep dive into Qwen 3.8 Max and QwenWork Marketing4eCommerce",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeEdBaEszX0k4YmxiWW5veThWYmhFYlNhYkpad21hQ3RSQ3YzMk01MXRnT3p1X2VHUzJTSGhIdzVhamJfcG5ndjhhdmxNaWJ3YzNRVG1jUnE0OFNvSm5yZkpLVTdzdlBNMGl4Q3loQTdINjJQaDVLZWY3VGlhc1JNdC1n?oc=5",
+      "pubDate": 1785740400000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "800703517",
+      "title": "Alibaba Bankrolled Kimi K3 With 20,000 Nvidia Chips: Now Qwen Is Losing to Its Own Compute",
+      "titleZh": "阿里巴巴为Kimi K3提供2万Nvidia芯片：现在Qwen正在失去自己的计算能力",
+      "summary": "Alibaba Bankrolled Kimi K3 With 20,000 Nvidia Chips: Now Qwen Is Losing to Its Own Compute Tech Times",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWDlYTHViMXIyQ1FmeVN2b24yUV9qdERkand2Tk5sRVptQlNxWTV4S1I5cjdkWHR2cnB5NUZZRzBqTEZMNEhNZlFqOEZOMUlkWUdpUjNleUx2VWNHVW4zX0dndE1IT0ZpM2stZTFLdDRoS1phQ3pqVm44a2ZPcmZ3MHh5aVhNYWxlZnE2Q2RIUUFqMlM3Mk42VEMwU2d0TUI3MUFZQ09DOUhDTl81RExrTzhVZXNtdlhJQTNOWlp2clZ1bmlXQ3hfME0wZ0s?oc=5",
+      "pubDate": 1785654000000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-464609805",
@@ -1418,6 +3119,27 @@
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04emlXWXpVQXhNcjJsU1d5ZmhnU1J2TFRyeFlxM2hqUUNUNVR2UmxFQUNBanYwWnd5ZUpTRnptVEh2TXU2NU5aa0FRbFV6ejVPd2wxWFNXa3RoaTZPQ0dQSHc0Tkk4WE93Q1JwV0tIWGNBaGNG?oc=5",
       "pubDate": 1785567600000,
       "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-2115458231",
+      "title": "Alibaba’s Qwen AI model in beta testing in Tesla cars in China",
+      "titleZh": "Alibaba’s Qwen AI model in beta testing in Tesla cars in China",
+      "summary": "Alibaba’s Qwen AI model in beta testing in Tesla cars in China Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaUp1cmtOektjX3FaTUtXeXFNVkw1dG9ZcVZHbmU0YjMtLU5EN25VUHBSV2hDLVZVV18wdzgwNkRLMFZxRlR5a193aGxzRmFyV2Y0ZU1ETjZPMFp1cW5BbjdqbGhwNHFBNkJsa1JEdkZoTG42d3VLNWxHMy03YnB6Y3hVWk0yZTJJVnRIamVtSkRva2VsVDV3S19hU2FPX3F3bnAtVFJaQU5MRW5vRjhkSmFqcmh0V20xV2c?oc=5",
+      "pubDate": 1785481200000,
+      "vendor": "qwen",
       "category": "Research",
       "impact": "med",
       "score": 55,
@@ -1497,7 +3219,7 @@
     {
       "id": "890765335",
       "title": "Gemini Robotics 2 brings whole body intelligence to robots",
-      "titleZh": "Gemini Robotics 2为机器人带来全身智能",
+      "titleZh": "Gemini Robotics 2 brings whole body intelligence to robots",
       "summary": "Gemini Robotics 2 brings whole body intelligence to robots",
       "link": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
       "pubDate": 1785244897000,
@@ -1518,7 +3240,7 @@
     {
       "id": "-1243449843",
       "title": "5 ways AI Mode in Search helps you enjoy the real world",
-      "titleZh": "搜索中的AI模式帮助您享受真实世界的5种方式",
+      "titleZh": "5 ways AI Mode in Search helps you enjoy the real world",
       "summary": "It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert tickets or find the perf…",
       "link": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
       "pubDate": 1785243600000,
@@ -1579,6 +3301,27 @@
       "source": "NVIDIA"
     },
     {
+      "id": "1594116607",
+      "title": "China Is AI-Maxxing",
+      "titleZh": "中国是AI-Maxxing",
+      "summary": "China Is AI-Maxxing Foreign Policy",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX3R4S2JETm45a1ZnM29hUGxid1hoOEVaWW5fNnVERVczVWFFQ2EzRURnMnJ5ZWEyd09VMHNBYlFualBOM04tUy1wQzJESDFRa3FITjVLc0J6NkpWWmFRZWVGTHhtZ2dzdEJxcnhWR1k5N3BQRzlMdGhPREJNNUhvd3g2ZmdYbmtMNzA2NldWLWNqbTBmdlVwVzRrZFZfTmM5ZWd0c29HcldrUFU?oc=5",
+      "pubDate": 1784790000000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 41,
+      "scoreBreakdown": {
+        "cq": 10,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-273870782",
       "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
       "titleZh": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
@@ -1598,6 +3341,27 @@
         "cs": 1
       },
       "source": "DeepMind"
+    },
+    {
+      "id": "1484195325",
+      "title": "How to Play BABA Stock as Alibaba Unveils New Qwen AI Model",
+      "titleZh": "阿里巴巴推出全新Qwen AI模型，如何玩巴巴股票",
+      "summary": "How to Play BABA Stock as Alibaba Unveils New Qwen AI Model Barchart.com",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcDVseDlCYzNkOHZPWFF4N1VXci1jeExCNjhZd2w3NlpDMnRDbkI5SWhVeEpHMzhZQmRWN3hYWjNySHR5UEw3VmRCbmpwV2tXTS01cmdiMnBEY19uYW5fNUp3OXlUWjFpVkRMM3N0LVlCN3YtcDc0ZGtodVJrMlV0S3FUc3pycUlSZ1FnR0hvTG1PLW4tNXBDUktZNEJvOW5peXZwLW1R?oc=5",
+      "pubDate": 1784703600000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1306097999",
@@ -1642,6 +3406,27 @@
       "source": "NVIDIA"
     },
     {
+      "id": "570928501",
+      "title": "Alibaba Qwen 3.8 Max Shows China Closing in on U.S. Models",
+      "titleZh": "阿里巴巴Qwen 3.8 Max显示中国正在接近美国车型",
+      "summary": "Alibaba Qwen 3.8 Max Shows China Closing in on U.S. Models AI Business",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaV8yNTk4bTdGa3NMeHgwYWF0Sk5TdFlQcU9Sam1QNXhuRzRoVlRpS2dGV05NMGxLeWY1djVUM184YzdTdGRyTGd6OTlhZkVTSHZhcWF5RWVwMzhEWkZyUHNQOXlKbEtadDdTalF1U3JpeUZyMnBEWGtJVHpoZTZQM18yYWZCY00yNlJIMW1uN0tSY3gzSGc?oc=5",
+      "pubDate": 1784617200000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-704281125",
       "title": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
       "titleZh": "在SIGGRAPH ， NVIDIA借助代理和物理AI推进图形和仿真",
@@ -1684,6 +3469,111 @@
       "source": "NVIDIA"
     },
     {
+      "id": "876994362",
+      "title": "Watch Alibaba's Qwen Model Raises Stakes in AI Race | The China Show | 7/20/2026",
+      "titleZh": "观看阿里巴巴的Qwen车型在人工智能竞赛中筹集资金|中国车展| 2026年7月20日",
+      "summary": "Watch Alibaba's Qwen Model Raises Stakes in AI Race | The China Show | 7/20/2026 Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdmpodWgzTVpZWGp6YjBPM0g2S2ZDeW1GMkdURmwwWEREQjIxWmF3N3hJZWtCcXZGb0NXbmxjajNhVGdkYmpmaEZkYWtrTDN3ZURCd1dwLWNTSjhXZ3pPVHg1Q3NiT3lxZ1VkRlRpemU4c0Nkc3k3LVJ4dkxaWEUtajY0a3R4dw?oc=5",
+      "pubDate": 1784530800000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "345982035",
+      "title": "Alibaba Shares Rise After Unveiling Upgraded Flagship AI Model",
+      "titleZh": "阿里巴巴在推出升级版旗舰AI车型后股价上涨",
+      "summary": "Alibaba Shares Rise After Unveiling Upgraded Flagship AI Model Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdWxzei1DVGFMSTdOMzhQdWVTXzg1SHdqNWlsaU81Tmphb1UxOUlvbVJFZXpBdTRlTXhQRTQzdWRlT1ZRWHNRTmV2alYyTlVVenljdEg4c1VZekJUUUhNZ0ZwQl9nMVZMVlgzWF9uWUJpdXpxaHNmRVJlZ19QdlJmTF80OFFPYnJ3enRENm5ka21oVVB2U3hDUjhqMVhYeUFwdHJJNw?oc=5",
+      "pubDate": 1784444400000,
+      "vendor": "google",
+      "category": "Release",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 25,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1454851199",
+      "title": "Alibaba previews Qwen3.8, claiming its strength trails only Anthropic’s Fable 5",
+      "titleZh": "Alibaba previews Qwen3.8, claiming its strength trails only Anthropic’s Fable 5",
+      "summary": "Alibaba previews Qwen3.8, claiming its strength trails only Anthropic’s Fable 5 South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPakRPRHUwd1M1b09VMGxEN2t6V3JfNzVsc3Zpcko1djRPaXVpdlAxYTh1eld2MkVSTUVlV1VCOXExUHkzSnFMQ2h3aXV0SHdEN2g4UXRBTlYzMm5rQnBVQmVpNzZwSWdkRG1ybU4zQ1p4dXFaWjUwTGxFQzRQM0FzVUE1TTM4UjllUDFWRjRKZS14MjdTbmhkZVYtR1BaenF2RlRydXZvTWstdmJMRFNhSGZKONIBswFBVV95cUxPLVNNNUpSUTZvb3ZlaUVrN2NWOF9nX21xNTFfbl9BUEg0VkpfZnh5M05HcVhoT0g3NDZsLWVRNlJud21VWGRSdzlweXR5dTN0NzFSLU5Rc1N1cks3SzZkd0JveFdPb0swTC01LWhlbmpfVXF2U3BFQTUtb2RjaXJxQUVqUXpSVlBZWGQzak1BMm5GTUJUZGdNUDc3c3VLeXhSd0pESkdTRXQ5WkkyNGMtdFlfdw?oc=5",
+      "pubDate": 1784444400000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "high",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-668586889",
+      "title": "Alibaba previews Qwen3.8, claims it’s second only to Claude Fable 5",
+      "titleZh": "Alibaba previews Qwen3.8, claims it’s second only to Claude Fable 5",
+      "summary": "Alibaba previews Qwen3.8, claims it’s second only to Claude Fable 5 SiliconANGLE",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTTF4a04tTUx3S0dzcUdqendHSDRGbEh4cWpVN0RMSHF2NkNTVW9kXzl2WUJTVmhLZWNqWFBfRkpuMzhDSk9ITXhhYS1rYkgwSmlFdWFUTDNUdlA5Ml9SRXpGallKRm9aN3E3RWN6eDBYMHoyT1I0ZUZHcGZiNXhVMzdxWW5XUmU2ZXNCS2pYbG5xOHBt?oc=5",
+      "pubDate": 1784444400000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "high",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1430322369",
+      "title": "Alibaba's Qwen takes on Kimi K3 with open-weight Qwen 3.8, says model is \"second only to Fable 5\" - the",
+      "titleZh": "阿里巴巴的Qwen采用开放式Qwen 3.8对抗Kimi K3 ，称该车型“仅次于寓言5” -",
+      "summary": "Alibaba's Qwen takes on Kimi K3 with open-weight Qwen 3.8, says model is \"second only to Fable 5\" the-decoder.com",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTG0xQlFyWkRjUzh5SS01dzdlVnBhN2MyMWFWekVjREJvMFV3LUNfbUM0SVFyMUROZ0M0cEpPdkFkU1pMQkNGa3R6Q3pYakVITUdrZ0R6c0RYTUVJQzZJNFlGaEZHdTlkVlFGNm1BVzQyT3o5cW1fT015Q0loRHhKeGtsNU9ZYVQ3RHFLVnk5YjhwZDVnNHBjRTNRODE5UnM1S3FlbDAzVlBiLXYzeHhSVC1sVll5MGczUkE?oc=5",
+      "pubDate": 1784444400000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1263228432",
       "title": "Introducing Gemini 3.5 Flash Cyber",
       "titleZh": "隆重推出Gemini 3.5 Flash Cyber",
@@ -1705,6 +3595,132 @@
       "source": "DeepMind"
     },
     {
+      "id": "-679590261",
+      "title": "Apple Intelligence approved for launch in China with Alibaba and Baidu",
+      "titleZh": "Apple Intelligence获准与阿里巴巴和百度合作在中国推出",
+      "summary": "Apple Intelligence approved for launch in China with Alibaba and Baidu Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNV3lRR181a2FYb2pnVFZEWlN4bjhZSDJSczBHQkRmTUdLY1dqaTVmS0ZGb044Y2NFdmlmN0hSZXdLcG90Mnhma1hwaEg0aEVTc19JRDVGcXA0azBrUWJCcC1Md0RtT2FUUDVMa1YyOGFoOVdqMU41WDJDNHoxLWQtRS1hQ3JGWEZzVm1idWVBY0dBa3VVZEZKWmx5SHB4Ml82YlVQV3BRMA?oc=5",
+      "pubDate": 1784185200000,
+      "vendor": "google",
+      "category": "Release",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 25,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1018948029",
+      "title": "Alibaba’s U.S.-listed shares rise 4% after Qwen AI set to be integrated in Apple Intelligence",
+      "titleZh": "Alibaba’s U.S.-listed shares rise 4% after Qwen AI set to be integrated in Apple Intelligence",
+      "summary": "Alibaba’s U.S.-listed shares rise 4% after Qwen AI set to be integrated in Apple Intelligence CNBC",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1KZGV6dDJ6U2R1eTJ1bFZleUhNX1FtMXFaOFBWaklmVE1PWV9vNVhDZGgybFdIQUlHNW5QNm53Z3B0LWdZUG9GaE0ySDNwaFUzT2R1YzhJWHRUM2c3Z2Y4cXNpS1I1RE5LWXEwT3FYMlo2TnJiMF9rc2JLZ9IBgAFBVV95cUxNSkp6a051Tm55Q1RtU0g5REJwajJnSUlqZi04NUJkNTkwYVFtNVNpLTBFOGh5VDFwYUVPc01sSVVZYko4SE9wS0ItTzFHQjF5emZRNzhWcTZOeVZ0UEQ2Vi0tWi1EN01CV1VabG1Jc1pvVGtKeFM0aDlnUTI3TDZYaw?oc=5",
+      "pubDate": 1784098800000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1677150415",
+      "title": "Apple Intelligence approved in China with Alibaba Qwen AI model",
+      "titleZh": "Apple Intelligence通过阿里巴巴Qwen AI模型在中国获得批准",
+      "summary": "Apple Intelligence approved in China with Alibaba Qwen AI model Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQN2NKenRmNW5EdTBxMVg4RVdOOHRUR1VCMDN4RHkwUUFxZmphWGRZLV9Rd2hMR3VrcWNwZFZWMGw2MTM3S2kxTGJJWWRCbGpCZmZmMUFNOU1Dc2VnNnRuOU93RHNLcXhHYVMyMFZGX1VISGxiNlQwMmctczUzWlFUM1E0OVZOMUxSV1hRUjhsMGIxcjlyb1R1SVlacFg5QjhtMExhUGhETnA?oc=5",
+      "pubDate": 1784098800000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-428704740",
+      "title": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
+      "titleZh": "Anthropic称阿里巴巴非法提取Claude AI模型功能",
+      "summary": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUjhQd2FfckN3bVZ1MS1YQUs1OUJ2R0lsVDREY0tJMlRPbVBTMHFscE92X3B5UnVOajZaYnhsSUhNSHdmNE1md3hIc0FJWWRfcEktajFjTjBkX04tNEIxOVpFajd3eWJJRk05T1d2WTJhRjF5Mkl1TFNjbTJNY0czVGR2bDNFVTdrOUI5czR1dUZpckVzMXdqenJNbGppNjVVWXZNbHpUMlIteTJ1Q3hnSDltTnpSSFBhWmpZ?oc=5",
+      "pubDate": 1782370800000,
+      "vendor": "anthropic",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "2071403194",
+      "title": "Alibaba slashes Qwen AI model price during US working hours in fight for users",
+      "titleZh": "阿里巴巴在美国工作时间大幅下调Qwen AI车型价格为用户而战",
+      "summary": "Alibaba slashes Qwen AI model price during US working hours in fight for users South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMno4RkJQQXQ0TS1IeFJGbnVCbGFiYUNWakg4amY1cjFSV0lUMmxJVXRreGRUdHpsb3JSY2RWbk9OdmNmaEJpRHV4aUpkbjh0WFlXb0R3ZHlQOTZ5OU0tTnVSU3ktZnAwbXZUbURfZEVtNENscmV6dklKVHVuZU44Y2ROMHkwbEVOSUN6Uklsb2Z1ZWpuRDdEUFNfaHVhd0RsSklxaUlLNF9VeEMzaXZSa2xMNmhxQjNEa0xKYWRhbUJ2ZVhnVENtRmdoc9IBywFBVV95cUxOb29qSkhUTWlwdnlsRXg3Z2o2LWFfZVA5bmRyODBrTmE1VDRueUxEYzZVNnZjV29QcVpIV1JzSWI5QXF5cHBISDdNM0hhZUhVUkpFOFI1LUZaTmh1Unc4N0NIcXk3cVZidE5VbXRzT3lKZEZmQldzYmx0S1d6c2dZLXNnY21zV3V3YTRWemVBSFI5dmVUSTRaX1RXZElfdzBBQUhtWHN6QVRzX1NFU3pVSkVFeGlVYmdsdDh2LW9ld2dCUHlaOXVCcEtucw?oc=5",
+      "pubDate": 1782284400000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1112091133",
+      "title": "Alibaba unveils new Qwen model, custom chips in bid to become China’s AI factory",
+      "titleZh": "Alibaba unveils new Qwen model, custom chips in bid to become China’s AI factory",
+      "summary": "Alibaba unveils new Qwen model, custom chips in bid to become China’s AI factory South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeVJpN2xXVGp1VUtyWDJWTnNnTkx3VzhSbTVxUXgzTFdBWW5KMjFnSHg1ZlcwNC1QVFVfUjYyQTd4UmlxQmxLWnI3ejcxdHlhdjhqUjVNc0o3VnFrZG0yVW1ueVlJLXRNWjByU2tRS1RiSmJXMHB1ZnJOdFNNY0Q0aVhXZ25KZmQyVjEtTUtSaE4ybTRwTGhmYzNfc0lBUjZJOE1aci1YeEZmOGsyczZEOHRYTHFpSHZqMUttdVlaQUfSAcABQVVfeXFMTzNmbS1Qa3NUSDhRU0dlMUJzcEQ5em16M1N4ZTZRcEFSREJrbkhyeXg0T3FQYVktdjhtYnRneDFBejlLeUFXMG9CYzF1S1ZyeG9hZ2Y2a1piOUJtck1IVTRiV3J3cElSYVdvbzVvYWdEWGttVXpRM0dSVU9aTDFmV1ZDRGtucGoyVzVZME96b0Y0T1l3Zll3YkNHb3paS19IMHZjZTE2RGZneW1nLVdxZ3hVbFR2bEVNV2NHNHpNa2Zt?oc=5",
+      "pubDate": 1779260400000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1093452510",
       "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
       "titleZh": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
@@ -1724,6 +3740,48 @@
         "cs": 1
       },
       "source": "VentureBeat"
+    },
+    {
+      "id": "-1116372352",
+      "title": "Alibaba teases new Qwen previews, highest-ranking Chinese AI models on Arena",
+      "titleZh": "阿里巴巴在Arena上推出新的Qwen预览版，排名最高的中国人工智能模型",
+      "summary": "Alibaba teases new Qwen previews, highest-ranking Chinese AI models on Arena South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOb1FrZU5fc0puTlhfcVZBQ0FISmdIZ0VYTmRtdXYwN0pJbHJKZDN1Q3ZXa1RZMXNjSFNBRTVEc0dQY0RGS3BpY1RqXzdES3dhYmwyMHhJdmdyRjVUWkJwbEdXZWg2VUIxWFh1V2ZCemFGTWFMQkJSbllZQVFPaW5EYnA2bnRjbmNET29pczNzbnEzRUhjNzFYbnl3SG1kT3dJUWJjZlpGa1Q2YU5VNFJJNlBQUWxycW9fcDQ1bk5WUEg4RmJ20gHEAUFVX3lxTE5ETEMwbXk0NXdSMl9CcEkxbHNpR1lKcVJWQl9CSGtQZ1YtNmtWUGpSLTBUVE9GOWJoTUR4R2tRaktzeWRtLWRic0JWd0tJTXIwc1NYSzJFakNZQjgxZWMtQVNqRW1Hbnhwdkc3Sk9WUzM5b0M4M3hlNHNhZ0N5RWN2OWpDX2Z6Z3ZObWJrSzAtaEYtaTdGTzdCaEQxWUE2eExQc1E1aENRMlJLbjBLa3FPWmFNZW1YYWJLbkg0T2dmTElWQVU?oc=5",
+      "pubDate": 1779174000000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1538703009",
+      "title": "Alibaba Drops Qwen 3.6 Max Preview—Its Most Powerful Model Yet",
+      "titleZh": "Alibaba Drops Qwen 3.6 Max Preview—Its Most Powerful Model Yet",
+      "summary": "Alibaba Drops Qwen 3.6 Max Preview—Its Most Powerful Model Yet Decrypt",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wamFyaXVWRGluZUlZbUNsd1BZaElUcE1teEM0ZVVmVWFlT3dkUjVqcnNfNkd1a01nMU5aeUxidU5pbDZMRVVDQy1ER3dJQ2Zoa1BZaDdTUUduY2hQTG9NWTFydG0wcjNiS0I3ZjgyOUtabE9lSWU3c3FzVERoaDDSAYcBQVVfeXFMT0pjYzNMY0pVaS1hRkhHWWxveW9OX1NPSkNrdm4yWkxYWGFFVDVEeGpDZkdlaW9GNVNfVTNpU1Zrc1RJY0dhRkdyRkZ5Vkl3aFVNem9RUUpVektEUjliTmFPS3RLWmZYUGVlR0F6NHN3Ri1ESjcyakhkZ3BTQm9MUjZxZXpERVRN?oc=5",
+      "pubDate": 1776668400000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1380991222",
@@ -1770,7 +3828,7 @@
     {
       "id": "1646974166",
       "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
-      "titleZh": "Listen Labs在病毒式广告牌招聘噱头后筹集了6900万$ ，以扩大人工智能客户访谈规模",
+      "titleZh": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
       "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent $5,…",
       "link": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
       "pubDate": 1768572060000,
