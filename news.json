@@ -1,15 +1,36 @@
 {
-  "updated": "2026-08-26T23:53:35.976Z",
-  "count": 117,
+  "updated": "2026-08-27T05:47:39.552Z",
+  "count": 116,
   "sources": 12,
   "items": [
     {
-      "id": "-437370314",
-      "title": "Anthropic continues compute-gobbling streak in $45B deal with Nscale",
-      "titleZh": "Anthropic继续与Nscale达成$ 450亿的交易",
-      "summary": "The new deal with the infrastructure provider is the latest example of Anthropic's white-hot compute-gobbling streak.",
-      "link": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
-      "pubDate": 1787780259000,
+      "id": "-1376696557",
+      "title": "Viral AI startup Instinct has raised $350 million at a $2.5 billion valuation",
+      "titleZh": "病毒式人工智能初创公司Instinct以25亿美元的估值筹集了3.5亿美元",
+      "summary": "The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns.",
+      "link": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
+      "pubDate": 1787790297000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "high",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 20,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "560265745",
+      "title": "Amazon just tripled its order of Nvidia chips over ‘surging demand’",
+      "titleZh": "Amazon just tripled its order of Nvidia chips over ‘surging demand’",
+      "summary": "Amazon is adding another 2 million Nvidia GPU chips to its data centers over the next two years. But this extended partnerships stretches beyond buying more chips.",
+      "link": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/",
+      "pubDate": 1787788038000,
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
@@ -25,6 +46,48 @@
       "source": "TechCrunch"
     },
     {
+      "id": "-437370314",
+      "title": "Anthropic continues compute-gobbling streak in $45B deal with Nscale",
+      "titleZh": "Anthropic继续与Nscale达成$ 450亿的交易",
+      "summary": "The new deal with the infrastructure provider is the latest example of Anthropic's white-hot compute-gobbling streak.",
+      "link": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
+      "pubDate": 1787780259000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1791274335",
+      "title": "Chinese State Hackers Doubled Attack Volume by Outsourcing to DeepSeek",
+      "titleZh": "通过外包给DeepSeek ，中国国家黑客的攻击量翻了一番",
+      "summary": "Chinese State Hackers Doubled Attack Volume by Outsourcing to DeepSeek Tech Times",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYngxQ1E3MEYwVDAxaFlqdXdYSmJIRjRocFRtVFZaaWJxXzZENUNjdHlVMGF2Y3RpTk1XOGtCanluN2V3dGNteElHSm5wSFVlTlJnUkdlbnJHRk54eVhjU1NGblpPcExMX25adUpqX190ZE5sQWtkc0t5OGJ1T3NEazNsREVsRlZxTmtIdkZpREV1aFpCVExIR0ZIVy1Scjh2UDJUNjBMSVFhM3J6VVF4ajItTTFrZzBiaVNJ?oc=5",
+      "pubDate": 1787779092000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1215613401",
       "title": "Qwen 3.8 Flash-Next is Cheap, But There Are Complicating Factors",
       "titleZh": "Qwen 3.8 Flash-Next价格便宜，但存在复杂因素",
@@ -34,13 +97,13 @@
       "vendor": "qwen",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -55,13 +118,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -76,13 +139,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -97,13 +160,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -118,13 +181,13 @@
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "high",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 3,
         "cw": 25,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -191,27 +254,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "976153035",
-      "title": "China’s Z.AI Made Ox Alpha Stealth Model That Rivals DeepSeek",
-      "titleZh": "China’s Z.AI Made Ox Alpha Stealth Model That Rivals DeepSeek",
-      "summary": "China’s Z.AI Made Ox Alpha Stealth Model That Rivals DeepSeek Bloomberg",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcFAzZElBMXB2bzloV0FDMnV0ZGE3QjBKb1RTT3JMWVNZTEJaUzdoY0dFM2lGWFRoejJWMUhWcS1kSHpSbG5YVjh5VElENTVOZW82ODQ3SW1heHc2cUhOVHBxOFJTd0JLaXFnT3kyRXVjUmlJSWhDWEhnREZSdWxydHB1MjdFQXJEQXlEQVFhZ1dobWtNVkEzT3c5VDJaanoxbkduWHRFTGd4bzBQa0dNdmd3?oc=5",
-      "pubDate": 1787763259000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-47774684",
@@ -417,48 +459,6 @@
         "cq": 16,
         "kv": 3,
         "cw": 22,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "624627587",
-      "title": "Robot brain builders are pushing out of their GPT-2 era",
-      "titleZh": "机器人大脑建设者正在推出他们的GPT-2时代",
-      "summary": "Robot bodies are waiting for their AI brains to catch up.",
-      "link": "https://techcrunch.com/2026/08/26/robot-brain-builders-are-pushing-out-of-their-gpt-2-era/",
-      "pubDate": 1787751000000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "167697219",
-      "title": "QueryStory wants you to believe what AI is telling you",
-      "titleZh": "QueryStory希望你相信人工智能告诉你的",
-      "summary": "The startup came out of stealth with $6 million in seed funding and a plan to use LLMs and cybersecurity know-how to make AI queries coherent.",
-      "link": "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/",
-      "pubDate": 1787749200000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 20,
         "st": 8,
         "rc": 3,
         "cs": 1
@@ -685,13 +685,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 66,
+      "score": 65,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 5,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -706,13 +706,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "high",
-      "score": 73,
+      "score": 72,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 12,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -727,13 +727,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -748,13 +748,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 63,
+      "score": 62,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 6,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -769,13 +769,13 @@
       "vendor": "arxiv",
       "category": "Release",
       "impact": "med",
-      "score": 66,
+      "score": 65,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 6,
         "cw": 25,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -790,13 +790,13 @@
       "vendor": "arxiv",
       "category": "Release",
       "impact": "med",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 25,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -811,13 +811,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 4,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -832,13 +832,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 3,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -853,13 +853,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 4,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -874,16 +874,37 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 5,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
+    },
+    {
+      "id": "-2004375837",
+      "title": "The Hugging Face incident and the road ahead",
+      "titleZh": "拥抱面孔事件和前方的道路",
+      "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+      "link": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "pubDate": 1787702400000,
+      "vendor": "openai",
+      "category": "Safety",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 10,
+        "st": 15,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "OpenAI"
     },
     {
       "id": "1822873629",
@@ -895,13 +916,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -916,13 +937,13 @@
       "vendor": "huggingface",
       "category": "Research",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 1,
         "cw": 22,
         "st": 14,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -1084,13 +1105,13 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -1105,13 +1126,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -1126,13 +1147,13 @@
       "vendor": "openai",
       "category": "Release",
       "impact": "med",
-      "score": 63,
+      "score": 62,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 25,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -1147,37 +1168,16 @@
       "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 15,
         "st": 14,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
-      "id": "-819194011",
-      "title": "Chinese hackers use DeepSeek AI to boost attacks",
-      "titleZh": "中国黑客使用DeepSeek AI来加强攻击",
-      "summary": "Chinese hackers use DeepSeek AI to boost attacks Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSGg3WTE3TGdhd01MME1ROXYtY2lxbGJuSjJtT3Z2Zi1oZlcwMXg3NFZHSkU5MGE3bHlYSjJZSHJ1Q2Vla0pRcWw4d3dLaEhTV1VlV2g5Ukc2Wk56WHJCN2lBS3Vtd2h6WXF0dm5wckFEUjZveWpwZnYxVW9kM1FvYzBMNnNlX0NaWFVmbU4zTVd0enFwdnFleWJpX0JwUnU1NmdWdWNveFQ?oc=5",
-      "pubDate": 1787596008000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
         "rc": 1,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "HuggingFace"
     },
     {
       "id": "273853240",
@@ -1236,27 +1236,6 @@
         "cq": 20,
         "kv": 3,
         "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1691348756",
-      "title": "How to Use DeepSeek Harness",
-      "titleZh": "如何使用DeepSeek线束",
-      "summary": "How to Use DeepSeek Harness thetricontinental.org",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5DQU9CNFgyTGt4X2R2TW1KNkIzT0hDTGtibnlMbnk3NHlDX2huMURPUGlMbVZ2a3dTaDBJLVBMbHh2VDBwZHY1VjlBSWZkZzVWWXB0cWo4Y2hocURjLTVSYmNfOEJYMVpYUmc?oc=5",
-      "pubDate": 1787302855000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 2,
-        "cw": 15,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -1327,41 +1306,20 @@
       "source": "HuggingFace"
     },
     {
-      "id": "-1210991592",
-      "title": "Introducing AI Futures",
-      "titleZh": "AI Futures简介",
-      "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "id": "-1532168910",
+      "title": "Introducing Intelligence Age",
+      "titleZh": "智能时代简介",
+      "summary": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
       "link": "https://openai.com/index/introducing-ai-futures",
       "pubDate": 1787209200000,
       "vendor": "openai",
       "category": "Release",
       "impact": "med",
-      "score": 56,
+      "score": 58,
       "scoreBreakdown": {
-        "cq": 14,
+        "cq": 16,
         "kv": 0,
         "cw": 25,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "-1785538471",
-      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
-      "titleZh": "Stampli使用ChatGPT Work将发布时间缩短了68%",
-      "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
-      "link": "https://openai.com/index/stampli",
-      "pubDate": 1787184000000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "high",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
         "st": 15,
         "rc": 1,
         "cs": 1
@@ -1552,6 +1510,27 @@
         "kv": 1,
         "cw": 22,
         "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "235311960",
+      "title": "DeepSeek Lifts AI Model Prices Fourfold",
+      "titleZh": "DeepSeek将AI模型价格提高了四倍",
+      "summary": "DeepSeek Lifts AI Model Prices Fourfold WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQd0hZUGVrZmdGTmVpTkVseXpHNzFmZ1cxaUdrT0I0Q1ZVYjFlVnZPdDFUZkV4RWdjMEpoUGxyQ0xEeHJ2VWVKZ0ZLZHc4bURlcEJyVWpUaWZXT0xqR3ljTmZXLXJjZ3FDaHFmRkVkanF1MHhRTlU3dTRtLWxJbDBFVTVB?oc=5",
+      "pubDate": 1786777200000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
         "rc": 0,
         "cs": 1
       },
