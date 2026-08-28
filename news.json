@@ -1,8 +1,239 @@
 {
-  "updated": "2026-08-28T01:35:41.357Z",
-  "count": 113,
+  "updated": "2026-08-28T13:35:22.378Z",
+  "count": 115,
   "sources": 12,
   "items": [
+    {
+      "id": "609174621",
+      "title": "EduRiskX: A Neuro-Symbolic Framework with F-Logic Reasoning for Early Academic Risk Prediction",
+      "titleZh": "EduRiskX ：早期学术风险预测的神经符号框架与F逻辑推理",
+      "summary": "arXiv:2608.26107v1 Announce Type: new Abstract: Predicting students' academic risk in online education is crucial for enabling timely interventions that can improve retention and learning outcomes. Ho…",
+      "link": "https://arxiv.org/abs/2608.26107",
+      "pubDate": 1787889600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 67,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 8,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-433920766",
+      "title": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
+      "titleZh": "独立的LLM和预先指定的解释ICU死亡率预测的代理管道： eICU演示数据集的可行性研究",
+      "summary": "arXiv:2608.26109v1 Announce Type: new Abstract: Machine-learning models can predict ICU mortality accurately, but feature-attribution methods alone rarely provide the clinical narrative needed for bed…",
+      "link": "https://arxiv.org/abs/2608.26109",
+      "pubDate": 1787889600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "81619047",
+      "title": "Large Models for Battery Prognostics and Health Management: A Review and Future Roadmap",
+      "titleZh": "电池预测和健康管理的大型模型：回顾和未来路线图",
+      "summary": "arXiv:2608.26111v1 Announce Type: new Abstract: Battery Prognostics and Health Management (BPHM) is critical for ensuring the safe, reliable, and cost-effective operation of batteries across electric …",
+      "link": "https://arxiv.org/abs/2608.26111",
+      "pubDate": 1787889600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-557430148",
+      "title": "PICasso: An AI-Enabled Design Framework for Autonomous Optimization of Silicon Photonic Devices",
+      "titleZh": "PICasso ：硅光子器件自主优化的人工智能设计框架",
+      "summary": "arXiv:2608.26113v1 Announce Type: new Abstract: We present PICasso, an AI-assisted framework for automated synthesis, verification, and optimization of photonic integrated circuits (PICs) from natural…",
+      "link": "https://arxiv.org/abs/2608.26113",
+      "pubDate": 1787889600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-721362351",
+      "title": "CIFQA: A Deterministic Tool-Grounded Multi-Agent LLM Framework for Financial Query Answering",
+      "titleZh": "CIFQA ：基于确定性工具的多代理法学硕士金融查询答案框架",
+      "summary": "arXiv:2608.26114v1 Announce Type: new Abstract: Calculation-intensive financial question answering requires exact reasoning over structured rates, temporal conditions, numerical formulas, and rule-bas…",
+      "link": "https://arxiv.org/abs/2608.26114",
+      "pubDate": 1787889600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "988991136",
+      "title": "The Artificial Experimentalist: Discovery and Control of Self-Organizing Phenomena with Autotelic Reinforcement Learning",
+      "titleZh": "人工实验主义者：通过自主强化学习发现和控制自组织现象",
+      "summary": "arXiv:2608.26116v1 Announce Type: new Abstract: Existing methods for exploring cellular automata and other complex systems mostly operate in open loop: they set initial conditions, execute a full simu…",
+      "link": "https://arxiv.org/abs/2608.26116",
+      "pubDate": 1787889600000,
+      "vendor": "arxiv",
+      "category": "Agent",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 4,
+        "cw": 12,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "339833215",
+      "title": "The Accuracy-Efficiency Paradox Quantifying Net Energy Loss in on-Device Energy Forecasting",
+      "titleZh": "在设备能量预测中量化净能量损失的精度-效率悖论",
+      "summary": "arXiv:2608.26134v1 Announce Type: new Abstract: Energy forecasting aims to maximize accuracy to ensure energy efficiency by reducing energy waste, an objective that applies equally to on-device foreca…",
+      "link": "https://arxiv.org/abs/2608.26134",
+      "pubDate": 1787889600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-224015166",
+      "title": "LLMs for Academic Workflows: An Evaluation of Literature Reviews Generated with Short and Long Context Windows of LLMs",
+      "titleZh": "学术工作流程法学硕士：使用法学硕士的短期和长期背景窗口生成的文献综述评估",
+      "summary": "arXiv:2608.26145v1 Announce Type: new Abstract: Our research focuses on evaluating literature reviews generated in short and long context settings of large language models (LLMs) to investigate the im…",
+      "link": "https://arxiv.org/abs/2608.26145",
+      "pubDate": 1787889600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1862849493",
+      "title": "Methodological and Conceptual Framework for 5D Multi-Table Analysis: A Unified Approach for Complex Data Reuse",
+      "titleZh": "5D多表分析的方法和概念框架：复杂数据复用的统一方法",
+      "summary": "arXiv:2608.26149v1 Announce Type: new Abstract: Multi-table learning remains a major challenge in machine learning for healthcare and other complex information systems. Relational data combine several…",
+      "link": "https://arxiv.org/abs/2608.26149",
+      "pubDate": 1787889600000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 15,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-2089110234",
+      "title": "Leveraging Large Language Models for Systematic Literature Review of Disease Spread Models",
+      "titleZh": "利用大型语言模型进行疾病传播模型的系统文献综述",
+      "summary": "arXiv:2608.26150v1 Announce Type: new Abstract: Recent advancements in Large Language Models (LLMs) have created new opportunities to streamline and potentially automate many research processes, inclu…",
+      "link": "https://arxiv.org/abs/2608.26150",
+      "pubDate": 1787889600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 67,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 8,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "661511688",
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "titleZh": "Supporting Thailand’s next generation of AI startups",
+      "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+      "link": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "pubDate": 1787882400000,
+      "vendor": "openai",
+      "category": "Release",
+      "impact": "high",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 25,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
     {
       "id": "-1810172170",
       "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
@@ -13,13 +244,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -34,37 +265,16 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1046330341",
-      "title": "Qwen 3.8-Flash-Next From Alibaba: The First Look at Qwen 4",
-      "titleZh": "Qwen 3.8-Flash-N Next来自阿里巴巴： Qwen 4的第一印象",
-      "summary": "Qwen 3.8-Flash-Next From Alibaba: The First Look at Qwen 4 Memeburn",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12MlBmYXRXLS1BYUxkSVg5cWUxNi01bGVHOUhfc3ItbEgweHRTdEhKclR3N3UwTG9jRU1mcHFPMGtIWTFPWGVwWTRQTFJ1QWoxMVd5dXJkdTRZaXdiOHd1RDYwNmlIT3M?oc=5",
-      "pubDate": 1787853661000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
         "rc": 3,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "TechCrunch"
     },
     {
       "id": "920514185",
@@ -86,27 +296,6 @@
         "cs": 1
       },
       "source": "TechCrunch"
-    },
-    {
-      "id": "609974792",
-      "title": "US Startups Are Quietly Replacing OpenAI and Anthropic With Chinese AI",
-      "titleZh": "美国初创公司正在悄悄地用中国人工智能取代OpenAI和人类",
-      "summary": "US Startups Are Quietly Replacing OpenAI and Anthropic With Chinese AI Startup Fortune",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTkVYdWRmc0dIYmN6NlRHbl9JcjdtWVAxeVVqc2FKbHhpQ0hNNUkya1l1S2x3ZGRxem9GRzN4YmZMMVpkcHloUXlpdGp6c3VOVy11UXlmdG1VamF1U0RINXlQaVVKQlR6S25CN3dVN1loclJUS1hDZEN4cXFnTk0yTTJROFNYZmRocENJSW5neDJiUzM0SkcwaU51MWRkV1E?oc=5",
-      "pubDate": 1787852365000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1667630678",
@@ -149,27 +338,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "-37449017",
-      "title": "Kimi K3 ‘Societal Chaos’ Market: Why Bettors Put 2% on Widespread Disruption - tech",
-      "titleZh": "Kimi K3 ‘Societal Chaos’ Market: Why Bettors Put 2% on Widespread Disruption - tech",
-      "summary": "Kimi K3 ‘Societal Chaos’ Market: Why Bettors Put 2% on Widespread Disruption tech-insider.org",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9WNDlVYUdBOW9uaUhBX19FbUhtbUhpTzRqVjVaVzJPRjVvNnJ5OFY4MW5SUWJYdXZIZjBnMF9UOTZWblhGby1NWnJJRl9XODNLN0N6X2lYR3dvMUppcmVSQjRRTlFKa05XczhxUlFEWEp1d2M0dWFXSlNMTQ?oc=5",
-      "pubDate": 1787846595000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-243590627",
@@ -328,13 +496,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -349,13 +517,13 @@
       "vendor": "deepmind",
       "category": "Funding",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 1,
         "cw": 20,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "DeepMind"
@@ -370,13 +538,13 @@
       "vendor": "venturebeat",
       "category": "Agent",
       "impact": "high",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 12,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "VentureBeat"
@@ -391,13 +559,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -412,13 +580,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -433,13 +601,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "high",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 4,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -454,34 +622,13 @@
       "vendor": "deepseek",
       "category": "Funding",
       "impact": "high",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 20,
         "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-787831074",
-      "title": "Alibaba unveils cheaper Qwen AI model: is this what its stock needed?",
-      "titleZh": "阿里巴巴推出更便宜的Qwen AI模型：这是它的库存需要吗？",
-      "summary": "Alibaba unveils cheaper Qwen AI model: is this what its stock needed? TradingView",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOakhlbXhLUUd2QTdWV0ptV2poYm1PbGhOSVllUkRuSlZOSndNOEhxQjVuaW9RaldSWlpPYjU0UEczbHBoU1E3R0V4eXd6RVRSVVp3eXVjMVN0VktoeEM2aTZsWG1leFBKTXlWSWxPdDEyVGRFVV9QUW1qcUFPcmZaOGJqVWRzQkJQaU00RzdndUVMVlhkazRxOHd5R0l2MVNWWTFCZXZYbDI5WUkxaFJVTUx1dFRfbWJrNjVhaUhUZy1ndw?oc=5",
-      "pubDate": 1787805300000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "med",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -496,226 +643,16 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "669489142",
-      "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
-      "titleZh": "渲染：在LLM记忆评估中控制面向读者的证据",
-      "summary": "arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a mem…",
-      "link": "https://arxiv.org/abs/2608.23568",
-      "pubDate": 1787803200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 66,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1289534372",
-      "title": "ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence",
-      "titleZh": "ESQ-Bench ：评估NL2SQL方言泛化和静默语义分歧的多层企业Oracle基准",
-      "summary": "arXiv:2608.23569v1 Announce Type: new Abstract: State-of-the-art Natural Language to SQL (NL2SQL) models report execution accuracy exceeding 89 percent on established benchmarks such as Spider and BIR…",
-      "link": "https://arxiv.org/abs/2608.23569",
-      "pubDate": 1787803200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 73,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 12,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1992854131",
-      "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
-      "titleZh": "LLM代理使用模拟模型执行对照实验",
-      "summary": "arXiv:2608.23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scientific and engineering tasks require more…",
-      "link": "https://arxiv.org/abs/2608.23622",
-      "pubDate": 1787803200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-581554982",
-      "title": "A survey detection channel overrides the pixels in an astronomical foundation model, and biases tomographic mean redshifts",
-      "titleZh": "调查检测通道覆盖天文基础模型中的像素，并偏置层析成像平均红移",
-      "summary": "arXiv:2608.23626v1 Announce Type: new Abstract: Foundation models for astronomy are trained on survey pixels together with the catalogue products derived from those pixels. Those catalogues are incomp…",
-      "link": "https://arxiv.org/abs/2608.23626",
-      "pubDate": 1787803200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-460912611",
-      "title": "TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery",
-      "titleZh": "TRACE ：用于多目标材料发现的过渡感知残留控制",
-      "summary": "arXiv:2608.23631v1 Announce Type: new Abstract: Multi-objective materials discovery with LLM agents is often limited not only by how many candidates can be proposed, but by how effectively each costly…",
-      "link": "https://arxiv.org/abs/2608.23631",
-      "pubDate": 1787803200000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "med",
-      "score": 66,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 25,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-661657701",
-      "title": "Function-Level Execution Feedback for Code Preference Optimization",
-      "titleZh": "代码偏好优化的功能级执行反馈",
-      "summary": "arXiv:2608.23632v1 Announce Type: new Abstract: Process supervision has improved mathematical reasoning, where intermediate steps are naturally expressed as chains of thought. In code generation, howe…",
-      "link": "https://arxiv.org/abs/2608.23632",
-      "pubDate": 1787803200000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1828016759",
-      "title": "Auditing the Synthetic Memoir: Measuring Scene-Level Confabulation in LLM-Generated Autobiography Against the Documented Record of the Life It Describes",
-      "titleZh": "审核合成回忆录：根据法学硕士自传中描述的生活记录来衡量场景层面的混淆",
-      "summary": "arXiv:2608.23640v1 Announce Type: new Abstract: When a large language model (LLM) is asked to write a person's life, how much of what it writes actually happened? We present a scene-level case-study a…",
-      "link": "https://arxiv.org/abs/2608.23640",
-      "pubDate": 1787803200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "2145691092",
-      "title": "How much of a measured AI preference is the model, and how much is the instrument?",
-      "titleZh": "所测量的人工智能偏好模型有多少，仪器有多少？",
-      "summary": "arXiv:2608.23641v1 Announce Type: new Abstract: Model welfare research infers what a model prefers from the answers returned to prompts written to elicit preferences. Keeling et al. (2024), Mazeika et…",
-      "link": "https://arxiv.org/abs/2608.23641",
-      "pubDate": 1787803200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1228279170",
-      "title": "AI Agents Push Humans Out of the Loop",
-      "titleZh": "人工智能代理将人类推出循环",
-      "summary": "arXiv:2608.23642v1 Announce Type: new Abstract: AI agents pose significant risks as they are granted increasing autonomy. A commonly proposed solution is human oversight and keeping a ''human in the l…",
-      "link": "https://arxiv.org/abs/2608.23642",
-      "pubDate": 1787803200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-560318423",
-      "title": "FLARE: A Systematic, Uncertainty-Aware Framework for Evidence-Based Adoption of Artificial Intelligence in Healthcare",
-      "titleZh": "FLARE ：在医疗保健领域采用基于证据的人工智能的系统性、不确定性感知框架",
-      "summary": "arXiv:2608.23643v1 Announce Type: new Abstract: Artificial intelligence is increasingly being introduced into healthcare workflows, yet most evaluations emphasize model accuracy rather than whether ad…",
-      "link": "https://arxiv.org/abs/2608.23643",
-      "pubDate": 1787803200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
     },
     {
       "id": "-1226448606",
@@ -727,16 +664,37 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "1663324528",
+      "title": "Moonshot AI Wants Microsoft, Amazon and Google to Pay It a Cut of Kimi K3",
+      "titleZh": "Moonshot AI希望微软、亚马逊和谷歌向其支付Kimi K3的一部分",
+      "summary": "Moonshot AI Wants Microsoft, Amazon and Google to Pay It a Cut of Kimi K3 Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZUdZWnc1alNicnJYd3UzWENfRnE1b3h0YkNmV3B2eXJmQkM1aHA3VWlMZ0dDbk9tRnZZMlE5UkQzNTBBanZtSkV3UThER0c5YkZORDBaR2lxT1FjR0R0SXVEbzQ2OS1ucmZTanB3QWVaOS1HQUpGUmlzQkpBOEcyelNmOEh1WEh4Z1FkaVRycV95WkRuaVRYaTM0dkx4QjZ1TUE?oc=5",
+      "pubDate": 1787785098000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 3,
+        "cw": 15,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1215613401",
@@ -753,6 +711,27 @@
         "cq": 18,
         "kv": 2,
         "cw": 15,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1031575422",
+      "title": "Alibaba Stock Rises After New Qwen AI Model Takes Aim at Costs",
+      "titleZh": "新的Qwen AI模型以成本为目标后，阿里巴巴股价上涨",
+      "summary": "Alibaba Stock Rises After New Qwen AI Model Takes Aim at Costs TradingView",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVDhUcFZwb01JQy1MYUhZZ3VVYmliMTVBVUJCZ3ZvdkNHNTI0WEljSFZlazZLdXdienlhYTR0T2IxWjZBNzQyUHJMT0lnNl80VUI2LVlVN1BCQXlQS1k3UmNjbVdwYm8tMkVDclpQRGc5VDdpd3pNdkFlVEpWUzNjMnBVX2ozTDZWSFpwaVJ1RjFfVThJdG1jcHZUR1lpckN5ZHlFLXNMWHBPZ2ZrYzAzMlBLc0g1Z3dXLWEwbnFDOA?oc=5",
+      "pubDate": 1787765313000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
         "st": 12,
         "rc": 2,
         "cs": 1
@@ -793,6 +772,27 @@
       "score": 62,
       "scoreBreakdown": {
         "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "172192906",
+      "title": "Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\" - the",
+      "titleZh": "阿里巴巴发布Qwen3.8-Flash-Next ，瞄准“极致性价比” --",
+      "summary": "Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\" the-decoder.com",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVGNjSDJ6WGFXZ0tVSXZzME1XOWhuS0VGX1lpTmcxMWNFSENKOE5JNUYtUHNtWXFIZDFzZHJRQktENzZZQVlTeWhPaUh2R2lKLUxpeXVBa3BjZEFVcjFmdDNJczJnTzR4MXZjWmxreTA5VkM5SUJYTlY3UGtBQ3piT3E3VHpidFJ1WWVVVUktcm1CSXdXRDZKV2hFbw?oc=5",
+      "pubDate": 1787755497000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 16,
         "kv": 4,
         "cw": 25,
         "st": 12,
@@ -853,55 +853,55 @@
       "vendor": "kimi",
       "category": "Research",
       "impact": "high",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 3,
         "cw": 22,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
     },
     {
-      "id": "1432337794",
+      "id": "-1467769569",
       "title": "MSFT, AMZN, GOOGL Reportedly In Revenue-Sharing Talks With China's Moonshot AI Over Kimi K3 Model",
       "titleZh": "据报道， MSFT ， AMZN ， GOOGL与中国的Moonshot AI就Kimi K3模型进行了收入分享谈判",
-      "summary": "MSFT, AMZN, GOOGL Reportedly In Revenue-Sharing Talks With China's Moonshot AI Over Kimi K3 Model Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMncwNHNiQ0tMM09MN0ZySXpFWGtwTjJCQ2xjVUhxa05nUFRQamNBWGl6VGM4Y3NUWTJvMEQyNFZzY3FqakZIRVNJNk1rSkl1NzZITEJJRFJMTW9fZXpqeFlobXo5TkptenNfZmxYcW90dTdMMWkwZU94UjB2QTUwMEJJMkZvS2REOWpsUnZtdW5NMzZyU1U2TWNTUWZBeEk?oc=5",
-      "pubDate": 1787748382000,
+      "summary": "MSFT, AMZN, GOOGL Reportedly In Revenue-Sharing Talks With China's Moonshot AI Over Kimi K3 Model Stocktwits",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRUl6WE5IWkJ5ZEpVREJWQzhkejhfMHU5YlVfTzBHQm5WY3B2QzFEM1BkOVF4ZFZHWUhOWEVxWVMyX0xzWmtVVmh2RTA4TGpfbkl5eFJnaFpJZDVTNGo2MGFuLThFMmdXZUtncTFHNDk2YVNLVTFyY3lNLU9yazhyV2JyUnpiQTRnMGZCTTl6TFo2NnhLRjNJVVM0NWlUR0JtTzdDTFpWcFBRcmFfS1dVNTgwWkR1bHBMNXpzbkdCMGc4RFM4UEJ4bHpUZnRkd3VLTDRlam1HMk5ZelBjeW44?oc=5",
+      "pubDate": 1787748360000,
       "vendor": "kimi",
       "category": "Research",
       "impact": "high",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
     },
     {
-      "id": "397374558",
+      "id": "374586481",
       "title": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model",
       "titleZh": "阿里巴巴发布更小、更具成本效益的Qwen AI模型",
-      "summary": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model Bloomberg",
+      "summary": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVFN2VVNaUWE0bXJiNjQ2VWJlbngtWlpzcnY3RG44VlB1eVVhMWNiT21wYmVKSDJnQ0JkNXMycVg5bWRqQ2RIZ3E0d0hzdkEzUlNPV05aUjRUTFhzaXlNdVhVSHFXNGRuZFlPWUhEeEtKemMwdWJValR0MFpZM19OMVRpS1piVVhZWEI3ZmdJZmlDR1B5d2JMRU5DcENuSUktd01Ra0J6Zw?oc=5",
       "pubDate": 1787747750000,
       "vendor": "qwen",
       "category": "Release",
       "impact": "high",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -916,13 +916,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -937,13 +937,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -958,13 +958,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -979,16 +979,37 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "-833877359",
+      "title": "Moonshot mulls revenue-sharing deals with Microsoft, Amazon, Google over Kimi K3 AI model: report",
+      "titleZh": "Moonshot考虑与微软、亚马逊、谷歌就Kimi K3 AI模型达成收入分享协议：报告",
+      "summary": "Moonshot mulls revenue-sharing deals with Microsoft, Amazon, Google over Kimi K3 AI model: report Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORzJNdGQ1NC1RRWlaZ1JqTUNmYXpqTUdtejE4THZid3BrNUFQQl9paFBZdUgtbWREc2M3R25oaE1mUzBXMnk5WVdoU0ViMklBUTJPUGF5dGktNDA4cWRNbzk5MWJQY0xBenN0cTNfYWV5YWJocFJpNUFudDlVWW50cWROaEp6RG9lYXhSSU5TMGM5YmlZY0hCQW0yRVdVanVJa3RHSHRBWXpQTnI0LW1SVGdnSlFENWt0a0V0T3JTQnRBV00?oc=5",
+      "pubDate": 1787735076000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-366036991",
@@ -1000,13 +1021,13 @@
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
-      "score": 57,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -1222,20 +1243,20 @@
       "source": "OpenAI"
     },
     {
-      "id": "1879092133",
-      "title": "China’s hackers use DeepSeek for attacks, researchers say",
-      "titleZh": "China’s hackers use DeepSeek for attacks, researchers say",
-      "summary": "China’s hackers use DeepSeek for attacks, researchers say The Japan Times",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZzZsWEN5eERPTkEzZXpFVzFOY0xMOWxJUThiVkszbW85QVhyRWRwbDIzd3VlOW91RU1kX0VxbXlsMGxNSzdsTmFQNGdFWlRkLVBrZ252UDFpd3lvMG94SmFpV1dUdlFCMTFfYUlmMzhaMTBZMk1SemZhUWlFRy1Dam45dnRSdkU0bnY3c3lsa0xlZm5qeHY5NA?oc=5",
-      "pubDate": 1787621460000,
+      "id": "1910627899",
+      "title": "Chinese State Hackers Doubled Their Attack Volume Using DeepSeek AI",
+      "titleZh": "使用DeepSeek AI的中国国家黑客的攻击量翻了一番",
+      "summary": "Chinese State Hackers Doubled Their Attack Volume Using DeepSeek AI Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeml2NzhYNnBiWWd3aWExY1ZPaUkxUGZRWVVkcHliUDIzdV9UTXlXTG5IaTBPNVFqNURwQS1Ia2dVUVVzWDVnYWtYMEJaVW5PWmFTdXBhZTN3SUh3c1lSQXFsZXNxOFh1ZTFJRG1kNHZaRHZhNUpvQWxjVGhTRFZMN2FhTTc2QU5DX2ozZjBNMjBBNWx0TlA4dzRjaw?oc=5",
+      "pubDate": 1787622015000,
       "vendor": "deepseek",
-      "category": "Research",
+      "category": "Product",
       "impact": "med",
-      "score": 56,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
-        "cw": 22,
+        "cw": 15,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -1264,27 +1285,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "2145206586",
-      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
-      "titleZh": "ChatGPT Work和Codex管理插件简介",
-      "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
-      "link": "https://openai.com/index/introducing-admin-plugin",
-      "pubDate": 1787616000000,
-      "vendor": "openai",
-      "category": "Release",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 25,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "1988952107",
       "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
       "titleZh": "连接它，运行它，部署它： Gradio中的AI工作流程",
@@ -1304,6 +1304,27 @@
         "cs": 1
       },
       "source": "HuggingFace"
+    },
+    {
+      "id": "-819194011",
+      "title": "Chinese hackers use DeepSeek AI to boost attacks",
+      "titleZh": "中国黑客使用DeepSeek AI来加强攻击",
+      "summary": "Chinese hackers use DeepSeek AI to boost attacks Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSGg3WTE3TGdhd01MME1ROXYtY2lxbGJuSjJtT3Z2Zi1oZlcwMXg3NFZHSkU5MGE3bHlYSjJZSHJ1Q2Vla0pRcWw4d3dLaEhTV1VlV2g5Ukc2Wk56WHJCN2lBS3Vtd2h6WXF0dm5wckFEUjZveWpwZnYxVW9kM1FvYzBMNnNlX0NaWFVmbU4zTVd0enFwdnFleWJpX0JwUnU1NmdWdWNveFQ?oc=5",
+      "pubDate": 1787596008000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-2002351906",
@@ -1336,13 +1357,13 @@
       "vendor": "deepmind",
       "category": "Research",
       "impact": "med",
-      "score": 57,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 22,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "DeepMind"
@@ -1472,6 +1493,27 @@
         "cs": 1
       },
       "source": "HuggingFace"
+    },
+    {
+      "id": "1686568900",
+      "title": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
+      "titleZh": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
+      "summary": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRVNJbE00UDhJSkVIaktiZTNYR01uZTVVNXd1SV9yMGpJM2dILU1SeWVFQXphS0dmYVNsekZrckVQVkNQNndYaWkxS1lKdXJRdE5MWVFJVVJvNHNPWlVUcVhJc2lRbFRiMFdhODdJeXJuTjZNcTg4enJpbEhMdTYxaDlpenFsSDVWUENpcDdxalM5UWR3OG10dUlMYXNSRjNhdGRYX04wN2s2aF9mb2hfbjJHY1FJT1F2WS1TQU8yc3NXMlFxSEtxX29Ca9IBywFBVV95cUxNekQyWHA4bjlBc09IbGwyajJaMEl1LVp0RXk0aWE5Q3hNWXlLUU5JcWxVRjg0ZHcwN05jN3pva3c1QzBjTjlJUl9CLWVVMkhxSjBCT2I0eFZhNkZwNDYwM0tVS3J1X1plS1J5bm02bzM4YWxPOEpXMzdhSEtRRkI0MzRYc3RFQUJRNmdid2lsMWRDM0tkcjFjUFlmZHBZdDZiR05CWkd0MHBFb3dZdHZCTHNCVjU3ZHlRMmM5TVhoTVlkZzBJV0x3UFRsdw?oc=5",
+      "pubDate": 1787036400000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1360393801",
@@ -1705,27 +1747,6 @@
       "source": "Google AI"
     },
     {
-      "id": "1919882972",
-      "title": "Chinese startup Moonshot's AI model breaks out of testing environment, researchers say",
-      "titleZh": "研究人员表示，中国初创公司Moonshot的人工智能模型打破了测试环境",
-      "summary": "Chinese startup Moonshot's AI model breaks out of testing environment, researchers say Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc2Q3eXFPcENXOWZ2cFkyM0lQUEdyMGhqTTdDbHc5dWZMa0xhV2x1U0RpZ2pUT0d5MjdNNjlHR1ZVRklMZmxnZHA3VHJyRnBJTzhsR2Jpc1dGQ2F2cnQ1VkhsMHBiZ3FQOU5BTWNjVERRdktTRjQ2UEFQMi10VmZIQzNQdzlacXc3U2lrNUJFUHV1djVlRGhvYVhCejRpX0w1dDFkS202MU5hUDBSS285b0Q3TnZORE8xZWJoM0F1VU9HVWR1Qkwzdk93?oc=5",
-      "pubDate": 1786086000000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "337400670",
       "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
       "titleZh": "WeatherNext ： AI模型在气旋预报方面取得突破",
@@ -1766,6 +1787,27 @@
         "cs": 1
       },
       "source": "NVIDIA"
+    },
+    {
+      "id": "-1363628534",
+      "title": "Kimi K3 from Moonshot AI is now available on Databricks through Unity AI Gateway",
+      "titleZh": "来自Moonshot AI的Kimi K3现已通过Unity AI网关在Databricks上提供",
+      "summary": "Kimi K3 from Moonshot AI is now available on Databricks through Unity AI Gateway Databricks",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeEVuMTdPdkpLc3d1TXRweDg2NkdFeHBsMC1lWWZIMTBNMWZiTTJRMVNjOWpLWDhXYVJnb3lfLXpaTmtqd2xwMjBwb1F3LUpsWUcxT1pWUmdaRDVrSzJ5Y0FCdHJlUjRhX21LUkVubUIyWTB4S2hPRXR2N3JGM0NMSzVETXRrYlo3bzZHOXZCV0hNWFNnZGFIMzlLVTltUmJqZzZB?oc=5",
+      "pubDate": 1785999600000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1860432156",
