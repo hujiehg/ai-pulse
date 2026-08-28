@@ -1,8 +1,113 @@
 {
-  "updated": "2026-08-27T17:07:15.954Z",
-  "count": 114,
+  "updated": "2026-08-28T01:35:41.357Z",
+  "count": 113,
   "sources": 12,
   "items": [
+    {
+      "id": "-1810172170",
+      "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
+      "titleZh": "Anthropic和OpenAI正在TechCrunch Disrupt 2026上加入人工智能舞台",
+      "summary": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
+      "link": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
+      "pubDate": 1787872605000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-693751920",
+      "title": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
+      "titleZh": "思考机器联合创始人Barret Zoph在加入OpenAI之前被赶下台，现在在谷歌工作",
+      "summary": "Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
+      "link": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
+      "pubDate": 1787860372000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1046330341",
+      "title": "Qwen 3.8-Flash-Next From Alibaba: The First Look at Qwen 4",
+      "titleZh": "Qwen 3.8-Flash-N Next来自阿里巴巴： Qwen 4的第一印象",
+      "summary": "Qwen 3.8-Flash-Next From Alibaba: The First Look at Qwen 4 Memeburn",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12MlBmYXRXLS1BYUxkSVg5cWUxNi01bGVHOUhfc3ItbEgweHRTdEhKclR3N3UwTG9jRU1mcHFPMGtIWTFPWGVwWTRQTFJ1QWoxMVd5dXJkdTRZaXdiOHd1RDYwNmlIT3M?oc=5",
+      "pubDate": 1787853661000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "920514185",
+      "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
+      "titleZh": "OpenAI、Anthropic、Google和其他100家公司呼吁采取行动防御流氓AI",
+      "summary": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of…",
+      "link": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
+      "pubDate": 1787852604000,
+      "vendor": "techcrunch",
+      "category": "Safety",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 1,
+        "cw": 10,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "609974792",
+      "title": "US Startups Are Quietly Replacing OpenAI and Anthropic With Chinese AI",
+      "titleZh": "美国初创公司正在悄悄地用中国人工智能取代OpenAI和人类",
+      "summary": "US Startups Are Quietly Replacing OpenAI and Anthropic With Chinese AI Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTkVYdWRmc0dIYmN6NlRHbl9JcjdtWVAxeVVqc2FKbHhpQ0hNNUkya1l1S2x3ZGRxem9GRzN4YmZMMVpkcHloUXlpdGp6c3VOVy11UXlmdG1VamF1U0RINXlQaVVKQlR6S25CN3dVN1loclJUS1hDZEN4cXFnTk0yTTJROFNYZmRocENJSW5neDJiUzM0SkcwaU51MWRkV1E?oc=5",
+      "pubDate": 1787852365000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
     {
       "id": "1667630678",
       "title": "Reuters: China’s Moonshot talking to US cloud giants over Kimi K3",
@@ -13,16 +118,37 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 55,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 5,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "-568326299",
+      "title": "Gemini Omni 1.1 Flash lets you build with more control",
+      "titleZh": "Gemini Omni 1.1闪光灯可让您更好地控制构建",
+      "summary": "Gemini Omni 1.1 Flash lets you build with more control",
+      "link": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+      "pubDate": 1787847092000,
+      "vendor": "deepmind",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 13,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "DeepMind"
     },
     {
       "id": "-37449017",
@@ -34,16 +160,79 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 53,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 5,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "-243590627",
+      "title": "3 new ways to plan and book travel in Search",
+      "titleZh": "在搜索中规划和预订行程的3种新方法",
+      "summary": "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.",
+      "link": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+      "pubDate": 1787846400000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google AI"
+    },
+    {
+      "id": "2014089950",
+      "title": "Google’s AI Mode can now track flight prices, help book hotels, and more",
+      "titleZh": "Google’s AI Mode can now track flight prices, help book hotels, and more",
+      "summary": "The updates indicate that Google is looking to position AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually handling parts of the trip-plann…",
+      "link": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
+      "pubDate": 1787846400000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "276078118",
+      "title": "Hugging Face is selling a cute $399 open source duck robot, Microduck",
+      "titleZh": "Hugging Face正在出售一款可爱的399 $开源鸭子机器人Microduck",
+      "summary": "Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach new tricks with reinforcement learning.”",
+      "link": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
+      "pubDate": 1787842612000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
     },
     {
       "id": "309421683",
@@ -55,16 +244,100 @@
       "vendor": "google",
       "category": "Research",
       "impact": "med",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 22,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "1975230401",
+      "title": "AI’s memory crunch is coming for Android apps",
+      "titleZh": "AI’s memory crunch is coming for Android apps",
+      "summary": "Google is setting new memory-use limits for Android apps as AI data centers contribute to hardware shortages that could leave lower-cost phones with less memory.",
+      "link": "https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/",
+      "pubDate": 1787840824000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-991697691",
+      "title": "Here’s all the times AI has gone rogue and hacked other companies",
+      "titleZh": "Here’s all the times AI has gone rogue and hacked other companies",
+      "summary": "A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
+      "link": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
+      "pubDate": 1787839302000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "2147151731",
+      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
+      "titleZh": "企业AI的真正风险不是自主代理。这是它们之间的复杂性。",
+      "summary": "Presented by Gravitee Agent complexity is the insidious shadow lurking inside enterprises right now that needs a light shone on it. That’s because enterprises don't deploy a single agent and watch it …",
+      "link": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
+      "pubDate": 1787839260000,
+      "vendor": "venturebeat",
+      "category": "Product",
+      "impact": "high",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "975354444",
+      "title": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents",
+      "titleZh": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents",
+      "summary": "Called Plaud One, these adopt the simple bare-bones style of Apple's AirPods, and can record calls, while their case can be used to record in-person conversations or take notes.",
+      "link": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
+      "pubDate": 1787835600000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 43,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
     },
     {
       "id": "394545116",
@@ -76,31 +349,94 @@
       "vendor": "deepmind",
       "category": "Funding",
       "impact": "med",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 1,
         "cw": 20,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "DeepMind"
     },
     {
+      "id": "-1183454760",
+      "title": "When agents act on their own, governance has to live in the data layer",
+      "titleZh": "当代理自行行动时，治理必须位于数据层",
+      "summary": "Presented by EDB As enterprises give AI agents more autonomy — the ability to plan, decide, and act across systems without a human approving each step — a hard question moves to the center of every ar…",
+      "link": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
+      "pubDate": 1787832060000,
+      "vendor": "venturebeat",
+      "category": "Agent",
+      "impact": "high",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 12,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "1583169264",
+      "title": "OpenAI to start showing ads on ChatGPT’s free and Go tiers in India",
+      "titleZh": "OpenAI to start showing ads on ChatGPT’s free and Go tiers in India",
+      "summary": "OpenAI has more than 100 million weekly active ChatGPT users in India, a huge chunk of whom are on the free or the lower-priced Go tiers.",
+      "link": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/",
+      "pubDate": 1787830559000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-193745239",
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "titleZh": "更好的答案，更广泛的思考：学生从ChatGPT和批判性思维培训中获得什么",
+      "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+      "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "pubDate": 1787821200000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
       "id": "2029339570",
       "title": "Nvidia closes in on Hugging Face acquisition",
       "titleZh": "英伟达完成对Hugging Face的收购",
-      "summary": "Nvidia has reportedly agreed to buy Hugging Face, the popular open-source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
+      "summary": "Nvidia has reportedly agreed to buy Hugging Face, the popular open source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
       "link": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
       "pubDate": 1787812371000,
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "high",
-      "score": 51,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 22,
-        "kv": 2,
+        "kv": 4,
         "cw": 15,
         "st": 8,
         "rc": 3,
@@ -144,6 +480,27 @@
         "cq": 18,
         "kv": 4,
         "cw": 25,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-431890123",
+      "title": "Chinese AI lab Moonshot is in talks with hyperscalers for Kimi K3",
+      "titleZh": "中国人工智能实验室Moonshot正在与Kimi K3的超级用户进行谈判",
+      "summary": "Chinese AI lab Moonshot is in talks with hyperscalers for Kimi K3 Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbTlaQXcyWEtNbW95TmR2RGgwZ1gySV9pLTdBN3NlamR2bk1KZTlNMk02X0hwOGtnWm9JRnNiVkViWWdxd0NjaUU3ODB4TWxjaUZENjZXRm1pbWlZeXQwMFR4dXo2dGMtdW9FeVI5UXZuaXpFbVU5dDd3LUVXT0lsV3dn?oc=5",
+      "pubDate": 1787804640000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
         "st": 12,
         "rc": 3,
         "cs": 1
@@ -382,132 +739,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "-1403152370",
-      "title": "Qwen &amp; Zhipu AI Open-Source New Large Language Models Overnight – Both Priced Lower Than DeepSeek, Sparking Fierce Price War in Domestic Chinese LLM Market",
-      "titleZh": "Qwen &amp; Zhipu AI Open-Source New Large Language Models Overnight – Both Priced Lower Than DeepSeek, Sparking Fierce Price War in Domestic Chinese LLM Market",
-      "summary": "Qwen Zhipu AI Open-Source New Large Language Models Overnight – Both Priced Lower Than DeepSeek, Sparking Fierce Price War in Domestic Chinese LLM Market 36 Kr",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1mUzZCd3cwaHBkMXBYa0pESk82ci1zNXJ3eS1jc0JrWldPWHUyN0liRDdpR2ZrcHpoQ0NpUlFZUGZ2T1NRQ05sSWt3aVUzTmxuR0Qw?oc=5",
-      "pubDate": 1787793303000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "648859065",
-      "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
-      "titleZh": "病毒式人工智能初创公司Instinct以25亿美元的估值筹集了3.5亿美元",
-      "summary": "The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns.",
-      "link": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
-      "pubDate": 1787790297000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 20,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "560265745",
-      "title": "Amazon just tripled its order of Nvidia chips over ‘surging demand’",
-      "titleZh": "Amazon just tripled its order of Nvidia chips over ‘surging demand’",
-      "summary": "Amazon is adding another 2 million Nvidia GPU chips to its data centers over the next two years. But this extended partnerships stretches beyond buying more chips.",
-      "link": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/",
-      "pubDate": 1787788038000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1663324528",
-      "title": "Moonshot AI Wants Microsoft, Amazon and Google to Pay It a Cut of Kimi K3",
-      "titleZh": "Moonshot AI希望微软、亚马逊和谷歌向其支付Kimi K3的一部分",
-      "summary": "Moonshot AI Wants Microsoft, Amazon and Google to Pay It a Cut of Kimi K3 Startup Fortune",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZUdZWnc1alNicnJYd3UzWENfRnE1b3h0YkNmV3B2eXJmQkM1aHA3VWlMZ0dDbk9tRnZZMlE5UkQzNTBBanZtSkV3UThER0c5YkZORDBaR2lxT1FjR0R0SXVEbzQ2OS1ucmZTanB3QWVaOS1HQUpGUmlzQkpBOEcyelNmOEh1WEh4Z1FkaVRycV95WkRuaVRYaTM0dkx4QjZ1TUE?oc=5",
-      "pubDate": 1787785098000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 3,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-437370314",
-      "title": "Anthropic continues compute-gobbling streak in $45B deal with Nscale",
-      "titleZh": "Anthropic继续与Nscale达成$ 450亿的交易",
-      "summary": "The new deal with the infrastructure provider is the latest example of Anthropic's white-hot compute-gobbling streak.",
-      "link": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
-      "pubDate": 1787780259000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1791274335",
-      "title": "Chinese State Hackers Doubled Attack Volume by Outsourcing to DeepSeek",
-      "titleZh": "通过外包给DeepSeek ，中国国家黑客的攻击量翻了一番",
-      "summary": "Chinese State Hackers Doubled Attack Volume by Outsourcing to DeepSeek Tech Times",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYngxQ1E3MEYwVDAxaFlqdXdYSmJIRjRocFRtVFZaaWJxXzZENUNjdHlVMGF2Y3RpTk1XOGtCanluN2V3dGNteElHSm5wSFVlTlJnUkdlbnJHRk54eVhjU1NGblpPcExMX25adUpqX190ZE5sQWtkc0t5OGJ1T3NEazNsREVsRlZxTmtIdkZpREV1aFpCVExIR0ZIVy1Scjh2UDJUNjBMSVFhM3J6VVF4ajItTTFrZzBiaVNJ?oc=5",
-      "pubDate": 1787779092000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1215613401",
       "title": "Qwen 3.8 Flash-Next is Cheap, But There Are Complicating Factors",
       "titleZh": "Qwen 3.8 Flash-Next价格便宜，但存在复杂因素",
@@ -517,79 +748,16 @@
       "vendor": "qwen",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-1689215967",
-      "title": "Google’s Gemini has a branding problem, and so does the rest of AI",
-      "titleZh": "Google’s Gemini has a branding problem, and so does the rest of AI",
-      "summary": "Consumer AI apps need to stop making users learn their product architecture.",
-      "link": "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/",
-      "pubDate": 1787773054000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "948727134",
-      "title": "How do we explain OpenAI’s executive exodus?",
-      "titleZh": "How do we explain OpenAI’s executive exodus?",
-      "summary": "Was Greg Brockman the right executive all along?",
-      "link": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/",
-      "pubDate": 1787772844000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1072684999",
-      "title": "OpenAI releases its official report on the Hugging Face breach",
-      "titleZh": "OpenAI发布关于Hugging Face违规行为的官方报告",
-      "summary": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
-      "link": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
-      "pubDate": 1787771122000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "high",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 25,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "515538289",
@@ -613,27 +781,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "-47774684",
-      "title": "Radar makes podcasts searchable — and usable by AI agents",
-      "titleZh": "Radar makes podcasts searchable — and usable by AI agents",
-      "summary": "Particle’s new podcast intelligence platform transcribes and analyzes more than 130,000 podcasts, making their conversations searchable on the web and accessible to AI agents through an API and MCP.",
-      "link": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/",
-      "pubDate": 1787759248000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "780556249",
       "title": "Alibaba's Qwen launches Qwen3.8-Flash AI model with lower training costs",
       "titleZh": "阿里巴巴旗下Qwen以更低的培训成本推出Qwen3.8-Flash AI模型",
@@ -655,27 +802,6 @@
       "source": "Google News"
     },
     {
-      "id": "-1229846768",
-      "title": "Ex-Meta scientists want to bring visual AI to the factory floor",
-      "titleZh": "前Meta科学家希望将视觉人工智能引入工厂车间",
-      "summary": "Perceptron offers an AI model that it says can help machines navigate the world while also providing in-depth visual intelligence.",
-      "link": "https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor/",
-      "pubDate": 1787756400000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "639376543",
       "title": "EXCLUSIVE: China's Moonshot in talks with Microsoft, Amazon, Google over K3 revenue sharing, sources say",
       "titleZh": "独家：消息人士称，中国的Moonshot正在与微软、亚马逊、谷歌就K3收入分成进行谈判",
@@ -695,27 +821,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-1042907649",
-      "title": "Bill Gates wants to see a robot tax and ‘Human Reserved’ jobs to mitigate harms from AI",
-      "titleZh": "Bill Gates wants to see a robot tax and ‘Human Reserved’ jobs to mitigate harms from AI",
-      "summary": "Gates is mostly in the Responsible AI camp, but there are a few ideas in here we hadn't heard before.",
-      "link": "https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/",
-      "pubDate": 1787755021000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "-1500538370",
@@ -781,10 +886,10 @@
       "source": "Google News"
     },
     {
-      "id": "374586481",
+      "id": "397374558",
       "title": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model",
       "titleZh": "阿里巴巴发布更小、更具成本效益的Qwen AI模型",
-      "summary": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model Bloomberg.com",
+      "summary": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model Bloomberg",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVFN2VVNaUWE0bXJiNjQ2VWJlbngtWlpzcnY3RG44VlB1eVVhMWNiT21wYmVKSDJnQ0JkNXMycVg5bWRqQ2RIZ3E0d0hzdkEzUlNPV05aUjRUTFhzaXlNdVhVSHFXNGRuZFlPWUhEeEtKemMwdWJValR0MFpZM19OMVRpS1piVVhZWEI3ZmdJZmlDR1B5d2JMRU5DcENuSUktd01Ra0J6Zw?oc=5",
       "pubDate": 1787747750000,
       "vendor": "qwen",
@@ -886,6 +991,27 @@
       "source": "OpenAI"
     },
     {
+      "id": "-366036991",
+      "title": "China’s Z.AI Made Ox Alpha Stealth Model That Rivals DeepSeek",
+      "titleZh": "China’s Z.AI Made Ox Alpha Stealth Model That Rivals DeepSeek",
+      "summary": "China’s Z.AI Made Ox Alpha Stealth Model That Rivals DeepSeek Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNnVLcXB0ZGtkTHVaMC1EYkV2aHE1eHVaLTB5ZGtMZnc5SUw0NmVDT3NkLXhCTEprODJ3QURqcGg0S3hNa0w4MXQ3S0VLMlBKMnlNUlhPbzY1d1h2dlMwelBzeDhQUHg4TDJPYXVhMTBvVXo5WlZ2cHFPdExOcjNhbXZxdHZMOGE5cmc?oc=5",
+      "pubDate": 1787734800000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-2004375837",
       "title": "The Hugging Face incident and the road ahead",
       "titleZh": "拥抱面孔事件和前方的道路",
@@ -895,13 +1021,13 @@
       "vendor": "openai",
       "category": "Safety",
       "impact": "med",
-      "score": 47,
+      "score": 46,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 10,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -916,13 +1042,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -937,13 +1063,13 @@
       "vendor": "huggingface",
       "category": "Research",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 1,
         "cw": 22,
         "st": 14,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -958,13 +1084,13 @@
       "vendor": "qwen",
       "category": "Release",
       "impact": "high",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -1096,27 +1222,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "1910627899",
-      "title": "Chinese State Hackers Doubled Their Attack Volume Using DeepSeek AI",
-      "titleZh": "使用DeepSeek AI的中国国家黑客的攻击量翻了一番",
-      "summary": "Chinese State Hackers Doubled Their Attack Volume Using DeepSeek AI Startup Fortune",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeml2NzhYNnBiWWd3aWExY1ZPaUkxUGZRWVVkcHliUDIzdV9UTXlXTG5IaTBPNVFqNURwQS1Ia2dVUVVzWDVnYWtYMEJaVW5PWmFTdXBhZTN3SUh3c1lSQXFsZXNxOFh1ZTFJRG1kNHZaRHZhNUpvQWxjVGhTRFZMN2FhTTc2QU5DX2ozZjBNMjBBNWx0TlA4dzRjaw?oc=5",
-      "pubDate": 1787622015000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1879092133",
       "title": "China’s hackers use DeepSeek for attacks, researchers say",
       "titleZh": "China’s hackers use DeepSeek for attacks, researchers say",
@@ -1222,27 +1327,6 @@
       "source": "Google News"
     },
     {
-      "id": "273853240",
-      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-      "titleZh": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-      "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
-      "link": "https://openai.com/index/gpt-5-6-in-kiro",
-      "pubDate": 1787572800000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "-932053064",
       "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
       "titleZh": "从雅达利到前夕在线：在15年游戏人工智能研究的基础上再接再厉",
@@ -1273,13 +1357,13 @@
       "vendor": "huggingface",
       "category": "Research",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 1,
         "cw": 22,
         "st": 14,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -1294,13 +1378,13 @@
       "vendor": "huggingface",
       "category": "Research",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 1,
         "cw": 22,
         "st": 14,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -1451,27 +1535,6 @@
         "cs": 1
       },
       "source": "Google AI"
-    },
-    {
-      "id": "1579222402",
-      "title": "Alibaba answers Meta’s AI challenge with new laptop-ready model",
-      "titleZh": "Alibaba answers Meta’s AI challenge with new laptop-ready model",
-      "summary": "Alibaba answers Meta’s AI challenge with new laptop-ready model CNBC",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNGFodld0bUNaak0zcjNiZU5MbmF6NWhrVjIxTFl5Tkl1MEFSOENuczNza1cwRGFnSXlTcU1sLUJmeWJMTjNOUG1RTFBzMTNMRGJsQzFHTlgzbkp3cmIwdy03N2tYd2RuN2Z0QnZzUGxWTmJJM2lWMVVIWkk3MUFkcjNtWkFqVHBlVjEw0gGQAUFVX3lxTE9LV0xtYUQ5UXpDNVIzYXk5VXVrUGREUFBQSlJyS0NDNzNkdDhSeVBXZkt0QVBKY09TOUtldVpUQjA4SEQ1UmsxaVpaMWdGeWFHdUg5MFVqTTRkRFItRTFWU2FiY3NSRjBMN0NDLTJMNXkwRTJrdi16OTlPd3VyU3RZeFZINEV2c29IeFFUSkhvWg?oc=5",
-      "pubDate": 1786950000000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-991096918",
@@ -1642,6 +1705,27 @@
       "source": "Google AI"
     },
     {
+      "id": "1919882972",
+      "title": "Chinese startup Moonshot's AI model breaks out of testing environment, researchers say",
+      "titleZh": "研究人员表示，中国初创公司Moonshot的人工智能模型打破了测试环境",
+      "summary": "Chinese startup Moonshot's AI model breaks out of testing environment, researchers say Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc2Q3eXFPcENXOWZ2cFkyM0lQUEdyMGhqTTdDbHc5dWZMa0xhV2x1U0RpZ2pUT0d5MjdNNjlHR1ZVRklMZmxnZHA3VHJyRnBJTzhsR2Jpc1dGQ2F2cnQ1VkhsMHBiZ3FQOU5BTWNjVERRdktTRjQ2UEFQMi10VmZIQzNQdzlacXc3U2lrNUJFUHV1djVlRGhvYVhCejRpX0w1dDFkS202MU5hUDBSS285b0Q3TnZORE8xZWJoM0F1VU9HVWR1Qkwzdk93?oc=5",
+      "pubDate": 1786086000000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "337400670",
       "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
       "titleZh": "WeatherNext ： AI模型在气旋预报方面取得突破",
@@ -1682,27 +1766,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-1363628534",
-      "title": "Kimi K3 from Moonshot AI is now available on Databricks through Unity AI Gateway",
-      "titleZh": "来自Moonshot AI的Kimi K3现已通过Unity AI网关在Databricks上提供",
-      "summary": "Kimi K3 from Moonshot AI is now available on Databricks through Unity AI Gateway Databricks",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeEVuMTdPdkpLc3d1TXRweDg2NkdFeHBsMC1lWWZIMTBNMWZiTTJRMVNjOWpLWDhXYVJnb3lfLXpaTmtqd2xwMjBwb1F3LUpsWUcxT1pWUmdaRDVrSzJ5Y0FCdHJlUjRhX21LUkVubUIyWTB4S2hPRXR2N3JGM0NMSzVETXRrYlo3bzZHOXZCV0hNWFNnZGFIMzlLVTltUmJqZzZB?oc=5",
-      "pubDate": 1785999600000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1860432156",
@@ -1936,27 +1999,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "-1243449843",
-      "title": "5 ways AI Mode in Search helps you enjoy the real world",
-      "titleZh": "搜索中的AI模式帮助您享受真实世界的5种方式",
-      "summary": "It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert tickets or find the perf…",
-      "link": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
-      "pubDate": 1785243600000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
-    },
-    {
       "id": "1093733276",
       "title": "Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security",
       "titleZh": "行业领导者团结在开放安全的人工智能联盟中，以实现人工智能的安全和保障",
@@ -1997,27 +2039,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-273870782",
-      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
-      "titleZh": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
-      "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission",
-      "link": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
-      "pubDate": 1784727534000,
-      "vendor": "deepmind",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "DeepMind"
     },
     {
       "id": "8983884",
@@ -2138,48 +2159,6 @@
       "scoreBreakdown": {
         "cq": 24,
         "kv": 11,
-        "cw": 15,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
-      "id": "1646974166",
-      "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
-      "titleZh": "Listen Labs在病毒式广告牌招聘噱头后筹集了6900万$ ，以扩大人工智能客户访谈规模",
-      "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent $5,…",
-      "link": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
-      "pubDate": 1768572060000,
-      "vendor": "venturebeat",
-      "category": "Product",
-      "impact": "high",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 8,
-        "cw": 15,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
-      "id": "-455015964",
-      "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
-      "titleZh": "Salesforce推出新的Slackbot AI代理，在工作场所AI中与微软和谷歌作战",
-      "summary": "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot, the company's workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powe…",
-      "link": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
-      "pubDate": 1768309200000,
-      "vendor": "venturebeat",
-      "category": "Product",
-      "impact": "high",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 9,
         "cw": 15,
         "st": 8,
         "rc": 0,
