@@ -1,8 +1,50 @@
 {
-  "updated": "2026-08-29T15:43:56.561Z",
-  "count": 104,
+  "updated": "2026-08-29T19:02:32.156Z",
+  "count": 105,
   "sources": 11,
   "items": [
+    {
+      "id": "-344678430",
+      "title": "“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z",
+      "titleZh": "“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z",
+      "summary": "Vijay Pande — who left a16z's roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — talks about why biology is finally shifting from a \"discovery\" science to an \"en…",
+      "link": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
+      "pubDate": 1788025007000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "high",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1302143075",
+      "title": "Nvidia’s AI advantage is moving beyond the GPU",
+      "titleZh": "Nvidia’s AI advantage is moving beyond the GPU",
+      "summary": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
+      "link": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+      "pubDate": 1788008400000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-398823547",
       "title": "Neocloud Lambda secures $1B in debt to buy more chips",
@@ -23,27 +65,6 @@
         "cs": 1
       },
       "source": "TechCrunch"
-    },
-    {
-      "id": "1293017267",
-      "title": "Security analysts flag info-stealing Qwen 3.8 27B repository on GitHub",
-      "titleZh": "安全分析师标记GitHub上窃取信息的Qwen 3.8 27B存储库",
-      "summary": "Security analysts flag info-stealing Qwen 3.8 27B repository on GitHub Cryptopolitan",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5zLXFnRl92TzlxOE1PdUpYcnF2YjByZkpEaWlGZHg0MmpSbV9QTmNEMHBmMTBqNFZCR0NWdmdiQ2N0WDhLSzhMT0dqTnNzOTZRTVpRUTFCZ1Z1NEdHNTJnZXJXbndXdlJDcjQtWlNuQ00xRTBQYXB4cXZR?oc=5",
-      "pubDate": 1787947472000,
-      "vendor": "qwen",
-      "category": "Safety",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 10,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-181482746",
@@ -76,13 +97,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "high",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 1,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -265,13 +286,13 @@
       "vendor": "techcrunch",
       "category": "Safety",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 1,
         "cw": 10,
         "st": 8,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -286,16 +307,37 @@
       "vendor": "deepmind",
       "category": "Product",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 13,
         "kv": 2,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "DeepMind"
+    },
+    {
+      "id": "1038487297",
+      "title": "Chinese open-source AI is starting to win over U.S. businesses",
+      "titleZh": "中国开源人工智能开始赢得美国企业的青睐",
+      "summary": "Chinese open-source AI is starting to win over U.S. businesses Fortune",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVmVrSGRxWWFZdjVacWtkTkNtZ21ua3VWcUtSb25MSWREbE4xR3NMMkNoR09Lb25ROUpTMjlNSkFIOXh1b29PU2FucDRLYVRfSHFZQVMwS0lGRDhQei1rM1Z1bkg3UnEtUjFRSE1hQlNFODdwTVdTX0Vkb1lTekhOLVdfN2ZlN0kxR0c0c2xndkJOdGlRVkloRw?oc=5",
+      "pubDate": 1787846940000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-243590627",
@@ -307,58 +349,16 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google AI"
-    },
-    {
-      "id": "2014089950",
-      "title": "Google’s AI Mode can now track flight prices, help book hotels, and more",
-      "titleZh": "Google’s AI Mode can now track flight prices, help book hotels, and more",
-      "summary": "The updates indicate that Google is looking to position AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually handling parts of the trip-plann…",
-      "link": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
-      "pubDate": 1787846400000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "276078118",
-      "title": "Hugging Face is selling a cute $399 open source duck robot, Microduck",
-      "titleZh": "Hugging Face正在出售一款可爱的399 $开源鸭子机器人Microduck",
-      "summary": "Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach new tricks with reinforcement learning.”",
-      "link": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
-      "pubDate": 1787842612000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 15,
-        "st": 8,
         "rc": 1,
         "cs": 1
       },
-      "source": "TechCrunch"
+      "source": "Google AI"
     },
     {
       "id": "309421683",
@@ -445,27 +445,6 @@
       "source": "VentureBeat"
     },
     {
-      "id": "409582231",
-      "title": "AI Startup DeepSeek Poised to Reach $74 Billion Valuation",
-      "titleZh": "人工智能初创公司DeepSeek的估值有望达到740亿美元$",
-      "summary": "AI Startup DeepSeek Poised to Reach $74 Billion Valuation WSJ",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNN2ZVcER1YXNsaEthelVtNENlUXBCMzdyRV80bWhNWHBHSk5rVmMzZGJyaFZfWS1YclBDWklqc0RFTEZzYm1fSXJzd1RWVDR4U1d2QzZfWTRFTUtfa1Ewa2FBUzRGZU93dkE4dWZJM0YwdHFhaWlrLTF2ajRBaWt2TGZMS1oyclVaM0lpQms1dGx1T3JTVlFLdA?oc=5",
-      "pubDate": 1787831474000,
-      "vendor": "deepseek",
-      "category": "Funding",
-      "impact": "high",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 20,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-193745239",
       "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
       "titleZh": "更好的答案，更广泛的思考：学生从ChatGPT和批判性思维培训中获得什么",
@@ -485,6 +464,48 @@
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "409582231",
+      "title": "AI Startup DeepSeek Poised to Reach $74 Billion Valuation",
+      "titleZh": "人工智能初创公司DeepSeek的估值有望达到740亿美元$",
+      "summary": "AI Startup DeepSeek Poised to Reach $74 Billion Valuation WSJ",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNN2ZVcER1YXNsaEthelVtNENlUXBCMzdyRV80bWhNWHBHSk5rVmMzZGJyaFZfWS1YclBDWklqc0RFTEZzYm1fSXJzd1RWVDR4U1d2QzZfWTRFTUtfa1Ewa2FBUzRGZU93dkE4dWZJM0YwdHFhaWlrLTF2ajRBaWt2TGZMS1oyclVaM0lpQms1dGx1T3JTVlFLdA?oc=5",
+      "pubDate": 1787807880000,
+      "vendor": "deepseek",
+      "category": "Funding",
+      "impact": "high",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 20,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-787831074",
+      "title": "Alibaba unveils cheaper Qwen AI model: is this what its stock needed?",
+      "titleZh": "阿里巴巴推出更便宜的Qwen AI模型：这是它的库存需要吗？",
+      "summary": "Alibaba unveils cheaper Qwen AI model: is this what its stock needed? TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOakhlbXhLUUd2QTdWV0ptV2poYm1PbGhOSVllUkRuSlZOSndNOEhxQjVuaW9RaldSWlpPYjU0UEczbHBoU1E3R0V4eXd6RVRSVVp3eXVjMVN0VktoeEM2aTZsWG1leFBKTXlWSWxPdDEyVGRFVV9QUW1qcUFPcmZaOGJqVWRzQkJQaU00RzdndUVMVlhkazRxOHd5R0l2MVNWWTFCZXZYbDI5WUkxaFJVTUx1dFRfbWJrNjVhaUhUZy1ndw?oc=5",
+      "pubDate": 1787805300000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-431890123",
@@ -571,27 +592,6 @@
       "source": "Google News"
     },
     {
-      "id": "-1031575422",
-      "title": "Alibaba Stock Rises After New Qwen AI Model Takes Aim at Costs",
-      "titleZh": "新的Qwen AI模型以成本为目标后，阿里巴巴股价上涨",
-      "summary": "Alibaba Stock Rises After New Qwen AI Model Takes Aim at Costs TradingView",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVDhUcFZwb01JQy1MYUhZZ3VVYmliMTVBVUJCZ3ZvdkNHNTI0WEljSFZlazZLdXdienlhYTR0T2IxWjZBNzQyUHJMT0lnNl80VUI2LVlVN1BCQXlQS1k3UmNjbVdwYm8tMkVDclpQRGc5VDdpd3pNdkFlVEpWUzNjMnBVX2ozTDZWSFpwaVJ1RjFfVThJdG1jcHZUR1lpckN5ZHlFLXNMWHBPZ2ZrYzAzMlBLc0g1Z3dXLWEwbnFDOA?oc=5",
-      "pubDate": 1787765313000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "515538289",
       "title": "Intelligent transcription with Gemini 3.5 Transcribe",
       "titleZh": "使用Gemini 3.5 Transcribe进行智能转录",
@@ -646,6 +646,27 @@
       "score": 61,
       "scoreBreakdown": {
         "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "172192906",
+      "title": "Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\" - the",
+      "titleZh": "阿里巴巴发布Qwen3.8-Flash-Next ，瞄准“极致性价比” --",
+      "summary": "Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\" the-decoder.com",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVGNjSDJ6WGFXZ0tVSXZzME1XOWhuS0VGX1lpTmcxMWNFSENKOE5JNUYtUHNtWXFIZDFzZHJRQktENzZZQVlTeWhPaUh2R2lKLUxpeXVBa3BjZEFVcjFmdDNJczJnTzR4MXZjWmxreTA5VkM5SUJYTlY3UGtBQ3piT3E3VHpidFJ1WWVVVUktcm1CSXdXRDZKV2hFbw?oc=5",
+      "pubDate": 1787755497000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 16,
         "kv": 4,
         "cw": 25,
         "st": 12,
@@ -718,27 +739,6 @@
       "source": "Google News"
     },
     {
-      "id": "1432337794",
-      "title": "MSFT, AMZN, GOOGL Reportedly In Revenue-Sharing Talks With China's Moonshot AI Over Kimi K3 Model",
-      "titleZh": "据报道， MSFT ， AMZN ， GOOGL与中国的Moonshot AI就Kimi K3模型进行了收入分享谈判",
-      "summary": "MSFT, AMZN, GOOGL Reportedly In Revenue-Sharing Talks With China's Moonshot AI Over Kimi K3 Model Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMncwNHNiQ0tMM09MN0ZySXpFWGtwTjJCQ2xjVUhxa05nUFRQamNBWGl6VGM4Y3NUWTJvMEQyNFZzY3FqakZIRVNJNk1rSkl1NzZITEJJRFJMTW9fZXpqeFlobXo5TkptenNfZmxYcW90dTdMMWkwZU94UjB2QTUwMEJJMkZvS2REOWpsUnZtdW5NMzZyU1U2TWNTUWZBeEk?oc=5",
-      "pubDate": 1787748382000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "high",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "374586481",
       "title": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model",
       "titleZh": "阿里巴巴发布更小、更具成本效益的Qwen AI模型",
@@ -774,6 +774,27 @@
         "cq": 20,
         "kv": 0,
         "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1467769569",
+      "title": "MSFT, AMZN, GOOGL Reportedly In Revenue-Sharing Talks With China's Moonshot AI Over Kimi K3 Model",
+      "titleZh": "据报道， MSFT ， AMZN ， GOOGL与中国的Moonshot AI就Kimi K3模型进行了收入分享谈判",
+      "summary": "MSFT, AMZN, GOOGL Reportedly In Revenue-Sharing Talks With China's Moonshot AI Over Kimi K3 Model Stocktwits",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRUl6WE5IWkJ5ZEpVREJWQzhkejhfMHU5YlVfTzBHQm5WY3B2QzFEM1BkOVF4ZFZHWUhOWEVxWVMyX0xzWmtVVmh2RTA4TGpfbkl5eFJnaFpJZDVTNGo2MGFuLThFMmdXZUtncTFHNDk2YVNLVTFyY3lNLU9yazhyV2JyUnpiQTRnMGZCTTl6TFo2NnhLRjNJVVM0NWlUR0JtTzdDTFpWcFBRcmFfS1dVNTgwWkR1bHBMNXpzbkdCMGc4RFM4UEJ4bHpUZnRkd3VLTDRlam1HMk5ZelBjeW44?oc=5",
+      "pubDate": 1787741880000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 22,
         "st": 12,
         "rc": 1,
         "cs": 1
