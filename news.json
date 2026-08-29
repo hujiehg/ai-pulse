@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T04:15:35.586Z",
+  "updated": "2026-08-29T11:15:54.971Z",
   "count": 104,
   "sources": 11,
   "items": [
@@ -23,6 +23,27 @@
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "1293017267",
+      "title": "Security analysts flag info-stealing Qwen 3.8 27B repository on GitHub",
+      "titleZh": "安全分析师标记GitHub上窃取信息的Qwen 3.8 27B存储库",
+      "summary": "Security analysts flag info-stealing Qwen 3.8 27B repository on GitHub Cryptopolitan",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5zLXFnRl92TzlxOE1PdUpYcnF2YjByZkpEaWlGZHg0MmpSbV9QTmNEMHBmMTBqNFZCR0NWdmdiQ2N0WDhLSzhMT0dqTnNzOTZRTVpRUTFCZ1Z1NEdHNTJnZXJXbndXdlJDcjQtWlNuQ00xRTBQYXB4cXZR?oc=5",
+      "pubDate": 1787947472000,
+      "vendor": "qwen",
+      "category": "Safety",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 10,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-181482746",
@@ -65,27 +86,6 @@
         "cs": 1
       },
       "source": "TechCrunch"
-    },
-    {
-      "id": "217296123",
-      "title": "Tencent touts new AI model it claims outperforms Z.AI, Moonshot",
-      "titleZh": "腾讯宣称新的人工智能模型表现优于Z.AI、Moonshot",
-      "summary": "Tencent touts new AI model it claims outperforms Z.AI, Moonshot Jing Daily",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQkotUG00cVR4alhVLV91OGZsSmhfeWlZZWtzTGRkQ2U3eGhkU3RrZUtSa09ZdjRuNUZTdnEtV0RGYkxnOGt0M3hzd2pGTzYzbmpORk9nWEtxYWNNeUducTNTUmRncmNDbmt4MGs4QmxUa05QbDU0bkUwVjdiS0ExNGFldjZwRHB2QWJfRjZiR2FLcndt?oc=5",
-      "pubDate": 1787932721000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1937464155",
@@ -151,25 +151,25 @@
       "source": "TechCrunch"
     },
     {
-      "id": "1870905746",
-      "title": "“$74 Billion Valuation” — China’s DeepSeek Seeks Fresh Funding and Greater Profitability, May Join Global AI Market’s IPO Race",
-      "titleZh": "“$74 Billion Valuation” — China’s DeepSeek Seeks Fresh Funding and Greater Profitability, May Join Global AI Market’s IPO Race",
-      "summary": "“$74 Billion Valuation” — China’s DeepSeek Seeks Fresh Funding and Greater Profitability, May Join Global AI Market’s IPO Race economy.ac",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE14NEl5T3R5Zngwd3hNVHViUkdQZjl1M3JEZ0ZPTzhiSGNXcTY5aWtPRUJkaFVQM2k5YXkwVEFOay10aWRhUDgxNFJZZE5BVU84ZXlwd3lBYw?oc=5",
-      "pubDate": 1787917420000,
-      "vendor": "deepseek",
-      "category": "Funding",
+      "id": "1756653758",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "titleZh": "在被SpaceX收购后，我们对Cursor的决定",
+      "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+      "link": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "pubDate": 1787896800000,
+      "vendor": "openai",
+      "category": "Research",
       "impact": "high",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 18,
-        "kv": 6,
-        "cw": 20,
-        "st": 12,
-        "rc": 3,
+        "kv": 1,
+        "cw": 22,
+        "st": 15,
+        "rc": 2,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "OpenAI"
     },
     {
       "id": "661511688",
@@ -445,33 +445,12 @@
       "source": "VentureBeat"
     },
     {
-      "id": "-193745239",
-      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-      "titleZh": "更好的答案，更广泛的思考：学生从ChatGPT和批判性思维培训中获得什么",
-      "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-      "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "pubDate": 1787821200000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "409582231",
       "title": "AI Startup DeepSeek Poised to Reach $74 Billion Valuation",
       "titleZh": "人工智能初创公司DeepSeek的估值有望达到740亿美元$",
       "summary": "AI Startup DeepSeek Poised to Reach $74 Billion Valuation WSJ",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNN2ZVcER1YXNsaEthelVtNENlUXBCMzdyRV80bWhNWHBHSk5rVmMzZGJyaFZfWS1YclBDWklqc0RFTEZzYm1fSXJzd1RWVDR4U1d2QzZfWTRFTUtfa1Ewa2FBUzRGZU93dkE4dWZJM0YwdHFhaWlrLTF2ajRBaWt2TGZMS1oyclVaM0lpQms1dGx1T3JTVlFLdA?oc=5",
-      "pubDate": 1787807880000,
+      "pubDate": 1787831474000,
       "vendor": "deepseek",
       "category": "Funding",
       "impact": "high",
@@ -487,6 +466,27 @@
       "source": "Google News"
     },
     {
+      "id": "-193745239",
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "titleZh": "更好的答案，更广泛的思考：学生从ChatGPT和批判性思维培训中获得什么",
+      "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+      "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "pubDate": 1787821200000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
       "id": "-431890123",
       "title": "Chinese AI lab Moonshot is in talks with hyperscalers for Kimi K3",
       "titleZh": "中国人工智能实验室Moonshot正在与Kimi K3的超级用户进行谈判",
@@ -496,13 +496,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -634,27 +634,6 @@
       "source": "Google News"
     },
     {
-      "id": "-337197497",
-      "title": "Alibaba’s Qwen Team Releases Qwen3.8-Flash-Next: A 125B Multimodal MoE With 6B Active Parameters Previewing the Qwen4 Architecture",
-      "titleZh": "Alibaba’s Qwen Team Releases Qwen3.8-Flash-Next: A 125B Multimodal MoE With 6B Active Parameters Previewing the Qwen4 Architecture",
-      "summary": "Alibaba’s Qwen Team Releases Qwen3.8-Flash-Next: A 125B Multimodal MoE With 6B Active Parameters Previewing the Qwen4 Architecture MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPakVUSFIxS2RRQWRUVWdUelZaLS15VmdBbUhXRDdXMHRnWEdTbDdhSXNlQUtqMk1RRkhmVlNMV3duaGJPRTdfQTZyYlB4OVhjaklUanVRSjhBOWJ0OWpJNUZ5MGRtVTJDUEVBdldmVVVzeDg3bGFiR1dabFJfdWZHa1pTTXJ6NEpxS05WRlJ1S0RzSzFfOVM1RXA3U2xTWm1CMVRucV9Xel9nSXBHQ3QwUmU3RmJzLXZoaDRGVERZMGpHbDdCSUxibHFxalBHX20yZzlsODNMYmozalZGSUVwVG8wWFR1bzJDTU8teldBcEtSNEplTlFrRGw4ZE84d9IBgwJBVV95cUxNZkhrWEYzbU5yMmZadkNGRUZ6ekFBSkVtU2xKV0NGSGdkR2NZNWtjZERNUHdLMzNPZVdPZjY1dl9lMTI5aV9YZC1fQUJpYllwTV9pdmNIRnAyUHRrTGkxbEUzX1VWdkJ3b0Qwc21UNXh6Zi1ZektUS0U1ZXVtSG1tLUlaTTdwWlZBQ0w3dW41b2N3V3piU3lBeHdlSlJMc01lMGhiM1JTQ1ZGUzNXSDdyejVQTTFFNFRBNTMzeXV6QUx5NmljSEM5VGpvN1o4em5JcmZPSU9WZldvNF9SMzA2c0NJUmtHRW96ek9wNjlMNlVPVVd3cXdUMlFycVpBSTJMdUYw?oc=5",
-      "pubDate": 1787757600000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 6,
-        "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "780556249",
       "title": "Alibaba's Qwen launches Qwen3.8-Flash AI model with lower training costs",
       "titleZh": "阿里巴巴旗下Qwen以更低的培训成本推出Qwen3.8-Flash AI模型",
@@ -718,6 +697,48 @@
       "source": "VentureBeat"
     },
     {
+      "id": "1822729251",
+      "title": "Kimi K3 AI model maker Moonshot AI, which US government accused of ‘stealing’ Anthropic's tech, may make",
+      "titleZh": "Kimi K3 AI model maker Moonshot AI, which US government accused of ‘stealing’ Anthropic's tech, may make",
+      "summary": "Kimi K3 AI model maker Moonshot AI, which US government accused of ‘stealing’ Anthropic's tech, may make The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxPZS1vMTlZVi15emhSeUpMdGFRQV8yNENQUl9aV0hvNDRoQU05VzVfRGJCTW1mOERvS3kzcVFMdzFBbmw4bEM5bE9mLVlHVy1EaUlJeFhSbTNpcU0tTjllUlNiOWVITTlhTElLV3NiRnUxalRIc3BiRWFOenAzc3Vyd3Jxa2JVcmZkNHM4SE5ZMU1Wc2pVNDVZRnlOQ0ZPR3B0NXJXamdDeWxyalJFbngtMWtOcDFTQzdQckZJSnZ5VkVlZkZ1azJPVTJVQnlFLWFua01IUWZ4YjE2VV8xOXVGOTltcDhZWTlRNnRlRDYwM1Q0UkxDLURYbmtKc1VWLThzSDg4dFR3TGJzWHF1R1Y5SDRuYkxUNzM2MXBCMlR4OWRVX3VWdHppRkpuSGZGcll6NmZ1YkQ5OG52UVllS0Q5QW41S1AtMzBNOVZtU21B0gHTAkFVX3lxTE10SjBEUHFESnpWU1V5SXBMWUNKZXBsV283MllFZHloQVFveWxfaUo4UDBvbmNTeHRQSkJxNmFyZXF2VWlGVEdYaGZEby1EMHFJTGJGa2EteURSMURNTnFVYldubW4tQ0pVRUZUME5NZWlmMXdia2Z2c2FYS2FfekFydWtkNklpMTU4VEMyd21Rd0ZPbDVLdGVNZXZjRmg2U0hfd1V5SkRseDd3RnI5cFlSOU5ZV0dNNzMwZndxanQ0dHV6Zld5OE9rNHpSeElhQVdCd1lidG9oRzdSOE1RMTRDaVZSYWxkZzIyRWI0SllHQldGWHlldXRxeFdmc0h0VWtUdlB6b0g4T3o0SEFOZFFjUnFaMl9wOFVfMVhvYXkzakRyRHFNSXJDZ1QzRWNOTm5YT3o2dzZ0aXBQWUZ2VTJ0T0V4ZEdvQXhBUVk4SUV0WmZ6UQ?oc=5",
+      "pubDate": 1787748900000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 3,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1432337794",
+      "title": "MSFT, AMZN, GOOGL Reportedly In Revenue-Sharing Talks With China's Moonshot AI Over Kimi K3 Model",
+      "titleZh": "据报道， MSFT ， AMZN ， GOOGL与中国的Moonshot AI就Kimi K3模型进行了收入分享谈判",
+      "summary": "MSFT, AMZN, GOOGL Reportedly In Revenue-Sharing Talks With China's Moonshot AI Over Kimi K3 Model Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMncwNHNiQ0tMM09MN0ZySXpFWGtwTjJCQ2xjVUhxa05nUFRQamNBWGl6VGM4Y3NUWTJvMEQyNFZzY3FqakZIRVNJNk1rSkl1NzZITEJJRFJMTW9fZXpqeFlobXo5TkptenNfZmxYcW90dTdMMWkwZU94UjB2QTUwMEJJMkZvS2REOWpsUnZtdW5NMzZyU1U2TWNTUWZBeEk?oc=5",
+      "pubDate": 1787748382000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "374586481",
       "title": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model",
       "titleZh": "阿里巴巴发布更小、更具成本效益的Qwen AI模型",
@@ -753,27 +774,6 @@
         "cq": 20,
         "kv": 0,
         "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1467769569",
-      "title": "MSFT, AMZN, GOOGL Reportedly In Revenue-Sharing Talks With China's Moonshot AI Over Kimi K3 Model",
-      "titleZh": "据报道， MSFT ， AMZN ， GOOGL与中国的Moonshot AI就Kimi K3模型进行了收入分享谈判",
-      "summary": "MSFT, AMZN, GOOGL Reportedly In Revenue-Sharing Talks With China's Moonshot AI Over Kimi K3 Model Stocktwits",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRUl6WE5IWkJ5ZEpVREJWQzhkejhfMHU5YlVfTzBHQm5WY3B2QzFEM1BkOVF4ZFZHWUhOWEVxWVMyX0xzWmtVVmh2RTA4TGpfbkl5eFJnaFpJZDVTNGo2MGFuLThFMmdXZUtncTFHNDk2YVNLVTFyY3lNLU9yazhyV2JyUnpiQTRnMGZCTTl6TFo2NnhLRjNJVVM0NWlUR0JtTzdDTFpWcFBRcmFfS1dVNTgwWkR1bHBMNXpzbkdCMGc4RFM4UEJ4bHpUZnRkd3VLTDRlam1HMk5ZelBjeW44?oc=5",
-      "pubDate": 1787741880000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "high",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 22,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -991,6 +991,27 @@
       "source": "HuggingFace"
     },
     {
+      "id": "-211220587",
+      "title": "China’s Hackers Use DeepSeek for Attacks, Researchers Say",
+      "titleZh": "China’s Hackers Use DeepSeek for Attacks, Researchers Say",
+      "summary": "China’s Hackers Use DeepSeek for Attacks, Researchers Say Insurance Journal",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE54c1dkdS0tVGV1cUlGY21rTXVoYlJHdHF2azFYTHlkeTVrYXRqZDEtUlJCUTBEOG02STc2T2xxY0F4NkhqY0NjX2R2cWhBRHBrZktxcUdFMi1fdF9sQUZDczhmM1JSR0RFaHFyLWxLdkhTWkNONWE3dGpwNGludw?oc=5",
+      "pubDate": 1787658102000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-588755811",
       "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
       "titleZh": "量化感知愈合：压缩的4位模型，性能优于其全精度原始",
@@ -1068,27 +1089,6 @@
         "cq": 18,
         "kv": 0,
         "cw": 22,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "457724172",
-      "title": "Disrupting a new covert influence campaign from Russia",
-      "titleZh": "颠覆俄罗斯新的秘密影响力运动",
-      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
-      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "pubDate": 1787616000000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
         "st": 15,
         "rc": 1,
         "cs": 1
