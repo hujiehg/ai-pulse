@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-30T13:55:48.659Z",
-  "count": 103,
+  "updated": "2026-08-30T17:52:20.064Z",
+  "count": 104,
   "sources": 11,
   "items": [
     {
@@ -34,13 +34,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "high",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -139,13 +139,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -445,6 +445,27 @@
       "source": "VentureBeat"
     },
     {
+      "id": "1488868431",
+      "title": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model",
+      "titleZh": "阿里巴巴发布更小、更具成本效益的Qwen AI模型",
+      "summary": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model Deccan Chronicle",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWHAwcnRSV1drR2NsV0s2S0N3RGcxckxWYVVHNHg1WjJCbU5QYmxvOEZ6cGNTZ3Qxa19XUFFZd3QyQnp2Q0lmZWdiSjVvQlkwNmNkLVRBaXZqNVN5b1gyX3ItNDBjaVZMbHJKaHFwNG81bEZBUGdTdWp1SE1JSDJvc2prMURXVVlQUHlscUtGR25kRmp3dTFiNjZEcHBKbTNIOUx0MFpwb9IBrAFBVV95cUxNNkZhSDJ5ZE95aU9CcVdHZ01tUWhXWlVGekNUQlhJSGYxOVJnRGVkNFVVSXZRTl9vSzI4emplbjFhalVwb3ZmMEh1STZuUk5SVzc2U3ExUm1yVVlVdUFQNmwzZEs1WW5pRUptRGhSZ25KYmFXc0FTRnoyelQzeDYzdnlQYTZ6TnRabDFZTXd5eGpLYVFIZ1lRWmNUdVVGbW94YXQxaFJtZ3phekN3?oc=5",
+      "pubDate": 1787821812000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-193745239",
       "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
       "titleZh": "更好的答案，更广泛的思考：学生从ChatGPT和批判性思维培训中获得什么",
@@ -655,27 +676,6 @@
       "source": "Google News"
     },
     {
-      "id": "172192906",
-      "title": "Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\" - the",
-      "titleZh": "阿里巴巴发布Qwen3.8-Flash-Next ，瞄准“极致性价比” --",
-      "summary": "Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\" the-decoder.com",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVGNjSDJ6WGFXZ0tVSXZzME1XOWhuS0VGX1lpTmcxMWNFSENKOE5JNUYtUHNtWXFIZDFzZHJRQktENzZZQVlTeWhPaUh2R2lKLUxpeXVBa3BjZEFVcjFmdDNJczJnTzR4MXZjWmxreTA5VkM5SUJYTlY3UGtBQ3piT3E3VHpidFJ1WWVVVUktcm1CSXdXRDZKV2hFbw?oc=5",
-      "pubDate": 1787755497000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "639376543",
       "title": "EXCLUSIVE: China's Moonshot in talks with Microsoft, Amazon, Google over K3 revenue sharing, sources say",
       "titleZh": "独家：消息人士称，中国的Moonshot正在与微软、亚马逊、谷歌就K3收入分成进行谈判",
@@ -716,27 +716,6 @@
         "cs": 1
       },
       "source": "VentureBeat"
-    },
-    {
-      "id": "374586481",
-      "title": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model",
-      "titleZh": "阿里巴巴发布更小、更具成本效益的Qwen AI模型",
-      "summary": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVFN2VVNaUWE0bXJiNjQ2VWJlbngtWlpzcnY3RG44VlB1eVVhMWNiT21wYmVKSDJnQ0JkNXMycVg5bWRqQ2RIZ3E0d0hzdkEzUlNPV05aUjRUTFhzaXlNdVhVSHFXNGRuZFlPWUhEeEtKemMwdWJValR0MFpZM19OMVRpS1piVVhZWEI3ZmdJZmlDR1B5d2JMRU5DcENuSUktd01Ra0J6Zw?oc=5",
-      "pubDate": 1787747750000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1822987678",
@@ -858,6 +837,27 @@
         "cq": 18,
         "kv": 2,
         "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1046330341",
+      "title": "Qwen 3.8-Flash-Next From Alibaba: The First Look at Qwen 4",
+      "titleZh": "Qwen 3.8-Flash-N Next来自阿里巴巴： Qwen 4的第一印象",
+      "summary": "Qwen 3.8-Flash-Next From Alibaba: The First Look at Qwen 4 Memeburn",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12MlBmYXRXLS1BYUxkSVg5cWUxNi01bGVHOUhfc3ItbEgweHRTdEhKclR3N3UwTG9jRU1mcHFPMGtIWTFPWGVwWTRQTFJ1QWoxMVd5dXJkdTRZaXdiOHd1RDYwNmlIT3M?oc=5",
+      "pubDate": 1787727600000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -1348,6 +1348,27 @@
       "source": "Google News"
     },
     {
+      "id": "-991096918",
+      "title": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google",
+      "titleZh": "阿里巴巴AI模型下载量突破30亿，通过Meta ，谷歌",
+      "summary": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZjdzU3AtQnFGVDExc1hfUWRTV3JpWHgya2wtSHFEU2t5d3NnYWZKb2hpY0JiYVF2cnFNeDF6R2FMLTh6SG1oMjdOd2ZLdlhlMl9MNVEwTVh4X29Fb0dTRWRlSXI1cm9RRXZtOThiUUVmcHhDQXB2VTQxVXNaZUk2Tk42cXItTDV4RE1aNXgyNWw?oc=5",
+      "pubDate": 1786777200000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 1,
+        "cw": 22,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-2016155837",
       "title": "DeepSeek's AI Models Are About To Cost Four Times More",
       "titleZh": "DeepSeek的人工智能模型成本将增加四倍",
@@ -1668,7 +1689,7 @@
       "titleZh": "研究公司表示， DeepSeek的新人工智能模型是迄今为止运行的最便宜的知名模型。",
       "summary": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says Reuters",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTnd6ckhOVUhwcGJjRmxRdlhObS1ncXRhZm9OeVUwaEgwOTg5YmNBTGVWcHZsdXd4dXVrWWdlZGtsYkw0eDIyY1A3NjdSM0o0bFBGUEZRNDF2NjYwZEtCamNpeTFqN3ZaQVlTclNuQWYxNXh4ZVlqaWF3WkNNVk1fbmJXcTdISlBmUVVWS01STmFYZldLSGk5akJQZVB5X09OSzVoVWF4Wko4TEF4cGozQUlWM202dFJWMGxSRTdpcTNaaUp6bmNyZXpWbVRFb2JoSzdCVQ?oc=5",
-      "pubDate": 1785740400000,
+      "pubDate": 1785654000000,
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
