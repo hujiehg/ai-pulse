@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-30T22:53:24.878Z",
-  "count": 104,
-  "sources": 11,
+  "updated": "2026-08-31T01:01:39.102Z",
+  "count": 95,
+  "sources": 10,
   "items": [
     {
       "id": "1147495198",
@@ -13,13 +13,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -172,27 +172,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "1937464155",
-      "title": "Claude vs. Kimi - China",
-      "titleZh": "Claude vs. Kimi -中国",
-      "summary": "Claude vs. Kimi China-US Focus",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0tNXV0b1hUOENaQ2paMUxrRUlPVEExbmRCN2JIS1dYQ3duXzZZZFlXNHlxMjBSandnOFdYRjFON2htcF9wU2lLZ21YWHM2OTdVZi1BZ3QxVE5YOFUxZTFyWHVIakNsbEJ2bFFB?oc=5",
-      "pubDate": 1787929026000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-18688636",
       "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
       "titleZh": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
@@ -298,6 +277,27 @@
       "source": "HuggingFace"
     },
     {
+      "id": "-1046330341",
+      "title": "Qwen 3.8-Flash-Next From Alibaba: The First Look at Qwen 4",
+      "titleZh": "Qwen 3.8-Flash-N Next来自阿里巴巴： Qwen 4的第一印象",
+      "summary": "Qwen 3.8-Flash-Next From Alibaba: The First Look at Qwen 4 Memeburn",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12MlBmYXRXLS1BYUxkSVg5cWUxNi01bGVHOUhfc3ItbEgweHRTdEhKclR3N3UwTG9jRU1mcHFPMGtIWTFPWGVwWTRQTFJ1QWoxMVd5dXJkdTRZaXdiOHd1RDYwNmlIT3M?oc=5",
+      "pubDate": 1787853661000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-568326299",
       "title": "Gemini Omni 1.1 Flash lets you build with more control",
       "titleZh": "Gemini Omni 1.1闪光灯可让您更好地控制构建",
@@ -317,27 +317,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "1038487297",
-      "title": "Chinese open-source AI is starting to win over U.S. businesses",
-      "titleZh": "中国开源人工智能开始赢得美国企业的青睐",
-      "summary": "Chinese open-source AI is starting to win over U.S. businesses Fortune",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVmVrSGRxWWFZdjVacWtkTkNtZ21ua3VWcUtSb25MSWREbE4xR3NMMkNoR09Lb25ROUpTMjlNSkFIOXh1b29PU2FucDRLYVRfSHFZQVMwS0lGRDhQei1rM1Z1bkg3UnEtUjFRSE1hQlNFODdwTVdTX0Vkb1lTekhOLVdfN2ZlN0kxR0c0c2xndkJOdGlRVkloRw?oc=5",
-      "pubDate": 1787846940000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-243590627",
@@ -445,27 +424,6 @@
       "source": "VentureBeat"
     },
     {
-      "id": "1488868431",
-      "title": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model",
-      "titleZh": "阿里巴巴发布更小、更具成本效益的Qwen AI模型",
-      "summary": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model Deccan Chronicle",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWHAwcnRSV1drR2NsV0s2S0N3RGcxckxWYVVHNHg1WjJCbU5QYmxvOEZ6cGNTZ3Qxa19XUFFZd3QyQnp2Q0lmZWdiSjVvQlkwNmNkLVRBaXZqNVN5b1gyX3ItNDBjaVZMbHJKaHFwNG81bEZBUGdTdWp1SE1JSDJvc2prMURXVVlQUHlscUtGR25kRmp3dTFiNjZEcHBKbTNIOUx0MFpwb9IBrAFBVV95cUxNNkZhSDJ5ZE95aU9CcVdHZ01tUWhXWlVGekNUQlhJSGYxOVJnRGVkNFVVSXZRTl9vSzI4emplbjFhalVwb3ZmMEh1STZuUk5SVzc2U3ExUm1yVVlVdUFQNmwzZEs1WW5pRUptRGhSZ25KYmFXc0FTRnoyelQzeDYzdnlQYTZ6TnRabDFZTXd5eGpLYVFIZ1lRWmNUdVVGbW94YXQxaFJtZ3phekN3?oc=5",
-      "pubDate": 1787821812000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-193745239",
       "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
       "titleZh": "更好的答案，更广泛的思考：学生从ChatGPT和批判性思维培训中获得什么",
@@ -529,27 +487,6 @@
       "source": "Google News"
     },
     {
-      "id": "-431890123",
-      "title": "Chinese AI lab Moonshot is in talks with hyperscalers for Kimi K3",
-      "titleZh": "中国人工智能实验室Moonshot正在与Kimi K3的超级用户进行谈判",
-      "summary": "Chinese AI lab Moonshot is in talks with hyperscalers for Kimi K3 Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbTlaQXcyWEtNbW95TmR2RGgwZ1gySV9pLTdBN3NlamR2bk1KZTlNMk02X0hwOGtnWm9JRnNiVkViWWdxd0NjaUU3ODB4TWxjaUZENjZXRm1pbWlZeXQwMFR4dXo2dGMtdW9FeVI5UXZuaXpFbVU5dDd3LUVXT0lsV3dn?oc=5",
-      "pubDate": 1787804640000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1226448606",
       "title": "Expanding OpenAI’s presence in Brazil",
       "titleZh": "Expanding OpenAI’s presence in Brazil",
@@ -569,27 +506,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "1663324528",
-      "title": "Moonshot AI Wants Microsoft, Amazon and Google to Pay It a Cut of Kimi K3",
-      "titleZh": "Moonshot AI希望微软、亚马逊和谷歌向其支付Kimi K3的一部分",
-      "summary": "Moonshot AI Wants Microsoft, Amazon and Google to Pay It a Cut of Kimi K3 Startup Fortune",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZUdZWnc1alNicnJYd3UzWENfRnE1b3h0YkNmV3B2eXJmQkM1aHA3VWlMZ0dDbk9tRnZZMlE5UkQzNTBBanZtSkV3UThER0c5YkZORDBaR2lxT1FjR0R0SXVEbzQ2OS1ucmZTanB3QWVaOS1HQUpGUmlzQkpBOEcyelNmOEh1WEh4Z1FkaVRycV95WkRuaVRYaTM0dkx4QjZ1TUE?oc=5",
-      "pubDate": 1787785098000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 3,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1215613401",
@@ -676,20 +592,20 @@
       "source": "Google News"
     },
     {
-      "id": "639376543",
-      "title": "EXCLUSIVE: China's Moonshot in talks with Microsoft, Amazon, Google over K3 revenue sharing, sources say",
-      "titleZh": "独家：消息人士称，中国的Moonshot正在与微软、亚马逊、谷歌就K3收入分成进行谈判",
-      "summary": "EXCLUSIVE: China's Moonshot in talks with Microsoft, Amazon, Google over K3 revenue sharing, sources say Reuters",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaWlQbDBkTjZOWlNxMFJUeDkxc0taQllySUkzRzJ4aHJrSzlVQTY5LVhqU2dfd2lUSGZSVjI2dVFPQnZ5X0FuRThHT0JDRkxJTTlLUVFETjM5Y0lGbzFwUkhGWFNVOUJQX1NWZ09SZDViVWNZTmI1TFY4ODUwZXl2UGh5VnRETVhhbDQ4NHh5bmU2YXZXdGZEbnlSUmVZVEZ2dUd3ampaeW94bkhBaEhhRkNKQ1E1QlJSZUFDUTZ5eGFERHlPZHo3TnFaQTJZVUdt?oc=5",
-      "pubDate": 1787755445000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
+      "id": "172192906",
+      "title": "Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\" - the",
+      "titleZh": "阿里巴巴发布Qwen3.8-Flash-Next ，瞄准“极致性价比” --",
+      "summary": "Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\" the-decoder.com",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVGNjSDJ6WGFXZ0tVSXZzME1XOWhuS0VGX1lpTmcxMWNFSENKOE5JNUYtUHNtWXFIZDFzZHJRQktENzZZQVlTeWhPaUh2R2lKLUxpeXVBa3BjZEFVcjFmdDNJczJnTzR4MXZjWmxreTA5VkM5SUJYTlY3UGtBQ3piT3E3VHpidFJ1WWVVVUktcm1CSXdXRDZKV2hFbw?oc=5",
+      "pubDate": 1787755497000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 59,
       "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
+        "cq": 16,
+        "kv": 4,
+        "cw": 25,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -718,62 +634,20 @@
       "source": "VentureBeat"
     },
     {
-      "id": "-1822987678",
-      "title": "Moonshot AI seeks revenue-sharing deals with Microsoft, Amazon, Google",
-      "titleZh": "Moonshot AI寻求与微软、亚马逊、谷歌达成收入分成协议",
-      "summary": "Moonshot AI seeks revenue-sharing deals with Microsoft, Amazon, Google qz.com",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNS2x3THU4S191S0dDU0N1Q242S29SZzEyemRJcUtLRjdENTJFUUpyeV9sYkVhMzRNRkhhQXlCYTRxSXY0M0YzRFZLVV9vZlhLWUFjY0FiQVVfaC1Hal95ZFR4NjdNRjRSeHUzbE9WZXpTNDR6UlpRRlRTUEpzVzVHdUN5T0tMMVlU?oc=5",
-      "pubDate": 1787746703000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1467769569",
-      "title": "MSFT, AMZN, GOOGL Reportedly In Revenue-Sharing Talks With China's Moonshot AI Over Kimi K3 Model",
-      "titleZh": "据报道， MSFT ， AMZN ， GOOGL与中国的Moonshot AI就Kimi K3模型进行了收入分享谈判",
-      "summary": "MSFT, AMZN, GOOGL Reportedly In Revenue-Sharing Talks With China's Moonshot AI Over Kimi K3 Model Stocktwits",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRUl6WE5IWkJ5ZEpVREJWQzhkejhfMHU5YlVfTzBHQm5WY3B2QzFEM1BkOVF4ZFZHWUhOWEVxWVMyX0xzWmtVVmh2RTA4TGpfbkl5eFJnaFpJZDVTNGo2MGFuLThFMmdXZUtncTFHNDk2YVNLVTFyY3lNLU9yazhyV2JyUnpiQTRnMGZCTTl6TFo2NnhLRjNJVVM0NWlUR0JtTzdDTFpWcFBRcmFfS1dVNTgwWkR1bHBMNXpzbkdCMGc4RFM4UEJ4bHpUZnRkd3VLTDRlam1HMk5ZelBjeW44?oc=5",
-      "pubDate": 1787741880000,
-      "vendor": "kimi",
-      "category": "Research",
+      "id": "374586481",
+      "title": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model",
+      "titleZh": "阿里巴巴发布更小、更具成本效益的Qwen AI模型",
+      "summary": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVFN2VVNaUWE0bXJiNjQ2VWJlbngtWlpzcnY3RG44VlB1eVVhMWNiT21wYmVKSDJnQ0JkNXMycVg5bWRqQ2RIZ3E0d0hzdkEzUlNPV05aUjRUTFhzaXlNdVhVSHFXNGRuZFlPWUhEeEtKemMwdWJValR0MFpZM19OMVRpS1piVVhZWEI3ZmdJZmlDR1B5d2JMRU5DcENuSUktd01Ra0J6Zw?oc=5",
+      "pubDate": 1787747750000,
+      "vendor": "qwen",
+      "category": "Release",
       "impact": "high",
-      "score": 60,
+      "score": 61,
       "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1862121959",
-      "title": "Moonshot AI wants 30% of what US clouds earn from Kimi K3",
-      "titleZh": "Moonshot AI希望从Kimi K3获得美国云计算收入的30%",
-      "summary": "Moonshot AI wants 30% of what US clouds earn from Kimi K3 The Next Web",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA0d0pQa2RVQTl3UUVMTHJNZWRYTV9LSHcxX2kwYXlzVzFOVlBVUjd0UG8tcV9yUHlzQTVvUXRpVkV2UlhLSFBFYTFqbmtHX2ZKNnNxWDdRMmN5WnhoVnlNNk8yTFhSaGxDMHpGX0ZHMWdiMlE?oc=5",
-      "pubDate": 1787738527000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -837,27 +711,6 @@
         "cq": 18,
         "kv": 2,
         "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1046330341",
-      "title": "Qwen 3.8-Flash-Next From Alibaba: The First Look at Qwen 4",
-      "titleZh": "Qwen 3.8-Flash-N Next来自阿里巴巴： Qwen 4的第一印象",
-      "summary": "Qwen 3.8-Flash-Next From Alibaba: The First Look at Qwen 4 Memeburn",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12MlBmYXRXLS1BYUxkSVg5cWUxNi01bGVHOUhfc3ItbEgweHRTdEhKclR3N3UwTG9jRU1mcHFPMGtIWTFPWGVwWTRQTFJ1QWoxMVd5dXJkdTRZaXdiOHd1RDYwNmlIT3M?oc=5",
-      "pubDate": 1787727600000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -1306,48 +1159,6 @@
       "source": "Google AI"
     },
     {
-      "id": "592228126",
-      "title": "Test, Standardize, Restrict: A U.S. Policy for Chinese AI Models",
-      "titleZh": "测试、标准化、限制：美国对中国人工智能模型的政策",
-      "summary": "Test, Standardize, Restrict: A U.S. Policy for Chinese AI Models Just Security",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9sbm1ERi1oQ2RkSGg0Umc2Ukw3QWNGYXFEeUR0eVJXZUhKQ0Z0NWtFV3NyRW5GbG04YjlpbGQ1M1lfWXZlbmRtS1pRQV9MMmlsUlUyZ09ieWFudUFrOGVsVmJCcGJkMHFHcWpKWEtOVnhWeGNTSXZxMVQwZGlFUQ?oc=5",
-      "pubDate": 1786950000000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 22,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "2003024428",
-      "title": "DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin",
-      "titleZh": "DeepSeek AI在开发人员预览中发布DeepSeek线束：麻省理工学院许可的代理线束，其中一切都是插件",
-      "summary": "DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOWtfd0JISmNfcTdFTnlkbEhuMjBpb1pUN21QdkF2dlc0TF9UQWRQdHl6UzhXTFpXaTYtT2E3RTdMTHhlTzZsQkVmeHNpZHNKRWZtSm5BOWtDOGExU25TN0xXaUU5dElGREdGWlZzeVZqNlpIdEVaUlVJLVBQc25Objh2V2xCNjJaN0oyNEVCVmE1N2ltcHU0dlFZZVZJZ2p40gGmAUFVX3lxTE90VjNUcFlGQ3lvWWhrc0JKSnEtVXhVZGJySFB2V2RiSU43emlIWTY2NGV3RWJqRWtiRlhOVlNwWXJPeHk3V3ZreXZEbGxmVHFPcXhnZklTRDlQQUY1ZlpFekE1TlJwbm1aM3I2OTJsaVVNUFRCMHVhREhfTk9yOEc3VlJSWEFoLWkzb2FSMXJCQzNHWm5FNkNYTVk5MWFsRjlPZjlTbkE?oc=5",
-      "pubDate": 1786950000000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-991096918",
       "title": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google",
       "titleZh": "阿里巴巴AI模型下载量突破30亿，通过Meta ，谷歌",
@@ -1556,27 +1367,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-1363628534",
-      "title": "Kimi K3 from Moonshot AI is now available on Databricks through Unity AI Gateway",
-      "titleZh": "来自Moonshot AI的Kimi K3现已通过Unity AI网关在Databricks上提供",
-      "summary": "Kimi K3 from Moonshot AI is now available on Databricks through Unity AI Gateway Databricks",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeEVuMTdPdkpLc3d1TXRweDg2NkdFeHBsMC1lWWZIMTBNMWZiTTJRMVNjOWpLWDhXYVJnb3lfLXpaTmtqd2xwMjBwb1F3LUpsWUcxT1pWUmdaRDVrSzJ5Y0FCdHJlUjRhX21LUkVubUIyWTB4S2hPRXR2N3JGM0NMSzVETXRrYlo3bzZHOXZCV0hNWFNnZGFIMzlLVTltUmJqZzZB?oc=5",
-      "pubDate": 1785999600000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1860432156",
@@ -1934,6 +1724,27 @@
         "cs": 1
       },
       "source": "VentureBeat"
+    },
+    {
+      "id": "-1632583155",
+      "title": "Three reasons why DeepSeek’s new model matters",
+      "titleZh": "Three reasons why DeepSeek’s new model matters",
+      "summary": "Three reasons why DeepSeek’s new model matters MIT Technology Review",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSzNrdWNGN1EyM2pNR1pBUnhaT3hHYk1nZXhXMzVKUXB3T09za2dCTXZYMDRvdVpEUnZRUnRhYnRwdV9OTFpST3VQbTktdndyYklBWjk3M2RicUx2MnJUaWtGMkUzQS1qZjNXWmI2cFZ5bEVnUk00WHRJN3I5R3FfeWs2VdIBiAFBVV95cUxNTk4tcnJDa0tDV2s2cGlnZGdJZXBNUnFXajFhUjJpVjQ5NzA2UWJUaVZwTEZtd0k0d3dRdEl0MVNHS0R1MElBNHQxWjdzS2VnX0VFQVQyM1lqX05tOVNmU2djTEY2WTM3Ujk3bXBTZ2pmNE9KekVrWWVqa2hUTjhncEZ1bEw4MjJs?oc=5",
+      "pubDate": 1777014000000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1380991222",
