@@ -1,8 +1,260 @@
 {
-  "updated": "2026-08-31T06:48:41.167Z",
-  "count": 105,
-  "sources": 11,
+  "updated": "2026-08-31T14:37:57.345Z",
+  "count": 115,
+  "sources": 12,
   "items": [
+    {
+      "id": "-148215390",
+      "title": "Moonshot AI Seeks Up to 30% Revenue Share from Three US Cloud Giants for Kimi K3",
+      "titleZh": "Moonshot AI为Kimi K3向三家美国云巨头寻求高达30%的收入份额",
+      "summary": "Moonshot AI Seeks Up to 30% Revenue Share from Three US Cloud Giants for Kimi K3 finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9YbGVHZnRUMW1TcHFiYVZVVzVzUl82Wlh2UnpjazJULUxndVg0S1hodkZWdWttNG03YkZNd2g2d0Z1dGVYRUVLWlQyR1l4dzlsR1BZOEVfVFdiVWIyd2JOeWwxS1ZaeUo0UWNxeWpGWUw5R25hdWc?oc=5",
+      "pubDate": 1788179100000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "2096008598",
+      "title": "StartLux's 27B Local Model Beats DeepSeek V4 Flash in China AI Benchmark",
+      "titleZh": "StartLux的27B本地型号在中国人工智能基准测试中击败DeepSeek V4 Flash",
+      "summary": "StartLux's 27B Local Model Beats DeepSeek V4 Flash in China AI Benchmark Pandaily",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcXpnN0cyN2lDT250V3k3eDd1V2prRnFoLWwyd2Zmdk1qcTBmZjN0RnBzNTRrT21XT2ZvZWxmMGhOTWF6cFZpYjZLYjVsOTIxRElhakZiZmFxdVdfSjlpcGZadUxTd3RPNmFUOFlFbTdtM0NUWkhYdjc5dWFRaGJTMkwxNA?oc=5",
+      "pubDate": 1788163578000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1654291805",
+      "title": "Time Capsule of Testable Human Knowledge: 41 Years of Jeopardy! in a Single Free Local Model",
+      "titleZh": "可测试人类知识的时间胶囊： 41年的危险！在一个单一的免费本地模型中",
+      "summary": "arXiv:2608.27459v1 Announce Type: new Abstract: In 2011, IBM's Watson was something like a sealed capsule of its era's queryable knowledge. Its DeepQA system defeated the strongest human Jeopardy! cha…",
+      "link": "https://arxiv.org/abs/2608.27459",
+      "pubDate": 1788148800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 67,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 8,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1850868616",
+      "title": "Rating the Raters: Rasch Measurement Theory for LLM Evaluation",
+      "titleZh": "为评分者评分： LLM评估的Rasch测量理论",
+      "summary": "arXiv:2608.27463v1 Announce Type: new Abstract: LLMs now sit on every side of evaluation: as examinees scored on benchmarks, judges of other models' outputs, and raters of human-generated content. Eac…",
+      "link": "https://arxiv.org/abs/2608.27463",
+      "pubDate": 1788148800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "932351905",
+      "title": "Not All Explanations Are Sought: Information-Seeking Psychology for Human-Centered XAI",
+      "titleZh": "并非所有的解释都是寻求的：以人为中心的XAI的信息寻求心理学",
+      "summary": "arXiv:2608.27464v1 Announce Type: new Abstract: This position paper argues that human-centered explainable AI (HCXAI) should incorporate insights from the psychology of information seeking. Drawing on…",
+      "link": "https://arxiv.org/abs/2608.27464",
+      "pubDate": 1788148800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1053516495",
+      "title": "Retrieving Relations, Detecting Fallacies: A RAG Approach to Political Debate Analysis",
+      "titleZh": "检索关系，检测谬误： RAG政治辩论分析方法",
+      "summary": "arXiv:2608.27471v1 Announce Type: new Abstract: Fallacies are arguments that employ invalid reasoning, making their automatic detection critical in sensitive contexts such as high-stakes political deb…",
+      "link": "https://arxiv.org/abs/2608.27471",
+      "pubDate": 1788148800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1308054802",
+      "title": "LLM-Augmented Causal Discovery: Probabilistic Fusion of Edge Existence and Orientation",
+      "titleZh": "法学硕士-因果发现：边缘存在和方向的概率融合",
+      "summary": "arXiv:2608.27472v1 Announce Type: new Abstract: Bayesian network structure learning (BNSL) from observational data struggles with orientation identifiability, while large language models (LLMs) offer …",
+      "link": "https://arxiv.org/abs/2608.27472",
+      "pubDate": 1788148800000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 9,
+        "cw": 15,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1436382247",
+      "title": "Hypothesize, Evaluate, Refine: A Scientific Agent for PDE Discovery with Unknown Spatial Coefficient Fields",
+      "titleZh": "假设，评估，优化：具有未知空间系数场的PDE发现的科学代理人",
+      "summary": "arXiv:2608.27475v1 Announce Type: new Abstract: Discovering PDEs in heterogeneous media requires jointly identifying the governing operator and the unknown spatial fields that parameterize it. These t…",
+      "link": "https://arxiv.org/abs/2608.27475",
+      "pubDate": 1788148800000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 4,
+        "cw": 15,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1206834953",
+      "title": "Class-Based Heuristic Selection for Solving the Flying Block Puzzle",
+      "titleZh": "求解飞块拼图的基于类的启发式选择",
+      "summary": "arXiv:2608.27476v1 Announce Type: new Abstract: Heuristic search underlies planning in autonomous systems ranging from warehouse logistics to robotic navigation, yet generic heuristics fail to exploit…",
+      "link": "https://arxiv.org/abs/2608.27476",
+      "pubDate": 1788148800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "754994591",
+      "title": "Benchmarking General Mobile Assistants in Challenging Real-World Scenarios",
+      "titleZh": "在具有挑战性的现实世界场景中对通用移动助理进行基准测试",
+      "summary": "arXiv:2608.27477v1 Announce Type: new Abstract: Graphical user interfaces have emerged as an important environment for evaluating autonomous AI agents on multimodal interactive tasks. Existing benchma…",
+      "link": "https://arxiv.org/abs/2608.27477",
+      "pubDate": 1788148800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 8,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1190451557",
+      "title": "Effectiveness of IoT and Deep Learning for Detection and Severity Assessment of Postelectrotermes militaris in Tea Plantations",
+      "titleZh": "物联网和深度学习在茶园蛹虫害检测和严重程度评估中的有效性",
+      "summary": "arXiv:2608.27480v1 Announce Type: new Abstract: Tea plantations are vulnerable to Postelectrotermes militaris, commonly known as the Upcountry Live Wood Termite (ULWT), which can cause substantial dam…",
+      "link": "https://arxiv.org/abs/2608.27480",
+      "pubDate": 1788148800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "731634206",
+      "title": "Context Localization for Generalized Level-Based Evaluation in Knowledge-Based Systems",
+      "titleZh": "基于知识的系统中基于广义层次的评估的上下文本地化",
+      "summary": "arXiv:2608.27482v1 Announce Type: new Abstract: We study context localization for generalized level-based evaluation in knowledge-based systems. The framework models situations where a structured nonn…",
+      "link": "https://arxiv.org/abs/2608.27482",
+      "pubDate": 1788148800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
     {
       "id": "-1356065551",
       "title": "Moonshot’s AI Strategy: Dominating AI as Frontier AI Lab with Kimi K3 [In-Depth Analysis, 2026]",
@@ -13,13 +265,55 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "965819178",
+      "title": "Alibaba’s AI Strategy: Dominating AI as Frontier AI Lab with Qwen [In-Depth Analysis, 2026]",
+      "titleZh": "Alibaba’s AI Strategy: Dominating AI as Frontier AI Lab with Qwen [In-Depth Analysis, 2026]",
+      "summary": "Alibaba’s AI Strategy: Dominating AI as Frontier AI Lab with Qwen [In-Depth Analysis, 2026] Klover.ai",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeDZBYlRUekFuVnU5cE1FLXpkT2Z2SDMwVmVqS3ZoeWlORVM0NklvUWdLVE1lRW5xb21vYzdhTl93SzJGMTQ2N2NOX1Vzd254Y2hDUUNSN29vbVRxSmJVcXk2S1V5ZXJpT1dBTjB3OTJkVDBrRmdNQzgyWi1fTUlhenZjWHVOaUdGY05VNnlHeTR0UHNRMTZGandIUVNkWjluTjJheEh1NjJCWERi?oc=5",
+      "pubDate": 1788144879000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "874790971",
+      "title": "DeepSeek’s AI Strategy: Dominating AI as Frontier AI Lab [In-Depth Analysis, 2026]",
+      "titleZh": "DeepSeek’s AI Strategy: Dominating AI as Frontier AI Lab [In-Depth Analysis, 2026]",
+      "summary": "DeepSeek’s AI Strategy: Dominating AI as Frontier AI Lab [In-Depth Analysis, 2026] Klover.ai",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTUJaREcyeUFqQVJELWhIaU1OZUN5bGNUYlRVX0tYU3hMMnhLSHVLenpKX0ljRlBSQVcxMDdpVTF3WDhEUmdhLVRCUHl0Y1pqOFhfZk01MVM5MC1HTld6dGFpUVpSOXV6WHpReW5VRExYblJFMExEZDdwRFJ2bERyOTFCamV1aXp4elVvemY1dW51eGJQdXV0OHN3elNJUUly?oc=5",
+      "pubDate": 1788144878000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -34,13 +328,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -139,13 +433,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -317,27 +611,6 @@
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "-1046330341",
-      "title": "Qwen 3.8-Flash-Next From Alibaba: The First Look at Qwen 4",
-      "titleZh": "Qwen 3.8-Flash-N Next来自阿里巴巴： Qwen 4的第一印象",
-      "summary": "Qwen 3.8-Flash-Next From Alibaba: The First Look at Qwen 4 Memeburn",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12MlBmYXRXLS1BYUxkSVg5cWUxNi01bGVHOUhfc3ItbEgweHRTdEhKclR3N3UwTG9jRU1mcHFPMGtIWTFPWGVwWTRQTFJ1QWoxMVd5dXJkdTRZaXdiOHd1RDYwNmlIT3M?oc=5",
-      "pubDate": 1787853661000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-568326299",
@@ -592,27 +865,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "1663324528",
-      "title": "Moonshot AI Wants Microsoft, Amazon and Google to Pay It a Cut of Kimi K3",
-      "titleZh": "Moonshot AI希望微软、亚马逊和谷歌向其支付Kimi K3的一部分",
-      "summary": "Moonshot AI Wants Microsoft, Amazon and Google to Pay It a Cut of Kimi K3 Startup Fortune",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZUdZWnc1alNicnJYd3UzWENfRnE1b3h0YkNmV3B2eXJmQkM1aHA3VWlMZ0dDbk9tRnZZMlE5UkQzNTBBanZtSkV3UThER0c5YkZORDBaR2lxT1FjR0R0SXVEbzQ2OS1ucmZTanB3QWVaOS1HQUpGUmlzQkpBOEcyelNmOEh1WEh4Z1FkaVRycV95WkRuaVRYaTM0dkx4QjZ1TUE?oc=5",
-      "pubDate": 1787785098000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 3,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1215613401",
       "title": "Qwen 3.8 Flash-Next is Cheap, But There Are Complicating Factors",
       "titleZh": "Qwen 3.8 Flash-Next价格便宜，但存在复杂因素",
@@ -627,6 +879,27 @@
         "cq": 18,
         "kv": 2,
         "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1264303748",
+      "title": "Experiment with Qwen3.8-Flash-Next on NVIDIA GB300 NVL72 for Agentic Coding | NVIDIA Technical Blog",
+      "titleZh": "在NVIDIA GB300 NVL72上尝试使用Qwen3.8-Flash-Next进行Agent编码| NVIDIA技术博客",
+      "summary": "Experiment with Qwen3.8-Flash-Next on NVIDIA GB300 NVL72 for Agentic Coding | NVIDIA Technical Blog NVIDIA Developer",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbTBGQUpGeFlsVXJxVmR2VHJpWWNUdFNNWW4tYU1ibGdzUllKMEMxXy1EbkcxMXQ4ZTF5UENwT24tZzJBLUJBamZpd20wYVVXUkxNX1R0VlQxblVkQUZtR09YQVlHVUxXemVWNHM3MUEwSWExNEFSQVR5UmtNZkJrQkJiT0ZQeXM5UjlBUGhDVEpFWS1kSWRtYk92eGJ1R1YwNzUwampEZTdieFpQVW9B?oc=5",
+      "pubDate": 1787764106000,
+      "vendor": "qwen",
+      "category": "Agent",
+      "impact": "high",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 12,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -655,27 +928,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "1989236009",
-      "title": "Z.AI Reveals It Secretly Built Ox Alpha, the Model That Beat DeepSeek",
-      "titleZh": "Z.AI透露它秘密建造的Ox Alpha ，击败DeepSeek的模型",
-      "summary": "Z.AI Reveals It Secretly Built Ox Alpha, the Model That Beat DeepSeek Startup Fortune",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSGoxOVVuODZPZURKUmtOS004OTRxME1TZ3lQN2s5aU9PSDlVeXFvVS1PcWd1clF5TC02eUZDWGM2MmVjbUY0d2t4ZEgzTDF6MG5vV05hbzFrZWFOeXk3cXJLeE9RbTZtSG5RallEWTZRMXllX1B6TzM0VF9RNlRGb1luNWNBcGV4dl9rTlU3YW1JcW96S05uR3lNTQ?oc=5",
-      "pubDate": 1787758552000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "780556249",
       "title": "Alibaba's Qwen launches Qwen3.8-Flash AI model with lower training costs",
       "titleZh": "阿里巴巴旗下Qwen以更低的培训成本推出Qwen3.8-Flash AI模型",
@@ -688,27 +940,6 @@
       "score": 61,
       "scoreBreakdown": {
         "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "172192906",
-      "title": "Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\" - the",
-      "titleZh": "阿里巴巴发布Qwen3.8-Flash-Next ，瞄准“极致性价比” --",
-      "summary": "Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\" the-decoder.com",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVGNjSDJ6WGFXZ0tVSXZzME1XOWhuS0VGX1lpTmcxMWNFSENKOE5JNUYtUHNtWXFIZDFzZHJRQktENzZZQVlTeWhPaUh2R2lKLUxpeXVBa3BjZEFVcjFmdDNJczJnTzR4MXZjWmxreTA5VkM5SUJYTlY3UGtBQ3piT3E3VHpidFJ1WWVVVUktcm1CSXdXRDZKV2hFbw?oc=5",
-      "pubDate": 1787755497000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 16,
         "kv": 4,
         "cw": 25,
         "st": 12,
@@ -1031,27 +1262,6 @@
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "192579856",
-      "title": "DeepSeek leads surge in low-cost Chinese open-weight models on US platform",
-      "titleZh": "DeepSeek在美国平台上引领低成本中国开放式重量模型的激增",
-      "summary": "DeepSeek leads surge in low-cost Chinese open-weight models on US platform South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWThaMmJPUUlvYmRNYkFfRHByODdKTVYzSzd3ZzYzRE1wVUFvSXlWU1VGWTNOY1ZzOUczTnV1dHFDdUV1WVAyUHk3X1NTcF95cU96OWJULXpzV3Z2OU1tOXBIVnlRNDhYN1YyZGtWNHQ2MjRUaHFET3NBR2R3bTNJQUxhVndiQ0pkdEMwLU10TW9KaGNPMHFfbjAxUlRsbFdnTllOckhqTktheXdMeE1BWmdWdkI4UDdDM3lOVXpnONIBvwFBVV95cUxOa3h1bWlia2xLUk5RQjctWGxhcmMxRWFhTUxZZ2RqYk1OendyU2R4azZUZGg4anlMeWY3RnhZMDYyaGZ1ZWxCdHNqYnlfU1ZJY096MGxkbnRBWEJHNVNKQXg4ZGN3bkFrbUdfMTFScWFBcnp5eXhaUkZaaGpiUGNJbFl4VnlEMDhRelE1elJJMXRyVmJSVWhaVUpLUmdLS0JZY2hQcndDRVVRV2VyMmhtQU1kQkN4LTFWaEJyODltcw?oc=5",
-      "pubDate": 1787653807000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1513614047",
