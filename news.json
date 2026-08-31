@@ -1,8 +1,71 @@
 {
-  "updated": "2026-08-31T14:37:57.345Z",
+  "updated": "2026-08-31T20:31:05.642Z",
   "count": 115,
   "sources": 12,
   "items": [
+    {
+      "id": "610404349",
+      "title": "Clipto uses AI to search terabytes of video and is now valued at $250M",
+      "titleZh": "Clipto使用人工智能搜索TB级视频，目前价值2.5亿美元（ $ ）",
+      "summary": "The three-year-old startup says it reached $15 million in ARR and profitability before raising its latest $15 million round.",
+      "link": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
+      "pubDate": 1788192000000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1574001512",
+      "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
+      "titleZh": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
+      "summary": "Nvidia invests $3.5 billion into Taiwanese chipmaker MediaTek. The deal shows how Nvidia plans to stay essential to AI infrastructure as Big Tech begins to build its own AI chips.",
+      "link": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
+      "pubDate": 1788189325000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "high",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 1,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-243530985",
+      "title": "Meeting note-taker Circleback adds a free tier to attract more customers",
+      "titleZh": "会议记录员Circleback添加了免费会员等级，以吸引更多顾客",
+      "summary": "Circleback is also introducing new pricing plans starting from $14 per month.",
+      "link": "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/",
+      "pubDate": 1788181006000,
+      "vendor": "techcrunch",
+      "category": "Release",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 25,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-148215390",
       "title": "Moonshot AI Seeks Up to 30% Revenue Share from Three US Cloud Giants for Kimi K3",
@@ -13,13 +76,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -44,6 +107,27 @@
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "-1829814269",
+      "title": "A milestone in expanding access to AI",
+      "titleZh": "扩大人工智能访问权限的里程碑",
+      "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+      "link": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+      "pubDate": 1788148800000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "high",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 1,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
     },
     {
       "id": "1654291805",
@@ -319,8 +403,8 @@
       "source": "Google News"
     },
     {
-      "id": "-49227075",
-      "title": "The U.S. is building barriers around drones and robots, but China has scale to get around them",
+      "id": "860251559",
+      "title": "The US is building barriers around drones and robots, but China has scale to get around them",
       "titleZh": "美国正在围绕无人机和机器人建造壁垒，但中国有足够的规模来绕过它们",
       "summary": "The U.S. is shutting out more foreign-made drones and robots. China’s scale means the global competition may simply move elsewhere.",
       "link": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
@@ -349,13 +433,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 45,
+      "score": 44,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -370,55 +454,76 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 40,
+      "score": 39,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 12,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
     },
     {
-      "id": "447663626",
-      "title": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
-      "titleZh": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
+      "id": "1222675218",
+      "title": "Sony Music, Warner sue Anthropic, alleging a ‘brazen campaign’ of intellectual property theft",
+      "titleZh": "Sony Music, Warner sue Anthropic, alleging a ‘brazen campaign’ of intellectual property theft",
       "summary": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
       "link": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
       "pubDate": 1788028919000,
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "TechCrunch"
     },
     {
-      "id": "-344678430",
-      "title": "“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z",
-      "titleZh": "“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z",
+      "id": "1603838978",
+      "title": "At TechBBQ, Europe’s AI conversations kept coming back to: Who’s actually in control?",
+      "titleZh": "At TechBBQ, Europe’s AI conversations kept coming back to: Who’s actually in control?",
+      "summary": "Investors, founders, and operators from across Europe arrived for the annual Nordic TechBBQ conference to talk about how humans can have agency over AI.",
+      "link": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/",
+      "pubDate": 1788025870000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 41,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "585739371",
+      "title": "‘We’re not doing 30 bets a year’: Vijay Pande on betting small after running $4B at a16z",
+      "titleZh": "‘We’re not doing 30 bets a year’: Vijay Pande on betting small after running $4B at a16z",
       "summary": "Vijay Pande — who left a16z's roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — talks about why biology is finally shifting from a \"discovery\" science to an \"en…",
       "link": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
       "pubDate": 1788025007000,
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "high",
-      "score": 45,
+      "score": 44,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 15,
         "st": 8,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -437,69 +542,6 @@
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-398823547",
-      "title": "Neocloud Lambda secures $1B in debt to buy more chips",
-      "titleZh": "Neocloud Lambda获得$ 10亿债务以购买更多芯片",
-      "summary": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom.",
-      "link": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
-      "pubDate": 1787948651000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 1,
-        "cw": 20,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-181482746",
-      "title": "An Anthropic researcher just gave us a peek at self-improving AI",
-      "titleZh": "一位人类学研究人员刚刚向我们展示了自我改进的人工智能",
-      "summary": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
-      "link": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
-      "pubDate": 1787945438000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 22,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1604366511",
-      "title": "Open-weight AI companies are the Valley’s hottest acquisition targets",
-      "titleZh": "Open-weight AI companies are the Valley’s hottest acquisition targets",
-      "summary": "There's a lot of capital pouring into the business of giving models away.",
-      "link": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
-      "pubDate": 1787941180000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "high",
-      "score": 40,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 1,
         "cw": 15,
         "st": 8,
         "rc": 1,
@@ -527,27 +569,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-18688636",
-      "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
-      "titleZh": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
-      "summary": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
-      "link": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
-      "pubDate": 1787921172000,
-      "vendor": "techcrunch",
-      "category": "Safety",
-      "impact": "med",
-      "score": 40,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 10,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "1756653758",
@@ -1054,11 +1075,11 @@
       "source": "Google News"
     },
     {
-      "id": "1039553354",
-      "title": "Learning never stops: How AI makes learning continuous",
-      "titleZh": "学习永不止步：人工智能如何让学习持续下去",
-      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-      "link": "https://openai.com/index/learning-never-stops",
+      "id": "-571397984",
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "titleZh": "将ChatGPT带到更多的美国学区",
+      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
       "pubDate": 1787738400000,
       "vendor": "openai",
       "category": "Product",
@@ -1075,11 +1096,11 @@
       "source": "OpenAI"
     },
     {
-      "id": "-571397984",
-      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-      "titleZh": "将ChatGPT带到更多的美国学区",
-      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-      "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "id": "1039553354",
+      "title": "Learning never stops: How AI makes learning continuous",
+      "titleZh": "学习永不止步：人工智能如何让学习持续下去",
+      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+      "link": "https://openai.com/index/learning-never-stops",
       "pubDate": 1787738400000,
       "vendor": "openai",
       "category": "Product",
@@ -1278,27 +1299,6 @@
         "cq": 18,
         "kv": 0,
         "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "-1502302600",
-      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "titleZh": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-      "link": "https://openai.com/index/jalapeno-first-results",
-      "pubDate": 1787641200000,
-      "vendor": "openai",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
         "st": 15,
         "rc": 1,
         "cs": 1
