@@ -1,8 +1,218 @@
 {
-  "updated": "2026-09-01T04:13:07.706Z",
+  "updated": "2026-09-01T09:35:47.509Z",
   "count": 116,
   "sources": 12,
   "items": [
+    {
+      "id": "1654291805",
+      "title": "Time Capsule of Testable Human Knowledge: 41 Years of Jeopardy! in a Single Free Local Model",
+      "titleZh": "可测试人类知识的时间胶囊： 41年的危险！在一个单一的免费本地模型中",
+      "summary": "arXiv:2608.27459v1 Announce Type: new Abstract: In 2011, IBM's Watson was something like a sealed capsule of its era's queryable knowledge. Its DeepQA system defeated the strongest human Jeopardy! cha…",
+      "link": "https://arxiv.org/abs/2608.27459",
+      "pubDate": 1788235200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 68,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 8,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1850868616",
+      "title": "Rating the Raters: Rasch Measurement Theory for LLM Evaluation",
+      "titleZh": "为评分者评分： LLM评估的Rasch测量理论",
+      "summary": "arXiv:2608.27463v1 Announce Type: new Abstract: LLMs now sit on every side of evaluation: as examinees scored on benchmarks, judges of other models' outputs, and raters of human-generated content. Eac…",
+      "link": "https://arxiv.org/abs/2608.27463",
+      "pubDate": 1788235200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "932351905",
+      "title": "Not All Explanations Are Sought: Information-Seeking Psychology for Human-Centered XAI",
+      "titleZh": "并非所有的解释都是寻求的：以人为中心的XAI的信息寻求心理学",
+      "summary": "arXiv:2608.27464v1 Announce Type: new Abstract: This position paper argues that human-centered explainable AI (HCXAI) should incorporate insights from the psychology of information seeking. Drawing on…",
+      "link": "https://arxiv.org/abs/2608.27464",
+      "pubDate": 1788235200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1053516495",
+      "title": "Retrieving Relations, Detecting Fallacies: A RAG Approach to Political Debate Analysis",
+      "titleZh": "检索关系，检测谬误： RAG政治辩论分析方法",
+      "summary": "arXiv:2608.27471v1 Announce Type: new Abstract: Fallacies are arguments that employ invalid reasoning, making their automatic detection critical in sensitive contexts such as high-stakes political deb…",
+      "link": "https://arxiv.org/abs/2608.27471",
+      "pubDate": 1788235200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1308054802",
+      "title": "LLM-Augmented Causal Discovery: Probabilistic Fusion of Edge Existence and Orientation",
+      "titleZh": "法学硕士-因果发现：边缘存在和方向的概率融合",
+      "summary": "arXiv:2608.27472v1 Announce Type: new Abstract: Bayesian network structure learning (BNSL) from observational data struggles with orientation identifiability, while large language models (LLMs) offer …",
+      "link": "https://arxiv.org/abs/2608.27472",
+      "pubDate": 1788235200000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 9,
+        "cw": 15,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1436382247",
+      "title": "Hypothesize, Evaluate, Refine: A Scientific Agent for PDE Discovery with Unknown Spatial Coefficient Fields",
+      "titleZh": "假设，评估，优化：具有未知空间系数场的PDE发现的科学代理人",
+      "summary": "arXiv:2608.27475v1 Announce Type: new Abstract: Discovering PDEs in heterogeneous media requires jointly identifying the governing operator and the unknown spatial fields that parameterize it. These t…",
+      "link": "https://arxiv.org/abs/2608.27475",
+      "pubDate": 1788235200000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 4,
+        "cw": 15,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1206834953",
+      "title": "Class-Based Heuristic Selection for Solving the Flying Block Puzzle",
+      "titleZh": "求解飞块拼图的基于类的启发式选择",
+      "summary": "arXiv:2608.27476v1 Announce Type: new Abstract: Heuristic search underlies planning in autonomous systems ranging from warehouse logistics to robotic navigation, yet generic heuristics fail to exploit…",
+      "link": "https://arxiv.org/abs/2608.27476",
+      "pubDate": 1788235200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "754994591",
+      "title": "Benchmarking General Mobile Assistants in Challenging Real-World Scenarios",
+      "titleZh": "在具有挑战性的现实世界场景中对通用移动助理进行基准测试",
+      "summary": "arXiv:2608.27477v1 Announce Type: new Abstract: Graphical user interfaces have emerged as an important environment for evaluating autonomous AI agents on multimodal interactive tasks. Existing benchma…",
+      "link": "https://arxiv.org/abs/2608.27477",
+      "pubDate": 1788235200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 8,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1190451557",
+      "title": "Effectiveness of IoT and Deep Learning for Detection and Severity Assessment of Postelectrotermes militaris in Tea Plantations",
+      "titleZh": "物联网和深度学习在茶园蛹虫害检测和严重程度评估中的有效性",
+      "summary": "arXiv:2608.27480v1 Announce Type: new Abstract: Tea plantations are vulnerable to Postelectrotermes militaris, commonly known as the Upcountry Live Wood Termite (ULWT), which can cause substantial dam…",
+      "link": "https://arxiv.org/abs/2608.27480",
+      "pubDate": 1788235200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "731634206",
+      "title": "Context Localization for Generalized Level-Based Evaluation in Knowledge-Based Systems",
+      "titleZh": "基于知识的系统中基于广义层次的评估的上下文本地化",
+      "summary": "arXiv:2608.27482v1 Announce Type: new Abstract: We study context localization for generalized level-based evaluation in knowledge-based systems. The framework models situations where a structured nonn…",
+      "link": "https://arxiv.org/abs/2608.27482",
+      "pubDate": 1788235200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
     {
       "id": "-1138438614",
       "title": "Moonshot AI Seeks Up to 30% Revenue Share as Kimi K3 Eyes US Clouds",
@@ -13,13 +223,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 55,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 5,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -34,16 +244,37 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "917419074",
+      "title": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
+      "titleZh": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
+      "summary": "Apple says it has evidence that a former employee destroyed evidence of data theft after learning he was under investigation.",
+      "link": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
+      "pubDate": 1788221580000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
     },
     {
       "id": "-559170522",
@@ -214,6 +445,27 @@
       "source": "Google News"
     },
     {
+      "id": "-1618966528",
+      "title": "OpenAI supports California’s bill to advance youth AI safety",
+      "titleZh": "OpenAI supports California’s bill to advance youth AI safety",
+      "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+      "link": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+      "pubDate": 1788159600000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 1,
+        "cw": 15,
+        "st": 15,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
       "id": "2107463229",
       "title": "Polimill builds Japan's next-generation public AI infrastructure",
       "titleZh": "Polimill打造日本下一代公共人工智能基础设施",
@@ -223,13 +475,13 @@
       "vendor": "openai",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 22,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -254,216 +506,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "1654291805",
-      "title": "Time Capsule of Testable Human Knowledge: 41 Years of Jeopardy! in a Single Free Local Model",
-      "titleZh": "可测试人类知识的时间胶囊： 41年的危险！在一个单一的免费本地模型中",
-      "summary": "arXiv:2608.27459v1 Announce Type: new Abstract: In 2011, IBM's Watson was something like a sealed capsule of its era's queryable knowledge. Its DeepQA system defeated the strongest human Jeopardy! cha…",
-      "link": "https://arxiv.org/abs/2608.27459",
-      "pubDate": 1788148800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 66,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 8,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1850868616",
-      "title": "Rating the Raters: Rasch Measurement Theory for LLM Evaluation",
-      "titleZh": "为评分者评分： LLM评估的Rasch测量理论",
-      "summary": "arXiv:2608.27463v1 Announce Type: new Abstract: LLMs now sit on every side of evaluation: as examinees scored on benchmarks, judges of other models' outputs, and raters of human-generated content. Eac…",
-      "link": "https://arxiv.org/abs/2608.27463",
-      "pubDate": 1788148800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "932351905",
-      "title": "Not All Explanations Are Sought: Information-Seeking Psychology for Human-Centered XAI",
-      "titleZh": "并非所有的解释都是寻求的：以人为中心的XAI的信息寻求心理学",
-      "summary": "arXiv:2608.27464v1 Announce Type: new Abstract: This position paper argues that human-centered explainable AI (HCXAI) should incorporate insights from the psychology of information seeking. Drawing on…",
-      "link": "https://arxiv.org/abs/2608.27464",
-      "pubDate": 1788148800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1053516495",
-      "title": "Retrieving Relations, Detecting Fallacies: A RAG Approach to Political Debate Analysis",
-      "titleZh": "检索关系，检测谬误： RAG政治辩论分析方法",
-      "summary": "arXiv:2608.27471v1 Announce Type: new Abstract: Fallacies are arguments that employ invalid reasoning, making their automatic detection critical in sensitive contexts such as high-stakes political deb…",
-      "link": "https://arxiv.org/abs/2608.27471",
-      "pubDate": 1788148800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1308054802",
-      "title": "LLM-Augmented Causal Discovery: Probabilistic Fusion of Edge Existence and Orientation",
-      "titleZh": "法学硕士-因果发现：边缘存在和方向的概率融合",
-      "summary": "arXiv:2608.27472v1 Announce Type: new Abstract: Bayesian network structure learning (BNSL) from observational data struggles with orientation identifiability, while large language models (LLMs) offer …",
-      "link": "https://arxiv.org/abs/2608.27472",
-      "pubDate": 1788148800000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 9,
-        "cw": 15,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1436382247",
-      "title": "Hypothesize, Evaluate, Refine: A Scientific Agent for PDE Discovery with Unknown Spatial Coefficient Fields",
-      "titleZh": "假设，评估，优化：具有未知空间系数场的PDE发现的科学代理人",
-      "summary": "arXiv:2608.27475v1 Announce Type: new Abstract: Discovering PDEs in heterogeneous media requires jointly identifying the governing operator and the unknown spatial fields that parameterize it. These t…",
-      "link": "https://arxiv.org/abs/2608.27475",
-      "pubDate": 1788148800000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 4,
-        "cw": 15,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1206834953",
-      "title": "Class-Based Heuristic Selection for Solving the Flying Block Puzzle",
-      "titleZh": "求解飞块拼图的基于类的启发式选择",
-      "summary": "arXiv:2608.27476v1 Announce Type: new Abstract: Heuristic search underlies planning in autonomous systems ranging from warehouse logistics to robotic navigation, yet generic heuristics fail to exploit…",
-      "link": "https://arxiv.org/abs/2608.27476",
-      "pubDate": 1788148800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "754994591",
-      "title": "Benchmarking General Mobile Assistants in Challenging Real-World Scenarios",
-      "titleZh": "在具有挑战性的现实世界场景中对通用移动助理进行基准测试",
-      "summary": "arXiv:2608.27477v1 Announce Type: new Abstract: Graphical user interfaces have emerged as an important environment for evaluating autonomous AI agents on multimodal interactive tasks. Existing benchma…",
-      "link": "https://arxiv.org/abs/2608.27477",
-      "pubDate": 1788148800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 8,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1190451557",
-      "title": "Effectiveness of IoT and Deep Learning for Detection and Severity Assessment of Postelectrotermes militaris in Tea Plantations",
-      "titleZh": "物联网和深度学习在茶园蛹虫害检测和严重程度评估中的有效性",
-      "summary": "arXiv:2608.27480v1 Announce Type: new Abstract: Tea plantations are vulnerable to Postelectrotermes militaris, commonly known as the Upcountry Live Wood Termite (ULWT), which can cause substantial dam…",
-      "link": "https://arxiv.org/abs/2608.27480",
-      "pubDate": 1788148800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "731634206",
-      "title": "Context Localization for Generalized Level-Based Evaluation in Knowledge-Based Systems",
-      "titleZh": "基于知识的系统中基于广义层次的评估的上下文本地化",
-      "summary": "arXiv:2608.27482v1 Announce Type: new Abstract: We study context localization for generalized level-based evaluation in knowledge-based systems. The framework models situations where a structured nonn…",
-      "link": "https://arxiv.org/abs/2608.27482",
-      "pubDate": 1788148800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
     },
     {
       "id": "-1356065551",
@@ -566,27 +608,6 @@
         "cw": 12,
         "st": 8,
         "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1222675218",
-      "title": "Sony Music, Warner sue Anthropic, alleging a ‘brazen campaign’ of intellectual property theft",
-      "titleZh": "Sony Music, Warner sue Anthropic, alleging a ‘brazen campaign’ of intellectual property theft",
-      "summary": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
-      "link": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
-      "pubDate": 1788028919000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -1096,11 +1117,11 @@
       "source": "Google News"
     },
     {
-      "id": "1039553354",
-      "title": "Learning never stops: How AI makes learning continuous",
-      "titleZh": "学习永不止步：人工智能如何让学习持续下去",
-      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-      "link": "https://openai.com/index/learning-never-stops",
+      "id": "-571397984",
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "titleZh": "将ChatGPT带到更多的美国学区",
+      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
       "pubDate": 1787738400000,
       "vendor": "openai",
       "category": "Product",
@@ -1117,11 +1138,11 @@
       "source": "OpenAI"
     },
     {
-      "id": "-571397984",
-      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-      "titleZh": "将ChatGPT带到更多的美国学区",
-      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-      "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "id": "1039553354",
+      "title": "Learning never stops: How AI makes learning continuous",
+      "titleZh": "学习永不止步：人工智能如何让学习持续下去",
+      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+      "link": "https://openai.com/index/learning-never-stops",
       "pubDate": 1787738400000,
       "vendor": "openai",
       "category": "Product",
@@ -1173,27 +1194,6 @@
         "cq": 18,
         "kv": 1,
         "cw": 10,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "1822873629",
-      "title": "How loveholidays is making everyone a builder with Codex",
-      "titleZh": "爱情假期如何让每个人都成为Codex的建设者",
-      "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
-      "link": "https://openai.com/index/loveholidays",
-      "pubDate": 1787702400000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
         "st": 15,
         "rc": 1,
         "cs": 1
