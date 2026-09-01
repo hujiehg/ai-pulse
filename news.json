@@ -1,8 +1,29 @@
 {
-  "updated": "2026-09-01T14:26:24.262Z",
+  "updated": "2026-09-01T17:55:56.188Z",
   "count": 117,
   "sources": 12,
   "items": [
+    {
+      "id": "822663115",
+      "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
+      "titleZh": "试用Google图片：在Google Workspace中轻松创建和编辑图像",
+      "summary": "Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
+      "link": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+      "pubDate": 1788278400000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "Google AI"
+    },
     {
       "id": "1222092088",
       "title": "DeepSeek Opens Its First Native Vision Model",
@@ -370,13 +391,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -391,13 +412,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "high",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 1,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -622,13 +643,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -643,13 +664,13 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 39,
+      "score": 38,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 12,
         "st": 8,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -1231,13 +1252,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google AI"
@@ -1252,13 +1273,13 @@
       "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
-      "score": 38,
+      "score": 37,
       "scoreBreakdown": {
         "cq": 7,
         "kv": 0,
         "cw": 15,
         "st": 14,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -1997,27 +2018,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "-2053168468",
-      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-      "titleZh": "Gemini API托管代理： 3.6 Flash、挂钩等",
-      "summary": "We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "pubDate": 1785254400000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
     },
     {
       "id": "890765335",
