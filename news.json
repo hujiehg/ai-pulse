@@ -1,8 +1,92 @@
 {
-  "updated": "2026-09-01T17:55:56.188Z",
-  "count": 117,
+  "updated": "2026-09-01T20:20:34.031Z",
+  "count": 116,
   "sources": 12,
   "items": [
+    {
+      "id": "823981042",
+      "title": "Google’s answer to Canva is an AI tool where you prompt instead of design",
+      "titleZh": "Google’s answer to Canva is an AI tool where you prompt instead of design",
+      "summary": "With Google Pics, Google is pushing deeper into the creative software market dominated by Canva and Adobe, but with a distinctly AI-first approach.",
+      "link": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
+      "pubDate": 1788284137000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-69469860",
+      "title": "How AI-native companies turn workflows into operating capability",
+      "titleZh": "人工智能原生公司如何将工作流程转化为运营能力",
+      "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+      "link": "https://openai.com/index/ai-native-company-workflows",
+      "pubDate": 1788282000000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "770494598",
+      "title": "ChatGPT Health adds Epic integration for clinicians to import patient data",
+      "titleZh": "ChatGPT Health为临床医生添加了Epic集成，以导入患者数据",
+      "summary": "OpenAI said that the integration provides read-only access to health records for clinicians.",
+      "link": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
+      "pubDate": 1788282000000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1408189124",
+      "title": "Sequoia-incubated Empirik launches with $21M to predict outages before they happen",
+      "titleZh": "红杉孵化的Empirik以$ 2100万的价格推出，以预测停电发生之前",
+      "summary": "The startup wants to do for IT infrastructure what Cursor did for software engineering.",
+      "link": "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/",
+      "pubDate": 1788280264000,
+      "vendor": "techcrunch",
+      "category": "Release",
+      "impact": "high",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 2,
+        "cw": 25,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "822663115",
       "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
@@ -13,16 +97,100 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google AI"
+    },
+    {
+      "id": "507127021",
+      "title": "Amazon Alexa can now alert you when something new might tempt you to shop",
+      "titleZh": "Amazon Alexa现在可以在新事物可能诱使您购物时提醒您",
+      "summary": "Amazon is adding a new Alexa-powered feature called “Update Me When” that can send personalized alerts about product launches, tours, books, shows, and other events that could trigger a purchase.",
+      "link": "https://techcrunch.com/2026/09/01/amazon-alexa-can-now-alert-you-when-something-new-might-tempt-you-to-shop/",
+      "pubDate": 1788277915000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "high",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-815412469",
+      "title": "AIR raises $50M to help companies vet the skills and add-ons AI agents use",
+      "titleZh": "AIR筹集了5000万美元，以帮助公司审查AI代理使用的技能和附加组件",
+      "summary": "AIR's platform can discover agents running at a company, continuously vets any skills and add-ons they use, and blocks any unwanted behavior.",
+      "link": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
+      "pubDate": 1788277551000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 1,
+        "cw": 20,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-598845629",
+      "title": "Fambot introduces an ‘AI chief of staff’ for families",
+      "titleZh": "Fambot introduces an ‘AI chief of staff’ for families",
+      "summary": "Fambot is building an AI “chief of staff” to help families manage the emails, calendars, school updates, sports schedules, and other logistics of raising kids.",
+      "link": "https://techcrunch.com/2026/09/01/fambot-introduces-an-ai-chief-of-staff-for-families/",
+      "pubDate": 1788275458000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-795504710",
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "titleZh": "医疗机构现在可以将EHR和其他行业数据连接到ChatGPT",
+      "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+      "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "pubDate": 1788264000000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
     },
     {
       "id": "1222092088",
@@ -319,6 +487,27 @@
       "source": "TechCrunch"
     },
     {
+      "id": "201393656",
+      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "titleZh": "推出@ huggingface/kernels ：用于本地AI的200多个WebGPU内核",
+      "summary": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "link": "https://huggingface.co/blog/webgpu-kernels",
+      "pubDate": 1788220800000,
+      "vendor": "huggingface",
+      "category": "Release",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 25,
+        "st": 14,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
       "id": "-559170522",
       "title": "The Pentagon now has its own version of ChatGPT and Grok",
       "titleZh": "五角大楼现在有自己的ChatGPT和Grok版本",
@@ -328,13 +517,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -346,48 +535,6 @@
       "summary": "As frustration over AI influencers has been growing, Instagram is limiting the reach of undisclosed AI profiles.",
       "link": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
       "pubDate": 1788203819000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-728905715",
-      "title": "Harvard Law dropout raises $6M for Blue Voice to build a ‘Harvey for police officers’",
-      "titleZh": "Harvard Law dropout raises $6M for Blue Voice to build a ‘Harvey for police officers’",
-      "summary": "Blue Voice is trained on department-specific laws, local ordinances, protocols, and guidelines that general-purpose AI tools can't access on the public internet.",
-      "link": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
-      "pubDate": 1788201311000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 20,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "610404349",
-      "title": "Clipto uses AI to search terabytes of video and is now valued at $250M",
-      "titleZh": "Clipto使用人工智能搜索TB级视频，目前价值2.5亿美元（ $ ）",
-      "summary": "The three-year-old startup says it reached $15 million in ARR and profitability before raising its latest $15 million round.",
-      "link": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
-      "pubDate": 1788192000000,
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
@@ -403,41 +550,20 @@
       "source": "TechCrunch"
     },
     {
-      "id": "1574001512",
-      "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
-      "titleZh": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
-      "summary": "Nvidia invests $3.5 billion into Taiwanese chipmaker MediaTek. The deal shows how Nvidia plans to stay essential to AI infrastructure as Big Tech begins to build its own AI chips.",
-      "link": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
-      "pubDate": 1788189325000,
+      "id": "-728905715",
+      "title": "Harvard Law dropout raises $6M for Blue Voice to build a ‘Harvey for police officers’",
+      "titleZh": "Harvard Law dropout raises $6M for Blue Voice to build a ‘Harvey for police officers’",
+      "summary": "Blue Voice is trained on department-specific laws, local ordinances, protocols, and guidelines that general-purpose AI tools can't access on the public internet.",
+      "link": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
+      "pubDate": 1788201311000,
       "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "high",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 1,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-243530985",
-      "title": "Meeting note-taker Circleback adds a free tier to attract more customers",
-      "titleZh": "会议记录员Circleback添加了免费会员等级，以吸引更多顾客",
-      "summary": "Circleback is also introducing new pricing plans starting from $14 per month.",
-      "link": "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/",
-      "pubDate": 1788181006000,
-      "vendor": "techcrunch",
-      "category": "Release",
+      "category": "Funding",
       "impact": "med",
-      "score": 50,
+      "score": 48,
       "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 25,
+        "cq": 16,
+        "kv": 1,
+        "cw": 20,
         "st": 8,
         "rc": 2,
         "cs": 1
@@ -613,69 +739,6 @@
       "source": "Google News"
     },
     {
-      "id": "860251559",
-      "title": "The US is building barriers around drones and robots, but China has scale to get around them",
-      "titleZh": "美国正在围绕无人机和机器人建造壁垒，但中国有足够的规模来绕过它们",
-      "summary": "The U.S. is shutting out more foreign-made drones and robots. China’s scale means the global competition may simply move elsewhere.",
-      "link": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
-      "pubDate": 1788143640000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1147495198",
-      "title": "Musk’s faster path to more gas turbines comes with pollution problem",
-      "titleZh": "Musk’s faster path to more gas turbines comes with pollution problem",
-      "summary": "Elon Musk says a secretive new SpaceX foundry will let him cast his own turbine blades and get gas power online 18 months faster than anyone else — but it's a bet on a fuel source that's already trigg…",
-      "link": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
-      "pubDate": 1788108865000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1621188432",
-      "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
-      "titleZh": "卡特彼勒正在将从自动化挖矿中学到的知识引入人工智能部署",
-      "summary": "Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment.",
-      "link": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
-      "pubDate": 1788102000000,
-      "vendor": "techcrunch",
-      "category": "Agent",
-      "impact": "med",
-      "score": 38,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "1937464155",
       "title": "Claude vs. Kimi - China",
       "titleZh": "Claude vs. Kimi -中国",
@@ -802,18 +865,18 @@
       "source": "Google AI"
     },
     {
-      "id": "-785063930",
+      "id": "309421683",
       "title": "Nvidia is bolstering support for Chinese open AI models as it warns of White House crackdown",
       "titleZh": "英伟达正在加强对中国开放式人工智能模型的支持，因为它警告白宫将进行镇压",
-      "summary": "Nvidia is bolstering support for Chinese open AI models as it warns of White House crackdown cnbc.com",
+      "summary": "Nvidia is bolstering support for Chinese open AI models as it warns of White House crackdown CNBC",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMLVduQzZINVRma3Z3aTdoWHdpQ19yQlctQk1xZTN1ejcwdXZhMXBOU3lVRmRCNUxObHJOMjFaUGlWTWNFV0tyWlUzajFtcEU2MEF6WkpWVnNqc0wyVkZfODBGUk5jcl81bGpMTXBR0gFzQVVfeXFMTnNqLXZPLWdiLUtsak5jWnM0UGt6SGxIOEhmaWNUMlVEbGpncUwxc1NvWWg4YVJFbjdMdHVyV3BmTE1URWlHZDVld1h2cDBmdjFURm84aTZKQk1XN2c5djB6STk1cWFiMjdxTHE2cTh5YUhXTQ?oc=5",
       "pubDate": 1787841085000,
       "vendor": "google",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 57,
       "scoreBreakdown": {
-        "cq": 20,
+        "cq": 18,
         "kv": 0,
         "cw": 22,
         "st": 15,
@@ -907,27 +970,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "-2126005942",
-      "title": "AI Startup DeepSeek Poised to Reach $74 Billion Valuation",
-      "titleZh": "人工智能初创公司DeepSeek的估值有望达到740亿美元$",
-      "summary": "AI Startup DeepSeek Poised to Reach $74 Billion Valuation wsj.com",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNN2ZVcER1YXNsaEthelVtNENlUXBCMzdyRV80bWhNWHBHSk5rVmMzZGJyaFZfWS1YclBDWklqc0RFTEZzYm1fSXJzd1RWVDR4U1d2QzZfWTRFTUtfa1Ewa2FBUzRGZU93dkE4dWZJM0YwdHFhaWlrLTF2ajRBaWt2TGZMS1oyclVaM0lpQms1dGx1T3JTVlFLdA?oc=5",
-      "pubDate": 1787807880000,
-      "vendor": "deepseek",
-      "category": "Funding",
-      "impact": "high",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 20,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-787831074",
       "title": "Alibaba unveils cheaper Qwen AI model: is this what its stock needed?",
       "titleZh": "阿里巴巴推出更便宜的Qwen AI模型：这是它的库存需要吗？",
@@ -942,6 +984,27 @@
         "cq": 18,
         "kv": 4,
         "cw": 25,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-431890123",
+      "title": "Chinese AI lab Moonshot is in talks with hyperscalers for Kimi K3",
+      "titleZh": "中国人工智能实验室Moonshot正在与Kimi K3的超级用户进行谈判",
+      "summary": "Chinese AI lab Moonshot is in talks with hyperscalers for Kimi K3 Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbTlaQXcyWEtNbW95TmR2RGgwZ1gySV9pLTdBN3NlamR2bk1KZTlNMk02X0hwOGtnWm9JRnNiVkViWWdxd0NjaUU3ODB4TWxjaUZENjZXRm1pbWlZeXQwMFR4dXo2dGMtdW9FeVI5UXZuaXpFbVU5dDd3LUVXT0lsV3dn?oc=5",
+      "pubDate": 1787804640000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -1054,10 +1117,10 @@
       "source": "Google News"
     },
     {
-      "id": "-324026478",
+      "id": "639376543",
       "title": "EXCLUSIVE: China's Moonshot in talks with Microsoft, Amazon, Google over K3 revenue sharing, sources say",
       "titleZh": "独家：消息人士称，中国的Moonshot正在与微软、亚马逊、谷歌就K3收入分成进行谈判",
-      "summary": "EXCLUSIVE: China's Moonshot in talks with Microsoft, Amazon, Google over K3 revenue sharing, sources say reuters.com",
+      "summary": "EXCLUSIVE: China's Moonshot in talks with Microsoft, Amazon, Google over K3 revenue sharing, sources say Reuters",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaWlQbDBkTjZOWlNxMFJUeDkxc0taQllySUkzRzJ4aHJrSzlVQTY5LVhqU2dfd2lUSGZSVjI2dVFPQnZ5X0FuRThHT0JDRkxJTTlLUVFETjM5Y0lGbzFwUkhGWFNVOUJQX1NWZ09SZDViVWNZTmI1TFY4ODUwZXl2UGh5VnRETVhhbDQ4NHh5bmU2YXZXdGZEbnlSUmVZVEZ2dUd3ampaeW94bkhBaEhhRkNKQ1E1QlJSZUFDUTZ5eGFERHlPZHo3TnFaQTJZVUdt?oc=5",
       "pubDate": 1787755445000,
       "vendor": "kimi",
@@ -1159,27 +1222,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "1039553354",
-      "title": "Learning never stops: How AI makes learning continuous",
-      "titleZh": "学习永不止步：人工智能如何让学习持续下去",
-      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-      "link": "https://openai.com/index/learning-never-stops",
-      "pubDate": 1787738400000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "-366036991",
       "title": "China’s Z.AI Made Ox Alpha Stealth Model That Rivals DeepSeek",
       "titleZh": "China’s Z.AI Made Ox Alpha Stealth Model That Rivals DeepSeek",
@@ -1199,27 +1241,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-2004375837",
-      "title": "The Hugging Face incident and the road ahead",
-      "titleZh": "拥抱面孔事件和前方的道路",
-      "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
-      "link": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "pubDate": 1787702400000,
-      "vendor": "openai",
-      "category": "Safety",
-      "impact": "med",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 10,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
     },
     {
       "id": "-1591455261",
@@ -1495,27 +1516,6 @@
       "source": "Google News"
     },
     {
-      "id": "-1360393801",
-      "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "titleZh": "使用句子变换器进行多矢量（后期交互）嵌入模型",
-      "summary": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "link": "https://huggingface.co/blog/multi-vector-encoder",
-      "pubDate": 1787011200000,
-      "vendor": "huggingface",
-      "category": "Research",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 1,
-        "cw": 22,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
       "id": "1625615024",
       "title": "Get closer to the game with Gemini and Pixel",
       "titleZh": "通过Gemini和Pixel更接近游戏",
@@ -1537,10 +1537,10 @@
       "source": "Google AI"
     },
     {
-      "id": "592228126",
+      "id": "-2140099534",
       "title": "Test, Standardize, Restrict: A U.S. Policy for Chinese AI Models",
       "titleZh": "测试、标准化、限制：美国对中国人工智能模型的政策",
-      "summary": "Test, Standardize, Restrict: A U.S. Policy for Chinese AI Models Just Security",
+      "summary": "Test, Standardize, Restrict: A U.S. Policy for Chinese AI Models justsecurity.org",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9sbm1ERi1oQ2RkSGg0Umc2Ukw3QWNGYXFEeUR0eVJXZUhKQ0Z0NWtFV3NyRW5GbG04YjlpbGQ1M1lfWXZlbmRtS1pRQV9MMmlsUlUyZ09ieWFudUFrOGVsVmJCcGJkMHFHcWpKWEtOVnhWeGNTSXZxMVQwZGlFUQ?oc=5",
       "pubDate": 1786950000000,
       "vendor": "google",
@@ -1573,6 +1573,27 @@
         "kv": 0,
         "cw": 22,
         "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "2003024428",
+      "title": "DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin",
+      "titleZh": "DeepSeek AI在开发人员预览中发布DeepSeek线束：麻省理工学院许可的代理线束，其中一切都是插件",
+      "summary": "DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin MarkTechPost",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOWtfd0JISmNfcTdFTnlkbEhuMjBpb1pUN21QdkF2dlc0TF9UQWRQdHl6UzhXTFpXaTYtT2E3RTdMTHhlTzZsQkVmeHNpZHNKRWZtSm5BOWtDOGExU25TN0xXaUU5dElGREdGWlZzeVZqNlpIdEVaUlVJLVBQc25Objh2V2xCNjJaN0oyNEVCVmE1N2ltcHU0dlFZZVZJZ2p40gGmAUFVX3lxTE90VjNUcFlGQ3lvWWhrc0JKSnEtVXhVZGJySFB2V2RiSU43emlIWTY2NGV3RWJqRWtiRlhOVlNwWXJPeHk3V3ZreXZEbGxmVHFPcXhnZklTRDlQQUY1ZlpFekE1TlJwbm1aM3I2OTJsaVVNUFRCMHVhREhfTk9yOEc3VlJSWEFoLWkzb2FSMXJCQzNHWm5FNkNYTVk5MWFsRjlPZjlTbkE?oc=5",
+      "pubDate": 1786950000000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
         "rc": 0,
         "cs": 1
       },
@@ -1810,27 +1831,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-1363628534",
-      "title": "Kimi K3 from Moonshot AI is now available on Databricks through Unity AI Gateway",
-      "titleZh": "来自Moonshot AI的Kimi K3现已通过Unity AI网关在Databricks上提供",
-      "summary": "Kimi K3 from Moonshot AI is now available on Databricks through Unity AI Gateway Databricks",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeEVuMTdPdkpLc3d1TXRweDg2NkdFeHBsMC1lWWZIMTBNMWZiTTJRMVNjOWpLWDhXYVJnb3lfLXpaTmtqd2xwMjBwb1F3LUpsWUcxT1pWUmdaRDVrSzJ5Y0FCdHJlUjRhX21LUkVubUIyWTB4S2hPRXR2N3JGM0NMSzVETXRrYlo3bzZHOXZCV0hNWFNnZGFIMzlLVTltUmJqZzZB?oc=5",
-      "pubDate": 1785999600000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1860432156",
       "title": "NVIDIA and Partners Build in America, for America",
       "titleZh": "NVIDIA及其合作伙伴在美国为美国打造",
@@ -1936,12 +1936,12 @@
       "source": "Google AI"
     },
     {
-      "id": "-1311546842",
+      "id": "-464609805",
       "title": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says",
       "titleZh": "研究公司表示， DeepSeek的新人工智能模型是迄今为止运行的最便宜的知名模型。",
-      "summary": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says reuters.com",
+      "summary": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says Reuters",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTnd6ckhOVUhwcGJjRmxRdlhObS1ncXRhZm9OeVUwaEgwOTg5YmNBTGVWcHZsdXd4dXVrWWdlZGtsYkw0eDIyY1A3NjdSM0o0bFBGUEZRNDF2NjYwZEtCamNpeTFqN3ZaQVlTclNuQWYxNXh4ZVlqaWF3WkNNVk1fbmJXcTdISlBmUVVWS01STmFYZldLSGk5akJQZVB5X09OSzVoVWF4Wko4TEF4cGozQUlWM202dFJWMGxSRTdpcTNaaUp6bmNyZXpWbVRFb2JoSzdCVQ?oc=5",
-      "pubDate": 1785740400000,
+      "pubDate": 1785654000000,
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
@@ -1957,10 +1957,10 @@
       "source": "Google News"
     },
     {
-      "id": "579165649",
+      "id": "-1937431074",
       "title": "DeepSeek's new bargain model accelerates AI's race to zero",
       "titleZh": "DeepSeek的新讨价还价模式加速了人工智能的零竞赛",
-      "summary": "DeepSeek's new bargain model accelerates AI's race to zero axios.com",
+      "summary": "DeepSeek's new bargain model accelerates AI's race to zero Axios",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04emlXWXpVQXhNcjJsU1d5ZmhnU1J2TFRyeFlxM2hqUUNUNVR2UmxFQUNBanYwWnd5ZUpTRnptVEh2TXU2NU5aa0FRbFV6ejVPd2wxWFNXa3RoaTZPQ0dQSHc0Tkk4WE93Q1JwV0tIWGNBaGNG?oc=5",
       "pubDate": 1785567600000,
       "vendor": "deepseek",
@@ -2181,27 +2181,6 @@
         "cq": 18,
         "kv": 2,
         "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1998661165",
-      "title": "China’s DeepSeek rolls out a long-anticipated update of its AI model",
-      "titleZh": "China’s DeepSeek rolls out a long-anticipated update of its AI model",
-      "summary": "China’s DeepSeek rolls out a long-anticipated update of its AI model AP News",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU2pHYXJUc25BSWltX01IcEhVQUlfMy1aVjhRcERjajZKOThMYkEyQTk4d1UxcjBuazFYNEt6R1ZDLXd2aFZXTEdvTDNYc1hMUkZha29VaGo5WHI1dXljN1Zid3AxdHNoa3hFMlVjMGhfaUdlZXUwTEpfRkdmTFMyMnV1TmFWNjBTLWdoRw?oc=5",
-      "pubDate": 1777014000000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
         "st": 12,
         "rc": 0,
         "cs": 1
