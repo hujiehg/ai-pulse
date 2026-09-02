@@ -1,8 +1,218 @@
 {
-  "updated": "2026-09-02T05:17:30.872Z",
+  "updated": "2026-09-02T09:48:49.954Z",
   "count": 115,
   "sources": 12,
   "items": [
+    {
+      "id": "-1591516646",
+      "title": "HyperWorld: Hypergraph-Structured State Serialization Improves Learned Textual World Models",
+      "titleZh": "HyperWorld ：超图结构化状态序列化改进已学习的文本世界模型",
+      "summary": "arXiv:2609.00002v1 Announce Type: new Abstract: World models enable language-model agents to predict environment dynamics and plan before acting. In text environments, the model must learn symbolic ac…",
+      "link": "https://arxiv.org/abs/2609.00002",
+      "pubDate": 1788321600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-126350310",
+      "title": "I-CARE: Analysis of interference-related phenomena in a controllable, diverse and representative unlearning setting for text-to-image models",
+      "titleZh": "I-CARE ：在文本到图像模型的可控、多样化和具有代表性的去学习环境中分析干扰相关现象",
+      "summary": "arXiv:2609.00003v1 Announce Type: new Abstract: Machine unlearning studies the removal of knowledge from an AI model, making the system forget a concept it previously learned. Despite rapid progress i…",
+      "link": "https://arxiv.org/abs/2609.00003",
+      "pubDate": 1788321600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "484765475",
+      "title": "Discrete-Time MDP Modeling for Multi-Item Capacitated Lot Sizing with Stochastic Demand Timing",
+      "titleZh": "具有随机需求定时的多项目电容式批量调整的离散时间MDP建模",
+      "summary": "arXiv:2609.00004v1 Announce Type: new Abstract: This paper studies a finite-horizon multi-item capacitated lot-sizing problem in which demand quantities are deterministic, while demand-arrival periods…",
+      "link": "https://arxiv.org/abs/2609.00004",
+      "pubDate": 1788321600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "8780792",
+      "title": "Incremental Risk Assessment of Progressive Elder Financial Scams via Instruction-Tuned Small Language Models",
+      "titleZh": "通过教学微调的小语言模型对渐进式老年金融诈骗进行增量风险评估",
+      "summary": "arXiv:2609.00005v1 Announce Type: new Abstract: Financial scams targeting older adults increasingly occur through text and voice channels such as email, SMS, and phone calls, unfolding over multiple c…",
+      "link": "https://arxiv.org/abs/2609.00005",
+      "pubDate": 1788321600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 69,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 9,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "471416000",
+      "title": "Long-Horizon State Tracking in LLMs: Executing MD5 through a Deep Sequence of Dependent Tool Calls",
+      "titleZh": "LLM中的远程状态跟踪：通过深度依赖工具调用序列执行MD5",
+      "summary": "arXiv:2609.00012v1 Announce Type: new Abstract: Long-horizon tasks remain uncommon in large language model (LLM) evaluation, and for a reason: when each step depends on the last, per-step accuracy tha…",
+      "link": "https://arxiv.org/abs/2609.00012",
+      "pubDate": 1788321600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-2107754584",
+      "title": "OpenAgentFlow: Enabling System-Wide Safety Boundaries for Heterogeneous AI Agent Fleets",
+      "titleZh": "OpenAgentFlow ：为异构AI代理车队实现全系统安全边界",
+      "summary": "arXiv:2609.00015v1 Announce Type: new Abstract: AI agents powered by large language models are evolving from isolated assistants into heterogeneous systems in which multiple agents, planners, controll…",
+      "link": "https://arxiv.org/abs/2609.00015",
+      "pubDate": 1788321600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1829968460",
+      "title": "SCAFFOLD: A Large-Scale Structured Dataset of Computer Science Research Figures with Diagram QA and Chain-of-Thought Reasoning Traces",
+      "titleZh": "SCAFFOLD ：具有图QA和思想链推理痕迹的计算机科学研究数据的大规模结构化数据集",
+      "summary": "arXiv:2609.00018v1 Announce Type: new Abstract: Computer science papers rely heavily on diagrams: architecture drawings, system flowcharts, and pipeline schematics that often carry more information th…",
+      "link": "https://arxiv.org/abs/2609.00018",
+      "pubDate": 1788321600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-928712876",
+      "title": "UI-Venus-2 Technical Report",
+      "titleZh": "UI-Venus-2技术报告",
+      "summary": "arXiv:2609.00028v1 Announce Type: new Abstract: Multimodal GUI agents have emerged as a promising paradigm for digital task automation, yet transitioning from benchmark-oriented models to dependable r…",
+      "link": "https://arxiv.org/abs/2609.00028",
+      "pubDate": 1788321600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1503880103",
+      "title": "EULER: Exploring Underused Links with Evidence-Checked Return for Multi-Agent Mathematical Discovery",
+      "titleZh": "欧拉：探索未充分利用的链接与多Agent数学发现的证据检查回报",
+      "summary": "arXiv:2609.00032v1 Announce Type: new Abstract: Mathematical communities work with different objects, invariants, and tools, so transferring a problem across them is expensive and often skipped. We pr…",
+      "link": "https://arxiv.org/abs/2609.00032",
+      "pubDate": 1788321600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "196940133",
+      "title": "When Prediction Error Is Not Enough: Evaluating Nuisance-Function Prediction for Causal Estimation",
+      "titleZh": "当预测误差不够时：评估干扰函数预测的因果估计",
+      "summary": "arXiv:2609.00071v1 Announce Type: new Abstract: Prediction error is widely used to evaluate nuisance-function estimators in causal inference, but its relationship with causal estimator performance may…",
+      "link": "https://arxiv.org/abs/2609.00071",
+      "pubDate": 1788321600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
     {
       "id": "-505137340",
       "title": "AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B",
@@ -46,18 +256,18 @@
       "source": "HuggingFace"
     },
     {
-      "id": "-1417888154",
-      "title": "Open AI’s Astra model is on the way — and very good at breaking into computer systems",
-      "titleZh": "Open AI’s Astra model is on the way — and very good at breaking into computer systems",
+      "id": "-1291567246",
+      "title": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems",
+      "titleZh": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems",
       "summary": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM.",
       "link": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
       "pubDate": 1788296784000,
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "high",
-      "score": 57,
+      "score": 59,
       "scoreBreakdown": {
-        "cq": 18,
+        "cq": 20,
         "kv": 2,
         "cw": 25,
         "st": 8,
@@ -403,216 +613,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "1654291805",
-      "title": "Time Capsule of Testable Human Knowledge: 41 Years of Jeopardy! in a Single Free Local Model",
-      "titleZh": "可测试人类知识的时间胶囊： 41年的危险！在一个单一的免费本地模型中",
-      "summary": "arXiv:2608.27459v1 Announce Type: new Abstract: In 2011, IBM's Watson was something like a sealed capsule of its era's queryable knowledge. Its DeepQA system defeated the strongest human Jeopardy! cha…",
-      "link": "https://arxiv.org/abs/2608.27459",
-      "pubDate": 1788235200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 66,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 8,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1850868616",
-      "title": "Rating the Raters: Rasch Measurement Theory for LLM Evaluation",
-      "titleZh": "为评分者评分： LLM评估的Rasch测量理论",
-      "summary": "arXiv:2608.27463v1 Announce Type: new Abstract: LLMs now sit on every side of evaluation: as examinees scored on benchmarks, judges of other models' outputs, and raters of human-generated content. Eac…",
-      "link": "https://arxiv.org/abs/2608.27463",
-      "pubDate": 1788235200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "932351905",
-      "title": "Not All Explanations Are Sought: Information-Seeking Psychology for Human-Centered XAI",
-      "titleZh": "并非所有的解释都是寻求的：以人为中心的XAI的信息寻求心理学",
-      "summary": "arXiv:2608.27464v1 Announce Type: new Abstract: This position paper argues that human-centered explainable AI (HCXAI) should incorporate insights from the psychology of information seeking. Drawing on…",
-      "link": "https://arxiv.org/abs/2608.27464",
-      "pubDate": 1788235200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1053516495",
-      "title": "Retrieving Relations, Detecting Fallacies: A RAG Approach to Political Debate Analysis",
-      "titleZh": "检索关系，检测谬误： RAG政治辩论分析方法",
-      "summary": "arXiv:2608.27471v1 Announce Type: new Abstract: Fallacies are arguments that employ invalid reasoning, making their automatic detection critical in sensitive contexts such as high-stakes political deb…",
-      "link": "https://arxiv.org/abs/2608.27471",
-      "pubDate": 1788235200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1308054802",
-      "title": "LLM-Augmented Causal Discovery: Probabilistic Fusion of Edge Existence and Orientation",
-      "titleZh": "法学硕士-因果发现：边缘存在和方向的概率融合",
-      "summary": "arXiv:2608.27472v1 Announce Type: new Abstract: Bayesian network structure learning (BNSL) from observational data struggles with orientation identifiability, while large language models (LLMs) offer …",
-      "link": "https://arxiv.org/abs/2608.27472",
-      "pubDate": 1788235200000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 9,
-        "cw": 15,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1436382247",
-      "title": "Hypothesize, Evaluate, Refine: A Scientific Agent for PDE Discovery with Unknown Spatial Coefficient Fields",
-      "titleZh": "假设，评估，优化：具有未知空间系数场的PDE发现的科学代理人",
-      "summary": "arXiv:2608.27475v1 Announce Type: new Abstract: Discovering PDEs in heterogeneous media requires jointly identifying the governing operator and the unknown spatial fields that parameterize it. These t…",
-      "link": "https://arxiv.org/abs/2608.27475",
-      "pubDate": 1788235200000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 4,
-        "cw": 15,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1206834953",
-      "title": "Class-Based Heuristic Selection for Solving the Flying Block Puzzle",
-      "titleZh": "求解飞块拼图的基于类的启发式选择",
-      "summary": "arXiv:2608.27476v1 Announce Type: new Abstract: Heuristic search underlies planning in autonomous systems ranging from warehouse logistics to robotic navigation, yet generic heuristics fail to exploit…",
-      "link": "https://arxiv.org/abs/2608.27476",
-      "pubDate": 1788235200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "754994591",
-      "title": "Benchmarking General Mobile Assistants in Challenging Real-World Scenarios",
-      "titleZh": "在具有挑战性的现实世界场景中对通用移动助理进行基准测试",
-      "summary": "arXiv:2608.27477v1 Announce Type: new Abstract: Graphical user interfaces have emerged as an important environment for evaluating autonomous AI agents on multimodal interactive tasks. Existing benchma…",
-      "link": "https://arxiv.org/abs/2608.27477",
-      "pubDate": 1788235200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 8,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1190451557",
-      "title": "Effectiveness of IoT and Deep Learning for Detection and Severity Assessment of Postelectrotermes militaris in Tea Plantations",
-      "titleZh": "物联网和深度学习在茶园蛹虫害检测和严重程度评估中的有效性",
-      "summary": "arXiv:2608.27480v1 Announce Type: new Abstract: Tea plantations are vulnerable to Postelectrotermes militaris, commonly known as the Upcountry Live Wood Termite (ULWT), which can cause substantial dam…",
-      "link": "https://arxiv.org/abs/2608.27480",
-      "pubDate": 1788235200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "731634206",
-      "title": "Context Localization for Generalized Level-Based Evaluation in Knowledge-Based Systems",
-      "titleZh": "基于知识的系统中基于广义层次的评估的上下文本地化",
-      "summary": "arXiv:2608.27482v1 Announce Type: new Abstract: We study context localization for generalized level-based evaluation in knowledge-based systems. The framework models situations where a structured nonn…",
-      "link": "https://arxiv.org/abs/2608.27482",
-      "pubDate": 1788235200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
       "id": "-1138438614",
       "title": "Moonshot AI Seeks Up to 30% Revenue Share as Kimi K3 Eyes US Clouds",
       "titleZh": "随着Kimi K3关注美国云计算， Moonshot AI寻求高达30%的收入份额",
@@ -727,13 +727,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 1,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -748,13 +748,13 @@
       "vendor": "openai",
       "category": "Research",
       "impact": "med",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 22,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -972,7 +972,7 @@
     {
       "id": "-785063930",
       "title": "Nvidia is bolstering support for Chinese open AI models as it warns of White House crackdown",
-      "titleZh": "英伟达正在加强对中国开放式人工智能模型的支持，因为它警告白宫将进行镇压",
+      "titleZh": "Nvidia is bolstering support for Chinese open AI models as it warns of White House crackdown",
       "summary": "Nvidia is bolstering support for Chinese open AI models as it warns of White House crackdown cnbc.com",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMLVduQzZINVRma3Z3aTdoWHdpQ19yQlctQk1xZTN1ejcwdXZhMXBOU3lVRmRCNUxObHJOMjFaUGlWTWNFV0tyWlUzajFtcEU2MEF6WkpWVnNqc0wyVkZfODBGUk5jcl81bGpMTXBR0gFzQVVfeXFMTnNqLXZPLWdiLUtsak5jWnM0UGt6SGxIOEhmaWNUMlVEbGpncUwxc1NvWWg4YVJFbjdMdHVyV3BmTE1URWlHZDVld1h2cDBmdjFURm84aTZKQk1XN2c5djB6STk1cWFiMjdxTHE2cTh5YUhXTQ?oc=5",
       "pubDate": 1787841085000,
@@ -1273,13 +1273,13 @@
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google News"
