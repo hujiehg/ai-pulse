@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-02T00:42:22.188Z",
-  "count": 97,
-  "sources": 10,
+  "updated": "2026-09-02T05:17:30.872Z",
+  "count": 115,
+  "sources": 12,
   "items": [
     {
       "id": "-505137340",
@@ -13,16 +13,37 @@
       "vendor": "techcrunch",
       "category": "Funding",
       "impact": "high",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 4,
         "cw": 20,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "2036478678",
+      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "titleZh": "BenchMIRT ： LLM基准实际衡量的是什么？",
+      "summary": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "link": "https://huggingface.co/blog/allenai/benchmirt",
+      "pubDate": 1788298747000,
+      "vendor": "huggingface",
+      "category": "Research",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 1,
+        "cw": 22,
+        "st": 14,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "HuggingFace"
     },
     {
       "id": "-1417888154",
@@ -34,13 +55,13 @@
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "high",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 25,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,13 +76,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -76,13 +97,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 15,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google AI"
@@ -97,13 +118,13 @@
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "high",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 25,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -128,6 +149,27 @@
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "-769401779",
+      "title": "How to Use Qwen-Image-3.0: 12 Steps, 90 Min [2026] - tech",
+      "titleZh": "如何使用Qwen-Image-3.0 ： 12个步骤， 90分钟[2026] -技术",
+      "summary": "How to Use Qwen-Image-3.0: 12 Steps, 90 Min [2026] tech-insider.org",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE96d25jb0ZZUE90LVdFdjFOZ0JCVDlKc1VsaG52VHdrVURSb0hSc1lhd3QzbUdla3RnUjJnaTNKMHVDMkwxRXBIWktZNzBHNkg3aTlnTWhjNDJNa01YZnhPa0l1c3BBeEk?oc=5",
+      "pubDate": 1788283730000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "1335409394",
@@ -298,6 +340,48 @@
       "source": "TechCrunch"
     },
     {
+      "id": "1797961041",
+      "title": "DeepSeek Open-Sources First V4 Vision Model: Benchmark Claims Need Independent Proof",
+      "titleZh": "DeepSeek开源第一V4愿景模型：基准声明需要独立证明",
+      "summary": "DeepSeek Open-Sources First V4 Vision Model: Benchmark Claims Need Independent Proof Tech Times",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcHlXR0RPeTRHSU1aUWR5Q2tnXzlZUnZSUUpEZzBPT0VITHZFbGNUYXo1dGl6ekgxd3N3V0wycGpFWHJ0c25CQ1FHOXpVVUhRbnU5Tl9hVWdySUl4UHNVVnRwcjFWY0o2NVlFNmt0ZEs0S3dydjg0Q25SdmdkY3ZaSXBKYlh2Y2NRMHc1TVJVejZkMHlMcTdJbVBCNEktT2gzY1RhTEh3QndXSTdsclFzdFRmcm0yNHlTV1pacGFxejNQNVg3bmZrVEppZV82Q3FMMVZaVw?oc=5",
+      "pubDate": 1788268209000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "545752126",
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "titleZh": "通往Astra之路：关键能力和前沿保障措施",
+      "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+      "link": "https://openai.com/index/path-to-astra",
+      "pubDate": 1788267600000,
+      "vendor": "openai",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 25,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
       "id": "-795504710",
       "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
       "titleZh": "医疗机构现在可以将EHR和其他行业数据连接到ChatGPT",
@@ -328,13 +412,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "high",
-      "score": 67,
+      "score": 66,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 8,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -349,13 +433,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 63,
+      "score": 62,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 6,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -370,13 +454,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -391,13 +475,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 5,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -412,13 +496,13 @@
       "vendor": "arxiv",
       "category": "Product",
       "impact": "med",
-      "score": 63,
+      "score": 62,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 9,
         "cw": 15,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -433,13 +517,13 @@
       "vendor": "arxiv",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 4,
         "cw": 15,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -454,13 +538,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -475,13 +559,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 65,
+      "score": 64,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 8,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -496,13 +580,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 3,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -517,58 +601,79 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
     },
     {
-      "id": "-336083939",
+      "id": "-1138438614",
       "title": "Moonshot AI Seeks Up to 30% Revenue Share as Kimi K3 Eyes US Clouds",
       "titleZh": "随着Kimi K3关注美国云计算， Moonshot AI寻求高达30%的收入份额",
-      "summary": "Moonshot AI Seeks Up to 30% Revenue Share as Kimi K3 Eyes US Clouds pandaily.com",
+      "summary": "Moonshot AI Seeks Up to 30% Revenue Share as Kimi K3 Eyes US Clouds Pandaily",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE40aEU4dVk4aFg4SGRZeWkwSHFaUElHbUlCSDJWaWVNbldfdm52OEd0ZGFWa0gzVUpCMFNpV2tMRDJQcldyX3J6cGNKeGlTN1Rpdk41NjRycHd3di13Xzg5RTFyc0V4NHZLWHhaTHdfS0dvc25YaWJJeW1KTQ?oc=5",
       "pubDate": 1788229544000,
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
     },
     {
-      "id": "428436190",
-      "title": "US cloud giants in talks to host China's Kimi K3 on revenue-share terms, exposing rift between Washington narrative and market reality: experts",
-      "titleZh": "美国云巨头正在就收入分成条款主持中国的Kimi K3进行谈判，暴露了华盛顿叙事与市场现实之间的分歧：专家",
-      "summary": "US cloud giants in talks to host China's Kimi K3 on revenue-share terms, exposing rift between Washington narrative and market reality: experts People's Daily Online",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjS2xYWE96UGhRb0wzb3FwMXpSU1haMG1RV2M1SUUyYzJlRDB0Q0VDdFVTMnF0MEVteHZzR2JWRF9TUS01dEZnaGlBWnZDNy1lWVJ1UXBhV1dyaWdtZk5vYWRSWQ?oc=5",
-      "pubDate": 1788224100000,
+      "id": "1057755640",
+      "title": "How to Use Kimi K3: Kimi AI Setup in 13 Steps [2026] - tech",
+      "titleZh": "如何使用Kimi K3 ： 13个步骤中的Kimi AI设置[2026] -科技",
+      "summary": "How to Use Kimi K3: Kimi AI Setup in 13 Steps [2026] tech-insider.org",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5lSFhmSGdKNnZUOHNoNEExajBmV09BNDlBWXI2ZXljeHV6VHg2QUx4MWdjS3dFWTNGTEY0UFdVYUJtbzk1WnJzMmx0c3FWdzcycE4xOFI1Zy1hWXJjMm1sODJ3?oc=5",
+      "pubDate": 1788224542000,
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 51,
+      "score": 52,
       "scoreBreakdown": {
-        "cq": 18,
+        "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "923914410",
+      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+      "titleZh": "Gilbert + Tobin律师事务所如何通过OpenAI管理和扩展AI",
+      "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
+      "link": "https://openai.com/index/gilbert-tobin",
+      "pubDate": 1788224400000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "OpenAI"
     },
     {
       "id": "201393656",
@@ -590,6 +695,27 @@
         "cs": 1
       },
       "source": "HuggingFace"
+    },
+    {
+      "id": "1202305101",
+      "title": "Is Kimi About to \"Enter China's Domestic Market\"？",
+      "titleZh": "Is Kimi About to \"Enter China's Domestic Market\"？",
+      "summary": "Is Kimi About to \"Enter China's Domestic Market\"？ 36氪",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1JTHlfWUpaT0h6SUNYVUpLX2ZlNkJYTjhrVFoxRlg1dFJMMjQxMHFEYU8ya0FIVnJSNDhVWVQ4dEZONl8yay1BcV9iRjBEU19JN3RZ?oc=5",
+      "pubDate": 1788176203000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1618966528",
@@ -643,13 +769,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "high",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 1,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -664,13 +790,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -685,22 +811,43 @@
       "vendor": "qwen",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
     },
     {
-      "id": "713240613",
-      "title": "Claude vs. Kimi",
-      "titleZh": "Claude vs. Kimi",
-      "summary": "Claude vs. Kimi chinausfocus.com",
+      "id": "874790971",
+      "title": "DeepSeek’s AI Strategy: Dominating AI as Frontier AI Lab [In-Depth Analysis, 2026]",
+      "titleZh": "DeepSeek’s AI Strategy: Dominating AI as Frontier AI Lab [In-Depth Analysis, 2026]",
+      "summary": "DeepSeek’s AI Strategy: Dominating AI as Frontier AI Lab [In-Depth Analysis, 2026] Klover.ai",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTUJaREcyeUFqQVJELWhIaU1OZUN5bGNUYlRVX0tYU3hMMnhLSHVLenpKX0ljRlBSQVcxMDdpVTF3WDhEUmdhLVRCUHl0Y1pqOFhfZk01MVM5MC1HTld6dGFpUVpSOXV6WHpReW5VRExYblJFMExEZDdwRFJ2bERyOTFCamV1aXp4elVvemY1dW51eGJQdXV0OHN3elNJUUly?oc=5",
+      "pubDate": 1788144878000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1937464155",
+      "title": "Claude vs. Kimi - China",
+      "titleZh": "Claude vs. Kimi -中国",
+      "summary": "Claude vs. Kimi China-US Focus",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0tNXV0b1hUOENaQ2paMUxrRUlPVEExbmRCN2JIS1dYQ3duXzZZZFlXNHlxMjBSandnOFdYRjFON2htcF9wU2lLZ21YWHM2OTdVZi1BZ3QxVE5YOFUxZTFyWHVIakNsbEJ2bFFB?oc=5",
       "pubDate": 1787929026000,
       "vendor": "kimi",
@@ -823,6 +970,27 @@
       "source": "Google AI"
     },
     {
+      "id": "-785063930",
+      "title": "Nvidia is bolstering support for Chinese open AI models as it warns of White House crackdown",
+      "titleZh": "英伟达正在加强对中国开放式人工智能模型的支持，因为它警告白宫将进行镇压",
+      "summary": "Nvidia is bolstering support for Chinese open AI models as it warns of White House crackdown cnbc.com",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMLVduQzZINVRma3Z3aTdoWHdpQ19yQlctQk1xZTN1ejcwdXZhMXBOU3lVRmRCNUxObHJOMjFaUGlWTWNFV0tyWlUzajFtcEU2MEF6WkpWVnNqc0wyVkZfODBGUk5jcl81bGpMTXBR0gFzQVVfeXFMTnNqLXZPLWdiLUtsak5jWnM0UGt6SGxIOEhmaWNUMlVEbGpncUwxc1NvWWg4YVJFbjdMdHVyV3BmTE1URWlHZDVld1h2cDBmdjFURm84aTZKQk1XN2c5djB6STk1cWFiMjdxTHE2cTh5YUhXTQ?oc=5",
+      "pubDate": 1787841085000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "2147151731",
       "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
       "titleZh": "企业AI的真正风险不是自主代理。这是它们之间的复杂性。",
@@ -907,6 +1075,27 @@
       "source": "OpenAI"
     },
     {
+      "id": "-2126005942",
+      "title": "AI Startup DeepSeek Poised to Reach $74 Billion Valuation",
+      "titleZh": "人工智能初创公司DeepSeek的估值有望达到740亿美元$",
+      "summary": "AI Startup DeepSeek Poised to Reach $74 Billion Valuation wsj.com",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNN2ZVcER1YXNsaEthelVtNENlUXBCMzdyRV80bWhNWHBHSk5rVmMzZGJyaFZfWS1YclBDWklqc0RFTEZzYm1fSXJzd1RWVDR4U1d2QzZfWTRFTUtfa1Ewa2FBUzRGZU93dkE4dWZJM0YwdHFhaWlrLTF2ajRBaWt2TGZMS1oyclVaM0lpQms1dGx1T3JTVlFLdA?oc=5",
+      "pubDate": 1787807880000,
+      "vendor": "deepseek",
+      "category": "Funding",
+      "impact": "high",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 20,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-787831074",
       "title": "Alibaba unveils cheaper Qwen AI model: is this what its stock needed?",
       "titleZh": "阿里巴巴推出更便宜的Qwen AI模型：这是它的库存需要吗？",
@@ -947,27 +1136,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-1226448606",
-      "title": "Expanding OpenAI’s presence in Brazil",
-      "titleZh": "Expanding OpenAI’s presence in Brazil",
-      "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
-      "link": "https://openai.com/index/expanding-our-presence-in-brazil",
-      "pubDate": 1787799600000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
     },
     {
       "id": "515538289",
@@ -1096,25 +1264,25 @@
       "source": "Google News"
     },
     {
-      "id": "-571397984",
-      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-      "titleZh": "将ChatGPT带到更多的美国学区",
-      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-      "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "pubDate": 1787738400000,
-      "vendor": "openai",
-      "category": "Product",
+      "id": "-366036991",
+      "title": "China’s Z.AI Made Ox Alpha Stealth Model That Rivals DeepSeek",
+      "titleZh": "China’s Z.AI Made Ox Alpha Stealth Model That Rivals DeepSeek",
+      "summary": "China’s Z.AI Made Ox Alpha Stealth Model That Rivals DeepSeek Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNnVLcXB0ZGtkTHVaMC1EYkV2aHE1eHVaLTB5ZGtMZnc5SUw0NmVDT3NkLXhCTEprODJ3QURqcGg0S3hNa0w4MXQ3S0VLMlBKMnlNUlhPbzY1d1h2dlMwelBzeDhQUHg4TDJPYXVhMTBvVXo5WlZ2cHFPdExOcjNhbXZxdHZMOGE5cmc?oc=5",
+      "pubDate": 1787734800000,
+      "vendor": "deepseek",
+      "category": "Research",
       "impact": "med",
-      "score": 52,
+      "score": 56,
       "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
         "rc": 1,
         "cs": 1
       },
-      "source": "OpenAI"
+      "source": "Google News"
     },
     {
       "id": "-1591455261",
@@ -1348,27 +1516,6 @@
       "source": "VentureBeat"
     },
     {
-      "id": "-469415874",
-      "title": "How Much Memory Does Your Agent Actually Need?",
-      "titleZh": "您的客服代表实际需要多少内存？",
-      "summary": "How Much Memory Does Your Agent Actually Need?",
-      "link": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-      "pubDate": 1787076578000,
-      "vendor": "huggingface",
-      "category": "Agent",
-      "impact": "med",
-      "score": 36,
-      "scoreBreakdown": {
-        "cq": 9,
-        "kv": 0,
-        "cw": 12,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
       "id": "-1066961806",
       "title": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
       "titleZh": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
@@ -1453,27 +1600,6 @@
       "source": "Google News"
     },
     {
-      "id": "1579222402",
-      "title": "Alibaba answers Meta’s AI challenge with new laptop-ready model",
-      "titleZh": "Alibaba answers Meta’s AI challenge with new laptop-ready model",
-      "summary": "Alibaba answers Meta’s AI challenge with new laptop-ready model CNBC",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNGFodld0bUNaak0zcjNiZU5MbmF6NWhrVjIxTFl5Tkl1MEFSOENuczNza1cwRGFnSXlTcU1sLUJmeWJMTjNOUG1RTFBzMTNMRGJsQzFHTlgzbkp3cmIwdy03N2tYd2RuN2Z0QnZzUGxWTmJJM2lWMVVIWkk3MUFkcjNtWkFqVHBlVjEw0gGQAUFVX3lxTE9LV0xtYUQ5UXpDNVIzYXk5VXVrUGREUFBQSlJyS0NDNzNkdDhSeVBXZkt0QVBKY09TOUtldVpUQjA4SEQ1UmsxaVpaMWdGeWFHdUg5MFVqTTRkRFItRTFWU2FiY3NSRjBMN0NDLTJMNXkwRTJrdi16OTlPd3VyU3RZeFZINEV2c29IeFFUSkhvWg?oc=5",
-      "pubDate": 1786950000000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1434569966",
       "title": "Alibaba's Qwen becomes world's most downloaded open AI model",
       "titleZh": "阿里巴巴的Qwen成为全球下载量最大的开放式AI模型",
@@ -1495,21 +1621,21 @@
       "source": "Google News"
     },
     {
-      "id": "-991096918",
-      "title": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google",
-      "titleZh": "阿里巴巴AI模型下载量突破30亿，通过Meta ，谷歌",
-      "summary": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZjdzU3AtQnFGVDExc1hfUWRTV3JpWHgya2wtSHFEU2t5d3NnYWZKb2hpY0JiYVF2cnFNeDF6R2FMLTh6SG1oMjdOd2ZLdlhlMl9MNVEwTVh4X29Fb0dTRWRlSXI1cm9RRXZtOThiUUVmcHhDQXB2VTQxVXNaZUk2Tk42cXItTDV4RE1aNXgyNWw?oc=5",
-      "pubDate": 1786777200000,
-      "vendor": "google",
+      "id": "-2016155837",
+      "title": "DeepSeek's AI Models Are About To Cost Four Times More",
+      "titleZh": "DeepSeek的人工智能模型成本将增加四倍",
+      "summary": "DeepSeek's AI Models Are About To Cost Four Times More Engadget",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT2FId1BnQ0MyY3Rzem9GYVo0blhJUnVqMEpYektCc1F5cy0xS09SODdqOEZrNXZGZE1NVlR6TGFacEw1Uzh6SEtfQzBEU2pfSDRpTW9YRVBoSlJyNElwcmJBOFZmVzIyVHZZS0hhcmJ6cWkzeWlMc2pOQmMwX055Yg?oc=5",
+      "pubDate": 1786690800000,
+      "vendor": "deepseek",
       "category": "Research",
-      "impact": "high",
-      "score": 59,
+      "impact": "med",
+      "score": 55,
       "scoreBreakdown": {
-        "cq": 20,
-        "kv": 1,
+        "cq": 18,
+        "kv": 2,
         "cw": 22,
-        "st": 15,
+        "st": 12,
         "rc": 0,
         "cs": 1
       },
@@ -1642,12 +1768,12 @@
       "source": "Google AI"
     },
     {
-      "id": "-219434516",
-      "title": "Alibaba plans revenue sharing for next open-source Qwen AI model",
-      "titleZh": "阿里巴巴计划下一个开源Qwen AI模型的收入分成",
-      "summary": "Alibaba plans revenue sharing for next open-source Qwen AI model qz.com",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1QNXpYQzl1QUZ5RW53SEZjQmFmejc2alNvUFFuWWZsMk1YYTNYRWFfNFhzcGZmQ2xfaHJlSjMtUlpXYjdkcEoyemk4T0xxenBVb3ZNSzk5Zzc1dVJZSW4yOVNGdUNCS3NkZUJlR2xkcw?oc=5",
-      "pubDate": 1786086000000,
+      "id": "1891460870",
+      "title": "What Does Alibaba (BABA) Qwen Royalty Model Mean For Its AI Business?",
+      "titleZh": "阿里巴巴（ BABA ） Qwen版税模式对其AI业务意味着什么？",
+      "summary": "What Does Alibaba (BABA) Qwen Royalty Model Mean For Its AI Business? Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNFRtSkE5ZWwtS054NjVibWJDcmFlN1JETWttV1lIRGw2QlJvSzg4bnVVMHE4bHN2RnVqSXo3ZllWVnFESnhTODhaX2FkVFJtb2hIbXJSOUg3TU1kejVYVmhKRHU1ZEt5YXZBWnpZWW05bEU1aVM2NFF5a2pLY1BRZFo5RVFkVkdHUG9UUWE5YlgzbnV4dXd2TWJR?oc=5",
+      "pubDate": 1786345200000,
       "vendor": "qwen",
       "category": "Research",
       "impact": "med",
@@ -1703,27 +1829,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-1363628534",
-      "title": "Kimi K3 from Moonshot AI is now available on Databricks through Unity AI Gateway",
-      "titleZh": "来自Moonshot AI的Kimi K3现已通过Unity AI网关在Databricks上提供",
-      "summary": "Kimi K3 from Moonshot AI is now available on Databricks through Unity AI Gateway Databricks",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeEVuMTdPdkpLc3d1TXRweDg2NkdFeHBsMC1lWWZIMTBNMWZiTTJRMVNjOWpLWDhXYVJnb3lfLXpaTmtqd2xwMjBwb1F3LUpsWUcxT1pWUmdaRDVrSzJ5Y0FCdHJlUjRhX21LUkVubUIyWTB4S2hPRXR2N3JGM0NMSzVETXRrYlo3bzZHOXZCV0hNWFNnZGFIMzlLVTltUmJqZzZB?oc=5",
-      "pubDate": 1785999600000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1860432156",
@@ -1808,6 +1913,48 @@
         "cs": 1
       },
       "source": "Google AI"
+    },
+    {
+      "id": "-1691273913",
+      "title": "DeepSeek unveils AI model 100 times cheaper than top rivals",
+      "titleZh": "DeepSeek推出比顶级竞争对手便宜100倍的人工智能模型",
+      "summary": "DeepSeek unveils AI model 100 times cheaper than top rivals ITP.net",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVzlXTXdqYzNBNHRGaHFoLTZVR2d0ZndUZVMzdTkySXRWNlFRcEtXRWp5aG1FM3dkU09teFBjRGdZdFhoLTRBZDJ5TTFseWxXeEZhNVdsRlVEMlFjak9Bd2FmdExrYmJqNzlMNGZCR3FvZ2F2RV9WU09QVmVHay1tWVR0dG9ZWUtsa1o5UTlqM2R1Tk9FUXJ0Ug?oc=5",
+      "pubDate": 1785740400000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-464609805",
+      "title": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says",
+      "titleZh": "研究公司表示， DeepSeek的新人工智能模型是迄今为止运行的最便宜的知名模型。",
+      "summary": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says Reuters",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTnd6ckhOVUhwcGJjRmxRdlhObS1ncXRhZm9OeVUwaEgwOTg5YmNBTGVWcHZsdXd4dXVrWWdlZGtsYkw0eDIyY1A3NjdSM0o0bFBGUEZRNDF2NjYwZEtCamNpeTFqN3ZaQVlTclNuQWYxNXh4ZVlqaWF3WkNNVk1fbmJXcTdISlBmUVVWS01STmFYZldLSGk5akJQZVB5X09OSzVoVWF4Wko4TEF4cGozQUlWM202dFJWMGxSRTdpcTNaaUp6bmNyZXpWbVRFb2JoSzdCVQ?oc=5",
+      "pubDate": 1785654000000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1497534054",
@@ -1978,6 +2125,27 @@
       "source": "NVIDIA"
     },
     {
+      "id": "-769769758",
+      "title": "China’s DeepSeek AI Prepping for IPO, as It Becomes the Top AI Model",
+      "titleZh": "China’s DeepSeek AI Prepping for IPO, as It Becomes the Top AI Model",
+      "summary": "China’s DeepSeek AI Prepping for IPO, as It Becomes the Top AI Model MarketWise",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMWdhUE9VbUM3NDVhQ1F5eFVNYkF0RjIxRnR3T3pPMlNxdXZUdGN4SnV0bVQxekRjVjlrMHVWdjRCUnNZdXJ3NnFFa3JiSU54MGlETTh0SEt6UjdDdFVReDNOZXFPOFRseXFDc29pVlNKZi1qV1BkNHhwckFyUFJBRg?oc=5",
+      "pubDate": 1784271600000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "high",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1093452510",
       "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
       "titleZh": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
@@ -2039,6 +2207,216 @@
         "cs": 1
       },
       "source": "VentureBeat"
+    },
+    {
+      "id": "251294355",
+      "title": "Technology, recovery, and responsibility",
+      "titleZh": "技术、恢复和责任",
+      "summary": "By Sriram Rajamani, Managing Director, Microsoft Research India We started 2021 with the hope that the COVID-19 vaccines will immunize enough of the world’s population to give herd immunity in the com…",
+      "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
+      "pubDate": 1615961906000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 2,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "1792312368",
+      "title": "Directorate General of Training, Ministry of Skill Development and Entrepreneurship, partners with Microsoft and NASSCOM Foundation to empower students with next generation digital skills",
+      "titleZh": "技能发展和创业部培训总局与微软和NASSCOM基金会合作，为学生提供下一代数字技能",
+      "summary": "The blended curriculum will impact 1.2 lakh students across 3000 Industrial Training Institutes (ITI) in India New Delhi, January 7, 2021: With a vision to empower the next generation of learners, the…",
+      "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
+      "pubDate": 1610002951000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 3,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "58206720",
+      "title": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
+      "titleZh": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
+      "summary": "Multilingual omni-channel service reduces wait time for queries, improves customer satisfaction by 70% New Delhi, January 5, 2021 – Powered by Microsoft Azure, Indian Railway Catering and Tourism Corp…",
+      "link": "https://news.microsoft.com/en-in/microsoft-azure-powered-corover-developed-irctc-ai-chatbot-askdisha/",
+      "pubDate": 1609824612000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1890804461",
+      "title": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
+      "titleZh": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
+      "summary": "• The initiative aims to skill 1 million students in AI by 2021 • The AI Classroom Series will deliver Microsoft’s AI, machine learning and data science expertise to undergraduate students at no cost …",
+      "link": "https://news.microsoft.com/en-in/nasscom-futureskills-microsoft-launch-ai-classroom-series-skill-students/",
+      "pubDate": 1599716180000,
+      "vendor": "microsoft",
+      "category": "Release",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1460121599",
+      "title": "Industry and research – better together",
+      "titleZh": "Industry and research – better together",
+      "summary": "By Sriram Rajamani, Distinguished Scientist and Managing Director, Microsoft Research India at Microsoft Manik Varma, researcher in the Microsoft Research (MSR) India lab was awarded the prestigious S…",
+      "link": "https://news.microsoft.com/en-in/industry-and-research-better-together-sriram-rajamani/",
+      "pubDate": 1598613057000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1887675878",
+      "title": "NSDC and Microsoft collaborate to empower Indian youth with digital skills",
+      "titleZh": "NSDC和微软合作，为印度青年提供数字技能",
+      "summary": "The initiative aims at skilling over 1 lakh youth in the next 12 months New Delhi, July 08, 2020: With a vision to transform India into a skilled nation, the National Skill Development Corporation (NS…",
+      "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
+      "pubDate": 1594186160000,
+      "vendor": "microsoft",
+      "category": "Release",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 4,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "652542494",
+      "title": "Empowering developers to achieve more at the Microsoft Developer Conference",
+      "titleZh": "帮助开发人员在Microsoft开发者大会上取得更大成就",
+      "summary": "New Delhi, June 18, 2020: Underlining the critical role of developers in innovations that will power economic recovery, the Microsoft Developer Conference brought together developers and tech professi…",
+      "link": "https://news.microsoft.com/en-in/microsoft-developer-conference/",
+      "pubDate": 1592461746000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 2,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-150806068",
+      "title": "Microsoft announces program to accelerate growth of agritech startups in India",
+      "titleZh": "微软宣布加速印度农业科技创业公司发展的计划",
+      "summary": "New Delhi, June 03, 2020: Microsoft announced the launch of a program for agritech startups in India that are committed to driving transformation in agriculture. The Microsoft for Agritech Startups pr…",
+      "link": "https://news.microsoft.com/en-in/microsoft-agritech-startups-program-india-launch/",
+      "pubDate": 1591162175000,
+      "vendor": "microsoft",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 5,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "297070690",
+      "title": "Microsoft empowers startups in India to achieve more",
+      "titleZh": "微软助力印度初创企业实现更多",
+      "summary": "Five startups showcase their unique propositions at Future Decoded Tech Summit Bengaluru, February 25, 2020: Startups are an indisputable innovation engine, and Microsoft is partnering with startups a…",
+      "link": "https://news.microsoft.com/en-in/microsoft-empowers-startups-in-india-to-achieve-more/",
+      "pubDate": 1582633175000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 4,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "1830923333",
+      "title": "Myntra accelerates its digital transformation journey with Microsoft Cloud",
+      "titleZh": "Myntra借助微软云加速其数字化转型之旅",
+      "summary": "reimagines online shopping experience for customers Azure powers biggest-ever End of Reason Sale New Delhi, February 19, 2020: Myntra, India’s leading destination for fashion and lifestyle, has partne…",
+      "link": "https://news.microsoft.com/en-in/myntra-digital-transformation-microsoft-cloud/",
+      "pubDate": 1582092103000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 0,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
     }
   ]
 }
