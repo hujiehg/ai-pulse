@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-03T00:53:45.145Z",
-  "count": 106,
-  "sources": 11,
+  "updated": "2026-09-03T05:23:09.618Z",
+  "count": 96,
+  "sources": 10,
   "items": [
     {
       "id": "-957061689",
@@ -13,13 +13,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 45,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 5,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -34,13 +34,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "high",
-      "score": 45,
+      "score": 44,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 1,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,13 +55,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -76,13 +76,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 57,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 22,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -298,6 +298,27 @@
       "source": "HuggingFace"
     },
     {
+      "id": "581946598",
+      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+      "titleZh": "借助ChatGPT ，全地形车大空中之旅将3天的工作时间缩短为3小时",
+      "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+      "link": "https://openai.com/index/atv-big-air-tour",
+      "pubDate": 1788350400000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
       "id": "-1591516646",
       "title": "HyperWorld: Hypergraph-Structured State Serialization Improves Learned Textual World Models",
       "titleZh": "HyperWorld ：超图结构化状态序列化改进已学习的文本世界模型",
@@ -307,13 +328,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 3,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -328,13 +349,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 7,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -349,13 +370,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 5,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -370,13 +391,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "high",
-      "score": 68,
+      "score": 67,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 9,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -391,13 +412,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 65,
+      "score": 64,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 6,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -406,7 +427,7 @@
       "id": "-2107754584",
       "title": "OpenAgentFlow: Enabling System-Wide Safety Boundaries for Heterogeneous AI Agent Fleets",
       "titleZh": "OpenAgentFlow ：为异构AI代理车队实现全系统安全边界",
-      "summary": "arXiv:2609.00015v1 Announce Type: new Abstract: AI agents powered by large language models are evolving from isolated assistants into heterogeneous systems in which multiple agents, planners, controll…",
+      "summary": "arXiv:2609.00015v2 Announce Type: new Abstract: AI agents powered by large language models are evolving from isolated assistants into heterogeneous systems in which multiple agents, planners, tools, a…",
       "link": "https://arxiv.org/abs/2609.00015",
       "pubDate": 1788321600000,
       "vendor": "arxiv",
@@ -415,10 +436,10 @@
       "score": 62,
       "scoreBreakdown": {
         "cq": 18,
-        "kv": 5,
+        "kv": 6,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -433,13 +454,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "high",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 7,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -454,13 +475,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 7,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -475,13 +496,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 5,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -496,13 +517,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 3,
         "cw": 22,
         "st": 13,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "arXiv"
@@ -676,48 +697,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "-1138438614",
-      "title": "Moonshot AI Seeks Up to 30% Revenue Share as Kimi K3 Eyes US Clouds",
-      "titleZh": "随着Kimi K3关注美国云计算， Moonshot AI寻求高达30%的收入份额",
-      "summary": "Moonshot AI Seeks Up to 30% Revenue Share as Kimi K3 Eyes US Clouds Pandaily",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE40aEU4dVk4aFg4SGRZeWkwSHFaUElHbUlCSDJWaWVNbldfdm52OEd0ZGFWa0gzVUpCMFNpV2tMRDJQcldyX3J6cGNKeGlTN1Rpdk41NjRycHd3di13Xzg5RTFyc0V4NHZLWHhaTHdfS0dvc25YaWJJeW1KTQ?oc=5",
-      "pubDate": 1788229544000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1057755640",
-      "title": "How to Use Kimi K3: Kimi AI Setup in 13 Steps [2026] - tech",
-      "titleZh": "如何使用Kimi K3 ： 13个步骤中的Kimi AI设置[2026] -科技",
-      "summary": "How to Use Kimi K3: Kimi AI Setup in 13 Steps [2026] tech-insider.org",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5lSFhmSGdKNnZUOHNoNEExajBmV09BNDlBWXI2ZXljeHV6VHg2QUx4MWdjS3dFWTNGTEY0UFdVYUJtbzk1WnJzMmx0c3FWdzcycE4xOFI1Zy1hWXJjMm1sODJ3?oc=5",
-      "pubDate": 1788224542000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "923914410",
       "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
       "titleZh": "Gilbert + Tobin律师事务所如何通过OpenAI管理和扩展AI",
@@ -727,13 +706,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -823,27 +802,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "-1356065551",
-      "title": "Moonshot’s AI Strategy: Dominating AI as Frontier AI Lab with Kimi K3 [In-Depth Analysis, 2026]",
-      "titleZh": "Moonshot’s AI Strategy: Dominating AI as Frontier AI Lab with Kimi K3 [In-Depth Analysis, 2026]",
-      "summary": "Moonshot’s AI Strategy: Dominating AI as Frontier AI Lab with Kimi K3 [In-Depth Analysis, 2026] Klover.ai",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOV2FCb3Z2bEwtREZDYU9pZXBDaElNRTVXeEpld2xJdi1EOS1PN1ZCNTYwYmN3VmhkZDRYRnA0ZTRhd3RHWlVtckVqR2prcUljbzh1aWdzYnpyLWlJazl6eHRVZm5OTmgtUFB3enJjM1NOeE54NkF6ZWlPNW1uYlp0WmJqdjNXNWxQbWlnMDFqc2Q0VFdSVW0wUHZGa1JkYzVFVVFmWnVZUFNYY0dZc24tUUJB?oc=5",
-      "pubDate": 1788144879000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "965819178",
       "title": "Alibaba’s AI Strategy: Dominating AI as Frontier AI Lab with Qwen [In-Depth Analysis, 2026]",
       "titleZh": "Alibaba’s AI Strategy: Dominating AI as Frontier AI Lab with Qwen [In-Depth Analysis, 2026]",
@@ -856,27 +814,6 @@
       "score": 51,
       "scoreBreakdown": {
         "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1937464155",
-      "title": "Claude vs. Kimi - China",
-      "titleZh": "Claude vs. Kimi -中国",
-      "summary": "Claude vs. Kimi China-US Focus",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0tNXV0b1hUOENaQ2paMUxrRUlPVEExbmRCN2JIS1dYQ3duXzZZZFlXNHlxMjBSandnOFdYRjFON2htcF9wU2lLZ21YWHM2OTdVZi1BZ3QxVE5YOFUxZTFyWHVIakNsbEJ2bFFB?oc=5",
-      "pubDate": 1787929026000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 14,
         "kv": 2,
         "cw": 15,
         "st": 12,
@@ -970,27 +907,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "1038487297",
-      "title": "Chinese open-source AI is starting to win over U.S. businesses",
-      "titleZh": "中国开源人工智能开始赢得美国企业的青睐",
-      "summary": "Chinese open-source AI is starting to win over U.S. businesses Fortune",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVmVrSGRxWWFZdjVacWtkTkNtZ21ua3VWcUtSb25MSWREbE4xR3NMMkNoR09Lb25ROUpTMjlNSkFIOXh1b29PU2FucDRLYVRfSHFZQVMwS0lGRDhQei1rM1Z1bkg3UnEtUjFRSE1hQlNFODdwTVdTX0Vkb1lTekhOLVdfN2ZlN0kxR0c0c2xndkJOdGlRVkloRw?oc=5",
-      "pubDate": 1787846940000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-243590627",
       "title": "3 new ways to plan and book travel in Search",
       "titleZh": "在搜索中规划和预订行程的3种新方法",
@@ -1075,43 +991,43 @@
       "source": "VentureBeat"
     },
     {
-      "id": "-193745239",
-      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-      "titleZh": "更好的答案，更广泛的思考：学生从ChatGPT和批判性思维培训中获得什么",
-      "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-      "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "pubDate": 1787821200000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "-787831074",
+      "id": "-364031887",
       "title": "Alibaba unveils cheaper Qwen AI model: is this what its stock needed?",
       "titleZh": "阿里巴巴推出更便宜的Qwen AI模型：这是它的库存需要吗？",
-      "summary": "Alibaba unveils cheaper Qwen AI model: is this what its stock needed? TradingView",
+      "summary": "Alibaba unveils cheaper Qwen AI model: is this what its stock needed? tradingview.com",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOakhlbXhLUUd2QTdWV0ptV2poYm1PbGhOSVllUkRuSlZOSndNOEhxQjVuaW9RaldSWlpPYjU0UEczbHBoU1E3R0V4eXd6RVRSVVp3eXVjMVN0VktoeEM2aTZsWG1leFBKTXlWSWxPdDEyVGRFVV9QUW1qcUFPcmZaOGJqVWRzQkJQaU00RzdndUVMVlhkazRxOHd5R0l2MVNWWTFCZXZYbDI5WUkxaFJVTUx1dFRfbWJrNjVhaUhUZy1ndw?oc=5",
       "pubDate": 1787805300000,
       "vendor": "qwen",
       "category": "Release",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 1,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1912470761",
+      "title": "Alibaba’s Qwen launches Qwen3.8-Flash AI model with lower training costs",
+      "titleZh": "Alibaba’s Qwen launches Qwen3.8-Flash AI model with lower training costs",
+      "summary": "Alibaba’s Qwen launches Qwen3.8-Flash AI model with lower training costs Classic Rock 103.5 WIMZ",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUDBGemhQNjdwaFJIWkRWMlppbGxfOHkwUk1zeEVFQzhFM1BBU3RLRk94clRFWXNTUExkNFVNMDN4S182eFY2SzMtYmN0S2dPSlNHUWM1SHZndWZqZ3hKZmk0LXFSQVdpbFNmQ3BJRzRzS3dlMWpiLVo2UzJSVkMwVlBGeHhRWUJBYVI3TDhlSTNkWFdDc3lMa21abUdrVGRaaEE?oc=5",
+      "pubDate": 1787779921000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google News"
@@ -1138,48 +1054,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "780556249",
-      "title": "Alibaba's Qwen launches Qwen3.8-Flash AI model with lower training costs",
-      "titleZh": "阿里巴巴旗下Qwen以更低的培训成本推出Qwen3.8-Flash AI模型",
-      "summary": "Alibaba's Qwen launches Qwen3.8-Flash AI model with lower training costs Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNFBiN0MydXZkUlB3UHdHb0xzNGNqVVhKdzZVMkQwalM4WWozbUxWSkZuRTljSXdfdjdOUjZkMWN2SEVRSnBXTEJwSlJfdkNqNzJreVp5MDNULVdDZ1ozSzE1YXp6dWR6MzZsOFBlRllhdlZEQmVBa1Eyb1hpQWlMWmdUaGlzeFpUZFlDZUszLU5KRG9SblF0VTNFT092TllTQnVqVlZHY2J3Uk1WblBfOUJGRmFob041dzEwRV9WaU5TWjlxbkswcTVJRQ?oc=5",
-      "pubDate": 1787756623000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "639376543",
-      "title": "EXCLUSIVE: China's Moonshot in talks with Microsoft, Amazon, Google over K3 revenue sharing, sources say",
-      "titleZh": "独家：消息人士称，中国的Moonshot正在与微软、亚马逊、谷歌就K3收入分成进行谈判",
-      "summary": "EXCLUSIVE: China's Moonshot in talks with Microsoft, Amazon, Google over K3 revenue sharing, sources say Reuters",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaWlQbDBkTjZOWlNxMFJUeDkxc0taQllySUkzRzJ4aHJrSzlVQTY5LVhqU2dfd2lUSGZSVjI2dVFPQnZ5X0FuRThHT0JDRkxJTTlLUVFETjM5Y0lGbzFwUkhGWFNVOUJQX1NWZ09SZDViVWNZTmI1TFY4ODUwZXl2UGh5VnRETVhhbDQ4NHh5bmU2YXZXdGZEbnlSUmVZVEZ2dUd3ampaeW94bkhBaEhhRkNKQ1E1QlJSZUFDUTZ5eGFERHlPZHo3TnFaQTJZVUdt?oc=5",
-      "pubDate": 1787755445000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1500538370",
       "title": "Orchestration is the new challenge for CX in the age of AI agents",
       "titleZh": "编排是人工智能代理时代CX面临的新挑战",
@@ -1201,10 +1075,10 @@
       "source": "VentureBeat"
     },
     {
-      "id": "-1643361135",
+      "id": "374586481",
       "title": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model",
       "titleZh": "阿里巴巴发布更小、更具成本效益的Qwen AI模型",
-      "summary": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model bloomberg.com",
+      "summary": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVFN2VVNaUWE0bXJiNjQ2VWJlbngtWlpzcnY3RG44VlB1eVVhMWNiT21wYmVKSDJnQ0JkNXMycVg5bWRqQ2RIZ3E0d0hzdkEzUlNPV05aUjRUTFhzaXlNdVhVSHFXNGRuZFlPWUhEeEtKemMwdWJValR0MFpZM19OMVRpS1piVVhZWEI3ZmdJZmlDR1B5d2JMRU5DcENuSUktd01Ra0J6Zw?oc=5",
       "pubDate": 1787747750000,
       "vendor": "qwen",
@@ -1432,18 +1306,18 @@
       "source": "VentureBeat"
     },
     {
-      "id": "1686568900",
+      "id": "-1066961806",
       "title": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
       "titleZh": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
-      "summary": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems South China Morning Post",
+      "summary": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems scmp.com",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRVNJbE00UDhJSkVIaktiZTNYR01uZTVVNXd1SV9yMGpJM2dILU1SeWVFQXphS0dmYVNsekZrckVQVkNQNndYaWkxS1lKdXJRdE5MWVFJVVJvNHNPWlVUcVhJc2lRbFRiMFdhODdJeXJuTjZNcTg4enJpbEhMdTYxaDlpenFsSDVWUENpcDdxalM5UWR3OG10dUlMYXNSRjNhdGRYX04wN2s2aF9mb2hfbjJHY1FJT1F2WS1TQU8yc3NXMlFxSEtxX29Ca9IBywFBVV95cUxNekQyWHA4bjlBc09IbGwyajJaMEl1LVp0RXk0aWE5Q3hNWXlLUU5JcWxVRjg0ZHcwN05jN3pva3c1QzBjTjlJUl9CLWVVMkhxSjBCT2I0eFZhNkZwNDYwM0tVS3J1X1plS1J5bm02bzM4YWxPOEpXMzdhSEtRRkI0MzRYc3RFQUJRNmdid2lsMWRDM0tkcjFjUFlmZHBZdDZiR05CWkd0MHBFb3dZdHZCTHNCVjU3ZHlRMmM5TVhoTVlkZzBJV0x3UFRsdw?oc=5",
       "pubDate": 1787036400000,
       "vendor": "qwen",
       "category": "Product",
       "impact": "med",
-      "score": 54,
+      "score": 52,
       "scoreBreakdown": {
-        "cq": 22,
+        "cq": 20,
         "kv": 4,
         "cw": 15,
         "st": 12,
@@ -1495,40 +1369,40 @@
       "source": "Google AI"
     },
     {
-      "id": "592228126",
-      "title": "Test, Standardize, Restrict: A U.S. Policy for Chinese AI Models",
-      "titleZh": "测试、标准化、限制：美国对中国人工智能模型的政策",
-      "summary": "Test, Standardize, Restrict: A U.S. Policy for Chinese AI Models Just Security",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9sbm1ERi1oQ2RkSGg0Umc2Ukw3QWNGYXFEeUR0eVJXZUhKQ0Z0NWtFV3NyRW5GbG04YjlpbGQ1M1lfWXZlbmRtS1pRQV9MMmlsUlUyZ09ieWFudUFrOGVsVmJCcGJkMHFHcWpKWEtOVnhWeGNTSXZxMVQwZGlFUQ?oc=5",
-      "pubDate": 1786950000000,
-      "vendor": "google",
+      "id": "-708493724",
+      "title": "Alibaba’s open-source AI model Qwen overtakes Meta, Google to claim top spot globally: report",
+      "titleZh": "Alibaba’s open-source AI model Qwen overtakes Meta, Google to claim top spot globally: report",
+      "summary": "Alibaba’s open-source AI model Qwen overtakes Meta, Google to claim top spot globally: report Global Times",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBENmJOcWJDcGR0blh0cDlCQkk1bmw4a0s1NGZ3TVphR1A0bU1YWlBJbVFfaWFpc1dLeU1JQWJmNjZlN0F3ZmRSR3VZc0w2Z2w4dWpsdlpKWTJFTzZYdzRXRUxn?oc=5",
+      "pubDate": 1786863600000,
+      "vendor": "qwen",
       "category": "Research",
       "impact": "med",
-      "score": 55,
+      "score": 59,
       "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
+        "cq": 22,
+        "kv": 2,
         "cw": 22,
-        "st": 15,
+        "st": 12,
         "rc": 0,
         "cs": 1
       },
       "source": "Google News"
     },
     {
-      "id": "1579222402",
-      "title": "Alibaba answers Meta’s AI challenge with new laptop-ready model",
-      "titleZh": "Alibaba answers Meta’s AI challenge with new laptop-ready model",
-      "summary": "Alibaba answers Meta’s AI challenge with new laptop-ready model CNBC",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNGFodld0bUNaak0zcjNiZU5MbmF6NWhrVjIxTFl5Tkl1MEFSOENuczNza1cwRGFnSXlTcU1sLUJmeWJMTjNOUG1RTFBzMTNMRGJsQzFHTlgzbkp3cmIwdy03N2tYd2RuN2Z0QnZzUGxWTmJJM2lWMVVIWkk3MUFkcjNtWkFqVHBlVjEw0gGQAUFVX3lxTE9LV0xtYUQ5UXpDNVIzYXk5VXVrUGREUFBQSlJyS0NDNzNkdDhSeVBXZkt0QVBKY09TOUtldVpUQjA4SEQ1UmsxaVpaMWdGeWFHdUg5MFVqTTRkRFItRTFWU2FiY3NSRjBMN0NDLTJMNXkwRTJrdi16OTlPd3VyU3RZeFZINEV2c29IeFFUSkhvWg?oc=5",
-      "pubDate": 1786950000000,
+      "id": "1701129541",
+      "title": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google",
+      "titleZh": "阿里巴巴AI模型下载量突破30亿，通过Meta ，谷歌",
+      "summary": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google finance.yahoo.com",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZjdzU3AtQnFGVDExc1hfUWRTV3JpWHgya2wtSHFEU2t5d3NnYWZKb2hpY0JiYVF2cnFNeDF6R2FMLTh6SG1oMjdOd2ZLdlhlMl9MNVEwTVh4X29Fb0dTRWRlSXI1cm9RRXZtOThiUUVmcHhDQXB2VTQxVXNaZUk2Tk42cXItTDV4RE1aNXgyNWw?oc=5",
+      "pubDate": 1786777200000,
       "vendor": "google",
       "category": "Research",
-      "impact": "med",
-      "score": 56,
+      "impact": "high",
+      "score": 59,
       "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
+        "cq": 20,
+        "kv": 1,
         "cw": 22,
         "st": 15,
         "rc": 0,
@@ -1663,48 +1537,6 @@
       "source": "Google AI"
     },
     {
-      "id": "1891460870",
-      "title": "What Does Alibaba (BABA) Qwen Royalty Model Mean For Its AI Business?",
-      "titleZh": "阿里巴巴（ BABA ） Qwen版税模式对其AI业务意味着什么？",
-      "summary": "What Does Alibaba (BABA) Qwen Royalty Model Mean For Its AI Business? Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNFRtSkE5ZWwtS054NjVibWJDcmFlN1JETWttV1lIRGw2QlJvSzg4bnVVMHE4bHN2RnVqSXo3ZllWVnFESnhTODhaX2FkVFJtb2hIbXJSOUg3TU1kejVYVmhKRHU1ZEt5YXZBWnpZWW05bEU1aVM2NFF5a2pLY1BRZFo5RVFkVkdHUG9UUWE5YlgzbnV4dXd2TWJR?oc=5",
-      "pubDate": 1786345200000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-10088307",
-      "title": "Moonshot AI's 2.8 Trillion Parameter Model Just Became the First From China to Top a Major Coding Benchmark",
-      "titleZh": "Moonshot AI的2.8万亿参数模型刚刚成为中国首个领先的主要编码基准",
-      "summary": "Moonshot AI's 2.8 Trillion Parameter Model Just Became the First From China to Top a Major Coding Benchmark Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcDVVbTdOQ0pSUi1YeVphVExQdnltbEhZYWRtajZHWkNuOTAtSFhieldQY21MaXRlbzloR3lqelRBUWFNS1ZYZ1d3cmRXSGFQeFJvUnJDVnZsbDk1THNaNGpqdlZYTGR3RWZ0TURYVGpVLTc5Si0yVjdReUpUQjF0aXpzckV2R3BjX05QZTF4U2xITDQ?oc=5",
-      "pubDate": 1786172400000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "337400670",
       "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
       "titleZh": "WeatherNext ： AI模型在气旋预报方面取得突破",
@@ -1745,27 +1577,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-1363628534",
-      "title": "Kimi K3 from Moonshot AI is now available on Databricks through Unity AI Gateway",
-      "titleZh": "来自Moonshot AI的Kimi K3现已通过Unity AI网关在Databricks上提供",
-      "summary": "Kimi K3 from Moonshot AI is now available on Databricks through Unity AI Gateway Databricks",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeEVuMTdPdkpLc3d1TXRweDg2NkdFeHBsMC1lWWZIMTBNMWZiTTJRMVNjOWpLWDhXYVJnb3lfLXpaTmtqd2xwMjBwb1F3LUpsWUcxT1pWUmdaRDVrSzJ5Y0FCdHJlUjRhX21LUkVubUIyWTB4S2hPRXR2N3JGM0NMSzVETXRrYlo3bzZHOXZCV0hNWFNnZGFIMzlLVTltUmJqZzZB?oc=5",
-      "pubDate": 1785999600000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1860432156",
@@ -1829,27 +1640,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "1090493009",
-      "title": "With Moonshot’s free Kimi K3, China changes the sovereign AI playbook",
-      "titleZh": "With Moonshot’s free Kimi K3, China changes the sovereign AI playbook",
-      "summary": "With Moonshot’s free Kimi K3, China changes the sovereign AI playbook Rest of World",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9zVFBQM0JyaEJhS2FiNnNGUERzNnYxV0E2TnBPSmJQdXhTZDVMZDR6bVNXNkFmWEY5Vmp3cERnTzZzam1xb2hoU2Jjb2xka0pYd2s1cEtvLXZyUVFYVkFvc3RhakF5NjVWUXFXUTA3STctV1FGVkx1ajFB?oc=5",
-      "pubDate": 1785394800000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1093733276",
