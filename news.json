@@ -1,8 +1,71 @@
 {
-  "updated": "2026-09-04T23:39:04.807Z",
+  "updated": "2026-09-05T02:02:06.392Z",
   "count": 115,
   "sources": 12,
   "items": [
+    {
+      "id": "306321039",
+      "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+      "titleZh": "XDOF刚刚退出三个月，正在就B轮融资进行谈判，估值为12亿美元$",
+      "summary": "The round is being raised just months after the robot data startup exited from stealth.",
+      "link": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+      "pubDate": 1788564974000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 3,
+        "cw": 20,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "640788261",
+      "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+      "titleZh": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+      "summary": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
+      "link": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+      "pubDate": 1788563711000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "high",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 1,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1442147884",
+      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+      "titleZh": "人工智能计算提供商Nscale正在寻找35亿美元的IPO前融资",
+      "summary": "Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO.",
+      "link": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+      "pubDate": 1788556331000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "high",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 20,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-1164950280",
       "title": "What will Apple’s John Ternus era look like?",
@@ -433,13 +496,13 @@
       "vendor": "qwen",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -454,74 +517,11 @@
       "vendor": "techcrunch",
       "category": "Funding",
       "impact": "high",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 3,
         "cw": 20,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1275891833",
-      "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
-      "titleZh": "据报道， Accel正在进行谈判，以$ 400亿的估值领投Thinking Machines $ 10亿的一轮融资",
-      "summary": "The high-profile startup's annual revenue run rate stands at over $100 million.",
-      "link": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
-      "pubDate": 1788464189000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "med",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 1,
-        "cw": 20,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-42038164",
-      "title": "Abliteration.ai is making a business out of removing AI guardrails",
-      "titleZh": "Abliteration.ai正在通过移除人工智能护栏来做生意",
-      "summary": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve cybersecurity.",
-      "link": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
-      "pubDate": 1788460677000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 22,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "517639692",
-      "title": "Meta is paying to peek at how you use their latest AI model",
-      "titleZh": "Meta正在付费查看您如何使用他们最新的人工智能模型",
-      "summary": "For its new Muse Spark model, intended for operating coding and other agents, Meta is offering an explicit discount averaging out to about 95% for users who \"contribute\" to the development of future m…",
-      "link": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
-      "pubDate": 1788459596000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 0,
-        "cw": 22,
         "st": 8,
         "rc": 2,
         "cs": 1
@@ -655,27 +655,6 @@
       "source": "Google News"
     },
     {
-      "id": "-576758173",
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "titleZh": "Legora使用GPT-6 Astra在几分钟内审阅了41份文件",
-      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-      "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "pubDate": 1788436800000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "1768885476",
       "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
       "titleZh": "Playco CUT使用GPT-6 Astra手动修复50%的原型游戏",
@@ -690,6 +669,27 @@
         "cq": 20,
         "kv": 0,
         "cw": 22,
+        "st": 15,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "-576758173",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "titleZh": "Legora使用GPT-6 Astra在几分钟内审阅了41份文件",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "pubDate": 1788436800000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
         "st": 15,
         "rc": 2,
         "cs": 1
@@ -832,13 +832,13 @@
       "vendor": "openai",
       "category": "Safety",
       "impact": "med",
-      "score": 47,
+      "score": 46,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 10,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -853,13 +853,13 @@
       "vendor": "huggingface",
       "category": "Research",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 22,
         "st": 14,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -874,13 +874,13 @@
       "vendor": "huggingface",
       "category": "Agent",
       "impact": "med",
-      "score": 38,
+      "score": 37,
       "scoreBreakdown": {
         "cq": 9,
         "kv": 0,
         "cw": 12,
         "st": 14,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -895,13 +895,13 @@
       "vendor": "huggingface",
       "category": "Research",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 22,
         "st": 14,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -1222,10 +1222,10 @@
       "source": "OpenAI"
     },
     {
-      "id": "-1251589302",
+      "id": "965819178",
       "title": "Alibaba’s AI Strategy: Dominating AI as Frontier AI Lab with Qwen [In-Depth Analysis, 2026]",
       "titleZh": "Alibaba’s AI Strategy: Dominating AI as Frontier AI Lab with Qwen [In-Depth Analysis, 2026]",
-      "summary": "Alibaba’s AI Strategy: Dominating AI as Frontier AI Lab with Qwen [In-Depth Analysis, 2026] klover.ai",
+      "summary": "Alibaba’s AI Strategy: Dominating AI as Frontier AI Lab with Qwen [In-Depth Analysis, 2026] Klover.ai",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeDZBYlRUekFuVnU5cE1FLXpkT2Z2SDMwVmVqS3ZoeWlORVM0NklvUWdLVE1lRW5xb21vYzdhTl93SzJGMTQ2N2NOX1Vzd254Y2hDUUNSN29vbVRxSmJVcXk2S1V5ZXJpT1dBTjB3OTJkVDBrRmdNQzgyWi1fTUlhenZjWHVOaUdGY05VNnlHeTR0UHNRMTZGandIUVNkWjluTjJheEh1NjJCWERi?oc=5",
       "pubDate": 1788144879000,
       "vendor": "qwen",
@@ -1474,10 +1474,10 @@
       "source": "Google News"
     },
     {
-      "id": "780556249",
+      "id": "-1807646068",
       "title": "Alibaba's Qwen launches Qwen3.8-Flash AI model with lower training costs",
       "titleZh": "阿里巴巴旗下Qwen以更低的培训成本推出Qwen3.8-Flash AI模型",
-      "summary": "Alibaba's Qwen launches Qwen3.8-Flash AI model with lower training costs Reuters",
+      "summary": "Alibaba's Qwen launches Qwen3.8-Flash AI model with lower training costs reuters.com",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNFBiN0MydXZkUlB3UHdHb0xzNGNqVVhKdzZVMkQwalM4WWozbUxWSkZuRTljSXdfdjdOUjZkMWN2SEVRSnBXTEJwSlJfdkNqNzJreVp5MDNULVdDZ1ozSzE1YXp6dWR6MzZsOFBlRllhdlZEQmVBa1Eyb1hpQWlMWmdUaGlzeFpUZFlDZUszLU5KRG9SblF0VTNFT092TllTQnVqVlZHY2J3Uk1WblBfOUJGRmFob041dzEwRV9WaU5TWjlxbkswcTVJRQ?oc=5",
       "pubDate": 1787727600000,
       "vendor": "qwen",
@@ -1747,10 +1747,10 @@
       "source": "Google News"
     },
     {
-      "id": "-1434569966",
+      "id": "-1511724346",
       "title": "Alibaba's Qwen becomes world's most downloaded open AI model",
       "titleZh": "阿里巴巴的Qwen成为全球下载量最大的开放式AI模型",
-      "summary": "Alibaba's Qwen becomes world's most downloaded open AI model China Daily",
+      "summary": "Alibaba's Qwen becomes world's most downloaded open AI model chinadaily.com.cn",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9DMWpvcFhUeGpXMmNSQkh6NzRYWmVud3VUdFlKUEIxRTFwOTRLV3BlNjYxTHVMQy1neV90cEVYZ0pYUWRVdFM4SUF3MjFiZjZRaGhyeXNJQjJNY3dERXVNTE8xdm1PeTFPWWw5d2VzdTk3eUgycnBsUWZjN19NQQ?oc=5",
       "pubDate": 1786863600000,
       "vendor": "qwen",
