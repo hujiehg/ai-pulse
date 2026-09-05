@@ -1,8 +1,218 @@
 {
-  "updated": "2026-09-05T06:48:51.801Z",
+  "updated": "2026-09-05T11:05:19.775Z",
   "count": 115,
   "sources": 12,
   "items": [
+    {
+      "id": "-1009824087",
+      "title": "Structure and Implementation of New Practical English Textbooks Driven by Artificial Intelligence",
+      "titleZh": "人工智能驱动的新型实用英语教材的结构与实施",
+      "summary": "arXiv:2609.02981v1 Announce Type: new Abstract: Artificial intelligence is changing the form of applied English materials from fixed paper sequences to adaptive learning systems that can diagnose lear…",
+      "link": "https://arxiv.org/abs/2609.02981",
+      "pubDate": 1788580800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "787435608",
+      "title": "MasterControl Seventeen Every Time",
+      "titleZh": "MasterControl Seventeen每次",
+      "summary": "arXiv:2609.03209v1 Announce Type: new Abstract: We study a governed approach to enterprise analytics: a language model interprets the question, while deterministic policy selects and runs a pre-approv…",
+      "link": "https://arxiv.org/abs/2609.03209",
+      "pubDate": 1788580800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1052701577",
+      "title": "Speculative Macro Commit for Faster Tool-Using Agents",
+      "titleZh": "更快使用工具的代理人的投机宏观承诺",
+      "summary": "arXiv:2609.03236v1 Announce Type: new Abstract: Tool-using LLM agents spend wall-clock time not only on model inference but also in serial action--observation turns, where each tool call, environment …",
+      "link": "https://arxiv.org/abs/2609.03236",
+      "pubDate": 1788580800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-335453725",
+      "title": "Fresh Memory, Stale Plans: Dependency-Scoped Validation for Distributed LLM-Agent Memory",
+      "titleZh": "全新内存，过时计划：分布式LLM代理内存的依赖性范围验证",
+      "summary": "arXiv:2609.03340v1 Announce Type: new Abstract: Distributed LLM-agent teams can read the latest shared facts and still act on an obsolete plan. A planner may derive an action from requirement $r_3$, a…",
+      "link": "https://arxiv.org/abs/2609.03340",
+      "pubDate": 1788580800000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-332949669",
+      "title": "A Prompt-Engineering Approach to Develop Scalable, Flexible, and Real-Time Hybrid Micro-Level Personalization in a General Purpose AI Teaching Assistant",
+      "titleZh": "在通用AI教学助理中开发可扩展、灵活和实时混合微级个性化的快速工程方法",
+      "summary": "arXiv:2609.03402v1 Announce Type: new Abstract: Artificial intelligence (AI) teaching assistants powered by large language models (LLMs) offer scalable educational support but often provide limited pe…",
+      "link": "https://arxiv.org/abs/2609.03402",
+      "pubDate": 1788580800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-721737715",
+      "title": "Caught in the Story: Narrative Captivity in Multi-turn LLMs Conversation",
+      "titleZh": "陷入故事：多轮LLM对话中的叙事圈套",
+      "summary": "arXiv:2609.03407v1 Announce Type: new Abstract: People increasingly turn to large language models (LLMs) for everyday advice, making ethically charged interpersonal problems a practical moral-advisory…",
+      "link": "https://arxiv.org/abs/2609.03407",
+      "pubDate": 1788580800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "71036104",
+      "title": "Dude: A Dual-Detection Multi-Agent System for Paper-Code Discrepancy Detection",
+      "titleZh": "DUDE ：用于纸张代码差异检测的双检测多代理系统",
+      "summary": "arXiv:2609.03416v1 Announce Type: new Abstract: LLM-empowered paper-code discrepancy detection has received growing concern since the scaling of research submissions exceeds the manual review capabili…",
+      "link": "https://arxiv.org/abs/2609.03416",
+      "pubDate": 1788580800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1517870923",
+      "title": "DuplexSpeechBench-IFEval: Evaluating Implicit Instruction Following in Full-Duplex Voice Agents",
+      "titleZh": "DuplexSpeechBench-IFEval ：评估全双工语音座席中遵循的隐式指令",
+      "summary": "arXiv:2609.03423v1 Announce Type: new Abstract: Full-duplex voice agents must continuously decide when to listen, backchannel, interrupt, handle speech overlaps, take the floor, and yield. Existing be…",
+      "link": "https://arxiv.org/abs/2609.03423",
+      "pubDate": 1788580800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-2120606127",
+      "title": "Do GUI Agents Know When Not to Act? Enabling Conflict-Aware Termination for Multimodal GUI Agents",
+      "titleZh": "GUI代理是否知道什么时候不采取行动？为多模式GUI代理启用冲突感知终止",
+      "summary": "arXiv:2609.03438v1 Announce Type: new Abstract: Graphical user interface (GUI) agents are increasingly used to execute natural-language instructions on user interfaces, yet real users may issue infeas…",
+      "link": "https://arxiv.org/abs/2609.03438",
+      "pubDate": 1788580800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1056115502",
+      "title": "Beyond \"Made with AI\": Visualizing Provenance Density to Mitigate the Transparency Penalty",
+      "titleZh": "超越“人工智能制造” ：可视化来源密度以减轻透明度处罚",
+      "summary": "arXiv:2609.03460v1 Announce Type: new Abstract: As generative AI makes polished prose cheap to produce, users can no longer rely on fluency as a proxy for truth. We call this failure mode the Fluency …",
+      "link": "https://arxiv.org/abs/2609.03460",
+      "pubDate": 1788580800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
     {
       "id": "306321039",
       "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
@@ -254,216 +464,6 @@
         "cs": 1
       },
       "source": "TechCrunch"
-    },
-    {
-      "id": "-1009824087",
-      "title": "Structure and Implementation of New Practical English Textbooks Driven by Artificial Intelligence",
-      "titleZh": "人工智能驱动的新型实用英语教材的结构与实施",
-      "summary": "arXiv:2609.02981v1 Announce Type: new Abstract: Artificial intelligence is changing the form of applied English materials from fixed paper sequences to adaptive learning systems that can diagnose lear…",
-      "link": "https://arxiv.org/abs/2609.02981",
-      "pubDate": 1788494400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "787435608",
-      "title": "MasterControl Seventeen Every Time",
-      "titleZh": "MasterControl Seventeen每次",
-      "summary": "arXiv:2609.03209v1 Announce Type: new Abstract: We study a governed approach to enterprise analytics: a language model interprets the question, while deterministic policy selects and runs a pre-approv…",
-      "link": "https://arxiv.org/abs/2609.03209",
-      "pubDate": 1788494400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1052701577",
-      "title": "Speculative Macro Commit for Faster Tool-Using Agents",
-      "titleZh": "更快使用工具的代理人的投机宏观承诺",
-      "summary": "arXiv:2609.03236v1 Announce Type: new Abstract: Tool-using LLM agents spend wall-clock time not only on model inference but also in serial action--observation turns, where each tool call, environment …",
-      "link": "https://arxiv.org/abs/2609.03236",
-      "pubDate": 1788494400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-335453725",
-      "title": "Fresh Memory, Stale Plans: Dependency-Scoped Validation for Distributed LLM-Agent Memory",
-      "titleZh": "全新内存，过时计划：分布式LLM代理内存的依赖性范围验证",
-      "summary": "arXiv:2609.03340v1 Announce Type: new Abstract: Distributed LLM-agent teams can read the latest shared facts and still act on an obsolete plan. A planner may derive an action from requirement $r_3$, a…",
-      "link": "https://arxiv.org/abs/2609.03340",
-      "pubDate": 1788494400000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "med",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-332949669",
-      "title": "A Prompt-Engineering Approach to Develop Scalable, Flexible, and Real-Time Hybrid Micro-Level Personalization in a General Purpose AI Teaching Assistant",
-      "titleZh": "在通用AI教学助理中开发可扩展、灵活和实时混合微级个性化的快速工程方法",
-      "summary": "arXiv:2609.03402v1 Announce Type: new Abstract: Artificial intelligence (AI) teaching assistants powered by large language models (LLMs) offer scalable educational support but often provide limited pe…",
-      "link": "https://arxiv.org/abs/2609.03402",
-      "pubDate": 1788494400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-721737715",
-      "title": "Caught in the Story: Narrative Captivity in Multi-turn LLMs Conversation",
-      "titleZh": "陷入故事：多轮LLM对话中的叙事圈套",
-      "summary": "arXiv:2609.03407v1 Announce Type: new Abstract: People increasingly turn to large language models (LLMs) for everyday advice, making ethically charged interpersonal problems a practical moral-advisory…",
-      "link": "https://arxiv.org/abs/2609.03407",
-      "pubDate": 1788494400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "71036104",
-      "title": "Dude: A Dual-Detection Multi-Agent System for Paper-Code Discrepancy Detection",
-      "titleZh": "DUDE ：用于纸张代码差异检测的双检测多代理系统",
-      "summary": "arXiv:2609.03416v1 Announce Type: new Abstract: LLM-empowered paper-code discrepancy detection has received growing concern since the scaling of research submissions exceeds the manual review capabili…",
-      "link": "https://arxiv.org/abs/2609.03416",
-      "pubDate": 1788494400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1517870923",
-      "title": "DuplexSpeechBench-IFEval: Evaluating Implicit Instruction Following in Full-Duplex Voice Agents",
-      "titleZh": "DuplexSpeechBench-IFEval ：评估全双工语音座席中遵循的隐式指令",
-      "summary": "arXiv:2609.03423v1 Announce Type: new Abstract: Full-duplex voice agents must continuously decide when to listen, backchannel, interrupt, handle speech overlaps, take the floor, and yield. Existing be…",
-      "link": "https://arxiv.org/abs/2609.03423",
-      "pubDate": 1788494400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-2120606127",
-      "title": "Do GUI Agents Know When Not to Act? Enabling Conflict-Aware Termination for Multimodal GUI Agents",
-      "titleZh": "GUI代理是否知道什么时候不采取行动？为多模式GUI代理启用冲突感知终止",
-      "summary": "arXiv:2609.03438v1 Announce Type: new Abstract: Graphical user interface (GUI) agents are increasingly used to execute natural-language instructions on user interfaces, yet real users may issue infeas…",
-      "link": "https://arxiv.org/abs/2609.03438",
-      "pubDate": 1788494400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1056115502",
-      "title": "Beyond \"Made with AI\": Visualizing Provenance Density to Mitigate the Transparency Penalty",
-      "titleZh": "超越“人工智能制造” ：可视化来源密度以减轻透明度处罚",
-      "summary": "arXiv:2609.03460v1 Announce Type: new Abstract: As generative AI makes polished prose cheap to produce, users can no longer rely on fluency as a proxy for truth. We call this failure mode the Fluency …",
-      "link": "https://arxiv.org/abs/2609.03460",
-      "pubDate": 1788494400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
     },
     {
       "id": "1452063658",
@@ -760,6 +760,27 @@
       "source": "Google News"
     },
     {
+      "id": "1241852458",
+      "title": "GPT-6 Astra: A new generation of intelligence",
+      "titleZh": "GPT-6 Astra ：新一代智能",
+      "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+      "link": "https://openai.com/index/gpt-6-astra",
+      "pubDate": 1788433200000,
+      "vendor": "openai",
+      "category": "Release",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 3,
+        "cw": 25,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
       "id": "234757932",
       "title": "Chinese AI firm Moonshot files confidentially for Hong Kong IPO, sources say",
       "titleZh": "消息人士称，中国人工智能公司Moonshot为香港IPO秘密提交文件",
@@ -769,13 +790,13 @@
       "vendor": "kimi",
       "category": "Funding",
       "impact": "high",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 20,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -1220,27 +1241,6 @@
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "-1618966528",
-      "title": "OpenAI supports California’s bill to advance youth AI safety",
-      "titleZh": "OpenAI supports California’s bill to advance youth AI safety",
-      "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
-      "link": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
-      "pubDate": 1788159600000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 1,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
     },
     {
       "id": "1179486299",
