@@ -1,8 +1,29 @@
 {
-  "updated": "2026-09-06T18:09:06.895Z",
-  "count": 95,
-  "sources": 10,
+  "updated": "2026-09-06T20:36:38.050Z",
+  "count": 79,
+  "sources": 8,
   "items": [
+    {
+      "id": "848095053",
+      "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+      "titleZh": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+      "summary": "The Uber founder has said that Atoms will allow him to complete \"unfinished business.\"",
+      "link": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+      "pubDate": 1788713100000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "553875860",
       "title": "Qwen Office hits 30 million users in first month as Alibaba leverages DingTalk ecosystem to seize enterprise AI agent entry point",
@@ -23,6 +44,48 @@
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "-1528720578",
+      "title": "An Alien Mind",
+      "titleZh": "外星人思维",
+      "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+      "link": "https://openai.com/index/an-alien-mind",
+      "pubDate": 1788685200000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "1354414073",
+      "title": "Research acceleration: The view inside OpenAI",
+      "titleZh": "研究加速： OpenAI内部视图",
+      "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "link": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "pubDate": 1788681600000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
     },
     {
       "id": "1482069572",
@@ -55,37 +118,16 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "178604145",
-      "title": "Moonshot AI's Kimi K3 Proves Frontier-Level AI No Longer Requires Frontier-Level Spending",
-      "titleZh": "Moonshot AI的Kimi K3证明前沿级AI不再需要前沿级支出",
-      "summary": "Moonshot AI's Kimi K3 Proves Frontier-Level AI No Longer Requires Frontier-Level Spending finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1JUGhsVVVqSmFCLXRiNXlmaTJINTJSS25FMjh5Tk1ISnU4UEF6dk1ZSHVEblV2TWxOMWJrRTV2bF9rWlBPMDdURXVBX1VENXFqNEszUjlrQlhkSzZPeURTTEJjbG9fdUhkRkhJYm03cWlPLTBpNEE?oc=5",
-      "pubDate": 1788631620000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
         "rc": 2,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "TechCrunch"
     },
     {
       "id": "-930930697",
@@ -107,27 +149,6 @@
         "cs": 1
       },
       "source": "TechCrunch"
-    },
-    {
-      "id": "-1591831917",
-      "title": "Who Is Yang Zhilin? Moonshot AI CEO Taking Silicon Valley Ideas To China",
-      "titleZh": "杨志林是谁？ Moonshot AI首席执行官将硅谷创意带到中国",
-      "summary": "Who Is Yang Zhilin? Moonshot AI CEO Taking Silicon Valley Ideas To China NDTV",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM295Z0FHSUVnU1NhbENSa2NuSWNicVhfSUhmaEktQnhrVjFkRmQyOHlrOXB5WEpyb2NQcXBkSzhFOTlxdFA0LXRFWElEOXhGUUg0YmIzc3ZBQlVrWHF3U0ZDRzc3dHlnRnlZbGpuZlowN3VYLTRoQ01jaXM5TldGS0pQUHBheml5d3YtV2p5SkdqT0JJME0tTlMtak1zU0lnZXJzcVVuOW5HeTRnZWtJSzNn0gG6AUFVX3lxTE9FbG93Mmw2ODZJQWJIQ21LZGpUZTIxdkV1SGp3cGtoR2hNd1llbEUwampVdG8wNHU4cllTTGNsS2VWYnZvU1BQZ2pCaHZqUzM3d0RXRkJmVktHOXhuOFNaUFR2T2QyUjJwVDZ4bGcwelRGWU1UMVZSY3ZsMVRYRTAtaElmZDJnZTBGaUxKT25uTWp4anc3eW0tTGlJUG1YaWs2QVNjQnlieFp0eDBkV3RGTHUxMXJYaHFoQQ?oc=5",
-      "pubDate": 1788589119000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "306321039",
@@ -256,27 +277,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "2109081513",
-      "title": "Google’s Gemini Spark can now manage your Google Photos library",
-      "titleZh": "Google’s Gemini Spark can now manage your Google Photos library",
-      "summary": "Gemini Spark can edit and curate photo albums, create shared collections, turn photos into calendar events, and handle other Google Photos tasks for AI Pro and Ultra subscribers.",
-      "link": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-      "pubDate": 1788533231000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "1452063658",
       "title": "How to Use Qwen AI: 13 Steps, 90 Min [2026] - tech",
       "titleZh": "如何使用Qwen AI ： 13个步骤， 90分钟[2026] -科技",
@@ -317,27 +317,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "1853190797",
-      "title": "Moonshot AI’s $3B Hong Kong IPO Filing Is Beijing’s Blueprint for Sovereign AI Capital",
-      "titleZh": "Moonshot AI’s $3B Hong Kong IPO Filing Is Beijing’s Blueprint for Sovereign AI Capital",
-      "summary": "Moonshot AI’s $3B Hong Kong IPO Filing Is Beijing’s Blueprint for Sovereign AI Capital forkast.news",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNellsN2ZyaXZIc0poeUtEUzdBZjcxaWVCdXhUU0lPZk0zX0lWWDFmWmk1Ym9SUHJ0NU14RTJCX1BBejgtSjAtN3pxQlU1dkc0OG1jYjg1Y1o4RGhYYk1rVnYzRGx6V0xCUkt3S1dNZi03NE9zNlMtLWEzRWx5UHRfUDVIbHFGMTQxU1VGWUhVS0F3ZzhtQWJ3b1FoaHpmMnBqQXNFZFZpOEc?oc=5",
-      "pubDate": 1788450182000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-142435498",
@@ -403,46 +382,25 @@
       "source": "HuggingFace"
     },
     {
-      "id": "1491488002",
-      "title": "Microsoft, Amazon, Google Circle $50B Chinese AI Upstart as It Files for IPO",
-      "titleZh": "微软、亚马逊、谷歌圈子$ 500亿中国人工智能新贵申请IPO",
-      "summary": "Microsoft, Amazon, Google Circle $50B Chinese AI Upstart as It Files for IPO Benzinga",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPa1JSVVg2ME1SdWhVbFFDMWZIaW1iTV9IbVNScGNhWUZDS196VndsRDNTQnpyS0pKdk5NeEE3ZlRmZDExZVdYSG0ydnNFQTQwc0hTT3FwLU1fdTBLWGdmUUctTjAzZGZJWlg3YUNURkNkRUR3OGhwTWQ2MVFYazFCQ3gzbnFsRFpxdnVKcU5pdk02LU1r?oc=5",
-      "pubDate": 1788441059000,
-      "vendor": "google",
-      "category": "Funding",
-      "impact": "high",
-      "score": 58,
+      "id": "-576758173",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "titleZh": "Legora使用GPT-6 Astra在几分钟内审阅了41份文件",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "pubDate": 1788436800000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
       "scoreBreakdown": {
         "cq": 20,
-        "kv": 1,
-        "cw": 20,
+        "kv": 0,
+        "cw": 15,
         "st": 15,
         "rc": 1,
         "cs": 1
       },
-      "source": "Google News"
-    },
-    {
-      "id": "1404528558",
-      "title": "Moonshot AI – creator of Kimi K3 model – has filed for Hong Kong IPO: sources",
-      "titleZh": "Moonshot AI – creator of Kimi K3 model – has filed for Hong Kong IPO: sources",
-      "summary": "Moonshot AI – creator of Kimi K3 model – has filed for Hong Kong IPO: sources South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQkZ2VVk5MzV1UVMzcTUtLXNxbTVRS1d5ZG5CM0g2SDdpd1AzUXZYMjQybkZlUzd3Z2pueklIVHM0d29JSjhxcHpScXdReXZVUk1GWGZrb2tvMWUyQmpsSUxxcm1GYzNZenNoX01IZVNwcVVQT04tRFpVQXF3RlJuV01JT3l0b1FvNUpld05uOVhiSGFLcENlZWVZdzhrdF9tSEhyWGhIY2RaTkVpRXI2WUlCeU5LZDjSAbcBQVVfeXFMT3M5ZjRrMGFOdEttTXJBeW9UTHNPclhXd2N4Q0l4NjBWWTI1ME0wakdad3B2bmlDY3dYWDNMV0pIZWYyWFB6TUI1VXpEdWgybVdKOWlxaDVlaG1RZXJrdVNoTTFRck5pLWM1ZUR0WURVZEJoS2RLaXBfNEtyRDdwN0l1Wi1ZMjFPdEtCUzNpSDBXOWVXVzIya3pXX3FIdGtGWEtPdnc4TUV2RFNxWmxvbVdQMEo1R2xF?oc=5",
-      "pubDate": 1788440402000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "high",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 3,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
+      "source": "OpenAI"
     },
     {
       "id": "1768885476",
@@ -459,27 +417,6 @@
         "cq": 20,
         "kv": 0,
         "cw": 22,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "-576758173",
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "titleZh": "Legora使用GPT-6 Astra在几分钟内审阅了41份文件",
-      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-      "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "pubDate": 1788436800000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
         "st": 15,
         "rc": 1,
         "cs": 1
@@ -508,27 +445,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-1271289908",
-      "title": "China’s Moonshot AI Confidentially Filed Hong Kong IPO",
-      "titleZh": "China’s Moonshot AI Confidentially Filed Hong Kong IPO",
-      "summary": "China’s Moonshot AI Confidentially Filed Hong Kong IPO WSJ",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM0MyYnEzbkZYd19tMEFCczNsNGdlTmptMjdNM3VDV1lvUTRBOFQ3NHBtcW02VEdiRV9NZ2tvVllya3BaWS1HS2tGNFllSThRakFobXJLM2tGcWl3WEl0dnNMX0NzWmlUWmxTMnoxXzNGQVlQNDE4RTEwV2c1Mk1GSGZybjlnb2tWUDlHVlU5ZG1JRFBm?oc=5",
-      "pubDate": 1788436418000,
-      "vendor": "kimi",
-      "category": "Funding",
-      "impact": "high",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 20,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1241852458",
       "title": "GPT-6 Astra: A new generation of intelligence",
       "titleZh": "GPT-6 Astra ：新一代智能",
@@ -550,48 +466,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "234757932",
-      "title": "Chinese AI firm Moonshot files confidentially for Hong Kong IPO, sources say",
-      "titleZh": "消息人士称，中国人工智能公司Moonshot为香港IPO秘密提交文件",
-      "summary": "Chinese AI firm Moonshot files confidentially for Hong Kong IPO, sources say Reuters",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT3M0Q2ZhaUlPQkc5bzU5MUEyMlpEaFFMVU5uakRWOEJkek85Z2ZsVWxjc0JnR3NrTFdXOGRIdDRQWmhobmhCZU9iVE9sakxTTVE0ejBhRnAyX1BaM0huMlVvZEJHREh6YzRQMzRLaXZRU2xtRld0THVvODFwTmJwa3BhOU9TQ1ZoQ2UxMldKVzlwcThoWTlEcVctbjhuZ2FqQVc4UTZwejhYeGtvWXJCdTBMaHVnSTVFbDVZSG1nVXYwOEtp?oc=5",
-      "pubDate": 1788419280000,
-      "vendor": "kimi",
-      "category": "Funding",
-      "impact": "high",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 20,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-338009393",
-      "title": "Kimi K3 Operator Moonshot Reportedly Files For Hong Kong IPO As China’s AI Advances Weigh On OpenAI, Anthropic",
-      "titleZh": "Kimi K3 Operator Moonshot Reportedly Files For Hong Kong IPO As China’s AI Advances Weigh On OpenAI, Anthropic",
-      "summary": "Kimi K3 Operator Moonshot Reportedly Files For Hong Kong IPO As China’s AI Advances Weigh On OpenAI, Anthropic Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZVdGQWx3aWYwSUZCQ2FHNk5mWkMxVGlrZEtObUV1dnJUYTJvVVFmNU1CbThiY0Vsc0xULWNGYVVSZlBnQ0hRckZFT05rQ2ZjcF9wbHJXeWcwVW9sVHFtOTVHemtsSnNLYzd4UDRYUmhLZXdNUzlvN3Mzb3JmaGkwQWM2dVE3aFJ0TWR2bEZpMThNdTdDLXJaVGVteFJOQUtNM2c?oc=5",
-      "pubDate": 1788411609000,
-      "vendor": "kimi",
-      "category": "Funding",
-      "impact": "high",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 3,
-        "cw": 20,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-401985492",
       "title": "What Is Qwen 3.8? Alibaba's Upcoming 2.4-Trillion-Parameter Open-Weight Flagship",
       "titleZh": "什么是Qwen 3.8 ？阿里巴巴即将推出的2.4万亿参数开放式重量旗舰",
@@ -606,27 +480,6 @@
         "cq": 18,
         "kv": 2,
         "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "2136185117",
-      "title": "Moonshot AI Files Confidentially for Hong Kong IPO",
-      "titleZh": "Moonshot AI为香港IPO保密文件",
-      "summary": "Moonshot AI Files Confidentially for Hong Kong IPO The Information",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdm05Nmppd1YzX2dXNGtJTVpDWDR0VEhZVXJCejAwUXpwa3hBWmFsOG1GN251Z0lrbGN2Q2NoMzdoQWM3Ynk0SG5xazRmbFJuaXVZSnFJdGItS054UzI1WnRpUlhkd282QUdGWmFuckRWN09RTXhEWGNWY2l2ZUF6alFpSjRmd1V4bnlnMkNUb3A?oc=5",
-      "pubDate": 1788401640000,
-      "vendor": "kimi",
-      "category": "Funding",
-      "impact": "high",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 20,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -949,48 +802,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "-795504710",
-      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-      "titleZh": "医疗机构现在可以将EHR和其他行业数据连接到ChatGPT",
-      "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
-      "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "pubDate": 1788264000000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "923914410",
-      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
-      "titleZh": "Gilbert + Tobin律师事务所如何通过OpenAI管理和扩展AI",
-      "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
-      "link": "https://openai.com/index/gilbert-tobin",
-      "pubDate": 1788224400000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "201393656",
       "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
       "titleZh": "推出@ huggingface/kernels ：用于本地AI的200多个WebGPU内核",
@@ -1075,27 +886,6 @@
       "source": "Google AI"
     },
     {
-      "id": "2147151731",
-      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
-      "titleZh": "企业AI的真正风险不是自主代理。这是它们之间的复杂性。",
-      "summary": "Presented by Gravitee Agent complexity is the insidious shadow lurking inside enterprises right now that needs a light shone on it. That’s because enterprises don't deploy a single agent and watch it …",
-      "link": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
-      "pubDate": 1787839260000,
-      "vendor": "venturebeat",
-      "category": "Product",
-      "impact": "high",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 15,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
       "id": "394545116",
       "title": "Piloting the world's first double-blind AI evaluations",
       "titleZh": "试行全球首个双盲人工智能评估",
@@ -1117,27 +907,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "-1183454760",
-      "title": "When agents act on their own, governance has to live in the data layer",
-      "titleZh": "当代理自行行动时，治理必须位于数据层",
-      "summary": "Presented by EDB As enterprises give AI agents more autonomy — the ability to plan, decide, and act across systems without a human approving each step — a hard question moves to the center of every ar…",
-      "link": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
-      "pubDate": 1787832060000,
-      "vendor": "venturebeat",
-      "category": "Agent",
-      "impact": "high",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 12,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
       "id": "515538289",
       "title": "Intelligent transcription with Gemini 3.5 Transcribe",
       "titleZh": "使用Gemini 3.5 Transcribe进行智能转录",
@@ -1157,27 +926,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "-1500538370",
-      "title": "Orchestration is the new challenge for CX in the age of AI agents",
-      "titleZh": "编排是人工智能代理时代CX面临的新挑战",
-      "summary": "Presented by Tata Communications Enterprises are deploying AI agents, voice AI, and automation across messaging, voice, and digital channels faster than the architecture meant to support it. Most of t…",
-      "link": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
-      "pubDate": 1787754600000,
-      "vendor": "venturebeat",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 15,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
     },
     {
       "id": "780556249",
@@ -1325,27 +1073,6 @@
         "cs": 1
       },
       "source": "Google AI"
-    },
-    {
-      "id": "74193009",
-      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
-      "titleZh": "VentureBeat任命Rob Strechay为其首位首席分析师，扩大其企业人工智能研究推动力",
-      "summary": "Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a founding analyst of VentureBeat Research. His arrival i…",
-      "link": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
-      "pubDate": 1787149092000,
-      "vendor": "venturebeat",
-      "category": "Product",
-      "impact": "high",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 5,
-        "cw": 15,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
     },
     {
       "id": "1686568900",
@@ -1724,69 +1451,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-1093452510",
-      "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
-      "titleZh": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
-      "summary": "For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On T…",
-      "link": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
-      "pubDate": 1779212700000,
-      "vendor": "venturebeat",
-      "category": "Product",
-      "impact": "high",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 13,
-        "cw": 15,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
-      "id": "-1380991222",
-      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
-      "titleZh": "Railway获得1亿美元$ ，通过AI原生云基础设施挑战AWS",
-      "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B fundi…",
-      "link": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
-      "pubDate": 1769090400000,
-      "vendor": "venturebeat",
-      "category": "Product",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 14,
-        "cw": 15,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
-      "id": "749662964",
-      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
-      "titleZh": "Claude Code每月的费用高达$ 200。Goose免费做同样的事情。",
-      "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive. Claude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the…",
-      "link": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
-      "pubDate": 1768831200000,
-      "vendor": "venturebeat",
-      "category": "Product",
-      "impact": "high",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 11,
-        "cw": 15,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
     },
     {
       "id": "251294355",
