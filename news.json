@@ -1,8 +1,134 @@
 {
-  "updated": "2026-09-08T17:50:17.807Z",
-  "count": 106,
-  "sources": 11,
+  "updated": "2026-09-08T20:31:02.005Z",
+  "count": 76,
+  "sources": 8,
   "items": [
+    {
+      "id": "-1253526130",
+      "title": "OpenAI fought dirty on career-making math problem, says NYU mathematician",
+      "titleZh": "纽约大学数学家说， OpenAI在职业生涯中的数学问题上进行了肮脏的斗争",
+      "summary": "There is a $1 million bounty for the first person providing a solution to the Navier-Stokes existence and smoothness problem.",
+      "link": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/",
+      "pubDate": 1788888735000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "2122218644",
+      "title": "Google Cloud races to catch up in the AI deployment wars with Accenture deal",
+      "titleZh": "谷歌云与埃森哲达成协议，争相追赶人工智能部署大战",
+      "summary": "Google Cloud expands its enterprise AI push with Accenture, betting on forward-deployed engineers to drive adoption and overcome deployment bottlenecks.",
+      "link": "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/",
+      "pubDate": 1788884431000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1878937806",
+      "title": "Chrome is now shipping updates every 2 weeks as AI changes the security landscape",
+      "titleZh": "随着人工智能改变安全格局， Chrome浏览器现在每两周发布一次更新",
+      "summary": "Google is speeding up Chrome’s release schedule to ship security patches and new features faster.",
+      "link": "https://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape/",
+      "pubDate": 1788879849000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "high",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1397842587",
+      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+      "titleZh": "谁的安全？拒绝主题的正确子集，而不是整个主题",
+      "summary": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+      "link": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+      "pubDate": 1788877387000,
+      "vendor": "huggingface",
+      "category": "Safety",
+      "impact": "med",
+      "score": 40,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 1,
+        "cw": 10,
+        "st": 14,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
+      "id": "1026158994",
+      "title": "Mistral raises €3B as sovereign AI becomes big business",
+      "titleZh": "Mistral raises €3B as sovereign AI becomes big business",
+      "summary": "The French AI lab has raised €3 billion at a €21 billion valuation in a Series D round led by Samsung, Scaleup Europe, and PSG Equity.",
+      "link": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
+      "pubDate": 1788877068000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "high",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 20,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1817924407",
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "titleZh": "AlphaGenome Atlas ：人类基因组中每种可能的DNA字母变化的预测图谱",
+      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "link": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "pubDate": 1788876015000,
+      "vendor": "deepmind",
+      "category": "Product",
+      "impact": "high",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 1,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "DeepMind"
+    },
     {
       "id": "1025359288",
       "title": "The Work Now Within Reach",
@@ -13,37 +139,79 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "OpenAI"
     },
     {
-      "id": "1049217168",
-      "title": "Alibaba Qwen Open-Sources Qwen-Drive-1.0-4B for Autonomous Driving Perception and Planning",
-      "titleZh": "阿里巴巴Qwen开源Qwen-Drive-1.0-4B自动驾驶感知规划",
-      "summary": "Alibaba Qwen Open-Sources Qwen-Drive-1.0-4B for Autonomous Driving Perception and Planning Pandaily",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYTBuOW5GbE1MUnBJWEZVQWltLTlGa1FhUDBmVEIyQmVJb0FKWTl1Q3dQNmVJQ1JhRmlzUlRWSjBXS3hkX1hoeW5Ic2dDbDVHV2lZRTFqWkRuQ1pfRVo1YUxHdnl1REkxSlV5VDBvN2V1ZXpkVVFtTnp1TmxtOV9zRS1kcw?oc=5",
-      "pubDate": 1788867366000,
-      "vendor": "qwen",
-      "category": "Agent",
+      "id": "1849110790",
+      "title": "Introducing ChatGPT Images 2.5",
+      "titleZh": "ChatGPT Images 2.5简介",
+      "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+      "link": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "pubDate": 1788867000000,
+      "vendor": "openai",
+      "category": "Release",
       "impact": "med",
-      "score": 50,
+      "score": 62,
       "scoreBreakdown": {
-        "cq": 20,
+        "cq": 18,
+        "kv": 0,
+        "cw": 25,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "571609650",
+      "title": "DeepSeek Opens 150 Backend Roles to Rebuild Strained Infrastructure",
+      "titleZh": "DeepSeek开放150个后端角色以重建紧张的基础设施",
+      "summary": "DeepSeek Opens 150 Backend Roles to Rebuild Strained Infrastructure Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTEtxcFpvYzZ6Nng4dm1WbldPTFdrUU13cTBVZDhtdnNuWE9Lbm9uNndUemM1TVdPbWQ0Vzl6dnVnRG9uMHpTVm9TYWluYk10N3JJX2p1SW95NUJmQXFoRk5rOHgwMnA5V0U0ajRJakgyV1N6YVBJV3U4Z29tZ3Z6ZnB4ZTE5dFJ6M1VKVlNNUk1HemM?oc=5",
+      "pubDate": 1788863701000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 18,
         "kv": 2,
-        "cw": 12,
+        "cw": 15,
         "st": 12,
         "rc": 3,
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "1200237419",
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "titleZh": "On the Navier–Stokes Millennium Prize Problem",
+      "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+      "link": "https://openai.com/index/navier-stokes-solution",
+      "pubDate": 1788861600000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
     },
     {
       "id": "-1921005193",
@@ -67,25 +235,67 @@
       "source": "Google News"
     },
     {
-      "id": "-817593568",
-      "title": "Moonshot AI Eyes IPO as Kimi K3 Drives ARR to $300M",
-      "titleZh": "Moonshot AI Eyes首次公开募股， Kimi K3将ARR提升至$ 3亿",
-      "summary": "Moonshot AI Eyes IPO as Kimi K3 Drives ARR to $300M TechRepublic",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5RT2tDYU1XQk9RUHpwZUhxbUttN3Y4UnVaeC1IUkJkbkJSVVdFZXNiMnl4TVhtY3dDaE5wQ0psTWF0S2tqUU9iQnFpcVlzWGRaSmRwYWlIc3pVYk9uaUhoc3VZWGFrczdVV0hKUkh2a2JqSVpIRE45Qnlzak4?oc=5",
-      "pubDate": 1788824229000,
-      "vendor": "kimi",
-      "category": "Funding",
+      "id": "-395127810",
+      "title": "Funding grants for new research into AI and teen development",
+      "titleZh": "为人工智能和青少年发展的新研究提供资助",
+      "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+      "link": "https://openai.com/index/teen-development-research-grants",
+      "pubDate": 1788858000000,
+      "vendor": "openai",
+      "category": "Product",
       "impact": "high",
-      "score": 59,
+      "score": 54,
       "scoreBreakdown": {
-        "cq": 20,
-        "kv": 3,
-        "cw": 20,
-        "st": 12,
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
         "rc": 3,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "OpenAI"
+    },
+    {
+      "id": "1000450566",
+      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+      "titleZh": "OpenAI将支持新闻业的举措从教室扩展到新闻编辑室",
+      "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+      "link": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+      "pubDate": 1788825600000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "-1590898563",
+      "title": "1Password increases engineering productivity 21% with Codex",
+      "titleZh": "1Password通过Codex提高工程生产力21%",
+      "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+      "link": "https://openai.com/index/1password",
+      "pubDate": 1788825600000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "high",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 1,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
     },
     {
       "id": "2027630174",
@@ -97,116 +307,32 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
     },
     {
-      "id": "1287981270",
-      "title": "Qwen-Drive 1.0 tells you why it brakes, just don't expect the explanation to match the maneuver - the",
-      "titleZh": "Qwen-Drive 1.0告诉你它为什么刹车，只是不要指望解释与机动相匹配-",
-      "summary": "Qwen-Drive 1.0 tells you why it brakes, just don't expect the explanation to match the maneuver the-decoder.com",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeWp1cTFkWW9qeG5WOEVFOVViM0w1MjZqVHNocDlOa2ljQXJBVm5qNlFoejVpcFBSaG1rWUhmNmpJQS03bHhscUI3Rk85NEFnNmZaSEE2dlBlaVBmdVM1ckhKdmtSbGJBcjRscXllSU52eGNXdll3UVRRMlVtTk1KamFlbThGV2RzLWJNOThyWGdBWU85c0htTHR6bVV4OE9kOG41cnRQVnlXN2ozOFdvakZwVTdERjlxNUE?oc=5",
-      "pubDate": 1788787260000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-108713660",
-      "title": "AI Rewriting Output Often Lacks Coherence? Discover How Kimi Solves the AI Rewriting Dilemma",
-      "titleZh": "AI重写输出往往缺乏一致性？探索Kimi如何解决人工智能改写的困境",
-      "summary": "AI Rewriting Output Often Lacks Coherence? Discover How Kimi Solves the AI Rewriting Dilemma 36 Kr",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBqY0NhTXRzUmRRdHVNV0tLbnNuREl2NnVyQ09VbDhHZlZsWEZUT19rVVVrdmhNVU1LY0x1aFM3MlZIRnpDOWNST2pjR1J4U1JGSkVZ?oc=5",
-      "pubDate": 1788778247000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-2087214845",
-      "title": "Moonshot AI Distilled Anthropic's Fable For Kimi K3, White House Says",
-      "titleZh": "白宫表示， Moonshot AI为Kimi K3蒸馏了Anthropic的寓言",
-      "summary": "Moonshot AI Distilled Anthropic's Fable For Kimi K3, White House Says Yellow.com",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOcXFkM2lqbnJwdTliNGVXT05JUldYSVlVSGF0SUZDTDhFLUZqVmw0NFI0NlNkQ0g5b2pqV0VDOTFBVUNyRkE2dW1jY21ubFlGMjlfNzkwWS1IV0EwTi1BNldmVXJwa2drNnBKS0Z4aUlEUEdXWUJqcVlMQy1IQno5RV90bzd2dTNhX0hBOU1KVG1ISmcwbTdDY01vaWM1Z21oY0c2ZzZIa2g1a20za29zQWp1d1hNVFU2bVBvTGJHTE1FazhKN1ZRUFJvbl9ES2JVQWxMTkZaLUM3WDUzMXc?oc=5",
-      "pubDate": 1788778241000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1112088849",
+      "id": "-1686943295",
       "title": "Chinese shoppers can now buy AI subscriptions from DeepSeek and Z.ai on Tmall",
       "titleZh": "中国购物者现在可以在天猫上从DeepSeek和Z.ai购买人工智能订阅",
-      "summary": "Chinese shoppers can now buy AI subscriptions from DeepSeek and Z.ai on Tmall scmp.com",
+      "summary": "Chinese shoppers can now buy AI subscriptions from DeepSeek and Z.ai on Tmall South China Morning Post",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWjhEY0ZZS05RYnE4OXkzLWE3ZDFGenJJNnFyUDFIenlfbkNFX1NSaTNBVVhJZHRpMHVjdjhnNVBXNlJPS2VrTDRVZnZmLWlFeW9DOWJLazUtdXozVnVIaFRJeVNNdzh0b1pEWWFDRmhzc1o1OWIzcHU2UTZfUWxnZGJ2ZGktYmpYU3RaUXlkbW8yNGdONHhqaWtEQ094YkNBWHdJVGkwTUVXZ3FYRUthcEdrTG4zOEtWVnRTcnk3aEZCcTF1YkhkYnhnOVjSAcwBQVVfeXFMTjJMX2UzVFpCM0k0a1FxRVdjZjVMYjlCMzlQWnVNM2lpYmlHSlVoaG51YnpvRFMwNTFnYms4UFBfbWJaekc0a3UwbjBITC0tSVowYmNva1VXSHlYZ212Ri11STVWeUdiWlJneGJvUURKOGY3NzM3TWpLZ2VncnNvaThhMm9NM3RMTlphbDBLU3pGVDZwVU8yNW1rZEJ2ZnJRWEJnSTR1UjNBcDRyZlRoYmw3eXltRFNrS0pnWGRxR2RfYldRaGZ5QzlXb0cw?oc=5",
       "pubDate": 1788768013000,
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 52,
       "scoreBreakdown": {
-        "cq": 18,
+        "cq": 20,
         "kv": 2,
         "cw": 15,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1562724570",
-      "title": "Alibaba’s Qwen releases open-source model for autonomous driving",
-      "titleZh": "Alibaba’s Qwen releases open-source model for autonomous driving",
-      "summary": "Alibaba’s Qwen releases open-source model for autonomous driving TechNode",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE16UHpfYXBMLXl0eDFCVm5pSUtTa2c0ZGFZQnpPeTUxTTFQMS15dXhkUUFEV25YN2ZsWXBaM1o0aGo1dF95T0gtR3h3R3gtektUT0d0OUZJcUtIMTZKc2hoN3EwajJZOG5Oa2swU1NTYw?oc=5",
-      "pubDate": 1788759359000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
         "st": 12,
         "rc": 2,
         "cs": 1
@@ -361,27 +487,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "178604145",
-      "title": "Moonshot AI's Kimi K3 Proves Frontier-Level AI No Longer Requires Frontier-Level Spending",
-      "titleZh": "Moonshot AI的Kimi K3证明前沿级AI不再需要前沿级支出",
-      "summary": "Moonshot AI's Kimi K3 Proves Frontier-Level AI No Longer Requires Frontier-Level Spending finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1JUGhsVVVqSmFCLXRiNXlmaTJINTJSS25FMjh5Tk1ISnU4UEF6dk1ZSHVEblV2TWxOMWJrRTV2bF9rWlBPMDdURXVBX1VENXFqNEszUjlrQlhkSzZPeURTTEJjbG9fdUhkRkhJYm03cWlPLTBpNEE?oc=5",
-      "pubDate": 1788631620000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-930930697",
       "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
       "titleZh": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
@@ -401,153 +506,6 @@
         "cs": 1
       },
       "source": "TechCrunch"
-    },
-    {
-      "id": "234757932",
-      "title": "Chinese AI firm Moonshot files confidentially for Hong Kong IPO, sources say",
-      "titleZh": "消息人士称，中国人工智能公司Moonshot为香港IPO秘密提交文件",
-      "summary": "Chinese AI firm Moonshot files confidentially for Hong Kong IPO, sources say Reuters",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT3M0Q2ZhaUlPQkc5bzU5MUEyMlpEaFFMVU5uakRWOEJkek85Z2ZsVWxjc0JnR3NrTFdXOGRIdDRQWmhobmhCZU9iVE9sakxTTVE0ejBhRnAyX1BaM0huMlVvZEJHREh6YzRQMzRLaXZRU2xtRld0THVvODFwTmJwa3BhOU9TQ1ZoQ2UxMldKVzlwcThoWTlEcVctbjhuZ2FqQVc4UTZwejhYeGtvWXJCdTBMaHVnSTVFbDVZSG1nVXYwOEtp?oc=5",
-      "pubDate": 1788592186000,
-      "vendor": "kimi",
-      "category": "Funding",
-      "impact": "high",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 20,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1591831917",
-      "title": "Who Is Yang Zhilin? Moonshot AI CEO Taking Silicon Valley Ideas To China",
-      "titleZh": "杨志林是谁？ Moonshot AI首席执行官将硅谷创意带到中国",
-      "summary": "Who Is Yang Zhilin? Moonshot AI CEO Taking Silicon Valley Ideas To China NDTV",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM295Z0FHSUVnU1NhbENSa2NuSWNicVhfSUhmaEktQnhrVjFkRmQyOHlrOXB5WEpyb2NQcXBkSzhFOTlxdFA0LXRFWElEOXhGUUg0YmIzc3ZBQlVrWHF3U0ZDRzc3dHlnRnlZbGpuZlowN3VYLTRoQ01jaXM5TldGS0pQUHBheml5d3YtV2p5SkdqT0JJME0tTlMtak1zU0lnZXJzcVVuOW5HeTRnZWtJSzNn0gG6AUFVX3lxTE9FbG93Mmw2ODZJQWJIQ21LZGpUZTIxdkV1SGp3cGtoR2hNd1llbEUwampVdG8wNHU4cllTTGNsS2VWYnZvU1BQZ2pCaHZqUzM3d0RXRkJmVktHOXhuOFNaUFR2T2QyUjJwVDZ4bGcwelRGWU1UMVZSY3ZsMVRYRTAtaElmZDJnZTBGaUxKT25uTWp4anc3eW0tTGlJUG1YaWs2QVNjQnlieFp0eDBkV3RGTHUxMXJYaHFoQQ?oc=5",
-      "pubDate": 1788589119000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "81671140",
-      "title": "XDOF, just 3 months out of stealth, is in talks for a Series B at a $1.2B valuation",
-      "titleZh": "XDOF刚刚退出3个月，正在就B轮融资进行谈判，估值为12亿美元$",
-      "summary": "The round is being raised just months after the robot data startup exited from stealth.",
-      "link": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
-      "pubDate": 1788564974000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 3,
-        "cw": 20,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "640788261",
-      "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
-      "titleZh": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
-      "summary": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
-      "link": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
-      "pubDate": 1788563711000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "high",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 1,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1442147884",
-      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
-      "titleZh": "人工智能计算提供商Nscale正在寻找35亿美元的IPO前融资",
-      "summary": "Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO.",
-      "link": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
-      "pubDate": 1788556331000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "high",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 20,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1164950280",
-      "title": "What will Apple’s John Ternus era look like?",
-      "titleZh": "What will Apple’s John Ternus era look like?",
-      "summary": "It’s officially the Ternus era at Apple. Tim Cook stepped down as CEO this week, handing the company to former hardware chief John Ternus, whose first memo promised a “huge launch next week” — timing …",
-      "link": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
-      "pubDate": 1788542280000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "high",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 25,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1371955046",
-      "title": "Moonshot AI Files Confidentially for a $50 Billion Hong Kong IPO",
-      "titleZh": "Moonshot AI秘密申请$ 500亿香港IPO",
-      "summary": "Moonshot AI Files Confidentially for a $50 Billion Hong Kong IPO Startup Fortune",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdGYtNnlaRjVpMllRMWprZk04dTZob2VmdjJ4TE5SdTI1OURwRGdCWmRmeXZfSTVmM0ludVVfUVNCOXQyNl8zT252MVZiYUlIY1IxUkpPUGlQODdTUkJON2lxX3dTYjV1OWhiU0ptRXNQalhTVlpuVE9SQi1SRFphWnJCZ0NCYTFZcG9fUlA0WUNRcnRScWc?oc=5",
-      "pubDate": 1788533393000,
-      "vendor": "kimi",
-      "category": "Funding",
-      "impact": "high",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 20,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1478552175",
@@ -584,27 +542,6 @@
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1452063658",
-      "title": "How to Use Qwen AI: 13 Steps, 90 Min [2026] - tech",
-      "titleZh": "如何使用Qwen AI ： 13个步骤， 90分钟[2026] -科技",
-      "summary": "How to Use Qwen AI: 13 Steps, 90 Min [2026] tech-insider.org",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9CRmZGME5naloxNE9mNFRFMF9zM0ZzVDNMa3YwdTFiQ3pyQWNHUWt0MDVGMWNYS3VYT2EtNHN6VXE5UEdVdGoyOWhXMlR5aDExYU10Y2lVV2taenJMN0t0SElR?oc=5",
-      "pubDate": 1788484075000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
         "cw": 15,
         "st": 12,
         "rc": 1,
@@ -697,69 +634,6 @@
       "source": "HuggingFace"
     },
     {
-      "id": "-1124326692",
-      "title": "Moonshot AI – creator of Kimi K3 model – has filed for Hong Kong IPO: sources",
-      "titleZh": "Moonshot AI – creator of Kimi K3 model – has filed for Hong Kong IPO: sources",
-      "summary": "Moonshot AI – creator of Kimi K3 model – has filed for Hong Kong IPO: sources scmp.com",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQkZ2VVk5MzV1UVMzcTUtLXNxbTVRS1d5ZG5CM0g2SDdpd1AzUXZYMjQybkZlUzd3Z2pueklIVHM0d29JSjhxcHpScXdReXZVUk1GWGZrb2tvMWUyQmpsSUxxcm1GYzNZenNoX01IZVNwcVVQT04tRFpVQXF3RlJuV01JT3l0b1FvNUpld05uOVhiSGFLcENlZWVZdzhrdF9tSEhyWGhIY2RaTkVpRXI2WUlCeU5LZDjSAbcBQVVfeXFMT3M5ZjRrMGFOdEttTXJBeW9UTHNPclhXd2N4Q0l4NjBWWTI1ME0wakdad3B2bmlDY3dYWDNMV0pIZWYyWFB6TUI1VXpEdWgybVdKOWlxaDVlaG1RZXJrdVNoTTFRck5pLWM1ZUR0WURVZEJoS2RLaXBfNEtyRDdwN0l1Wi1ZMjFPdEtCUzNpSDBXOWVXVzIya3pXX3FIdGtGWEtPdnc4TUV2RFNxWmxvbVdQMEo1R2xF?oc=5",
-      "pubDate": 1788440402000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "high",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 3,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-576758173",
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "titleZh": "Legora使用GPT-6 Astra在几分钟内审阅了41份文件",
-      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-      "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "pubDate": 1788436800000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "1768885476",
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "titleZh": "Playco CUT使用GPT-6 Astra手动修复50%的原型游戏",
-      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-      "link": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "pubDate": 1788436800000,
-      "vendor": "openai",
-      "category": "Research",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "1617073049",
       "title": "NVIDIA to Acquire Hugging Face",
       "titleZh": "英伟达收购Hugging Face",
@@ -779,111 +653,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-1271289908",
-      "title": "China’s Moonshot AI Confidentially Filed Hong Kong IPO",
-      "titleZh": "China’s Moonshot AI Confidentially Filed Hong Kong IPO",
-      "summary": "China’s Moonshot AI Confidentially Filed Hong Kong IPO WSJ",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM0MyYnEzbkZYd19tMEFCczNsNGdlTmptMjdNM3VDV1lvUTRBOFQ3NHBtcW02VEdiRV9NZ2tvVllya3BaWS1HS2tGNFllSThRakFobXJLM2tGcWl3WEl0dnNMX0NzWmlUWmxTMnoxXzNGQVlQNDE4RTEwV2c1Mk1GSGZybjlnb2tWUDlHVlU5ZG1JRFBm?oc=5",
-      "pubDate": 1788436418000,
-      "vendor": "kimi",
-      "category": "Funding",
-      "impact": "high",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 20,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1241852458",
-      "title": "GPT-6 Astra: A new generation of intelligence",
-      "titleZh": "GPT-6 Astra ：新一代智能",
-      "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
-      "link": "https://openai.com/index/gpt-6-astra",
-      "pubDate": 1788433200000,
-      "vendor": "openai",
-      "category": "Release",
-      "impact": "med",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 3,
-        "cw": 25,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "-338009393",
-      "title": "Kimi K3 Operator Moonshot Reportedly Files For Hong Kong IPO As China’s AI Advances Weigh On OpenAI, Anthropic",
-      "titleZh": "Kimi K3 Operator Moonshot Reportedly Files For Hong Kong IPO As China’s AI Advances Weigh On OpenAI, Anthropic",
-      "summary": "Kimi K3 Operator Moonshot Reportedly Files For Hong Kong IPO As China’s AI Advances Weigh On OpenAI, Anthropic Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZVdGQWx3aWYwSUZCQ2FHNk5mWkMxVGlrZEtObUV1dnJUYTJvVVFmNU1CbThiY0Vsc0xULWNGYVVSZlBnQ0hRckZFT05rQ2ZjcF9wbHJXeWcwVW9sVHFtOTVHemtsSnNLYzd4UDRYUmhLZXdNUzlvN3Mzb3JmaGkwQWM2dVE3aFJ0TWR2bEZpMThNdTdDLXJaVGVteFJOQUtNM2c?oc=5",
-      "pubDate": 1788411609000,
-      "vendor": "kimi",
-      "category": "Funding",
-      "impact": "high",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 3,
-        "cw": 20,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "461172608",
-      "title": "What Is Qwen 3.8? Alibaba's Upcoming 2.4-Trillion-Parameter Open-Weight Flagship",
-      "titleZh": "什么是Qwen 3.8 ？阿里巴巴即将推出的2.4万亿参数开放式重量旗舰",
-      "summary": "What Is Qwen 3.8? Alibaba's Upcoming 2.4-Trillion-Parameter Open-Weight Flagship RESIDENT™ | A Luxury Lifestyle Magazine",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPeDRyTDlMSFk5cFZmVzc4SVowOUIxWXVPX3Vkdy1zQjQ3TXY2LWR2cUFITmI2aFh1T2Q4Mm1CMS1hZTdERkM5d2RPMW1CaC05NDJWZEllclRoNUhqRjBvZEdBc2gzY3VqVG93d0ppdndPNkdiTVhwaVdTQ2ZwR1FjeTNmb2E3MV9zWThHRGQxUDRrVF9VYzNJOXBDaVpZNHhFbEc0UUZEcmRRQ2RDNWxlMWQwM0piY1RqTFJzTV83Yk5KYm9pRUNBeE9NN0ZrQ290TkN3cDlJaFrSAeYBQVVfeXFMUExqTGU3QzEwVUFKc0s0Y2RSdEVEaU5pTXZhNGNYcE9yc3hiemE2SVVFandVWG9fU3RKTkZTaEZoRF9saHVobV9sSHVFbzhEaEt1Zjk3M0RkbnFsUU1UYnZESGtWVm9RZVU3SlhicXpSeEFFOERXdHRHVFdCR0FEdkUyb1UtQVRXQnpOTlh5RldTMUJ1RkhmNVBya1lPY3pPZG14ZkhjOVlVNUNTR1pBVndvQ0xnWWF4b1RsdGtvNkRsamF6RFo3alhRc2lXbmlBVUpONWFjYWpJZDVzMW5Kc3ZKRDlFN1E?oc=5",
-      "pubDate": 1788405894000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1574789887",
-      "title": "Safety overview: GPT-6 Astra",
-      "titleZh": "安全概述： GPT-6 Astra",
-      "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
-      "link": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "pubDate": 1788393600000,
-      "vendor": "openai",
-      "category": "Safety",
-      "impact": "med",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 10,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
     },
     {
       "id": "274188928",
@@ -1012,27 +781,6 @@
       "source": "HuggingFace"
     },
     {
-      "id": "581946598",
-      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-      "titleZh": "借助ChatGPT ，全地形车大空中之旅将3天的工作时间缩短为3小时",
-      "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-      "link": "https://openai.com/index/atv-big-air-tour",
-      "pubDate": 1788350400000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "2036478678",
       "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
       "titleZh": "BenchMIRT ： LLM基准实际衡量的是什么？",
@@ -1136,6 +884,27 @@
         "cs": 1
       },
       "source": "HuggingFace"
+    },
+    {
+      "id": "874790971",
+      "title": "DeepSeek’s AI Strategy: Dominating AI as Frontier AI Lab [In-Depth Analysis, 2026]",
+      "titleZh": "DeepSeek’s AI Strategy: Dominating AI as Frontier AI Lab [In-Depth Analysis, 2026]",
+      "summary": "DeepSeek’s AI Strategy: Dominating AI as Frontier AI Lab [In-Depth Analysis, 2026] Klover.ai",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTUJaREcyeUFqQVJELWhIaU1OZUN5bGNUYlRVX0tYU3hMMnhLSHVLenpKX0ljRlBSQVcxMDdpVTF3WDhEUmdhLVRCUHl0Y1pqOFhfZk01MVM5MC1HTld6dGFpUVpSOXV6WHpReW5VRExYblJFMExEZDdwRFJ2bERyOTFCamV1aXp4elVvemY1dW51eGJQdXV0OHN3elNJUUly?oc=5",
+      "pubDate": 1788144878000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "832826578",
@@ -1264,27 +1033,6 @@
       "source": "VentureBeat"
     },
     {
-      "id": "309421683",
-      "title": "Nvidia is bolstering support for Chinese open AI models as it warns of White House crackdown",
-      "titleZh": "英伟达正在加强对中国开放式人工智能模型的支持，因为它警告白宫将进行镇压",
-      "summary": "Nvidia is bolstering support for Chinese open AI models as it warns of White House crackdown CNBC",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMLVduQzZINVRma3Z3aTdoWHdpQ19yQlctQk1xZTN1ejcwdXZhMXBOU3lVRmRCNUxObHJOMjFaUGlWTWNFV0tyWlUzajFtcEU2MEF6WkpWVnNqc0wyVkZfODBGUk5jcl81bGpMTXBR0gFzQVVfeXFMTnNqLXZPLWdiLUtsak5jWnM0UGt6SGxIOEhmaWNUMlVEbGpncUwxc1NvWWg4YVJFbjdMdHVyV3BmTE1URWlHZDVld1h2cDBmdjFURm84aTZKQk1XN2c5djB6STk1cWFiMjdxTHE2cTh5YUhXTQ?oc=5",
-      "pubDate": 1787814000000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "515538289",
       "title": "Intelligent transcription with Gemini 3.5 Transcribe",
       "titleZh": "使用Gemini 3.5 Transcribe进行智能转录",
@@ -1327,48 +1075,6 @@
       "source": "VentureBeat"
     },
     {
-      "id": "780556249",
-      "title": "Alibaba's Qwen launches Qwen3.8-Flash AI model with lower training costs",
-      "titleZh": "阿里巴巴旗下Qwen以更低的培训成本推出Qwen3.8-Flash AI模型",
-      "summary": "Alibaba's Qwen launches Qwen3.8-Flash AI model with lower training costs Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNFBiN0MydXZkUlB3UHdHb0xzNGNqVVhKdzZVMkQwalM4WWozbUxWSkZuRTljSXdfdjdOUjZkMWN2SEVRSnBXTEJwSlJfdkNqNzJreVp5MDNULVdDZ1ozSzE1YXp6dWR6MzZsOFBlRllhdlZEQmVBa1Eyb1hpQWlMWmdUaGlzeFpUZFlDZUszLU5KRG9SblF0VTNFT092TllTQnVqVlZHY2J3Uk1WblBfOUJGRmFob041dzEwRV9WaU5TWjlxbkswcTVJRQ?oc=5",
-      "pubDate": 1787727600000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1643361135",
-      "title": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model",
-      "titleZh": "阿里巴巴发布更小、更具成本效益的Qwen AI模型",
-      "summary": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVFN2VVNaUWE0bXJiNjQ2VWJlbngtWlpzcnY3RG44VlB1eVVhMWNiT21wYmVKSDJnQ0JkNXMycVg5bWRqQ2RIZ3E0d0hzdkEzUlNPV05aUjRUTFhzaXlNdVhVSHFXNGRuZFlPWUhEeEtKemMwdWJValR0MFpZM19OMVRpS1piVVhZWEI3ZmdJZmlDR1B5d2JMRU5DcENuSUktd01Ra0J6Zw?oc=5",
-      "pubDate": 1787727600000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1591455261",
       "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
       "titleZh": "使用句子变换器训练和微调多矢量嵌入模型",
@@ -1409,27 +1115,6 @@
         "cs": 1
       },
       "source": "Google AI"
-    },
-    {
-      "id": "1481393797",
-      "title": "Granite 4.2 LLMs: How They're Built",
-      "titleZh": "Granite 4.2 LLM ：如何构建",
-      "summary": "Granite 4.2 LLMs: How They're Built",
-      "link": "https://huggingface.co/blog/ibm-granite/granite-4-2",
-      "pubDate": 1787670854000,
-      "vendor": "huggingface",
-      "category": "Product",
-      "impact": "med",
-      "score": 37,
-      "scoreBreakdown": {
-        "cq": 7,
-        "kv": 0,
-        "cw": 15,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
     },
     {
       "id": "-932053064",
@@ -1516,27 +1201,6 @@
       "source": "VentureBeat"
     },
     {
-      "id": "-1066961806",
-      "title": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
-      "titleZh": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
-      "summary": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems scmp.com",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRVNJbE00UDhJSkVIaktiZTNYR01uZTVVNXd1SV9yMGpJM2dILU1SeWVFQXphS0dmYVNsekZrckVQVkNQNndYaWkxS1lKdXJRdE5MWVFJVVJvNHNPWlVUcVhJc2lRbFRiMFdhODdJeXJuTjZNcTg4enJpbEhMdTYxaDlpenFsSDVWUENpcDdxalM5UWR3OG10dUlMYXNSRjNhdGRYX04wN2s2aF9mb2hfbjJHY1FJT1F2WS1TQU8yc3NXMlFxSEtxX29Ca9IBywFBVV95cUxNekQyWHA4bjlBc09IbGwyajJaMEl1LVp0RXk0aWE5Q3hNWXlLUU5JcWxVRjg0ZHcwN05jN3pva3c1QzBjTjlJUl9CLWVVMkhxSjBCT2I0eFZhNkZwNDYwM0tVS3J1X1plS1J5bm02bzM4YWxPOEpXMzdhSEtRRkI0MzRYc3RFQUJRNmdid2lsMWRDM0tkcjFjUFlmZHBZdDZiR05CWkd0MHBFb3dZdHZCTHNCVjU3ZHlRMmM5TVhoTVlkZzBJV0x3UFRsdw?oc=5",
-      "pubDate": 1787036400000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1625615024",
       "title": "Get closer to the game with Gemini and Pixel",
       "titleZh": "通过Gemini和Pixel更接近游戏",
@@ -1621,27 +1285,6 @@
       "source": "Google AI"
     },
     {
-      "id": "-2029733216",
-      "title": "Putting sign language AI into users’ hands",
-      "titleZh": "Putting sign language AI into users’ hands",
-      "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
-      "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-      "pubDate": 1786543319000,
-      "vendor": "deepmind",
-      "category": "Release",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 25,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "DeepMind"
-    },
-    {
       "id": "2005007345",
       "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
       "titleZh": "我们的研究医疗人工智能系统AMIE在一项首创的研究中展示了实时临床视频咨询功能。",
@@ -1703,27 +1346,6 @@
         "cs": 1
       },
       "source": "Google AI"
-    },
-    {
-      "id": "1891460870",
-      "title": "What Does Alibaba (BABA) Qwen Royalty Model Mean For Its AI Business?",
-      "titleZh": "阿里巴巴（ BABA ） Qwen版税模式对其AI业务意味着什么？",
-      "summary": "What Does Alibaba (BABA) Qwen Royalty Model Mean For Its AI Business? Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNFRtSkE5ZWwtS054NjVibWJDcmFlN1JETWttV1lIRGw2QlJvSzg4bnVVMHE4bHN2RnVqSXo3ZllWVnFESnhTODhaX2FkVFJtb2hIbXJSOUg3TU1kejVYVmhKRHU1ZEt5YXZBWnpZWW05bEU1aVM2NFF5a2pLY1BRZFo5RVFkVkdHUG9UUWE5YlgzbnV4dXd2TWJR?oc=5",
-      "pubDate": 1786345200000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "901515433",
@@ -1915,27 +1537,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-769769758",
-      "title": "China’s DeepSeek AI Prepping for IPO, as It Becomes the Top AI Model",
-      "titleZh": "China’s DeepSeek AI Prepping for IPO, as It Becomes the Top AI Model",
-      "summary": "China’s DeepSeek AI Prepping for IPO, as It Becomes the Top AI Model MarketWise",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMWdhUE9VbUM3NDVhQ1F5eFVNYkF0RjIxRnR3T3pPMlNxdXZUdGN4SnV0bVQxekRjVjlrMHVWdjRCUnNZdXJ3NnFFa3JiSU54MGlETTh0SEt6UjdDdFVReDNOZXFPOFRseXFDc29pVlNKZi1qV1BkNHhwckFyUFJBRg?oc=5",
-      "pubDate": 1784271600000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "high",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1093452510",
       "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
       "titleZh": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
@@ -1955,27 +1556,6 @@
         "cs": 1
       },
       "source": "VentureBeat"
-    },
-    {
-      "id": "-807368284",
-      "title": "China's DeepSeek releases preview of long-awaited V4 model as AI race intensifies",
-      "titleZh": "随着人工智能竞赛的加剧，中国的DeepSeek发布了期待已久的V4车型的预览",
-      "summary": "China's DeepSeek releases preview of long-awaited V4 model as AI race intensifies CNBC",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd3BGX1RVY2NmcVZoZnpqQ0hDTmdhem9nVE5wLWlKN2lIYzNuVjJtUjdqeU9oWWIxVjY4WG1BU0ctMm5VNURWZmhnU05IQTVnakRJUFJSeHI5dFB0WThCb1h1Q2Fnb3k5aUwyTUd6NEZ3bU1LRWs5OHZvTi1MQlJpVzNMbnRzcDd6UkZxdFlsX0FycjU5SVc4ONIBngFBVV95cUxQWWFDRGp5MGRYM2FYZ0lvN0Y5cTVOSm56QmZQeENWTzdUQzVXOVZIQjVZZy1OcnJLeEFzSklFVEpWdWV6d05POWktN2JIbkJzQnhSZDdtRm1VQzBEbjR3ZjNyQ0VjSkVpenFrWGM5MnFWdndlVTg5OGgwMUpJa0RONnF2em9hdGhycjNGdmpmZHlQSEdudTMyRm1mdjVQUQ?oc=5",
-      "pubDate": 1777014000000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1380991222",
@@ -2018,216 +1598,6 @@
         "cs": 1
       },
       "source": "VentureBeat"
-    },
-    {
-      "id": "251294355",
-      "title": "Technology, recovery, and responsibility",
-      "titleZh": "技术、恢复和责任",
-      "summary": "By Sriram Rajamani, Managing Director, Microsoft Research India We started 2021 with the hope that the COVID-19 vaccines will immunize enough of the world’s population to give herd immunity in the com…",
-      "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
-      "pubDate": 1615961906000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 2,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "1792312368",
-      "title": "Directorate General of Training, Ministry of Skill Development and Entrepreneurship, partners with Microsoft and NASSCOM Foundation to empower students with next generation digital skills",
-      "titleZh": "技能发展和创业部培训总局与微软和NASSCOM基金会合作，为学生提供下一代数字技能",
-      "summary": "The blended curriculum will impact 1.2 lakh students across 3000 Industrial Training Institutes (ITI) in India New Delhi, January 7, 2021: With a vision to empower the next generation of learners, the…",
-      "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
-      "pubDate": 1610002951000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 3,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "58206720",
-      "title": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
-      "titleZh": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
-      "summary": "Multilingual omni-channel service reduces wait time for queries, improves customer satisfaction by 70% New Delhi, January 5, 2021 – Powered by Microsoft Azure, Indian Railway Catering and Tourism Corp…",
-      "link": "https://news.microsoft.com/en-in/microsoft-azure-powered-corover-developed-irctc-ai-chatbot-askdisha/",
-      "pubDate": 1609824612000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-1890804461",
-      "title": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
-      "titleZh": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
-      "summary": "• The initiative aims to skill 1 million students in AI by 2021 • The AI Classroom Series will deliver Microsoft’s AI, machine learning and data science expertise to undergraduate students at no cost …",
-      "link": "https://news.microsoft.com/en-in/nasscom-futureskills-microsoft-launch-ai-classroom-series-skill-students/",
-      "pubDate": 1599716180000,
-      "vendor": "microsoft",
-      "category": "Release",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 4,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-1460121599",
-      "title": "Industry and research – better together",
-      "titleZh": "Industry and research – better together",
-      "summary": "By Sriram Rajamani, Distinguished Scientist and Managing Director, Microsoft Research India at Microsoft Manik Varma, researcher in the Microsoft Research (MSR) India lab was awarded the prestigious S…",
-      "link": "https://news.microsoft.com/en-in/industry-and-research-better-together-sriram-rajamani/",
-      "pubDate": 1598613057000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 4,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-1887675878",
-      "title": "NSDC and Microsoft collaborate to empower Indian youth with digital skills",
-      "titleZh": "NSDC和微软合作，为印度青年提供数字技能",
-      "summary": "The initiative aims at skilling over 1 lakh youth in the next 12 months New Delhi, July 08, 2020: With a vision to transform India into a skilled nation, the National Skill Development Corporation (NS…",
-      "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
-      "pubDate": 1594186160000,
-      "vendor": "microsoft",
-      "category": "Release",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 4,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "652542494",
-      "title": "Empowering developers to achieve more at the Microsoft Developer Conference",
-      "titleZh": "帮助开发人员在Microsoft开发者大会上取得更大成就",
-      "summary": "New Delhi, June 18, 2020: Underlining the critical role of developers in innovations that will power economic recovery, the Microsoft Developer Conference brought together developers and tech professi…",
-      "link": "https://news.microsoft.com/en-in/microsoft-developer-conference/",
-      "pubDate": 1592461746000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 2,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-150806068",
-      "title": "Microsoft announces program to accelerate growth of agritech startups in India",
-      "titleZh": "微软宣布加速印度农业科技创业公司发展的计划",
-      "summary": "New Delhi, June 03, 2020: Microsoft announced the launch of a program for agritech startups in India that are committed to driving transformation in agriculture. The Microsoft for Agritech Startups pr…",
-      "link": "https://news.microsoft.com/en-in/microsoft-agritech-startups-program-india-launch/",
-      "pubDate": 1591162175000,
-      "vendor": "microsoft",
-      "category": "Release",
-      "impact": "high",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 5,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "297070690",
-      "title": "Microsoft empowers startups in India to achieve more",
-      "titleZh": "微软助力印度初创企业实现更多",
-      "summary": "Five startups showcase their unique propositions at Future Decoded Tech Summit Bengaluru, February 25, 2020: Startups are an indisputable innovation engine, and Microsoft is partnering with startups a…",
-      "link": "https://news.microsoft.com/en-in/microsoft-empowers-startups-in-india-to-achieve-more/",
-      "pubDate": 1582633175000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 4,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "1830923333",
-      "title": "Myntra accelerates its digital transformation journey with Microsoft Cloud",
-      "titleZh": "Myntra借助微软云加速其数字化转型之旅",
-      "summary": "reimagines online shopping experience for customers Azure powers biggest-ever End of Reason Sale New Delhi, February 19, 2020: Myntra, India’s leading destination for fashion and lifestyle, has partne…",
-      "link": "https://news.microsoft.com/en-in/myntra-digital-transformation-microsoft-cloud/",
-      "pubDate": 1582092103000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 0,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
     }
   ]
 }
