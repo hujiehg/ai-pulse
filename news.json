@@ -1,8 +1,29 @@
 {
-  "updated": "2026-09-07T23:07:23.372Z",
+  "updated": "2026-09-08T01:00:54.247Z",
   "count": 96,
   "sources": 10,
   "items": [
+    {
+      "id": "2027630174",
+      "title": "Opaque recurrence, and other AI terms that you should probably know",
+      "titleZh": "Opaque recurrence, and other AI terms that you should probably know",
+      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "link": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "pubDate": 1788809040000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "1854148299",
       "title": "Reports indicate that DeepSeek plans to build a data center in Inner Mongolia and install 160,000 Huawei AI chips, accelerating the development and operation of AI using Chinese-made GPUs.",
@@ -244,13 +265,13 @@
       "vendor": "openai",
       "category": "Release",
       "impact": "high",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 25,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -480,27 +501,6 @@
         "cq": 18,
         "kv": 2,
         "cw": 25,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1079521243",
-      "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
-      "titleZh": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
-      "summary": "It's the latest failure of OpenAI's internal monitoring and security systems.",
-      "link": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
-      "pubDate": 1788538871000,
-      "vendor": "techcrunch",
-      "category": "Agent",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 12,
         "st": 8,
         "rc": 1,
         "cs": 1
@@ -1021,13 +1021,13 @@
       "vendor": "huggingface",
       "category": "Release",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 25,
         "st": 14,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "HuggingFace"
