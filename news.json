@@ -1,8 +1,92 @@
 {
-  "updated": "2026-09-08T09:59:15.707Z",
+  "updated": "2026-09-08T14:02:49.928Z",
   "count": 106,
   "sources": 11,
   "items": [
+    {
+      "id": "1025359288",
+      "title": "The Work Now Within Reach",
+      "titleZh": "现在触手可及的工作",
+      "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+      "link": "https://openai.com/index/the-work-now-within-reach",
+      "pubDate": 1788872400000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "1049217168",
+      "title": "Alibaba Qwen Open-Sources Qwen-Drive-1.0-4B for Autonomous Driving Perception and Planning",
+      "titleZh": "阿里巴巴Qwen开源Qwen-Drive-1.0-4B自动驾驶感知规划",
+      "summary": "Alibaba Qwen Open-Sources Qwen-Drive-1.0-4B for Autonomous Driving Perception and Planning Pandaily",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYTBuOW5GbE1MUnBJWEZVQWltLTlGa1FhUDBmVEIyQmVJb0FKWTl1Q3dQNmVJQ1JhRmlzUlRWSjBXS3hkX1hoeW5Ic2dDbDVHV2lZRTFqWkRuQ1pfRVo1YUxHdnl1REkxSlV5VDBvN2V1ZXpkVVFtTnp1TmxtOV9zRS1kcw?oc=5",
+      "pubDate": 1788867366000,
+      "vendor": "qwen",
+      "category": "Agent",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 12,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1921005193",
+      "title": "DeepSeek Launches Two-Day Limited Beta for V4.1 Flash — New Architecture Natively Integrates Multimodal Capabilities",
+      "titleZh": "DeepSeek Launches Two-Day Limited Beta for V4.1 Flash — New Architecture Natively Integrates Multimodal Capabilities",
+      "summary": "DeepSeek Launches Two-Day Limited Beta for V4.1 Flash — New Architecture Natively Integrates Multimodal Capabilities finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kVVplWG9QcHBrWGpKc2xibTJBbURpUHJkV21GUGZ4SnNCc3MyZm5zMTV6bGRLNHBCRjQxVEkyUkM2bnFnSHk2cGVoSklCWGFtVnVOLWN0ZDIwMW1lMnUwNXdVQ0laUkJOamp3Uk9zQmVRNFNyalE?oc=5",
+      "pubDate": 1788859560000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 25,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-817593568",
+      "title": "Moonshot AI Eyes IPO as Kimi K3 Drives ARR to $300M",
+      "titleZh": "Moonshot AI Eyes首次公开募股， Kimi K3将ARR提升至$ 3亿",
+      "summary": "Moonshot AI Eyes IPO as Kimi K3 Drives ARR to $300M TechRepublic",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5RT2tDYU1XQk9RUHpwZUhxbUttN3Y4UnVaeC1IUkJkbkJSVVdFZXNiMnl4TVhtY3dDaE5wQ0psTWF0S2tqUU9iQnFpcVlzWGRaSmRwYWlIc3pVYk9uaUhoc3VZWGFrczdVV0hKUkh2a2JqSVpIRE45Qnlzak4?oc=5",
+      "pubDate": 1788824229000,
+      "vendor": "kimi",
+      "category": "Funding",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 3,
+        "cw": 20,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
     {
       "id": "2027630174",
       "title": "Opaque recurrence, and other AI terms that you should probably know",
@@ -25,27 +109,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "-2074337523",
-      "title": "Every Major AI Model That Shipped in Six Weeks, From Kimi K3 to GPT-6 Astra",
-      "titleZh": "从Kimi K3到GPT-6 Astra ，六周内出货的每个主要AI模型",
-      "summary": "Every Major AI Model That Shipped in Six Weeks, From Kimi K3 to GPT-6 Astra Memeburn",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZHpNcy1Ta2JPdTdsWFN1cEV4YlJqNWVjSmJDQmE2aDdXZ2d1a00zM18tYVBDaG5GVGM3eU1OZjRBTVBqRU15VkxaUHNnRTRUREVjT0lrOTJqYzFjSk5JNFRmU04wMTFWVlBacUlrRlhseVJzZUlBeVo1QnFjOVk2SEVWcXhUTDlhYWFLQ1R4NXRIZkd0Rm94RzJYeGo?oc=5",
-      "pubDate": 1788790207000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "high",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1287981270",
       "title": "Qwen-Drive 1.0 tells you why it brakes, just don't expect the explanation to match the maneuver - the",
       "titleZh": "Qwen-Drive 1.0告诉你它为什么刹车，只是不要指望解释与机动相匹配-",
@@ -55,13 +118,34 @@
       "vendor": "qwen",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-108713660",
+      "title": "AI Rewriting Output Often Lacks Coherence? Discover How Kimi Solves the AI Rewriting Dilemma",
+      "titleZh": "AI重写输出往往缺乏一致性？探索Kimi如何解决人工智能改写的困境",
+      "summary": "AI Rewriting Output Often Lacks Coherence? Discover How Kimi Solves the AI Rewriting Dilemma 36 Kr",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBqY0NhTXRzUmRRdHVNV0tLbnNuREl2NnVyQ09VbDhHZlZsWEZUT19rVVVrdmhNVU1LY0x1aFM3MlZIRnpDOWNST2pjR1J4U1JGSkVZ?oc=5",
+      "pubDate": 1788778247000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 12,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -76,34 +160,34 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
     },
     {
-      "id": "1854148299",
-      "title": "Reports indicate that DeepSeek plans to build a data center in Inner Mongolia and install 160,000 Huawei AI chips, accelerating the development and operation of AI using Chinese-made GPUs.",
-      "titleZh": "报告显示， DeepSeek计划在内蒙古建立一个数据中心，安装16万个华为AI芯片，加速使用中国制造的GPU开发和运营AI。",
-      "summary": "Reports indicate that DeepSeek plans to build a data center in Inner Mongolia and install 160,000 Huawei AI chips, accelerating the development and operation of AI using Chinese-made GPUs. GIGAZINE",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbHh0VHd1cXJMMHFQMUZMbFdJREoteGE3eTVxeDQzZDdEMHhOazVGVHpEd0pmNDZhX1FXLTV5V09rQmZsbGFnSXY3ZllKcUlIY1IyaFNGbEZjWEtKT1NDOTNFZnp4WlNnXzlyYVFiSjRPVEFVWTc4aUctZi1QZktXNTZQV2M?oc=5",
-      "pubDate": 1788776100000,
+      "id": "-1112088849",
+      "title": "Chinese shoppers can now buy AI subscriptions from DeepSeek and Z.ai on Tmall",
+      "titleZh": "中国购物者现在可以在天猫上从DeepSeek和Z.ai购买人工智能订阅",
+      "summary": "Chinese shoppers can now buy AI subscriptions from DeepSeek and Z.ai on Tmall scmp.com",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWjhEY0ZZS05RYnE4OXkzLWE3ZDFGenJJNnFyUDFIenlfbkNFX1NSaTNBVVhJZHRpMHVjdjhnNVBXNlJPS2VrTDRVZnZmLWlFeW9DOWJLazUtdXozVnVIaFRJeVNNdzh0b1pEWWFDRmhzc1o1OWIzcHU2UTZfUWxnZGJ2ZGktYmpYU3RaUXlkbW8yNGdONHhqaWtEQ094YkNBWHdJVGkwTUVXZ3FYRUthcEdrTG4zOEtWVnRTcnk3aEZCcTF1YkhkYnhnOVjSAcwBQVVfeXFMTjJMX2UzVFpCM0k0a1FxRVdjZjVMYjlCMzlQWnVNM2lpYmlHSlVoaG51YnpvRFMwNTFnYms4UFBfbWJaekc0a3UwbjBITC0tSVowYmNva1VXSHlYZ212Ri11STVWeUdiWlJneGJvUURKOGY3NzM3TWpLZ2VncnNvaThhMm9NM3RMTlphbDBLU3pGVDZwVU8yNW1rZEJ2ZnJRWEJnSTR1UjNBcDRyZlRoYmw3eXltRFNrS0pnWGRxR2RfYldRaGZ5QzlXb0cw?oc=5",
+      "pubDate": 1788768013000,
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -445,10 +529,10 @@
       "source": "TechCrunch"
     },
     {
-      "id": "-947158885",
+      "id": "-1371955046",
       "title": "Moonshot AI Files Confidentially for a $50 Billion Hong Kong IPO",
       "titleZh": "Moonshot AI秘密申请$ 500亿香港IPO",
-      "summary": "Moonshot AI Files Confidentially for a $50 Billion Hong Kong IPO startupfortune.com",
+      "summary": "Moonshot AI Files Confidentially for a $50 Billion Hong Kong IPO Startup Fortune",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdGYtNnlaRjVpMllRMWprZk04dTZob2VmdjJ4TE5SdTI1OURwRGdCWmRmeXZfSTVmM0ludVVfUVNCOXQyNl8zT252MVZiYUlIY1IxUkpPUGlQODdTUkJON2lxX3dTYjV1OWhiU0ptRXNQalhTVlpuVE9SQi1SRFphWnJCZ0NCYTFZcG9fUlA0WUNRcnRScWc?oc=5",
       "pubDate": 1788533393000,
       "vendor": "kimi",
@@ -634,27 +718,6 @@
       "source": "Google News"
     },
     {
-      "id": "-136431781",
-      "title": "China's Moonshot AI is confidentially filing for a Hong Kong IPO targeting $3 billion",
-      "titleZh": "中国的Moonshot AI正在秘密申请香港IPO ，目标为30 $",
-      "summary": "China's Moonshot AI is confidentially filing for a Hong Kong IPO targeting $3 billion qz.com",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kd0plV3R2TEVfVkJIMXBwTEQxLTJUTEtVRHNSMnpHX1QzMER6bWpkZGxJUy1kdVd5aE41ZVBYMlNpUHFVTjFJUl9zMDFFWl9BcTNaNTBuQkxJWGZxNW13S0dqbnctbFhQRkJWWkN3aEtxUQ?oc=5",
-      "pubDate": 1788439350000,
-      "vendor": "kimi",
-      "category": "Funding",
-      "impact": "high",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 20,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-576758173",
       "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
       "titleZh": "Legora使用GPT-6 Astra在几分钟内审阅了41份文件",
@@ -723,7 +786,7 @@
       "titleZh": "China’s Moonshot AI Confidentially Filed Hong Kong IPO",
       "summary": "China’s Moonshot AI Confidentially Filed Hong Kong IPO WSJ",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM0MyYnEzbkZYd19tMEFCczNsNGdlTmptMjdNM3VDV1lvUTRBOFQ3NHBtcW02VEdiRV9NZ2tvVllya3BaWS1HS2tGNFllSThRakFobXJLM2tGcWl3WEl0dnNMX0NzWmlUWmxTMnoxXzNGQVlQNDE4RTEwV2c1Mk1GSGZybjlnb2tWUDlHVlU5ZG1JRFBm?oc=5",
-      "pubDate": 1788436320000,
+      "pubDate": 1788436418000,
       "vendor": "kimi",
       "category": "Funding",
       "impact": "high",
@@ -760,12 +823,12 @@
       "source": "OpenAI"
     },
     {
-      "id": "1334223736",
+      "id": "-338009393",
       "title": "Kimi K3 Operator Moonshot Reportedly Files For Hong Kong IPO As China’s AI Advances Weigh On OpenAI, Anthropic",
       "titleZh": "Kimi K3 Operator Moonshot Reportedly Files For Hong Kong IPO As China’s AI Advances Weigh On OpenAI, Anthropic",
-      "summary": "Kimi K3 Operator Moonshot Reportedly Files For Hong Kong IPO As China’s AI Advances Weigh On OpenAI, Anthropic Stocktwits",
-      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPYnJxQkV5cHdiZjJTMDhHYWRUdDdZcTJFVF9xWFU3WEIybS1PcWtjOF9HZDJrUWFGdHNXUks2T2wzdmRTZ3dSdFlZUWdoMFUwY0gtUEJzODNtSXI4a2s3MldRbExxeEc3aTQwZUhPVk9nRnZVdjhhN2hrR0FOQkdDSk1nZmRBdzBDRDh5bWpiRVVpRy01SFBKN3lMdFRWLXl5R0w3VXp0Qk50X1B3N21WZXFwR0ctWFBfdGJYVkR1TXU3MDgwV2ZONnNRYV9NVDRBLVlBbGl2YWFZeEw4YjF3TjNQWl8xeW5lcHBENXZKa2NUOGV0bWdGZUo3ZE9jcm5uQVFiaQ?oc=5",
-      "pubDate": 1788411600000,
+      "summary": "Kimi K3 Operator Moonshot Reportedly Files For Hong Kong IPO As China’s AI Advances Weigh On OpenAI, Anthropic Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZVdGQWx3aWYwSUZCQ2FHNk5mWkMxVGlrZEtObUV1dnJUYTJvVVFmNU1CbThiY0Vsc0xULWNGYVVSZlBnQ0hRckZFT05rQ2ZjcF9wbHJXeWcwVW9sVHFtOTVHemtsSnNLYzd4UDRYUmhLZXdNUzlvN3Mzb3JmaGkwQWM2dVE3aFJ0TWR2bEZpMThNdTdDLXJaVGVteFJOQUtNM2c?oc=5",
+      "pubDate": 1788411609000,
       "vendor": "kimi",
       "category": "Funding",
       "impact": "high",
@@ -781,18 +844,18 @@
       "source": "Google News"
     },
     {
-      "id": "-401985492",
+      "id": "461172608",
       "title": "What Is Qwen 3.8? Alibaba's Upcoming 2.4-Trillion-Parameter Open-Weight Flagship",
       "titleZh": "什么是Qwen 3.8 ？阿里巴巴即将推出的2.4万亿参数开放式重量旗舰",
-      "summary": "What Is Qwen 3.8? Alibaba's Upcoming 2.4-Trillion-Parameter Open-Weight Flagship resident.com",
+      "summary": "What Is Qwen 3.8? Alibaba's Upcoming 2.4-Trillion-Parameter Open-Weight Flagship RESIDENT™ | A Luxury Lifestyle Magazine",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPeDRyTDlMSFk5cFZmVzc4SVowOUIxWXVPX3Vkdy1zQjQ3TXY2LWR2cUFITmI2aFh1T2Q4Mm1CMS1hZTdERkM5d2RPMW1CaC05NDJWZEllclRoNUhqRjBvZEdBc2gzY3VqVG93d0ppdndPNkdiTVhwaVdTQ2ZwR1FjeTNmb2E3MV9zWThHRGQxUDRrVF9VYzNJOXBDaVpZNHhFbEc0UUZEcmRRQ2RDNWxlMWQwM0piY1RqTFJzTV83Yk5KYm9pRUNBeE9NN0ZrQ290TkN3cDlJaFrSAeYBQVVfeXFMUExqTGU3QzEwVUFKc0s0Y2RSdEVEaU5pTXZhNGNYcE9yc3hiemE2SVVFandVWG9fU3RKTkZTaEZoRF9saHVobV9sSHVFbzhEaEt1Zjk3M0RkbnFsUU1UYnZESGtWVm9RZVU3SlhicXpSeEFFOERXdHRHVFdCR0FEdkUyb1UtQVRXQnpOTlh5RldTMUJ1RkhmNVBya1lPY3pPZG14ZkhjOVlVNUNTR1pBVndvQ0xnWWF4b1RsdGtvNkRsamF6RFo3alhRc2lXbmlBVUpONWFjYWpJZDVzMW5Kc3ZKRDlFN1E?oc=5",
       "pubDate": 1788405894000,
       "vendor": "qwen",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 51,
       "scoreBreakdown": {
-        "cq": 18,
+        "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
@@ -1031,27 +1094,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "-69469860",
-      "title": "How AI-native companies turn workflows into operating capability",
-      "titleZh": "人工智能原生公司如何将工作流程转化为运营能力",
-      "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
-      "link": "https://openai.com/index/ai-native-company-workflows",
-      "pubDate": 1788282000000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
     },
     {
       "id": "822663115",
@@ -1306,10 +1348,10 @@
       "source": "Google News"
     },
     {
-      "id": "374586481",
+      "id": "-1643361135",
       "title": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model",
       "titleZh": "阿里巴巴发布更小、更具成本效益的Qwen AI模型",
-      "summary": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model Bloomberg.com",
+      "summary": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVFN2VVNaUWE0bXJiNjQ2VWJlbngtWlpzcnY3RG44VlB1eVVhMWNiT21wYmVKSDJnQ0JkNXMycVg5bWRqQ2RIZ3E0d0hzdkEzUlNPV05aUjRUTFhzaXlNdVhVSHFXNGRuZFlPWUhEeEtKemMwdWJValR0MFpZM19OMVRpS1piVVhZWEI3ZmdJZmlDR1B5d2JMRU5DcENuSUktd01Ra0J6Zw?oc=5",
       "pubDate": 1787727600000,
       "vendor": "qwen",
@@ -1474,18 +1516,18 @@
       "source": "VentureBeat"
     },
     {
-      "id": "1686568900",
+      "id": "-1066961806",
       "title": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
       "titleZh": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
-      "summary": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems South China Morning Post",
+      "summary": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems scmp.com",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRVNJbE00UDhJSkVIaktiZTNYR01uZTVVNXd1SV9yMGpJM2dILU1SeWVFQXphS0dmYVNsekZrckVQVkNQNndYaWkxS1lKdXJRdE5MWVFJVVJvNHNPWlVUcVhJc2lRbFRiMFdhODdJeXJuTjZNcTg4enJpbEhMdTYxaDlpenFsSDVWUENpcDdxalM5UWR3OG10dUlMYXNSRjNhdGRYX04wN2s2aF9mb2hfbjJHY1FJT1F2WS1TQU8yc3NXMlFxSEtxX29Ca9IBywFBVV95cUxNekQyWHA4bjlBc09IbGwyajJaMEl1LVp0RXk0aWE5Q3hNWXlLUU5JcWxVRjg0ZHcwN05jN3pva3c1QzBjTjlJUl9CLWVVMkhxSjBCT2I0eFZhNkZwNDYwM0tVS3J1X1plS1J5bm02bzM4YWxPOEpXMzdhSEtRRkI0MzRYc3RFQUJRNmdid2lsMWRDM0tkcjFjUFlmZHBZdDZiR05CWkd0MHBFb3dZdHZCTHNCVjU3ZHlRMmM5TVhoTVlkZzBJV0x3UFRsdw?oc=5",
       "pubDate": 1787036400000,
       "vendor": "qwen",
       "category": "Product",
       "impact": "med",
-      "score": 54,
+      "score": 52,
       "scoreBreakdown": {
-        "cq": 22,
+        "cq": 20,
         "kv": 4,
         "cw": 15,
         "st": 12,
@@ -1669,27 +1711,6 @@
       "summary": "What Does Alibaba (BABA) Qwen Royalty Model Mean For Its AI Business? Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNFRtSkE5ZWwtS054NjVibWJDcmFlN1JETWttV1lIRGw2QlJvSzg4bnVVMHE4bHN2RnVqSXo3ZllWVnFESnhTODhaX2FkVFJtb2hIbXJSOUg3TU1kejVYVmhKRHU1ZEt5YXZBWnpZWW05bEU1aVM2NFF5a2pLY1BRZFo5RVFkVkdHUG9UUWE5YlgzbnV4dXd2TWJR?oc=5",
       "pubDate": 1786345200000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-219434516",
-      "title": "Alibaba plans revenue sharing for next open-source Qwen AI model",
-      "titleZh": "阿里巴巴计划下一个开源Qwen AI模型的收入分成",
-      "summary": "Alibaba plans revenue sharing for next open-source Qwen AI model qz.com",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1QNXpYQzl1QUZ5RW53SEZjQmFmejc2alNvUFFuWWZsMk1YYTNYRWFfNFhzcGZmQ2xfaHJlSjMtUlpXYjdkcEoyemk4T0xxenBVb3ZNSzk5Zzc1dVJZSW4yOVNGdUNCS3NkZUJlR2xkcw?oc=5",
-      "pubDate": 1786086000000,
       "vendor": "qwen",
       "category": "Research",
       "impact": "med",
@@ -1894,10 +1915,10 @@
       "source": "NVIDIA"
     },
     {
-      "id": "383891381",
+      "id": "-769769758",
       "title": "China’s DeepSeek AI Prepping for IPO, as It Becomes the Top AI Model",
       "titleZh": "China’s DeepSeek AI Prepping for IPO, as It Becomes the Top AI Model",
-      "summary": "China’s DeepSeek AI Prepping for IPO, as It Becomes the Top AI Model marketwise.com",
+      "summary": "China’s DeepSeek AI Prepping for IPO, as It Becomes the Top AI Model MarketWise",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMWdhUE9VbUM3NDVhQ1F5eFVNYkF0RjIxRnR3T3pPMlNxdXZUdGN4SnV0bVQxekRjVjlrMHVWdjRCUnNZdXJ3NnFFa3JiSU54MGlETTh0SEt6UjdDdFVReDNOZXFPOFRseXFDc29pVlNKZi1qV1BkNHhwckFyUFJBRg?oc=5",
       "pubDate": 1784271600000,
       "vendor": "deepseek",
@@ -1934,27 +1955,6 @@
         "cs": 1
       },
       "source": "VentureBeat"
-    },
-    {
-      "id": "1998661165",
-      "title": "China’s DeepSeek rolls out a long-anticipated update of its AI model",
-      "titleZh": "China’s DeepSeek rolls out a long-anticipated update of its AI model",
-      "summary": "China’s DeepSeek rolls out a long-anticipated update of its AI model AP News",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU2pHYXJUc25BSWltX01IcEhVQUlfMy1aVjhRcERjajZKOThMYkEyQTk4d1UxcjBuazFYNEt6R1ZDLXd2aFZXTEdvTDNYc1hMUkZha29VaGo5WHI1dXljN1Zid3AxdHNoa3hFMlVjMGhfaUdlZXUwTEpfRkdmTFMyMnV1TmFWNjBTLWdoRw?oc=5",
-      "pubDate": 1777014000000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-807368284",
