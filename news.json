@@ -1,8 +1,29 @@
 {
-  "updated": "2026-09-09T10:27:04.752Z",
+  "updated": "2026-09-09T14:44:11.586Z",
   "count": 94,
   "sources": 10,
   "items": [
+    {
+      "id": "-1997404149",
+      "title": "Suno replaces its AI models with a new one trained on licensed music as copyright suits pile up",
+      "titleZh": "随着版权诉讼的堆积， Suno将其人工智能模型替换为经过授权音乐培训的新模型",
+      "summary": "As it grapples with a bevy of lawsuits, Suno said its new model, Suno v6, is not trained using music it used to train previous versions of the AI model.",
+      "link": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/",
+      "pubDate": 1788955534000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-292923544",
       "title": "U.S. agencies say top Chinese AI companies systematically copied American models",
@@ -13,13 +34,13 @@
       "vendor": "google",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 22,
         "st": 15,
-        "rc": 5,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -34,13 +55,13 @@
       "vendor": "deepseek",
       "category": "Release",
       "impact": "high",
-      "score": 68,
+      "score": 67,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -55,13 +76,13 @@
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -69,20 +90,20 @@
     {
       "id": "-930688344",
       "title": "Moonshot, whose Kimi model rattled markets, accused of extracting U.S. AI capabilities",
-      "titleZh": "Moonshot公司开发的Kimi模型曾引发市场震荡，该公司被指控窃取美国的人工智能能力。",
+      "titleZh": "Moonshot ，其Kimi模型扰乱了市场，被指控提取美国人工智能能力",
       "summary": "Moonshot, whose Kimi model rattled markets, accused of extracting U.S. AI capabilities CoinDesk",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd21CaVhrWUg3Y2RjOVAyOGFSSzN6TzBEVHdRMEVzd3hDNWMxX1dPX3dkX0FLZjJ1OHh1SFAzODFsUldJUWMzR0RlT1VzQ0lpNXB6U05VUlVJZ1BDOTNRdE9oUEtyU2hBMTFLQUFQNmxCRDkteUlkRHJhcWJVNlBmUUw5dWFUbUZGZ0l0VDhpaElLMkFTdU5zQk5zMXJRc3Vjc3liM1Zsd2xRYkdnWURhYUp3Smg5OEcybnplRkl3RjZITWxRQXc?oc=5",
       "pubDate": 1788929905000,
       "vendor": "kimi",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -517,13 +538,13 @@
       "vendor": "huggingface",
       "category": "Safety",
       "impact": "med",
-      "score": 40,
+      "score": 39,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 1,
         "cw": 10,
         "st": 14,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -538,13 +559,13 @@
       "vendor": "techcrunch",
       "category": "Funding",
       "impact": "high",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 20,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -559,13 +580,13 @@
       "vendor": "deepmind",
       "category": "Product",
       "impact": "high",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 1,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "DeepMind"
@@ -580,13 +601,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -601,13 +622,13 @@
       "vendor": "openai",
       "category": "Release",
       "impact": "med",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 25,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -727,13 +748,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -774,27 +795,6 @@
         "cq": 16,
         "kv": 0,
         "cw": 12,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "848095053",
-      "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
-      "titleZh": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
-      "summary": "The Uber founder has said that Atoms will allow him to complete \"unfinished business.\"",
-      "link": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
-      "pubDate": 1788713100000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 39,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 15,
         "st": 8,
         "rc": 1,
         "cs": 1
@@ -1168,13 +1168,13 @@
       "vendor": "huggingface",
       "category": "Research",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 1,
         "cw": 22,
         "st": 14,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "HuggingFace"
