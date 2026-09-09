@@ -1,8 +1,92 @@
 {
-  "updated": "2026-09-08T22:55:20.955Z",
+  "updated": "2026-09-09T00:53:29.834Z",
   "count": 106,
   "sources": 11,
   "items": [
+    {
+      "id": "2086581773",
+      "title": "Hackers are stealing Claude tokens from subscribers",
+      "titleZh": "黑客正在从订阅者那里窃取Claude令牌",
+      "summary": "Last month, a Claude user noticed his account was consuming tokens even though he wasn't working. Anthropic has since warned users about hackers.",
+      "link": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
+      "pubDate": 1788901827000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1630924301",
+      "title": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
+      "titleZh": "Cognition的估值达到480亿美元，表明投资者认为人工智能编码远未成为赢家通吃的市场",
+      "summary": "Cognition's valuation multiple is higher than Cursor's was before selling to SpaceX.",
+      "link": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
+      "pubDate": 1788901446000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 12,
+        "kv": 1,
+        "cw": 20,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1848277356",
+      "title": "What Happens When a Fast-Growing New York AI Startup Finds a Chinese AI Company Has the Same Name?",
+      "titleZh": "当一家快速增长的纽约人工智能初创公司发现一家中国人工智能公司有相同的名字时会发生什么？",
+      "summary": "What Happens When a Fast-Growing New York AI Startup Finds a Chinese AI Company Has the Same Name? PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNcFBGc3JQOE9XX1dla1ZRLUVOTHBXRlVGaGEydGhmQVZlVnpGVkI5OG0zRmw1ekxaaHRrcmJuV2tPWHNDc1dHVzFjaUM1ZnliZHYySXI3c2taZjlLbUtyUjNOME4xM1E0T2ZpU3EtZEpmaHY4ckQ4aUZPektsTmFRZXFQVGRaOF9ORTcxdlZRYkp0UWNkczc2cXVTdm1EZ3lqQ0JqTnZZR09EaWt1dUNsZEdlRVBUYlVkMlRuS25SN3IwQUlXS3lPOWRRVl95aGtsYUFHRkVVamZVdE82WmliOEV4R1g5YndN?oc=5",
+      "pubDate": 1788894600000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1263457775",
+      "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+      "titleZh": "Meta首次推出其Muse AI代理。消费者会信任它吗？",
+      "summary": "Meta's new personal AI agent Muse wants access to users' email, calendars, payments, health services, and more — making the company's biggest consumer AI bet yet a major test of whether people still t…",
+      "link": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+      "pubDate": 1788894000000,
+      "vendor": "techcrunch",
+      "category": "Agent",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 0,
+        "cw": 12,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-1253526130",
       "title": "OpenAI fought dirty on career-making math problem, says NYU mathematician",
@@ -13,13 +97,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -151,18 +235,18 @@
       "source": "OpenAI"
     },
     {
-      "id": "1049217168",
+      "id": "1928846723",
       "title": "Alibaba Qwen Open-Sources Qwen-Drive-1.0-4B for Autonomous Driving Perception and Planning",
       "titleZh": "阿里巴巴Qwen开源Qwen-Drive-1.0-4B自动驾驶感知规划",
-      "summary": "Alibaba Qwen Open-Sources Qwen-Drive-1.0-4B for Autonomous Driving Perception and Planning Pandaily",
+      "summary": "Alibaba Qwen Open-Sources Qwen-Drive-1.0-4B for Autonomous Driving Perception and Planning pandaily.com",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYTBuOW5GbE1MUnBJWEZVQWltLTlGa1FhUDBmVEIyQmVJb0FKWTl1Q3dQNmVJQ1JhRmlzUlRWSjBXS3hkX1hoeW5Ic2dDbDVHV2lZRTFqWkRuQ1pfRVo1YUxHdnl1REkxSlV5VDBvN2V1ZXpkVVFtTnp1TmxtOV9zRS1kcw?oc=5",
       "pubDate": 1788867366000,
       "vendor": "qwen",
       "category": "Agent",
       "impact": "med",
-      "score": 50,
+      "score": 52,
       "scoreBreakdown": {
-        "cq": 20,
+        "cq": 22,
         "kv": 2,
         "cw": 12,
         "st": 12,
@@ -286,13 +370,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -307,34 +391,34 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "high",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 1,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
     },
     {
-      "id": "-817593568",
+      "id": "593972269",
       "title": "Moonshot AI Eyes IPO as Kimi K3 Drives ARR to $300M",
       "titleZh": "Moonshot AI Eyes首次公开募股， Kimi K3将ARR提升至$ 3亿",
-      "summary": "Moonshot AI Eyes IPO as Kimi K3 Drives ARR to $300M TechRepublic",
+      "summary": "Moonshot AI Eyes IPO as Kimi K3 Drives ARR to $300M techrepublic.com",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5RT2tDYU1XQk9RUHpwZUhxbUttN3Y4UnVaeC1IUkJkbkJSVVdFZXNiMnl4TVhtY3dDaE5wQ0psTWF0S2tqUU9iQnFpcVlzWGRaSmRwYWlIc3pVYk9uaUhoc3VZWGFrczdVV0hKUkh2a2JqSVpIRE45Qnlzak4?oc=5",
       "pubDate": 1788824229000,
       "vendor": "kimi",
       "category": "Funding",
       "impact": "high",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 3,
         "cw": 20,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -424,10 +508,10 @@
       "source": "Google News"
     },
     {
-      "id": "-292705159",
+      "id": "-1562724570",
       "title": "Alibaba’s Qwen releases open-source model for autonomous driving",
       "titleZh": "Alibaba’s Qwen releases open-source model for autonomous driving",
-      "summary": "Alibaba’s Qwen releases open-source model for autonomous driving technode.com",
+      "summary": "Alibaba’s Qwen releases open-source model for autonomous driving TechNode",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE16UHpfYXBMLXl0eDFCVm5pSUtTa2c0ZGFZQnpPeTUxTTFQMS15dXhkUUFEV25YN2ZsWXBaM1o0aGo1dF95T0gtR3h3R3gtektUT0d0OUZJcUtIMTZKc2hoN3EwajJZOG5Oa2swU1NTYw?oc=5",
       "pubDate": 1788759359000,
       "vendor": "qwen",
@@ -454,13 +538,13 @@
       "vendor": "openai",
       "category": "Release",
       "impact": "high",
-      "score": 63,
+      "score": 62,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 25,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -550,48 +634,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "1482069572",
-      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
-      "titleZh": "《西雅图时报》和《新闻日报》是起诉OpenAI和微软的最新出版物",
-      "summary": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
-      "link": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-      "pubDate": 1788648595000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "157084469",
-      "title": "Hikers rescued after using Google Gemini for planning",
-      "titleZh": "徒步旅行者在使用Google Gemini进行规划后获救",
-      "summary": "The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.\"",
-      "link": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
-      "pubDate": 1788636924000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "178604145",
       "title": "Moonshot AI's Kimi K3 Proves Frontier-Level AI No Longer Requires Frontier-Level Spending",
       "titleZh": "Moonshot AI的Kimi K3证明前沿级AI不再需要前沿级支出",
@@ -613,31 +655,10 @@
       "source": "Google News"
     },
     {
-      "id": "-930930697",
-      "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
-      "titleZh": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
-      "summary": "OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.",
-      "link": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
-      "pubDate": 1788631527000,
-      "vendor": "techcrunch",
-      "category": "Agent",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "234757932",
+      "id": "1601798047",
       "title": "Chinese AI firm Moonshot files confidentially for Hong Kong IPO, sources say",
       "titleZh": "消息人士称，中国人工智能公司Moonshot为香港IPO秘密提交文件",
-      "summary": "Chinese AI firm Moonshot files confidentially for Hong Kong IPO, sources say Reuters",
+      "summary": "Chinese AI firm Moonshot files confidentially for Hong Kong IPO, sources say reuters.com",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT3M0Q2ZhaUlPQkc5bzU5MUEyMlpEaFFMVU5uakRWOEJkek85Z2ZsVWxjc0JnR3NrTFdXOGRIdDRQWmhobmhCZU9iVE9sakxTTVE0ejBhRnAyX1BaM0huMlVvZEJHREh6YzRQMzRLaXZRU2xtRld0THVvODFwTmJwa3BhOU9TQ1ZoQ2UxMldKVzlwcThoWTlEcVctbjhuZ2FqQVc4UTZwejhYeGtvWXJCdTBMaHVnSTVFbDVZSG1nVXYwOEtp?oc=5",
       "pubDate": 1788592186000,
       "vendor": "kimi",
@@ -648,27 +669,6 @@
         "cq": 18,
         "kv": 1,
         "cw": 20,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1591831917",
-      "title": "Who Is Yang Zhilin? Moonshot AI CEO Taking Silicon Valley Ideas To China",
-      "titleZh": "杨志林是谁？ Moonshot AI首席执行官将硅谷创意带到中国",
-      "summary": "Who Is Yang Zhilin? Moonshot AI CEO Taking Silicon Valley Ideas To China NDTV",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM295Z0FHSUVnU1NhbENSa2NuSWNicVhfSUhmaEktQnhrVjFkRmQyOHlrOXB5WEpyb2NQcXBkSzhFOTlxdFA0LXRFWElEOXhGUUg0YmIzc3ZBQlVrWHF3U0ZDRzc3dHlnRnlZbGpuZlowN3VYLTRoQ01jaXM5TldGS0pQUHBheml5d3YtV2p5SkdqT0JJME0tTlMtak1zU0lnZXJzcVVuOW5HeTRnZWtJSzNn0gG6AUFVX3lxTE9FbG93Mmw2ODZJQWJIQ21LZGpUZTIxdkV1SGp3cGtoR2hNd1llbEUwampVdG8wNHU4cllTTGNsS2VWYnZvU1BQZ2pCaHZqUzM3d0RXRkJmVktHOXhuOFNaUFR2T2QyUjJwVDZ4bGcwelRGWU1UMVZSY3ZsMVRYRTAtaElmZDJnZTBGaUxKT25uTWp4anc3eW0tTGlJUG1YaWs2QVNjQnlieFp0eDBkV3RGTHUxMXJYaHFoQQ?oc=5",
-      "pubDate": 1788589119000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -865,27 +865,6 @@
       "source": "Google News"
     },
     {
-      "id": "-136431781",
-      "title": "China's Moonshot AI is confidentially filing for a Hong Kong IPO targeting $3 billion",
-      "titleZh": "中国的Moonshot AI正在秘密申请香港IPO ，目标为30 $",
-      "summary": "China's Moonshot AI is confidentially filing for a Hong Kong IPO targeting $3 billion qz.com",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kd0plV3R2TEVfVkJIMXBwTEQxLTJUTEtVRHNSMnpHX1QzMER6bWpkZGxJUy1kdVd5aE41ZVBYMlNpUHFVTjFJUl9zMDFFWl9BcTNaNTBuQkxJWGZxNW13S0dqbnctbFhQRkJWWkN3aEtxUQ?oc=5",
-      "pubDate": 1788439350000,
-      "vendor": "kimi",
-      "category": "Funding",
-      "impact": "high",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 20,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1617073049",
       "title": "NVIDIA to Acquire Hugging Face",
       "titleZh": "英伟达收购Hugging Face",
@@ -912,7 +891,7 @@
       "titleZh": "China’s Moonshot AI Confidentially Filed Hong Kong IPO",
       "summary": "China’s Moonshot AI Confidentially Filed Hong Kong IPO WSJ",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM0MyYnEzbkZYd19tMEFCczNsNGdlTmptMjdNM3VDV1lvUTRBOFQ3NHBtcW02VEdiRV9NZ2tvVllya3BaWS1HS2tGNFllSThRakFobXJLM2tGcWl3WEl0dnNMX0NzWmlUWmxTMnoxXzNGQVlQNDE4RTEwV2c1Mk1GSGZybjlnb2tWUDlHVlU5ZG1JRFBm?oc=5",
-      "pubDate": 1788436418000,
+      "pubDate": 1788436320000,
       "vendor": "kimi",
       "category": "Funding",
       "impact": "high",
@@ -933,7 +912,7 @@
       "titleZh": "Kimi K3 Operator Moonshot Reportedly Files For Hong Kong IPO As China’s AI Advances Weigh On OpenAI, Anthropic",
       "summary": "Kimi K3 Operator Moonshot Reportedly Files For Hong Kong IPO As China’s AI Advances Weigh On OpenAI, Anthropic Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZVdGQWx3aWYwSUZCQ2FHNk5mWkMxVGlrZEtObUV1dnJUYTJvVVFmNU1CbThiY0Vsc0xULWNGYVVSZlBnQ0hRckZFT05rQ2ZjcF9wbHJXeWcwVW9sVHFtOTVHemtsSnNLYzd4UDRYUmhLZXdNUzlvN3Mzb3JmaGkwQWM2dVE3aFJ0TWR2bEZpMThNdTdDLXJaVGVteFJOQUtNM2c?oc=5",
-      "pubDate": 1788411609000,
+      "pubDate": 1788411600000,
       "vendor": "kimi",
       "category": "Funding",
       "impact": "high",
@@ -1390,10 +1369,31 @@
       "source": "VentureBeat"
     },
     {
-      "id": "780556249",
+      "id": "-1862121959",
+      "title": "Moonshot AI wants 30% of what US clouds earn from Kimi K3",
+      "titleZh": "Moonshot AI希望从Kimi K3获得美国云计算收入的30%",
+      "summary": "Moonshot AI wants 30% of what US clouds earn from Kimi K3 The Next Web",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA0d0pQa2RVQTl3UUVMTHJNZWRYTV9LSHcxX2kwYXlzVzFOVlBVUjd0UG8tcV9yUHlzQTVvUXRpVkV2UlhLSFBFYTFqbmtHX2ZKNnNxWDdRMmN5WnhoVnlNNk8yTFhSaGxDMHpGX0ZHMWdiMlE?oc=5",
+      "pubDate": 1787738527000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1807646068",
       "title": "Alibaba's Qwen launches Qwen3.8-Flash AI model with lower training costs",
       "titleZh": "阿里巴巴旗下Qwen以更低的培训成本推出Qwen3.8-Flash AI模型",
-      "summary": "Alibaba's Qwen launches Qwen3.8-Flash AI model with lower training costs Reuters",
+      "summary": "Alibaba's Qwen launches Qwen3.8-Flash AI model with lower training costs reuters.com",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNFBiN0MydXZkUlB3UHdHb0xzNGNqVVhKdzZVMkQwalM4WWozbUxWSkZuRTljSXdfdjdOUjZkMWN2SEVRSnBXTEJwSlJfdkNqNzJreVp5MDNULVdDZ1ozSzE1YXp6dWR6MzZsOFBlRllhdlZEQmVBa1Eyb1hpQWlMWmdUaGlzeFpUZFlDZUszLU5KRG9SblF0VTNFT092TllTQnVqVlZHY2J3Uk1WblBfOUJGRmFob041dzEwRV9WaU5TWjlxbkswcTVJRQ?oc=5",
       "pubDate": 1787727600000,
       "vendor": "qwen",
@@ -1579,6 +1579,27 @@
       "source": "Google News"
     },
     {
+      "id": "1246641722",
+      "title": "Alibaba Qwen 3.8 27B Model Targets Edge AI",
+      "titleZh": "阿里巴巴Qwen 3.8 27B车型瞄准边缘AI",
+      "summary": "Alibaba Qwen 3.8 27B Model Targets Edge AI AI Business",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNnJGUXNWZ0hVNGhRaHdNTnlVOU1mRnhpeHFBZE5ubWZUZEdYdEFHWkpZRXE1UEtTd25ybEhZVHQta1JJRUp6TDJJT25lWm1hVFByVzJJWjdpYzBtNTZUUVZxZm5oX2VyOWlkTlJuc3NBX09ZT2p1VUs4MEJDQks4Z0F3WFNtQQ?oc=5",
+      "pubDate": 1786990731000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "1625615024",
       "title": "Get closer to the game with Gemini and Pixel",
       "titleZh": "通过Gemini和Pixel更接近游戏",
@@ -1732,27 +1753,6 @@
       "summary": "What Does Alibaba (BABA) Qwen Royalty Model Mean For Its AI Business? Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNFRtSkE5ZWwtS054NjVibWJDcmFlN1JETWttV1lIRGw2QlJvSzg4bnVVMHE4bHN2RnVqSXo3ZllWVnFESnhTODhaX2FkVFJtb2hIbXJSOUg3TU1kejVYVmhKRHU1ZEt5YXZBWnpZWW05bEU1aVM2NFF5a2pLY1BRZFo5RVFkVkdHUG9UUWE5YlgzbnV4dXd2TWJR?oc=5",
       "pubDate": 1786345200000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-219434516",
-      "title": "Alibaba plans revenue sharing for next open-source Qwen AI model",
-      "titleZh": "阿里巴巴计划下一个开源Qwen AI模型的收入分成",
-      "summary": "Alibaba plans revenue sharing for next open-source Qwen AI model qz.com",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1QNXpYQzl1QUZ5RW53SEZjQmFmejc2alNvUFFuWWZsMk1YYTNYRWFfNFhzcGZmQ2xfaHJlSjMtUlpXYjdkcEoyemk4T0xxenBVb3ZNSzk5Zzc1dVJZSW4yOVNGdUNCS3NkZUJlR2xkcw?oc=5",
-      "pubDate": 1786086000000,
       "vendor": "qwen",
       "category": "Research",
       "impact": "med",
