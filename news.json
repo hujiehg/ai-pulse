@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-09T21:04:39.297Z",
-  "count": 114,
+  "updated": "2026-09-09T23:25:24.441Z",
+  "count": 113,
   "sources": 12,
   "items": [
     {
@@ -76,13 +76,13 @@
       "vendor": "openai",
       "category": "Safety",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 10,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "OpenAI"
@@ -97,13 +97,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 1,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -118,13 +118,13 @@
       "vendor": "nvidia",
       "category": "Product",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 7,
         "cw": 15,
         "st": 10,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "NVIDIA"
@@ -139,13 +139,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google AI"
@@ -160,13 +160,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google AI"
@@ -181,13 +181,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 1,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -202,13 +202,13 @@
       "vendor": "huggingface",
       "category": "Release",
       "impact": "high",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 5,
         "cw": 25,
         "st": 14,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -223,13 +223,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -244,13 +244,13 @@
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -298,10 +298,10 @@
       "source": "TechCrunch"
     },
     {
-      "id": "307854279",
+      "id": "1753376378",
       "title": "US Says Alibaba, DeepSeek Have ‘Systematically’ Siphoned AI Models",
       "titleZh": "US Says Alibaba, DeepSeek Have ‘Systematically’ Siphoned AI Models",
-      "summary": "US Says Alibaba, DeepSeek Have ‘Systematically’ Siphoned AI Models Bloomberg.com",
+      "summary": "US Says Alibaba, DeepSeek Have ‘Systematically’ Siphoned AI Models Bloomberg",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZk92eWg4ODl3QnlnbmROdWEwaTllZm5TTFlPZXRKSnFjUUxjcnAwUGxDd2poTDh0V2N1S2xaLTI4Y3h0V09YOXd5MmszMkdUWUE4V2pOcEp3SjJuVUUxZjhNeXBNbW14dl9fRGRIWTJfZkN2bFNGc0V2Zk40SEtiZzFvaFdETm5jN3d2eE1tVHgxbDktV3Bfa3FfQnpGV2tsYTRNSFFKWjFGaTNQaVZ1VGE5MWc?oc=5",
       "pubDate": 1788965122000,
       "vendor": "deepseek",
@@ -424,10 +424,10 @@
       "source": "Google News"
     },
     {
-      "id": "-165754763",
+      "id": "-292923544",
       "title": "U.S. agencies say top Chinese AI companies systematically copied American models",
       "titleZh": "美国机构表示，中国顶级人工智能公司系统地复制了美国模式",
-      "summary": "U.S. agencies say top Chinese AI companies systematically copied American models nbcnews.com",
+      "summary": "U.S. agencies say top Chinese AI companies systematically copied American models NBC News",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVUxsTGJWZ0pWNzFIUEtVdnVmTjVNMmU5ei1VUW52cFJ5b1plbEY5a2xidEllRFR3NXBkdlpHeTFmR1NyNVJ2Y19oSElYd3RrTXhfQVJtZ3JvbEg3TTBYUG1wSFdpY3RZaXJaSk9EdGstZWlpcXJQY0lVdnZYanhkTVNwVzN3R0wwQmVvRDZZMHNwcVhLbG44SXFsZkhBekcxdl85U0dUVXVkVnpVMlBmcXNWS19HX0sz?oc=5",
       "pubDate": 1788943320000,
       "vendor": "google",
@@ -439,6 +439,27 @@
         "kv": 0,
         "cw": 22,
         "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "345522340",
+      "title": "Meta Launches Private AI Agent Muse as US Accuses DeepSeek and Alibaba of Copying US AI Models",
+      "titleZh": "Meta推出私人人工智能代理Muse ，因美国指责DeepSeek和阿里巴巴复制美国人工智能模型",
+      "summary": "Meta Launches Private AI Agent Muse as US Accuses DeepSeek and Alibaba of Copying US AI Models Brave New Coin",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQWN3REsxMDRZZVg5UXhpblBtVkF6NS1zZGRfd2I3dVVMSWpBYWJ6anN2NzBpdFhva0d6OUI2ZE51Um9hUTRERktKREJaX1E5dGRmcjRMQnhKenFOTGlPV3Fkd3k2NlFWN3l2cnV0TUp2a2RYQzBOSl9oMTM2bW5aQVF2LXhRV0U4U2xNLW92TXlWUzJpb2FKbmxUeEZFTXlxTEtxNk5zVkdwYnljRTJOSzM4al9CbUFHVDRadUNudzFEUS12N09r?oc=5",
+      "pubDate": 1788937778000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 67,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
         "rc": 3,
         "cs": 1
       },
@@ -970,10 +991,10 @@
       "source": "Google News"
     },
     {
-      "id": "-292705159",
+      "id": "-1562724570",
       "title": "Alibaba’s Qwen releases open-source model for autonomous driving",
       "titleZh": "Alibaba’s Qwen releases open-source model for autonomous driving",
-      "summary": "Alibaba’s Qwen releases open-source model for autonomous driving technode.com",
+      "summary": "Alibaba’s Qwen releases open-source model for autonomous driving TechNode",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE16UHpfYXBMLXl0eDFCVm5pSUtTa2c0ZGFZQnpPeTUxTTFQMS15dXhkUUFEV25YN2ZsWXBaM1o0aGo1dF95T0gtR3h3R3gtektUT0d0OUZJcUtIMTZKc2hoN3EwajJZOG5Oa2swU1NTYw?oc=5",
       "pubDate": 1788759359000,
       "vendor": "qwen",
@@ -1048,6 +1069,27 @@
         "kv": 1,
         "cw": 20,
         "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "698044984",
+      "title": "The 33-Year-Old AI Hotshot Taking Silicon Valley Swagger Back to Beijing",
+      "titleZh": "这位33岁的人工智能热门人物将硅谷大摇大摆地带回北京",
+      "summary": "The 33-Year-Old AI Hotshot Taking Silicon Valley Swagger Back to Beijing WSJ",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1PaDFjdlR3YnZWRnRZYTg4QWNtRWhzdDduQ2lxbnVWd0twNHRrbTFxd1RzTUhzQkotTV9GWEd5eHZ3aUVUbnQwcVlaaXhjd2haUk9wckVuYWJkbFZFS3dJVDA3TlUzZmJGLXJoY3FIZXI?oc=5",
+      "pubDate": 1788537649000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
         "rc": 1,
         "cs": 1
       },
@@ -1199,27 +1241,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "786946751",
-      "title": "China’s Moonshot AI Confidentially Filed Hong Kong IPO",
-      "titleZh": "China’s Moonshot AI Confidentially Filed Hong Kong IPO",
-      "summary": "China’s Moonshot AI Confidentially Filed Hong Kong IPO wsj.com",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM0MyYnEzbkZYd19tMEFCczNsNGdlTmptMjdNM3VDV1lvUTRBOFQ3NHBtcW02VEdiRV9NZ2tvVllya3BaWS1HS2tGNFllSThRakFobXJLM2tGcWl3WEl0dnNMX0NzWmlUWmxTMnoxXzNGQVlQNDE4RTEwV2c1Mk1GSGZybjlnb2tWUDlHVlU5ZG1JRFBm?oc=5",
-      "pubDate": 1788436320000,
-      "vendor": "kimi",
-      "category": "Funding",
-      "impact": "high",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 20,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1334223736",
@@ -1642,10 +1663,10 @@
       "source": "Google News"
     },
     {
-      "id": "374586481",
+      "id": "397374558",
       "title": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model",
       "titleZh": "阿里巴巴发布更小、更具成本效益的Qwen AI模型",
-      "summary": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model Bloomberg.com",
+      "summary": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model Bloomberg",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVFN2VVNaUWE0bXJiNjQ2VWJlbngtWlpzcnY3RG44VlB1eVVhMWNiT21wYmVKSDJnQ0JkNXMycVg5bWRqQ2RIZ3E0d0hzdkEzUlNPV05aUjRUTFhzaXlNdVhVSHFXNGRuZFlPWUhEeEtKemMwdWJValR0MFpZM19OMVRpS1piVVhZWEI3ZmdJZmlDR1B5d2JMRU5DcENuSUktd01Ra0J6Zw?oc=5",
       "pubDate": 1787727600000,
       "vendor": "qwen",
@@ -1852,10 +1873,10 @@
       "source": "Google News"
     },
     {
-      "id": "1188159030",
+      "id": "-2016155837",
       "title": "DeepSeek's AI Models Are About To Cost Four Times More",
       "titleZh": "DeepSeek的人工智能模型成本将增加四倍",
-      "summary": "DeepSeek's AI Models Are About To Cost Four Times More engadget.com",
+      "summary": "DeepSeek's AI Models Are About To Cost Four Times More Engadget",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT2FId1BnQ0MyY3Rzem9GYVo0blhJUnVqMEpYektCc1F5cy0xS09SODdqOEZrNXZGZE1NVlR6TGFacEw1Uzh6SEtfQzBEU2pfSDRpTW9YRVBoSlJyNElwcmJBOFZmVzIyVHZZS0hhcmJ6cWkzeWlMc2pOQmMwX055Yg?oc=5",
       "pubDate": 1786690800000,
       "vendor": "deepseek",
@@ -2039,48 +2060,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-464609805",
-      "title": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says",
-      "titleZh": "研究公司表示， DeepSeek的新人工智能模型是迄今为止运行的最便宜的知名模型。",
-      "summary": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says Reuters",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTnd6ckhOVUhwcGJjRmxRdlhObS1ncXRhZm9OeVUwaEgwOTg5YmNBTGVWcHZsdXd4dXVrWWdlZGtsYkw0eDIyY1A3NjdSM0o0bFBGUEZRNDF2NjYwZEtCamNpeTFqN3ZaQVlTclNuQWYxNXh4ZVlqaWF3WkNNVk1fbmJXcTdISlBmUVVWS01STmFYZldLSGk5akJQZVB5X09OSzVoVWF4Wko4TEF4cGozQUlWM202dFJWMGxSRTdpcTNaaUp6bmNyZXpWbVRFb2JoSzdCVQ?oc=5",
-      "pubDate": 1785654000000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1937431074",
-      "title": "DeepSeek's new bargain model accelerates AI's race to zero",
-      "titleZh": "DeepSeek的新讨价还价模式加速了人工智能的零竞赛",
-      "summary": "DeepSeek's new bargain model accelerates AI's race to zero Axios",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04emlXWXpVQXhNcjJsU1d5ZmhnU1J2TFRyeFlxM2hqUUNUNVR2UmxFQUNBanYwWnd5ZUpTRnptVEh2TXU2NU5aa0FRbFV6ejVPd2wxWFNXa3RoaTZPQ0dQSHc0Tkk4WE93Q1JwV0tIWGNBaGNG?oc=5",
-      "pubDate": 1785567600000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1093733276",
