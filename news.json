@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T00:53:29.834Z",
+  "updated": "2026-09-09T05:35:21.274Z",
   "count": 106,
   "sources": 11,
   "items": [
@@ -13,13 +13,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -34,13 +34,13 @@
       "vendor": "techcrunch",
       "category": "Funding",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 12,
         "kv": 1,
         "cw": 20,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,13 +55,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -76,13 +76,13 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 47,
+      "score": 46,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 0,
         "cw": 12,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -107,6 +107,27 @@
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "-506357330",
+      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "titleZh": "GPT-5.6 Sol如何帮助运行量子计算实验",
+      "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+      "link": "https://openai.com/index/codex-quantum-computing-experiments",
+      "pubDate": 1788886800000,
+      "vendor": "openai",
+      "category": "Research",
+      "impact": "high",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
     },
     {
       "id": "2122218644",
@@ -739,6 +760,27 @@
       "source": "Google News"
     },
     {
+      "id": "97928143",
+      "title": "Chinese businesses are giving away AI tokens with coffee, credit cards, and dumplings",
+      "titleZh": "中国企业正在用咖啡、信用卡和饺子赠送人工智能代币",
+      "summary": "Chinese businesses are giving away AI tokens with coffee, credit cards, and dumplings restofworld.org",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdjZadzhfVjVMam40eHZvYmhzeEllWnNQRVkxalNNeS03Q1hPWVAxSzVpeUVTVGc4STdHcWxjc0tGMFFNeXQ0MVZZS0Nib3BGNU12X0h3MXAtaVhabW4zYzh1ZHpPdDRReGZXR203VlRXRmREb0dxWEk2UVFrNzZOMGdwYXlxdlJjcEpkMm1lUWl5NUc0UGc?oc=5",
+      "pubDate": 1788516242000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "1452063658",
       "title": "How to Use Qwen AI: 13 Steps, 90 Min [2026] - tech",
       "titleZh": "如何使用Qwen AI ： 13个步骤， 90分钟[2026] -科技",
@@ -800,27 +842,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "2050308270",
-      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
-      "titleZh": "前线防御者的黎明： $ 10亿用于保护基本服务",
-      "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
-      "link": "https://openai.com/index/daybreak-for-frontline-defenders",
-      "pubDate": 1788441300000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "high",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
     },
     {
       "id": "1288021773",
@@ -1178,27 +1199,6 @@
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "874790971",
-      "title": "DeepSeek’s AI Strategy: Dominating AI as Frontier AI Lab [In-Depth Analysis, 2026]",
-      "titleZh": "DeepSeek’s AI Strategy: Dominating AI as Frontier AI Lab [In-Depth Analysis, 2026]",
-      "summary": "DeepSeek’s AI Strategy: Dominating AI as Frontier AI Lab [In-Depth Analysis, 2026] Klover.ai",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTUJaREcyeUFqQVJELWhIaU1OZUN5bGNUYlRVX0tYU3hMMnhLSHVLenpKX0ljRlBSQVcxMDdpVTF3WDhEUmdhLVRCUHl0Y1pqOFhfZk01MVM5MC1HTld6dGFpUVpSOXV6WHpReW5VRExYblJFMExEZDdwRFJ2bERyOTFCamV1aXp4elVvemY1dW51eGJQdXV0OHN3elNJUUly?oc=5",
-      "pubDate": 1788144878000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "832826578",
@@ -1852,12 +1852,12 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-464609805",
+      "id": "-1311546842",
       "title": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says",
       "titleZh": "研究公司表示， DeepSeek的新人工智能模型是迄今为止运行的最便宜的知名模型。",
-      "summary": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says Reuters",
+      "summary": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says reuters.com",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTnd6ckhOVUhwcGJjRmxRdlhObS1ncXRhZm9OeVUwaEgwOTg5YmNBTGVWcHZsdXd4dXVrWWdlZGtsYkw0eDIyY1A3NjdSM0o0bFBGUEZRNDF2NjYwZEtCamNpeTFqN3ZaQVlTclNuQWYxNXh4ZVlqaWF3WkNNVk1fbmJXcTdISlBmUVVWS01STmFYZldLSGk5akJQZVB5X09OSzVoVWF4Wko4TEF4cGozQUlWM202dFJWMGxSRTdpcTNaaUp6bmNyZXpWbVRFb2JoSzdCVQ?oc=5",
-      "pubDate": 1785654000000,
+      "pubDate": 1785740400000,
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
