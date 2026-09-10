@@ -1,8 +1,92 @@
 {
-  "updated": "2026-09-10T15:31:30.397Z",
+  "updated": "2026-09-10T18:39:35.455Z",
   "count": 115,
   "sources": 12,
   "items": [
+    {
+      "id": "625007117",
+      "title": "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
+      "titleZh": "Anthropic揭示了流氓AI代理和你一样讨厌CAPTCHA",
+      "summary": "Come inside the mind of a bot trying to convince the internet it's human.",
+      "link": "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/",
+      "pubDate": 1789062884000,
+      "vendor": "techcrunch",
+      "category": "Agent",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 12,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "720992833",
+      "title": "India’s Pocket FM doubles revenue run rate to $500M as AI powers 93% of audio content",
+      "titleZh": "India’s Pocket FM doubles revenue run rate to $500M as AI powers 93% of audio content",
+      "summary": "Pocket FM uses AI to produce 99% of its new content, helping make content production about 80 times cheaper.",
+      "link": "https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content/",
+      "pubDate": 1789062300000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-402042392",
+      "title": "3 ways to prep for your next big race with Search",
+      "titleZh": "通过搜索为下一场大型竞赛做好准备的3种方法",
+      "summary": "Search can help runners get race-day ready with registration alerts, tailored training plans, and more.",
+      "link": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
+      "pubDate": 1789056000000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google AI"
+    },
+    {
+      "id": "1713974062",
+      "title": "AI agents are flooding public services with new requests",
+      "titleZh": "人工智能代理正在用新的请求淹没公共服务",
+      "summary": "“The vast majority of cases we find are people who are entitled to claim for something, claiming for that thing,” the researcher told TechCrunch.",
+      "link": "https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests/",
+      "pubDate": 1789052030000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "256186327",
       "title": "DeepSeek's new ultra-low-cost model presents challenges for US frontier labs",
@@ -13,16 +97,37 @@
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "-1100749024",
+      "title": "Maven Robotics wants to steal your robot deployment deal",
+      "titleZh": "Maven Robotics想要窃取您的机器人部署交易",
+      "summary": "Maven Robotics emerged from stealth today with a $100 million Series A and active deployments.",
+      "link": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/",
+      "pubDate": 1789049857000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 1,
+        "cw": 20,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
     },
     {
       "id": "-638921529",
@@ -55,13 +160,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 6,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -76,13 +181,13 @@
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -97,13 +202,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -118,13 +223,13 @@
       "vendor": "deepseek",
       "category": "Release",
       "impact": "high",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -655,69 +760,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "-705626935",
-      "title": "Apple’s revamped Health app will calculate your ‘health age’ and readiness score",
-      "titleZh": "Apple’s revamped Health app will calculate your ‘health age’ and readiness score",
-      "summary": "The update uses Apple Intelligence to make better sense of your health data.",
-      "link": "https://techcrunch.com/2026/09/09/apples-revamped-health-app-will-calculate-your-health-age-and-readiness-score/",
-      "pubDate": 1788977789000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1573913989",
-      "title": "Apple has a new way to prove your iPhone photos aren’t AI slop",
-      "titleZh": "Apple has a new way to prove your iPhone photos aren’t AI slop",
-      "summary": "Apple introduced Apple Reference Image to help users determine whether photos have been edited, including alterations made by AI.",
-      "link": "https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop/",
-      "pubDate": 1788977315000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1968671976",
-      "title": "Apple CEO John Ternus says the best AI device is still the iPhone",
-      "titleZh": "苹果首席执行官约翰·特纳斯（ John Ternus ）表示，最好的人工智能设备仍然",
-      "summary": "The company also argued that its on-device models offer consumers more privacy.",
-      "link": "https://techcrunch.com/2026/09/09/apple-ceo-john-ternus-says-the-best-ai-device-is-still-the-iphone/",
-      "pubDate": 1788975365000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "-214152137",
       "title": "Paul Christiano joins OpenAI Foundation Board",
       "titleZh": "Paul Christiano加入OpenAI基金会董事会",
@@ -727,37 +769,16 @@
       "vendor": "openai",
       "category": "Safety",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 10,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "920219706",
-      "title": "Superintelligence is coming. Should we let it?",
-      "titleZh": "超级智能即将到来，我们应该让它去吗？",
-      "summary": "AI companies have been talking about superintelligent AI like it’s inevitable, but recent safety incidents like OpenAI’s Hugging Face breach are demonstrating the potential dangers of deploying AI sys…",
-      "link": "https://techcrunch.com/video/superintelligence-is-coming-should-we-let-it/",
-      "pubDate": 1788969935000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 1,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "18320902",
@@ -769,13 +790,13 @@
       "vendor": "nvidia",
       "category": "Product",
       "impact": "med",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 7,
         "cw": 15,
         "st": 10,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "NVIDIA"
@@ -790,13 +811,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google AI"
@@ -811,13 +832,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google AI"
@@ -832,13 +853,13 @@
       "vendor": "huggingface",
       "category": "Release",
       "impact": "high",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 5,
         "cw": 25,
         "st": 14,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -979,13 +1000,13 @@
       "vendor": "openai",
       "category": "Research",
       "impact": "high",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 22,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -1252,13 +1273,13 @@
       "vendor": "nvidia",
       "category": "Agent",
       "impact": "med",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 16,
         "cw": 12,
         "st": 10,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "NVIDIA"
@@ -1955,27 +1976,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "-1961739353",
-      "title": "Bring your spreadsheet data to life with Sheets canvas",
-      "titleZh": "使用Sheets画布，让您的电子表格数据栩栩如生",
-      "summary": "Sheets canvas turns data into interactive dashboards, custom study trackers, seating charts, and more, all with a simple prompt.",
-      "link": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
-      "pubDate": 1786639500000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
     },
     {
       "id": "-1841590772",
