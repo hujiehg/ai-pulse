@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T18:39:35.455Z",
+  "updated": "2026-09-10T21:20:23.257Z",
   "count": 115,
   "sources": 12,
   "items": [
@@ -13,13 +13,13 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 12,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -34,16 +34,79 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 45,
+      "score": 44,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "-772445135",
+      "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
+      "titleZh": "Skild AI利用NVIDIA Physical AI从单个视频中向机器人教授新任务",
+      "summary": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t keep up without significant reprogramming. Skild AI…",
+      "link": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
+      "pubDate": 1789057835000,
+      "vendor": "nvidia",
+      "category": "Release",
+      "impact": "high",
+      "score": 69,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 5,
+        "cw": 25,
+        "st": 10,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
+      "id": "1895974805",
+      "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+      "titleZh": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+      "summary": "The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035, with over 6 million commercial vehicles in operation as driverless fleets are alr…",
+      "link": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
+      "pubDate": 1789056004000,
+      "vendor": "nvidia",
+      "category": "Product",
+      "impact": "high",
+      "score": 67,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 13,
+        "cw": 15,
+        "st": 10,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
+      "id": "-2024632129",
+      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "titleZh": "研究人员如何使用Codex和ChatGPT来寻找新的抗菌分子",
+      "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+      "link": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "pubDate": 1789056000000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "OpenAI"
     },
     {
       "id": "-402042392",
@@ -67,6 +130,27 @@
       "source": "Google AI"
     },
     {
+      "id": "1995285354",
+      "title": "Now everyone can put data to work",
+      "titleZh": "现在，每个人都可以使用数据",
+      "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+      "link": "https://openai.com/index/put-data-to-work",
+      "pubDate": 1789052400000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
       "id": "1713974062",
       "title": "AI agents are flooding public services with new requests",
       "titleZh": "人工智能代理正在用新的请求淹没公共服务",
@@ -76,13 +160,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 22,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -97,13 +181,13 @@
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -118,13 +202,13 @@
       "vendor": "techcrunch",
       "category": "Funding",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 1,
         "cw": 20,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -139,13 +223,13 @@
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -359,6 +443,48 @@
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "-796130392",
+      "title": "Introducing ChatGPT for Financial Services",
+      "titleZh": "面向金融服务的ChatGPT简介",
+      "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "link": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "pubDate": 1789023600000,
+      "vendor": "openai",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "1496533524",
+      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+      "titleZh": "为联邦、州、地方和部落政府扩大人工智能访问和网络防御",
+      "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+      "link": "https://openai.com/index/expanding-ai-access-us-government",
+      "pubDate": 1789023600000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
     },
     {
       "id": "849102664",
@@ -634,6 +760,27 @@
       "source": "TechCrunch"
     },
     {
+      "id": "-1554424735",
+      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+      "titleZh": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+      "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+      "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "pubDate": 1788998400000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
       "id": "-914898903",
       "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
       "titleZh": "使用Gradio工作流程重建AUTOMATIC1111",
@@ -706,13 +853,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -727,13 +874,13 @@
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 12,
         "kv": 2,
         "cw": 25,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -748,13 +895,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -1075,69 +1222,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "1849110790",
-      "title": "Introducing ChatGPT Images 2.5",
-      "titleZh": "ChatGPT Images 2.5简介",
-      "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
-      "link": "https://openai.com/index/introducing-chatgpt-images-2-5",
-      "pubDate": 1788867000000,
-      "vendor": "openai",
-      "category": "Release",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 25,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "1200237419",
-      "title": "On the Navier–Stokes Millennium Prize Problem",
-      "titleZh": "On the Navier–Stokes Millennium Prize Problem",
-      "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
-      "link": "https://openai.com/index/navier-stokes-solution",
-      "pubDate": 1788861600000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "-395127810",
-      "title": "Funding grants for new research into AI and teen development",
-      "titleZh": "为人工智能和青少年发展的新研究提供资助",
-      "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
-      "link": "https://openai.com/index/teen-development-research-grants",
-      "pubDate": 1788858000000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "1320491138",
       "title": "Alibaba’s Qwen AI can help high school students learn",
       "titleZh": "Alibaba’s Qwen AI can help high school students learn",
@@ -1157,48 +1241,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "1000450566",
-      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
-      "titleZh": "OpenAI将支持新闻业的举措从教室扩展到新闻编辑室",
-      "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
-      "link": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
-      "pubDate": 1788825600000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "-1590898563",
-      "title": "1Password increases engineering productivity 21% with Codex",
-      "titleZh": "1Password通过Codex提高工程生产力21%",
-      "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
-      "link": "https://openai.com/index/1password",
-      "pubDate": 1788825600000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "high",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
     },
     {
       "id": "1287981270",
@@ -1234,27 +1276,6 @@
       "score": 51,
       "scoreBreakdown": {
         "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1452063658",
-      "title": "How to Use Qwen AI: 13 Steps, 90 Min [2026] - tech",
-      "titleZh": "如何使用Qwen AI ： 13个步骤， 90分钟[2026] -科技",
-      "summary": "How to Use Qwen AI: 13 Steps, 90 Min [2026] tech-insider.org",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9CRmZGME5naloxNE9mNFRFMF9zM0ZzVDNMa3YwdTFiQ3pyQWNHUWt0MDVGMWNYS3VYT2EtNHN6VXE5UEdVdGoyOWhXMlR5aDExYU10Y2lVV2taenJMN0t0SElR?oc=5",
-      "pubDate": 1788484075000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
@@ -1747,10 +1768,10 @@
       "source": "VentureBeat"
     },
     {
-      "id": "-1807646068",
+      "id": "780556249",
       "title": "Alibaba's Qwen launches Qwen3.8-Flash AI model with lower training costs",
       "titleZh": "阿里巴巴旗下Qwen以更低的培训成本推出Qwen3.8-Flash AI模型",
-      "summary": "Alibaba's Qwen launches Qwen3.8-Flash AI model with lower training costs reuters.com",
+      "summary": "Alibaba's Qwen launches Qwen3.8-Flash AI model with lower training costs Reuters",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNFBiN0MydXZkUlB3UHdHb0xzNGNqVVhKdzZVMkQwalM4WWozbUxWSkZuRTljSXdfdjdOUjZkMWN2SEVRSnBXTEJwSlJfdkNqNzJreVp5MDNULVdDZ1ozSzE1YXp6dWR6MzZsOFBlRllhdlZEQmVBa1Eyb1hpQWlMWmdUaGlzeFpUZFlDZUszLU5KRG9SblF0VTNFT092TllTQnVqVlZHY2J3Uk1WblBfOUJGRmFob041dzEwRV9WaU5TWjlxbkswcTVJRQ?oc=5",
       "pubDate": 1787727600000,
       "vendor": "qwen",
@@ -1999,6 +2020,27 @@
       "source": "NVIDIA"
     },
     {
+      "id": "1891460870",
+      "title": "What Does Alibaba (BABA) Qwen Royalty Model Mean For Its AI Business?",
+      "titleZh": "阿里巴巴（ BABA ） Qwen版税模式对其AI业务意味着什么？",
+      "summary": "What Does Alibaba (BABA) Qwen Royalty Model Mean For Its AI Business? Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNFRtSkE5ZWwtS054NjVibWJDcmFlN1JETWttV1lIRGw2QlJvSzg4bnVVMHE4bHN2RnVqSXo3ZllWVnFESnhTODhaX2FkVFJtb2hIbXJSOUg3TU1kejVYVmhKRHU1ZEt5YXZBWnpZWW05bEU1aVM2NFF5a2pLY1BRZFo5RVFkVkdHUG9UUWE5YlgzbnV4dXd2TWJR?oc=5",
+      "pubDate": 1786345200000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "901515433",
       "title": "Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
       "titleZh": "进入Omniverse ：开放世界模型如何推动物理人工智能的前沿",
@@ -2097,48 +2139,6 @@
         "cq": 30,
         "kv": 9,
         "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "1093733276",
-      "title": "Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security",
-      "titleZh": "行业领导者团结在开放安全的人工智能联盟中，以实现人工智能的安全和保障",
-      "summary": "Open source software is a critical pillar of the global economy. It underpins cloud computing, financial services, manufacturing, telecommunications, government and internet services by making technol…",
-      "link": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
-      "pubDate": 1785142807000,
-      "vendor": "nvidia",
-      "category": "Safety",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 10,
-        "cw": 10,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "-1965105272",
-      "title": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
-      "titleZh": "在人工智能峰会上，韩国与NVIDIA及其合作伙伴勾勒出人工智能的未来",
-      "summary": "At this week’s AI Summit in San Francisco, South Korean President Jae Myung Lee and some of the country’s top business leaders and researchers are meeting with NVIDIA and ecosystem partners to chart K…",
-      "link": "https://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia/",
-      "pubDate": 1784867667000,
-      "vendor": "nvidia",
-      "category": "Release",
-      "impact": "med",
-      "score": 68,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 8,
-        "cw": 25,
         "st": 10,
         "rc": 0,
         "cs": 1
