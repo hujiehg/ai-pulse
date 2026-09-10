@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T06:12:56.319Z",
+  "updated": "2026-09-10T11:36:44.686Z",
   "count": 114,
   "sources": 12,
   "items": [
@@ -13,16 +13,226 @@
       "vendor": "qwen",
       "category": "Product",
       "impact": "high",
-      "score": 56,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 3,
         "cw": 15,
         "st": 12,
-        "rc": 5,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "-60414873",
+      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
+      "titleZh": "OpenDiscoveryTrace ：评估AI科学家工作流的过程跟踪",
+      "summary": "arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process…",
+      "link": "https://arxiv.org/abs/2609.09203",
+      "pubDate": 1789012800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 76,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 13,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1151422360",
+      "title": "Adaptive Entangled Game Modules in Artificial General Intelligence",
+      "titleZh": "通用人工智能中的自适应纠缠游戏模块",
+      "summary": "arXiv:2609.09226v1 Announce Type: new Abstract: We introduce a probability-wave framework for modeling the collective behavior of interacting adaptive agents, deriving testable eigenmodes through a ge…",
+      "link": "https://arxiv.org/abs/2609.09226",
+      "pubDate": 1789012800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-279724260",
+      "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
+      "titleZh": "子代理与代理技能：为长期代理任务执行可重复使用的知识",
+      "summary": "arXiv:2609.09233v1 Announce Type: new Abstract: How can language model agents effectively leverage libraries of reusable knowledge to solve long-horizon tasks? Recent work has increasingly focused on …",
+      "link": "https://arxiv.org/abs/2609.09233",
+      "pubDate": 1789012800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1680514978",
+      "title": "Gradland: On Phenomenal Experience, Differentiated Across Many Dimensions",
+      "titleZh": "Gradland ：在多维度上差异化的现象体验",
+      "summary": "arXiv:2609.09306v1 Announce Type: new Abstract: This paper investigates the hypothesis that the first-order structure of physical interactions, i.e. gradients or Jacobians, characterizes the structure…",
+      "link": "https://arxiv.org/abs/2609.09306",
+      "pubDate": 1789012800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "2028613653",
+      "title": "An Autonomous GeoAI Agent for Arctic Eco-Navigation",
+      "titleZh": "用于北极生态导航的自主GeoAI代理",
+      "summary": "arXiv:2609.09374v1 Announce Type: new Abstract: Arctic maritime navigation is becoming increasingly important as changing sea-ice conditions expand seasonal accessibility while simultaneously introduc…",
+      "link": "https://arxiv.org/abs/2609.09374",
+      "pubDate": 1789012800000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 25,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "2051728588",
+      "title": "The Menu Is an Execution Prior: State-Path Tool Menus for Online Agents",
+      "titleZh": "菜单是执行之前：在线客服代表的状态路径工具菜单",
+      "summary": "arXiv:2609.09395v1 Announce Type: new Abstract: Language models act through tools, yet practical agents face libraries containing thousands of interfaces. We introduce the tool menu as the short, orde…",
+      "link": "https://arxiv.org/abs/2609.09395",
+      "pubDate": 1789012800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "160693366",
+      "title": "Decision-Focused Active Learning for Scale-Aware Critical-Materials Recovery",
+      "titleZh": "以决策为中心的主动学习，用于规模感知的关键材料恢复",
+      "summary": "arXiv:2609.09413v1 Announce Type: new Abstract: Choosing a recovery process for scale-up requires connecting laboratory results with product requirements, process costs, and scale effects. We analyze …",
+      "link": "https://arxiv.org/abs/2609.09413",
+      "pubDate": 1789012800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1410057510",
+      "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
+      "titleZh": "Valerant ：通过动作条件世界模型探索的自动导航游戏地图生成器",
+      "summary": "arXiv:2609.09418v1 Announce Type: new Abstract: World Action Models (WAMs) couple predictive world modeling with action generation, allowing anticipated future states to guide agent behavior. Although…",
+      "link": "https://arxiv.org/abs/2609.09418",
+      "pubDate": 1789012800000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 15,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1291523135",
+      "title": "XAI-Arena: Can LLMs Assess the Quality of XAI Explanations?",
+      "titleZh": "XAI-Arena ： LLM可以评估XAI解释的质量吗？",
+      "summary": "arXiv:2609.09428v1 Announce Type: new Abstract: Evaluating the quality of explanations produced by explainable AI (XAI) methods remains challenging because existing approaches often rely on subjective…",
+      "link": "https://arxiv.org/abs/2609.09428",
+      "pubDate": 1789012800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-378584014",
+      "title": "Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations",
+      "titleZh": "客服代表知道什么时候成功吗？从内部陈述中校准代理置信度",
+      "summary": "arXiv:2609.09448v1 Announce Type: new Abstract: As agentic systems getting adopted rapidly in safety critical applications, it is vital to measure the confidence associated with the agentic actions. I…",
+      "link": "https://arxiv.org/abs/2609.09448",
+      "pubDate": 1789012800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 67,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 10,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
     },
     {
       "id": "879544414",
@@ -34,13 +244,13 @@
       "vendor": "google",
       "category": "Research",
       "impact": "med",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 22,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -237,7 +447,7 @@
     {
       "id": "-1968671976",
       "title": "Apple CEO John Ternus says the best AI device is still the iPhone",
-      "titleZh": "苹果首席执行官约翰·特纳斯（ John Ternus ）表示，最好的人工智能设备仍然",
+      "titleZh": "苹果首席执行官约翰·特纳斯（ John Ternus ）表示，最好的人工智能设备仍然是",
       "summary": "The company also argued that its on-device models offer consumers more privacy.",
       "link": "https://techcrunch.com/2026/09/09/apple-ceo-john-ternus-says-the-best-ai-device-is-still-the-iphone/",
       "pubDate": 1788975365000,
@@ -454,13 +664,13 @@
       "vendor": "openai",
       "category": "Research",
       "impact": "med",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 1,
         "cw": 22,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -475,13 +685,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -496,13 +706,13 @@
       "vendor": "google",
       "category": "Research",
       "impact": "med",
-      "score": 57,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 22,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -517,13 +727,13 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -569,216 +779,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-431978060",
-      "title": "Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models",
-      "titleZh": "超越对错：评估大型语言模型中的二阶社会推理",
-      "summary": "arXiv:2609.05437v1 Announce Type: new Abstract: Previous AI alignment efforts have focused primarily on first-order social norms -- teaching models what is socially acceptable or unacceptable (e.g., `…",
-      "link": "https://arxiv.org/abs/2609.05437",
-      "pubDate": 1788926400000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "high",
-      "score": 67,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 8,
-        "cw": 25,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-715868613",
-      "title": "CriticGen: Generation-Aware Evaluation as Actionable Feedback",
-      "titleZh": "CriticGen ：将世代意识评估作为可行的反馈",
-      "summary": "arXiv:2609.05439v1 Announce Type: new Abstract: Current evaluation methods for large language models are coarse-grained and decoupled from generation, producing generic explanations that fail to provi…",
-      "link": "https://arxiv.org/abs/2609.05439",
-      "pubDate": 1788926400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1588250681",
-      "title": "When Does Memory Help? A Cost-Aware Evaluation of Long-Term Memory in Tool-Using LLM Agents",
-      "titleZh": "记忆什么时候有帮助？对使用工具的LLM代理的长期记忆的成本意识评估",
-      "summary": "arXiv:2609.05441v1 Announce Type: new Abstract: Long-term memory for LLM agents is evaluated today by conversational recall benchmarks (LoCoMo, LongMemEval), which measure question answering over dial…",
-      "link": "https://arxiv.org/abs/2609.05441",
-      "pubDate": 1788926400000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "high",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 12,
-        "cw": 15,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-528397420",
-      "title": "AutoFyn Technical Report: Non-Parametric Expert Iteration for Long-Horizon Agents",
-      "titleZh": "AutoFyn技术报告：长期代理的非参数专家迭代",
-      "summary": "arXiv:2609.05446v1 Announce Type: new Abstract: We introduce AutoFyn, an agent harness inspired by the Expert Iteration algorithm, adapting a frozen model across many rounds by updating persistent sta…",
-      "link": "https://arxiv.org/abs/2609.05446",
-      "pubDate": 1788926400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "538431028",
-      "title": "Damage-Aware Bandit Pruning for Vision and Language Transformers",
-      "titleZh": "用于视觉和语言转换器的损坏感知土匪修剪",
-      "summary": "arXiv:2609.05448v1 Announce Type: new Abstract: Structured post-training pruning of transformers requires selecting complete functional units whose suppression causes limited degradation. We formulate…",
-      "link": "https://arxiv.org/abs/2609.05448",
-      "pubDate": 1788926400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 66,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 8,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "343659773",
-      "title": "Compiling VGDL into Causal Models",
-      "titleZh": "将VGDL编译为因果模型",
-      "summary": "arXiv:2609.05459v1 Announce Type: new Abstract: Reinforcement learning and large language models often struggle to accurately capture the causal mechanics of game environments. Standard reinforcement …",
-      "link": "https://arxiv.org/abs/2609.05459",
-      "pubDate": 1788926400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1465191813",
-      "title": "ARC-Bench: Closed-Loop Replanning Masks Broken Action Ranking in Frozen JEPA World Models",
-      "titleZh": "ARC-Bench ：冷冻JEPA世界模型中的闭环重新规划口罩破碎动作排名",
-      "summary": "arXiv:2609.05461v1 Announce Type: new Abstract: Reward-free latent world models plan by scoring candidate actions with distances in a frozen latent space: an action is preferred if its predicted futur…",
-      "link": "https://arxiv.org/abs/2609.05461",
-      "pubDate": 1788926400000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "high",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 25,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "296261351",
-      "title": "RAPID: Reliability-Aware Pair Importance Distillation",
-      "titleZh": "RAPID ：可靠性感知配对重要性蒸馏",
-      "summary": "arXiv:2609.05481v1 Announce Type: new Abstract: Inter example relational distillation transfers a teacher's representation geometry by matching relations among examples within a mini batch. Computing …",
-      "link": "https://arxiv.org/abs/2609.05481",
-      "pubDate": 1788926400000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "med",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-727927818",
-      "title": "PGP-Clinical-TimeKAN: Prior-Guided Joint Probabilistic Forecasting of Clinical Trajectories",
-      "titleZh": "PGP-Clinical-TimeKAN ：临床轨迹的先前指导联合概率预测",
-      "summary": "arXiv:2609.05488v1 Announce Type: new Abstract: Clinical deterioration unfolds through coupled, partially observed trajectories, not a single diagnostic label. We introduce PGP-Clinical-TimeKAN, a tra…",
-      "link": "https://arxiv.org/abs/2609.05488",
-      "pubDate": 1788926400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "2044738583",
-      "title": "SciLitBench: Benchmark and Design Principles for LLM-Powered Systematic Literature Reviews",
-      "titleZh": "SciLitBench ： LLM支持的系统文献综述的基准和设计原则",
-      "summary": "arXiv:2609.05505v1 Announce Type: new Abstract: Systematic reviews require sustained human judgment across thousands of records, yet existing evaluations of large language models (LLMs) typically exam…",
-      "link": "https://arxiv.org/abs/2609.05505",
-      "pubDate": 1788926400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
     },
     {
       "id": "228867864",
@@ -895,13 +895,13 @@
       "vendor": "openai",
       "category": "Release",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 25,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -916,13 +916,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -937,13 +937,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "high",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
