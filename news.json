@@ -1,8 +1,260 @@
 {
-  "updated": "2026-09-11T01:17:46.679Z",
+  "updated": "2026-09-11T06:16:17.049Z",
   "count": 113,
   "sources": 12,
   "items": [
+    {
+      "id": "-60414873",
+      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
+      "titleZh": "OpenDiscoveryTrace ：评估AI科学家工作流的过程跟踪",
+      "summary": "arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process…",
+      "link": "https://arxiv.org/abs/2609.09203",
+      "pubDate": 1789099200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 77,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 13,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1151422360",
+      "title": "Adaptive Entangled Game Modules in Artificial General Intelligence",
+      "titleZh": "通用人工智能中的自适应纠缠游戏模块",
+      "summary": "arXiv:2609.09226v1 Announce Type: new Abstract: We introduce a probability-wave framework for modeling the collective behavior of interacting adaptive agents, deriving testable eigenmodes through a ge…",
+      "link": "https://arxiv.org/abs/2609.09226",
+      "pubDate": 1789099200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-279724260",
+      "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
+      "titleZh": "子代理与代理技能：为长期代理任务执行可重复使用的知识",
+      "summary": "arXiv:2609.09233v1 Announce Type: new Abstract: How can language model agents effectively leverage libraries of reusable knowledge to solve long-horizon tasks? Recent work has increasingly focused on …",
+      "link": "https://arxiv.org/abs/2609.09233",
+      "pubDate": 1789099200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1680514978",
+      "title": "Gradland: On Phenomenal Experience, Differentiated Across Many Dimensions",
+      "titleZh": "Gradland ：在多维度上差异化的现象体验",
+      "summary": "arXiv:2609.09306v1 Announce Type: new Abstract: This paper investigates the hypothesis that the first-order structure of physical interactions, i.e. gradients or Jacobians, characterizes the structure…",
+      "link": "https://arxiv.org/abs/2609.09306",
+      "pubDate": 1789099200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "2028613653",
+      "title": "An Autonomous GeoAI Agent for Arctic Eco-Navigation",
+      "titleZh": "用于北极生态导航的自主GeoAI代理",
+      "summary": "arXiv:2609.09374v1 Announce Type: new Abstract: Arctic maritime navigation is becoming increasingly important as changing sea-ice conditions expand seasonal accessibility while simultaneously introduc…",
+      "link": "https://arxiv.org/abs/2609.09374",
+      "pubDate": 1789099200000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "high",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 25,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "2051728588",
+      "title": "The Menu Is an Execution Prior: State-Path Tool Menus for Online Agents",
+      "titleZh": "菜单是执行之前：在线客服代表的状态路径工具菜单",
+      "summary": "arXiv:2609.09395v1 Announce Type: new Abstract: Language models act through tools, yet practical agents face libraries containing thousands of interfaces. We introduce the tool menu as the short, orde…",
+      "link": "https://arxiv.org/abs/2609.09395",
+      "pubDate": 1789099200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "160693366",
+      "title": "Decision-Focused Active Learning for Scale-Aware Critical-Materials Recovery",
+      "titleZh": "以决策为中心的主动学习，用于规模感知的关键材料恢复",
+      "summary": "arXiv:2609.09413v1 Announce Type: new Abstract: Choosing a recovery process for scale-up requires connecting laboratory results with product requirements, process costs, and scale effects. We analyze …",
+      "link": "https://arxiv.org/abs/2609.09413",
+      "pubDate": 1789099200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1410057510",
+      "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
+      "titleZh": "Valerant ：通过动作条件世界模型探索的自动导航游戏地图生成器",
+      "summary": "arXiv:2609.09418v1 Announce Type: new Abstract: World Action Models (WAMs) couple predictive world modeling with action generation, allowing anticipated future states to guide agent behavior. Although…",
+      "link": "https://arxiv.org/abs/2609.09418",
+      "pubDate": 1789099200000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 15,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1291523135",
+      "title": "XAI-Arena: Can LLMs Assess the Quality of XAI Explanations?",
+      "titleZh": "XAI-Arena ： LLM可以评估XAI解释的质量吗？",
+      "summary": "arXiv:2609.09428v1 Announce Type: new Abstract: Evaluating the quality of explanations produced by explainable AI (XAI) methods remains challenging because existing approaches often rely on subjective…",
+      "link": "https://arxiv.org/abs/2609.09428",
+      "pubDate": 1789099200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-378584014",
+      "title": "Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations",
+      "titleZh": "客服代表知道什么时候成功吗？从内部陈述中校准代理置信度",
+      "summary": "arXiv:2609.09448v1 Announce Type: new Abstract: As agentic systems getting adopted rapidly in safety critical applications, it is vital to measure the confidence associated with the agentic actions. I…",
+      "link": "https://arxiv.org/abs/2609.09448",
+      "pubDate": 1789099200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 68,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 10,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "246836116",
+      "title": "Chinese AI labs secretly used millions of Claude exchanges to train their models, Anthropic says",
+      "titleZh": "Anthropic表示，中国人工智能实验室秘密使用数百万个Claude交换机来训练他们的模型",
+      "summary": "Chinese AI labs secretly used millions of Claude exchanges to train their models, Anthropic says CNBC",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVVd0QmhZYjdKejdISGxEbEVXOGNpcDlkZlVRV0M5N013T012blR0bHlEeUNmMS1LTWVzU29DTk41TmoyMG5CWVF3aWpBOUFMbmtINkd4VVFqaXRpQ2ZYb3dWU0dSSlpNQ2RRYlBudjdXeHVnYWt0YTVpV1M5SXloZnNKbmRKTFdIcEEtWGMwaC1ZQdIBlwFBVV95cUxQX0JhaE5BWS1pWGViM3JGTmR2VVFiRTljTS1Ub19WNFR2Mmw4OUhwV25XVnVFUklTcURvME02bWFfZFZrVExCTU1rNWpjNUZWeExtX0tMR0dWdHJMTC14UjZmOVhMUHhPRld2VUF5ZC1nODU2US1ZZDdjZzlEdW1aY0VUWkllZ2pXV1hCVXdQTXRFYXM5OUE4?oc=5",
+      "pubDate": 1789087680000,
+      "vendor": "anthropic",
+      "category": "Product",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-716355088",
+      "title": "Anthropic claims Moonshot, DeepSeek secretly diverted user requests to Claude",
+      "titleZh": "Anthropic声称Moonshot、DeepSeek秘密将用户请求转移给Claude",
+      "summary": "Anthropic claims Moonshot, DeepSeek secretly diverted user requests to Claude South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcHBnY1JTVzF0bEM5d1pZVzBIaHJRSERic0lvMnhGZ3JJZXlRMmpWTUNmTGZ4MEJoeFhTWG82bHV3ZHFULTRXSlBKaHFXLTVaS2piYVhVdHFlUmNqMlhkQnNCeUxsbkdyVlJ3ZHo2QW45bDc2YXNoZlRlYXpPeUVXOFdQM1FYUkw3bWhoSHJCNng4ZUNQODVjWHg4S01YMnI4NDBXQ3BXd2Q0ano4dzRkMEdnNG1rZ1ZHOEdqaU5IbG9wQmlQ0gHEAUFVX3lxTE9MNFVycTNTSzIyVU41WXVuMnFDUFdkRW5CTkRtQXRudVVSUmpac1NKOHgzZWNlYXQ1dVJFUFhna2wxUlF0Z0hnTndUMUljTEVnc0NlRzQ2UFpzQTgySFhLT244aU5iOWJwaENQUVZPV1NxLUhnMkNGY0hDdDVIRlFFRFJPT2FVT3BFSlBJNktwZFNjNlZITHViQ2FXSFZLNkUzaHJOckk3anhiaHNJU3NEeEdtMk1hQXptd184eW1EUXo1SWM?oc=5",
+      "pubDate": 1789082598000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
     {
       "id": "-1374990548",
       "title": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
@@ -13,13 +265,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -34,13 +286,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,13 +307,13 @@
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -76,13 +328,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -97,13 +349,13 @@
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "high",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 4,
         "cw": 25,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -118,13 +370,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -191,6 +443,27 @@
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "1903967952",
+      "title": "Moonshot Secretly Routed User Requests Through Claude, Anthropic Says",
+      "titleZh": "Moonshot通过Claude秘密路由用户请求， Anthropic说",
+      "summary": "Moonshot Secretly Routed User Requests Through Claude, Anthropic Says Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZlpuU0pEUG8wVUlSRVY5RnJ0enh1eFVGbnNGVlNfX2hJX1RNZ1l2eFMwOU8zWnI1TXVadjNmdUxkYm5PamtQczRYaUJxRTlqSXk4V24yTHJQS0hWLUxQXzVXcDI5RVo3ejB5Q05GNDU5VmoteG1FN1lOSHk3Q0dOd2dOUTRKTUZIa1MwUlpPNm10RVdnanhoU1B1M3pFaTNObmJnMjlGSlNsbUFwREdBVWRzX3hKS25mdjl3?oc=5",
+      "pubDate": 1789059631000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "1381583755",
@@ -445,27 +718,6 @@
       "source": "Google News"
     },
     {
-      "id": "-1157624677",
-      "title": "Kimi-3 is not another DeepSeek moment",
-      "titleZh": "Kimi-3不是另一个DeepSeek时刻",
-      "summary": "Kimi-3 is not another DeepSeek moment Mercator Institute for China Studies",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kaVVDYWw3MWZTMVo5YnVBb2RkVWJjbmNPbkhsZU1TZlhqUGdCdUFsVU1zaEFBLVVFR1ZuNGdHNVZ6em9OMExFekJZQW5IVFY4cXZRUWRJU0FhRkpaZnlKU2tlUmFwTTVOaVdFRzUzZGwyUQ?oc=5",
-      "pubDate": 1789034400000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1988953416",
       "title": "China’s DeepSeek Launches Smaller, Faster AI Model",
       "titleZh": "China’s DeepSeek Launches Smaller, Faster AI Model",
@@ -508,60 +760,18 @@
       "source": "Google News"
     },
     {
-      "id": "-2095808373",
-      "title": "Moonshot AI unveils partner program, driving custom AI integration",
-      "titleZh": "Moonshot AI推出合作伙伴计划，推动定制AI集成",
-      "summary": "Moonshot AI unveils partner program, driving custom AI integration The Standard (HK)",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLUZnRzlkNnpVWl9LTEZYMTNhUENQRkJBcXpUbVlhRVJCMDgwZnNWdmF3MklnZy1jSHJnbXFWOVZpbXBsMGFrYTBtRVVaMUdEZlZvcFZobllqRy1EdG5uRDlWNy1KYkpySFdmR2tIUUFpMmktbFNCeXVwZ25TSm1mdzc4MVAtbnR3aERyY1FSSThoSHYwenVOQk9hMlVhcVFFNGJCbFVncjFHTTlKZnZwcS1LWEx4dFM5MlljYmJNZw?oc=5",
-      "pubDate": 1789030480000,
-      "vendor": "kimi",
-      "category": "Release",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 25,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1277103855",
-      "title": "Kimi Maker Moonshot AI To Explore Dual Hong Kong And Shanghai IPOs To Boost Capital - Scmp",
-      "titleZh": "Kimi Maker Moonshot AI探索香港和上海的双重IPO以促进资本- Scmp",
-      "summary": "Kimi Maker Moonshot AI To Explore Dual Hong Kong And Shanghai IPOs To Boost Capital - Scmp TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxONURXN2kxY1puV0o0cEh2cHJTLVdUcGcwc2Y4dzEwTXhLdThIYVc5QVNMX1BIaFlPWHNQU0habDFpQl9qYlhHMmlLSXFKbEt2ZFFkVVM3cC1rbU9RVFVWNGhzRE5mR3A1Mk5WWmtWVExHbEpaUlZ5NWZQUVFORy1ZOHg4cGprNTBjc0NRWmJOYXA0RkZXOU83VWZqY3VpRHZrMTk2blRrQVBPNHBycTdEYU5rWlFyeUJ1dlFKRmRMLW9qUzFUYTNjYkxyYjdwNnQwMV9RbGg0b0hzMzR2YjBJOWdFRndyRFA5ZkFDV1k1VQ?oc=5",
-      "pubDate": 1789027096000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 1,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-788681431",
+      "id": "-1461504745",
       "title": "Exclusive | Moonshot AI considers dual listings in Hong Kong and Shanghai: sources",
       "titleZh": "独家| Moonshot AI考虑在香港和上海的双重房源：来源",
-      "summary": "Exclusive | Moonshot AI considers dual listings in Hong Kong and Shanghai: sources scmp.com",
+      "summary": "Exclusive | Moonshot AI considers dual listings in Hong Kong and Shanghai: sources South China Morning Post",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWDQyVVNaRnBHU09CNEpKaGRzQ3VVZFR5dHVBczdoMS1NbXV3aXJDNFhJR0VsRWoyNk5jdUNBME9LTEsyR05wdnJkNVdZT3RoeThobTc0bjBWSTVMd1J1SGN2enpBUERHVFozbUhINkgtUEoxeGtwbGFONHdZb3lyS2VtdkN5b3NhZHpJVi1TUzNMc09KZkhXckpqRXRiVzlVa2JxX1U4NzJYR05nRFhXbFlZOGp3UGtMV0xOVnduRGtIdDdRcFJLekprVVhjS255NXQ2b3RB0gHWAUFVX3lxTE1teGRFYkpfbTlMeHdvOVg1MFJXdmtkZXROclFNc2tVNHI1LWxkYkNycTFWTGFBTFY3bUU4cEFSQVdaUDk0VmNuWmVIWGZKZnFfUWgwYmpPNWpkaW1Mc3RINHJmUlRwS2E5VEdrM1BPZlhTUklvMHBnSTlBVEZuV05PZkFHSG5CeVpzQ1BfSG1LeHRPN21DWDc0eG1ZeHZQNTRMdGVRMEtwbGszamZFTGFoTEhXMUYyNk1XZGpiQkQyYlp4b1VQMVB5bDJYSmJ5bXBpaXdjMHc?oc=5",
       "pubDate": 1789026614000,
       "vendor": "kimi",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 51,
       "scoreBreakdown": {
-        "cq": 18,
+        "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 12,
@@ -634,237 +844,6 @@
       "source": "Google News"
     },
     {
-      "id": "849102664",
-      "title": "Alibaba Qwen previews N1 AI glasses with iris recognition and no display",
-      "titleZh": "阿里巴巴Qwen预览虹膜识别无显示屏N1 AI眼镜",
-      "summary": "Alibaba Qwen previews N1 AI glasses with iris recognition and no display TechNode",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbzVQZHp1Ml9sV1RPbmk2ZDhfakNtOEtSOE82aUsyY1NzUFQ5X2xOQ1hXdDBRRkhwcmYwOUZpYlk3ZHp0R2JKSGpfYTBJMFVNdjFVYnQ0cVJSa1ZfeGRDM2hVUmZDR0dSMncwYVJtc2ZtZE42Z1VRMEszRkhiS3E0enI4SGg4MGNXYV9WY1pwN2Y4a2MtSHk0akcyc1hRRGJIUGRoSmRHSHA?oc=5",
-      "pubDate": 1789021131000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-60414873",
-      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
-      "titleZh": "OpenDiscoveryTrace ：评估AI科学家工作流的过程跟踪",
-      "summary": "arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process…",
-      "link": "https://arxiv.org/abs/2609.09203",
-      "pubDate": 1789012800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 76,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 13,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1151422360",
-      "title": "Adaptive Entangled Game Modules in Artificial General Intelligence",
-      "titleZh": "通用人工智能中的自适应纠缠游戏模块",
-      "summary": "arXiv:2609.09226v1 Announce Type: new Abstract: We introduce a probability-wave framework for modeling the collective behavior of interacting adaptive agents, deriving testable eigenmodes through a ge…",
-      "link": "https://arxiv.org/abs/2609.09226",
-      "pubDate": 1789012800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-279724260",
-      "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
-      "titleZh": "子代理与代理技能：为长期代理任务执行可重复使用的知识",
-      "summary": "arXiv:2609.09233v1 Announce Type: new Abstract: How can language model agents effectively leverage libraries of reusable knowledge to solve long-horizon tasks? Recent work has increasingly focused on …",
-      "link": "https://arxiv.org/abs/2609.09233",
-      "pubDate": 1789012800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1680514978",
-      "title": "Gradland: On Phenomenal Experience, Differentiated Across Many Dimensions",
-      "titleZh": "Gradland ：在多维度上差异化的现象体验",
-      "summary": "arXiv:2609.09306v1 Announce Type: new Abstract: This paper investigates the hypothesis that the first-order structure of physical interactions, i.e. gradients or Jacobians, characterizes the structure…",
-      "link": "https://arxiv.org/abs/2609.09306",
-      "pubDate": 1789012800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "2028613653",
-      "title": "An Autonomous GeoAI Agent for Arctic Eco-Navigation",
-      "titleZh": "用于北极生态导航的自主GeoAI代理",
-      "summary": "arXiv:2609.09374v1 Announce Type: new Abstract: Arctic maritime navigation is becoming increasingly important as changing sea-ice conditions expand seasonal accessibility while simultaneously introduc…",
-      "link": "https://arxiv.org/abs/2609.09374",
-      "pubDate": 1789012800000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "high",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 25,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "2051728588",
-      "title": "The Menu Is an Execution Prior: State-Path Tool Menus for Online Agents",
-      "titleZh": "菜单是执行之前：在线客服代表的状态路径工具菜单",
-      "summary": "arXiv:2609.09395v1 Announce Type: new Abstract: Language models act through tools, yet practical agents face libraries containing thousands of interfaces. We introduce the tool menu as the short, orde…",
-      "link": "https://arxiv.org/abs/2609.09395",
-      "pubDate": 1789012800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "160693366",
-      "title": "Decision-Focused Active Learning for Scale-Aware Critical-Materials Recovery",
-      "titleZh": "以决策为中心的主动学习，用于规模感知的关键材料恢复",
-      "summary": "arXiv:2609.09413v1 Announce Type: new Abstract: Choosing a recovery process for scale-up requires connecting laboratory results with product requirements, process costs, and scale effects. We analyze …",
-      "link": "https://arxiv.org/abs/2609.09413",
-      "pubDate": 1789012800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1410057510",
-      "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
-      "titleZh": "Valerant ：通过动作条件世界模型探索的自动导航游戏地图生成器",
-      "summary": "arXiv:2609.09418v1 Announce Type: new Abstract: World Action Models (WAMs) couple predictive world modeling with action generation, allowing anticipated future states to guide agent behavior. Although…",
-      "link": "https://arxiv.org/abs/2609.09418",
-      "pubDate": 1789012800000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 15,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1291523135",
-      "title": "XAI-Arena: Can LLMs Assess the Quality of XAI Explanations?",
-      "titleZh": "XAI-Arena ： LLM可以评估XAI解释的质量吗？",
-      "summary": "arXiv:2609.09428v1 Announce Type: new Abstract: Evaluating the quality of explanations produced by explainable AI (XAI) methods remains challenging because existing approaches often rely on subjective…",
-      "link": "https://arxiv.org/abs/2609.09428",
-      "pubDate": 1789012800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-378584014",
-      "title": "Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations",
-      "titleZh": "客服代表知道什么时候成功吗？从内部陈述中校准代理置信度",
-      "summary": "arXiv:2609.09448v1 Announce Type: new Abstract: As agentic systems getting adopted rapidly in safety critical applications, it is vital to measure the confidence associated with the agentic actions. I…",
-      "link": "https://arxiv.org/abs/2609.09448",
-      "pubDate": 1789012800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 67,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 10,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
       "id": "-966573659",
       "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
       "titleZh": "人工智能研究初创公司Listen Labs为Salesforce会谈筹集了15亿美元资金",
@@ -884,6 +863,27 @@
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "2110704229",
+      "title": "Introducing the Agents API",
+      "titleZh": "Agent API简介",
+      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "link": "https://openai.com/index/introducing-the-agents-api",
+      "pubDate": 1788998400000,
+      "vendor": "openai",
+      "category": "Release",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 2,
+        "cw": 25,
+        "st": 15,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "OpenAI"
     },
     {
       "id": "-1554424735",
@@ -1105,13 +1105,13 @@
       "vendor": "kimi",
       "category": "Research",
       "impact": "med",
-      "score": 57,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 22,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -1180,27 +1180,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "1025359288",
-      "title": "The Work Now Within Reach",
-      "titleZh": "现在触手可及的工作",
-      "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
-      "link": "https://openai.com/index/the-work-now-within-reach",
-      "pubDate": 1788872400000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "1320491138",
       "title": "Alibaba’s Qwen AI can help high school students learn",
       "titleZh": "Alibaba’s Qwen AI can help high school students learn",
@@ -1238,6 +1217,48 @@
         "cw": 15,
         "st": 12,
         "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-292705159",
+      "title": "Alibaba’s Qwen releases open-source model for autonomous driving",
+      "titleZh": "Alibaba’s Qwen releases open-source model for autonomous driving",
+      "summary": "Alibaba’s Qwen releases open-source model for autonomous driving technode.com",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE16UHpfYXBMLXl0eDFCVm5pSUtTa2c0ZGFZQnpPeTUxTTFQMS15dXhkUUFEV25YN2ZsWXBaM1o0aGo1dF95T0gtR3h3R3gtektUT0d0OUZJcUtIMTZKc2hoN3EwajJZOG5Oa2swU1NTYw?oc=5",
+      "pubDate": 1788759359000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1452063658",
+      "title": "How to Use Qwen AI: 13 Steps, 90 Min [2026] - tech",
+      "titleZh": "如何使用Qwen AI ： 13个步骤， 90分钟[2026] -科技",
+      "summary": "How to Use Qwen AI: 13 Steps, 90 Min [2026] tech-insider.org",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9CRmZGME5naloxNE9mNFRFMF9zM0ZzVDNMa3YwdTFiQ3pyQWNHUWt0MDVGMWNYS3VYT2EtNHN6VXE5UEdVdGoyOWhXMlR5aDExYU10Y2lVV2taenJMN0t0SElR?oc=5",
+      "pubDate": 1788484075000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google News"
@@ -1304,6 +1325,27 @@
         "cs": 1
       },
       "source": "HuggingFace"
+    },
+    {
+      "id": "1404528558",
+      "title": "Moonshot AI – creator of Kimi K3 model – has filed for Hong Kong IPO: sources",
+      "titleZh": "Moonshot AI – creator of Kimi K3 model – has filed for Hong Kong IPO: sources",
+      "summary": "Moonshot AI – creator of Kimi K3 model – has filed for Hong Kong IPO: sources South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQkZ2VVk5MzV1UVMzcTUtLXNxbTVRS1d5ZG5CM0g2SDdpd1AzUXZYMjQybkZlUzd3Z2pueklIVHM0d29JSjhxcHpScXdReXZVUk1GWGZrb2tvMWUyQmpsSUxxcm1GYzNZenNoX01IZVNwcVVQT04tRFpVQXF3RlJuV01JT3l0b1FvNUpld05uOVhiSGFLcENlZWVZdzhrdF9tSEhyWGhIY2RaTkVpRXI2WUlCeU5LZDjSAbcBQVVfeXFMT3M5ZjRrMGFOdEttTXJBeW9UTHNPclhXd2N4Q0l4NjBWWTI1ME0wakdad3B2bmlDY3dYWDNMV0pIZWYyWFB6TUI1VXpEdWgybVdKOWlxaDVlaG1RZXJrdVNoTTFRck5pLWM1ZUR0WURVZEJoS2RLaXBfNEtyRDdwN0l1Wi1ZMjFPdEtCUzNpSDBXOWVXVzIya3pXX3FIdGtGWEtPdnc4TUV2RFNxWmxvbVdQMEo1R2xF?oc=5",
+      "pubDate": 1788440402000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 3,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "1617073049",
@@ -1831,18 +1873,18 @@
       "source": "VentureBeat"
     },
     {
-      "id": "-1066961806",
+      "id": "1686568900",
       "title": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
       "titleZh": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
-      "summary": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems scmp.com",
+      "summary": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems South China Morning Post",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRVNJbE00UDhJSkVIaktiZTNYR01uZTVVNXd1SV9yMGpJM2dILU1SeWVFQXphS0dmYVNsekZrckVQVkNQNndYaWkxS1lKdXJRdE5MWVFJVVJvNHNPWlVUcVhJc2lRbFRiMFdhODdJeXJuTjZNcTg4enJpbEhMdTYxaDlpenFsSDVWUENpcDdxalM5UWR3OG10dUlMYXNSRjNhdGRYX04wN2s2aF9mb2hfbjJHY1FJT1F2WS1TQU8yc3NXMlFxSEtxX29Ca9IBywFBVV95cUxNekQyWHA4bjlBc09IbGwyajJaMEl1LVp0RXk0aWE5Q3hNWXlLUU5JcWxVRjg0ZHcwN05jN3pva3c1QzBjTjlJUl9CLWVVMkhxSjBCT2I0eFZhNkZwNDYwM0tVS3J1X1plS1J5bm02bzM4YWxPOEpXMzdhSEtRRkI0MzRYc3RFQUJRNmdid2lsMWRDM0tkcjFjUFlmZHBZdDZiR05CWkd0MHBFb3dZdHZCTHNCVjU3ZHlRMmM5TVhoTVlkZzBJV0x3UFRsdw?oc=5",
       "pubDate": 1787036400000,
       "vendor": "qwen",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 54,
       "scoreBreakdown": {
-        "cq": 20,
+        "cq": 22,
         "kv": 4,
         "cw": 15,
         "st": 12,
@@ -1894,11 +1936,32 @@
       "source": "Google AI"
     },
     {
-      "id": "1502230243",
-      "title": "Alibaba AI models hit 3 billion downloads, passing Meta, Google",
-      "titleZh": "阿里巴巴AI机型下载量突破30亿，超越Meta、谷歌",
-      "summary": "Alibaba AI models hit 3 billion downloads, passing Meta, Google Fortune",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQjRQdDJpQnE2LVQzUEs1UDNtUWxFR21VNkdXUEtxWVNibEJRbXI3V182Qk9GODcyZlVsckhWVXFRQnQ3N3VneGFORnNKb2dSeWg3VzFLNldHUlFyRUYxeWtTU2R2b0FJai1nVVhvalEyMFBEYmhESHpxTkdueUFvYXRXRG9mR0gtTm1HZkQtaXVOTDg3VUE?oc=5",
+      "id": "-105299292",
+      "title": "Alibaba launches Qwen AI model for laptops to meet Meta's challenge (BABA:NYSE)",
+      "titleZh": "阿里巴巴推出适用于笔记本电脑的Qwen AI模型，以应对Meta的挑战（ BABA ：纽约证券交易所）",
+      "summary": "Alibaba launches Qwen AI model for laptops to meet Meta's challenge (BABA:NYSE) Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaHUzdzBtMEhETUhQUFpmZmdtTDk5bm40ai1MUFp1clVScDIyaVp6YnNYRDNhbmxtVUk2QmQ0REVFUC0xN2R0YnNaZnpWQXk4SFJ4UXNkTXg0OVB4OThQSTRtWnNGSTZqczhkNkU0M1g3OFVUVks3LVhiSGZxeTBDU01laVh6Tk5tWlZSQ3IyWG1ObXhWaWNnUk8tdUVESHU1OVc5NUdyVQ?oc=5",
+      "pubDate": 1786950000000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-991096918",
+      "title": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google",
+      "titleZh": "阿里巴巴AI模型下载量突破30亿，通过Meta ，谷歌",
+      "summary": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZjdzU3AtQnFGVDExc1hfUWRTV3JpWHgya2wtSHFEU2t5d3NnYWZKb2hpY0JiYVF2cnFNeDF6R2FMLTh6SG1oMjdOd2ZLdlhlMl9MNVEwTVh4X29Fb0dTRWRlSXI1cm9RRXZtOThiUUVmcHhDQXB2VTQxVXNaZUk2Tk42cXItTDV4RE1aNXgyNWw?oc=5",
       "pubDate": 1786777200000,
       "vendor": "google",
       "category": "Research",
@@ -1957,48 +2020,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "1891460870",
-      "title": "What Does Alibaba (BABA) Qwen Royalty Model Mean For Its AI Business?",
-      "titleZh": "阿里巴巴（ BABA ） Qwen版税模式对其AI业务意味着什么？",
-      "summary": "What Does Alibaba (BABA) Qwen Royalty Model Mean For Its AI Business? Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNFRtSkE5ZWwtS054NjVibWJDcmFlN1JETWttV1lIRGw2QlJvSzg4bnVVMHE4bHN2RnVqSXo3ZllWVnFESnhTODhaX2FkVFJtb2hIbXJSOUg3TU1kejVYVmhKRHU1ZEt5YXZBWnpZWW05bEU1aVM2NFF5a2pLY1BRZFo5RVFkVkdHUG9UUWE5YlgzbnV4dXd2TWJR?oc=5",
-      "pubDate": 1786345200000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-219434516",
-      "title": "Alibaba plans revenue sharing for next open-source Qwen AI model",
-      "titleZh": "阿里巴巴计划下一个开源Qwen AI模型的收入分成",
-      "summary": "Alibaba plans revenue sharing for next open-source Qwen AI model qz.com",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1QNXpYQzl1QUZ5RW53SEZjQmFmejc2alNvUFFuWWZsMk1YYTNYRWFfNFhzcGZmQ2xfaHJlSjMtUlpXYjdkcEoyemk4T0xxenBVb3ZNSzk5Zzc1dVJZSW4yOVNGdUNCS3NkZUJlR2xkcw?oc=5",
-      "pubDate": 1786086000000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "901515433",
       "title": "Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
       "titleZh": "进入Omniverse ：开放世界模型如何推动物理人工智能的前沿",
@@ -2018,27 +2039,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-241689768",
-      "title": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
-      "titleZh": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
-      "summary": "One of China’s Most Powerful AI Models Has Also Escaped Containment WIRED",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzUHl5MU1HbXJUemVtQWI4MzVQYmtWaUhHU19SMUp3bnFEY1NGaTN0LVpibXhwUTFNamtZMFBuLTNmOFhsN2VMRXRGWU9yMFBLbVlFNkhKVTVNc3JtdXRnY093aDdWaUJhcVhaX2NTQkgxNFhPdWw1SQ?oc=5",
-      "pubDate": 1785999600000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1860432156",
@@ -2174,13 +2174,13 @@
       "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
       "pubDate": 1615961906000,
       "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
+      "category": "Research",
+      "impact": "high",
+      "score": 59,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 2,
-        "cw": 15,
+        "cw": 22,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -2195,13 +2195,13 @@
       "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
       "pubDate": 1610002951000,
       "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
+      "category": "Release",
+      "impact": "high",
+      "score": 61,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 3,
-        "cw": 15,
+        "cw": 25,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -2217,7 +2217,7 @@
       "pubDate": 1609824612000,
       "vendor": "microsoft",
       "category": "Product",
-      "impact": "med",
+      "impact": "high",
       "score": 50,
       "scoreBreakdown": {
         "cq": 22,
@@ -2237,13 +2237,13 @@
       "link": "https://news.microsoft.com/en-in/nasscom-futureskills-microsoft-launch-ai-classroom-series-skill-students/",
       "pubDate": 1599716180000,
       "vendor": "microsoft",
-      "category": "Release",
+      "category": "Product",
       "impact": "high",
-      "score": 62,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 4,
-        "cw": 25,
+        "cw": 15,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -2258,13 +2258,13 @@
       "link": "https://news.microsoft.com/en-in/industry-and-research-better-together-sriram-rajamani/",
       "pubDate": 1598613057000,
       "vendor": "microsoft",
-      "category": "Product",
+      "category": "Research",
       "impact": "med",
-      "score": 52,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 4,
-        "cw": 15,
+        "cw": 22,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -2279,13 +2279,13 @@
       "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
       "pubDate": 1594186160000,
       "vendor": "microsoft",
-      "category": "Release",
-      "impact": "med",
-      "score": 64,
+      "category": "Product",
+      "impact": "high",
+      "score": 54,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 4,
-        "cw": 25,
+        "cw": 15,
         "st": 10,
         "rc": 0,
         "cs": 1
