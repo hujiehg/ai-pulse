@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-12T21:08:54.530Z",
-  "count": 106,
-  "sources": 11,
+  "updated": "2026-09-12T23:09:52.266Z",
+  "count": 113,
+  "sources": 12,
   "items": [
     {
       "id": "-1762662692",
@@ -25,6 +25,27 @@
       "source": "OpenAI"
     },
     {
+      "id": "-729846865",
+      "title": "8 Weeks After Kimi K3 Launch, Moonshot AI is Filing Police Reports",
+      "titleZh": "Kimi K3发布8周后， Moonshot AI将提交警方报告",
+      "summary": "8 Weeks After Kimi K3 Launch, Moonshot AI is Filing Police Reports BeInCrypto",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9vRzNrbmhWd3ZSNVhkSkJRWWJpNmVScF85dkpackVmcWU3NzdCS01HeThMTFNXbDdMTjFZNVFJWVdEREpOX1VjT3huSGtpRlB3VVpwZnMtekk5SjlBYnhVU1MxR2llVzRsNkVHOXFFRnNIUjZLOHc?oc=5",
+      "pubDate": 1789232160000,
+      "vendor": "kimi",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "1549200024",
       "title": "Anthropic CEO outlines plan to ‘pace the frontier’",
       "titleZh": "Anthropic CEO outlines plan to ‘pace the frontier’",
@@ -34,13 +55,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -286,13 +307,13 @@
       "vendor": "techcrunch",
       "category": "Funding",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 4,
         "cw": 20,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -508,6 +529,27 @@
       "source": "OpenAI"
     },
     {
+      "id": "-888333004",
+      "title": "China AI Star Moonshot Eyes $2 Billion Annualized Sales in 2026",
+      "titleZh": "2026年中国AI Star Moonshot年销售额达$ 20亿",
+      "summary": "China AI Star Moonshot Eyes $2 Billion Annualized Sales in 2026 Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLUllQm9GSVhqampKNXBQSjcxVENFX2lwN0xwU05wZVlxdzNnNU9iOXBRV0FQNU5HWmxyRjM2Y243TEd4SElLYkpIYjQ4YnUyZnk1cFdiQWF4S3oteGx3OThldTlsSzQ1bXhXbXJxYVFoZ2w2bTBWdDlpWEZkZmFWWTlxWHBsM182OWdkTU5yUTkyYllxbTBDOWIyZDJ0NzdGS1dPdEV4djV2RHp0Q29oaUM4aw?oc=5",
+      "pubDate": 1789118247000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 15,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1960424605",
       "title": "DeepSeek's new model sets a template for powerful LLMs that run lean",
       "titleZh": "DeepSeek的新模型为精益运营的强大LLM设置了模板",
@@ -523,6 +565,27 @@
         "kv": 2,
         "cw": 22,
         "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1390569474",
+      "title": "China's star AI labs routed user requests to Claude at least 35 million times in the summer: Anthropic",
+      "titleZh": "中国的STAR AI实验室在夏季至少向Claude发送了3500万次用户请求： Anthropic",
+      "summary": "China's star AI labs routed user requests to Claude at least 35 million times in the summer: Anthropic Business Insider",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMEhydmNHakw3bmVpaDRqTVAtWTBpNE05NkdkSkl1V0R2ejlGc2ZRTUNxMFJZNVVlamtHZy1QTjhrZ21LZ0xmZEg2WjZRWmlubF9RMXRpVnhCdXpCMEVlYzNLWDB0Y2FwOEh3NXdPRllhc2V2R3h6WlBENnJzb0VzZHgxNTNIOVY1RzlCUEdJYTJLbDF2VjNzQnUzMVc4Yk5h?oc=5",
+      "pubDate": 1789105680000,
+      "vendor": "anthropic",
+      "category": "Product",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
         "rc": 2,
         "cs": 1
       },
@@ -580,16 +643,37 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "-1898716556",
+      "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
+      "titleZh": "Anthropic详细介绍了阿里巴巴、Moonshot AI和DeepSeek的蒸馏活动",
+      "summary": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWXVEZHZZd3FMekpPWXlfTF84cm5aclBUUlI4dmtTTlVGWk1RN3d3UVJLMkxkTlBVSjg4dWVZS0tpRWx6LXVGNkxUS0FOTmNfMEs0UXA0dk1HTzdkTXMxY1RudDJxQ3VDcldicUt5dXI1SkdkZjdsVXVHUEJYSEZuMjV4bGR5WHZNNkFIZVFWWkcwNmIxc2NyclA2S2JpMHhHN1JYV0NGQmU2enhGVjc0dU9taw?oc=5",
+      "pubDate": 1789073850000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-380377961",
@@ -607,6 +691,27 @@
         "kv": 0,
         "cw": 22,
         "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1903967952",
+      "title": "Moonshot Secretly Routed User Requests Through Claude, Anthropic Says",
+      "titleZh": "Moonshot通过Claude秘密路由用户请求， Anthropic说",
+      "summary": "Moonshot Secretly Routed User Requests Through Claude, Anthropic Says Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZlpuU0pEUG8wVUlSRVY5RnJ0enh1eFVGbnNGVlNfX2hJX1RNZ1l2eFMwOU8zWnI1TXVadjNmdUxkYm5PamtQczRYaUJxRTlqSXk4V24yTHJQS0hWLUxQXzVXcDI5RVo3ejB5Q05GNDU5VmoteG1FN1lOSHk3Q0dOd2dOUTRKTUZIa1MwUlpPNm10RVdnanhoU1B1M3pFaTNObmJnMjlGSlNsbUFwREdBVWRzX3hKS25mdjl3?oc=5",
+      "pubDate": 1789061692000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
         "rc": 1,
         "cs": 1
       },
@@ -739,6 +844,27 @@
       "source": "OpenAI"
     },
     {
+      "id": "-1458650600",
+      "title": "Chinese AI firm Moonshot to explore dual Hong Kong and Shanghai IPOs, SCMP reports",
+      "titleZh": "中国人工智能公司Moonshot将探索香港和上海的双重IPO ，南华早报报道",
+      "summary": "Chinese AI firm Moonshot to explore dual Hong Kong and Shanghai IPOs, SCMP reports reuters.com",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaDN5R3NoMmwwSDN4OURmOFNXelBDS3BlOWtsM1dnckpwbTRBcUZ0SXYtNnBBSWRQaEJkVFRISHpIdG5aay1UN3ducXU0c0tvUW1fZEVsXy1TY2l3LWRpZi14cFBHSHFMbE1GanA0YUktUlVVbnpkSGR2V25JTUxtdjc3VUppQ0plMnRpMUtwcGpqWUxpczhiY0ZGYWZ4V1E3cTZDTVhMXzgwek5qWnBaVXFvM09iOFN0V05Denpxbw?oc=5",
+      "pubDate": 1789034991000,
+      "vendor": "kimi",
+      "category": "Funding",
+      "impact": "high",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 20,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "81143640",
       "title": "DeepSeek says new Flash AI model beats Kimi K3 on cyber, coding benchmarks",
       "titleZh": "DeepSeek表示，新的Flash AI模型在网络编码基准方面击败了Kimi K3",
@@ -753,6 +879,27 @@
         "cq": 20,
         "kv": 5,
         "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1461504745",
+      "title": "Exclusive | Moonshot AI considers dual listings in Hong Kong and Shanghai: sources",
+      "titleZh": "独家| Moonshot AI考虑在香港和上海的双重房源：来源",
+      "summary": "Exclusive | Moonshot AI considers dual listings in Hong Kong and Shanghai: sources South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWDQyVVNaRnBHU09CNEpKaGRzQ3VVZFR5dHVBczdoMS1NbXV3aXJDNFhJR0VsRWoyNk5jdUNBME9LTEsyR05wdnJkNVdZT3RoeThobTc0bjBWSTVMd1J1SGN2enpBUERHVFozbUhINkgtUEoxeGtwbGFONHdZb3lyS2VtdkN5b3NhZHpJVi1TUzNMc09KZkhXckpqRXRiVzlVa2JxX1U4NzJYR05nRFhXbFlZOGp3UGtMV0xOVnduRGtIdDdRcFJLekprVVhjS255NXQ2b3RB0gHWAUFVX3lxTE1teGRFYkpfbTlMeHdvOVg1MFJXdmtkZXROclFNc2tVNHI1LWxkYkNycTFWTGFBTFY3bUU4cEFSQVdaUDk0VmNuWmVIWGZKZnFfUWgwYmpPNWpkaW1Mc3RINHJmUlRwS2E5VEdrM1BPZlhTUklvMHBnSTlBVEZuV05PZkFHSG5CeVpzQ1BfSG1LeHRPN21DWDc0eG1ZeHZQNTRMdGVRMEtwbGszamZFTGFoTEhXMUYyNk1XZGpiQkQyYlp4b1VQMVB5bDJYSmJ5bXBpaXdjMHc?oc=5",
+      "pubDate": 1789026614000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
         "st": 12,
         "rc": 1,
         "cs": 1
