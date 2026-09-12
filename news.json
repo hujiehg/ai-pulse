@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T06:03:02.902Z",
+  "updated": "2026-09-12T11:01:42.485Z",
   "count": 114,
   "sources": 12,
   "items": [
@@ -23,6 +23,216 @@
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "-1482769264",
+      "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
+      "titleZh": "概率聚焦搜索：通过下限推进加速有界-次优搜索",
+      "summary": "arXiv:2609.10584v1 Announce Type: new Abstract: Bounded-suboptimal search seeks a solution within a factor $w$ of optimal while reducing search effort. Focal Search (FS) uses heuristic guidance within…",
+      "link": "https://arxiv.org/abs/2609.10584",
+      "pubDate": 1789185600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-777234509",
+      "title": "Automating Quadratic Unconstrained Binary Optimization (QUBO) Formulation Generation from Natural Language",
+      "titleZh": "从自然语言自动生成二次无约束二元优化（ QUBO ）公式",
+      "summary": "arXiv:2609.10629v1 Announce Type: new Abstract: Quadratic Unconstrained Binary Optimization (QUBO) is a central formulation for combinatorial optimization and has gained increasing attention due to it…",
+      "link": "https://arxiv.org/abs/2609.10629",
+      "pubDate": 1789185600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1872412011",
+      "title": "A Multi-Stage Rule-Chaining Framework for Compositional and Interpretable Cognitive Reasoning",
+      "titleZh": "组合和可解释认知推理的多阶段规则链框架",
+      "summary": "arXiv:2609.10654v1 Announce Type: new Abstract: The Abstraction and Reasoning Corpus (ARC) benchmarks cognitive generalization, the ability to infer and apply abstract rules from limited examples. Thi…",
+      "link": "https://arxiv.org/abs/2609.10654",
+      "pubDate": 1789185600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "99626068",
+      "title": "Understanding LoRA Rank Trade-offs in Diffusion Model Fine-Tuning",
+      "titleZh": "了解扩散模型微调中的LoRA等级权衡",
+      "summary": "arXiv:2609.10656v1 Announce Type: new Abstract: Selecting LoRA rank for diffusion fine-tuning requires balancing quality and compute cost. We present a controlled study on CIFAR-10 using a DDPM U-Net …",
+      "link": "https://arxiv.org/abs/2609.10656",
+      "pubDate": 1789185600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "421590841",
+      "title": "Quantifying the Memorization-to-Generalization Transition: Scaling Laws and Phase Structure in Grokking",
+      "titleZh": "量化记忆到概括的转变： Grokking中的缩放定律和相位结构",
+      "summary": "arXiv:2609.10657v1 Announce Type: new Abstract: Neural networks trained past memorization frequently undergo a delayed transition to generalization, a phenomenon known as grokking. Despite theoretical…",
+      "link": "https://arxiv.org/abs/2609.10657",
+      "pubDate": 1789185600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-188586136",
+      "title": "An Open Recipe for IMO Gold: Training Nemotron for Olympiad Mathematics",
+      "titleZh": "IMO Gold的开放配方：为奥林匹克数学训练Nemotron",
+      "summary": "arXiv:2609.10712v1 Announce Type: new Abstract: We study how model post-training and test-time inference design affect natural-language proof generation for hard olympiad mathematics. Starting from Ne…",
+      "link": "https://arxiv.org/abs/2609.10712",
+      "pubDate": 1789185600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "2088039915",
+      "title": "Finishing the Task Is Not Enough: Evaluating Agent Resilience and Considerate Participation under Accumulating Challenge",
+      "titleZh": "完成任务是不够的：评估客服代表在累积挑战下的复原力和深思熟虑的参与",
+      "summary": "arXiv:2609.10724v1 Announce Type: new Abstract: Sustained deployment of generative AI agents requires more than isolated task success. Agents must remain useful across repeated interactions, changing …",
+      "link": "https://arxiv.org/abs/2609.10724",
+      "pubDate": 1789185600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "854759504",
+      "title": "Towards a Deterministic Math Solver for Clinical Language Models",
+      "titleZh": "面向临床语言模型的确定性数学求解器",
+      "summary": "arXiv:2609.10728v1 Announce Type: new Abstract: Large language models are unreliable at arithmetic, which is a problem for clinical calculators where a single numerical error changes the recommendatio…",
+      "link": "https://arxiv.org/abs/2609.10728",
+      "pubDate": 1789185600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1802420235",
+      "title": "Studying Without a Syllabus: Task-Agnostic Environment Preprocessing",
+      "titleZh": "没有教学大纲的学习：与任务无关的环境预处理",
+      "summary": "arXiv:2609.10824v1 Announce Type: new Abstract: Before an LLM agent tackles tasks in a new environment, it can inspect available corpora and tools and construct reusable resources such as indices, scr…",
+      "link": "https://arxiv.org/abs/2609.10824",
+      "pubDate": 1789185600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1160548925",
+      "title": "When Validation Stops Learning: Auditing Update Admission for Continual Embodied Agents",
+      "titleZh": "当验证停止学习时：审核持续体现代理的更新录取",
+      "summary": "arXiv:2609.10873v1 Announce Type: new Abstract: Independent evaluation can reject harmful policy updates yet also prevent useful continual learning. We argue that update admission must be assessed thr…",
+      "link": "https://arxiv.org/abs/2609.10873",
+      "pubDate": 1789185600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
     },
     {
       "id": "1811202192",
@@ -58,6 +268,27 @@
       "score": 53,
       "scoreBreakdown": {
         "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1376685709",
+      "title": "Baseten Adds DeepSeek-V4.1-Flash to Model APIs With 1M-Token Context",
+      "titleZh": "Baseten将DeepSeek-V4.1-Flash添加到具有1M代币上下文的模型API中",
+      "summary": "Baseten Adds DeepSeek-V4.1-Flash to Model APIs With 1M-Token Context Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTzZsMkM5N1VzNmlwRFFQeW5yLXJoZXBPWWdnakRYOXF6OTFvdmZwcWVDQUdfbUhQMHMydUJxY3pJaENHdUlXMzJHX005bDdDRC1KYVVKMGhia0dUelNCZ2xXUklZYWNCc0xzLWhwTTBDNk1HN2FQMGxOM3lVQjR3dFdlcFU1bGhzZXBYZDJaWTc3V2VN?oc=5",
+      "pubDate": 1789165442000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
@@ -235,48 +466,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "-502559051",
-      "title": "DeepSeek V4.1-Flash puts pressure on AI pricing",
-      "titleZh": "DeepSeek V4.1-Flash给人工智能定价带来压力",
-      "summary": "DeepSeek V4.1-Flash puts pressure on AI pricing The Rundown AI",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE42QjhyQWpzbkcxdmlDbHJOMExyTnlwUVRpYjN1bDZIZktTWk4xN1h0a1Bqdi1taE5ULThVaXVCb3F5cFdTXy1vWHVKaEF0WVBkQlNKc20yNDBOV19KM0x5amVKelpSME5leFlQUmd3?oc=5",
-      "pubDate": 1789133800000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "high",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-732184249",
-      "title": "DeepSeek Launches V4.1-Flash Before Shanghai Listing",
-      "titleZh": "DeepSeek在上海上市前推出V4.1-Flash",
-      "summary": "DeepSeek Launches V4.1-Flash Before Shanghai Listing Technology Org",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNnRjVnB2TDYyZWdLRkZ0d1hQNGlQV2R3T2NCYTlYMS1XNC13bkFPVWN3RXFTMktfWjBSTXdKelhsSVNwb0xUb21TeXJnSmxQc0VWWi1zelgtWDNPY1pHdF9sdnNEOVFoSUpmcUhHZ1dDOTBfQS12OU1IOWFIdUpGdVJNWDV1ZTVi?oc=5",
-      "pubDate": 1789122318000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1940799617",
       "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
       "titleZh": "快速扩展在线存储，为超过10亿ChatGPT用户提供服务",
@@ -286,13 +475,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "high",
-      "score": 57,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 1,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -307,34 +496,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 15,
         "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1600551107",
-      "title": "SK Hynix, Samsung Shares Dip In Korea After DeepSeek Debuts AI Tech That Uses Less Memory – Micron, SanDisk Hold Up",
-      "titleZh": "SK Hynix, Samsung Shares Dip In Korea After DeepSeek Debuts AI Tech That Uses Less Memory – Micron, SanDisk Hold Up",
-      "summary": "SK Hynix, Samsung Shares Dip In Korea After DeepSeek Debuts AI Tech That Uses Less Memory – Micron, SanDisk Hold Up Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVldMTVRqN203VVQ2NDFFOE5aQWpCMWRxSThoRWZxRGxuYjR6OWNuZUtUY3ctYVNrVUw2bGQ0TFg4VmRpTUVTM2d5aVBpaFZlUFRnYS1feHNuNFlXbDJXYVY1Z01mMmliRGNXOW1aVUgxUTlYNVZoYjVjVnhycS1mQWg4azN5ZTdzajdsU2RTaGZQQTJNSGc?oc=5",
-      "pubDate": 1789111091000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -349,226 +517,16 @@
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-60414873",
-      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
-      "titleZh": "OpenDiscoveryTrace ：评估AI科学家工作流的过程跟踪",
-      "summary": "arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process…",
-      "link": "https://arxiv.org/abs/2609.09203",
-      "pubDate": 1789099200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 75,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 13,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1151422360",
-      "title": "Adaptive Entangled Game Modules in Artificial General Intelligence",
-      "titleZh": "通用人工智能中的自适应纠缠游戏模块",
-      "summary": "arXiv:2609.09226v1 Announce Type: new Abstract: We introduce a probability-wave framework for modeling the collective behavior of interacting adaptive agents, deriving testable eigenmodes through a ge…",
-      "link": "https://arxiv.org/abs/2609.09226",
-      "pubDate": 1789099200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-279724260",
-      "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
-      "titleZh": "子代理与代理技能：为长期代理任务执行可重复使用的知识",
-      "summary": "arXiv:2609.09233v1 Announce Type: new Abstract: How can language model agents effectively leverage libraries of reusable knowledge to solve long-horizon tasks? Recent work has increasingly focused on …",
-      "link": "https://arxiv.org/abs/2609.09233",
-      "pubDate": 1789099200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1680514978",
-      "title": "Gradland: On Phenomenal Experience, Differentiated Across Many Dimensions",
-      "titleZh": "Gradland ：在多维度上差异化的现象体验",
-      "summary": "arXiv:2609.09306v1 Announce Type: new Abstract: This paper investigates the hypothesis that the first-order structure of physical interactions, i.e. gradients or Jacobians, characterizes the structure…",
-      "link": "https://arxiv.org/abs/2609.09306",
-      "pubDate": 1789099200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "2028613653",
-      "title": "An Autonomous GeoAI Agent for Arctic Eco-Navigation",
-      "titleZh": "用于北极生态导航的自主GeoAI代理",
-      "summary": "arXiv:2609.09374v1 Announce Type: new Abstract: Arctic maritime navigation is becoming increasingly important as changing sea-ice conditions expand seasonal accessibility while simultaneously introduc…",
-      "link": "https://arxiv.org/abs/2609.09374",
-      "pubDate": 1789099200000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "high",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 25,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "2051728588",
-      "title": "The Menu Is an Execution Prior: State-Path Tool Menus for Online Agents",
-      "titleZh": "菜单是执行之前：在线客服代表的状态路径工具菜单",
-      "summary": "arXiv:2609.09395v1 Announce Type: new Abstract: Language models act through tools, yet practical agents face libraries containing thousands of interfaces. We introduce the tool menu as the short, orde…",
-      "link": "https://arxiv.org/abs/2609.09395",
-      "pubDate": 1789099200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "160693366",
-      "title": "Decision-Focused Active Learning for Scale-Aware Critical-Materials Recovery",
-      "titleZh": "以决策为中心的主动学习，用于规模感知的关键材料恢复",
-      "summary": "arXiv:2609.09413v1 Announce Type: new Abstract: Choosing a recovery process for scale-up requires connecting laboratory results with product requirements, process costs, and scale effects. We analyze …",
-      "link": "https://arxiv.org/abs/2609.09413",
-      "pubDate": 1789099200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1410057510",
-      "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
-      "titleZh": "Valerant ：通过动作条件世界模型探索的自动导航游戏地图生成器",
-      "summary": "arXiv:2609.09418v1 Announce Type: new Abstract: World Action Models (WAMs) couple predictive world modeling with action generation, allowing anticipated future states to guide agent behavior. Although…",
-      "link": "https://arxiv.org/abs/2609.09418",
-      "pubDate": 1789099200000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 15,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1291523135",
-      "title": "XAI-Arena: Can LLMs Assess the Quality of XAI Explanations?",
-      "titleZh": "XAI-Arena ： LLM可以评估XAI解释的质量吗？",
-      "summary": "arXiv:2609.09428v1 Announce Type: new Abstract: Evaluating the quality of explanations produced by explainable AI (XAI) methods remains challenging because existing approaches often rely on subjective…",
-      "link": "https://arxiv.org/abs/2609.09428",
-      "pubDate": 1789099200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-378584014",
-      "title": "Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations",
-      "titleZh": "客服代表知道什么时候成功吗？从内部陈述中校准代理置信度",
-      "summary": "arXiv:2609.09448v1 Announce Type: new Abstract: As agentic systems getting adopted rapidly in safety critical applications, it is vital to measure the confidence associated with the agentic actions. I…",
-      "link": "https://arxiv.org/abs/2609.09448",
-      "pubDate": 1789099200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 66,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 10,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
     },
     {
       "id": "246836116",
@@ -697,10 +655,10 @@
       "source": "Google News"
     },
     {
-      "id": "-53949056",
-      "title": "DeepSeek’s Low-Cost Model Deals a Fresh Blow to OpenAI, Z.AI",
-      "titleZh": "DeepSeek’s Low-Cost Model Deals a Fresh Blow to OpenAI, Z.AI",
-      "summary": "DeepSeek’s Low-Cost Model Deals a Fresh Blow to OpenAI, Z.AI Bloomberg.com",
+      "id": "-1797640416",
+      "title": "DeepSeek’s New Low-Cost Model Deals a Fresh Blow to OpenAI, Z.ai",
+      "titleZh": "DeepSeek’s New Low-Cost Model Deals a Fresh Blow to OpenAI, Z.ai",
+      "summary": "DeepSeek’s New Low-Cost Model Deals a Fresh Blow to OpenAI, Z.ai Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQTJ5YkVQdU1QNEtuaGY4UEZ2RjQwUUhHR2dkWjNVUUNMMzJVMlNXbWJsZ3Jab0hHaEtMMmR3VWRvX2lfYWdncGlJMEJqcENfR1Jxb1RXaE1pQ0hBNVRTNDNKUmhGZlQyRGh2UkVLUWpEX3hpWFZFc21YZGFVYlFpemU1SklOd0VrUnhnV0FtaUdpNUlzYjZoYmxjTE5FWFFiZVlsNU5ybHBnVmtrek5mZUFraTU?oc=5",
       "pubDate": 1789060009000,
       "vendor": "deepseek",
@@ -844,6 +802,27 @@
       "source": "OpenAI"
     },
     {
+      "id": "-638921529",
+      "title": "New Deepseek model V4.1-Flash cuts memory needs for AI agents - the",
+      "titleZh": "新的Deepseek模型V4.1-Flash削减了AI代理的内存需求-",
+      "summary": "New Deepseek model V4.1-Flash cuts memory needs for AI agents the-decoder.com",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNUExMTg0alp0bUtPVUhoSjBjYndBTW1vSFdwOWhFMk0xR2JSWnRKVE5qd1hiVmQ3Y1BTU2EtUV8zRXc5eXFoVGZ5OHZZTEpqT3BMa05VeUstQ0V4TW1JTFIzQTMzR21CaFVGUzlWYzJnZDdkZ2JEQjZEaEpCTG1TeHVpTUluX0tVbnQ3MEVzYw?oc=5",
+      "pubDate": 1789044252000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1613248027",
       "title": "Chinese AI firm Moonshot to explore dual Hong Kong and Shanghai IPOs, SCMP reports",
       "titleZh": "中国人工智能公司Moonshot将探索香港和上海的双重IPO ，南华早报报道",
@@ -853,13 +832,13 @@
       "vendor": "kimi",
       "category": "Funding",
       "impact": "high",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 20,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -874,13 +853,13 @@
       "vendor": "kimi",
       "category": "Research",
       "impact": "high",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 5,
         "cw": 22,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -895,13 +874,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -916,13 +895,13 @@
       "vendor": "openai",
       "category": "Research",
       "impact": "med",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 0,
         "cw": 22,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -937,34 +916,34 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
     },
     {
-      "id": "-1717250807",
+      "id": "1271155030",
       "title": "China's DeepSeek launches V4.1-Flash model",
       "titleZh": "中国的DeepSeek推出V4.1-Flash模型",
-      "summary": "China's DeepSeek launches V4.1-Flash model reuters.com",
+      "summary": "China's DeepSeek launches V4.1-Flash model Reuters",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVzlkZDJjakNKZnV2VEtEYUU4b3VmQWtHWnI3eFp4WlFDRzdTM3dfTENUMWtiY2FrcUFnYVZMeGR6ZEczWDBzZDZHWVhvd0FRUnRibnlBOXk5Q2h2aTRUWnAzZVMzcEtscnZxcjVxSEI5ZmRBYmVXVHd6TmQ0ekhNVUZTYzgzbHM3VExhbEZhZENzN1dWaUZwR3Bjcw?oc=5",
       "pubDate": 1789021920000,
       "vendor": "deepseek",
       "category": "Release",
       "impact": "high",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -1172,6 +1151,27 @@
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "292949339",
+      "title": "US Says Alibaba, DeepSeek Have ‘Systematically’ Siphoned AI Models",
+      "titleZh": "US Says Alibaba, DeepSeek Have ‘Systematically’ Siphoned AI Models",
+      "summary": "US Says Alibaba, DeepSeek Have ‘Systematically’ Siphoned AI Models uk.finance.yahoo.com",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNWJHMGFCcnRlT2FzZ0xDMzcycHNDWEZGNVNjbkJwNFJWXzhNWVJYMmc0SU94bXk2SjJuN1daLUxuWXN3Ri12M0RLdkN4TmQxWGlkc1VUN3ljWVVhSGFjdFRTR292YmRsTk9iZ0w0bGV4ZURuUjhjQmZkTUZaSlVIb3Q4NXZCRjJGQXc4Y3FaQkxXQQ?oc=5",
+      "pubDate": 1788918600000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
         "cw": 22,
         "st": 12,
         "rc": 1,
@@ -2195,13 +2195,13 @@
       "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
       "pubDate": 1615961906000,
       "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
+      "category": "Research",
+      "impact": "high",
+      "score": 59,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 2,
-        "cw": 15,
+        "cw": 22,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -2216,13 +2216,13 @@
       "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
       "pubDate": 1610002951000,
       "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
+      "category": "Release",
+      "impact": "high",
+      "score": 61,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 3,
-        "cw": 15,
+        "cw": 25,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -2238,7 +2238,7 @@
       "pubDate": 1609824612000,
       "vendor": "microsoft",
       "category": "Product",
-      "impact": "med",
+      "impact": "high",
       "score": 50,
       "scoreBreakdown": {
         "cq": 22,
@@ -2258,13 +2258,13 @@
       "link": "https://news.microsoft.com/en-in/nasscom-futureskills-microsoft-launch-ai-classroom-series-skill-students/",
       "pubDate": 1599716180000,
       "vendor": "microsoft",
-      "category": "Release",
+      "category": "Product",
       "impact": "high",
-      "score": 62,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 4,
-        "cw": 25,
+        "cw": 15,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -2279,13 +2279,13 @@
       "link": "https://news.microsoft.com/en-in/industry-and-research-better-together-sriram-rajamani/",
       "pubDate": 1598613057000,
       "vendor": "microsoft",
-      "category": "Product",
+      "category": "Research",
       "impact": "med",
-      "score": 52,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 4,
-        "cw": 15,
+        "cw": 22,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -2300,13 +2300,13 @@
       "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
       "pubDate": 1594186160000,
       "vendor": "microsoft",
-      "category": "Release",
-      "impact": "med",
-      "score": 64,
+      "category": "Product",
+      "impact": "high",
+      "score": 54,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 4,
-        "cw": 25,
+        "cw": 15,
         "st": 10,
         "rc": 0,
         "cs": 1
