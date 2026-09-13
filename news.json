@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T23:09:52.266Z",
+  "updated": "2026-09-13T01:15:54.467Z",
   "count": 113,
   "sources": 12,
   "items": [
@@ -25,6 +25,48 @@
       "source": "OpenAI"
     },
     {
+      "id": "1962158696",
+      "title": "OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026",
+      "titleZh": "OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026",
+      "summary": "While OpenAI has filed confidentially for an IPO, the company will not be going public this year, according to CEO Sam Altman.",
+      "link": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
+      "pubDate": 1789244356000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "high",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 1,
+        "cw": 20,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1871110498",
+      "title": "Anthropic CEO outlines plan to slow AI development",
+      "titleZh": "Anthropic首席执行官概述了减缓人工智能发展的计划",
+      "summary": "Anthropic's Dario Amodei and OpenAI's Sam Altman seem to agree that it's time to \"pace the frontier.\" What would that actually look like?",
+      "link": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+      "pubDate": 1789241684000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
       "id": "-729846865",
       "title": "8 Weeks After Kimi K3 Launch, Moonshot AI is Filing Police Reports",
       "titleZh": "Kimi K3发布8周后， Moonshot AI将提交警方报告",
@@ -44,27 +86,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "1549200024",
-      "title": "Anthropic CEO outlines plan to ‘pace the frontier’",
-      "titleZh": "Anthropic CEO outlines plan to ‘pace the frontier’",
-      "summary": "What would it actually look like to \"pace the frontier\"?",
-      "link": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
-      "pubDate": 1789228331000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "-1891077686",
@@ -622,37 +643,16 @@
       "vendor": "anthropic",
       "category": "Product",
       "impact": "med",
-      "score": 57,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
         "cw": 15,
         "st": 15,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1374990548",
-      "title": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
-      "titleZh": "Jensen Huang解释了为什么Nvidia明年将增长惊人的70%",
-      "summary": "Nvidia has its finger in every pie, and sees another year of plenty in its future, Jensen Huang says. But, he insists, its deals are not circular.",
-      "link": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
-      "pubDate": 1789077119000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
         "rc": 1,
         "cs": 1
       },
-      "source": "TechCrunch"
+      "source": "Google News"
     },
     {
       "id": "-1898716556",
