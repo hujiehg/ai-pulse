@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-13T16:33:45.835Z",
-  "count": 102,
+  "updated": "2026-09-13T19:08:21.916Z",
+  "count": 103,
   "sources": 11,
   "items": [
     {
@@ -23,6 +23,27 @@
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "857840292",
+      "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+      "titleZh": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+      "summary": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safe…",
+      "link": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+      "pubDate": 1789317000000,
+      "vendor": "techcrunch",
+      "category": "Safety",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 10,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
     },
     {
       "id": "-314805405",
@@ -118,13 +139,13 @@
       "vendor": "kimi",
       "category": "Release",
       "impact": "high",
-      "score": 65,
+      "score": 64,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -265,34 +286,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "high",
-      "score": 57,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
         "cw": 22,
         "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1889518804",
-      "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
-      "titleZh": "Nscale在潜在的IPO之前将前OpenAI高管Fidji Simo加入其董事会",
-      "summary": "The No. 2 exec at OpenAI also led Instacart through its IPO in 2023.",
-      "link": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
-      "pubDate": 1789145185000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 20,
-        "st": 8,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -361,10 +361,10 @@
       "source": "Google News"
     },
     {
-      "id": "-532542230",
+      "id": "-1960424605",
       "title": "DeepSeek's new model sets a template for powerful LLMs that run lean",
       "titleZh": "DeepSeek的新模型为精益运营的强大LLM设置了模板",
-      "summary": "DeepSeek's new model sets a template for powerful LLMs that run lean theregister.com",
+      "summary": "DeepSeek's new model sets a template for powerful LLMs that run lean The Register",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1d2cXhBcGxPRlB0M2VkU1dFWDNVVFV6QUtsNWVmc3VHOTNMOGQxX3dDd3VPVGJRWFl1X2dtaHJ5WEs5M1Z5bUdqYTdYYmgwcDBnVE5RM3Vsb3dlYjNJNHNxOGd3bnJLYnRocVFDanZNMjlDZEtSMGNlUC1WQUl4TWJKaExMRWV3dHFUTmJFWTB5ME5TM18yUXJBUVdieGRuYThGZUNBRXFaSXY4ejhNTS05aGt0aVZpZUJxX2kwN0Y2dw?oc=5",
       "pubDate": 1789110900000,
       "vendor": "deepseek",
@@ -397,6 +397,27 @@
         "kv": 2,
         "cw": 15,
         "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-102457395",
+      "title": "DeepSeek's New Model Nearly Matches GPT-6 Astra on Design—at 1.4% of the Cost",
+      "titleZh": "DeepSeek's New Model Nearly Matches GPT-6 Astra on Design—at 1.4% of the Cost",
+      "summary": "DeepSeek's New Model Nearly Matches GPT-6 Astra on Design—at 1.4% of the Cost Decrypt",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBNbU5IaTFnTXBlLUtsWHgxeEZ6Ym1nZGNBLW0tM21ILU5PVzZ3dUY3eHE0MGZlc25QdjRSRTFIV1Zyam5tMk9BSTlGWm42WUhraGFqZkZFWWtVMmNuZ1NweHpNcmhfRHA1bVIxV3Q3Z3Jya0pMRGdQOGNn0gGCAUFVX3lxTE9Nam5fcXQ2VUZqX1hqQ3J3aG1QRWpROFMyZkhvMW1OZ25RUEtYVjVPU0xBYmUtb2gzSFk0QXVXdHBjQncweWYzRENxS1RrTHFuY2tJeEtqSGUzb2dvUE80djY0TUxSMVBRTkU5TE4xek1GMVlHeFN6RmtZWVNaOEF2TVE?oc=5",
+      "pubDate": 1789074963000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
         "rc": 1,
         "cs": 1
       },
@@ -928,10 +949,10 @@
       "source": "OpenAI"
     },
     {
-      "id": "-165754763",
+      "id": "-292923544",
       "title": "U.S. agencies say top Chinese AI companies systematically copied American models",
       "titleZh": "美国机构表示，中国顶级人工智能公司系统地复制了美国模式",
-      "summary": "U.S. agencies say top Chinese AI companies systematically copied American models nbcnews.com",
+      "summary": "U.S. agencies say top Chinese AI companies systematically copied American models NBC News",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVUxsTGJWZ0pWNzFIUEtVdnVmTjVNMmU5ei1VUW52cFJ5b1plbEY5a2xidEllRFR3NXBkdlpHeTFmR1NyNVJ2Y19oSElYd3RrTXhfQVJtZ3JvbEg3TTBYUG1wSFdpY3RZaXJaSk9EdGstZWlpcXJQY0lVdnZYanhkTVNwVzN3R0wwQmVvRDZZMHNwcVhLbG44SXFsZkhBekcxdl85U0dUVXVkVnpVMlBmcXNWS19HX0sz?oc=5",
       "pubDate": 1788943320000,
       "vendor": "google",
