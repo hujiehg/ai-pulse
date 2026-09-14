@@ -1,8 +1,29 @@
 {
-  "updated": "2026-09-14T19:42:54.606Z",
-  "count": 115,
-  "sources": 12,
+  "updated": "2026-09-14T22:54:13.517Z",
+  "count": 106,
+  "sources": 11,
   "items": [
+    {
+      "id": "-1122161015",
+      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "titleZh": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "summary": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology Society.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+      "pubDate": 1789412400000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google AI"
+    },
     {
       "id": "-1316189970",
       "title": "With iOS 27, I’m actually using Siri again",
@@ -55,13 +76,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 1,
         "cw": 22,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -76,13 +97,13 @@
       "vendor": "google",
       "category": "Agent",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 12,
         "kv": 0,
         "cw": 12,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google AI"
@@ -97,13 +118,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -118,13 +139,13 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 39,
+      "score": 38,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 12,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -139,13 +160,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "high",
-      "score": 47,
+      "score": 46,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -160,13 +181,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -181,85 +202,43 @@
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "high",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 2,
         "cw": 25,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
     },
     {
-      "id": "-15789003",
-      "title": "Why DeepSeek-V4.1-Flash Is Such an Exciting Open Model Release",
-      "titleZh": "为什么DeepSeek-V4.1-Flash是一个如此令人兴奋的开放模型版本",
-      "summary": "Why DeepSeek-V4.1-Flash Is Such an Exciting Open Model Release KDnuggets",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeG5uMERMaFpTT3hzOFJKTmpEajBJYWdocUFwcWVROHVNdnNGSDI2WG5MU0NUVnF1cE1oX3Y4QXRsSkNsTm1oeHpNYjZUM3hHS01iSFhpWVFfejBrUF9xVmZyYzRuYlBnQmRwSVY3emFDRVo3Z2NKQkJjZlZaUjY3eUNGMEtrU1dCWURqcHBORWxzZw?oc=5",
-      "pubDate": 1789388537000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 63,
+      "id": "-816830816",
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "titleZh": "Fyxer如何建立人们信任的人工智能行政助理",
+      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "link": "https://openai.com/index/fyxer",
+      "pubDate": 1789387200000,
+      "vendor": "openai",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
       "scoreBreakdown": {
         "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
         "rc": 3,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "OpenAI"
     },
     {
-      "id": "-1444409067",
-      "title": "DeepSeek V4.1 Flash Uncensored: 2,254 Downloads [2026]",
-      "titleZh": "DeepSeek V4.1 Flash未经审查： 2,254次下载[2026]",
-      "summary": "DeepSeek V4.1 Flash Uncensored: 2,254 Downloads [2026] shattered.io",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96QzgzWnBvb0ZLemE2OEljRklObzNNMUZsNmJ4NXZuX0ZRRWFUVjBlaUR1cVNuelk3cHNGSUZLMTdFSndjN01oWmVackJkZHo0bzVPWGkzMjVTcmRDcTlnRHROb3ZlSnFzTkJRNU9yZVhkc1hPaDVWNw?oc=5",
-      "pubDate": 1789381533000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "high",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-637969360",
-      "title": "DeepSeek V4.1 Flash Uncensored: Abliterated Builds Hit HF [2026] - tech",
-      "titleZh": "DeepSeek V4.1 Flash Uncensored: Abliterated Builds Hit HF [2026] -技术",
-      "summary": "DeepSeek V4.1 Flash Uncensored: Abliterated Builds Hit HF [2026] tech-insider.org",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQWZRZFBYOU02WldNX3Bpem1heWpEbnBXWU1qXzJjeXNkUHh1dXMxOFlfdFAzRktJelBkMnpNOWZqMzFVV0daalFuelMweDJzUkgxWkp1VE9tZ1dZLXY0ZjQ0QXVFU0xIbGV0cmE3eFFXWWlKaHNKN2hNcm1jTy0zM1JCXzNGa1ZZcGU5akZB?oc=5",
-      "pubDate": 1789379194000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "high",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "623791497",
+      "id": "654793084",
       "title": "Moonshot Rolls Out Kimi K2.8 Preview Across Kimi Code and Work",
       "titleZh": "Moonshot在Kimi代码和工作中推出Kimi K2.8预览",
-      "summary": "Moonshot Rolls Out Kimi K2.8 Preview Across Kimi Code and Work Pandaily",
+      "summary": "Moonshot Rolls Out Kimi K2.8 Preview Across Kimi Code and Work pandaily.com",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1fRHUwbUQySEFHWVlDcWVKUTd2V0pwRFRZN1ZiZFVDX2xpT1ZtSm1rQXpoVE1TQ2JEU0ozX3NFYTBjQVc2akRkeGtrd2h2a0pPRlhoYjJFcXZEU0hUSUJoVjVfS05wT2sxWC00WkxlWFQ1RjZDSmtwVw?oc=5",
       "pubDate": 1789377177000,
       "vendor": "kimi",
@@ -277,20 +256,20 @@
       "source": "Google News"
     },
     {
-      "id": "-53127889",
-      "title": "Kimi K3 Overloads Moonshot AI GPUs Just 48 Hours After Launch",
-      "titleZh": "Kimi K3在发布后仅48小时就超载了Moonshot AI GPU",
-      "summary": "Kimi K3 Overloads Moonshot AI GPUs Just 48 Hours After Launch Yellow.com",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRV9QU2VoV3dobEtMT2R2MnVfSm0zM1hmZTNweUY5ZjlrZFRXNHJnemZkcU0xc0lOcUN4aWt1WG04NmNMY1NwV0Q4c1l6dnAwSzBqenJWdHZ2QzhUMG1IT2dab0NCZ1h5V2JxR2N6X2hZaDFPRmN5c2FZX3ZoV1RDMVp2eDg5bTFfcUpZVFJ1T01Za2s?oc=5",
-      "pubDate": 1789372991000,
-      "vendor": "kimi",
-      "category": "Release",
-      "impact": "high",
-      "score": 65,
+      "id": "882859477",
+      "title": "Qwen And DeepSeek Push Chinese AI Right To Anthropic's Doorstep",
+      "titleZh": "Qwen和DeepSeek将中国人工智能推向人类家门口",
+      "summary": "Qwen And DeepSeek Push Chinese AI Right To Anthropic's Doorstep Yellow.com",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQTd2T2Y1UHpzOFpySjZEcXdRSl9hSE5VOHpHd0QydGdpT3FhbmVBN1VWRDhWZjYtS3RXZERnQmJlNWlXdlVua2plMDFLbEZHYktUSHdhbV9GWnhRa3FZZWxCYm1WejZTUzhza2ZRZXg4Vm4tM0x0Z2dfMFZ5MHJVN2RsTFk2dFJXSWEyel9HQQ?oc=5",
+      "pubDate": 1789362468000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 55,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 4,
-        "cw": 25,
+        "cw": 15,
         "st": 12,
         "rc": 3,
         "cs": 1
@@ -508,27 +487,6 @@
       "source": "arXiv"
     },
     {
-      "id": "-1625840922",
-      "title": "DeepSeek-V4.1-Flash Packs 552B Parameters With Efficient MoE Inference",
-      "titleZh": "DeepSeek-V4.1-Flash包552B参数，具有高效的MoE推理",
-      "summary": "DeepSeek-V4.1-Flash Packs 552B Parameters With Efficient MoE Inference HackerNoon",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcl92MXQtNS1KWXIzZ1RuMXNQdFUzTTNnbnhRcDlZNXp0Z0JvSG01WFM0UDB4d24tNFo2ZUtHNUJwYm5pZFNmd2wybjVNczRRbnI3SGJVdnJUaHk0bGpabXd0RVJLWFVteDRyVlIxYy1sVjBjMW1XQnlQZTBiZVFWd3Bram5nc3g3Zk83aUJxMGVIOVlDSS04?oc=5",
-      "pubDate": 1789354893000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 3,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1762662692",
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
       "titleZh": "Perplexity信任GPT-6 Astra的端到端系统",
@@ -592,43 +550,22 @@
       "source": "TechCrunch"
     },
     {
-      "id": "-314805405",
-      "title": "DeepSeek's New AI Model Spooked Samsung and SK Hynix Investors",
-      "titleZh": "DeepSeek的新AI模型吓坏了三星和SK海力士的投资者",
-      "summary": "DeepSeek's New AI Model Spooked Samsung and SK Hynix Investors Startup Fortune",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQV3JiMkdHTHAwU3BMaGxfcHJ6SlZJRjhLQWhjekUzVGlwUzcyWHFGX1FENm9QUDVNekxnUVA3VjJobjY2b2NJeURhcHlLZXZ6SG5QdndOVExzMUJBS05LMnc1ZjYxTWN2SlMyblJaT1ZSQTBObWVhbXh4aGtIbFpQQ1ZXSjNHUl9lZ1NYTkhnbW9LYjA?oc=5",
-      "pubDate": 1789268284000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1493474206",
-      "title": "Qwen And DeepSeek Push Chinese AI Right To Anthropic's Doorstep",
-      "titleZh": "Qwen和DeepSeek将中国人工智能推向人类家门口",
-      "summary": "Qwen And DeepSeek Push Chinese AI Right To Anthropic's Doorstep Yellow.com",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTkEyLTJaV0hYZUkyZm91OUoxZkpfSFF3WmxUT0daZHBveEFoSm95dHJZVndneFFmVUpTMFVpQ2hDMmtHYUwtTmtoNFNrMnY3aGNKWXVyLTViMzZ0TGNfaS1HV2dJcUNsVU1CanlSejM4eExTZEF0ZTlobGJ0dVNBcFA5TTNRVHpwRWpMRElkanhPSFpKS1E?oc=5",
-      "pubDate": 1789251920000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 54,
+      "id": "-729846865",
+      "title": "8 Weeks After Kimi K3 Launch, Moonshot AI is Filing Police Reports",
+      "titleZh": "Kimi K3发布8周后， Moonshot AI将提交警方报告",
+      "summary": "8 Weeks After Kimi K3 Launch, Moonshot AI is Filing Police Reports BeInCrypto",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9vRzNrbmhWd3ZSNVhkSkJRWWJpNmVScF85dkpackVmcWU3NzdCS01HeThMTFNXbDdMTjFZNVFJWVdEREpOX1VjT3huSGtpRlB3VVpwZnMtekk5SjlBYnhVU1MxR2llVzRsNkVHOXFFRnNIUjZLOHc?oc=5",
+      "pubDate": 1789232160000,
+      "vendor": "kimi",
+      "category": "Release",
+      "impact": "high",
+      "score": 63,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 4,
-        "cw": 15,
+        "cw": 25,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -711,27 +648,6 @@
         "cq": 18,
         "kv": 1,
         "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-532542230",
-      "title": "DeepSeek's new model sets a template for powerful LLMs that run lean",
-      "titleZh": "DeepSeek的新模型为精益运营的强大LLM设置了模板",
-      "summary": "DeepSeek's new model sets a template for powerful LLMs that run lean theregister.com",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1d2cXhBcGxPRlB0M2VkU1dFWDNVVFV6QUtsNWVmc3VHOTNMOGQxX3dDd3VPVGJRWFl1X2dtaHJ5WEs5M1Z5bUdqYTdYYmgwcDBnVE5RM3Vsb3dlYjNJNHNxOGd3bnJLYnRocVFDanZNMjlDZEtSMGNlUC1WQUl4TWJKaExMRWV3dHFUTmJFWTB5ME5TM18yUXJBUVdieGRuYThGZUNBRXFaSXY4ejhNTS05aGt0aVZpZUJxX2kwN0Y2dw?oc=5",
-      "pubDate": 1789110900000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -823,10 +739,10 @@
       "source": "Google News"
     },
     {
-      "id": "-380377961",
+      "id": "1205393034",
       "title": "How Chinese AI Firms Tried to Clone U.S. AI Models",
       "titleZh": "中国人工智能公司如何尝试克隆美国人工智能模型",
-      "summary": "How Chinese AI Firms Tried to Clone U.S. AI Models WSJ",
+      "summary": "How Chinese AI Firms Tried to Clone U.S. AI Models wsj.com",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeGswOXZNYVNvdzV2SzRHVC1aM0lGM01aNHVnMlRRQWVZYkFhTGh0dzE4UkRER042RU5kQnVmUVY3X282ZmgzYUtJYU5uSnhyZTV1eWlsaDdKcHBjQ28tQnQzd09XUm9KczY4SFB1c1hEZ2xfS203RExlZDU5OUZRcHZ4YUNUdG5JbzByNFlqWi10ZVlXcmxVNExXODR6dEp4X1FjbERSckRRQ0ZNcVhiMGxR?oc=5",
       "pubDate": 1789065780000,
       "vendor": "google",
@@ -838,27 +754,6 @@
         "kv": 0,
         "cw": 22,
         "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1797640416",
-      "title": "DeepSeek’s New Low-Cost Model Deals a Fresh Blow to OpenAI, Z.ai",
-      "titleZh": "DeepSeek’s New Low-Cost Model Deals a Fresh Blow to OpenAI, Z.ai",
-      "summary": "DeepSeek’s New Low-Cost Model Deals a Fresh Blow to OpenAI, Z.ai Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQTJ5YkVQdU1QNEtuaGY4UEZ2RjQwUUhHR2dkWjNVUUNMMzJVMlNXbWJsZ3Jab0hHaEtMMmR3VWRvX2lfYWdncGlJMEJqcENfR1Jxb1RXaE1pQ0hBNVRTNDNKUmhGZlQyRGh2UkVLUWpEX3hpWFZFc21YZGFVYlFpemU1SklOd0VrUnhnV0FtaUdpNUlzYjZoYmxjTE5FWFFiZVlsNU5ybHBnVmtrek5mZUFraTU?oc=5",
-      "pubDate": 1789060009000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
         "rc": 1,
         "cs": 1
       },
@@ -970,48 +865,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "-1613248027",
-      "title": "Chinese AI firm Moonshot to explore dual Hong Kong and Shanghai IPOs, SCMP reports",
-      "titleZh": "中国人工智能公司Moonshot将探索香港和上海的双重IPO ，南华早报报道",
-      "summary": "Chinese AI firm Moonshot to explore dual Hong Kong and Shanghai IPOs, SCMP reports Reuters",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaDN5R3NoMmwwSDN4OURmOFNXelBDS3BlOWtsM1dnckpwbTRBcUZ0SXYtNnBBSWRQaEJkVFRISHpIdG5aay1UN3ducXU0c0tvUW1fZEVsXy1TY2l3LWRpZi14cFBHSHFMbE1GanA0YUktUlVVbnpkSGR2V25JTUxtdjc3VUppQ0plMnRpMUtwcGpqWUxpczhiY0ZGYWZ4V1E3cTZDTVhMXzgwek5qWnBaVXFvM09iOFN0V05Denpxbw?oc=5",
-      "pubDate": 1789034991000,
-      "vendor": "kimi",
-      "category": "Funding",
-      "impact": "high",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 20,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1445488454",
-      "title": "DeepSeek says new Flash AI model beats Kimi K3 on cyber, coding benchmarks",
-      "titleZh": "DeepSeek表示，新的Flash AI模型在网络编码基准方面击败了Kimi K3",
-      "summary": "DeepSeek says new Flash AI model beats Kimi K3 on cyber, coding benchmarks South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSEFTVVFpTGZmWEktNjRudFpfczRqV3lvUDVVclpQVFlsdEFVd0dNYVBsbE4yMm5PZGEtRnZSTFhTd1Vxa1pKdTVVUzhua29DTmt5a2dZYWt0VXkxZmtHZmNmT1ZOcHFBWkJWVE1sU3d4T2pXRDhETHRfOWp0Mmw1NXk5X2Q3NFhwUE5hZWVWRHpsMlZFUFptaEpzdDVTYWpRMWhZajFCbVBVMEZwRVpIT2c0djN1SmttRmtyM2x30gG-AUFVX3lxTE8zdTFRQnM3dndWeTRYcHFrTEIySmZFUEV4M0t6cDNBTU5YeGhrVVZWV2NtTDBvM3BXMVJXZ2FQNG04VC1Nd0RHVktEaFZIZmxDYmNYeHJlQjlka0c5NVg0TEppSV9RU0hLZ3VBWW5Hc0FSd2owckFKSEZ0M2cwUGFLcVljU25aOEh3OXhzYWJVdmh4Y2o2Q3g4QXFQazRDLXR2OTRRVVFpMlV2MlR6UV9kdXhuZ2JkNTRnekZGMFE?oc=5",
-      "pubDate": 1789032384000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "high",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 5,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1461504745",
       "title": "Exclusive | Moonshot AI considers dual listings in Hong Kong and Shanghai: sources",
       "titleZh": "独家| Moonshot AI考虑在香港和上海的双重房源：来源",
@@ -1075,27 +928,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "1271155030",
-      "title": "China's DeepSeek launches V4.1-Flash model",
-      "titleZh": "中国的DeepSeek推出V4.1-Flash模型",
-      "summary": "China's DeepSeek launches V4.1-Flash model Reuters",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVzlkZDJjakNKZnV2VEtEYUU4b3VmQWtHWnI3eFp4WlFDRzdTM3dfTENUMWtiY2FrcUFnYVZMeGR6ZEczWDBzZDZHWVhvd0FRUnRibnlBOXk5Q2h2aTRUWnAzZVMzcEtscnZxcjVxSEI5ZmRBYmVXVHd6TmQ0ekhNVUZTYzgzbHM3VExhbEZhZENzN1dWaUZwR3Bjcw?oc=5",
-      "pubDate": 1789021920000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "849102664",
       "title": "Alibaba Qwen previews N1 AI glasses with iris recognition and no display",
       "titleZh": "阿里巴巴Qwen预览虹膜识别无显示屏N1 AI眼镜",
@@ -1117,27 +949,6 @@
       "source": "Google News"
     },
     {
-      "id": "2110704229",
-      "title": "Introducing the Agents API",
-      "titleZh": "Agent API简介",
-      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-      "link": "https://openai.com/index/introducing-the-agents-api",
-      "pubDate": 1788998400000,
-      "vendor": "openai",
-      "category": "Release",
-      "impact": "high",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 2,
-        "cw": 25,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "-1554424735",
       "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
       "titleZh": "Build more natural voice experiences with GPT‑Live‑1 in the API",
@@ -1152,6 +963,27 @@
         "cq": 20,
         "kv": 0,
         "cw": 15,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "2110704229",
+      "title": "Introducing the Agents API",
+      "titleZh": "Agent API简介",
+      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "link": "https://openai.com/index/introducing-the-agents-api",
+      "pubDate": 1788998400000,
+      "vendor": "openai",
+      "category": "Release",
+      "impact": "high",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 2,
+        "cw": 25,
         "st": 15,
         "rc": 1,
         "cs": 1
@@ -1283,27 +1115,6 @@
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "423638076",
-      "title": "The AI policy window is open. We need to act.",
-      "titleZh": "AI策略窗口已打开。我们需要采取行动。",
-      "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
-      "link": "https://openai.com/index/ai-policy-window",
-      "pubDate": 1788958800000,
-      "vendor": "openai",
-      "category": "Safety",
-      "impact": "med",
-      "score": 44,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 10,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
     },
     {
       "id": "-1397842587",
@@ -1894,27 +1705,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "1304934092",
-      "title": "5 new ways to level up your learning with Search",
-      "titleZh": "借助搜索提升学习水平的5种新方法",
-      "summary": "Here’s how you can use Google Search tools to study for classes and standardized tests.",
-      "link": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
-      "pubDate": 1787166000000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
-    },
-    {
       "id": "74193009",
       "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
       "titleZh": "VentureBeat任命Rob Strechay为其首位首席分析师，扩大其企业人工智能研究推动力",
@@ -2081,6 +1871,27 @@
         "cs": 1
       },
       "source": "NVIDIA"
+    },
+    {
+      "id": "2032631179",
+      "title": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
+      "titleZh": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
+      "summary": "One of China’s Most Powerful AI Models Has Also Escaped Containment wired.com",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzUHl5MU1HbXJUemVtQWI4MzVQYmtWaUhHU19SMUp3bnFEY1NGaTN0LVpibXhwUTFNamtZMFBuLTNmOFhsN2VMRXRGWU9yMFBLbVlFNkhKVTVNc3JtdXRnY093aDdWaUJhcVhaX2NTQkgxNFhPdWw1SQ?oc=5",
+      "pubDate": 1785999600000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1860432156",
