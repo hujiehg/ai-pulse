@@ -1,8 +1,239 @@
 {
-  "updated": "2026-09-14T02:24:14.273Z",
-  "count": 103,
-  "sources": 11,
+  "updated": "2026-09-14T08:01:49.055Z",
+  "count": 114,
+  "sources": 12,
   "items": [
+    {
+      "id": "-758549644",
+      "title": "Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work",
+      "titleZh": "Occamy-1.0 ：开放Pareto-frontier 35B智能共享工作",
+      "summary": "arXiv:2609.11977v1 Announce Type: new Abstract: Co-work agents execute complex workflows that combine information gathering, tool use, coding, and file manipulation across many model invocations. Beca…",
+      "link": "https://arxiv.org/abs/2609.11977",
+      "pubDate": 1789358400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 68,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 10,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1525702448",
+      "title": "Harness or Model? Isolating the Harness Effect in Agentic Coding with a Contamination-Controlled Private Suite",
+      "titleZh": "线束还是模型？使用受污染控制的私人套件隔离Agentic编码中的线束效应",
+      "summary": "arXiv:2609.11987v1 Announce Type: new Abstract: An agentic coding system couples a language model to a harness: the tools, prompts and control flow that turn a chat model into an autonomous software e…",
+      "link": "https://arxiv.org/abs/2609.11987",
+      "pubDate": 1789358400000,
+      "vendor": "arxiv",
+      "category": "Agent",
+      "impact": "high",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 9,
+        "cw": 12,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "974586464",
+      "title": "Reading the Whole Heart: Latent-Attention Masked Autoencoders for Multimodal Cardiac Representation Learning",
+      "titleZh": "阅读全心：用于多模态心脏表征学习的潜伏注意掩蔽自动编码器",
+      "summary": "arXiv:2609.12035v1 Announce Type: new Abstract: Cardiovascular diagnosis rests on integrating complementary modalities, like ECG, echocardiography, chest radiographs, and clinical variables, each capt…",
+      "link": "https://arxiv.org/abs/2609.12035",
+      "pubDate": 1789358400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-997244177",
+      "title": "Competence-Gated Pooling of Language Models and Priors for Event Forecasting",
+      "titleZh": "用于事件预测的语言模型和先验知识的能力门限池",
+      "summary": "arXiv:2609.12101v1 Announce Type: new Abstract: In hybrid forecasting, a language model is often one of several available signals. A system may already have a market, crowd, or statistical forecast an…",
+      "link": "https://arxiv.org/abs/2609.12101",
+      "pubDate": 1789358400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 67,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1311537881",
+      "title": "Language Is an Insufficient Substrate for Quantitative Reasoning, and Consequential Domains Need Large Quantitative Models",
+      "titleZh": "语言是定量推理的不足基础，结果域需要大型定量模型",
+      "summary": "arXiv:2609.12105v1 Announce Type: new Abstract: The prevailing assumption in applied machine learning is that progress on consequential quantitative decisions such as pricing risk, allocating capital,…",
+      "link": "https://arxiv.org/abs/2609.12105",
+      "pubDate": 1789358400000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 4,
+        "cw": 15,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "517399566",
+      "title": "DU-NO: A Parameter-Efficient Double U-Shaped Neural Operator for Phase-Resolving Wave Modeling",
+      "titleZh": "DU-NO ：一种用于相位分辨波建模的参数高效双U形神经算子",
+      "summary": "arXiv:2609.12115v1 Announce Type: new Abstract: Phase-resolving wave models such as FUNWAVE-TVD are the accuracy standard for nearshore dynamics, resolving the shoaling, refraction, and breaking of in…",
+      "link": "https://arxiv.org/abs/2609.12115",
+      "pubDate": 1789358400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-2122790187",
+      "title": "When Successful Knowledge Graph Edits Displace Correct Answers: Rank-Level Locality beyond Parameter Support",
+      "titleZh": "成功知识图谱编辑时取代正确答案：超越参数支持的等级级别局部性",
+      "summary": "arXiv:2609.12116v1 Announce Type: new Abstract: Editing a knowledge graph embedding (KGE) model to promote a desired answer can displace correct answers from the returned list. Locality tests based on…",
+      "link": "https://arxiv.org/abs/2609.12116",
+      "pubDate": 1789358400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "196493253",
+      "title": "Mined from Scientific Literature: Process Schemas for Atomic Layer Deposition and Etching in Materials Science",
+      "titleZh": "摘自科学文献：材料科学中原子层沉积和蚀刻的工艺方案",
+      "summary": "arXiv:2609.12139v1 Announce Type: new Abstract: Atomic layer deposition (ALD) and atomic layer etching (ALE) are reported heterogeneously across experimental and simulation literature in materials sci…",
+      "link": "https://arxiv.org/abs/2609.12139",
+      "pubDate": 1789358400000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 25,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "84461391",
+      "title": "Can LLMs in Draft-Verify-Revise Pipelines Resolve Deictic Ambiguity?",
+      "titleZh": "Draft-Verify-Revise管道中的LLM可以解决指示性歧义吗？",
+      "summary": "arXiv:2609.12162v1 Announce Type: new Abstract: Draft-verify-revise is a common LLM orchestration pattern for scaling inference-time compute. One LLM drafts, a second critiques the draft and provides …",
+      "link": "https://arxiv.org/abs/2609.12162",
+      "pubDate": 1789358400000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 8,
+        "cw": 15,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-924780623",
+      "title": "GLARE: Generative Learning via Adversarial Reward Estimation For Social Dynamics Forecasting",
+      "titleZh": "GLARE ：通过社会动态预测的对抗性奖励估计进行生成性学习",
+      "summary": "arXiv:2609.12165v1 Announce Type: new Abstract: Meeting continuation requires tracking the agenda, speaker roles, participant intentions, and disagreement across long multi-party discussions. We intro…",
+      "link": "https://arxiv.org/abs/2609.12165",
+      "pubDate": 1789358400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1625840922",
+      "title": "DeepSeek-V4.1-Flash Packs 552B Parameters With Efficient MoE Inference",
+      "titleZh": "DeepSeek-V4.1-Flash包552B参数，具有高效的MoE推理",
+      "summary": "DeepSeek-V4.1-Flash Packs 552B Parameters With Efficient MoE Inference HackerNoon",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcl92MXQtNS1KWXIzZ1RuMXNQdFUzTTNnbnhRcDlZNXp0Z0JvSG01WFM0UDB4d24tNFo2ZUtHNUJwYm5pZFNmd2wybjVNczRRbnI3SGJVdnJUaHk0bGpabXd0RVJLWFVteDRyVlIxYy1sVjBjMW1XQnlQZTBiZVFWd3Bram5nc3g3Zk83aUJxMGVIOVlDSS04?oc=5",
+      "pubDate": 1789354893000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 3,
+        "cw": 15,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
     {
       "id": "-1762662692",
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
@@ -13,13 +244,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "OpenAI"
@@ -118,13 +349,34 @@
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1493474206",
+      "title": "Qwen And DeepSeek Push Chinese AI Right To Anthropic's Doorstep",
+      "titleZh": "Qwen和DeepSeek将中国人工智能推向人类家门口",
+      "summary": "Qwen And DeepSeek Push Chinese AI Right To Anthropic's Doorstep Yellow.com",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTkEyLTJaV0hYZUkyZm91OUoxZkpfSFF3WmxUT0daZHBveEFoSm95dHJZVndneFFmVUpTMFVpQ2hDMmtHYUwtTmtoNFNrMnY3aGNKWXVyLTViMzZ0TGNfaS1HV2dJcUNsVU1CanlSejM4eExTZEF0ZTlobGJ0dVNBcFA5TTNRVHpwRWpMRElkanhPSFpKS1E?oc=5",
+      "pubDate": 1789251920000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 15,
+        "st": 12,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -170,27 +422,6 @@
         "cs": 1
       },
       "source": "TechCrunch"
-    },
-    {
-      "id": "-1891077686",
-      "title": "Qwen And DeepSeek Push Chinese AI Right To Anthropic's Doorstep",
-      "titleZh": "Qwen和DeepSeek将中国人工智能推向人类家门口",
-      "summary": "Qwen And DeepSeek Push Chinese AI Right To Anthropic's Doorstep Yellow.com",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbElha19ONzJ2TVlKdkJvZXhUczdiMUhhSTlzSGpLQnNFTFBYOENZZ3VQOU9PSjRSMFpoM3ZtWVFoYzgtZFdUd0Noc1lPdU5WUXI2Y3Vsdk9GcjE2RGVIM3hILTgwNEY3Q01PSzRQSDRVOUdCTlVUei1EVFhLV210bg?oc=5",
-      "pubDate": 1789202214000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 15,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1811202192",
@@ -382,10 +613,10 @@
       "source": "Google News"
     },
     {
-      "id": "-532542230",
+      "id": "-1960424605",
       "title": "DeepSeek's new model sets a template for powerful LLMs that run lean",
       "titleZh": "DeepSeek的新模型为精益运营的强大LLM设置了模板",
-      "summary": "DeepSeek's new model sets a template for powerful LLMs that run lean theregister.com",
+      "summary": "DeepSeek's new model sets a template for powerful LLMs that run lean The Register",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1d2cXhBcGxPRlB0M2VkU1dFWDNVVFV6QUtsNWVmc3VHOTNMOGQxX3dDd3VPVGJRWFl1X2dtaHJ5WEs5M1Z5bUdqYTdYYmgwcDBnVE5RM3Vsb3dlYjNJNHNxOGd3bnJLYnRocVFDanZNMjlDZEtSMGNlUC1WQUl4TWJKaExMRWV3dHFUTmJFWTB5ME5TM18yUXJBUVdieGRuYThGZUNBRXFaSXY4ejhNTS05aGt0aVZpZUJxX2kwN0Y2dw?oc=5",
       "pubDate": 1789110900000,
       "vendor": "deepseek",
@@ -397,6 +628,27 @@
         "kv": 2,
         "cw": 22,
         "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1390569474",
+      "title": "China's star AI labs routed user requests to Claude at least 35 million times in the summer: Anthropic",
+      "titleZh": "中国的STAR AI实验室在夏季至少向Claude发送了3500万次用户请求： Anthropic",
+      "summary": "China's star AI labs routed user requests to Claude at least 35 million times in the summer: Anthropic Business Insider",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMEhydmNHakw3bmVpaDRqTVAtWTBpNE05NkdkSkl1V0R2ejlGc2ZRTUNxMFJZNVVlamtHZy1QTjhrZ21LZ0xmZEg2WjZRWmlubF9RMXRpVnhCdXpCMEVlYzNLWDB0Y2FwOEh3NXdPRllhc2V2R3h6WlBENnJzb0VzZHgxNTNIOVY1RzlCUEdJYTJLbDF2VjNzQnUzMVc4Yk5h?oc=5",
+      "pubDate": 1789105680000,
+      "vendor": "anthropic",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
         "rc": 1,
         "cs": 1
       },
@@ -424,18 +676,18 @@
       "source": "Google News"
     },
     {
-      "id": "1166424063",
+      "id": "-716355088",
       "title": "Anthropic claims Moonshot, DeepSeek secretly diverted user requests to Claude",
       "titleZh": "Anthropic声称Moonshot、DeepSeek秘密将用户请求转移给Claude",
-      "summary": "Anthropic claims Moonshot, DeepSeek secretly diverted user requests to Claude scmp.com",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcHBnY1JTVzF0bEM5d1pZVzBIaHJRSERic0lvMnhGZ3JJZXlRMmpWTUNmTGZ4MEJoeFhTWG82bHV3ZHFULTRXSlBKaHFXLTVaS2piYVhVdHFlUmNqMlhkQnNCeUxsbkdyVlJ3ZHo2QW45bDc2YXNoZlRlYXpPeUVXOFdQM1FYUkw3bWhoSHJCNng4ZUNQODVjWHg4S01YMnI4NDBXQ3BXd2Q0ano4dzRkMEdnNG1rZ1ZHOEdqaU5IbG9wQmlQ?oc=5",
+      "summary": "Anthropic claims Moonshot, DeepSeek secretly diverted user requests to Claude South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcHBnY1JTVzF0bEM5d1pZVzBIaHJRSERic0lvMnhGZ3JJZXlRMmpWTUNmTGZ4MEJoeFhTWG82bHV3ZHFULTRXSlBKaHFXLTVaS2piYVhVdHFlUmNqMlhkQnNCeUxsbkdyVlJ3ZHo2QW45bDc2YXNoZlRlYXpPeUVXOFdQM1FYUkw3bWhoSHJCNng4ZUNQODVjWHg4S01YMnI4NDBXQ3BXd2Q0ano4dzRkMEdnNG1rZ1ZHOEdqaU5IbG9wQmlQ0gHEAUFVX3lxTE9MNFVycTNTSzIyVU41WXVuMnFDUFdkRW5CTkRtQXRudVVSUmpac1NKOHgzZWNlYXQ1dVJFUFhna2wxUlF0Z0hnTndUMUljTEVnc0NlRzQ2UFpzQTgySFhLT244aU5iOWJwaENQUVZPV1NxLUhnMkNGY0hDdDVIRlFFRFJPT2FVT3BFSlBJNktwZFNjNlZITHViQ2FXSFZLNkUzaHJOckk3anhiaHNJU3NEeEdtMk1hQXptd184eW1EUXo1SWM?oc=5",
       "pubDate": 1789082598000,
       "vendor": "kimi",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 55,
       "scoreBreakdown": {
-        "cq": 20,
+        "cq": 22,
         "kv": 4,
         "cw": 15,
         "st": 12,
@@ -445,10 +697,10 @@
       "source": "Google News"
     },
     {
-      "id": "-1898716556",
+      "id": "-1306373305",
       "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
       "titleZh": "Anthropic详细介绍了阿里巴巴、Moonshot AI和DeepSeek的蒸馏活动",
-      "summary": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek TechCrunch",
+      "summary": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek techcrunch.com",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWXVEZHZZd3FMekpPWXlfTF84cm5aclBUUlI4dmtTTlVGWk1RN3d3UVJLMkxkTlBVSjg4dWVZS0tpRWx6LXVGNkxUS0FOTmNfMEs0UXA0dk1HTzdkTXMxY1RudDJxQ3VDcldicUt5dXI1SkdkZjdsVXVHUEJYSEZuMjV4bGR5WHZNNkFIZVFWWkcwNmIxc2NyclA2S2JpMHhHN1JYV0NGQmU2enhGVjc0dU9taw?oc=5",
       "pubDate": 1789073850000,
       "vendor": "kimi",
@@ -481,27 +733,6 @@
         "kv": 0,
         "cw": 22,
         "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1903967952",
-      "title": "Moonshot Secretly Routed User Requests Through Claude, Anthropic Says",
-      "titleZh": "Moonshot通过Claude秘密路由用户请求， Anthropic说",
-      "summary": "Moonshot Secretly Routed User Requests Through Claude, Anthropic Says Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZlpuU0pEUG8wVUlSRVY5RnJ0enh1eFVGbnNGVlNfX2hJX1RNZ1l2eFMwOU8zWnI1TXVadjNmdUxkYm5PamtQczRYaUJxRTlqSXk4V24yTHJQS0hWLUxQXzVXcDI5RVo3ejB5Q05GNDU5VmoteG1FN1lOSHk3Q0dOd2dOUTRKTUZIa1MwUlpPNm10RVdnanhoU1B1M3pFaTNObmJnMjlGSlNsbUFwREdBVWRzX3hKS25mdjl3?oc=5",
-      "pubDate": 1789061692000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
         "rc": 1,
         "cs": 1
       },
@@ -634,10 +865,10 @@
       "source": "OpenAI"
     },
     {
-      "id": "-638921529",
-      "title": "New Deepseek model V4.1-Flash cuts memory needs for AI agents - the",
-      "titleZh": "新的Deepseek模型V4.1-Flash削减了AI代理的内存需求-",
-      "summary": "New Deepseek model V4.1-Flash cuts memory needs for AI agents the-decoder.com",
+      "id": "1725430433",
+      "title": "New Deepseek model V4.1-Flash cuts memory needs for AI agents",
+      "titleZh": "新的Deepseek模型V4.1-Flash削减了AI代理的内存需求",
+      "summary": "New Deepseek model V4.1-Flash cuts memory needs for AI agents The Decoder",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNUExMTg0alp0bUtPVUhoSjBjYndBTW1vSFdwOWhFMk0xR2JSWnRKVE5qd1hiVmQ3Y1BTU2EtUV8zRXc5eXFoVGZ5OHZZTEpqT3BMa05VeUstQ0V4TW1JTFIzQTMzR21CaFVGUzlWYzJnZDdkZ2JEQjZEaEpCTG1TeHVpTUluX0tVbnQ3MEVzYw?oc=5",
       "pubDate": 1789044252000,
       "vendor": "deepseek",
@@ -655,10 +886,31 @@
       "source": "Google News"
     },
     {
-      "id": "81143640",
+      "id": "-1613248027",
+      "title": "Chinese AI firm Moonshot to explore dual Hong Kong and Shanghai IPOs, SCMP reports",
+      "titleZh": "中国人工智能公司Moonshot将探索香港和上海的双重IPO ，南华早报报道",
+      "summary": "Chinese AI firm Moonshot to explore dual Hong Kong and Shanghai IPOs, SCMP reports Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaDN5R3NoMmwwSDN4OURmOFNXelBDS3BlOWtsM1dnckpwbTRBcUZ0SXYtNnBBSWRQaEJkVFRISHpIdG5aay1UN3ducXU0c0tvUW1fZEVsXy1TY2l3LWRpZi14cFBHSHFMbE1GanA0YUktUlVVbnpkSGR2V25JTUxtdjc3VUppQ0plMnRpMUtwcGpqWUxpczhiY0ZGYWZ4V1E3cTZDTVhMXzgwek5qWnBaVXFvM09iOFN0V05Denpxbw?oc=5",
+      "pubDate": 1789034991000,
+      "vendor": "kimi",
+      "category": "Funding",
+      "impact": "high",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 20,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1445488454",
       "title": "DeepSeek says new Flash AI model beats Kimi K3 on cyber, coding benchmarks",
       "titleZh": "DeepSeek表示，新的Flash AI模型在网络编码基准方面击败了Kimi K3",
-      "summary": "DeepSeek says new Flash AI model beats Kimi K3 on cyber, coding benchmarks scmp.com",
+      "summary": "DeepSeek says new Flash AI model beats Kimi K3 on cyber, coding benchmarks South China Morning Post",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSEFTVVFpTGZmWEktNjRudFpfczRqV3lvUDVVclpQVFlsdEFVd0dNYVBsbE4yMm5PZGEtRnZSTFhTd1Vxa1pKdTVVUzhua29DTmt5a2dZYWt0VXkxZmtHZmNmT1ZOcHFBWkJWVE1sU3d4T2pXRDhETHRfOWp0Mmw1NXk5X2Q3NFhwUE5hZWVWRHpsMlZFUFptaEpzdDVTYWpRMWhZajFCbVBVMEZwRVpIT2c0djN1SmttRmtyM2x30gG-AUFVX3lxTE8zdTFRQnM3dndWeTRYcHFrTEIySmZFUEV4M0t6cDNBTU5YeGhrVVZWV2NtTDBvM3BXMVJXZ2FQNG04VC1Nd0RHVktEaFZIZmxDYmNYeHJlQjlka0c5NVg0TEppSV9RU0hLZ3VBWW5Hc0FSd2owckFKSEZ0M2cwUGFLcVljU25aOEh3OXhzYWJVdmh4Y2o2Q3g4QXFQazRDLXR2OTRRVVFpMlV2MlR6UV9kdXhuZ2JkNTRnekZGMFE?oc=5",
       "pubDate": 1789032384000,
       "vendor": "kimi",
@@ -676,18 +928,18 @@
       "source": "Google News"
     },
     {
-      "id": "-788681431",
+      "id": "-1461504745",
       "title": "Exclusive | Moonshot AI considers dual listings in Hong Kong and Shanghai: sources",
       "titleZh": "独家| Moonshot AI考虑在香港和上海的双重房源：来源",
-      "summary": "Exclusive | Moonshot AI considers dual listings in Hong Kong and Shanghai: sources scmp.com",
+      "summary": "Exclusive | Moonshot AI considers dual listings in Hong Kong and Shanghai: sources South China Morning Post",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWDQyVVNaRnBHU09CNEpKaGRzQ3VVZFR5dHVBczdoMS1NbXV3aXJDNFhJR0VsRWoyNk5jdUNBME9LTEsyR05wdnJkNVdZT3RoeThobTc0bjBWSTVMd1J1SGN2enpBUERHVFozbUhINkgtUEoxeGtwbGFONHdZb3lyS2VtdkN5b3NhZHpJVi1TUzNMc09KZkhXckpqRXRiVzlVa2JxX1U4NzJYR05nRFhXbFlZOGp3UGtMV0xOVnduRGtIdDdRcFJLekprVVhjS255NXQ2b3RB0gHWAUFVX3lxTE1teGRFYkpfbTlMeHdvOVg1MFJXdmtkZXROclFNc2tVNHI1LWxkYkNycTFWTGFBTFY3bUU4cEFSQVdaUDk0VmNuWmVIWGZKZnFfUWgwYmpPNWpkaW1Mc3RINHJmUlRwS2E5VEdrM1BPZlhTUklvMHBnSTlBVEZuV05PZkFHSG5CeVpzQ1BfSG1LeHRPN21DWDc0eG1ZeHZQNTRMdGVRMEtwbGszamZFTGFoTEhXMUYyNk1XZGpiQkQyYlp4b1VQMVB5bDJYSmJ5bXBpaXdjMHc?oc=5",
       "pubDate": 1789026614000,
       "vendor": "kimi",
       "category": "Product",
       "impact": "med",
-      "score": 47,
+      "score": 49,
       "scoreBreakdown": {
-        "cq": 18,
+        "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 12,
@@ -970,27 +1222,6 @@
       "source": "Google News"
     },
     {
-      "id": "617965872",
-      "title": "US Says Alibaba, DeepSeek Have ‘Systematically’ Siphoned AI Models",
-      "titleZh": "US Says Alibaba, DeepSeek Have ‘Systematically’ Siphoned AI Models",
-      "summary": "US Says Alibaba, DeepSeek Have ‘Systematically’ Siphoned AI Models Yahoo Finance UK",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNWJHMGFCcnRlT2FzZ0xDMzcycHNDWEZGNVNjbkJwNFJWXzhNWVJYMmc0SU94bXk2SjJuN1daLUxuWXN3Ri12M0RLdkN4TmQxWGlkc1VUN3ljWVVhSGFjdFRTR292YmRsTk9iZ0w0bGV4ZURuUjhjQmZkTUZaSlVIb3Q4NXZCRjJGQXc4Y3FaQkxXQQ?oc=5",
-      "pubDate": 1788918600000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1397842587",
       "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
       "titleZh": "谁的安全？拒绝主题的正确子集，而不是整个主题",
@@ -1033,10 +1264,10 @@
       "source": "DeepMind"
     },
     {
-      "id": "1320491138",
+      "id": "-2018741795",
       "title": "Alibaba’s Qwen AI can help high school students learn",
       "titleZh": "Alibaba’s Qwen AI can help high school students learn",
-      "summary": "Alibaba’s Qwen AI can help high school students learn Yale Daily News",
+      "summary": "Alibaba’s Qwen AI can help high school students learn yaledailynews.com",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcHU0QWtWRzNud2RZcWJNQlJlMjFWNS01U3NJNl82OTIyQ2VKdUZ5VnlQYldnWUpvVWdvaUF0dHgtcWY5dHhNemp3dm5WUDlmcHU1VWRZYkE4V3dSeHVkVVNGOVN4OWFGQzR4T2tDcWtEUUhpY0J3VElqcDdJMWxoYnMyekF1eHJ5WEEtblZKbjhBNnMwYzA0bUxyRHg?oc=5",
       "pubDate": 1788840788000,
       "vendor": "qwen",
@@ -1642,18 +1873,18 @@
       "source": "VentureBeat"
     },
     {
-      "id": "-1066961806",
+      "id": "1686568900",
       "title": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
       "titleZh": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
-      "summary": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems scmp.com",
+      "summary": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems South China Morning Post",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRVNJbE00UDhJSkVIaktiZTNYR01uZTVVNXd1SV9yMGpJM2dILU1SeWVFQXphS0dmYVNsekZrckVQVkNQNndYaWkxS1lKdXJRdE5MWVFJVVJvNHNPWlVUcVhJc2lRbFRiMFdhODdJeXJuTjZNcTg4enJpbEhMdTYxaDlpenFsSDVWUENpcDdxalM5UWR3OG10dUlMYXNSRjNhdGRYX04wN2s2aF9mb2hfbjJHY1FJT1F2WS1TQU8yc3NXMlFxSEtxX29Ca9IBywFBVV95cUxNekQyWHA4bjlBc09IbGwyajJaMEl1LVp0RXk0aWE5Q3hNWXlLUU5JcWxVRjg0ZHcwN05jN3pva3c1QzBjTjlJUl9CLWVVMkhxSjBCT2I0eFZhNkZwNDYwM0tVS3J1X1plS1J5bm02bzM4YWxPOEpXMzdhSEtRRkI0MzRYc3RFQUJRNmdid2lsMWRDM0tkcjFjUFlmZHBZdDZiR05CWkd0MHBFb3dZdHZCTHNCVjU3ZHlRMmM5TVhoTVlkZzBJV0x3UFRsdw?oc=5",
       "pubDate": 1787036400000,
       "vendor": "qwen",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 54,
       "scoreBreakdown": {
-        "cq": 20,
+        "cq": 22,
         "kv": 4,
         "cw": 15,
         "st": 12,
@@ -1705,10 +1936,10 @@
       "source": "Google AI"
     },
     {
-      "id": "1701129541",
+      "id": "-991096918",
       "title": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google",
       "titleZh": "阿里巴巴AI模型下载量突破30亿，通过Meta ，谷歌",
-      "summary": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google finance.yahoo.com",
+      "summary": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZjdzU3AtQnFGVDExc1hfUWRTV3JpWHgya2wtSHFEU2t5d3NnYWZKb2hpY0JiYVF2cnFNeDF6R2FMLTh6SG1oMjdOd2ZLdlhlMl9MNVEwTVh4X29Fb0dTRWRlSXI1cm9RRXZtOThiUUVmcHhDQXB2VTQxVXNaZUk2Tk42cXItTDV4RE1aNXgyNWw?oc=5",
       "pubDate": 1786777200000,
       "vendor": "google",
