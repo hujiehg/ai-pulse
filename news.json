@@ -1,8 +1,50 @@
 {
-  "updated": "2026-09-14T22:54:13.517Z",
-  "count": 106,
-  "sources": 11,
+  "updated": "2026-09-15T01:05:28.364Z",
+  "count": 115,
+  "sources": 12,
   "items": [
+    {
+      "id": "1880879888",
+      "title": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’",
+      "titleZh": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’",
+      "summary": "Though Elon Musk and Sam Altman have supported Dario Amodei's calls to slow the pace of AI development, Jensen Huang seems to feel differently.",
+      "link": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/",
+      "pubDate": 1789422662000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-894456661",
+      "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+      "titleZh": "报告称， OpenAI以3亿美元收购智能手机相机制造商Glass Imaging",
+      "summary": "Glass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple's Portrait Mode.",
+      "link": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
+      "pubDate": 1789418654000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-1122161015",
       "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
@@ -13,13 +55,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google AI"
@@ -34,13 +76,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,16 +97,37 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "high",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "-975345607",
+      "title": "China's DeepSeek hires dealmaker as CFO ahead of possible IPO",
+      "titleZh": "中国的DeepSeek在可能的IPO之前聘请交易员担任首席财务官",
+      "summary": "China's DeepSeek hires dealmaker as CFO ahead of possible IPO Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONHdQbHZseE9aRy1MVkFWYnNwZXFwZVFKZnU4dWRLSlpjeC1aTmRUdWYxUFhaMGNFd0ZRb3dMdHUwdnFUNnJENkZfRE42X2pxOEllNFlSaElvbUY0eEU4ei12UF90MmxScmdxNkdGeWRicU1FUmlWZTJCNjB1WXNoaXlfQ1hDdS05UV9KLUZ2bWFhY0lQU0FNQ0R4WmI4d1VHc3l4Sk9mZTFjTm8?oc=5",
+      "pubDate": 1789403833000,
+      "vendor": "deepseek",
+      "category": "Funding",
+      "impact": "high",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 20,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "1599144112",
@@ -133,15 +196,15 @@
       "id": "-415110143",
       "title": "Superhuman acquires YC-backed notetaker Fathom as productivity platforms push for agentic work",
       "titleZh": "随着生产力平台推动代理工作， Superhuman收购了YC支持的笔记员Fathom",
-      "summary": "Fathom said that it has over 400,000 monthly active users.",
+      "summary": "The notetaker offers a generous free plan, and that has resulted in over 400,000 monthly active users. The company said that over 1 million people have recorded meetings until now.",
       "link": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/",
       "pubDate": 1789397144000,
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 38,
+      "score": 40,
       "scoreBreakdown": {
-        "cq": 14,
+        "cq": 16,
         "kv": 0,
         "cw": 12,
         "st": 8,
@@ -214,6 +277,27 @@
       "source": "TechCrunch"
     },
     {
+      "id": "-15789003",
+      "title": "Why DeepSeek-V4.1-Flash Is Such an Exciting Open Model Release",
+      "titleZh": "为什么DeepSeek-V4.1-Flash是一个如此令人兴奋的开放模型版本",
+      "summary": "Why DeepSeek-V4.1-Flash Is Such an Exciting Open Model Release KDnuggets",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeG5uMERMaFpTT3hzOFJKTmpEajBJYWdocUFwcWVROHVNdnNGSDI2WG5MU0NUVnF1cE1oX3Y4QXRsSkNsTm1oeHpNYjZUM3hHS01iSFhpWVFfejBrUF9xVmZyYzRuYlBnQmRwSVY3emFDRVo3Z2NKQkJjZlZaUjY3eUNGMEtrU1dCWURqcHBORWxzZw?oc=5",
+      "pubDate": 1789388537000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-816830816",
       "title": "How Fyxer built an AI executive assistant people trust",
       "titleZh": "Fyxer如何建立人们信任的人工智能行政助理",
@@ -233,6 +317,48 @@
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "-1444409067",
+      "title": "DeepSeek V4.1 Flash Uncensored: 2,254 Downloads [2026]",
+      "titleZh": "DeepSeek V4.1 Flash未经审查： 2,254次下载[2026]",
+      "summary": "DeepSeek V4.1 Flash Uncensored: 2,254 Downloads [2026] shattered.io",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96QzgzWnBvb0ZLemE2OEljRklObzNNMUZsNmJ4NXZuX0ZRRWFUVjBlaUR1cVNuelk3cHNGSUZLMTdFSndjN01oWmVackJkZHo0bzVPWGkzMjVTcmRDcTlnRHROb3ZlSnFzTkJRNU9yZVhkc1hPaDVWNw?oc=5",
+      "pubDate": 1789381533000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "high",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-637969360",
+      "title": "DeepSeek V4.1 Flash Uncensored: Abliterated Builds Hit HF [2026] - tech",
+      "titleZh": "DeepSeek V4.1 Flash Uncensored: Abliterated Builds Hit HF [2026] -技术",
+      "summary": "DeepSeek V4.1 Flash Uncensored: Abliterated Builds Hit HF [2026] tech-insider.org",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQWZRZFBYOU02WldNX3Bpem1heWpEbnBXWU1qXzJjeXNkUHh1dXMxOFlfdFAzRktJelBkMnpNOWZqMzFVV0daalFuelMweDJzUkgxWkp1VE9tZ1dZLXY0ZjQ0QXVFU0xIbGV0cmE3eFFXWWlKaHNKN2hNcm1jTy0zM1JCXzNGa1ZZcGU5akZB?oc=5",
+      "pubDate": 1789379194000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "high",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "654793084",
@@ -496,58 +622,58 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
     },
     {
-      "id": "1420942998",
-      "title": "What’s behind the AI industry’s latest warnings of doom?",
-      "titleZh": "What’s behind the AI industry’s latest warnings of doom?",
-      "summary": "On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.",
-      "link": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
-      "pubDate": 1789328415000,
-      "vendor": "techcrunch",
-      "category": "Product",
+      "id": "-314805405",
+      "title": "DeepSeek's New AI Model Spooked Samsung and SK Hynix Investors",
+      "titleZh": "DeepSeek的新AI模型吓坏了三星和SK海力士的投资者",
+      "summary": "DeepSeek's New AI Model Spooked Samsung and SK Hynix Investors Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQV3JiMkdHTHAwU3BMaGxfcHJ6SlZJRjhLQWhjekUzVGlwUzcyWHFGX1FENm9QUDVNekxnUVA3VjJobjY2b2NJeURhcHlLZXZ6SG5QdndOVExzMUJBS05LMnc1ZjYxTWN2SlMyblJaT1ZSQTBObWVhbXh4aGtIbFpQQ1ZXSjNHUl9lZ1NYTkhnbW9LYjA?oc=5",
+      "pubDate": 1789268284000,
+      "vendor": "deepseek",
+      "category": "Research",
       "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "857840292",
-      "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
-      "titleZh": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
-      "summary": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safe…",
-      "link": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
-      "pubDate": 1789317000000,
-      "vendor": "techcrunch",
-      "category": "Safety",
-      "impact": "med",
-      "score": 40,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 18,
-        "kv": 1,
-        "cw": 10,
-        "st": 8,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
         "rc": 2,
         "cs": 1
       },
-      "source": "TechCrunch"
+      "source": "Google News"
+    },
+    {
+      "id": "43243440",
+      "title": "DeepSeek Cut Its KV-Cache HBM Need 75% and SSD Need 87.5%. Micron and Sandisk Investors Should Pay Attention",
+      "titleZh": "DeepSeek削减其KV缓存HBM需要75 ％ ， SSD需要87.5 ％。美光和桑迪斯克投资者应注意",
+      "summary": "DeepSeek Cut Its KV-Cache HBM Need 75% and SSD Need 87.5%. Micron and Sandisk Investors Should Pay Attention Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdTBkcTJTZUV4eFBPTGhURGNqTjRodllXRG02RnBXRklxRUpHMVEtNTJNaEVXYWZGbUpMUHFnY0h2cEM3Yjk5ZFBadFFjQl92M3R4T0tEZnZ6UVJKSnQxVmNqeWIyQ3gwREd6ZnkwYnJ5LUhOWkpiZGZ5WE5zejF6LVc2dzlNTml1Z25vbXE2cWVIb1E?oc=5",
+      "pubDate": 1789262160000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-729846865",
@@ -648,6 +774,27 @@
         "cq": 18,
         "kv": 1,
         "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1960424605",
+      "title": "DeepSeek's new model sets a template for powerful LLMs that run lean",
+      "titleZh": "DeepSeek的新模型为精益运营的强大LLM设置了模板",
+      "summary": "DeepSeek's new model sets a template for powerful LLMs that run lean The Register",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1d2cXhBcGxPRlB0M2VkU1dFWDNVVFV6QUtsNWVmc3VHOTNMOGQxX3dDd3VPVGJRWFl1X2dtaHJ5WEs5M1Z5bUdqYTdYYmgwcDBnVE5RM3Vsb3dlYjNJNHNxOGd3bnJLYnRocVFDanZNMjlDZEtSMGNlUC1WQUl4TWJKaExMRWV3dHFUTmJFWTB5ME5TM18yUXJBUVdieGRuYThGZUNBRXFaSXY4ejhNTS05aGt0aVZpZUJxX2kwN0Y2dw?oc=5",
+      "pubDate": 1789110900000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -760,6 +907,27 @@
       "source": "Google News"
     },
     {
+      "id": "-1797640416",
+      "title": "DeepSeek’s New Low-Cost Model Deals a Fresh Blow to OpenAI, Z.ai",
+      "titleZh": "DeepSeek’s New Low-Cost Model Deals a Fresh Blow to OpenAI, Z.ai",
+      "summary": "DeepSeek’s New Low-Cost Model Deals a Fresh Blow to OpenAI, Z.ai Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQTJ5YkVQdU1QNEtuaGY4UEZ2RjQwUUhHR2dkWjNVUUNMMzJVMlNXbWJsZ3Jab0hHaEtMMmR3VWRvX2lfYWdncGlJMEJqcENfR1Jxb1RXaE1pQ0hBNVRTNDNKUmhGZlQyRGh2UkVLUWpEX3hpWFZFc21YZGFVYlFpemU1SklOd0VrUnhnV0FtaUdpNUlzYjZoYmxjTE5FWFFiZVlsNU5ybHBnVmtrek5mZUFraTU?oc=5",
+      "pubDate": 1789060009000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-772445135",
       "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
       "titleZh": "Skild AI利用NVIDIA Physical AI从单个视频中向机器人教授新任务",
@@ -863,6 +1031,27 @@
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "1445488454",
+      "title": "DeepSeek says new Flash AI model beats Kimi K3 on cyber, coding benchmarks",
+      "titleZh": "DeepSeek表示，新的Flash AI模型在网络编码基准方面击败了Kimi K3",
+      "summary": "DeepSeek says new Flash AI model beats Kimi K3 on cyber, coding benchmarks South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSEFTVVFpTGZmWEktNjRudFpfczRqV3lvUDVVclpQVFlsdEFVd0dNYVBsbE4yMm5PZGEtRnZSTFhTd1Vxa1pKdTVVUzhua29DTmt5a2dZYWt0VXkxZmtHZmNmT1ZOcHFBWkJWVE1sU3d4T2pXRDhETHRfOWp0Mmw1NXk5X2Q3NFhwUE5hZWVWRHpsMlZFUFptaEpzdDVTYWpRMWhZajFCbVBVMEZwRVpIT2c0djN1SmttRmtyM2x30gG-AUFVX3lxTE8zdTFRQnM3dndWeTRYcHFrTEIySmZFUEV4M0t6cDNBTU5YeGhrVVZWV2NtTDBvM3BXMVJXZ2FQNG04VC1Nd0RHVktEaFZIZmxDYmNYeHJlQjlka0c5NVg0TEppSV9RU0hLZ3VBWW5Hc0FSd2owckFKSEZ0M2cwUGFLcVljU25aOEh3OXhzYWJVdmh4Y2o2Q3g4QXFQazRDLXR2OTRRVVFpMlV2MlR6UV9kdXhuZ2JkNTRnekZGMFE?oc=5",
+      "pubDate": 1789032384000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "high",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 5,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1461504745",
