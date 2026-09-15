@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-15T06:19:24.718Z",
-  "count": 114,
+  "updated": "2026-09-15T11:57:54.719Z",
+  "count": 113,
   "sources": 12,
   "items": [
     {
@@ -13,13 +13,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "high",
-      "score": 68,
+      "score": 67,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 10,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -34,13 +34,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "high",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 8,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -55,13 +55,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 5,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -76,13 +76,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 63,
+      "score": 62,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 5,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -97,13 +97,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -118,13 +118,13 @@
       "vendor": "arxiv",
       "category": "Product",
       "impact": "med",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 15,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -139,13 +139,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 65,
+      "score": 64,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 7,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -160,13 +160,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "high",
-      "score": 66,
+      "score": 65,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 6,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -181,13 +181,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 5,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -202,13 +202,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -223,16 +223,37 @@
       "vendor": "kimi",
       "category": "Funding",
       "impact": "high",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 20,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "1372895010",
+      "title": "Jensen Huang took a call from Trump, and showed off something else, too",
+      "titleZh": "黄延生接到特朗普的电话，也炫耀了别的东西",
+      "summary": "When Jensen Huang took a live call from Trump, some of us were more focused the phone he used to take it.",
+      "link": "https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/",
+      "pubDate": 1789437048000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 43,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
     },
     {
       "id": "1880879888",
@@ -508,27 +529,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "173314053",
-      "title": "A Vinyl Bar in Shibuya is a startup from a former Spotify leader for making music apps",
-      "titleZh": "涩谷的一家黑胶唱片酒吧是前Spotify领导者创办的一家初创公司，致力于制作音乐应用程序",
-      "summary": "Former Spotify exec's company releases experimental \"singles\" that involves users in music making.",
-      "link": "https://techcrunch.com/2026/09/14/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps/",
-      "pubDate": 1789394100000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "high",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 2,
-        "cw": 25,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "-15789003",
       "title": "Why DeepSeek-V4.1-Flash Is Such an Exciting Open Model Release",
       "titleZh": "为什么DeepSeek-V4.1-Flash是一个如此令人兴奋的开放模型版本",
@@ -580,13 +580,13 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "high",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -601,13 +601,13 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "high",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -907,27 +907,6 @@
       "source": "Google News"
     },
     {
-      "id": "-1797640416",
-      "title": "DeepSeek’s New Low-Cost Model Deals a Fresh Blow to OpenAI, Z.ai",
-      "titleZh": "DeepSeek’s New Low-Cost Model Deals a Fresh Blow to OpenAI, Z.ai",
-      "summary": "DeepSeek’s New Low-Cost Model Deals a Fresh Blow to OpenAI, Z.ai Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQTJ5YkVQdU1QNEtuaGY4UEZ2RjQwUUhHR2dkWjNVUUNMMzJVMlNXbWJsZ3Jab0hHaEtMMmR3VWRvX2lfYWdncGlJMEJqcENfR1Jxb1RXaE1pQ0hBNVRTNDNKUmhGZlQyRGh2UkVLUWpEX3hpWFZFc21YZGFVYlFpemU1SklOd0VrUnhnV0FtaUdpNUlzYjZoYmxjTE5FWFFiZVlsNU5ybHBnVmtrek5mZUFraTU?oc=5",
-      "pubDate": 1789060009000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-772445135",
       "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
       "titleZh": "Skild AI利用NVIDIA Physical AI从单个视频中向机器人教授新任务",
@@ -1031,27 +1010,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "1445488454",
-      "title": "DeepSeek says new Flash AI model beats Kimi K3 on cyber, coding benchmarks",
-      "titleZh": "DeepSeek表示，新的Flash AI模型在网络编码基准方面击败了Kimi K3",
-      "summary": "DeepSeek says new Flash AI model beats Kimi K3 on cyber, coding benchmarks South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSEFTVVFpTGZmWEktNjRudFpfczRqV3lvUDVVclpQVFlsdEFVd0dNYVBsbE4yMm5PZGEtRnZSTFhTd1Vxa1pKdTVVUzhua29DTmt5a2dZYWt0VXkxZmtHZmNmT1ZOcHFBWkJWVE1sU3d4T2pXRDhETHRfOWp0Mmw1NXk5X2Q3NFhwUE5hZWVWRHpsMlZFUFptaEpzdDVTYWpRMWhZajFCbVBVMEZwRVpIT2c0djN1SmttRmtyM2x30gG-AUFVX3lxTE8zdTFRQnM3dndWeTRYcHFrTEIySmZFUEV4M0t6cDNBTU5YeGhrVVZWV2NtTDBvM3BXMVJXZ2FQNG04VC1Nd0RHVktEaFZIZmxDYmNYeHJlQjlka0c5NVg0TEppSV9RU0hLZ3VBWW5Hc0FSd2owckFKSEZ0M2cwUGFLcVljU25aOEh3OXhzYWJVdmh4Y2o2Q3g4QXFQazRDLXR2OTRRVVFpMlV2MlR6UV9kdXhuZ2JkNTRnekZGMFE?oc=5",
-      "pubDate": 1789032384000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "high",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 5,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1461504745",
@@ -2123,6 +2081,27 @@
         "cs": 1
       },
       "source": "NVIDIA"
+    },
+    {
+      "id": "-1937431074",
+      "title": "DeepSeek's new bargain model accelerates AI's race to zero",
+      "titleZh": "DeepSeek的新讨价还价模式加速了人工智能的零竞赛",
+      "summary": "DeepSeek's new bargain model accelerates AI's race to zero Axios",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04emlXWXpVQXhNcjJsU1d5ZmhnU1J2TFRyeFlxM2hqUUNUNVR2UmxFQUNBanYwWnd5ZUpTRnptVEh2TXU2NU5aa0FRbFV6ejVPd2wxWFNXa3RoaTZPQ0dQSHc0Tkk4WE93Q1JwV0tIWGNBaGNG?oc=5",
+      "pubDate": 1785567600000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1093452510",
