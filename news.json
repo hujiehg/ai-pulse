@@ -1,8 +1,92 @@
 {
-  "updated": "2026-09-16T15:07:05.087Z",
-  "count": 116,
+  "updated": "2026-09-16T19:00:23.309Z",
+  "count": 115,
   "sources": 12,
   "items": [
+    {
+      "id": "713574747",
+      "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
+      "titleZh": "AI labs want in-house auditors — but maybe they should shut the front door first",
+      "summary": "There may be a simpler and more effective fix for rogue agents, hiding in plain sight.",
+      "link": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
+      "pubDate": 1789583125000,
+      "vendor": "techcrunch",
+      "category": "Agent",
+      "impact": "med",
+      "score": 40,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 12,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-31217457",
+      "title": "Your AI agents can now control your Google Home devices",
+      "titleZh": "您的AI代理现在可以控制您的Google Home设备",
+      "summary": "Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart home a…",
+      "link": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+      "pubDate": 1789578000000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "high",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 4,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-667727308",
+      "title": "Anthropic merges Claude chat and Cowork in one interface",
+      "titleZh": "Anthropic将Claude聊天和Cowork合并在一个界面中",
+      "summary": "Anthropic is initially releasing these features to Pro and Max plan subscribers.",
+      "link": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
+      "pubDate": 1789576200000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "2055531440",
+      "title": "Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026",
+      "titleZh": "Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026",
+      "summary": "The robotics industry is still waiting for their breakthrough into day-to-day life. Nvidia's Les Karpas has an answer as to why at TechCrunch Disrupt 2026. Register before September 25 to save up to $…",
+      "link": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/",
+      "pubDate": 1789570800000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "1529524529",
       "title": "DeepSeek engineer says Anthropic AGI would be \"like Hitler getting nukes\"",
@@ -13,16 +97,100 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "697896798",
+      "title": "Threads’ new features let podcasters promote shows and reach listeners",
+      "titleZh": "Threads’ new features let podcasters promote shows and reach listeners",
+      "summary": "Threads is rolling out new tools for podcasters, including profile cards, episode links, transcripts, guest tags, posting reminders, and audience insights, as Meta looks to make the X rival a bigger h…",
+      "link": "https://techcrunch.com/2026/09/16/threads-new-features-let-podcasters-promote-shows-and-reach-listeners/",
+      "pubDate": 1789568698000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1110139765",
+      "title": "Next wave of VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026 revealed",
+      "titleZh": "TechCrunch Disrupt 2026评选Startup Battlefield 200竞争者的下一波风投揭晓",
+      "summary": "Meet the next five top-tier investors judging the Startup Battlefield 200 contenders live at TechCrunch Disrupt 2026. Register before September 25 to save up to $200 and don't miss a moment of the ult…",
+      "link": "https://techcrunch.com/2026/09/16/next-wave-of-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026-revealed/",
+      "pubDate": 1789568100000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "2003860753",
+      "title": "3 days left to exhibit: Get your brand in front of VCs and high-value leads at TechCrunch Disrupt 2026",
+      "titleZh": "距离参展还有3天：在TechCrunch Disrupt 2026上，让您的品牌走在风投和高价值线索面前",
+      "summary": "Last day to book your exhibit table at Disrupt is September 18. Three days left. Get your startup in front of 10,000+ founders, investors, operators, and tech leaders on October 13–15.",
+      "link": "https://techcrunch.com/2026/09/16/3-days-left-to-exhibit-at-techcrunch-disrupt-2026/",
+      "pubDate": 1789567200000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "529463836",
+      "title": "SK Hynix reportedly in talks with Intel to build memory chips in US",
+      "titleZh": "据报道， SK海力士正在与英特尔就美国制造内存芯片进行谈判",
+      "summary": "SK Hynix told TechCrunch the company hasn't finalized any plans or arrangements yet.",
+      "link": "https://techcrunch.com/2026/09/16/sk-hynix-reportedly-in-talks-with-intel-to-build-memory-chips-in-us/",
+      "pubDate": 1789564982000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
     },
     {
       "id": "-1766097881",
@@ -46,6 +214,27 @@
       "source": "OpenAI"
     },
     {
+      "id": "203597644",
+      "title": "Former Infosys chief’s AI startup nabs another $53M",
+      "titleZh": "Former Infosys chief’s AI startup nabs another $53M",
+      "summary": "The Palo Alto startup says it has landed multiple seven-figure enterprise contracts within months of launch.",
+      "link": "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/",
+      "pubDate": 1789563600000,
+      "vendor": "techcrunch",
+      "category": "Release",
+      "impact": "high",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 25,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
       "id": "1345246740",
       "title": "Moonshot AI Draws Global Investor Interest as Capital Seeks Chinese Frontier Labs - News and Statistics",
       "titleZh": "随着资本寻求中国前沿实验室， Moonshot AI吸引了全球投资者的兴趣-新闻和统计数据",
@@ -55,13 +244,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -76,13 +265,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -91,19 +280,19 @@
       "id": "467597966",
       "title": "Amazon launches Alexa+ in India with Hindi support",
       "titleZh": "亚马逊在印地语支持下在印度推出Alexa +",
-      "summary": "Amazon is letting all customers use Alexa+ assistant in early access period",
+      "summary": "Amazon is letting all customers use Alexa+ assistant in early access period.",
       "link": "https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/",
       "pubDate": 1789554887000,
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "high",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 2,
         "cw": 25,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -319,48 +508,6 @@
       "source": "arXiv"
     },
     {
-      "id": "2122797411",
-      "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
-      "titleZh": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
-      "summary": "AI isn't some new form of \"alien mind,\" according to Jensen Huang. It's just hardware and software, so safety can be engineered by each AI product maker.",
-      "link": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
-      "pubDate": 1789518039000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-859952421",
-      "title": "The AI data center boom is colliding with cities scarred by big industry",
-      "titleZh": "人工智能数据中心的繁荣正在与被大型产业蹂躏的城市相撞",
-      "summary": "National outcry against data center construction has spread to Philadelphia, where officials suggested possible construction in a neighborhood already impacted by a now-defunct oil refinery.",
-      "link": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
-      "pubDate": 1789508858000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "-1477099237",
       "title": "Why a DeepSeek Engineer Is Helping AI Replace Him",
       "titleZh": "DeepSeek工程师为什么要帮助人工智能取代他",
@@ -382,48 +529,6 @@
       "source": "Google News"
     },
     {
-      "id": "104022251",
-      "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
-      "titleZh": "Meta现在允许人工智能代理处理WhatsApp Business设置的无聊部分",
-      "summary": "A new WhatsApp Business MCP server lets developers use AI coding agents like Claude, Cursor, Codex, and ChatGPT to handle setup, messaging templates, testing, and troubleshooting.",
-      "link": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
-      "pubDate": 1789503173000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1361661865",
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "titleZh": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-      "link": "https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "pubDate": 1789498800000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "high",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 25,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "-1633476759",
       "title": "Kimi K3 Closes the AI Capability Gap to Four Months at a Fifth of the Price",
       "titleZh": "Kimi K3以五分之一的价格将人工智能能力差距缩小到四个月",
@@ -433,58 +538,16 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-1148516295",
-      "title": "US data centers could consume more natural gas than Germany and Japan combined by 2035",
-      "titleZh": "到2035年，美国数据中心的天然气消耗量可能超过德国和日本的总和",
-      "summary": "The AI frenzy could push U.S. data centers to become one of the largest consumers of natural gas in the world.",
-      "link": "https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/",
-      "pubDate": 1789496960000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "413825164",
-      "title": "AI agents now have a place to snitch",
-      "titleZh": "人工智能代理现在有了告密的地方",
-      "summary": "The AI Contact Hotline is designed to be a discreet place where agents that have witnessed misbehavior can tip off authorities.",
-      "link": "https://techcrunch.com/2026/09/15/ai-agents-now-have-a-place-to-snitch/",
-      "pubDate": 1789494179000,
-      "vendor": "techcrunch",
-      "category": "Agent",
-      "impact": "med",
-      "score": 38,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "-421920195",
@@ -496,37 +559,16 @@
       "vendor": "deepmind",
       "category": "Release",
       "impact": "high",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 13,
         "kv": 2,
         "cw": 25,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "-1219185838",
-      "title": "Meta expands subscription push with new AI-focused plans",
-      "titleZh": "Meta通过以人工智能为重点的新计划扩展订阅推送",
-      "summary": "Meta One bundles expanded access to the company’s AI tools with premium features across Facebook, Instagram, and WhatsApp.",
-      "link": "https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans/",
-      "pubDate": 1789491924000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "274565328",
@@ -538,13 +580,13 @@
       "vendor": "huggingface",
       "category": "Agent",
       "impact": "med",
-      "score": 39,
+      "score": 38,
       "scoreBreakdown": {
         "cq": 9,
         "kv": 0,
         "cw": 12,
         "st": 14,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -559,13 +601,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 12,
         "kv": 2,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google AI"
@@ -580,13 +622,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google AI"
@@ -601,58 +643,16 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google AI"
-    },
-    {
-      "id": "1826084130",
-      "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
-      "titleZh": "OpenAI、Anthropic和谷歌已经就人工智能安全问题进行了数周的谈判",
-      "summary": "OpenAI confirms weeks of AI safety talks with Anthropic and Google DeepMind, as Trump's team dismisses safety concerns and pushes to keep pace with China.",
-      "link": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
-      "pubDate": 1789487223000,
-      "vendor": "techcrunch",
-      "category": "Safety",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 1,
-        "cw": 10,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1480646313",
-      "title": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round",
-      "titleZh": "AEO初创公司Profound实现独角兽估值，在上一轮融资后7个月筹集了1.8亿美元的D轮融资",
-      "summary": "Profound has raised a $180 million Series D at a $1.8 billion valuation, less than seven months after it raised a $96 million Series C.",
-      "link": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/",
-      "pubDate": 1789485768000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 4,
-        "cw": 20,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "124406507",
@@ -748,13 +748,13 @@
       "vendor": "qwen",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -769,13 +769,13 @@
       "vendor": "deepseek",
       "category": "Funding",
       "impact": "high",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 3,
         "cw": 20,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -790,13 +790,13 @@
       "vendor": "google",
       "category": "Agent",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 12,
         "kv": 0,
         "cw": 12,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google AI"
@@ -1117,6 +1117,27 @@
       "source": "Google News"
     },
     {
+      "id": "-1898716556",
+      "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
+      "titleZh": "Anthropic详细介绍了阿里巴巴、Moonshot AI和DeepSeek的蒸馏活动",
+      "summary": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWXVEZHZZd3FMekpPWXlfTF84cm5aclBUUlI4dmtTTlVGWk1RN3d3UVJLMkxkTlBVSjg4dWVZS0tpRWx6LXVGNkxUS0FOTmNfMEs0UXA0dk1HTzdkTXMxY1RudDJxQ3VDcldicUt5dXI1SkdkZjdsVXVHUEJYSEZuMjV4bGR5WHZNNkFIZVFWWkcwNmIxc2NyclA2S2JpMHhHN1JYV0NGQmU2enhGVjc0dU9taw?oc=5",
+      "pubDate": 1789073850000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-380377961",
       "title": "How Chinese AI Firms Tried to Clone U.S. AI Models",
       "titleZh": "中国人工智能公司如何尝试克隆美国人工智能模型",
@@ -1306,6 +1327,27 @@
       "source": "OpenAI"
     },
     {
+      "id": "849102664",
+      "title": "Alibaba Qwen previews N1 AI glasses with iris recognition and no display",
+      "titleZh": "阿里巴巴Qwen预览虹膜识别无显示屏N1 AI眼镜",
+      "summary": "Alibaba Qwen previews N1 AI glasses with iris recognition and no display TechNode",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbzVQZHp1Ml9sV1RPbmk2ZDhfakNtOEtSOE82aUsyY1NzUFQ5X2xOQ1hXdDBRRkhwcmYwOUZpYlk3ZHp0R2JKSGpfYTBJMFVNdjFVYnQ0cVJSa1ZfeGRDM2hVUmZDR0dSMncwYVJtc2ZtZE42Z1VRMEszRkhiS3E0enI4SGg4MGNXYV9WY1pwN2Y4a2MtSHk0akcyc1hRRGJIUGRoSmRHSHA?oc=5",
+      "pubDate": 1789021131000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "2110704229",
       "title": "Introducing the Agents API",
       "titleZh": "Agent API简介",
@@ -1378,13 +1420,13 @@
       "vendor": "nvidia",
       "category": "Product",
       "impact": "med",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 7,
         "cw": 15,
         "st": 10,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "NVIDIA"
@@ -1399,13 +1441,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google AI"
@@ -1420,13 +1462,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google AI"
@@ -1472,6 +1514,27 @@
         "cs": 1
       },
       "source": "DeepMind"
+    },
+    {
+      "id": "1568277263",
+      "title": "Qwen3.8-Max Open-Sources at 86.6, Nears Opus 5 [2026]",
+      "titleZh": "Qwen3.8-Max开源86.6 ， Nears Opus 5 [2026]",
+      "summary": "Qwen3.8-Max Open-Sources at 86.6, Nears Opus 5 [2026] shattered.io",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBsaGlaNGxsSFVRWXBoMEtXMmd5dnlpZG9lRnF4YXFCaXZDSU1wRkg4YU9OT3VMb2NTSkppXzR4MVJUX2hrSG5HdXdqUnJJNDF0dFZKZ3FBUVR3R09UNW13MFM0U090LXJMOEcxN3FGYw?oc=5",
+      "pubDate": 1788794441000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "high",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1179848853",
@@ -1873,27 +1936,6 @@
       "source": "Google News"
     },
     {
-      "id": "374586481",
-      "title": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model",
-      "titleZh": "阿里巴巴发布更小、更具成本效益的Qwen AI模型",
-      "summary": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVFN2VVNaUWE0bXJiNjQ2VWJlbngtWlpzcnY3RG44VlB1eVVhMWNiT21wYmVKSDJnQ0JkNXMycVg5bWRqQ2RIZ3E0d0hzdkEzUlNPV05aUjRUTFhzaXlNdVhVSHFXNGRuZFlPWUhEeEtKemMwdWJValR0MFpZM19OMVRpS1piVVhZWEI3ZmdJZmlDR1B5d2JMRU5DcENuSUktd01Ra0J6Zw?oc=5",
-      "pubDate": 1787727600000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-932053064",
       "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
       "titleZh": "从雅达利到前夕在线：在15年游戏人工智能研究的基础上再接再厉",
@@ -1957,48 +1999,6 @@
       "source": "Google News"
     },
     {
-      "id": "1246641722",
-      "title": "Alibaba Qwen 3.8 27B Model Targets Edge AI",
-      "titleZh": "阿里巴巴Qwen 3.8 27B车型瞄准边缘AI",
-      "summary": "Alibaba Qwen 3.8 27B Model Targets Edge AI AI Business",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNnJGUXNWZ0hVNGhRaHdNTnlVOU1mRnhpeHFBZE5ubWZUZEdYdEFHWkpZRXE1UEtTd25ybEhZVHQta1JJRUp6TDJJT25lWm1hVFByVzJJWjdpYzBtNTZUUVZxZm5oX2VyOWlkTlJuc3NBX09ZT2p1VUs4MEJDQks4Z0F3WFNtQQ?oc=5",
-      "pubDate": 1786990731000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1579222402",
-      "title": "Alibaba answers Meta’s AI challenge with new laptop-ready model",
-      "titleZh": "Alibaba answers Meta’s AI challenge with new laptop-ready model",
-      "summary": "Alibaba answers Meta’s AI challenge with new laptop-ready model CNBC",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNGFodld0bUNaak0zcjNiZU5MbmF6NWhrVjIxTFl5Tkl1MEFSOENuczNza1cwRGFnSXlTcU1sLUJmeWJMTjNOUG1RTFBzMTNMRGJsQzFHTlgzbkp3cmIwdy03N2tYd2RuN2Z0QnZzUGxWTmJJM2lWMVVIWkk3MUFkcjNtWkFqVHBlVjEw0gGQAUFVX3lxTE9LV0xtYUQ5UXpDNVIzYXk5VXVrUGREUFBQSlJyS0NDNzNkdDhSeVBXZkt0QVBKY09TOUtldVpUQjA4SEQ1UmsxaVpaMWdGeWFHdUg5MFVqTTRkRFItRTFWU2FiY3NSRjBMN0NDLTJMNXkwRTJrdi16OTlPd3VyU3RZeFZINEV2c29IeFFUSkhvWg?oc=5",
-      "pubDate": 1786950000000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-991096918",
       "title": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google",
       "titleZh": "阿里巴巴AI模型下载量突破30亿，通过Meta ，谷歌",
@@ -2039,27 +2039,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "1891460870",
-      "title": "What Does Alibaba (BABA) Qwen Royalty Model Mean For Its AI Business?",
-      "titleZh": "阿里巴巴（ BABA ） Qwen版税模式对其AI业务意味着什么？",
-      "summary": "What Does Alibaba (BABA) Qwen Royalty Model Mean For Its AI Business? Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNFRtSkE5ZWwtS054NjVibWJDcmFlN1JETWttV1lIRGw2QlJvSzg4bnVVMHE4bHN2RnVqSXo3ZllWVnFESnhTODhaX2FkVFJtb2hIbXJSOUg3TU1kejVYVmhKRHU1ZEt5YXZBWnpZWW05bEU1aVM2NFF5a2pLY1BRZFo5RVFkVkdHUG9UUWE5YlgzbnV4dXd2TWJR?oc=5",
-      "pubDate": 1786345200000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-219434516",
