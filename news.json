@@ -1,25 +1,235 @@
 {
-  "updated": "2026-09-16T05:30:50.282Z",
-  "count": 115,
+  "updated": "2026-09-16T10:12:32.806Z",
+  "count": 116,
   "sources": 12,
   "items": [
+    {
+      "id": "2145728096",
+      "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
+      "titleZh": "ZGCM-1 ：用于数学和代理搜索的完全开放且极其高效的基础模型",
+      "summary": "arXiv:2609.13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorithmic efficiency. ZGCM…",
+      "link": "https://arxiv.org/abs/2609.13356",
+      "pubDate": 1789531200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 67,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 10,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1180660804",
+      "title": "Converge Then Diversify: Decoupling Convergence and Diversity in Multi-Objective Bayesian Optimisation",
+      "titleZh": "收敛然后多样化：多目标贝叶斯优化中的收敛和多样性解耦",
+      "summary": "arXiv:2609.13396v1 Announce Type: new Abstract: Multi-objective Bayesian optimisation (MOBO) is a sample-efficient approach for optimising expensive black-box functions with multiple objectives. In MO…",
+      "link": "https://arxiv.org/abs/2609.13396",
+      "pubDate": 1789531200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 8,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-458935383",
+      "title": "Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement",
+      "titleZh": "广义代理迭代：迭代政策改进和递归自我完善的一个正式框架",
+      "summary": "arXiv:2609.13406v1 Announce Type: new Abstract: When we speak of recursive self-improvement (RSI), are we speaking of a phenomenon, a mechanism, or a prospect? Towards autonomous and evolving intellig…",
+      "link": "https://arxiv.org/abs/2609.13406",
+      "pubDate": 1789531200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "911141519",
+      "title": "Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents",
+      "titleZh": "Vibe专利：评估LLM法官的专业专利起草代理人",
+      "summary": "arXiv:2609.13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We s…",
+      "link": "https://arxiv.org/abs/2609.13422",
+      "pubDate": 1789531200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "875683642",
+      "title": "Toward Self-Adaptive Physical AI: Can LLM Agents Manage Long-Horizon Physical Tasks?",
+      "titleZh": "迈向自适应物理AI ： LLM代理可以管理长时间的物理任务吗？",
+      "summary": "arXiv:2609.13436v1 Announce Type: new Abstract: Large Language Model (LLM) agents offer a promising path toward autonomously managing long-term physical tasks without human intervention. However, phys…",
+      "link": "https://arxiv.org/abs/2609.13436",
+      "pubDate": 1789531200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1661742390",
+      "title": "LabAgent: Customize Any Research Hubs for Scientific Discoveries Using AI Agents",
+      "titleZh": "LabAgent ：使用人工智能代理为科学发现定制任何研究中心",
+      "summary": "arXiv:2609.13437v1 Announce Type: new Abstract: Scientific research is a continuous process that emphasizes inheritance. Methods developed by predecessors are often expanded upon by new researchers to…",
+      "link": "https://arxiv.org/abs/2609.13437",
+      "pubDate": 1789531200000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 15,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-868827218",
+      "title": "TimeThink: Eliciting Compositional Reasoning in Timeseries Large Language Models",
+      "titleZh": "TimeThink ：在时序大型语言模型中引发合成推理",
+      "summary": "arXiv:2609.13457v1 Announce Type: new Abstract: Timeseries multimodal large language models (TS-MLLMs) have recently begun leveraging the reasoning capabilities of large language models (LLMs) for que…",
+      "link": "https://arxiv.org/abs/2609.13457",
+      "pubDate": 1789531200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "2129506240",
+      "title": "Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures",
+      "titleZh": "根本原因归因是一个搜索问题：长期代理失败的持续搜索",
+      "summary": "arXiv:2609.13463v1 Announce Type: new Abstract: The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within these records is crucial for reli…",
+      "link": "https://arxiv.org/abs/2609.13463",
+      "pubDate": 1789531200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "332610326",
+      "title": "Governing at Machine Speed: An Adaptive Intelligence Architecture for Real-Time AI Policy Enforcement",
+      "titleZh": "以机器速度治理：一种用于实时AI策略实施的自适应智能架构",
+      "summary": "arXiv:2609.13466v1 Announce Type: new Abstract: Enterprise AI adoption has reached 78% of organizations globally, yet the infrastructure to govern that adoption has not kept pace. This paper identifie…",
+      "link": "https://arxiv.org/abs/2609.13466",
+      "pubDate": 1789531200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1010925255",
+      "title": "OrchSLM: Probing the Dynamics of Small Language Model Orchestration",
+      "titleZh": "OrchSLM ：探索小型语言模型编排的动态",
+      "summary": "arXiv:2609.13470v1 Announce Type: new Abstract: Although large language models (LLMs) have demonstrated remarkable capabilities, their reliance on cloud-scale infrastructure poses fundamental challeng…",
+      "link": "https://arxiv.org/abs/2609.13470",
+      "pubDate": 1789531200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
     {
       "id": "2122797411",
       "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
       "titleZh": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
-      "summary": "AI isn't some kind of new form of \"alien mind,\" according to Jensen Huang. It's just hardware and software, so safety can be engineered by each AI product maker.",
+      "summary": "AI isn't some new form of \"alien mind,\" according to Jensen Huang. It's just hardware and software, so safety can be engineered by each AI product maker.",
       "link": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
       "pubDate": 1789518039000,
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 47,
+      "score": 46,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -412,247 +622,16 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-1446046758",
-      "title": "Qwen And DeepSeek Push Chinese AI Right To Anthropic's Doorstep",
-      "titleZh": "Qwen和DeepSeek将中国人工智能推向人类家门口",
-      "summary": "Qwen And DeepSeek Push Chinese AI Right To Anthropic's Doorstep Yellow.com",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPalp1Q3FfRWl5djN5U1R2QmZZTEVKcXk4U3JDUUhCVUZrbWc2TWxkNURWc25VN2x6WXEtRURoQXRGN211QW9GTU1JdG5mdnhkYmJJeHNQOXZSRkhDRUNkMXNqa3F0OHIyVlRwNE15M0NINWN1N2JTVC1RYkEyS1RrZS04N0pQTWFH?oc=5",
-      "pubDate": 1789450570000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "2145728096",
-      "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
-      "titleZh": "ZGCM-1 ：用于数学和代理搜索的完全开放且极其高效的基础模型",
-      "summary": "arXiv:2609.13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorithmic efficiency. ZGCM…",
-      "link": "https://arxiv.org/abs/2609.13356",
-      "pubDate": 1789444800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 66,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 10,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1180660804",
-      "title": "Converge Then Diversify: Decoupling Convergence and Diversity in Multi-Objective Bayesian Optimisation",
-      "titleZh": "收敛然后多样化：多目标贝叶斯优化中的收敛和多样性解耦",
-      "summary": "arXiv:2609.13396v1 Announce Type: new Abstract: Multi-objective Bayesian optimisation (MOBO) is a sample-efficient approach for optimising expensive black-box functions with multiple objectives. In MO…",
-      "link": "https://arxiv.org/abs/2609.13396",
-      "pubDate": 1789444800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 8,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-458935383",
-      "title": "Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement",
-      "titleZh": "广义代理迭代：迭代政策改进和递归自我完善的一个正式框架",
-      "summary": "arXiv:2609.13406v1 Announce Type: new Abstract: When we speak of recursive self-improvement (RSI), are we speaking of a phenomenon, a mechanism, or a prospect? Towards autonomous and evolving intellig…",
-      "link": "https://arxiv.org/abs/2609.13406",
-      "pubDate": 1789444800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "911141519",
-      "title": "Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents",
-      "titleZh": "Vibe专利：评估LLM法官的专业专利起草代理人",
-      "summary": "arXiv:2609.13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We s…",
-      "link": "https://arxiv.org/abs/2609.13422",
-      "pubDate": 1789444800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "875683642",
-      "title": "Toward Self-Adaptive Physical AI: Can LLM Agents Manage Long-Horizon Physical Tasks?",
-      "titleZh": "迈向自适应物理AI ： LLM代理可以管理长时间的物理任务吗？",
-      "summary": "arXiv:2609.13436v1 Announce Type: new Abstract: Large Language Model (LLM) agents offer a promising path toward autonomously managing long-term physical tasks without human intervention. However, phys…",
-      "link": "https://arxiv.org/abs/2609.13436",
-      "pubDate": 1789444800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1661742390",
-      "title": "LabAgent: Customize Any Research Hubs for Scientific Discoveries Using AI Agents",
-      "titleZh": "LabAgent ：使用人工智能代理为科学发现定制任何研究中心",
-      "summary": "arXiv:2609.13437v1 Announce Type: new Abstract: Scientific research is a continuous process that emphasizes inheritance. Methods developed by predecessors are often expanded upon by new researchers to…",
-      "link": "https://arxiv.org/abs/2609.13437",
-      "pubDate": 1789444800000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 15,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-868827218",
-      "title": "TimeThink: Eliciting Compositional Reasoning in Timeseries Large Language Models",
-      "titleZh": "TimeThink ：在时序大型语言模型中引发合成推理",
-      "summary": "arXiv:2609.13457v1 Announce Type: new Abstract: Timeseries multimodal large language models (TS-MLLMs) have recently begun leveraging the reasoning capabilities of large language models (LLMs) for que…",
-      "link": "https://arxiv.org/abs/2609.13457",
-      "pubDate": 1789444800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 7,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "2129506240",
-      "title": "Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures",
-      "titleZh": "根本原因归因是一个搜索问题：长期代理失败的持续搜索",
-      "summary": "arXiv:2609.13463v1 Announce Type: new Abstract: The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within these records is crucial for reli…",
-      "link": "https://arxiv.org/abs/2609.13463",
-      "pubDate": 1789444800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "332610326",
-      "title": "Governing at Machine Speed: An Adaptive Intelligence Architecture for Real-Time AI Policy Enforcement",
-      "titleZh": "以机器速度治理：一种用于实时AI策略实施的自适应智能架构",
-      "summary": "arXiv:2609.13466v1 Announce Type: new Abstract: Enterprise AI adoption has reached 78% of organizations globally, yet the infrastructure to govern that adoption has not kept pace. This paper identifie…",
-      "link": "https://arxiv.org/abs/2609.13466",
-      "pubDate": 1789444800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1010925255",
-      "title": "OrchSLM: Probing the Dynamics of Small Language Model Orchestration",
-      "titleZh": "OrchSLM ：探索小型语言模型编排的动态",
-      "summary": "arXiv:2609.13470v1 Announce Type: new Abstract: Although large language models (LLMs) have demonstrated remarkable capabilities, their reliance on cloud-scale infrastructure poses fundamental challeng…",
-      "link": "https://arxiv.org/abs/2609.13470",
-      "pubDate": 1789444800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
     },
     {
       "id": "-1122161015",
@@ -790,13 +769,34 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "high",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "882859477",
+      "title": "Qwen And DeepSeek Push Chinese AI Right To Anthropic's Doorstep",
+      "titleZh": "Qwen和DeepSeek将中国人工智能推向人类家门口",
+      "summary": "Qwen And DeepSeek Push Chinese AI Right To Anthropic's Doorstep Yellow.com",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQTd2T2Y1UHpzOFpySjZEcXdRSl9hSE5VOHpHd0QydGdpT3FhbmVBN1VWRDhWZjYtS3RXZERnQmJlNWlXdlVua2plMDFLbEZHYktUSHdhbV9GWnhRa3FZZWxCYm1WejZTUzhza2ZRZXg4Vm4tM0x0Z2dfMFZ5MHJVN2RsTFk2dFJXSWEyel9HQQ?oc=5",
+      "pubDate": 1789362468000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -1432,27 +1432,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "1568277263",
-      "title": "Qwen3.8-Max Open-Sources at 86.6, Nears Opus 5 [2026]",
-      "titleZh": "Qwen3.8-Max开源86.6 ， Nears Opus 5 [2026]",
-      "summary": "Qwen3.8-Max Open-Sources at 86.6, Nears Opus 5 [2026] shattered.io",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBsaGlaNGxsSFVRWXBoMEtXMmd5dnlpZG9lRnF4YXFCaXZDSU1wRkg4YU9OT3VMb2NTSkppXzR4MVJUX2hrSG5HdXdqUnJJNDF0dFZKZ3FBUVR3R09UNW13MFM0U090LXJMOEcxN3FGYw?oc=5",
-      "pubDate": 1788794441000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "high",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 3,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1179848853",
       "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
       "titleZh": "Sparks Fly ： NVIDIA在IFA 2026上加速本地AI",
@@ -1957,6 +1936,27 @@
       "source": "Google News"
     },
     {
+      "id": "1579222402",
+      "title": "Alibaba answers Meta’s AI challenge with new laptop-ready model",
+      "titleZh": "Alibaba answers Meta’s AI challenge with new laptop-ready model",
+      "summary": "Alibaba answers Meta’s AI challenge with new laptop-ready model CNBC",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNGFodld0bUNaak0zcjNiZU5MbmF6NWhrVjIxTFl5Tkl1MEFSOENuczNza1cwRGFnSXlTcU1sLUJmeWJMTjNOUG1RTFBzMTNMRGJsQzFHTlgzbkp3cmIwdy03N2tYd2RuN2Z0QnZzUGxWTmJJM2lWMVVIWkk3MUFkcjNtWkFqVHBlVjEw0gGQAUFVX3lxTE9LV0xtYUQ5UXpDNVIzYXk5VXVrUGREUFBQSlJyS0NDNzNkdDhSeVBXZkt0QVBKY09TOUtldVpUQjA4SEQ1UmsxaVpaMWdGeWFHdUg5MFVqTTRkRFItRTFWU2FiY3NSRjBMN0NDLTJMNXkwRTJrdi16OTlPd3VyU3RZeFZINEV2c29IeFFUSkhvWg?oc=5",
+      "pubDate": 1786950000000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-991096918",
       "title": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google",
       "titleZh": "阿里巴巴AI模型下载量突破30亿，通过Meta ，谷歌",
@@ -1997,6 +1997,27 @@
         "cs": 1
       },
       "source": "NVIDIA"
+    },
+    {
+      "id": "1891460870",
+      "title": "What Does Alibaba (BABA) Qwen Royalty Model Mean For Its AI Business?",
+      "titleZh": "阿里巴巴（ BABA ） Qwen版税模式对其AI业务意味着什么？",
+      "summary": "What Does Alibaba (BABA) Qwen Royalty Model Mean For Its AI Business? Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNFRtSkE5ZWwtS054NjVibWJDcmFlN1JETWttV1lIRGw2QlJvSzg4bnVVMHE4bHN2RnVqSXo3ZllWVnFESnhTODhaX2FkVFJtb2hIbXJSOUg3TU1kejVYVmhKRHU1ZEt5YXZBWnpZWW05bEU1aVM2NFF5a2pLY1BRZFo5RVFkVkdHUG9UUWE5YlgzbnV4dXd2TWJR?oc=5",
+      "pubDate": 1786345200000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-219434516",
