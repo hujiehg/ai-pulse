@@ -1,8 +1,50 @@
 {
-  "updated": "2026-09-17T00:00:42.984Z",
+  "updated": "2026-09-17T03:36:53.900Z",
   "count": 116,
   "sources": 12,
   "items": [
+    {
+      "id": "637196685",
+      "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+      "titleZh": "Anthropic和OpenAI希望嵌入安全评估人员。他们真的会独立吗？",
+      "summary": "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs. Researchers welcome the unprecedented access, but warn meaningful oversight requires transparency, independence, …",
+      "link": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+      "pubDate": 1789592844000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 1,
+        "cw": 22,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "502787287",
+      "title": "After accusations of selling ‘perv glasses,’ Meta prepares to sell a pair without a camera",
+      "titleZh": "After accusations of selling ‘perv glasses,’ Meta prepares to sell a pair without a camera",
+      "summary": "Can Meta dodge the \"pervert glasses\" accusations with a new camera-free product?",
+      "link": "https://techcrunch.com/2026/09/16/after-accusations-of-selling-perv-glasses-meta-prepares-to-sell-a-pair-without-a-camera/",
+      "pubDate": 1789589520000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "713574747",
       "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
@@ -13,16 +55,37 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 39,
+      "score": 38,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 12,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "1202207256",
+      "title": "Our framework for reporting model misalignment",
+      "titleZh": "我们的模型错位报告框架",
+      "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+      "link": "https://openai.com/index/model-misalignment-reporting-framework",
+      "pubDate": 1789578000000,
+      "vendor": "openai",
+      "category": "Research",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 22,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
     },
     {
       "id": "-31217457",
@@ -235,27 +298,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "203597644",
-      "title": "Former Infosys chief’s AI startup nabs another $53M",
-      "titleZh": "Former Infosys chief’s AI startup nabs another $53M",
-      "summary": "The Palo Alto startup says it has landed multiple seven-figure enterprise contracts within months of launch.",
-      "link": "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/",
-      "pubDate": 1789563600000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "high",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 25,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "-1651793425",
       "title": "How to connect AI usage to business value",
       "titleZh": "如何将人工智能使用与业务价值联系起来",
@@ -298,27 +340,6 @@
       "source": "Google News"
     },
     {
-      "id": "467597966",
-      "title": "Amazon launches Alexa+ in India with Hindi support",
-      "titleZh": "亚马逊在印地语支持下在印度推出Alexa +",
-      "summary": "Amazon is letting all customers use Alexa+ assistant in early access period.",
-      "link": "https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/",
-      "pubDate": 1789554887000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "high",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 2,
-        "cw": 25,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "1288009835",
       "title": "How workers are unlocking new ways of working",
       "titleZh": "员工如何开启新的工作方式",
@@ -340,165 +361,18 @@
       "source": "OpenAI"
     },
     {
-      "id": "2145728096",
-      "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
-      "titleZh": "ZGCM-1 ：用于数学和代理搜索的完全开放且极其高效的基础模型",
-      "summary": "arXiv:2609.13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorithmic efficiency. ZGCM…",
-      "link": "https://arxiv.org/abs/2609.13356",
+      "id": "116702401",
+      "title": "Optimal Pruning for Neural Architectures using Fisher Information Distances",
+      "titleZh": "使用Fisher信息距离的神经架构优化修剪",
+      "summary": "arXiv:2609.16129v1 Announce Type: new Abstract: A new scheme for parameter pruning is introduced, derived from the differential-geometric distance in model space. Pruning a parameter sets its value to…",
+      "link": "https://arxiv.org/abs/2609.16129",
       "pubDate": 1789531200000,
       "vendor": "arxiv",
       "category": "Research",
-      "impact": "high",
-      "score": 67,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 10,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1180660804",
-      "title": "Converge Then Diversify: Decoupling Convergence and Diversity in Multi-Objective Bayesian Optimisation",
-      "titleZh": "收敛然后多样化：多目标贝叶斯优化中的收敛和多样性解耦",
-      "summary": "arXiv:2609.13396v1 Announce Type: new Abstract: Multi-objective Bayesian optimisation (MOBO) is a sample-efficient approach for optimising expensive black-box functions with multiple objectives. In MO…",
-      "link": "https://arxiv.org/abs/2609.13396",
-      "pubDate": 1789531200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
+      "impact": "med",
       "score": 63,
       "scoreBreakdown": {
-        "cq": 16,
-        "kv": 8,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-458935383",
-      "title": "Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement",
-      "titleZh": "广义代理迭代：迭代政策改进和递归自我完善的一个正式框架",
-      "summary": "arXiv:2609.13406v1 Announce Type: new Abstract: When we speak of recursive self-improvement (RSI), are we speaking of a phenomenon, a mechanism, or a prospect? Towards autonomous and evolving intellig…",
-      "link": "https://arxiv.org/abs/2609.13406",
-      "pubDate": 1789531200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "911141519",
-      "title": "Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents",
-      "titleZh": "Vibe专利：评估LLM法官的专业专利起草代理人",
-      "summary": "arXiv:2609.13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We s…",
-      "link": "https://arxiv.org/abs/2609.13422",
-      "pubDate": 1789531200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
         "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "875683642",
-      "title": "Toward Self-Adaptive Physical AI: Can LLM Agents Manage Long-Horizon Physical Tasks?",
-      "titleZh": "迈向自适应物理AI ： LLM代理可以管理长时间的物理任务吗？",
-      "summary": "arXiv:2609.13436v1 Announce Type: new Abstract: Large Language Model (LLM) agents offer a promising path toward autonomously managing long-term physical tasks without human intervention. However, phys…",
-      "link": "https://arxiv.org/abs/2609.13436",
-      "pubDate": 1789531200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1661742390",
-      "title": "LabAgent: Customize Any Research Hubs for Scientific Discoveries Using AI Agents",
-      "titleZh": "LabAgent ：使用人工智能代理为科学发现定制任何研究中心",
-      "summary": "arXiv:2609.13437v1 Announce Type: new Abstract: Scientific research is a continuous process that emphasizes inheritance. Methods developed by predecessors are often expanded upon by new researchers to…",
-      "link": "https://arxiv.org/abs/2609.13437",
-      "pubDate": 1789531200000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 15,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-868827218",
-      "title": "TimeThink: Eliciting Compositional Reasoning in Timeseries Large Language Models",
-      "titleZh": "TimeThink ：在时序大型语言模型中引发合成推理",
-      "summary": "arXiv:2609.13457v1 Announce Type: new Abstract: Timeseries multimodal large language models (TS-MLLMs) have recently begun leveraging the reasoning capabilities of large language models (LLMs) for que…",
-      "link": "https://arxiv.org/abs/2609.13457",
-      "pubDate": 1789531200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 7,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "2129506240",
-      "title": "Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures",
-      "titleZh": "根本原因归因是一个搜索问题：长期代理失败的持续搜索",
-      "summary": "arXiv:2609.13463v1 Announce Type: new Abstract: The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within these records is crucial for reli…",
-      "link": "https://arxiv.org/abs/2609.13463",
-      "pubDate": 1789531200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 20,
         "kv": 6,
         "cw": 22,
         "st": 13,
@@ -508,11 +382,137 @@
       "source": "arXiv"
     },
     {
-      "id": "332610326",
-      "title": "Governing at Machine Speed: An Adaptive Intelligence Architecture for Real-Time AI Policy Enforcement",
-      "titleZh": "以机器速度治理：一种用于实时AI策略实施的自适应智能架构",
-      "summary": "arXiv:2609.13466v1 Announce Type: new Abstract: Enterprise AI adoption has reached 78% of organizations globally, yet the infrastructure to govern that adoption has not kept pace. This paper identifie…",
-      "link": "https://arxiv.org/abs/2609.13466",
+      "id": "790115534",
+      "title": "Safe Error Correction for Language Models: Frozen-Base Adjustment with Capability Preservation",
+      "titleZh": "语言模型的安全纠错：带能力保留的冻结基调整",
+      "summary": "arXiv:2609.16145v1 Announce Type: new Abstract: We study a practical question: can a small correction module fix errors in a frozen language model's outputs without degrading its base capabilities? We…",
+      "link": "https://arxiv.org/abs/2609.16145",
+      "pubDate": 1789531200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 9,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1470318486",
+      "title": "GPEvac: GNN-Based PPO for Adaptive Evacuation Routing During Shooting Events",
+      "titleZh": "GPEvac ：基于GNN的PPO ，用于拍摄事件期间的自适应疏散路由",
+      "summary": "arXiv:2609.16163v1 Announce Type: new Abstract: The sharp increase in mass shootings underscores an urgent need for systems that guide victims to safety in real time. An effective evacuation system mu…",
+      "link": "https://arxiv.org/abs/2609.16163",
+      "pubDate": 1789531200000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1454566800",
+      "title": "Position: AI Is Not Ready for Strategic Conflicts",
+      "titleZh": "立场：人工智能尚未做好应对战略冲突的准备",
+      "summary": "arXiv:2609.16189v1 Announce Type: new Abstract: Open-ended strategic wargames are high-stakes LM-based social simulations: they model adversaries, institutions, escalation, plan brittleness, doctrine,…",
+      "link": "https://arxiv.org/abs/2609.16189",
+      "pubDate": 1789531200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1759941166",
+      "title": "Calibrate, Then Route: A Measured Study of Learned Request Routing for Disaggregated LLM Serving",
+      "titleZh": "校准，然后路由：对分解LLM服务的已学习请求路由的测量研究",
+      "summary": "arXiv:2609.16206v1 Announce Type: new Abstract: Disaggregated LLM serving places compute heavy prefill and memory heavy decode on separate GPU pools. Systems such as DistServe, Splitwise, and Mooncake…",
+      "link": "https://arxiv.org/abs/2609.16206",
+      "pubDate": 1789531200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-2057257631",
+      "title": "Artificial intelligence and biosecurity: capabilities, threat pathways, and defense-in-depth governance",
+      "titleZh": "人工智能和生物安全：能力、威胁途径和纵深防御治理",
+      "summary": "arXiv:2609.16213v1 Announce Type: new Abstract: Artificial intelligence is reshaping biological research across an increasingly connected digital-to-physical workflow. General-purpose large language m…",
+      "link": "https://arxiv.org/abs/2609.16213",
+      "pubDate": 1789531200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 9,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1418443402",
+      "title": "Where Should the KV Cache Live? Placement Policies Across GPU, CPU, and SSD for Long-Lived Sessions",
+      "titleZh": "KV缓存应位于何处？针对长寿命会话的GPU、CPU和SSD放置策略",
+      "summary": "arXiv:2609.16215v1 Announce Type: new Abstract: GPU high bandwidth memory is scarce and expensive, and KV caches consume much of it as chats, agent loops, and document question answering accumulate st…",
+      "link": "https://arxiv.org/abs/2609.16215",
+      "pubDate": 1789531200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1629498349",
+      "title": "Toward Governance-Aware Autonomous GIS: A Narrative Review of Ethical and Privacy Risks in LLM-Enabled GeoAI",
+      "titleZh": "走向具有治理意识的自主GIS ：对启用LLM的GeoAI中的道德和隐私风险的叙述性回顾",
+      "summary": "arXiv:2609.16232v1 Announce Type: new Abstract: Geospatial artificial intelligence (GeoAI) powered by large language models (LLMs) is expanding the capacity to query, generate, and interpret spatial i…",
+      "link": "https://arxiv.org/abs/2609.16232",
       "pubDate": 1789531200000,
       "vendor": "arxiv",
       "category": "Research",
@@ -529,19 +529,40 @@
       "source": "arXiv"
     },
     {
-      "id": "1010925255",
-      "title": "OrchSLM: Probing the Dynamics of Small Language Model Orchestration",
-      "titleZh": "OrchSLM ：探索小型语言模型编排的动态",
-      "summary": "arXiv:2609.13470v1 Announce Type: new Abstract: Although large language models (LLMs) have demonstrated remarkable capabilities, their reliance on cloud-scale infrastructure poses fundamental challeng…",
-      "link": "https://arxiv.org/abs/2609.13470",
+      "id": "221903540",
+      "title": "Metacognitive Steering: Learning the Structure of Scientific Judgment",
+      "titleZh": "元认知导向：学习科学判断的结构",
+      "summary": "arXiv:2609.16245v1 Announce Type: new Abstract: Long-horizon scientific discovery requires agents to alternate between exploration, disciplined execution, and critical reassessment as evidence changes…",
+      "link": "https://arxiv.org/abs/2609.16245",
       "pubDate": 1789531200000,
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 64,
       "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
+        "cq": 20,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-294303184",
+      "title": "The Pain Axis: LLMs Represent Self-Directed Harm and Act to Relieve It",
+      "titleZh": "疼痛轴心： LLM代表自我导向的伤害并采取行动缓解它",
+      "summary": "arXiv:2609.16247v1 Announce Type: new Abstract: Large language models sometimes behave in ways resembling human emotional responses, and recent work has identified internal representations that may ex…",
+      "link": "https://arxiv.org/abs/2609.16247",
+      "pubDate": 1789531200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
         "cw": 22,
         "st": 13,
         "rc": 3,
@@ -1264,27 +1285,6 @@
       "source": "Google AI"
     },
     {
-      "id": "1995285354",
-      "title": "Now everyone can put data to work",
-      "titleZh": "现在，每个人都可以使用数据",
-      "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-      "link": "https://openai.com/index/put-data-to-work",
-      "pubDate": 1789052400000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "-1461504745",
       "title": "Exclusive | Moonshot AI considers dual listings in Hong Kong and Shanghai: sources",
       "titleZh": "独家| Moonshot AI考虑在香港和上海的双重房源：来源",
@@ -1315,13 +1315,13 @@
       "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 15,
         "st": 14,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -1336,13 +1336,13 @@
       "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
-      "score": 40,
+      "score": 39,
       "scoreBreakdown": {
         "cq": 9,
         "kv": 0,
         "cw": 15,
         "st": 14,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "HuggingFace"
