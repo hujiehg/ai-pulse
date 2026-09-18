@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T21:47:13.707Z",
+  "updated": "2026-09-18T23:46:22.133Z",
   "count": 117,
   "sources": 12,
   "items": [
@@ -55,13 +55,13 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 47,
+      "score": 46,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 0,
         "cw": 12,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -76,13 +76,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 1,
         "cw": 22,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -97,13 +97,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -118,16 +118,37 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 1,
         "cw": 22,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "1767811727",
+      "title": "Introducing Kimi K3 on Amazon Bedrock",
+      "titleZh": "在Amazon Bedrock上推出Kimi K3",
+      "summary": "Introducing Kimi K3 on Amazon Bedrock Amazon Web Services (AWS)",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZEc4TDRPSkJzZUl2bHJoNm5HNkhpcGtBX2U0V1l3dVJDRlh5YkpwRkZaTDkwcDBfZVN3UU1ackFYY0NPMU5sRU5LVVFmRHhySUJwVjZlWXlNTkw4b0swYW1zUVZQSldHV19aTzBfeC1waGFOeGd0MThBOEo5bnVFSDl2VkIxSndKVWZYWA?oc=5",
+      "pubDate": 1789750321000,
+      "vendor": "kimi",
+      "category": "Release",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 25,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1499598250",
@@ -139,13 +160,13 @@
       "vendor": "techcrunch",
       "category": "Funding",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 20,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -296,27 +317,6 @@
         "cs": 1
       },
       "source": "Google AI"
-    },
-    {
-      "id": "-781769363",
-      "title": "US government website reportedly used Chinese AI model for search despite FBI copying allegations against...",
-      "titleZh": "据报道，尽管联邦调查局抄袭了针对...的指控，但美国政府网站仍使用中国人工智能模型进行",
-      "summary": "US government website reportedly used Chinese AI model for search despite FBI copying allegations against... Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOeXJ0X05FMXdmVzA1clU5RFF2clhRNEpnYXdDdmpWaS15ZzJFY0pqcnlDeDExcGpsVF9hRlVYSTlqaHJpRW5WSmhqSE9tQXdNZ2s4RUZLSlZrdHdIbWhPMzdTV0ZXWWtfWWZQaVFYWkw0WkNlemdYREF6QzdWYW1Ra2g0X0EyazdPZU4zOF9DYzd0YThIc1VnZG1FelRieVB2UFgxU2pxdFZFOThmX1BlOTRyVUJtZGJ4V2RLby1GNHZCVER2eTBxTk10Ynl0RGJVcnVxZmR4UWJFTWpWWnR1c2xPeG4wemdYaHJ5Tm9ZZTFzcUFnWjAxdVktV0ttMmd0ZW42Uy1B0gGLAkFVX3lxTE5mOVhXd0s2SlNuRTdyQTQtbFI1OWVtTi1sczdVTnAtN21qUm9XcEo1Tnp3MWQyMm5rZF84Q1UxOE1OM0RZenIyMXoyTFNva0h2SnlaX2dJRnhLdGRXZlhuUlFadDFkejZxeE42ZXl5TmxvZGMtMGthcDlvVDEwamtjbUdoY0FpSXoxcU44b2lTdGFRMGhjMUwteUxWSTUzQ24wek5VNWdWV2JOWU54OGRiS0tkM19PdTdaeWRhMVFDbTJIMk1XSU5ROGZud3k3LTdUTHBNUE9oeGZjSEFzaUdUamkzdG5wOWNEMWZmUWxqdHdVR1JGZ28tUFB2ZTM0cURMYVVHQWdKQ2x4MA?oc=5",
-      "pubDate": 1789729156000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-868745989",
@@ -592,43 +592,22 @@
       "source": "arXiv"
     },
     {
-      "id": "1814347253",
-      "title": "US government website used AI search tool from China that FBI said copied Anthropic tech",
-      "titleZh": "美国政府网站使用中国的人工智能搜索工具，联邦调查局称该工具复制了人类技术",
-      "summary": "US government website used AI search tool from China that FBI said copied Anthropic tech The Straits Times",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYXNKellhWnRPU1VVVlYyT3YyZUV2VEVGRnFyQ1c5VnF6cmxMMmhDWDNFMXJsQkFvbmc5RE1ZRHZiM0ZRT05GSjl6X3JMcTNkbFVJQ3VKeGh0Q1cyc2VDaHJvdEhuU1ltaXd3c09MbVYzMWNCcFJCLWNBLWU4a1Z5Nm5FZEhEWlU5b0Q2bkczRER1VXAxTDFrVzBfekZnTHlzaS1fRGt3dkVOY0pUZmEyLWtGN2V1X20wOGtfdTk2SnJ2SG15QW1vUHg2dVU?oc=5",
-      "pubDate": 1789688760000,
-      "vendor": "anthropic",
+      "id": "-1882204603",
+      "title": "Controversy Over US Government's Use of Chinese AI: An Examination of Qwen's Deployment",
+      "titleZh": "美国政府使用中国人工智能的争议：对Qwen部署的考察",
+      "summary": "Controversy Over US Government's Use of Chinese AI: An Examination of Qwen's Deployment Devdiscourse",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYkFZejg5YTY2cG1mNWdZZl81T01GT1B1a3VlMUtkelNjN3dWQnlLTEFEQXg4VlhKT2FBMzZuRVNNODlEQ0xRazVzS3pOWXlPMFlYNzlYYmxDSkdsMHRaaHNpRFB6dkNTNW5MVENhSHF0RjBuYjhEbTdkVTk0OVVsUEV5R1dRMFdlNWlMQWpHSlJDc0tYYktwdGlPTElGalNMdjZ3VHdlT1hDZXZxOEVNbEpfUVVza1ZBbWY4aHVXT0dLS1NCRnlXUVRvdXNyeXk4S2tQaUNFQUJhZ3RN0gHcAUFVX3lxTE9iQVl6ODlhNjZwbWY1Z1lmXzVPTUZPUHVrdWUxS2R6U2M3d1ZCeUtMQURBeDhWWEpPYUEzNm5FU004OURDTFFrNXNLek5ZeU8wWVg3OVhibENKR2wwdFpoc2lEUHp2Q1M1bkxUQ2FIcXRGMG5iOERtN2RVOTQ5VWxQRXlHV1EwV2U1aUxBakdKUkNzS1hiS3B0aU9MSUZqU0x2NndUd2VPWENldnE4RU1sSl9RVXNrVkFtZjhodVdPR0tLU0JGeVdRVG91c3J5eThLa1BpQ0VBQmFndE0?oc=5",
+      "pubDate": 1789681713000,
+      "vendor": "qwen",
       "category": "Product",
       "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1526558745",
-      "title": "Moonshot Launches Kimi AI for Financial Services",
-      "titleZh": "Moonshot推出面向金融服务的Kimi AI",
-      "summary": "Moonshot Launches Kimi AI for Financial Services Briefs Finance",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNUw5VENqVW01cVVJamhpNjVRQkJtU19oYnZQZi1zQWExNmxLcjI3MnZISXJVbVQzT1p3c1dDUzdwVDNtUUtLWVhvZ2l3cGNBUWhQQldpOS1ycmw2SzhLeVowSHQ3TThOcnNQTFdvRDVxNHdzSFZEWHhIejFRR1NETzZ3UjhKRFRkcEFxMHlrUkJLQQ?oc=5",
-      "pubDate": 1789687887000,
-      "vendor": "kimi",
-      "category": "Release",
-      "impact": "high",
-      "score": 63,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
-        "cw": 25,
+        "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -823,10 +802,10 @@
       "source": "OpenAI"
     },
     {
-      "id": "1976095902",
+      "id": "1503104395",
       "title": "Another Rogue AI Agent? Test Of Alibaba's Qwen Goes Off-Script",
       "titleZh": "另一个流氓AI特工？阿里巴巴的Qwen测试脱离脚本",
-      "summary": "Another Rogue AI Agent? Test Of Alibaba's Qwen Goes Off-Script Forbes",
+      "summary": "Another Rogue AI Agent? Test Of Alibaba's Qwen Goes Off-Script forbes.com",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ0pwYWFjUzRHY01qUm9FSy1SS3NhZkJBZVBtZUVndVRtMTNFT3FJcVoya3BqNEphYnFiOFdzLUNpXzlJc0pwMEdOeEFQUlJmSFVjRXc2Q3pPZTc2bTM0WDZ6UktacTFRSUJVQ294RGtxNExuanZrWmkxUXdhVkJYQlhWU0sweTBpMWlQTndFWmU3OUNBak5vR1BiRWFkRWhtSFJKNzNqYVo3N2N4LXMyWG4zQllKMmh3SFE?oc=5",
       "pubDate": 1789573003000,
       "vendor": "qwen",
@@ -837,6 +816,27 @@
         "cq": 18,
         "kv": 2,
         "cw": 12,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1529524529",
+      "title": "DeepSeek engineer says Anthropic AGI would be \"like Hitler getting nukes\"",
+      "titleZh": "DeepSeek工程师表示，人类AGI将“就像希特勒获得核武器”",
+      "summary": "DeepSeek engineer says Anthropic AGI would be \"like Hitler getting nukes\" Cybernews",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdUlzT3hXYmRVV3lISGoxb0hXbm9mN3ppM0lNMHpZYTQ1NllqdGZUOEFsWlhPM3FTMW12elBWaVlpZ2JfOERreFgxTmc0TndBaDBNVnBwWnNfR0FSZHV4Y05QalFHaHlibkF0Q3c5aWozdUJvSW9rRGdRTHJUUUsxTGdGY3BxaHc0dzByeTgzM0JZSEIwZUZIWjNrMUk3U050ODd5Yw?oc=5",
+      "pubDate": 1789569827000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -1180,10 +1180,10 @@
       "source": "Google News"
     },
     {
-      "id": "-196077466",
+      "id": "-975345607",
       "title": "China's DeepSeek hires dealmaker as CFO ahead of possible IPO",
       "titleZh": "中国的DeepSeek在可能的IPO之前聘请交易员担任首席财务官",
-      "summary": "China's DeepSeek hires dealmaker as CFO ahead of possible IPO reuters.com",
+      "summary": "China's DeepSeek hires dealmaker as CFO ahead of possible IPO Reuters",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONHdQbHZseE9aRy1MVkFWYnNwZXFwZVFKZnU4dWRLSlpjeC1aTmRUdWYxUFhaMGNFd0ZRb3dMdHUwdnFUNnJENkZfRE42X2pxOEllNFlSaElvbUY0eEU4ei12UF90MmxScmdxNkdGeWRicU1FUmlWZTJCNjB1WXNoaXlfQ1hDdS05UV9KLUZ2bWFhY0lQU0FNQ0R4WmI4d1VHc3l4Sk9mZTFjTm8?oc=5",
       "pubDate": 1789403833000,
       "vendor": "deepseek",
@@ -1306,10 +1306,10 @@
       "source": "OpenAI"
     },
     {
-      "id": "-314805405",
+      "id": "-464059804",
       "title": "DeepSeek's New AI Model Spooked Samsung and SK Hynix Investors",
       "titleZh": "DeepSeek的新AI模型吓坏了三星和SK海力士的投资者",
-      "summary": "DeepSeek's New AI Model Spooked Samsung and SK Hynix Investors Startup Fortune",
+      "summary": "DeepSeek's New AI Model Spooked Samsung and SK Hynix Investors startupfortune.com",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQV3JiMkdHTHAwU3BMaGxfcHJ6SlZJRjhLQWhjekUzVGlwUzcyWHFGX1FENm9QUDVNekxnUVA3VjJobjY2b2NJeURhcHlLZXZ6SG5QdndOVExzMUJBS05LMnc1ZjYxTWN2SlMyblJaT1ZSQTBObWVhbXh4aGtIbFpQQ1ZXSjNHUl9lZ1NYTkhnbW9LYjA?oc=5",
       "pubDate": 1789268284000,
       "vendor": "deepseek",
@@ -1383,6 +1383,27 @@
         "cq": 18,
         "kv": 1,
         "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1960424605",
+      "title": "DeepSeek's new model sets a template for powerful LLMs that run lean",
+      "titleZh": "DeepSeek的新模型为精益运营的强大LLM设置了模板",
+      "summary": "DeepSeek's new model sets a template for powerful LLMs that run lean The Register",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1d2cXhBcGxPRlB0M2VkU1dFWDNVVFV6QUtsNWVmc3VHOTNMOGQxX3dDd3VPVGJRWFl1X2dtaHJ5WEs5M1Z5bUdqYTdYYmgwcDBnVE5RM3Vsb3dlYjNJNHNxOGd3bnJLYnRocVFDanZNMjlDZEtSMGNlUC1WQUl4TWJKaExMRWV3dHFUTmJFWTB5ME5TM18yUXJBUVdieGRuYThGZUNBRXFaSXY4ejhNTS05aGt0aVZpZUJxX2kwN0Y2dw?oc=5",
+      "pubDate": 1789110900000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
         "st": 12,
         "rc": 0,
         "cs": 1
@@ -1978,6 +1999,27 @@
       "source": "VentureBeat"
     },
     {
+      "id": "374586481",
+      "title": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model",
+      "titleZh": "阿里巴巴发布更小、更具成本效益的Qwen AI模型",
+      "summary": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVFN2VVNaUWE0bXJiNjQ2VWJlbngtWlpzcnY3RG44VlB1eVVhMWNiT21wYmVKSDJnQ0JkNXMycVg5bWRqQ2RIZ3E0d0hzdkEzUlNPV05aUjRUTFhzaXlNdVhVSHFXNGRuZFlPWUhEeEtKemMwdWJValR0MFpZM19OMVRpS1piVVhZWEI3ZmdJZmlDR1B5d2JMRU5DcENuSUktd01Ra0J6Zw?oc=5",
+      "pubDate": 1787727600000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-932053064",
       "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
       "titleZh": "从雅达利到前夕在线：在15年游戏人工智能研究的基础上再接再厉",
@@ -2018,27 +2060,6 @@
         "cs": 1
       },
       "source": "VentureBeat"
-    },
-    {
-      "id": "-2016155837",
-      "title": "DeepSeek's AI Models Are About To Cost Four Times More",
-      "titleZh": "DeepSeek的人工智能模型成本将增加四倍",
-      "summary": "DeepSeek's AI Models Are About To Cost Four Times More Engadget",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT2FId1BnQ0MyY3Rzem9GYVo0blhJUnVqMEpYektCc1F5cy0xS09SODdqOEZrNXZGZE1NVlR6TGFacEw1Uzh6SEtfQzBEU2pfSDRpTW9YRVBoSlJyNElwcmJBOFZmVzIyVHZZS0hhcmJ6cWkzeWlMc2pOQmMwX055Yg?oc=5",
-      "pubDate": 1786690800000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1841590772",
@@ -2165,27 +2186,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-1937431074",
-      "title": "DeepSeek's new bargain model accelerates AI's race to zero",
-      "titleZh": "DeepSeek的新讨价还价模式加速了人工智能的零竞赛",
-      "summary": "DeepSeek's new bargain model accelerates AI's race to zero Axios",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04emlXWXpVQXhNcjJsU1d5ZmhnU1J2TFRyeFlxM2hqUUNUNVR2UmxFQUNBanYwWnd5ZUpTRnptVEh2TXU2NU5aa0FRbFV6ejVPd2wxWFNXa3RoaTZPQ0dQSHc0Tkk4WE93Q1JwV0tIWGNBaGNG?oc=5",
-      "pubDate": 1785567600000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1093452510",
