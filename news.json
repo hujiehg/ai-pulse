@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-19T20:54:15.864Z",
-  "count": 107,
-  "sources": 11,
+  "updated": "2026-09-19T22:36:41.703Z",
+  "count": 97,
+  "sources": 10,
   "items": [
     {
       "id": "-1571079680",
@@ -34,13 +34,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,13 +55,13 @@
       "vendor": "techcrunch",
       "category": "Safety",
       "impact": "med",
-      "score": 40,
+      "score": 39,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 1,
         "cw": 10,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -109,10 +109,10 @@
       "source": "TechCrunch"
     },
     {
-      "id": "-862212696",
+      "id": "-174994409",
       "title": "A US Government Website Ran Alibaba's Qwen Days After the FBI Accused It of Stealing Anthropic's Work",
       "titleZh": "美国政府网站在联邦调查局指控阿里巴巴窃取人类工作的几天后跑了阿里巴巴的Qwen",
-      "summary": "A US Government Website Ran Alibaba's Qwen Days After the FBI Accused It of Stealing Anthropic's Work startupfortune.com",
+      "summary": "A US Government Website Ran Alibaba's Qwen Days After the FBI Accused It of Stealing Anthropic's Work Startup Fortune",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNV3hVUElCbEQ2RVhkY3ExU2VOcFU1clZTWUs0SktDNU5KMG5LS1pjSVctWlhHMk5IazFYMDZGWE5wRWY3TkhndFUyVnRpekpTV3diSkM2ZG1DMkJnSEk2ZGVlb2VqNzRheXc2eWZJSUtGcE5RQnF1QzVsblp6V1VlR3RXSzU2T2g3WWswbWxVbjE4SG0yNDZ0cEdwcTU5NHdVdGtQSGY1dWpPWmtrcF9LZGFpc0c5U2poNy1ucW1EdmlPV2pyS2c?oc=5",
       "pubDate": 1789793647000,
       "vendor": "qwen",
@@ -277,48 +277,6 @@
       "source": "Google News"
     },
     {
-      "id": "917748322",
-      "title": "Moonshot AI’s Kimi K3 Arrives on Amazon Bedrock With 1M-Token Context",
-      "titleZh": "Moonshot AI’s Kimi K3 Arrives on Amazon Bedrock With 1M-Token Context",
-      "summary": "Moonshot AI’s Kimi K3 Arrives on Amazon Bedrock With 1M-Token Context Unite.AI",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSkw5NG1LTVF0ejF2YlMtMllTTW8yQW1TaFVXYS1tMEw4QjJaZ2RDUjlLZlYtMXh1dmJnR0JUS3BQbUl1YTZWemlTQTNTdVFIbzY2LUx1Nnk1YkRUOTRvMThEMEN0bTB5Z0RqVzZYS0pnQWQxcndtbVRLeTM0TW41S2hSLXZiQ1dhM1hoNmdvZjdyWHdH?oc=5",
-      "pubDate": 1789751221000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1767811727",
-      "title": "Introducing Kimi K3 on Amazon Bedrock",
-      "titleZh": "在Amazon Bedrock上推出Kimi K3",
-      "summary": "Introducing Kimi K3 on Amazon Bedrock Amazon Web Services (AWS)",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZEc4TDRPSkJzZUl2bHJoNm5HNkhpcGtBX2U0V1l3dVJDRlh5YkpwRkZaTDkwcDBfZVN3UU1ackFYY0NPMU5sRU5LVVFmRHhySUJwVjZlWXlNTkw4b0swYW1zUVZQSldHV19aTzBfeC1waGFOeGd0MThBOEo5bnVFSDl2VkIxSndKVWZYWA?oc=5",
-      "pubDate": 1789750321000,
-      "vendor": "kimi",
-      "category": "Release",
-      "impact": "high",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 25,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "9772564",
       "title": "New experts join Google’s AI &amp; Economy team",
       "titleZh": "New experts join Google’s AI &amp; Economy team",
@@ -424,10 +382,10 @@
       "source": "Google News"
     },
     {
-      "id": "-2022810365",
+      "id": "-1127170128",
       "title": "Alibaba Qwen Releases Qwen3.8-Omni-Flash: A 1M-Context Omni-Modal Model Built Around Agentic Audio-Video Understanding and Tool Use",
       "titleZh": "阿里巴巴Qwen发布Qwen3.8-Omni-Flash ：围绕代理音视频理解和工具使用构建的1M-Context全模式模型",
-      "summary": "Alibaba Qwen Releases Qwen3.8-Omni-Flash: A 1M-Context Omni-Modal Model Built Around Agentic Audio-Video Understanding and Tool Use MarkTechPost",
+      "summary": "Alibaba Qwen Releases Qwen3.8-Omni-Flash: A 1M-Context Omni-Modal Model Built Around Agentic Audio-Video Understanding and Tool Use marktechpost.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVEJPZUU0QkdfdU9BSEZpTjVEcnlpa1ctUXY1MEJrYVJuRzVObEJlaEJyR1drR2lwdTBoYmdHOHJwRHZPYkdEVjMzNndKbjJXS1dueVFKeDQ1aVBTT1NLQWtVZWhHSDVsa1dyS3lDdnBHald5WWZfR0ZIVzJGR1lIMHhHenR5ZXlx0gGOAUFVX3lxTE1OcWM0a2hiMFhkSHM1UjB1SWlhSHJnOHZkMnBWR2g4bWFIMFZFMjRWay1mekF4SkFPVTB6Tl9TUzRKVjAxZ3FWRF96cWdKUU8yWUtlSlVfSk9PT0V0ZmxrNGtLUFk0blZraUxIdElNbURaanB4bzN6Z3BDdGpVUEt2RjZHYmxLaXRnYnlmRUE?oc=5",
       "pubDate": 1789720837000,
       "vendor": "qwen",
@@ -445,22 +403,22 @@
       "source": "Google News"
     },
     {
-      "id": "-1595595080",
+      "id": "-961384442",
       "title": "US Federal Register Removed Alibaba’s Qwen Search Tool After Backlash | Ukraine news - #Mezha",
       "titleZh": "US Federal Register Removed Alibaba’s Qwen Search Tool After Backlash | Ukraine news - #Mezha",
-      "summary": "US Federal Register Removed Alibaba’s Qwen Search Tool After Backlash | Ukraine news - #Mezha mezha.net",
+      "summary": "US Federal Register Removed Alibaba’s Qwen Search Tool After Backlash | Ukraine news - #Mezha Межа. Новини України.",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zYkFjRmVnRFVHQ0dIT1kyUUg3REFTdlJNTnBjbGlmdU1CdjFGbzZYVjE5MEhWazh5LUYzbEprLXMycWFwMW1rcmpxR0tqUTNqWlk2eEx6bjFNb1RGUTdTRUczUlNRcU0?oc=5",
       "pubDate": 1789680026000,
       "vendor": "qwen",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -501,27 +459,6 @@
         "cq": 18,
         "kv": 0,
         "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1770700903",
-      "title": "A Chinese AI company just connected its model to Wall Street's leading data providers",
-      "titleZh": "一家中国人工智能公司刚刚将其模型连接到华尔街领先的数据提供商",
-      "summary": "A Chinese AI company just connected its model to Wall Street's leading data providers CNBC",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOWlmNmR0T1BVWmdrUS1pdHJ0N3htUjFnM2V0WGs5RV81TExhdXRIM3JJMzNvT1VZUG9HTzZyT3luOGJZSHRsR2xWWkpad2JnWEtTU1U1THNZb3lOYUJtLUFGTjluRGE0Rm9Xdy1oZTN0R21BTUlVSVZrNnhCcEMtUtIBhgFBVV95cUxQNWlURkQ4dDgtaGVkczdMZjRSWnc1eFY1WWxJbGpXdHFHLTRtMi1Ra25USHNiZHVoeDVwTEVwVXBxY3JRWFBGdWFPSHBlank1alpwcmRIdlJIdnVfZWR5YlhNYUxEYmdyeWR4bnhEYWVXS2lMT1B5NU1XcUNsbU1kUHRBcHBqUQ?oc=5",
-      "pubDate": 1789655425000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
         "st": 15,
         "rc": 1,
         "cs": 1
@@ -697,27 +634,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "2104601908",
-      "title": "As appetite for US rivals grows, global funds flock to China’s Moonshot: sources",
-      "titleZh": "As appetite for US rivals grows, global funds flock to China’s Moonshot: sources",
-      "summary": "As appetite for US rivals grows, global funds flock to China’s Moonshot: sources South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSlBmbjBqTWtqb01PXzlzN2JSUHJmVEtFWTdxd3BRb004aWg0VjM0WEpyX3hJUjFEQlJ3Z0pvYjQzMVJMcmdPc2IySVF1Z2Jqb3RUNjFvQkM0MDIycGR1ekc2eDg4X1EwbDg2ZUxKLUROQm5vbVBOaFctejZQZjNmTWEzQjVLaFk2azRoR3ZCakRMNnNTQ1ljUFl4SjhKUWxLMFlKWm5kcTM3M2szV0p5VnkzS0o2d3VfZmNQSmhHd2xLeEEwS2R2Ynlud3lydm_SAc8BQVVfeXFMUGJyUzNyT09xd3hGakR6ZDRmRkNwaC1zRFJPRzNEVHRSbUQxbzFrRnlCamFXZWp1bF92bG5aTDA5d1BYU2c5YUxtYi1sUjhsY01UU00xNGc5dkhpRGhoeldmN0pOb2JrUkxhY1pzSkl4U29xbG9hbUstdU1KLWtEbHRmNFE5RXYzUjNyYzBPRFp5ZUFPbDlLYjlGVktvVDlRcm4yaU5zbTNUMjlDWjJaWFBXRC0xa0lGcThtUFJ0TG1ZXzI2M3RCZDZkT1hMY1Fz?oc=5",
-      "pubDate": 1789555618000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1288009835",
       "title": "How workers are unlocking new ways of working",
       "titleZh": "员工如何开启新的工作方式",
@@ -844,10 +760,10 @@
       "source": "Google AI"
     },
     {
-      "id": "2064173236",
+      "id": "-1999164121",
       "title": "Employee of China's OpenAI and Anthropic rival, DeepSeek, writes a 'sentimental letter' on AI; says: Huma",
       "titleZh": "中国OpenAI和人类竞争对手DeepSeek的员工在人工智能上写了一封“感伤的信” ；说：",
-      "summary": "Employee of China's OpenAI and Anthropic rival, DeepSeek, writes a 'sentimental letter' on AI; says: Huma timesofindia.indiatimes.com",
+      "summary": "Employee of China's OpenAI and Anthropic rival, DeepSeek, writes a 'sentimental letter' on AI; says: Huma The Times of India",
       "link": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxQQkJ5bGxFNk9LenpUdVVUNVVDWFgtZHBWNnZjNFpiN3QwV0JKSVR5a3BQSzBSWU13ZEN0Z1gtSXNYcGdMeXZwcnlJbDhjdkZpWWdGWnVHamp0QkNBcnQtdjEwRmt2eElsVDlEY1JmNTNxc2tmTkh3MG1HZFEtbDY4SUZHTkhXRl8tbjlrZ1dvYnRUUGkydVFYNTc2U2NZY1U1dmJNMkxuNV9tLXVvZGRWVWM0VUZyc0RsMjdnNkYxTVBIVHRRcXFZa1B6cl9mazE3X1JCem83ZkRKWW13Wk1FZVpxamlEbFFKZzJieGpGemdGRUNQMHh4WnhSaEZHMEluTUcyTXJJTHRwRmxzWFZOaVQxWjVQQ2RTWWFIdHl5OW1vTFpFa0pnX3NlWnNRNnVKRU5DY3MtUHA0VUZfQldlclNpcnVjX3p6aFF0Q1VJRDlNUUtybzltLXVYYUcwVHB4X0c5UGdRRlZ0YzVPVUVBdWF0WEF3cmk10gH-AkFVX3lxTFBhZVNCNTJRV3ZoV3UtdkxxZTdONzhQQkk5d25tSjRFN1d1ZkRXYm5hdWVrTnV3MFNSdVNsZEItQVV3MmV2SS0wb2JfdHhzNGNkWEhkTVN4cWFDeVlyU0pSekFhYjNIMHloc1Q5NTZVVG1iVnNyZlBhRHUtSjRfQkRKOV9ZMWJRZUVHMVNrcVRpTkdKSW9wZEwtekpGMzd4bVpBZndiYkxRY1RjQjF3a3ZMcGx2VFg2X21DcVZlZk92V2NRNVB3Qmc4ci10eDEwZHJlbXBPR2N1OTN5RlY3RTVJZm9sSEZzUFJOdWhVYno4N0x5SDRCdXdabVBzem1XTnl0YzJ5bWU0SzhEcFdrcVdhZ0pwelZqSE5tQ2hnZVZCelVWVm5PQnpISTdQWTJjdmdOZ05sV1RVS0xLUlA4UUsyZTFYMy1nSEtsX2gyQ2FJejhuRHVhVTliOEVPdGJocUNnUy1yLUVUV2FIVDA0SnViZ3c1LWRQTmI3LXhmZ1E?oc=5",
       "pubDate": 1789479120000,
       "vendor": "deepseek",
@@ -898,27 +814,6 @@
       "score": 53,
       "scoreBreakdown": {
         "cq": 22,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-654917876",
-      "title": "A DeepSeek engineer's viral post on talent, power, and humanity is a rare snapshot of work at China's frontier AI labs",
-      "titleZh": "DeepSeek工程师关于人才、权力和人性的病毒式帖子是中国前沿人工智能实验室工作的罕见快照",
-      "summary": "A DeepSeek engineer's viral post on talent, power, and humanity is a rare snapshot of work at China's frontier AI labs businessinsider.com",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdV9pQjRNbVhZMDQyOHFMU1FzUVp3ZEI5aGhJQ1YzQWk3ckp5M1hnXzlXQ094MkJkWW4yQlRwZHo1d0xfMlE2ZmZNdkhwT0hfUEIzQjhhVkk5YWdfN3Bhb1p5RmgxTUZvd3JTZGlBWC1CZG9MUDdVWVlHanhCemRiRjVvZWRHMjRuR1BpQXBwN1FUZw?oc=5",
-      "pubDate": 1789457940000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
@@ -991,27 +886,6 @@
       "source": "Google AI"
     },
     {
-      "id": "-15789003",
-      "title": "Why DeepSeek-V4.1-Flash Is Such an Exciting Open Model Release",
-      "titleZh": "为什么DeepSeek-V4.1-Flash是一个如此令人兴奋的开放模型版本",
-      "summary": "Why DeepSeek-V4.1-Flash Is Such an Exciting Open Model Release KDnuggets",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeG5uMERMaFpTT3hzOFJKTmpEajBJYWdocUFwcWVROHVNdnNGSDI2WG5MU0NUVnF1cE1oX3Y4QXRsSkNsTm1oeHpNYjZUM3hHS01iSFhpWVFfejBrUF9xVmZyYzRuYlBnQmRwSVY3emFDRVo3Z2NKQkJjZlZaUjY3eUNGMEtrU1dCWURqcHBORWxzZw?oc=5",
-      "pubDate": 1789388537000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-816830816",
       "title": "How Fyxer built an AI executive assistant people trust",
       "titleZh": "Fyxer如何建立人们信任的人工智能行政助理",
@@ -1054,43 +928,22 @@
       "source": "Google News"
     },
     {
-      "id": "-1290016780",
-      "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
-      "titleZh": "Kimi制造商Moonshot AI的年收入目标为$ 2B",
-      "summary": "Kimi-maker Moonshot AI targets $2B in annual revenue TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZjd5bE8wcUZHZlhfS0lwZmxpX2xTTXBOMkJoVVItRmNjNGRsNjFJQVNXOERhYUljdFBscjBKekNlNXlmNmktZUpNNW1CbXQ5ODlxZWYyZUJScmI3cllZM2o0bUl0YW9FM3Z3TUI0Q1hDbVhMdkxHWi0yNTBFekhRYlc2NjhBeW43cktndU1fQUltQS1nclZVbQ?oc=5",
-      "pubDate": 1789155354000,
-      "vendor": "kimi",
-      "category": "Product",
+      "id": "-314805405",
+      "title": "DeepSeek's New AI Model Spooked Samsung and SK Hynix Investors",
+      "titleZh": "DeepSeek的新AI模型吓坏了三星和SK海力士的投资者",
+      "summary": "DeepSeek's New AI Model Spooked Samsung and SK Hynix Investors Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQV3JiMkdHTHAwU3BMaGxfcHJ6SlZJRjhLQWhjekUzVGlwUzcyWHFGX1FENm9QUDVNekxnUVA3VjJobjY2b2NJeURhcHlLZXZ6SG5QdndOVExzMUJBS05LMnc1ZjYxTWN2SlMyblJaT1ZSQTBObWVhbXh4aGtIbFpQQ1ZXSjNHUl9lZ1NYTkhnbW9LYjA?oc=5",
+      "pubDate": 1789268284000,
+      "vendor": "deepseek",
+      "category": "Research",
       "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-888333004",
-      "title": "China AI Star Moonshot Eyes $2 Billion Annualized Sales in 2026",
-      "titleZh": "2026年中国AI Star Moonshot年销售额达$ 20亿",
-      "summary": "China AI Star Moonshot Eyes $2 Billion Annualized Sales in 2026 Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLUllQm9GSVhqampKNXBQSjcxVENFX2lwN0xwU05wZVlxdzNnNU9iOXBRV0FQNU5HWmxyRjM2Y243TEd4SElLYkpIYjQ4YnUyZnk1cFdiQWF4S3oteGx3OThldTlsSzQ1bXhXbXJxYVFoZ2w2bTBWdDlpWEZkZmFWWTlxWHBsM182OWdkTU5yUTkyYllxbTBDOWIyZDJ0NzdGS1dPdEV4djV2RHp0Q29oaUM4aw?oc=5",
-      "pubDate": 1789118247000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 47,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 18,
-        "kv": 1,
-        "cw": 15,
+        "kv": 2,
+        "cw": 22,
         "st": 12,
-        "rc": 0,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -1178,27 +1031,6 @@
         "cs": 1
       },
       "source": "Google AI"
-    },
-    {
-      "id": "-1461504745",
-      "title": "Exclusive | Moonshot AI considers dual listings in Hong Kong and Shanghai: sources",
-      "titleZh": "独家| Moonshot AI考虑在香港和上海的双重房源：来源",
-      "summary": "Exclusive | Moonshot AI considers dual listings in Hong Kong and Shanghai: sources South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWDQyVVNaRnBHU09CNEpKaGRzQ3VVZFR5dHVBczdoMS1NbXV3aXJDNFhJR0VsRWoyNk5jdUNBME9LTEsyR05wdnJkNVdZT3RoeThobTc0bjBWSTVMd1J1SGN2enpBUERHVFozbUhINkgtUEoxeGtwbGFONHdZb3lyS2VtdkN5b3NhZHpJVi1TUzNMc09KZkhXckpqRXRiVzlVa2JxX1U4NzJYR05nRFhXbFlZOGp3UGtMV0xOVnduRGtIdDdRcFJLekprVVhjS255NXQ2b3RB0gHWAUFVX3lxTE1teGRFYkpfbTlMeHdvOVg1MFJXdmtkZXROclFNc2tVNHI1LWxkYkNycTFWTGFBTFY3bUU4cEFSQVdaUDk0VmNuWmVIWGZKZnFfUWgwYmpPNWpkaW1Mc3RINHJmUlRwS2E5VEdrM1BPZlhTUklvMHBnSTlBVEZuV05PZkFHSG5CeVpzQ1BfSG1LeHRPN21DWDc0eG1ZeHZQNTRMdGVRMEtwbGszamZFTGFoTEhXMUYyNk1XZGpiQkQyYlp4b1VQMVB5bDJYSmJ5bXBpaXdjMHc?oc=5",
-      "pubDate": 1789026614000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1046063774",
@@ -1747,6 +1579,27 @@
       "source": "DeepMind"
     },
     {
+      "id": "-1857955226",
+      "title": "DeepSeek releases experimental multimodal AI model as it preps for IPO",
+      "titleZh": "DeepSeek发布实验性多模态人工智能模型，为IPO做准备",
+      "summary": "DeepSeek releases experimental multimodal AI model as it preps for IPO Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUlQ5RzI2bmtFVFBidE1lUjg5bzRCZnBhWEtfZ1hJNHh6OWpDNGpMLUk5NTRjazh2SmtzYlEtaEZJTzhBTDFXMjJxelZOZExqZmExb3RBaHdza25vRmR0VDEyVm9Nakw3Rml2NVZBWHBXZWFYRExUWjFLRksxbFlZWW1iaHlQLTRnUkl4WFJWR0VTWURiM1RHU1VoQnZibVBWX2wwdHdqM1hVcW9o?oc=5",
+      "pubDate": 1787295600000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "74193009",
       "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
       "titleZh": "VentureBeat任命Rob Strechay为其首位首席分析师，扩大其企业人工智能研究推动力",
@@ -1831,27 +1684,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-241689768",
-      "title": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
-      "titleZh": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
-      "summary": "One of China’s Most Powerful AI Models Has Also Escaped Containment WIRED",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzUHl5MU1HbXJUemVtQWI4MzVQYmtWaUhHU19SMUp3bnFEY1NGaTN0LVpibXhwUTFNamtZMFBuLTNmOFhsN2VMRXRGWU9yMFBLbVlFNkhKVTVNc3JtdXRnY093aDdWaUJhcVhaX2NTQkgxNFhPdWw1SQ?oc=5",
-      "pubDate": 1785999600000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1860432156",
       "title": "NVIDIA and Partners Build in America, for America",
       "titleZh": "NVIDIA及其合作伙伴在美国为美国打造",
@@ -1928,48 +1760,6 @@
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1090493009",
-      "title": "With Moonshot’s free Kimi K3, China changes the sovereign AI playbook",
-      "titleZh": "With Moonshot’s free Kimi K3, China changes the sovereign AI playbook",
-      "summary": "With Moonshot’s free Kimi K3, China changes the sovereign AI playbook Rest of World",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9zVFBQM0JyaEJhS2FiNnNGUERzNnYxV0E2TnBPSmJQdXhTZDVMZDR6bVNXNkFmWEY5Vmp3cERnTzZzam1xb2hoU2Jjb2xka0pYd2s1cEtvLXZyUVFYVkFvc3RhakF5NjVWUXFXUTA3STctV1FGVkx1ajFB?oc=5",
-      "pubDate": 1785394800000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-2093340205",
-      "title": "Chinese AI Startup Moonshot Seeks More Nvidia Blackwell Chips for Next Model",
-      "titleZh": "中国人工智能初创公司Moonshot为下一代车型寻求更多Nvidia Blackwell芯片",
-      "summary": "Chinese AI Startup Moonshot Seeks More Nvidia Blackwell Chips for Next Model The Information",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOY2w3NlpMZ1haVUgzU1dPdVU4cVVTVTF1Ylk3ZkpjUU0tWFNacWxYMDdfbjNTcXlPSl8xVm1JYWFOdXBENTJJbkk5ZExlNUlYQnlRby1pSmhLRUYwa0JTQ1VDUDJBUVB6YWY4RTRPWXFJbldwQll3bnR3TzlHc2dJMnlGS2FkSUVKcWVCTW1pMkw3ZG1oZzhjMEJWalFJVF9TelFTZTVFWmwzSDQ?oc=5",
-      "pubDate": 1785222000000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
         "cw": 22,
         "st": 12,
         "rc": 0,
