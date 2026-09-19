@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-19T07:28:01.233Z",
-  "count": 117,
-  "sources": 12,
+  "updated": "2026-09-19T12:01:13.485Z",
+  "count": 107,
+  "sources": 11,
   "items": [
     {
       "id": "-802852807",
@@ -13,13 +13,13 @@
       "vendor": "qwen",
       "category": "Research",
       "impact": "high",
-      "score": 57,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -340,6 +340,27 @@
       "source": "Google AI"
     },
     {
+      "id": "-915723542",
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "titleZh": "澳大利亚青少年安全蓝图简介",
+      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "link": "https://openai.com/index/australian-youth-safety-blueprint",
+      "pubDate": 1789732800000,
+      "vendor": "openai",
+      "category": "Release",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 25,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
       "id": "-868745989",
       "title": "US Federal Register website removes Qwen search — Jerusalem Post",
       "titleZh": "US Federal Register website removes Qwen search — Jerusalem Post",
@@ -349,13 +370,13 @@
       "vendor": "qwen",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -370,226 +391,16 @@
       "vendor": "qwen",
       "category": "Agent",
       "impact": "high",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 12,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-154843242",
-      "title": "Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes",
-      "titleZh": "正则化强调时差学习：恒步长下的稳定性",
-      "summary": "arXiv:2609.19170v1 Announce Type: new Abstract: Emphatic temporal-difference learning (ETD) stabilizes the expected off-policy TD update and changes its projection geometry, but neither property deter…",
-      "link": "https://arxiv.org/abs/2609.19170",
-      "pubDate": 1789704000000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "high",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 25,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-464331867",
-      "title": "BioPhys-Bridge: A Benchmark for Interdisciplinary Scientific Reasoning in Physics-Grounded Biological Research",
-      "titleZh": "BioPhys-Bridge ：基于物理学的生物学研究中跨学科科学推理的基准",
-      "summary": "arXiv:2609.19180v1 Announce Type: new Abstract: Language models face unique challenges in analyzing interdisciplinary scientific research literature. In biophysics research, faithful answers require g…",
-      "link": "https://arxiv.org/abs/2609.19180",
-      "pubDate": 1789704000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 69,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 13,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1687352333",
-      "title": "What Do We Expect from LLMs? Mapping the Design of LLM Benchmarks",
-      "titleZh": "我们对LLM有何期望？映射LLM基准设计",
-      "summary": "arXiv:2609.19182v1 Announce Type: new Abstract: Benchmarks are central to how progress in large language models (LLMs) is assessed and communicated. Yet model rankings alone reveal little about how ev…",
-      "link": "https://arxiv.org/abs/2609.19182",
-      "pubDate": 1789704000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 7,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1138206460",
-      "title": "Position: It is Time to Virtualize Foundation Models with a Self-evolving Operating System Layer",
-      "titleZh": "位置：现在是使用自我演进的操作系统层虚拟化基础模型的时候了",
-      "summary": "arXiv:2609.19203v1 Announce Type: new Abstract: AI applications have shifted from single, monolithic foundation models (FM) to compound agentic systems. Yet today's stacks remain fragmented: even as p…",
-      "link": "https://arxiv.org/abs/2609.19203",
-      "pubDate": 1789704000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-91842714",
-      "title": "What Do Current Systematic Generalization Tasks Miss? A Reasoning-Centered Analysis",
-      "titleZh": "当前的系统泛化任务漏掉了什么？以推理为中心的分析",
-      "summary": "arXiv:2609.19212v1 Announce Type: new Abstract: Systematic generalization, the ability to solve novel problems by recombining known atomic elements, is central to human intelligence but difficult to s…",
-      "link": "https://arxiv.org/abs/2609.19212",
-      "pubDate": 1789704000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-33002645",
-      "title": "Characterizing Web Search by Conversational LLM Agents: From Search Decisions and Strategies to Results and Responses",
-      "titleZh": "通过会话法学硕士代理表征网络搜索：从搜索决策和策略到结果和响应",
-      "summary": "arXiv:2609.19244v1 Announce Type: new Abstract: Conversational LLM agents increasingly rely on Web search, yet the end-to-end lifecycle of agentic search remains poorly understood. We present the firs…",
-      "link": "https://arxiv.org/abs/2609.19244",
-      "pubDate": 1789704000000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 7,
-        "cw": 15,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "21326004",
-      "title": "Do AI Agents Understand Computer Architecture?",
-      "titleZh": "人工智能代理了解计算机架构吗？",
-      "summary": "arXiv:2609.19387v1 Announce Type: new Abstract: Agents are increasingly asked to design hardware, and increasingly reported to succeed. Such reports establish that a design improved; they cannot estab…",
-      "link": "https://arxiv.org/abs/2609.19387",
-      "pubDate": 1789704000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-2106018304",
-      "title": "MAGS: Multi-agent Auto-formalization Guarantees Safety for Agentic Outputs",
-      "titleZh": "标签：多Agent自动正规化保证Agent输出的安全",
-      "summary": "arXiv:2609.19391v1 Announce Type: new Abstract: LLM coding agents now generate complex programs at a scale that makes thorough human review increasingly difficult, raising the risk of safety and secur…",
-      "link": "https://arxiv.org/abs/2609.19391",
-      "pubDate": 1789704000000,
-      "vendor": "arxiv",
-      "category": "Safety",
-      "impact": "high",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 10,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "990944896",
-      "title": "Closed-World Resolution Against Tool Hallucination in LLM Agents",
-      "titleZh": "LLM代理中针对工具幻觉的封闭世界解决方案",
-      "summary": "arXiv:2609.19425v1 Announce Type: new Abstract: Tool-augmented large language model (LLM) agents fail in a way no tool-selection or tool-security method addresses: they call tools that do not exist an…",
-      "link": "https://arxiv.org/abs/2609.19425",
-      "pubDate": 1789704000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 8,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "2058794721",
-      "title": "The syntax and semantics of goals",
-      "titleZh": "目标的语法和语义",
-      "summary": "arXiv:2609.19448v1 Announce Type: new Abstract: In both cognitive science and computer science, goals are conceptualized as cognitive states that flexibly combine with world knowledge to organize and …",
-      "link": "https://arxiv.org/abs/2609.19448",
-      "pubDate": 1789704000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
     },
     {
       "id": "-1882204603",
@@ -1262,27 +1073,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-1762662692",
-      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "titleZh": "Perplexity信任GPT-6 Astra的端到端系统",
-      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
-      "link": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "pubDate": 1789344000000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
     },
     {
       "id": "-120433209",
