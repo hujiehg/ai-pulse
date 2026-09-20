@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T09:56:05.974Z",
+  "updated": "2026-09-20T13:50:53.185Z",
   "count": 107,
   "sources": 11,
   "items": [
@@ -13,13 +13,13 @@
       "vendor": "qwen",
       "category": "Product",
       "impact": "high",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google News"
@@ -34,13 +34,13 @@
       "vendor": "qwen",
       "category": "Release",
       "impact": "high",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -202,13 +202,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 1,
         "cw": 22,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -370,13 +370,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google AI"
@@ -391,13 +391,13 @@
       "vendor": "openai",
       "category": "Release",
       "impact": "med",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 25,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -522,6 +522,27 @@
         "cq": 20,
         "kv": 2,
         "cw": 25,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1657825805",
+      "title": "QUICK SPARK: New China AI ETF AICH Targets Chips, Robotics And DeepSeek Era",
+      "titleZh": "快速火花：新中国AI ETF瞄准芯片、机器人和DeepSeek时代",
+      "summary": "QUICK SPARK: New China AI ETF AICH Targets Chips, Robotics And DeepSeek Era Benzinga",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVVNPNXkzYVZUTGUwdDNyQzZCVTUycHp5U0NqWi1ZN1E1Wm9wTVJXNzh2bzI2Z01QR1pFbWVNY19UY0lSYlgwVU5KaWxTT0poUkhzQnh2NGZacnFIOC01Wm43SWZISVFqYWNCblEwUEVQN05uaGN1RU5ya21iVlYxRmtCVFZkcHQ0VkFGS2VEV0U2TWRwcTNBeERCVnVPRDFQR3ktNDhXeUlqUWlORVQxTW1wUDhaSEU5d1A3M3J4WDNkclNuSFE?oc=5",
+      "pubDate": 1789664220000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -655,6 +676,27 @@
       "source": "Google News"
     },
     {
+      "id": "1529524529",
+      "title": "DeepSeek engineer says Anthropic AGI would be \"like Hitler getting nukes\"",
+      "titleZh": "DeepSeek工程师表示，人类AGI将“就像希特勒获得核武器”",
+      "summary": "DeepSeek engineer says Anthropic AGI would be \"like Hitler getting nukes\" Cybernews",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdUlzT3hXYmRVV3lISGoxb0hXbm9mN3ppM0lNMHpZYTQ1NllqdGZUOEFsWlhPM3FTMW12elBWaVlpZ2JfOERreFgxTmc0TndBaDBNVnBwWnNfR0FSZHV4Y05QalFHaHlibkF0Q3c5aWozdUJvSW9rRGdRTHJUUUsxTGdGY3BxaHc0dzByeTgzM0JZSEIwZUZIWjNrMUk3U050ODd5Yw?oc=5",
+      "pubDate": 1789569827000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1766097881",
       "title": "Reimagining advertising with AI",
       "titleZh": "用人工智能重新构想广告",
@@ -737,6 +779,27 @@
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "-1477099237",
+      "title": "Why a DeepSeek Engineer Is Helping AI Replace Him",
+      "titleZh": "DeepSeek工程师为什么要帮助人工智能取代他",
+      "summary": "Why a DeepSeek Engineer Is Helping AI Replace Him Geopolitechs",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BVmctb2EtSThFNU9HYURHNVRfTXJGT0NQQm04QlFxcUszVTJlMlJmWHd2N2MtTDlfMXozOEJ0RHRqVnNodG5pa0NQVU51T2U4SFN1M1F4bWJnRkNlQ2NVNGQ0MUZQWjZKb0wtejZxRFdHT0E?oc=5",
+      "pubDate": 1789507581000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-421920195",
@@ -970,10 +1033,10 @@
       "source": "Google AI"
     },
     {
-      "id": "-1330620472",
+      "id": "-15789003",
       "title": "Why DeepSeek-V4.1-Flash Is Such an Exciting Open Model Release",
       "titleZh": "为什么DeepSeek-V4.1-Flash是一个如此令人兴奋的开放模型版本",
-      "summary": "Why DeepSeek-V4.1-Flash Is Such an Exciting Open Model Release kdnuggets.com",
+      "summary": "Why DeepSeek-V4.1-Flash Is Such an Exciting Open Model Release KDnuggets",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeG5uMERMaFpTT3hzOFJKTmpEajBJYWdocUFwcWVROHVNdnNGSDI2WG5MU0NUVnF1cE1oX3Y4QXRsSkNsTm1oeHpNYjZUM3hHS01iSFhpWVFfejBrUF9xVmZyYzRuYlBnQmRwSVY3emFDRVo3Z2NKQkJjZlZaUjY3eUNGMEtrU1dCWURqcHBORWxzZw?oc=5",
       "pubDate": 1789388537000,
       "vendor": "deepseek",
@@ -1068,27 +1131,6 @@
         "cq": 18,
         "kv": 1,
         "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1960424605",
-      "title": "DeepSeek's new model sets a template for powerful LLMs that run lean",
-      "titleZh": "DeepSeek的新模型为精益运营的强大LLM设置了模板",
-      "summary": "DeepSeek's new model sets a template for powerful LLMs that run lean The Register",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1d2cXhBcGxPRlB0M2VkU1dFWDNVVFV6QUtsNWVmc3VHOTNMOGQxX3dDd3VPVGJRWFl1X2dtaHJ5WEs5M1Z5bUdqYTdYYmgwcDBnVE5RM3Vsb3dlYjNJNHNxOGd3bnJLYnRocVFDanZNMjlDZEtSMGNlUC1WQUl4TWJKaExMRWV3dHFUTmJFWTB5ME5TM18yUXJBUVdieGRuYThGZUNBRXFaSXY4ejhNTS05aGt0aVZpZUJxX2kwN0Y2dw?oc=5",
-      "pubDate": 1789110000000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
         "st": 12,
         "rc": 0,
         "cs": 1
@@ -1705,27 +1747,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "-1857955226",
-      "title": "DeepSeek releases experimental multimodal AI model as it preps for IPO",
-      "titleZh": "DeepSeek发布实验性多模态人工智能模型，为IPO做准备",
-      "summary": "DeepSeek releases experimental multimodal AI model as it preps for IPO Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUlQ5RzI2bmtFVFBidE1lUjg5bzRCZnBhWEtfZ1hJNHh6OWpDNGpMLUk5NTRjazh2SmtzYlEtaEZJTzhBTDFXMjJxelZOZExqZmExb3RBaHdza25vRmR0VDEyVm9Nakw3Rml2NVZBWHBXZWFYRExUWjFLRksxbFlZWW1iaHlQLTRnUkl4WFJWR0VTWURiM1RHU1VoQnZibVBWX2wwdHdqM1hVcW9o?oc=5",
-      "pubDate": 1787295600000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "74193009",
       "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
       "titleZh": "VentureBeat任命Rob Strechay为其首位首席分析师，扩大其企业人工智能研究推动力",
@@ -1745,27 +1766,6 @@
         "cs": 1
       },
       "source": "VentureBeat"
-    },
-    {
-      "id": "-2016155837",
-      "title": "DeepSeek's AI Models Are About To Cost Four Times More",
-      "titleZh": "DeepSeek的人工智能模型成本将增加四倍",
-      "summary": "DeepSeek's AI Models Are About To Cost Four Times More Engadget",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT2FId1BnQ0MyY3Rzem9GYVo0blhJUnVqMEpYektCc1F5cy0xS09SODdqOEZrNXZGZE1NVlR6TGFacEw1Uzh6SEtfQzBEU2pfSDRpTW9YRVBoSlJyNElwcmJBOFZmVzIyVHZZS0hhcmJ6cWkzeWlMc2pOQmMwX055Yg?oc=5",
-      "pubDate": 1786690800000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1841590772",
