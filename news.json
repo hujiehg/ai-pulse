@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-19T22:36:41.703Z",
-  "count": 97,
-  "sources": 10,
+  "updated": "2026-09-20T00:31:26.684Z",
+  "count": 107,
+  "sources": 11,
   "items": [
     {
       "id": "-1571079680",
@@ -13,13 +13,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -181,13 +181,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 41,
+      "score": 40,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -202,13 +202,13 @@
       "vendor": "techcrunch",
       "category": "Funding",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 1,
         "cw": 20,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -223,13 +223,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 22,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -244,13 +244,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 22,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -271,6 +271,48 @@
         "kv": 0,
         "cw": 22,
         "st": 15,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "348762690",
+      "title": "Moonshot AI’s Kimi K3 Arrives on Amazon Bedrock With 1M-Token Context",
+      "titleZh": "Moonshot AI’s Kimi K3 Arrives on Amazon Bedrock With 1M-Token Context",
+      "summary": "Moonshot AI’s Kimi K3 Arrives on Amazon Bedrock With 1M-Token Context unite.ai",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSkw5NG1LTVF0ejF2YlMtMllTTW8yQW1TaFVXYS1tMEw4QjJaZ2RDUjlLZlYtMXh1dmJnR0JUS3BQbUl1YTZWemlTQTNTdVFIbzY2LUx1Nnk1YkRUOTRvMThEMEN0bTB5Z0RqVzZYS0pnQWQxcndtbVRLeTM0TW41S2hSLXZiQ1dhM1hoNmdvZjdyWHdH?oc=5",
+      "pubDate": 1789751221000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1400242576",
+      "title": "Introducing Kimi K3 on Amazon Bedrock | Artificial Intelligence",
+      "titleZh": "在Amazon Bedrock上推出Kimi K3 |人工智能",
+      "summary": "Introducing Kimi K3 on Amazon Bedrock | Artificial Intelligence Amazon Web Services (AWS)",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZEc4TDRPSkJzZUl2bHJoNm5HNkhpcGtBX2U0V1l3dVJDRlh5YkpwRkZaTDkwcDBfZVN3UU1ackFYY0NPMU5sRU5LVVFmRHhySUJwVjZlWXlNTkw4b0swYW1zUVZQSldHV19aTzBfeC1waGFOeGd0MThBOEo5bnVFSDl2VkIxSndKVWZYWA?oc=5",
+      "pubDate": 1789750321000,
+      "vendor": "kimi",
+      "category": "Release",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 25,
+        "st": 12,
         "rc": 2,
         "cs": 1
       },
@@ -459,6 +501,27 @@
         "cq": 18,
         "kv": 0,
         "cw": 15,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1770700903",
+      "title": "A Chinese AI company just connected its model to Wall Street's leading data providers",
+      "titleZh": "一家中国人工智能公司刚刚将其模型连接到华尔街领先的数据提供商",
+      "summary": "A Chinese AI company just connected its model to Wall Street's leading data providers CNBC",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOWlmNmR0T1BVWmdrUS1pdHJ0N3htUjFnM2V0WGs5RV81TExhdXRIM3JJMzNvT1VZUG9HTzZyT3luOGJZSHRsR2xWWkpad2JnWEtTU1U1THNZb3lOYUJtLUFGTjluRGE0Rm9Xdy1oZTN0R21BTUlVSVZrNnhCcEMtUtIBhgFBVV95cUxQNWlURkQ4dDgtaGVkczdMZjRSWnc1eFY1WWxJbGpXdHFHLTRtMi1Ra25USHNiZHVoeDVwTEVwVXBxY3JRWFBGdWFPSHBlank1alpwcmRIdlJIdnVfZWR5YlhNYUxEYmdyeWR4bnhEYWVXS2lMT1B5NU1XcUNsbU1kUHRBcHBqUQ?oc=5",
+      "pubDate": 1789655425000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
         "st": 15,
         "rc": 1,
         "cs": 1
@@ -949,6 +1012,27 @@
       "source": "Google News"
     },
     {
+      "id": "-1290016780",
+      "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
+      "titleZh": "Kimi制造商Moonshot AI的年收入目标为$ 2B",
+      "summary": "Kimi-maker Moonshot AI targets $2B in annual revenue TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZjd5bE8wcUZHZlhfS0lwZmxpX2xTTXBOMkJoVVItRmNjNGRsNjFJQVNXOERhYUljdFBscjBKekNlNXlmNmktZUpNNW1CbXQ5ODlxZWYyZUJScmI3cllZM2o0bUl0YW9FM3Z3TUI0Q1hDbVhMdkxHWi0yNTBFekhRYlc2NjhBeW43cktndU1fQUltQS1nclZVbQ?oc=5",
+      "pubDate": 1789155354000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1960424605",
       "title": "DeepSeek's new model sets a template for powerful LLMs that run lean",
       "titleZh": "DeepSeek的新模型为精益运营的强大LLM设置了模板",
@@ -963,6 +1047,27 @@
         "cq": 18,
         "kv": 2,
         "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1506243361",
+      "title": "China AI Star Moonshot Eyes $2 Billion Annualized Sales in 2026",
+      "titleZh": "2026年中国AI Star Moonshot年销售额达$ 20亿",
+      "summary": "China AI Star Moonshot Eyes $2 Billion Annualized Sales in 2026 Bloomberg",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLUllQm9GSVhqampKNXBQSjcxVENFX2lwN0xwU05wZVlxdzNnNU9iOXBRV0FQNU5HWmxyRjM2Y243TEd4SElLYkpIYjQ4YnUyZnk1cFdiQWF4S3oteGx3OThldTlsSzQ1bXhXbXJxYVFoZ2w2bTBWdDlpWEZkZmFWWTlxWHBsM182OWdkTU5yUTkyYllxbTBDOWIyZDJ0NzdGS1dPdEV4djV2RHp0Q29oaUM4aw?oc=5",
+      "pubDate": 1789110000000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 15,
         "st": 12,
         "rc": 0,
         "cs": 1
@@ -1136,6 +1241,27 @@
         "cs": 1
       },
       "source": "DeepMind"
+    },
+    {
+      "id": "234757932",
+      "title": "Chinese AI firm Moonshot files confidentially for Hong Kong IPO, sources say",
+      "titleZh": "消息人士称，中国人工智能公司Moonshot为香港IPO秘密提交文件",
+      "summary": "Chinese AI firm Moonshot files confidentially for Hong Kong IPO, sources say Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT3M0Q2ZhaUlPQkc5bzU5MUEyMlpEaFFMVU5uakRWOEJkek85Z2ZsVWxjc0JnR3NrTFdXOGRIdDRQWmhobmhCZU9iVE9sakxTTVE0ejBhRnAyX1BaM0huMlVvZEJHREh6YzRQMzRLaXZRU2xtRld0THVvODFwTmJwa3BhOU9TQ1ZoQ2UxMldKVzlwcThoWTlEcVctbjhuZ2FqQVc4UTZwejhYeGtvWXJCdTBMaHVnSTVFbDVZSG1nVXYwOEtp?oc=5",
+      "pubDate": 1788505200000,
+      "vendor": "kimi",
+      "category": "Funding",
+      "impact": "high",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 20,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1179848853",
@@ -1684,6 +1810,27 @@
       "source": "NVIDIA"
     },
     {
+      "id": "-241689768",
+      "title": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
+      "titleZh": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
+      "summary": "One of China’s Most Powerful AI Models Has Also Escaped Containment WIRED",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzUHl5MU1HbXJUemVtQWI4MzVQYmtWaUhHU19SMUp3bnFEY1NGaTN0LVpibXhwUTFNamtZMFBuLTNmOFhsN2VMRXRGWU9yMFBLbVlFNkhKVTVNc3JtdXRnY093aDdWaUJhcVhaX2NTQkgxNFhPdWw1SQ?oc=5",
+      "pubDate": 1785999600000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1860432156",
       "title": "NVIDIA and Partners Build in America, for America",
       "titleZh": "NVIDIA及其合作伙伴在美国为美国打造",
@@ -1761,6 +1908,69 @@
         "cq": 18,
         "kv": 2,
         "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1090493009",
+      "title": "With Moonshot’s free Kimi K3, China changes the sovereign AI playbook",
+      "titleZh": "With Moonshot’s free Kimi K3, China changes the sovereign AI playbook",
+      "summary": "With Moonshot’s free Kimi K3, China changes the sovereign AI playbook Rest of World",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9zVFBQM0JyaEJhS2FiNnNGUERzNnYxV0E2TnBPSmJQdXhTZDVMZDR6bVNXNkFmWEY5Vmp3cERnTzZzam1xb2hoU2Jjb2xka0pYd2s1cEtvLXZyUVFYVkFvc3RhakF5NjVWUXFXUTA3STctV1FGVkx1ajFB?oc=5",
+      "pubDate": 1785394800000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-2093340205",
+      "title": "Chinese AI Startup Moonshot Seeks More Nvidia Blackwell Chips for Next Model",
+      "titleZh": "中国人工智能初创公司Moonshot为下一代车型寻求更多Nvidia Blackwell芯片",
+      "summary": "Chinese AI Startup Moonshot Seeks More Nvidia Blackwell Chips for Next Model The Information",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOY2w3NlpMZ1haVUgzU1dPdVU4cVVTVTF1Ylk3ZkpjUU0tWFNacWxYMDdfbjNTcXlPSl8xVm1JYWFOdXBENTJJbkk5ZExlNUlYQnlRby1pSmhLRUYwa0JTQ1VDUDJBUVB6YWY4RTRPWXFJbldwQll3bnR3TzlHc2dJMnlGS2FkSUVKcWVCTW1pMkw3ZG1oZzhjMEJWalFJVF9TelFTZTVFWmwzSDQ?oc=5",
+      "pubDate": 1785222000000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1072460148",
+      "title": "Moonshot AI releases Kimi K3 open-weight model for download",
+      "titleZh": "Moonshot AI发布Kimi K3开放重量模型供下载",
+      "summary": "Moonshot AI releases Kimi K3 open-weight model for download qz.com",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ETDJ5eEg2UldDalNsczBYV190QWs3MDRSdFc4Zm0wRWpJbkZlaXRQWmRrejRYU2NVNkwxOXNYRlllemJXUm9qUmRscVZyQUltQ0R2aTFzUDlvOFlVV19ibWhmN0FScTRRMUFCS0MxX18?oc=5",
+      "pubDate": 1785135600000,
+      "vendor": "kimi",
+      "category": "Release",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 25,
         "st": 12,
         "rc": 0,
         "cs": 1
