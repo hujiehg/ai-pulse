@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T22:04:34.262Z",
+  "updated": "2026-09-21T00:22:27.518Z",
   "count": 107,
   "sources": 11,
   "items": [
@@ -55,13 +55,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -76,13 +76,13 @@
       "vendor": "qwen",
       "category": "Research",
       "impact": "high",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 3,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -109,10 +109,10 @@
       "source": "TechCrunch"
     },
     {
-      "id": "1360401933",
+      "id": "-2073852904",
       "title": "Alibaba's Qwen3.8-Omni-Flash Slashes Audio Pricing 98% and Drops Open Weights",
       "titleZh": "阿里巴巴的Qwen3.8-Omni-Flash将音频定价下调98 ％并放弃开放权重",
-      "summary": "Alibaba's Qwen3.8-Omni-Flash Slashes Audio Pricing 98% and Drops Open Weights Startup Fortune",
+      "summary": "Alibaba's Qwen3.8-Omni-Flash Slashes Audio Pricing 98% and Drops Open Weights startupfortune.com",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRmJfTDNkaFR6VTZRZ21FQV9yaXZXc3VZMWNlckZaSWg3aGpwX3gxelRBOTNmeGxxTzJRNS1qTFBxWHZXRzlka1hJY3dpcDRxQndBUTU2X1BwSE5XYUg1UjBjSW1lTHZYRW1QX2xUUHdvdTVzSHFZSnQxZGtVX0ZKekppWWFnUno4SGxXeF92WmFIRG1acl80OHFNeUNfS1BtMjAtNA?oc=5",
       "pubDate": 1789891841000,
       "vendor": "qwen",
@@ -277,10 +277,31 @@
       "source": "TechCrunch"
     },
     {
-      "id": "-1400242576",
+      "id": "917748322",
+      "title": "Moonshot AI’s Kimi K3 Arrives on Amazon Bedrock With 1M-Token Context",
+      "titleZh": "Moonshot AI’s Kimi K3 Arrives on Amazon Bedrock With 1M-Token Context",
+      "summary": "Moonshot AI’s Kimi K3 Arrives on Amazon Bedrock With 1M-Token Context Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSkw5NG1LTVF0ejF2YlMtMllTTW8yQW1TaFVXYS1tMEw4QjJaZ2RDUjlLZlYtMXh1dmJnR0JUS3BQbUl1YTZWemlTQTNTdVFIbzY2LUx1Nnk1YkRUOTRvMThEMEN0bTB5Z0RqVzZYS0pnQWQxcndtbVRLeTM0TW41S2hSLXZiQ1dhM1hoNmdvZjdyWHdH?oc=5",
+      "pubDate": 1789751221000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-932153448",
       "title": "Introducing Kimi K3 on Amazon Bedrock | Artificial Intelligence",
       "titleZh": "在Amazon Bedrock上推出Kimi K3 |人工智能",
-      "summary": "Introducing Kimi K3 on Amazon Bedrock | Artificial Intelligence Amazon Web Services (AWS)",
+      "summary": "Introducing Kimi K3 on Amazon Bedrock | Artificial Intelligence aws.amazon.com",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZEc4TDRPSkJzZUl2bHJoNm5HNkhpcGtBX2U0V1l3dVJDRlh5YkpwRkZaTDkwcDBfZVN3UU1ackFYY0NPMU5sRU5LVVFmRHhySUJwVjZlWXlNTkw4b0swYW1zUVZQSldHV19aTzBfeC1waGFOeGd0MThBOEo5bnVFSDl2VkIxSndKVWZYWA?oc=5",
       "pubDate": 1789750321000,
       "vendor": "kimi",
@@ -1789,27 +1810,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-956846302",
-      "title": "Alibaba Adds to China AI Breakthroughs With New Qwen Model",
-      "titleZh": "阿里巴巴推出Qwen新车型助力中国人工智能突破",
-      "summary": "Alibaba Adds to China AI Breakthroughs With New Qwen Model Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWjlHM1ZsVFZ2VWZiRG4xcTd3aWdrU2U2SEwySXh3RWxPYWhBSlM0MTU2M2M3dlVDTnN5TDVUUkJvUGw5WXczVlB0ZzBPMk5NTjhOWkwwcGRHYWk4MGVUdjhRNUc5NXFkN1BFSHdrVnJtM0ZXSDNwM3phcnA5WE1LWjMwbUVhRHV2YUl2SmFBUVZUbXNTQ0EtZVBXRHhoSjlobzJuOWk4SnJvalVfZTdaWkVtRHdjN21v?oc=5",
-      "pubDate": 1785740400000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-529548436",
       "title": "Alibaba's new Qwen AI model falls short of 'second only to Fable 5' claim",
       "titleZh": "阿里巴巴新款Qwen AI机型未达到“仅次于寓言5”的说法",
@@ -1823,6 +1823,27 @@
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-956846302",
+      "title": "Alibaba Adds to China AI Breakthroughs With New Qwen Model",
+      "titleZh": "阿里巴巴推出Qwen新车型助力中国人工智能突破",
+      "summary": "Alibaba Adds to China AI Breakthroughs With New Qwen Model Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWjlHM1ZsVFZ2VWZiRG4xcTd3aWdrU2U2SEwySXh3RWxPYWhBSlM0MTU2M2M3dlVDTnN5TDVUUkJvUGw5WXczVlB0ZzBPMk5NTjhOWkwwcGRHYWk4MGVUdjhRNUc5NXFkN1BFSHdrVnJtM0ZXSDNwM3phcnA5WE1LWjMwbUVhRHV2YUl2SmFBUVZUbXNTQ0EtZVBXRHhoSjlobzJuOWk4SnJvalVfZTdaWkVtRHdjN21v?oc=5",
+      "pubDate": 1785740400000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
         "cw": 22,
         "st": 12,
         "rc": 0,
@@ -1929,27 +1950,6 @@
         "cq": 20,
         "kv": 2,
         "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-2093340205",
-      "title": "Chinese AI Startup Moonshot Seeks More Nvidia Blackwell Chips for Next Model",
-      "titleZh": "中国人工智能初创公司Moonshot为下一代车型寻求更多Nvidia Blackwell芯片",
-      "summary": "Chinese AI Startup Moonshot Seeks More Nvidia Blackwell Chips for Next Model The Information",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOY2w3NlpMZ1haVUgzU1dPdVU4cVVTVTF1Ylk3ZkpjUU0tWFNacWxYMDdfbjNTcXlPSl8xVm1JYWFOdXBENTJJbkk5ZExlNUlYQnlRby1pSmhLRUYwa0JTQ1VDUDJBUVB6YWY4RTRPWXFJbldwQll3bnR3TzlHc2dJMnlGS2FkSUVKcWVCTW1pMkw3ZG1oZzhjMEJWalFJVF9TelFTZTVFWmwzSDQ?oc=5",
-      "pubDate": 1785222000000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 22,
         "st": 12,
         "rc": 0,
         "cs": 1
