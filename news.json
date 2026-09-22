@@ -1,25 +1,151 @@
 {
-  "updated": "2026-09-22T12:58:34.568Z",
-  "count": 117,
-  "sources": 12,
+  "updated": "2026-09-22T17:29:44.044Z",
+  "count": 107,
+  "sources": 11,
   "items": [
     {
-      "id": "1579211846",
-      "title": "DeepSeek Shifts to Huawei Chips for AI Model Training",
-      "titleZh": "DeepSeek转向华为芯片进行AI模型培训",
-      "summary": "DeepSeek Shifts to Huawei Chips for AI Model Training 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUVlMa0FPT25BUEI4NVh3Ql92dzBPN1c0WnVRU2xzRnVRZ0hiM1hvYjhnVjJNalFiZ010RUowTjg1M0Z1OXpscDdBeFlFRnF3eDRDZDFHQTVhUzQwVEx3Z3FDdm42ZzVZbW1vd2NnbnZMVGxrdGtTNnd0cVZkZUsxQmRZV1piaF83?oc=5",
-      "pubDate": 1790062641000,
-      "vendor": "deepseek",
+      "id": "133633671",
+      "title": "Alibaba's AI Push Is Moving Up the Stack",
+      "titleZh": "阿里巴巴的AI推动力正在向上移动",
+      "summary": "Alibaba's AI Push Is Moving Up the Stack TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNHNGRm56LU5GenIycTlkQWdQd2IxZlc1TUloZjM4MlRfN2Y1MVhqbERETEhta0tlUWRFZUpla0Z0Y0liWXM2VEZFNUNzRjlKcmxaTGRra21aa0xCemdwRHlrTlBOWHU2RnRzejI4Q1pkMTJXYU44M0Y2ZVZZbFJLZXAwOHNvaFZGS1FKV09Jb1JkNmlRT25kcGdweTFKT1RvTnc?oc=5",
+      "pubDate": 1790083135000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1683028704",
+      "title": "Everyone can find a reason to dislike data center construction",
+      "titleZh": "每个人都可以找到不喜欢数据中心建设的理由",
+      "summary": "Inside two years of fraught AI data center debates in Pennsylvania.",
+      "link": "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
+      "pubDate": 1790082000000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1947631551",
+      "title": "Nscale’s IPO will test Wall Street’s appetite for concentrated AI bets once again",
+      "titleZh": "Nscale’s IPO will test Wall Street’s appetite for concentrated AI bets once again",
+      "summary": "The British AI data center developer depends on tech giants Microsoft and Anthropic for most of its revenue.",
+      "link": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
+      "pubDate": 1790079785000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "high",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 1,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1688067392",
+      "title": "Qwen3.8-Omni-Flash vs Qwen 3.8 Max vs Claude Fable 5.1 [2026] - tech",
+      "titleZh": "Qwen3.8-Omni-Flash vs Qwen 3.8 Max vs Claude Fable 5.1 [2026] -科技",
+      "summary": "Qwen3.8-Omni-Flash vs Qwen 3.8 Max vs Claude Fable 5.1 [2026] tech-insider.org",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT1dEa3BIelZ6Tm82Ym5kaVpqNmZwZ0poSkl6SW41Wk1WeHZycUZZNjhaWHpmMl9zREVDZG5DR1FnR29TczJXRGtHcGtFV1dKSFZycjl3Zk1lYVE4V3lqQzFXWjExdnQ3YXFUYU9aVlAyb3pxMzRId2x5MzE4MjJHN09NUWpETmtzYUJRSE13?oc=5",
+      "pubDate": 1790078924000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "high",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 15,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "266523607",
+      "title": "Alibaba rises as it gives further details on Qwen models, full-stack AI infrastructure (BABA:NYSE)",
+      "titleZh": "阿里巴巴崛起，因为它提供了有关Qwen模型、全栈人工智能基础设施的更多详细信息（ BABA ：纽约证券交易所）",
+      "summary": "Alibaba rises as it gives further details on Qwen models, full-stack AI infrastructure (BABA:NYSE) Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQnZMNklXYWZNb2x1ZUg3czljU2t2blN2ajBvZ29sbi0wZENSS3M3c1VtdG15TWJ3UDVaSkw0Q3NIcnpLR2hfQVBfMjlYWVZ4VFBmMFVCMTRRRUJrQ0M5U3JJeHpvUnQ0M1g2QjJGOE81RWc4MkxBU1ZEblBLN0dlQ1ZmUmhsOUZNUFFPVnZKcE03V19TY09tOHAxWEd5dU1DSnBILUo3eTA0cVVzME94alFaVlhINzhBUHRGSU5OZzE?oc=5",
+      "pubDate": 1790078883000,
+      "vendor": "qwen",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 61,
       "scoreBreakdown": {
-        "cq": 18,
+        "cq": 20,
         "kv": 2,
         "cw": 22,
         "st": 12,
         "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-570148561",
+      "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+      "titleZh": "NVIDIA Isaac ROS 5.0推进Agentic开源机器人开发",
+      "summary": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project…",
+      "link": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+      "pubDate": 1790078441000,
+      "vendor": "nvidia",
+      "category": "Agent",
+      "impact": "high",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 7,
+        "cw": 12,
+        "st": 10,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
+      "id": "1256819594",
+      "title": "Alibaba Unveils Zhenwu V900 AI Chip and Plans a 10-Trillion-Parameter Qwen Model",
+      "titleZh": "阿里巴巴推出振武V900 AI芯片并规划10万亿参数Qwen模型",
+      "summary": "Alibaba Unveils Zhenwu V900 AI Chip and Plans a 10-Trillion-Parameter Qwen Model Technology Org",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaXpwTWlfaEVNZmJEOEVwTTVqS01XT29pbzk4QkFmM1RFVU1nbFVZbl9fLXpVWHJnYWRRM1Zla2ltOXZ1ZmE5by1TcXkyX1FzcE1aWjNfVW1iUFdPVm0zN0ZSWnZ0UUk0MDFka0xhVk5odFU0M3ZvMzFVS21BMjRVeVl6azRtVy1LLUJR?oc=5",
+      "pubDate": 1790073346000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -277,6 +403,27 @@
       "source": "Google News"
     },
     {
+      "id": "-1657011934",
+      "title": "Transformers now runs llama.cpp quants",
+      "titleZh": "变压器现在运行llama.cpp quants",
+      "summary": "Transformers now runs llama.cpp quants",
+      "link": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "pubDate": 1790035200000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 43,
+      "scoreBreakdown": {
+        "cq": 9,
+        "kv": 1,
+        "cw": 15,
+        "st": 14,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
       "id": "1026211652",
       "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
       "titleZh": "OMLX创建者和维护者Jun Kim加入Hugging Face ，为MLX社区提供支持",
@@ -403,27 +550,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "-259016256",
-      "title": "Alibaba’s Qwen-Image-2.1 Brings Native Transparency to a 7B Model",
-      "titleZh": "Alibaba’s Qwen-Image-2.1 Brings Native Transparency to a 7B Model",
-      "summary": "Alibaba’s Qwen-Image-2.1 Brings Native Transparency to a 7B Model eWeek",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1OX0pYdXpNOURpRGJ1cV9VblZMaDlra2N4VllDNHE0LWlKUUhuRVRqM3FqZkFNR1dUbWZ1aEVrVDRFeHd1U1hQM3BmYWs3LTlGSm9RRWRtTkk2cWNnNHBoRGlqcHliRVJGRkQ5bDZ4X2lCTkpIbHIxT253?oc=5",
-      "pubDate": 1790012923000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "805827490",
       "title": "Alibaba Qwen Releases Qwen-Image-2.1: A 7B Open-Weight Model for Image Generation and Editing",
       "titleZh": "阿里巴巴Qwen发布Qwen-Image-2.1 ：用于图像生成和编辑的7B开放式权重模型",
@@ -433,13 +559,13 @@
       "vendor": "qwen",
       "category": "Release",
       "impact": "high",
-      "score": 67,
+      "score": 66,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -454,13 +580,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 1,
         "cw": 22,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -475,13 +601,13 @@
       "vendor": "nvidia",
       "category": "Product",
       "impact": "med",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 9,
         "cw": 15,
         "st": 10,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "NVIDIA"
@@ -496,13 +622,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 1,
         "cw": 22,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -517,13 +643,13 @@
       "vendor": "nvidia",
       "category": "Agent",
       "impact": "med",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 10,
         "cw": 12,
         "st": 10,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "NVIDIA"
@@ -538,55 +664,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
         "cw": 15,
         "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-996515922",
-      "title": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026",
-      "titleZh": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026",
-      "summary": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026. Lean in on this Builders Stage session. Save up to $200 before September 25.",
-      "link": "https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026/",
-      "pubDate": 1790001000000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "high",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 1,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-571673105",
-      "title": "Meet the next wave of VCs judging Startup Battlefield 200 at TechCrunch Disrupt 2026",
-      "titleZh": "在TechCrunch Disrupt 2026上迎接下一波风投评选《创业战场200》",
-      "summary": "Meet the next wave of VCs judging the Startup Battlefield 200 contenders on the main stage at TechCrunch Disrupt 2026. Register by September 25 at 11:59 p.m. PT, to save up to $200 and to get a front-…",
-      "link": "https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/",
-      "pubDate": 1790000100000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -601,13 +685,13 @@
       "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 15,
         "st": 14,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -655,10 +739,10 @@
       "source": "OpenAI"
     },
     {
-      "id": "62966728",
+      "id": "2008228149",
       "title": "Moonshot’s Kimi K3 lands on Amazon in key test for Chinese open-source AI income",
       "titleZh": "Moonshot’s Kimi K3 lands on Amazon in key test for Chinese open-source AI income",
-      "summary": "Moonshot’s Kimi K3 lands on Amazon in key test for Chinese open-source AI income scmp.com",
+      "summary": "Moonshot’s Kimi K3 lands on Amazon in key test for Chinese open-source AI income SCMP",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcDZqcmQxQkhmMW9NcUh6cW1hTTdXTlEwTUNSNUh2ZmlRYmt6Sm9GMnZISkZNSmg2RUc1NndvM1ZhSlBGUkQ1dDlCRldFdXcxQmNpLXB3TTllN0NtSVlTdVpIZ0NDZkhBLWlkMENhODVnbzQ5SldFVGFFaW11SVdBTHFGN2M0RFkydjQxelhlWHVKYXVNZExydXpOZlZOaXV0cEZWbFdYSGRHUWJWYjF3WWpkQng3RUFLY2E0ME9va1F2UdIBwgFBVV95cUxNSE8tSlJiRTFRMWRYREFncDA0ZldXRUJ6clRCTC0xdTloZmVKUzNSR1ZkamlLazd4VGdMTmo4TzNIM0NDM056c1pEZmNjS3J5blVUVlVyeEczb3ByOUFDUmRRRXRxX2JZRVVSYXNQQjh5THdWSFk5em1wODl4N1pzR0VZQ1FYN3d2ckkzSHF5Z3N0RU9YTmZDeWFyQlJkZzdjbTdRQWVMRFhqMXNXYU5fYjkzWUNWaGRJZ3A0LXpzVFkzUQ?oc=5",
       "pubDate": 1789990206000,
       "vendor": "kimi",
@@ -811,13 +895,13 @@
       "vendor": "qwen",
       "category": "Research",
       "impact": "high",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 3,
         "cw": 22,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -1033,27 +1117,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "-1193388200",
-      "title": "Deepseek AI usage stats for 2026",
-      "titleZh": "2026年Deepseek AI使用统计数据",
-      "summary": "Deepseek AI usage stats for 2026 Search Engine Land",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8xUjhuTkttU0s1TWM5T0dFcm9RdTkyM0EwRjVRZF9xVDFMa1I1X0kxVGt4dENmRGF4Snc0c0ZOZFNDbVZCMVFkS251dUJ5SU50dVNSNUs1azRpbnlVWXc?oc=5",
-      "pubDate": 1789585740000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1615670757",
       "title": "Helping older adults use AI in everyday life",
       "titleZh": "帮助老年人在日常生活中使用人工智能",
@@ -1105,13 +1168,13 @@
       "vendor": "deepmind",
       "category": "Release",
       "impact": "high",
-      "score": 57,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 13,
         "kv": 2,
         "cw": 25,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "DeepMind"
@@ -1126,13 +1189,13 @@
       "vendor": "huggingface",
       "category": "Agent",
       "impact": "med",
-      "score": 37,
+      "score": 36,
       "scoreBreakdown": {
         "cq": 9,
         "kv": 0,
         "cw": 12,
         "st": 14,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -1147,13 +1210,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 12,
         "kv": 2,
         "cw": 15,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google AI"
@@ -1168,13 +1231,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google AI"
@@ -1189,13 +1252,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google AI"
@@ -1210,37 +1273,16 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google AI"
-    },
-    {
-      "id": "489213546",
-      "title": "DeepSeek AI engineer slams Anthropic, OpenAI over ‘pacing’ calls, invokes Hitler",
-      "titleZh": "DeepSeek AI engineer slams Anthropic, OpenAI over ‘pacing’ calls, invokes Hitler",
-      "summary": "DeepSeek AI engineer slams Anthropic, OpenAI over ‘pacing’ calls, invokes Hitler scmp.com",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOW9lMmI2MVFjTmJlcXBmYXd4MURnZDllNF9qZXlGN3plMWlXZUtsS09EZl9PMzFrM2gwRHQwVXNWM1JucmRCNVREVEg1X0xwUFJPM204M0VPUUdPTzRPRDhfREhjeEQ4MXpsNzVHY0tYaENmZVlhUTZOZHdyLTAwU0hrNFpoSUM2Rzg0SHAybFZhY2lTVW9TWkVrd0dKbTdkWGJvZmpDREhIQlZmdkpDcE9sZVJHNGFTSHRNVTZsT2EtQdIBwgFBVV95cUxPcFJHc3JJdHpOeVdNS2psYTh2TFpDdFpoSE9LeXZwYkxoMmt0aDFfMnpOcmhRZDF3Uk9SOGtCU1I3SWNJUFhmTUEyYmZ0eXRhZ0FhSzZIT2x5MEpVTUM3ekJXQ3ZkWHFkb0dGT0E1YU53TnlHSHNjQWs5d2FjU3Jjc1VRT2UyZ0RPN052YlByYnBoWFN3Mll6bk5nNFE4ODBadmE1dm1heERibXlXeE5kRF9TS2M5eWtuTnFOQUw0d0dtQQ?oc=5",
-      "pubDate": 1789475414000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
         "rc": 0,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "Google AI"
     },
     {
       "id": "-1122161015",
@@ -1453,27 +1495,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "234757932",
-      "title": "Chinese AI firm Moonshot files confidentially for Hong Kong IPO, sources say",
-      "titleZh": "消息人士称，中国人工智能公司Moonshot为香港IPO秘密提交文件",
-      "summary": "Chinese AI firm Moonshot files confidentially for Hong Kong IPO, sources say Reuters",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT3M0Q2ZhaUlPQkc5bzU5MUEyMlpEaFFMVU5uakRWOEJkek85Z2ZsVWxjc0JnR3NrTFdXOGRIdDRQWmhobmhCZU9iVE9sakxTTVE0ejBhRnAyX1BaM0huMlVvZEJHREh6YzRQMzRLaXZRU2xtRld0THVvODFwTmJwa3BhOU9TQ1ZoQ2UxMldKVzlwcThoWTlEcVctbjhuZ2FqQVc4UTZwejhYeGtvWXJCdTBMaHVnSTVFbDVZSG1nVXYwOEtp?oc=5",
-      "pubDate": 1788505200000,
-      "vendor": "kimi",
-      "category": "Funding",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 20,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1179848853",
       "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
       "titleZh": "Sparks Fly ： NVIDIA在IFA 2026上加速本地AI",
@@ -1593,27 +1614,6 @@
         "cq": 9,
         "kv": 0,
         "cw": 12,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
-      "id": "-1798863604",
-      "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
-      "titleZh": "使用TRL和OpenEnv训练编码模型来绘制水彩画",
-      "summary": "Training a coding model to paint watercolours with TRL and OpenEnv",
-      "link": "https://huggingface.co/blog/train-to-paint-with-code",
-      "pubDate": 1788393600000,
-      "vendor": "huggingface",
-      "category": "Research",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 22,
         "st": 14,
         "rc": 0,
         "cs": 1
@@ -1831,27 +1831,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "-1857955226",
-      "title": "DeepSeek releases experimental multimodal AI model as it preps for IPO",
-      "titleZh": "DeepSeek发布实验性多模态人工智能模型，为IPO做准备",
-      "summary": "DeepSeek releases experimental multimodal AI model as it preps for IPO Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUlQ5RzI2bmtFVFBidE1lUjg5bzRCZnBhWEtfZ1hJNHh6OWpDNGpMLUk5NTRjazh2SmtzYlEtaEZJTzhBTDFXMjJxelZOZExqZmExb3RBaHdza25vRmR0VDEyVm9Nakw3Rml2NVZBWHBXZWFYRExUWjFLRksxbFlZWW1iaHlQLTRnUkl4WFJWR0VTWURiM1RHU1VoQnZibVBWX2wwdHdqM1hVcW9o?oc=5",
-      "pubDate": 1787295600000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "74193009",
       "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
       "titleZh": "VentureBeat任命Rob Strechay为其首位首席分析师，扩大其企业人工智能研究推动力",
@@ -1871,27 +1850,6 @@
         "cs": 1
       },
       "source": "VentureBeat"
-    },
-    {
-      "id": "-2016155837",
-      "title": "DeepSeek's AI Models Are About To Cost Four Times More",
-      "titleZh": "DeepSeek的人工智能模型成本将增加四倍",
-      "summary": "DeepSeek's AI Models Are About To Cost Four Times More Engadget",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT2FId1BnQ0MyY3Rzem9GYVo0blhJUnVqMEpYektCc1F5cy0xS09SODdqOEZrNXZGZE1NVlR6TGFacEw1Uzh6SEtfQzBEU2pfSDRpTW9YRVBoSlJyNElwcmJBOFZmVzIyVHZZS0hhcmJ6cWkzeWlMc2pOQmMwX055Yg?oc=5",
-      "pubDate": 1786690800000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1841590772",
@@ -1936,25 +1894,25 @@
       "source": "Google News"
     },
     {
-      "id": "901515433",
-      "title": "Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
-      "titleZh": "进入Omniverse ：开放世界模型如何推动物理人工智能的前沿",
-      "summary": "In July, NVIDIA joined more than 200 companies and organizations in signing “Open Weights and American AI Leadership,” an open letter arguing that AI leadership will be measured not by any single fron…",
-      "link": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
-      "pubDate": 1786021200000,
-      "vendor": "nvidia",
+      "id": "1375271958",
+      "title": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say",
+      "titleZh": "研究人员表示，中国人工智能模型Kimi逃脱了网络安全测试环境",
+      "summary": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX2NpajBveEZEMlMxOS1TVjlwaDZJYmVmWU1EZnZHbTJBaHZWbkxYdG44aF92TkZ3MW9RUlM2dWlFTFMtTGZXb1R1a0oydzE0YU81WHh4S1pHd3JOaDd5OW5BT1Y4VWItaVBZekVYcFM2T2dMNWlBSjU0eGpnaXJOeDE0bkJSNDFKaVhmdFE5WFMzVEZYWG1BWGJmc1FENl9haTFBdTVFNVRzRVNzS0ZsNUtyQ1ZvdjFWbmc?oc=5",
+      "pubDate": 1786086000000,
+      "vendor": "kimi",
       "category": "Research",
       "impact": "med",
-      "score": 77,
+      "score": 54,
       "scoreBreakdown": {
-        "cq": 30,
-        "kv": 14,
+        "cq": 18,
+        "kv": 1,
         "cw": 22,
-        "st": 10,
+        "st": 12,
         "rc": 0,
         "cs": 1
       },
-      "source": "NVIDIA"
+      "source": "Google News"
     },
     {
       "id": "-241689768",
@@ -1978,115 +1936,10 @@
       "source": "Google News"
     },
     {
-      "id": "-529548436",
-      "title": "Alibaba's new Qwen AI model falls short of 'second only to Fable 5' claim",
-      "titleZh": "阿里巴巴新款Qwen AI机型未达到“仅次于寓言5”的说法",
-      "summary": "Alibaba's new Qwen AI model falls short of 'second only to Fable 5' claim Nikkei Asia",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcTJXZUh1VnNGRFU5WGlaeGxJS3pNZ19vdmNVQkVZM3R6QmpKdml1VGdHaW1OVEl5WS16WEdhbi1EUXhKVGFER3lnY2dYTk82Vm4xdVVLQmVSbkdoNUVicnZTMEdqRm02eU81RzhCclgzSjZJck1LM2JRbk9nQkkyUXg2ckdubGx6bFJwVlFlcWlQZnpIWVJncmt1MUNVbUUybGwyWThlNlFpNVpBUnV6OXAtNi1jM2cxNy03QTNMME5kY1JtUzdaVERZeEtKLUJSSm1zRUln?oc=5",
-      "pubDate": 1785740400000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "615752399",
-      "title": "Alibaba Qwen Releases Qwen3.8-Max: A 2.4 Trillion Parameter MoE Model and the Most Capable One in the Qwen Family to Date",
-      "titleZh": "阿里巴巴Qwen发布Qwen3.8-Max ： 2.4万亿参数MoE模型，是迄今为止Qwen家族中功能最强的一个",
-      "summary": "Alibaba Qwen Releases Qwen3.8-Max: A 2.4 Trillion Parameter MoE Model and the Most Capable One in the Qwen Family to Date MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xdU5hVFRUbVlFWmdpaUpnOGZ3VUl5UkdLemlEUUdiU2dqZzIxb3JCeWdKRHRoaHFvYjZuT01qQXlTdEwxU1phdTFESVRETkh5UGFOLTNYOXdJd3FGVXFIU09nNThiRFVQVHNkLUhsMDRrTGw0dG5Rd05kcEgtU2fSAYQBQVVfeXFMUHZ1N054NWlabzdxYVZoVkFsTDZqS0VxamU0UEh4a09yZm5PN3l1VnQwWF9UUnc2RWVzZ1ZGU0h3dXFMMDN4RGswQUMwNDFWcFcwN2ZYSTRJb0UxNllNOFZnZlZfQUFKeXZ4VGF5LVhtYTBSZXhjb1c1bzlYVmV5T216ejdS?oc=5",
-      "pubDate": 1785740400000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 5,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-956846302",
-      "title": "Alibaba Adds to China AI Breakthroughs With New Qwen Model",
-      "titleZh": "阿里巴巴推出Qwen新车型助力中国人工智能突破",
-      "summary": "Alibaba Adds to China AI Breakthroughs With New Qwen Model Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWjlHM1ZsVFZ2VWZiRG4xcTd3aWdrU2U2SEwySXh3RWxPYWhBSlM0MTU2M2M3dlVDTnN5TDVUUkJvUGw5WXczVlB0ZzBPMk5NTjhOWkwwcGRHYWk4MGVUdjhRNUc5NXFkN1BFSHdrVnJtM0ZXSDNwM3phcnA5WE1LWjMwbUVhRHV2YUl2SmFBUVZUbXNTQ0EtZVBXRHhoSjlobzJuOWk4SnJvalVfZTdaWkVtRHdjN21v?oc=5",
-      "pubDate": 1785740400000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1553092249",
-      "title": "DeepSeek unveils AI model 100 times cheaper than top rivals",
-      "titleZh": "DeepSeek推出比顶级竞争对手便宜100倍的人工智能模型",
-      "summary": "DeepSeek unveils AI model 100 times cheaper than top rivals itp.net",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVzlXTXdqYzNBNHRGaHFoLTZVR2d0ZndUZVMzdTkySXRWNlFRcEtXRWp5aG1FM3dkU09teFBjRGdZdFhoLTRBZDJ5TTFseWxXeEZhNVdsRlVEMlFjak9Bd2FmdExrYmJqNzlMNGZCR3FvZ2F2RV9WU09QVmVHay1tWVR0dG9ZWUtsa1o5UTlqM2R1Tk9FUXJ0Ug?oc=5",
-      "pubDate": 1785740400000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-464609805",
-      "title": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says",
-      "titleZh": "研究公司表示， DeepSeek的新人工智能模型是迄今为止运行的最便宜的知名模型。",
-      "summary": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says Reuters",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTnd6ckhOVUhwcGJjRmxRdlhObS1ncXRhZm9OeVUwaEgwOTg5YmNBTGVWcHZsdXd4dXVrWWdlZGtsYkw0eDIyY1A3NjdSM0o0bFBGUEZRNDF2NjYwZEtCamNpeTFqN3ZaQVlTclNuQWYxNXh4ZVlqaWF3WkNNVk1fbmJXcTdISlBmUVVWS01STmFYZldLSGk5akJQZVB5X09OSzVoVWF4Wko4TEF4cGozQUlWM202dFJWMGxSRTdpcTNaaUp6bmNyZXpWbVRFb2JoSzdCVQ?oc=5",
-      "pubDate": 1785654000000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "328793170",
+      "id": "782329535",
       "title": "US lawmakers investigate DoorDash’s use of Moonshot AI’s Kimi K2.6 model",
       "titleZh": "US lawmakers investigate DoorDash’s use of Moonshot AI’s Kimi K2.6 model",
-      "summary": "US lawmakers investigate DoorDash’s use of Moonshot AI’s Kimi K2.6 model scmp.com",
+      "summary": "US lawmakers investigate DoorDash’s use of Moonshot AI’s Kimi K2.6 model SCMP",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWlVnUFVUZTZ6ZWVnTElrblFhMVNfRHFhWXpLRjlzaWhtNUVmRFRSNFNxQzgwZXVGaUlOVGl2NmgtRTdrLW5GcXdjVjRuVnVZdXlPazYtdHIwMWZqcjBLWmNBaFBrWUh3T1Zqa3hxZlNyYU1Zc1dlMmpaVFR4ajhuc29KRlZHUGdxZ1dhQ2s1RGxyZVAtRlZMbWFIaXZacjFnZ200ODF1TzMzakczZHhMemhUbDdqUy1KX0RhRE1HVTdQd9IBwgFBVV95cUxORWdsQUZ5UVZBdDUzb1JJMndsbW1SUDdXcjJJSGdvb0dvRklzMlJkSUtKRWNRSHVac2Y0MmxjZWtiNzRWSEJ5TVp1dzR6RmJER0xKOEZzQ09vYW9qdXZnNWxOWVY2MFdnVlY2QkN2LU1Ja25SckJGdWQ5NWt4dGxMUHN5cTZZOFI5Z182bGVHLTM0NlFsN0ZLNExvT3RabFNtaUppdXcwTEFYRlRFZjRBeHEtbVg2bmpRVllfaVh3VDJPdw?oc=5",
       "pubDate": 1785567600000,
       "vendor": "kimi",
@@ -2095,27 +1948,6 @@
       "score": 57,
       "scoreBreakdown": {
         "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1937431074",
-      "title": "DeepSeek's new bargain model accelerates AI's race to zero",
-      "titleZh": "DeepSeek的新讨价还价模式加速了人工智能的零竞赛",
-      "summary": "DeepSeek's new bargain model accelerates AI's race to zero Axios",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04emlXWXpVQXhNcjJsU1d5ZmhnU1J2TFRyeFlxM2hqUUNUNVR2UmxFQUNBanYwWnd5ZUpTRnptVEh2TXU2NU5aa0FRbFV6ejVPd2wxWFNXa3RoaTZPQ0dQSHc0Tkk4WE93Q1JwV0tIWGNBaGNG?oc=5",
-      "pubDate": 1785567600000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
         "kv": 2,
         "cw": 22,
         "st": 12,
@@ -2165,48 +1997,6 @@
         "cs": 1
       },
       "source": "VentureBeat"
-    },
-    {
-      "id": "-807368284",
-      "title": "China's DeepSeek releases preview of long-awaited V4 model as AI race intensifies",
-      "titleZh": "随着人工智能竞赛的加剧，中国的DeepSeek发布了期待已久的V4车型的预览",
-      "summary": "China's DeepSeek releases preview of long-awaited V4 model as AI race intensifies CNBC",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd3BGX1RVY2NmcVZoZnpqQ0hDTmdhem9nVE5wLWlKN2lIYzNuVjJtUjdqeU9oWWIxVjY4WG1BU0ctMm5VNURWZmhnU05IQTVnakRJUFJSeHI5dFB0WThCb1h1Q2Fnb3k5aUwyTUd6NEZ3bU1LRWs5OHZvTi1MQlJpVzNMbnRzcDd6UkZxdFlsX0FycjU5SVc4ONIBngFBVV95cUxQWWFDRGp5MGRYM2FYZ0lvN0Y5cTVOSm56QmZQeENWTzdUQzVXOVZIQjVZZy1OcnJLeEFzSklFVEpWdWV6d05POWktN2JIbkJzQnhSZDdtRm1VQzBEbjR3ZjNyQ0VjSkVpenFrWGM5MnFWdndlVTg5OGgwMUpJa0RONnF2em9hdGhycjNGdmpmZHlQSEdudTMyRm1mdjVQUQ?oc=5",
-      "pubDate": 1777014000000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "2048149594",
-      "title": "China's DeepSeek launches preview of new AI model",
-      "titleZh": "中国的DeepSeek推出新AI模型预览",
-      "summary": "China's DeepSeek launches preview of new AI model dw.com",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5yVWNVNmNtTGlQc1ppV3lZNW55TjJiUVJxOHhOTG9ESWhzeFJQNlZJck9HVXNzX3hkWWhfRnNfTDlmdEx2TGJuRGJvN1pfcndnUFQyUUpnbFA0emdSZHVISDVCNm4xRWY5dlNKWmxMRdIBb0FVX3lxTE84MDl4aHFpdzVZLVZQZ1o1RmFrNzhmMHVWVXo1elpZUG5LWjdvTVFVMnp0aUl4WXNtcGxhR2tOQktaVDg1WU5GVm1kN0oxYVVOWUFMdzNTSlpDVG80SU1Da0FHZVBOZFhQMlZkYVY2Zw?oc=5",
-      "pubDate": 1777014000000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1380991222",
