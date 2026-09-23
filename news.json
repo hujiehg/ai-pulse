@@ -1,8 +1,281 @@
 {
-  "updated": "2026-09-23T07:00:10.124Z",
-  "count": 106,
-  "sources": 11,
+  "updated": "2026-09-23T12:35:17.221Z",
+  "count": 115,
+  "sources": 12,
   "items": [
+    {
+      "id": "104946334",
+      "title": "Chinese AI Firms Fall on Report of DeepSeek, Moonshot Probe",
+      "titleZh": "中国人工智能公司对DeepSeek ， Moonshot探测器的报道感到失望",
+      "summary": "Chinese AI Firms Fall on Report of DeepSeek, Moonshot Probe Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWlNBRnBPUi0zNVlHUUNlTUU2dHk0c3ZDNG8wNUh6T0hFb1pfLW5BeXFYUWFHRGczeEFEeDRKbzZ5dHhHRFp5cjZPRU5jOEJpdFZLdFM3a0x3bVlLYUJsYWZSRDc1bkZDM09lQ2Q5Y3R5QU1yYmFhSHFhUkRORkttMEI0YmJ1RlpXN0VPc2g1Vy1NbDlSSkxna1d5MHF2MXowWFBSS1BPT0pqbjVYZFE?oc=5",
+      "pubDate": 1790148644000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1379124570",
+      "title": "‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI",
+      "titleZh": "‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI",
+      "summary": "Most leaders on a trade mission stick to the pitch, but when I interviewed Greek Prime Minister Kyriakos Mitsotakis this week, he also admitted that no government is ready for what AI is about to do.",
+      "link": "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/",
+      "pubDate": 1790139548000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1307876798",
+      "title": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
+      "titleZh": "合成角色是否可以预测真实的受众反应？一项Sim-to-Real研究，其中无人格基线胜过基于人格的复制模拟",
+      "summary": "arXiv:2609.25010v1 Announce Type: new Abstract: Marketers increasingly use large language models (LLMs) as \"synthetic personas\" to predict how an audience will react to a piece of copy before it ships…",
+      "link": "https://arxiv.org/abs/2609.25010",
+      "pubDate": 1790136000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 67,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 8,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1170097616",
+      "title": "Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization",
+      "titleZh": "现有预处理器是否改善了生物医学表格基础学习？ TabPFN优化的实证研究",
+      "summary": "arXiv:2609.25013v1 Announce Type: new Abstract: Tabular foundation models have recently shown strong potential for structured biomedical data analysis. Among them, TabPFN has emerged as an effective a…",
+      "link": "https://arxiv.org/abs/2609.25013",
+      "pubDate": 1790136000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "251353807",
+      "title": "4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting",
+      "titleZh": "4DGS-JEPA ：动态高斯溅射的时间组合联合嵌入预测",
+      "summary": "arXiv:2609.25036v1 Announce Type: new Abstract: Dynamic Gaussian Splatting provides an explicit representation of evolving 3D scenes, but existing approaches are primarily optimized for reconstruction…",
+      "link": "https://arxiv.org/abs/2609.25036",
+      "pubDate": 1790136000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-111039753",
+      "title": "An Accurate and Interpretable Hyper Graph Neural Network for GBM Survival Prediction",
+      "titleZh": "用于GBM生存预测的准确和可解释的超图神经网络",
+      "summary": "arXiv:2609.25088v1 Announce Type: new Abstract: Survival prediction for glioblastoma multiforme (GBM) demands models that are both accurate and interpretable, yet existing approaches treat these objec…",
+      "link": "https://arxiv.org/abs/2609.25088",
+      "pubDate": 1790136000000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 15,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1478242820",
+      "title": "Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings",
+      "titleZh": "Ovis-Embedding ：推动通用全模式嵌入的前沿",
+      "summary": "arXiv:2609.25165v1 Announce Type: new Abstract: In this report, we introduce \\textbf{Ovis-Embedding}, a state-of-the-art omni-modal embedding family built on native integration of text, image, video, …",
+      "link": "https://arxiv.org/abs/2609.25165",
+      "pubDate": 1790136000000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 9,
+        "cw": 15,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1858176117",
+      "title": "X-Planner: Event-Structured Task Planning for Embodied Intelligence",
+      "titleZh": "X-Planner ：用于具体化智能的事件结构化任务规划",
+      "summary": "arXiv:2609.25187v1 Announce Type: new Abstract: Task planning bridges high-level instructions and executable behavior in long-horizon manipulation, yet modern Vision-Language-Action (VLA) systems ofte…",
+      "link": "https://arxiv.org/abs/2609.25187",
+      "pubDate": 1790136000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1193779190",
+      "title": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
+      "titleZh": "精益池：人工智能维护的正式化数学存档",
+      "summary": "arXiv:2609.25199v1 Announce Type: new Abstract: Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
+      "link": "https://arxiv.org/abs/2609.25199",
+      "pubDate": 1790136000000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 25,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-877069543",
+      "title": "The AI Neuroscientist: An Interactive Agentic Interface for Neuroimaging Analysis",
+      "titleZh": "人工智能神经科学家：用于神经影像分析的交互式代理界面",
+      "summary": "arXiv:2609.25254v1 Announce Type: new Abstract: Analyzing neuroimaging data requires specialized coding and statistical expertise, which limits accessibility for researchers without computational back…",
+      "link": "https://arxiv.org/abs/2609.25254",
+      "pubDate": 1790136000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-49908898",
+      "title": "MedGate-Fusion: Integrating First-Encounter Semantic Narratives and Physiological Biomarkers for Prospective Stroke Risk Stratification",
+      "titleZh": "MedGate-Fusion ：整合首次接触语义叙述和生理生物标志物进行前瞻性卒中风险分层",
+      "summary": "arXiv:2609.25272v1 Announce Type: new Abstract: Prospective stroke risk stratification in primary care is challenging because early risk signals are distributed across routine biomarkers and unstructu…",
+      "link": "https://arxiv.org/abs/2609.25272",
+      "pubDate": 1790136000000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 25,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1127427705",
+      "title": "When LLM Agents Fail to Read the Room: ReAdapt for Relational Social Reasoning",
+      "titleZh": "当LLM专员未能阅读房间时：重新适应关系型社会推理",
+      "summary": "arXiv:2609.25284v1 Announce Type: new Abstract: A social agent's most basic decisions (should I react to this post? who should I reach out to?) are not purely content problems. The right action often …",
+      "link": "https://arxiv.org/abs/2609.25284",
+      "pubDate": 1790136000000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1748849767",
+      "title": "DeepSeek Bets Big on Huawei Chips to Train Massive 8-Trillion Parameter AI Model",
+      "titleZh": "DeepSeek大举押注华为芯片，以训练大规模的8万亿参数人工智能模型",
+      "summary": "DeepSeek Bets Big on Huawei Chips to Train Massive 8-Trillion Parameter AI Model Android Headlines",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdTl4dEdQNS1jMmRsNUMyd21ORkdLUVE3NzZ4S2FmaFo0SXpoLXFrb1htSXlKNWFNTWVjay1IZHJHRXl1aDc0LXlDY1Z0bkJnRTBpbFF4el9yR21qZHU4cWh6SlRudldPdUNVczdQTXduVDg1dXhJZHZ0LTA5cUNwZHE2S2tWTkdWRGxOd0duR3FlU21rTDR2VDJfNTk?oc=5",
+      "pubDate": 1790135077000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
     {
       "id": "-577784022",
       "title": "DeepSeek and Moonshot AI face Beijing's probe over potential data leaks to Anthropic",
@@ -13,13 +286,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "med",
-      "score": 57,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 3,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -34,13 +307,13 @@
       "vendor": "nvidia",
       "category": "Product",
       "impact": "med",
-      "score": 66,
+      "score": 65,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 12,
         "cw": 15,
         "st": 10,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "NVIDIA"
@@ -298,32 +571,11 @@
       "source": "TechCrunch"
     },
     {
-      "id": "-1918268249",
-      "title": "Exhibit tables added: One last chance to showcase your startup at TechCrunch Disrupt 2026",
-      "titleZh": "添加了展览表：在TechCrunch Disrupt 2026上展示您的创业公司的最后一次机会",
-      "summary": "We have reopened our exhibitor program for 1 more week. Book your exhibit table by September 30 at 11:59 p.m. PT and showcase your startup in front of 10,000+ founders, investors, and tech leaders at …",
-      "link": "https://techcrunch.com/2026/09/22/exhibitor-program-reopened-book-by-sept-30/",
-      "pubDate": 1790086500000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "788570175",
+      "id": "649401482",
       "title": "DeepSeek, Moonshot Reportedly Face China Scrutiny Over Anthropic Claims Ahead Of Trump-Xi AI Talks",
       "titleZh": "据报道，在特朗普-习近平人工智能会谈之前， DeepSeek ， Moonshot面临中国对人类主张的审查",
-      "summary": "DeepSeek, Moonshot Reportedly Face China Scrutiny Over Anthropic Claims Ahead Of Trump-Xi AI Talks TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNeUVIRF9kN2xBSFRkY29OVWhRTHA4MGlFUlJiS3liaW5fZG0zMEp6VklIYzV3NWJEaV9SLVRUeThING13Y3pkMU5DYnNIZmtJdDNIN0ZoZFBNemVObUU2Smp4bDVlWFNhQTVZYjdSeU5nUFBIQmRycGUyN2d4VElKVVVPZjE1bVd4cVdkVkxiOGhRdEtpeHBOSjh3LUp2UmtvSGt0OWdBbmlTRkpVWlpvdjRvVkx2OGhGUjlYNFVYZS1mMFFOVElwR2JXSzZmREloM3V1U1YyYWJLdHBXZlBNcjVGQmhrMVBqTlNDUElhWQ?oc=5",
+      "summary": "DeepSeek, Moonshot Reportedly Face China Scrutiny Over Anthropic Claims Ahead Of Trump-Xi AI Talks Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ0tCVVQ1cFE1WTBjTlBBUzIzOG02Z1RkdXRBcWZNMzdNRnphQ1pMZDdFcFlTQzk0SXNNdnN5OEYtTUVzUEYyNkVkWTdUckJZZ2x0RGFDWkZMdnQxMGo5S25NUl94enhjZDlWNEczcDRHTGs3ZlFuY1dlSi1pNUFkUUlHNzlvc3dwdlNDei1PU1lfQzBrZXA1TU9ITkhXd3NDa3NTVWl3?oc=5",
       "pubDate": 1790082661000,
       "vendor": "kimi",
       "category": "Product",
@@ -332,27 +584,6 @@
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-223730181",
-      "title": "DeepSeek, Moonshot being probed by China over potential data leaks: report",
-      "titleZh": "DeepSeek ， Moonshot正在接受中国对潜在数据泄露的调查：报告",
-      "summary": "DeepSeek, Moonshot being probed by China over potential data leaks: report Seeking Alpha",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWm1FSWhRTGE3QTVteHRCV1hISXlLMDFMQ19iTndueHdWQlh1T3o1dTJZTE9fNTBtbFNKOTJtbGZ0ek5YTDJCcWJxRTlMV29KcF8wbUJWdW5KV3FGYldibTBRRTZLd2JwOGJVR1JqR21IUFVvWUZWRUtfVGRXYUEyUG92SEFTc1FDT3cxYXh5alV6aU1xZ3ZBNmo2Nkk4SnBYWDI1amZMUHFUU0tzRFdn?oc=5",
-      "pubDate": 1790080676000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 3,
         "cw": 15,
         "st": 12,
         "rc": 3,
@@ -370,13 +601,13 @@
       "vendor": "qwen",
       "category": "Research",
       "impact": "med",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -391,13 +622,13 @@
       "vendor": "nvidia",
       "category": "Agent",
       "impact": "high",
-      "score": 57,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 7,
         "cw": 12,
         "st": 10,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "NVIDIA"
@@ -412,289 +643,37 @@
       "vendor": "openai",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 22,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
     },
     {
-      "id": "-254956569",
+      "id": "388072404",
       "title": "Massive AI-Fueled Hack Hit 100 Companies In Days",
       "titleZh": "大规模的人工智能黑客攻击在几天内袭击了100家公司",
-      "summary": "Massive AI-Fueled Hack Hit 100 Companies In Days Forbes",
+      "summary": "Massive AI-Fueled Hack Hit 100 Companies In Days forbes.com",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPemhwX1dobU94R0tSelBqNUg5OTQ5Sko3VXBDWWZHVW90MWxUTnMxbzhZMVNZazM5VjVWZmoxNm5fdmw4dVdOWUdLZG56dXp1d0NRblZQSEtCVTgzeVF5R0NjU3VCSkx5SGpuR25iTkpuZXNlcjQwTW5ZTUdsc1d1SzlJaHFleGk1aE9wd0VBSUNpMkxDWE5pbVhaZTg2U3YwZmJsVEJ4TGdqWUExZ2xXTkpxbU1lV09rTl9sZW53eTBfZGstMHc?oc=5",
       "pubDate": 1790077396000,
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-242533891",
-      "title": "DeepSeek to use Huawei chips widely for AI training over Nvidia",
-      "titleZh": "DeepSeek在英伟达上广泛使用华为芯片进行人工智能培训",
-      "summary": "DeepSeek to use Huawei chips widely for AI training over Nvidia Huawei Central",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTllaaUt6NmhYaFhPaDRwTUFwSC12Z1cxQ0xLOHJmWnVEQWZxNXdZR0dVeFUxMWRfOEdwS3U1Q3N2dzE1VEdBVXMzVHpaTXlRVmFPdDJWb1gtbXJPc3JBRU5leWJIYzM1aDdjSy03ZTlXX2tLczFnVkJUMWxkSEVNVUFVT2JMVmVVVWp6UGppcWcydzlGRnZhblBB0gGfAUFVX3lxTE9IMXI1MUlTYzY1MFI0Z3hnaUJ1RnpEb2hJeDhZTjJwWVNTQ3FkSnFralhrZzhDaEtCMklkeFYzVk0tbmtZTGxmWWNpV0s1bHJkM0FQX2hRdldJeks3cExNUk14Y0V4c2NnbVNrS0QwWWRObGpvMTczSXVNWWNOVEJyYm5MT3BVVkM2TWxVYnhUR1QxY2k0ZUpPYlFrUWpRdw?oc=5",
-      "pubDate": 1790075641000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1662803778",
-      "title": "DeepSeek Shifts to Huawei Chips for AI Training, Reducing NVIDIA Reliance",
-      "titleZh": "DeepSeek转向华为芯片进行人工智能培训，减少对NVIDIA的依赖",
-      "summary": "DeepSeek Shifts to Huawei Chips for AI Training, Reducing NVIDIA Reliance 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUVlMa0FPT25BUEI4NVh3Ql92dzBPN1c0WnVRU2xzRnVRZ0hiM1hvYjhnVjJNalFiZ010RUowTjg1M0Z1OXpscDdBeFlFRnF3eDRDZDFHQTVhUzQwVEx3Z3FDdm42ZzVZbW1vd2NnbnZMVGxrdGtTNnd0cVZkZUsxQmRZV1piaF83?oc=5",
-      "pubDate": 1790066876000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1804874371",
-      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
-      "titleZh": "RBS-注意：长上下文大型语言模型的半径有限稀疏预填充",
-      "summary": "arXiv:2609.20971v1 Announce Type: new Abstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation…",
-      "link": "https://arxiv.org/abs/2609.20971",
-      "pubDate": 1790049600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1861269242",
-      "title": "Attention-Aware Routing: Coupling Routing and Attention in MoEs",
-      "titleZh": "注意路由：教育部中的耦合路由和注意力",
-      "summary": "arXiv:2609.20974v1 Announce Type: new Abstract: In Mixture-of-Experts language models, the router typically selects and weights experts based on the token's hidden state, utilizing limited contextual …",
-      "link": "https://arxiv.org/abs/2609.20974",
-      "pubDate": 1790049600000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 6,
-        "cw": 15,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1599327087",
-      "title": "CaLR: Causal Latent Revision for Robust Diffusion Reasoning",
-      "titleZh": "CaLR ：稳健扩散推理的因果潜伏修正",
-      "summary": "arXiv:2609.20981v1 Announce Type: new Abstract: Autoregressive (AR) models suffer from local greediness, while diffusion language models (DLMs) often lack the strict causal structure required for reas…",
-      "link": "https://arxiv.org/abs/2609.20981",
-      "pubDate": 1790049600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 68,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 8,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "774290325",
-      "title": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
-      "titleZh": "使用SAS视觉变压器增强LoRA对比学习",
-      "summary": "arXiv:2609.21061v1 Announce Type: new Abstract: Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce …",
-      "link": "https://arxiv.org/abs/2609.21061",
-      "pubDate": 1790049600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "298964919",
-      "title": "Detecting Hallucination in LLMs: Tracing the Topological Signatures of Impaired Context Sharing",
-      "titleZh": "检测LLM中的幻觉：跟踪受损上下文共享的拓扑特征",
-      "summary": "arXiv:2609.21096v1 Announce Type: new Abstract: In this work, we examine the topology of information flow patterns within attention graphs to effectively distinguish hallucinated from non-hallucinated…",
-      "link": "https://arxiv.org/abs/2609.21096",
-      "pubDate": 1790049600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1962253179",
-      "title": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
-      "titleZh": "微调大型语言模型中的内部表征变化与因果关系解耦",
-      "summary": "arXiv:2609.21113v1 Announce Type: new Abstract: Fine-tuning has emerged as a widely adopted approach for adapting LLMs to a variety of downstream tasks. However, how it reshapes their internal mechani…",
-      "link": "https://arxiv.org/abs/2609.21113",
-      "pubDate": 1790049600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-760894342",
-      "title": "TinyCeNN-LM: Quality-Gated Conversion of Pretrained Attention with CeNN-Inspired Cellular-Recurrent Layers",
-      "titleZh": "TinyCeNN-LM ：使用CeNN启发的细胞循环层进行预训练注意力的质量门控转换",
-      "summary": "arXiv:2609.21139v1 Announce Type: new Abstract: Replacing attention in a pretrained language model is a compatibility problem: a plausible substitute may alter representations expected by later layers…",
-      "link": "https://arxiv.org/abs/2609.21139",
-      "pubDate": 1790049600000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "high",
-      "score": 66,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 7,
-        "cw": 25,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-2082056479",
-      "title": "Clinician-Grounded Quality Assurance for AI-Assisted Psychiatric Intake",
-      "titleZh": "以临床医生为基础的人工智能辅助精神病摄入质量保证",
-      "summary": "arXiv:2609.21149v1 Announce Type: new Abstract: Before patients can use AI-assisted psychiatric intake systems, health systems need practical ways to routinely evaluate these tools against their clini…",
-      "link": "https://arxiv.org/abs/2609.21149",
-      "pubDate": 1790049600000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "high",
-      "score": 66,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 5,
-        "cw": 25,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-523786310",
-      "title": "Can Agents Design Better Chips with a Higher Level Abstraction?",
-      "titleZh": "代理能否通过更高层次的抽象设计出更好的芯片？",
-      "summary": "arXiv:2609.21157v1 Announce Type: new Abstract: Large Language Model (LLM) agents are increasingly being explored for chip design, but most existing approaches operate directly at RTL. We ask whether …",
-      "link": "https://arxiv.org/abs/2609.21157",
-      "pubDate": 1790049600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1224767580",
-      "title": "SpecOpt: Contact-Diff Reasoning for Agentic Molecule Optimization Toward Binding Specificity",
-      "titleZh": "SpecOpt ：针对结合特异性的代理分子优化的接触差异推理",
-      "summary": "arXiv:2609.21165v1 Announce Type: new Abstract: Off-target protein binding is a major source of adverse effects for small-molecule drugs, yet most structure-based molecular design methods focus on gen…",
-      "link": "https://arxiv.org/abs/2609.21165",
-      "pubDate": 1790049600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
     },
     {
       "id": "1191227821",
@@ -874,13 +853,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -895,13 +874,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -916,13 +895,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -937,13 +916,13 @@
       "vendor": "nvidia",
       "category": "Research",
       "impact": "med",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 3,
         "cw": 22,
         "st": 10,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "NVIDIA"
@@ -958,13 +937,13 @@
       "vendor": "openai",
       "category": "Funding",
       "impact": "med",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 20,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -979,13 +958,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -1348,27 +1327,6 @@
       "source": "Google AI"
     },
     {
-      "id": "-32418372",
-      "title": "DeepSeek AI engineer slams Anthropic, OpenAI over ‘pacing’ calls, invokes Hitler",
-      "titleZh": "DeepSeek AI engineer slams Anthropic, OpenAI over ‘pacing’ calls, invokes Hitler",
-      "summary": "DeepSeek AI engineer slams Anthropic, OpenAI over ‘pacing’ calls, invokes Hitler South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOW9lMmI2MVFjTmJlcXBmYXd4MURnZDllNF9qZXlGN3plMWlXZUtsS09EZl9PMzFrM2gwRHQwVXNWM1JucmRCNVREVEg1X0xwUFJPM204M0VPUUdPTzRPRDhfREhjeEQ4MXpsNzVHY0tYaENmZVlhUTZOZHdyLTAwU0hrNFpoSUM2Rzg0SHAybFZhY2lTVW9TWkVrd0dKbTdkWGJvZmpDREhIQlZmdkpDcE9sZVJHNGFTSHRNVTZsT2EtQdIBwgFBVV95cUxPcFJHc3JJdHpOeVdNS2psYTh2TFpDdFpoSE9LeXZwYkxoMmt0aDFfMnpOcmhRZDF3Uk9SOGtCU1I3SWNJUFhmTUEyYmZ0eXRhZ0FhSzZIT2x5MEpVTUM3ekJXQ3ZkWHFkb0dGT0E1YU53TnlHSHNjQWs5d2FjU3Jjc1VRT2UyZ0RPN052YlByYnBoWFN3Mll6bk5nNFE4ODBadmE1dm1heERibXlXeE5kRF9TS2M5eWtuTnFOQUw0d0dtQQ?oc=5",
-      "pubDate": 1789475414000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1122161015",
       "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
       "titleZh": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
@@ -1409,6 +1367,27 @@
         "cs": 1
       },
       "source": "Google AI"
+    },
+    {
+      "id": "-1960424605",
+      "title": "DeepSeek's new model sets a template for powerful LLMs that run lean",
+      "titleZh": "DeepSeek的新模型为精益运营的强大LLM设置了模板",
+      "summary": "DeepSeek's new model sets a template for powerful LLMs that run lean The Register",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1d2cXhBcGxPRlB0M2VkU1dFWDNVVFV6QUtsNWVmc3VHOTNMOGQxX3dDd3VPVGJRWFl1X2dtaHJ5WEs5M1Z5bUdqYTdYYmgwcDBnVE5RM3Vsb3dlYjNJNHNxOGd3bnJLYnRocVFDanZNMjlDZEtSMGNlUC1WQUl4TWJKaExMRWV3dHFUTmJFWTB5ME5TM18yUXJBUVdieGRuYThGZUNBRXFaSXY4ejhNTS05aGt0aVZpZUJxX2kwN0Y2dw?oc=5",
+      "pubDate": 1789110000000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-772445135",
@@ -2228,6 +2207,216 @@
         "cs": 1
       },
       "source": "VentureBeat"
+    },
+    {
+      "id": "251294355",
+      "title": "Technology, recovery, and responsibility",
+      "titleZh": "技术、恢复和责任",
+      "summary": "By Sriram Rajamani, Managing Director, Microsoft Research India We started 2021 with the hope that the COVID-19 vaccines will immunize enough of the world’s population to give herd immunity in the com…",
+      "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
+      "pubDate": 1615961906000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 2,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "1792312368",
+      "title": "Directorate General of Training, Ministry of Skill Development and Entrepreneurship, partners with Microsoft and NASSCOM Foundation to empower students with next generation digital skills",
+      "titleZh": "技能发展和创业部培训总局与微软和NASSCOM基金会合作，为学生提供下一代数字技能",
+      "summary": "The blended curriculum will impact 1.2 lakh students across 3000 Industrial Training Institutes (ITI) in India New Delhi, January 7, 2021: With a vision to empower the next generation of learners, the…",
+      "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
+      "pubDate": 1610002951000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 3,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "58206720",
+      "title": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
+      "titleZh": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
+      "summary": "Multilingual omni-channel service reduces wait time for queries, improves customer satisfaction by 70% New Delhi, January 5, 2021 – Powered by Microsoft Azure, Indian Railway Catering and Tourism Corp…",
+      "link": "https://news.microsoft.com/en-in/microsoft-azure-powered-corover-developed-irctc-ai-chatbot-askdisha/",
+      "pubDate": 1609824612000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1890804461",
+      "title": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
+      "titleZh": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
+      "summary": "• The initiative aims to skill 1 million students in AI by 2021 • The AI Classroom Series will deliver Microsoft’s AI, machine learning and data science expertise to undergraduate students at no cost …",
+      "link": "https://news.microsoft.com/en-in/nasscom-futureskills-microsoft-launch-ai-classroom-series-skill-students/",
+      "pubDate": 1599716180000,
+      "vendor": "microsoft",
+      "category": "Release",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1460121599",
+      "title": "Industry and research – better together",
+      "titleZh": "Industry and research – better together",
+      "summary": "By Sriram Rajamani, Distinguished Scientist and Managing Director, Microsoft Research India at Microsoft Manik Varma, researcher in the Microsoft Research (MSR) India lab was awarded the prestigious S…",
+      "link": "https://news.microsoft.com/en-in/industry-and-research-better-together-sriram-rajamani/",
+      "pubDate": 1598613057000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1887675878",
+      "title": "NSDC and Microsoft collaborate to empower Indian youth with digital skills",
+      "titleZh": "NSDC和微软合作，为印度青年提供数字技能",
+      "summary": "The initiative aims at skilling over 1 lakh youth in the next 12 months New Delhi, July 08, 2020: With a vision to transform India into a skilled nation, the National Skill Development Corporation (NS…",
+      "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
+      "pubDate": 1594186160000,
+      "vendor": "microsoft",
+      "category": "Release",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 4,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "652542494",
+      "title": "Empowering developers to achieve more at the Microsoft Developer Conference",
+      "titleZh": "帮助开发人员在Microsoft开发者大会上取得更大成就",
+      "summary": "New Delhi, June 18, 2020: Underlining the critical role of developers in innovations that will power economic recovery, the Microsoft Developer Conference brought together developers and tech professi…",
+      "link": "https://news.microsoft.com/en-in/microsoft-developer-conference/",
+      "pubDate": 1592461746000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 2,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-150806068",
+      "title": "Microsoft announces program to accelerate growth of agritech startups in India",
+      "titleZh": "微软宣布加速印度农业科技创业公司发展的计划",
+      "summary": "New Delhi, June 03, 2020: Microsoft announced the launch of a program for agritech startups in India that are committed to driving transformation in agriculture. The Microsoft for Agritech Startups pr…",
+      "link": "https://news.microsoft.com/en-in/microsoft-agritech-startups-program-india-launch/",
+      "pubDate": 1591162175000,
+      "vendor": "microsoft",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 5,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "297070690",
+      "title": "Microsoft empowers startups in India to achieve more",
+      "titleZh": "微软助力印度初创企业实现更多",
+      "summary": "Five startups showcase their unique propositions at Future Decoded Tech Summit Bengaluru, February 25, 2020: Startups are an indisputable innovation engine, and Microsoft is partnering with startups a…",
+      "link": "https://news.microsoft.com/en-in/microsoft-empowers-startups-in-india-to-achieve-more/",
+      "pubDate": 1582633175000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 4,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "1830923333",
+      "title": "Myntra accelerates its digital transformation journey with Microsoft Cloud",
+      "titleZh": "Myntra借助微软云加速其数字化转型之旅",
+      "summary": "reimagines online shopping experience for customers Azure powers biggest-ever End of Reason Sale New Delhi, February 19, 2020: Myntra, India’s leading destination for fashion and lifestyle, has partne…",
+      "link": "https://news.microsoft.com/en-in/myntra-digital-transformation-microsoft-cloud/",
+      "pubDate": 1582092103000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 0,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
     }
   ]
 }
