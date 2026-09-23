@@ -1,8 +1,29 @@
 {
-  "updated": "2026-09-23T20:52:33.150Z",
-  "count": 116,
-  "sources": 12,
+  "updated": "2026-09-23T23:21:41.793Z",
+  "count": 99,
+  "sources": 10,
   "items": [
+    {
+      "id": "1585632828",
+      "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+      "titleZh": "如何使用NVIDIA WARP和MjWarp加速机器人模拟和学习工作流程",
+      "summary": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+      "link": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "pubDate": 1790188900000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 13,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
     {
       "id": "-1292353734",
       "title": "Google Beam expands with new regions, partners, and customers",
@@ -34,13 +55,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,13 +76,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -76,13 +97,13 @@
       "vendor": "deepmind",
       "category": "Release",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 25,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "DeepMind"
@@ -97,13 +118,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "OpenAI"
@@ -118,13 +139,13 @@
       "vendor": "deepmind",
       "category": "Product",
       "impact": "high",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 9,
         "kv": 2,
         "cw": 15,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "DeepMind"
@@ -139,13 +160,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -235,10 +256,10 @@
       "source": "TechCrunch"
     },
     {
-      "id": "651958720",
+      "id": "-868477773",
       "title": "China probes DeepSeek, Moonshot over alleged user data transfers to Anthropic’s Claude",
       "titleZh": "China probes DeepSeek, Moonshot over alleged user data transfers to Anthropic’s Claude",
-      "summary": "China probes DeepSeek, Moonshot over alleged user data transfers to Anthropic’s Claude Ynetnews",
+      "summary": "China probes DeepSeek, Moonshot over alleged user data transfers to Anthropic’s Claude ynetnews.com",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GWWREMzhXdXE5UW05UXhIdnJyb0p5VnBZeUZFMUVRSl9ZenQ1NkZGT3R3VUMxQlhQU2ZJVVNWaFN5QTVfUUhnMkQ0YjktM2t6SWJZSkxnUi01SjkzU2ZFZXlwWWZZRk9MUHcwYw?oc=5",
       "pubDate": 1790170744000,
       "vendor": "kimi",
@@ -275,27 +296,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-1589605180",
-      "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
-      "titleZh": "* *知道谁在说话：使用NVIDIA Nemotron 3 Diarization构建实时多扬声器AI * *",
-      "summary": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
-      "link": "https://huggingface.co/blog/nvidia/nemotron-diarization",
-      "pubDate": 1790169421000,
-      "vendor": "huggingface",
-      "category": "Product",
-      "impact": "med",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 13,
-        "kv": 0,
-        "cw": 15,
-        "st": 14,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "HuggingFace"
     },
     {
       "id": "1649668",
@@ -340,6 +340,90 @@
       "source": "TechCrunch"
     },
     {
+      "id": "-1374526943",
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "titleZh": "Sam Altman’s remarks at the United Nations Security Council",
+      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "link": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "pubDate": 1790164800000,
+      "vendor": "openai",
+      "category": "Safety",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 10,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "278592012",
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "titleZh": "Harvey使用GPT-6 Astra将法律背景转化为更强大的草案",
+      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "link": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "pubDate": 1790164800000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "-708706920",
+      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+      "titleZh": "How invideo improves color grading 3x with GPT‑6 Astra",
+      "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+      "link": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "pubDate": 1790164800000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "-564559408",
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "titleZh": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "link": "https://openai.com/index/ringg",
+      "pubDate": 1790164800000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
       "id": "-472568479",
       "title": "Ema raises $77M as AI starts eating into enterprise software and services",
       "titleZh": "随着人工智能开始蚕食企业软件和服务， Ema筹集了7700万$",
@@ -359,6 +443,27 @@
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "-1054893655",
+      "title": "Introducing MentalHealthBench",
+      "titleZh": "MentalHealthBench简介",
+      "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+      "link": "https://openai.com/index/introducing-mentalhealthbench",
+      "pubDate": 1790157600000,
+      "vendor": "openai",
+      "category": "Release",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 1,
+        "cw": 25,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
     },
     {
       "id": "1610338257",
@@ -676,6 +781,27 @@
       "source": "NVIDIA"
     },
     {
+      "id": "-116119745",
+      "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+      "titleZh": "爱彼迎扩大GPT-6 Astra和OpenAI前沿模型的使用范围",
+      "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
+      "link": "https://openai.com/index/airbnb-gpt-6-astra",
+      "pubDate": 1790125200000,
+      "vendor": "openai",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
       "id": "-1434544240",
       "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
       "titleZh": "Grab和OpenAI为东南亚带来实用的人工智能技能",
@@ -706,13 +832,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -737,27 +863,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "1093355084",
-      "title": "Introducing GPT-6 Sol and Luna",
-      "titleZh": "隆重推出GPT-6 Sol和Luna",
-      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
-      "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "pubDate": 1790100000000,
-      "vendor": "openai",
-      "category": "Release",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 25,
-        "st": 15,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "OpenAI"
     },
     {
       "id": "649401482",
@@ -823,27 +928,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "32567012",
-      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-      "titleZh": "Parallel cut research time and cost in half with GPT‑6 Astra",
-      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-      "link": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-      "pubDate": 1790078400000,
-      "vendor": "openai",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "-254956569",
       "title": "Massive AI-Fueled Hack Hit 100 Companies In Days",
       "titleZh": "大规模的人工智能黑客攻击在几天内袭击了100家公司",
@@ -884,27 +968,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "1191227821",
-      "title": "Priorities and principles for effective third party assessments",
-      "titleZh": "有效第三方评估的优先事项和原则",
-      "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
-      "link": "https://openai.com/index/priorities-principles-third-party-assessments",
-      "pubDate": 1790035200000,
-      "vendor": "openai",
-      "category": "Research",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 22,
-        "st": 15,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "OpenAI"
     },
     {
       "id": "-689130251",
@@ -1054,48 +1117,6 @@
       "source": "HuggingFace"
     },
     {
-      "id": "-350181837",
-      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "titleZh": "希格斯菲尔德人工智能通过GPT-6 Astra在一天内推出新的视频功能",
-      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-      "link": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "pubDate": 1789992000000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "347137504",
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "titleZh": "数学和人工智能咨询小组",
-      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-      "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "pubDate": 1789992000000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "-369827558",
       "title": "Moonshot’s Kimi K3 lands on Amazon in key test for Chinese open-source AI income",
       "titleZh": "Moonshot’s Kimi K3 lands on Amazon in key test for Chinese open-source AI income",
@@ -1136,27 +1157,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-860250047",
-      "title": "Building standards for the next phase of AI",
-      "titleZh": "为下一阶段的人工智能构建标准",
-      "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
-      "link": "https://openai.com/index/building-standards-next-phase-ai",
-      "pubDate": 1789984800000,
-      "vendor": "openai",
-      "category": "Funding",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 20,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
     },
     {
       "id": "1542610722",
@@ -1873,27 +1873,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "2147151731",
-      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
-      "titleZh": "企业AI的真正风险不是自主代理。这是它们之间的复杂性。",
-      "summary": "Presented by Gravitee Read more",
-      "link": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
-      "pubDate": 1787839260000,
-      "vendor": "venturebeat",
-      "category": "Agent",
-      "impact": "med",
-      "score": 33,
-      "scoreBreakdown": {
-        "cq": 12,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
       "id": "394545116",
       "title": "Piloting the world's first double-blind AI evaluations",
       "titleZh": "试行全球首个双盲人工智能评估",
@@ -1913,69 +1892,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "-1183454760",
-      "title": "When agents act on their own, governance has to live in the data layer",
-      "titleZh": "当代理自行行动时，治理必须位于数据层",
-      "summary": "Presented by EDB Read more",
-      "link": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
-      "pubDate": 1787832060000,
-      "vendor": "venturebeat",
-      "category": "Agent",
-      "impact": "med",
-      "score": 34,
-      "scoreBreakdown": {
-        "cq": 12,
-        "kv": 1,
-        "cw": 12,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
-      "id": "-1500538370",
-      "title": "Orchestration is the new challenge for CX in the age of AI agents",
-      "titleZh": "编排是人工智能代理时代CX面临的新挑战",
-      "summary": "Presented by Tata Communications Read more",
-      "link": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
-      "pubDate": 1787754600000,
-      "vendor": "venturebeat",
-      "category": "Agent",
-      "impact": "med",
-      "score": 33,
-      "scoreBreakdown": {
-        "cq": 12,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
-      "id": "74193009",
-      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
-      "titleZh": "VentureBeat任命Rob Strechay为其首位首席分析师，扩大其企业人工智能研究推动力",
-      "summary": "Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a founding analyst of VentureBeat Research. His arrival i…",
-      "link": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
-      "pubDate": 1787149092000,
-      "vendor": "venturebeat",
-      "category": "Research",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
     },
     {
       "id": "1686568900",
@@ -2062,10 +1978,10 @@
       "source": "Google News"
     },
     {
-      "id": "-369863773",
+      "id": "1375271958",
       "title": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say",
       "titleZh": "研究人员表示，中国人工智能模型Kimi逃脱了网络安全测试环境",
-      "summary": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say techcrunch.com",
+      "summary": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say TechCrunch",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX2NpajBveEZEMlMxOS1TVjlwaDZJYmVmWU1EZnZHbTJBaHZWbkxYdG44aF92TkZ3MW9RUlM2dWlFTFMtTGZXb1R1a0oydzE0YU81WHh4S1pHd3JOaDd5OW5BT1Y4VWItaVBZekVYcFM2T2dMNWlBSjU0eGpnaXJOeDE0bkJSNDFKaVhmdFE5WFMzVEZYWG1BWGJmc1FENl9haTFBdTVFNVRzRVNzS0ZsNUtyQ1ZvdjFWbmc?oc=5",
       "pubDate": 1786086000000,
       "vendor": "kimi",
@@ -2165,279 +2081,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-1093452510",
-      "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
-      "titleZh": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
-      "summary": "For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On T…",
-      "link": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
-      "pubDate": 1779212700000,
-      "vendor": "venturebeat",
-      "category": "Product",
-      "impact": "med",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
-      "id": "-1380991222",
-      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
-      "titleZh": "Railway获得1亿美元$ ，通过AI原生云基础设施挑战AWS",
-      "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B fundi…",
-      "link": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
-      "pubDate": 1769090400000,
-      "vendor": "venturebeat",
-      "category": "Funding",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 20,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
-      "id": "749662964",
-      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
-      "titleZh": "Claude Code每月的费用高达$ 200。Goose免费做同样的事情。",
-      "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive. Read more",
-      "link": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
-      "pubDate": 1768831200000,
-      "vendor": "venturebeat",
-      "category": "Product",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 15,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
-      "id": "251294355",
-      "title": "Technology, recovery, and responsibility",
-      "titleZh": "技术、恢复和责任",
-      "summary": "By Sriram Rajamani, Managing Director, Microsoft Research India We started 2021 with the hope that the COVID-19 vaccines will immunize enough of the world’s population to give herd immunity in the com…",
-      "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
-      "pubDate": 1615961906000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 2,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "1792312368",
-      "title": "Directorate General of Training, Ministry of Skill Development and Entrepreneurship, partners with Microsoft and NASSCOM Foundation to empower students with next generation digital skills",
-      "titleZh": "技能发展和创业部培训总局与微软和NASSCOM基金会合作，为学生提供下一代数字技能",
-      "summary": "The blended curriculum will impact 1.2 lakh students across 3000 Industrial Training Institutes (ITI) in India New Delhi, January 7, 2021: With a vision to empower the next generation of learners, the…",
-      "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
-      "pubDate": 1610002951000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 3,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "58206720",
-      "title": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
-      "titleZh": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
-      "summary": "Multilingual omni-channel service reduces wait time for queries, improves customer satisfaction by 70% New Delhi, January 5, 2021 – Powered by Microsoft Azure, Indian Railway Catering and Tourism Corp…",
-      "link": "https://news.microsoft.com/en-in/microsoft-azure-powered-corover-developed-irctc-ai-chatbot-askdisha/",
-      "pubDate": 1609824612000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-1890804461",
-      "title": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
-      "titleZh": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
-      "summary": "• The initiative aims to skill 1 million students in AI by 2021 • The AI Classroom Series will deliver Microsoft’s AI, machine learning and data science expertise to undergraduate students at no cost …",
-      "link": "https://news.microsoft.com/en-in/nasscom-futureskills-microsoft-launch-ai-classroom-series-skill-students/",
-      "pubDate": 1599716180000,
-      "vendor": "microsoft",
-      "category": "Release",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 4,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-1460121599",
-      "title": "Industry and research – better together",
-      "titleZh": "Industry and research – better together",
-      "summary": "By Sriram Rajamani, Distinguished Scientist and Managing Director, Microsoft Research India at Microsoft Manik Varma, researcher in the Microsoft Research (MSR) India lab was awarded the prestigious S…",
-      "link": "https://news.microsoft.com/en-in/industry-and-research-better-together-sriram-rajamani/",
-      "pubDate": 1598613057000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 4,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-1887675878",
-      "title": "NSDC and Microsoft collaborate to empower Indian youth with digital skills",
-      "titleZh": "NSDC和微软合作，为印度青年提供数字技能",
-      "summary": "The initiative aims at skilling over 1 lakh youth in the next 12 months New Delhi, July 08, 2020: With a vision to transform India into a skilled nation, the National Skill Development Corporation (NS…",
-      "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
-      "pubDate": 1594186160000,
-      "vendor": "microsoft",
-      "category": "Release",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 4,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "652542494",
-      "title": "Empowering developers to achieve more at the Microsoft Developer Conference",
-      "titleZh": "帮助开发人员在Microsoft开发者大会上取得更大成就",
-      "summary": "New Delhi, June 18, 2020: Underlining the critical role of developers in innovations that will power economic recovery, the Microsoft Developer Conference brought together developers and tech professi…",
-      "link": "https://news.microsoft.com/en-in/microsoft-developer-conference/",
-      "pubDate": 1592461746000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 2,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-150806068",
-      "title": "Microsoft announces program to accelerate growth of agritech startups in India",
-      "titleZh": "微软宣布加速印度农业科技创业公司发展的计划",
-      "summary": "New Delhi, June 03, 2020: Microsoft announced the launch of a program for agritech startups in India that are committed to driving transformation in agriculture. The Microsoft for Agritech Startups pr…",
-      "link": "https://news.microsoft.com/en-in/microsoft-agritech-startups-program-india-launch/",
-      "pubDate": 1591162175000,
-      "vendor": "microsoft",
-      "category": "Release",
-      "impact": "high",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 5,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "297070690",
-      "title": "Microsoft empowers startups in India to achieve more",
-      "titleZh": "微软助力印度初创企业实现更多",
-      "summary": "Five startups showcase their unique propositions at Future Decoded Tech Summit Bengaluru, February 25, 2020: Startups are an indisputable innovation engine, and Microsoft is partnering with startups a…",
-      "link": "https://news.microsoft.com/en-in/microsoft-empowers-startups-in-india-to-achieve-more/",
-      "pubDate": 1582633175000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 4,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "1830923333",
-      "title": "Myntra accelerates its digital transformation journey with Microsoft Cloud",
-      "titleZh": "Myntra借助微软云加速其数字化转型之旅",
-      "summary": "reimagines online shopping experience for customers Azure powers biggest-ever End of Reason Sale New Delhi, February 19, 2020: Myntra, India’s leading destination for fashion and lifestyle, has partne…",
-      "link": "https://news.microsoft.com/en-in/myntra-digital-transformation-microsoft-cloud/",
-      "pubDate": 1582092103000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 0,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
     }
   ]
 }
