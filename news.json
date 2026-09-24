@@ -1,8 +1,239 @@
 {
-  "updated": "2026-09-24T06:58:22.858Z",
+  "updated": "2026-09-24T12:29:43.081Z",
   "count": 116,
   "sources": 12,
   "items": [
+    {
+      "id": "2065496069",
+      "title": "Alibaba Unveils Full-Stack AI Strategy With New Qwen Models, Chips and Agentic Cloud",
+      "titleZh": "阿里巴巴推出全新Qwen车型、芯片和Agentic Cloud的全栈人工智能战略",
+      "summary": "Alibaba Unveils Full-Stack AI Strategy With New Qwen Models, Chips and Agentic Cloud techafricanews.com",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOW9WSWNGcDRvZ0pQNEVQNEtYWjk0WDl5eloxYWVmaHo1Wk4yN0drcnNWYTRWTThrZzB4ZDYwLWlIVU1XNkVHZDBTYWVqM3B1UlN3LUN5bndIX0Fsc21UTG00aUFUWnN1UWQ2cnNfU1kyVENsNmVkTTVFdVhmcHV1eG5lSmxldS00ODltVTJQTWh4WjlJcFNmcHJB?oc=5",
+      "pubDate": 1790240400000,
+      "vendor": "qwen",
+      "category": "Agent",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 12,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1307876798",
+      "title": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
+      "titleZh": "合成角色是否可以预测真实的受众反应？一项Sim-to-Real研究，其中无人格基线胜过基于人格的复制模拟",
+      "summary": "arXiv:2609.25010v1 Announce Type: new Abstract: Marketers increasingly use large language models (LLMs) as \"synthetic personas\" to predict how an audience will react to a piece of copy before it ships…",
+      "link": "https://arxiv.org/abs/2609.25010",
+      "pubDate": 1790222400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 67,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 8,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1170097616",
+      "title": "Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization",
+      "titleZh": "现有预处理器是否改善了生物医学表格基础学习？ TabPFN优化的实证研究",
+      "summary": "arXiv:2609.25013v1 Announce Type: new Abstract: Tabular foundation models have recently shown strong potential for structured biomedical data analysis. Among them, TabPFN has emerged as an effective a…",
+      "link": "https://arxiv.org/abs/2609.25013",
+      "pubDate": 1790222400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "251353807",
+      "title": "4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting",
+      "titleZh": "4DGS-JEPA ：动态高斯溅射的时间组合联合嵌入预测",
+      "summary": "arXiv:2609.25036v1 Announce Type: new Abstract: Dynamic Gaussian Splatting provides an explicit representation of evolving 3D scenes, but existing approaches are primarily optimized for reconstruction…",
+      "link": "https://arxiv.org/abs/2609.25036",
+      "pubDate": 1790222400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-111039753",
+      "title": "An Accurate and Interpretable Hyper Graph Neural Network for GBM Survival Prediction",
+      "titleZh": "用于GBM生存预测的准确和可解释的超图神经网络",
+      "summary": "arXiv:2609.25088v1 Announce Type: new Abstract: Survival prediction for glioblastoma multiforme (GBM) demands models that are both accurate and interpretable, yet existing approaches treat these objec…",
+      "link": "https://arxiv.org/abs/2609.25088",
+      "pubDate": 1790222400000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 15,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1478242820",
+      "title": "Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings",
+      "titleZh": "Ovis-Embedding ：推动通用全模式嵌入的前沿",
+      "summary": "arXiv:2609.25165v1 Announce Type: new Abstract: In this report, we introduce \\textbf{Ovis-Embedding}, a state-of-the-art omni-modal embedding family built on native integration of text, image, video, …",
+      "link": "https://arxiv.org/abs/2609.25165",
+      "pubDate": 1790222400000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 9,
+        "cw": 15,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1858176117",
+      "title": "X-Planner: Event-Structured Task Planning for Embodied Intelligence",
+      "titleZh": "X-Planner ：用于具体化智能的事件结构化任务规划",
+      "summary": "arXiv:2609.25187v1 Announce Type: new Abstract: Task planning bridges high-level instructions and executable behavior in long-horizon manipulation, yet modern Vision-Language-Action (VLA) systems ofte…",
+      "link": "https://arxiv.org/abs/2609.25187",
+      "pubDate": 1790222400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1193779190",
+      "title": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
+      "titleZh": "精益池：人工智能维护的正式化数学存档",
+      "summary": "arXiv:2609.25199v1 Announce Type: new Abstract: Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
+      "link": "https://arxiv.org/abs/2609.25199",
+      "pubDate": 1790222400000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 25,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-877069543",
+      "title": "The AI Neuroscientist: An Interactive Agentic Interface for Neuroimaging Analysis",
+      "titleZh": "人工智能神经科学家：用于神经影像分析的交互式代理界面",
+      "summary": "arXiv:2609.25254v1 Announce Type: new Abstract: Analyzing neuroimaging data requires specialized coding and statistical expertise, which limits accessibility for researchers without computational back…",
+      "link": "https://arxiv.org/abs/2609.25254",
+      "pubDate": 1790222400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-49908898",
+      "title": "MedGate-Fusion: Integrating First-Encounter Semantic Narratives and Physiological Biomarkers for Prospective Stroke Risk Stratification",
+      "titleZh": "MedGate-Fusion ：整合首次接触语义叙述和生理生物标志物进行前瞻性卒中风险分层",
+      "summary": "arXiv:2609.25272v1 Announce Type: new Abstract: Prospective stroke risk stratification in primary care is challenging because early risk signals are distributed across routine biomarkers and unstructu…",
+      "link": "https://arxiv.org/abs/2609.25272",
+      "pubDate": 1790222400000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 25,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1127427705",
+      "title": "When LLM Agents Fail to Read the Room: ReAdapt for Relational Social Reasoning",
+      "titleZh": "当LLM专员未能阅读房间时：重新适应关系型社会推理",
+      "summary": "arXiv:2609.25284v1 Announce Type: new Abstract: A social agent's most basic decisions (should I react to this post? who should I reach out to?) are not purely content problems. The right action often …",
+      "link": "https://arxiv.org/abs/2609.25284",
+      "pubDate": 1790222400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
     {
       "id": "-327780374",
       "title": "Everything new coming to Meta’s AI agent Muse",
@@ -13,13 +244,13 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 0,
         "cw": 12,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -319,19 +550,19 @@
       "source": "TechCrunch"
     },
     {
-      "id": "-1821397312",
-      "title": "YouTube releases new AI features for creators within its Studio app",
-      "titleZh": "YouTube在其Studio应用程序中为创作者发布了新的人工智能功能",
-      "summary": "YouTube is adding new features to generate ideas and monitor the performance of thumbnails.",
-      "link": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/",
+      "id": "14031503",
+      "title": "StrictlyVC at TechCrunch Disrupt 2026: Inside the changing rules of venture capital",
+      "titleZh": "StrictlyVC在TechCrunch Disrupt 2026 ：风险投资不断变化的规则",
+      "summary": "StrictlyVC joins TechCrunch Disrupt 2026 to discuss the changing VC landscape thanks to AI. Get your Investor Pass to join these exclusive sessions. Save $200 before September 25 at 11:59 p.m. PT.",
+      "link": "https://techcrunch.com/2026/09/23/strictlyvc-at-techcrunch-disrupt-2026-inside-the-changing-rules-of-venture-capital/",
       "pubDate": 1790173800000,
       "vendor": "techcrunch",
       "category": "Product",
-      "impact": "high",
+      "impact": "med",
       "score": 43,
       "scoreBreakdown": {
-        "cq": 14,
-        "kv": 2,
+        "cq": 16,
+        "kv": 0,
         "cw": 15,
         "st": 8,
         "rc": 3,
@@ -391,13 +622,13 @@
       "vendor": "openai",
       "category": "Safety",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 10,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -412,13 +643,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -433,13 +664,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -454,13 +685,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "high",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 4,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -475,16 +706,37 @@
       "vendor": "openai",
       "category": "Release",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 1,
         "cw": 25,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "-1465152034",
+      "title": "Alibaba Unveils Zhenwu V900 — and Plans Qwen Models With Up to 10 Trillion Parameters",
+      "titleZh": "Alibaba Unveils Zhenwu V900 — and Plans Qwen Models With Up to 10 Trillion Parameters",
+      "summary": "Alibaba Unveils Zhenwu V900 — and Plans Qwen Models With Up to 10 Trillion Parameters TechRepublic",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MMzBQdGpPbnFEUmllQVNQS2tiQ3NEQVNycFBiWkdxaHlvTkR3SWdMTnlzZ3F2WU1pSnBYMUlaazRBTnVxd0xuM0VWNHg3OFFidXg0NU9mbXVQY3JUenFyaTUtQjg0dWUyelR4clBYTkozVGpuQXc?oc=5",
+      "pubDate": 1790155697000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "910924656",
@@ -496,226 +748,16 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-1307876798",
-      "title": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
-      "titleZh": "合成角色是否可以预测真实的受众反应？一项Sim-to-Real研究，其中无人格基线胜过基于人格的复制模拟",
-      "summary": "arXiv:2609.25010v1 Announce Type: new Abstract: Marketers increasingly use large language models (LLMs) as \"synthetic personas\" to predict how an audience will react to a piece of copy before it ships…",
-      "link": "https://arxiv.org/abs/2609.25010",
-      "pubDate": 1790136000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 66,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 8,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1170097616",
-      "title": "Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization",
-      "titleZh": "现有预处理器是否改善了生物医学表格基础学习？ TabPFN优化的实证研究",
-      "summary": "arXiv:2609.25013v1 Announce Type: new Abstract: Tabular foundation models have recently shown strong potential for structured biomedical data analysis. Among them, TabPFN has emerged as an effective a…",
-      "link": "https://arxiv.org/abs/2609.25013",
-      "pubDate": 1790136000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 7,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "251353807",
-      "title": "4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting",
-      "titleZh": "4DGS-JEPA ：动态高斯溅射的时间组合联合嵌入预测",
-      "summary": "arXiv:2609.25036v1 Announce Type: new Abstract: Dynamic Gaussian Splatting provides an explicit representation of evolving 3D scenes, but existing approaches are primarily optimized for reconstruction…",
-      "link": "https://arxiv.org/abs/2609.25036",
-      "pubDate": 1790136000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-111039753",
-      "title": "An Accurate and Interpretable Hyper Graph Neural Network for GBM Survival Prediction",
-      "titleZh": "用于GBM生存预测的准确和可解释的超图神经网络",
-      "summary": "arXiv:2609.25088v1 Announce Type: new Abstract: Survival prediction for glioblastoma multiforme (GBM) demands models that are both accurate and interpretable, yet existing approaches treat these objec…",
-      "link": "https://arxiv.org/abs/2609.25088",
-      "pubDate": 1790136000000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 15,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1478242820",
-      "title": "Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings",
-      "titleZh": "Ovis-Embedding ：推动通用全模式嵌入的前沿",
-      "summary": "arXiv:2609.25165v1 Announce Type: new Abstract: In this report, we introduce \\textbf{Ovis-Embedding}, a state-of-the-art omni-modal embedding family built on native integration of text, image, video, …",
-      "link": "https://arxiv.org/abs/2609.25165",
-      "pubDate": 1790136000000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 9,
-        "cw": 15,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1858176117",
-      "title": "X-Planner: Event-Structured Task Planning for Embodied Intelligence",
-      "titleZh": "X-Planner ：用于具体化智能的事件结构化任务规划",
-      "summary": "arXiv:2609.25187v1 Announce Type: new Abstract: Task planning bridges high-level instructions and executable behavior in long-horizon manipulation, yet modern Vision-Language-Action (VLA) systems ofte…",
-      "link": "https://arxiv.org/abs/2609.25187",
-      "pubDate": 1790136000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1193779190",
-      "title": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
-      "titleZh": "精益池：人工智能维护的正式化数学存档",
-      "summary": "arXiv:2609.25199v1 Announce Type: new Abstract: Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
-      "link": "https://arxiv.org/abs/2609.25199",
-      "pubDate": 1790136000000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 3,
-        "cw": 25,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-877069543",
-      "title": "The AI Neuroscientist: An Interactive Agentic Interface for Neuroimaging Analysis",
-      "titleZh": "人工智能神经科学家：用于神经影像分析的交互式代理界面",
-      "summary": "arXiv:2609.25254v1 Announce Type: new Abstract: Analyzing neuroimaging data requires specialized coding and statistical expertise, which limits accessibility for researchers without computational back…",
-      "link": "https://arxiv.org/abs/2609.25254",
-      "pubDate": 1790136000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-49908898",
-      "title": "MedGate-Fusion: Integrating First-Encounter Semantic Narratives and Physiological Biomarkers for Prospective Stroke Risk Stratification",
-      "titleZh": "MedGate-Fusion ：整合首次接触语义叙述和生理生物标志物进行前瞻性卒中风险分层",
-      "summary": "arXiv:2609.25272v1 Announce Type: new Abstract: Prospective stroke risk stratification in primary care is challenging because early risk signals are distributed across routine biomarkers and unstructu…",
-      "link": "https://arxiv.org/abs/2609.25272",
-      "pubDate": 1790136000000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 25,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1127427705",
-      "title": "When LLM Agents Fail to Read the Room: ReAdapt for Relational Social Reasoning",
-      "titleZh": "当LLM专员未能阅读房间时：重新适应关系型社会推理",
-      "summary": "arXiv:2609.25284v1 Announce Type: new Abstract: A social agent's most basic decisions (should I react to this post? who should I reach out to?) are not purely content problems. The right action often …",
-      "link": "https://arxiv.org/abs/2609.25284",
-      "pubDate": 1790136000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 7,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
     },
     {
       "id": "-1871386914",
@@ -895,13 +937,13 @@
       "vendor": "qwen",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -916,13 +958,13 @@
       "vendor": "nvidia",
       "category": "Agent",
       "impact": "high",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 7,
         "cw": 12,
         "st": 10,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "NVIDIA"
@@ -937,13 +979,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -958,13 +1000,34 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-387879176",
+      "title": "Alibaba deepens AI push with new chip, bigger model; shares jump 5%",
+      "titleZh": "阿里巴巴以新芯片、更大机型深化人工智能推动；股价上涨5%",
+      "summary": "Alibaba deepens AI push with new chip, bigger model; shares jump 5% Reuters",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUlcybzdOMWxNcmJHT1ZvUHFRTkczZzRNbHpkeUM1QjVxak5WMVdfTldrMWRtaTdHd1FvZkUwbGN4NmhwdUFSdmJxdVBVTGZxNFBWMUNqQXU3dlJzM1VXOHZsYmliZmxBRl90eFF6dEFZWl9BQTJTdkdxaDBSMGVrSXBJUkFVQkx1RTFOcktHZDQ4blo4VFh0amtSRmYxU2YxeGdQdUhFa25DeDBjSllsaVBsUVQ3X3VYdnRKMTAxN1BzZFQzUUpGSVI3TXZBZmRuTlhjejFB?oc=5",
+      "pubDate": 1790054858000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -1054,10 +1117,10 @@
       "source": "HuggingFace"
     },
     {
-      "id": "-867264875",
+      "id": "805827490",
       "title": "Alibaba Qwen Releases Qwen-Image-2.1: A 7B Open-Weight Model for Image Generation and Editing",
       "titleZh": "阿里巴巴Qwen发布Qwen-Image-2.1 ：用于图像生成和编辑的7B开放式权重模型",
-      "summary": "Alibaba Qwen Releases Qwen-Image-2.1: A 7B Open-Weight Model for Image Generation and Editing marktechpost.com",
+      "summary": "Alibaba Qwen Releases Qwen-Image-2.1: A 7B Open-Weight Model for Image Generation and Editing MarkTechPost",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNU0JXUndVd2hCcXdycTc4XzhSWHpJOUtaN1NRWjQxWTJkY2J2UUJzRWdzWFNiLVJHRE1tN0d0YmFUdmdGekhfQmFhNWhHLWozOW42eW1FRlV5Ty1mWG9iNzlJcWd0VUM2OFJJalh0czYwLThiXzJMcTBjUEx5dGstenlwONIBiAFBVV95cUxPVl9MN2plOFZTMk1kSF9OZXY5XzNHSkVWb2Q3T2VIbTNScjltNEZCakNXTzlKQ0lCamVYVjNDdVFwYlVFLTB5SWJFNGZkY2wwNUNCaW5GMDhoM1NZM0tjWUFLWFBiamhhWG9XMTZnM0tSNUFpZ0E0WmlFT0NBU0hvcWpfX290ejVz?oc=5",
       "pubDate": 1790008844000,
       "vendor": "qwen",
@@ -1094,6 +1157,27 @@
         "cs": 1
       },
       "source": "NVIDIA"
+    },
+    {
+      "id": "728747154",
+      "title": "Alibaba Jumps 4.3% With Qwen's Brief U.S. Government Appearance",
+      "titleZh": "阿里巴巴凭借Qwen在美国政府的简短亮相跃升4.3%",
+      "summary": "Alibaba Jumps 4.3% With Qwen's Brief U.S. Government Appearance Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMTlYeUFsYkpILTVJbXMxOE1KcEdwam1GTWRCVllab1hsdHl1bU9WUlk5ZTY3MTg4NDBkN0VtTHlmVXcwNHVreFV6YXBCVUJ3MXVoZnJfYmR1OGNCZ1JsYXpUZGF2WE42ME8zR1p6ZVU5WEFMWlpMeE4yQmlNRm9fQ0tuTEtyQS14Umc1cDlYcTh2UQ?oc=5",
+      "pubDate": 1790004631000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1169807993",
@@ -1222,10 +1306,10 @@
       "source": "Google News"
     },
     {
-      "id": "1419737678",
+      "id": "-893080287",
       "title": "Alibaba Qwen Team Releases Qwen3.8-LiveTranslate: A Real-Time Interpretation Model That Cuts Average Lag to 2.3 Seconds Across 60 Languages",
       "titleZh": "阿里巴巴Qwen团队发布Qwen3.8-LiveTranslate ： 60种语言的平均延迟降至2.3秒的实时口译模型",
-      "summary": "Alibaba Qwen Team Releases Qwen3.8-LiveTranslate: A Real-Time Interpretation Model That Cuts Average Lag to 2.3 Seconds Across 60 Languages marktechpost.com",
+      "summary": "Alibaba Qwen Team Releases Qwen3.8-LiveTranslate: A Real-Time Interpretation Model That Cuts Average Lag to 2.3 Seconds Across 60 Languages MarkTechPost",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNakFkM2h4YjhMMm9IZl8td1dqS1RuRkVXVG9wRUgtb0xoNTNxWEtJTVF3WTc2d2lMTkVScUxrVU8xYXdJcWR2S09xZ2Z4N0UtVklfNXh4dEw3X3NLdm1MVXFvampScTN5bVNvNldQVmhjVTJVSjU2d1V2Y3lGZ0l3U1c2QzVEQ1hrbzdfakh3dVRJQlXSAZgBQVVfeXFMTlVBal91aTJMYUhIMXhTQWttd085Z0RvamtVMHg1VG1zVHRUWDcxYnNvMllPU2xNTlJINFpTM0tEanhHSWpVOVBzeXVZVElsRW5JVU1VM3QzdU9Ob19EOUpWX09yeUV1MDhUN1h4cUFjZEZTSHdJSVdmUnFRTWt1elNKQ0ZfbUNsNjVHc09lSl9ZSlhuT0p0RVU?oc=5",
       "pubDate": 1789886768000,
       "vendor": "qwen",
@@ -1306,10 +1390,10 @@
       "source": "Google AI"
     },
     {
-      "id": "-1127170128",
+      "id": "-2022810365",
       "title": "Alibaba Qwen Releases Qwen3.8-Omni-Flash: A 1M-Context Omni-Modal Model Built Around Agentic Audio-Video Understanding and Tool Use",
       "titleZh": "阿里巴巴Qwen发布Qwen3.8-Omni-Flash ：围绕代理音视频理解和工具使用构建的1M-Context全模式模型",
-      "summary": "Alibaba Qwen Releases Qwen3.8-Omni-Flash: A 1M-Context Omni-Modal Model Built Around Agentic Audio-Video Understanding and Tool Use marktechpost.com",
+      "summary": "Alibaba Qwen Releases Qwen3.8-Omni-Flash: A 1M-Context Omni-Modal Model Built Around Agentic Audio-Video Understanding and Tool Use MarkTechPost",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVEJPZUU0QkdfdU9BSEZpTjVEcnlpa1ctUXY1MEJrYVJuRzVObEJlaEJyR1drR2lwdTBoYmdHOHJwRHZPYkdEVjMzNndKbjJXS1dueVFKeDQ1aVBTT1NLQWtVZWhHSDVsa1dyS3lDdnBHald5WWZfR0ZIVzJGR1lIMHhHenR5ZXlx0gGOAUFVX3lxTE1OcWM0a2hiMFhkSHM1UjB1SWlhSHJnOHZkMnBWR2g4bWFIMFZFMjRWay1mekF4SkFPVTB6Tl9TUzRKVjAxZ3FWRF96cWdKUU8yWUtlSlVfSk9PT0V0ZmxrNGtLUFk0blZraUxIdElNbURaanB4bzN6Z3BDdGpVUEt2RjZHYmxLaXRnYnlmRUE?oc=5",
       "pubDate": 1789720837000,
       "vendor": "qwen",
@@ -1999,69 +2083,6 @@
       "source": "VentureBeat"
     },
     {
-      "id": "-1066961806",
-      "title": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
-      "titleZh": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
-      "summary": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems scmp.com",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRVNJbE00UDhJSkVIaktiZTNYR01uZTVVNXd1SV9yMGpJM2dILU1SeWVFQXphS0dmYVNsekZrckVQVkNQNndYaWkxS1lKdXJRdE5MWVFJVVJvNHNPWlVUcVhJc2lRbFRiMFdhODdJeXJuTjZNcTg4enJpbEhMdTYxaDlpenFsSDVWUENpcDdxalM5UWR3OG10dUlMYXNSRjNhdGRYX04wN2s2aF9mb2hfbjJHY1FJT1F2WS1TQU8yc3NXMlFxSEtxX29Ca9IBywFBVV95cUxNekQyWHA4bjlBc09IbGwyajJaMEl1LVp0RXk0aWE5Q3hNWXlLUU5JcWxVRjg0ZHcwN05jN3pva3c1QzBjTjlJUl9CLWVVMkhxSjBCT2I0eFZhNkZwNDYwM0tVS3J1X1plS1J5bm02bzM4YWxPOEpXMzdhSEtRRkI0MzRYc3RFQUJRNmdid2lsMWRDM0tkcjFjUFlmZHBZdDZiR05CWkd0MHBFb3dZdHZCTHNCVjU3ZHlRMmM5TVhoTVlkZzBJV0x3UFRsdw?oc=5",
-      "pubDate": 1787036400000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1667867601",
-      "title": "Alibaba’s TSMC-Built 5nm RISC-V Chip, XuanTie C950, Now Runs Qwen-3.8 27B Model Natively, Unlocking Massive Vertical Integration Tailwinds",
-      "titleZh": "Alibaba’s TSMC-Built 5nm RISC-V Chip, XuanTie C950, Now Runs Qwen-3.8 27B Model Natively, Unlocking Massive Vertical Integration Tailwinds",
-      "summary": "Alibaba’s TSMC-Built 5nm RISC-V Chip, XuanTie C950, Now Runs Qwen-3.8 27B Model Natively, Unlocking Massive Vertical Integration Tailwinds Wccftech",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRkpQQWpTWGg5N2hBeUVGazlnQzNialpBblQ5SURxWG51SW9VQ1huclhQOFNERXJ4NS1BUzRCTUw3WHJYbXhuaWp1UENFcGJ0MExQLU1odHRUUTZnUE1DeHZjdjBwcDFzUlgxZm1UeWw2M0p2MTluZlZBXzR4SXFZaWIwZ2J2Si1yS2xoWU5idFltWWd0eUtJdTZZRVFRNklRY3JJc3hnektBeWQyRHM2YmNnT0VjN0hNZElDNUtHZEU2d3p5SnlzMldBakQzbjRWY1pCNlliQl83el83c1VYSGdDR0M0eTNlbDdDRtIB8gFBVV95cUxQbVJzb2E0eTk1dzJJTEZTRndwQnhhTDVQb1I2aTFHQ3pwZ3RNUU9tRkw5UUdWN01KYmdVR0VyMnZ5cVhTUkx5OW95MmhQUDNQR1dub1FuQ2Y0TDlYOFViSXZOT2NHU0x3R1VXd3pCRWhSXzRHTXo1enlrSUJWZF9oM2w5RTZBTEl1M2xmR09Rck1yRDdXX3kwVHVvLTdlWXplWjJweC1Gcy1kb3M3cE5hYzFGTzdHVDVic0hTaE8tS0ZGNV93Y0NhMHpzWXE3cEtFbDhRNzlRRGwzeERPYnNhZUtkRkNlcVJBZW9uc3NjSmE4QQ?oc=5",
-      "pubDate": 1787036400000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "235906709",
-      "title": "Alibaba answers Meta’s AI challenge with new laptop-ready model",
-      "titleZh": "Alibaba answers Meta’s AI challenge with new laptop-ready model",
-      "summary": "Alibaba answers Meta’s AI challenge with new laptop-ready model cnbc.com",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNGFodld0bUNaak0zcjNiZU5MbmF6NWhrVjIxTFl5Tkl1MEFSOENuczNza1cwRGFnSXlTcU1sLUJmeWJMTjNOUG1RTFBzMTNMRGJsQzFHTlgzbkp3cmIwdy03N2tYd2RuN2Z0QnZzUGxWTmJJM2lWMVVIWkk3MUFkcjNtWkFqVHBlVjEw0gGQAUFVX3lxTE9LV0xtYUQ5UXpDNVIzYXk5VXVrUGREUFBQSlJyS0NDNzNkdDhSeVBXZkt0QVBKY09TOUtldVpUQjA4SEQ1UmsxaVpaMWdGeWFHdUg5MFVqTTRkRFItRTFWU2FiY3NSRjBMN0NDLTJMNXkwRTJrdi16OTlPd3VyU3RZeFZINEV2c29IeFFUSkhvWg?oc=5",
-      "pubDate": 1786950000000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1919882972",
       "title": "Chinese startup Moonshot's AI model breaks out of testing environment, researchers say",
       "titleZh": "研究人员表示，中国初创公司Moonshot的人工智能模型打破了测试环境",
@@ -2119,27 +2140,6 @@
         "kv": 0,
         "cw": 22,
         "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-529548436",
-      "title": "Alibaba's new Qwen AI model falls short of 'second only to Fable 5' claim",
-      "titleZh": "阿里巴巴新款Qwen AI机型未达到“仅次于寓言5”的说法",
-      "summary": "Alibaba's new Qwen AI model falls short of 'second only to Fable 5' claim Nikkei Asia",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcTJXZUh1VnNGRFU5WGlaeGxJS3pNZ19vdmNVQkVZM3R6QmpKdml1VGdHaW1OVEl5WS16WEdhbi1EUXhKVGFER3lnY2dYTk82Vm4xdVVLQmVSbkdoNUVicnZTMEdqRm02eU81RzhCclgzSjZJck1LM2JRbk9nQkkyUXg2ckdubGx6bFJwVlFlcWlQZnpIWVJncmt1MUNVbUUybGwyWThlNlFpNVpBUnV6OXAtNi1jM2cxNy03QTNMME5kY1JtUzdaVERZeEtKLUJSSm1zRUln?oc=5",
-      "pubDate": 1785740400000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
         "rc": 0,
         "cs": 1
       },
