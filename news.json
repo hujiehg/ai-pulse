@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T10:01:27.285Z",
+  "updated": "2026-09-26T14:14:28.351Z",
   "count": 106,
   "sources": 11,
   "items": [
@@ -244,13 +244,13 @@
       "vendor": "deepseek",
       "category": "Agent",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 12,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -307,13 +307,13 @@
       "vendor": "huggingface",
       "category": "Research",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 22,
         "st": 14,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -328,13 +328,34 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1009441652",
+      "title": "DeepSeek’s annualized revenue run rate hits $1B: report",
+      "titleZh": "DeepSeek’s annualized revenue run rate hits $1B: report",
+      "summary": "DeepSeek’s annualized revenue run rate hits $1B: report Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUjRZZzEySnBFejJMYTdRVnRsMkFkeE9oRnR3T1pIaEVLU3lKZkd3YVRKYXdVZmdwSUNfSU5pNms3ODE2ejJ1YkhLeXR5bDhNN3lESFh1cUx0VzBTU1JLRWxWMW9SRkhBRFpESXRTZGN2Z2hjVENIcjliVlVqdkExbWplT2ZaNHVlZjdpbGFvZjFGOXE0?oc=5",
+      "pubDate": 1790245711000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -464,6 +485,27 @@
         "cs": 1
       },
       "source": "DeepMind"
+    },
+    {
+      "id": "651958720",
+      "title": "China probes DeepSeek, Moonshot over alleged user data transfers to Anthropic’s Claude",
+      "titleZh": "China probes DeepSeek, Moonshot over alleged user data transfers to Anthropic’s Claude",
+      "summary": "China probes DeepSeek, Moonshot over alleged user data transfers to Anthropic’s Claude Ynetnews",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GWWREMzhXdXE5UW05UXhIdnJyb0p5VnBZeUZFMUVRSl9ZenQ1NkZGT3R3VUMxQlhQU2ZJVVNWaFN5QTVfUUhnMkQ0YjktM2t6SWJZSkxnUi01SjkzU2ZFZXlwWWZZRk9MUHcwYw?oc=5",
+      "pubDate": 1790170744000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "1649668",
@@ -676,6 +718,27 @@
       "source": "NVIDIA"
     },
     {
+      "id": "-1647391191",
+      "title": "Moonshot AI rolls out Kimi model for financial sector",
+      "titleZh": "Moonshot AI为金融部门推出Kimi模型",
+      "summary": "Moonshot AI rolls out Kimi model for financial sector China Daily Global Edition",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd2hNeUZBTjhIcnZqU0hEMjNmZ2VpUGZyV0V1WWptck15d1g1Um9MVHJaY0hwemVXUDR2MnVCMGJmNUxtQk14SDdzeWQxQkE5ZHlpMWJkb09ONnNZTlhSZGVMc1Q3VWFVeGp5T3pKOHJEY3Z0QmZEQldWNUhVR1d6T0Vn?oc=5",
+      "pubDate": 1790129523000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-459707083",
       "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
       "titleZh": "ChatGPT Ads扩展到东南亚和台湾",
@@ -802,10 +865,10 @@
       "source": "Google News"
     },
     {
-      "id": "507394680",
+      "id": "-1367394177",
       "title": "China Probes DeepSeek, Moonshot Over Potential Data Leaks to Anthropic",
       "titleZh": "中国探测DeepSeek ，月球探测器将潜在的数据泄露给人类",
-      "summary": "China Probes DeepSeek, Moonshot Over Potential Data Leaks to Anthropic The Information",
+      "summary": "China Probes DeepSeek, Moonshot Over Potential Data Leaks to Anthropic theinformation.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcEdBM0xIWXMwNkNGbHlhekt4cFlSdEczU09GTGt4RE1YZnNDUU1GLTlsLWhJNHlWOUdJU041aFN4eFEyTW9RX2VBRW9xNnRiYUpReUFzdm1veEgwa1hFR1FvTmRIeFpnS2VIbFJpOGRFLTJ5eFFfc2hSNzY2bmZweXlCUktCT1gwOG1IenJoTWp2WTJlZ0lYZzYzYlJuMWFhNjk0?oc=5",
       "pubDate": 1790075880000,
       "vendor": "kimi",
@@ -816,6 +879,27 @@
         "cq": 20,
         "kv": 3,
         "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "918824185",
+      "title": "'Better than DeepSeek': Xiaomi's MiMo-V2.6-Pro debuts as the top open weights model in the world alongside cheaper V2.6-Flash",
+      "titleZh": "“Better than DeepSeek” ：小米的MiMo-V2.6-Pro首次亮相，与更便宜的V2.6-Flash一起成为全球顶级开放式权重型号",
+      "summary": "'Better than DeepSeek': Xiaomi's MiMo-V2.6-Pro debuts as the top open weights model in the world alongside cheaper V2.6-Flash venturebeat.com",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbk5wYXNlUU0zTGZIT3J4XzdCWVdna29yZ1FiNFpWcm5yemZ0S2ExQlBCVm1TUzZpRHo4anVHNXFWajlSbWxEeWhGWlIzV0gwbUhqQWtfTldSMU40RkFzUDRtVTRocDc1WVZORUVEbXlvV2FxR2JuQkN5Yi16OS1mbG85c0VEb0lEdEQtLWYyTWhERUVhQkozUkF5Q1hBS0tkR0xtbGJWenhKUGFkNWxlRjQ2SmYwTTFKSWphOUw5WFNzVG1WVEwtdUNELUw1NlJvTjdDbmZHNkZ0SVZJWGFQUUxRclFyaXlla2ZIMw?oc=5",
+      "pubDate": 1790040646000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -884,27 +968,6 @@
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "805827490",
-      "title": "Alibaba Qwen Releases Qwen-Image-2.1: A 7B Open-Weight Model for Image Generation and Editing",
-      "titleZh": "阿里巴巴Qwen发布Qwen-Image-2.1 ：用于图像生成和编辑的7B开放式权重模型",
-      "summary": "Alibaba Qwen Releases Qwen-Image-2.1: A 7B Open-Weight Model for Image Generation and Editing MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNU0JXUndVd2hCcXdycTc4XzhSWHpJOUtaN1NRWjQxWTJkY2J2UUJzRWdzWFNiLVJHRE1tN0d0YmFUdmdGekhfQmFhNWhHLWozOW42eW1FRlV5Ty1mWG9iNzlJcWd0VUM2OFJJalh0czYwLThiXzJMcTBjUEx5dGstenlwONIBiAFBVV95cUxPVl9MN2plOFZTMk1kSF9OZXY5XzNHSkVWb2Q3T2VIbTNScjltNEZCakNXTzlKQ0lCamVYVjNDdVFwYlVFLTB5SWJFNGZkY2wwNUNCaW5GMDhoM1NZM0tjWUFLWFBiamhhWG9XMTZnM0tSNUFpZ0E0WmlFT0NBU0hvcWpfX290ejVz?oc=5",
-      "pubDate": 1790008844000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "117527338",
@@ -1201,6 +1264,27 @@
       "source": "Google News"
     },
     {
+      "id": "1451079842",
+      "title": "US government website used AI search tool from China that FBI said copied Anthropic",
+      "titleZh": "美国政府网站使用来自中国的人工智能搜索工具，联邦调查局称该工具复制了",
+      "summary": "US government website used AI search tool from China that FBI said copied Anthropic Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSTBHb0F3bjFOTVY4RDExZ1Q4SUVqOEppWEdrc0t0TUhUc0NZNG0yZl9Da2daU1RyRnZPYlMzSDRRM0UzTlgwSHpTTDBKR201eVJocll5WHhKdDZNekVTTnBiQmhLaGZaaXZXQTBPRncxNjVUQjNIWU50RWRNd19wNmR4VGdNMzJEeGpoMXRNSG9Bd1JYc0ZYemZkUXZGUXBLRVBLYnozN1FmZ1dlcTYwdHU0aEtxd2RJOC1jb1M5empFdmNSWEV5bzAwTQ?oc=5",
+      "pubDate": 1789628400000,
+      "vendor": "anthropic",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-421920195",
       "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
       "titleZh": "隆重推出Gemini 3.8 Live和3.8 Live Extended Thinking",
@@ -1390,6 +1474,27 @@
       "source": "Google News"
     },
     {
+      "id": "1506243361",
+      "title": "China AI Star Moonshot Eyes $2 Billion Annualized Sales in 2026",
+      "titleZh": "2026年中国AI Star Moonshot年销售额达$ 20亿",
+      "summary": "China AI Star Moonshot Eyes $2 Billion Annualized Sales in 2026 Bloomberg",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLUllQm9GSVhqampKNXBQSjcxVENFX2lwN0xwU05wZVlxdzNnNU9iOXBRV0FQNU5HWmxyRjM2Y243TEd4SElLYkpIYjQ4YnUyZnk1cFdiQWF4S3oteGx3OThldTlsSzQ1bXhXbXJxYVFoZ2w2bTBWdDlpWEZkZmFWWTlxWHBsM182OWdkTU5yUTkyYllxbTBDOWIyZDJ0NzdGS1dPdEV4djV2RHp0Q29oaUM4aw?oc=5",
+      "pubDate": 1789110000000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-772445135",
       "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
       "titleZh": "Skild AI利用NVIDIA Physical AI从单个视频中向机器人教授新任务",
@@ -1493,6 +1598,27 @@
         "cs": 1
       },
       "source": "NVIDIA"
+    },
+    {
+      "id": "-292923544",
+      "title": "U.S. agencies say top Chinese AI companies systematically copied American models",
+      "titleZh": "美国机构表示，中国顶级人工智能公司系统地复制了美国模式",
+      "summary": "U.S. agencies say top Chinese AI companies systematically copied American models NBC News",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVUxsTGJWZ0pWNzFIUEtVdnVmTjVNMmU5ei1VUW52cFJ5b1plbEY5a2xidEllRFR3NXBkdlpHeTFmR1NyNVJ2Y19oSElYd3RrTXhfQVJtZ3JvbEg3TTBYUG1wSFdpY3RZaXJaSk9EdGstZWlpcXJQY0lVdnZYanhkTVNwVzN3R0wwQmVvRDZZMHNwcVhLbG44SXFsZkhBekcxdl85U0dUVXVkVnpVMlBmcXNWS19HX0sz?oc=5",
+      "pubDate": 1788937200000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1817924407",
@@ -1810,90 +1936,6 @@
       "source": "Google News"
     },
     {
-      "id": "-2016155837",
-      "title": "DeepSeek's AI Models Are About To Cost Four Times More",
-      "titleZh": "DeepSeek的人工智能模型成本将增加四倍",
-      "summary": "DeepSeek's AI Models Are About To Cost Four Times More Engadget",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT2FId1BnQ0MyY3Rzem9GYVo0blhJUnVqMEpYektCc1F5cy0xS09SODdqOEZrNXZGZE1NVlR6TGFacEw1Uzh6SEtfQzBEU2pfSDRpTW9YRVBoSlJyNElwcmJBOFZmVzIyVHZZS0hhcmJ6cWkzeWlMc2pOQmMwX055Yg?oc=5",
-      "pubDate": 1786690800000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1919882972",
-      "title": "Chinese startup Moonshot's AI model breaks out of testing environment, researchers say",
-      "titleZh": "研究人员表示，中国初创公司Moonshot的人工智能模型打破了测试环境",
-      "summary": "Chinese startup Moonshot's AI model breaks out of testing environment, researchers say Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc2Q3eXFPcENXOWZ2cFkyM0lQUEdyMGhqTTdDbHc5dWZMa0xhV2x1U0RpZ2pUT0d5MjdNNjlHR1ZVRklMZmxnZHA3VHJyRnBJTzhsR2Jpc1dGQ2F2cnQ1VkhsMHBiZ3FQOU5BTWNjVERRdktTRjQ2UEFQMi10VmZIQzNQdzlacXc3U2lrNUJFUHV1djVlRGhvYVhCejRpX0w1dDFkS202MU5hUDBSS285b0Q3TnZORE8xZWJoM0F1VU9HVWR1Qkwzdk93?oc=5",
-      "pubDate": 1786086000000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1375271958",
-      "title": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say",
-      "titleZh": "研究人员表示，中国人工智能模型Kimi逃脱了网络安全测试环境",
-      "summary": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX2NpajBveEZEMlMxOS1TVjlwaDZJYmVmWU1EZnZHbTJBaHZWbkxYdG44aF92TkZ3MW9RUlM2dWlFTFMtTGZXb1R1a0oydzE0YU81WHh4S1pHd3JOaDd5OW5BT1Y4VWItaVBZekVYcFM2T2dMNWlBSjU0eGpnaXJOeDE0bkJSNDFKaVhmdFE5WFMzVEZYWG1BWGJmc1FENl9haTFBdTVFNVRzRVNzS0ZsNUtyQ1ZvdjFWbmc?oc=5",
-      "pubDate": 1786086000000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-241689768",
-      "title": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
-      "titleZh": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
-      "summary": "One of China’s Most Powerful AI Models Has Also Escaped Containment WIRED",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzUHl5MU1HbXJUemVtQWI4MzVQYmtWaUhHU19SMUp3bnFEY1NGaTN0LVpibXhwUTFNamtZMFBuLTNmOFhsN2VMRXRGWU9yMFBLbVlFNkhKVTVNc3JtdXRnY093aDdWaUJhcVhaX2NTQkgxNFhPdWw1SQ?oc=5",
-      "pubDate": 1785999600000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-529548436",
       "title": "Alibaba's new Qwen AI model falls short of 'second only to Fable 5' claim",
       "titleZh": "阿里巴巴新款Qwen AI机型未达到“仅次于寓言5”的说法",
@@ -1901,48 +1943,6 @@
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcTJXZUh1VnNGRFU5WGlaeGxJS3pNZ19vdmNVQkVZM3R6QmpKdml1VGdHaW1OVEl5WS16WEdhbi1EUXhKVGFER3lnY2dYTk82Vm4xdVVLQmVSbkdoNUVicnZTMEdqRm02eU81RzhCclgzSjZJck1LM2JRbk9nQkkyUXg2ckdubGx6bFJwVlFlcWlQZnpIWVJncmt1MUNVbUUybGwyWThlNlFpNVpBUnV6OXAtNi1jM2cxNy03QTNMME5kY1JtUzdaVERZeEtKLUJSSm1zRUln?oc=5",
       "pubDate": 1785740400000,
       "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-464609805",
-      "title": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says",
-      "titleZh": "研究公司表示， DeepSeek的新人工智能模型是迄今为止运行的最便宜的知名模型。",
-      "summary": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says Reuters",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTnd6ckhOVUhwcGJjRmxRdlhObS1ncXRhZm9OeVUwaEgwOTg5YmNBTGVWcHZsdXd4dXVrWWdlZGtsYkw0eDIyY1A3NjdSM0o0bFBGUEZRNDF2NjYwZEtCamNpeTFqN3ZaQVlTclNuQWYxNXh4ZVlqaWF3WkNNVk1fbmJXcTdISlBmUVVWS01STmFYZldLSGk5akJQZVB5X09OSzVoVWF4Wko4TEF4cGozQUlWM202dFJWMGxSRTdpcTNaaUp6bmNyZXpWbVRFb2JoSzdCVQ?oc=5",
-      "pubDate": 1785654000000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1937431074",
-      "title": "DeepSeek's new bargain model accelerates AI's race to zero",
-      "titleZh": "DeepSeek的新讨价还价模式加速了人工智能的零竞赛",
-      "summary": "DeepSeek's new bargain model accelerates AI's race to zero Axios",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04emlXWXpVQXhNcjJsU1d5ZmhnU1J2TFRyeFlxM2hqUUNUNVR2UmxFQUNBanYwWnd5ZUpTRnptVEh2TXU2NU5aa0FRbFV6ejVPd2wxWFNXa3RoaTZPQ0dQSHc0Tkk4WE93Q1JwV0tIWGNBaGNG?oc=5",
-      "pubDate": 1785567600000,
-      "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
       "score": 55,
