@@ -1,8 +1,29 @@
 {
-  "updated": "2026-09-27T17:53:38.463Z",
+  "updated": "2026-09-27T20:37:25.867Z",
   "count": 107,
   "sources": 11,
   "items": [
+    {
+      "id": "1114335221",
+      "title": "Anthropic’s Dario Amodei gets the SNL treatment",
+      "titleZh": "Anthropic’s Dario Amodei gets the SNL treatment",
+      "summary": "\"AI is the devil and I its maker.\"",
+      "link": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
+      "pubDate": 1790526600000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-311482209",
       "title": "Moonshot AI’s Kimi K3 Hits Bedrock: 1.56TB Release [2026] - tech",
@@ -181,13 +202,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -202,13 +223,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "high",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 1,
         "cw": 15,
         "st": 8,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -223,13 +244,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -244,34 +265,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-659019956",
-      "title": "Ahead of US IPO, British AI neocloud Nscale secures $3.36B in convertible financing",
-      "titleZh": "在美国IPO之前，英国人工智能新云Nscale获得了33.6亿美元的可转换融资",
-      "summary": "The funding, which comes from Third Point, Nvidia, and others, will fuel the company's massive AI data center buildout.",
-      "link": "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/",
-      "pubDate": 1790361239000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "high",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 20,
-        "st": 8,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -2048,13 +2048,13 @@
       "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
       "pubDate": 1615961906000,
       "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
+      "category": "Research",
+      "impact": "high",
+      "score": 59,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 2,
-        "cw": 15,
+        "cw": 22,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -2069,13 +2069,13 @@
       "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
       "pubDate": 1610002951000,
       "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
+      "category": "Release",
+      "impact": "high",
+      "score": 61,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 3,
-        "cw": 15,
+        "cw": 25,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -2091,7 +2091,7 @@
       "pubDate": 1609824612000,
       "vendor": "microsoft",
       "category": "Product",
-      "impact": "med",
+      "impact": "high",
       "score": 50,
       "scoreBreakdown": {
         "cq": 22,
@@ -2111,13 +2111,13 @@
       "link": "https://news.microsoft.com/en-in/nasscom-futureskills-microsoft-launch-ai-classroom-series-skill-students/",
       "pubDate": 1599716180000,
       "vendor": "microsoft",
-      "category": "Release",
+      "category": "Product",
       "impact": "high",
-      "score": 62,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 4,
-        "cw": 25,
+        "cw": 15,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -2132,13 +2132,13 @@
       "link": "https://news.microsoft.com/en-in/industry-and-research-better-together-sriram-rajamani/",
       "pubDate": 1598613057000,
       "vendor": "microsoft",
-      "category": "Product",
+      "category": "Research",
       "impact": "med",
-      "score": 52,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 4,
-        "cw": 15,
+        "cw": 22,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -2153,13 +2153,13 @@
       "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
       "pubDate": 1594186160000,
       "vendor": "microsoft",
-      "category": "Release",
-      "impact": "med",
-      "score": 64,
+      "category": "Product",
+      "impact": "high",
+      "score": 54,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 4,
-        "cw": 25,
+        "cw": 15,
         "st": 10,
         "rc": 0,
         "cs": 1
