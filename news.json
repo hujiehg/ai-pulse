@@ -1,25 +1,235 @@
 {
-  "updated": "2026-09-28T16:25:54.748Z",
+  "updated": "2026-09-28T22:13:35.668Z",
   "count": 116,
   "sources": 12,
   "items": [
     {
-      "id": "-1956576156",
-      "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation",
-      "titleZh": "病毒式人工智能代理Instinct以100亿美元的估值筹集了10亿美元的C轮融资",
-      "summary": "Instinct has raised a $1 billion Series C, saying 'we're just getting started.' The company is now valued at $10 billion.",
-      "link": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
-      "pubDate": 1790602728000,
+      "id": "-727848817",
+      "title": "Shopify opens checkout to browser-based AI agents",
+      "titleZh": "Shopify向基于浏览器的人工智能代理开放结账",
+      "summary": "Shopify is expanding WebMCP support to checkout, allowing browser-based AI agents to update order details and complete purchases with a buyer’s authorization.",
+      "link": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+      "pubDate": 1790624037000,
       "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "high",
-      "score": 53,
+      "category": "Product",
+      "impact": "med",
+      "score": 44,
       "scoreBreakdown": {
         "cq": 16,
-        "kv": 4,
-        "cw": 20,
+        "kv": 0,
+        "cw": 15,
         "st": 8,
         "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1464852399",
+      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "titleZh": "观看Future Vision XPRIZE的获奖预告片《The Gifted》。",
+      "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+      "pubDate": 1790622000000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google AI"
+    },
+    {
+      "id": "1036060264",
+      "title": "Nvidia launches new platform for reining in rogue AI agents",
+      "titleZh": "英伟达推出控制流氓人工智能代理的新平台",
+      "summary": "As the debate rages over whether the recent spate of rogue AI agents is a step toward AGI or a more conventional engineering problem, Nvidia is offering its own answer to problem. Nvidia CEO Jensen Hu…",
+      "link": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
+      "pubDate": 1790620283000,
+      "vendor": "techcrunch",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 3,
+        "cw": 25,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "811284346",
+      "title": "Anthropic releases Sonnet 5.5, which it calls a significantly cheaper, faster work partner",
+      "titleZh": "Anthropic发布了Sonnet 5.5 ，它称之为更便宜、更快捷的工作伙伴",
+      "summary": "Anthropic has released the newest version of its mid-range model, boasting faster response times and less token burn.",
+      "link": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/",
+      "pubDate": 1790618400000,
+      "vendor": "techcrunch",
+      "category": "Release",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 25,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "689647106",
+      "title": "Google is killing off Gemini’s Gems in favor of ‘skills’",
+      "titleZh": "Google is killing off Gemini’s Gems in favor of ‘skills’",
+      "summary": "As all-in-one AI agents like Meta's Muse and Instinct take off, Google is opting to end a feature which built task-specific agents.",
+      "link": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
+      "pubDate": 1790616590000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "749929344",
+      "title": "OpenAI still doesn’t seem to have a handle on all of its rogue AI activity",
+      "titleZh": "OpenAI still doesn’t seem to have a handle on all of its rogue AI activity",
+      "summary": "On Friday, OpenAI published a new site devoted to “misalignment reports” and the breadth of the incidents is alarming.",
+      "link": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
+      "pubDate": 1790615342000,
+      "vendor": "techcrunch",
+      "category": "Safety",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 1,
+        "cw": 10,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1099655880",
+      "title": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
+      "titleZh": "Meta推出企业人工智能平台，聘请MongoDB首席执行官领导新举措",
+      "summary": "Meta says it will focus on bringing its full technology stack, including Muse, Meta Business Agent, Muse API, Muse Code, and more to businesses and developers.",
+      "link": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+      "pubDate": 1790614358000,
+      "vendor": "techcrunch",
+      "category": "Release",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 25,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1847420104",
+      "title": "Anthropic, Gamma, and Clay share what happens when enterprises actually deploy AI at TechCrunch Disrupt 2026",
+      "titleZh": "Anthropic、Gamma和Clay分享了当企业在TechCrunch Disrupt 2026上实际部署人工智能时会发生什么",
+      "summary": "Anthropic, Clay, and Gamma on what it takes for an AI product to go beyond the demo at the AI Stage at TechCrunchDisrupt 2026. Register to join and get 50% off a second pass.",
+      "link": "https://techcrunch.com/2026/09/28/anthropic-gamma-and-clay-share-what-happens-when-enterprises-actually-deploy-ai-at-techcrunch-disrupt-2026/",
+      "pubDate": 1790609400000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "44906486",
+      "title": "After a deepfake voice fooled her grandfather, this founder sprang into action",
+      "titleZh": "在深度伪造的声音欺骗了她的祖父之后，这位创始人迅速采取行动",
+      "summary": "After her grandfather was scammed by a deepfake of his brother's voice, Tarini Padmanabhuni founded DetectifAI, a San Francisco startup building AI models small enough to run directly on smartphones a…",
+      "link": "https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action/",
+      "pubDate": 1790607600000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 22,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-853913339",
+      "title": "Next 5 VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026",
+      "titleZh": "接下来的5位风投在TechCrunch Disrupt 2026评选初创公司Battlefield 200竞争者",
+      "summary": "Thousands of applications. Multiple rounds of review. Hundreds of hours spent evaluating startups from around the world. Now comes the part everyone has been waiting for. Register for TechCrunch Disru…",
+      "link": "https://techcrunch.com/2026/09/28/next-five-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026/",
+      "pubDate": 1790605800000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-848464804",
+      "title": "Modulate raises $25M for its voice models and analysis suite",
+      "titleZh": "Modulate为其语音模型和分析套件筹集了2500万$",
+      "summary": "Modulate deploys its models to detect deepfake, fraud and scam",
+      "link": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/",
+      "pubDate": 1790604300000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 1,
+        "cw": 22,
+        "st": 8,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -277,69 +487,6 @@
       "source": "Google News"
     },
     {
-      "id": "1486673348",
-      "title": "Anthropic’s CEO is about to have dinner with President Trump",
-      "titleZh": "Anthropic’s CEO is about to have dinner with President Trump",
-      "summary": "This will be the first one-on-one meeting between Dario Amodei and Donald Trump",
-      "link": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
-      "pubDate": 1790541268000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "817198189",
-      "title": "Can Muse overcome Meta’s trust issues?",
-      "titleZh": "Can Muse overcome Meta’s trust issues?",
-      "summary": "On Equity, we discussed how Meta's AI announcement managed to steal the spotlight from OpenAI and Anthropic.",
-      "link": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
-      "pubDate": 1790539050000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 25,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1114335221",
-      "title": "Anthropic’s Dario Amodei gets the SNL treatment",
-      "titleZh": "Anthropic’s Dario Amodei gets the SNL treatment",
-      "summary": "\"AI is the devil and I its maker.\"",
-      "link": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
-      "pubDate": 1790526600000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "-311482209",
       "title": "Moonshot AI’s Kimi K3 Hits Bedrock: 1.56TB Release [2026] - tech",
       "titleZh": "Moonshot AI’s Kimi K3 Hits Bedrock: 1.56TB Release [2026] - tech",
@@ -361,69 +508,6 @@
       "source": "Google News"
     },
     {
-      "id": "520875069",
-      "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
-      "titleZh": "谷歌在印度测试通过Gemini和AI Mode从沃尔玛旗下的Flipkart购物",
-      "summary": "The limited test covers select products and users, with a broader rollout planned for later in October.",
-      "link": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
-      "pubDate": 1790472600000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1551079356",
-      "title": "Insurers claim AI is already increasing healthcare costs",
-      "titleZh": "保险公司声称人工智能已经在增加医疗保健成本",
-      "summary": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period.",
-      "link": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
-      "pubDate": 1790456526000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1373515600",
-      "title": "I created an interactive digital avatar of myself — and you can talk to it",
-      "titleZh": "I created an interactive digital avatar of myself — and you can talk to it",
-      "summary": "After obtaining an interactive avatar and training it to discuss venture fraud, I have mixed feelings about making AI clones of ourselves.",
-      "link": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
-      "pubDate": 1790431200000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "-1063421264",
       "title": "Chinese AI models surge in global popularity — and Washington is worried",
       "titleZh": "Chinese AI models surge in global popularity — and Washington is worried",
@@ -443,69 +527,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-1179110359",
-      "title": "At Meta Connect, the company’s smart glasses were everywhere",
-      "titleZh": "At Meta Connect, the company’s smart glasses were everywhere",
-      "summary": "The company behind Facebook and Instagram wants to keep consumers connected to the digital world via its ever-growing line of smart glasses.",
-      "link": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/",
-      "pubDate": 1790384937000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-544126856",
-      "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
-      "titleZh": "Crusoe放弃$ 12.5亿计划，在人工智能数据中心使用Boom涡轮机",
-      "summary": "Boom Supersonic CEO Blake Scholl said the company's new stationary power plants were no longer in Crusoe's near-term plans.",
-      "link": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
-      "pubDate": 1790377870000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1052330448",
-      "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
-      "titleZh": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
-      "summary": "AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's knowledge.",
-      "link": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
-      "pubDate": 1790374847000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 22,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "-880806417",
@@ -1147,13 +1168,13 @@
       "vendor": "qwen",
       "category": "Release",
       "impact": "high",
-      "score": 65,
+      "score": 64,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google News"
@@ -1572,27 +1593,6 @@
         "cq": 20,
         "kv": 0,
         "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
-    },
-    {
-      "id": "846317281",
-      "title": "DevFest is back",
-      "titleZh": "DevFest回来了",
-      "summary": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "pubDate": 1789401600000,
-      "vendor": "google",
-      "category": "Agent",
-      "impact": "med",
-      "score": 40,
-      "scoreBreakdown": {
-        "cq": 12,
-        "kv": 0,
-        "cw": 12,
         "st": 15,
         "rc": 0,
         "cs": 1
