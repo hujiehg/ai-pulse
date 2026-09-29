@@ -1,8 +1,281 @@
 {
-  "updated": "2026-09-29T02:08:47.066Z",
-  "count": 117,
+  "updated": "2026-09-29T08:49:41.087Z",
+  "count": 116,
   "sources": 12,
   "items": [
+    {
+      "id": "1421551572",
+      "title": "Kimi K3.1 identifier reportedly surfaces in Moonshot API registry",
+      "titleZh": "据报道， Kimi K3.1标识符在Moonshot API注册表中显示",
+      "summary": "Kimi K3.1 identifier reportedly surfaces in Moonshot API registry TechNode",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTnJZTWFzbUpBbldNRV94Nl9PSUZ0MkJleWswVjlQbTlQdG9INFNOX2RhamZ4Q2N1RXVPV0hTLUktQ000NVZSVEtjaUViUkdTNDVicWswY3ZjQU83QzB5bDhuZGhIX1JxWl9SdUd1SzQ5dnRxVW1jMl9DVnM4SGxGcWI4NVRpNjQxQUFGVHZPSzdQOGNlNFU4V2psdHF6Nzg?oc=5",
+      "pubDate": 1790664940000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "2110758892",
+      "title": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
+      "titleZh": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
+      "summary": "In its prospectus, Anthropic just told investors it's losing tens of billions of dollars a year, but also growing like crazy, and — oh yeah — its own AI might pose an existential risk to humanity.",
+      "link": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
+      "pubDate": 1790658823000,
+      "vendor": "techcrunch",
+      "category": "Safety",
+      "impact": "high",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 1,
+        "cw": 10,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "897695848",
+      "title": "Alibaba Qwen Releases Qwen-Audio-3.1-Realtime: A Full-Duplex Voice Model Trained to Think, Act, and Decide When to Speak",
+      "titleZh": "阿里巴巴Qwen发布Qwen-Audio-3.1-Realtime ：经过训练的全双工语音模型，能够思考、行动并决定何时说话",
+      "summary": "Alibaba Qwen Releases Qwen-Audio-3.1-Realtime: A Full-Duplex Voice Model Trained to Think, Act, and Decide When to Speak MarkTechPost",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPcjJjREI5UjZYRjNoX1hTNmJ3SEwtSE9zOW5RZW9Wb3oybUJVY1E0WUIxLWtOU3M5c1NJdl9sa1A2WENGWkxYWlIwSnNQZVE1VFFnd295dlhGdVlpNjg3MlV5czZSUkN0cFhPMzNHMDdvaDFIZlBJMXp4Q0RJZVh1aEFxZzJHS3lZT2RILXdsSVIyUG82TzBFWXVWY3RmaHN4V01odEFReWN1bEFKZmtZVFhtTTZMYURuS2hMWVhGTDk2U3JGZXRpZ1hfSVFYTjVqSURUd1ZUN0I0UnZhYmxrUjdrSkJpcG5YcDhKeHFWVdIB9AFBVV95cUxQRXYwX3VVRUo4TUFqNGkzNWZvS0JHemFpVVAxNmJxTjVkSmlRQWpBSm1QT3Y4eDNhUUJkZ1dnZEU4UUl4LVBNekZRT2dlMGI0V3lyc3Z0VUJZX0FvSnpjZXJiX3VrcGI2cFMtNHJfSndITUhYT0JDUTU3cnlnbW9iQUx1MjBQQ3dEeXdmUzgzck9oMnZkYmdVSDFHd1ZBWXRibmlGVjk3Z1Bld2FSVEdjemRUUWFuSkFGSE5fQVdRQk9KSFgwbGNla1FjUWhTMGY5ZldMRUk3djVrczNEd0w1cGFVVFltejA0SmJVN19TTTROMXhy?oc=5",
+      "pubDate": 1790657895000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1277387362",
+      "title": "SMARtCARE: Privacy-Preserving Agentic AI Systems for Bounded-Autonomy Clinical Decision Support",
+      "titleZh": "SMARtCARE ：用于有界自主临床决策支持的隐私保护代理AI系统",
+      "summary": "arXiv:2609.31763v1 Announce Type: new Abstract: Long-context clinical AI systems can miss relevant patient history when prior admissions fall outside the active reasoning context. In ICU monitoring, t…",
+      "link": "https://arxiv.org/abs/2609.31763",
+      "pubDate": 1790654400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "335690053",
+      "title": "Witeness Overlap: Directional Provenance Inside Open-Weight Model Families",
+      "titleZh": "Witeness Overlap ：开放式重量模型系列中的定向来源",
+      "summary": "arXiv:2609.31784v1 Announce Type: new Abstract: Open-weight models are often released, fine-tuned, aligned, merged, and re-released, making provenance audits ask not only whether checkpoints are relat…",
+      "link": "https://arxiv.org/abs/2609.31784",
+      "pubDate": 1790654400000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "high",
+      "score": 69,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 25,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-673380570",
+      "title": "CP-Agent: A Harness-Engineered Agent for Crystal Plasticity Simulation Workflows",
+      "titleZh": "CP-Agent ：用于晶体塑性模拟工作流程的线束工程代理",
+      "summary": "arXiv:2609.31790v1 Announce Type: new Abstract: Crystal plasticity (CP) simulations predict the mechanical behavior of polycrystalline metals, yet their routine use is hindered by the manual effort of…",
+      "link": "https://arxiv.org/abs/2609.31790",
+      "pubDate": 1790654400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-2022500100",
+      "title": "ConflictVLA-Bench: Benchmarking Behavioral Responses of Vision-Language-Action Models to Premise Conflicts",
+      "titleZh": "ConflictVLA-Bench ：将视觉-语言-行动模型的行为反应作为前提冲突的基准",
+      "summary": "arXiv:2609.31792v1 Announce Type: new Abstract: While Vision-Language-Action (VLA) models perform strongly on manipulation tasks, their responses to invalid task premises remain underexplored. Existin…",
+      "link": "https://arxiv.org/abs/2609.31792",
+      "pubDate": 1790654400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "252298451",
+      "title": "Working with AI: A Design Framework for Human-AI Collaboration",
+      "titleZh": "使用人工智能：人类人工智能协作的设计框架",
+      "summary": "arXiv:2609.31793v1 Announce Type: new Abstract: Artificial Intelligence (AI), particularly GenAI, is becoming an increasingly important part of modern work. In industrial settings, AI can support deci…",
+      "link": "https://arxiv.org/abs/2609.31793",
+      "pubDate": 1790654400000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 15,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "529122019",
+      "title": "DriveHierarchy: A Benchmark for Diagnosing VLM Driving Capabilities from Open-Loop Understanding to Closed-Loop Execution",
+      "titleZh": "DriveHierarchy ：从开环理解到闭环执行的VLM驱动能力诊断基准",
+      "summary": "arXiv:2609.31814v1 Announce Type: new Abstract: Evaluating VLM-based autonomous driving remains difficult because driving competence is composite, where a capable system must ground traffic participan…",
+      "link": "https://arxiv.org/abs/2609.31814",
+      "pubDate": 1790654400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 8,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1596412686",
+      "title": "LLM Judge Validation Under Sparse Overlap: From Inference to Design",
+      "titleZh": "稀疏重叠下的法学硕士评委验证：从推理到设计",
+      "summary": "arXiv:2609.31857v1 Announce Type: new Abstract: Validating an LLM-as-a-judge requires estimating its agreement with humans, yet annotation budgets rarely allow every item to be multiply labeled. We pr…",
+      "link": "https://arxiv.org/abs/2609.31857",
+      "pubDate": 1790654400000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "med",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 25,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "876862854",
+      "title": "Metro-WM: Long-Horizon Latent Planning with Realisable Sub-Goals",
+      "titleZh": "Metro-WM ：具有可实现子目标的长期潜在规划",
+      "summary": "arXiv:2609.31868v1 Announce Type: new Abstract: Model-predictive control with Joint-Embedding Predictive Architectures (JEPAs) provides a strong zero-shot goal-reaching planner, but it is only effecti…",
+      "link": "https://arxiv.org/abs/2609.31868",
+      "pubDate": 1790654400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-106108685",
+      "title": "IndustryLLM: Failure-Driven LLM Training for Industrial Procurement",
+      "titleZh": "IndustryLLM ：工业采购的故障驱动LLM培训",
+      "summary": "arXiv:2609.31871v1 Announce Type: new Abstract: Industrial procurement requires language models to bridge informal buyer jargon, sparse marketplace attributes, and authoritative engineering standards …",
+      "link": "https://arxiv.org/abs/2609.31871",
+      "pubDate": 1790654400000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "high",
+      "score": 71,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 10,
+        "cw": 25,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1679731787",
+      "title": "COUNTERMEM: World-Model Verified Counter-Factual Memory for Language Agents",
+      "titleZh": "COUNTERMEM ：语言代理的世界模型验证反事实记忆",
+      "summary": "arXiv:2609.31874v1 Announce Type: new Abstract: Existing agent memory frameworks mainly create memory through an agent's interaction with the factual world, e.g., remembering feedback from actions tak…",
+      "link": "https://arxiv.org/abs/2609.31874",
+      "pubDate": 1790654400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 67,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
     {
       "id": "-1678324299",
       "title": "Peak XV ups Surge seed investment ceiling to $5M, unveils 18-startup cohort",
@@ -13,16 +286,37 @@
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "med",
-      "score": 58,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 3,
         "cw": 25,
         "st": 8,
-        "rc": 5,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "-1105547650",
+      "title": "Alibaba Unveils Qwen Intelligence Full Stack for Agentic AI Smartphones",
+      "titleZh": "阿里巴巴为Agentic AI智能手机推出Qwen Intelligence全栈",
+      "summary": "Alibaba Unveils Qwen Intelligence Full Stack for Agentic AI Smartphones thelec.net",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9sVFY5ek9JbFpvdF9OVjJGR2FUdGpQd1NBMG4yazlqME1fRm9iWUNIanlRdVFiaGtPTjZJMmZNbmlLa1V4Y2pFUXBjMmVvSVdJTUZmYjZLWFgtZkllam1kNVptU1hRa2s?oc=5",
+      "pubDate": 1790641053000,
+      "vendor": "qwen",
+      "category": "Agent",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 12,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "671232983",
@@ -34,13 +328,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 22,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,13 +349,13 @@
       "vendor": "techcrunch",
       "category": "Funding",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 1,
         "cw": 20,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -76,13 +370,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "high",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -128,6 +422,27 @@
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "-217455886",
+      "title": "How we will do better for Australia",
+      "titleZh": "我们将如何为澳大利亚做得更好",
+      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+      "link": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "pubDate": 1790622000000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
     },
     {
       "id": "-1464852399",
@@ -214,27 +529,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "749929344",
-      "title": "OpenAI still doesn’t seem to have a handle on all of its rogue AI activity",
-      "titleZh": "OpenAI still doesn’t seem to have a handle on all of its rogue AI activity",
-      "summary": "On Friday, OpenAI published a new site devoted to “misalignment reports” and the breadth of the incidents is alarming.",
-      "link": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
-      "pubDate": 1790615342000,
-      "vendor": "techcrunch",
-      "category": "Safety",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 1,
-        "cw": 10,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "1716875539",
       "title": "Holo4: powering generalist computer-use agents",
       "titleZh": "Holo4 ：为通用计算机使用代理提供动力",
@@ -265,226 +559,16 @@
       "vendor": "openai",
       "category": "Funding",
       "impact": "high",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 1,
         "cw": 20,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "1811917444",
-      "title": "Bringing AI to Autonomous Systems -- From Cognition to Collective Intelligence",
-      "titleZh": "将人工智能引入自主系统--从认知到集体智能",
-      "summary": "arXiv:2609.30291v1 Announce Type: new Abstract: The purpose of this article is to highlight the central role of autonomous systems as the ultimate stage in the development of AI, to explain the underl…",
-      "link": "https://arxiv.org/abs/2609.30291",
-      "pubDate": 1790568000000,
-      "vendor": "arxiv",
-      "category": "Agent",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 12,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-941988726",
-      "title": "ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?",
-      "titleZh": "ScopeBench ：客服代表是否在目标压力下保持参与度界限？",
-      "summary": "arXiv:2609.30325v1 Announce Type: new Abstract: Agents are increasingly deployed with real autonomy in web application and network penetration testing, where a single out-of-scope action can breach a …",
-      "link": "https://arxiv.org/abs/2609.30325",
-      "pubDate": 1790568000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 66,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 9,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "311013341",
-      "title": "When Is a Multi-Agent Code Judge Actually Grounded? Two Label-Free Measurements, and a Judge That Declines to Guess",
-      "titleZh": "多代理准则法官何时实际接地？两种无标签测量，和一个拒绝猜测的判断",
-      "summary": "arXiv:2609.30328v1 Announce Type: new Abstract: When one language model judges whether another's code is correct, it does not report the absence of evidence. It returns a confident verdict with reason…",
-      "link": "https://arxiv.org/abs/2609.30328",
-      "pubDate": 1790568000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-675658173",
-      "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
-      "titleZh": "连接LLM代理和数据空间：使用模型上下文协议的架构调解方法",
-      "summary": "arXiv:2609.30341v1 Announce Type: new Abstract: Data Spaces enable sovereign and governed data sharing across organizational boundaries, but their integration with AI agents remains challenging due to…",
-      "link": "https://arxiv.org/abs/2609.30341",
-      "pubDate": 1790568000000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 3,
-        "cw": 15,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1206650156",
-      "title": "Stealth Apart, Harm Together: Skill Cascading Attacks on Skill-Based Agent Systems",
-      "titleZh": "隐身分开，共同伤害：对基于技能的代理系统的技能级联攻击",
-      "summary": "arXiv:2609.30383v1 Announce Type: new Abstract: A skill is a modular package of natural-language instructions, executable scripts, and reference resources that an agent can load at runtime to extend i…",
-      "link": "https://arxiv.org/abs/2609.30383",
-      "pubDate": 1790568000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 69,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 10,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1982322629",
-      "title": "A Synthetic Ground-Truth Framework for the Evaluation of Explainable AI Methods",
-      "titleZh": "用于评估可解释的人工智能方法的综合基础真相框架",
-      "summary": "arXiv:2609.30397v1 Announce Type: new Abstract: Evaluating explainable Artificial Intelligence (XAI) methods is a challenging task due to the lack of reliable evaluation procedures and, in particular,…",
-      "link": "https://arxiv.org/abs/2609.30397",
-      "pubDate": 1790568000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 7,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1955430155",
-      "title": "Predicting Transmembrane Protein Topology from 3D Structure",
-      "titleZh": "从三维结构预测跨膜蛋白质拓扑",
-      "summary": "arXiv:2609.30446v1 Announce Type: new Abstract: This paper presents a novel approach to infer protein topology using the state-of-the-art graph neural network (GNN), SchNet. The model is trained on th…",
-      "link": "https://arxiv.org/abs/2609.30446",
-      "pubDate": 1790568000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 7,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "690805896",
-      "title": "Spectral Feedback for Test-Time Alignment of Protein Diffusion Models",
-      "titleZh": "蛋白质扩散模型测试时间对齐的光谱反馈",
-      "summary": "arXiv:2609.30456v1 Announce Type: new Abstract: Reward maximization alignment methods for discrete diffusion models have primarily focused on steering the reverse process, either by influencing token …",
-      "link": "https://arxiv.org/abs/2609.30456",
-      "pubDate": 1790568000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 70,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 7,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "948909702",
-      "title": "Pretrained ASR Pseudo-labeling for Noisy Police Audio",
-      "titleZh": "针对嘈杂警察音频的预训练ASR伪标签",
-      "summary": "arXiv:2609.30469v1 Announce Type: new Abstract: Pretrained ASR systems perform poorly on noisy Broadcast Police Communication (BPC), hindering efforts to understand police decision-making. Pseudo-labe…",
-      "link": "https://arxiv.org/abs/2609.30469",
-      "pubDate": 1790568000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-112405635",
-      "title": "Do LLMs Understand Context? A Knowledge Graph-Based Evaluation Framework",
-      "titleZh": "LLM是否理解背景？基于知识图谱的评估框架",
-      "summary": "arXiv:2609.30484v1 Announce Type: new Abstract: While large language models (LLMs) have achieved remarkable linguistic capabilities, a profound question lingers at their core: do these models truly co…",
-      "link": "https://arxiv.org/abs/2609.30484",
-      "pubDate": 1790568000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 7,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
     },
     {
       "id": "-985013158",
@@ -571,6 +655,48 @@
       "source": "Google News"
     },
     {
+      "id": "708075329",
+      "title": "DeepSeek V4.1-Flash Pricing: 70% Cheaper, Beats Opus 5",
+      "titleZh": "DeepSeek V4.1-闪存定价：便宜70% ，胜过Opus 5",
+      "summary": "DeepSeek V4.1-Flash Pricing: 70% Cheaper, Beats Opus 5 shattered.io",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB1UlY1OW8tT1ZmbXZQR3hjQmZRcnExM1dIS0NWMm8xS3Q0R1dmU2JUeGIxcW1LdzM4ZmIyc1ZidU9jbVZzR2NPenhXLUNiVURIVmNla3lYUkRCVFF5NmdHQXpPWTIta3pTZ1VIdjYzUXNvb21BT3c?oc=5",
+      "pubDate": 1790488045000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "high",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1446194530",
+      "title": "Qwen 27B vs Swift: 50% Faster Speeds Come at an Accuracy Cost",
+      "titleZh": "Qwen 27B与Swift ：速度提升50%需要精确度成本",
+      "summary": "Qwen 27B vs Swift: 50% Faster Speeds Come at an Accuracy Cost Geeky Gadgets",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Da1hmWGg2RjQ0MnJ4U240dzFGWnBLQWhXblllOXZiMWkyU3pjVURldTdBbk1JSElGWU1lRnJEVDJDa1hqRTlKY0FCX185NHp3cXlQZWdWTFVSMS1FTHRLVg?oc=5",
+      "pubDate": 1790431360000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1063421264",
       "title": "Chinese AI models surge in global popularity — and Washington is worried",
       "titleZh": "Chinese AI models surge in global popularity — and Washington is worried",
@@ -613,10 +739,10 @@
       "source": "OpenAI"
     },
     {
-      "id": "-1429800331",
+      "id": "-2055096088",
       "title": "Announcing Kimi K3 on Snowflake Cortex AI",
       "titleZh": "在Snowflake Cortex AI上宣布Kimi K3",
-      "summary": "Announcing Kimi K3 on Snowflake Cortex AI Snowflake",
+      "summary": "Announcing Kimi K3 on Snowflake Cortex AI snowflake.com",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBlNk5oSzhOTHFYWFduQ1ZUS2NoWkw1Zk1GOHpDRmRjWEh3Z1JUT2FpaDl0Yzl5aEdlZFhsZWNxczZMaFF3R0hTNmFQeDU0ZGR6ODl1SGo3eWtuVDJVZlhoVS1B?oc=5",
       "pubDate": 1790276099000,
       "vendor": "kimi",
@@ -674,6 +800,27 @@
         "cs": 1
       },
       "source": "HuggingFace"
+    },
+    {
+      "id": "-1080646040",
+      "title": "Alibaba Unveils Full-Stack AI Strategy With New Qwen Models, Chips and Agentic Cloud",
+      "titleZh": "阿里巴巴推出全新Qwen车型、芯片和Agentic Cloud的全栈人工智能战略",
+      "summary": "Alibaba Unveils Full-Stack AI Strategy With New Qwen Models, Chips and Agentic Cloud TechAfrica News",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOW9WSWNGcDRvZ0pQNEVQNEtYWjk0WDl5eloxYWVmaHo1Wk4yN0drcnNWYTRWTThrZzB4ZDYwLWlIVU1XNkVHZDBTYWVqM3B1UlN3LUN5bndIX0Fsc21UTG00aUFUWnN1UWQ2cnNfU1kyVENsNmVkTTVFdVhmcHV1eG5lSmxldS00ODltVTJQTWh4WjlJcFNmcHJB?oc=5",
+      "pubDate": 1790240642000,
+      "vendor": "qwen",
+      "category": "Agent",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 12,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "1585632828",
@@ -844,20 +991,20 @@
       "source": "OpenAI"
     },
     {
-      "id": "-1374526943",
-      "title": "Sam Altman’s remarks at the United Nations Security Council",
-      "titleZh": "Sam Altman’s remarks at the United Nations Security Council",
-      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-      "link": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "id": "-564559408",
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "titleZh": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "link": "https://openai.com/index/ringg",
       "pubDate": 1790164800000,
       "vendor": "openai",
-      "category": "Safety",
-      "impact": "med",
-      "score": 46,
+      "category": "Product",
+      "impact": "high",
+      "score": 58,
       "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 10,
+        "cq": 22,
+        "kv": 4,
+        "cw": 15,
         "st": 15,
         "rc": 1,
         "cs": 1
@@ -907,62 +1054,20 @@
       "source": "OpenAI"
     },
     {
-      "id": "-564559408",
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "titleZh": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-      "link": "https://openai.com/index/ringg",
-      "pubDate": 1790164800000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "high",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 4,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "-1465152034",
+      "id": "-1549121301",
       "title": "Alibaba Unveils Zhenwu V900 — and Plans Qwen Models With Up to 10 Trillion Parameters",
       "titleZh": "Alibaba Unveils Zhenwu V900 — and Plans Qwen Models With Up to 10 Trillion Parameters",
-      "summary": "Alibaba Unveils Zhenwu V900 — and Plans Qwen Models With Up to 10 Trillion Parameters TechRepublic",
+      "summary": "Alibaba Unveils Zhenwu V900 — and Plans Qwen Models With Up to 10 Trillion Parameters techrepublic.com",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MMzBQdGpPbnFEUmllQVNQS2tiQ3NEQVNycFBiWkdxaHlvTkR3SWdMTnlzZ3F2WU1pSnBYMUlaazRBTnVxd0xuM0VWNHg3OFFidXg0NU9mbXVQY3JUenFyaTUtQjg0dWUyelR4clBYTkozVGpuQXc?oc=5",
       "pubDate": 1790155697000,
       "vendor": "qwen",
       "category": "Release",
       "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1505224027",
-      "title": "Chinese AI Firms Fall on Report of DeepSeek, Moonshot Probe",
-      "titleZh": "中国人工智能公司对DeepSeek ， Moonshot探测器的报道感到失望",
-      "summary": "Chinese AI Firms Fall on Report of DeepSeek, Moonshot Probe Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQVA3ak9VQUF1VmQ5dG1fS2oyeXNua29fZWJVRUdDYU00QVNFTGQ5Z1d1SXpVVElEbWMwWXpoZnhJdUhzdEpUWmlIQ0M4LUE5ZWhfZ2hGYUZ1MU85cnF1RDBobElnWFlCdlFpNmpncGJVQnpRdnk0aVN1QlhncU5XdHdFZFJrT1NQR28tV1BldTEwaEs2ekRV?oc=5",
-      "pubDate": 1790139644000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 20,
-        "kv": 2,
-        "cw": 15,
+        "kv": 4,
+        "cw": 25,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -989,6 +1094,27 @@
         "cs": 1
       },
       "source": "NVIDIA"
+    },
+    {
+      "id": "-1647391191",
+      "title": "Moonshot AI rolls out Kimi model for financial sector",
+      "titleZh": "Moonshot AI为金融部门推出Kimi模型",
+      "summary": "Moonshot AI rolls out Kimi model for financial sector China Daily Global Edition",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd2hNeUZBTjhIcnZqU0hEMjNmZ2VpUGZyV0V1WWptck15d1g1Um9MVHJaY0hwemVXUDR2MnVCMGJmNUxtQk14SDdzeWQxQkE5ZHlpMWJkb09ONnNZTlhSZGVMc1Q3VWFVeGp5T3pKOHJEY3Z0QmZEQldWNUhVR1d6T0Vn?oc=5",
+      "pubDate": 1790129523000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-892980811",
@@ -1042,13 +1168,13 @@
       "vendor": "google",
       "category": "Research",
       "impact": "med",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 22,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google News"
@@ -1117,27 +1243,6 @@
       "source": "HuggingFace"
     },
     {
-      "id": "805827490",
-      "title": "Alibaba Qwen Releases Qwen-Image-2.1: A 7B Open-Weight Model for Image Generation and Editing",
-      "titleZh": "阿里巴巴Qwen发布Qwen-Image-2.1 ：用于图像生成和编辑的7B开放式权重模型",
-      "summary": "Alibaba Qwen Releases Qwen-Image-2.1: A 7B Open-Weight Model for Image Generation and Editing MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNU0JXUndVd2hCcXdycTc4XzhSWHpJOUtaN1NRWjQxWTJkY2J2UUJzRWdzWFNiLVJHRE1tN0d0YmFUdmdGekhfQmFhNWhHLWozOW42eW1FRlV5Ty1mWG9iNzlJcWd0VUM2OFJJalh0czYwLThiXzJMcTBjUEx5dGstenlwONIBiAFBVV95cUxPVl9MN2plOFZTMk1kSF9OZXY5XzNHSkVWb2Q3T2VIbTNScjltNEZCakNXTzlKQ0lCamVYVjNDdVFwYlVFLTB5SWJFNGZkY2wwNUNCaW5GMDhoM1NZM0tjWUFLWFBiamhhWG9XMTZnM0tSNUFpZ0E0WmlFT0NBU0hvcWpfX290ejVz?oc=5",
-      "pubDate": 1790008844000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "117527338",
       "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
       "titleZh": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
@@ -1201,27 +1306,6 @@
       "source": "HuggingFace"
     },
     {
-      "id": "62966728",
-      "title": "Moonshot’s Kimi K3 lands on Amazon in key test for Chinese open-source AI income",
-      "titleZh": "Moonshot’s Kimi K3 lands on Amazon in key test for Chinese open-source AI income",
-      "summary": "Moonshot’s Kimi K3 lands on Amazon in key test for Chinese open-source AI income scmp.com",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcDZqcmQxQkhmMW9NcUh6cW1hTTdXTlEwTUNSNUh2ZmlRYmt6Sm9GMnZISkZNSmg2RUc1NndvM1ZhSlBGUkQ1dDlCRldFdXcxQmNpLXB3TTllN0NtSVlTdVpIZ0NDZkhBLWlkMENhODVnbzQ5SldFVGFFaW11SVdBTHFGN2M0RFkydjQxelhlWHVKYXVNZExydXpOZlZOaXV0cEZWbFdYSGRHUWJWYjF3WWpkQng3RUFLY2E0ME9va1F2UdIBwgFBVV95cUxNSE8tSlJiRTFRMWRYREFncDA0ZldXRUJ6clRCTC0xdTloZmVKUzNSR1ZkamlLazd4VGdMTmo4TzNIM0NDM056c1pEZmNjS3J5blVUVlVyeEczb3ByOUFDUmRRRXRxX2JZRVVSYXNQQjh5THdWSFk5em1wODl4N1pzR0VZQ1FYN3d2ckkzSHF5Z3N0RU9YTmZDeWFyQlJkZzdjbTdRQWVMRFhqMXNXYU5fYjkzWUNWaGRJZ3A0LXpzVFkzUQ?oc=5",
-      "pubDate": 1789990206000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "2143848457",
       "title": "5 Companies Using NVIDIA AI for Clean Energy",
       "titleZh": "5家公司将NVIDIA AI用于清洁能源",
@@ -1262,27 +1346,6 @@
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "-7709617",
-      "title": "Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters",
-      "titleZh": "阿里巴巴的开放权重Qwen-Image-2.1声称在图像生成中仅用70亿个参数就击败了封闭模型",
-      "summary": "Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters The Decoder",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcW83SUN6S3dlZ19qVVgwZ3h0bmpwemJRRmZ0RFhsT3hkbEhUQ3JWOVFWSWpSU0NEYTNHTlp1RWZyVE00dFJSUjJ3UFMxTjhZWUU3RWRZOV9iSjZVUUVxc1ROd25UWkJqZmFOSDdwWlFLQ2gxV0UxeWNxbU8xRFY2NUZtYXc3NnVBU1NYcWJTcUVxdW8wYjk2aVMyc1k1QnQwUllPc0xTTkxQczdHeGNCSlNtOTRsSHR6VW81RWZXVXFaa3BrajRZdGp2ejR6VExKcTduRmRaTQ?oc=5",
-      "pubDate": 1789920846000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "high",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-893080287",
@@ -1663,6 +1726,27 @@
       "source": "NVIDIA"
     },
     {
+      "id": "-1461504745",
+      "title": "Exclusive | Moonshot AI considers dual listings in Hong Kong and Shanghai: sources",
+      "titleZh": "独家| Moonshot AI考虑在香港和上海的双重房源：来源",
+      "summary": "Exclusive | Moonshot AI considers dual listings in Hong Kong and Shanghai: sources South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWDQyVVNaRnBHU09CNEpKaGRzQ3VVZFR5dHVBczdoMS1NbXV3aXJDNFhJR0VsRWoyNk5jdUNBME9LTEsyR05wdnJkNVdZT3RoeThobTc0bjBWSTVMd1J1SGN2enpBUERHVFozbUhINkgtUEoxeGtwbGFONHdZb3lyS2VtdkN5b3NhZHpJVi1TUzNMc09KZkhXckpqRXRiVzlVa2JxX1U4NzJYR05nRFhXbFlZOGp3UGtMV0xOVnduRGtIdDdRcFJLekprVVhjS255NXQ2b3RB0gHWAUFVX3lxTE1teGRFYkpfbTlMeHdvOVg1MFJXdmtkZXROclFNc2tVNHI1LWxkYkNycTFWTGFBTFY3bUU4cEFSQVdaUDk0VmNuWmVIWGZKZnFfUWgwYmpPNWpkaW1Mc3RINHJmUlRwS2E5VEdrM1BPZlhTUklvMHBnSTlBVEZuV05PZkFHSG5CeVpzQ1BfSG1LeHRPN21DWDc0eG1ZeHZQNTRMdGVRMEtwbGszamZFTGFoTEhXMUYyNk1XZGpiQkQyYlp4b1VQMVB5bDJYSmJ5bXBpaXdjMHc?oc=5",
+      "pubDate": 1789023600000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1046063774",
       "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
       "titleZh": "跨HF作业使用LoRA异步GRPO ：存储桶、代理和无NCCL",
@@ -1999,48 +2083,6 @@
       "source": "VentureBeat"
     },
     {
-      "id": "1686568900",
-      "title": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
-      "titleZh": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
-      "summary": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRVNJbE00UDhJSkVIaktiZTNYR01uZTVVNXd1SV9yMGpJM2dILU1SeWVFQXphS0dmYVNsekZrckVQVkNQNndYaWkxS1lKdXJRdE5MWVFJVVJvNHNPWlVUcVhJc2lRbFRiMFdhODdJeXJuTjZNcTg4enJpbEhMdTYxaDlpenFsSDVWUENpcDdxalM5UWR3OG10dUlMYXNSRjNhdGRYX04wN2s2aF9mb2hfbjJHY1FJT1F2WS1TQU8yc3NXMlFxSEtxX29Ca9IBywFBVV95cUxNekQyWHA4bjlBc09IbGwyajJaMEl1LVp0RXk0aWE5Q3hNWXlLUU5JcWxVRjg0ZHcwN05jN3pva3c1QzBjTjlJUl9CLWVVMkhxSjBCT2I0eFZhNkZwNDYwM0tVS3J1X1plS1J5bm02bzM4YWxPOEpXMzdhSEtRRkI0MzRYc3RFQUJRNmdid2lsMWRDM0tkcjFjUFlmZHBZdDZiR05CWkd0MHBFb3dZdHZCTHNCVjU3ZHlRMmM5TVhoTVlkZzBJV0x3UFRsdw?oc=5",
-      "pubDate": 1787036400000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 4,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1981956164",
-      "title": "Alibaba’s TSMC-Built 5nm RISC-V Chip, XuanTie C950, Now Runs Qwen-3.8 27B Model Natively, Unlocking Massive Vertical Integration Tailwinds",
-      "titleZh": "Alibaba’s TSMC-Built 5nm RISC-V Chip, XuanTie C950, Now Runs Qwen-3.8 27B Model Natively, Unlocking Massive Vertical Integration Tailwinds",
-      "summary": "Alibaba’s TSMC-Built 5nm RISC-V Chip, XuanTie C950, Now Runs Qwen-3.8 27B Model Natively, Unlocking Massive Vertical Integration Tailwinds wccftech.com",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRkpQQWpTWGg5N2hBeUVGazlnQzNialpBblQ5SURxWG51SW9VQ1huclhQOFNERXJ4NS1BUzRCTUw3WHJYbXhuaWp1UENFcGJ0MExQLU1odHRUUTZnUE1DeHZjdjBwcDFzUlgxZm1UeWw2M0p2MTluZlZBXzR4SXFZaWIwZ2J2Si1yS2xoWU5idFltWWd0eUtJdTZZRVFRNklRY3JJc3hnektBeWQyRHM2YmNnT0VjN0hNZElDNUtHZEU2d3p5SnlzMldBakQzbjRWY1pCNlliQl83el83c1VYSGdDR0M0eTNlbDdDRtIB8gFBVV95cUxQbVJzb2E0eTk1dzJJTEZTRndwQnhhTDVQb1I2aTFHQ3pwZ3RNUU9tRkw5UUdWN01KYmdVR0VyMnZ5cVhTUkx5OW95MmhQUDNQR1dub1FuQ2Y0TDlYOFViSXZOT2NHU0x3R1VXd3pCRWhSXzRHTXo1enlrSUJWZF9oM2w5RTZBTEl1M2xmR09Rck1yRDdXX3kwVHVvLTdlWXplWjJweC1Gcy1kb3M3cE5hYzFGTzdHVDVic0hTaE8tS0ZGNV93Y0NhMHpzWXE3cEtFbDhRNzlRRGwzeERPYnNhZUtkRkNlcVJBZW9uc3NjSmE4QQ?oc=5",
-      "pubDate": 1787036400000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-2016155837",
       "title": "DeepSeek's AI Models Are About To Cost Four Times More",
       "titleZh": "DeepSeek的人工智能模型成本将增加四倍",
@@ -2056,69 +2098,6 @@
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1919882972",
-      "title": "Chinese startup Moonshot's AI model breaks out of testing environment, researchers say",
-      "titleZh": "研究人员表示，中国初创公司Moonshot的人工智能模型打破了测试环境",
-      "summary": "Chinese startup Moonshot's AI model breaks out of testing environment, researchers say Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc2Q3eXFPcENXOWZ2cFkyM0lQUEdyMGhqTTdDbHc5dWZMa0xhV2x1U0RpZ2pUT0d5MjdNNjlHR1ZVRklMZmxnZHA3VHJyRnBJTzhsR2Jpc1dGQ2F2cnQ1VkhsMHBiZ3FQOU5BTWNjVERRdktTRjQ2UEFQMi10VmZIQzNQdzlacXc3U2lrNUJFUHV1djVlRGhvYVhCejRpX0w1dDFkS202MU5hUDBSS285b0Q3TnZORE8xZWJoM0F1VU9HVWR1Qkwzdk93?oc=5",
-      "pubDate": 1786086000000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1375271958",
-      "title": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say",
-      "titleZh": "研究人员表示，中国人工智能模型Kimi逃脱了网络安全测试环境",
-      "summary": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX2NpajBveEZEMlMxOS1TVjlwaDZJYmVmWU1EZnZHbTJBaHZWbkxYdG44aF92TkZ3MW9RUlM2dWlFTFMtTGZXb1R1a0oydzE0YU81WHh4S1pHd3JOaDd5OW5BT1Y4VWItaVBZekVYcFM2T2dMNWlBSjU0eGpnaXJOeDE0bkJSNDFKaVhmdFE5WFMzVEZYWG1BWGJmc1FENl9haTFBdTVFNVRzRVNzS0ZsNUtyQ1ZvdjFWbmc?oc=5",
-      "pubDate": 1786086000000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-241689768",
-      "title": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
-      "titleZh": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
-      "summary": "One of China’s Most Powerful AI Models Has Also Escaped Containment WIRED",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzUHl5MU1HbXJUemVtQWI4MzVQYmtWaUhHU19SMUp3bnFEY1NGaTN0LVpibXhwUTFNamtZMFBuLTNmOFhsN2VMRXRGWU9yMFBLbVlFNkhKVTVNc3JtdXRnY093aDdWaUJhcVhaX2NTQkgxNFhPdWw1SQ?oc=5",
-      "pubDate": 1785999600000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
         "rc": 0,
         "cs": 1
       },
