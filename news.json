@@ -1,8 +1,92 @@
 {
-  "updated": "2026-09-28T22:13:35.668Z",
-  "count": 116,
+  "updated": "2026-09-29T02:08:47.066Z",
+  "count": 117,
   "sources": 12,
   "items": [
+    {
+      "id": "-1678324299",
+      "title": "Peak XV ups Surge seed investment ceiling to $5M, unveils 18-startup cohort",
+      "titleZh": "Peak XV将种子投资上限提升至500万$ ，推出18个创业队列",
+      "summary": "Thirteen of the 18 startups in Peak XV’s latest Surge cohort are targeting global markets, while more than half are based in India.",
+      "link": "https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/",
+      "pubDate": 1790641800000,
+      "vendor": "techcrunch",
+      "category": "Release",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 25,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "671232983",
+      "title": "OpenAI reportedly ditches model over safety concerns",
+      "titleZh": "据报道， OpenAI因安全问题而放弃了模型",
+      "summary": "A top executive at the AI lab told the Wall Street Journal that the model in question had displayed a poor aptitude for following orders.",
+      "link": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+      "pubDate": 1790638760000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 22,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-260626620",
+      "title": "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation",
+      "titleZh": "资料来源：推理提供商Modal Labs以157.5亿美元的估值接近7.5亿美元",
+      "summary": "The new financing is expected to more than triples the AI infrastructure startup's valuation from just four months ago.",
+      "link": "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/",
+      "pubDate": 1790630958000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 1,
+        "cw": 20,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1717274090",
+      "title": "AMD will acquire Fei-Fei Li’s World Labs for $8.2 billion",
+      "titleZh": "AMD will acquire Fei-Fei Li’s World Labs for $8.2 billion",
+      "summary": "The acquisition will see World Labs founder Fei-Fei Li join AMD as executive vice president and chief scientist.",
+      "link": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+      "pubDate": 1790627973000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "high",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-727848817",
       "title": "Shopify opens checkout to browser-based AI agents",
@@ -13,13 +97,34 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1612037742",
+      "title": "The AI boom took over Climate Week and not everyone is happy about it",
+      "titleZh": "人工智能热潮接管了气候周，并非所有人都对此感到高兴",
+      "summary": "Just like the rest of the U.S., data centers and AI are dividing climate tech founders and investors.",
+      "link": "https://techcrunch.com/2026/09/28/the-ai-boom-took-over-climate-week-and-not-everyone-is-happy-about-it/",
+      "pubDate": 1790623319000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 43,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -34,13 +139,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google AI"
@@ -49,19 +154,19 @@
       "id": "1036060264",
       "title": "Nvidia launches new platform for reining in rogue AI agents",
       "titleZh": "英伟达推出控制流氓人工智能代理的新平台",
-      "summary": "As the debate rages over whether the recent spate of rogue AI agents is a step toward AGI or a more conventional engineering problem, Nvidia is offering its own answer to problem. Nvidia CEO Jensen Hu…",
+      "summary": "Nvidia CEO Jensen Huang on Monday introduced a toolkit of software and hardware products that add independent security layers around AI agents to ensure they stay within their test environments even i…",
       "link": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
       "pubDate": 1790620283000,
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "high",
-      "score": 65,
+      "score": 62,
       "scoreBreakdown": {
-        "cq": 24,
+        "cq": 22,
         "kv": 3,
         "cw": 25,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -76,13 +181,13 @@
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "high",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 25,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -91,19 +196,19 @@
       "id": "689647106",
       "title": "Google is killing off Gemini’s Gems in favor of ‘skills’",
       "titleZh": "Google is killing off Gemini’s Gems in favor of ‘skills’",
-      "summary": "As all-in-one AI agents like Meta's Muse and Instinct take off, Google is opting to end a feature which built task-specific agents.",
+      "summary": "As all-in-one AI agents like Meta's Muse and Instinct take off, Google is opting to end a feature that built task-specific agents.",
       "link": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
       "pubDate": 1790616590000,
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -118,116 +223,11 @@
       "vendor": "techcrunch",
       "category": "Safety",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 1,
         "cw": 10,
-        "st": 8,
-        "rc": 4,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1099655880",
-      "title": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
-      "titleZh": "Meta推出企业人工智能平台，聘请MongoDB首席执行官领导新举措",
-      "summary": "Meta says it will focus on bringing its full technology stack, including Muse, Meta Business Agent, Muse API, Muse Code, and more to businesses and developers.",
-      "link": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
-      "pubDate": 1790614358000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 25,
-        "st": 8,
-        "rc": 4,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1847420104",
-      "title": "Anthropic, Gamma, and Clay share what happens when enterprises actually deploy AI at TechCrunch Disrupt 2026",
-      "titleZh": "Anthropic、Gamma和Clay分享了当企业在TechCrunch Disrupt 2026上实际部署人工智能时会发生什么",
-      "summary": "Anthropic, Clay, and Gamma on what it takes for an AI product to go beyond the demo at the AI Stage at TechCrunchDisrupt 2026. Register to join and get 50% off a second pass.",
-      "link": "https://techcrunch.com/2026/09/28/anthropic-gamma-and-clay-share-what-happens-when-enterprises-actually-deploy-ai-at-techcrunch-disrupt-2026/",
-      "pubDate": 1790609400000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "44906486",
-      "title": "After a deepfake voice fooled her grandfather, this founder sprang into action",
-      "titleZh": "在深度伪造的声音欺骗了她的祖父之后，这位创始人迅速采取行动",
-      "summary": "After her grandfather was scammed by a deepfake of his brother's voice, Tarini Padmanabhuni founded DetectifAI, a San Francisco startup building AI models small enough to run directly on smartphones a…",
-      "link": "https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action/",
-      "pubDate": 1790607600000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-853913339",
-      "title": "Next 5 VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026",
-      "titleZh": "接下来的5位风投在TechCrunch Disrupt 2026评选初创公司Battlefield 200竞争者",
-      "summary": "Thousands of applications. Multiple rounds of review. Hundreds of hours spent evaluating startups from around the world. Now comes the part everyone has been waiting for. Register for TechCrunch Disru…",
-      "link": "https://techcrunch.com/2026/09/28/next-five-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026/",
-      "pubDate": 1790605800000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-848464804",
-      "title": "Modulate raises $25M for its voice models and analysis suite",
-      "titleZh": "Modulate为其语音模型和分析套件筹集了2500万$",
-      "summary": "Modulate deploys its models to detect deepfake, fraud and scam",
-      "link": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/",
-      "pubDate": 1790604300000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 1,
-        "cw": 22,
         "st": 8,
         "rc": 3,
         "cs": 1
@@ -254,6 +254,27 @@
         "cs": 1
       },
       "source": "HuggingFace"
+    },
+    {
+      "id": "186994053",
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "titleZh": "Lenfest研究所通过扩大OpenAI支持来发展具有里程碑意义的计划",
+      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+      "link": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "pubDate": 1790578800000,
+      "vendor": "openai",
+      "category": "Funding",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 1,
+        "cw": 20,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
     },
     {
       "id": "1811917444",
@@ -475,16 +496,58 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "257456419",
+      "title": "Are you a Codex Original?",
+      "titleZh": "您是Codex Original吗？",
+      "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program…",
+      "link": "https://openai.com/form/codex-originals",
+      "pubDate": 1790553600000,
+      "vendor": "openai",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "1384367110",
+      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "titleZh": "使用GPT-6 Astra ， Basis完成税务工作簿的速度提高了2倍",
+      "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+      "link": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "pubDate": 1790553600000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "high",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "OpenAI"
     },
     {
       "id": "-311482209",
@@ -865,27 +928,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "-1054893655",
-      "title": "Introducing MentalHealthBench",
-      "titleZh": "MentalHealthBench简介",
-      "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
-      "link": "https://openai.com/index/introducing-mentalhealthbench",
-      "pubDate": 1790157600000,
-      "vendor": "openai",
-      "category": "Release",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 1,
-        "cw": 25,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "-1465152034",
       "title": "Alibaba Unveils Zhenwu V900 — and Plans Qwen Models With Up to 10 Trillion Parameters",
       "titleZh": "Alibaba Unveils Zhenwu V900 — and Plans Qwen Models With Up to 10 Trillion Parameters",
@@ -900,27 +942,6 @@
         "cq": 18,
         "kv": 4,
         "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1658538403",
-      "title": "Chinese AI Stocks Fall on Report of DeepSeek, Moonshot Probe",
-      "titleZh": "DeepSeek、Moonshot Probe报告显示中国人工智能股下跌",
-      "summary": "Chinese AI Stocks Fall on Report of DeepSeek, Moonshot Probe Bloomberg",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWlNBRnBPUi0zNVlHUUNlTUU2dHk0c3ZDNG8wNUh6T0hFb1pfLW5BeXFYUWFHRGczeEFEeDRKbzZ5dHhHRFp5cjZPRU5jOEJpdFZLdFM3a0x3bVlLYUJsYWZSRDc1bkZDM09lQ2Q5Y3R5QU1yYmFhSHFhUkRORkttMEI0YmJ1RlpXN0VPc2g1Vy1NbDlSSkxna1d5MHF2MXowWFBSS1BPT0pqbjVYZFE?oc=5",
-      "pubDate": 1790148644000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -968,69 +989,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-1647391191",
-      "title": "Moonshot AI rolls out Kimi model for financial sector",
-      "titleZh": "Moonshot AI为金融部门推出Kimi模型",
-      "summary": "Moonshot AI rolls out Kimi model for financial sector China Daily Global Edition",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd2hNeUZBTjhIcnZqU0hEMjNmZ2VpUGZyV0V1WWptck15d1g1Um9MVHJaY0hwemVXUDR2MnVCMGJmNUxtQk14SDdzeWQxQkE5ZHlpMWJkb09ONnNZTlhSZGVMc1Q3VWFVeGp5T3pKOHJEY3Z0QmZEQldWNUhVR1d6T0Vn?oc=5",
-      "pubDate": 1790129523000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-459707083",
-      "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
-      "titleZh": "ChatGPT Ads扩展到东南亚和台湾",
-      "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
-      "link": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-      "pubDate": 1790128800000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "-116119745",
-      "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
-      "titleZh": "爱彼迎扩大GPT-6 Astra和OpenAI前沿模型的使用范围",
-      "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
-      "link": "https://openai.com/index/airbnb-gpt-6-astra",
-      "pubDate": 1790125200000,
-      "vendor": "openai",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
     },
     {
       "id": "-892980811",
@@ -1105,13 +1063,13 @@
       "vendor": "huggingface",
       "category": "Research",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 1,
         "cw": 22,
         "st": 14,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -1126,13 +1084,13 @@
       "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
-      "score": 41,
+      "score": 40,
       "scoreBreakdown": {
         "cq": 9,
         "kv": 1,
         "cw": 15,
         "st": 14,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -1147,13 +1105,13 @@
       "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 15,
         "st": 14,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -1241,6 +1199,27 @@
         "cs": 1
       },
       "source": "HuggingFace"
+    },
+    {
+      "id": "62966728",
+      "title": "Moonshot’s Kimi K3 lands on Amazon in key test for Chinese open-source AI income",
+      "titleZh": "Moonshot’s Kimi K3 lands on Amazon in key test for Chinese open-source AI income",
+      "summary": "Moonshot’s Kimi K3 lands on Amazon in key test for Chinese open-source AI income scmp.com",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcDZqcmQxQkhmMW9NcUh6cW1hTTdXTlEwTUNSNUh2ZmlRYmt6Sm9GMnZISkZNSmg2RUc1NndvM1ZhSlBGUkQ1dDlCRldFdXcxQmNpLXB3TTllN0NtSVlTdVpIZ0NDZkhBLWlkMENhODVnbzQ5SldFVGFFaW11SVdBTHFGN2M0RFkydjQxelhlWHVKYXVNZExydXpOZlZOaXV0cEZWbFdYSGRHUWJWYjF3WWpkQng3RUFLY2E0ME9va1F2UdIBwgFBVV95cUxNSE8tSlJiRTFRMWRYREFncDA0ZldXRUJ6clRCTC0xdTloZmVKUzNSR1ZkamlLazd4VGdMTmo4TzNIM0NDM056c1pEZmNjS3J5blVUVlVyeEczb3ByOUFDUmRRRXRxX2JZRVVSYXNQQjh5THdWSFk5em1wODl4N1pzR0VZQ1FYN3d2ckkzSHF5Z3N0RU9YTmZDeWFyQlJkZzdjbTdRQWVMRFhqMXNXYU5fYjkzWUNWaGRJZ3A0LXpzVFkzUQ?oc=5",
+      "pubDate": 1789990206000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "2143848457",
@@ -1621,10 +1600,10 @@
       "source": "Google News"
     },
     {
-      "id": "1506243361",
+      "id": "-888333004",
       "title": "China AI Star Moonshot Eyes $2 Billion Annualized Sales in 2026",
       "titleZh": "2026年中国AI Star Moonshot年销售额达$ 20亿",
-      "summary": "China AI Star Moonshot Eyes $2 Billion Annualized Sales in 2026 Bloomberg",
+      "summary": "China AI Star Moonshot Eyes $2 Billion Annualized Sales in 2026 Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLUllQm9GSVhqampKNXBQSjcxVENFX2lwN0xwU05wZVlxdzNnNU9iOXBRV0FQNU5HWmxyRjM2Y243TEd4SElLYkpIYjQ4YnUyZnk1cFdiQWF4S3oteGx3OThldTlsSzQ1bXhXbXJxYVFoZ2w2bTBWdDlpWEZkZmFWWTlxWHBsM182OWdkTU5yUTkyYllxbTBDOWIyZDJ0NzdGS1dPdEV4djV2RHp0Q29oaUM4aw?oc=5",
       "pubDate": 1789110000000,
       "vendor": "kimi",
@@ -1684,27 +1663,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-1461504745",
-      "title": "Exclusive | Moonshot AI considers dual listings in Hong Kong and Shanghai: sources",
-      "titleZh": "独家| Moonshot AI考虑在香港和上海的双重房源：来源",
-      "summary": "Exclusive | Moonshot AI considers dual listings in Hong Kong and Shanghai: sources South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWDQyVVNaRnBHU09CNEpKaGRzQ3VVZFR5dHVBczdoMS1NbXV3aXJDNFhJR0VsRWoyNk5jdUNBME9LTEsyR05wdnJkNVdZT3RoeThobTc0bjBWSTVMd1J1SGN2enpBUERHVFozbUhINkgtUEoxeGtwbGFONHdZb3lyS2VtdkN5b3NhZHpJVi1TUzNMc09KZkhXckpqRXRiVzlVa2JxX1U4NzJYR05nRFhXbFlZOGp3UGtMV0xOVnduRGtIdDdRcFJLekprVVhjS255NXQ2b3RB0gHWAUFVX3lxTE1teGRFYkpfbTlMeHdvOVg1MFJXdmtkZXROclFNc2tVNHI1LWxkYkNycTFWTGFBTFY3bUU4cEFSQVdaUDk0VmNuWmVIWGZKZnFfUWgwYmpPNWpkaW1Mc3RINHJmUlRwS2E5VEdrM1BPZlhTUklvMHBnSTlBVEZuV05PZkFHSG5CeVpzQ1BfSG1LeHRPN21DWDc0eG1ZeHZQNTRMdGVRMEtwbGszamZFTGFoTEhXMUYyNk1XZGpiQkQyYlp4b1VQMVB5bDJYSmJ5bXBpaXdjMHc?oc=5",
-      "pubDate": 1789023600000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1046063774",
       "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
       "titleZh": "跨HF作业使用LoRA异步GRPO ：存储桶、代理和无NCCL",
@@ -1745,6 +1703,27 @@
         "cs": 1
       },
       "source": "NVIDIA"
+    },
+    {
+      "id": "307854279",
+      "title": "US Says Alibaba, DeepSeek Have ‘Systematically’ Siphoned AI Models",
+      "titleZh": "US Says Alibaba, DeepSeek Have ‘Systematically’ Siphoned AI Models",
+      "summary": "US Says Alibaba, DeepSeek Have ‘Systematically’ Siphoned AI Models Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZk92eWg4ODl3QnlnbmROdWEwaTllZm5TTFlPZXRKSnFjUUxjcnAwUGxDd2poTDh0V2N1S2xaLTI4Y3h0V09YOXd5MmszMkdUWUE4V2pOcEp3SjJuVUUxZjhNeXBNbW14dl9fRGRIWTJfZkN2bFNGc0V2Zk40SEtiZzFvaFdETm5jN3d2eE1tVHgxbDktV3Bfa3FfQnpGV2tsYTRNSFFKWjFGaTNQaVZ1VGE5MWc?oc=5",
+      "pubDate": 1788937200000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-292923544",
@@ -2041,10 +2020,10 @@
       "source": "Google News"
     },
     {
-      "id": "1667867601",
+      "id": "1981956164",
       "title": "Alibaba’s TSMC-Built 5nm RISC-V Chip, XuanTie C950, Now Runs Qwen-3.8 27B Model Natively, Unlocking Massive Vertical Integration Tailwinds",
       "titleZh": "Alibaba’s TSMC-Built 5nm RISC-V Chip, XuanTie C950, Now Runs Qwen-3.8 27B Model Natively, Unlocking Massive Vertical Integration Tailwinds",
-      "summary": "Alibaba’s TSMC-Built 5nm RISC-V Chip, XuanTie C950, Now Runs Qwen-3.8 27B Model Natively, Unlocking Massive Vertical Integration Tailwinds Wccftech",
+      "summary": "Alibaba’s TSMC-Built 5nm RISC-V Chip, XuanTie C950, Now Runs Qwen-3.8 27B Model Natively, Unlocking Massive Vertical Integration Tailwinds wccftech.com",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRkpQQWpTWGg5N2hBeUVGazlnQzNialpBblQ5SURxWG51SW9VQ1huclhQOFNERXJ4NS1BUzRCTUw3WHJYbXhuaWp1UENFcGJ0MExQLU1odHRUUTZnUE1DeHZjdjBwcDFzUlgxZm1UeWw2M0p2MTluZlZBXzR4SXFZaWIwZ2J2Si1yS2xoWU5idFltWWd0eUtJdTZZRVFRNklRY3JJc3hnektBeWQyRHM2YmNnT0VjN0hNZElDNUtHZEU2d3p5SnlzMldBakQzbjRWY1pCNlliQl83el83c1VYSGdDR0M0eTNlbDdDRtIB8gFBVV95cUxQbVJzb2E0eTk1dzJJTEZTRndwQnhhTDVQb1I2aTFHQ3pwZ3RNUU9tRkw5UUdWN01KYmdVR0VyMnZ5cVhTUkx5OW95MmhQUDNQR1dub1FuQ2Y0TDlYOFViSXZOT2NHU0x3R1VXd3pCRWhSXzRHTXo1enlrSUJWZF9oM2w5RTZBTEl1M2xmR09Rck1yRDdXX3kwVHVvLTdlWXplWjJweC1Gcy1kb3M3cE5hYzFGTzdHVDVic0hTaE8tS0ZGNV93Y0NhMHpzWXE3cEtFbDhRNzlRRGwzeERPYnNhZUtkRkNlcVJBZW9uc3NjSmE4QQ?oc=5",
       "pubDate": 1787036400000,
       "vendor": "qwen",
@@ -2077,6 +2056,69 @@
         "kv": 2,
         "cw": 22,
         "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1919882972",
+      "title": "Chinese startup Moonshot's AI model breaks out of testing environment, researchers say",
+      "titleZh": "研究人员表示，中国初创公司Moonshot的人工智能模型打破了测试环境",
+      "summary": "Chinese startup Moonshot's AI model breaks out of testing environment, researchers say Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc2Q3eXFPcENXOWZ2cFkyM0lQUEdyMGhqTTdDbHc5dWZMa0xhV2x1U0RpZ2pUT0d5MjdNNjlHR1ZVRklMZmxnZHA3VHJyRnBJTzhsR2Jpc1dGQ2F2cnQ1VkhsMHBiZ3FQOU5BTWNjVERRdktTRjQ2UEFQMi10VmZIQzNQdzlacXc3U2lrNUJFUHV1djVlRGhvYVhCejRpX0w1dDFkS202MU5hUDBSS285b0Q3TnZORE8xZWJoM0F1VU9HVWR1Qkwzdk93?oc=5",
+      "pubDate": 1786086000000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1375271958",
+      "title": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say",
+      "titleZh": "研究人员表示，中国人工智能模型Kimi逃脱了网络安全测试环境",
+      "summary": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX2NpajBveEZEMlMxOS1TVjlwaDZJYmVmWU1EZnZHbTJBaHZWbkxYdG44aF92TkZ3MW9RUlM2dWlFTFMtTGZXb1R1a0oydzE0YU81WHh4S1pHd3JOaDd5OW5BT1Y4VWItaVBZekVYcFM2T2dMNWlBSjU0eGpnaXJOeDE0bkJSNDFKaVhmdFE5WFMzVEZYWG1BWGJmc1FENl9haTFBdTVFNVRzRVNzS0ZsNUtyQ1ZvdjFWbmc?oc=5",
+      "pubDate": 1786086000000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-241689768",
+      "title": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
+      "titleZh": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
+      "summary": "One of China’s Most Powerful AI Models Has Also Escaped Containment WIRED",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzUHl5MU1HbXJUemVtQWI4MzVQYmtWaUhHU19SMUp3bnFEY1NGaTN0LVpibXhwUTFNamtZMFBuLTNmOFhsN2VMRXRGWU9yMFBLbVlFNkhKVTVNc3JtdXRnY093aDdWaUJhcVhaX2NTQkgxNFhPdWw1SQ?oc=5",
+      "pubDate": 1785999600000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
         "rc": 0,
         "cs": 1
       },
@@ -2139,27 +2181,6 @@
         "cq": 18,
         "kv": 2,
         "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "888498936",
-      "title": "China's Moonshot unveils world's largest open AI model, closing in on US rivals",
-      "titleZh": "中国的Moonshot推出了世界上最大的开放式人工智能模型，接近美国的竞争对手",
-      "summary": "China's Moonshot unveils world's largest open AI model, closing in on US rivals Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUFBidnJRbHRkSDh4WXNUVlBOY1VmZ3NCSlRhQzEwZWY3dGJfeXlMQ1FWN1FheElOWU0wdFBJZ2p0Y0VDSnd2RDlDSExSQ3lOb19UYkc4Q0d6UEtsQzN4TWg2LWtianhwbEgtZmR4OWs4QU9QbjM3RkJqNHI2TmgzRVRxcXhuRlE4ZHdlRFRvNlBvWUxYUkFQRmZ1Y3NaeWh1V0swM2NHaW5NcEg2UGdiOHFMMzN4bGMweVE?oc=5",
-      "pubDate": 1784271600000,
-      "vendor": "kimi",
-      "category": "Release",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 25,
         "st": 12,
         "rc": 0,
         "cs": 1
