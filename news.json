@@ -1,8 +1,197 @@
 {
-  "updated": "2026-09-30T16:03:05.427Z",
+  "updated": "2026-09-30T20:55:53.829Z",
   "count": 110,
   "sources": 11,
   "items": [
+    {
+      "id": "313988780",
+      "title": "OpenAI’s Jev clone could help the frontier lab stop its swarming agents",
+      "titleZh": "OpenAI’s Jev clone could help the frontier lab stop its swarming agents",
+      "summary": "OpenAI's \"Decisions API\" is a Jev clone that confirms the importance of fast, cheap intelligence.",
+      "link": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
+      "pubDate": 1790794857000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "287554253",
+      "title": "AI voice startup ElevenLabs doubles valuation to $22B",
+      "titleZh": "人工智能语音初创公司ElevenLabs的估值翻番至220亿美元（ $ 220亿）",
+      "summary": "The $300 million employee tender was co-led by Wellington and T. Rowe Price.",
+      "link": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
+      "pubDate": 1790792637000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 1,
+        "cw": 20,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-391646929",
+      "title": "Reddit is killing RSS feeds and ending public API access because of AI bots",
+      "titleZh": "由于人工智能机器人， Reddit正在杀死RSS Feed并终止公共API访问",
+      "summary": "Reddit is ending support for RSS feeds, as the company continues tightening access to its trove of user-generated content.",
+      "link": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
+      "pubDate": 1790790300000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1028961423",
+      "title": "The ugly economics of consumer AI",
+      "titleZh": "消费者人工智能的丑陋经济学",
+      "summary": "There’s a reason frontier labs have gotten gun-shy about consumer AI — and it’s not because the tech isn’t good enough.",
+      "link": "https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/",
+      "pubDate": 1790789085000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-856825628",
+      "title": "Meta disputes claim that Muse read a user’s private messages without permission",
+      "titleZh": "Meta disputes claim that Muse read a user’s private messages without permission",
+      "summary": "Meta says its Muse AI agent cannot access a user’s Messages without explicit permission, disputing a journalist’s account that the agent read his private messages while the required Mac setting was tu…",
+      "link": "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/",
+      "pubDate": 1790785463000,
+      "vendor": "techcrunch",
+      "category": "Agent",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 0,
+        "cw": 12,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-2142321624",
+      "title": "DoorDash launches an AI agent you can text to order food",
+      "titleZh": "DoorDash推出AI代理，您可以通过短信订餐",
+      "summary": "By launching an AI agent for food ordering, DoorDash is looking to gain an edge over rivals Uber Eats and Grubhub.",
+      "link": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/",
+      "pubDate": 1790784024000,
+      "vendor": "techcrunch",
+      "category": "Release",
+      "impact": "high",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 25,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1030086821",
+      "title": "Destro AI’s secret sauce is getting robots and humans on the same page",
+      "titleZh": "Destro AI’s secret sauce is getting robots and humans on the same page",
+      "summary": "\"One of the biggest reasons we are winning against robotics companies is because we are not a robotics company.\"",
+      "link": "https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page/",
+      "pubDate": 1790784000000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-293973064",
+      "title": "Instinct’s new product recommendations are giving some users the ick",
+      "titleZh": "Instinct’s new product recommendations are giving some users the ick",
+      "summary": "Instinct is rolling out human-curated product and travel recommendations, but some users aren’t happy about getting suggestions they never asked for.",
+      "link": "https://techcrunch.com/2026/09/30/instincts-new-product-recommendations-are-giving-some-users-the-ick/",
+      "pubDate": 1790783788000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1470838229",
+      "title": "Introducing SynthID Bio",
+      "titleZh": "SynthID Bio简介",
+      "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+      "link": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "pubDate": 1790780587000,
+      "vendor": "deepmind",
+      "category": "Release",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 10,
+        "kv": 0,
+        "cw": 25,
+        "st": 15,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "DeepMind"
+    },
     {
       "id": "1294200051",
       "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
@@ -13,16 +202,58 @@
       "vendor": "nvidia",
       "category": "Agent",
       "impact": "med",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 12,
         "cw": 12,
         "st": 10,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "NVIDIA"
+    },
+    {
+      "id": "1121542004",
+      "title": "Cerebras Systems’ Andrew Feldman on whether AI can keep scaling at TechCrunch Disrupt 2026",
+      "titleZh": "Cerebras Systems’ Andrew Feldman on whether AI can keep scaling at TechCrunch Disrupt 2026",
+      "summary": "At TechCrunch Disrupt 2026, Cerebras Systems CEO and co-founder Andrew Feldman will explore the growing demand for compute, energy, and infrastructure, how Cerebras is approaching those constraints di…",
+      "link": "https://techcrunch.com/2026/09/30/cerebras-systems-andrew-feldman-on-whether-ai-can-keep-scaling-at-techcrunch-disrupt-2026/",
+      "pubDate": 1790778600000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1007174552",
+      "title": "Restate lands $20M as the need for durable infrastructure increases with AI agents",
+      "titleZh": "随着人工智能代理对耐用基础设施的需求增加，重申2000万美元的土地",
+      "summary": "Instead of building its durable execution engine on top of an external database, the company developed its own storage, replication, and redundancy layers. This architecture allows Restate to be excep…",
+      "link": "https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents/",
+      "pubDate": 1790778431000,
+      "vendor": "techcrunch",
+      "category": "Agent",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 12,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
     },
     {
       "id": "-627632209",
@@ -34,13 +265,13 @@
       "vendor": "google",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 1,
         "cw": 22,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -55,13 +286,13 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -76,13 +307,13 @@
       "vendor": "qwen",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 12,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -97,13 +328,13 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -118,37 +349,16 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "472831874",
-      "title": "Airbnb adds AI search, more social features",
-      "titleZh": "爱彼迎新增人工智能搜索、更多社交功能",
-      "summary": "Airbnb is also launching new services such as meal delivery and laundry in select locations.",
-      "link": "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/",
-      "pubDate": 1790769600000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "high",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 2,
-        "cw": 25,
-        "st": 8,
-        "rc": 4,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "1775135877",
@@ -160,16 +370,37 @@
       "vendor": "google",
       "category": "Research",
       "impact": "med",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 22,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "1300461530",
+      "title": "Helping small businesses put AI to work",
+      "titleZh": "帮助小型企业将人工智能付诸实践",
+      "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+      "link": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "pubDate": 1790762400000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
     },
     {
       "id": "-1930009123",
@@ -550,25 +781,25 @@
       "source": "Google News"
     },
     {
-      "id": "676319828",
-      "title": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch",
-      "titleZh": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch",
-      "summary": "For the sake of national security, it's a relief to learn that America.gov is not hallucinating to the point that it's penning lengthy poetry.",
-      "link": "https://techcrunch.com/2026/09/29/america-gov-gets-really-weird-when-you-ask-it-about-minecraft-but-its-not-a-glitch/",
-      "pubDate": 1790724655000,
-      "vendor": "techcrunch",
-      "category": "Safety",
+      "id": "1462264619",
+      "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+      "titleZh": "开放式TTS排行榜：多语言文本到语音和语音克隆的可扩展评估",
+      "summary": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+      "link": "https://huggingface.co/blog/open-tts-leaderboard",
+      "pubDate": 1790726400000,
+      "vendor": "huggingface",
+      "category": "Funding",
       "impact": "med",
-      "score": 39,
+      "score": 50,
       "scoreBreakdown": {
-        "cq": 16,
+        "cq": 11,
         "kv": 1,
-        "cw": 10,
-        "st": 8,
+        "cw": 20,
+        "st": 14,
         "rc": 3,
         "cs": 1
       },
-      "source": "TechCrunch"
+      "source": "HuggingFace"
     },
     {
       "id": "689731370",
@@ -590,174 +821,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-1544440461",
-      "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
-      "titleZh": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
-      "summary": "Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name \"dot.com,\" which now redirects to the Grok chatbot download page.",
-      "link": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
-      "pubDate": 1790720459000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "high",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 25,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1418047859",
-      "title": "OpenAI’s latest features take direct aim at the app store model",
-      "titleZh": "OpenAI’s latest features take direct aim at the app store model",
-      "summary": "OpenAI is building out the pieces of an alternative to the traditional app store model, turning ChatGPT into a place where software can be discovered and used by people and AI agents alike.",
-      "link": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
-      "pubDate": 1790712947000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1937847945",
-      "title": "OpenAI reportedly in talks to raise $30B round at $1.4T valuation",
-      "titleZh": "据报道， OpenAI正在谈判以$ 1.4T的估值筹集$ 300亿",
-      "summary": "The new round is anticipated to be the company's last before its delayed 2027 public debut.",
-      "link": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
-      "pubDate": 1790711557000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 20,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-783070717",
-      "title": "Here’s why OpenAI is absent from Nvidia’s industry-wide effort to end rogue AI agents",
-      "titleZh": "Here’s why OpenAI is absent from Nvidia’s industry-wide effort to end rogue AI agents",
-      "summary": "OpenAI isn't a public supporter of Nvidia's Open Agent Safety Platform, but it is privately working with Nvidia, TechCrunch has learned.",
-      "link": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
-      "pubDate": 1790706900000,
-      "vendor": "techcrunch",
-      "category": "Agent",
-      "impact": "high",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 1,
-        "cw": 12,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-86968460",
-      "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
-      "titleZh": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
-      "summary": "OpenAI's newly announced suite of office features puts it into more direct competition with more traditional software companies.",
-      "link": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
-      "pubDate": 1790703951000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "high",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 4,
-        "cw": 25,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1570392562",
-      "title": "AI-powered app maker Wabi pivots to a messaging experience",
-      "titleZh": "人工智能应用程序制造商Wabi转向消息传递体验",
-      "summary": "Wabi is repositioning its prompt-based app builder as a personal AI agent that can create interfaces on demand, combining chat, apps, and ongoing tasks.",
-      "link": "https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience/",
-      "pubDate": 1790702400000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-32684198",
-      "title": "OpenAI launches Dots, its bubbly agentic avatar",
-      "titleZh": "OpenAI推出冒泡特工头像Dots",
-      "summary": "Dots are meant to operate independent of any specific hardware or interface, pursuing user-defined goals continuously in the background with minimal oversight.",
-      "link": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
-      "pubDate": 1790702235000,
-      "vendor": "techcrunch",
-      "category": "Agent",
-      "impact": "high",
-      "score": 44,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 12,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1613240679",
-      "title": "OpenAI gives Codex reusable cloud environments that work across devices",
-      "titleZh": "OpenAI为Codex提供了跨设备工作的可重用云环境",
-      "summary": "OpenAI is expanding Codex with reusable cloud development environments, a revamped CLI with voice controls, new code review tools, and a security-focused product for scanning repositories and preparin…",
-      "link": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
-      "pubDate": 1790702100000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 1,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "-240215522",
@@ -823,27 +886,6 @@
       "source": "Google News"
     },
     {
-      "id": "290574005",
-      "title": "Introducing GPT-6.1 Sol",
-      "titleZh": "GPT-6.1 Sol简介",
-      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-      "link": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "pubDate": 1790676000000,
-      "vendor": "openai",
-      "category": "Release",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 25,
-        "st": 15,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "2104820924",
       "title": "DevDay 2026 Recap",
       "titleZh": "2026年开发日回顾",
@@ -858,6 +900,27 @@
         "cq": 18,
         "kv": 3,
         "cw": 15,
+        "st": 15,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "290574005",
+      "title": "Introducing GPT-6.1 Sol",
+      "titleZh": "GPT-6.1 Sol简介",
+      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "link": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "pubDate": 1790676000000,
+      "vendor": "openai",
+      "category": "Release",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 25,
         "st": 15,
         "rc": 2,
         "cs": 1
@@ -916,13 +979,13 @@
       "vendor": "openai",
       "category": "Safety",
       "impact": "med",
-      "score": 45,
+      "score": 44,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 1,
         "cw": 10,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -937,13 +1000,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -958,13 +1021,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 47,
+      "score": 46,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google AI"
@@ -1012,27 +1075,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "257456419",
-      "title": "Are you a Codex Original?",
-      "titleZh": "您是Codex Original吗？",
-      "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program…",
-      "link": "https://openai.com/form/codex-originals",
-      "pubDate": 1790553600000,
-      "vendor": "openai",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "1384367110",
       "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
       "titleZh": "使用GPT-6 Astra ， Basis完成税务工作簿的速度提高了2倍",
@@ -1047,6 +1089,27 @@
         "cq": 22,
         "kv": 2,
         "cw": 15,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "257456419",
+      "title": "Are you a Codex Original?",
+      "titleZh": "您是Codex Original吗？",
+      "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program…",
+      "link": "https://openai.com/form/codex-originals",
+      "pubDate": 1790553600000,
+      "vendor": "openai",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
         "st": 15,
         "rc": 1,
         "cs": 1
@@ -1168,13 +1231,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google AI"
@@ -1199,27 +1262,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "-2041456000",
-      "title": "Two years of OpenAI Academy",
-      "titleZh": "两年的OpenAI学院",
-      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-      "link": "https://openai.com/index/two-years-of-openai-academy",
-      "pubDate": 1790179200000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "OpenAI"
     },
     {
       "id": "-1171136501",
@@ -1852,27 +1894,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-1046063774",
-      "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
-      "titleZh": "跨HF作业使用LoRA异步GRPO ：存储桶、代理和无NCCL",
-      "summary": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
-      "link": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
-      "pubDate": 1788998400000,
-      "vendor": "huggingface",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 15,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
       "id": "18320902",
       "title": "NVIDIA Brings Real-Time AI to Broadcast, Sports and Global Streaming at IBC",
       "titleZh": "NVIDIA为IBC的广播、体育和全球流媒体带来实时人工智能",
@@ -2013,27 +2034,6 @@
         "cq": 13,
         "kv": 2,
         "cw": 12,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "DeepMind"
-    },
-    {
-      "id": "-568326299",
-      "title": "Gemini Omni 1.1 Flash lets you build with more control",
-      "titleZh": "Gemini Omni 1.1闪光灯可让您更好地控制构建",
-      "summary": "Gemini Omni 1.1 Flash lets you build with more control",
-      "link": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-      "pubDate": 1787847092000,
-      "vendor": "deepmind",
-      "category": "Product",
-      "impact": "med",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 13,
-        "kv": 2,
-        "cw": 15,
         "st": 15,
         "rc": 0,
         "cs": 1
