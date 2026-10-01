@@ -1,8 +1,92 @@
 {
-  "updated": "2026-10-01T13:39:55.199Z",
+  "updated": "2026-10-01T19:11:31.783Z",
   "count": 117,
   "sources": 12,
   "items": [
+    {
+      "id": "-1014349640",
+      "title": "How Albertsons Companies is reimagining retail from the inside out",
+      "titleZh": "Albertsons Companies如何从内到外重新构想零售业",
+      "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+      "link": "https://openai.com/index/albertsons-reimagining-retail",
+      "pubDate": 1790870400000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "-1012626539",
+      "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+      "titleZh": "推出Olmo-core 3 ：面向大型教育部的开放、可扩展的培训基础设施",
+      "summary": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+      "link": "https://huggingface.co/blog/allenai/olmocore3",
+      "pubDate": 1790866903000,
+      "vendor": "huggingface",
+      "category": "Release",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 1,
+        "cw": 25,
+        "st": 14,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
+      "id": "-1404325872",
+      "title": "Hearing tech startup Legato launches its AI hearing glasses",
+      "titleZh": "听力科技创业公司Legato推出人工智能助听器",
+      "summary": "The glasses stem from the startup’s goal of making hearing care more accessible by addressing the cost, comfort, and stigma associated with traditional hearing aids.",
+      "link": "https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses/",
+      "pubDate": 1790859600000,
+      "vendor": "techcrunch",
+      "category": "Release",
+      "impact": "high",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 25,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1337637914",
+      "title": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
+      "titleZh": "由前谷歌和SpaceX产品经理创立的Satlyt筹集了800万美元，用于在卫星上运行人工智能",
+      "summary": "Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
+      "link": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+      "pubDate": 1790856000000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-1792916099",
       "title": "OpenAI disrupted a campaign to extract hidden model reasoning linked to Moonshot AI",
@@ -13,13 +97,13 @@
       "vendor": "kimi",
       "category": "Research",
       "impact": "med",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 1,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -34,13 +118,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 1,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -412,13 +496,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 45,
+      "score": 44,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -433,13 +517,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 3,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -454,13 +538,13 @@
       "vendor": "techcrunch",
       "category": "Funding",
       "impact": "med",
-      "score": 47,
+      "score": 46,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 1,
         "cw": 20,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -475,13 +559,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -496,13 +580,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 41,
+      "score": 40,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -517,13 +601,13 @@
       "vendor": "nvidia",
       "category": "Product",
       "impact": "med",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 2,
         "cw": 15,
         "st": 10,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "NVIDIA"
@@ -538,13 +622,13 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 0,
         "cw": 12,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -559,55 +643,13 @@
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "high",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 25,
         "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1030086821",
-      "title": "Destro AI’s secret sauce is getting robots and humans on the same page",
-      "titleZh": "Destro AI’s secret sauce is getting robots and humans on the same page",
-      "summary": "\"One of the biggest reasons we are winning against robotics companies is because we are not a robotics company.\"",
-      "link": "https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page/",
-      "pubDate": 1790784000000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-293973064",
-      "title": "Instinct’s new product recommendations are giving some users the ick",
-      "titleZh": "Instinct’s new product recommendations are giving some users the ick",
-      "summary": "Instinct is rolling out human-curated product and travel recommendations, but some users aren’t happy about getting suggestions they never asked for.",
-      "link": "https://techcrunch.com/2026/09/30/instincts-new-product-recommendations-are-giving-some-users-the-ick/",
-      "pubDate": 1790783788000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -622,13 +664,13 @@
       "vendor": "deepmind",
       "category": "Release",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 10,
         "kv": 0,
         "cw": 25,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "DeepMind"
@@ -643,13 +685,13 @@
       "vendor": "nvidia",
       "category": "Agent",
       "impact": "med",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 12,
         "cw": 12,
         "st": 10,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "NVIDIA"
@@ -937,13 +979,13 @@
       "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
-      "score": 45,
+      "score": 44,
       "scoreBreakdown": {
         "cq": 13,
         "kv": 0,
         "cw": 15,
         "st": 14,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -991,27 +1033,6 @@
       "source": "Google News"
     },
     {
-      "id": "290574005",
-      "title": "Introducing GPT-6.1 Sol",
-      "titleZh": "GPT-6.1 Sol简介",
-      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-      "link": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "pubDate": 1790676000000,
-      "vendor": "openai",
-      "category": "Release",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 25,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "2104820924",
       "title": "DevDay 2026 Recap",
       "titleZh": "2026年开发日回顾",
@@ -1026,6 +1047,27 @@
         "cq": 18,
         "kv": 3,
         "cw": 15,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "290574005",
+      "title": "Introducing GPT-6.1 Sol",
+      "titleZh": "GPT-6.1 Sol简介",
+      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "link": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "pubDate": 1790676000000,
+      "vendor": "openai",
+      "category": "Release",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 25,
         "st": 15,
         "rc": 1,
         "cs": 1
@@ -1056,7 +1098,7 @@
     {
       "id": "-1988507739",
       "title": "Introducing dots",
-      "titleZh": "全新推出DOT",
+      "titleZh": "Introducing dots",
       "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
       "link": "https://openai.com/index/introducing-dots",
       "pubDate": 1790640000000,
@@ -1077,7 +1119,7 @@
     {
       "id": "-217455886",
       "title": "How we will do better for Australia",
-      "titleZh": "我们将如何为澳大利亚做得更好",
+      "titleZh": "How we will do better for Australia",
       "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
       "link": "https://openai.com/index/how-we-will-do-better-for-australia",
       "pubDate": 1790622000000,
@@ -1119,7 +1161,7 @@
     {
       "id": "-1464852399",
       "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "titleZh": "观看Future Vision XPRIZE的获奖预告片《The Gifted》。",
+      "titleZh": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
       "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
       "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
       "pubDate": 1790622000000,
@@ -1201,27 +1243,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "1384367110",
-      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-      "titleZh": "使用GPT-6 Astra ， Basis完成税务工作簿的速度提高了2倍",
-      "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
-      "link": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "pubDate": 1790553600000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "high",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "-1000305513",
       "title": "Introducing Gemini 3.8 Live with Live Avatar",
       "titleZh": "隆重推出Gemini 3.8 Live with Live Avatar",
@@ -1231,13 +1252,13 @@
       "vendor": "deepmind",
       "category": "Release",
       "impact": "high",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 2,
         "cw": 25,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "DeepMind"
@@ -1252,13 +1273,13 @@
       "vendor": "huggingface",
       "category": "Research",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 22,
         "st": 14,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -1682,27 +1703,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "274565328",
-      "title": "Your Agent Aced the Task. Will It Do It Again?",
-      "titleZh": "您的代理已完成任务。它会再次这样做吗？",
-      "summary": "Your Agent Aced the Task. Will It Do It Again?",
-      "link": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-      "pubDate": 1789488044000,
-      "vendor": "huggingface",
-      "category": "Agent",
-      "impact": "med",
-      "score": 36,
-      "scoreBreakdown": {
-        "cq": 9,
-        "kv": 0,
-        "cw": 12,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
     },
     {
       "id": "1731952864",
