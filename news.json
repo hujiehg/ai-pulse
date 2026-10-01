@@ -1,8 +1,218 @@
 {
-  "updated": "2026-10-01T00:18:00.963Z",
-  "count": 110,
-  "sources": 11,
+  "updated": "2026-10-01T06:15:40.032Z",
+  "count": 117,
+  "sources": 12,
   "items": [
+    {
+      "id": "1246622025",
+      "title": "Improving OCR Faithfulness via Gated and Attenuated On-Policy Distillation",
+      "titleZh": "通过门控和减量随机蒸馏提高OCR忠诚度",
+      "summary": "arXiv:2609.38282v1 Announce Type: new Abstract: Vision-language models may rewrite anomalous text in images into linguistically plausible expressions, compromising OCR transcription faithfulness. Sequ…",
+      "link": "https://arxiv.org/abs/2609.38282",
+      "pubDate": 1790827200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "369895755",
+      "title": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
+      "titleZh": "AREX-2 ：通过长期反思任务推进自我完善代理",
+      "summary": "arXiv:2609.38288v1 Announce Type: new Abstract: We present AREX-2, an effort to advance the self-improving capability of LLM agents, which we define as the ability to iteratively refine a solution at …",
+      "link": "https://arxiv.org/abs/2609.38288",
+      "pubDate": 1790827200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1816727263",
+      "title": "MoFlow: Multi-Objective Agentic Workflow Generation",
+      "titleZh": "MoFlow ：多目标代理工作流程生成",
+      "summary": "arXiv:2609.38294v1 Announce Type: new Abstract: We study the generation of agentic workflows that jointly optimize multiple objectives, such as accuracy, cost, latency, robustness, and consistency. Ex…",
+      "link": "https://arxiv.org/abs/2609.38294",
+      "pubDate": 1790827200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1906236585",
+      "title": "AI Agents are Vulnerable to Radicalization",
+      "titleZh": "人工智能代理容易受到激进化的影响",
+      "summary": "arXiv:2609.38296v1 Announce Type: new Abstract: Large language models (LLMs) can influence people's beliefs, yet little is known about whether and how they can manipulate each other. To investigate th…",
+      "link": "https://arxiv.org/abs/2609.38296",
+      "pubDate": 1790827200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-323357968",
+      "title": "CARAT: Do Materials LLMs Reason or Recite?",
+      "titleZh": "克拉：材料LLM是推理还是背诵？",
+      "summary": "arXiv:2609.38340v1 Announce Type: new Abstract: When a materials LLM answers a question about crystal structure, does it reason from the structure or copy an answer already printed in its input? Accur…",
+      "link": "https://arxiv.org/abs/2609.38340",
+      "pubDate": 1790827200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-551963581",
+      "title": "Examining Variation in How Guided AI Tutors Resolve Student Impasses",
+      "titleZh": "检查引导式人工智能导师如何解决学生僵局的变化",
+      "summary": "arXiv:2609.38346v1 Announce Type: new Abstract: When a student is stuck, a tutor faces the assistance dilemma: help given too early can hinder productive struggle, while help withheld too long leaves …",
+      "link": "https://arxiv.org/abs/2609.38346",
+      "pubDate": 1790827200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-2075084961",
+      "title": "Beyond Mode Collapse: Generating Diverse Synthetic Expert Conversations via Generative Flow Networks",
+      "titleZh": "超越模式崩溃：通过生成式流网络生成多样化的合成专家对话",
+      "summary": "arXiv:2609.38359v1 Announce Type: new Abstract: High quality synthetic data is central to post training LLMs for adaptive AI applications that represent the diverse expert strategies and decisions in …",
+      "link": "https://arxiv.org/abs/2609.38359",
+      "pubDate": 1790827200000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 15,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "863851760",
+      "title": "Can an AI Agent Rediscover a Blaschke-Curve Invariant?",
+      "titleZh": "人工智能代理可以重新发现Blaschke曲线不变量吗？",
+      "summary": "arXiv:2609.38369v1 Announce Type: new Abstract: We study generalized Blaschke curves as a controlled environment for AI-assisted mathematical rediscovery. For one fixed degree-four Blaschke product, a…",
+      "link": "https://arxiv.org/abs/2609.38369",
+      "pubDate": 1790827200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-452873572",
+      "title": "Self-Evolving Harness on Multiple Tasks with the Agent as Its Own Optimizer",
+      "titleZh": "使用Agent作为自身优化器，在多个任务上实现自我进化",
+      "summary": "arXiv:2609.38372v1 Announce Type: new Abstract: A harness is the code around a language-model agent that organizes prompts, calls tools, manages context, and controls execution. As models grow stronge…",
+      "link": "https://arxiv.org/abs/2609.38372",
+      "pubDate": 1790827200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1847242381",
+      "title": "Aligned Data Can Induce Misalignment via Context Confusion",
+      "titleZh": "对齐的数据可能通过上下文混淆导致不对齐",
+      "summary": "arXiv:2609.38379v1 Announce Type: new Abstract: Large language models (LLMs) are frequently updated for various use cases, where filtering out misaligned training samples is a common practice for prev…",
+      "link": "https://arxiv.org/abs/2609.38379",
+      "pubDate": 1790827200000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "high",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 15,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
     {
       "id": "1792750828",
       "title": "OpenAI links China’s Moonshot AI to attempt to extract its models’ reasoning",
@@ -13,16 +223,37 @@
       "vendor": "kimi",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 1,
         "cw": 22,
         "st": 12,
-        "rc": 5,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "1545545960",
+      "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
+      "titleZh": "谷歌发布Gemini 4 Argon ，被称为迄今为止最强大的型号",
+      "summary": "Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
+      "link": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+      "pubDate": 1790811787000,
+      "vendor": "techcrunch",
+      "category": "Release",
+      "impact": "high",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 5,
+        "cw": 25,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
     },
     {
       "id": "-1074963485",
@@ -34,16 +265,58 @@
       "vendor": "kimi",
       "category": "Research",
       "impact": "med",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 1,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "1294448405",
+      "title": "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation",
+      "titleZh": "Valor、Atreides和Sequoia以7.5亿美元的估值支持人工智能初创公司Flow Engineering",
+      "summary": "Flow Engineering, which is bringing AI agents to hardware design, also landed Roelof Botha as an angel investor and board member.",
+      "link": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
+      "pubDate": 1790802460000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 1,
+        "cw": 20,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1889306321",
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "titleZh": "双子座4氩气：我们下一个前沿情报时代",
+      "summary": "Gemini 4 Argon: our next era of frontier intelligence",
+      "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "pubDate": 1790798505000,
+      "vendor": "deepmind",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 13,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "DeepMind"
     },
     {
       "id": "313988780",
@@ -55,13 +328,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -76,13 +349,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 3,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -97,13 +370,13 @@
       "vendor": "techcrunch",
       "category": "Funding",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 1,
         "cw": 20,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -319,48 +592,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "1121542004",
-      "title": "Cerebras Systems’ Andrew Feldman on whether AI can keep scaling at TechCrunch Disrupt 2026",
-      "titleZh": "Cerebras Systems’ Andrew Feldman on whether AI can keep scaling at TechCrunch Disrupt 2026",
-      "summary": "At TechCrunch Disrupt 2026, Cerebras Systems CEO and co-founder Andrew Feldman will explore the growing demand for compute, energy, and infrastructure, how Cerebras is approaching those constraints di…",
-      "link": "https://techcrunch.com/2026/09/30/cerebras-systems-andrew-feldman-on-whether-ai-can-keep-scaling-at-techcrunch-disrupt-2026/",
-      "pubDate": 1790778600000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1007174552",
-      "title": "Restate lands $20M as the need for durable infrastructure increases with AI agents",
-      "titleZh": "随着人工智能代理对耐用基础设施的需求增加，重申2000万美元的土地",
-      "summary": "Instead of building its durable execution engine on top of an external database, the company developed its own storage, replication, and redundancy layers. This architecture allows Restate to be excep…",
-      "link": "https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents/",
-      "pubDate": 1790778431000,
-      "vendor": "techcrunch",
-      "category": "Agent",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "-968482535",
       "title": "Qwen AI statistics 2026",
       "titleZh": "Qwen AI statistics 2026",
@@ -559,13 +790,13 @@
       "vendor": "deepseek",
       "category": "Release",
       "impact": "med",
-      "score": 65,
+      "score": 64,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -580,226 +811,16 @@
       "vendor": "kimi",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 1,
         "cw": 22,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-793492863",
-      "title": "OpenAI-HuggingFace: A Reproduction &amp; Lessons for Alignment Testing",
-      "titleZh": "OpenAI-HuggingFace ：对中测试的再现和教训",
-      "summary": "arXiv:2609.35799v1 Announce Type: new Abstract: In July 2026, OpenAI's agents coordinated over channels outside their intended environment to breach Hugging Face's secured infrastructure. Could existi…",
-      "link": "https://arxiv.org/abs/2609.35799",
-      "pubDate": 1790740800000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "high",
-      "score": 70,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 6,
-        "cw": 25,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1632739388",
-      "title": "Neurosymbolic Routing for Reliable Reasoning on Resource-Constrained Edge Devices",
-      "titleZh": "资源受限边缘设备上可靠推理的神经符号路由",
-      "summary": "arXiv:2609.35833v1 Announce Type: new Abstract: Running a language model on edge hardware provides private and low-latency reasoning without a network connection, and yet the small models that fit on …",
-      "link": "https://arxiv.org/abs/2609.35833",
-      "pubDate": 1790740800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-44951828",
-      "title": "Is Human-Readable Text Necessary for Effective LLM Fine-Tuning?",
-      "titleZh": "有效的LLM微调是否需要人类可读的文本？",
-      "summary": "arXiv:2609.35868v1 Announce Type: new Abstract: Is human readability necessary for effective fine-tuning of large language models? We investigate whether model-conditioned training representations can…",
-      "link": "https://arxiv.org/abs/2609.35868",
-      "pubDate": 1790740800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 66,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 7,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1941893101",
-      "title": "The Price of Token Boundaries: Compression Certificates and Prediction",
-      "titleZh": "代币边界的价格：压缩证书和预测",
-      "summary": "arXiv:2609.35869v1 Announce Type: new Abstract: Pre-tokenisation restricts which text fragments can become prediction units, but its compression cost is obscured when tokenisers are compared only unde…",
-      "link": "https://arxiv.org/abs/2609.35869",
-      "pubDate": 1790740800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-479570388",
-      "title": "More Programs or More Rolls? Separating Coverage from Specialization in LLM Harnesses",
-      "titleZh": "更多的程序或更多的卷？将LLM线束的覆盖范围与专业化分开",
-      "summary": "arXiv:2609.35873v1 Announce Type: new Abstract: Automated generation of LLM harnesses promises to improve inference through task specialization. Yet additional answer coverage can arise from repeated …",
-      "link": "https://arxiv.org/abs/2609.35873",
-      "pubDate": 1790740800000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "603419520",
-      "title": "Risk-Averse Online POMDP Planning via CVaR of the Immediate Cost with Performance Guarantees",
-      "titleZh": "通过CVaR对具有性能保证的即时成本进行风险规避在线POMDP规划",
-      "summary": "arXiv:2609.35874v1 Announce Type: new Abstract: Online POMDP planners optimize the expected cumulative cost, which can mask dangerous states when the belief places significant mass on high-cost states…",
-      "link": "https://arxiv.org/abs/2609.35874",
-      "pubDate": 1790740800000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "85654878",
-      "title": "Beyond Symmetric Agents: Cognitive Diversity and Multi-Agent Debate in Small Language Models",
-      "titleZh": "超越对称代理：小语言模型中的认知多样性和多代理辩论",
-      "summary": "arXiv:2609.35875v1 Announce Type: new Abstract: Multi-agent debate (MAD) reportedly improves reasoning and factuality over single-model inference, but prior work treats agents as symmetric peers, leav…",
-      "link": "https://arxiv.org/abs/2609.35875",
-      "pubDate": 1790740800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1182966654",
-      "title": "Representational Simplicity and Circuit Size Dissociate in a Threshold-Dependent Way: A Controlled Test via Adversarial Training",
-      "titleZh": "表示简单性和电路大小以阈值相关的方式分离：通过对抗训练进行的受控测试",
-      "summary": "arXiv:2609.35890v1 Announce Type: new Abstract: Sparse-autoencoder decomposability and concentrated feature attribution are increasingly treated as evidence that a model's computation is easier to rev…",
-      "link": "https://arxiv.org/abs/2609.35890",
-      "pubDate": 1790740800000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 15,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1090104899",
-      "title": "Self-discovering RL in the Era of Experience: Is Learning History an Asset or a Burden?",
-      "titleZh": "体验时代的自我发现强化学习：学习历史是一种资产还是一种负担？",
-      "summary": "arXiv:2609.35897v1 Announce Type: new Abstract: The pursuit of recursive self-improvement (RSI) toward general intelligence is divided between macro-level language model scaling and the interaction-dr…",
-      "link": "https://arxiv.org/abs/2609.35897",
-      "pubDate": 1790740800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-686112286",
-      "title": "Grab a Coffee: Future-Aware Guidance for Discrete Diffusion with Compiled Objectives",
-      "titleZh": "喝杯咖啡：具有编译目标的离散扩散的未来意识指导",
-      "summary": "arXiv:2609.35924v1 Announce Type: new Abstract: Discrete diffusion models generate sequences by iteratively resolving multiple tokens in parallel, offering a flexible alternative to left-to-right gene…",
-      "link": "https://arxiv.org/abs/2609.35924",
-      "pubDate": 1790740800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 69,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
     },
     {
       "id": "-146975994",
@@ -811,13 +832,13 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -958,13 +979,13 @@
       "vendor": "qwen",
       "category": "Release",
       "impact": "high",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -1915,25 +1936,67 @@
       "source": "DeepMind"
     },
     {
-      "id": "1335409394",
-      "title": "Introducing agentic video understanding with Gemini",
-      "titleZh": "通过Gemini介绍代理视频理解",
-      "summary": "Introducing agentic video understanding with Gemini",
-      "link": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-      "pubDate": 1788282531000,
-      "vendor": "deepmind",
+      "id": "2147151731",
+      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
+      "titleZh": "企业AI的真正风险不是自主代理。这是它们之间的复杂性。",
+      "summary": "Presented by Gravitee Read more",
+      "link": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
+      "pubDate": 1787839260000,
+      "vendor": "venturebeat",
       "category": "Agent",
       "impact": "med",
-      "score": 43,
+      "score": 33,
       "scoreBreakdown": {
-        "cq": 13,
-        "kv": 2,
+        "cq": 12,
+        "kv": 0,
         "cw": 12,
-        "st": 15,
+        "st": 8,
         "rc": 0,
         "cs": 1
       },
-      "source": "DeepMind"
+      "source": "VentureBeat"
+    },
+    {
+      "id": "-1183454760",
+      "title": "When agents act on their own, governance has to live in the data layer",
+      "titleZh": "当代理自行行动时，治理必须位于数据层",
+      "summary": "Presented by EDB Read more",
+      "link": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
+      "pubDate": 1787832060000,
+      "vendor": "venturebeat",
+      "category": "Agent",
+      "impact": "med",
+      "score": 34,
+      "scoreBreakdown": {
+        "cq": 12,
+        "kv": 1,
+        "cw": 12,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "-1500538370",
+      "title": "Orchestration is the new challenge for CX in the age of AI agents",
+      "titleZh": "编排是人工智能代理时代CX面临的新挑战",
+      "summary": "Presented by Tata Communications Read more",
+      "link": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
+      "pubDate": 1787754600000,
+      "vendor": "venturebeat",
+      "category": "Agent",
+      "impact": "med",
+      "score": 33,
+      "scoreBreakdown": {
+        "cq": 12,
+        "kv": 0,
+        "cw": 12,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
     },
     {
       "id": "922668020",
@@ -1955,6 +2018,27 @@
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "74193009",
+      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
+      "titleZh": "VentureBeat任命Rob Strechay为其首位首席分析师，扩大其企业人工智能研究推动力",
+      "summary": "Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a founding analyst of VentureBeat Research. His arrival i…",
+      "link": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
+      "pubDate": 1787149092000,
+      "vendor": "venturebeat",
+      "category": "Research",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 22,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
     },
     {
       "id": "1686568900",
@@ -2102,6 +2186,69 @@
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "-1093452510",
+      "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
+      "titleZh": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
+      "summary": "For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On T…",
+      "link": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
+      "pubDate": 1779212700000,
+      "vendor": "venturebeat",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "-1380991222",
+      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+      "titleZh": "Railway获得1亿美元$ ，通过AI原生云基础设施挑战AWS",
+      "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B fundi…",
+      "link": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+      "pubDate": 1769090400000,
+      "vendor": "venturebeat",
+      "category": "Funding",
+      "impact": "high",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 20,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "749662964",
+      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+      "titleZh": "Claude Code每月的费用高达$ 200。Goose免费做同样的事情。",
+      "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive. Read more",
+      "link": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+      "pubDate": 1768831200000,
+      "vendor": "venturebeat",
+      "category": "Product",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 15,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
     },
     {
       "id": "251294355",
