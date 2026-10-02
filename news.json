@@ -1,8 +1,29 @@
 {
-  "updated": "2026-10-01T23:18:56.112Z",
+  "updated": "2026-10-02T02:23:52.982Z",
   "count": 115,
   "sources": 12,
   "items": [
+    {
+      "id": "1929512208",
+      "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture  Venezuela’s president",
+      "titleZh": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture  Venezuela’s president",
+      "summary": "President Trump reportedly asked for Grok's opinion before invading Venezuela and capturing Nicolás Maduro.",
+      "link": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+      "pubDate": 1790888891000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-1578544083",
       "title": "OpenAI Ties Group Tied to Moonshot AI to Scheme to Extract Hidden AI Reasoning",
@@ -13,13 +34,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 1,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -34,13 +55,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 1,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -55,34 +76,34 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
     },
     {
-      "id": "152448559",
-      "title": "Google thinks SpaceX’s Starship has to launch 1,600 times before space data centers get off the ground",
-      "titleZh": "Google thinks SpaceX’s Starship has to launch 1,600 times before space data centers get off the ground",
+      "id": "275730225",
+      "title": "Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground",
+      "titleZh": "Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground",
       "summary": "Google launched its first advanced chip into orbit to pave the way for space data centers.",
       "link": "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/",
       "pubDate": 1790882283000,
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "high",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 25,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -97,13 +118,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 1,
         "cw": 22,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -118,13 +139,13 @@
       "vendor": "kimi",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -139,13 +160,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -333,27 +354,6 @@
         "cq": 16,
         "kv": 2,
         "cw": 25,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1337637914",
-      "title": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
-      "titleZh": "由前谷歌和SpaceX产品经理创立的Satlyt筹集了800万美元，用于在卫星上运行人工智能",
-      "summary": "Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
-      "link": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
-      "pubDate": 1790856000000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 15,
         "st": 8,
         "rc": 3,
         "cs": 1
@@ -601,13 +601,13 @@
       "vendor": "openai",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 22,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -622,13 +622,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -958,13 +958,13 @@
       "vendor": "huggingface",
       "category": "Funding",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 1,
         "cw": 20,
         "st": 14,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "HuggingFace"
