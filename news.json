@@ -1,28 +1,28 @@
 {
-  "updated": "2026-10-02T08:45:15.549Z",
-  "count": 116,
-  "sources": 12,
+  "updated": "2026-10-02T15:13:27.690Z",
+  "count": 106,
+  "sources": 11,
   "items": [
     {
-      "id": "128529455",
-      "title": "Modified Qwen model underperforms in cyber attack tests",
-      "titleZh": "改进的Qwen模型在网络攻击测试中表现不佳",
-      "summary": "Modified Qwen model underperforms in cyber attack tests SecurityBrief New Zealand",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVlRPRmpXamE1ejJ2UFdoQjFUVVNUOHFfc1ByN0UtdjhtSHlQbmRtbDhNVDVWeWV1Nlo5Q1dnM3o3MXdKcVZveG15cy1Jb3gxRm92RmxiVlVpd3ZCczNQVHM1ejlIUVZFRjM4bmhyYXNHZ0xCdVctVFU2OGVTVXNkQlp6c2hnZm1BbDlueVBxNnA1Rmc?oc=5",
-      "pubDate": 1790926200000,
-      "vendor": "qwen",
-      "category": "Research",
+      "id": "1626964124",
+      "title": "Last 24 hours: Exhibit at TechCrunch Disrupt 2026 and reach 10,000+ tech leaders",
+      "titleZh": "过去24小时：在TechCrunch Disrupt 2026上展出，吸引1万多名技术领导者",
+      "summary": "Today is the very last day to book your exhibit table at TechCrunch Disrupt 2026. On October 13–15, 10,000+ founders, investors, operators, and tech leaders will arrive at San Francisco’s Moscone West…",
+      "link": "https://techcrunch.com/2026/10/02/last-24-hours-exhibit-at-techcrunch-disrupt-2026-and-reach-10000-tech-leaders/",
+      "pubDate": 1790949600000,
+      "vendor": "techcrunch",
+      "category": "Product",
       "impact": "med",
-      "score": 61,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 18,
-        "kv": 3,
-        "cw": 22,
-        "st": 12,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
         "rc": 5,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "TechCrunch"
     },
     {
       "id": "-1919017710",
@@ -34,13 +34,13 @@
       "vendor": "huggingface",
       "category": "Agent",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 12,
         "st": 14,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -55,13 +55,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 3,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -76,13 +76,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 3,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -97,13 +97,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -118,13 +118,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 65,
+      "score": 64,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 5,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -139,13 +139,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "high",
-      "score": 66,
+      "score": 65,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 6,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -160,13 +160,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "high",
-      "score": 65,
+      "score": 64,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 7,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -181,13 +181,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 63,
+      "score": 62,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 5,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -202,13 +202,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 4,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -223,13 +223,13 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "high",
-      "score": 67,
+      "score": 66,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 7,
         "cw": 22,
         "st": 13,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "arXiv"
@@ -244,37 +244,16 @@
       "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 22,
         "st": 13,
-        "rc": 4,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1757792821",
-      "title": "Alibaba unveils full-stack AI push with new Qwen chips",
-      "titleZh": "阿里巴巴推出全新Qwen芯片的全栈AI推送",
-      "summary": "Alibaba unveils full-stack AI push with new Qwen chips DataCenterNews Asia Pacific",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZUY4bE9qb2VDNHNYOURpMEdudjVvRU1tNFdzMlRaNkc0TGFsc09aVV80cTBFT2JYZHlQVkp6OWJReTcyM0wydHlyYWZMandpclA2ZzNMdzJQX3pTQ2l2RlVwRjdaS2x0bWh4TGNJWU9ZSUV1R2Z1NXNldzZiZUJJT1dnUVNsbkx4ZHRIN0NYYU5Odw?oc=5",
-      "pubDate": 1790906174000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "med",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
         "rc": 3,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "arXiv"
     },
     {
       "id": "-148497339",
@@ -325,27 +304,6 @@
       "summary": "OpenAI Ties Group Tied to Moonshot AI to Scheme to Extract Hidden AI Reasoning Northeast Times",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZjFGQ214NmQ3bGdOaU9RRHNmZ2JaNDhCdWVJc1QyMUNQZVlKUGVLeVVmNjQ0aklmb0N1dFZOQ3Y3amhheDYydGFoTjhyYk1lLUVWUkt4cVJPeWtFOWRkVDRfM2tFeWgwY3ZhVW1pb1ByaVU0dFZ4dDAwS0VuLTRrRWFyR19ScjlvN3Zad2ZoNmFBTHgySU45VGdDNDEyMzU2MWJsOU9LY0VlbmNNRHRCdkNEdEFVUkF6?oc=5",
       "pubDate": 1790884135000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 1,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-191390497",
-      "title": "OpenAI Says People Linked to China's Moonshot Tried to Copy Its AI's Hidden Reasoning",
-      "titleZh": "OpenAI称与中国登月计划相关的人试图复制其AI的隐藏推理",
-      "summary": "OpenAI Says People Linked to China's Moonshot Tried to Copy Its AI's Hidden Reasoning Yahoo Tech",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRWJSS21KMV9qTjRIb0J6UzY4UEhjWGVNYWRkTG0xWHFhbW5QdVFaR3d3d1V0LUtaV295UmR3aDlMZVBFaFJvSDlNM05FS3lxb0ZRR093WXZWeFNfVUU4bkNkSzYzdEJvQmpEdmlncjI5M3YxWDE3MFRTUjFOT0F0X214VzN4c0pGWlE?oc=5",
-      "pubDate": 1790883963000,
       "vendor": "kimi",
       "category": "Product",
       "impact": "med",
@@ -538,13 +496,13 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 40,
+      "score": 39,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 12,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -559,13 +517,13 @@
       "vendor": "huggingface",
       "category": "Release",
       "impact": "med",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 1,
         "cw": 25,
         "st": 14,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -580,34 +538,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 45,
+      "score": 44,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1404325872",
-      "title": "Hearing tech startup Legato launches its AI hearing glasses",
-      "titleZh": "听力科技创业公司Legato推出人工智能助听器",
-      "summary": "The glasses stem from the startup’s goal of making hearing care more accessible by addressing the cost, comfort, and stigma associated with traditional hearing aids.",
-      "link": "https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses/",
-      "pubDate": 1790859600000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "high",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 25,
-        "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -622,23 +559,23 @@
       "vendor": "kimi",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 1,
         "cw": 22,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
     },
     {
-      "id": "283889287",
+      "id": "939143897",
       "title": "OpenAI Accuses Kimi Operator China’s Moonshot AI Of Copying AI Model Reasoning",
       "titleZh": "OpenAI Accuses Kimi Operator China’s Moonshot AI Of Copying AI Model Reasoning",
-      "summary": "OpenAI Accuses Kimi Operator China’s Moonshot AI Of Copying AI Model Reasoning TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTVNKV2lsbmRVZ1pvLVJSNkFHdXltSVJVdTEwcEd0WFV3bnV2SVJPc3gwdTMzNGNGYTA5UHJqV3V3QmFzUHJmUHNuVjdUeXl5aDZQdHB0UmNaekNwblcxX1pXZzJVbHZLaHFtdS1lb0xoVjlZN29YUUp6ai1jaE9kY0d2RUVEelg4a2FlNVpXUkpvOGRnSm15QkJSNDhPWWlfNXljZk43NU9pWjBmcXpRMHRmLUs4MElSY2hMMzFYcjMxS3FOSHVWMng5VWJmV1l1UzRIcA?oc=5",
+      "summary": "OpenAI Accuses Kimi Operator China’s Moonshot AI Of Copying AI Model Reasoning Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQN1NwYTJJN0ZqWGtycDVRN2wtSWlqTEtKX1NVZUpaQmRBc2szTEg4MHRGeVktNUVHZXpjSzYxR1hoX0pKckZOU3ZlazVJdmtJTEVtamRYdzhpMXl6MzA5cDNldERxcFhRS1RXcEkwUTdwQ2ZhU2RuUHpaczA5TTcweHhlTkdOdnFpXy1RRHh5Nk1UNzBtRjN2TUpNMXBjeE0?oc=5",
       "pubDate": 1790824560000,
       "vendor": "kimi",
       "category": "Research",
@@ -769,13 +706,13 @@
       "vendor": "deepmind",
       "category": "Release",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 10,
         "kv": 0,
         "cw": 25,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "DeepMind"
@@ -790,58 +727,16 @@
       "vendor": "nvidia",
       "category": "Agent",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 12,
         "cw": 12,
         "st": 10,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-968482535",
-      "title": "Qwen AI statistics 2026",
-      "titleZh": "Qwen AI statistics 2026",
-      "summary": "Qwen AI statistics 2026 aboutchromebooks.com",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE04YWtIU0dPeERPTWZYYWRmc1VMc1FsREM0c2I5eUVrOVhvYzZiaEJuQXp2RE1jd2wwdVpTM0JWZHRPMUozaXBLSmRTcVUydnZYWGFkblkxU2RUOWluRnpSUXNR?oc=5",
-      "pubDate": 1790770327000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 44,
-      "scoreBreakdown": {
-        "cq": 12,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "157767786",
-      "title": "DeepSeek Builds for Huawei Ascend",
-      "titleZh": "为华为Ascend打造的DeepSeek",
-      "summary": "DeepSeek Builds for Huawei Ascend Geopolitechs",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBMdmdBMVNucGYtYVNLQlljN040Q0FITV9TSVh3QWVFbk1aNVRfRnZHWmNpMXdMdy1aT0diOFVlZ1hndmpJOHlrbkRLWWlTN21ZOXU1U3c1Vm1QNElPaU9zZW1UZkxVSlNqaG53b0lSdHo4UQ?oc=5",
-      "pubDate": 1790769793000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-867205906",
@@ -853,13 +748,13 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -874,13 +769,13 @@
       "vendor": "openai",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 22,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -895,13 +790,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -1096,6 +991,27 @@
       "source": "HuggingFace"
     },
     {
+      "id": "-695614915",
+      "title": "Xiaomi Claims an 80% Compute Cost Drop for Unreleased MiMo V3",
+      "titleZh": "小米声称未发布的MiMo V3的计算成本降低了80 ％",
+      "summary": "Xiaomi Claims an 80% Compute Cost Drop for Unreleased MiMo V3 Geeky Gadgets",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5lXzRxVzNPOHRNeTFMYXpaM0pBQS1CZ3IweEVUT2pKY3U1WnZLZWNkek5HSEJHZWo0SFVia1pBbXVQTFl0RVBkVmpHUWxmZVQ5QTVzelU4akloMWd0REdKd3hpYlliYXhYR0E0X2N0M3I?oc=5",
+      "pubDate": 1790677065000,
+      "vendor": "google",
+      "category": "Release",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 25,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "290574005",
       "title": "Introducing GPT-6.1 Sol",
       "titleZh": "GPT-6.1 Sol简介",
@@ -1136,27 +1052,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "897695848",
-      "title": "Alibaba Qwen Releases Qwen-Audio-3.1-Realtime: A Full-Duplex Voice Model Trained to Think, Act, and Decide When to Speak",
-      "titleZh": "阿里巴巴Qwen发布Qwen-Audio-3.1-Realtime ：经过训练的全双工语音模型，能够思考、行动并决定何时说话",
-      "summary": "Alibaba Qwen Releases Qwen-Audio-3.1-Realtime: A Full-Duplex Voice Model Trained to Think, Act, and Decide When to Speak MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPcjJjREI5UjZYRjNoX1hTNmJ3SEwtSE9zOW5RZW9Wb3oybUJVY1E0WUIxLWtOU3M5c1NJdl9sa1A2WENGWkxYWlIwSnNQZVE1VFFnd295dlhGdVlpNjg3MlV5czZSUkN0cFhPMzNHMDdvaDFIZlBJMXp4Q0RJZVh1aEFxZzJHS3lZT2RILXdsSVIyUG82TzBFWXVWY3RmaHN4V01odEFReWN1bEFKZmtZVFhtTTZMYURuS2hMWVhGTDk2U3JGZXRpZ1hfSVFYTjVqSURUd1ZUN0I0UnZhYmxrUjdrSkJpcG5YcDhKeHFWVdIB9AFBVV95cUxQRXYwX3VVRUo4TUFqNGkzNWZvS0JHemFpVVAxNmJxTjVkSmlRQWpBSm1QT3Y4eDNhUUJkZ1dnZEU4UUl4LVBNekZRT2dlMGI0V3lyc3Z0VUJZX0FvSnpjZXJiX3VrcGI2cFMtNHJfSndITUhYT0JDUTU3cnlnbW9iQUx1MjBQQ3dEeXdmUzgzck9oMnZkYmdVSDFHd1ZBWXRibmlGVjk3Z1Bld2FSVEdjemRUUWFuSkFGSE5fQVdRQk9KSFgwbGNla1FjUWhTMGY5ZldMRUk3djVrczNEd0w1cGFVVFltejA0SmJVN19TTTROMXhy?oc=5",
-      "pubDate": 1790657895000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1988507739",
@@ -1369,27 +1264,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "-1171136501",
-      "title": "Alibaba claims new Qwen Image 2.1 AI model beats Google Nano Banana 2.0 with minuscule 7B parameter model — benchmarks show open-weight contender is competitive with OpenAI and Meta image models",
-      "titleZh": "Alibaba claims new Qwen Image 2.1 AI model beats Google Nano Banana 2.0 with minuscule 7B parameter model — benchmarks show open-weight contender is competitive with OpenAI and Meta image models",
-      "summary": "Alibaba claims new Qwen Image 2.1 AI model beats Google Nano Banana 2.0 with minuscule 7B parameter model — benchmarks show open-weight contender is competitive with OpenAI and Meta image models Tom's…",
-      "link": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxQYmZsbFl0SWdUX2Ytb1NjZ2tHV3NYSmZEb1pzUkozSUktWFhwSzAwUlY2a0c2VGVSY2dtNVJvYTFHV1FNOGpzYTVjTjRpS085SU9qQlk4UzRWdnYxX2Q3Ul9jMU54bVROOG9KLVZobW5xeWZNUVVHa1BMUkxTVTBubUtqSHF6Xzdrek5Mamtjd2xFelVNYUpjY1NtWUtyM0hubC12QTZrYmVuTnZidHM2cTYwSE1hMVZaZkhDYWYwNUhPTXJDa25EelZYSjNBX1JhYWRteERZSU9wR1htQ3RZWGIydVl2SnVlLWpKZ2M2V21SY1RVUDBfMm91dTZqRVRLemJLZzNTZDE3eVp5MVJvSzdObDNud0NHbXNva1lyTUhsY2k1X3Y0OVlhSHBWelZsbFpqOGRUd2FDeTNMalhwUjVBR2NRVHJGSG41WDdQUV9hRzVuRlJaclpvNEZnancwMGhnZlQyVy14X1lMcGJVOFpBeW5OUQ?oc=5",
-      "pubDate": 1790146800000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 3,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-262074080",
       "title": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
       "titleZh": "在新加坡人工智能日， NVIDIA及其合作伙伴展示了整个东南亚的人工智能进步",
@@ -1556,48 +1430,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-387879176",
-      "title": "Alibaba deepens AI push with new chip, bigger model; shares jump 5%",
-      "titleZh": "阿里巴巴以新芯片、更大机型深化人工智能推动；股价上涨5%",
-      "summary": "Alibaba deepens AI push with new chip, bigger model; shares jump 5% Reuters",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUlcybzdOMWxNcmJHT1ZvUHFRTkczZzRNbHpkeUM1QjVxak5WMVdfTldrMWRtaTdHd1FvZkUwbGN4NmhwdUFSdmJxdVBVTGZxNFBWMUNqQXU3dlJzM1VXOHZsYmliZmxBRl90eFF6dEFZWl9BQTJTdkdxaDBSMGVrSXBJUkFVQkx1RTFOcktHZDQ4blo4VFh0amtSRmYxU2YxeGdQdUhFa25DeDBjSllsaVBsUVQ3X3VYdnRKMTAxN1BzZFQzUUpGSVI3TXZBZmRuTlhjejFB?oc=5",
-      "pubDate": 1789974000000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "767682554",
-      "title": "Alibaba Qwen Team Releases Qwen3.8-LiveTranslate: A Real-Time Interpretation Model That Cuts Average Lag to 2.3 Seconds Across 60 Languages",
-      "titleZh": "阿里巴巴Qwen团队发布Qwen3.8-LiveTranslate ： 60种语言的平均延迟降至2.3秒的实时口译模型",
-      "summary": "Alibaba Qwen Team Releases Qwen3.8-LiveTranslate: A Real-Time Interpretation Model That Cuts Average Lag to 2.3 Seconds Across 60 Languages MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNakFkM2h4YjhMMm9IZl8td1dqS1RuRkVXVG9wRUgtb0xoNTNxWEtJTVF3WTc2d2lMTkVScUxrVU8xYXdJcWR2S09xZ2Z4N0UtVklfNXh4dEw3X3NLdm1MVXFvampScTN5bVNvNldQVmhjVTJVSjU2d1V2Y3lGZ0l3U1c2QzVEQ1hrbzdfakh3dVRJQlU?oc=5",
-      "pubDate": 1789801200000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "9772564",
@@ -2020,6 +1852,27 @@
       "source": "VentureBeat"
     },
     {
+      "id": "1669236386",
+      "title": "OpenAI-backed legal tech firm pivots to Chinese Kimi K3 open-weight model",
+      "titleZh": "OpenAI支持的法律技术公司转向中国Kimi K3开放重量模型",
+      "summary": "OpenAI-backed legal tech firm pivots to Chinese Kimi K3 open-weight model scmp.com",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ3V2NUpuTnpmZndzZFE0LTF3Y1dzM05ZLW1SM1I0UTVpV0dsYktwWHNldFZaZ1NMa3otTGE4SkJWLVpJZmx1dkhyU1NZM2tMV1dCcUl2RFhDRGpuemhYdUlVS184ZHloTmtMTk1BV0tYRUs2VEc4RDJFSWhNbmZvWFVVMUZ6YXVCajRsbUVfZjNUaVE5Skg1VnZJaGFINE04MzJ1NEhvdUViaWRoU2ZTSHkwakoxTUVLSURBeEExaGRBZ9IBwgFBVV95cUxPemJYVXlXZ3R5TUJYbkRkV2NmaWN2cUJ5SGxtaHlsSTV1UFJwdVd5R3hKck9hZkY5aXgySVczWldwM1dpS0taOW03OHAxaDE2clF5ZEJ3LXJEX3ljUzhKQ2lOUExNclVSbG5FQ3VmMndsWTE3anpnaG9fX3IyRFlaRms3VXkzS21mb3JjMXFaTE5rQ1h1Z3VzNC02cTNOSFhabTdiQkg0R0Q1RUNUTmNUZEhRcmprTl9MNmEyUHUzTkVfdw?oc=5",
+      "pubDate": 1787295600000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "high",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "74193009",
       "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
       "titleZh": "VentureBeat任命Rob Strechay为其首位首席分析师，扩大其企业人工智能研究推动力",
@@ -2041,48 +1894,6 @@
       "source": "VentureBeat"
     },
     {
-      "id": "-1066961806",
-      "title": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
-      "titleZh": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
-      "summary": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems scmp.com",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRVNJbE00UDhJSkVIaktiZTNYR01uZTVVNXd1SV9yMGpJM2dILU1SeWVFQXphS0dmYVNsekZrckVQVkNQNndYaWkxS1lKdXJRdE5MWVFJVVJvNHNPWlVUcVhJc2lRbFRiMFdhODdJeXJuTjZNcTg4enJpbEhMdTYxaDlpenFsSDVWUENpcDdxalM5UWR3OG10dUlMYXNSRjNhdGRYX04wN2s2aF9mb2hfbjJHY1FJT1F2WS1TQU8yc3NXMlFxSEtxX29Ca9IBywFBVV95cUxNekQyWHA4bjlBc09IbGwyajJaMEl1LVp0RXk0aWE5Q3hNWXlLUU5JcWxVRjg0ZHcwN05jN3pva3c1QzBjTjlJUl9CLWVVMkhxSjBCT2I0eFZhNkZwNDYwM0tVS3J1X1plS1J5bm02bzM4YWxPOEpXMzdhSEtRRkI0MzRYc3RFQUJRNmdid2lsMWRDM0tkcjFjUFlmZHBZdDZiR05CWkd0MHBFb3dZdHZCTHNCVjU3ZHlRMmM5TVhoTVlkZzBJV0x3UFRsdw?oc=5",
-      "pubDate": 1787036400000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1667867601",
-      "title": "Alibaba’s TSMC-Built 5nm RISC-V Chip, XuanTie C950, Now Runs Qwen-3.8 27B Model Natively, Unlocking Massive Vertical Integration Tailwinds",
-      "titleZh": "Alibaba’s TSMC-Built 5nm RISC-V Chip, XuanTie C950, Now Runs Qwen-3.8 27B Model Natively, Unlocking Massive Vertical Integration Tailwinds",
-      "summary": "Alibaba’s TSMC-Built 5nm RISC-V Chip, XuanTie C950, Now Runs Qwen-3.8 27B Model Natively, Unlocking Massive Vertical Integration Tailwinds Wccftech",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRkpQQWpTWGg5N2hBeUVGazlnQzNialpBblQ5SURxWG51SW9VQ1huclhQOFNERXJ4NS1BUzRCTUw3WHJYbXhuaWp1UENFcGJ0MExQLU1odHRUUTZnUE1DeHZjdjBwcDFzUlgxZm1UeWw2M0p2MTluZlZBXzR4SXFZaWIwZ2J2Si1yS2xoWU5idFltWWd0eUtJdTZZRVFRNklRY3JJc3hnektBeWQyRHM2YmNnT0VjN0hNZElDNUtHZEU2d3p5SnlzMldBakQzbjRWY1pCNlliQl83el83c1VYSGdDR0M0eTNlbDdDRtIB8gFBVV95cUxQbVJzb2E0eTk1dzJJTEZTRndwQnhhTDVQb1I2aTFHQ3pwZ3RNUU9tRkw5UUdWN01KYmdVR0VyMnZ5cVhTUkx5OW95MmhQUDNQR1dub1FuQ2Y0TDlYOFViSXZOT2NHU0x3R1VXd3pCRWhSXzRHTXo1enlrSUJWZF9oM2w5RTZBTEl1M2xmR09Rck1yRDdXX3kwVHVvLTdlWXplWjJweC1Gcy1kb3M3cE5hYzFGTzdHVDVic0hTaE8tS0ZGNV93Y0NhMHpzWXE3cEtFbDhRNzlRRGwzeERPYnNhZUtkRkNlcVJBZW9uc3NjSmE4QQ?oc=5",
-      "pubDate": 1787036400000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-2016155837",
       "title": "DeepSeek's AI Models Are About To Cost Four Times More",
       "titleZh": "DeepSeek的人工智能模型成本将增加四倍",
@@ -2090,27 +1901,6 @@
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT2FId1BnQ0MyY3Rzem9GYVo0blhJUnVqMEpYektCc1F5cy0xS09SODdqOEZrNXZGZE1NVlR6TGFacEw1Uzh6SEtfQzBEU2pfSDRpTW9YRVBoSlJyNElwcmJBOFZmVzIyVHZZS0hhcmJ6cWkzeWlMc2pOQmMwX055Yg?oc=5",
       "pubDate": 1786690800000,
       "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1567145547",
-      "title": "What Does Alibaba (BABA) Qwen Royalty Model Mean For Its AI Business?",
-      "titleZh": "阿里巴巴（ BABA ） Qwen版税模式对其AI业务意味着什么？",
-      "summary": "What Does Alibaba (BABA) Qwen Royalty Model Mean For Its AI Business? finance.yahoo.com",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNFRtSkE5ZWwtS054NjVibWJDcmFlN1JETWttV1lIRGw2QlJvSzg4bnVVMHE4bHN2RnVqSXo3ZllWVnFESnhTODhaX2FkVFJtb2hIbXJSOUg3TU1kejVYVmhKRHU1ZEt5YXZBWnpZWW05bEU1aVM2NFF5a2pLY1BRZFo5RVFkVkdHUG9UUWE5YlgzbnV4dXd2TWJR?oc=5",
-      "pubDate": 1786345200000,
-      "vendor": "qwen",
       "category": "Research",
       "impact": "med",
       "score": 55,
