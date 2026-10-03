@@ -1,8 +1,50 @@
 {
-  "updated": "2026-10-03T18:06:18.240Z",
+  "updated": "2026-10-03T21:36:03.441Z",
   "count": 106,
   "sources": 11,
   "items": [
+    {
+      "id": "-2047895229",
+      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+      "titleZh": "亚马逊回应数据中心的强烈反对，表示不再使用保密协议",
+      "summary": "The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.",
+      "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+      "pubDate": 1791053037000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1869393001",
+      "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+      "titleZh": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+      "summary": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.",
+      "link": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+      "pubDate": 1791045001000,
+      "vendor": "techcrunch",
+      "category": "Safety",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 10,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-118423730",
       "title": "All the AI agents that can live in your text messages",
@@ -13,13 +55,13 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 41,
+      "score": 40,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 12,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,13 +97,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -76,13 +118,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -97,13 +139,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 45,
+      "score": 44,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -193,27 +235,6 @@
       "source": "Google News"
     },
     {
-      "id": "-1552325368",
-      "title": "Circuit Breaker Labs hopes to make AI safer for your kids (and you)",
-      "titleZh": "Circuit Breaker Labs希望为您的孩子（以及您自己）打造更安全的人工智能",
-      "summary": "With all the talk about how AI might one day kill us all, it's easy to forget that AI has already harmed some people psychologically. Circuit Breaker Labs has created \"crash-test dummies\" to solve tha…",
-      "link": "https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/",
-      "pubDate": 1790960400000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 44,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "-199116788",
       "title": "A model guide for the GPT-6 family",
       "titleZh": "GPT-6系列的模型指南",
@@ -233,27 +254,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "-171276068",
-      "title": "Pope Leo XIV is not a fan of AI-generated art",
-      "titleZh": "教皇利奥十四世不喜欢人工智能产生的艺术",
-      "summary": "\"There is an ontological difference, even before an aesthetic one, between art and what a machine can generate through statistical calculation based on millions of images created by others,\" the pope …",
-      "link": "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/",
-      "pubDate": 1790955581000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 44,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "100855200",
@@ -2027,13 +2027,13 @@
       "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
       "pubDate": 1615961906000,
       "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
+      "category": "Research",
+      "impact": "high",
+      "score": 59,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 2,
-        "cw": 15,
+        "cw": 22,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -2048,13 +2048,13 @@
       "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
       "pubDate": 1610002951000,
       "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
+      "category": "Release",
+      "impact": "high",
+      "score": 61,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 3,
-        "cw": 15,
+        "cw": 25,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -2070,7 +2070,7 @@
       "pubDate": 1609824612000,
       "vendor": "microsoft",
       "category": "Product",
-      "impact": "med",
+      "impact": "high",
       "score": 50,
       "scoreBreakdown": {
         "cq": 22,
@@ -2090,13 +2090,13 @@
       "link": "https://news.microsoft.com/en-in/nasscom-futureskills-microsoft-launch-ai-classroom-series-skill-students/",
       "pubDate": 1599716180000,
       "vendor": "microsoft",
-      "category": "Release",
+      "category": "Product",
       "impact": "high",
-      "score": 62,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 4,
-        "cw": 25,
+        "cw": 15,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -2111,13 +2111,13 @@
       "link": "https://news.microsoft.com/en-in/industry-and-research-better-together-sriram-rajamani/",
       "pubDate": 1598613057000,
       "vendor": "microsoft",
-      "category": "Product",
+      "category": "Research",
       "impact": "med",
-      "score": 52,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 4,
-        "cw": 15,
+        "cw": 22,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -2132,13 +2132,13 @@
       "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
       "pubDate": 1594186160000,
       "vendor": "microsoft",
-      "category": "Release",
-      "impact": "med",
-      "score": 64,
+      "category": "Product",
+      "impact": "high",
+      "score": 54,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 4,
-        "cw": 25,
+        "cw": 15,
         "st": 10,
         "rc": 0,
         "cs": 1
