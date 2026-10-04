@@ -1,8 +1,29 @@
 {
-  "updated": "2026-10-04T20:18:23.858Z",
+  "updated": "2026-10-04T23:22:37.214Z",
   "count": 106,
   "sources": 11,
   "items": [
+    {
+      "id": "888389492",
+      "title": "US lead in AI over China narrows after DeepSeek gains, BI says",
+      "titleZh": "BI表示，在DeepSeek上涨后，美国在人工智能方面的领先优势在中国收窄",
+      "summary": "US lead in AI over China narrows after DeepSeek gains, BI says The Business Times",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSjFsQ1lLWkcxN1lmUXFVY0JpenVmVHdWb3V1UmFneVQ5NXlwaEhLTlJabUdPZkhqSmxUWUNNbGlPTjFUU200YnU1VVpHV3ZIcVliWnFaMU9IR2dpMjdLTGZzNUVlWENMTk1iWVJXYkZwSTRLNDl0c1JZcl9MMThSci1rNWhmM19hVVVJVEpNNGVCUzh3T01hMkNELV91NTlSQUVXXzB5bXk?oc=5",
+      "pubDate": 1791152520000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
     {
       "id": "-1499971599",
       "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
@@ -13,13 +34,13 @@
       "vendor": "techcrunch",
       "category": "Safety",
       "impact": "med",
-      "score": 39,
+      "score": 38,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 1,
         "cw": 10,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -34,13 +55,13 @@
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "med",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 3,
         "cw": 25,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -76,13 +97,13 @@
       "vendor": "huggingface",
       "category": "Agent",
       "impact": "med",
-      "score": 41,
+      "score": 40,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 12,
         "st": 14,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -181,13 +202,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -718,10 +739,10 @@
       "source": "Google News"
     },
     {
-      "id": "-1471883978",
+      "id": "863202354",
       "title": "Leading Chinese Tech Firms Target Nvidia’s A.I. Dominance",
       "titleZh": "Leading Chinese Tech Firms Target Nvidia’s A.I. Dominance",
-      "summary": "Leading Chinese Tech Firms Target Nvidia’s A.I. Dominance The New York Times",
+      "summary": "Leading Chinese Tech Firms Target Nvidia’s A.I. Dominance nytimes.com",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBSVnEtX2xUV3VfaDRUanAyY2Y0Q2o1WEZRM2hTVEFIRDg0SGIxYUtGR1lNbkpRaFgwS0NHSGdvOXNfaUpkMmxCTDZ0dEhuaWRjZkwxejNjTkU4LW9tMlpEUl9rUFF3MmFYZnRJY244UkFzNkZzZmtVcDZpY0JEQQ?oc=5",
       "pubDate": 1790764910000,
       "vendor": "google",
@@ -779,27 +800,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "-630868969",
-      "title": "DeepSeek opens tools to help Huawei chips supplant Nvidia in AI",
-      "titleZh": "DeepSeek推出工具，帮助华为芯片在人工智能领域取代英伟达",
-      "summary": "DeepSeek opens tools to help Huawei chips supplant Nvidia in AI South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX2pDSnRWMTNZYUhBYnh2eHpWQklRVG1FSDJPYWF5WkI4VTM2VjQteGJTQjRNWjJ6Z3hpcVpiRGpKVjVubkNfeHFVYnY0ODIxbUJKNmFFTFVQUndibGstVDF0WnlMSTRlc0xVMWNlOFhnbEtURjRidE9GejFHdEZBckxZYkZJSzFpNnhGZ0JiS1BSTUdoanBOSGZPd1d0M2FVLVRFalYzNDZRM2NkQ0xEVzN6Rk50OUd5VjQ2NnJwZE5JUTjSAcMBQVVfeXFMT09mUUVmbnlNV0NDZUVUbmE0X0ZKUTVUbkx0RkpseW1OWEZyVHVjSmF3cUNuVG9aNTljcVhSWTVoeldqeWtVczQ0OFcwRnFTSTBOeW93bkNNX2dZTzU2amlZSUFEa1AzV29mTS1IbDA3LTFjcGV4STVUa0E1NFRRU2g4S3JyNUV6aHRsRTVwWW1YX09mMnBxRUNMbmtrV2RmRURRR2l4djBwWm53SG9ta29FTkM2OXNfaVN3aXBBWUVIeHNF?oc=5",
-      "pubDate": 1790749868000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "2036884212",
@@ -1873,6 +1873,27 @@
       "source": "Google News"
     },
     {
+      "id": "1647827934",
+      "title": "DeepSeek signals ‘significant’ price hike, testing its low-cost edge",
+      "titleZh": "DeepSeek signals ‘significant’ price hike, testing its low-cost edge",
+      "summary": "DeepSeek signals ‘significant’ price hike, testing its low-cost edge South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQajRiOXpEcXlUXzRDSlE1cTYyZy01eVlUTjNITHZ2R1gzNjRRMXZfV18wUzYybzA1UUx5d1pzbFJzQWtCRnJGNGYwWmtIOUZuOUZfRHFWWnl1NFhPOTdqSTBwdFhnQk9qd1BhNkZhWGJobEZjTlFmLUQ2ZEtQUDNTX0JhWmc5M0VyZERVZWdVTkFmTlkzS2owME1PUVdYZVFvaV95TXA2MWhBUllSMWFsZjRTRlVQTEMyT1NYbDZMV2l0SjJNOVM3dU1B0gHKAUFVX3lxTFBvdmpuQml3NFBuU2JNWmY1RkdRVS11X2dEbHAzYmFkVW5YSXNKYWNmVWJ6MDROY1lxZS1odWlmRVZmUkZNNlNsNzlteUQ5SnhMMy1TMUZadUFqLUdFUEhDTFJsX2xiTUtfX3Z0bGZNMXUyTm13d0xWSzRuNHVhNk9OQUQ5NEVYMHZYRFB1aWhRaG56c1ZqVmE4YlcwOUNVMXdoVnFsTGNKR050LVNuUHVSN3I5UkdzN01qb2ZUSHh1NmxzSjZVelowbXc?oc=5",
+      "pubDate": 1785999600000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1937431074",
       "title": "DeepSeek's new bargain model accelerates AI's race to zero",
       "titleZh": "DeepSeek的新讨价还价模式加速了人工智能的零竞赛",
@@ -1941,27 +1962,6 @@
       "titleZh": "随着人工智能竞赛的加剧，中国的DeepSeek发布了期待已久的V4车型的预览",
       "summary": "China's DeepSeek releases preview of long-awaited V4 model as AI race intensifies CNBC",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd3BGX1RVY2NmcVZoZnpqQ0hDTmdhem9nVE5wLWlKN2lIYzNuVjJtUjdqeU9oWWIxVjY4WG1BU0ctMm5VNURWZmhnU05IQTVnakRJUFJSeHI5dFB0WThCb1h1Q2Fnb3k5aUwyTUd6NEZ3bU1LRWs5OHZvTi1MQlJpVzNMbnRzcDd6UkZxdFlsX0FycjU5SVc4ONIBngFBVV95cUxQWWFDRGp5MGRYM2FYZ0lvN0Y5cTVOSm56QmZQeENWTzdUQzVXOVZIQjVZZy1OcnJLeEFzSklFVEpWdWV6d05POWktN2JIbkJzQnhSZDdtRm1VQzBEbjR3ZjNyQ0VjSkVpenFrWGM5MnFWdndlVTg5OGgwMUpJa0RONnF2em9hdGhycjNGdmpmZHlQSEdudTMyRm1mdjVQUQ?oc=5",
-      "pubDate": 1777014000000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-132182614",
-      "title": "US-China AI race intensifies as DeepSeek releases 'reduced' cost model",
-      "titleZh": "随着DeepSeek发布“降低”成本模型，美中人工智能竞赛愈演愈烈",
-      "summary": "US-China AI race intensifies as DeepSeek releases 'reduced' cost model France 24",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOV1B1X3BGd1JSU0lBWjVtVEp0S0tiTzhCU2pHRkVlVEswRW45U1BFdjRQZHBQNlB2Y1VWOFJGU21NRnF2dnhQNHo1MnJiUUZucXRoWWdlbUdQR04ySmUzaTFzM3JycnJMTlZrbnNPMW83MXRvdkptM2FxdWNPZ1ZpZXZyQ2tUYlJ3NExqRHBXejJ6Mlhrek9TUW42MXVVLVpNQU5PNW1UbUlWQXNrTTQ3b2NQRDVtc2JCSUdDdA?oc=5",
       "pubDate": 1777014000000,
       "vendor": "deepseek",
       "category": "Release",
