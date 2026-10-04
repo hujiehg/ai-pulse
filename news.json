@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-04T12:39:38.259Z",
-  "count": 96,
-  "sources": 10,
+  "updated": "2026-10-04T17:13:07.603Z",
+  "count": 106,
+  "sources": 11,
   "items": [
     {
       "id": "-705024327",
@@ -76,13 +76,13 @@
       "vendor": "techcrunch",
       "category": "Safety",
       "impact": "med",
-      "score": 41,
+      "score": 40,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 10,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -97,13 +97,13 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 40,
+      "score": 39,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 12,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -265,13 +265,13 @@
       "vendor": "google",
       "category": "Research",
       "impact": "med",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 22,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -286,13 +286,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -307,13 +307,13 @@
       "vendor": "huggingface",
       "category": "Research",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 22,
         "st": 14,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -328,13 +328,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google AI"
@@ -460,6 +460,27 @@
         "kv": 0,
         "cw": 15,
         "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1271831878",
+      "title": "DeepSeek and Huawei release open-source Ascend AI programming tools to reduce reliance on Nvidia CUDA ecosystem — tools include compute and communication libraries, as well as Ascend support for TileLang",
+      "titleZh": "DeepSeek and Huawei release open-source Ascend AI programming tools to reduce reliance on Nvidia CUDA ecosystem — tools include compute and communication libraries, as well as Ascend support for TileLang",
+      "summary": "DeepSeek and Huawei release open-source Ascend AI programming tools to reduce reliance on Nvidia CUDA ecosystem — tools include compute and communication libraries, as well as Ascend support for TileL…",
+      "link": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxQdDJFV0hheDJFSlF1ZzF3X0R6WUlCTlE1bEVweU5iYmoxejNtMTRSVzJpekVZTTRMV2ZxamI3b05IMU55Tm9aMlRWMGRvWEJQS3RqMFpQM09qaVZRbFFyS1hSN0Y0SnpKRmF2VTl2U3R3c1RmWk1yRFJfVU5VcmUzZjhYVlhITUg1X1JOanFaSVlXVnRaQ2l4d3dURDdlekt3OF9MQS1UUXE4dzU5amtMMzQwdTAzdklUNWxnV3lSRmRLQndEYTBBU0lwWmNpdGtXUjdQTHBWTDF2RkljNXd6UjVhVXdhZTB1aWI5MDdjTmVxVFVjSzYwdE15MmNaelpDLUltVG5VSHFwaGl2d1luMjVrRkIzNzB0emJQZDFBZ21FUXpJOC1ieUpxNHp3a2VvNkw5aWROWkZBMTlOMmU0NHRyNkZyMmpBZjRMSmM3c19pQVlHVnJaZGFqTDhnMEZBVWJ5OElLUnIyUS15aGJqemgxa2FIUHlnVkE?oc=5",
+      "pubDate": 1790863200000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
         "rc": 1,
         "cs": 1
       },
@@ -676,6 +697,27 @@
       "source": "Google News"
     },
     {
+      "id": "-1471883978",
+      "title": "Leading Chinese Tech Firms Target Nvidia’s A.I. Dominance",
+      "titleZh": "Leading Chinese Tech Firms Target Nvidia’s A.I. Dominance",
+      "summary": "Leading Chinese Tech Firms Target Nvidia’s A.I. Dominance The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBSVnEtX2xUV3VfaDRUanAyY2Y0Q2o1WEZRM2hTVEFIRDg0SGIxYUtGR1lNbkpRaFgwS0NHSGdvOXNfaUpkMmxCTDZ0dEhuaWRjZkwxejNjTkU4LW9tMlpEUl9rUFF3MmFYZnRJY244UkFzNkZzZmtVcDZpY0JEQQ?oc=5",
+      "pubDate": 1790764910000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-427156578",
       "title": "Disrupting a coordinated model-distillation campaign",
       "titleZh": "扰乱协调的模型蒸馏活动",
@@ -716,6 +758,69 @@
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "-630868969",
+      "title": "DeepSeek opens tools to help Huawei chips supplant Nvidia in AI",
+      "titleZh": "DeepSeek推出工具，帮助华为芯片在人工智能领域取代英伟达",
+      "summary": "DeepSeek opens tools to help Huawei chips supplant Nvidia in AI South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX2pDSnRWMTNZYUhBYnh2eHpWQklRVG1FSDJPYWF5WkI4VTM2VjQteGJTQjRNWjJ6Z3hpcVpiRGpKVjVubkNfeHFVYnY0ODIxbUJKNmFFTFVQUndibGstVDF0WnlMSTRlc0xVMWNlOFhnbEtURjRidE9GejFHdEZBckxZYkZJSzFpNnhGZ0JiS1BSTUdoanBOSGZPd1d0M2FVLVRFalYzNDZRM2NkQ0xEVzN6Rk50OUd5VjQ2NnJwZE5JUTjSAcMBQVVfeXFMT09mUUVmbnlNV0NDZUVUbmE0X0ZKUTVUbkx0RkpseW1OWEZyVHVjSmF3cUNuVG9aNTljcVhSWTVoeldqeWtVczQ0OFcwRnFTSTBOeW93bkNNX2dZTzU2amlZSUFEa1AzV29mTS1IbDA3LTFjcGV4STVUa0E1NFRRU2g4S3JyNUV6aHRsRTVwWW1YX09mMnBxRUNMbmtrV2RmRURRR2l4djBwWm53SG9ta29FTkM2OXNfaVN3aXBBWUVIeHNF?oc=5",
+      "pubDate": 1790749868000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "2036884212",
+      "title": "DeepSeek Unveils Huawei AI Chip Tools That May Replace Nvidia’s",
+      "titleZh": "DeepSeek Unveils Huawei AI Chip Tools That May Replace Nvidia’s",
+      "summary": "DeepSeek Unveils Huawei AI Chip Tools That May Replace Nvidia’s Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdVlMbU1WWGh0VkFFanFnSF90Z3dRRGlFcEJzYnZJZExZb2VqSy11a2V2MXZHQ3JuQ3lVVU5UeS1VQTJqSVY4WTNLLUNXZl9nWlZXbzBxLUsxNktKV2dLRFNsWC14eE9SaGw4NzhDSmVRUU9FZzF0c3c5bVlSMTJ3dzU4akpnYmpleHdYeEJ2Q1JyZTY4ZlMybHhCcVUxRkxGb0pEUzdjdGVvMGZhc1l3UFhLVE4?oc=5",
+      "pubDate": 1790744820000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-146975994",
+      "title": "DeepSeek partners with Huawei to develop chip programming tools, reducing reliance on Nvidia",
+      "titleZh": "DeepSeek与华为合作开发芯片编程工具，减少对英伟达的依赖",
+      "summary": "DeepSeek partners with Huawei to develop chip programming tools, reducing reliance on Nvidia Reuters",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdUg5OUtKZEFWWE1PU3dHYURRTThhbS1fWTM2YzdIekQyTTIwU1daMl8wSW5XNTl4aklKSWlxVHRrazlhRlNjNXZDX0ZHd3RnUldXTUZmbGNuYXJYMUV2SFVvWEZsVWRuajcxazZ5WmZ3eEg5TEMtMVVIMXB1V0ppNHA4VEIyQzN0c0hmZDNjaWFLTE81d3IxLXZQeWVJWjhzWTNrUXBzU0IwYXhaX3NqUXkwNTJmMS1yZlhiaGNPRVUxcGZ0RmNKVFhRRVZrQQ?oc=5",
+      "pubDate": 1790737380000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "1462264619",
@@ -1747,6 +1852,48 @@
       "source": "Google News"
     },
     {
+      "id": "-2016155837",
+      "title": "DeepSeek's AI Models Are About To Cost Four Times More",
+      "titleZh": "DeepSeek的人工智能模型成本将增加四倍",
+      "summary": "DeepSeek's AI Models Are About To Cost Four Times More Engadget",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT2FId1BnQ0MyY3Rzem9GYVo0blhJUnVqMEpYektCc1F5cy0xS09SODdqOEZrNXZGZE1NVlR6TGFacEw1Uzh6SEtfQzBEU2pfSDRpTW9YRVBoSlJyNElwcmJBOFZmVzIyVHZZS0hhcmJ6cWkzeWlMc2pOQmMwX055Yg?oc=5",
+      "pubDate": 1786690800000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1937431074",
+      "title": "DeepSeek's new bargain model accelerates AI's race to zero",
+      "titleZh": "DeepSeek的新讨价还价模式加速了人工智能的零竞赛",
+      "summary": "DeepSeek's new bargain model accelerates AI's race to zero Axios",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04emlXWXpVQXhNcjJsU1d5ZmhnU1J2TFRyeFlxM2hqUUNUNVR2UmxFQUNBanYwWnd5ZUpTRnptVEh2TXU2NU5aa0FRbFV6ejVPd2wxWFNXa3RoaTZPQ0dQSHc0Tkk4WE93Q1JwV0tIWGNBaGNG?oc=5",
+      "pubDate": 1785567600000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1093452510",
       "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
       "titleZh": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
@@ -1766,6 +1913,69 @@
         "cs": 1
       },
       "source": "VentureBeat"
+    },
+    {
+      "id": "1998661165",
+      "title": "China’s DeepSeek rolls out a long-anticipated update of its AI model",
+      "titleZh": "China’s DeepSeek rolls out a long-anticipated update of its AI model",
+      "summary": "China’s DeepSeek rolls out a long-anticipated update of its AI model AP News",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU2pHYXJUc25BSWltX01IcEhVQUlfMy1aVjhRcERjajZKOThMYkEyQTk4d1UxcjBuazFYNEt6R1ZDLXd2aFZXTEdvTDNYc1hMUkZha29VaGo5WHI1dXljN1Zid3AxdHNoa3hFMlVjMGhfaUdlZXUwTEpfRkdmTFMyMnV1TmFWNjBTLWdoRw?oc=5",
+      "pubDate": 1777016062000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-807368284",
+      "title": "China's DeepSeek releases preview of long-awaited V4 model as AI race intensifies",
+      "titleZh": "随着人工智能竞赛的加剧，中国的DeepSeek发布了期待已久的V4车型的预览",
+      "summary": "China's DeepSeek releases preview of long-awaited V4 model as AI race intensifies CNBC",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd3BGX1RVY2NmcVZoZnpqQ0hDTmdhem9nVE5wLWlKN2lIYzNuVjJtUjdqeU9oWWIxVjY4WG1BU0ctMm5VNURWZmhnU05IQTVnakRJUFJSeHI5dFB0WThCb1h1Q2Fnb3k5aUwyTUd6NEZ3bU1LRWs5OHZvTi1MQlJpVzNMbnRzcDd6UkZxdFlsX0FycjU5SVc4ONIBngFBVV95cUxQWWFDRGp5MGRYM2FYZ0lvN0Y5cTVOSm56QmZQeENWTzdUQzVXOVZIQjVZZy1OcnJLeEFzSklFVEpWdWV6d05POWktN2JIbkJzQnhSZDdtRm1VQzBEbjR3ZjNyQ0VjSkVpenFrWGM5MnFWdndlVTg5OGgwMUpJa0RONnF2em9hdGhycjNGdmpmZHlQSEdudTMyRm1mdjVQUQ?oc=5",
+      "pubDate": 1777014000000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-132182614",
+      "title": "US-China AI race intensifies as DeepSeek releases 'reduced' cost model",
+      "titleZh": "随着DeepSeek发布“降低”成本模型，美中人工智能竞赛愈演愈烈",
+      "summary": "US-China AI race intensifies as DeepSeek releases 'reduced' cost model France 24",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOV1B1X3BGd1JSU0lBWjVtVEp0S0tiTzhCU2pHRkVlVEswRW45U1BFdjRQZHBQNlB2Y1VWOFJGU21NRnF2dnhQNHo1MnJiUUZucXRoWWdlbUdQR04ySmUzaTFzM3JycnJMTlZrbnNPMW83MXRvdkptM2FxdWNPZ1ZpZXZyQ2tUYlJ3NExqRHBXejJ6Mlhrek9TUW42MXVVLVpNQU5PNW1UbUlWQXNrTTQ3b2NQRDVtc2JCSUdDdA?oc=5",
+      "pubDate": 1777014000000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1380991222",
