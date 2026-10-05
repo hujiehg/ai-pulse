@@ -1,21 +1,21 @@
 {
-  "updated": "2026-10-05T02:12:12.248Z",
-  "count": 106,
-  "sources": 11,
+  "updated": "2026-10-05T09:20:39.682Z",
+  "count": 116,
+  "sources": 12,
   "items": [
     {
-      "id": "888389492",
-      "title": "US lead in AI over China narrows after DeepSeek gains, BI says",
-      "titleZh": "BI表示，在DeepSeek上涨后，美国在人工智能方面的领先优势在中国收窄",
-      "summary": "US lead in AI over China narrows after DeepSeek gains, BI says The Business Times",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSjFsQ1lLWkcxN1lmUXFVY0JpenVmVHdWb3V1UmFneVQ5NXlwaEhLTlJabUdPZkhqSmxUWUNNbGlPTjFUU200YnU1VVpHV3ZIcVliWnFaMU9IR2dpMjdLTGZzNUVlWENMTk1iWVJXYkZwSTRLNDl0c1JZcl9MMThSci1rNWhmM19hVVVJVEpNNGVCUzh3T01hMkNELV91NTlSQUVXXzB5bXk?oc=5",
-      "pubDate": 1791152520000,
+      "id": "1451224109",
+      "title": "U.S.-China AI Gap Narrows to 3% as DeepSeek Matches Anthropic's Performance",
+      "titleZh": "随着DeepSeek与Anthropic的表现相匹配，中美人工智能差距缩小至3%",
+      "summary": "U.S.-China AI Gap Narrows to 3% as DeepSeek Matches Anthropic's Performance finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE94NERTV0tyNUlrVVMzbWMzeDJlQjdXeU9IOTNUNm5GTjMtVTgxX2dKSl94OEJhN2VmVDlHS2lRTlg5eFVIMzVPdXVaVVpCZjNiQnBQZTE0cTBVWm1jeGFiV2ltTFd4SDZWSDNYUEktZl9RdDdHdXc?oc=5",
+      "pubDate": 1791182100000,
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 54,
       "scoreBreakdown": {
-        "cq": 18,
+        "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
@@ -23,6 +23,300 @@
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "240278355",
+      "title": "The Story of Qwen: Alibaba's AI Models From 7B to 2.4T",
+      "titleZh": "Qwen的故事：阿里巴巴从7B到2.4T的AI模型",
+      "summary": "The Story of Qwen: Alibaba's AI Models From 7B to 2.4T MarkTechPost",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYjZ0VF9nNXIxWjNSNXU4dWxudmZUZmhUQWpqSENtNGp2Tjk3MVZuQ3JpUGJqdktGQnkwVUxfUmlPTDkxLU5YZzAyczZqS3c4NmtZa3IzX0VlWHQ5cFlHUVhxWkNuRG01N09ndEVGRkJ6djd4eVNyS1FrRlJtRG5jX0RmVnZrc2FZMGNYUzFmejVON09CYl8xa9IBmAFBVV95cUxQYjZ0VF9nNXIxWjNSNXU4dWxudmZUZmhUQWpqSENtNGp2Tjk3MVZuQ3JpUGJqdktGQnkwVUxfUmlPTDkxLU5YZzAyczZqS3c4NmtZa3IzX0VlWHQ5cFlHUVhxWkNuRG01N09ndEVGRkJ6djd4eVNyS1FrRlJtRG5jX0RmVnZrc2FZMGNYUzFmejVON09CYl8xaw?oc=5",
+      "pubDate": 1791173434000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1094534681",
+      "title": "MintFlow: Minimal Trajectory Intervention for Constrained Flow Matching",
+      "titleZh": "MintFlow ：约束流匹配的最小轨迹干预",
+      "summary": "arXiv:2610.02260v1 Announce Type: new Abstract: Flow matching models excel at generative modeling, and many downstream applications require their samples to satisfy prescribed constraints, such as obs…",
+      "link": "https://arxiv.org/abs/2610.02260",
+      "pubDate": 1791172800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1127569478",
+      "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
+      "titleZh": "快速模型，缓慢证据： LLM代理线束的System-1决策模型的配对和自我审核评估",
+      "summary": "arXiv:2610.02267v1 Announce Type: new Abstract: Agent harnesses make many small, typed decisions per task: which model to call, which tool to use, whether retrieved text is relevant, whether an input …",
+      "link": "https://arxiv.org/abs/2610.02267",
+      "pubDate": 1791172800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-834085751",
+      "title": "The AI Risk Observatory: What Can We Learn from AI Disclosures in Annual Reports About Societal Resilience?",
+      "titleZh": "人工智能风险观察站：我们可以从年度报告中关于社会复原力的人工智能披露中学到什么？",
+      "summary": "arXiv:2610.02281v1 Announce Type: new Abstract: Societal resilience research relies on access to useful and actionable data, which motivates our main research question: Can annual reports, processed a…",
+      "link": "https://arxiv.org/abs/2610.02281",
+      "pubDate": 1791172800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "46500995",
+      "title": "Keep It CALM: Analyzing the Limits of Global Unsafety in Text-to-Image Generation",
+      "titleZh": "保持冷静：分析文本到图像生成中全局不安全的局限性",
+      "summary": "arXiv:2610.02300v1 Announce Type: new Abstract: Training-free safeguards for text-to-image generation often rely on a reusable safety signal, such as an unsafe direction or global toxic subspace, appl…",
+      "link": "https://arxiv.org/abs/2610.02300",
+      "pubDate": 1791172800000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "med",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 25,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "649205745",
+      "title": "Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents",
+      "titleZh": "行动前选择：长期工具使用代理的比较价值估算",
+      "summary": "arXiv:2610.02330v1 Announce Type: new Abstract: Large language models (LLMs) rely on long-horizon tool invocation sequences for complex tasks, where each invocation can alter the task state and condit…",
+      "link": "https://arxiv.org/abs/2610.02330",
+      "pubDate": 1791172800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1406666827",
+      "title": "World Editing: Intervening on Executable Worlds at Increasing Depth",
+      "titleZh": "世界编辑：日益深入地干预可执行世界",
+      "summary": "arXiv:2610.02331v1 Announce Type: new Abstract: Interactive world models are increasingly capable of generating environments and acting within them, yet deliberately editing an existing executable wor…",
+      "link": "https://arxiv.org/abs/2610.02331",
+      "pubDate": 1791172800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1334780106",
+      "title": "A Multi Method Importance and Performance Efficiency Analysis of Topological Metrics for Natural Visibility Graph Based Cyber Attack Detection",
+      "titleZh": "一种基于自然可见图的网络攻击检测拓扑度量的多方法重要性和性能效率分析",
+      "summary": "arXiv:2610.02342v1 Announce Type: new Abstract: Natural Visibility Graph (NVG) based analysis characterizes network traffic through topological descriptors reflecting different structural properties. …",
+      "link": "https://arxiv.org/abs/2610.02342",
+      "pubDate": 1791172800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1584238250",
+      "title": "DeReAct: Decomposed Reasoning and Acting for Reliable AI Agents",
+      "titleZh": "DeReAct ：可靠的人工智能代理的分解推理和行动",
+      "summary": "arXiv:2610.02351v1 Announce Type: new Abstract: ReAct-based agents typically rely on a single LLM policy to propose actions, interact with the environment, and decide when a task is complete. This cou…",
+      "link": "https://arxiv.org/abs/2610.02351",
+      "pubDate": 1791172800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 68,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 8,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-945427472",
+      "title": "Traversing the Satisfaction-Diversity Frontier in Text-to-Image Diffusion",
+      "titleZh": "穿越文本图像扩散的满意度-多样性前沿",
+      "summary": "arXiv:2610.02372v1 Announce Type: new Abstract: Text-to-image generation enables users to explore several images generated from the same prompt. For these generated images to be useful, each one must …",
+      "link": "https://arxiv.org/abs/2610.02372",
+      "pubDate": 1791172800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-349786112",
+      "title": "THPL: A Vision-to-Language Decision Support Framework for Rainbow Trout Feeding Management in RAS",
+      "titleZh": "THPL ： RAS中虹鳟饲养管理的视觉到语言决策支持框架",
+      "summary": "arXiv:2610.02378v1 Announce Type: new Abstract: In Recirculating Aquaculture Systems (RAS), precision feeding is critical for minimizing costs and improving fish welfare. However, existing methods lac…",
+      "link": "https://arxiv.org/abs/2610.02378",
+      "pubDate": 1791172800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-593941551",
+      "title": "US lead in AI over China narrows after DeepSeek gains, Bloomberg Intelligence says",
+      "titleZh": "彭博情报称，在DeepSeek上涨后，美国在人工智能方面的领先优势在中国收窄",
+      "summary": "US lead in AI over China narrows after DeepSeek gains, Bloomberg Intelligence says The Edge Malaysia",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5sVDZ2c0lIbjM4QUV2SWljQVNWZXBIREJMNG5YcmhJS2V6dlJHVVhscFBUZzJkSlZCMmhWeDZXbUl5UGxjVVBleDRkZERQdlBC?oc=5",
+      "pubDate": 1791167517000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1526820304",
+      "title": "DeepSeek Narrows AI Gap With US to Just 3 Percent, Bloomberg Says",
+      "titleZh": "彭博社称， DeepSeek将与美国的人工智能差距缩小至3%",
+      "summary": "DeepSeek Narrows AI Gap With US to Just 3 Percent, Bloomberg Says Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNX1VZQ1hSajZqNG50bk1wWE1rUjh3VE9NbnN6NEtma1VLNzR5RW0zbUpoWVA2Mno0UG1VVXBPX2NnVGFDYi1yRXpvdHRlTmd6UEZZaU1jQjJ1X2k0ZTJnM3lxeTAyZDNUZ3hGWjBWb1BQa2FtbDJPcnNENnFhZzZma0VGUG8zOHFyYzZzNWtOYlRVY0pzQWRN?oc=5",
+      "pubDate": 1791149385000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1342679429",
+      "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+      "titleZh": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+      "summary": "AI slop seems to be overwhelming bug bounty programs.",
+      "link": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+      "pubDate": 1791145867000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
     },
     {
       "id": "-1499971599",
@@ -76,13 +370,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -256,27 +550,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "567331192",
-      "title": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
-      "titleZh": "称之为AI ，称之为超级智能，只有2%的消费者购买",
-      "summary": "This week, the White House got nearly every major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them — to sign an AI safety pledge that President Donald Trump call…",
-      "link": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
-      "pubDate": 1790963760000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 1,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "379755796",
       "title": "Some topics are off limits inside popular Chinese-made free AI, researchers find",
       "titleZh": "研究人员发现，在流行的中国制造的免费人工智能中，有些话题是不受限制的",
@@ -359,6 +632,27 @@
         "cs": 1
       },
       "source": "Google AI"
+    },
+    {
+      "id": "-1560011374",
+      "title": "Chinese AI Model Gives Instructions for Bioweapons, Assassination",
+      "titleZh": "中国人工智能模型为生物武器、暗杀提供指令",
+      "summary": "Chinese AI Model Gives Instructions for Bioweapons, Assassination NTD News",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQ3Zwc0NjU2E4WFdhMFdhYnVCVHNXeGVsUzZERGE3WXFtRjJtaV9oUlN6bmxHM2lON2tsallNQjQ3anpZQ1p1UG5uYk92c2FMcDl1cUdIR0hLZlFNR19qVngyZ2NMUm12TWNuMFdobE1vY19rNXJfQ0cwdDh6Mmp3LTFadkhxek11amphSlhVUVJHQTRiajZuNGJMdm1fdw?oc=5",
+      "pubDate": 1790951890000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1919017710",
@@ -466,27 +760,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "793270961",
-      "title": "Chinese AI system tricked by users in dystopian way",
-      "titleZh": "中国人工智能系统被用户以反乌托邦的方式欺骗",
-      "summary": "Chinese AI system tricked by users in dystopian way dangerousminds.net",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU3ZyUXdDVklaTXdEa1BUZ1U4YW5uTDJMWTNNd3lUZUVoWnRWejNjZUF4a3NzVlF5S0RYVzcwQWpPYk5mNE9HWGc3S0xDS0prNmhMcUdocHZfbTY5Vzh5TDNpcnJkcTlta05jUi04ZWpLYlBaWWIwVEg5emdXd2pNNWJjVzl1cHpNTDFfYTg3a2g2X2IwN3VYMDAtZEZSZ3VMODJyTDdBY1k?oc=5",
-      "pubDate": 1790864689000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1271831878",
       "title": "DeepSeek and Huawei release open-source Ascend AI programming tools to reduce reliance on Nvidia CUDA ecosystem — tools include compute and communication libraries, as well as Ascend support for TileLang",
       "titleZh": "DeepSeek and Huawei release open-source Ascend AI programming tools to reduce reliance on Nvidia CUDA ecosystem — tools include compute and communication libraries, as well as Ascend support for TileLang",
@@ -522,6 +795,27 @@
         "cq": 20,
         "kv": 3,
         "cw": 20,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "283889287",
+      "title": "OpenAI Accuses Kimi Operator China’s Moonshot AI Of Copying AI Model Reasoning",
+      "titleZh": "OpenAI Accuses Kimi Operator China’s Moonshot AI Of Copying AI Model Reasoning",
+      "summary": "OpenAI Accuses Kimi Operator China’s Moonshot AI Of Copying AI Model Reasoning TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTVNKV2lsbmRVZ1pvLVJSNkFHdXltSVJVdTEwcEd0WFV3bnV2SVJPc3gwdTMzNGNGYTA5UHJqV3V3QmFzUHJmUHNuVjdUeXl5aDZQdHB0UmNaekNwblcxX1pXZzJVbHZLaHFtdS1lb0xoVjlZN29YUUp6ai1jaE9kY0d2RUVEelg4a2FlNVpXUkpvOGRnSm15QkJSNDhPWWlfNXljZk43NU9pWjBmcXpRMHRmLUs4MElSY2hMMzFYcjMxS3FOSHVWMng5VWJmV1l1UzRIcA?oc=5",
+      "pubDate": 1790824560000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 1,
+        "cw": 22,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -676,10 +970,10 @@
       "source": "NVIDIA"
     },
     {
-      "id": "1633312522",
+      "id": "-968482535",
       "title": "Qwen AI statistics 2026",
       "titleZh": "Qwen AI statistics 2026",
-      "summary": "Qwen AI statistics 2026 About Chromebooks",
+      "summary": "Qwen AI statistics 2026 aboutchromebooks.com",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE04YWtIU0dPeERPTWZYYWRmc1VMc1FsREM0c2I5eUVrOVhvYzZiaEJuQXp2RE1jd2wwdVpTM0JWZHRPMUozaXBLSmRTcVUydnZYWGFkblkxU2RUOWluRnpSUXNR?oc=5",
       "pubDate": 1790770327000,
       "vendor": "qwen",
@@ -758,27 +1052,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "2036884212",
-      "title": "DeepSeek Unveils Huawei AI Chip Tools That May Replace Nvidia’s",
-      "titleZh": "DeepSeek Unveils Huawei AI Chip Tools That May Replace Nvidia’s",
-      "summary": "DeepSeek Unveils Huawei AI Chip Tools That May Replace Nvidia’s Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdVlMbU1WWGh0VkFFanFnSF90Z3dRRGlFcEJzYnZJZExZb2VqSy11a2V2MXZHQ3JuQ3lVVU5UeS1VQTJqSVY4WTNLLUNXZl9nWlZXbzBxLUsxNktKV2dLRFNsWC14eE9SaGw4NzhDSmVRUU9FZzF0c3c5bVlSMTJ3dzU4akpnYmpleHdYeEJ2Q1JyZTY4ZlMybHhCcVUxRkxGb0pEUzdjdGVvMGZhc1l3UFhLVE4?oc=5",
-      "pubDate": 1790744820000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "med",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-146975994",
@@ -928,11 +1201,11 @@
       "source": "OpenAI"
     },
     {
-      "id": "1233209690",
+      "id": "-517893580",
       "title": "Alibaba Qwen Releases Qwen-Audio-3.1-Realtime: A Full-Duplex Voice Model Trained to Think, Act, and Decide When to Speak",
       "titleZh": "阿里巴巴Qwen发布Qwen-Audio-3.1-Realtime ：经过训练的全双工语音模型，能够思考、行动并决定何时说话",
       "summary": "Alibaba Qwen Releases Qwen-Audio-3.1-Realtime: A Full-Duplex Voice Model Trained to Think, Act, and Decide When to Speak MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPcjJjREI5UjZYRjNoX1hTNmJ3SEwtSE9zOW5RZW9Wb3oybUJVY1E0WUIxLWtOU3M5c1NJdl9sa1A2WENGWkxYWlIwSnNQZVE1VFFnd295dlhGdVlpNjg3MlV5czZSUkN0cFhPMzNHMDdvaDFIZlBJMXp4Q0RJZVh1aEFxZzJHS3lZT2RILXdsSVIyUG82TzBFWXVWY3RmaHN4V01odEFReWN1bEFKZmtZVFhtTTZMYURuS2hMWVhGTDk2U3JGZXRpZ1hfSVFYTjVqSURUd1ZUN0I0UnZhYmxrUjdrSkJpcG5YcDhKeHFWVQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPcjJjREI5UjZYRjNoX1hTNmJ3SEwtSE9zOW5RZW9Wb3oybUJVY1E0WUIxLWtOU3M5c1NJdl9sa1A2WENGWkxYWlIwSnNQZVE1VFFnd295dlhGdVlpNjg3MlV5czZSUkN0cFhPMzNHMDdvaDFIZlBJMXp4Q0RJZVh1aEFxZzJHS3lZT2RILXdsSVIyUG82TzBFWXVWY3RmaHN4V01odEFReWN1bEFKZmtZVFhtTTZMYURuS2hMWVhGTDk2U3JGZXRpZ1hfSVFYTjVqSURUd1ZUN0I0UnZhYmxrUjdrSkJpcG5YcDhKeHFWVdIB7wFBVV95cUxPcjJjREI5UjZYRjNoX1hTNmJ3SEwtSE9zOW5RZW9Wb3oybUJVY1E0WUIxLWtOU3M5c1NJdl9sa1A2WENGWkxYWlIwSnNQZVE1VFFnd295dlhGdVlpNjg3MlV5czZSUkN0cFhPMzNHMDdvaDFIZlBJMXp4Q0RJZVh1aEFxZzJHS3lZT2RILXdsSVIyUG82TzBFWXVWY3RmaHN4V01odEFReWN1bEFKZmtZVFhtTTZMYURuS2hMWVhGTDk2U3JGZXRpZ1hfSVFYTjVqSURUd1ZUN0I0UnZhYmxrUjdrSkJpcG5YcDhKeHFWVQ?oc=5",
       "pubDate": 1790657895000,
       "vendor": "qwen",
       "category": "Release",
@@ -1495,27 +1768,6 @@
       "source": "Google AI"
     },
     {
-      "id": "-1290016780",
-      "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
-      "titleZh": "Kimi制造商Moonshot AI的年收入目标为$ 2B",
-      "summary": "Kimi-maker Moonshot AI targets $2B in annual revenue TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZjd5bE8wcUZHZlhfS0lwZmxpX2xTTXBOMkJoVVItRmNjNGRsNjFJQVNXOERhYUljdFBscjBKekNlNXlmNmktZUpNNW1CbXQ5ODlxZWYyZUJScmI3cllZM2o0bUl0YW9FM3Z3TUI0Q1hDbVhMdkxHWi0yNTBFekhRYlc2NjhBeW43cktndU1fQUltQS1nclZVbQ?oc=5",
-      "pubDate": 1789110000000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-772445135",
       "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
       "titleZh": "Skild AI利用NVIDIA Physical AI从单个视频中向机器人教授新任务",
@@ -1747,10 +1999,10 @@
       "source": "Google News"
     },
     {
-      "id": "1669236386",
+      "id": "922668020",
       "title": "OpenAI-backed legal tech firm pivots to Chinese Kimi K3 open-weight model",
       "titleZh": "OpenAI支持的法律技术公司转向中国Kimi K3开放重量模型",
-      "summary": "OpenAI-backed legal tech firm pivots to Chinese Kimi K3 open-weight model scmp.com",
+      "summary": "OpenAI-backed legal tech firm pivots to Chinese Kimi K3 open-weight model South China Morning Post",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ3V2NUpuTnpmZndzZFE0LTF3Y1dzM05ZLW1SM1I0UTVpV0dsYktwWHNldFZaZ1NMa3otTGE4SkJWLVpJZmx1dkhyU1NZM2tMV1dCcUl2RFhDRGpuemhYdUlVS184ZHloTmtMTk1BV0tYRUs2VEc4RDJFSWhNbmZvWFVVMUZ6YXVCajRsbUVfZjNUaVE5Skg1VnZJaGFINE04MzJ1NEhvdUViaWRoU2ZTSHkwakoxTUVLSURBeEExaGRBZ9IBwgFBVV95cUxPemJYVXlXZ3R5TUJYbkRkV2NmaWN2cUJ5SGxtaHlsSTV1UFJwdVd5R3hKck9hZkY5aXgySVczWldwM1dpS0taOW03OHAxaDE2clF5ZEJ3LXJEX3ljUzhKQ2lOUExNclVSbG5FQ3VmMndsWTE3anpnaG9fX3IyRFlaRms3VXkzS21mb3JjMXFaTE5rQ1h1Z3VzNC02cTNOSFhabTdiQkg0R0Q1RUNUTmNUZEhRcmprTl9MNmEyUHUzTkVfdw?oc=5",
       "pubDate": 1787295600000,
       "vendor": "kimi",
@@ -1789,40 +2041,19 @@
       "source": "VentureBeat"
     },
     {
-      "id": "-1066961806",
+      "id": "1686568900",
       "title": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
       "titleZh": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems",
-      "summary": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems scmp.com",
+      "summary": "Alibaba’s lightweight Qwen takes on OpenAI, DeepSeek, Zhipu’s larger AI systems South China Morning Post",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRVNJbE00UDhJSkVIaktiZTNYR01uZTVVNXd1SV9yMGpJM2dILU1SeWVFQXphS0dmYVNsekZrckVQVkNQNndYaWkxS1lKdXJRdE5MWVFJVVJvNHNPWlVUcVhJc2lRbFRiMFdhODdJeXJuTjZNcTg4enJpbEhMdTYxaDlpenFsSDVWUENpcDdxalM5UWR3OG10dUlMYXNSRjNhdGRYX04wN2s2aF9mb2hfbjJHY1FJT1F2WS1TQU8yc3NXMlFxSEtxX29Ca9IBywFBVV95cUxNekQyWHA4bjlBc09IbGwyajJaMEl1LVp0RXk0aWE5Q3hNWXlLUU5JcWxVRjg0ZHcwN05jN3pva3c1QzBjTjlJUl9CLWVVMkhxSjBCT2I0eFZhNkZwNDYwM0tVS3J1X1plS1J5bm02bzM4YWxPOEpXMzdhSEtRRkI0MzRYc3RFQUJRNmdid2lsMWRDM0tkcjFjUFlmZHBZdDZiR05CWkd0MHBFb3dZdHZCTHNCVjU3ZHlRMmM5TVhoTVlkZzBJV0x3UFRsdw?oc=5",
       "pubDate": 1787036400000,
       "vendor": "qwen",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 54,
       "scoreBreakdown": {
-        "cq": 20,
+        "cq": 22,
         "kv": 4,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1667867601",
-      "title": "Alibaba’s TSMC-Built 5nm RISC-V Chip, XuanTie C950, Now Runs Qwen-3.8 27B Model Natively, Unlocking Massive Vertical Integration Tailwinds",
-      "titleZh": "Alibaba’s TSMC-Built 5nm RISC-V Chip, XuanTie C950, Now Runs Qwen-3.8 27B Model Natively, Unlocking Massive Vertical Integration Tailwinds",
-      "summary": "Alibaba’s TSMC-Built 5nm RISC-V Chip, XuanTie C950, Now Runs Qwen-3.8 27B Model Natively, Unlocking Massive Vertical Integration Tailwinds Wccftech",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRkpQQWpTWGg5N2hBeUVGazlnQzNialpBblQ5SURxWG51SW9VQ1huclhQOFNERXJ4NS1BUzRCTUw3WHJYbXhuaWp1UENFcGJ0MExQLU1odHRUUTZnUE1DeHZjdjBwcDFzUlgxZm1UeWw2M0p2MTluZlZBXzR4SXFZaWIwZ2J2Si1yS2xoWU5idFltWWd0eUtJdTZZRVFRNklRY3JJc3hnektBeWQyRHM2YmNnT0VjN0hNZElDNUtHZEU2d3p5SnlzMldBakQzbjRWY1pCNlliQl83el83c1VYSGdDR0M0eTNlbDdDRtIB8gFBVV95cUxQbVJzb2E0eTk1dzJJTEZTRndwQnhhTDVQb1I2aTFHQ3pwZ3RNUU9tRkw5UUdWN01KYmdVR0VyMnZ5cVhTUkx5OW95MmhQUDNQR1dub1FuQ2Y0TDlYOFViSXZOT2NHU0x3R1VXd3pCRWhSXzRHTXo1enlrSUJWZF9oM2w5RTZBTEl1M2xmR09Rck1yRDdXX3kwVHVvLTdlWXplWjJweC1Gcy1kb3M3cE5hYzFGTzdHVDVic0hTaE8tS0ZGNV93Y0NhMHpzWXE3cEtFbDhRNzlRRGwzeERPYnNhZUtkRkNlcVJBZW9uc3NjSmE4QQ?oc=5",
-      "pubDate": 1787036400000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
         "cw": 15,
         "st": 12,
         "rc": 0,
@@ -1941,7 +2172,7 @@
       "titleZh": "China’s DeepSeek rolls out a long-anticipated update of its AI model",
       "summary": "China’s DeepSeek rolls out a long-anticipated update of its AI model AP News",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU2pHYXJUc25BSWltX01IcEhVQUlfMy1aVjhRcERjajZKOThMYkEyQTk4d1UxcjBuazFYNEt6R1ZDLXd2aFZXTEdvTDNYc1hMUkZha29VaGo5WHI1dXljN1Zid3AxdHNoa3hFMlVjMGhfaUdlZXUwTEpfRkdmTFMyMnV1TmFWNjBTLWdoRw?oc=5",
-      "pubDate": 1777016062000,
+      "pubDate": 1777014000000,
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
@@ -1950,27 +2181,6 @@
         "cq": 18,
         "kv": 2,
         "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-807368284",
-      "title": "China's DeepSeek releases preview of long-awaited V4 model as AI race intensifies",
-      "titleZh": "随着人工智能竞赛的加剧，中国的DeepSeek发布了期待已久的V4车型的预览",
-      "summary": "China's DeepSeek releases preview of long-awaited V4 model as AI race intensifies CNBC",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd3BGX1RVY2NmcVZoZnpqQ0hDTmdhem9nVE5wLWlKN2lIYzNuVjJtUjdqeU9oWWIxVjY4WG1BU0ctMm5VNURWZmhnU05IQTVnakRJUFJSeHI5dFB0WThCb1h1Q2Fnb3k5aUwyTUd6NEZ3bU1LRWs5OHZvTi1MQlJpVzNMbnRzcDd6UkZxdFlsX0FycjU5SVc4ONIBngFBVV95cUxQWWFDRGp5MGRYM2FYZ0lvN0Y5cTVOSm56QmZQeENWTzdUQzVXOVZIQjVZZy1OcnJLeEFzSklFVEpWdWV6d05POWktN2JIbkJzQnhSZDdtRm1VQzBEbjR3ZjNyQ0VjSkVpenFrWGM5MnFWdndlVTg5OGgwMUpJa0RONnF2em9hdGhycjNGdmpmZHlQSEdudTMyRm1mdjVQUQ?oc=5",
-      "pubDate": 1777014000000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
         "st": 12,
         "rc": 0,
         "cs": 1
