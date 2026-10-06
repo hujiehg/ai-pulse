@@ -1,8 +1,134 @@
 {
-  "updated": "2026-10-05T18:41:09.286Z",
-  "count": 117,
-  "sources": 12,
+  "updated": "2026-10-06T00:31:03.704Z",
+  "count": 110,
+  "sources": 11,
   "items": [
+    {
+      "id": "-1853647490",
+      "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+      "titleZh": "Reflection推出开放式权重AI模型Beam ，以更低的计算成本与中国机型相媲美",
+      "summary": "Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI syste…",
+      "link": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+      "pubDate": 1791228833000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "98899457",
+      "title": "Instinct brings its AI agent to group chats, even for friends without an account",
+      "titleZh": "Instinct将其AI代理带到群聊中，即使对于没有帐户的朋友也是如此",
+      "summary": "Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating events. The company says personal accounts remain sepa…",
+      "link": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+      "pubDate": 1791226470000,
+      "vendor": "techcrunch",
+      "category": "Release",
+      "impact": "high",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 25,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1171100995",
+      "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
+      "titleZh": "TikTok推出人工智能购物助手和一键结账",
+      "summary": "TikTok describes its new Shopping Assistant as a conversational AI agent designed to help users discover and purchase products.",
+      "link": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+      "pubDate": 1791224940000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 43,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "651990125",
+      "title": "Hot Girl Hotline is like ‘Dear Abby’ for the AI era",
+      "titleZh": "Hot Girl Hotline is like ‘Dear Abby’ for the AI era",
+      "summary": "Founded by two sisters, Hot Girl Hotline uses AI to give young women personalized dating and relationship advice, with an emphasis on safety and avoiding emotional dependency.",
+      "link": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
+      "pubDate": 1791221362000,
+      "vendor": "techcrunch",
+      "category": "Safety",
+      "impact": "med",
+      "score": 39,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 1,
+        "cw": 10,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1464990548",
+      "title": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
+      "titleZh": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
+      "summary": "HackerRank’s AI interviewer has already conducted more than 500,000 interviews, with Snowflake, Snorkel, and Capgemini among its early testers.",
+      "link": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/",
+      "pubDate": 1791218615000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1956720251",
+      "title": "OpenAI launches visual ads that appear alongside image generation results",
+      "titleZh": "OpenAI推出与图像生成结果一起显示的视觉广告",
+      "summary": "OpenAI said the new visual ads will show up after your image generation results appear in the U.S. only for now.",
+      "link": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+      "pubDate": 1791213264000,
+      "vendor": "techcrunch",
+      "category": "Release",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 25,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-1258861760",
       "title": "Our approach to EU text provenance rules",
@@ -13,16 +139,79 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "-1804563628",
+      "title": "Open or closed AI? How founders are choosing what to build on at TechCrunch Disrupt 2026",
+      "titleZh": "打开还是关闭AI ？创始人如何在TechCrunch Disrupt 2026上选择要建立的内容",
+      "summary": "Learn how founders are choosing between building on open or closed AI at TechCrunch Disrupt 2026. Register now to save up to $100 and get a second pass at 50% off.",
+      "link": "https://techcrunch.com/2026/10/05/open-or-closed-ai-how-founders-are-choosing-what-to-build-on-at-techcrunch-disrupt-2026/",
+      "pubDate": 1791212400000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 43,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-2129459772",
+      "title": "Researchers are tracking a Chinese AI ‘agent fleet’",
+      "titleZh": "Researchers are tracking a Chinese AI ‘agent fleet’",
+      "summary": "Independent researchers discovered an agent swarm that seems to be running on Tencent's infrastructure and targeting Alibaba's map service, Amap.",
+      "link": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
+      "pubDate": 1791210909000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-13924668",
+      "title": "Meet the Startup Battlefield 200 judges who’ll decide the winner at TechCrunch Disrupt 2026",
+      "titleZh": "Meet the Startup Battlefield 200 judges who’ll decide the winner at TechCrunch Disrupt 2026",
+      "summary": "Meet the final five Startup Battlefield judges who'll decide who wins the pitch competition at TechCrunch Disrupt 2026. Get your pass now to save up to $100, and get a second at 50% off.",
+      "link": "https://techcrunch.com/2026/10/05/meet-the-startup-battlefield-200-judges-wholl-decide-the-winner-at-techcrunch-disrupt-2026/",
+      "pubDate": 1791210600000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 43,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
     },
     {
       "id": "1821637612",
@@ -34,32 +223,11 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 1,
         "cw": 22,
-        "st": 8,
-        "rc": 4,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-423434306",
-      "title": "Can Safeworld convince people that GenAI robots won’t hurt them?",
-      "titleZh": "Can Safeworld convince people that GenAI robots won’t hurt them?",
-      "summary": "Safeworld is building digital humans to make sure robots don't hurt the real ones.",
-      "link": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/",
-      "pubDate": 1791201600000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 15,
         "st": 8,
         "rc": 3,
         "cs": 1
@@ -370,13 +538,13 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -391,79 +559,16 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1342679429",
-      "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
-      "titleZh": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
-      "summary": "AI slop seems to be overwhelming bug bounty programs.",
-      "link": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
-      "pubDate": 1791145867000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1499971599",
-      "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
-      "titleZh": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
-      "summary": "On Equity, we discussed the Trump administration's attempts to rebrand AI.",
-      "link": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
-      "pubDate": 1791144514000,
-      "vendor": "techcrunch",
-      "category": "Safety",
-      "impact": "med",
-      "score": 37,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 1,
-        "cw": 10,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1880515047",
-      "title": "Trump unveils his new Super Intelligence Force",
-      "titleZh": "特朗普推出他的新超级情报部队",
-      "summary": "This new task force is Trump's latest response to the debate over AI safety.",
-      "link": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
-      "pubDate": 1791126910000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 3,
-        "cw": 25,
-        "st": 8,
         "rc": 2,
         "cs": 1
       },
-      "source": "TechCrunch"
+      "source": "Google News"
     },
     {
       "id": "-1031425990",
@@ -475,121 +580,16 @@
       "vendor": "huggingface",
       "category": "Agent",
       "impact": "med",
-      "score": 40,
+      "score": 39,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 12,
         "st": 14,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "-2047895229",
-      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
-      "titleZh": "亚马逊回应数据中心的强烈反对，表示不再使用保密协议",
-      "summary": "The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.",
-      "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-      "pubDate": 1791053037000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 40,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1869393001",
-      "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
-      "titleZh": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
-      "summary": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.",
-      "link": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
-      "pubDate": 1791045001000,
-      "vendor": "techcrunch",
-      "category": "Safety",
-      "impact": "med",
-      "score": 39,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 10,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-118423730",
-      "title": "All the AI agents that can live in your text messages",
-      "titleZh": "所有可以存在于您的短信中的人工智能代理",
-      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-      "link": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "pubDate": 1791036000000,
-      "vendor": "techcrunch",
-      "category": "Agent",
-      "impact": "med",
-      "score": 38,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1941233183",
-      "title": "Meta wants your next gadget to be Muse-infused",
-      "titleZh": "Meta希望您的下一个小工具融入Muse",
-      "summary": "Meta wants Muse in your TV and your toaster, so it's giving the code away for free.",
-      "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
-      "pubDate": 1790988339000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-918694852",
-      "title": "Sean Parker is rebuilding Stability AI around music",
-      "titleZh": "Sean Parker正在围绕音乐重建稳定AI",
-      "summary": "Sean Parker, who once taught the music industry what asking for forgiveness looks like, is now back with the labels' blessing and money.",
-      "link": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
-      "pubDate": 1790975354000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "379755796",
@@ -1252,13 +1252,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google AI"
@@ -1278,6 +1278,27 @@
         "cq": 9,
         "kv": 0,
         "cw": 12,
+        "st": 14,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
+      "id": "1114559717",
+      "title": "Welcome RL Environments to the hub",
+      "titleZh": "欢迎RL环境来到HUB",
+      "summary": "Welcome RL Environments to the hub",
+      "link": "https://huggingface.co/blog/rl-environments",
+      "pubDate": 1790553600000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 37,
+      "scoreBreakdown": {
+        "cq": 7,
+        "kv": 0,
+        "cw": 15,
         "st": 14,
         "rc": 0,
         "cs": 1
@@ -1467,27 +1488,6 @@
         "cq": 11,
         "kv": 1,
         "cw": 22,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
-      "id": "-1657011934",
-      "title": "Transformers now runs llama.cpp quants",
-      "titleZh": "变压器现在运行llama.cpp quants",
-      "summary": "Transformers now runs llama.cpp quants",
-      "link": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-      "pubDate": 1790035200000,
-      "vendor": "huggingface",
-      "category": "Product",
-      "impact": "med",
-      "score": 40,
-      "scoreBreakdown": {
-        "cq": 9,
-        "kv": 1,
-        "cw": 15,
         "st": 14,
         "rc": 0,
         "cs": 1
@@ -1936,69 +1936,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "2147151731",
-      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
-      "titleZh": "企业AI的真正风险不是自主代理。这是它们之间的复杂性。",
-      "summary": "Presented by Gravitee Read more",
-      "link": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
-      "pubDate": 1787839260000,
-      "vendor": "venturebeat",
-      "category": "Agent",
-      "impact": "med",
-      "score": 33,
-      "scoreBreakdown": {
-        "cq": 12,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
-      "id": "-1183454760",
-      "title": "When agents act on their own, governance has to live in the data layer",
-      "titleZh": "当代理自行行动时，治理必须位于数据层",
-      "summary": "Presented by EDB Read more",
-      "link": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
-      "pubDate": 1787832060000,
-      "vendor": "venturebeat",
-      "category": "Agent",
-      "impact": "med",
-      "score": 34,
-      "scoreBreakdown": {
-        "cq": 12,
-        "kv": 1,
-        "cw": 12,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
-      "id": "-1500538370",
-      "title": "Orchestration is the new challenge for CX in the age of AI agents",
-      "titleZh": "编排是人工智能代理时代CX面临的新挑战",
-      "summary": "Presented by Tata Communications Read more",
-      "link": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
-      "pubDate": 1787754600000,
-      "vendor": "venturebeat",
-      "category": "Agent",
-      "impact": "med",
-      "score": 33,
-      "scoreBreakdown": {
-        "cq": 12,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
       "id": "-1807646068",
       "title": "Alibaba's Qwen launches Qwen3.8-Flash AI model with lower training costs",
       "titleZh": "阿里巴巴旗下Qwen以更低的培训成本推出Qwen3.8-Flash AI模型",
@@ -2039,27 +1976,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "74193009",
-      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
-      "titleZh": "VentureBeat任命Rob Strechay为其首位首席分析师，扩大其企业人工智能研究推动力",
-      "summary": "Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a founding analyst of VentureBeat Research. His arrival i…",
-      "link": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
-      "pubDate": 1787149092000,
-      "vendor": "venturebeat",
-      "category": "Research",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
     },
     {
       "id": "1686568900",
@@ -2186,69 +2102,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-1093452510",
-      "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
-      "titleZh": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
-      "summary": "For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On T…",
-      "link": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
-      "pubDate": 1779212700000,
-      "vendor": "venturebeat",
-      "category": "Product",
-      "impact": "med",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
-      "id": "-1380991222",
-      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
-      "titleZh": "Railway获得1亿美元$ ，通过AI原生云基础设施挑战AWS",
-      "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B fundi…",
-      "link": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
-      "pubDate": 1769090400000,
-      "vendor": "venturebeat",
-      "category": "Funding",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 20,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
-      "id": "749662964",
-      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
-      "titleZh": "Claude Code每月的费用高达$ 200。Goose免费做同样的事情。",
-      "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive. Read more",
-      "link": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
-      "pubDate": 1768831200000,
-      "vendor": "venturebeat",
-      "category": "Product",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 15,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
     },
     {
       "id": "251294355",
