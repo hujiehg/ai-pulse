@@ -1,8 +1,29 @@
 {
-  "updated": "2026-10-09T15:26:18.056Z",
-  "count": 97,
-  "sources": 10,
+  "updated": "2026-10-09T20:12:31.204Z",
+  "count": 107,
+  "sources": 11,
   "items": [
+    {
+      "id": "-1233272541",
+      "title": "Impactful scheduling for GPU clusters",
+      "titleZh": "对GPU集群进行有影响的调度",
+      "summary": "Impactful scheduling for GPU clusters",
+      "link": "https://huggingface.co/blog/allenai/impactful-scheduling",
+      "pubDate": 1791559229000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 41,
+      "scoreBreakdown": {
+        "cq": 7,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
     {
       "id": "724152076",
       "title": "TechCrunch Disrupt 2026 starts in 4 days — lock in your pass savings of up to $100 before prices rise",
@@ -13,13 +34,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 45,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 5,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -44,6 +65,216 @@
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "-241272734",
+      "title": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
+      "titleZh": "大规模语义表解释和数据质量评估的可解释的以标题为中心的框架",
+      "summary": "arXiv:2610.10541v1 Announce Type: new Abstract: Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. In me…",
+      "link": "https://arxiv.org/abs/2610.10541",
+      "pubDate": 1791518400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 9,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1750952232",
+      "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+      "titleZh": "模拟合成：通过可扩展的代理-系统交互生成一致的企业数据",
+      "summary": "arXiv:2610.10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and leg…",
+      "link": "https://arxiv.org/abs/2610.10549",
+      "pubDate": 1791518400000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 15,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "4285383",
+      "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
+      "titleZh": "客服代表控制的忘记工具使用客服代表：实践中的可逆语境管理",
+      "summary": "arXiv:2610.10590v1 Announce Type: new Abstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forgetti…",
+      "link": "https://arxiv.org/abs/2610.10590",
+      "pubDate": 1791518400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "346167371",
+      "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
+      "titleZh": "Agentic AI中的验证和自我改进：基础和局限性",
+      "summary": "arXiv:2610.10611v1 Announce Type: new Abstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. A performance score …",
+      "link": "https://arxiv.org/abs/2610.10611",
+      "pubDate": 1791518400000,
+      "vendor": "arxiv",
+      "category": "Agent",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 12,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "850631574",
+      "title": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate",
+      "titleZh": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate",
+      "summary": "arXiv:2610.10629v1 Announce Type: new Abstract: Self-improving LLM agents can adapt a credit pipeline to a changed rule, but an agent that rewrites itself destroys the artefact a supervisor reviews: a…",
+      "link": "https://arxiv.org/abs/2610.10629",
+      "pubDate": 1791518400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1100596373",
+      "title": "Speaking the Navigator's Language: Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents",
+      "titleZh": "说领航员的语言：针对冷冻空中VLN代理的轨迹接地教学翻译",
+      "summary": "arXiv:2610.10635v1 Announce Type: new Abstract: Aerial vision-and-language navigation (VLN) agents are typically trained on detail-rich, trajectory-aligned commands, whereas users issue short, intent-…",
+      "link": "https://arxiv.org/abs/2610.10635",
+      "pubDate": 1791518400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1517918738",
+      "title": "Plan-and-Patch: Diffusion Language Models for Agentic Planning",
+      "titleZh": "计划与补丁：代理规划的扩散语言模型",
+      "summary": "arXiv:2610.10786v1 Announce Type: new Abstract: Planning is increasingly important for long-horizon agents, where successful execution requires coordinating subgoals, tool use, and intermediate outcom…",
+      "link": "https://arxiv.org/abs/2610.10786",
+      "pubDate": 1791518400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 70,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "495737099",
+      "title": "Whose Ground Truth? Embracing Ambiguity in Human-Centered AI",
+      "titleZh": "谁的真相？拥抱以人为中心的人工智能中的模棱两可",
+      "summary": "arXiv:2610.10805v1 Announce Type: new Abstract: As AI systems increasingly interact with people and make decisions about them, understanding human interpretations becomes an important part of developi…",
+      "link": "https://arxiv.org/abs/2610.10805",
+      "pubDate": 1791518400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1754726797",
+      "title": "On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents",
+      "titleZh": "时间紧迫：走向准时和高效的时间预算人工智能代理",
+      "summary": "arXiv:2610.10833v1 Announce Type: new Abstract: We study whether small LLM agents can operate effectively under explicit wall-clock time budgets by both respecting the allocated runtime and using avai…",
+      "link": "https://arxiv.org/abs/2610.10833",
+      "pubDate": 1791518400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-45722339",
+      "title": "Self-Supervised Keyframe Discovery for Horizon-Invariant Behavior Cloning",
+      "titleZh": "地平线不变行为克隆的自监督关键帧发现",
+      "summary": "arXiv:2610.10857v1 Announce Type: new Abstract: Behavior cloning (BC) in non-Markovian environments is a challenging problem because policies have to reason over contextual information over long horiz…",
+      "link": "https://arxiv.org/abs/2610.10857",
+      "pubDate": 1791518400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
     },
     {
       "id": "1521807634",
@@ -76,13 +307,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 57,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 1,
         "cw": 22,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -97,13 +328,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -118,13 +349,13 @@
       "vendor": "techcrunch",
       "category": "Funding",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 3,
         "cw": 20,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -139,13 +370,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "high",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -160,13 +391,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 2,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -181,13 +412,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 2,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -202,13 +433,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 22,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -223,13 +454,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -244,13 +475,13 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 40,
+      "score": 39,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 12,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -349,13 +580,13 @@
       "vendor": "nvidia",
       "category": "Agent",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 5,
         "cw": 12,
         "st": 10,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "NVIDIA"
@@ -370,13 +601,13 @@
       "vendor": "huggingface",
       "category": "Research",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 9,
         "kv": 1,
         "cw": 22,
         "st": 14,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -727,37 +958,16 @@
       "vendor": "google",
       "category": "Research",
       "impact": "med",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 22,
         "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "100855200",
-      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-      "titleZh": "开源AstaBrief ， ASTA的快速报告生成模型",
-      "summary": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-      "link": "https://huggingface.co/blog/allenai/astabrief",
-      "pubDate": 1790954390000,
-      "vendor": "huggingface",
-      "category": "Research",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 22,
-        "st": 14,
         "rc": 0,
         "cs": 1
       },
-      "source": "HuggingFace"
+      "source": "Google News"
     },
     {
       "id": "-1618984669",
