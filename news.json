@@ -1,8 +1,260 @@
 {
-  "updated": "2026-10-10T00:09:21.391Z",
-  "count": 117,
-  "sources": 12,
+  "updated": "2026-10-10T06:08:00.803Z",
+  "count": 97,
+  "sources": 10,
   "items": [
+    {
+      "id": "-241272734",
+      "title": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
+      "titleZh": "大规模语义表解释和数据质量评估的可解释的以标题为中心的框架",
+      "summary": "arXiv:2610.10541v1 Announce Type: new Abstract: Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. In me…",
+      "link": "https://arxiv.org/abs/2610.10541",
+      "pubDate": 1791604800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 9,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1750952232",
+      "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+      "titleZh": "模拟合成：通过可扩展的代理-系统交互生成一致的企业数据",
+      "summary": "arXiv:2610.10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and leg…",
+      "link": "https://arxiv.org/abs/2610.10549",
+      "pubDate": 1791604800000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 15,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "4285383",
+      "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
+      "titleZh": "客服代表控制的忘记工具使用客服代表：实践中的可逆语境管理",
+      "summary": "arXiv:2610.10590v1 Announce Type: new Abstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forgetti…",
+      "link": "https://arxiv.org/abs/2610.10590",
+      "pubDate": 1791604800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "346167371",
+      "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
+      "titleZh": "Agentic AI中的验证和自我改进：基础和局限性",
+      "summary": "arXiv:2610.10611v1 Announce Type: new Abstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. A performance score …",
+      "link": "https://arxiv.org/abs/2610.10611",
+      "pubDate": 1791604800000,
+      "vendor": "arxiv",
+      "category": "Agent",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 12,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "850631574",
+      "title": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate",
+      "titleZh": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate",
+      "summary": "arXiv:2610.10629v1 Announce Type: new Abstract: Self-improving LLM agents can adapt a credit pipeline to a changed rule, but an agent that rewrites itself destroys the artefact a supervisor reviews: a…",
+      "link": "https://arxiv.org/abs/2610.10629",
+      "pubDate": 1791604800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1100596373",
+      "title": "Speaking the Navigator's Language: Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents",
+      "titleZh": "说领航员的语言：针对冷冻空中VLN代理的轨迹接地教学翻译",
+      "summary": "arXiv:2610.10635v1 Announce Type: new Abstract: Aerial vision-and-language navigation (VLN) agents are typically trained on detail-rich, trajectory-aligned commands, whereas users issue short, intent-…",
+      "link": "https://arxiv.org/abs/2610.10635",
+      "pubDate": 1791604800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1517918738",
+      "title": "Plan-and-Patch: Diffusion Language Models for Agentic Planning",
+      "titleZh": "计划与补丁：代理规划的扩散语言模型",
+      "summary": "arXiv:2610.10786v1 Announce Type: new Abstract: Planning is increasingly important for long-horizon agents, where successful execution requires coordinating subgoals, tool use, and intermediate outcom…",
+      "link": "https://arxiv.org/abs/2610.10786",
+      "pubDate": 1791604800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 71,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "495737099",
+      "title": "Whose Ground Truth? Embracing Ambiguity in Human-Centered AI",
+      "titleZh": "谁的真相？拥抱以人为中心的人工智能中的模棱两可",
+      "summary": "arXiv:2610.10805v1 Announce Type: new Abstract: As AI systems increasingly interact with people and make decisions about them, understanding human interpretations becomes an important part of developi…",
+      "link": "https://arxiv.org/abs/2610.10805",
+      "pubDate": 1791604800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1754726797",
+      "title": "On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents",
+      "titleZh": "时间紧迫：走向准时和高效的时间预算人工智能代理",
+      "summary": "arXiv:2610.10833v1 Announce Type: new Abstract: We study whether small LLM agents can operate effectively under explicit wall-clock time budgets by both respecting the allocated runtime and using avai…",
+      "link": "https://arxiv.org/abs/2610.10833",
+      "pubDate": 1791604800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-45722339",
+      "title": "Self-Supervised Keyframe Discovery for Horizon-Invariant Behavior Cloning",
+      "titleZh": "地平线不变行为克隆的自监督关键帧发现",
+      "summary": "arXiv:2610.10857v1 Announce Type: new Abstract: Behavior cloning (BC) in non-Markovian environments is a challenging problem because policies have to reason over contextual information over long horiz…",
+      "link": "https://arxiv.org/abs/2610.10857",
+      "pubDate": 1791604800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-2081563085",
+      "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
+      "titleZh": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
+      "summary": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
+      "link": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+      "pubDate": 1791591512000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 20,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "406703624",
+      "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+      "titleZh": "非文本人工智能模型制造商Jev在发布几周后价值75亿美元",
+      "summary": "What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs.",
+      "link": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+      "pubDate": 1791582089000,
+      "vendor": "techcrunch",
+      "category": "Release",
+      "impact": "high",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 25,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-658351434",
       "title": "Alibaba Qwen Releases Qwen-Image-2.1-Turbo, an 8-Step 7B Image Model",
@@ -13,13 +265,13 @@
       "vendor": "qwen",
       "category": "Release",
       "impact": "high",
-      "score": 66,
+      "score": 65,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -34,13 +286,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 22,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -214,214 +466,25 @@
       "source": "OpenAI"
     },
     {
-      "id": "-241272734",
-      "title": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
-      "titleZh": "大规模语义表解释和数据质量评估的可解释的以标题为中心的框架",
-      "summary": "arXiv:2610.10541v1 Announce Type: new Abstract: Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. In me…",
-      "link": "https://arxiv.org/abs/2610.10541",
-      "pubDate": 1791518400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 9,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1750952232",
-      "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
-      "titleZh": "模拟合成：通过可扩展的代理-系统交互生成一致的企业数据",
-      "summary": "arXiv:2610.10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and leg…",
-      "link": "https://arxiv.org/abs/2610.10549",
-      "pubDate": 1791518400000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 3,
-        "cw": 15,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "4285383",
-      "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
-      "titleZh": "客服代表控制的忘记工具使用客服代表：实践中的可逆语境管理",
-      "summary": "arXiv:2610.10590v1 Announce Type: new Abstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forgetti…",
-      "link": "https://arxiv.org/abs/2610.10590",
-      "pubDate": 1791518400000,
-      "vendor": "arxiv",
+      "id": "-919179373",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "titleZh": "Asana使用GPT-6.1 Sol将浏览器测试中的模型成本降低了76倍",
+      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "link": "https://openai.com/index/asana-browser-agent",
+      "pubDate": 1791529200000,
+      "vendor": "openai",
       "category": "Research",
       "impact": "med",
       "score": 61,
       "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
+        "cq": 20,
+        "kv": 0,
         "cw": 22,
-        "st": 13,
+        "st": 15,
         "rc": 3,
         "cs": 1
       },
-      "source": "arXiv"
-    },
-    {
-      "id": "346167371",
-      "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
-      "titleZh": "Agentic AI中的验证和自我改进：基础和局限性",
-      "summary": "arXiv:2610.10611v1 Announce Type: new Abstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. A performance score …",
-      "link": "https://arxiv.org/abs/2610.10611",
-      "pubDate": 1791518400000,
-      "vendor": "arxiv",
-      "category": "Agent",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 12,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "850631574",
-      "title": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate",
-      "titleZh": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate",
-      "summary": "arXiv:2610.10629v1 Announce Type: new Abstract: Self-improving LLM agents can adapt a credit pipeline to a changed rule, but an agent that rewrites itself destroys the artefact a supervisor reviews: a…",
-      "link": "https://arxiv.org/abs/2610.10629",
-      "pubDate": 1791518400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1100596373",
-      "title": "Speaking the Navigator's Language: Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents",
-      "titleZh": "说领航员的语言：针对冷冻空中VLN代理的轨迹接地教学翻译",
-      "summary": "arXiv:2610.10635v1 Announce Type: new Abstract: Aerial vision-and-language navigation (VLN) agents are typically trained on detail-rich, trajectory-aligned commands, whereas users issue short, intent-…",
-      "link": "https://arxiv.org/abs/2610.10635",
-      "pubDate": 1791518400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1517918738",
-      "title": "Plan-and-Patch: Diffusion Language Models for Agentic Planning",
-      "titleZh": "计划与补丁：代理规划的扩散语言模型",
-      "summary": "arXiv:2610.10786v1 Announce Type: new Abstract: Planning is increasingly important for long-horizon agents, where successful execution requires coordinating subgoals, tool use, and intermediate outcom…",
-      "link": "https://arxiv.org/abs/2610.10786",
-      "pubDate": 1791518400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 70,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 7,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "495737099",
-      "title": "Whose Ground Truth? Embracing Ambiguity in Human-Centered AI",
-      "titleZh": "谁的真相？拥抱以人为中心的人工智能中的模棱两可",
-      "summary": "arXiv:2610.10805v1 Announce Type: new Abstract: As AI systems increasingly interact with people and make decisions about them, understanding human interpretations becomes an important part of developi…",
-      "link": "https://arxiv.org/abs/2610.10805",
-      "pubDate": 1791518400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1754726797",
-      "title": "On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents",
-      "titleZh": "时间紧迫：走向准时和高效的时间预算人工智能代理",
-      "summary": "arXiv:2610.10833v1 Announce Type: new Abstract: We study whether small LLM agents can operate effectively under explicit wall-clock time budgets by both respecting the allocated runtime and using avai…",
-      "link": "https://arxiv.org/abs/2610.10833",
-      "pubDate": 1791518400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-45722339",
-      "title": "Self-Supervised Keyframe Discovery for Horizon-Invariant Behavior Cloning",
-      "titleZh": "地平线不变行为克隆的自监督关键帧发现",
-      "summary": "arXiv:2610.10857v1 Announce Type: new Abstract: Behavior cloning (BC) in non-Markovian environments is a challenging problem because policies have to reason over contextual information over long horiz…",
-      "link": "https://arxiv.org/abs/2610.10857",
-      "pubDate": 1791518400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
+      "source": "OpenAI"
     },
     {
       "id": "1521807634",
@@ -437,48 +500,6 @@
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1587700575",
-      "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
-      "titleZh": "被解雇的OpenAI安全研究人员对不当行为索赔提出异议，警告其产生寒蝉效应",
-      "summary": "Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company’s AI safet…",
-      "link": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-      "pubDate": 1791489866000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 1,
-        "cw": 22,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1001466073",
-      "title": "Ben Affleck is an AI nerd, and the internet is impressed",
-      "titleZh": "Ben Affleck是个人工智能书呆子，互联网给人留下了深刻的印象",
-      "summary": "Ben Affleck is going viral for his deep knowledge of AI, from neural networks and transformers to open weights. The actor, who sold his AI filmmaking startup to Netflix earlier this year, is proving h…",
-      "link": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
-      "pubDate": 1791483632000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
         "cw": 15,
         "st": 8,
         "rc": 2,
@@ -653,27 +674,6 @@
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "-705024327",
-      "title": "BABA Stock At Near Two-Month Highs — Kimi AI's Moonshot Reportedly Has A Power Agreement With Alibaba For 20K Nvidia Chips",
-      "titleZh": "BABA Stock At Near Two-Month Highs — Kimi AI's Moonshot Reportedly Has A Power Agreement With Alibaba For 20K Nvidia Chips",
-      "summary": "BABA Stock At Near Two-Month Highs — Kimi AI's Moonshot Reportedly Has A Power Agreement With Alibaba For 20K Nvidia Chips Stocktwits",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS2JaOUJUMmZyYlh4NW1YV1NTVW90S1BJVEFHdGdqQnVYaGczX2RaaHlLYjB4anJadVMtTUU2Z200Tm92Unl0V3dBUjQtNnZ0alBneGlQUE5lTkI0RklNYlRZUzNQX3hDeEtiV1d0andiNTdrWWVVZW1vM1ZMbFhxMlBQTi1GUnphelYzMEpvZlY4cXlsVnQycHQtbkx5bWpWSExGNnlRZ3EtbW9BRnc?oc=5",
-      "pubDate": 1791386204000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1688136132",
@@ -886,48 +886,6 @@
       "source": "Google News"
     },
     {
-      "id": "-1459861942",
-      "title": "Moonshot AI Prepares Hong Kong IPO as DeepSeek's Funding Round Draws Oversubscribed Demand",
-      "titleZh": "Moonshot AI准备香港IPO ，因为DeepSeek的融资轮吸引了超额认购的需求",
-      "summary": "Moonshot AI Prepares Hong Kong IPO as DeepSeek's Funding Round Draws Oversubscribed Demand IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZFhsbFJ6UmkwRHRxMEZBd0k4VHM2SXNRbUFNWnNBYzU2ZDVvOXl0NGdpeDU5bldDSTMtQkFvUEVZT3BFTWtSTUhKQS1aajdPenRSSUVsMUZMUW1IX1R3Z1U4QTdua0sxaG1uZUJXN1MwamFtLXUySHNPb3dTODhKNXlDOHZSQTRJVV95S01pNkEyVUhsaVVLZ0VJckRMUzU4V21idU5USjE5U1Y4RnRLTldxb1BkRmpYODY0?oc=5",
-      "pubDate": 1791291087000,
-      "vendor": "kimi",
-      "category": "Funding",
-      "impact": "high",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 20,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-895545098",
-      "title": "Moonshot AI is targeting a Hong Kong IPO in early 2027 after hitting a $50B valuation",
-      "titleZh": "Moonshot AI在估值达到500亿美元后，计划在2027年初在香港首次公开募股",
-      "summary": "Moonshot AI is targeting a Hong Kong IPO in early 2027 after hitting a $50B valuation Quartz",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4yc3A2cUxsaUJkTjc0QTAzUTNrNWpQX0V1Z3hZazdycmR5RzZYRDhXYllmeDdjZWd2UFZnd19ldERIYmtBWmdiRmFCY1dhaVVlMXVCZlNnVW9QYldkQ0RCWTRWNlliTjBSOUJaNUhxajdITnZmaGFLMkREV2U2Zw?oc=5",
-      "pubDate": 1791289278000,
-      "vendor": "kimi",
-      "category": "Funding",
-      "impact": "high",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 20,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-306107550",
       "title": "The 'DeepSeek of the West' finally has a model",
       "titleZh": "“DeepSeek of the West”终于有了一个模型",
@@ -991,48 +949,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "-501952936",
-      "title": "Sharing AI progress in mathematics",
-      "titleZh": "分享人工智能在数学方面的进展",
-      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-      "link": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "pubDate": 1791288000000,
-      "vendor": "openai",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
-      "id": "-1500265823",
-      "title": "Moonshot Said to Eye Early 2027 IPO After Value Hits $50 Billion",
-      "titleZh": "Moonshot在价值达到500亿美元后于2027年初首次公开募股",
-      "summary": "Moonshot Said to Eye Early 2027 IPO After Value Hits $50 Billion Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUWxadFhQQmw2UHl3OU1mdTl5a0RrT1d2X1FlS1BYV2FIS0I5Z0RRWW9RazFFNG10WlhLaXZXTUZRYUM1X0lpRjZlYmszSXg2bUgwYjlodjk5VmJiSUJFSU5qeGw0Vzg4bk53NFNsZXNUMmJWcmRFcEgxSUdUaWFjWGhlMTh2dlB6TnR3em9BSmFCc1VxQjRGU1JYSmxwdGlkdG93QnhFUExkYkp1ZGRVeFNfOFo?oc=5",
-      "pubDate": 1791281898000,
-      "vendor": "kimi",
-      "category": "Funding",
-      "impact": "high",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 20,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1398541540",
       "title": "Nvidia-Backed Reflection AI Targets Low-Cost Chinese Models Like DeepSeek and Kimi",
       "titleZh": "英伟达支持的Reflection AI瞄准DeepSeek和Kimi等低成本中国机型",
@@ -1047,27 +963,6 @@
         "cq": 20,
         "kv": 2,
         "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1189348428",
-      "title": "Moonshot AI hits $50 billion valuation as it prepares for Hong Kong IPO",
-      "titleZh": "Moonshot AI在准备香港IPO时达到500 $十亿估值",
-      "summary": "Moonshot AI hits $50 billion valuation as it prepares for Hong Kong IPO CTech",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB4WnZ4RmxlTUx3NnFXZTNNR3pETnZpQUJEVm4yYmYtQnVtQktYOUNiQ1Njdk1ITEFDMnJmTHlRbnJXOVZ5T2Fzc3pvZ2JXTlFlR2VNMmF2SEs0VGdrRXJ4N3UxY0h5bTBq?oc=5",
-      "pubDate": 1791270060000,
-      "vendor": "kimi",
-      "category": "Funding",
-      "impact": "high",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 20,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -1110,27 +1005,6 @@
         "cq": 18,
         "kv": 2,
         "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1940582327",
-      "title": "DeepSeek and Moonshot AI: China’s A.I. Stars Head for the Stock Market",
-      "titleZh": "DeepSeek and Moonshot AI: China’s A.I. Stars Head for the Stock Market",
-      "summary": "DeepSeek and Moonshot AI: China’s A.I. Stars Head for the Stock Market www.trendingtopics.eu",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE55a3V5bE13N3NVbUV6WEpadnk2ai1LM0I1LWlJZGJmR3hMLVB4NUpvTVZjWlF5WkEtT3p1MlcwaGViNW1RSXhOS3ZjTUxRbk1jZU9maWpxNDdwNUxERmVWNWszcnNmdw?oc=5",
-      "pubDate": 1791266378000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -1285,27 +1159,6 @@
       "source": "HuggingFace"
     },
     {
-      "id": "-148497339",
-      "title": "Chinese AI model investigated after researcher says it provided instructions for bioweapons, assassinations",
-      "titleZh": "研究人员称中国人工智能模型为生物武器、暗杀提供了指令后进行了调查",
-      "summary": "Chinese AI model investigated after researcher says it provided instructions for bioweapons, assassinations Fox News",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONURaV1hMTkVSRmU0aUZMSVFBMmpQcTJlN0h4MVp2djJSbjlzYTJuLVVONnNpd3h4a1RiZlV5Mlh2ekxsZy1FWURaZUoxbEpHdy1vNV9TV2daSWZNN1dPRVR4SjJyLW5JNDByQklfTUlkNUJ1U29YcC1GODJzOWlHUEFyUFA2UC1OTkwtMFhkTGdIOTNrQ3RmWHVoQmNWTWxCR1dNVHcySW1TbmdUVGRmX3Z0a1UyVEsyVjI3U0Y1NNIBxAFBVV95cUxONUw0R3RpZXFfc3Fmd082TEJMUHlIYkxSZThDV0htcWVWQ0xJSHVMaXhCTHR2TjBJNmxiSC1ZT2VVN0tJaFRDdkZXVnRtQ0xWZDNJWElYY0dEcy1naEVXcGU1T1lmc2xGWUFJb0xLdmY0UzFTTm1HaC1hMFFWYVhkeWRuQUY1ZnZvc1dTOFRnMzhFbFZ6ZXZZdk11eEFrZjVlaEpOMzVKQ2s2VzUzY1ZVeVEzbklDYzlweDVVS3BsY2FBODZf?oc=5",
-      "pubDate": 1790838000000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1889306321",
       "title": "Gemini 4 Argon: our next era of frontier intelligence",
       "titleZh": "双子座4氩气：我们下一个前沿情报时代",
@@ -1390,27 +1243,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "200081961",
-      "title": "AI race heats up as OpenAI flags alleged model-copying campaign",
-      "titleZh": "随着OpenAI标记涉嫌模型复制活动， AI竞赛升温",
-      "summary": "AI race heats up as OpenAI flags alleged model-copying campaign CNBC",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kSmhrQ0lQOWwyV3JGWWpoclhLX1ZHYm9qX2tOTVRvcms5eUpOUjlrQ2RYdnhlVlJYTUNFelFRWjVkYXpJbVBPTU42amJ3QW5IMDdqYTZzcjVULWxuSjh0OUYyRTV6RG84ZlpLM2NlblNoWHJDdXfSAXtBVV95cUxQSTFoTHRwbXlLVFQtRXNCVlpLblVkRGNiMnN3RjgwVHE5anZvUW1aQlNzTGVGRXJISm9JUGdka1dWUnFEd0Nqc2s1N1d4UldwLUlTNWdCOWxJUFluSVZSTUJzZFhkM3VKNUNLd3cwNjJRa29QbWQ3d0hDN28?oc=5",
-      "pubDate": 1790751600000,
-      "vendor": "openai",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1462264619",
       "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
       "titleZh": "开放式TTS排行榜：多语言文本到语音和语音克隆的可扩展评估",
@@ -1451,27 +1283,6 @@
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "689731370",
-      "title": "Chinese AI tool told researchers how to make bioweapons",
-      "titleZh": "中国人工智能工具告诉研究人员如何制造生物武器",
-      "summary": "Chinese AI tool told researchers how to make bioweapons BBC",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBYVloRjJuSWNfTElwbC1FbmYtM29uc0xjUnBaWmlQUW4zR1pnZUFyYVVITTRtZ1NmQkFzSW1YT2VkZHdGOVV1ektaLTRMeHl4cXFVbndlMkwtZW8?oc=5",
-      "pubDate": 1790665200000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1464852399",
@@ -1915,27 +1726,6 @@
       "source": "Google AI"
     },
     {
-      "id": "-1290016780",
-      "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
-      "titleZh": "Kimi制造商Moonshot AI的年收入目标为$ 2B",
-      "summary": "Kimi-maker Moonshot AI targets $2B in annual revenue TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZjd5bE8wcUZHZlhfS0lwZmxpX2xTTXBOMkJoVVItRmNjNGRsNjFJQVNXOERhYUljdFBscjBKekNlNXlmNmktZUpNNW1CbXQ5ODlxZWYyZUJScmI3cllZM2o0bUl0YW9FM3Z3TUI0Q1hDbVhMdkxHWi0yNTBFekhRYlc2NjhBeW43cktndU1fQUltQS1nclZVbQ?oc=5",
-      "pubDate": 1789110000000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-772445135",
       "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
       "titleZh": "Skild AI利用NVIDIA Physical AI从单个视频中向机器人教授新任务",
@@ -2249,216 +2039,6 @@
         "cs": 1
       },
       "source": "VentureBeat"
-    },
-    {
-      "id": "251294355",
-      "title": "Technology, recovery, and responsibility",
-      "titleZh": "技术、恢复和责任",
-      "summary": "By Sriram Rajamani, Managing Director, Microsoft Research India We started 2021 with the hope that the COVID-19 vaccines will immunize enough of the world’s population to give herd immunity in the com…",
-      "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
-      "pubDate": 1615961906000,
-      "vendor": "microsoft",
-      "category": "Research",
-      "impact": "high",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 2,
-        "cw": 22,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "1792312368",
-      "title": "Directorate General of Training, Ministry of Skill Development and Entrepreneurship, partners with Microsoft and NASSCOM Foundation to empower students with next generation digital skills",
-      "titleZh": "技能发展和创业部培训总局与微软和NASSCOM基金会合作，为学生提供下一代数字技能",
-      "summary": "The blended curriculum will impact 1.2 lakh students across 3000 Industrial Training Institutes (ITI) in India New Delhi, January 7, 2021: With a vision to empower the next generation of learners, the…",
-      "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
-      "pubDate": 1610002951000,
-      "vendor": "microsoft",
-      "category": "Release",
-      "impact": "high",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 3,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "58206720",
-      "title": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
-      "titleZh": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
-      "summary": "Multilingual omni-channel service reduces wait time for queries, improves customer satisfaction by 70% New Delhi, January 5, 2021 – Powered by Microsoft Azure, Indian Railway Catering and Tourism Corp…",
-      "link": "https://news.microsoft.com/en-in/microsoft-azure-powered-corover-developed-irctc-ai-chatbot-askdisha/",
-      "pubDate": 1609824612000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-1890804461",
-      "title": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
-      "titleZh": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
-      "summary": "• The initiative aims to skill 1 million students in AI by 2021 • The AI Classroom Series will deliver Microsoft’s AI, machine learning and data science expertise to undergraduate students at no cost …",
-      "link": "https://news.microsoft.com/en-in/nasscom-futureskills-microsoft-launch-ai-classroom-series-skill-students/",
-      "pubDate": 1599716180000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 4,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-1460121599",
-      "title": "Industry and research – better together",
-      "titleZh": "Industry and research – better together",
-      "summary": "By Sriram Rajamani, Distinguished Scientist and Managing Director, Microsoft Research India at Microsoft Manik Varma, researcher in the Microsoft Research (MSR) India lab was awarded the prestigious S…",
-      "link": "https://news.microsoft.com/en-in/industry-and-research-better-together-sriram-rajamani/",
-      "pubDate": 1598613057000,
-      "vendor": "microsoft",
-      "category": "Research",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 4,
-        "cw": 22,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-1887675878",
-      "title": "NSDC and Microsoft collaborate to empower Indian youth with digital skills",
-      "titleZh": "NSDC和微软合作，为印度青年提供数字技能",
-      "summary": "The initiative aims at skilling over 1 lakh youth in the next 12 months New Delhi, July 08, 2020: With a vision to transform India into a skilled nation, the National Skill Development Corporation (NS…",
-      "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
-      "pubDate": 1594186160000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "high",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 4,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "652542494",
-      "title": "Empowering developers to achieve more at the Microsoft Developer Conference",
-      "titleZh": "帮助开发人员在Microsoft开发者大会上取得更大成就",
-      "summary": "New Delhi, June 18, 2020: Underlining the critical role of developers in innovations that will power economic recovery, the Microsoft Developer Conference brought together developers and tech professi…",
-      "link": "https://news.microsoft.com/en-in/microsoft-developer-conference/",
-      "pubDate": 1592461746000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 2,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-150806068",
-      "title": "Microsoft announces program to accelerate growth of agritech startups in India",
-      "titleZh": "微软宣布加速印度农业科技创业公司发展的计划",
-      "summary": "New Delhi, June 03, 2020: Microsoft announced the launch of a program for agritech startups in India that are committed to driving transformation in agriculture. The Microsoft for Agritech Startups pr…",
-      "link": "https://news.microsoft.com/en-in/microsoft-agritech-startups-program-india-launch/",
-      "pubDate": 1591162175000,
-      "vendor": "microsoft",
-      "category": "Release",
-      "impact": "high",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 5,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "297070690",
-      "title": "Microsoft empowers startups in India to achieve more",
-      "titleZh": "微软助力印度初创企业实现更多",
-      "summary": "Five startups showcase their unique propositions at Future Decoded Tech Summit Bengaluru, February 25, 2020: Startups are an indisputable innovation engine, and Microsoft is partnering with startups a…",
-      "link": "https://news.microsoft.com/en-in/microsoft-empowers-startups-in-india-to-achieve-more/",
-      "pubDate": 1582633175000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 4,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "1830923333",
-      "title": "Myntra accelerates its digital transformation journey with Microsoft Cloud",
-      "titleZh": "Myntra借助微软云加速其数字化转型之旅",
-      "summary": "reimagines online shopping experience for customers Azure powers biggest-ever End of Reason Sale New Delhi, February 19, 2020: Myntra, India’s leading destination for fashion and lifestyle, has partne…",
-      "link": "https://news.microsoft.com/en-in/myntra-digital-transformation-microsoft-cloud/",
-      "pubDate": 1582092103000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 0,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
     }
   ]
 }
