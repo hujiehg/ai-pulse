@@ -1,8 +1,92 @@
 {
-  "updated": "2026-10-13T17:16:45.033Z",
-  "count": 97,
+  "updated": "2026-10-13T21:56:21.438Z",
+  "count": 96,
   "sources": 10,
   "items": [
+    {
+      "id": "-1131656509",
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "titleZh": "负责任和安全地开发Gemini 4 Argon",
+      "summary": "Developing Gemini 4 Argon responsibly and safely",
+      "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "pubDate": 1791920587000,
+      "vendor": "deepmind",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "DeepMind"
+    },
+    {
+      "id": "-911481086",
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "titleZh": "使用LFM2.5-24B-A2B在设备上运行快速的专用代理",
+      "summary": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "pubDate": 1791911148000,
+      "vendor": "huggingface",
+      "category": "Agent",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 12,
+        "st": 14,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
+      "id": "-816735613",
+      "title": "Gemini 4 Argon for Robotics",
+      "titleZh": "Gemini 4 Argon机器人",
+      "summary": "Gemini 4 Argon for Robotics",
+      "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "pubDate": 1791907318000,
+      "vendor": "deepmind",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 9,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "DeepMind"
+    },
+    {
+      "id": "323274282",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "titleZh": "Gemini 4 Argon ：专为解决您最棘手的问题而设计",
+      "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "pubDate": 1791907200000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google AI"
+    },
     {
       "id": "1443837046",
       "title": "DeepSeek Eyes $400M Robotics AI Startup in New Funding Push",
@@ -13,13 +97,13 @@
       "vendor": "deepseek",
       "category": "Funding",
       "impact": "high",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 3,
         "cw": 20,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -34,13 +118,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,13 +139,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -76,13 +160,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 1,
         "cw": 22,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -97,13 +181,13 @@
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "med",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 25,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -118,13 +202,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -139,13 +223,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -328,13 +412,13 @@
       "vendor": "qwen",
       "category": "Agent",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 12,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -349,13 +433,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "high",
-      "score": 57,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 3,
         "cw": 22,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -370,13 +454,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -823,27 +907,6 @@
       "source": "HuggingFace"
     },
     {
-      "id": "-581297128",
-      "title": "Multimodal open d1 decision models for the edge",
-      "titleZh": "边缘的多模态开放式d1决策模型",
-      "summary": "Multimodal open d1 decision models for the edge",
-      "link": "https://huggingface.co/blog/LiquidAI/open-d1",
-      "pubDate": 1791392073000,
-      "vendor": "huggingface",
-      "category": "Research",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 9,
-        "kv": 1,
-        "cw": 22,
-        "st": 14,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
       "id": "1688136132",
       "title": "Introducing Falcon ASR",
       "titleZh": "Falcon ASR简介",
@@ -979,13 +1042,13 @@
       "vendor": "deepmind",
       "category": "Research",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 1,
         "cw": 22,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "DeepMind"
@@ -1514,90 +1577,6 @@
         "cs": 1
       },
       "source": "Google AI"
-    },
-    {
-      "id": "264499028",
-      "title": "AI for everyone in every language",
-      "titleZh": "为每种语言的每个人提供人工智能",
-      "summary": "We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exactly as they are expressed.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
-      "pubDate": 1789488000000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
-    },
-    {
-      "id": "-1817924407",
-      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-      "titleZh": "AlphaGenome Atlas ：人类基因组中每种可能的DNA字母变化的预测图谱",
-      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
-      "link": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-      "pubDate": 1788876015000,
-      "vendor": "deepmind",
-      "category": "Product",
-      "impact": "high",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "DeepMind"
-    },
-    {
-      "id": "-142435498",
-      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-      "titleZh": "隆重推出WeatherNext 3 ，这是我们最先进、最精确的全球天气人工智能模型",
-      "summary": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-      "link": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-      "pubDate": 1788447728000,
-      "vendor": "deepmind",
-      "category": "Release",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 25,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "DeepMind"
-    },
-    {
-      "id": "315382933",
-      "title": "Proactive cyber defense for governments and enterprises",
-      "titleZh": "为政府和企业提供主动网络防御",
-      "summary": "Proactive cyber defense for governments and enterprises",
-      "link": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-      "pubDate": 1788366264000,
-      "vendor": "deepmind",
-      "category": "Product",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "DeepMind"
     },
     {
       "id": "2147151731",
