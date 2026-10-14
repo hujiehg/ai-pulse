@@ -1,25 +1,298 @@
 {
-  "updated": "2026-10-14T05:39:34.275Z",
-  "count": 95,
+  "updated": "2026-10-14T10:53:09.707Z",
+  "count": 99,
   "sources": 10,
   "items": [
     {
-      "id": "319168639",
-      "title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
-      "titleZh": "Google DeepMind和新加坡政府宣布推出新的人工智能工具，以保护公民免受诈骗",
+      "id": "-1600629030",
+      "title": "Alibaba unveils Qwen Book agentic computer, AI wearables lineup",
+      "titleZh": "阿里巴巴推出Qwen Book代理电脑， AI可穿戴设备阵容",
+      "summary": "Alibaba unveils Qwen Book agentic computer, AI wearables lineup Telecompaper",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdk1lME9HODluSU93MDNMN0F5d3VqVWtUeHZsdGpMM1dUSXdvX1YxR0F6emhtZ3d4bEdWdk05TUtRb1hTY3hGRDlsZ0xhX0VFeWRYeFpvWmd1a294U2YxanZEWnlXT2JoRkZ2R0JrOVpOT2dIdjE3NW02bDU5VlhiTF9laVZ6NWV0Qi1LeF9ZM3BpZkNHbVNWR1VicFJ1dTF2TDE1ZFZKeHI?oc=5",
+      "pubDate": 1791965967000,
+      "vendor": "qwen",
+      "category": "Agent",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 12,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-30223141",
+      "title": "Alibaba Unveils New Qwen AI Smart Glasses to Compete With Meta",
+      "titleZh": "阿里巴巴推出新款Qwen AI智能眼镜与Meta竞争",
+      "summary": "Alibaba Unveils New Qwen AI Smart Glasses to Compete With Meta Analytics India Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWjlFSUJ6aXZaWFQweDh1cEN6bTk5c25xZzhwWUdJVkZoQjVCNWgtMDNLMndlWm1qWjlGOFZHY1FoWGxTWVFEdUJqZDdrTDVHdEZHR09SZ3VsSGdLMXhaSnBldS1ZRk5jRkJobDVLdXVrMGQxSk9scnlzZXNKY2FSTVd6Z0k3eEdpS1lzaUNrTFdWeXB4TFBtMWpRZl9iZmpraEE?oc=5",
+      "pubDate": 1791963000000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "med",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-576592533",
+      "title": "BofA drops out of talks to arrange Moonshot AI's Hong Kong listing: report",
+      "titleZh": "美银美林退出安排Moonshot AI在香港上市的谈判：报告",
+      "summary": "BofA drops out of talks to arrange Moonshot AI's Hong Kong listing: report TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPV25mU2RCSjZfc2VZM1BrZmo1OEpaQ3E0bVZMM1ltdVlsSFBQNVgwbXFkVHJFeDRxeEwwdmo0UHFyaWJlOS1KeUZ2eDlzZHlUN0t6Y0VzTkota2ZwcVBsODNhNjFQemNuaWNYN0NSckFjVGdGc3hOd3VUVnNqVnZCaWZidTNfQTBCVnJuaFBSUmNTUmExZk5XYm5hNFZHY0NKNnB5V2RxMVhhZGpnemtSMm5JSzVoaGFaSXB5ekFIMjRFMDhodlAtNHBucjNPMHo4TlE?oc=5",
+      "pubDate": 1791953880000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-882775870",
+      "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
+      "titleZh": "人工性的第一次考试：超智能的LLM引用C检验",
+      "summary": "arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or satura…",
+      "link": "https://arxiv.org/abs/2610.14005",
+      "pubDate": 1791950400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1650479705",
+      "title": "The Silent Failures in Agentic Data Science",
+      "titleZh": "Agentic数据科学中的沉默失败",
+      "summary": "arXiv:2610.14115v1 Announce Type: new Abstract: Large language models have significantly lowered the barrier to writing code. Naturally, this has also led to the development of data science agents tha…",
+      "link": "https://arxiv.org/abs/2610.14115",
+      "pubDate": 1791950400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "962392410",
+      "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+      "titleZh": "ClawLoop ：通过利用本地培训循环自我改进代理",
+      "summary": "arXiv:2610.14118v1 Announce Type: new Abstract: The rapid advancement of Large Language Models (LLMs) has driven their deployment toward general-purpose harness environments, where LLM-based agents op…",
+      "link": "https://arxiv.org/abs/2610.14118",
+      "pubDate": 1791950400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "600959895",
+      "title": "Correction Training for Diffusion Models",
+      "titleZh": "扩散模型的校正训练",
+      "summary": "arXiv:2610.14136v1 Announce Type: new Abstract: Iterative sampling in diffusion models can lead to error accumulation due to exposure bias. The denoiser is trained on real images interpolated with noi…",
+      "link": "https://arxiv.org/abs/2610.14136",
+      "pubDate": 1791950400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 67,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1264979359",
+      "title": "Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress",
+      "titleZh": "Long-Horizon-Terminal-Bench 2.0 ：自动化多元化任务构建并衡量持续的代理进度",
+      "summary": "arXiv:2610.14146v1 Announce Type: new Abstract: Long-horizon terminal benchmarks measure whether an agent can sustain progress through extended workflows with process rewards, not only whether its fin…",
+      "link": "https://arxiv.org/abs/2610.14146",
+      "pubDate": 1791950400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-248627664",
+      "title": "VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation",
+      "titleZh": "VETNET ：为人工智能驱动的兽医创新组建基准数据集",
+      "summary": "arXiv:2610.14149v1 Announce Type: new Abstract: VETNET represents an ecosystem of live benchmark datasets and evaluation frameworks designed to accelerate AI-driven innovation in animal science and ve…",
+      "link": "https://arxiv.org/abs/2610.14149",
+      "pubDate": 1791950400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-344608843",
+      "title": "Unconstrained CTI-REALM with Open-Weights",
+      "titleZh": "开放式权重的无约束CTI-REALM",
+      "summary": "arXiv:2610.14180v1 Announce Type: new Abstract: Organisations that want language-model agents for security work face a choice between open-weight models, which they can run and audit themselves, and f…",
+      "link": "https://arxiv.org/abs/2610.14180",
+      "pubDate": 1791950400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "597484355",
+      "title": "Visualizing the World Model in an Agent's Value Function",
+      "titleZh": "在客服代表的价值函数中可视化世界模型",
+      "summary": "arXiv:2610.14186v1 Announce Type: new Abstract: Could model-free reinforcement learning algorithms actually be learning a model of the environment? In this work, we apply counterfactual interventions …",
+      "link": "https://arxiv.org/abs/2610.14186",
+      "pubDate": 1791950400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "722765256",
+      "title": "Cross-Modal Latent Influence: Patch-Level Training Sample Attribution for Vision-Language Models",
+      "titleZh": "跨模式潜在影响：视觉语言模型的补丁级培训样本归因",
+      "summary": "arXiv:2610.14190v1 Announce Type: new Abstract: Explaining a vision--language model (VLM) prediction requires tracing training-example influence to the multimodal evidence that mediates it, yet existi…",
+      "link": "https://arxiv.org/abs/2610.14190",
+      "pubDate": 1791950400000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 15,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1484242444",
+      "title": "Should SLMs be in the Driver's Seat? A Study of Local Models as Interpreters in Cloud-Written Agent Programs",
+      "titleZh": "SLM应该在合作车主的座位上吗？云编写的代理程序中作为解释者的本地模型研究",
+      "summary": "arXiv:2610.14209v1 Announce Type: new Abstract: The most accurate agents executing user-provided tasks are driven by large, cloud-hosted models, which solve them by reading the private data of the use…",
+      "link": "https://arxiv.org/abs/2610.14209",
+      "pubDate": 1791950400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "468880872",
+      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "titleZh": "谷歌DeepMind与新加坡政府合作构建用于诈骗检测的微调人工智能模型",
       "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
       "link": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
       "pubDate": 1791943214000,
       "vendor": "deepmind",
-      "category": "Release",
+      "category": "Research",
       "impact": "med",
-      "score": 67,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 20,
-        "kv": 2,
-        "cw": 25,
+        "kv": 0,
+        "cw": 22,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "DeepMind"
@@ -28,7 +301,7 @@
       "id": "-1129477104",
       "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
       "titleZh": "科学公司将其视力恢复芯片植入其首例Stargardt病患者体内",
-      "summary": "Max Hodak, the former president and co-founder of Neuralink, detailed on stage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI)…",
+      "summary": "Max Hodak, the former president and co-founder of Neuralink, detailed onstage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).",
       "link": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
       "pubDate": 1791933211000,
       "vendor": "techcrunch",
@@ -114,7 +387,7 @@
       "titleZh": "什么是DeepSeek ？开放式权重AI模型说明",
       "summary": "What Is DeepSeek? Open-Weight AI Models Explained Built In",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1JSTIzbWxvNlljcGt0d3dTTDd3ck5fZU1CZFpqdFdNTndiWTNnWjI4SEluU29USGhxRnVOdUdseEdyWmpUWHZ4aFktcHhnQlppUFZNRXdTa00?oc=5",
-      "pubDate": 1791927257000,
+      "pubDate": 1791928738000,
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
@@ -170,27 +443,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "1239673874",
-      "title": "Alibaba Unveils Game-Changing Device to Challenge Meta",
-      "titleZh": "阿里巴巴推出改变游戏规则的设备以挑战Meta",
-      "summary": "Alibaba Unveils Game-Changing Device to Challenge Meta TradingView",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPem5rTVhUejlQeDJWNHRVb05Nd0taRlN3Vnd3dVkzMm1NRG9Wcjd6b3dxTjd0MTZGMjVqdWhNOEh0VzYyNFNfR3U0SWIzYXpRNzZMNnpEcDlXQnBiTnRwWWFPWDNOc3RCOU1rNXlEVDc4MDllWkpHVkZhTE41SzFUMllKcllrMU16N20zaTdFdE5BS3kwN0ZlNEF4ZFREQjI4NEpGR1hPODV0MGRpUmtUR09DMjc?oc=5",
-      "pubDate": 1791916954000,
-      "vendor": "google",
-      "category": "Release",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 25,
-        "st": 15,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1068293188",
@@ -361,27 +613,6 @@
       "source": "Google AI"
     },
     {
-      "id": "37634197",
-      "title": "Kimi K3.1: il nome, e ciò che Moonshot rilascia davvero",
-      "titleZh": "Kimi K3.1: il nome, e ciò che Moonshot rilascia davvero",
-      "summary": "Kimi K3.1: il nome, e ciò che Moonshot rilascia davvero OrcaRouter",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQaXVIcVBoTG1hUGNqeDhUWVU3S3RpeFhpREdQLTB5VWNYSW9TbjE4N2MxdDFZYWRPQ0FLbUktcEZhMnlxTGp4djhmc2lCZWFROGk5UFhB?oc=5",
-      "pubDate": 1791895319000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-537240929",
       "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
       "titleZh": "所有系统开始：全球PC应用生态系统已为NVIDIA RTX Spark做好准备",
@@ -424,22 +655,22 @@
       "source": "OpenAI"
     },
     {
-      "id": "-592905071",
-      "title": "Alibaba starts selling its Qwen N1 AI glasses in China from $450",
-      "titleZh": "阿里巴巴开始在中国销售其Qwen N1 AI眼镜，起价为450 $",
-      "summary": "Alibaba starts selling its Qwen N1 AI glasses in China from $450 The Next Web",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8xb1dFT2tBY2NYOFRueHlabW5ZU2t6RTRBQjlEUW9aVFZYMGtaUkRjWndvT2g5Rms0dnFjVnNQd0xxcUgzSXZKZnc1MS1NR2k4ZjlvbzE2UHZ3S2NtQ2pfT0l2bjV6dUQxOGdoSlJERGRfUQ?oc=5",
-      "pubDate": 1791887529000,
-      "vendor": "qwen",
+      "id": "-1764042608",
+      "title": "Which DeepSeek V4 Flash API Is Cheapest? Bitdeer AI Tops Artificial Analysis Price Benchmark",
+      "titleZh": "哪个DeepSeek V4 Flash API最便宜？ Bitdeer AI超越人工分析价格基准",
+      "summary": "Which DeepSeek V4 Flash API Is Cheapest? Bitdeer AI Tops Artificial Analysis Price Benchmark TechBullion",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQS3Y5Qkp6OVd2VXFLcHFHdFlXTmw5U0hNdmJQWkcwVnU4RGVIUWJtYTNxa2ZVRUx1OHFsaXYtVndZTnVjdjFlLTRHRVlpVmVVbmpFV1kzanNUS0VNeTVuVHpEX0VDRF9wNkY2VkZSd0RONDc3RldfdWtrNzJ2NURTS1hoV0Y5UXllOFRNY1hQNTFTeGdkUFg3Rk5iVEZicmEtQnpoeEF5dWQ5UmNvOTAxYXlVUm5YdHM?oc=5",
+      "pubDate": 1791885208000,
+      "vendor": "deepseek",
       "category": "Product",
-      "impact": "med",
-      "score": 51,
+      "impact": "high",
+      "score": 53,
       "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
+        "cq": 20,
+        "kv": 3,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -454,34 +685,13 @@
       "vendor": "google",
       "category": "Release",
       "impact": "med",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 25,
         "st": 15,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1274570793",
-      "title": "DeepSeek V4.1 Flash: Specs, Price &amp; Is It Free?",
-      "titleZh": "DeepSeek V4.1闪存：规格、价格和它是否免费？",
-      "summary": "DeepSeek V4.1 Flash: Specs, Price Is It Free? OrcaRouter",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB0UEdweFR5Rm1qZ0wtaUlFTUdwLU1QOXVzUDhMOUd2NUpPcjJFUHhpZzMzdjRHbHpVWk9rUGMwX0JPeWgwU281NFRZY1puM2hWR0xuTDZ5MW45UUFWeXpR?oc=5",
-      "pubDate": 1791876599000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "high",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -543,6 +753,27 @@
         "cq": 20,
         "kv": 2,
         "cw": 15,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1366674567",
+      "title": "Alibaba's Qwen team open sources QwenGyre to train AI agents that run for hours",
+      "titleZh": "阿里巴巴Qwen团队开源QwenGyre ，培训运行数小时的人工智能代理",
+      "summary": "Alibaba's Qwen team open sources QwenGyre to train AI agents that run for hours Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWjRmbC1iVXVLRGp0cjM1ZU5Zd01HSFU3bkhtU0hWN0NEQ0kxRl9DODQwMVZKYnRoRElTYkN6RkN3NGVFXzBfaDFZazBFY0RYemNRT25uNGx1UmVSY21BR3JtRjYydzhRVGtPRlI0M1VOTzRNQUZER1RIdkdzWlpYY1V3eTVpM1pDVl9KMHBtTjBIT0k1U3dsM3RGOTB2MWdJVGs4ZC1naFVUdw?oc=5",
+      "pubDate": 1791854421000,
+      "vendor": "qwen",
+      "category": "Agent",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 12,
         "st": 12,
         "rc": 2,
         "cs": 1
@@ -643,13 +874,13 @@
       "vendor": "qwen",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -664,13 +895,13 @@
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -685,13 +916,13 @@
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -723,7 +954,7 @@
       "titleZh": "独家：据知情人士透露， Moonshot高管正在与股东进行谈判，以在计划的IPO之前解决与股东的纠纷",
       "summary": "EXCLUSIVE: Moonshot execs in talks to settle dispute with shareholder ahead of planned IPO, people say Reuters",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQ1hmZzQxZmpITVlBeVpjanJJRWhDN0JGWWtSb291VDJIaTR2ZXJuVDRtanlSUDdiQllFM1RqSjBHeXp6N2JaT1FnMXB5Yk45RWhOeFoxT3RGMEdJT3N1UG1SS0E3RWFvRG1Tci0waTNYWVBKeFcwOVJ6T1dVOV84cTZHY3B1ekdOR3ZqZ1NLWFZTN1Zoc3k2dWZLU0dOTnprX0ZBcnZLRmFsdUUxQkhNUkRpN1dpUE0wSTBHRVhIY2NrcEk?oc=5",
-      "pubDate": 1791759720000,
+      "pubDate": 1791760244000,
       "vendor": "kimi",
       "category": "Funding",
       "impact": "high",
@@ -1063,13 +1294,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "OpenAI"
@@ -1122,7 +1353,7 @@
       "titleZh": "Qwen的故事：阿里巴巴从7B到2.4T的AI模型",
       "summary": "The Story of Qwen: Alibaba's AI Models From 7B to 2.4T MarkTechPost",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYjZ0VF9nNXIxWjNSNXU4dWxudmZUZmhUQWpqSENtNGp2Tjk3MVZuQ3JpUGJqdktGQnkwVUxfUmlPTDkxLU5YZzAyczZqS3c4NmtZa3IzX0VlWHQ5cFlHUVhxWkNuRG01N09ndEVGRkJ6djd4eVNyS1FrRlJtRG5jX0RmVnZrc2FZMGNYUzFmejVON09CYl8xa9IBmAFBVV95cUxQYjZ0VF9nNXIxWjNSNXU4dWxudmZUZmhUQWpqSENtNGp2Tjk3MVZuQ3JpUGJqdktGQnkwVUxfUmlPTDkxLU5YZzAyczZqS3c4NmtZa3IzX0VlWHQ5cFlHUVhxWkNuRG01N09ndEVGRkJ6djd4eVNyS1FrRlJtRG5jX0RmVnZrc2FZMGNYUzFmejVON09CYl8xaw?oc=5",
-      "pubDate": 1791173434000,
+      "pubDate": 1791097200000,
       "vendor": "qwen",
       "category": "Research",
       "impact": "med",
@@ -1726,69 +1957,6 @@
       "source": "Google News"
     },
     {
-      "id": "2147151731",
-      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
-      "titleZh": "企业AI的真正风险不是自主代理。这是它们之间的复杂性。",
-      "summary": "Presented by Gravitee Read more",
-      "link": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
-      "pubDate": 1787839260000,
-      "vendor": "venturebeat",
-      "category": "Agent",
-      "impact": "med",
-      "score": 33,
-      "scoreBreakdown": {
-        "cq": 12,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
-      "id": "-1183454760",
-      "title": "When agents act on their own, governance has to live in the data layer",
-      "titleZh": "当代理自行行动时，治理必须位于数据层",
-      "summary": "Presented by EDB Read more",
-      "link": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
-      "pubDate": 1787832060000,
-      "vendor": "venturebeat",
-      "category": "Agent",
-      "impact": "med",
-      "score": 34,
-      "scoreBreakdown": {
-        "cq": 12,
-        "kv": 1,
-        "cw": 12,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
-      "id": "-1500538370",
-      "title": "Orchestration is the new challenge for CX in the age of AI agents",
-      "titleZh": "编排是人工智能代理时代CX面临的新挑战",
-      "summary": "Presented by Tata Communications Read more",
-      "link": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
-      "pubDate": 1787754600000,
-      "vendor": "venturebeat",
-      "category": "Agent",
-      "impact": "med",
-      "score": 33,
-      "scoreBreakdown": {
-        "cq": 12,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
       "id": "374586481",
       "title": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model",
       "titleZh": "阿里巴巴发布更小、更具成本效益的Qwen AI模型",
@@ -1808,27 +1976,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "74193009",
-      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
-      "titleZh": "VentureBeat任命Rob Strechay为其首位首席分析师，扩大其企业人工智能研究推动力",
-      "summary": "Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a founding analyst of VentureBeat Research. His arrival i…",
-      "link": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
-      "pubDate": 1787149092000,
-      "vendor": "venturebeat",
-      "category": "Research",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
     },
     {
       "id": "-2016155837",
@@ -1894,6 +2041,27 @@
       "source": "Google News"
     },
     {
+      "id": "-1825919776",
+      "title": "Chinese AI model takes US tech industry by surprise with abilities rivaling Claude and ChatGPT",
+      "titleZh": "中国人工智能模式以其与Claude和ChatGPT相媲美的能力令美国科技行业大吃一惊",
+      "summary": "Chinese AI model takes US tech industry by surprise with abilities rivaling Claude and ChatGPT AP News",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZWthNjJoaVVtZUxQeWE1Q2tndy1yUU12Tm1Pdll0WUZxZy1PTFZrSElXMEhicnZnbTdzeVhIczVFWGZMbUNZZ3hSOTIxWnBhVUREOE1wbjEyNW9YUjJQLU83djItbXl1LThHM2ZTc3FHQm1nWGlOY1FFcFBmUFdDc3ZB?oc=5",
+      "pubDate": 1784271600000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "257049637",
       "title": "China's Moonshot AI claims Kimi K3 can rival OpenAI and Anthropic",
       "titleZh": "中国的Moonshot AI声称Kimi K3可以与OpenAI和Anthropic相媲美",
@@ -1913,90 +2081,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-163707957",
-      "title": "China’s Latest A.I. Breakthrough Threatens America’s Lead",
-      "titleZh": "China’s Latest A.I. Breakthrough Threatens America’s Lead",
-      "summary": "China’s Latest A.I. Breakthrough Threatens America’s Lead The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UYkVrd05BamRNRHcyZ19xN1FyaklNdVBYUXlFcTQ4dGhjYWdrb0Z1LWxhdnV0VWVmOU9rNnVjQUpIZHQ5SmdCZDd2MDVNQk5rR2NSM2x4QkVhNVp2SVhJcF9jZGdmQjlJTnhTdmlOdGotbzZ0X3pFMTVwVQ?oc=5",
-      "pubDate": 1784271600000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1093452510",
-      "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
-      "titleZh": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
-      "summary": "For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On T…",
-      "link": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
-      "pubDate": 1779212700000,
-      "vendor": "venturebeat",
-      "category": "Product",
-      "impact": "med",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
-      "id": "-1380991222",
-      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
-      "titleZh": "Railway获得1亿美元$ ，通过AI原生云基础设施挑战AWS",
-      "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B fundi…",
-      "link": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
-      "pubDate": 1769090400000,
-      "vendor": "venturebeat",
-      "category": "Funding",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 20,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
-      "id": "749662964",
-      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
-      "titleZh": "Claude Code每月的费用高达$ 200。Goose免费做同样的事情。",
-      "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive. Read more",
-      "link": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
-      "pubDate": 1768831200000,
-      "vendor": "venturebeat",
-      "category": "Product",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 15,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
     }
   ]
 }
