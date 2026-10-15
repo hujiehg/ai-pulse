@@ -1,8 +1,155 @@
 {
-  "updated": "2026-10-15T19:42:45.761Z",
+  "updated": "2026-10-15T22:48:19.710Z",
   "count": 106,
   "sources": 11,
   "items": [
+    {
+      "id": "339704165",
+      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "titleZh": "花岗岩交换机4.1 ：来自一个端点的聊天、决策和语音",
+      "summary": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "pubDate": 1792096441000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
+      "id": "-688372507",
+      "title": "Meta launches an open-weight AI model that runs on Macs",
+      "titleZh": "Meta推出在Mac上运行的开放式权重AI模型",
+      "summary": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
+      "link": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "pubDate": 1792094693000,
+      "vendor": "techcrunch",
+      "category": "Release",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 25,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1999069137",
+      "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
+      "titleZh": "亚马逊设备主管Panos Panay认为，未来人工智能设备将取代使用应用程序的需求",
+      "summary": "Speaking at TechCrunch Disrupt, Amazon devices chief Panos Panay described a future where ambient AI devices work in the background, anticipating users' needs instead of waiting for commands.",
+      "link": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+      "pubDate": 1792094125000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-918463440",
+      "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+      "titleZh": "Anthropic让METR研究人员通过员工级别的访问权限查看引擎盖下方",
+      "summary": "METR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them.",
+      "link": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+      "pubDate": 1792091666000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 22,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-368149602",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "titleZh": "将GPT-Rosalind带入学术研究实验室",
+      "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "pubDate": 1792090800000,
+      "vendor": "openai",
+      "category": "Release",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 25,
+        "st": 15,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "2069482096",
+      "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
+      "titleZh": "Bluesky扩展了其基于人工智能的Attie应用程序，让任何人都可以构建网站、游戏等",
+      "summary": "Bluesky is bringing “social vibe coding” to its experimental Attie platform, allowing users to create interactive experiences like games, quizzes, and websites that can tap into the social network's a…",
+      "link": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+      "pubDate": 1792090606000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-886001692",
+      "title": "Last chance to save up to $200 on your TechCrunch Founder Summit pass: Early booking ends October 16",
+      "titleZh": "为您的TechCrunch创始人峰会通行证节省高达200 $的最后机会：提前预订将于10月16日结束",
+      "summary": "Savings of up to $200 end October 16 for TechCrunch Founder Summit. These savings for Founder and Investor Passes vanish after Friday. Join 1,000 founders and investors on November 4 at Boston’s SoWa …",
+      "link": "https://techcrunch.com/2026/10/15/last-chance-to-save-up-to-200-on-techcrunch-founder-summit-early-booking-ends-oct-16/",
+      "pubDate": 1792087200000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-2130920934",
       "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
@@ -13,13 +160,13 @@
       "vendor": "deepmind",
       "category": "Product",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 15,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "DeepMind"
@@ -34,13 +181,13 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 39,
+      "score": 38,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 12,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,13 +202,13 @@
       "vendor": "qwen",
       "category": "Agent",
       "impact": "med",
-      "score": 47,
+      "score": 46,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 12,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -76,13 +223,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "high",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 4,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -91,19 +238,19 @@
       "id": "203612833",
       "title": "TechCrunch Disrupt 2026: Last day",
       "titleZh": "TechCrunch Disrupt 2026 ：最后一天",
-      "summary": "Last day to join TechCrunch Disrupt 2026. Join 10,000+ tech leaders for a day of connections and insights. Save 75% on your pass now.",
+      "summary": "Last day to be part of TechCrunch Disrupt 2026. Join 10,000+ tech leaders for a day of connections and insights. Save 75% on your pass now.",
       "link": "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day/",
       "pubDate": 1792072800000,
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -256,25 +403,25 @@
       "source": "TechCrunch"
     },
     {
-      "id": "-197867718",
-      "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
-      "titleZh": "Ricursive Intelligence押注于人工智能设计的芯片，以帮助解决计算危机",
-      "summary": "The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip des…",
-      "link": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
-      "pubDate": 1792026092000,
-      "vendor": "techcrunch",
-      "category": "Product",
+      "id": "1356391719",
+      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "titleZh": "Welcome Muse Spark Open ：来自Meta的开放权重前沿多式联运专家混合模型",
+      "summary": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "link": "https://huggingface.co/blog/meta-muse-spark-open",
+      "pubDate": 1792022400000,
+      "vendor": "huggingface",
+      "category": "Research",
       "impact": "med",
-      "score": 45,
+      "score": 54,
       "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
+        "cq": 13,
+        "kv": 1,
+        "cw": 22,
+        "st": 14,
         "rc": 3,
         "cs": 1
       },
-      "source": "TechCrunch"
+      "source": "HuggingFace"
     },
     {
       "id": "-132538692",
@@ -298,90 +445,6 @@
       "source": "HuggingFace"
     },
     {
-      "id": "413483310",
-      "title": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
-      "titleZh": "Gudea利用人工智能帮助组织预防社交媒体危机爆发",
-      "summary": "Gudea, a company that tracks how stories and rumors spread online that describes itself as the “storm tracker for the internet,” is using AI to help organizations spot trouble brewing online before it…",
-      "link": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
-      "pubDate": 1792022400000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1534757148",
-      "title": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
-      "titleZh": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
-      "summary": "Langley’s comments come amid mounting scrutiny of Flock from privacy advocates, including the ACLU, and members of the public who are concerned about the misuse of its technology.",
-      "link": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
-      "pubDate": 1792013433000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1255165656",
-      "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
-      "titleZh": "随着人工智能生成的音乐涌入流媒体平台， YouTube Music推出了新标签",
-      "summary": "The label will appear on the player page and include songs entirely generated by AI or partially, such as AI involved in composition and vocals.",
-      "link": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
-      "pubDate": 1792002226000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "high",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 25,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-556764907",
-      "title": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
-      "titleZh": "Apate派遣人工智能特工进行卧底欺诈，以便收集欺诈情报",
-      "summary": "Most companies use AI agents to ship products faster or speed up workflows. Apate.ai sends them undercover to get scammed.",
-      "link": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
-      "pubDate": 1792000800000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "434280518",
       "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
       "titleZh": "HiRO-ACEv2 ：以3公里分辨率模拟极端天气，成本仅为原来的一小部分",
@@ -401,6 +464,27 @@
         "cs": 1
       },
       "source": "HuggingFace"
+    },
+    {
+      "id": "-705024327",
+      "title": "BABA Stock At Near Two-Month Highs — Kimi AI's Moonshot Reportedly Has A Power Agreement With Alibaba For 20K Nvidia Chips",
+      "titleZh": "BABA Stock At Near Two-Month Highs — Kimi AI's Moonshot Reportedly Has A Power Agreement With Alibaba For 20K Nvidia Chips",
+      "summary": "BABA Stock At Near Two-Month Highs — Kimi AI's Moonshot Reportedly Has A Power Agreement With Alibaba For 20K Nvidia Chips Stocktwits",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS2JaOUJUMmZyYlh4NW1YV1NTVW90S1BJVEFHdGdqQnVYaGczX2RaaHlLYjB4anJadVMtTUU2Z200Tm92Unl0V3dBUjQtNnZ0alBneGlQUE5lTkI0RklNYlRZUzNQX3hDeEtiV1d0andiNTdrWWVVZW1vM1ZMbFhxMlBQTi1GUnphelYzMEpvZlY4cXlsVnQycHQtbkx5bWpWSExGNnlRZ3EtbW9BRnc?oc=5",
+      "pubDate": 1791989184000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "1107025584",
@@ -580,13 +664,13 @@
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
-      "score": 57,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -601,13 +685,13 @@
       "vendor": "deepmind",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 2,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "DeepMind"
@@ -1075,27 +1159,6 @@
       "source": "Google News"
     },
     {
-      "id": "-919179373",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "titleZh": "Asana使用GPT-6.1 Sol将浏览器测试中的模型成本降低了76倍",
-      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "link": "https://openai.com/index/asana-browser-agent",
-      "pubDate": 1791529200000,
-      "vendor": "openai",
-      "category": "Research",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "-1330194770",
       "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
       "titleZh": "Sophos借助OpenAI Daybreak将威胁调查时间缩短96%",
@@ -1117,22 +1180,22 @@
       "source": "OpenAI"
     },
     {
-      "id": "-543713171",
-      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-      "titleZh": "Oracle如何通过ChatGPT和Codex将工作日变为几分钟",
-      "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
-      "link": "https://openai.com/index/oracle",
-      "pubDate": 1791475200000,
+      "id": "-919179373",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "titleZh": "Asana使用GPT-6.1 Sol将浏览器测试中的模型成本降低了76倍",
+      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "link": "https://openai.com/index/asana-browser-agent",
+      "pubDate": 1791529200000,
       "vendor": "openai",
-      "category": "Product",
+      "category": "Research",
       "impact": "med",
-      "score": 51,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
-        "cw": 15,
+        "cw": 22,
         "st": 15,
-        "rc": 0,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -1327,27 +1390,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-1919017710",
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
-      "titleZh": "AutoSynthData ：为企业代理生成培训数据",
-      "summary": "AutoSynthData: Generating Training Data for Enterprise Agents",
-      "link": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-      "pubDate": 1790913691000,
-      "vendor": "huggingface",
-      "category": "Agent",
-      "impact": "med",
-      "score": 38,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 12,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
       "id": "-148497339",
       "title": "Chinese AI model investigated after researcher says it provided instructions for bioweapons, assassinations",
       "titleZh": "研究人员称中国人工智能模型为生物武器、暗杀提供了指令后进行了调查",
@@ -1472,27 +1514,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "1462264619",
-      "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
-      "titleZh": "开放式TTS排行榜：多语言文本到语音和语音克隆的可扩展评估",
-      "summary": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
-      "link": "https://huggingface.co/blog/open-tts-leaderboard",
-      "pubDate": 1790726400000,
-      "vendor": "huggingface",
-      "category": "Funding",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 1,
-        "cw": 20,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
     },
     {
       "id": "-1464852399",
@@ -1915,42 +1936,21 @@
       "source": "Google News"
     },
     {
-      "id": "-163707957",
-      "title": "China’s Latest A.I. Breakthrough Threatens America’s Lead",
-      "titleZh": "China’s Latest A.I. Breakthrough Threatens America’s Lead",
-      "summary": "China’s Latest A.I. Breakthrough Threatens America’s Lead The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UYkVrd05BamRNRHcyZ19xN1FyaklNdVBYUXlFcTQ4dGhjYWdrb0Z1LWxhdnV0VWVmOU9rNnVjQUpIZHQ5SmdCZDd2MDVNQk5rR2NSM2x4QkVhNVp2SVhJcF9jZGdmQjlJTnhTdmlOdGotbzZ0X3pFMTVwVQ?oc=5",
+      "id": "-1825919776",
+      "title": "Chinese AI model takes US tech industry by surprise with abilities rivaling Claude and ChatGPT",
+      "titleZh": "中国人工智能模式以其与Claude和ChatGPT相媲美的能力令美国科技行业大吃一惊",
+      "summary": "Chinese AI model takes US tech industry by surprise with abilities rivaling Claude and ChatGPT AP News",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZWthNjJoaVVtZUxQeWE1Q2tndy1yUU12Tm1Pdll0WUZxZy1PTFZrSElXMEhicnZnbTdzeVhIczVFWGZMbUNZZ3hSOTIxWnBhVUREOE1wbjEyNW9YUjJQLU83djItbXl1LThHM2ZTc3FHQm1nWGlOY1FFcFBmUFdDc3ZB?oc=5",
       "pubDate": 1784271600000,
-      "vendor": "google",
+      "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 55,
       "scoreBreakdown": {
-        "cq": 16,
+        "cq": 22,
         "kv": 2,
         "cw": 15,
         "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "257049637",
-      "title": "China's Moonshot AI claims Kimi K3 can rival OpenAI and Anthropic",
-      "titleZh": "中国的Moonshot AI声称Kimi K3可以与OpenAI和Anthropic相媲美",
-      "summary": "China's Moonshot AI claims Kimi K3 can rival OpenAI and Anthropic BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBRRWRCTzZXLWRlVV9jYTRzN3ktc1lFLWExbVlPa09HSVEwR0VyVWhxYkcxNG5mRUVHcDdGRVFaQ0hoOU95OHQ5ZmtRWkYxcnh6Z2dkYUowZ0FmQQ?oc=5",
-      "pubDate": 1784271600000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
         "rc": 0,
         "cs": 1
       },
