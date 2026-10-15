@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-15T11:50:56.849Z",
-  "count": 106,
-  "sources": 11,
+  "updated": "2026-10-15T15:59:57.279Z",
+  "count": 116,
+  "sources": 12,
   "items": [
     {
       "id": "1918848861",
@@ -13,13 +13,13 @@
       "vendor": "qwen",
       "category": "Release",
       "impact": "high",
-      "score": 65,
+      "score": 64,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google News"
@@ -34,13 +34,13 @@
       "vendor": "nvidia",
       "category": "Research",
       "impact": "med",
-      "score": 70,
+      "score": 69,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 10,
         "cw": 22,
         "st": 10,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "NVIDIA"
@@ -433,13 +433,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 41,
+      "score": 40,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -454,13 +454,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -475,13 +475,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 1,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -496,13 +496,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 22,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -517,13 +517,13 @@
       "vendor": "qwen",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -538,13 +538,13 @@
       "vendor": "google",
       "category": "Research",
       "impact": "med",
-      "score": 57,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 22,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -559,13 +559,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -580,13 +580,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -823,6 +823,27 @@
       "source": "Google AI"
     },
     {
+      "id": "-1641137522",
+      "title": "Kimi K3.1: The Name, and What Moonshot Actually Ships",
+      "titleZh": "Kimi K3.1 ：名字，以及登月计划的实际内容",
+      "summary": "Kimi K3.1: The Name, and What Moonshot Actually Ships OrcaRouter",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE96YWRpRWNEM3kwcjI1djlFajZXcnczOWRTU0xod0k3WFhTbkhvcHFXSnlKMWRabWlBNldsNzgzVlF1WFgzRFFYeWNlSnRBYzVrYXc?oc=5",
+      "pubDate": 1791895319000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-537240929",
       "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
       "titleZh": "所有系统开始：全球PC应用生态系统已为NVIDIA RTX Spark做好准备",
@@ -832,13 +853,13 @@
       "vendor": "nvidia",
       "category": "Product",
       "impact": "med",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 12,
         "cw": 15,
         "st": 10,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "NVIDIA"
@@ -853,13 +874,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -970,6 +991,27 @@
       "source": "Google News"
     },
     {
+      "id": "-61388694",
+      "title": "Moonshot AI Plans Record $50 Billion Hong Kong IPO as Founders Fight Equity Lawsuit",
+      "titleZh": "Moonshot AI计划创纪录的500亿$香港IPO创始人打股权诉讼",
+      "summary": "Moonshot AI Plans Record $50 Billion Hong Kong IPO as Founders Fight Equity Lawsuit Forbes",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZHdiQm9JMHQ5MDd3UUVGaHZiZWtTY1hZZi1rVWcxTm1mbmdHcElTN19CQW1OR2daZ04yeEpjSllUb0hMTFY3YUpOdGQ2LTNPbWNJcExvRmszdU9Db0JINjNDZWdKeGdsQkVPZklYMGVxMUVZMmZmNGUzWFpiNnVXbXA4SjdPZzZudnlydVA4MVVDc2s1Q2Exdm8wTFlZOTdLUVFmbjlqaElzNHJFOHVRbU9QYmhYX1JaOVRTdWhoTkxvVjdvWkJZN0J1Qmo3VzhQTTlWdzd3?oc=5",
+      "pubDate": 1791825283000,
+      "vendor": "kimi",
+      "category": "Funding",
+      "impact": "high",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 20,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1620638396",
       "title": "DeepSeek leads $400 million seed round for robotics AI startup",
       "titleZh": "DeepSeek为机器人AI初创公司领投4亿美元种子轮融资",
@@ -1068,6 +1110,48 @@
         "cq": 20,
         "kv": 2,
         "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "979890697",
+      "title": "Moonshot AI executives seek to settle investor dispute before Hong Kong IPO",
+      "titleZh": "Moonshot AI高管寻求在香港IPO前解决投资者纠纷",
+      "summary": "Moonshot AI executives seek to settle investor dispute before Hong Kong IPO Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRHFrb05VTlE3MWRUOWxvU0VJbS1tOUExWGJ0RzQ2V0d0UXZndUNFTDZNUmJNWlptRXlnNDZOMlFtbzFVMkNfdERWaU4xTk1aUkZaMHZBV2JWWEtENXVNWUlkSWxvUk1OSHNqb216M1hfcGc5a2UwY1JnTjlabXhnWkN2VW9vYllCcURSWkdMTTZwTWZyekIxX2VvX0cwWGxZcGxPVEJ3?oc=5",
+      "pubDate": 1791768593000,
+      "vendor": "kimi",
+      "category": "Funding",
+      "impact": "high",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 20,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1415897361",
+      "title": "EXCLUSIVE: Moonshot execs in talks to settle dispute with shareholder ahead of planned IPO, people say",
+      "titleZh": "独家：据知情人士透露， Moonshot高管正在与股东进行谈判，以在计划的IPO之前解决与股东的纠纷",
+      "summary": "EXCLUSIVE: Moonshot execs in talks to settle dispute with shareholder ahead of planned IPO, people say Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQ1hmZzQxZmpITVlBeVpjanJJRWhDN0JGWWtSb291VDJIaTR2ZXJuVDRtanlSUDdiQllFM1RqSjBHeXp6N2JaT1FnMXB5Yk45RWhOeFoxT3RGMEdJT3N1UG1SS0E3RWFvRG1Tci0waTNYWVBKeFcwOVJ6T1dVOV84cTZHY3B1ekdOR3ZqZ1NLWFZTN1Zoc3k2dWZLU0dOTnprX0ZBcnZLRmFsdUUxQkhNUkRpN1dpUE0wSTBHRVhIY2NrcEk?oc=5",
+      "pubDate": 1791760244000,
+      "vendor": "kimi",
+      "category": "Funding",
+      "impact": "high",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 20,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -1189,13 +1273,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "high",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
         "cw": 15,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "OpenAI"
@@ -1411,6 +1495,27 @@
       "source": "HuggingFace"
     },
     {
+      "id": "-148497339",
+      "title": "Chinese AI model investigated after researcher says it provided instructions for bioweapons, assassinations",
+      "titleZh": "研究人员称中国人工智能模型为生物武器、暗杀提供了指令后进行了调查",
+      "summary": "Chinese AI model investigated after researcher says it provided instructions for bioweapons, assassinations Fox News",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONURaV1hMTkVSRmU0aUZMSVFBMmpQcTJlN0h4MVp2djJSbjlzYTJuLVVONnNpd3h4a1RiZlV5Mlh2ekxsZy1FWURaZUoxbEpHdy1vNV9TV2daSWZNN1dPRVR4SjJyLW5JNDByQklfTUlkNUJ1U29YcC1GODJzOWlHUEFyUFA2UC1OTkwtMFhkTGdIOTNrQ3RmWHVoQmNWTWxCR1dNVHcySW1TbmdUVGRmX3Z0a1UyVEsyVjI3U0Y1NNIBxAFBVV95cUxONUw0R3RpZXFfc3Fmd082TEJMUHlIYkxSZThDV0htcWVWQ0xJSHVMaXhCTHR2TjBJNmxiSC1ZT2VVN0tJaFRDdkZXVnRtQ0xWZDNJWElYY0dEcy1naEVXcGU1T1lmc2xGWUFJb0xLdmY0UzFTTm1HaC1hMFFWYVhkeWRuQUY1ZnZvc1dTOFRnMzhFbFZ6ZXZZdk11eEFrZjVlaEpOMzVKQ2s2VzUzY1ZVeVEzbklDYzlweDVVS3BsY2FBODZf?oc=5",
+      "pubDate": 1790838000000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1889306321",
       "title": "Gemini 4 Argon: our next era of frontier intelligence",
       "titleZh": "双子座4氩气：我们下一个前沿情报时代",
@@ -1493,6 +1598,27 @@
         "cs": 1
       },
       "source": "NVIDIA"
+    },
+    {
+      "id": "200081961",
+      "title": "AI race heats up as OpenAI flags alleged model-copying campaign",
+      "titleZh": "随着OpenAI标记涉嫌模型复制活动， AI竞赛升温",
+      "summary": "AI race heats up as OpenAI flags alleged model-copying campaign CNBC",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kSmhrQ0lQOWwyV3JGWWpoclhLX1ZHYm9qX2tOTVRvcms5eUpOUjlrQ2RYdnhlVlJYTUNFelFRWjVkYXpJbVBPTU42amJ3QW5IMDdqYTZzcjVULWxuSjh0OUYyRTV6RG84ZlpLM2NlblNoWHJDdXfSAXtBVV95cUxQSTFoTHRwbXlLVFQtRXNCVlpLblVkRGNiMnN3RjgwVHE5anZvUW1aQlNzTGVGRXJISm9JUGdka1dWUnFEd0Nqc2s1N1d4UldwLUlTNWdCOWxJUFluSVZSTUJzZFhkM3VKNUNLd3cwNjJRa29QbWQ3d0hDN28?oc=5",
+      "pubDate": 1790751600000,
+      "vendor": "openai",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "1462264619",
@@ -1789,6 +1915,27 @@
       "source": "Google AI"
     },
     {
+      "id": "-1290016780",
+      "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
+      "titleZh": "Kimi制造商Moonshot AI的年收入目标为$ 2B",
+      "summary": "Kimi-maker Moonshot AI targets $2B in annual revenue TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZjd5bE8wcUZHZlhfS0lwZmxpX2xTTXBOMkJoVVItRmNjNGRsNjFJQVNXOERhYUljdFBscjBKekNlNXlmNmktZUpNNW1CbXQ5ODlxZWYyZUJScmI3cllZM2o0bUl0YW9FM3Z3TUI0Q1hDbVhMdkxHWi0yNTBFekhRYlc2NjhBeW43cktndU1fQUltQS1nclZVbQ?oc=5",
+      "pubDate": 1789110000000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "2147151731",
       "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
       "titleZh": "企业AI的真正风险不是自主代理。这是它们之间的复杂性。",
@@ -1950,6 +2097,69 @@
         "cq": 18,
         "kv": 2,
         "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "937680453",
+      "title": "Moonshot AI eyes $50 billion valuation, Hong Kong IPO after Kimi K3 breakthrough",
+      "titleZh": "Moonshot AI眼中$ 500亿估值，香港IPO后Kimi K3突破",
+      "summary": "Moonshot AI eyes $50 billion valuation, Hong Kong IPO after Kimi K3 breakthrough Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVS1VaExPMEhKbFJud3lZanAyNnYzY215aExHS3FzX3o5bWRxanU2NFU1eVl3d0xXRkdJc1JaSkJ6Q2phWUVGeVdBVE44Ry0tMUk0RDFLV2p6NWlud3hrUlFybmVIRjdUQldQT0NCVmwzeUtwOEdaelk2RHktMi10VmM2dGVmbUJaTWFRMW5yR01hZk4tM1E?oc=5",
+      "pubDate": 1784617200000,
+      "vendor": "kimi",
+      "category": "Funding",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 7,
+        "cw": 20,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-163707957",
+      "title": "China’s Latest A.I. Breakthrough Threatens America’s Lead",
+      "titleZh": "China’s Latest A.I. Breakthrough Threatens America’s Lead",
+      "summary": "China’s Latest A.I. Breakthrough Threatens America’s Lead The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UYkVrd05BamRNRHcyZ19xN1FyaklNdVBYUXlFcTQ4dGhjYWdrb0Z1LWxhdnV0VWVmOU9rNnVjQUpIZHQ5SmdCZDd2MDVNQk5rR2NSM2x4QkVhNVp2SVhJcF9jZGdmQjlJTnhTdmlOdGotbzZ0X3pFMTVwVQ?oc=5",
+      "pubDate": 1784271600000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "257049637",
+      "title": "China's Moonshot AI claims Kimi K3 can rival OpenAI and Anthropic",
+      "titleZh": "中国的Moonshot AI声称Kimi K3可以与OpenAI和Anthropic相媲美",
+      "summary": "China's Moonshot AI claims Kimi K3 can rival OpenAI and Anthropic BBC",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBRRWRCTzZXLWRlVV9jYTRzN3ktc1lFLWExbVlPa09HSVEwR0VyVWhxYkcxNG5mRUVHcDdGRVFaQ0hoOU95OHQ5ZmtRWkYxcnh6Z2dkYUowZ0FmQQ?oc=5",
+      "pubDate": 1784271600000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
         "st": 12,
         "rc": 0,
         "cs": 1
