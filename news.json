@@ -1,8 +1,218 @@
 {
-  "updated": "2026-10-16T05:18:45.872Z",
+  "updated": "2026-10-16T10:01:19.359Z",
   "count": 116,
   "sources": 12,
   "items": [
+    {
+      "id": "1958324667",
+      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+      "titleZh": "世界不会等待：在实时时钟下评估和教导代理商",
+      "summary": "arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an…",
+      "link": "https://arxiv.org/abs/2610.20665",
+      "pubDate": 1792123200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-2119694175",
+      "title": "Evaluating Model Capabilities After Benchmark Saturation",
+      "titleZh": "在基准饱和后评估模型能力",
+      "summary": "arXiv:2610.20667v1 Announce Type: new Abstract: Rapid advances in AI capabilities are causing benchmarks to saturate. Once several models approach perfect scores, a benchmark loses its power to differ…",
+      "link": "https://arxiv.org/abs/2610.20667",
+      "pubDate": 1792123200000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 8,
+        "cw": 15,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "406493267",
+      "title": "Value-Informed Schedule Trimming for Accelerated Sequential Monte Carlo Guidance in Discrete Diffusion",
+      "titleZh": "离散扩散中用于加速顺序蒙特卡罗引导的价值知情进度调整",
+      "summary": "arXiv:2610.20669v1 Announce Type: new Abstract: Reward-guided discrete diffusion enables test-time alignment with downstream objectives, but applying Sequential Monte Carlo (SMC) guidance at every den…",
+      "link": "https://arxiv.org/abs/2610.20669",
+      "pubDate": 1792123200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1816611042",
+      "title": "AlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks",
+      "titleZh": "AlphaDiana ：可验证推理任务代理的测量系统",
+      "summary": "arXiv:2610.20675v1 Announce Type: new Abstract: Agents pair reasoning models with harnesses that organize model calls, execute tools, load skill instructions, and retain history in memory. Understandi…",
+      "link": "https://arxiv.org/abs/2610.20675",
+      "pubDate": 1792123200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1820594743",
+      "title": "When Correctness Feedback Erases Evidence: Phase-Separated Completeness Auditing in Verus",
+      "titleZh": "当正确性反馈抹去证据时： Verus中的阶段分离完整性审核",
+      "summary": "arXiv:2610.20676v1 Announce Type: new Abstract: Correctness feedback suppresses the very evidence that specification-completeness auditing is designed to uncover: programs that satisfy a written contr…",
+      "link": "https://arxiv.org/abs/2610.20676",
+      "pubDate": 1792123200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "627258564",
+      "title": "Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models",
+      "titleZh": "反事实邻里风险领域：视觉语言模型的循证选择性安全",
+      "summary": "arXiv:2610.20679v1 Announce Type: new Abstract: Representation-based safety defenses for vision-language models (VLMs) often learn to separate harmful from benign inputs, but separation alone does not…",
+      "link": "https://arxiv.org/abs/2610.20679",
+      "pubDate": 1792123200000,
+      "vendor": "arxiv",
+      "category": "Safety",
+      "impact": "high",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 7,
+        "cw": 10,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-2140299266",
+      "title": "IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation",
+      "titleZh": "IneqAgent ：用符号计算精益证明代理不等式",
+      "summary": "arXiv:2610.20681v1 Announce Type: new Abstract: Formal inequality proving requires mathematical reasoning and exact computation, often connected through intermediate lemmas and goal reformulations. We…",
+      "link": "https://arxiv.org/abs/2610.20681",
+      "pubDate": 1792123200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 67,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-629364859",
+      "title": "L2G-SR: Learning to Guide LLM-based Symbolic Regression",
+      "titleZh": "L2G-SR ：学习指导基于LLM的符号回归",
+      "summary": "arXiv:2610.20685v1 Announce Type: new Abstract: Symbolic regression searches for an equation that explains observed data. Numerical error is commonly used to guide the search, but it alone can favor a…",
+      "link": "https://arxiv.org/abs/2610.20685",
+      "pubDate": 1792123200000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "med",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 25,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "289478759",
+      "title": "When Reality Outpaces Cognition: A New Scaling Principle for Reliable Intelligence",
+      "titleZh": "当现实超越认知：可靠智能的新扩展原则",
+      "summary": "arXiv:2610.20764v1 Announce Type: new Abstract: This paper challenges the understanding capabilities of existing AI paradigms and emerging world models by asking a fundamental question: How quickly ca…",
+      "link": "https://arxiv.org/abs/2610.20764",
+      "pubDate": 1792123200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-962330268",
+      "title": "ARIA: Runtime Inspection and Amendment for Multi-Agent Systems",
+      "titleZh": "ARIA ：多Agent系统的运行时检查和修正",
+      "summary": "arXiv:2610.20780v1 Announce Type: new Abstract: In LLM-based multi-agent systems (MAS), a local mistake can propagate as other agents build on it, turning a correctable error into a failed task. Diagn…",
+      "link": "https://arxiv.org/abs/2610.20780",
+      "pubDate": 1792123200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
     {
       "id": "1567214478",
       "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
@@ -13,13 +223,13 @@
       "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
-      "score": 45,
+      "score": 44,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 15,
         "st": 14,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -34,13 +244,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -55,13 +265,13 @@
       "vendor": "kimi",
       "category": "Research",
       "impact": "high",
-      "score": 63,
+      "score": 62,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -76,13 +286,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -424,216 +634,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-574159992",
-      "title": "Why Static Skill Inconsistencies Do Not Equate to Runtime Risks: A Behavioral Analysis of LLM Agent Execution",
-      "titleZh": "为什么静态技能不一致不等于运行时风险： LLM代理执行的行为分析",
-      "summary": "arXiv:2610.18927v1 Announce Type: new Abstract: LLM agent frameworks heavily rely on external skill assets to standardize tool usage, encode operational workflows, and supply executable runtime resour…",
-      "link": "https://arxiv.org/abs/2610.18927",
-      "pubDate": 1792036800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-340914727",
-      "title": "The Agentic Scientist: Orchestrating Coding Agents for Automated Scientific (Co-)Discovery",
-      "titleZh": "代理科学家：为自动化科学（联合）发现编排编码代理",
-      "summary": "arXiv:2610.18933v1 Announce Type: new Abstract: Modern coding agents are fundamentally reshaping the role of human input for computational research: they write code, launch in silico experiments, anal…",
-      "link": "https://arxiv.org/abs/2610.18933",
-      "pubDate": 1792036800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 7,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1474728997",
-      "title": "Beyond Equation Search: Conjecture-Guided Discovery with SCOPE and ClosureBench",
-      "titleZh": "超越方程式搜索：带视野镜和ClosureBench的猜想引导发现",
-      "summary": "arXiv:2610.18938v1 Announce Type: new Abstract: Most symbolic regression methods optimize candidate equations, but improving an equation's fit does not establish whether its underlying scientific conj…",
-      "link": "https://arxiv.org/abs/2610.18938",
-      "pubDate": 1792036800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1753208207",
-      "title": "Discovering Undisclosed Concepts in LoRA Adapters for Diffusion-Based AIGC Models",
-      "titleZh": "在基于扩散的AIGC模型的LoRA适配器中发现未公开的概念",
-      "summary": "arXiv:2610.18990v1 Announce Type: new Abstract: Low-Rank Adaptation (LoRA) has made diffusion model personalization affordable and widely shareable, but it also creates moderation risks when harmful o…",
-      "link": "https://arxiv.org/abs/2610.18990",
-      "pubDate": 1792036800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 66,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-847252372",
-      "title": "Smart Alone, Blind Together: Why Accuracy Fails to CertifyTheory of Mind in Multi-Agent Teams",
-      "titleZh": "独自聪明，一起失明：为什么准确性无法证明多代理团队中的心智理论",
-      "summary": "arXiv:2610.19051v1 Announce Type: new Abstract: Coordinators that act on what they infer about teammates are usually certified by the accuracy of those inferences. We argue that accuracy is the wrong …",
-      "link": "https://arxiv.org/abs/2610.19051",
-      "pubDate": 1792036800000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "high",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 7,
-        "cw": 15,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "840694558",
-      "title": "RLPE: Teaching LLMs to Prompt with Reinforcement Learning",
-      "titleZh": "RLPE ：通过强化学习教授LLM提示",
-      "summary": "arXiv:2610.19062v1 Announce Type: new Abstract: Prompting is a widely used method for adapting general-purpose LLMs to domain-specific tasks. Effective prompts can be tedious to create manually, so pr…",
-      "link": "https://arxiv.org/abs/2610.19062",
-      "pubDate": 1792036800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 70,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 10,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-2145862462",
-      "title": "Plan or Retrieve First? A Scale Study of Tool Discovery Architectures",
-      "titleZh": "计划还是先检索？工具发现架构的规模研究",
-      "summary": "arXiv:2610.19068v1 Announce Type: new Abstract: Tool-augmented LLM agents discover relevant APIs from large registries before planning execution, yet finite context windows prohibit injecting all tool…",
-      "link": "https://arxiv.org/abs/2610.19068",
-      "pubDate": 1792036800000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 5,
-        "cw": 15,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "801437675",
-      "title": "GroundGUI: GUI Grounding by High-Quality Data and Distillation-to-Reinforcement Learning",
-      "titleZh": "GroundGUI ：基于高质量数据和蒸馏到强化学习的图形用户界面",
-      "summary": "arXiv:2610.19100v1 Announce Type: new Abstract: Constructing robust GUI agents relies on multimodal visual grounding: the ability to precisely map natural language intents to actionable on-screen comp…",
-      "link": "https://arxiv.org/abs/2610.19100",
-      "pubDate": 1792036800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 7,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "218463687",
-      "title": "Plant Memory: Technical Language Processing and a Verified Maintenance Ontology for Agent-Accessible Failure Knowledge from SAP PM Work Orders",
-      "titleZh": "工厂内存： SAP PM工单中代理可访问故障知识的技术语言处理和已验证的维护本体",
-      "summary": "arXiv:2610.19131v1 Announce Type: new Abstract: Maintenance work orders are the largest written record of how industrial equipment fails, yet in most plants they are close to unusable for analysis. Sh…",
-      "link": "https://arxiv.org/abs/2610.19131",
-      "pubDate": 1792036800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1964279516",
-      "title": "Graph-Based Orchestration of Heterogeneous AI Models: A Control Node Approach to Composite Intelligence",
-      "titleZh": "基于图的异构人工智能模型编排：一种复合智能的控制节点方法",
-      "summary": "arXiv:2610.19136v1 Announce Type: new Abstract: We present a graph-based framework for Composite AI systems that integrate multiple AI techniques to address complex problems. We describe an architectu…",
-      "link": "https://arxiv.org/abs/2610.19136",
-      "pubDate": 1792036800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
       "id": "-535183733",
       "title": "Sullivan &amp; Cromwell brings legal expertise into agreement review",
       "titleZh": "Sullivan &amp; Cromwell将法律专业知识引入协议审查",
@@ -832,13 +832,13 @@
       "vendor": "openai",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 1,
         "cw": 22,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -853,13 +853,13 @@
       "vendor": "openai",
       "category": "Safety",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 1,
         "cw": 10,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -874,13 +874,13 @@
       "vendor": "nvidia",
       "category": "Product",
       "impact": "med",
-      "score": 62,
+      "score": 61,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 10,
         "cw": 15,
         "st": 10,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "NVIDIA"
@@ -1399,13 +1399,13 @@
       "vendor": "openai",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 22,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "OpenAI"
