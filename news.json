@@ -1,8 +1,113 @@
 {
-  "updated": "2026-10-16T14:38:42.847Z",
+  "updated": "2026-10-16T18:33:09.202Z",
   "count": 105,
   "sources": 11,
   "items": [
+    {
+      "id": "-299607001",
+      "title": "Elorian’s first AI model wants to reason with images, not just about them",
+      "titleZh": "Elorian’s first AI model wants to reason with images, not just about them",
+      "summary": "according to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+      "link": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "pubDate": 1792166497000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-67223117",
+      "title": "Jev is Vercel’s fastest-adopted AI model ever",
+      "titleZh": "Jev is Vercel’s fastest-adopted AI model ever",
+      "summary": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter.",
+      "link": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+      "pubDate": 1792164829000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-404382577",
+      "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
+      "titleZh": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
+      "summary": "Actor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\"",
+      "link": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
+      "pubDate": 1792160811000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "2024737996",
+      "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
+      "titleZh": "Veritas将其防伪芯片扩展到珠宝、奖杯和香水瓶",
+      "summary": "Counterfeiters are getting better at replicating brands' marks and passing off dupes, known as \"superfakes,\" as genuine items. A startup called Veritas wants to tackle the problem with its own chip th…",
+      "link": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
+      "pubDate": 1792159200000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-424132894",
+      "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
+      "titleZh": "Replit’s CEO says the future of work is the ‘self-driving company’",
+      "summary": "Replit CEO Amjad Masad envisions a future of “self-driving companies,” where AI agents handle day-to-day tasks and people focus on higher-level decisions.",
+      "link": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+      "pubDate": 1792155309000,
+      "vendor": "techcrunch",
+      "category": "Agent",
+      "impact": "med",
+      "score": 41,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 12,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "1479868705",
       "title": "Muse Spark vs Kimi K3.1: A Name With No Model Behind It",
@@ -13,13 +118,13 @@
       "vendor": "kimi",
       "category": "Research",
       "impact": "high",
-      "score": 60,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google News"
@@ -34,13 +139,13 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "high",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google News"
@@ -55,13 +160,13 @@
       "vendor": "deepseek",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -361,6 +466,27 @@
       "source": "Google News"
     },
     {
+      "id": "-438753580",
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "titleZh": "Welcome Beam ：您可以拥有、定制和扩展的501B开放式模型",
+      "summary": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "link": "https://huggingface.co/blog/reflection-beam",
+      "pubDate": 1792108800000,
+      "vendor": "huggingface",
+      "category": "Research",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 22,
+        "st": 14,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
       "id": "-1888537617",
       "title": "17-Year-Old AI Researcher Nathan Chen Departs Moonshot AI; AttnRes Architecture Lives On in Kimi K3",
       "titleZh": "17岁的人工智能研究员Nathan Chen离开Moonshot AI ； AttnRes Architecture住在Kimi K3",
@@ -529,27 +655,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "-886001692",
-      "title": "Last chance to save up to $200 on your TechCrunch Founder Summit pass: Early booking ends October 16",
-      "titleZh": "为您的TechCrunch创始人峰会通行证节省高达200 $的最后机会：提前预订将于10月16日结束",
-      "summary": "Savings of up to $200 end October 16 for TechCrunch Founder Summit. These savings for Founder and Investor Passes vanish after Friday. Join 1,000 founders and investors on November 4 at Boston’s SoWa …",
-      "link": "https://techcrunch.com/2026/10/15/last-chance-to-save-up-to-200-on-techcrunch-founder-summit-early-booking-ends-oct-16/",
-      "pubDate": 1792087200000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "-2130920934",
       "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
       "titleZh": "使用Google Antigravity加速寻找抗菌肽",
@@ -559,79 +664,16 @@
       "vendor": "deepmind",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "-1886528986",
-      "title": "AI agents are coming to Rivian’s cars",
-      "titleZh": "AI agents are coming to Rivian’s cars",
-      "summary": "We'll likely learn more about how this will work at the company's upcoming \"AI Autonomy Day\" event in December.",
-      "link": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
-      "pubDate": 1792076556000,
-      "vendor": "techcrunch",
-      "category": "Agent",
-      "impact": "med",
-      "score": 38,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-2008899706",
-      "title": "Google’s Universal Cart shopping tool launches in the US",
-      "titleZh": "Google’s Universal Cart shopping tool launches in the US",
-      "summary": "The new shopping tool is available in the U.S. across Google Search and the Gemini app.",
-      "link": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
-      "pubDate": 1792074573000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "203612833",
-      "title": "TechCrunch Disrupt 2026: Last day",
-      "titleZh": "TechCrunch Disrupt 2026 ：最后一天",
-      "summary": "Last day to be part of TechCrunch Disrupt 2026. Join 10,000+ tech leaders for a day of connections and insights. Save 75% on your pass now.",
-      "link": "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day/",
-      "pubDate": 1792072800000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 40,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "76916727",
@@ -653,27 +695,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "-119913256",
-      "title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
-      "titleZh": "Amazon’s Bee launches two new personal AI devices, starting at $75",
-      "summary": "Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize con…",
-      "link": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
-      "pubDate": 1792065600000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "high",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 25,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "-411997091",
@@ -790,13 +811,13 @@
       "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 15,
         "st": 14,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -811,13 +832,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -1535,27 +1556,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-1919017710",
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
-      "titleZh": "AutoSynthData ：为企业代理生成培训数据",
-      "summary": "AutoSynthData: Generating Training Data for Enterprise Agents",
-      "link": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-      "pubDate": 1790913691000,
-      "vendor": "huggingface",
-      "category": "Agent",
-      "impact": "med",
-      "score": 38,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 12,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
     },
     {
       "id": "-148497339",
