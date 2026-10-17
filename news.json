@@ -1,8 +1,239 @@
 {
-  "updated": "2026-10-17T04:47:06.038Z",
-  "count": 96,
-  "sources": 10,
+  "updated": "2026-10-17T08:58:05.026Z",
+  "count": 106,
+  "sources": 11,
   "items": [
+    {
+      "id": "-1148213124",
+      "title": "Reporter’s notebook: Kimi’s AI credit card turns spending into computing quotas – with limits",
+      "titleZh": "Reporter’s notebook: Kimi’s AI credit card turns spending into computing quotas – with limits",
+      "summary": "Reporter’s notebook: Kimi’s AI credit card turns spending into computing quotas – with limits South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWmhRMXpyOGYzTi1BallOM1VRdWZzaFJuS1NRODc0YzNtTzVheGNqTm5UYjRINFR2eDYyVld2cTY1OGNNWDZzb2ZkWVNpUnM4NEtnRnVyZ1Y2bTZ4bkp4SVc2WUlJVnhMcUF6d1AwYmVSR1pGWHBZZXRMamZiZFdMb2xFSUt0dzkwMlRCdVIwWUk1S1ZTLWhOMUtHaGRISUU1anVRdV9IMWVjRl9mT0x2dGJCbDZwc0NEcER5Ti1GdnpTeU5oaXo4X1lGZF8?oc=5",
+      "pubDate": 1792224011000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 12,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1958324667",
+      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+      "titleZh": "世界不会等待：在实时时钟下评估和教导代理商",
+      "summary": "arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an…",
+      "link": "https://arxiv.org/abs/2610.20665",
+      "pubDate": 1792209600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-2119694175",
+      "title": "Evaluating Model Capabilities After Benchmark Saturation",
+      "titleZh": "在基准饱和后评估模型能力",
+      "summary": "arXiv:2610.20667v1 Announce Type: new Abstract: Rapid advances in AI capabilities are causing benchmarks to saturate. Once several models approach perfect scores, a benchmark loses its power to differ…",
+      "link": "https://arxiv.org/abs/2610.20667",
+      "pubDate": 1792209600000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 8,
+        "cw": 15,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "406493267",
+      "title": "Value-Informed Schedule Trimming for Accelerated Sequential Monte Carlo Guidance in Discrete Diffusion",
+      "titleZh": "离散扩散中用于加速顺序蒙特卡罗引导的价值知情进度调整",
+      "summary": "arXiv:2610.20669v1 Announce Type: new Abstract: Reward-guided discrete diffusion enables test-time alignment with downstream objectives, but applying Sequential Monte Carlo (SMC) guidance at every den…",
+      "link": "https://arxiv.org/abs/2610.20669",
+      "pubDate": 1792209600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1816611042",
+      "title": "AlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks",
+      "titleZh": "AlphaDiana ：可验证推理任务代理的测量系统",
+      "summary": "arXiv:2610.20675v1 Announce Type: new Abstract: Agents pair reasoning models with harnesses that organize model calls, execute tools, load skill instructions, and retain history in memory. Understandi…",
+      "link": "https://arxiv.org/abs/2610.20675",
+      "pubDate": 1792209600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1820594743",
+      "title": "When Correctness Feedback Erases Evidence: Phase-Separated Completeness Auditing in Verus",
+      "titleZh": "当正确性反馈抹去证据时： Verus中的阶段分离完整性审核",
+      "summary": "arXiv:2610.20676v1 Announce Type: new Abstract: Correctness feedback suppresses the very evidence that specification-completeness auditing is designed to uncover: programs that satisfy a written contr…",
+      "link": "https://arxiv.org/abs/2610.20676",
+      "pubDate": 1792209600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "627258564",
+      "title": "Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models",
+      "titleZh": "反事实邻里风险领域：视觉语言模型的循证选择性安全",
+      "summary": "arXiv:2610.20679v1 Announce Type: new Abstract: Representation-based safety defenses for vision-language models (VLMs) often learn to separate harmful from benign inputs, but separation alone does not…",
+      "link": "https://arxiv.org/abs/2610.20679",
+      "pubDate": 1792209600000,
+      "vendor": "arxiv",
+      "category": "Safety",
+      "impact": "high",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 7,
+        "cw": 10,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-2140299266",
+      "title": "IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation",
+      "titleZh": "IneqAgent ：用符号计算精益证明代理不等式",
+      "summary": "arXiv:2610.20681v1 Announce Type: new Abstract: Formal inequality proving requires mathematical reasoning and exact computation, often connected through intermediate lemmas and goal reformulations. We…",
+      "link": "https://arxiv.org/abs/2610.20681",
+      "pubDate": 1792209600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 67,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-629364859",
+      "title": "L2G-SR: Learning to Guide LLM-based Symbolic Regression",
+      "titleZh": "L2G-SR ：学习指导基于LLM的符号回归",
+      "summary": "arXiv:2610.20685v1 Announce Type: new Abstract: Symbolic regression searches for an equation that explains observed data. Numerical error is commonly used to guide the search, but it alone can favor a…",
+      "link": "https://arxiv.org/abs/2610.20685",
+      "pubDate": 1792209600000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "med",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 25,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "289478759",
+      "title": "When Reality Outpaces Cognition: A New Scaling Principle for Reliable Intelligence",
+      "titleZh": "当现实超越认知：可靠智能的新扩展原则",
+      "summary": "arXiv:2610.20764v1 Announce Type: new Abstract: This paper challenges the understanding capabilities of existing AI paradigms and emerging world models by asking a fundamental question: How quickly ca…",
+      "link": "https://arxiv.org/abs/2610.20764",
+      "pubDate": 1792209600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-962330268",
+      "title": "ARIA: Runtime Inspection and Amendment for Multi-Agent Systems",
+      "titleZh": "ARIA ：多Agent系统的运行时检查和修正",
+      "summary": "arXiv:2610.20780v1 Announce Type: new Abstract: In LLM-based multi-agent systems (MAS), a local mistake can propagate as other agents build on it, turning a correctable error into a failed task. Diagn…",
+      "link": "https://arxiv.org/abs/2610.20780",
+      "pubDate": 1792209600000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
     {
       "id": "-1022691009",
       "title": "MOSS-Image vs Qwen Image 3.0: Open Weights vs an API",
@@ -13,13 +244,13 @@
       "vendor": "qwen",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google News"
@@ -193,6 +424,27 @@
       "source": "TechCrunch"
     },
     {
+      "id": "-420100844",
+      "title": "China To Require An Export License For All New Large AI Models, Potentially Affecting Moonshot’s Unreleased Kimi K3.1, As Taiwan Criminalizes Smuggling Of Advanced Chips To China",
+      "titleZh": "China To Require An Export License For All New Large AI Models, Potentially Affecting Moonshot’s Unreleased Kimi K3.1, As Taiwan Criminalizes Smuggling Of Advanced Chips To China",
+      "summary": "China To Require An Export License For All New Large AI Models, Potentially Affecting Moonshot’s Unreleased Kimi K3.1, As Taiwan Criminalizes Smuggling Of Advanced Chips To China Wccftech",
+      "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNNnpXUG5nbGIwVU45RnV2VF93aDZ3M01vN2lVaTB2VW9pQlY3bU5PNHF3N0tfcXIxUDg2ZUZtcVo0QlhsUm9zM1N5ZzVkbHRUVTVGY2dSaEdQdkUyRjZnd2d3SUpzUlkxeEhLV0k3MjJQazNDa2RRWkIzWVRRZ1R4dkNQaEU3TVllMnkwclIzdGZxNm1DMFFrZldDcWRrRXBtMzVmNmxDMGV0RHdRQ3JjUUhuSGVSVVVnR2NsUUt6UGhnQzZSMVV4c1lJTjgtMlh3bGZtQWhEWi1CRVp4a1VPb0tiWGxvMnloUnFmaTNoalp2ZERJOXlDYWtKMl9qeXZwRXZkbTNNMzlweFptRFVrNWJOZHZCSm43WWJ5dldBZDBUcWRXWEHSAasCQVVfeXFMUGxzSXB3NzV6TGJJb0JHYnNEOGpQSkdxZjU0WkQ5QVozX1k5LXN3emhJX19ZNG1XSVZWTWVJZzcwU1BHX3h5QmpLaXAzdkw2eFkyTnFLVjYtbEI5RkNJaTNaOGJBNXdwcXhUdnlOTmVnaEdTbmhxMGhQZGxTMlhtWjdodkJtMGpSNk9SSGNUaEpZWFlFQ2NFUFdyLTN4aWVmUGVZOExiZ3Z0dV84cUh0VTlfMTk4cE8zaHY3ZGpZYXVtQ0JfcmRDR1lLUjE4SEdFR1pYWnhVZ3pSenBybkdNb0VaT3lDcUJaSi00d3BSMmVNcGtXajZkTm5BX0FaTzZHWnJsQzV2VzZydF9TOTl1cGhobXp1WF9rNExteml0RXEtdnJUamFvMWljY1k?oc=5",
+      "pubDate": 1792160222000,
+      "vendor": "kimi",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "2024737996",
       "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
       "titleZh": "Veritas将其防伪芯片扩展到珠宝、奖杯和香水瓶",
@@ -235,214 +487,25 @@
       "source": "TechCrunch"
     },
     {
-      "id": "1958324667",
-      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
-      "titleZh": "世界不会等待：在实时时钟下评估和教导代理商",
-      "summary": "arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an…",
-      "link": "https://arxiv.org/abs/2610.20665",
-      "pubDate": 1792123200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-2119694175",
-      "title": "Evaluating Model Capabilities After Benchmark Saturation",
-      "titleZh": "在基准饱和后评估模型能力",
-      "summary": "arXiv:2610.20667v1 Announce Type: new Abstract: Rapid advances in AI capabilities are causing benchmarks to saturate. Once several models approach perfect scores, a benchmark loses its power to differ…",
-      "link": "https://arxiv.org/abs/2610.20667",
-      "pubDate": 1792123200000,
-      "vendor": "arxiv",
+      "id": "-777936014",
+      "title": "Meet Nathan Chen, the Chinese teen AI prodigy courted by Silicon Valley",
+      "titleZh": "认识硅谷追捧的中国青少年人工智能神童Nathan Chen",
+      "summary": "Meet Nathan Chen, the Chinese teen AI prodigy courted by Silicon Valley South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUjRqbzZyckJGMzJmWE5TTzRIZXFuUUYtQmVfQ1NWTm0zVXYxczVpZVE4aEVTSHR2QlJ2MHEyS01EVXZsYWFyeHYtTElVVlF0Umd0aHMxMnhOLWVlY05pdU85eTZ5Y0VUempjbEFfaEg3ZUNqOWR2Z1dQRFNlZ2JUUm1YVWFha0twN19hNVYyYy10NzBST1RBNGVNZk0wT2FhdnJKMVlMTXJoQnMxeTFPSnBPc2NzcmJ0dWJTbmFkZ9IBvwFBVV95cUxPMXlCQ2NkU3F1RFo3THJfNlMweGdvVmEyN0U1UG1YV3J4QWoyV0JyQXpMUFQwS3ZkaXpjcThHNTFxdUxYeHV0TFl4ZkU0NnV0RFJsSFd3ODZrWjRhOXlWempQUlZZdkdRNUFYRWFZQVJHZXp3QzBYekNZX0Q2Y3A4Y2xZcjJqZ3VDWW1YUDNyZklXV0R5WndmaFhwZzB1eVVIeG5yQnd2YVBMTUtQMzJEcVRoN0xyVFp1aC1zQVZYYw?oc=5",
+      "pubDate": 1792132213000,
+      "vendor": "google",
       "category": "Product",
-      "impact": "high",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 8,
-        "cw": 15,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "406493267",
-      "title": "Value-Informed Schedule Trimming for Accelerated Sequential Monte Carlo Guidance in Discrete Diffusion",
-      "titleZh": "离散扩散中用于加速顺序蒙特卡罗引导的价值知情进度调整",
-      "summary": "arXiv:2610.20669v1 Announce Type: new Abstract: Reward-guided discrete diffusion enables test-time alignment with downstream objectives, but applying Sequential Monte Carlo (SMC) guidance at every den…",
-      "link": "https://arxiv.org/abs/2610.20669",
-      "pubDate": 1792123200000,
-      "vendor": "arxiv",
-      "category": "Research",
       "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1816611042",
-      "title": "AlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks",
-      "titleZh": "AlphaDiana ：可验证推理任务代理的测量系统",
-      "summary": "arXiv:2610.20675v1 Announce Type: new Abstract: Agents pair reasoning models with harnesses that organize model calls, execute tools, load skill instructions, and retain history in memory. Understandi…",
-      "link": "https://arxiv.org/abs/2610.20675",
-      "pubDate": 1792123200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1820594743",
-      "title": "When Correctness Feedback Erases Evidence: Phase-Separated Completeness Auditing in Verus",
-      "titleZh": "当正确性反馈抹去证据时： Verus中的阶段分离完整性审核",
-      "summary": "arXiv:2610.20676v1 Announce Type: new Abstract: Correctness feedback suppresses the very evidence that specification-completeness auditing is designed to uncover: programs that satisfy a written contr…",
-      "link": "https://arxiv.org/abs/2610.20676",
-      "pubDate": 1792123200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "627258564",
-      "title": "Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models",
-      "titleZh": "反事实邻里风险领域：视觉语言模型的循证选择性安全",
-      "summary": "arXiv:2610.20679v1 Announce Type: new Abstract: Representation-based safety defenses for vision-language models (VLMs) often learn to separate harmful from benign inputs, but separation alone does not…",
-      "link": "https://arxiv.org/abs/2610.20679",
-      "pubDate": 1792123200000,
-      "vendor": "arxiv",
-      "category": "Safety",
-      "impact": "high",
       "score": 49,
       "scoreBreakdown": {
         "cq": 16,
-        "kv": 7,
-        "cw": 10,
-        "st": 13,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
         "rc": 2,
         "cs": 1
       },
-      "source": "arXiv"
-    },
-    {
-      "id": "-2140299266",
-      "title": "IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation",
-      "titleZh": "IneqAgent ：用符号计算精益证明代理不等式",
-      "summary": "arXiv:2610.20681v1 Announce Type: new Abstract: Formal inequality proving requires mathematical reasoning and exact computation, often connected through intermediate lemmas and goal reformulations. We…",
-      "link": "https://arxiv.org/abs/2610.20681",
-      "pubDate": 1792123200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 7,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-629364859",
-      "title": "L2G-SR: Learning to Guide LLM-based Symbolic Regression",
-      "titleZh": "L2G-SR ：学习指导基于LLM的符号回归",
-      "summary": "arXiv:2610.20685v1 Announce Type: new Abstract: Symbolic regression searches for an equation that explains observed data. Numerical error is commonly used to guide the search, but it alone can favor a…",
-      "link": "https://arxiv.org/abs/2610.20685",
-      "pubDate": 1792123200000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 25,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "289478759",
-      "title": "When Reality Outpaces Cognition: A New Scaling Principle for Reliable Intelligence",
-      "titleZh": "当现实超越认知：可靠智能的新扩展原则",
-      "summary": "arXiv:2610.20764v1 Announce Type: new Abstract: This paper challenges the understanding capabilities of existing AI paradigms and emerging world models by asking a fundamental question: How quickly ca…",
-      "link": "https://arxiv.org/abs/2610.20764",
-      "pubDate": 1792123200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-962330268",
-      "title": "ARIA: Runtime Inspection and Amendment for Multi-Agent Systems",
-      "titleZh": "ARIA ：多Agent系统的运行时检查和修正",
-      "summary": "arXiv:2610.20780v1 Announce Type: new Abstract: In LLM-based multi-agent systems (MAS), a local mistake can propagate as other agents build on it, turning a correctable error into a failed task. Diagn…",
-      "link": "https://arxiv.org/abs/2610.20780",
-      "pubDate": 1792123200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "arXiv"
+      "source": "Google News"
     },
     {
       "id": "1567214478",
@@ -643,13 +706,13 @@
       "vendor": "nvidia",
       "category": "Product",
       "impact": "high",
-      "score": 66,
+      "score": 65,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 14,
         "cw": 15,
         "st": 10,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "NVIDIA"
@@ -1117,6 +1180,27 @@
       "source": "Google News"
     },
     {
+      "id": "-61388694",
+      "title": "Moonshot AI Plans Record $50 Billion Hong Kong IPO as Founders Fight Equity Lawsuit",
+      "titleZh": "Moonshot AI计划创纪录的500亿$香港IPO创始人打股权诉讼",
+      "summary": "Moonshot AI Plans Record $50 Billion Hong Kong IPO as Founders Fight Equity Lawsuit Forbes",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZHdiQm9JMHQ5MDd3UUVGaHZiZWtTY1hZZi1rVWcxTm1mbmdHcElTN19CQW1OR2daZ04yeEpjSllUb0hMTFY3YUpOdGQ2LTNPbWNJcExvRmszdU9Db0JINjNDZWdKeGdsQkVPZklYMGVxMUVZMmZmNGUzWFpiNnVXbXA4SjdPZzZudnlydVA4MVVDc2s1Q2Exdm8wTFlZOTdLUVFmbjlqaElzNHJFOHVRbU9QYmhYX1JaOVRTdWhoTkxvVjdvWkJZN0J1Qmo3VzhQTTlWdzd3?oc=5",
+      "pubDate": 1791825283000,
+      "vendor": "kimi",
+      "category": "Funding",
+      "impact": "high",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 20,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "1352056365",
       "title": "Microsoft-Decision-1 runs on Alibaba’s Qwen and costs $0.042 a million",
       "titleZh": "Microsoft-Decision-1 runs on Alibaba’s Qwen and costs $0.042 a million",
@@ -1131,6 +1215,27 @@
         "cq": 20,
         "kv": 2,
         "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1415897361",
+      "title": "EXCLUSIVE: Moonshot execs in talks to settle dispute with shareholder ahead of planned IPO, people say",
+      "titleZh": "独家：据知情人士透露， Moonshot高管正在与股东进行谈判，以在计划的IPO之前解决与股东的纠纷",
+      "summary": "EXCLUSIVE: Moonshot execs in talks to settle dispute with shareholder ahead of planned IPO, people say Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQ1hmZzQxZmpITVlBeVpjanJJRWhDN0JGWWtSb291VDJIaTR2ZXJuVDRtanlSUDdiQllFM1RqSjBHeXp6N2JaT1FnMXB5Yk45RWhOeFoxT3RGMEdJT3N1UG1SS0E3RWFvRG1Tci0waTNYWVBKeFcwOVJ6T1dVOV84cTZHY3B1ekdOR3ZqZ1NLWFZTN1Zoc3k2dWZLU0dOTnprX0ZBcnZLRmFsdUUxQkhNUkRpN1dpUE0wSTBHRVhIY2NrcEk?oc=5",
+      "pubDate": 1791760244000,
+      "vendor": "kimi",
+      "category": "Funding",
+      "impact": "high",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 20,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -1348,6 +1453,27 @@
       "source": "NVIDIA"
     },
     {
+      "id": "-148497339",
+      "title": "Chinese AI model investigated after researcher says it provided instructions for bioweapons, assassinations",
+      "titleZh": "研究人员称中国人工智能模型为生物武器、暗杀提供了指令后进行了调查",
+      "summary": "Chinese AI model investigated after researcher says it provided instructions for bioweapons, assassinations Fox News",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONURaV1hMTkVSRmU0aUZMSVFBMmpQcTJlN0h4MVp2djJSbjlzYTJuLVVONnNpd3h4a1RiZlV5Mlh2ekxsZy1FWURaZUoxbEpHdy1vNV9TV2daSWZNN1dPRVR4SjJyLW5JNDByQklfTUlkNUJ1U29YcC1GODJzOWlHUEFyUFA2UC1OTkwtMFhkTGdIOTNrQ3RmWHVoQmNWTWxCR1dNVHcySW1TbmdUVGRmX3Z0a1UyVEsyVjI3U0Y1NNIBxAFBVV95cUxONUw0R3RpZXFfc3Fmd082TEJMUHlIYkxSZThDV0htcWVWQ0xJSHVMaXhCTHR2TjBJNmxiSC1ZT2VVN0tJaFRDdkZXVnRtQ0xWZDNJWElYY0dEcy1naEVXcGU1T1lmc2xGWUFJb0xLdmY0UzFTTm1HaC1hMFFWYVhkeWRuQUY1ZnZvc1dTOFRnMzhFbFZ6ZXZZdk11eEFrZjVlaEpOMzVKQ2s2VzUzY1ZVeVEzbklDYzlweDVVS3BsY2FBODZf?oc=5",
+      "pubDate": 1790838000000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1889306321",
       "title": "Gemini 4 Argon: our next era of frontier intelligence",
       "titleZh": "双子座4氩气：我们下一个前沿情报时代",
@@ -1430,6 +1556,27 @@
         "cs": 1
       },
       "source": "NVIDIA"
+    },
+    {
+      "id": "200081961",
+      "title": "AI race heats up as OpenAI flags alleged model-copying campaign",
+      "titleZh": "随着OpenAI标记涉嫌模型复制活动， AI竞赛升温",
+      "summary": "AI race heats up as OpenAI flags alleged model-copying campaign CNBC",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kSmhrQ0lQOWwyV3JGWWpoclhLX1ZHYm9qX2tOTVRvcms5eUpOUjlrQ2RYdnhlVlJYTUNFelFRWjVkYXpJbVBPTU42amJ3QW5IMDdqYTZzcjVULWxuSjh0OUYyRTV6RG84ZlpLM2NlblNoWHJDdXfSAXtBVV95cUxQSTFoTHRwbXlLVFQtRXNCVlpLblVkRGNiMnN3RjgwVHE5anZvUW1aQlNzTGVGRXJISm9JUGdka1dWUnFEd0Nqc2s1N1d4UldwLUlTNWdCOWxJUFluSVZSTUJzZFhkM3VKNUNLd3cwNjJRa29QbWQ3d0hDN28?oc=5",
+      "pubDate": 1790751600000,
+      "vendor": "openai",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1464852399",
@@ -1642,6 +1789,27 @@
       "source": "Google AI"
     },
     {
+      "id": "-1290016780",
+      "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
+      "titleZh": "Kimi制造商Moonshot AI的年收入目标为$ 2B",
+      "summary": "Kimi-maker Moonshot AI targets $2B in annual revenue TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZjd5bE8wcUZHZlhfS0lwZmxpX2xTTXBOMkJoVVItRmNjNGRsNjFJQVNXOERhYUljdFBscjBKekNlNXlmNmktZUpNNW1CbXQ5ODlxZWYyZUJScmI3cllZM2o0bUl0YW9FM3Z3TUI0Q1hDbVhMdkxHWi0yNTBFekhRYlc2NjhBeW43cktndU1fQUltQS1nclZVbQ?oc=5",
+      "pubDate": 1789110000000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "2147151731",
       "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
       "titleZh": "企业AI的真正风险不是自主代理。这是它们之间的复杂性。",
@@ -1745,6 +1913,48 @@
         "cs": 1
       },
       "source": "VentureBeat"
+    },
+    {
+      "id": "937680453",
+      "title": "Moonshot AI eyes $50 billion valuation, Hong Kong IPO after Kimi K3 breakthrough",
+      "titleZh": "Moonshot AI眼中$ 500亿估值，香港IPO后Kimi K3突破",
+      "summary": "Moonshot AI eyes $50 billion valuation, Hong Kong IPO after Kimi K3 breakthrough Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVS1VaExPMEhKbFJud3lZanAyNnYzY215aExHS3FzX3o5bWRxanU2NFU1eVl3d0xXRkdJc1JaSkJ6Q2phWUVGeVdBVE44Ry0tMUk0RDFLV2p6NWlud3hrUlFybmVIRjdUQldQT0NCVmwzeUtwOEdaelk2RHktMi10VmM2dGVmbUJaTWFRMW5yR01hZk4tM1E?oc=5",
+      "pubDate": 1784617200000,
+      "vendor": "kimi",
+      "category": "Funding",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 7,
+        "cw": 20,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1825919776",
+      "title": "Chinese AI model takes US tech industry by surprise with abilities rivaling Claude and ChatGPT",
+      "titleZh": "中国人工智能模式以其与Claude和ChatGPT相媲美的能力令美国科技行业大吃一惊",
+      "summary": "Chinese AI model takes US tech industry by surprise with abilities rivaling Claude and ChatGPT AP News",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZWthNjJoaVVtZUxQeWE1Q2tndy1yUU12Tm1Pdll0WUZxZy1PTFZrSElXMEhicnZnbTdzeVhIczVFWGZMbUNZZ3hSOTIxWnBhVUREOE1wbjEyNW9YUjJQLU83djItbXl1LThHM2ZTc3FHQm1nWGlOY1FFcFBmUFdDc3ZB?oc=5",
+      "pubDate": 1784271600000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1093452510",
