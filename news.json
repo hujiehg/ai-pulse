@@ -1,8 +1,50 @@
 {
-  "updated": "2026-10-17T18:41:38.528Z",
-  "count": 198,
-  "sources": 11,
+  "updated": "2026-10-17T21:11:19.793Z",
+  "count": 205,
+  "sources": 12,
   "items": [
+    {
+      "id": "-1577162767",
+      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "titleZh": "Anthropic表示，其员工队伍已经变得不那么初级了，并且在会议上花费了更多的时间",
+      "summary": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
+      "link": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "pubDate": 1792268479000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1284891406",
+      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "titleZh": "首席执行官表示， Replit使OpenAI成为Anthropic的默认值",
+      "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+      "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "pubDate": 1792262888000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-1978106820",
       "title": "DeepSeek releases AI model update, opens search APIs to all users",
@@ -13,13 +55,13 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "high",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -34,13 +76,13 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -319,27 +361,6 @@
       "source": "arXiv"
     },
     {
-      "id": "1859071896",
-      "title": "Replit is no longer working with Anthropic, CEO says",
-      "titleZh": "首席执行官表示， Replit不再与Anthropic合作",
-      "summary": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with …",
-      "link": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "pubDate": 1792185748000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 25,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "1948354882",
       "title": "How Itaú is building generative AI for its entire customer base",
       "titleZh": "How Itaú is building generative AI for its entire customer base",
@@ -349,13 +370,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -718,27 +739,6 @@
       "source": "Google News"
     },
     {
-      "id": "-1558597702",
-      "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
-      "titleZh": "When it came to Cal AI’s viral success, a small army of influencers paid off",
-      "summary": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
-      "link": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
-      "pubDate": 1792107896000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "339704165",
       "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
       "titleZh": "花岗岩交换机4.1 ：来自一个端点的聊天、决策和语音",
@@ -748,13 +748,13 @@
       "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 15,
         "st": 14,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -769,13 +769,13 @@
       "vendor": "openai",
       "category": "Release",
       "impact": "med",
-      "score": 63,
+      "score": 62,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 25,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -2503,6 +2503,69 @@
       "source": "Google News"
     },
     {
+      "id": "2147151731",
+      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
+      "titleZh": "企业AI的真正风险不是自主代理。这是它们之间的复杂性。",
+      "summary": "Presented by Gravitee Read more",
+      "link": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
+      "pubDate": 1787839260000,
+      "vendor": "venturebeat",
+      "category": "Agent",
+      "impact": "med",
+      "score": 33,
+      "scoreBreakdown": {
+        "cq": 12,
+        "kv": 0,
+        "cw": 12,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "-1183454760",
+      "title": "When agents act on their own, governance has to live in the data layer",
+      "titleZh": "当代理自行行动时，治理必须位于数据层",
+      "summary": "Presented by EDB Read more",
+      "link": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
+      "pubDate": 1787832060000,
+      "vendor": "venturebeat",
+      "category": "Agent",
+      "impact": "med",
+      "score": 34,
+      "scoreBreakdown": {
+        "cq": 12,
+        "kv": 1,
+        "cw": 12,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "-1500538370",
+      "title": "Orchestration is the new challenge for CX in the age of AI agents",
+      "titleZh": "编排是人工智能代理时代CX面临的新挑战",
+      "summary": "Presented by Tata Communications Read more",
+      "link": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
+      "pubDate": 1787754600000,
+      "vendor": "venturebeat",
+      "category": "Agent",
+      "impact": "med",
+      "score": 33,
+      "scoreBreakdown": {
+        "cq": 12,
+        "kv": 0,
+        "cw": 12,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
       "id": "639376543",
       "title": "EXCLUSIVE: China's Moonshot in talks with Microsoft, Amazon, Google over K3 revenue sharing, sources say",
       "titleZh": "独家：消息人士称，中国的Moonshot正在与微软、亚马逊、谷歌就K3收入分成进行谈判",
@@ -2566,19 +2629,19 @@
       "source": "Google News"
     },
     {
-      "id": "274188186",
-      "title": "Moonshot AI in talks with Microsoft, Google, Amazon over Kimi K3 revenue split",
-      "titleZh": "Moonshot AI与微软、谷歌、亚马逊就Kimi K3的收入分成进行谈判",
-      "summary": "Moonshot AI in talks with Microsoft, Google, Amazon over Kimi K3 revenue split The Jerusalem Post",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYzdncFEtU0dGbEpGRGZQRks5OE5fV2RldE8xR29yazdVVGtFcnFuTk9OTU42Z191UWZEOV8yX29jb2w3SHVvZ1FySzRmUjNFV0RkU2FYUm1BbGxqT19NQ0RNQ0dDUkw4SkZIZFRDWU05Qjd4OUxWd2s1blVDLVNwUUtLWjI0dw?oc=5",
+      "id": "-1719814525",
+      "title": "Exclusive-China's Moonshot in talks with Microsoft, Amazon, Google over K3 revenue sharing, sources say",
+      "titleZh": "独家--消息人士称，中国的Moonshot正在与微软、亚马逊、谷歌就K3收入分成进行谈判",
+      "summary": "Exclusive-China's Moonshot in talks with Microsoft, Amazon, Google over K3 revenue sharing, sources say Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZjg0N240bGRBYUlINzVYQlkwZlN4dWRXTTlLNWtxQmJBRUJQT0xXV2VQa05WaThhcWJRVDNHUnhCNDRQZ056d3RXSnZxZHVWT3NkVjJGRS1wWVdXVE5mZXdlSWhOeFhBcGt0MVV5aW5SWEFKVmRDNDl1NlZ6dFQwNnAwbnNyRzdrSmF3b3BPSG40VDh0MzdFcWZlazFhLVJlLVA0VGtwMmU?oc=5",
       "pubDate": 1787727600000,
       "vendor": "kimi",
       "category": "Product",
-      "impact": "high",
-      "score": 50,
+      "impact": "med",
+      "score": 48,
       "scoreBreakdown": {
         "cq": 20,
-        "kv": 2,
+        "kv": 0,
         "cw": 15,
         "st": 12,
         "rc": 0,
@@ -2627,6 +2690,27 @@
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "74193009",
+      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
+      "titleZh": "VentureBeat任命Rob Strechay为其首位首席分析师，扩大其企业人工智能研究推动力",
+      "summary": "Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a founding analyst of VentureBeat Research. His arrival i…",
+      "link": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
+      "pubDate": 1787149092000,
+      "vendor": "venturebeat",
+      "category": "Research",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 22,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
     },
     {
       "id": "-2016155837",
@@ -3259,27 +3343,6 @@
       "source": "Google News"
     },
     {
-      "id": "-534747452",
-      "title": "Trump tech official accuses China’s Moonshot AI of stealing from Anthropic",
-      "titleZh": "Trump tech official accuses China’s Moonshot AI of stealing from Anthropic",
-      "summary": "Trump tech official accuses China’s Moonshot AI of stealing from Anthropic South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZ2E3ejc4ekprbERoNmJhLWlURDNxeDBMSjgwdFlhNkhoUmhxN2RmMklsMm5EaDFFMmJNbHpiYjdtWGhXNGZacEZWVmFSX2NhLUVzWkpsa091eHBhQWg0YVpvTGFHWGJaMHNPZVpwOXFLVEVIUnl0VndyckliTE9IUGdYdTl6bGQwbG9kcnlsWW9fbC0yRFh5U0pWMW5sYmpJdHJndlVHTmMtZDhwTU94dzRnMFdjZzRBZFdZYtIBvAFBVV95cUxONkt3clRyNTA5ajNydjRzbjdmUU5DbFZMY0dQaF9xWnlrRjdkWDJjOENJM3JEZHZMQVdmd0Q0RVJvOWZYU1Bwa29rU0RGdC1IWXc5bmFiMmtmSlBoS1hVQ01pd0xEbWVLcTBxZVM5bjBNWGlTTTl6eHNmYlllUXBGSVkyYWNMVlRRbTl1ZnpWVkFLQ1JxUC1UMmp6TjJTU285UFpLa1BpYW8tZjhLYTZfekN5R2M5bVlFVUZneg?oc=5",
-      "pubDate": 1784790000000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "631453509",
       "title": "Microsoft reportedly evaluates Moonshot AI’s Kimi K3 for Copilot",
       "titleZh": "Microsoft reportedly evaluates Moonshot AI’s Kimi K3 for Copilot",
@@ -3295,6 +3358,27 @@
         "kv": 2,
         "cw": 15,
         "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-283464483",
+      "title": "Inside the White House debate over what to do about Chinese AI",
+      "titleZh": "白宫内部关于如何处理中国人工智能的辩论",
+      "summary": "Inside the White House debate over what to do about Chinese AI Politico",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUVVLT3ZkcUZHMDdDM29VUWFXS3hfNF9IMF9falhkZW1yam9uREgxQnlWZUN2ZlZ6MFZWMXc3VlVoZjBwckpTYjF6cHFrendSZjhpSzhuNHNUbUhXXzlOcXpKWjVMQlJKN1hpR3JKODR0LTZya3l3T3RNZ3M5a3UtMnZMMHdDUTdXb1pZTG5sV21IZkk4RjllNzU3LXItSVQ4cnRBa1FTS3JZVnQyQkNzMTFn?oc=5",
+      "pubDate": 1784790000000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
         "rc": 0,
         "cs": 1
       },
@@ -3950,6 +4034,69 @@
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "-1093452510",
+      "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
+      "titleZh": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
+      "summary": "For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On T…",
+      "link": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
+      "pubDate": 1779212700000,
+      "vendor": "venturebeat",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "-1380991222",
+      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+      "titleZh": "Railway获得1亿美元$ ，通过AI原生云基础设施挑战AWS",
+      "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B fundi…",
+      "link": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+      "pubDate": 1769090400000,
+      "vendor": "venturebeat",
+      "category": "Funding",
+      "impact": "high",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 20,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "749662964",
+      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+      "titleZh": "Claude Code每月的费用高达$ 200。Goose免费做同样的事情。",
+      "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive. Read more",
+      "link": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+      "pubDate": 1768831200000,
+      "vendor": "venturebeat",
+      "category": "Product",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 15,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
     },
     {
       "id": "251294355",
