@@ -1,8 +1,29 @@
 {
-  "updated": "2026-10-18T06:12:09.431Z",
-  "count": 95,
-  "sources": 10,
+  "updated": "2026-10-18T11:29:37.669Z",
+  "count": 105,
+  "sources": 11,
   "items": [
+    {
+      "id": "-1566217589",
+      "title": "Teen Prodigy Behind Kimi Breakthrough Leaves Moonshot AI for U.S.",
+      "titleZh": "Kimi Breakthrough背后的Teen Prodigy为美国留下了Moonshot AI",
+      "summary": "Teen Prodigy Behind Kimi Breakthrough Leaves Moonshot AI for U.S. Seoul Economic Daily",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWEgzeUlLNlhPQUt1Z0c3SmdfN21DeHI1dE5HMjJLeWdkSTRYYm80R0hiWi1yOTlYYW1mT3dVOXBpa3ROY21vbGM4aE9KVFFaMVlGcWVsMW94VGRPM2ZFN3YyWlhBbDRFbFVGb0hFcnJYeHBVeWwtOHVtM3Q1TGlUMk9UUUlnc0dYaTNLbzlab29qUW1JcFppQzZqTkFwTm1lUng3WnBJTQ?oc=5",
+      "pubDate": 1792314157000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
     {
       "id": "147961691",
       "title": "DeepSeek unveils faster, cheaper AI model boosting coding and reasoning - CHOSUNBIZ",
@@ -13,13 +34,13 @@
       "vendor": "deepseek",
       "category": "Release",
       "impact": "med",
-      "score": 66,
+      "score": 64,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 5,
         "cw": 25,
         "st": 12,
-        "rc": 5,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -160,13 +181,13 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -181,13 +202,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -412,13 +433,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -590,6 +611,48 @@
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "-411997091",
+      "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+      "titleZh": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+      "summary": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating material…",
+      "link": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+      "pubDate": 1792058412000,
+      "vendor": "nvidia",
+      "category": "Research",
+      "impact": "med",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 10,
+        "cw": 22,
+        "st": 10,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
+      "id": "389787902",
+      "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
+      "titleZh": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
+      "summary": "The Nordic countries have become the European leader in unicorn startup density, producing the most emerging companies valued at $1 billion or more per capita on the continent. Now, a new chapter for …",
+      "link": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
+      "pubDate": 1792040412000,
+      "vendor": "nvidia",
+      "category": "Product",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 14,
+        "cw": 15,
+        "st": 10,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "NVIDIA"
     },
     {
       "id": "-535183733",
@@ -823,6 +886,27 @@
       "source": "OpenAI"
     },
     {
+      "id": "623711088",
+      "title": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
+      "titleZh": "欧洲城市部署NVIDIA支持的人工智能代理，以运行更智能的城市运营",
+      "summary": "Keeping a city running means making decisions that affect residents every day — from when to repair a road to how to use energy more efficiently. Across the EMEA region, cities and local software, inf…",
+      "link": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
+      "pubDate": 1791957628000,
+      "vendor": "nvidia",
+      "category": "Product",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 10,
+        "cw": 15,
+        "st": 10,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
       "id": "468880872",
       "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
       "titleZh": "谷歌DeepMind与新加坡政府合作构建用于诈骗检测的微调人工智能模型",
@@ -949,6 +1033,27 @@
       "source": "Google AI"
     },
     {
+      "id": "-537240929",
+      "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+      "titleZh": "所有系统开始：全球PC应用生态系统已为NVIDIA RTX Spark做好准备",
+      "summary": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of…",
+      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+      "pubDate": 1791892849000,
+      "vendor": "nvidia",
+      "category": "Product",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 12,
+        "cw": 15,
+        "st": 10,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
       "id": "-821511243",
       "title": "Alibaba Unveils $450 AI Glasses in Expanding Push Into Gadgets",
       "titleZh": "阿里巴巴推出$ 450人工智能眼镜，扩大推入小工具",
@@ -989,6 +1094,27 @@
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "901338127",
+      "title": "NVIDIA Announces New Investments in France’s Startups",
+      "titleZh": "NVIDIA Announces New Investments in France’s Startups",
+      "summary": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved…",
+      "link": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
+      "pubDate": 1791867631000,
+      "vendor": "nvidia",
+      "category": "Agent",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 12,
+        "cw": 12,
+        "st": 10,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "NVIDIA"
     },
     {
       "id": "1366674567",
@@ -1180,6 +1306,27 @@
       "source": "HuggingFace"
     },
     {
+      "id": "-275766726",
+      "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
+      "titleZh": "英伟达、微软借助RTX Spark和人工智能代理为Windows PC开启新的起点",
+      "summary": "At a Microsoft event in San Francisco on Wednesday, NVIDIA founder and CEO Jensen Huang and Microsoft CEO Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for A…",
+      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+      "pubDate": 1791398728000,
+      "vendor": "nvidia",
+      "category": "Agent",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 5,
+        "cw": 12,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
       "id": "1688136132",
       "title": "Introducing Falcon ASR",
       "titleZh": "Falcon ASR简介",
@@ -1285,6 +1432,27 @@
       "source": "Google AI"
     },
     {
+      "id": "1512208566",
+      "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+      "titleZh": "NVIDIA DGX Spark 64GB为开发人员提供了更多构建和扩展本地AI的方式",
+      "summary": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more…",
+      "link": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+      "pubDate": 1790946039000,
+      "vendor": "nvidia",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 5,
+        "cw": 22,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
       "id": "-148497339",
       "title": "Chinese AI model investigated after researcher says it provided instructions for bioweapons, assassinations",
       "titleZh": "研究人员称中国人工智能模型为生物武器、暗杀提供了指令后进行了调查",
@@ -1327,6 +1495,27 @@
       "source": "DeepMind"
     },
     {
+      "id": "1212296672",
+      "title": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
+      "titleZh": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
+      "summary": "Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems. To foster such inn…",
+      "link": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/",
+      "pubDate": 1790787621000,
+      "vendor": "nvidia",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 2,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
       "id": "-1470838229",
       "title": "Introducing SynthID Bio",
       "titleZh": "SynthID Bio简介",
@@ -1346,6 +1535,27 @@
         "cs": 1
       },
       "source": "DeepMind"
+    },
+    {
+      "id": "1294200051",
+      "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+      "titleZh": "从培训到生产， NVIDIA和CoreWeave在Agentic AI上闭环",
+      "summary": "Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple genera…",
+      "link": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
+      "pubDate": 1790780400000,
+      "vendor": "nvidia",
+      "category": "Agent",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 12,
+        "cw": 12,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
     },
     {
       "id": "200081961",
@@ -1453,6 +1663,27 @@
       "source": "DeepMind"
     },
     {
+      "id": "-262074080",
+      "title": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
+      "titleZh": "在新加坡人工智能日， NVIDIA及其合作伙伴展示了整个东南亚的人工智能进步",
+      "summary": "NVIDIA AI Day Singapore, which takes place Sept. 22-23 at the Raffles City Convention Centre, is offering attendees opportunities to explore the hands-on training, expert-led sessions and advanced too…",
+      "link": "https://blogs.nvidia.com/blog/ai-day-singapore/",
+      "pubDate": 1790130622000,
+      "vendor": "nvidia",
+      "category": "Product",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 12,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
       "id": "9772564",
       "title": "New experts join Google’s AI &amp; Economy team",
       "titleZh": "New experts join Google’s AI &amp; Economy team",
@@ -1556,27 +1787,6 @@
         "cs": 1
       },
       "source": "Google AI"
-    },
-    {
-      "id": "-1290016780",
-      "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
-      "titleZh": "Kimi制造商Moonshot AI的年收入目标为$ 2B",
-      "summary": "Kimi-maker Moonshot AI targets $2B in annual revenue TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZjd5bE8wcUZHZlhfS0lwZmxpX2xTTXBOMkJoVVItRmNjNGRsNjFJQVNXOERhYUljdFBscjBKekNlNXlmNmktZUpNNW1CbXQ5ODlxZWYyZUJScmI3cllZM2o0bUl0YW9FM3Z3TUI0Q1hDbVhMdkxHWi0yNTBFekhRYlc2NjhBeW43cktndU1fQUltQS1nclZVbQ?oc=5",
-      "pubDate": 1789110000000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "2147151731",
