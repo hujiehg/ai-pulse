@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T00:19:57.134Z",
+  "updated": "2026-10-19T05:01:03.692Z",
   "count": 104,
   "sources": 11,
   "items": [
@@ -13,13 +13,13 @@
       "vendor": "deepseek",
       "category": "Release",
       "impact": "high",
-      "score": 65,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 5,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -34,13 +34,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
