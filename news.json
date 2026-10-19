@@ -1,8 +1,29 @@
 {
-  "updated": "2026-10-18T22:05:00.241Z",
-  "count": 86,
-  "sources": 9,
+  "updated": "2026-10-19T00:19:57.134Z",
+  "count": 104,
+  "sources": 11,
   "items": [
+    {
+      "id": "-1780533509",
+      "title": "DeepSeek releases updated V4.1-Flash model it says completes tasks faster",
+      "titleZh": "DeepSeek发布了更新的V4.1-Flash模型，据说可以更快地完成任务",
+      "summary": "DeepSeek releases updated V4.1-Flash model it says completes tasks faster SiliconANGLE",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTVpONkFFTks2bFROQXBrcHBJb1BGczJIbUtaU3hhdTl0Q2M0U1JUWllzUlRzdEJZM3o4UE9UbWFTUlpoQjRIQjY3clhteDRaOFU3emRReDZHVE9NVlBpNlBoMWFzZjIzOXBxazA2TFJhRVRPQ1RHZW9KbDV1MEhwTm1vTW5IVGc1MkdOd1NPaERJbWJRb1JIbDBnLWYwRjAyR251T0hTRkg3d0tCRmF3?oc=5",
+      "pubDate": 1792362840000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
     {
       "id": "-1668983969",
       "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
@@ -13,13 +34,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 47,
+      "score": 46,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -34,13 +55,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -67,20 +88,41 @@
       "source": "Google News"
     },
     {
-      "id": "-1566217589",
-      "title": "Teen Prodigy Behind Kimi Breakthrough Leaves Moonshot AI for U.S.",
-      "titleZh": "Kimi Breakthrough背后的Teen Prodigy为美国留下了Moonshot AI",
-      "summary": "Teen Prodigy Behind Kimi Breakthrough Leaves Moonshot AI for U.S. Seoul Economic Daily",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWEgzeUlLNlhPQUt1Z0c3SmdfN21DeHI1dE5HMjJLeWdkSTRYYm80R0hiWi1yOTlYYW1mT3dVOXBpa3ROY21vbGM4aE9KVFFaMVlGcWVsMW94VGRPM2ZFN3YyWlhBbDRFbFVGb0hFcnJYeHBVeWwtOHVtM3Q1TGlUMk9UUUlnc0dYaTNLbzlab29qUW1JcFppQzZqTkFwTm1lUng3WnBJTQ?oc=5",
-      "pubDate": 1792314157000,
-      "vendor": "kimi",
-      "category": "Product",
+      "id": "-786124317",
+      "title": "DeepSeek unveils faster, cheaper AI model, with improved performance",
+      "titleZh": "DeepSeek推出更快、更便宜的人工智能模型，并提高性能",
+      "summary": "DeepSeek unveils faster, cheaper AI model, with improved performance Global Times",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVX191UVJLc2lYU2RFYnNtOHNvTGJINWV5QVFIRW5aR0t3T3BfTmdFTkhBaTlxZ3AyT2dfVGQtN2piQmcxM3dRWExVXzZvUnVDTnBnQlRUREpaWVNUSXloS19R?oc=5",
+      "pubDate": 1792321980000,
+      "vendor": "deepseek",
+      "category": "Release",
       "impact": "med",
-      "score": 53,
+      "score": 63,
       "scoreBreakdown": {
-        "cq": 20,
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-624381798",
+      "title": "DeepSeek’s new AI model talks less, so a coding task costs 20 cents",
+      "titleZh": "DeepSeek’s new AI model talks less, so a coding task costs 20 cents",
+      "summary": "DeepSeek’s new AI model talks less, so a coding task costs 20 cents Martin Cid Magazine",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcU9qcjE0Vi1yemt4eC1uVkJZRlNaSHg4ejMyMncwZ0RPR1ZVdl9JSF8wU0FlZDY4OC04QmpQUmV0eENpUER2THNPRUgwbTRLeXVMOTJuaHRhVE13NzNEOGt2MkpUQVozYVVjZ2o5MUw1aC05OENCTFJzRUxyUkpjZWdEbm5Gakxhc3NNcU9Bcw?oc=5",
+      "pubDate": 1792303853000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 18,
         "kv": 2,
-        "cw": 15,
+        "cw": 22,
         "st": 12,
         "rc": 3,
         "cs": 1
@@ -107,6 +149,27 @@
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "-1978106820",
+      "title": "DeepSeek releases AI model update, opens search APIs to all users",
+      "titleZh": "DeepSeek发布AI模型更新，向所有用户开放搜索API",
+      "summary": "DeepSeek releases AI model update, opens search APIs to all users Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUGdtMm0zTGN2ZDByNFhUUExKanVmSGhiOWgxVG8tdW1fWS1pUGlGTWUyTkZUbkR3R3Vha1VIUXNsUDlRNXU0a2lsdHJsaXJMUXRFX180ZjE5S0ttUDVKdlRMUlFxZ1EwVlM5cmN2d1JBU2V0b3Q4NGFfMjdqTTJ4c1h1OTN3c0pld3ViZF9wSkFxdFdpV3dNZU9kY0tOLWFpQXNJSVBEWVR1R1QyZFhBVDE2NWxVa1V6TTRRR3R3?oc=5",
+      "pubDate": 1792271106000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "high",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 15,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1577162767",
@@ -151,6 +214,27 @@
       "source": "TechCrunch"
     },
     {
+      "id": "799708980",
+      "title": "DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner",
+      "titleZh": "DeepSeek推出更新的人工智能模型，称其更快、更精简",
+      "summary": "DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNd0JqQlRDd3JxZG9sWmUyLU03cFkwSDJLbkhOc0tpa2NUS24zby1jU0JQX242dEdFYWtRSXNNbUJOM2hwdDFJX3VKc1E4UFN1VVVsYi1ncl9qNkg4ZnhhcERDMkc1ZkhXUlRxUy1BdW9JTC1wYmV5YVlTZmYtUWlLRnNJQ2ZUWEw3UHNXMkdNMUdVLXJGR2M1YXRYcFFacFNmSWJCLVNxNkZ4bTZ4UXVpOXNR?oc=5",
+      "pubDate": 1792244834000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1064890476",
       "title": "Kimi's new credit card turns spending into AI credits but caps what you can redeem",
       "titleZh": "Kimi的新信用卡将支出转化为人工智能积分，但限制了您可以兑换的内容",
@@ -164,6 +248,27 @@
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
+        "cw": 15,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-531613938",
+      "title": "DeepSeek quietly pushed a new model update straight into its live API",
+      "titleZh": "DeepSeek悄悄地将新模型更新直接推送到其实时API中",
+      "summary": "DeepSeek quietly pushed a new model update straight into its live API Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUXlENnZvRGtTU3I2d2Utdl9jRUtkLWxmSXF0UzdBYjZ4bmNGeHkwd3JnN0VUaS1UT1hjdWxvTGZudnhGV0pablN6WHBoUEtEOW52RFR3LTVKQnFyQkhOZzhKTndhdDIycTdJMEFISkV1TzIybUt5cFJyQ2hXaVBqZ3lKaHFVU0FIREFUSERLa1dibTJBNndLeWxqNldIdw?oc=5",
+      "pubDate": 1792230894000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
         "cw": 15,
         "st": 12,
         "rc": 2,
@@ -529,6 +634,27 @@
       "source": "OpenAI"
     },
     {
+      "id": "1918848861",
+      "title": "Apple Intelligence, Alibaba Qwen set for late-October beta model launch in Chinese mainland market: media",
+      "titleZh": "Apple Intelligence、阿里巴巴Qwen定于10月下旬在中国大陆市场推出测试版车型：媒体",
+      "summary": "Apple Intelligence, Alibaba Qwen set for late-October beta model launch in Chinese mainland market: media Global Times",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1GX3pvbnl4NFNlTk9EQnlVeTFRTzJFeWtqOUc0VjhWaXY3MndBLWkzOHB3UDhOVFNpdS0xTHAwb1dTTm5HVWRZd0hyaEVidXpGYmFtRjliYlNqQnJnZFR5T2d3?oc=5",
+      "pubDate": 1792059180000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-411997091",
       "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
       "titleZh": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
@@ -634,6 +760,27 @@
       "source": "HuggingFace"
     },
     {
+      "id": "782450958",
+      "title": "Alibaba's New Qwen N1 Glasses Let Wearers Pay by Gaze With Swappable Temple Batteries - TechEBlog -",
+      "titleZh": "阿里巴巴新款Qwen N1眼镜让佩戴者用可更换的太阳穴电池通过凝视付款- TechEBlog -",
+      "summary": "Alibaba's New Qwen N1 Glasses Let Wearers Pay by Gaze With Swappable Temple Batteries TechEBlog -",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYlktU0JpcWpJa2JyR2gwRm9PTU9oVmlPNGtJcGU3cWotc01kQ25uVUZLLWNPaHd4LWI4T1JKZGE4dDJwdE1ZSmVfX3lLY1NhbWZVSnNvcUlhRFpmZU44dnE3a0tFQWZCYlhRdVQzTXo2N3Fvb2daQ29NZFcxTEUtNw?oc=5",
+      "pubDate": 1792000354000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "434280518",
       "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
       "titleZh": "HiRO-ACEv2 ：以3公里分辨率模拟极端天气，成本仅为原来的一小部分",
@@ -653,6 +800,27 @@
         "cs": 1
       },
       "source": "HuggingFace"
+    },
+    {
+      "id": "1107025584",
+      "title": "China clears Alibaba’s Qwen AI just in time for iPhone Duo",
+      "titleZh": "China clears Alibaba’s Qwen AI just in time for iPhone Duo",
+      "summary": "China clears Alibaba’s Qwen AI just in time for iPhone Duo Computerworld",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUE0zWXFPUzVncS1qUnVSZkk3cmtGcGpudXB1am1zRWQ0TWFLeDJka1dwSWYwaDctR1l4c1J6eXBTc0pTZjhuNndKUDFFbks2UFFBdnFsSG5vcGp5d3prQ3BxUXpDTnJHa2h4UkEyMVFtQ0RLVi1kbnR3elpzN0xQMmlEUDhublVUbnA0ZHA5ZVBoZzBQOC1QODdOWUpQS2FrckxNLTdsbUZQODN4?oc=5",
+      "pubDate": 1791987816000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-516132213",
@@ -695,6 +863,27 @@
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "-1980153266",
+      "title": "China approves Alibaba AI models for use in iPhone Duo and other Apple handsets",
+      "titleZh": "中国批准阿里巴巴人工智能模型用于iPhone Duo和其他苹果手机",
+      "summary": "China approves Alibaba AI models for use in iPhone Duo and other Apple handsets South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQejNmSGsxcXJaTlUteER2Rkh6RVZiQ0VxVUE0b1Rlc2tJdmx4RmtjSU44OGNwanFNREZwUjNmdnR5NGVScUpFSjJJZTBQOTFiR25kaXAwbTJDakNfa3ZFYmNRQmVZUHdMcm1sQUpSSjFBeHJfTXFWUGwxb2xGTXRWTU5EVnFyQnppYlY3UHpaaERaZXNLSVZHRzIxTGU0REtPenhKSVRma3lDNFJfZjJieGhVN1VVY3ZIcV9MbVFVdWLSAcABQVVfeXFMTjZ0SVptZnpvRXlHRFZWLUlOamc3MTBjZXRiaTVBemJhSmV3MFhwY1hmdzB5NTNkQnJQYlhIZzQySWFNMTlpaWJYN3hxS1JNYnI2RFZ6T1lndUVzYmpfT1BNRTk2VmlPZ0YxRzI3ZWZvSTlIMy1QQV9WMzJsa2ZWcjd5d0lDWWZRTUplQXhmWldXbFZYRV83SDZscEs2ZlpGYlFnWURrMmd6TmhLSGxiV256eS1iZEloQUU1MGQ0X1lP?oc=5",
+      "pubDate": 1791975980000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "52099211",
@@ -779,6 +968,27 @@
         "cs": 1
       },
       "source": "DeepMind"
+    },
+    {
+      "id": "180038619",
+      "title": "What Is DeepSeek? Open-Weight AI Models Explained",
+      "titleZh": "什么是DeepSeek ？开放式权重AI模型说明",
+      "summary": "What Is DeepSeek? Open-Weight AI Models Explained Built In",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1JSTIzbWxvNlljcGt0d3dTTDd3ck5fZU1CZFpqdFdNTndiWTNnWjI4SEluU29USGhxRnVOdUdseEdyWmpUWHZ4aFktcHhnQlppUFZNRXdTa00?oc=5",
+      "pubDate": 1791928738000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1131656509",
@@ -886,6 +1096,48 @@
       "source": "NVIDIA"
     },
     {
+      "id": "-592905071",
+      "title": "Alibaba starts selling its Qwen N1 AI glasses in China from $450",
+      "titleZh": "阿里巴巴开始在中国销售其Qwen N1 AI眼镜，起价为450 $",
+      "summary": "Alibaba starts selling its Qwen N1 AI glasses in China from $450 The Next Web",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8xb1dFT2tBY2NYOFRueHlabW5ZU2t6RTRBQjlEUW9aVFZYMGtaUkRjWndvT2g5Rms0dnFjVnNQd0xxcUgzSXZKZnc1MS1NR2k4ZjlvbzE2UHZ3S2NtQ2pfT0l2bjV6dUQxOGdoSlJERGRfUQ?oc=5",
+      "pubDate": 1791887529000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-821511243",
+      "title": "Alibaba Unveils $450 AI Glasses in Expanding Push Into Gadgets",
+      "titleZh": "阿里巴巴推出$ 450人工智能眼镜，扩大推入小工具",
+      "summary": "Alibaba Unveils $450 AI Glasses in Expanding Push Into Gadgets Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeWNFVXZud3ZqQVliYWlrekJOa3ByYy1FTmF1R0theGNUcGx2aHV2a0xDZjNVLWlaRHdiUWtSMVVnX1NBUS1QbFpRMWlZZW5vLUJSalJQYlYtalo3bHZWc0dmX01CTnBMUU5ZR0U2NDczSURuQ0ltaUZobnNiN3ZGb2M3YWFsSlhWd2h3VHFXaGdpSkpXdFV1TzNR?oc=5",
+      "pubDate": 1791882046000,
+      "vendor": "google",
+      "category": "Release",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 25,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "901338127",
       "title": "NVIDIA Announces New Investments in France’s Startups",
       "titleZh": "NVIDIA Announces New Investments in France’s Startups",
@@ -905,6 +1157,27 @@
         "cs": 1
       },
       "source": "NVIDIA"
+    },
+    {
+      "id": "-746990426",
+      "title": "Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents",
+      "titleZh": "阿里巴巴Qwen推出QwenGyre ： Elastic Reinforcement Learning RL for XLong-Horizon Agents",
+      "summary": "Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents MarkTechPost",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLTRTeUVOVV9SQTZESnNsOU5WeFk0NlhfMVFpRmV1WUIzU3IzMVl2Rm1IRzBpMWx2ZTJiYl9hS3FSUDZWTERZMmdjdjhtNEJXZmE0bG4wVWl3TzVsMHg1Y1pBandzcmUxSkItS0Vsd3doZ01EVmhkVzNsNi1LTVd2MTRlc1RLMTZkLXJ4d2xPdDVqWGVNVHotTkZCdGdEX2NYdHNMcGhXRXp4SUdNMGExN2hVMkM2Rm00YlY2Z2tnQjJhUTdYQ1ZkU182UEnSAcwBQVVfeXFMUC00U3lFTlVfUkE2REpzbDlOVnhZNDZYXzFRaUZldVlCM1NyMzFZdkZtSEcwaTFsdmUyYmJfYUtxUlA2VkxEWTJnY3Y4bTRCV2ZhNGxuMFVpd081bDB4NWNaQWp3c3JlMUpCLUtFbHd3aGdNRFZoZFczbDYtS01XdjE0ZXNUSzE2ZC1yeHdsT3Q1alhlTVR6LU5GQnRnRF9jWHRzTHBoV0V6eElHTTBhMTdoVTJDNkZtNGJWNmdrZ0IyYVE3WENWZFNfNlBJ?oc=5",
+      "pubDate": 1791841310000,
+      "vendor": "qwen",
+      "category": "Agent",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 12,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-61388694",
@@ -937,13 +1210,55 @@
       "vendor": "kimi",
       "category": "Funding",
       "impact": "high",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 20,
         "st": 12,
-        "rc": 1,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-2017770527",
+      "title": "Microsoft skipped OpenAI’s decision model and built its own on Alibaba’s Qwen",
+      "titleZh": "Microsoft skipped OpenAI’s decision model and built its own on Alibaba’s Qwen",
+      "summary": "Microsoft skipped OpenAI’s decision model and built its own on Alibaba’s Qwen The New Stack",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBiZk5lTERCRDkwMFBjblJEbDlDdUFVXzJqSjdJTEFTaXdzbmlacVFCdUVJR3lnSnFMZEtoanZfcndscjlBODNJQVRVUU5WVG5oQzZScHE0cTdCemoxZVRrRVByQ201M00?oc=5",
+      "pubDate": 1791637430000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-658351434",
+      "title": "Alibaba Qwen Releases Qwen-Image-2.1-Turbo, an 8-Step 7B Image Model",
+      "titleZh": "阿里巴巴Qwen发布8步7B图像模型Qwen-Image-2.1-Turbo",
+      "summary": "Alibaba Qwen Releases Qwen-Image-2.1-Turbo, an 8-Step 7B Image Model MarkTechPost",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVXpvaFdacktESjZwbURtOUpFTW5WTTktSnZ4TjBudmVJcXVHenYxdEpRQ1p0RjFENkJuQmFIVHdVM3JjN1lSSkc3UEZfejI2cVNDRFNoRi1yV0l2NWNGb3VEQTVmVmpGcm1acWVOeXVtMFk0Y1JtNDFkUjNXdkZ4bFN4UHhjTk1qTGdIZkF1TmNTd3ZQWVNwWTlMX3A4SzhJTm5yTDlVRTE2TlhS0gGsAUFVX3lxTE5Vem9oV1pyS0RKNnBtRG05SkVNblZNOS1KdnhOMG52ZUlxdUd6djF0SlFDWnRGMUQ2Qm5CYUhUd1UzcmM3WVJKRzdQRl96MjZxU0NEU2hGLXJXSXY1Y0ZvdURBNWZWakZybVpxZU55dW0wWTRjUm00MWRSM1d2RnhsU3hQeGNOTWpMZ0hmQXVOY1N3dlBZU3BZOUxfcDhLOElObnJMOVVFMTZOWFI?oc=5",
+      "pubDate": 1791529200000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google News"
@@ -1453,6 +1768,27 @@
       "source": "Google AI"
     },
     {
+      "id": "-1290016780",
+      "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
+      "titleZh": "Kimi制造商Moonshot AI的年收入目标为$ 2B",
+      "summary": "Kimi-maker Moonshot AI targets $2B in annual revenue TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZjd5bE8wcUZHZlhfS0lwZmxpX2xTTXBOMkJoVVItRmNjNGRsNjFJQVNXOERhYUljdFBscjBKekNlNXlmNmktZUpNNW1CbXQ5ODlxZWYyZUJScmI3cllZM2o0bUl0YW9FM3Z3TUI0Q1hDbVhMdkxHWi0yNTBFekhRYlc2NjhBeW43cktndU1fQUltQS1nclZVbQ?oc=5",
+      "pubDate": 1789110000000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "2147151731",
       "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
       "titleZh": "企业AI的真正风险不是自主代理。这是它们之间的复杂性。",
@@ -1516,6 +1852,27 @@
       "source": "VentureBeat"
     },
     {
+      "id": "374586481",
+      "title": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model",
+      "titleZh": "阿里巴巴发布更小、更具成本效益的Qwen AI模型",
+      "summary": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVFN2VVNaUWE0bXJiNjQ2VWJlbngtWlpzcnY3RG44VlB1eVVhMWNiT21wYmVKSDJnQ0JkNXMycVg5bWRqQ2RIZ3E0d0hzdkEzUlNPV05aUjRUTFhzaXlNdVhVSHFXNGRuZFlPWUhEeEtKemMwdWJValR0MFpZM19OMVRpS1piVVhZWEI3ZmdJZmlDR1B5d2JMRU5DcENuSUktd01Ra0J6Zw?oc=5",
+      "pubDate": 1787727600000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "74193009",
       "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
       "titleZh": "VentureBeat任命Rob Strechay为其首位首席分析师，扩大其企业人工智能研究推动力",
@@ -1535,6 +1892,27 @@
         "cs": 1
       },
       "source": "VentureBeat"
+    },
+    {
+      "id": "-464609805",
+      "title": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says",
+      "titleZh": "研究公司表示， DeepSeek的新人工智能模型是迄今为止运行的最便宜的知名模型。",
+      "summary": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says Reuters",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTnd6ckhOVUhwcGJjRmxRdlhObS1ncXRhZm9OeVUwaEgwOTg5YmNBTGVWcHZsdXd4dXVrWWdlZGtsYkw0eDIyY1A3NjdSM0o0bFBGUEZRNDF2NjYwZEtCamNpeTFqN3ZaQVlTclNuQWYxNXh4ZVlqaWF3WkNNVk1fbmJXcTdISlBmUVVWS01STmFYZldLSGk5akJQZVB5X09OSzVoVWF4Wko4TEF4cGozQUlWM202dFJWMGxSRTdpcTNaaUp6bmNyZXpWbVRFb2JoSzdCVQ?oc=5",
+      "pubDate": 1785654000000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1093452510",
