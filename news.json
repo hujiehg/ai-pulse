@@ -1,25 +1,130 @@
 {
-  "updated": "2026-10-19T17:17:09.073Z",
+  "updated": "2026-10-19T21:39:55.171Z",
   "count": 88,
   "sources": 9,
   "items": [
     {
+      "id": "-537028920",
+      "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+      "titleZh": "亚马逊正在利用新的TorchNeuron开发工具对英伟达进行最大规模的尝试",
+      "summary": "Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own.",
+      "link": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+      "pubDate": 1792440564000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1636674472",
+      "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+      "titleZh": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+      "summary": "OpenCode is an open-source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI to…",
+      "link": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+      "pubDate": 1792438114000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-295485306",
+      "title": "Tolan snags $30M for its AI companion that helps users navigate life",
+      "titleZh": "Tolan为其人工智能伴侣获得了3000万美元的$收入，该伴侣可帮助用户导航生活",
+      "summary": "AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users.",
+      "link": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
+      "pubDate": 1792436412000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 1,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "443185730",
+      "title": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
+      "titleZh": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
+      "summary": "Eugenia Kuyda's newest startup Wabi is positioned to take advantage of an idea she had more than a decade ago. Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today.",
+      "link": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
+      "pubDate": 1792435744000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1000722470",
+      "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
+      "titleZh": "Tenstorrent达到62亿美元的估值，以扩展开放式重量AI芯片",
+      "summary": "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent.",
+      "link": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+      "pubDate": 1792435047000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "high",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 20,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
       "id": "884311897",
       "title": "People are using AI to make their smart TVs dumb again",
       "titleZh": "人们正在使用人工智能让他们的智能电视再次变得愚蠢",
-      "summary": "Fed up with ads, tracking and sluggish interfaces, some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs.",
+      "summary": "Fed up with ads, tracking, and sluggish interfaces, some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs.",
       "link": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
       "pubDate": 1792426402000,
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 12,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -34,13 +139,13 @@
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "high",
-      "score": 61,
+      "score": 59,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 25,
         "st": 8,
-        "rc": 5,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,13 +160,13 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 5,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -76,13 +181,13 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -97,13 +202,13 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -118,16 +223,37 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "-556188679",
+      "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+      "titleZh": "Laplace Intelligence在机器人和自动驾驶汽车进入现实世界之前将其红队",
+      "summary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in …",
+      "link": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+      "pubDate": 1792413000000,
+      "vendor": "techcrunch",
+      "category": "Agent",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 12,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
     },
     {
       "id": "1693353905",
@@ -139,13 +265,13 @@
       "vendor": "deepseek",
       "category": "Release",
       "impact": "high",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -170,6 +296,27 @@
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "269446170",
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "titleZh": "TorchNeuron ：在AWS Trainium上运行高频模型比以往任何时候都更容易",
+      "summary": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "link": "https://huggingface.co/blog/hf-torchneuron",
+      "pubDate": 1792368000000,
+      "vendor": "huggingface",
+      "category": "Research",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 22,
+        "st": 14,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "HuggingFace"
     },
     {
       "id": "-1780533509",
@@ -202,21 +349,21 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 45,
+      "score": 44,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
     },
     {
-      "id": "776246374",
-      "title": "Disney agrees to hire the majority of Character.AI’s workforce",
-      "titleZh": "Disney agrees to hire the majority of Character.AI’s workforce",
+      "id": "-577114920",
+      "title": "Disney agrees to hire the majority of Character AI’s workforce",
+      "titleZh": "Disney agrees to hire the majority of Character AI’s workforce",
       "summary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with…",
       "link": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
       "pubDate": 1792341000000,
@@ -256,27 +403,6 @@
       "source": "Google News"
     },
     {
-      "id": "-1995257724",
-      "title": "Meta removes language that raised scraping and AI training concerns",
-      "titleZh": "Meta删除了引起抓取和人工智能培训问题的语言",
-      "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
-      "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
-      "pubDate": 1792272692000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 1,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "-1326962398",
       "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
       "titleZh": "随着新款Windows PC的到来， RTX Spark点燃了全球庆祝活动",
@@ -286,58 +412,16 @@
       "vendor": "nvidia",
       "category": "Product",
       "impact": "med",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 4,
         "cw": 15,
         "st": 10,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-1577162767",
-      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
-      "titleZh": "Anthropic表示，其员工队伍已经变得不那么初级了，并且在会议上花费了更多的时间",
-      "summary": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
-      "link": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
-      "pubDate": 1792268479000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1284891406",
-      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
-      "titleZh": "首席执行官表示， Replit使OpenAI成为Anthropic的默认值",
-      "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
-      "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "pubDate": 1792262888000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "799708980",
@@ -401,69 +485,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-1493850916",
-      "title": "India becomes the latest country to report rogue AI agent activity",
-      "titleZh": "印度成为报告流氓AI代理活动的最新国家",
-      "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
-      "link": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-      "pubDate": 1792173144000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-673382431",
-      "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
-      "titleZh": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
-      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic…",
-      "link": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
-      "pubDate": 1792168200000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 3,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1250183151",
-      "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
-      "titleZh": "物理人工智能不仅仅是机器人，这位英伟达的资深人士现在投资于它",
-      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic…",
-      "link": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
-      "pubDate": 1792168200000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 3,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "-420100844",
@@ -1115,27 +1136,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "1688136132",
-      "title": "Introducing Falcon ASR",
-      "titleZh": "Falcon ASR简介",
-      "summary": "Introducing Falcon ASR",
-      "link": "https://huggingface.co/blog/tiiuae/falcon-asr",
-      "pubDate": 1791379263000,
-      "vendor": "huggingface",
-      "category": "Release",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 5,
-        "kv": 0,
-        "cw": 25,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
     },
     {
       "id": "-707716531",
