@@ -1,8 +1,155 @@
 {
-  "updated": "2026-10-19T21:39:55.171Z",
-  "count": 88,
-  "sources": 9,
+  "updated": "2026-10-20T00:50:43.051Z",
+  "count": 68,
+  "sources": 7,
   "items": [
+    {
+      "id": "1426069044",
+      "title": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
+      "titleZh": "据报道， Nscale和Anthropic正在就另外450亿美元的计算机交易进行谈判",
+      "summary": "In August, Nscale and Anthropic announced a $45 billion compute deal. The two companies are reportedly discussing yet another deal of the same magnitude.",
+      "link": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+      "pubDate": 1792453178000,
+      "vendor": "techcrunch",
+      "category": "Release",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 3,
+        "cw": 25,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1291761741",
+      "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+      "titleZh": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+      "summary": "AI labs have staked their reputations on model benchmarking — the supposedly neutral and accurate system of evaluations that are designed to measure whether one AI product is better than another. Howe…",
+      "link": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+      "pubDate": 1792450167000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1489068762",
+      "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+      "titleZh": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+      "summary": "Microsoft wants enterprises to closely watch the agents employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
+      "link": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "pubDate": 1792447468000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 0,
+        "cw": 22,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-2025582395",
+      "title": "US orders DeepSeek removed from federal systems, citing national security risks",
+      "titleZh": "美国以国家安全风险为由下令将DeepSeek从联邦系统中移除",
+      "summary": "US orders DeepSeek removed from federal systems, citing national security risks South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT1hmeDF6Wm1ERkNQM2lmdGg5RTVNOHZvcmQxRlAzVFpndk5SOE1UdEhwMHNhQjdQaExGMkljeVdoa1FTWWl1bzhFTDhWdy1JV2Z1c3F3Y1VPUGRZTDVxQV9HUVBoUmpGdnZWcmdyWjBjUm1yTEJUNGRmMzNoNk43YjhXWEJmVWgzamFYeUZZeTFvcG0zeHBIMEdGRVZrS0kySlYtMjJpaXo0dU5TeUZwWTFKODFfWFp3dkHSAboBQVVfeXFMUGNZTGQxdWpZNmpRTjF5ZWVqdjV4QnFNanIxcXJKdFR2RVpOS3M2UmlKX0ZfWlU0a1hQQzAycC1XNVhQdEtCOENyd0JoT3daVFoxY2dXRFZGRDFkb1IxZjBLVmVTRVRlTTZJQmR3X214RVRBaGhHeDNjSVNXNnhaQWxSN3NZYWdoV2Z0T1pmOWpfM1Z6cWw3TmFnZ3R5blBBNDFGeHhGMG1jUTRKX2p4aUViNnZVYTY3dW9n?oc=5",
+      "pubDate": 1792446550000,
+      "vendor": "deepseek",
+      "category": "Safety",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 3,
+        "cw": 10,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1025640634",
+      "title": "DHS orders removal of DeepSeek from government agency IT systems",
+      "titleZh": "国土安全部下令从政府机构IT系统中删除DeepSeek",
+      "summary": "DHS orders removal of DeepSeek from government agency IT systems The Hill",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUzNqV3NQTDdoUHJNWUZSd2NXWnRseWYxRWR6M0RNelBDd2c4MWtyYk1Wc2VEQUZHejZNWmRvblFsSzhsZkJ5XzZWWlNaTHdZdUdvcTFveVJIeUxVX2I0WVpkTVlBTF9JYVBZNkpzMGtmMzhPRmpLeHpaV3I0N2VKbnJIRW1Hd9IBhgFBVV95cUxOUzNqV3NQTDdoUHJNWUZSd2NXWnRseWYxRWR6M0RNelBDd2c4MWtyYk1Wc2VEQUZHejZNWmRvblFsSzhsZkJ5XzZWWlNaTHdZdUdvcTFveVJIeUxVX2I0WVpkTVlBTF9JYVBZNkpzMGtmMzhPRmpLeHpaV3I0N2VKbnJIRW1Hdw?oc=5",
+      "pubDate": 1792446189000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1784796991",
+      "title": "Trump Admin Bans DeepSeek From Federal Agencies",
+      "titleZh": "特朗普管理员禁止联邦机构使用DeepSeek",
+      "summary": "Trump Admin Bans DeepSeek From Federal Agencies Gizmodo",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQandjME0xa25DTTBERlBYeG1BTDhEaUxrd1FmUy1nRFVVR1lmV2xkdmJtcFNZNmRHT25GZHVuRmpFNG1SRk01RlFwa2JDd1ZTTFFzQS1IdHBlNXFvbGNUdWl6WDRFZFR0dHhJalRQU0ZaaVBYOGJCQ1dEOTVsVWgyRC0ybnU?oc=5",
+      "pubDate": 1792446066000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "719749303",
+      "title": "US banning Chinese AI DeepSeek from government agency IT systems",
+      "titleZh": "美国禁止政府机构IT系统中的中国人工智能DeepSeek",
+      "summary": "US banning Chinese AI DeepSeek from government agency IT systems Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaGtJNmIzcGdtUF96Zk5qZ1JfRVZJZE9mSnluMVJZMHVXbGpzWUozSVYyVzQ5dldnRU1aMXVEZ2JDOXczRmd0Q01FeDZvVFpyX2phVENGMURyX1VDM0cwd0VyYS1ra0VnYzdxZGFBZkp6VzR1SVRPVkFVYnBUSUNPVHc0OU1FamVXYWh3d0NHeHRKU0w0OE1pcjlfQ09oYXR2N3dycXNXWFFZdw?oc=5",
+      "pubDate": 1792445000000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
     {
       "id": "-537028920",
       "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
@@ -13,37 +160,79 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 5,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1636674472",
-      "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
-      "titleZh": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
-      "summary": "OpenCode is an open-source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI to…",
-      "link": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
-      "pubDate": 1792438114000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
         "cw": 15,
         "st": 8,
         "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "-217462260",
+      "title": "DeepSeek barred from government agency IT systems",
+      "titleZh": "DeepSeek被禁止进入政府机构IT系统",
+      "summary": "DeepSeek barred from government agency IT systems Politico",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNX1VsVHc5NlhrdGxhQnRpWG9WdmR5QWtmeFRyOHRsQXg5bEt4Zm9PTC1YY1phUWd0eHNyTHV2RjJOTDJGNm1xbHIwUzBUMHE1V091VjdtVUhzaTdkblBUQTQzdkloTmlfekJCYXQ0TS13X3NWbllqcy1qQnlLcGx1N2dvODdSNE5NRkVVNTYxUmJ0Sjg?oc=5",
+      "pubDate": 1792440060000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1636674472",
+      "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+      "titleZh": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+      "summary": "OpenCode is an open source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI to…",
+      "link": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+      "pubDate": 1792438114000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-811512527",
+      "title": "DHS Orders Civilian Agencies to Remove DeepSeek AI Products",
+      "titleZh": "国土安全部命令民用机构删除DeepSeek人工智能产品",
+      "summary": "DHS Orders Civilian Agencies to Remove DeepSeek AI Products MeriTalk",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbVpVYzBmRDRTVjYzS2llQlRpSWhrNjNMTlEtdEtLTEhYb3VUVENTR1dydklVM1NNMmxBaEZlTkdDYjJxVGZ6WEF5amstMW9taExFdFNRQkZ4VndCbjNMUmppOS1IRVFqLWt5dEV5N1JwTm5BUUd3OHhDcTNjMThNb1JabG9OVkZIMTY3eEtDV3Nza2k3V1BMNDR3?oc=5",
+      "pubDate": 1792437219000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-295485306",
@@ -76,13 +265,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -97,16 +286,37 @@
       "vendor": "techcrunch",
       "category": "Funding",
       "impact": "high",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 4,
         "cw": 20,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "-684620262",
+      "title": "US bans DeepSeek AI from government use as tech tension with China continues",
+      "titleZh": "由于与中国的技术紧张局势仍在继续，美国禁止政府使用DeepSeek AI",
+      "summary": "US bans DeepSeek AI from government use as tech tension with China continues BBC",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pUFg0N3NNbGhmNmp4THlOVFFSOFdudlVRSzEzc2lzQzNMZldMOUFSbHhtd1l0X3JqZF90dnpBSUh1TFBUTHdUUXRLTlF0SThVN3huUFhJX0swMnc?oc=5",
+      "pubDate": 1792434114000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "884311897",
@@ -118,13 +328,13 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 41,
+      "score": 40,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 12,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -151,153 +361,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "1514574944",
-      "title": "DHS to ban DeepSeek from federal civilian agencies",
-      "titleZh": "国土安全部将禁止联邦民事机构使用DeepSeek",
-      "summary": "DHS to ban DeepSeek from federal civilian agencies CyberScoop",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9sODV6YjVnMmlUd25MaWxKekR3Vk96R0hlMy1jYmlhRHJWRG9pUXp4aGZpMlNIZlc5RmRoOFN5WmV5ZFpER1k1YzlHcHBEZ3JvcU45eGxGcWo5TVhIV2dOQllWZlczZWI4TUE?oc=5",
-      "pubDate": 1792423747000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "719749303",
-      "title": "US banning Chinese AI DeepSeek from government agency IT systems",
-      "titleZh": "美国禁止政府机构IT系统中的中国人工智能DeepSeek",
-      "summary": "US banning Chinese AI DeepSeek from government agency IT systems Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaGtJNmIzcGdtUF96Zk5qZ1JfRVZJZE9mSnluMVJZMHVXbGpzWUozSVYyVzQ5dldnRU1aMXVEZ2JDOXczRmd0Q01FeDZvVFpyX2phVENGMURyX1VDM0cwd0VyYS1ra0VnYzdxZGFBZkp6VzR1SVRPVkFVYnBUSUNPVHc0OU1FamVXYWh3d0NHeHRKU0w0OE1pcjlfQ09oYXR2N3dycXNXWFFZdw?oc=5",
-      "pubDate": 1792420495000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "327798730",
-      "title": "DeepSeek made its name with cheap AI models. Now it’s undercutting search API rivals, too.",
-      "titleZh": "DeepSeek made its name with cheap AI models. Now it’s undercutting search API rivals, too.",
-      "summary": "DeepSeek made its name with cheap AI models. Now it’s undercutting search API rivals, too. The New Stack",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wNm90eXVPaVFvRXBaTk45X1JLU0tJVzdyV0lPNnZ3cVltYXp3a3MwTlpSMkFhbEdoV1BGUm1aMUpIbnJWSk5kdVEzUlJoYVlOOGdHMkNZcjV4T3M?oc=5",
-      "pubDate": 1792420307000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "810890316",
-      "title": "China's DeepSeek debuts improved low-cost AI as tech doubts swirl",
-      "titleZh": "随着科技怀疑的漩涡，中国的DeepSeek首次推出改进的低成本人工智能",
-      "summary": "China's DeepSeek debuts improved low-cost AI as tech doubts swirl Nikkei Asia",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPU09ReGl5NnZhcHRYaE9jRHpMWTZ5MC02X2tKaGJfYUxHNF9fUmxDWEdQUlhOeHJlRWliQ0ZsbHBxRFBPNWJ0VWlUNC1KZ1ppb0p5RjZ2RWF5a2ZnVmJDMVREVTNYdTZrUFlDQjcycHJrazYxZDhobTRELUVLay1wdkhLMW5OcVJnT2pQWnRBQ2hXczA4TUN1eHA0OXE0SV9RODBpbm1HUWlEYV9tWUI2MjhqajlacmY2bDEwZFBQVVdjTUh1MDVmNno4bGlrZw?oc=5",
-      "pubDate": 1792418100000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-556188679",
-      "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
-      "titleZh": "Laplace Intelligence在机器人和自动驾驶汽车进入现实世界之前将其红队",
-      "summary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in …",
-      "link": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
-      "pubDate": 1792413000000,
-      "vendor": "techcrunch",
-      "category": "Agent",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1693353905",
-      "title": "DeepSeek released an updated V4.1-Flash model with higher scores and shorter outputs",
-      "titleZh": "DeepSeek发布了更新的V4.1-Flash模型，具有更高的分数和更短的输出",
-      "summary": "DeepSeek released an updated V4.1-Flash model with higher scores and shorter outputs Quartz",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xOXVIejhWN2pIMV9NT0NnbTEtNmtnMzdjSnUxTWJxQjZJR1BYamVZNzB5Ul9pb1RadFA2WEwteTRYSEFzS0JKdTN6b1kxUy05al9PNF9sZV84NjQtcmh6SkJSTTg1cFZicFpnRE1wOFBuY2NzMFdvbU9n?oc=5",
-      "pubDate": 1792409870000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1367466075",
-      "title": "DeepSeek Deploys What It Calls Faster Version of Its Open-Source Model",
-      "titleZh": "DeepSeek部署其所谓的更快版本的开源模型",
-      "summary": "DeepSeek Deploys What It Calls Faster Version of Its Open-Source Model PYMNTS.com",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTjZ2LTRyYkJrQ3B3UkViOVpuWnlTcXcyTHFMT2JQUjNrMlpEZ2dwcTZEMnBBMUhzVURxbzgyazd4cGNTTjRsS2I0WUpmeDRIRy03cVZpdjRpTHhzMm9hejB1ZFhya1NSdGRhMlB2dnpNdFlZWVlQclJxQ2NVM3FDTnZSRzNXMXo3THZqVFJXeGxZMHVKdS1ncVNLZk1wb3Jab184OTJHRmVCRlFhbXZSM1NnUDZ5eXQyYVoybV9aelJ1TzA3d3pJ?oc=5",
-      "pubDate": 1792374183000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "269446170",
       "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
       "titleZh": "TorchNeuron ：在AWS Trainium上运行高频模型比以往任何时候都更容易",
@@ -307,79 +370,16 @@
       "vendor": "huggingface",
       "category": "Research",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 22,
         "st": 14,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "-1780533509",
-      "title": "DeepSeek releases updated V4.1-Flash model it says completes tasks faster",
-      "titleZh": "DeepSeek发布了更新的V4.1-Flash模型，据说可以更快地完成任务",
-      "summary": "DeepSeek releases updated V4.1-Flash model it says completes tasks faster SiliconANGLE",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTVpONkFFTks2bFROQXBrcHBJb1BGczJIbUtaU3hhdTl0Q2M0U1JUWllzUlRzdEJZM3o4UE9UbWFTUlpoQjRIQjY3clhteDRaOFU3emRReDZHVE9NVlBpNlBoMWFzZjIzOXBxazA2TFJhRVRPQ1RHZW9KbDV1MEhwTm1vTW5IVGc1MkdOd1NPaERJbWJRb1JIbDBnLWYwRjAyR251T0hTRkg3d0tCRmF3?oc=5",
-      "pubDate": 1792362840000,
-      "vendor": "deepseek",
-      "category": "Release",
-      "impact": "high",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1668983969",
-      "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
-      "titleZh": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
-      "summary": "The company offered some broad-strokes ideas for how this money might actually be used, such as “large donations to traditional nonprofits or direct distributions to specific populations.”",
-      "link": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
-      "pubDate": 1792355860000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 44,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-577114920",
-      "title": "Disney agrees to hire the majority of Character AI’s workforce",
-      "titleZh": "Disney agrees to hire the majority of Character AI’s workforce",
-      "summary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with…",
-      "link": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
-      "pubDate": 1792341000000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 44,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "-786124317",
@@ -466,18 +466,18 @@
       "source": "Google News"
     },
     {
-      "id": "-1926168659",
-      "title": "Kimi’s AI credit card turns spending into computing quotas – with limits",
-      "titleZh": "Kimi’s AI credit card turns spending into computing quotas – with limits",
-      "summary": "Kimi’s AI credit card turns spending into computing quotas – with limits South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWmhRMXpyOGYzTi1BallOM1VRdWZzaFJuS1NRODc0YzNtTzVheGNqTm5UYjRINFR2eDYyVld2cTY1OGNNWDZzb2ZkWVNpUnM4NEtnRnVyZ1Y2bTZ4bkp4SVc2WUlJVnhMcUF6d1AwYmVSR1pGWHBZZXRMamZiZFdMb2xFSUt0dzkwMlRCdVIwWUk1S1ZTLWhOMUtHaGRISUU1anVRdV9IMWVjRl9mT0x2dGJCbDZwc0NEcER5Ti1GdnpTeU5oaXo4X1lGZF_SAcwBQVVfeXFMT0R4OEFGWTdlZTEzdnpLVmVLQkI0QlRlVVhhdk1aRWFrQjZxU0NGNGxHSVFybU80c1B3dTVuTXk5SHA3TVpScTRtVE03NnNNTDdES25XdE5wdTNvUTZkTnc0VGp0SnRGbGZzM09pUGdfd1RGVEJHZ3BjbVlYMmstd1F4VHFUeWlhNVFNZ1FlRlZvZl9STUk0YW4tSkhpZndMV1NaOE5mTUVUcVE1V1VhdGk0MnZqLXVXd2pxLWJzTjROSU8xRnR6Yk1NRUt0?oc=5",
-      "pubDate": 1792224011000,
+      "id": "-705024327",
+      "title": "BABA Stock At Near Two-Month Highs — Kimi AI's Moonshot Reportedly Has A Power Agreement With Alibaba For 20K Nvidia Chips",
+      "titleZh": "BABA Stock At Near Two-Month Highs — Kimi AI's Moonshot Reportedly Has A Power Agreement With Alibaba For 20K Nvidia Chips",
+      "summary": "BABA Stock At Near Two-Month Highs — Kimi AI's Moonshot Reportedly Has A Power Agreement With Alibaba For 20K Nvidia Chips Stocktwits",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS2JaOUJUMmZyYlh4NW1YV1NTVW90S1BJVEFHdGdqQnVYaGczX2RaaHlLYjB4anJadVMtTUU2Z200Tm92Unl0V3dBUjQtNnZ0alBneGlQUE5lTkI0RklNYlRZUzNQX3hDeEtiV1d0andiNTdrWWVVZW1vM1ZMbFhxMlBQTi1GUnphelYzMEpvZlY4cXlsVnQycHQtbkx5bWpWSExGNnlRZ3EtbW9BRnc?oc=5",
+      "pubDate": 1792229832000,
       "vendor": "kimi",
       "category": "Product",
       "impact": "med",
-      "score": 47,
+      "score": 49,
       "scoreBreakdown": {
-        "cq": 18,
+        "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 12,
@@ -613,27 +613,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "1918848861",
-      "title": "Apple Intelligence, Alibaba Qwen set for late-October beta model launch in Chinese mainland market: media",
-      "titleZh": "Apple Intelligence、阿里巴巴Qwen定于10月下旬在中国大陆市场推出测试版车型：媒体",
-      "summary": "Apple Intelligence, Alibaba Qwen set for late-October beta model launch in Chinese mainland market: media Global Times",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1GX3pvbnl4NFNlTk9EQnlVeTFRTzJFeWtqOUc0VjhWaXY3MndBLWkzOHB3UDhOVFNpdS0xTHAwb1dTTm5HVWRZd0hyaEVidXpGYmFtRjliYlNqQnJnZFR5T2d3?oc=5",
-      "pubDate": 1792059180000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-411997091",
       "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
       "titleZh": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
@@ -758,48 +737,6 @@
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "1107025584",
-      "title": "China clears Alibaba’s Qwen AI just in time for iPhone Duo",
-      "titleZh": "China clears Alibaba’s Qwen AI just in time for iPhone Duo",
-      "summary": "China clears Alibaba’s Qwen AI just in time for iPhone Duo Computerworld",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUE0zWXFPUzVncS1qUnVSZkk3cmtGcGpudXB1am1zRWQ0TWFLeDJka1dwSWYwaDctR1l4c1J6eXBTc0pTZjhuNndKUDFFbks2UFFBdnFsSG5vcGp5d3prQ3BxUXpDTnJHa2h4UkEyMVFtQ0RLVi1kbnR3elpzN0xQMmlEUDhublVUbnA0ZHA5ZVBoZzBQOC1QODdOWUpQS2FrckxNLTdsbUZQODN4?oc=5",
-      "pubDate": 1791987816000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1980153266",
-      "title": "China approves Alibaba AI models for use in iPhone Duo and other Apple handsets",
-      "titleZh": "中国批准阿里巴巴人工智能模型用于iPhone Duo和其他苹果手机",
-      "summary": "China approves Alibaba AI models for use in iPhone Duo and other Apple handsets South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQejNmSGsxcXJaTlUteER2Rkh6RVZiQ0VxVUE0b1Rlc2tJdmx4RmtjSU44OGNwanFNREZwUjNmdnR5NGVScUpFSjJJZTBQOTFiR25kaXAwbTJDakNfa3ZFYmNRQmVZUHdMcm1sQUpSSjFBeHJfTXFWUGwxb2xGTXRWTU5EVnFyQnppYlY3UHpaaERaZXNLSVZHRzIxTGU0REtPenhKSVRma3lDNFJfZjJieGhVN1VVY3ZIcV9MbVFVdWLSAcABQVVfeXFMTjZ0SVptZnpvRXlHRFZWLUlOamc3MTBjZXRiaTVBemJhSmV3MFhwY1hmdzB5NTNkQnJQYlhIZzQySWFNMTlpaWJYN3hxS1JNYnI2RFZ6T1lndUVzYmpfT1BNRTk2VmlPZ0YxRzI3ZWZvSTlIMy1QQV9WMzJsa2ZWcjd5d0lDWWZRTUplQXhmWldXbFZYRV83SDZscEs2ZlpGYlFnWURrMmd6TmhLSGxiV256eS1iZEloQUU1MGQ0X1lP?oc=5",
-      "pubDate": 1791975980000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "623711088",
@@ -949,27 +886,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-592905071",
-      "title": "Alibaba starts selling its Qwen N1 AI glasses in China from $450",
-      "titleZh": "阿里巴巴开始在中国销售其Qwen N1 AI眼镜，起价为450 $",
-      "summary": "Alibaba starts selling its Qwen N1 AI glasses in China from $450 The Next Web",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8xb1dFT2tBY2NYOFRueHlabW5ZU2t6RTRBQjlEUW9aVFZYMGtaUkRjWndvT2g5Rms0dnFjVnNQd0xxcUgzSXZKZnc1MS1NR2k4ZjlvbzE2UHZ3S2NtQ2pfT0l2bjV6dUQxOGdoSlJERGRfUQ?oc=5",
-      "pubDate": 1791887529000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "901338127",
       "title": "NVIDIA Announces New Investments in France’s Startups",
       "titleZh": "NVIDIA Announces New Investments in France’s Startups",
@@ -989,27 +905,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-746990426",
-      "title": "Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents",
-      "titleZh": "阿里巴巴Qwen推出QwenGyre ： Elastic Reinforcement Learning RL for XLong-Horizon Agents",
-      "summary": "Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLTRTeUVOVV9SQTZESnNsOU5WeFk0NlhfMVFpRmV1WUIzU3IzMVl2Rm1IRzBpMWx2ZTJiYl9hS3FSUDZWTERZMmdjdjhtNEJXZmE0bG4wVWl3TzVsMHg1Y1pBandzcmUxSkItS0Vsd3doZ01EVmhkVzNsNi1LTVd2MTRlc1RLMTZkLXJ4d2xPdDVqWGVNVHotTkZCdGdEX2NYdHNMcGhXRXp4SUdNMGExN2hVMkM2Rm00YlY2Z2tnQjJhUTdYQ1ZkU182UEnSAcwBQVVfeXFMUC00U3lFTlVfUkE2REpzbDlOVnhZNDZYXzFRaUZldVlCM1NyMzFZdkZtSEcwaTFsdmUyYmJfYUtxUlA2VkxEWTJnY3Y4bTRCV2ZhNGxuMFVpd081bDB4NWNaQWp3c3JlMUpCLUtFbHd3aGdNRFZoZFczbDYtS01XdjE0ZXNUSzE2ZC1yeHdsT3Q1alhlTVR6LU5GQnRnRF9jWHRzTHBoV0V6eElHTTBhMTdoVTJDNkZtNGJWNmdrZ0IyYVE3WENWZFNfNlBJ?oc=5",
-      "pubDate": 1791841310000,
-      "vendor": "qwen",
-      "category": "Agent",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 12,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-61388694",
@@ -1047,48 +942,6 @@
         "cq": 18,
         "kv": 1,
         "cw": 20,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-2017770527",
-      "title": "Microsoft skipped OpenAI’s decision model and built its own on Alibaba’s Qwen",
-      "titleZh": "Microsoft skipped OpenAI’s decision model and built its own on Alibaba’s Qwen",
-      "summary": "Microsoft skipped OpenAI’s decision model and built its own on Alibaba’s Qwen The New Stack",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBiZk5lTERCRDkwMFBjblJEbDlDdUFVXzJqSjdJTEFTaXdzbmlacVFCdUVJR3lnSnFMZEtoanZfcndscjlBODNJQVRVUU5WVG5oQzZScHE0cTdCemoxZVRrRVByQ201M00?oc=5",
-      "pubDate": 1791637430000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-658351434",
-      "title": "Alibaba Qwen Releases Qwen-Image-2.1-Turbo, an 8-Step 7B Image Model",
-      "titleZh": "阿里巴巴Qwen发布8步7B图像模型Qwen-Image-2.1-Turbo",
-      "summary": "Alibaba Qwen Releases Qwen-Image-2.1-Turbo, an 8-Step 7B Image Model MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVXpvaFdacktESjZwbURtOUpFTW5WTTktSnZ4TjBudmVJcXVHenYxdEpRQ1p0RjFENkJuQmFIVHdVM3JjN1lSSkc3UEZfejI2cVNDRFNoRi1yV0l2NWNGb3VEQTVmVmpGcm1acWVOeXVtMFk0Y1JtNDFkUjNXdkZ4bFN4UHhjTk1qTGdIZkF1TmNTd3ZQWVNwWTlMX3A4SzhJTm5yTDlVRTE2TlhS0gGsAUFVX3lxTE5Vem9oV1pyS0RKNnBtRG05SkVNblZNOS1KdnhOMG52ZUlxdUd6djF0SlFDWnRGMUQ2Qm5CYUhUd1UzcmM3WVJKRzdQRl96MjZxU0NEU2hGLXJXSXY1Y0ZvdURBNWZWakZybVpxZU55dW0wWTRjUm00MWRSM1d2RnhsU3hQeGNOTWpMZ0hmQXVOY1N3dlBZU3BZOUxfcDhLOElObnJMOVVFMTZOWFI?oc=5",
-      "pubDate": 1791529200000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 25,
         "st": 12,
         "rc": 0,
         "cs": 1
@@ -1178,27 +1031,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "1485233934",
-      "title": "Moonshot AI targets Hong Kong IPO in early 2027 at $50B valuation",
-      "titleZh": "Moonshot AI定于2027年初在香港首次公开募股，估值为500亿美元$",
-      "summary": "Moonshot AI targets Hong Kong IPO in early 2027 at $50B valuation Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOUVzMHkwOWwyYXhaVklHSEJfS0JFcWctUHNva1NvQ1J5YjVORms5LWhRTXJqYXlVM0gwampNRkZSR1QwZWFFM2oxMy1BRE9QcmM4cUJHQkdQTVJ3RXdhbl90VWIyTE5vOXJfQkVpQWxLcDRpMmNETEdwdlA2ZTg4M0hrY2cteWdzVTdvY21maUF2ZGc5TVMtaw?oc=5",
-      "pubDate": 1791270000000,
-      "vendor": "kimi",
-      "category": "Funding",
-      "impact": "high",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 20,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1618984669",
@@ -1453,27 +1285,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "-1171136501",
-      "title": "Alibaba claims new Qwen Image 2.1 AI model beats Google Nano Banana 2.0 with minuscule 7B parameter model — benchmarks show open-weight contender is competitive with OpenAI and Meta image models",
-      "titleZh": "Alibaba claims new Qwen Image 2.1 AI model beats Google Nano Banana 2.0 with minuscule 7B parameter model — benchmarks show open-weight contender is competitive with OpenAI and Meta image models",
-      "summary": "Alibaba claims new Qwen Image 2.1 AI model beats Google Nano Banana 2.0 with minuscule 7B parameter model — benchmarks show open-weight contender is competitive with OpenAI and Meta image models Tom's…",
-      "link": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxQYmZsbFl0SWdUX2Ytb1NjZ2tHV3NYSmZEb1pzUkozSUktWFhwSzAwUlY2a0c2VGVSY2dtNVJvYTFHV1FNOGpzYTVjTjRpS085SU9qQlk4UzRWdnYxX2Q3Ul9jMU54bVROOG9KLVZobW5xeWZNUVVHa1BMUkxTVTBubUtqSHF6Xzdrek5Mamtjd2xFelVNYUpjY1NtWUtyM0hubC12QTZrYmVuTnZidHM2cTYwSE1hMVZaZkhDYWYwNUhPTXJDa25EelZYSjNBX1JhYWRteERZSU9wR1htQ3RZWGIydVl2SnVlLWpKZ2M2V21SY1RVUDBfMm91dTZqRVRLemJLZzNTZDE3eVp5MVJvSzdObDNud0NHbXNva1lyTUhsY2k1X3Y0OVlhSHBWelZsbFpqOGRUd2FDeTNMalhwUjVBR2NRVHJGSG41WDdQUV9hRzVuRlJaclpvNEZnancwMGhnZlQyVy14X1lMcGJVOFpBeW5OUQ?oc=5",
-      "pubDate": 1790146800000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 3,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "9772564",
       "title": "New experts join Google’s AI &amp; Economy team",
       "titleZh": "New experts join Google’s AI &amp; Economy team",
@@ -1600,256 +1411,25 @@
       "source": "Google News"
     },
     {
-      "id": "374586481",
-      "title": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model",
-      "titleZh": "阿里巴巴发布更小、更具成本效益的Qwen AI模型",
-      "summary": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVFN2VVNaUWE0bXJiNjQ2VWJlbngtWlpzcnY3RG44VlB1eVVhMWNiT21wYmVKSDJnQ0JkNXMycVg5bWRqQ2RIZ3E0d0hzdkEzUlNPV05aUjRUTFhzaXlNdVhVSHFXNGRuZFlPWUhEeEtKemMwdWJValR0MFpZM19OMVRpS1piVVhZWEI3ZmdJZmlDR1B5d2JMRU5DcENuSUktd01Ra0J6Zw?oc=5",
-      "pubDate": 1787727600000,
-      "vendor": "qwen",
-      "category": "Release",
+      "id": "234757932",
+      "title": "Chinese AI firm Moonshot files confidentially for Hong Kong IPO, sources say",
+      "titleZh": "消息人士称，中国人工智能公司Moonshot为香港IPO秘密提交文件",
+      "summary": "Chinese AI firm Moonshot files confidentially for Hong Kong IPO, sources say Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT3M0Q2ZhaUlPQkc5bzU5MUEyMlpEaFFMVU5uakRWOEJkek85Z2ZsVWxjc0JnR3NrTFdXOGRIdDRQWmhobmhCZU9iVE9sakxTTVE0ejBhRnAyX1BaM0huMlVvZEJHREh6YzRQMzRLaXZRU2xtRld0THVvODFwTmJwa3BhOU9TQ1ZoQ2UxMldKVzlwcThoWTlEcVctbjhuZ2FqQVc4UTZwejhYeGtvWXJCdTBMaHVnSTVFbDVZSG1nVXYwOEtp?oc=5",
+      "pubDate": 1788505200000,
+      "vendor": "kimi",
+      "category": "Funding",
       "impact": "high",
-      "score": 60,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 18,
-        "kv": 4,
-        "cw": 25,
+        "kv": 1,
+        "cw": 20,
         "st": 12,
         "rc": 0,
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "780556249",
-      "title": "Alibaba's Qwen launches Qwen3.8-Flash AI model with lower training costs",
-      "titleZh": "阿里巴巴旗下Qwen以更低的培训成本推出Qwen3.8-Flash AI模型",
-      "summary": "Alibaba's Qwen launches Qwen3.8-Flash AI model with lower training costs Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNFBiN0MydXZkUlB3UHdHb0xzNGNqVVhKdzZVMkQwalM4WWozbUxWSkZuRTljSXdfdjdOUjZkMWN2SEVRSnBXTEJwSlJfdkNqNzJreVp5MDNULVdDZ1ozSzE1YXp6dWR6MzZsOFBlRllhdlZEQmVBa1Eyb1hpQWlMWmdUaGlzeFpUZFlDZUszLU5KRG9SblF0VTNFT092TllTQnVqVlZHY2J3Uk1WblBfOUJGRmFob041dzEwRV9WaU5TWjlxbkswcTVJRQ?oc=5",
-      "pubDate": 1787727600000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "251294355",
-      "title": "Technology, recovery, and responsibility",
-      "titleZh": "技术、恢复和责任",
-      "summary": "By Sriram Rajamani, Managing Director, Microsoft Research India We started 2021 with the hope that the COVID-19 vaccines will immunize enough of the world’s population to give herd immunity in the com…",
-      "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
-      "pubDate": 1615961906000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 2,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "1792312368",
-      "title": "Directorate General of Training, Ministry of Skill Development and Entrepreneurship, partners with Microsoft and NASSCOM Foundation to empower students with next generation digital skills",
-      "titleZh": "技能发展和创业部培训总局与微软和NASSCOM基金会合作，为学生提供下一代数字技能",
-      "summary": "The blended curriculum will impact 1.2 lakh students across 3000 Industrial Training Institutes (ITI) in India New Delhi, January 7, 2021: With a vision to empower the next generation of learners, the…",
-      "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
-      "pubDate": 1610002951000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 3,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "58206720",
-      "title": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
-      "titleZh": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
-      "summary": "Multilingual omni-channel service reduces wait time for queries, improves customer satisfaction by 70% New Delhi, January 5, 2021 – Powered by Microsoft Azure, Indian Railway Catering and Tourism Corp…",
-      "link": "https://news.microsoft.com/en-in/microsoft-azure-powered-corover-developed-irctc-ai-chatbot-askdisha/",
-      "pubDate": 1609824612000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-1890804461",
-      "title": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
-      "titleZh": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
-      "summary": "• The initiative aims to skill 1 million students in AI by 2021 • The AI Classroom Series will deliver Microsoft’s AI, machine learning and data science expertise to undergraduate students at no cost …",
-      "link": "https://news.microsoft.com/en-in/nasscom-futureskills-microsoft-launch-ai-classroom-series-skill-students/",
-      "pubDate": 1599716180000,
-      "vendor": "microsoft",
-      "category": "Release",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 4,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-1460121599",
-      "title": "Industry and research – better together",
-      "titleZh": "Industry and research – better together",
-      "summary": "By Sriram Rajamani, Distinguished Scientist and Managing Director, Microsoft Research India at Microsoft Manik Varma, researcher in the Microsoft Research (MSR) India lab was awarded the prestigious S…",
-      "link": "https://news.microsoft.com/en-in/industry-and-research-better-together-sriram-rajamani/",
-      "pubDate": 1598613057000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 4,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-1887675878",
-      "title": "NSDC and Microsoft collaborate to empower Indian youth with digital skills",
-      "titleZh": "NSDC和微软合作，为印度青年提供数字技能",
-      "summary": "The initiative aims at skilling over 1 lakh youth in the next 12 months New Delhi, July 08, 2020: With a vision to transform India into a skilled nation, the National Skill Development Corporation (NS…",
-      "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
-      "pubDate": 1594186160000,
-      "vendor": "microsoft",
-      "category": "Release",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 4,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "652542494",
-      "title": "Empowering developers to achieve more at the Microsoft Developer Conference",
-      "titleZh": "帮助开发人员在Microsoft开发者大会上取得更大成就",
-      "summary": "New Delhi, June 18, 2020: Underlining the critical role of developers in innovations that will power economic recovery, the Microsoft Developer Conference brought together developers and tech professi…",
-      "link": "https://news.microsoft.com/en-in/microsoft-developer-conference/",
-      "pubDate": 1592461746000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 2,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-150806068",
-      "title": "Microsoft announces program to accelerate growth of agritech startups in India",
-      "titleZh": "微软宣布加速印度农业科技创业公司发展的计划",
-      "summary": "New Delhi, June 03, 2020: Microsoft announced the launch of a program for agritech startups in India that are committed to driving transformation in agriculture. The Microsoft for Agritech Startups pr…",
-      "link": "https://news.microsoft.com/en-in/microsoft-agritech-startups-program-india-launch/",
-      "pubDate": 1591162175000,
-      "vendor": "microsoft",
-      "category": "Release",
-      "impact": "high",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 5,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "297070690",
-      "title": "Microsoft empowers startups in India to achieve more",
-      "titleZh": "微软助力印度初创企业实现更多",
-      "summary": "Five startups showcase their unique propositions at Future Decoded Tech Summit Bengaluru, February 25, 2020: Startups are an indisputable innovation engine, and Microsoft is partnering with startups a…",
-      "link": "https://news.microsoft.com/en-in/microsoft-empowers-startups-in-india-to-achieve-more/",
-      "pubDate": 1582633175000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 4,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "1830923333",
-      "title": "Myntra accelerates its digital transformation journey with Microsoft Cloud",
-      "titleZh": "Myntra借助微软云加速其数字化转型之旅",
-      "summary": "reimagines online shopping experience for customers Azure powers biggest-ever End of Reason Sale New Delhi, February 19, 2020: Myntra, India’s leading destination for fashion and lifestyle, has partne…",
-      "link": "https://news.microsoft.com/en-in/myntra-digital-transformation-microsoft-cloud/",
-      "pubDate": 1582092103000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 0,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
     }
   ]
 }
