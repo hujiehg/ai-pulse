@@ -1,8 +1,113 @@
 {
-  "updated": "2026-10-20T10:40:39.841Z",
-  "count": 79,
-  "sources": 8,
+  "updated": "2026-10-20T15:30:22.460Z",
+  "count": 69,
+  "sources": 7,
   "items": [
+    {
+      "id": "-1765603105",
+      "title": "Figma co-founder Dylan Field thinks MCP is not a perfect protocol",
+      "titleZh": "Figma联合创始人Dylan Field认为MCP不是一个完美的协议",
+      "summary": "Figma said it plans to support as many standards as possible without exposing all of its data",
+      "link": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
+      "pubDate": 1792505612000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 43,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1434978301",
+      "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
+      "titleZh": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
+      "summary": "The US has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
+      "link": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+      "pubDate": 1792501644000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 3,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1568047435",
+      "title": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
+      "titleZh": "Eka的价值为14.5亿美元，这要归功于有专家赞叹的物理人工智能模型",
+      "summary": "Eka Robotics may be the first robotic arm that is actually good at picking a wide range of objects up, and it is so smooth and human-like, it is wowing the industry.",
+      "link": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+      "pubDate": 1792501200000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-492841118",
+      "title": "Yelp can now call on your behalf to check wait times at a restaurant",
+      "titleZh": "Yelp现在可以代您拨打电话，查看餐厅的等待时间",
+      "summary": "Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences.",
+      "link": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+      "pubDate": 1792494000000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1927494547",
+      "title": "Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool",
+      "titleZh": "Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool",
+      "summary": "Meeting note-taking tool Otter.ai announced on Tuesday that it has raised $320 million from General Catalyst’s Customer Value Fund (CVF), which provides capital to startups without diluting equity and…",
+      "link": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+      "pubDate": 1792494000000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-1408074437",
       "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
@@ -23,6 +128,48 @@
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "77523325",
+      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "titleZh": "AnyLanguageModel 1.0 ：一年的Apple平台本地模型",
+      "summary": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "link": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "pubDate": 1792454400000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
+      "id": "74159203",
+      "title": "MPS in PyTorch 2.15",
+      "titleZh": "PyTorch 2.15中的MPS",
+      "summary": "MPS in PyTorch 2.15",
+      "link": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "pubDate": 1792454400000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 36,
+      "scoreBreakdown": {
+        "cq": 3,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "HuggingFace"
     },
     {
       "id": "-331752763",
@@ -102,111 +249,6 @@
         "cq": 20,
         "kv": 0,
         "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1636674472",
-      "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
-      "titleZh": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
-      "summary": "OpenCode is an open source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI to…",
-      "link": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
-      "pubDate": 1792438114000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-295485306",
-      "title": "Tolan snags $30M for its AI companion that helps users navigate life",
-      "titleZh": "Tolan为其人工智能伴侣获得了3000万美元的$收入，该伴侣可帮助用户导航生活",
-      "summary": "AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users.",
-      "link": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
-      "pubDate": 1792436412000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 44,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "443185730",
-      "title": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
-      "titleZh": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
-      "summary": "Eugenia Kuyda's newest startup Wabi is positioned to take advantage of an idea she had more than a decade ago. Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today.",
-      "link": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
-      "pubDate": 1792435744000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1000722470",
-      "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
-      "titleZh": "Tenstorrent达到62亿美元的估值，以扩展开放式重量AI芯片",
-      "summary": "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent.",
-      "link": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
-      "pubDate": 1792435047000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "high",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 20,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "884311897",
-      "title": "People are using AI to make their smart TVs dumb again",
-      "titleZh": "人们正在使用人工智能让他们的智能电视再次变得愚蠢",
-      "summary": "Fed up with ads, tracking, and sluggish interfaces, some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs.",
-      "link": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
-      "pubDate": 1792426402000,
-      "vendor": "techcrunch",
-      "category": "Agent",
-      "impact": "med",
-      "score": 40,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 12,
         "st": 8,
         "rc": 3,
         "cs": 1
@@ -403,27 +445,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "1918848861",
-      "title": "Apple Intelligence, Alibaba Qwen set for late-October beta model launch in Chinese mainland market: media",
-      "titleZh": "Apple Intelligence、阿里巴巴Qwen定于10月下旬在中国大陆市场推出测试版车型：媒体",
-      "summary": "Apple Intelligence, Alibaba Qwen set for late-October beta model launch in Chinese mainland market: media Global Times",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1GX3pvbnl4NFNlTk9EQnlVeTFRTzJFeWtqOUc0VjhWaXY3MndBLWkzOHB3UDhOVFNpdS0xTHAwb1dTTm5HVWRZd0hyaEVidXpGYmFtRjliYlNqQnJnZFR5T2d3?oc=5",
-      "pubDate": 1792059180000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-411997091",
       "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
       "titleZh": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
@@ -529,48 +550,6 @@
       "source": "HuggingFace"
     },
     {
-      "id": "782450958",
-      "title": "Alibaba's New Qwen N1 Glasses Let Wearers Pay by Gaze With Swappable Temple Batteries - TechEBlog -",
-      "titleZh": "阿里巴巴新款Qwen N1眼镜让佩戴者用可更换的太阳穴电池通过凝视付款- TechEBlog -",
-      "summary": "Alibaba's New Qwen N1 Glasses Let Wearers Pay by Gaze With Swappable Temple Batteries TechEBlog -",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYlktU0JpcWpJa2JyR2gwRm9PTU9oVmlPNGtJcGU3cWotc01kQ25uVUZLLWNPaHd4LWI4T1JKZGE4dDJwdE1ZSmVfX3lLY1NhbWZVSnNvcUlhRFpmZU44dnE3a0tFQWZCYlhRdVQzTXo2N3Fvb2daQ29NZFcxTEUtNw?oc=5",
-      "pubDate": 1792000354000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1610821629",
-      "title": "Alibaba Launches Qwen N1 and N1 Pro AI Glasses in China",
-      "titleZh": "阿里巴巴在中国推出Qwen N1和N1 Pro AI眼镜",
-      "summary": "Alibaba Launches Qwen N1 and N1 Pro AI Glasses in China eWeek",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkejNYbVM3WFNBWWxfQURoRlJOZmpOcExsazluOWcwNHBPWEdLYTFhaGF3YS1NeVlEaUh1Y0N6bTh5YkVfQkFTdUx5Ny1VUUJrZ1dQd0l6ZkxRbnNSSUZJalpaNFdwUU0wRmExTzVn?oc=5",
-      "pubDate": 1791999648000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "434280518",
       "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
       "titleZh": "HiRO-ACEv2 ：以3公里分辨率模拟极端天气，成本仅为原来的一小部分",
@@ -590,27 +569,6 @@
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "-1980153266",
-      "title": "China approves Alibaba AI models for use in iPhone Duo and other Apple handsets",
-      "titleZh": "中国批准阿里巴巴人工智能模型用于iPhone Duo和其他苹果手机",
-      "summary": "China approves Alibaba AI models for use in iPhone Duo and other Apple handsets South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQejNmSGsxcXJaTlUteER2Rkh6RVZiQ0VxVUE0b1Rlc2tJdmx4RmtjSU44OGNwanFNREZwUjNmdnR5NGVScUpFSjJJZTBQOTFiR25kaXAwbTJDakNfa3ZFYmNRQmVZUHdMcm1sQUpSSjFBeHJfTXFWUGwxb2xGTXRWTU5EVnFyQnppYlY3UHpaaERaZXNLSVZHRzIxTGU0REtPenhKSVRma3lDNFJfZjJieGhVN1VVY3ZIcV9MbVFVdWLSAcABQVVfeXFMTjZ0SVptZnpvRXlHRFZWLUlOamc3MTBjZXRiaTVBemJhSmV3MFhwY1hmdzB5NTNkQnJQYlhIZzQySWFNMTlpaWJYN3hxS1JNYnI2RFZ6T1lndUVzYmpfT1BNRTk2VmlPZ0YxRzI3ZWZvSTlIMy1QQV9WMzJsa2ZWcjd5d0lDWWZRTUplQXhmWldXbFZYRV83SDZscEs2ZlpGYlFnWURrMmd6TmhLSGxiV256eS1iZEloQUU1MGQ0X1lP?oc=5",
-      "pubDate": 1791975980000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "623711088",
@@ -676,27 +634,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "-911481086",
-      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-      "titleZh": "使用LFM2.5-24B-A2B在设备上运行快速的专用代理",
-      "summary": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-      "pubDate": 1791911148000,
-      "vendor": "huggingface",
-      "category": "Agent",
-      "impact": "med",
-      "score": 39,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 12,
-        "st": 14,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
       "id": "-816735613",
       "title": "Gemini 4 Argon for Robotics",
       "titleZh": "Gemini 4 Argon机器人",
@@ -748,13 +685,13 @@
       "vendor": "nvidia",
       "category": "Product",
       "impact": "med",
-      "score": 63,
+      "score": 62,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 12,
         "cw": 15,
         "st": 10,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "NVIDIA"
@@ -781,27 +718,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-746990426",
-      "title": "Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents",
-      "titleZh": "阿里巴巴Qwen推出QwenGyre ： Elastic Reinforcement Learning RL for XLong-Horizon Agents",
-      "summary": "Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLTRTeUVOVV9SQTZESnNsOU5WeFk0NlhfMVFpRmV1WUIzU3IzMVl2Rm1IRzBpMWx2ZTJiYl9hS3FSUDZWTERZMmdjdjhtNEJXZmE0bG4wVWl3TzVsMHg1Y1pBandzcmUxSkItS0Vsd3doZ01EVmhkVzNsNi1LTVd2MTRlc1RLMTZkLXJ4d2xPdDVqWGVNVHotTkZCdGdEX2NYdHNMcGhXRXp4SUdNMGExN2hVMkM2Rm00YlY2Z2tnQjJhUTdYQ1ZkU182UEnSAcwBQVVfeXFMUC00U3lFTlVfUkE2REpzbDlOVnhZNDZYXzFRaUZldVlCM1NyMzFZdkZtSEcwaTFsdmUyYmJfYUtxUlA2VkxEWTJnY3Y4bTRCV2ZhNGxuMFVpd081bDB4NWNaQWp3c3JlMUpCLUtFbHd3aGdNRFZoZFczbDYtS01XdjE0ZXNUSzE2ZC1yeHdsT3Q1alhlTVR6LU5GQnRnRF9jWHRzTHBoV0V6eElHTTBhMTdoVTJDNkZtNGJWNmdrZ0IyYVE3WENWZFNfNlBJ?oc=5",
-      "pubDate": 1791841310000,
-      "vendor": "qwen",
-      "category": "Agent",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 12,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-61388694",
       "title": "Moonshot AI Plans Record $50 Billion Hong Kong IPO as Founders Fight Equity Lawsuit",
       "titleZh": "Moonshot AI计划创纪录的500亿$香港IPO创始人打股权诉讼",
@@ -816,27 +732,6 @@
         "cq": 18,
         "kv": 2,
         "cw": 20,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1352056365",
-      "title": "Microsoft-Decision-1 runs on Alibaba’s Qwen and costs $0.042 a million",
-      "titleZh": "Microsoft-Decision-1 runs on Alibaba’s Qwen and costs $0.042 a million",
-      "summary": "Microsoft-Decision-1 runs on Alibaba’s Qwen and costs $0.042 a million The Next Web",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ELTNqd3JiMVpPRHN3Y0ZQYVFMUUtFREVMRjlkZVVqT01DVzVZZmg1Zjh0SjAtZFVyeXVpNlhXNHpaUE04RzUzTEE1cVVIX1FCWnFrX0EwbHg5aVBjY29kSmhaSndUWEYzVHZXdzRDOVdxMU9qZEhF?oc=5",
-      "pubDate": 1791795713000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
         "st": 12,
         "rc": 0,
         "cs": 1
@@ -863,69 +758,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-2017770527",
-      "title": "Microsoft skipped OpenAI’s decision model and built its own on Alibaba’s Qwen",
-      "titleZh": "Microsoft skipped OpenAI’s decision model and built its own on Alibaba’s Qwen",
-      "summary": "Microsoft skipped OpenAI’s decision model and built its own on Alibaba’s Qwen The New Stack",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBiZk5lTERCRDkwMFBjblJEbDlDdUFVXzJqSjdJTEFTaXdzbmlacVFCdUVJR3lnSnFMZEtoanZfcndscjlBODNJQVRVUU5WVG5oQzZScHE0cTdCemoxZVRrRVByQ201M00?oc=5",
-      "pubDate": 1791615600000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-658351434",
-      "title": "Alibaba Qwen Releases Qwen-Image-2.1-Turbo, an 8-Step 7B Image Model",
-      "titleZh": "阿里巴巴Qwen发布8步7B图像模型Qwen-Image-2.1-Turbo",
-      "summary": "Alibaba Qwen Releases Qwen-Image-2.1-Turbo, an 8-Step 7B Image Model MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVXpvaFdacktESjZwbURtOUpFTW5WTTktSnZ4TjBudmVJcXVHenYxdEpRQ1p0RjFENkJuQmFIVHdVM3JjN1lSSkc3UEZfejI2cVNDRFNoRi1yV0l2NWNGb3VEQTVmVmpGcm1acWVOeXVtMFk0Y1JtNDFkUjNXdkZ4bFN4UHhjTk1qTGdIZkF1TmNTd3ZQWVNwWTlMX3A4SzhJTm5yTDlVRTE2TlhS0gGsAUFVX3lxTE5Vem9oV1pyS0RKNnBtRG05SkVNblZNOS1KdnhOMG52ZUlxdUd6djF0SlFDWnRGMUQ2Qm5CYUhUd1UzcmM3WVJKRzdQRl96MjZxU0NEU2hGLXJXSXY1Y0ZvdURBNWZWakZybVpxZU55dW0wWTRjUm00MWRSM1d2RnhsU3hQeGNOTWpMZ0hmQXVOY1N3dlBZU3BZOUxfcDhLOElObnJMOVVFMTZOWFI?oc=5",
-      "pubDate": 1791529200000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "629590473",
-      "title": "The model that didn't exist, so you made it yourself",
-      "titleZh": "不存在的模型，所以你自己做的",
-      "summary": "The model that didn't exist, so you made it yourself",
-      "link": "https://huggingface.co/blog/building-with-ml-intern",
-      "pubDate": 1791417600000,
-      "vendor": "huggingface",
-      "category": "Research",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 22,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
     },
     {
       "id": "-275766726",
@@ -1264,27 +1096,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "-1171136501",
-      "title": "Alibaba claims new Qwen Image 2.1 AI model beats Google Nano Banana 2.0 with minuscule 7B parameter model — benchmarks show open-weight contender is competitive with OpenAI and Meta image models",
-      "titleZh": "Alibaba claims new Qwen Image 2.1 AI model beats Google Nano Banana 2.0 with minuscule 7B parameter model — benchmarks show open-weight contender is competitive with OpenAI and Meta image models",
-      "summary": "Alibaba claims new Qwen Image 2.1 AI model beats Google Nano Banana 2.0 with minuscule 7B parameter model — benchmarks show open-weight contender is competitive with OpenAI and Meta image models Tom's…",
-      "link": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxQYmZsbFl0SWdUX2Ytb1NjZ2tHV3NYSmZEb1pzUkozSUktWFhwSzAwUlY2a0c2VGVSY2dtNVJvYTFHV1FNOGpzYTVjTjRpS085SU9qQlk4UzRWdnYxX2Q3Ul9jMU54bVROOG9KLVZobW5xeWZNUVVHa1BMUkxTVTBubUtqSHF6Xzdrek5Mamtjd2xFelVNYUpjY1NtWUtyM0hubC12QTZrYmVuTnZidHM2cTYwSE1hMVZaZkhDYWYwNUhPTXJDa25EelZYSjNBX1JhYWRteERZSU9wR1htQ3RZWGIydVl2SnVlLWpKZ2M2V21SY1RVUDBfMm91dTZqRVRLemJLZzNTZDE3eVp5MVJvSzdObDNud0NHbXNva1lyTUhsY2k1X3Y0OVlhSHBWelZsbFpqOGRUd2FDeTNMalhwUjVBR2NRVHJGSG41WDdQUV9hRzVuRlJaclpvNEZnancwMGhnZlQyVy14X1lMcGJVOFpBeW5OUQ?oc=5",
-      "pubDate": 1790146800000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 3,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "9772564",
       "title": "New experts join Google’s AI &amp; Economy team",
       "titleZh": "New experts join Google’s AI &amp; Economy team",
@@ -1432,27 +1243,6 @@
       "source": "Google News"
     },
     {
-      "id": "374586481",
-      "title": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model",
-      "titleZh": "阿里巴巴发布更小、更具成本效益的Qwen AI模型",
-      "summary": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVFN2VVNaUWE0bXJiNjQ2VWJlbngtWlpzcnY3RG44VlB1eVVhMWNiT21wYmVKSDJnQ0JkNXMycVg5bWRqQ2RIZ3E0d0hzdkEzUlNPV05aUjRUTFhzaXlNdVhVSHFXNGRuZFlPWUhEeEtKemMwdWJValR0MFpZM19OMVRpS1piVVhZWEI3ZmdJZmlDR1B5d2JMRU5DcENuSUktd01Ra0J6Zw?oc=5",
-      "pubDate": 1787727600000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "251294355",
       "title": "Technology, recovery, and responsibility",
       "titleZh": "技术、恢复和责任",
@@ -1460,13 +1250,13 @@
       "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
       "pubDate": 1615961906000,
       "vendor": "microsoft",
-      "category": "Research",
-      "impact": "high",
-      "score": 59,
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 2,
-        "cw": 22,
+        "cw": 15,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -1481,13 +1271,13 @@
       "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
       "pubDate": 1610002951000,
       "vendor": "microsoft",
-      "category": "Release",
-      "impact": "high",
-      "score": 61,
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 3,
-        "cw": 25,
+        "cw": 15,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -1503,7 +1293,7 @@
       "pubDate": 1609824612000,
       "vendor": "microsoft",
       "category": "Product",
-      "impact": "high",
+      "impact": "med",
       "score": 50,
       "scoreBreakdown": {
         "cq": 22,
@@ -1523,13 +1313,13 @@
       "link": "https://news.microsoft.com/en-in/nasscom-futureskills-microsoft-launch-ai-classroom-series-skill-students/",
       "pubDate": 1599716180000,
       "vendor": "microsoft",
-      "category": "Product",
+      "category": "Release",
       "impact": "high",
-      "score": 52,
+      "score": 62,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 4,
-        "cw": 15,
+        "cw": 25,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -1544,13 +1334,13 @@
       "link": "https://news.microsoft.com/en-in/industry-and-research-better-together-sriram-rajamani/",
       "pubDate": 1598613057000,
       "vendor": "microsoft",
-      "category": "Research",
+      "category": "Product",
       "impact": "med",
-      "score": 59,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 4,
-        "cw": 22,
+        "cw": 15,
         "st": 10,
         "rc": 0,
         "cs": 1
@@ -1565,13 +1355,13 @@
       "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
       "pubDate": 1594186160000,
       "vendor": "microsoft",
-      "category": "Product",
-      "impact": "high",
-      "score": 54,
+      "category": "Release",
+      "impact": "med",
+      "score": 64,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 4,
-        "cw": 15,
+        "cw": 25,
         "st": 10,
         "rc": 0,
         "cs": 1
