@@ -1,427 +1,49 @@
 {
-  "updated": "2026-10-27T15:30:59.270Z",
-  "count": 120,
-  "sources": 2,
+  "updated": "2026-10-27T20:12:58.500Z",
+  "count": 128,
+  "sources": 3,
   "items": [
     {
-      "id": "265941127",
-      "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
-      "titleZh": "Meta AI总监Rohit Patel离开，接手Microsoft Office和Google Workspace",
-      "summary": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite.",
-      "link": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
-      "pubDate": 1793113149000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 1,
-        "cw": 20,
-        "st": 8,
-        "rc": 5,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1864209183",
-      "title": "Japan internet giant GMO says hackers posted stolen customer data",
-      "titleZh": "日本互联网巨头GMO称黑客发布被盗客户数据",
-      "summary": "Japan's GMO Internet is verifying alleged customer data posted by suspected hackers following a cloud service breach.",
-      "link": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/",
-      "pubDate": 1793107977000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 15,
-        "st": 8,
-        "rc": 5,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1111880376",
-      "title": "Opera introduces a new web standard to let users deploy AI locally in their browser",
-      "titleZh": "Opera引入了新的网络标准，允许用户在浏览器中本地部署AI",
-      "summary": "The new standard, WebAI, is designed to work with a variety of AI models.",
-      "link": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
-      "pubDate": 1793106000000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 22,
-        "st": 8,
-        "rc": 4,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1968809379",
-      "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
-      "titleZh": "General Compute筹集了1亿美元的A轮融资，以对抗新云灾难的叙述",
-      "summary": "General Compute is betting on inference chips from outside the Nvidia ecosystem.",
-      "link": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
-      "pubDate": 1793106000000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 20,
-        "st": 8,
-        "rc": 4,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1077641959",
-      "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
-      "titleZh": "英伟达支持印度初创公司帮助公司使用更少的GPU运行人工智能模型",
-      "summary": "Simplismart says its annualized revenue run rate has grown 14-fold in six months, with the U.S. accounting for more than half its revenue.",
-      "link": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
-      "pubDate": 1793098800000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 8,
-        "rc": 4,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1716635568",
-      "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
-      "titleZh": "OpenAI如何将其编码工具转化为点，一个始终在线的个人助理",
-      "summary": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
-      "link": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
-      "pubDate": 1793066400000,
-      "vendor": "techcrunch",
-      "category": "Agent",
-      "impact": "med",
-      "score": 44,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-949034915",
-      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-      "titleZh": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-      "summary": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has …",
-      "link": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
-      "pubDate": 1793063541000,
-      "vendor": "techcrunch",
+      "id": "1572333532",
+      "title": "Genie 4: A new generation of world simulation",
+      "titleZh": "精灵4 ：新一代世界模拟",
+      "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+      "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "pubDate": 1793116898000,
+      "vendor": "deepmind",
       "category": "Research",
       "impact": "med",
       "score": 56,
       "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "278811384",
-      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
-      "titleZh": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
-      "summary": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise cust…",
-      "link": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
-      "pubDate": 1793033382000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "high",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 3,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-944650757",
-      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
-      "titleZh": "SpaceX与阿波罗达成400 $ GPU融资协议",
-      "summary": "The financing gives SpaceX another way to fund its rapidly expanding AI ambitions without relying solely on traditional debt markets.",
-      "link": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
-      "pubDate": 1793033196000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-435993325",
-      "title": "Anthropic officially files for its public debut",
-      "titleZh": "Anthropic正式申请公开亮相",
-      "summary": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI sa…",
-      "link": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
-      "pubDate": 1793025322000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "high",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 20,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1634275318",
-      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-      "titleZh": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-      "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
-      "link": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-      "pubDate": 1792963876000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 2,
-        "cw": 25,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1065091785",
-      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-      "titleZh": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-      "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
-      "link": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-      "pubDate": 1792947452000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 20,
-        "st": 8,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1761888815",
-      "title": "The hottest AI wearables and gadgets you should know about",
-      "titleZh": "您应该了解的最热门的AI可穿戴设备和小工具",
-      "summary": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
-      "link": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
-      "pubDate": 1792937400000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1185589430",
-      "title": "Will AI expose the rickety infrastructure of the internet?",
-      "titleZh": "人工智能会暴露互联网摇摇欲坠的基础设施吗？",
-      "summary": "The moment you realize the internet is \"held together by glue and dreams.\"",
-      "link": "https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/",
-      "pubDate": 1792872933000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 39,
-      "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-412375793",
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "titleZh": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-      "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "pubDate": 1792868400000,
-      "vendor": "techcrunch",
-      "category": "Release",
-      "impact": "high",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 25,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1501898330",
-      "title": "Block’s new voice model sounds eerily human",
-      "titleZh": "Block’s new voice model sounds eerily human",
-      "summary": "Typically, speech models are paired with a large language model for knowledge retrieval. Block said that Dessa's knowledge stems from the conversational data it has.",
-      "link": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
-      "pubDate": 1792857600000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
         "cw": 22,
-        "st": 8,
-        "rc": 1,
+        "st": 15,
+        "rc": 4,
         "cs": 1
       },
-      "source": "TechCrunch"
+      "source": "DeepMind"
     },
     {
-      "id": "-61826269",
-      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-      "titleZh": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-      "summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
-      "link": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-      "pubDate": 1792854000000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 0,
-        "cw": 22,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "940518439",
-      "title": "Here are the top AI agents that can live in your text messages",
-      "titleZh": "以下是可以存在于您的短信中的顶级AI代理",
-      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-      "link": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "pubDate": 1792850400000,
-      "vendor": "techcrunch",
-      "category": "Agent",
-      "impact": "med",
-      "score": 38,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "472468253",
-      "title": "OpenAI says it will no longer train its AI models on the live internet, citing ‘significant risks’",
-      "titleZh": "OpenAI says it will no longer train its AI models on the live internet, citing ‘significant risks’",
-      "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
-      "link": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-      "pubDate": 1792796749000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 22,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "794156045",
-      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-      "titleZh": "圣诞节最热门的玩具？英伟达首席执行官与可爱的Microduck机器人玩耍，售出2万台",
-      "summary": "The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a \"nap,\" and summersaulted on voice command.",
-      "link": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
-      "pubDate": 1792792759000,
-      "vendor": "techcrunch",
+      "id": "-769727414",
+      "title": "Our newest AI Quest: Mapping the human brain",
+      "titleZh": "我们最新的人工智能任务：映射人脑",
+      "summary": "Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”",
+      "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+      "pubDate": 1793030400000,
+      "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 43,
+      "score": 49,
       "scoreBreakdown": {
-        "cq": 18,
+        "cq": 16,
         "kv": 0,
         "cw": 15,
-        "st": 8,
-        "rc": 1,
+        "st": 15,
+        "rc": 2,
         "cs": 1
       },
-      "source": "TechCrunch"
+      "source": "Google AI"
     },
     {
       "id": "974761533",
@@ -443,6 +65,27 @@
         "cs": 1
       },
       "source": "DeepMind"
+    },
+    {
+      "id": "955791379",
+      "title": "Southeast Asia’s digital economy to hit $368 billion",
+      "titleZh": "Southeast Asia’s digital economy to hit $368 billion",
+      "summary": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
+      "link": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+      "pubDate": 1792555200000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "high",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 1,
+        "cw": 15,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google AI"
     },
     {
       "id": "-2130920934",
@@ -529,25 +172,46 @@
       "source": "DeepMind"
     },
     {
-      "id": "1827773960",
+      "id": "323274282",
       "title": "Gemini 4 Argon: Built to solve your hardest problems",
       "titleZh": "Gemini 4 Argon ：专为解决您最棘手的问题而设计",
-      "summary": "Gemini 4 Argon: Built to solve your hardest problems",
-      "link": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-      "pubDate": 1791907312000,
-      "vendor": "deepmind",
+      "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "pubDate": 1791907200000,
+      "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 53,
       "scoreBreakdown": {
-        "cq": 13,
+        "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 15,
         "rc": 0,
         "cs": 1
       },
-      "source": "DeepMind"
+      "source": "Google AI"
+    },
+    {
+      "id": "-707716531",
+      "title": "Introducing Playground: Create and play custom games",
+      "titleZh": "Playground简介：创建和玩自定义游戏",
+      "summary": "Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "pubDate": 1791374400000,
+      "vendor": "google",
+      "category": "Release",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 25,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google AI"
     },
     {
       "id": "-1083378788",
@@ -569,6 +233,27 @@
         "cs": 1
       },
       "source": "DeepMind"
+    },
+    {
+      "id": "-1618984669",
+      "title": "The latest AI news we announced in September 2026",
+      "titleZh": "我们在2026年9月宣布的最新人工智能新闻",
+      "summary": "Here are Google’s latest AI updates from September 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "pubDate": 1790953200000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google AI"
     },
     {
       "id": "-1889306321",
@@ -613,6 +298,27 @@
       "source": "DeepMind"
     },
     {
+      "id": "-1464852399",
+      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "titleZh": "观看Future Vision XPRIZE的获奖预告片《The Gifted》。",
+      "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+      "pubDate": 1790622000000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google AI"
+    },
+    {
       "id": "-1000305513",
       "title": "Introducing Gemini 3.8 Live with Live Avatar",
       "titleZh": "隆重推出Gemini 3.8 Live with Live Avatar",
@@ -632,6 +338,27 @@
         "cs": 1
       },
       "source": "DeepMind"
+    },
+    {
+      "id": "-770369360",
+      "title": "Google Beam expands with new regions, partners, and customers",
+      "titleZh": "Google Beam扩展到新的地区、合作伙伴和客户",
+      "summary": "We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network.",
+      "link": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+      "pubDate": 1790186400000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google AI"
     },
     {
       "id": "-1237552154",
@@ -676,6 +403,69 @@
       "source": "DeepMind"
     },
     {
+      "id": "-1705916245",
+      "title": "New experts join Google’s AI & Economy team",
+      "titleZh": "New experts join Google’s AI & Economy team",
+      "summary": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+      "pubDate": 1789740000000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google AI"
+    },
+    {
+      "id": "-935834101",
+      "title": "Co-creating the future of fashion with Google",
+      "titleZh": "与Google共同创造时尚的未来",
+      "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+      "pubDate": 1789736400000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google AI"
+    },
+    {
+      "id": "1397167323",
+      "title": "Making global data easier to explore",
+      "titleZh": "让全球数据更易于探索",
+      "summary": "Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
+      "pubDate": 1789675200000,
+      "vendor": "google",
+      "category": "Release",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 25,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google AI"
+    },
+    {
       "id": "-421920195",
       "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
       "titleZh": "隆重推出Gemini 3.8 Live和3.8 Live Extended Thinking",
@@ -695,6 +485,195 @@
         "cs": 1
       },
       "source": "DeepMind"
+    },
+    {
+      "id": "1731952864",
+      "title": "AI for Societal Impact",
+      "titleZh": "人工智能助力社会影响力",
+      "summary": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+      "pubDate": 1789488000000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 12,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google AI"
+    },
+    {
+      "id": "2042415036",
+      "title": "Building AI to accelerate science and improve lives",
+      "titleZh": "构建人工智能以加速科学和改善生活",
+      "summary": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help make extraordinary progress …",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+      "pubDate": 1789488000000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google AI"
+    },
+    {
+      "id": "264499028",
+      "title": "AI for everyone in every language",
+      "titleZh": "为每种语言的每个人提供人工智能",
+      "summary": "We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exactly as they are expressed.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+      "pubDate": 1789488000000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google AI"
+    },
+    {
+      "id": "-1476639052",
+      "title": "New insights from Google’s AI & Economy ATLAS",
+      "titleZh": "New insights from Google’s AI & Economy ATLAS",
+      "summary": "We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+      "pubDate": 1789477200000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google AI"
+    },
+    {
+      "id": "-1122161015",
+      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "titleZh": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "summary": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+      "pubDate": 1789412400000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google AI"
+    },
+    {
+      "id": "846317281",
+      "title": "DevFest is back",
+      "titleZh": "DevFest回来了",
+      "summary": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "pubDate": 1789401600000,
+      "vendor": "google",
+      "category": "Agent",
+      "impact": "med",
+      "score": 40,
+      "scoreBreakdown": {
+        "cq": 12,
+        "kv": 0,
+        "cw": 12,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google AI"
+    },
+    {
+      "id": "-402042392",
+      "title": "3 ways to prep for your next big race with Search",
+      "titleZh": "通过搜索为下一场大型竞赛做好准备的3种方法",
+      "summary": "Search can help runners get race-day ready with registration alerts, tailored training plans, and more.",
+      "link": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
+      "pubDate": 1789056000000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google AI"
+    },
+    {
+      "id": "1584853658",
+      "title": "Get ready for the game with new football features in Search",
+      "titleZh": "使用搜索中的新足球功能为比赛做好准备",
+      "summary": "Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season.",
+      "link": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
+      "pubDate": 1788969600000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google AI"
+    },
+    {
+      "id": "-1301067174",
+      "title": "Recreating a 70-year love story frame by frame",
+      "titleZh": "逐帧重现70年的爱情故事",
+      "summary": "Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film \"Love, Rendered.\"",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
+      "pubDate": 1788969600000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google AI"
     },
     {
       "id": "-1817924407",
@@ -739,27 +718,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "315382933",
-      "title": "Proactive cyber defense for governments and enterprises",
-      "titleZh": "为政府和企业提供主动网络防御",
-      "summary": "Proactive cyber defense for governments and enterprises",
-      "link": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-      "pubDate": 1788366264000,
-      "vendor": "deepmind",
-      "category": "Product",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "DeepMind"
-    },
-    {
       "id": "68527303",
       "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
       "titleZh": "隆重推出Gemini 3.8 Flash和3.8 Flash Cyber",
@@ -779,6 +737,27 @@
         "cs": 1
       },
       "source": "DeepMind"
+    },
+    {
+      "id": "2026338711",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "titleZh": "为政府和企业提供主动网络防御",
+      "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+      "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "pubDate": 1788363600000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google AI"
     },
     {
       "id": "1335409394",
@@ -2503,25 +2482,214 @@
       "source": "DeepMind"
     },
     {
-      "id": "-1250248962",
-      "title": "We’re expanding our presence in Singapore to advance AI in the Asia-Pacific region",
-      "titleZh": "We’re expanding our presence in Singapore to advance AI in the Asia-Pacific region",
-      "summary": "Google DeepMind opens a new Singapore research lab, accelerating AI progress in the Asia-Pacific region.",
-      "link": "https://deepmind.google/blog/were-expanding-our-presence-in-singapore-to-advance-ai-in-the-asia-pacific-region/",
-      "pubDate": 1763485200000,
-      "vendor": "deepmind",
+      "id": "251294355",
+      "title": "Technology, recovery, and responsibility",
+      "titleZh": "技术、恢复和责任",
+      "summary": "By Sriram Rajamani, Managing Director, Microsoft Research India We started 2021 with the hope that the COVID-19 vaccines will immunize enough of the world’s population to give herd immunity in the com…",
+      "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
+      "pubDate": 1615961906000,
+      "vendor": "microsoft",
       "category": "Research",
-      "impact": "med",
-      "score": 56,
+      "impact": "high",
+      "score": 59,
       "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
+        "cq": 24,
+        "kv": 2,
         "cw": 22,
-        "st": 15,
+        "st": 10,
         "rc": 0,
         "cs": 1
       },
-      "source": "DeepMind"
+      "source": "Microsoft"
+    },
+    {
+      "id": "1792312368",
+      "title": "Directorate General of Training, Ministry of Skill Development and Entrepreneurship, partners with Microsoft and NASSCOM Foundation to empower students with next generation digital skills",
+      "titleZh": "技能发展和创业部培训总局与微软和NASSCOM基金会合作，为学生提供下一代数字技能",
+      "summary": "The blended curriculum will impact 1.2 lakh students across 3000 Industrial Training Institutes (ITI) in India New Delhi, January 7, 2021: With a vision to empower the next generation of learners, the…",
+      "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
+      "pubDate": 1610002951000,
+      "vendor": "microsoft",
+      "category": "Release",
+      "impact": "high",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 3,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "58206720",
+      "title": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
+      "titleZh": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
+      "summary": "Multilingual omni-channel service reduces wait time for queries, improves customer satisfaction by 70% New Delhi, January 5, 2021 – Powered by Microsoft Azure, Indian Railway Catering and Tourism Corp…",
+      "link": "https://news.microsoft.com/en-in/microsoft-azure-powered-corover-developed-irctc-ai-chatbot-askdisha/",
+      "pubDate": 1609824612000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "high",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1890804461",
+      "title": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
+      "titleZh": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
+      "summary": "• The initiative aims to skill 1 million students in AI by 2021 • The AI Classroom Series will deliver Microsoft’s AI, machine learning and data science expertise to undergraduate students at no cost …",
+      "link": "https://news.microsoft.com/en-in/nasscom-futureskills-microsoft-launch-ai-classroom-series-skill-students/",
+      "pubDate": 1599716180000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "high",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1460121599",
+      "title": "Industry and research – better together",
+      "titleZh": "Industry and research – better together",
+      "summary": "By Sriram Rajamani, Distinguished Scientist and Managing Director, Microsoft Research India at Microsoft Manik Varma, researcher in the Microsoft Research (MSR) India lab was awarded the prestigious S…",
+      "link": "https://news.microsoft.com/en-in/industry-and-research-better-together-sriram-rajamani/",
+      "pubDate": 1598613057000,
+      "vendor": "microsoft",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 22,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1887675878",
+      "title": "NSDC and Microsoft collaborate to empower Indian youth with digital skills",
+      "titleZh": "NSDC和微软合作，为印度青年提供数字技能",
+      "summary": "The initiative aims at skilling over 1 lakh youth in the next 12 months New Delhi, July 08, 2020: With a vision to transform India into a skilled nation, the National Skill Development Corporation (NS…",
+      "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
+      "pubDate": 1594186160000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "high",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 4,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "652542494",
+      "title": "Empowering developers to achieve more at the Microsoft Developer Conference",
+      "titleZh": "帮助开发人员在Microsoft开发者大会上取得更大成就",
+      "summary": "New Delhi, June 18, 2020: Underlining the critical role of developers in innovations that will power economic recovery, the Microsoft Developer Conference brought together developers and tech professi…",
+      "link": "https://news.microsoft.com/en-in/microsoft-developer-conference/",
+      "pubDate": 1592461746000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 2,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-150806068",
+      "title": "Microsoft announces program to accelerate growth of agritech startups in India",
+      "titleZh": "微软宣布加速印度农业科技创业公司发展的计划",
+      "summary": "New Delhi, June 03, 2020: Microsoft announced the launch of a program for agritech startups in India that are committed to driving transformation in agriculture. The Microsoft for Agritech Startups pr…",
+      "link": "https://news.microsoft.com/en-in/microsoft-agritech-startups-program-india-launch/",
+      "pubDate": 1591162175000,
+      "vendor": "microsoft",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 5,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "297070690",
+      "title": "Microsoft empowers startups in India to achieve more",
+      "titleZh": "微软助力印度初创企业实现更多",
+      "summary": "Five startups showcase their unique propositions at Future Decoded Tech Summit Bengaluru, February 25, 2020: Startups are an indisputable innovation engine, and Microsoft is partnering with startups a…",
+      "link": "https://news.microsoft.com/en-in/microsoft-empowers-startups-in-india-to-achieve-more/",
+      "pubDate": 1582633175000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 4,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "1830923333",
+      "title": "Myntra accelerates its digital transformation journey with Microsoft Cloud",
+      "titleZh": "Myntra借助微软云加速其数字化转型之旅",
+      "summary": "reimagines online shopping experience for customers Azure powers biggest-ever End of Reason Sale New Delhi, February 19, 2020: Myntra, India’s leading destination for fashion and lifestyle, has partne…",
+      "link": "https://news.microsoft.com/en-in/myntra-digital-transformation-microsoft-cloud/",
+      "pubDate": 1582092103000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 0,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
     }
   ]
 }
