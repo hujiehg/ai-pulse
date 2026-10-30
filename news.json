@@ -1,8 +1,71 @@
 {
-  "updated": "2026-10-30T16:54:22.797Z",
+  "updated": "2026-10-30T21:16:51.957Z",
   "count": 116,
   "sources": 12,
   "items": [
+    {
+      "id": "-1576538753",
+      "title": "nemotron-halloween",
+      "titleZh": "nemotron-halloween",
+      "summary": "nemotron-halloween",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "pubDate": 1793383044000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 37,
+      "scoreBreakdown": {
+        "cq": 3,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
+      "id": "1387165759",
+      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+      "titleZh": "Zest’s new AI agent finds restaurants and books reservations over text",
+      "summary": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
+      "link": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+      "pubDate": 1793382432000,
+      "vendor": "techcrunch",
+      "category": "Agent",
+      "impact": "med",
+      "score": 41,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 12,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "752101456",
+      "title": "Google’s first data center satellite is online and writing poetry",
+      "titleZh": "Google’s first data center satellite is online and writing poetry",
+      "summary": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
+      "link": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "pubDate": 1793379600000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "med",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 22,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-2137544323",
       "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
@@ -13,13 +76,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 1,
         "cw": 15,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -34,13 +97,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,13 +118,13 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 39,
+      "score": 38,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 12,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -76,13 +139,13 @@
       "vendor": "kimi",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -97,13 +160,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -118,16 +181,58 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "1852448791",
+      "title": "Making it easier for websites to express AI training preferences",
+      "titleZh": "让网站更容易表达人工智能培训偏好",
+      "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "pubDate": 1793352600000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "-425074653",
+      "title": "Community safety report and new protections for teens",
+      "titleZh": "社区安全报告和针对青少年的新保护措施",
+      "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "link": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "pubDate": 1793350800000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 1,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
     },
     {
       "id": "1819585504",
@@ -412,55 +517,13 @@
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "med",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 2,
         "cw": 25,
         "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1787708997",
-      "title": "Rivian expands joint venture with VW to include AI assistant",
-      "titleZh": "Rivian扩大与大众的合资企业，包括人工智能助手",
-      "summary": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result.",
-      "link": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
-      "pubDate": 1793304347000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "high",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 1,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1121484870",
-      "title": "OpenAI-backed Thrive Holdings acquires ADT",
-      "titleZh": "OpenAI支持的Thrive Holdings收购ADT",
-      "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
-      "link": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
-      "pubDate": 1793303779000,
-      "vendor": "techcrunch",
-      "category": "Safety",
-      "impact": "high",
-      "score": 44,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 10,
-        "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -475,13 +538,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -664,37 +727,16 @@
       "vendor": "deepmind",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 2,
         "cw": 15,
         "st": 15,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "DeepMind"
-    },
-    {
-      "id": "-75489417",
-      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-      "titleZh": "NVIDIA Nemotron 3.5转录和粮仓v2 ：智能多语言转录，您可以提示和适应",
-      "summary": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-      "link": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-      "pubDate": 1793199497000,
-      "vendor": "huggingface",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 14,
         "rc": 1,
         "cs": 1
       },
-      "source": "HuggingFace"
+      "source": "DeepMind"
     },
     {
       "id": "-398131255",
@@ -928,27 +970,6 @@
       "source": "Google News"
     },
     {
-      "id": "1674933477",
-      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-      "titleZh": "OpenAI扩大与甲骨文的合作伙伴关系，将其应用程序引入ChatGPT",
-      "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
-      "link": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "pubDate": 1793084400000,
-      "vendor": "openai",
-      "category": "Product",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
-    },
-    {
       "id": "1001171444",
       "title": "Moonshot apologises after botched Kimi K3.1 Pro launch, restores user quotas",
       "titleZh": "在拙劣的Kimi K3.1 Pro发布后， Moonshot道歉，恢复用户配额",
@@ -989,27 +1010,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-1402097633",
-      "title": "How Check Point accelerates vulnerability research with Daybreak",
-      "titleZh": "Check Point如何利用Daybreak加速漏洞研究",
-      "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
-      "link": "https://openai.com/index/check-point-daybreak",
-      "pubDate": 1793059200000,
-      "vendor": "openai",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 22,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "OpenAI"
     },
     {
       "id": "397187581",
@@ -1168,13 +1168,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 4,
         "cw": 15,
         "st": 12,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google News"
@@ -1189,13 +1189,13 @@
       "vendor": "kimi",
       "category": "Release",
       "impact": "high",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 5,
         "cw": 25,
         "st": 12,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google News"
@@ -1210,13 +1210,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google News"
