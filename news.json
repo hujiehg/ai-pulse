@@ -1,8 +1,29 @@
 {
-  "updated": "2026-10-31T12:57:28.039Z",
+  "updated": "2026-10-31T17:29:11.985Z",
   "count": 116,
   "sources": 12,
   "items": [
+    {
+      "id": "-1070410496",
+      "title": "OpenAI reportedly lowers funding target for new round",
+      "titleZh": "据报道， OpenAI降低了新一轮融资目标",
+      "summary": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+      "link": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "pubDate": 1793463175000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "high",
+      "score": 53,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 20,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-1882778600",
       "title": "Chinese hackers attack 200+ organizations with DeepSeek AI agents",
@@ -13,13 +34,13 @@
       "vendor": "deepseek",
       "category": "Agent",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 12,
         "st": 12,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "Google News"
@@ -412,13 +433,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 22,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -433,13 +454,13 @@
       "vendor": "deepseek",
       "category": "Safety",
       "impact": "med",
-      "score": 47,
+      "score": 46,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 3,
         "cw": 10,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -454,13 +475,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 1,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -475,37 +496,16 @@
       "vendor": "nvidia",
       "category": "Agent",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 4,
         "cw": 12,
         "st": 10,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "-1324527644",
-      "title": "Skip the small talk: Make game-changing connections at TechCrunch Founder Summit with Braindate",
-      "titleZh": "跳过闲聊：与Braindate在TechCrunch创始人峰会上建立改变游戏规则的联系",
-      "summary": "At TechCrunch Founder Summit 2026, happening November 4 at SoWa Power Station in Boston, networking powered by Braindate is designed to make those conversations easier to find, whether they are in 1:1…",
-      "link": "https://techcrunch.com/2026/10/30/skip-the-small-talk-make-game-changing-connections-at-techcrunch-founder-summit-with-braindate/",
-      "pubDate": 1793368800000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "1852448791",
@@ -601,13 +601,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -622,13 +622,13 @@
       "vendor": "kimi",
       "category": "Product",
       "impact": "high",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google News"
@@ -643,13 +643,13 @@
       "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 15,
         "st": 14,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "HuggingFace"
