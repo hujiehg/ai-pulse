@@ -1,8 +1,239 @@
 {
-  "updated": "2026-10-31T00:56:47.755Z",
-  "count": 106,
-  "sources": 11,
+  "updated": "2026-10-31T06:29:33.570Z",
+  "count": 116,
+  "sources": 12,
   "items": [
+    {
+      "id": "1819585504",
+      "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
+      "titleZh": "LRMoE ：针对内存受限节点的高效MoE培训的需求侧负载重新校准",
+      "summary": "arXiv:2610.37720v1 Announce Type: new Abstract: Sparse Mixture-of-Experts (MoE) models offer scalable capacity for Web applications, but uneven routing creates computation and communication bottleneck…",
+      "link": "https://arxiv.org/abs/2610.37720",
+      "pubDate": 1793419200000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "high",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 6,
+        "cw": 15,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "69865283",
+      "title": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
+      "titleZh": "应用于海洋湍流封闭的模型校准的摊销局部后验推理",
+      "summary": "arXiv:2610.37731v1 Announce Type: new Abstract: Model discrepancy may prevent a single calibration parameter from reproducing a physical response across the context domain. In addition, uncertainties …",
+      "link": "https://arxiv.org/abs/2610.37731",
+      "pubDate": 1793419200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1569972543",
+      "title": "ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions",
+      "titleZh": "ThinkJev ：校准型决策的一个想法，每一个预算",
+      "summary": "arXiv:2610.37732v1 Announce Type: new Abstract: Many uses of language models end in a typed decision: a choice among a closed set of options, whose probabilities code can act on. Reading those probabi…",
+      "link": "https://arxiv.org/abs/2610.37732",
+      "pubDate": 1793419200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1696550884",
+      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+      "titleZh": "OpenFrontiers ：开放研究问题集合和科学再发现的基准",
+      "summary": "arXiv:2610.37739v1 Announce Type: new Abstract: Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still m…",
+      "link": "https://arxiv.org/abs/2610.37739",
+      "pubDate": 1793419200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "703358513",
+      "title": "WebAnything: From the Wild Web to Scalable Agent Environments",
+      "titleZh": "WebAnything ：从Wild Web到可扩展的代理环境",
+      "summary": "arXiv:2610.37786v1 Announce Type: new Abstract: Web agents require diverse, executable, and resettable website environments for reproducible training and evaluation. Human-assisted mirrors demand per-…",
+      "link": "https://arxiv.org/abs/2610.37786",
+      "pubDate": 1793419200000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "high",
+      "score": 67,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 25,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1858689358",
+      "title": "What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs",
+      "titleZh": "本体会捕捉到什么？策划、LLM生成和数据派生的本体作为LLM代理在知识图谱上的检查器",
+      "summary": "arXiv:2610.37809v1 Announce Type: new Abstract: LLM agents that answer questions over Web knowledge graphs are increasingly wrapped in checks derived from the graph's ontology, on the assumption that …",
+      "link": "https://arxiv.org/abs/2610.37809",
+      "pubDate": 1793419200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1913270383",
+      "title": "Measuring Where Intent Gets Lost in Agentic Smart Contract Synthesis",
+      "titleZh": "在Agentic智能合约合成中测量意图丢失的地方",
+      "summary": "arXiv:2610.37830v1 Announce Type: new Abstract: AI agents can now write software from a plain-English description, but code that runs is not the same as code that does what was asked. This gap matters…",
+      "link": "https://arxiv.org/abs/2610.37830",
+      "pubDate": 1793419200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-239413680",
+      "title": "Detecting Covert Collusion between AI Agents through Partner-Outsider Positive Listening",
+      "titleZh": "通过Partner-Outsider Positive Listening检测人工智能代理之间的秘密勾结",
+      "summary": "arXiv:2610.37849v1 Announce Type: new Abstract: AI agents that share a secret convention can coordinate through messages that look innocent, so a monitor that reads only the messages can miss them. We…",
+      "link": "https://arxiv.org/abs/2610.37849",
+      "pubDate": 1793419200000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 25,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1799934395",
+      "title": "Evaluating and improving AI agents for sequencing protocol understanding",
+      "titleZh": "评估和改进用于测序方案理解的人工智能制剂",
+      "summary": "arXiv:2610.37851v1 Announce Type: new Abstract: Existing scientific-agent benchmarks rarely evaluate whether agents can reconstruct the exact molecular structures and generation workflows specified by…",
+      "link": "https://arxiv.org/abs/2610.37851",
+      "pubDate": 1793419200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "786267284",
+      "title": "Seq@K: Evaluating Language Models Under Sequential Feedback",
+      "titleZh": "Seq @ K ：评估顺序反馈下的语言模型",
+      "summary": "arXiv:2610.37859v1 Announce Type: new Abstract: Language-model agents differ fundamentally from prior intelligent systems in their ability to learn from natural language in context. This capability en…",
+      "link": "https://arxiv.org/abs/2610.37859",
+      "pubDate": 1793419200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1707010605",
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "titleZh": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+      "link": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "pubDate": 1793409605000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "-693764241",
       "title": "Ollie, a privacy-focused AI assistant, is shutting down",
@@ -13,13 +244,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 45,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 5,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -34,13 +265,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,13 +286,13 @@
       "vendor": "techcrunch",
       "category": "Funding",
       "impact": "high",
-      "score": 58,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 3,
         "cw": 20,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -76,13 +307,13 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 1,
         "cw": 12,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -97,13 +328,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "high",
-      "score": 45,
+      "score": 44,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 1,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -172,6 +403,27 @@
       "source": "TechCrunch"
     },
     {
+      "id": "1008360478",
+      "title": "Chinese Hackers Use DeepSeek AI to Target More Than 200 Organizations",
+      "titleZh": "中国黑客使用DeepSeek AI瞄准200多个组织",
+      "summary": "Chinese Hackers Use DeepSeek AI to Target More Than 200 Organizations Security Boulevard",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5xWHE0ZDQycWRwczRKMVF0WlU5N2hVVHFlNkpmUDV2T3ludmpHOXZnMjVBSHRQWm52Ui1OellScmVwZVJoY1p0aXdSZzJKRWYzTV8tWU5vT0NVdzRQaG10dHpMTnBxWEM0UFhFRTdxdjhISEp4UkR1cGxn?oc=5",
+      "pubDate": 1793379530000,
+      "vendor": "deepseek",
+      "category": "Safety",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 10,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-2137544323",
       "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
       "titleZh": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
@@ -235,27 +487,6 @@
       "source": "TechCrunch"
     },
     {
-      "id": "812664278",
-      "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
-      "titleZh": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
-      "summary": "DoorDash said that it is open to working with third-party agent makers.",
-      "link": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
-      "pubDate": 1793368465000,
-      "vendor": "techcrunch",
-      "category": "Agent",
-      "impact": "med",
-      "score": 38,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "1852448791",
       "title": "Making it easier for websites to express AI training preferences",
       "titleZh": "让网站更容易表达人工智能培训偏好",
@@ -298,216 +529,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "1819585504",
-      "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
-      "titleZh": "LRMoE ：针对内存受限节点的高效MoE培训的需求侧负载重新校准",
-      "summary": "arXiv:2610.37720v1 Announce Type: new Abstract: Sparse Mixture-of-Experts (MoE) models offer scalable capacity for Web applications, but uneven routing creates computation and communication bottleneck…",
-      "link": "https://arxiv.org/abs/2610.37720",
-      "pubDate": 1793332800000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 6,
-        "cw": 15,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "69865283",
-      "title": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
-      "titleZh": "应用于海洋湍流封闭的模型校准的摊销局部后验推理",
-      "summary": "arXiv:2610.37731v1 Announce Type: new Abstract: Model discrepancy may prevent a single calibration parameter from reproducing a physical response across the context domain. In addition, uncertainties …",
-      "link": "https://arxiv.org/abs/2610.37731",
-      "pubDate": 1793332800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1569972543",
-      "title": "ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions",
-      "titleZh": "ThinkJev ：校准型决策的一个想法，每一个预算",
-      "summary": "arXiv:2610.37732v1 Announce Type: new Abstract: Many uses of language models end in a typed decision: a choice among a closed set of options, whose probabilities code can act on. Reading those probabi…",
-      "link": "https://arxiv.org/abs/2610.37732",
-      "pubDate": 1793332800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1696550884",
-      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
-      "titleZh": "OpenFrontiers ：开放研究问题集合和科学再发现的基准",
-      "summary": "arXiv:2610.37739v1 Announce Type: new Abstract: Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still m…",
-      "link": "https://arxiv.org/abs/2610.37739",
-      "pubDate": 1793332800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "703358513",
-      "title": "WebAnything: From the Wild Web to Scalable Agent Environments",
-      "titleZh": "WebAnything ：从Wild Web到可扩展的代理环境",
-      "summary": "arXiv:2610.37786v1 Announce Type: new Abstract: Web agents require diverse, executable, and resettable website environments for reproducible training and evaluation. Human-assisted mirrors demand per-…",
-      "link": "https://arxiv.org/abs/2610.37786",
-      "pubDate": 1793332800000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "high",
-      "score": 66,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 25,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1858689358",
-      "title": "What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs",
-      "titleZh": "本体会捕捉到什么？策划、LLM生成和数据派生的本体作为LLM代理在知识图谱上的检查器",
-      "summary": "arXiv:2610.37809v1 Announce Type: new Abstract: LLM agents that answer questions over Web knowledge graphs are increasingly wrapped in checks derived from the graph's ontology, on the assumption that …",
-      "link": "https://arxiv.org/abs/2610.37809",
-      "pubDate": 1793332800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1913270383",
-      "title": "Measuring Where Intent Gets Lost in Agentic Smart Contract Synthesis",
-      "titleZh": "在Agentic智能合约合成中测量意图丢失的地方",
-      "summary": "arXiv:2610.37830v1 Announce Type: new Abstract: AI agents can now write software from a plain-English description, but code that runs is not the same as code that does what was asked. This gap matters…",
-      "link": "https://arxiv.org/abs/2610.37830",
-      "pubDate": 1793332800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 7,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-239413680",
-      "title": "Detecting Covert Collusion between AI Agents through Partner-Outsider Positive Listening",
-      "titleZh": "通过Partner-Outsider Positive Listening检测人工智能代理之间的秘密勾结",
-      "summary": "arXiv:2610.37849v1 Announce Type: new Abstract: AI agents that share a secret convention can coordinate through messages that look innocent, so a monitor that reads only the messages can miss them. We…",
-      "link": "https://arxiv.org/abs/2610.37849",
-      "pubDate": 1793332800000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "med",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 25,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1799934395",
-      "title": "Evaluating and improving AI agents for sequencing protocol understanding",
-      "titleZh": "评估和改进用于测序方案理解的人工智能制剂",
-      "summary": "arXiv:2610.37851v1 Announce Type: new Abstract: Existing scientific-agent benchmarks rarely evaluate whether agents can reconstruct the exact molecular structures and generation workflows specified by…",
-      "link": "https://arxiv.org/abs/2610.37851",
-      "pubDate": 1793332800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "786267284",
-      "title": "Seq@K: Evaluating Language Models Under Sequential Feedback",
-      "titleZh": "Seq @ K ：评估顺序反馈下的语言模型",
-      "summary": "arXiv:2610.37859v1 Announce Type: new Abstract: Language-model agents differ fundamentally from prior intelligent systems in their ability to learn from natural language in context. This capability en…",
-      "link": "https://arxiv.org/abs/2610.37859",
-      "pubDate": 1793332800000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
       "id": "-794719541",
       "title": "Fair use benefits everyone",
       "titleZh": "合理使用对每个人都有好处",
@@ -527,6 +548,27 @@
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "1007710152",
+      "title": "Chinese hackers used DeepSeek and other AI tools in sweeping global cyberattacks, report finds",
+      "titleZh": "报告发现，中国黑客使用DeepSeek和其他人工智能工具进行全面的全球网络攻击",
+      "summary": "Chinese hackers used DeepSeek and other AI tools in sweeping global cyberattacks, report finds NBC News",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT2tBajRGcFVPX2VqQ282N2Z5bWNzZXlvaFlkNkw1djJST1FyNDNhWDAyVHRacU5WckRKaDNSTWJZNVRKZ3pSWi1NR0JUeGM0RlRCTlRncS1uME1lUDNOVExMdE51ODN1TEpLLUFFdUcxN19CRnNwOW9JVnpHQW9EZ0tFb2wtMkMzZTlJTEVpTF8tVUxGZENlUzdfUlk0UDdpYkRxQkh6d1RHRVZ5QUVHSlJsanRNQVZKNlNZ?oc=5",
+      "pubDate": 1793311240000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1143332854",
@@ -949,6 +991,48 @@
       "source": "DeepMind"
     },
     {
+      "id": "1598941105",
+      "title": "DeepSeek AI model raises safety concerns in independent tests",
+      "titleZh": "DeepSeek人工智能模型在独立测试中提出了安全问题",
+      "summary": "DeepSeek AI model raises safety concerns in independent tests The News International",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZXo1ZEtqdFdHMkQzdUNaa0x6WUNjbE9ndEgtZG1TaGR0RXB6RUtnbmVJVmNYYUk3R1JmWFY4T1dPaHM0YlR0QjhBcnk3RUJHZnFkUzlhdmdONW9fVHYzTEUtVkpsTGpocEo5WUJncFlacTYyZS1reXRRbVBCa1FGamU5VW9kV1ZTeFJneVl3R21KSXVKYzZLZWhteTdNcTZRdFBVblBB0gGiAUFVX3lxTFBDTGpNbEgtQ0E2dHNCd19yRk9Weko4LXJJbG42RzdJcWdzd1BPUUVkMkVDZllUbXRKal9Vbm1QM0hNUXlsQk84VGp4VGltUkdkdTVyNDlJamtGdDBVTFBTQ1paX0NBWEFfYnoxSnRjMHQ0bjM2X2FRODgyTDhNekxqdHhuRThCRGR5X0N6amhQZlRNejRtQjliV1Rxb0xRcTlLZw?oc=5",
+      "pubDate": 1793103360000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-2142391915",
+      "title": "DeepSeek AI model shows safety gaps in independent tests",
+      "titleZh": "DeepSeek AI模型显示独立测试中的安全漏洞",
+      "summary": "DeepSeek AI model shows safety gaps in independent tests Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2VtNkRpTEd1M2w3YzYwUE9XV1BYblFJODQxWnhPVngzX2NHNkZjZV9fcTZwVWZpeWVYa3hmQ1hnbjR1M2p6b0FId28xR0xFaF9oLUQ5RU1fd0NXVDV1UTJPeERPZTU0UHkxbEtDNkRSdEFDVk9wazVKZjhsT1dNTTVNYTJOb19nVEdscGltelV1d1pRMjRLeXBvQUpVaHg3N0ow?oc=5",
+      "pubDate": 1793098297000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1757308246",
       "title": "Cohere Finds Qwen AI Model Contacting a Server in China",
       "titleZh": "Cohere发现Qwen AI模型正在连接中国的服务器",
@@ -1075,6 +1159,27 @@
       "source": "Google AI"
     },
     {
+      "id": "2018511732",
+      "title": "DHS Orders Federal Agencies to Remove DeepSeek AI Products",
+      "titleZh": "国土安全部命令联邦机构删除DeepSeek人工智能产品",
+      "summary": "DHS Orders Federal Agencies to Remove DeepSeek AI Products Legis1",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9TUnBPRTdOemk1Y2FlR2ZZRGI3VkdnTGRfSjRSbjdvRXJrYTF1SkxuX1FUR29sWkJRN1BjMGkwZmNGRFY2b0VUZFBJTGxzTjlPczV4RHlvX3o4SkcwNDQydFpPUkVreHdqRXZxRVkzVmZNUE5SOHRWQWxB?oc=5",
+      "pubDate": 1793026959000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "1047758860",
       "title": "Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattacks",
       "titleZh": "随着人们对人工智能网络攻击的担忧加剧， Moonshot抑制了新的Kimi模型的黑客能力",
@@ -1084,13 +1189,13 @@
       "vendor": "kimi",
       "category": "Research",
       "impact": "med",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 22,
         "st": 12,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google News"
@@ -1173,6 +1278,27 @@
         "cq": 20,
         "kv": 2,
         "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-2022391147",
+      "title": "Deepseek's latest AI model is smarter than ever, but its low running costs come at a price — uses only one-quarter of the HBM and one-eighth of SSD storage but still battles hallucinations in agentic workloads",
+      "titleZh": "Deepseek's latest AI model is smarter than ever, but its low running costs come at a price — uses only one-quarter of the HBM and one-eighth of SSD storage but still battles hallucinations in agentic workloads",
+      "summary": "Deepseek's latest AI model is smarter than ever, but its low running costs come at a price — uses only one-quarter of the HBM and one-eighth of SSD storage but still battles hallucinations in agentic …",
+      "link": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxORG9YWXBTSEx5UGZiTmtTVHZXLUE1TlVvRTlWbDNlbGg0Q3paX2llTlYweWR6cEJJUW1SeXY0VHBtb19PUll1d2xLRUFacDNDelZrUkkydGwtT2YwMU5CZXZmZFFTLWJydmk0NHVyWE9DV1E0UGUwbjVKUnhjbVZRaGJsVGg4YjRkaHBtRFY2eGhpMnlJUlBnQnJZaXNLaWVPR2htenVvSks3ZUtzeVpubWI4TVl6M2xZR25HZU9OWW1yT0xYRVVLQW1POE5HMkg5bUpyUjlVblBUeDIzd1JhVm9tX3JDLTVTSVV0Um9xLWRxZFloYXdkSU1wTGpBdUtEVVBTM0RkX2s3SjEtWlg2d0NOZ0hMY2xnVlFlZ3d6MmFyUmNhZHdlYm13X0pWelZYa0JMdFJpb0FPU3FITFJnRFZ0dndEdXg2V2RjdUlRQTFCSkdzTjZKM245WXgwM0dXMTdSTlYtel9WUEZzVGl2M1E4cF9Hc0pCelY2SFg5bw?oc=5",
+      "pubDate": 1792756800000,
+      "vendor": "deepseek",
+      "category": "Agent",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 12,
         "st": 12,
         "rc": 0,
         "cs": 1
@@ -1348,6 +1474,48 @@
       "source": "Google AI"
     },
     {
+      "id": "979951941",
+      "title": "US bans use of China’s DeepSeek AI tools by government agencies",
+      "titleZh": "US bans use of China’s DeepSeek AI tools by government agencies",
+      "summary": "US bans use of China’s DeepSeek AI tools by government agencies The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUV9DaHpRUTR2dzh2cG9RTHdpa3VReVdBSzNfbkJlUm1wX3VXdWREbmMtRkpGOE5SZE0waTJYVmMya2F2NUxCTHRXaXBmaHhpczFZN2JMbG50VEM1cmNWVVpHWVg1ell2ZG9qM013bHpGX3NwbkRLamN3QU04a2pER1FRQXlxb253cDR2aHlvSEZ5V3JxSVZaVDdheDdFMkpj?oc=5",
+      "pubDate": 1792479600000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "983680020",
+      "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
+      "titleZh": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
+      "summary": "US orders federal agencies to remove China’s DeepSeek AI from their systems TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNam1tX0RacFh2aXVWaERGQ1AxTThjRDd3RDZoUXU5ZGxrOU1BYWFnMHhqRmwzLVZWb3NkbWhTYTctcUlqaDVLdXpRdmJXSGRvLUtmV2RORHdLU2RFeFFRWVdybTR4V1BUb3l2eUN0MHBfdlJqQmlYVUkxUlByVEgya1piaXJqaUphN0ZrNFY0dFFlSDRya0JoVC0wcC1uSnN1OUZIbUxVRnVodHBFdGc?oc=5",
+      "pubDate": 1792479600000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "738780645",
       "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
       "titleZh": "西班牙初创公司携手巴塞罗那超级计算中心推进区域创新",
@@ -1409,6 +1577,27 @@
         "cs": 1
       },
       "source": "NVIDIA"
+    },
+    {
+      "id": "650975119",
+      "title": "DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner",
+      "titleZh": "DeepSeek推出更新的人工智能模型，称其更快、更精简",
+      "summary": "DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYjJXOWRqV0xZSERza0ZWWmkwZE1XdncweHdHanZTTFVHWXhkUEFjYjlwNUMxWVB5QWFQdl95U3NOQW5nc0QyajZ2dDNILW9aTzdBUkhIWjZzRGo2bkZydzk4UzBQNFh6dXRjRzdvMWl4UGRITDQtYU9CVVdObzcyaVNud1JmS2lQeThPUk91OEVBdFhOZjh5OC14dGI?oc=5",
+      "pubDate": 1792220400000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-2130920934",
@@ -1846,6 +2035,27 @@
         "kv": 0,
         "cw": 22,
         "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "307854279",
+      "title": "US Says Alibaba, DeepSeek Have ‘Systematically’ Siphoned AI Models",
+      "titleZh": "US Says Alibaba, DeepSeek Have ‘Systematically’ Siphoned AI Models",
+      "summary": "US Says Alibaba, DeepSeek Have ‘Systematically’ Siphoned AI Models Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZk92eWg4ODl3QnlnbmROdWEwaTllZm5TTFlPZXRKSnFjUUxjcnAwUGxDd2poTDh0V2N1S2xaLTI4Y3h0V09YOXd5MmszMkdUWUE4V2pOcEp3SjJuVUUxZjhNeXBNbW14dl9fRGRIWTJfZkN2bFNGc0V2Zk40SEtiZzFvaFdETm5jN3d2eE1tVHgxbDktV3Bfa3FfQnpGV2tsYTRNSFFKWjFGaTNQaVZ1VGE5MWc?oc=5",
+      "pubDate": 1788937200000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
         "rc": 0,
         "cs": 1
       },
