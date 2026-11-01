@@ -1,8 +1,29 @@
 {
-  "updated": "2026-11-01T10:43:06.260Z",
-  "count": 105,
+  "updated": "2026-11-01T16:59:32.558Z",
+  "count": 106,
   "sources": 11,
   "items": [
+    {
+      "id": "-44029997",
+      "title": "DeepSeek developing AI agent requiring less human input: Report",
+      "titleZh": "DeepSeek开发需要更少人工输入的人工智能代理：报告",
+      "summary": "DeepSeek developing AI agent requiring less human input: Report TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcmdLTFcyVllyUGhWamlJRm1FMk5uOU1CTmlJeEozdXRvZjd2UWN1M0xMMzBTd1JrdFU0eXdxb2lQdTNUWWxhb0pfRDJud1pERnpfVUhVckNvYmllc3oySEhidTA0Z3VtQ255MFlhWkRkSy11OC0tV1hYQ1I4OGJuVk1RMmJqdHV5dVdqTWZjZHBKNkdBWTBBZ091WmpQdzQya3p0XzczYk5Zck13ZEU4X3VtbkNQczEtVU13TzBLQVVsX2cy?oc=5",
+      "pubDate": 1793540433000,
+      "vendor": "deepseek",
+      "category": "Agent",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 12,
+        "st": 12,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
     {
       "id": "1983042075",
       "title": "DeepSeek unveils AI ‘super agent’ in coding race with OpenAI, Anthropic",
@@ -13,31 +34,73 @@
       "vendor": "deepseek",
       "category": "Release",
       "impact": "med",
-      "score": 67,
+      "score": 65,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 4,
         "cw": 25,
         "st": 12,
-        "rc": 5,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
     },
     {
-      "id": "-632714745",
-      "title": "DeepSeek Open Sources the Architecture Behind Its Super-Agent",
-      "titleZh": "DeepSeek开源其超级代理背后的架构",
-      "summary": "DeepSeek Open Sources the Architecture Behind Its Super-Agent Startup Fortune",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTFhOWk9yYkRyNkE0d3FxeWNtVDdmcGFNTHBxeWxINk1iUGJMQTd4c2lXRkNMY3NjejVyTGIwZmdYQXUweTdNUHAwblI5M2dGNmd5TWR5SXo4Rmx6d3ZCWjZhX21YZHNoMDNhT3cycEtxd2FGeEdPbkR3UWRiRkNwbTJyandOcEtQXzRyUkxhdlhybTg?oc=5",
-      "pubDate": 1793492307000,
+      "id": "-2085080393",
+      "title": "Alibaba’s Qwen AI model to integrate into Apple Intelligence in landmark partnership",
+      "titleZh": "Alibaba’s Qwen AI model to integrate into Apple Intelligence in landmark partnership",
+      "summary": "Alibaba’s Qwen AI model to integrate into Apple Intelligence in landmark partnership Macau Business",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORDZIMzVFSnpwNVhFbUFma0dwQXZPZjRrM3hiWDhPcjF2azZZdDFOcllhLVZ3VW8xZTlyQjE3emZWdy1DZGoxRHVweFpONURMQkw4b3JnZnlfUnUtdm5OUlJmQXotcHhlakg2ZzJsZm9vUS1iSndVMU1DRThrNm44cDF5TmRHZGtXQTR5V2RaYWpOUnNPeS1UaWZjOGJWdlRDeXc0QjVqS3pKbDJuaHZn?oc=5",
+      "pubDate": 1793516338000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "372663707",
+      "title": "DeepSeek unveils ‘Super-agent’ design to handle multiple tasks in parallel and improve efficiency",
+      "titleZh": "DeepSeek unveils ‘Super-agent’ design to handle multiple tasks in parallel and improve efficiency",
+      "summary": "DeepSeek unveils ‘Super-agent’ design to handle multiple tasks in parallel and improve efficiency Global Times",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXdWVIMG1kTDNsREQ0ZElVZmMydDNBT0N1bVVWZ3NTRkVieURnTHc4MHc4N2trbHpTMTdQdE1wQ20zcmlOeHVMdEJMT3phZWVubjF2aWRjRWhRcDVUVjNtNkhR?oc=5",
+      "pubDate": 1793507820000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-2124938851",
+      "title": "DeepSeek Drops Enhanced Coding Agent With Aim to Rival Anthropic",
+      "titleZh": "DeepSeek放弃了增强的编码代理，旨在与Anthropic竞争",
+      "summary": "DeepSeek Drops Enhanced Coding Agent With Aim to Rival Anthropic Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSGJoZUdrNzFHTjRVcm9OOVZ5a1Z4dVB4ME1aNjlmYmdjX1ZOTXNWTFJTNFFFUkQ2UUxxTGV4UDlOS0RjMnRlWlFUZ04yemVtQU9zU3FZbHlWY1YxMi1YSVBGb3k5cGszYnptNnZVZk1mR1NmS0RvLUhOeS1QUmxZamtoNGgzR21CR2tmY0JUd1c3YXBBMlc0SDhkZm9kOFRtZ3NvQ2RLNVZOYnFaV2x5Vy1ra3ZNUQ?oc=5",
+      "pubDate": 1793504880000,
       "vendor": "deepseek",
       "category": "Agent",
       "impact": "med",
       "score": 50,
       "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
+        "cq": 20,
+        "kv": 2,
         "cw": 12,
         "st": 12,
         "rc": 3,
@@ -118,37 +181,16 @@
       "vendor": "techcrunch",
       "category": "Funding",
       "impact": "high",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 20,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
-    },
-    {
-      "id": "1639005969",
-      "title": "Alibaba's Qwen AI model to integrate into Apple Intelligence in landmark partnership",
-      "titleZh": "阿里巴巴的Qwen AI模型将以具有里程碑意义的合作伙伴关系整合到Apple Intelligence中",
-      "summary": "Alibaba's Qwen AI model to integrate into Apple Intelligence in landmark partnership Xinhua",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBDdm9yZ0ZYTTRwYXdMOWdXaXd5Zlp3eXlLVDlIbWdKb3VuaXBZbExuRkhGRnQ2RnViOTFBYzRpUGVmU2xKZXhBRy1wTGZpX25SdkY0d0hOVHpKa1VlZ09rVkJBWUo0SnR6ZU9jUTJUb1JIRVRJdUxJMEFUUUY?oc=5",
-      "pubDate": 1793463015000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1707010605",
@@ -298,27 +340,6 @@
       "source": "HuggingFace"
     },
     {
-      "id": "1008360478",
-      "title": "Chinese Hackers Use DeepSeek AI to Target More Than 200 Organizations",
-      "titleZh": "中国黑客使用DeepSeek AI瞄准200多个组织",
-      "summary": "Chinese Hackers Use DeepSeek AI to Target More Than 200 Organizations Security Boulevard",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5xWHE0ZDQycWRwczRKMVF0WlU5N2hVVHFlNkpmUDV2T3ludmpHOXZnMjVBSHRQWm52Ui1OellScmVwZVJoY1p0aXdSZzJKRWYzTV8tWU5vT0NVdzRQaG10dHpMTnBxWEM0UFhFRTdxdjhISEp4UkR1cGxn?oc=5",
-      "pubDate": 1793379530000,
-      "vendor": "deepseek",
-      "category": "Safety",
-      "impact": "med",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 10,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-2100012386",
       "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
       "titleZh": "夜间哔哔声：智能人工智能加入对外星信号的搜索",
@@ -328,13 +349,13 @@
       "vendor": "nvidia",
       "category": "Agent",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 4,
         "cw": 12,
         "st": 10,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "NVIDIA"
@@ -422,27 +443,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "1007710152",
-      "title": "Chinese hackers used DeepSeek and other AI tools in sweeping global cyberattacks, report finds",
-      "titleZh": "报告发现，中国黑客使用DeepSeek和其他人工智能工具进行全面的全球网络攻击",
-      "summary": "Chinese hackers used DeepSeek and other AI tools in sweeping global cyberattacks, report finds NBC News",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT2tBajRGcFVPX2VqQ282N2Z5bWNzZXlvaFlkNkw1djJST1FyNDNhWDAyVHRacU5WckRKaDNSTWJZNVRKZ3pSWi1NR0JUeGM0RlRCTlRncS1uME1lUDNOVExMdE51ODN1TEpLLUFFdUcxN19CRnNwOW9JVnpHQW9EZ0tFb2wtMkMzZTlJTEVpTF8tVUxGZENlUzdfUlk0UDdpYkRxQkh6d1RHRVZ5QUVHSlJsanRNQVZKNlNZ?oc=5",
-      "pubDate": 1793311240000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1143332854",
@@ -907,6 +907,27 @@
       "source": "Google News"
     },
     {
+      "id": "1001171444",
+      "title": "Moonshot apologises after botched Kimi K3.1 Pro launch, restores user quotas",
+      "titleZh": "在拙劣的Kimi K3.1 Pro发布后， Moonshot道歉，恢复用户配额",
+      "summary": "Moonshot apologises after botched Kimi K3.1 Pro launch, restores user quotas South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaXZnQ1VPbTVMaHJOX2NKSUl3T1hxem9OT1dGc3M1OVlPZVE1OWRSS2ZhaV8wdC1OWndieXZPd1NLaF85WUstRWlNNWRIR0xTUlVEcVVLOTZwNGZ3X0hiNzBxRGhoOGxHWXdVeE5PR3hNeDlFazJ3eWdkdzJQLXprUzRLRkJjZkhjdDhUcjhjUVpMc0JpRW1hdW1MdGZ6Q2JBQV9XTXl1MFF4aDNyUF9CcmpTVUN3YWl6YkcySmlKTEtKdVRjVGtHRWR3VE9BbEF50gHQAUFVX3lxTE9yb0ZaeVFTcDQybWN0b0JfQVZwczZ5R1lEY09OaVZJSjZfTWNwZjd2UkhGQ252dXRYZUVWRlhJQjNxODdEZmNZREVSb3A0YTBmX0lkRVRYbkJrLVQ5MWY3c0JwSWpHN1k0ZGk1anBYSy1mWGFPclN1am5ZajFiaU1SZHRabTA5bFFub2ZIVFppYXVuWHhqQTZkSmVvTGFBNnJHUFN4andkS2c0YUR4V2tTeU1CSllVblVySjY5U3BKeUxlNlY4RWVVMHJnZmdJdnE?oc=5",
+      "pubDate": 1793080810000,
+      "vendor": "kimi",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "886376623",
       "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
       "titleZh": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
@@ -921,6 +942,27 @@
         "cq": 18,
         "kv": 2,
         "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-271269781",
+      "title": "Moonshot AI launches upgraded Kimi model",
+      "titleZh": "Moonshot AI推出升级版Kimi模型",
+      "summary": "Moonshot AI launches upgraded Kimi model China Daily",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9rUnF3WWotOThlcWhUeUZlV2FTdVBwUGhWblVfS0hzcDhxM0JXXzU2YmdUVS1mYnZ6dWVqNk41cWVadmdmMDFaZWs0ZFc0WGlLaThzSVpRT0JNU2NvZEU1WkFqU2drWTF2OXRvbEdNV0FhdWlrVU9jMnhHOVJDdw?oc=5",
+      "pubDate": 1793061824000,
+      "vendor": "kimi",
+      "category": "Release",
+      "impact": "high",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 25,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -1012,27 +1054,6 @@
       "source": "Google News"
     },
     {
-      "id": "952397843",
-      "title": "Moonshot AI launches new flagship Kim K3.1 Pro model with 3T parameters",
-      "titleZh": "Moonshot AI推出带有3T参数的新旗舰型号Kim K3.1 Pro",
-      "summary": "Moonshot AI launches new flagship Kim K3.1 Pro model with 3T parameters SiliconANGLE",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNE0yTnZ3bmZweG5GVGx6eGV2bTBOR0x6ZEp5TThmR3prQWlhRzdPaWc2Z1FJWEJmc2J6Y1M0SVBsS2VtMHhWS29sNXI0U1R3XzV3YV8tWTh3OEIzNkpJaW1FVkFEcHEwdWtWVzYzVzg4S2lpdFdpWDM2Rm9KS1ZTN2FTclFkcENXeEJZV25hRnM1QUFnNWdvY1VCYkFpeTFSeUJBekwzemNKVjhm?oc=5",
-      "pubDate": 1792803300000,
-      "vendor": "kimi",
-      "category": "Release",
-      "impact": "high",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1441228459",
       "title": "Moonshot AI Launches New Kimi K3.1 Pro Model",
       "titleZh": "Moonshot AI推出全新Kimi K3.1 Pro机型",
@@ -1047,27 +1068,6 @@
         "cq": 20,
         "kv": 4,
         "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "327204296",
-      "title": "Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5",
-      "titleZh": "中国人工智能模型Kimi K3.1 Pro正在接近Anthropic的Claude Opus 5.5",
-      "summary": "Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5 The Decoder",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZ3hIVEJReWhldnNyNVRzeGhuZjdJNHh6X1dkSG9CbkliWXducy14dlhrdk0yM09mLTJNcmtRak5JRTlCSW5oVm1vVnY0ZDJod0ZZZmxCd2JScllXdHVvLXlLR1BsOFNuLXBsWGhWWjNoMm1tY0FoN3BaM2F4LUpLZjFVNTI4VmNySFBneWNCWFMxSFRDNUhiWW1WVzhITUIy?oc=5",
-      "pubDate": 1792782191000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 15,
         "st": 12,
         "rc": 0,
         "cs": 1
@@ -1131,6 +1131,27 @@
         "cq": 20,
         "kv": 2,
         "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-2022391147",
+      "title": "Deepseek's latest AI model is smarter than ever, but its low running costs come at a price — uses only one-quarter of the HBM and one-eighth of SSD storage but still battles hallucinations in agentic workloads",
+      "titleZh": "Deepseek's latest AI model is smarter than ever, but its low running costs come at a price — uses only one-quarter of the HBM and one-eighth of SSD storage but still battles hallucinations in agentic workloads",
+      "summary": "Deepseek's latest AI model is smarter than ever, but its low running costs come at a price — uses only one-quarter of the HBM and one-eighth of SSD storage but still battles hallucinations in agentic …",
+      "link": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxORG9YWXBTSEx5UGZiTmtTVHZXLUE1TlVvRTlWbDNlbGg0Q3paX2llTlYweWR6cEJJUW1SeXY0VHBtb19PUll1d2xLRUFacDNDelZrUkkydGwtT2YwMU5CZXZmZFFTLWJydmk0NHVyWE9DV1E0UGUwbjVKUnhjbVZRaGJsVGg4YjRkaHBtRFY2eGhpMnlJUlBnQnJZaXNLaWVPR2htenVvSks3ZUtzeVpubWI4TVl6M2xZR25HZU9OWW1yT0xYRVVLQW1POE5HMkg5bUpyUjlVblBUeDIzd1JhVm9tX3JDLTVTSVV0Um9xLWRxZFloYXdkSU1wTGpBdUtEVVBTM0RkX2s3SjEtWlg2d0NOZ0hMY2xnVlFlZ3d6MmFyUmNhZHdlYm13X0pWelZYa0JMdFJpb0FPU3FITFJnRFZ0dndEdXg2V2RjdUlRQTFCSkdzTjZKM245WXgwM0dXMTdSTlYtel9WUEZzVGl2M1E4cF9Hc0pCelY2SFg5bw?oc=5",
+      "pubDate": 1792738800000,
+      "vendor": "deepseek",
+      "category": "Agent",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 12,
         "st": 12,
         "rc": 0,
         "cs": 1
@@ -1306,11 +1327,11 @@
       "source": "Google AI"
     },
     {
-      "id": "983680020",
-      "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
-      "titleZh": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
-      "summary": "US orders federal agencies to remove China’s DeepSeek AI from their systems TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNam1tX0RacFh2aXVWaERGQ1AxTThjRDd3RDZoUXU5ZGxrOU1BYWFnMHhqRmwzLVZWb3NkbWhTYTctcUlqaDVLdXpRdmJXSGRvLUtmV2RORHdLU2RFeFFRWVdybTR4V1BUb3l2eUN0MHBfdlJqQmlYVUkxUlByVEgya1piaXJqaUphN0ZrNFY0dFFlSDRya0JoVC0wcC1uSnN1OUZIbUxVRnVodHBFdGc?oc=5",
+      "id": "979951941",
+      "title": "US bans use of China’s DeepSeek AI tools by government agencies",
+      "titleZh": "US bans use of China’s DeepSeek AI tools by government agencies",
+      "summary": "US bans use of China’s DeepSeek AI tools by government agencies The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUV9DaHpRUTR2dzh2cG9RTHdpa3VReVdBSzNfbkJlUm1wX3VXdWREbmMtRkpGOE5SZE0waTJYVmMya2F2NUxCTHRXaXBmaHhpczFZN2JMbG50VEM1cmNWVVpHWVg1ell2ZG9qM013bHpGX3NwbkRLamN3QU04a2pER1FRQXlxb253cDR2aHlvSEZ5V3JxSVZaVDdheDdFMkpj?oc=5",
       "pubDate": 1792479600000,
       "vendor": "deepseek",
       "category": "Product",
@@ -1388,27 +1409,6 @@
         "cs": 1
       },
       "source": "NVIDIA"
-    },
-    {
-      "id": "650975119",
-      "title": "DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner",
-      "titleZh": "DeepSeek推出更新的人工智能模型，称其更快、更精简",
-      "summary": "DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYjJXOWRqV0xZSERza0ZWWmkwZE1XdncweHdHanZTTFVHWXhkUEFjYjlwNUMxWVB5QWFQdl95U3NOQW5nc0QyajZ2dDNILW9aTzdBUkhIWjZzRGo2bkZydzk4UzBQNFh6dXRjRzdvMWl4UGRITDQtYU9CVVdObzcyaVNud1JmS2lQeThPUk91OEVBdFhOZjh5OC14dGI?oc=5",
-      "pubDate": 1792220400000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-2130920934",
@@ -1831,6 +1831,48 @@
       "source": "Google News"
     },
     {
+      "id": "1445488454",
+      "title": "DeepSeek says new Flash AI model beats Kimi K3 on cyber, coding benchmarks",
+      "titleZh": "DeepSeek表示，新的Flash AI模型在网络编码基准方面击败了Kimi K3",
+      "summary": "DeepSeek says new Flash AI model beats Kimi K3 on cyber, coding benchmarks South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSEFTVVFpTGZmWEktNjRudFpfczRqV3lvUDVVclpQVFlsdEFVd0dNYVBsbE4yMm5PZGEtRnZSTFhTd1Vxa1pKdTVVUzhua29DTmt5a2dZYWt0VXkxZmtHZmNmT1ZOcHFBWkJWVE1sU3d4T2pXRDhETHRfOWp0Mmw1NXk5X2Q3NFhwUE5hZWVWRHpsMlZFUFptaEpzdDVTYWpRMWhZajFCbVBVMEZwRVpIT2c0djN1SmttRmtyM2x30gG-AUFVX3lxTE8zdTFRQnM3dndWeTRYcHFrTEIySmZFUEV4M0t6cDNBTU5YeGhrVVZWV2NtTDBvM3BXMVJXZ2FQNG04VC1Nd0RHVktEaFZIZmxDYmNYeHJlQjlka0c5NVg0TEppSV9RU0hLZ3VBWW5Hc0FSd2owckFKSEZ0M2cwUGFLcVljU25aOEh3OXhzYWJVdmh4Y2o2Q3g4QXFQazRDLXR2OTRRVVFpMlV2MlR6UV9kdXhuZ2JkNTRnekZGMFE?oc=5",
+      "pubDate": 1789023600000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 5,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "307854279",
+      "title": "US Says Alibaba, DeepSeek Have ‘Systematically’ Siphoned AI Models",
+      "titleZh": "US Says Alibaba, DeepSeek Have ‘Systematically’ Siphoned AI Models",
+      "summary": "US Says Alibaba, DeepSeek Have ‘Systematically’ Siphoned AI Models Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZk92eWg4ODl3QnlnbmROdWEwaTllZm5TTFlPZXRKSnFjUUxjcnAwUGxDd2poTDh0V2N1S2xaLTI4Y3h0V09YOXd5MmszMkdUWUE4V2pOcEp3SjJuVUUxZjhNeXBNbW14dl9fRGRIWTJfZkN2bFNGc0V2Zk40SEtiZzFvaFdETm5jN3d2eE1tVHgxbDktV3Bfa3FfQnpGV2tsYTRNSFFKWjFGaTNQaVZ1VGE5MWc?oc=5",
+      "pubDate": 1788937200000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "2147151731",
       "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
       "titleZh": "企业AI的真正风险不是自主代理。这是它们之间的复杂性。",
@@ -1913,27 +1955,6 @@
         "cs": 1
       },
       "source": "VentureBeat"
-    },
-    {
-      "id": "-1937431074",
-      "title": "DeepSeek's new bargain model accelerates AI's race to zero",
-      "titleZh": "DeepSeek的新讨价还价模式加速了人工智能的零竞赛",
-      "summary": "DeepSeek's new bargain model accelerates AI's race to zero Axios",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04emlXWXpVQXhNcjJsU1d5ZmhnU1J2TFRyeFlxM2hqUUNUNVR2UmxFQUNBanYwWnd5ZUpTRnptVEh2TXU2NU5aa0FRbFV6ejVPd2wxWFNXa3RoaTZPQ0dQSHc0Tkk4WE93Q1JwV0tIWGNBaGNG?oc=5",
-      "pubDate": 1785567600000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-1093452510",
