@@ -1,8 +1,50 @@
 {
-  "updated": "2026-11-01T03:16:40.114Z",
-  "count": 116,
-  "sources": 12,
+  "updated": "2026-11-01T10:43:06.260Z",
+  "count": 105,
+  "sources": 11,
   "items": [
+    {
+      "id": "1983042075",
+      "title": "DeepSeek unveils AI ‘super agent’ in coding race with OpenAI, Anthropic",
+      "titleZh": "DeepSeek unveils AI ‘super agent’ in coding race with OpenAI, Anthropic",
+      "summary": "DeepSeek unveils AI ‘super agent’ in coding race with OpenAI, Anthropic South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbFU5NlZJMVBaQ0txUnotazkwaWdmQzJwb3JvWUY4dTFHd2VERGZtdVJiMmxaTG9vR0pjZjFLOXZoZVRfRlFFZzM3dV81VVM3RDZLckQxZ01nc2ZFWGVvQlVoalk3X21iWDdBa29WcWNvblY1YVpGc3hPbDJCVVA3a2d2YVJDbFlZRUdkZ0NXTHplVTlEUGJ6RVBXTXZ1bWQ5eVRNNtIBpAFBVV95cUxQY3o3SXYteGFPRF9kQ3psaFZaTDJHMzhibnhoVE5LdjhGVUxkN2VBNnVuNHd2XzhodEpYLTRyMzhRcXNpWjY4SjBhMmdzek1oN0ZGRnh6RU5aWm12QUxYdDVvaktJUUU2UE1QVVdXUzhvdHFPZ0FrOHpOODJNQUlHYm5DSlI3aW8wS0dpMHFDWTNfNGpQeS0wYnU1TkIxbmtxVGRfSw?oc=5",
+      "pubDate": 1793527226000,
+      "vendor": "deepseek",
+      "category": "Release",
+      "impact": "med",
+      "score": 67,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-632714745",
+      "title": "DeepSeek Open Sources the Architecture Behind Its Super-Agent",
+      "titleZh": "DeepSeek开源其超级代理背后的架构",
+      "summary": "DeepSeek Open Sources the Architecture Behind Its Super-Agent Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTFhOWk9yYkRyNkE0d3FxeWNtVDdmcGFNTHBxeWxINk1iUGJMQTd4c2lXRkNMY3NjejVyTGIwZmdYQXUweTdNUHAwblI5M2dGNmd5TWR5SXo4Rmx6d3ZCWjZhX21YZHNoMDNhT3cycEtxd2FGeEdPbkR3UWRiRkNwbTJyandOcEtQXzRyUkxhdlhybTg?oc=5",
+      "pubDate": 1793492307000,
+      "vendor": "deepseek",
+      "category": "Agent",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 12,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
     {
       "id": "-1305328262",
       "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
@@ -13,13 +55,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -34,13 +76,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,37 +97,16 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "279806864",
-      "title": "Alibaba partners with Apple to integrate Qwen AI model into Apple Intelligence for Chinese market",
-      "titleZh": "阿里巴巴与苹果合作，将Qwen AI模型整合到中国市场的Apple Intelligence中",
-      "summary": "Alibaba partners with Apple to integrate Qwen AI model into Apple Intelligence for Chinese market Anadolu Ajansı",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYWxtSWxQWFFKLVc1dUZCdGtGOElTdFlWeTJZV0FWZ0MzbXBzbkpNSzNmclhleVlWblpHeElhSHhNMDZtcHlKWjBZTVFEQk9MRDJlcWZDWFZQYzlUZDdGcVBDTVk0RndNdC1iVG9taW9vY0FCdTF6WWVzSjdhQVp1Yk1jUkQ4QU9jZjdCTlRCZmZmZTBranBrSzh0cDcydmVWVmpYQ21SOXFyYUkyTUZFU0VVZzdXUnY0S2Q0bzE5ZU1XcGRxVUh2bDdyNHM2RGV3MUlJUVVBS3g1S28?oc=5",
-      "pubDate": 1793468296000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
         "rc": 3,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "TechCrunch"
     },
     {
       "id": "-1070410496",
@@ -109,214 +130,25 @@
       "source": "TechCrunch"
     },
     {
-      "id": "1819585504",
-      "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
-      "titleZh": "LRMoE ：针对内存受限节点的高效MoE培训的需求侧负载重新校准",
-      "summary": "arXiv:2610.37720v1 Announce Type: new Abstract: Sparse Mixture-of-Experts (MoE) models offer scalable capacity for Web applications, but uneven routing creates computation and communication bottleneck…",
-      "link": "https://arxiv.org/abs/2610.37720",
-      "pubDate": 1793419200000,
-      "vendor": "arxiv",
+      "id": "1639005969",
+      "title": "Alibaba's Qwen AI model to integrate into Apple Intelligence in landmark partnership",
+      "titleZh": "阿里巴巴的Qwen AI模型将以具有里程碑意义的合作伙伴关系整合到Apple Intelligence中",
+      "summary": "Alibaba's Qwen AI model to integrate into Apple Intelligence in landmark partnership Xinhua",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBDdm9yZ0ZYTTRwYXdMOWdXaXd5Zlp3eXlLVDlIbWdKb3VuaXBZbExuRkhGRnQ2RnViOTFBYzRpUGVmU2xKZXhBRy1wTGZpX25SdkY0d0hOVHpKa1VlZ09rVkJBWUo0SnR6ZU9jUTJUb1JIRVRJdUxJMEFUUUY?oc=5",
+      "pubDate": 1793463015000,
+      "vendor": "qwen",
       "category": "Product",
-      "impact": "high",
-      "score": 62,
+      "impact": "med",
+      "score": 51,
       "scoreBreakdown": {
-        "cq": 24,
-        "kv": 6,
+        "cq": 18,
+        "kv": 2,
         "cw": 15,
-        "st": 13,
+        "st": 12,
         "rc": 3,
         "cs": 1
       },
-      "source": "arXiv"
-    },
-    {
-      "id": "69865283",
-      "title": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
-      "titleZh": "应用于海洋湍流封闭的模型校准的摊销局部后验推理",
-      "summary": "arXiv:2610.37731v1 Announce Type: new Abstract: Model discrepancy may prevent a single calibration parameter from reproducing a physical response across the context domain. In addition, uncertainties …",
-      "link": "https://arxiv.org/abs/2610.37731",
-      "pubDate": 1793419200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1569972543",
-      "title": "ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions",
-      "titleZh": "ThinkJev ：校准型决策的一个想法，每一个预算",
-      "summary": "arXiv:2610.37732v1 Announce Type: new Abstract: Many uses of language models end in a typed decision: a choice among a closed set of options, whose probabilities code can act on. Reading those probabi…",
-      "link": "https://arxiv.org/abs/2610.37732",
-      "pubDate": 1793419200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1696550884",
-      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
-      "titleZh": "OpenFrontiers ：开放研究问题集合和科学再发现的基准",
-      "summary": "arXiv:2610.37739v1 Announce Type: new Abstract: Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still m…",
-      "link": "https://arxiv.org/abs/2610.37739",
-      "pubDate": 1793419200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "703358513",
-      "title": "WebAnything: From the Wild Web to Scalable Agent Environments",
-      "titleZh": "WebAnything ：从Wild Web到可扩展的代理环境",
-      "summary": "arXiv:2610.37786v1 Announce Type: new Abstract: Web agents require diverse, executable, and resettable website environments for reproducible training and evaluation. Human-assisted mirrors demand per-…",
-      "link": "https://arxiv.org/abs/2610.37786",
-      "pubDate": 1793419200000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "high",
-      "score": 66,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 25,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1858689358",
-      "title": "What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs",
-      "titleZh": "本体会捕捉到什么？策划、LLM生成和数据派生的本体作为LLM代理在知识图谱上的检查器",
-      "summary": "arXiv:2610.37809v1 Announce Type: new Abstract: LLM agents that answer questions over Web knowledge graphs are increasingly wrapped in checks derived from the graph's ontology, on the assumption that …",
-      "link": "https://arxiv.org/abs/2610.37809",
-      "pubDate": 1793419200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1913270383",
-      "title": "Measuring Where Intent Gets Lost in Agentic Smart Contract Synthesis",
-      "titleZh": "在Agentic智能合约合成中测量意图丢失的地方",
-      "summary": "arXiv:2610.37830v1 Announce Type: new Abstract: AI agents can now write software from a plain-English description, but code that runs is not the same as code that does what was asked. This gap matters…",
-      "link": "https://arxiv.org/abs/2610.37830",
-      "pubDate": 1793419200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 7,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-239413680",
-      "title": "Detecting Covert Collusion between AI Agents through Partner-Outsider Positive Listening",
-      "titleZh": "通过Partner-Outsider Positive Listening检测人工智能代理之间的秘密勾结",
-      "summary": "arXiv:2610.37849v1 Announce Type: new Abstract: AI agents that share a secret convention can coordinate through messages that look innocent, so a monitor that reads only the messages can miss them. We…",
-      "link": "https://arxiv.org/abs/2610.37849",
-      "pubDate": 1793419200000,
-      "vendor": "arxiv",
-      "category": "Release",
-      "impact": "med",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 25,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1799934395",
-      "title": "Evaluating and improving AI agents for sequencing protocol understanding",
-      "titleZh": "评估和改进用于测序方案理解的人工智能制剂",
-      "summary": "arXiv:2610.37851v1 Announce Type: new Abstract: Existing scientific-agent benchmarks rarely evaluate whether agents can reconstruct the exact molecular structures and generation workflows specified by…",
-      "link": "https://arxiv.org/abs/2610.37851",
-      "pubDate": 1793419200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "786267284",
-      "title": "Seq@K: Evaluating Language Models Under Sequential Feedback",
-      "titleZh": "Seq @ K ：评估顺序反馈下的语言模型",
-      "summary": "arXiv:2610.37859v1 Announce Type: new Abstract: Language-model agents differ fundamentally from prior intelligent systems in their ability to learn from natural language in context. This capability en…",
-      "link": "https://arxiv.org/abs/2610.37859",
-      "pubDate": 1793419200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
+      "source": "Google News"
     },
     {
       "id": "1707010605",
@@ -517,13 +349,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -538,13 +370,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 1,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -823,27 +655,6 @@
       "source": "HuggingFace"
     },
     {
-      "id": "-869050568",
-      "title": "Alibaba’s Qwen AI Model Attempted Data Upload to China During Canadian Test",
-      "titleZh": "Alibaba’s Qwen AI Model Attempted Data Upload to China During Canadian Test",
-      "summary": "Alibaba’s Qwen AI Model Attempted Data Upload to China During Canadian Test THE ELEC, Korea Electronics Industry Media",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1sRmFDaGUyT3FvTTV0enVqSVloNGRMVjhUYkU5RnBxTzI1VE1ZSjZ6MHVxTERQY0RxNzNZcnRNV2RQbUZhX01PUWhmYWVYN3RzMEtoTVFIeEpXdjBReXZBTy14MU5hVEE?oc=5",
-      "pubDate": 1793230029000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "454192783",
       "title": "Gemini 4 Carbon: Our next frontier model",
       "titleZh": "Gemini 4 Carbon ：我们的下一个前沿车型",
@@ -949,6 +760,27 @@
       "source": "OpenAI"
     },
     {
+      "id": "1366631983",
+      "title": "Qwen 3.8 invents Alibaba URLs with a real key ID, and that's why I don't think it's a backdoor",
+      "titleZh": "Qwen 3.8发明了带有真实密钥ID的阿里巴巴URL ，这就是为什么我不认为它是一个后门",
+      "summary": "Qwen 3.8 invents Alibaba URLs with a real key ID, and that's why I don't think it's a backdoor XDA",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQVFiRU9BTWgzX1BKQi1Td1VnbHpMcFR0V2pJR0E0bkFXdUNfdnI4c1JwdHY2RUdTTzBJWUJtN2YwY0NuSThkVmZVcWhBbVdNVnBFSGhqd1JNR0FJb0ZZajRBZkJiZVhjSDVEX3BJMFhxaUQtdzQwNlMxczhTRl92ZmxGX2luUVRiSzZLLUl0bkloMWc?oc=5",
+      "pubDate": 1793156160000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "990900",
       "title": "Alibaba's latest Qwen models routed some requests through company servers, researchers find",
       "titleZh": "研究人员发现，阿里巴巴最新的Qwen模型通过公司服务器路由了一些请求",
@@ -1031,27 +863,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "1598941105",
-      "title": "DeepSeek AI model raises safety concerns in independent tests",
-      "titleZh": "DeepSeek人工智能模型在独立测试中提出了安全问题",
-      "summary": "DeepSeek AI model raises safety concerns in independent tests The News International",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZXo1ZEtqdFdHMkQzdUNaa0x6WUNjbE9ndEgtZG1TaGR0RXB6RUtnbmVJVmNYYUk3R1JmWFY4T1dPaHM0YlR0QjhBcnk3RUJHZnFkUzlhdmdONW9fVHYzTEUtVkpsTGpocEo5WUJncFlacTYyZS1reXRRbVBCa1FGamU5VW9kV1ZTeFJneVl3R21KSXVKYzZLZWhteTdNcTZRdFBVblBB0gGiAUFVX3lxTFBDTGpNbEgtQ0E2dHNCd19yRk9Weko4LXJJbG42RzdJcWdzd1BPUUVkMkVDZllUbXRKal9Vbm1QM0hNUXlsQk84VGp4VGltUkdkdTVyNDlJamtGdDBVTFBTQ1paX0NBWEFfYnoxSnRjMHQ0bjM2X2FRODgyTDhNekxqdHhuRThCRGR5X0N6amhQZlRNejRtQjliV1Rxb0xRcTlLZw?oc=5",
-      "pubDate": 1793103360000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-2142391915",
@@ -1180,27 +991,6 @@
       "source": "Google AI"
     },
     {
-      "id": "2018511732",
-      "title": "DHS Orders Federal Agencies to Remove DeepSeek AI Products",
-      "titleZh": "国土安全部命令联邦机构删除DeepSeek人工智能产品",
-      "summary": "DHS Orders Federal Agencies to Remove DeepSeek AI Products Legis1",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9TUnBPRTdOemk1Y2FlR2ZZRGI3VkdnTGRfSjRSbjdvRXJrYTF1SkxuX1FUR29sWkJRN1BjMGkwZmNGRFY2b0VUZFBJTGxzTjlPczV4RHlvX3o4SkcwNDQydFpPUkVreHdqRXZxRVkzVmZNUE5SOHRWQWxB?oc=5",
-      "pubDate": 1793026959000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1364857577",
       "title": "Moonshot AI Launches More Powerful Kimi Model",
       "titleZh": "Moonshot AI推出更强大的Kimi模型",
@@ -1285,20 +1075,20 @@
       "source": "Google News"
     },
     {
-      "id": "-1032512938",
-      "title": "Moonshot Debuts First AI Upgrade Since Its Own DeepSeek Moment",
-      "titleZh": "Moonshot推出自DeepSeek Moment以来的首次人工智能升级",
-      "summary": "Moonshot Debuts First AI Upgrade Since Its Own DeepSeek Moment Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcktaUjlRNUc4SkZ3UzlJSnJwX0tzalVkaHFKTmxkWGItR0J6b3VVQ01xU25ZdFRueWdrVXNsMjRab2NJNTVFMG9sRHdfbWJwQ2FLQlBwSGdfS1hYWFhWUXRONm8zczlYSnoxX1hiamdRWFU3UThWS05fVFpKNzN4OU5ISkZoOXJNS09Qc2djYVVxMGtnQjVlWFJHTE1wQWdmVjZYckhnd2JjbURxSy1ra2lXbw?oc=5",
-      "pubDate": 1792775890000,
+      "id": "809931334",
+      "title": "Moonshot AI Releases Kimi K3.1 Pro, First Model in New K3.1 Series",
+      "titleZh": "Moonshot AI发布全新K3.1系列首款机型Kimi K3.1 Pro",
+      "summary": "Moonshot AI Releases Kimi K3.1 Pro, First Model in New K3.1 Series Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5",
+      "pubDate": 1792776362000,
       "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
+      "category": "Release",
+      "impact": "high",
+      "score": 63,
       "scoreBreakdown": {
         "cq": 20,
-        "kv": 2,
-        "cw": 15,
+        "kv": 5,
+        "cw": 25,
         "st": 12,
         "rc": 0,
         "cs": 1
@@ -1327,20 +1117,20 @@
       "source": "Google News"
     },
     {
-      "id": "-2022391147",
-      "title": "Deepseek's latest AI model is smarter than ever, but its low running costs come at a price — uses only one-quarter of the HBM and one-eighth of SSD storage but still battles hallucinations in agentic workloads",
-      "titleZh": "Deepseek's latest AI model is smarter than ever, but its low running costs come at a price — uses only one-quarter of the HBM and one-eighth of SSD storage but still battles hallucinations in agentic workloads",
-      "summary": "Deepseek's latest AI model is smarter than ever, but its low running costs come at a price — uses only one-quarter of the HBM and one-eighth of SSD storage but still battles hallucinations in agentic …",
-      "link": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxORG9YWXBTSEx5UGZiTmtTVHZXLUE1TlVvRTlWbDNlbGg0Q3paX2llTlYweWR6cEJJUW1SeXY0VHBtb19PUll1d2xLRUFacDNDelZrUkkydGwtT2YwMU5CZXZmZFFTLWJydmk0NHVyWE9DV1E0UGUwbjVKUnhjbVZRaGJsVGg4YjRkaHBtRFY2eGhpMnlJUlBnQnJZaXNLaWVPR2htenVvSks3ZUtzeVpubWI4TVl6M2xZR25HZU9OWW1yT0xYRVVLQW1POE5HMkg5bUpyUjlVblBUeDIzd1JhVm9tX3JDLTVTSVV0Um9xLWRxZFloYXdkSU1wTGpBdUtEVVBTM0RkX2s3SjEtWlg2d0NOZ0hMY2xnVlFlZ3d6MmFyUmNhZHdlYm13X0pWelZYa0JMdFJpb0FPU3FITFJnRFZ0dndEdXg2V2RjdUlRQTFCSkdzTjZKM245WXgwM0dXMTdSTlYtel9WUEZzVGl2M1E4cF9Hc0pCelY2SFg5bw?oc=5",
+      "id": "-1032512938",
+      "title": "Moonshot Debuts First AI Upgrade Since Its Own DeepSeek Moment",
+      "titleZh": "Moonshot推出自DeepSeek Moment以来的首次人工智能升级",
+      "summary": "Moonshot Debuts First AI Upgrade Since Its Own DeepSeek Moment Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcktaUjlRNUc4SkZ3UzlJSnJwX0tzalVkaHFKTmxkWGItR0J6b3VVQ01xU25ZdFRueWdrVXNsMjRab2NJNTVFMG9sRHdfbWJwQ2FLQlBwSGdfS1hYWFhWUXRONm8zczlYSnoxX1hiamdRWFU3UThWS05fVFpKNzN4OU5ISkZoOXJNS09Qc2djYVVxMGtnQjVlWFJHTE1wQWdmVjZYckhnd2JjbURxSy1ra2lXbw?oc=5",
       "pubDate": 1792738800000,
-      "vendor": "deepseek",
-      "category": "Agent",
+      "vendor": "kimi",
+      "category": "Product",
       "impact": "med",
-      "score": 47,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
-        "cw": 12,
+        "cw": 15,
         "st": 12,
         "rc": 0,
         "cs": 1
@@ -1495,27 +1285,6 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-180211030",
-      "title": "FASCSA Orders Require Exclusion and Removal of DeepSeek AI",
-      "titleZh": "FASCSA命令要求排除和删除DeepSeek AI",
-      "summary": "FASCSA Orders Require Exclusion and Removal of DeepSeek AI Crowell Moring LLP",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSzJSLWRySTRlazdTeWJINjlIUWRTRXM4X0d6UFgzYy1vcmNxQWJyRjUxUVlQRGxvY2dFS1JHandNdDVPWDdTSUdXMFh6Q0FpS2FnYjd1bko0T3ZyQmJRcWgxak9MRVBhU09BUU1tZFlQNFB6N19XNHhPbUJrVThCUkRGTTRJOV9DNFpDVGhFWjVNOWpKTEpMQkFDMTB3UlY3WERsVFdHMW83cXQz?oc=5",
-      "pubDate": 1792566000000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "955791379",
       "title": "Southeast Asia’s digital economy to hit $368 billion",
       "titleZh": "Southeast Asia’s digital economy to hit $368 billion",
@@ -1537,11 +1306,11 @@
       "source": "Google AI"
     },
     {
-      "id": "979951941",
-      "title": "US bans use of China’s DeepSeek AI tools by government agencies",
-      "titleZh": "US bans use of China’s DeepSeek AI tools by government agencies",
-      "summary": "US bans use of China’s DeepSeek AI tools by government agencies The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUV9DaHpRUTR2dzh2cG9RTHdpa3VReVdBSzNfbkJlUm1wX3VXdWREbmMtRkpGOE5SZE0waTJYVmMya2F2NUxCTHRXaXBmaHhpczFZN2JMbG50VEM1cmNWVVpHWVg1ell2ZG9qM013bHpGX3NwbkRLamN3QU04a2pER1FRQXlxb253cDR2aHlvSEZ5V3JxSVZaVDdheDdFMkpj?oc=5",
+      "id": "983680020",
+      "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
+      "titleZh": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
+      "summary": "US orders federal agencies to remove China’s DeepSeek AI from their systems TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNam1tX0RacFh2aXVWaERGQ1AxTThjRDd3RDZoUXU5ZGxrOU1BYWFnMHhqRmwzLVZWb3NkbWhTYTctcUlqaDVLdXpRdmJXSGRvLUtmV2RORHdLU2RFeFFRWVdybTR4V1BUb3l2eUN0MHBfdlJqQmlYVUkxUlByVEgya1piaXJqaUphN0ZrNFY0dFFlSDRya0JoVC0wcC1uSnN1OUZIbUxVRnVodHBFdGc?oc=5",
       "pubDate": 1792479600000,
       "vendor": "deepseek",
       "category": "Product",
@@ -1619,6 +1388,27 @@
         "cs": 1
       },
       "source": "NVIDIA"
+    },
+    {
+      "id": "650975119",
+      "title": "DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner",
+      "titleZh": "DeepSeek推出更新的人工智能模型，称其更快、更精简",
+      "summary": "DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYjJXOWRqV0xZSERza0ZWWmkwZE1XdncweHdHanZTTFVHWXhkUEFjYjlwNUMxWVB5QWFQdl95U3NOQW5nc0QyajZ2dDNILW9aTzdBUkhIWjZzRGo2bkZydzk4UzBQNFh6dXRjRzdvMWl4UGRITDQtYU9CVVdObzcyaVNud1JmS2lQeThPUk91OEVBdFhOZjh5OC14dGI?oc=5",
+      "pubDate": 1792220400000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-2130920934",
@@ -1852,27 +1642,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "-1745419646",
-      "title": "Chinese AI tool told researchers how to make bioweapons",
-      "titleZh": "中国人工智能工具告诉研究人员如何制造生物武器",
-      "summary": "Chinese AI tool told researchers how to make bioweapons BBC",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBNMUhhUE5TbHZMOFRqSjNQVFEwaXRTeW1BSjVPb1ZVTklkeVR4VUEya0IxNlJOdjBuT1lZQWlNaGtZbHhjRF9nSWFDQUJHSURVUm5YWms5RU9aQ0hrQUE?oc=5",
-      "pubDate": 1790751600000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-1464852399",
       "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
       "titleZh": "观看Future Vision XPRIZE的获奖预告片《The Gifted》。",
@@ -1929,6 +1698,27 @@
         "cq": 22,
         "kv": 3,
         "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1051630865",
+      "title": "Alibaba Qwen Releases Qwen-Image-2.1: A 7B Open-Weight Model for Image Generation and Editing",
+      "titleZh": "阿里巴巴Qwen发布Qwen-Image-2.1 ：用于图像生成和编辑的7B开放式权重模型",
+      "summary": "Alibaba Qwen Releases Qwen-Image-2.1: A 7B Open-Weight Model for Image Generation and Editing MarkTechPost",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNU0JXUndVd2hCcXdycTc4XzhSWHpJOUtaN1NRWjQxWTJkY2J2UUJzRWdzWFNiLVJHRE1tN0d0YmFUdmdGekhfQmFhNWhHLWozOW42eW1FRlV5Ty1mWG9iNzlJcWd0VUM2OFJJalh0czYwLThiXzJMcTBjUEx5dGstenlwONIBgwFBVV95cUxNU0JXUndVd2hCcXdycTc4XzhSWHpJOUtaN1NRWjQxWTJkY2J2UUJzRWdzWFNiLVJHRE1tN0d0YmFUdmdGekhfQmFhNWhHLWozOW42eW1FRlV5Ty1mWG9iNzlJcWd0VUM2OFJJalh0czYwLThiXzJMcTBjUEx5dGstenlwOA?oc=5",
+      "pubDate": 1789974000000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 25,
         "st": 12,
         "rc": 0,
         "cs": 1
@@ -2041,48 +1831,6 @@
       "source": "Google News"
     },
     {
-      "id": "307854279",
-      "title": "US Says Alibaba, DeepSeek Have ‘Systematically’ Siphoned AI Models",
-      "titleZh": "US Says Alibaba, DeepSeek Have ‘Systematically’ Siphoned AI Models",
-      "summary": "US Says Alibaba, DeepSeek Have ‘Systematically’ Siphoned AI Models Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZk92eWg4ODl3QnlnbmROdWEwaTllZm5TTFlPZXRKSnFjUUxjcnAwUGxDd2poTDh0V2N1S2xaLTI4Y3h0V09YOXd5MmszMkdUWUE4V2pOcEp3SjJuVUUxZjhNeXBNbW14dl9fRGRIWTJfZkN2bFNGc0V2Zk40SEtiZzFvaFdETm5jN3d2eE1tVHgxbDktV3Bfa3FfQnpGV2tsYTRNSFFKWjFGaTNQaVZ1VGE5MWc?oc=5",
-      "pubDate": 1788937200000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1562724570",
-      "title": "Alibaba’s Qwen releases open-source model for autonomous driving",
-      "titleZh": "Alibaba’s Qwen releases open-source model for autonomous driving",
-      "summary": "Alibaba’s Qwen releases open-source model for autonomous driving TechNode",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE16UHpfYXBMLXl0eDFCVm5pSUtTa2c0ZGFZQnpPeTUxTTFQMS15dXhkUUFEV25YN2ZsWXBaM1o0aGo1dF95T0gtR3h3R3gtektUT0d0OUZJcUtIMTZKc2hoN3EwajJZOG5Oa2swU1NTYw?oc=5",
-      "pubDate": 1788764400000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "2147151731",
       "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
       "titleZh": "企业AI的真正风险不是自主代理。这是它们之间的复杂性。",
@@ -2165,6 +1913,27 @@
         "cs": 1
       },
       "source": "VentureBeat"
+    },
+    {
+      "id": "-1937431074",
+      "title": "DeepSeek's new bargain model accelerates AI's race to zero",
+      "titleZh": "DeepSeek的新讨价还价模式加速了人工智能的零竞赛",
+      "summary": "DeepSeek's new bargain model accelerates AI's race to zero Axios",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04emlXWXpVQXhNcjJsU1d5ZmhnU1J2TFRyeFlxM2hqUUNUNVR2UmxFQUNBanYwWnd5ZUpTRnptVEh2TXU2NU5aa0FRbFV6ejVPd2wxWFNXa3RoaTZPQ0dQSHc0Tkk4WE93Q1JwV0tIWGNBaGNG?oc=5",
+      "pubDate": 1785567600000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1093452510",
