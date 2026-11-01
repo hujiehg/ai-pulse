@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T16:59:32.558Z",
+  "updated": "2026-11-01T20:58:48.164Z",
   "count": 106,
   "sources": 11,
   "items": [
@@ -13,13 +13,13 @@
       "vendor": "deepseek",
       "category": "Agent",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 12,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -328,13 +328,13 @@
       "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
-      "score": 35,
+      "score": 34,
       "scoreBreakdown": {
         "cq": 3,
         "kv": 0,
         "cw": 15,
         "st": 14,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "HuggingFace"
