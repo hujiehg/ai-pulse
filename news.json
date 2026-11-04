@@ -1,8 +1,218 @@
 {
-  "updated": "2026-11-04T00:18:07.538Z",
-  "count": 99,
-  "sources": 10,
+  "updated": "2026-11-04T06:48:56.421Z",
+  "count": 105,
+  "sources": 11,
   "items": [
+    {
+      "id": "1601850343",
+      "title": "Alignment Faking Depends on the Value, Not Just the Model",
+      "titleZh": "校准伪造取决于值，而不仅仅是模型",
+      "summary": "arXiv:2611.03650v1 Announce Type: new Abstract: Language models can follow a directive when they believe they are monitored and abandon it when they believe they are not, a pattern termed Alignment Fa…",
+      "link": "https://arxiv.org/abs/2611.03650",
+      "pubDate": 1793768400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-2128005031",
+      "title": "CARD: A Proof-Carrying Certificate-to-Action Interface for Relative-Measurement Graphs",
+      "titleZh": "CARD ：相对测量图的携带证明书到行动接口",
+      "summary": "arXiv:2611.03651v1 Announce Type: new Abstract: Geometric certificates make mathematical claims about specified estimator objects, while robotic action requires a physical transform, a service decisio…",
+      "link": "https://arxiv.org/abs/2611.03651",
+      "pubDate": 1793768400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-322502101",
+      "title": "MCPGuard: Finding Conformance Gaps in MCP SDKs via Dual-Track Analysis and Dynamic Adjudication",
+      "titleZh": "MCPGuard ：通过双轨分析和动态裁定发现MCP SDK中的一致性差距",
+      "summary": "arXiv:2611.03662v1 Announce Type: new Abstract: The Model Context Protocol (MCP) connects large language model agents to external tools and services through official SDKs that implement message valida…",
+      "link": "https://arxiv.org/abs/2611.03662",
+      "pubDate": 1793768400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "893117239",
+      "title": "Functional-Group Knowledge Is Structured in Language Models Before It Is Spoken",
+      "titleZh": "功能组知识在被说出之前就被结构化在语言模型中",
+      "summary": "arXiv:2611.03684v1 Announce Type: new Abstract: Language models serve as the reasoning core of agents for chemistry and materials science, where they must interpret molecular structure before planning…",
+      "link": "https://arxiv.org/abs/2611.03684",
+      "pubDate": 1793768400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1631177768",
+      "title": "LOLPlay: Benchmarking Real-Time Visual Agents in League of Legends",
+      "titleZh": "LOLPlay ：在英雄联盟中对实时视觉代理进行基准测试",
+      "summary": "arXiv:2611.03685v1 Announce Type: new Abstract: Visual agents need to coordinate reasoning and action while their environment evolves during inference. We introduce LOLPlay, a benchmark in native \\emp…",
+      "link": "https://arxiv.org/abs/2611.03685",
+      "pubDate": 1793768400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 67,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1862197060",
+      "title": "Training LLM Agents to Automate LLM Post-Training with RSI-Dojo",
+      "titleZh": "使用RSI-Dojo培训LLM代理以实现LLM培训后自动化",
+      "summary": "arXiv:2611.03698v1 Announce Type: new Abstract: Recursive Self-Improvement (RSI) aims to enable AI systems to autonomously build and improve AI systems themselves, including models, harnesses, and und…",
+      "link": "https://arxiv.org/abs/2611.03698",
+      "pubDate": 1793768400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 68,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "910727432",
+      "title": "Unsatz: Evaluating Scientific Discovery Without a Given Ansatz",
+      "titleZh": "Unsatz ：在没有给定Ansatz的情况下评估科学发现",
+      "summary": "arXiv:2611.03713v1 Announce Type: new Abstract: Before a scientist fits any parameter, they must decide what the model contains: which quantities exist, which are hidden, how they interact, and how th…",
+      "link": "https://arxiv.org/abs/2611.03713",
+      "pubDate": 1793768400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1514301277",
+      "title": "Counterexample-driven autonomous research with application to excess radiated energy in a Z-pinch",
+      "titleZh": "反例驱动的自主研究，应用于Z-pinch中的过量辐射能量",
+      "summary": "arXiv:2611.03721v1 Announce Type: new Abstract: Recent breakthroughs in artificial-intelligence-assisted mathematics show that open-ended machine search can outperform human mathematicians, yet transf…",
+      "link": "https://arxiv.org/abs/2611.03721",
+      "pubDate": 1793768400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1299653269",
+      "title": "EMBERS: Empirically Motivated Robustness Testing of Deep Research Systems via Defect-Guided Fuzzing",
+      "titleZh": "EMBERS ：通过缺陷引导模糊对深度研究系统进行经验驱动的鲁棒性测试",
+      "summary": "arXiv:2611.03723v1 Announce Type: new Abstract: Deep Research (DR) systems extend large language models into autonomous agents that decompose complex information needs, iteratively search the web, and…",
+      "link": "https://arxiv.org/abs/2611.03723",
+      "pubDate": 1793768400000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-810177857",
+      "title": "From Logs to Faults: Reference-Free Fault Localization for Retrieval-Augmented Generation Pipelines",
+      "titleZh": "从日志到故障：检索增强生成管道的无引用故障定位",
+      "summary": "arXiv:2611.03725v1 Announce Type: new Abstract: Retrieval-Augmented Generation (RAG) pipelines are widely used for domain-specific question answering, yet locating faults remains manual and time-consu…",
+      "link": "https://arxiv.org/abs/2611.03725",
+      "pubDate": 1793768400000,
+      "vendor": "arxiv",
+      "category": "Product",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 6,
+        "cw": 15,
+        "st": 13,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
     {
       "id": "693751698",
       "title": "Anthropic is working on a system to prove AI models’ identity",
@@ -13,13 +223,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 54,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 22,
         "st": 8,
-        "rc": 5,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -34,13 +244,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 47,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 5,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,13 +265,13 @@
       "vendor": "techcrunch",
       "category": "Funding",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 3,
         "cw": 20,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -76,13 +286,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -97,13 +307,13 @@
       "vendor": "techcrunch",
       "category": "Funding",
       "impact": "high",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 3,
         "cw": 20,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -118,13 +328,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -301,7 +511,7 @@
       "id": "-452589940",
       "title": "The TechCrunch Founder Summit agenda is only half the reason to be in Boston on November 4",
       "titleZh": "TechCrunch创始人峰会议程仅是11月4日抵达波士顿的一半原因",
-      "summary": "On Nov. 4, TechCrunch Founder Summit 2026 brings founders and VCs to Boston's SoWa Power Station for practical insights and connections. Register before prices increase at the door.",
+      "summary": "On November 4, TechCrunch Founder Summit 2026 brings founders and VCs to Boston's SoWa Power Station for practical insights and connections. Register before prices increase at the door.",
       "link": "https://techcrunch.com/2026/11/03/the-techcrunch-founder-summit-agenda-is-only-half-the-reason-to-be-in-boston-on-nov-4/",
       "pubDate": 1793716200000,
       "vendor": "techcrunch",
@@ -403,214 +613,25 @@
       "source": "NVIDIA"
     },
     {
-      "id": "-2074938808",
-      "title": "A Generalized Sparse Fuzzy Clustering Framework with Automated Cluster Cardinality Estimation Ability",
-      "titleZh": "一种具有自动聚类基数估计能力的广义稀疏模糊聚类框架",
-      "summary": "arXiv:2611.00159v1 Announce Type: new Abstract: Fuzzy clustering provides a robust framework for handling ambiguous and overlapping data boundaries, yet its traditional formulation generates entirely …",
-      "link": "https://arxiv.org/abs/2611.00159",
-      "pubDate": 1793682000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1233447072",
-      "title": "Learning to bid and bundle: a posterior-sampling agent for online retail",
-      "titleZh": "学习出价和捆绑：在线零售的后验采样代理",
-      "summary": "arXiv:2611.00165v1 Announce Type: new Abstract: An online retailer launching a perishable product bids for sponsored-search clicks, discounts a bundle with an always-stocked staple and displays its re…",
-      "link": "https://arxiv.org/abs/2611.00165",
-      "pubDate": 1793682000000,
-      "vendor": "arxiv",
+      "id": "-202311253",
+      "title": "Qwen 4 Launch: Alibaba Open-Source Promise in Doubt",
+      "titleZh": "Qwen 4发布：阿里巴巴开源承诺令人怀疑",
+      "summary": "Qwen 4 Launch: Alibaba Open-Source Promise in Doubt shattered.io",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQampWbG5WUTgzWGd1Sld6UHBNTmN4dEVMMUVSZXdoc2JpeTl3MHplX09MWTdzRk9HeDVoaFVnaGV0Uk11Z0xDSWgyMVI4RVFUNzA3VkZ5U2phaXNyb1RKLVJ1VjJfOS15TXQzYWZIX05VSEhqbG5kWlplZjJZcWxXWG90dGNrRjJTa0lUNQ?oc=5",
+      "pubDate": 1793682819000,
+      "vendor": "qwen",
       "category": "Release",
       "impact": "high",
-      "score": 66,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 25,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "508979615",
-      "title": "Early Stopping in Large Reasoning Models: A Survey and Empirical Audit of Efficiency and Reliability",
-      "titleZh": "大型推理模型中的早期停止：效率和可靠性的调查和实证审计",
-      "summary": "arXiv:2611.00166v1 Announce Type: new Abstract: Large reasoning models can improve accuracy by generating longer reasoning traces, but some of this computation may be unnecessary. Early-stopping metho…",
-      "link": "https://arxiv.org/abs/2611.00166",
-      "pubDate": 1793682000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-336926265",
-      "title": "PatchScout: Thematic Web Data Collection via Information Foraging",
-      "titleZh": "PatchScout ：通过信息采集进行主题Web数据收集",
-      "summary": "arXiv:2611.00169v1 Announce Type: new Abstract: Researchers often need web corpora that are not answers to a single query, but reusable collections of documents spanning many decentralized sources. We…",
-      "link": "https://arxiv.org/abs/2611.00169",
-      "pubDate": 1793682000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1694276254",
-      "title": "Reimagining Text-to-SQL: A Survey of Large Language Model Architectures and Strategies",
-      "titleZh": "重新构想文本到SQL ：大型语言模型架构和策略调查",
-      "summary": "arXiv:2611.00171v1 Announce Type: new Abstract: Text-to-SQL systems translate natural language questions into executable SQL queries, democratizing access to relational data. Early approaches relied o…",
-      "link": "https://arxiv.org/abs/2611.00171",
-      "pubDate": 1793682000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 67,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 10,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-439056416",
-      "title": "AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation",
-      "titleZh": "AuroraWorld ：用于机器人操作中的Exo-to-Ego视频生成的结构化4D世界建模",
-      "summary": "arXiv:2611.00177v1 Announce Type: new Abstract: Egocentric observations provide a robot-centric view of manipulation processes, capturing contact interactions and object-state changes that are importa…",
-      "link": "https://arxiv.org/abs/2611.00177",
-      "pubDate": 1793682000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-991922792",
-      "title": "Neurons Are All You Need",
-      "titleZh": "神经元是您所需要的一切",
-      "summary": "arXiv:2611.00186v1 Announce Type: new Abstract: For decades, artificial neural networks have operated under the assumption that durable, learned capability resides exclusively in adaptive synaptic par…",
-      "link": "https://arxiv.org/abs/2611.00186",
-      "pubDate": 1793682000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 67,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 10,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1862412566",
-      "title": "MemU-Bench: Benchmarking GUI Agents on Long-Horizon User Interactions",
-      "titleZh": "MemU-Bench ：对长期用户交互的GUI代理进行基准测试",
-      "summary": "arXiv:2611.00191v1 Announce Type: new Abstract: Existing Graphical User Interface (GUI) benchmarks predominantly rely on precise and stateless user instructions. In everyday usage, however, instructio…",
-      "link": "https://arxiv.org/abs/2611.00191",
-      "pubDate": 1793682000000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "high",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 12,
-        "cw": 15,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1341875076",
-      "title": "From Cross-Section to Cross-Omics: Conditional Cell Nucleus Image Editing in Spatial Transcriptomics",
-      "titleZh": "从横截面到交叉组学：空间转录组学中的条件细胞核图像编辑",
-      "summary": "arXiv:2611.00226v1 Announce Type: new Abstract: Spatial transcriptomics (ST) platforms simultaneously measure gene expression and capture cell nucleus images at single-cell resolution. A fundamental p…",
-      "link": "https://arxiv.org/abs/2611.00226",
-      "pubDate": 1793682000000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 15,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "262807743",
-      "title": "RE-SciVQA: Improving Scientific VQA With Context-Relevant Retrieval and Lightweight MLLM Adaptation",
-      "titleZh": "RE-SciVQA ：通过上下文相关检索和轻量级MLM适应改善科学VQA",
-      "summary": "arXiv:2611.00242v1 Announce Type: new Abstract: A deep understanding of scientific literature often relies on interpreting figures that contain key information beyond the main text. Leveraging Large L…",
-      "link": "https://arxiv.org/abs/2611.00242",
-      "pubDate": 1793682000000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
       "score": 62,
       "scoreBreakdown": {
         "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 2,
         "cs": 1
       },
-      "source": "arXiv"
+      "source": "Google News"
     },
     {
       "id": "-1392576697",
@@ -676,12 +697,12 @@
       "source": "HuggingFace"
     },
     {
-      "id": "179896628",
-      "title": "DeepSeek Harness Adds Plugin-Creation Entry for Creator Mode",
-      "titleZh": "DeepSeek线束为创作者模式添加了插件创建条目",
-      "summary": "DeepSeek Harness Adds Plugin-Creation Entry for Creator Mode Unite.AI",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOd0tTZ3c1MHRILWV0NE9xeFFWaVUyMFNGcU1yUGdGUUxpbVFRaDVaZjJlOTZJU3NzUlBMbW9NbFNfUW9DeFJ1Z09fNmxVbEc3amdhUkQ1TmdmaERDMktMZzlNVGFsd01xcWVGQldmYnVaOTNXVWFYQVNoc2ZzV2trTm1QTFNGbTFwU1E?oc=5",
-      "pubDate": 1793656451000,
+      "id": "-1278180917",
+      "title": "DeepSeek is adding a creator mode to let users build custom AI plugins",
+      "titleZh": "DeepSeek正在添加创建者模式，允许用户构建自定义AI插件",
+      "summary": "DeepSeek is adding a creator mode to let users build custom AI plugins Quartz",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4zcThGZHFRNk0tUVlqakFzUGQwR1NHQkl5U1dOTldMbnpsTXg0MW5SN01PX1pxVlJJS1VGOVkzZEZFWkl3NzUwQVZfNllYNXVva2ZCSjI3MERSR1BSdVNKZHk5LWxuY0pHUzFYUEtn?oc=5",
+      "pubDate": 1793642497000,
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
@@ -844,19 +865,19 @@
       "source": "OpenAI"
     },
     {
-      "id": "-1505895440",
-      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "titleZh": "OpenAI任命Dan Driscoll为国家安全现代化高级顾问",
-      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
-      "link": "https://openai.com/index/dan-driscoll-joins-openai",
+      "id": "-728535948",
+      "title": "Qodo builds context into AI code review with Codex",
+      "titleZh": "Qodo使用Codex将上下文构建到AI代码审查中",
+      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "link": "https://openai.com/index/qodo-codex-plugin",
       "pubDate": 1793577600000,
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 48,
       "scoreBreakdown": {
-        "cq": 20,
-        "kv": 1,
+        "cq": 16,
+        "kv": 0,
         "cw": 15,
         "st": 15,
         "rc": 1,
@@ -926,27 +947,6 @@
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "1008360478",
-      "title": "Chinese Hackers Use DeepSeek AI to Target More Than 200 Organizations",
-      "titleZh": "中国黑客使用DeepSeek AI瞄准200多个组织",
-      "summary": "Chinese Hackers Use DeepSeek AI to Target More Than 200 Organizations Security Boulevard",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5xWHE0ZDQycWRwczRKMVF0WlU5N2hVVHFlNkpmUDV2T3ludmpHOXZnMjVBSHRQWm52Ui1OellScmVwZVJoY1p0aXdSZzJKRWYzTV8tWU5vT0NVdzRQaG10dHpMTnBxWEM0UFhFRTdxdjhISEp4UkR1cGxn?oc=5",
-      "pubDate": 1793379530000,
-      "vendor": "deepseek",
-      "category": "Safety",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 10,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-2100012386",
@@ -1031,27 +1031,6 @@
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "-1615675001",
-      "title": "DeepSeek | Rise, Technologies, Impact, &amp; Global Response",
-      "titleZh": "DeepSeek |崛起、技术、影响和全球响应",
-      "summary": "DeepSeek | Rise, Technologies, Impact, Global Response Britannica",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE14aVZsR1psY1J4VTdFSHZJOXh2b3B2cjItM1B3M2IybnJRMzR5OU9HMFRmYTlTbVpuY3ZUX1FDYTh4cDlFdVZHZkgyam1nUXVBN2pF?oc=5",
-      "pubDate": 1793257200000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "2081461846",
@@ -1168,13 +1147,13 @@
       "vendor": "qwen",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google News"
@@ -1250,6 +1229,27 @@
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2VtNkRpTEd1M2w3YzYwUE9XV1BYblFJODQxWnhPVngzX2NHNkZjZV9fcTZwVWZpeWVYa3hmQ1hnbjR1M2p6b0FId28xR0xFaF9oLUQ5RU1fd0NXVDV1UTJPeERPZTU0UHkxbEtDNkRSdEFDVk9wazVKZjhsT1dNTTVNYTJOb19nVEdscGltelV1d1pRMjRLeXBvQUpVaHg3N0ow?oc=5",
       "pubDate": 1793098260000,
       "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1757308246",
+      "title": "Cohere Finds Qwen AI Model Contacting a Server in China",
+      "titleZh": "Cohere发现Qwen AI模型正在连接中国的服务器",
+      "summary": "Cohere Finds Qwen AI Model Contacting a Server in China Security Affairs",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWVh0V0FVODh0ZFByYml0eWxkZ2dKV0w5WVJadndLX1pFYmp5dEM5c0M2SG1jMnJnMTdoZHBZR3U1c3JRWjMyZkcteW5jcUlBcWNIT0lMU1pCNV9kS0hsQ25vaTN0MDUweU1oQkdiaXR4UDNPQ0hpYVhUWVBuNWpiR0tYNTBMb0Y2OFlmdVRsZFdiUXh4WFItT0hBN05JQXfSAaQBQVVfeXFMTkQ4WjRGY242T1pFX3QtYlBlM3VjX1ZwckZFMmh5a2JfQklzVmEzbWFEV1RJWXFDdWg5eF93dGhqTXVWZDFiUFI3SWtKYlh2YURXMXlkUk5PZWtsTzBhdFQ4MHVyeS1Ud3hxN1VHZGhMUGxKbWpOLXE5R2hOV3NQMUVveUNpLVQyTFFHUmxpUHFGNFAzMTFGLVZlcTNjNUJhdkZ1TXI?oc=5",
+      "pubDate": 1793092984000,
+      "vendor": "qwen",
       "category": "Research",
       "impact": "med",
       "score": 56,
@@ -1451,6 +1451,27 @@
         "cs": 1
       },
       "source": "Google AI"
+    },
+    {
+      "id": "983680020",
+      "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
+      "titleZh": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
+      "summary": "US orders federal agencies to remove China’s DeepSeek AI from their systems TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNam1tX0RacFh2aXVWaERGQ1AxTThjRDd3RDZoUXU5ZGxrOU1BYWFnMHhqRmwzLVZWb3NkbWhTYTctcUlqaDVLdXpRdmJXSGRvLUtmV2RORHdLU2RFeFFRWVdybTR4V1BUb3l2eUN0MHBfdlJqQmlYVUkxUlByVEgya1piaXJqaUphN0ZrNFY0dFFlSDRya0JoVC0wcC1uSnN1OUZIbUxVRnVodHBFdGc?oc=5",
+      "pubDate": 1792479600000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "738780645",
@@ -1747,27 +1768,6 @@
       "source": "Google News"
     },
     {
-      "id": "1051630865",
-      "title": "Alibaba Qwen Releases Qwen-Image-2.1: A 7B Open-Weight Model for Image Generation and Editing",
-      "titleZh": "阿里巴巴Qwen发布Qwen-Image-2.1 ：用于图像生成和编辑的7B开放式权重模型",
-      "summary": "Alibaba Qwen Releases Qwen-Image-2.1: A 7B Open-Weight Model for Image Generation and Editing MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNU0JXUndVd2hCcXdycTc4XzhSWHpJOUtaN1NRWjQxWTJkY2J2UUJzRWdzWFNiLVJHRE1tN0d0YmFUdmdGekhfQmFhNWhHLWozOW42eW1FRlV5Ty1mWG9iNzlJcWd0VUM2OFJJalh0czYwLThiXzJMcTBjUEx5dGstenlwONIBgwFBVV95cUxNU0JXUndVd2hCcXdycTc4XzhSWHpJOUtaN1NRWjQxWTJkY2J2UUJzRWdzWFNiLVJHRE1tN0d0YmFUdmdGekhfQmFhNWhHLWozOW42eW1FRlV5Ty1mWG9iNzlJcWd0VUM2OFJJalh0czYwLThiXzJMcTBjUEx5dGstenlwOA?oc=5",
-      "pubDate": 1789974000000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1317580631",
       "title": "Alibaba Qwen Team Releases Qwen3.8-LiveTranslate: A Real-Time Interpretation Model That Cuts Average Lag to 2.3 Seconds Across 60 Languages",
       "titleZh": "阿里巴巴Qwen团队发布Qwen3.8-LiveTranslate ： 60种语言的平均延迟降至2.3秒的实时口译模型",
@@ -1831,27 +1831,6 @@
       "source": "Google AI"
     },
     {
-      "id": "748206830",
-      "title": "Alibaba Qwen Releases Qwen3.8-Omni-Flash: A 1M-Context Omni-Modal Model Built Around Agentic Audio-Video Understanding and Tool Use",
-      "titleZh": "阿里巴巴Qwen发布Qwen3.8-Omni-Flash ：围绕代理音视频理解和工具使用构建的1M-Context全模式模型",
-      "summary": "Alibaba Qwen Releases Qwen3.8-Omni-Flash: A 1M-Context Omni-Modal Model Built Around Agentic Audio-Video Understanding and Tool Use MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVEJPZUU0QkdfdU9BSEZpTjVEcnlpa1ctUXY1MEJrYVJuRzVObEJlaEJyR1drR2lwdTBoYmdHOHJwRHZPYkdEVjMzNndKbjJXS1dueVFKeDQ1aVBTT1NLQWtVZWhHSDVsa1dyS3lDdnBHald5WWZfR0ZIVzJGR1lIMHhHenR5ZXlx0gGIAUFVX3lxTE9UQk9lRTRCR191T0FIRmlONURyeWlrVy1RdjUwQmthUm5HNU5sQmVoQnJHV2tHaXB1MGhiZ0c4cnBEdk9iR0RWMzM2d0puMldLV255UUp4NDVpUFNPU0tBa1VlaEdINWxrV3JLeUN2cEdqV3lZZl9HRkhXMkZHWUgweEd6dHlleXE?oc=5",
-      "pubDate": 1789714800000,
-      "vendor": "qwen",
-      "category": "Agent",
-      "impact": "high",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 12,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1445488454",
       "title": "DeepSeek says new Flash AI model beats Kimi K3 on cyber, coding benchmarks",
       "titleZh": "DeepSeek表示，新的Flash AI模型在网络编码基准方面击败了Kimi K3",
@@ -1871,6 +1850,153 @@
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "2147151731",
+      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
+      "titleZh": "企业AI的真正风险不是自主代理。这是它们之间的复杂性。",
+      "summary": "Presented by Gravitee Read more",
+      "link": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
+      "pubDate": 1787839260000,
+      "vendor": "venturebeat",
+      "category": "Agent",
+      "impact": "med",
+      "score": 33,
+      "scoreBreakdown": {
+        "cq": 12,
+        "kv": 0,
+        "cw": 12,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "-1183454760",
+      "title": "When agents act on their own, governance has to live in the data layer",
+      "titleZh": "当代理自行行动时，治理必须位于数据层",
+      "summary": "Presented by EDB Read more",
+      "link": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
+      "pubDate": 1787832060000,
+      "vendor": "venturebeat",
+      "category": "Agent",
+      "impact": "med",
+      "score": 34,
+      "scoreBreakdown": {
+        "cq": 12,
+        "kv": 1,
+        "cw": 12,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "-1500538370",
+      "title": "Orchestration is the new challenge for CX in the age of AI agents",
+      "titleZh": "编排是人工智能代理时代CX面临的新挑战",
+      "summary": "Presented by Tata Communications Read more",
+      "link": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
+      "pubDate": 1787754600000,
+      "vendor": "venturebeat",
+      "category": "Agent",
+      "impact": "med",
+      "score": 33,
+      "scoreBreakdown": {
+        "cq": 12,
+        "kv": 0,
+        "cw": 12,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "74193009",
+      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
+      "titleZh": "VentureBeat任命Rob Strechay为其首位首席分析师，扩大其企业人工智能研究推动力",
+      "summary": "Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a founding analyst of VentureBeat Research. His arrival i…",
+      "link": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
+      "pubDate": 1787149092000,
+      "vendor": "venturebeat",
+      "category": "Research",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 22,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "-1093452510",
+      "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
+      "titleZh": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
+      "summary": "For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On T…",
+      "link": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
+      "pubDate": 1779212700000,
+      "vendor": "venturebeat",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "-1380991222",
+      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+      "titleZh": "Railway获得1亿美元$ ，通过AI原生云基础设施挑战AWS",
+      "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B fundi…",
+      "link": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+      "pubDate": 1769090400000,
+      "vendor": "venturebeat",
+      "category": "Funding",
+      "impact": "high",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 20,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "749662964",
+      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+      "titleZh": "Claude Code每月的费用高达$ 200。Goose免费做同样的事情。",
+      "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive. Read more",
+      "link": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+      "pubDate": 1768831200000,
+      "vendor": "venturebeat",
+      "category": "Product",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 15,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
     },
     {
       "id": "251294355",
