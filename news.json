@@ -1,243 +1,264 @@
 {
-  "updated": "2026-11-05T01:35:13.524Z",
-  "count": 89,
-  "sources": 9,
+  "updated": "2026-11-05T08:45:21.558Z",
+  "count": 69,
+  "sources": 7,
   "items": [
     {
-      "id": "-1928092480",
-      "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
-      "titleZh": "AI PACs spent millions trying to shape Congress — here’s how they fared",
-      "summary": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.",
-      "link": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
-      "pubDate": 1793832309000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 44,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 4,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-887194267",
-      "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
-      "titleZh": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
-      "summary": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains.",
-      "link": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
-      "pubDate": 1793830396000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 44,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 4,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1965357177",
-      "title": "Almost no one uses AI agents to book their Uber, company says",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 20 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
-      "link": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
-      "pubDate": 1793829361000,
-      "vendor": "techcrunch",
-      "category": "Agent",
-      "impact": "med",
-      "score": 39,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 4,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-291616472",
-      "title": "OpenAI is already trying to shape the 2028 election",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 20 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",
-      "link": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
-      "pubDate": 1793827544000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 4,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-921022469",
-      "title": "Meta acquires AI coding startup Conductor",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 19 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.",
-      "link": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
-      "pubDate": 1793826656000,
-      "vendor": "techcrunch",
-      "category": "Agent",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 4,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "583705184",
-      "title": "Open source AI is booming. Hugging Face explains who profits.",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 19 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable model…",
-      "link": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
-      "pubDate": 1793820604000,
-      "vendor": "techcrunch",
+      "id": "-1092490921",
+      "title": "Who May Overrule the Agent? Evidence-Gated Authority in LLM Review Institutions",
+      "titleZh": "谁可以推翻代理？法学硕士评审机构中的证据门限权威",
+      "summary": "arXiv:2611.05390v1 Announce Type: new Abstract: Multi-agent language-model systems often add a reviewer to improve an upstream agent's decision. Yet a reviewer can both repair errors and replace decis…",
+      "link": "https://arxiv.org/abs/2611.05390",
+      "pubDate": 1793854800000,
+      "vendor": "arxiv",
       "category": "Research",
       "impact": "med",
-      "score": 54,
+      "score": 68,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1265879624",
+      "title": "Agent Harness Awareness: Turning Verified Telemetry into Operational Control for Tool-Using Agents",
+      "titleZh": "座席线束感知：将经过验证的遥测转化为工具使用座席的运营控制",
+      "summary": "arXiv:2611.05391v1 Announce Type: new Abstract: Tool descriptions tell an agent what an action can do, but they do not necessarily reveal whether that action is healthy or suitable at the moment of us…",
+      "link": "https://arxiv.org/abs/2611.05391",
+      "pubDate": 1793854800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 74,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 12,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1555255170",
+      "title": "Uncertainty-Aware Resource Orchestration for Agentic AI Systems",
+      "titleZh": "Agentic AI系统的不确定性感知资源编排",
+      "summary": "arXiv:2611.05392v1 Announce Type: new Abstract: Agentic artificial intelligence (AI) systems powered by large language models (LLMs) execute as autonomous multi-step pipelines that dynamically invoke …",
+      "link": "https://arxiv.org/abs/2611.05392",
+      "pubDate": 1793854800000,
+      "vendor": "arxiv",
+      "category": "Agent",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 12,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1740979424",
+      "title": "Challenge-Aware Knowledge Recruitment with Meta-Agent Supervision for Medical Multi-Agent Reasoning",
+      "titleZh": "针对医学多Agent推理的元Agent监督的挑战感知知识招聘",
+      "summary": "arXiv:2611.05393v1 Announce Type: new Abstract: Large language models perform strongly on standard medical QA but degrade on harder reasoning tasks, where multi-agent debate often fails to beat strong…",
+      "link": "https://arxiv.org/abs/2611.05393",
+      "pubDate": 1793854800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 67,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "67276711",
+      "title": "A Feasibility Condition for Confidence-Gated Tiered LLM Inference",
+      "titleZh": "可信度门控分层LLM推断的可行性条件",
+      "summary": "arXiv:2611.05394v1 Announce Type: new Abstract: Tiered inference distributes large language model computation across a hierarchy of devices, from on-device and edge hardware to the datacenter, and is …",
+      "link": "https://arxiv.org/abs/2611.05394",
+      "pubDate": 1793854800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1708137878",
+      "title": "Towards Robust Long-Lived Agents: Benchmarking Experience Lifecycles in Evolving Environments",
+      "titleZh": "走向强大的长期客服代表：在不断变化的环境中对体验生命周期进行基准测试",
+      "summary": "arXiv:2611.05450v1 Announce Type: new Abstract: As agents become more capable, they are moving beyond one-off tasks toward sustained assistance across successive user goals. Such assistance requires a…",
+      "link": "https://arxiv.org/abs/2611.05450",
+      "pubDate": 1793854800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1398816901",
+      "title": "Can Large Language Models Review the Scientific Literature? A Test Against a 102-Article Benchmark",
+      "titleZh": "大型语言模型可以审查科学文献吗？针对102条基准的测试",
+      "summary": "arXiv:2611.05459v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used to support scientific literature reviews, yet evaluations often examine individual tasks rather than …",
+      "link": "https://arxiv.org/abs/2611.05459",
+      "pubDate": 1793854800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 67,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1434513609",
+      "title": "SlackBench: Benchmarking Agents on Collaborative Projects Grounded in Real Code Repositories",
+      "titleZh": "SlackBench ：在基于真实代码库的协作项目上对代理进行基准测试",
+      "summary": "arXiv:2611.05512v1 Announce Type: new Abstract: AI Agents are becoming digital coworkers that can browse the web, write code, run experiments, and assist humans over extended horizons. Yet existing be…",
+      "link": "https://arxiv.org/abs/2611.05512",
+      "pubDate": 1793854800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1676655312",
+      "title": "MA-SafeDiffuser: Safe Multi-Agent Planning with Diffusion Probabilistic Models",
+      "titleZh": "MA-SafeDiffuser ：使用扩散概率模型的安全多Agent规划",
+      "summary": "arXiv:2611.05524v1 Announce Type: new Abstract: We propose MA-SafeDiffuser, a multi-agent extension of SafeDiffuser that equips diffusion-based trajectory planners with finite-time diffusion invarianc…",
+      "link": "https://arxiv.org/abs/2611.05524",
+      "pubDate": 1793854800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 70,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-915700143",
+      "title": "Towards Efficient Whole Page Ranking with One-Pass Inference",
+      "titleZh": "通过一次性推理实现高效的整页排名",
+      "summary": "arXiv:2611.05542v1 Announce Type: new Abstract: Whole-page ranking jointly optimizes advertisements and organic content to balance business outcomes and user engagement under complex layout and busine…",
+      "link": "https://arxiv.org/abs/2611.05542",
+      "pubDate": 1793854800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1716234066",
+      "title": "Kimi K3.1 Pro Weights Are Out: 1.56 TB on Disk and a $20M Licence Line",
+      "titleZh": "Kimi K3.1 Pro重量已超出： 1.56 TB的磁盘和$ 2000万美元的许可证线",
+      "summary": "Kimi K3.1 Pro Weights Are Out: 1.56 TB on Disk and a $20M Licence Line OrcaRouter",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdmNiQVpKVjhJaUNXRkI5YnhtWU84YU0wWXNwajFERUh3cFZQbmh6Q3k4dkNXRlRaOU9MRUZTQ3RqR2ctR2ZPcmltbFpNenJtenRKZE9EUjYzcF9nc2l6SUR1YjBINGJyWU5hNS1hbE94MkdzQkVuZmVzSUtDdWQtZUdXS2lNQQ?oc=5",
+      "pubDate": 1793816841000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
-        "cw": 22,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "818800111",
-      "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
-      "titleZh": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
-      "summary": "DuckDuckGo is courting schools frustrated by Google's AI restrictions, pointing educators to its search engine and options to disable AI features.",
-      "link": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
-      "pubDate": 1793820592000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
         "cw": 15,
-        "st": 8,
+        "st": 12,
         "rc": 3,
         "cs": 1
       },
-      "source": "TechCrunch"
+      "source": "Google News"
     },
     {
-      "id": "-1540692722",
-      "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
-      "titleZh": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
-      "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable model…",
-      "link": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
-      "pubDate": 1793817897000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 54,
+      "id": "-1417251848",
+      "title": "Kimi K3.1 Pro Weights Out; Leads Opus 5.5 on 16 of 37 Tests",
+      "titleZh": "Kimi K3.1 Pro加权出局；在37个测试中的16个测试中领先Opus 5.5",
+      "summary": "Kimi K3.1 Pro Weights Out; Leads Opus 5.5 on 16 of 37 Tests FourWeekMBA",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTHQ4NHB1UzdCSTFVdkJ6QmFJSEN6QkdidWxHMFN1c0RtekZDQy0wQlZlMUR4cXRnOHExTXEtbXI4cmNZTEwwcm43ZkZBamIzU2VRZE92dlIxX3ZSOEZhcDF4VVN1ekhsbUJrajhTdHZGX25IaEk4RldzNjRVbzRvX2Y1MHFrXzhvMVdzbjZQaw?oc=5",
+      "pubDate": 1793816094000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
-        "cw": 22,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1129588673",
-      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 19 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-      "link": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
-      "pubDate": 1793814610000,
-      "vendor": "huggingface",
-      "category": "Product",
-      "impact": "med",
-      "score": 44,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
         "cw": 15,
-        "st": 14,
+        "st": 12,
         "rc": 3,
         "cs": 1
       },
-      "source": "HuggingFace"
-    },
-    {
-      "id": "411686399",
-      "title": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling",
-      "titleZh": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling",
-      "summary": "Apple's AI-powered Siri Recaps won me over in just one day, despite my privacy reservations. But there's still room for improvement.",
-      "link": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
-      "pubDate": 1793811095000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-202834540",
-      "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 18 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "Politicians on the left, like NYC mayor Zohran Mamdani and former FTC chair Lina Khan, accused Google of acting as an unregulated monopoly.",
-      "link": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
-      "pubDate": 1793809042000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
+      "source": "Google News"
     },
     {
       "id": "-1688160355",
       "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 17 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "OpenAI收购Pierre Computer Company, Inc.",
       "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
       "link": "https://openai.com/index/openai-to-acquire-pierre",
       "pubDate": 1793802600000,
@@ -256,20 +277,20 @@
       "source": "OpenAI"
     },
     {
-      "id": "-1234266632",
-      "title": "NVIDIA's DeepSeek-V4.1-Flash NVFP4 Model: Everything You Need to Know",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 17 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "NVIDIA's DeepSeek-V4.1-Flash NVFP4 Model: Everything You Need to Know HackerNoon",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbjRMWFB0dE45ZDBIaTB3cVo3dHlYM256ZWtQdlUzdHprNGQ1NkpkRFFDdUJDYVlwQ0NYMDNLTV9EN3ByeXVJazUya0t4Nlo2ODlvdzJjZjF1ZDZTS1dMZ05IakRqWlVVeEtMSHpuYjNHOEhoUmRmTGpJanpFb3JQc0Y3Z1U2cXpkUzg0X1AzMmNLeXc?oc=5",
-      "pubDate": 1793779506000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
+      "id": "-32378845",
+      "title": "Kimi AI vs DeepSeek vs ChatGPT: 3 Picks for Canada [2026] - tech",
+      "titleZh": "Kimi AI vs DeepSeek vs ChatGPT ：加拿大3大精选[2026] -科技",
+      "summary": "Kimi AI vs DeepSeek vs ChatGPT: 3 Picks for Canada [2026] tech-insider.org",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9QSUE0MDBPRk5vWktKdk1pNlc5N2hRWEUta3ZzNFBndmd6RHFyekY3bWFiN1lQSFlPTFM1bEN1YWY5NVhwNk1SdmVjVENJOTllS0tXX2pnMms4VFM1NHZxM1FDaTRqNUQzUVdkNGppSUFIdHN0YXU2azJHOA?oc=5",
+      "pubDate": 1793793741000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
-        "cw": 22,
+        "cw": 15,
         "st": 12,
         "rc": 3,
         "cs": 1
@@ -277,25 +298,67 @@
       "source": "Google News"
     },
     {
+      "id": "-1234266632",
+      "title": "NVIDIA's DeepSeek-V4.1-Flash NVFP4 Model: Everything You Need to Know",
+      "titleZh": "NVIDIA DeepSeek-V4.1-Flash NVFP4型号：您需要了解的一切",
+      "summary": "NVIDIA's DeepSeek-V4.1-Flash NVFP4 Model: Everything You Need to Know HackerNoon",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbjRMWFB0dE45ZDBIaTB3cVo3dHlYM256ZWtQdlUzdHprNGQ1NkpkRFFDdUJDYVlwQ0NYMDNLTV9EN3ByeXVJazUya0t4Nlo2ODlvdzJjZjF1ZDZTS1dMZ05IakRqWlVVeEtMSHpuYjNHOEhoUmRmTGpJanpFb3JQc0Y3Z1U2cXpkUzg0X1AzMmNLeXc?oc=5",
+      "pubDate": 1793779506000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1717410357",
       "title": "A thousand fewer paths to root",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 17 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "少一千条根路径",
       "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
       "link": "https://openai.com/index/a-thousand-fewer-paths-to-root",
       "pubDate": 1793779200000,
       "vendor": "openai",
       "category": "Agent",
       "impact": "med",
-      "score": 47,
+      "score": 46,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 12,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "1364467252",
+      "title": "Moonshot AI Launches Game Development Suite with 20-Hour Unattended Run",
+      "titleZh": "Moonshot AI推出20小时无人值守运行的游戏开发套件",
+      "summary": "Moonshot AI Launches Game Development Suite with 20-Hour Unattended Run Retail News Asia",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYWNQMTdSLXR4dzN0VzNIcU1aRzhLNkZCa0hnWW02bXQtMmNsS2ZZNVQ2TFdvOGRheVBmODVaUmRSQjRwZ1k2anNIVmhWeGlSQ2tSMnFoNXNZU2NoaHRQWG5vOU5DajhVdllKWDJXbnRPSGdtb0NMbXRZWGZkN3VjcG5PSDR6QkE2VmV2bFBaemRrT0lBYTRlU1Z0TQ?oc=5",
+      "pubDate": 1793776867000,
+      "vendor": "kimi",
+      "category": "Release",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 25,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-507240319",
@@ -307,13 +370,13 @@
       "vendor": "google",
       "category": "Release",
       "impact": "high",
-      "score": 64,
+      "score": 63,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 25,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
@@ -321,238 +384,28 @@
     {
       "id": "-445526460",
       "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 17 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "Daybreak Red现已在AWS GovCloud （美国东部）中提供",
       "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
       "link": "https://openai.com/index/daybreak-red-aws-govcloud",
       "pubDate": 1793775600000,
       "vendor": "openai",
       "category": "Product",
       "impact": "high",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 3,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
     },
     {
-      "id": "1601850343",
-      "title": "Alignment Faking Depends on the Value, Not Just the Model",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 15 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "arXiv:2611.03650v1 Announce Type: new Abstract: Language models can follow a directive when they believe they are monitored and abandon it when they believe they are not, a pattern termed Alignment Fa…",
-      "link": "https://arxiv.org/abs/2611.03650",
-      "pubDate": 1793768400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-2128005031",
-      "title": "CARD: A Proof-Carrying Certificate-to-Action Interface for Relative-Measurement Graphs",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 15 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "arXiv:2611.03651v1 Announce Type: new Abstract: Geometric certificates make mathematical claims about specified estimator objects, while robotic action requires a physical transform, a service decisio…",
-      "link": "https://arxiv.org/abs/2611.03651",
-      "pubDate": 1793768400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-322502101",
-      "title": "MCPGuard: Finding Conformance Gaps in MCP SDKs via Dual-Track Analysis and Dynamic Adjudication",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 15 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "arXiv:2611.03662v1 Announce Type: new Abstract: The Model Context Protocol (MCP) connects large language model agents to external tools and services through official SDKs that implement message valida…",
-      "link": "https://arxiv.org/abs/2611.03662",
-      "pubDate": 1793768400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "893117239",
-      "title": "Functional-Group Knowledge Is Structured in Language Models Before It Is Spoken",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 15 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "arXiv:2611.03684v1 Announce Type: new Abstract: Language models serve as the reasoning core of agents for chemistry and materials science, where they must interpret molecular structure before planning…",
-      "link": "https://arxiv.org/abs/2611.03684",
-      "pubDate": 1793768400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1631177768",
-      "title": "LOLPlay: Benchmarking Real-Time Visual Agents in League of Legends",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 14 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "arXiv:2611.03685v1 Announce Type: new Abstract: Visual agents need to coordinate reasoning and action while their environment evolves during inference. We introduce LOLPlay, a benchmark in native \\emp…",
-      "link": "https://arxiv.org/abs/2611.03685",
-      "pubDate": 1793768400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1862197060",
-      "title": "Training LLM Agents to Automate LLM Post-Training with RSI-Dojo",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 13 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "arXiv:2611.03698v1 Announce Type: new Abstract: Recursive Self-Improvement (RSI) aims to enable AI systems to autonomously build and improve AI systems themselves, including models, harnesses, and und…",
-      "link": "https://arxiv.org/abs/2611.03698",
-      "pubDate": 1793768400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 66,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 7,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "910727432",
-      "title": "Unsatz: Evaluating Scientific Discovery Without a Given Ansatz",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 13 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "arXiv:2611.03713v1 Announce Type: new Abstract: Before a scientist fits any parameter, they must decide what the model contains: which quantities exist, which are hidden, how they interact, and how th…",
-      "link": "https://arxiv.org/abs/2611.03713",
-      "pubDate": 1793768400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1514301277",
-      "title": "Counterexample-driven autonomous research with application to excess radiated energy in a Z-pinch",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 13 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "arXiv:2611.03721v1 Announce Type: new Abstract: Recent breakthroughs in artificial-intelligence-assisted mathematics show that open-ended machine search can outperform human mathematicians, yet transf…",
-      "link": "https://arxiv.org/abs/2611.03721",
-      "pubDate": 1793768400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 7,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1299653269",
-      "title": "EMBERS: Empirically Motivated Robustness Testing of Deep Research Systems via Defect-Guided Fuzzing",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 12 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "arXiv:2611.03723v1 Announce Type: new Abstract: Deep Research (DR) systems extend large language models into autonomous agents that decompose complex information needs, iteratively search the web, and…",
-      "link": "https://arxiv.org/abs/2611.03723",
-      "pubDate": 1793768400000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-810177857",
-      "title": "From Logs to Faults: Reference-Free Fault Localization for Retrieval-Augmented Generation Pipelines",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 12 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "arXiv:2611.03725v1 Announce Type: new Abstract: Retrieval-Augmented Generation (RAG) pipelines are widely used for domain-specific question answering, yet locating faults remains manual and time-consu…",
-      "link": "https://arxiv.org/abs/2611.03725",
-      "pubDate": 1793768400000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 6,
-        "cw": 15,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
       "id": "-1919473159",
       "title": "Introducing Images 2.6",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 11 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "图片简介2.6",
       "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
       "link": "https://openai.com/index/introducing-images-2-6",
       "pubDate": 1793750400000,
@@ -573,7 +426,7 @@
     {
       "id": "723970800",
       "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 11 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "DevRev通过GPT-6.1 SOL提供自主自助服务",
       "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
       "link": "https://openai.com/index/devrev-enterprise-self-service",
       "pubDate": 1793750400000,
@@ -592,30 +445,9 @@
       "source": "OpenAI"
     },
     {
-      "id": "29788509",
-      "title": "StateBench: Testing how language models track state changes over long documents",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 10 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "StateBench: Testing how language models track state changes over long documents",
-      "link": "https://huggingface.co/blog/allenai/statebench",
-      "pubDate": 1793726121000,
-      "vendor": "huggingface",
-      "category": "Research",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 22,
-        "st": 14,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
       "id": "1811090021",
       "title": "Agentic cheminformatics with Google Antigravity",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 10 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "Google Antigravity代理化学信息学",
       "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
       "link": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
       "pubDate": 1793725309000,
@@ -634,51 +466,9 @@
       "source": "DeepMind"
     },
     {
-      "id": "2041714140",
-      "title": "Palette: teaching a small model to build decks in your design language",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 10 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "Palette: teaching a small model to build decks in your design language",
-      "link": "https://huggingface.co/blog/ibm-research/palette-deck-building",
-      "pubDate": 1793723736000,
-      "vendor": "huggingface",
-      "category": "Research",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 22,
-        "st": 14,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
-      "id": "-1389563085",
-      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
-      "titleZh": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
-      "summary": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a m…",
-      "link": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
-      "pubDate": 1793721645000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 0,
-        "cw": 15,
-        "st": 10,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
       "id": "1987756723",
       "title": "Accelerating engineering for the physical world",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 09 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "加速物理世界的工程设计",
       "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
       "link": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
       "pubDate": 1793707200000,
@@ -699,20 +489,20 @@
     {
       "id": "2028065844",
       "title": "How Cisco defends at machine speed with OpenAI",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 08 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "思科如何利用OpenAI以机器速度进行防御",
       "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
       "link": "https://openai.com/index/cisco-cyber",
       "pubDate": 1793692800000,
       "vendor": "openai",
       "category": "Research",
       "impact": "med",
-      "score": 61,
+      "score": 60,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 1,
         "cw": 22,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -720,49 +510,28 @@
     {
       "id": "1440391844",
       "title": "Heimstaden is changing residential real estate management with AI",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 08 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "海姆斯塔登正在通过人工智能改变住宅房地产管理",
       "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
       "link": "https://openai.com/index/heimstaden",
       "pubDate": 1793692800000,
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
     },
     {
-      "id": "-1724592542",
-      "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 08 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physica…",
-      "link": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
-      "pubDate": 1793689212000,
-      "vendor": "nvidia",
-      "category": "Agent",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 9,
-        "cw": 12,
-        "st": 10,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
       "id": "-1392576697",
       "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 07 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "OpenAI任命Jill Hazelbaker为首席企业事务官",
       "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
       "link": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
       "pubDate": 1793664000000,
@@ -781,51 +550,9 @@
       "source": "OpenAI"
     },
     {
-      "id": "815864036",
-      "title": "CWE-bench v2: More coverage, quality, and transparency",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 06 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "CWE-bench v2: More coverage, quality, and transparency",
-      "link": "https://huggingface.co/blog/cwe-bench",
-      "pubDate": 1793664000000,
-      "vendor": "huggingface",
-      "category": "Product",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 15,
-        "st": 14,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
-      "id": "421127521",
-      "title": "Transformers Model Integration Contracts",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 06 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "Transformers Model Integration Contracts",
-      "link": "https://huggingface.co/blog/transformers-mic",
-      "pubDate": 1793664000000,
-      "vendor": "huggingface",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 9,
-        "kv": 1,
-        "cw": 15,
-        "st": 14,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
       "id": "179896628",
       "title": "DeepSeek Harness Adds Plugin-Creation Entry for Creator Mode",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 06 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "DeepSeek线束为创作者模式添加了插件创建条目",
       "summary": "DeepSeek Harness Adds Plugin-Creation Entry for Creator Mode Unite.AI",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOd0tTZ3c1MHRILWV0NE9xeFFWaVUyMFNGcU1yUGdGUUxpbVFRaDVaZjJlOTZJU3NzUlBMbW9NbFNfUW9DeFJ1Z09fNmxVbEc3amdhUkQ1TmdmaERDMktMZzlNVGFsd01xcWVGQldmYnVaOTNXVWFYQVNoc2ZzV2trTm1QTFNGbTFwU1E?oc=5",
       "pubDate": 1793656451000,
@@ -846,7 +573,7 @@
     {
       "id": "-1278180917",
       "title": "DeepSeek is adding a creator mode to let users build custom AI plugins",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 05 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "DeepSeek正在添加创建者模式，允许用户构建自定义AI插件",
       "summary": "DeepSeek is adding a creator mode to let users build custom AI plugins Quartz",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4zcThGZHFRNk0tUVlqakFzUGQwR1NHQkl5U1dOTldMbnpsTXg0MW5SN01PX1pxVlJJS1VGOVkzZEZFWkl3NzUwQVZfNllYNXVva2ZCSjI3MERSR1BSdVNKZHk5LWxuY0pHUzFYUEtn?oc=5",
       "pubDate": 1793642497000,
@@ -867,7 +594,7 @@
     {
       "id": "1456554177",
       "title": "The latest AI news we announced in October 2026",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 05 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "我们在2026年10月宣布的最新人工智能新闻",
       "summary": "Here are Google’s latest AI updates from October 2026",
       "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
       "pubDate": 1793641500000,
@@ -888,7 +615,7 @@
     {
       "id": "554163820",
       "title": "DeepSeek Boosts AI Agent Offering With New Creator Mode",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 04 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "DeepSeek推出全新创作者模式，提升人工智能代理服务",
       "summary": "DeepSeek Boosts AI Agent Offering With New Creator Mode Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWDJicHpmUFp0QkVIcWJGSk14ekpmQkxFU0Fxd2l6MndNc2tSU1lROHo0dHQwUk1YcjJmUUU4R2g5NXM1WTlnaXpUZ1FTQXAtbXFLT1ZnVmJwRklLRUFacmNKTUVIb0Z6eWd2RUVMVVc3ZTVYcXhtTmlhdjE0WkVHT1VvOXlrTmdXaVpoRGVodm1raG5iamlXbnhncDJlRmpRRTU1ZGZ5TFNFQQ?oc=5",
       "pubDate": 1793639789000,
@@ -909,7 +636,7 @@
     {
       "id": "1141561867",
       "title": "Scaling Git at OpenAI",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 04 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "在OpenAI上扩展Git",
       "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
       "link": "https://openai.com/index/scaling-git-at-openai",
       "pubDate": 1793633400000,
@@ -930,7 +657,7 @@
     {
       "id": "-2142391915",
       "title": "DeepSeek AI model shows safety gaps in independent tests",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 03 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "DeepSeek AI模型显示独立测试中的安全漏洞",
       "summary": "DeepSeek AI model shows safety gaps in independent tests Reuters",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2VtNkRpTEd1M2w3YzYwUE9XV1BYblFJODQxWnhPVngzX2NHNkZjZV9fcTZwVWZpeWVYa3hmQ1hnbjR1M2p6b0FId28xR0xFaF9oLUQ5RU1fd0NXVDV1UTJPeERPZTU0UHkxbEtDNkRSdEFDVk9wazVKZjhsT1dNTTVNYTJOb19nVEdscGltelV1d1pRMjRLeXBvQUpVaHg3N0ow?oc=5",
       "pubDate": 1793606400000,
@@ -949,30 +676,9 @@
       "source": "Google News"
     },
     {
-      "id": "-1576538753",
-      "title": "nemotron-halloween",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 03 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "nemotron-halloween",
-      "link": "https://huggingface.co/blog/nvidia/nemotron-halloween",
-      "pubDate": 1793383044000,
-      "vendor": "huggingface",
-      "category": "Product",
-      "impact": "med",
-      "score": 34,
-      "scoreBreakdown": {
-        "cq": 3,
-        "kv": 0,
-        "cw": 15,
-        "st": 14,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
       "id": "1008360478",
       "title": "Chinese Hackers Use DeepSeek AI to Target More Than 200 Organizations",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 03 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "中国黑客使用DeepSeek AI瞄准200多个组织",
       "summary": "Chinese Hackers Use DeepSeek AI to Target More Than 200 Organizations Security Boulevard",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5xWHE0ZDQycWRwczRKMVF0WlU5N2hVVHFlNkpmUDV2T3ludmpHOXZnMjVBSHRQWm52Ui1OellScmVwZVJoY1p0aXdSZzJKRWYzTV8tWU5vT0NVdzRQaG10dHpMTnBxWEM0UFhFRTdxdjhISEp4UkR1cGxn?oc=5",
       "pubDate": 1793379530000,
@@ -991,30 +697,9 @@
       "source": "Google News"
     },
     {
-      "id": "-2100012386",
-      "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 02 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestr…",
-      "link": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
-      "pubDate": 1793372410000,
-      "vendor": "nvidia",
-      "category": "Agent",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 4,
-        "cw": 12,
-        "st": 10,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
       "id": "367274020",
       "title": "Speeding up planning decisions with AI",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 01 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "利用人工智能加快规划决策",
       "summary": "Google DeepMind and UK government work together to reduce planning assessment times",
       "link": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
       "pubDate": 1793369910000,
@@ -1033,114 +718,30 @@
       "source": "DeepMind"
     },
     {
-      "id": "443092476",
-      "title": "Granite Switch 4.1.1 — Update models like you update software",
-      "titleZh": "Granite Switch 4.1.1 — Update models like you update software",
-      "summary": "Granite Switch 4.1.1 — Update models like you update software",
-      "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
-      "pubDate": 1793281027000,
-      "vendor": "huggingface",
-      "category": "Product",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 15,
-        "st": 14,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
       "id": "-1615675001",
       "title": "DeepSeek | Rise, Technologies, Impact, &amp; Global Response",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 01 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "DeepSeek |崛起、技术、影响和全球响应",
       "summary": "DeepSeek | Rise, Technologies, Impact, Global Response Britannica",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE14aVZsR1psY1J4VTdFSHZJOXh2b3B2cjItM1B3M2IybnJRMzR5OU9HMFRmYTlTbVpuY3ZUX1FDYTh4cDlFdVZHZkgyam1nUXVBN2pF?oc=5",
       "pubDate": 1793257200000,
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google News"
     },
     {
-      "id": "2081461846",
-      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 01 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
-      "link": "https://huggingface.co/blog/announcing-project-protostar",
-      "pubDate": 1793232000000,
-      "vendor": "huggingface",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 15,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
-      "id": "-1206872337",
-      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 25 MINUTES 00 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
-      "link": "https://huggingface.co/blog/mistral-large4",
-      "pubDate": 1793232000000,
-      "vendor": "huggingface",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 15,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
-      "id": "1925757382",
-      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 59 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
-      "link": "https://huggingface.co/blog/anydecisionmodel",
-      "pubDate": 1793232000000,
-      "vendor": "huggingface",
-      "category": "Release",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 25,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
       "id": "454192783",
       "title": "Gemini 4 Carbon: Our next frontier model",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 59 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "Gemini 4 Carbon ：我们的下一个前沿车型",
       "summary": "Gemini 4 Carbon: Our next frontier model",
       "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
       "pubDate": 1793206858000,
@@ -1159,30 +760,9 @@
       "source": "DeepMind"
     },
     {
-      "id": "314283158",
-      "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 59 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These p…",
-      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
-      "pubDate": 1793199646000,
-      "vendor": "nvidia",
-      "category": "Research",
-      "impact": "med",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 8,
-        "cw": 22,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
       "id": "1572333532",
       "title": "Genie 4: A new generation of world simulation",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 58 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "精灵4 ：新一代世界模拟",
       "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
       "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
       "pubDate": 1793116898000,
@@ -1203,7 +783,7 @@
     {
       "id": "-769727414",
       "title": "Our newest AI Quest: Mapping the human brain",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 58 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "我们最新的人工智能任务：映射人脑",
       "summary": "Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”",
       "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
       "pubDate": 1793030400000,
@@ -1222,25 +802,25 @@
       "source": "Google AI"
     },
     {
-      "id": "-65426783",
-      "title": "Kazakhstan Expands Compute for Its AI Future",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 57 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. The announcements below — co…",
-      "link": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
-      "pubDate": 1792720813000,
-      "vendor": "nvidia",
-      "category": "Release",
+      "id": "1047758860",
+      "title": "Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattacks",
+      "titleZh": "随着人们对人工智能网络攻击的担忧加剧， Moonshot抑制了新的Kimi模型的黑客能力",
+      "summary": "Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattacks Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWlpZNXVZQXBxZ1hCTzA4X0VZYUh0QkhJb281X3VmMUt0VVZRY0N2N1Fja1dyZlB4cGlsTGktdjRaRzEzSDgtR01QS1F4V0ZsN0lsbzdTRjhRbG1MMlhfMkluTkxwTXFhOG1XZVVpRlRJX29ULXBEcUdTQUpoa2NkUmRMZFhDbkF3a0N3SDlqbTg1QnR3aFkwSW9LS181X0hsbXM1bXF2a0ZTWldQdlBMSlJRSzFoOGI2aFRF?oc=5",
+      "pubDate": 1792738800000,
+      "vendor": "kimi",
+      "category": "Research",
       "impact": "med",
-      "score": 68,
+      "score": 55,
       "scoreBreakdown": {
-        "cq": 24,
-        "kv": 8,
-        "cw": 25,
-        "st": 10,
+        "cq": 20,
+        "kv": 0,
+        "cw": 22,
+        "st": 12,
         "rc": 0,
         "cs": 1
       },
-      "source": "NVIDIA"
+      "source": "Google News"
     },
     {
       "id": "974761533",
@@ -1262,48 +842,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "-173082362",
-      "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 57 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling…",
-      "link": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
-      "pubDate": 1792579837000,
-      "vendor": "nvidia",
-      "category": "Release",
-      "impact": "high",
-      "score": 74,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 14,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "-1138623970",
-      "title": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
-      "titleZh": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
-      "summary": "Founded in a tent near the Berlin Wall in 1980, the Tempodrom moved several times before settling near Anhalter Bahnhof in 2001. Its permanent home has since hosted concerts, galas and political event…",
-      "link": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
-      "pubDate": 1792575016000,
-      "vendor": "nvidia",
-      "category": "Agent",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 11,
-        "cw": 12,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
     },
     {
       "id": "955791379",
@@ -1348,51 +886,9 @@
       "source": "Google News"
     },
     {
-      "id": "738780645",
-      "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 56 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and trai…",
-      "link": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
-      "pubDate": 1792472400000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 7,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "1448480548",
-      "title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 56 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to th…",
-      "link": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
-      "pubDate": 1792422031000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 4,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
       "id": "487918830",
       "title": "US bans China's DeepSeek from government in race for AI dominance",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 56 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "美国禁止中国的DeepSeek与政府争夺人工智能主导地位",
       "summary": "US bans China's DeepSeek from government in race for AI dominance BBC",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pUFg0N3NNbGhmNmp4THlOVFFSOFdudlVRSzEzc2lzQzNMZldMOUFSbHhtd1l0X3JqZF90dnpBSUh1TFBUTHdUUXRLTlF0SThVN3huUFhJX0swMnc?oc=5",
       "pubDate": 1792393200000,
@@ -1411,30 +907,9 @@
       "source": "Google News"
     },
     {
-      "id": "-1326962398",
-      "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 55 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
-      "summary": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, lapt…",
-      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
-      "pubDate": 1792270813000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 6,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
       "id": "-2130920934",
       "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 54 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "使用Google Antigravity加速寻找抗菌肽",
       "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
       "link": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
       "pubDate": 1792080483000,
@@ -1455,7 +930,7 @@
     {
       "id": "468880872",
       "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 54 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "谷歌DeepMind与新加坡政府合作构建用于诈骗检测的微调人工智能模型",
       "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
       "link": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
       "pubDate": 1791943214000,
@@ -1476,7 +951,7 @@
     {
       "id": "-1131656509",
       "title": "Developing Gemini 4 Argon responsibly and safely",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 54 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "负责任和安全地开发Gemini 4 Argon",
       "summary": "Developing Gemini 4 Argon responsibly and safely",
       "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
       "pubDate": 1791920587000,
@@ -1497,7 +972,7 @@
     {
       "id": "-816735613",
       "title": "Gemini 4 Argon for Robotics",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 54 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "Gemini 4 Argon机器人",
       "summary": "Gemini 4 Argon for Robotics",
       "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
       "pubDate": 1791907318000,
@@ -1518,7 +993,7 @@
     {
       "id": "323274282",
       "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 52 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "Gemini 4 Argon ：专为解决您最棘手的问题而设计",
       "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
       "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
       "pubDate": 1791907200000,
@@ -1539,7 +1014,7 @@
     {
       "id": "-707716531",
       "title": "Introducing Playground: Create and play custom games",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 52 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "Playground简介：创建和玩自定义游戏",
       "summary": "Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
       "link": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
       "pubDate": 1791374400000,
@@ -1560,7 +1035,7 @@
     {
       "id": "-1618984669",
       "title": "The latest AI news we announced in September 2026",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 52 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "我们在2026年9月宣布的最新人工智能新闻",
       "summary": "Here are Google’s latest AI updates from September 2026",
       "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
       "pubDate": 1790953200000,
@@ -1579,9 +1054,30 @@
       "source": "Google AI"
     },
     {
+      "id": "200081961",
+      "title": "AI race heats up as OpenAI flags alleged model-copying campaign",
+      "titleZh": "随着OpenAI标记涉嫌模型复制活动， AI竞赛升温",
+      "summary": "AI race heats up as OpenAI flags alleged model-copying campaign CNBC",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kSmhrQ0lQOWwyV3JGWWpoclhLX1ZHYm9qX2tOTVRvcms5eUpOUjlrQ2RYdnhlVlJYTUNFelFRWjVkYXpJbVBPTU42amJ3QW5IMDdqYTZzcjVULWxuSjh0OUYyRTV6RG84ZlpLM2NlblNoWHJDdXfSAXtBVV95cUxQSTFoTHRwbXlLVFQtRXNCVlpLblVkRGNiMnN3RjgwVHE5anZvUW1aQlNzTGVGRXJISm9JUGdka1dWUnFEd0Nqc2s1N1d4UldwLUlTNWdCOWxJUFluSVZSTUJzZFhkM3VKNUNLd3cwNjJRa29QbWQ3d0hDN28?oc=5",
+      "pubDate": 1790751600000,
+      "vendor": "openai",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1464852399",
       "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 52 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "观看Future Vision XPRIZE的获奖预告片《The Gifted》。",
       "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
       "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
       "pubDate": 1790622000000,
@@ -1602,7 +1098,7 @@
     {
       "id": "-770369360",
       "title": "Google Beam expands with new regions, partners, and customers",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 51 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "Google Beam扩展到新的地区、合作伙伴和客户",
       "summary": "We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network.",
       "link": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
       "pubDate": 1790186400000,
@@ -1644,7 +1140,7 @@
     {
       "id": "-935834101",
       "title": "Co-creating the future of fashion with Google",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 50 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "与Google共同创造时尚的未来",
       "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
       "link": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
       "pubDate": 1789736400000,
@@ -1663,9 +1159,93 @@
       "source": "Google AI"
     },
     {
+      "id": "-1290016780",
+      "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
+      "titleZh": "Kimi制造商Moonshot AI的年收入目标为$ 2B",
+      "summary": "Kimi-maker Moonshot AI targets $2B in annual revenue TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZjd5bE8wcUZHZlhfS0lwZmxpX2xTTXBOMkJoVVItRmNjNGRsNjFJQVNXOERhYUljdFBscjBKekNlNXlmNmktZUpNNW1CbXQ5ODlxZWYyZUJScmI3cllZM2o0bUl0YW9FM3Z3TUI0Q1hDbVhMdkxHWi0yNTBFekhRYlc2NjhBeW43cktndU1fQUltQS1nclZVbQ?oc=5",
+      "pubDate": 1789110000000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-244949029",
+      "title": "China’s new AI model halts new subscriptions as demand swamps capacity",
+      "titleZh": "China’s new AI model halts new subscriptions as demand swamps capacity",
+      "summary": "China’s new AI model halts new subscriptions as demand swamps capacity AP News",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZ0pwc01XYlBBaFVDNjRlNEluSlN3bkxsZjRld2o0VmxyeWJnNWpLdHpESndudTFRcDdka2c3UGxkQ05yaThiVXlzUXNUSGNFV2hBQlVWdFVYcExtSVA3bGUxSmdvMndZQTlsTDV1dFVtSlktODNJdXFMY3htQldXMVJvZ29sNEtZNzVnNmZR?oc=5",
+      "pubDate": 1784530800000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "257049637",
+      "title": "China's Moonshot AI claims Kimi K3 can rival OpenAI and Anthropic",
+      "titleZh": "中国的Moonshot AI声称Kimi K3可以与OpenAI和Anthropic相媲美",
+      "summary": "China's Moonshot AI claims Kimi K3 can rival OpenAI and Anthropic BBC",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBRRWRCTzZXLWRlVV9jYTRzN3ktc1lFLWExbVlPa09HSVEwR0VyVWhxYkcxNG5mRUVHcDdGRVFaQ0hoOU95OHQ5ZmtRWkYxcnh6Z2dkYUowZ0FmQQ?oc=5",
+      "pubDate": 1784271600000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-163707957",
+      "title": "China’s Latest A.I. Breakthrough Threatens America’s Lead",
+      "titleZh": "China’s Latest A.I. Breakthrough Threatens America’s Lead",
+      "summary": "China’s Latest A.I. Breakthrough Threatens America’s Lead The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UYkVrd05BamRNRHcyZ19xN1FyaklNdVBYUXlFcTQ4dGhjYWdrb0Z1LWxhdnV0VWVmOU9rNnVjQUpIZHQ5SmdCZDd2MDVNQk5rR2NSM2x4QkVhNVp2SVhJcF9jZGdmQjlJTnhTdmlOdGotbzZ0X3pFMTVwVQ?oc=5",
+      "pubDate": 1784271600000,
+      "vendor": "google",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "251294355",
       "title": "Technology, recovery, and responsibility",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 50 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "技术、恢复和责任",
       "summary": "By Sriram Rajamani, Managing Director, Microsoft Research India We started 2021 with the hope that the COVID-19 vaccines will immunize enough of the world’s population to give herd immunity in the com…",
       "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
       "pubDate": 1615961906000,
@@ -1686,7 +1266,7 @@
     {
       "id": "1792312368",
       "title": "Directorate General of Training, Ministry of Skill Development and Entrepreneurship, partners with Microsoft and NASSCOM Foundation to empower students with next generation digital skills",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 50 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "技能发展和创业部培训总局与微软和NASSCOM基金会合作，为学生提供下一代数字技能",
       "summary": "The blended curriculum will impact 1.2 lakh students across 3000 Industrial Training Institutes (ITI) in India New Delhi, January 7, 2021: With a vision to empower the next generation of learners, the…",
       "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
       "pubDate": 1610002951000,
@@ -1770,7 +1350,7 @@
     {
       "id": "-1887675878",
       "title": "NSDC and Microsoft collaborate to empower Indian youth with digital skills",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 49 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "NSDC和微软合作，为印度青年提供数字技能",
       "summary": "The initiative aims at skilling over 1 lakh youth in the next 12 months New Delhi, July 08, 2020: With a vision to transform India into a skilled nation, the National Skill Development Corporation (NS…",
       "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
       "pubDate": 1594186160000,
@@ -1791,7 +1371,7 @@
     {
       "id": "652542494",
       "title": "Empowering developers to achieve more at the Microsoft Developer Conference",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 49 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "帮助开发人员在Microsoft开发者大会上取得更大成就",
       "summary": "New Delhi, June 18, 2020: Underlining the critical role of developers in innovations that will power economic recovery, the Microsoft Developer Conference brought together developers and tech professi…",
       "link": "https://news.microsoft.com/en-in/microsoft-developer-conference/",
       "pubDate": 1592461746000,
@@ -1812,7 +1392,7 @@
     {
       "id": "-150806068",
       "title": "Microsoft announces program to accelerate growth of agritech startups in India",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 48 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "微软宣布加速印度农业科技创业公司发展的计划",
       "summary": "New Delhi, June 03, 2020: Microsoft announced the launch of a program for agritech startups in India that are committed to driving transformation in agriculture. The Microsoft for Agritech Startups pr…",
       "link": "https://news.microsoft.com/en-in/microsoft-agritech-startups-program-india-launch/",
       "pubDate": 1591162175000,
@@ -1833,7 +1413,7 @@
     {
       "id": "297070690",
       "title": "Microsoft empowers startups in India to achieve more",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 48 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "微软助力印度初创企业实现更多",
       "summary": "Five startups showcase their unique propositions at Future Decoded Tech Summit Bengaluru, February 25, 2020: Startups are an indisputable innovation engine, and Microsoft is partnering with startups a…",
       "link": "https://news.microsoft.com/en-in/microsoft-empowers-startups-in-india-to-achieve-more/",
       "pubDate": 1582633175000,
@@ -1854,7 +1434,7 @@
     {
       "id": "1830923333",
       "title": "Myntra accelerates its digital transformation journey with Microsoft Cloud",
-      "titleZh": "MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  07 HOURS 24 MINUTES 47 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE",
+      "titleZh": "Myntra借助微软云加速其数字化转型之旅",
       "summary": "reimagines online shopping experience for customers Azure powers biggest-ever End of Reason Sale New Delhi, February 19, 2020: Myntra, India’s leading destination for fashion and lifestyle, has partne…",
       "link": "https://news.microsoft.com/en-in/myntra-digital-transformation-microsoft-cloud/",
       "pubDate": 1582092103000,
