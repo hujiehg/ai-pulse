@@ -1,8 +1,50 @@
 {
-  "updated": "2026-11-07T19:46:26.384Z",
-  "count": 147,
-  "sources": 8,
+  "updated": "2026-11-07T23:16:56.632Z",
+  "count": 117,
+  "sources": 6,
   "items": [
+    {
+      "id": "-514552035",
+      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "titleZh": "期中考试结束后，埃隆·马斯克（ Elon Musk ）和数据中心的情况看起来很糟糕",
+      "summary": "On Equity, we unpacked what the midterms mean for the tech industry.",
+      "link": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "pubDate": 1794089242000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 43,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1067882640",
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "titleZh": "根据美国情报备忘录， Megaspeed高管被招募来监视Nvidia首席执行官",
+      "summary": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
+      "link": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "pubDate": 1794086228000,
+      "vendor": "techcrunch",
+      "category": "Safety",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 1,
+        "cw": 10,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
     {
       "id": "53254376",
       "title": "DeepSeek Harness 0.2.2 Lands, and It Can Delegate to Codex and Claude",
@@ -13,13 +55,13 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "med",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 4,
         "cw": 15,
         "st": 12,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "Google News"
@@ -46,46 +88,46 @@
       "source": "Google News"
     },
     {
-      "id": "-1277333418",
-      "title": "Kimi AI Pricing: $1 Top-Up vs $159 Ultra Plan [2026] - https://tech",
-      "titleZh": "Kimi AI定价： $ 1充值vs $ 159超级套餐[2026] - https://tech",
-      "summary": "Kimi AI Pricing: $1 Top-Up vs $159 Ultra Plan [2026] https://tech-insider.org/",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMV9mRFdlRUlzazZ6ckU0NGszRUd5amVhWFBuLUhUbWN4cTUwRmNWalB4R25PY1pJN3JIUUlkS2VCT281MXpOcFNtR1dDa2sxTV9Bb2RsX0ktTGtvUWhQa1NwY0NLdERBeHZMN211dkNOd3BBV2h1X1J5Z1Z2RkdvWUF2LTkzTnIzdF92MkhjVQ?oc=5",
-      "pubDate": 1794053956000,
-      "vendor": "kimi",
+      "id": "1635811436",
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "titleZh": "Crusoe将陷入困境的怀俄明州数据中心项目出售给谷歌",
+      "summary": "The deal highlights the challenges of developing massive AI data centers.",
+      "link": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "pubDate": 1794015628000,
+      "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 43,
       "scoreBreakdown": {
-        "cq": 18,
+        "cq": 16,
         "kv": 0,
         "cw": 15,
-        "st": 12,
+        "st": 8,
         "rc": 3,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "TechCrunch"
     },
     {
-      "id": "-1408269563",
-      "title": "Free DeepSeek model comes within eight points of OpenAI's restricted cyber model in Vals network-hacking test",
-      "titleZh": "在VALS网络黑客测试中，免费的DeepSeek模型距离OpenAI的受限网络模型不到8分",
-      "summary": "Free DeepSeek model comes within eight points of OpenAI's restricted cyber model in Vals network-hacking test MLQ.ai",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNC1Ba0kwc2F4ZVcxVXpWUGh5d1RIT05wd3VGeUFRZmdZMWxOamdlRGp1eDYwcm83ZzhRcGpwRGxWWVR1WHp6T3hVYV82SGllY29KZzQyRWhCVlBUZlVLV3Zwcmp3N0pSNlliR3VGbTIyTVp6RkpZMTdub3FjTFczamk1dk1Hd2xCVUxkdFRJUUF6R3FGSGNuN0EzRkFSUWRKU3QyVjlLSFZ5Q09lbVlBT2ZZVzlza2JKS21mY0s5TG9LcDJMVUNydQ?oc=5",
-      "pubDate": 1794044988000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
+      "id": "-625191844",
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "titleZh": "据报道， OpenAI以1.25万亿美元的估值额外筹集了110亿美元",
+      "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+      "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "pubDate": 1794005626000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "high",
+      "score": 55,
       "scoreBreakdown": {
         "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
+        "kv": 4,
+        "cw": 20,
+        "st": 8,
+        "rc": 2,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "TechCrunch"
     },
     {
       "id": "-453576481",
@@ -97,16 +139,142 @@
       "vendor": "deepseek",
       "category": "Product",
       "impact": "high",
-      "score": 53,
+      "score": 52,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 2,
         "cw": 15,
         "st": 12,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "1175490281",
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "titleZh": "数百个公开暴露在网络中的Artex AI黑客工具",
+      "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
+      "link": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "pubDate": 1793990678000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 1,
+        "cw": 22,
+        "st": 8,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1375124579",
+      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "titleZh": "Meta引入了Spaces ，这是一种与Muse代理进行协作的新方法",
+      "summary": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
+      "link": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "pubDate": 1793990660000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-935656379",
+      "title": "How a Blue Wave midterm might reshape the AI industry",
+      "titleZh": "Blue Wave期中考试如何重塑人工智能行业",
+      "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the …",
+      "link": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+      "pubDate": 1793988000000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "250375212",
+      "title": "After the midterms, is the AI industry in for a rough two years?",
+      "titleZh": "期中考试结束后，人工智能行业是否会持续两年？",
+      "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the …",
+      "link": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+      "pubDate": 1793985832000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-281301681",
+      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+      "titleZh": "RAMP数据显示，随着Anthropic接近首次公开募股，人工智能支出停滞不前",
+      "summary": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
+      "link": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "pubDate": 1793980487000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "high",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 20,
+        "st": 8,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "173019594",
+      "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
+      "titleZh": "在阻止Muse之后，亚马逊现在允许用户通过短信Alexa帮助他们购物",
+      "summary": "Amazon said that the feature will roll out to millions of users in coming weeks.",
+      "link": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+      "pubDate": 1793974200000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 40,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "TechCrunch"
     },
     {
       "id": "-1502180657",
@@ -128,27 +296,6 @@
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "-2135608025",
-      "title": "China’s AI models, led by Kimi, rule open-source enterprise spending",
-      "titleZh": "China’s AI models, led by Kimi, rule open-source enterprise spending",
-      "summary": "China’s AI models, led by Kimi, rule open-source enterprise spending South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNazMxSWVtZVBLd3E5MTdKTmFVblp2Uk1Jb09HeW9WeURBS3B1c241VWJ1UC12b3lvX1VLTG1lOWxCWlo3bC1aejBiejFzUmZxU3FkUW1NNVJlektIeHVSWE5ZbnprMVBudTVMbVpReFo2cjJWelhPTGVmejJDOUxnc0RVa2d0dDdWeW1uNFVnRG1iLXJsRjlLYThmVEJ3TGdxQWZ6SXVleTZmYmNyQXV4Y0RZRHVwMl8ya2pFMg?oc=5",
-      "pubDate": 1793971809000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-962185634",
@@ -193,25 +340,214 @@
       "source": "OpenAI"
     },
     {
-      "id": "-1114393052",
-      "title": "Qwen 4 Release Date: What We Know So Far",
-      "titleZh": "Qwen 4发布日期：到目前为止我们所知道的",
-      "summary": "Qwen 4 Release Date: What We Know So Far Fello AI",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBfTjduVmhuVzQ2N1p5Z0RvMHJOWVBMbkk4ZnBRQ3lLdnlmZnpXajZ0UV9RakZtdllEN1BsaC1OTXo?oc=5",
-      "pubDate": 1793945296000,
-      "vendor": "qwen",
+      "id": "-380184307",
+      "title": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
+      "titleZh": "人工智能时代逆问题的形式化：可能性、陷阱和邀请",
+      "summary": "arXiv:2611.06962v1 Announce Type: new Abstract: Proof assistants such as Lean check mathematical proofs down to the axioms, and AI agents have recently made writing such proofs cheap. We describe Auto…",
+      "link": "https://arxiv.org/abs/2611.06962",
+      "pubDate": 1793941200000,
+      "vendor": "arxiv",
       "category": "Release",
-      "impact": "high",
-      "score": 60,
+      "impact": "med",
+      "score": 62,
       "scoreBreakdown": {
-        "cq": 16,
-        "kv": 4,
+        "cq": 18,
+        "kv": 3,
         "cw": 25,
-        "st": 12,
+        "st": 13,
         "rc": 2,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "arXiv"
+    },
+    {
+      "id": "-913148738",
+      "title": "KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for Liability Adjudication Tasks",
+      "titleZh": "KDASO ：责任裁定任务的知识数据双驱动自动化技能优化",
+      "summary": "arXiv:2611.06972v1 Announce Type: new Abstract: Liability adjudication tasks (e.g., legal charge determination) require analyzing event descriptions against domain-specific skills to determine whether…",
+      "link": "https://arxiv.org/abs/2611.06972",
+      "pubDate": 1793941200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1468900026",
+      "title": "BlockLock: Reproducible LLM Inference with Fixed Batch Geometry",
+      "titleZh": "BlockLock ：具有固定批次几何形状的可重复LLM推断",
+      "summary": "arXiv:2611.06977v1 Announce Type: new Abstract: Reproducible LLM inference requires that a request produces the same output regardless of the other requests in the batch. Existing solutions pay for th…",
+      "link": "https://arxiv.org/abs/2611.06977",
+      "pubDate": 1793941200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1448558320",
+      "title": "Resource-Efficient Reinforcement Learning Post-Training through Elastic Expert Parallelism",
+      "titleZh": "通过弹性专家并行进行资源节约型强化学习后训练",
+      "summary": "arXiv:2611.06984v1 Announce Type: new Abstract: Reinforcement learning post-training improves the capabilities of large language models, but generating training responses is a major computational bott…",
+      "link": "https://arxiv.org/abs/2611.06984",
+      "pubDate": 1793941200000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "high",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 25,
+        "st": 13,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "523424953",
+      "title": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
+      "titleZh": "双分类账模型：跨云、模型和记录系统的多代理AI系统的交易粒度成本核算",
+      "summary": "arXiv:2611.06989v1 Announce Type: new Abstract: Enterprises run business transactions through multi-agent AI systems spanning clouds, large language models (LLMs), orchestration harnesses, and systems…",
+      "link": "https://arxiv.org/abs/2611.06989",
+      "pubDate": 1793941200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-861366241",
+      "title": "Autonomous AI Agents Systematically Diverge From Human Preferences in Proof Formalization",
+      "titleZh": "自主人工智能代理在证明形式化方面系统地偏离人类偏好",
+      "summary": "arXiv:2611.06995v1 Announce Type: new Abstract: Artificial intelligence (AI) systems have ushered in a new age of proof abundance, but helping humans understand these proofs requires new attention to …",
+      "link": "https://arxiv.org/abs/2611.06995",
+      "pubDate": 1793941200000,
+      "vendor": "arxiv",
+      "category": "Agent",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 12,
+        "st": 13,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1697046523",
+      "title": "Trust Responsive Runtime Authorization for Agentic AI with Empirical Characterization of Policy Behavior and Parameter Sensitivity",
+      "titleZh": "具有策略行为和参数敏感性经验表征的Agentic AI的信任响应运行时授权",
+      "summary": "arXiv:2611.06996v1 Announce Type: new Abstract: The policy that converts runtime estimates of an autonomous agent's condition into operational authority is rarely specified or measured. We empirically…",
+      "link": "https://arxiv.org/abs/2611.06996",
+      "pubDate": 1793941200000,
+      "vendor": "arxiv",
+      "category": "Agent",
+      "impact": "high",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 5,
+        "cw": 12,
+        "st": 13,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1257970107",
+      "title": "Adapting the Process of Adaptation: Darwinian, Lamarckian, and Agent-Directed Evolution in AI",
+      "titleZh": "适应适应过程：人工智能中的达尔文、拉马克和智能体导向进化",
+      "summary": "arXiv:2611.07048v1 Announce Type: new Abstract: Evolution has shaped intelligence for billions of years. Artificial intelligence (AI) now raises a striking possibility: intelligence may begin to direc…",
+      "link": "https://arxiv.org/abs/2611.07048",
+      "pubDate": 1793941200000,
+      "vendor": "arxiv",
+      "category": "Funding",
+      "impact": "high",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 7,
+        "cw": 20,
+        "st": 13,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1613615638",
+      "title": "Closed-Loop Agent Evaluation: Layered Measurement and Self-Calibration",
+      "titleZh": "闭环代理评估：分层测量和自校准",
+      "summary": "arXiv:2611.07051v1 Announce Type: new Abstract: Once an agent is live, teams want to know whether it is doing its job, not just whether it throws errors. Yet most evaluation is one-off: a benchmark ru…",
+      "link": "https://arxiv.org/abs/2611.07051",
+      "pubDate": 1793941200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1507185381",
+      "title": "Cooperative Multi-Agent Reinforcement Learning via Epigraph-Form Guided Exploration",
+      "titleZh": "通过Epigraph-Form引导探索的协作多Agent强化学习",
+      "summary": "arXiv:2611.07066v1 Announce Type: new Abstract: Discovering cooperative behavior in multi-agent reinforcement learning (MARL) is challenging due to the combinatorial complexity of joint state-action s…",
+      "link": "https://arxiv.org/abs/2611.07066",
+      "pubDate": 1793941200000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "arXiv"
     },
     {
       "id": "1592323587",
@@ -286,13 +622,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -361,69 +697,6 @@
       "source": "Google AI"
     },
     {
-      "id": "-712176126",
-      "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
-      "titleZh": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
-      "summary": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works clos…",
-      "link": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
-      "pubDate": 1793894400000,
-      "vendor": "nvidia",
-      "category": "Release",
-      "impact": "high",
-      "score": 71,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 10,
-        "cw": 25,
-        "st": 10,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "1517369114",
-      "title": "Kimi K3.1 Pro Goes Open-Weight: 2.8T Parameters [2026]",
-      "titleZh": "Kimi K3.1 Pro开放重量： 2.8T参数[2026]",
-      "summary": "Kimi K3.1 Pro Goes Open-Weight: 2.8T Parameters [2026] shattered.io",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMFNjQ1dJbHRhTDg0d1ZBYzVlUHI4M1lMeXp4Unk5QThnUVJwd1VuTTlsZmhJVGJQbW1WMkVKWkRSNHRFMV94eFpfcnJkMW0xZ01OYUFDWU1Td3lobzBYX0tJWXRmLWVZQ3Q3WFROTlBReDRVM3FmMHJKckgwaWJLUmtNTW1GRXZwMEQwdkJsSQ?oc=5",
-      "pubDate": 1793889786000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-227562363",
-      "title": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC",
-      "titleZh": "消息人士告诉CNBC ，在美国中国限制的情况下，中国人工智能实验室Moonshot转向欧洲获得Nvidia Blackwell的访问权限",
-      "summary": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC CNBC",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUc0JXdFFrNXJHSkxKclVRQkdfMXZNbmk5akFqZDA2dWFQbXV2MUd1d2V1TFhfVW9uT2F5WXJJVHZoNUZUUEtLVFF2aWotaHBVTk9kcFpvZkFucXppMlp3YzZvaWdXVmZ3ZUZJdzFsV3kzaXBMWnpiSjJ4aUhxcVHSAYQBQVVfeXFMTXVzSHktMk1IYUR5bm45MWpEQmRpZkkwbS1LSVNZZm02Q05uZE56ekhLZjBKV0RLWlVhdVoteHFra2hPOFdMNXEweDc4eUhvWTlqQWxwcXpMdURoMzVmUnBaMFRBc0RtTG1FQXhSekFZeDhSM25Yc3o2THdGckl0cEtLSG9q?oc=5",
-      "pubDate": 1793885654000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "257181949",
       "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
       "titleZh": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
@@ -478,48 +751,6 @@
       "score": 61,
       "scoreBreakdown": {
         "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "255844403",
-      "title": "Moonshot AI releases Kimi K3.1 Pro model weights",
-      "titleZh": "Moonshot AI发布Kimi K3.1 Pro模型权重",
-      "summary": "Moonshot AI releases Kimi K3.1 Pro model weights TechNode",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ3ZqcjR1SkNXOHhVeXNqeWQ4dW5WZ2hOeENPcFlFaUZzbXAzQXVfYlZjU3Flc1k2aFRGRF94NWtGN2ozY2VVU1VmT2lSc0Q5MDZRM2Y5U0F6Q1RLM3JJSTZiUHhxajdDU0FXRVlCWFRPbWZoQ01JTzRGRGdKZzVsZUstNzBBNkUt?oc=5",
-      "pubDate": 1793858494000,
-      "vendor": "kimi",
-      "category": "Release",
-      "impact": "high",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1123186332",
-      "title": "Moonshot AI Releases Full Weights For 2.8 Trillion Parameter Kimi K3.1 Pro",
-      "titleZh": "Moonshot AI发布2.8万亿参数Kimi K3.1 Pro的全重量",
-      "summary": "Moonshot AI Releases Full Weights For 2.8 Trillion Parameter Kimi K3.1 Pro Startup Fortune",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYWs1Vy1EU1F2U0Y5UWloMjl6bHNDZGc0NUk5aGE0SHdqMFhSVHZ2dHUwVkJMYTZ6TmFVbWpzOUFzdkdKTFRlaF9rai1LYVd3bXlyOW1KemxXM3BlRGhSSGx2VG9Nc1VKMkREcVBJMVhhT0RuRWJVbzNRdWR1ejhQcWFpbmZNaTQ3bzBSRXZQaW0ySGpYQVRlUXMxNXJyck03bFE?oc=5",
-      "pubDate": 1793847348000,
-      "vendor": "kimi",
-      "category": "Release",
-      "impact": "high",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 20,
         "kv": 4,
         "cw": 25,
         "st": 12,
@@ -718,48 +949,6 @@
       "source": "HuggingFace"
     },
     {
-      "id": "-1389563085",
-      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
-      "titleZh": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
-      "summary": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a m…",
-      "link": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
-      "pubDate": 1793721645000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 0,
-        "cw": 15,
-        "st": 10,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "-2044302766",
-      "title": "China Going For Domestic Full-Stack AI Dominance: DeepSeek Will Train Its Upcoming V5 Model From Scratch On Huawei’s Ascend 950DT-Based Atlas SuperPoDs",
-      "titleZh": "China Going For Domestic Full-Stack AI Dominance: DeepSeek Will Train Its Upcoming V5 Model From Scratch On Huawei’s Ascend 950DT-Based Atlas SuperPoDs",
-      "summary": "China Going For Domestic Full-Stack AI Dominance: DeepSeek Will Train Its Upcoming V5 Model From Scratch On Huawei’s Ascend 950DT-Based Atlas SuperPoDs Wccftech",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxObF96OFBiUDBpNUFsWHNJZXltVm9SaGxhN2h0dXRpWUVoR181bzNFNGVBaVkzS1pqZFVUcWVBanlpNHFBQ3FtbmFxQk5rM3FqVzZtOUd3bU5TV0pBUlRFVE9xdmRkYkRsMy10V2lYeXVpT2FHcDI5YU15SnltbzdCaTJ6QkJNYlM5eVdZU0w5ZnFjb05DY2I4amh0NzNOTnZXWWR4aWRaSE9IbGxHMG9OY0l5QnVzMDVBdjM5UmFlLWthXy1MelE4UlRwbWlHZTkxSldiWlZmSExOSFNEcDZVTzQwN1RiNDR3aFgwSU02T2JCSXQxNGpSNF9zQ1hyUEhm0gGGAkFVX3lxTE1KaWZ0MExPN29hMUNCZzVNZ2l2LTdkVFpBQVVMUGEyYnk5bm9JQzlCWHlYSGxqVU9YbnIxOElsVGtYZ3hHMXdGalJvUlowc2dwSUxvWnR0MnZvclFGbEY5aDdGOUwxZGNJSXNhMXFYYWFkZ3FKNVZLdDlQUmxsR01CRWYtVk9xcmNQd1dTdDdxV2I3RlZSdEQ0aDk5QWpJRjc3MkY0TXVPZTkyN3kxa1B3T180LS1DZDdJVEpzSlhlTFZGZGRFQ294NG1sVXJyLU9IRXFHRi1JZEFxVGdJODhLbjdZYm10QnF6ZEJXWmZicEZfdWpDWjdtU1NyZWp3WFJHS3RaZnc?oc=5",
-      "pubDate": 1793720200000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "1543252955",
       "title": "DeepSeek Takes Aim at Claude Code With Open-Source 'Super-Agent' That Can Work Without Constant Prompts",
       "titleZh": "DeepSeek采用开源“超级代理”瞄准Claude代码，无需不断提示即可工作",
@@ -774,48 +963,6 @@
         "cq": 20,
         "kv": 4,
         "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1724592542",
-      "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
-      "titleZh": "全球城市通过NVIDIA物理和Agent AI构建和扩展AI服务",
-      "summary": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physica…",
-      "link": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
-      "pubDate": 1793689212000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 11,
-        "cw": 15,
-        "st": 10,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "-202311253",
-      "title": "Qwen 4 Launch: Alibaba Open-Source Promise in Doubt",
-      "titleZh": "Qwen 4发布：阿里巴巴开源承诺令人怀疑",
-      "summary": "Qwen 4 Launch: Alibaba Open-Source Promise in Doubt shattered.io",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQampWbG5WUTgzWGd1Sld6UHBNTmN4dEVMMUVSZXdoc2JpeTl3MHplX09MWTdzRk9HeDVoaFVnaGV0Uk11Z0xDSWgyMVI4RVFUNzA3VkZ5U2phaXNyb1RKLVJ1VjJfOS15TXQzYWZIX05VSEhqbG5kWlplZjJZcWxXWG90dGNrRjJTa0lUNQ?oc=5",
-      "pubDate": 1793682443000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
         "st": 12,
         "rc": 1,
         "cs": 1
@@ -991,48 +1138,6 @@
       "source": "Google News"
     },
     {
-      "id": "-797557419",
-      "title": "Alibaba's Qwen AI model to integrate into Apple Intelligence in landmark partnership",
-      "titleZh": "阿里巴巴的Qwen AI模型将以具有里程碑意义的合作伙伴关系整合到Apple Intelligence中",
-      "summary": "Alibaba's Qwen AI model to integrate into Apple Intelligence in landmark partnership CGTN",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZk1PNGVzNTlDakNZdkN5YVdBQTJNeC1namc5dGFXaUhHRXJvM0FLQ1B1Q003SU9JOW1XSnFHdDNFMTBkdWtRX0l1enpvSmUwdDBXOERQT3MxQW5KY0N2d1BvaGgyNWwzeWZ3dklaUTdhQTBrTzdKREp4cW9aN1ZQcV9VOVg5R0dNREVHekg2NWU3WnRKRHN6WGR5Vk1YUVhjeS1ZR3g2VnF2M3hST1otcTBqcEVSbGtMTjlMcWFpaG1HcXM?oc=5",
-      "pubDate": 1793458952000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-2100012386",
-      "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
-      "titleZh": "夜间哔哔声：智能人工智能加入对外星信号的搜索",
-      "summary": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestr…",
-      "link": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
-      "pubDate": 1793372410000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "high",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 4,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
       "id": "443092476",
       "title": "Granite Switch 4.1.1 — Update models like you update software",
       "titleZh": "Granite Switch 4.1.1 — Update models like you update software",
@@ -1075,27 +1180,6 @@
       "source": "HuggingFace"
     },
     {
-      "id": "314283158",
-      "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
-      "titleZh": "轻薄轻便，面向一切： NVIDIA RTX Spark Windows笔记本电脑获得新型号、代理工具和游戏",
-      "summary": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These p…",
-      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
-      "pubDate": 1793199646000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "high",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 8,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
       "id": "-769727414",
       "title": "Our newest AI Quest: Mapping the human brain",
       "titleZh": "我们最新的人工智能任务：映射人脑",
@@ -1115,153 +1199,6 @@
         "cs": 1
       },
       "source": "Google AI"
-    },
-    {
-      "id": "886376623",
-      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-      "titleZh": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-      "summary": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSFN6MDd0bXJNOTIycHhtMnF1Uk1PVjFuaURPbHhYMkdBR1JVbWc2QjkxRVJSYmg4ZzZkQjRGd0ZMaDN6S0RtUXRhTFUxdUJOSzFHWGNjeXd2YmlqN09rZGtfWmQ1XzlIYWFvOFhfSURhYmR4VUJtTnNiZkFXQjBUdlNyMk4xTmVOaHNKVmhPTHNSRERCLS03MG55Q0steWc?oc=5",
-      "pubDate": 1792998000000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "397187581",
-      "title": "Alibaba's Qwen AI caught trying to contact server in China",
-      "titleZh": "阿里巴巴的Qwen AI被发现试图联系中国的服务器",
-      "summary": "Alibaba's Qwen AI caught trying to contact server in China The Register",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMExUejU2dkFxX2s5V09haXptOTRudmh4a3FxT0Zld2ZwYzhGTHkzTExXTmlZdWY3eDVIOHJfUnMtSmd1Rnk2UnQ0b3BLUjllREl4Vm1hOWRZSnBrZXVLeHhYUVVZQzgyQlJ6SVhfRGJrdVBoOWE3V2gxdjdJMXBIY3BVQlUwMnhWaFN3d1dQbkRQSFNmaDloSnRURWZLR3VJOVBMMDF3WExwREdjZmZ3Q3hTY3M?oc=5",
-      "pubDate": 1792998000000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "809931334",
-      "title": "Moonshot AI Releases Kimi K3.1 Pro, First Model in New K3.1 Series",
-      "titleZh": "Moonshot AI发布全新K3.1系列首款机型Kimi K3.1 Pro",
-      "summary": "Moonshot AI Releases Kimi K3.1 Pro, First Model in New K3.1 Series Unite.AI",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5",
-      "pubDate": 1792738800000,
-      "vendor": "kimi",
-      "category": "Release",
-      "impact": "high",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 5,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1047758860",
-      "title": "Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattacks",
-      "titleZh": "随着人们对人工智能网络攻击的担忧加剧， Moonshot抑制了新的Kimi模型的黑客能力",
-      "summary": "Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattacks Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWlpZNXVZQXBxZ1hCTzA4X0VZYUh0QkhJb281X3VmMUt0VVZRY0N2N1Fja1dyZlB4cGlsTGktdjRaRzEzSDgtR01QS1F4V0ZsN0lsbzdTRjhRbG1MMlhfMkluTkxwTXFhOG1XZVVpRlRJX29ULXBEcUdTQUpoa2NkUmRMZFhDbkF3a0N3SDlqbTg1QnR3aFkwSW9LS181X0hsbXM1bXF2a0ZTWldQdlBMSlJRSzFoOGI2aFRF?oc=5",
-      "pubDate": 1792738800000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-65426783",
-      "title": "Kazakhstan Expands Compute for Its AI Future",
-      "titleZh": "哈萨克斯坦扩大人工智能未来的计算能力",
-      "summary": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. The announcements below — co…",
-      "link": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
-      "pubDate": 1792720813000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "high",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 8,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "-173082362",
-      "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-      "titleZh": "将火花带到欧洲：本地情报为下一波特工提供动力",
-      "summary": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling…",
-      "link": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
-      "pubDate": 1792579837000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "high",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 14,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "-1138623970",
-      "title": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
-      "titleZh": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
-      "summary": "Founded in a tent near the Berlin Wall in 1980, the Tempodrom moved several times before settling near Anhalter Bahnhof in 2001. Its permanent home has since hosted concerts, galas and political event…",
-      "link": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
-      "pubDate": 1792575016000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "high",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 11,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
     },
     {
       "id": "955791379",
@@ -1306,48 +1243,6 @@
       "source": "Google News"
     },
     {
-      "id": "738780645",
-      "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
-      "titleZh": "西班牙初创公司携手巴塞罗那超级计算中心推进区域创新",
-      "summary": "The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and trai…",
-      "link": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
-      "pubDate": 1792472400000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "high",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 7,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "1448480548",
-      "title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
-      "titleZh": "NVIDIA推进媒体代理安全，从欧洲公共服务广播到全球内容制作",
-      "summary": "At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to th…",
-      "link": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
-      "pubDate": 1792422031000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 4,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
       "id": "487918830",
       "title": "US bans China's DeepSeek from government in race for AI dominance",
       "titleZh": "美国禁止中国的DeepSeek与政府争夺人工智能主导地位",
@@ -1369,90 +1264,6 @@
       "source": "Google News"
     },
     {
-      "id": "-1326962398",
-      "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
-      "titleZh": "随着新款Windows PC的到来， RTX Spark点燃了全球庆祝活动",
-      "summary": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, lapt…",
-      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
-      "pubDate": 1792270813000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "high",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 6,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "-411997091",
-      "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
-      "titleZh": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
-      "summary": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating material…",
-      "link": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
-      "pubDate": 1792058412000,
-      "vendor": "nvidia",
-      "category": "Release",
-      "impact": "high",
-      "score": 68,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 10,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "389787902",
-      "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
-      "titleZh": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
-      "summary": "The Nordic countries have become the European leader in unicorn startup density, producing the most emerging companies valued at $1 billion or more per capita on the continent. Now, a new chapter for …",
-      "link": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
-      "pubDate": 1792040412000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "high",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 14,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "623711088",
-      "title": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
-      "titleZh": "欧洲城市部署NVIDIA支持的人工智能代理，以运行更智能的城市运营",
-      "summary": "Keeping a city running means making decisions that affect residents every day — from when to repair a road to how to use energy more efficiently. Across the EMEA region, cities and local software, inf…",
-      "link": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
-      "pubDate": 1791957628000,
-      "vendor": "nvidia",
-      "category": "Release",
-      "impact": "high",
-      "score": 70,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 10,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
       "id": "323274282",
       "title": "Gemini 4 Argon: Built to solve your hardest problems",
       "titleZh": "Gemini 4 Argon ：专为解决您最棘手的问题而设计",
@@ -1472,69 +1283,6 @@
         "cs": 1
       },
       "source": "Google AI"
-    },
-    {
-      "id": "-537240929",
-      "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
-      "titleZh": "所有系统开始：全球PC应用生态系统已为NVIDIA RTX Spark做好准备",
-      "summary": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of…",
-      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
-      "pubDate": 1791892849000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 12,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "901338127",
-      "title": "NVIDIA Announces New Investments in France’s Startups",
-      "titleZh": "NVIDIA Announces New Investments in France’s Startups",
-      "summary": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved…",
-      "link": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
-      "pubDate": 1791867631000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 12,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "-275766726",
-      "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
-      "titleZh": "英伟达、微软借助RTX Spark和人工智能代理为Windows PC开启新的起点",
-      "summary": "At a Microsoft event in San Francisco on Wednesday, NVIDIA founder and CEO Jensen Huang and Microsoft CEO Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for A…",
-      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
-      "pubDate": 1791398728000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "high",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 5,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
     },
     {
       "id": "-707716531",
@@ -1579,27 +1327,6 @@
       "source": "Google AI"
     },
     {
-      "id": "1512208566",
-      "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
-      "titleZh": "NVIDIA DGX Spark 64GB为开发人员提供了更多构建和扩展本地AI的方式",
-      "summary": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more…",
-      "link": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
-      "pubDate": 1790946039000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "high",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 5,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
       "id": "-1464852399",
       "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
       "titleZh": "观看Future Vision XPRIZE的获奖预告片《The Gifted》。",
@@ -1642,90 +1369,6 @@
       "source": "Google AI"
     },
     {
-      "id": "-1171136501",
-      "title": "Alibaba claims new Qwen Image 2.1 AI model beats Google Nano Banana 2.0 with minuscule 7B parameter model — benchmarks show open-weight contender is competitive with OpenAI and Meta image models",
-      "titleZh": "Alibaba claims new Qwen Image 2.1 AI model beats Google Nano Banana 2.0 with minuscule 7B parameter model — benchmarks show open-weight contender is competitive with OpenAI and Meta image models",
-      "summary": "Alibaba claims new Qwen Image 2.1 AI model beats Google Nano Banana 2.0 with minuscule 7B parameter model — benchmarks show open-weight contender is competitive with OpenAI and Meta image models Tom's…",
-      "link": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxQYmZsbFl0SWdUX2Ytb1NjZ2tHV3NYSmZEb1pzUkozSUktWFhwSzAwUlY2a0c2VGVSY2dtNVJvYTFHV1FNOGpzYTVjTjRpS085SU9qQlk4UzRWdnYxX2Q3Ul9jMU54bVROOG9KLVZobW5xeWZNUVVHa1BMUkxTVTBubUtqSHF6Xzdrek5Mamtjd2xFelVNYUpjY1NtWUtyM0hubC12QTZrYmVuTnZidHM2cTYwSE1hMVZaZkhDYWYwNUhPTXJDa25EelZYSjNBX1JhYWRteERZSU9wR1htQ3RZWGIydVl2SnVlLWpKZ2M2V21SY1RVUDBfMm91dTZqRVRLemJLZzNTZDE3eVp5MVJvSzdObDNud0NHbXNva1lyTUhsY2k1X3Y0OVlhSHBWelZsbFpqOGRUd2FDeTNMalhwUjVBR2NRVHJGSG41WDdQUV9hRzVuRlJaclpvNEZnancwMGhnZlQyVy14X1lMcGJVOFpBeW5OUQ?oc=5",
-      "pubDate": 1790146800000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 3,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1199747614",
-      "title": "Alibaba launches Qwen Audio 3.1 with new models and slashes AI audio prices by up to 95 percent",
-      "titleZh": "阿里巴巴推出带有新型号的Qwen Audio 3.1 ，并将AI音频价格削减高达95 ％",
-      "summary": "Alibaba launches Qwen Audio 3.1 with new models and slashes AI audio prices by up to 95 percent The Decoder",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYVdTYkVkR2ZZNFZJdURHdlV1RzZGQnFuLXh0Vkd1MnFCQTFicUc3SnFCWUJRZlIxUFZMbEZlbUsxYzIyOTdCWUpiUXFMX3F5VVp6RE5yNVpiN1U5dklCQnZOeHpkMHNZRWR6TXM2ZV9fWm1PeWRMLU5hanhCbXZVN2pna21ucTR4M0hyQkxDNnh3eTNMNUQwWjltdkhZcjNLQXAyVkp3SnBZUXkxTHpJWFVTX3BFSDJHTXk4dTRkakRNdWc?oc=5",
-      "pubDate": 1790146800000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1051630865",
-      "title": "Alibaba Qwen Releases Qwen-Image-2.1: A 7B Open-Weight Model for Image Generation and Editing",
-      "titleZh": "阿里巴巴Qwen发布Qwen-Image-2.1 ：用于图像生成和编辑的7B开放式权重模型",
-      "summary": "Alibaba Qwen Releases Qwen-Image-2.1: A 7B Open-Weight Model for Image Generation and Editing MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNU0JXUndVd2hCcXdycTc4XzhSWHpJOUtaN1NRWjQxWTJkY2J2UUJzRWdzWFNiLVJHRE1tN0d0YmFUdmdGekhfQmFhNWhHLWozOW42eW1FRlV5Ty1mWG9iNzlJcWd0VUM2OFJJalh0czYwLThiXzJMcTBjUEx5dGstenlwONIBgwFBVV95cUxNU0JXUndVd2hCcXdycTc4XzhSWHpJOUtaN1NRWjQxWTJkY2J2UUJzRWdzWFNiLVJHRE1tN0d0YmFUdmdGekhfQmFhNWhHLWozOW42eW1FRlV5Ty1mWG9iNzlJcWd0VUM2OFJJalh0czYwLThiXzJMcTBjUEx5dGstenlwOA?oc=5",
-      "pubDate": 1789974000000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1317580631",
-      "title": "Alibaba Qwen Team Releases Qwen3.8-LiveTranslate: A Real-Time Interpretation Model That Cuts Average Lag to 2.3 Seconds Across 60 Languages",
-      "titleZh": "阿里巴巴Qwen团队发布Qwen3.8-LiveTranslate ： 60种语言的平均延迟降至2.3秒的实时口译模型",
-      "summary": "Alibaba Qwen Team Releases Qwen3.8-LiveTranslate: A Real-Time Interpretation Model That Cuts Average Lag to 2.3 Seconds Across 60 Languages MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNakFkM2h4YjhMMm9IZl8td1dqS1RuRkVXVG9wRUgtb0xoNTNxWEtJTVF3WTc2d2lMTkVScUxrVU8xYXdJcWR2S09xZ2Z4N0UtVklfNXh4dEw3X3NLdm1MVXFvampScTN5bVNvNldQVmhjVTJVSjU2d1V2Y3lGZ0l3U1c2QzVEQ1hrbzdfakh3dVRJQlXSAZMBQVVfeXFMTWpBZDNoeGI4TDJvSGZfLXdXaktUbkZFV1RvcEVILW9MaDUzcVhLSU1Rd1k3NndpTE5FUnFMa1VPMWF3SXFkdktPcWdmeDdFLVZJXzV4eHRMN19zS3ZtTFVxb2pqUnEzeW1TbzZXUFZoY1UyVUo1NndVdmN5RmdJd1NXNkM1RENYa283X2pId3VUSUJV?oc=5",
-      "pubDate": 1789801200000,
-      "vendor": "qwen",
-      "category": "Release",
-      "impact": "high",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "9772564",
       "title": "New experts join Google’s AI &amp; Economy team",
       "titleZh": "New experts join Google’s AI &amp; Economy team",
@@ -1745,69 +1388,6 @@
         "cs": 1
       },
       "source": "Google AI"
-    },
-    {
-      "id": "-1400242576",
-      "title": "Introducing Kimi K3 on Amazon Bedrock | Artificial Intelligence",
-      "titleZh": "在Amazon Bedrock上推出Kimi K3 |人工智能",
-      "summary": "Introducing Kimi K3 on Amazon Bedrock | Artificial Intelligence Amazon Web Services (AWS)",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZEc4TDRPSkJzZUl2bHJoNm5HNkhpcGtBX2U0V1l3dVJDRlh5YkpwRkZaTDkwcDBfZVN3UU1ackFYY0NPMU5sRU5LVVFmRHhySUJwVjZlWXlNTkw4b0swYW1zUVZQSldHV19aTzBfeC1waGFOeGd0MThBOEo5bnVFSDl2VkIxSndKVWZYWA?oc=5",
-      "pubDate": 1789714800000,
-      "vendor": "kimi",
-      "category": "Release",
-      "impact": "high",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "748206830",
-      "title": "Alibaba Qwen Releases Qwen3.8-Omni-Flash: A 1M-Context Omni-Modal Model Built Around Agentic Audio-Video Understanding and Tool Use",
-      "titleZh": "阿里巴巴Qwen发布Qwen3.8-Omni-Flash ：围绕代理音视频理解和工具使用构建的1M-Context全模式模型",
-      "summary": "Alibaba Qwen Releases Qwen3.8-Omni-Flash: A 1M-Context Omni-Modal Model Built Around Agentic Audio-Video Understanding and Tool Use MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVEJPZUU0QkdfdU9BSEZpTjVEcnlpa1ctUXY1MEJrYVJuRzVObEJlaEJyR1drR2lwdTBoYmdHOHJwRHZPYkdEVjMzNndKbjJXS1dueVFKeDQ1aVBTT1NLQWtVZWhHSDVsa1dyS3lDdnBHald5WWZfR0ZIVzJGR1lIMHhHenR5ZXlx0gGIAUFVX3lxTE9UQk9lRTRCR191T0FIRmlONURyeWlrVy1RdjUwQmthUm5HNU5sQmVoQnJHV2tHaXB1MGhiZ0c4cnBEdk9iR0RWMzM2d0puMldLV255UUp4NDVpUFNPU0tBa1VlaEdINWxrV3JLeUN2cEdqV3lZZl9HRkhXMkZHWUgweEd6dHlleXE?oc=5",
-      "pubDate": 1789714800000,
-      "vendor": "qwen",
-      "category": "Agent",
-      "impact": "high",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 12,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1770700903",
-      "title": "A Chinese AI company just connected its model to Wall Street's leading data providers",
-      "titleZh": "一家中国人工智能公司刚刚将其模型连接到华尔街领先的数据提供商",
-      "summary": "A Chinese AI company just connected its model to Wall Street's leading data providers CNBC",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOWlmNmR0T1BVWmdrUS1pdHJ0N3htUjFnM2V0WGs5RV81TExhdXRIM3JJMzNvT1VZUG9HTzZyT3luOGJZSHRsR2xWWkpad2JnWEtTU1U1THNZb3lOYUJtLUFGTjluRGE0Rm9Xdy1oZTN0R21BTUlVSVZrNnhCcEMtUtIBhgFBVV95cUxQNWlURkQ4dDgtaGVkczdMZjRSWnc1eFY1WWxJbGpXdHFHLTRtMi1Ra25USHNiZHVoeDVwTEVwVXBxY3JRWFBGdWFPSHBlank1alpwcmRIdlJIdnVfZWR5YlhNYUxEYmdyeWR4bnhEYWVXS2lMT1B5NU1XcUNsbU1kUHRBcHBqUQ?oc=5",
-      "pubDate": 1789628400000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-2016155837",
@@ -1866,6 +1446,27 @@
         "cq": 16,
         "kv": 3,
         "cw": 20,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "1794204785",
+      "title": "China’s AI upstart DeepSeek drops new model. Will it make waves like last year? | CNN Business",
+      "titleZh": "China’s AI upstart DeepSeek drops new model. Will it make waves like last year? | CNN Business",
+      "summary": "China’s AI upstart DeepSeek drops new model. Will it make waves like last year? | CNN Business CNN",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE55Y1R1d1JabXdTbW9oWVZ1bFdUckNlTFNfcDV6dDl0VHUyc1ZmSHd5dmZDN05vamtkb09tVEVVRV9jcWdtZ0FqNVFKV1BzSXhJOG5rMUNkencwUjU3STRWY0N4ZXAxeWRyY2w3NXFFRDJwRlJp?oc=5",
+      "pubDate": 1777014000000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
         "st": 12,
         "rc": 0,
         "cs": 1
@@ -2160,27 +1761,6 @@
         "cq": 18,
         "kv": 2,
         "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-322521248",
-      "title": "DeepSeek AI model generates info that can be used in crime, analyses show",
-      "titleZh": "分析显示， DeepSeek人工智能模型生成的信息可用于犯罪",
-      "summary": "DeepSeek AI model generates info that can be used in crime, analyses show The Straits Times",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOM0d0eC1YOVZHM01zUVUyNllNdXFMdmFjaHNLWEJJdWlSdF8yT3BoeWk4YnpQd3dMazJidENYbUpmV2NSaDE3OTZ4VmxRbGhNOGQ4T1p5VjVkajNxYVprRXdjRDhPZzRxVEktTXFiWHBGM0thOFVXQlVBWVlPcDF3NWdwVkN3TE1YTWxSS3V3b0ZRaHB4QzhtWDIwZlBBb213WVlwY3lpOWhDVC1oNS1lenAwdzJrcloyVldUZ0ZqSV8?oc=5",
-      "pubDate": 1744009200000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
         "st": 12,
         "rc": 0,
         "cs": 1
@@ -2879,216 +2459,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "251294355",
-      "title": "Technology, recovery, and responsibility",
-      "titleZh": "技术、恢复和责任",
-      "summary": "By Sriram Rajamani, Managing Director, Microsoft Research India We started 2021 with the hope that the COVID-19 vaccines will immunize enough of the world’s population to give herd immunity in the com…",
-      "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
-      "pubDate": 1615961906000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 2,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "1792312368",
-      "title": "Directorate General of Training, Ministry of Skill Development and Entrepreneurship, partners with Microsoft and NASSCOM Foundation to empower students with next generation digital skills",
-      "titleZh": "技能发展和创业部培训总局与微软和NASSCOM基金会合作，为学生提供下一代数字技能",
-      "summary": "The blended curriculum will impact 1.2 lakh students across 3000 Industrial Training Institutes (ITI) in India New Delhi, January 7, 2021: With a vision to empower the next generation of learners, the…",
-      "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
-      "pubDate": 1610002951000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 3,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "58206720",
-      "title": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
-      "titleZh": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
-      "summary": "Multilingual omni-channel service reduces wait time for queries, improves customer satisfaction by 70% New Delhi, January 5, 2021 – Powered by Microsoft Azure, Indian Railway Catering and Tourism Corp…",
-      "link": "https://news.microsoft.com/en-in/microsoft-azure-powered-corover-developed-irctc-ai-chatbot-askdisha/",
-      "pubDate": 1609824612000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-1890804461",
-      "title": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
-      "titleZh": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
-      "summary": "• The initiative aims to skill 1 million students in AI by 2021 • The AI Classroom Series will deliver Microsoft’s AI, machine learning and data science expertise to undergraduate students at no cost …",
-      "link": "https://news.microsoft.com/en-in/nasscom-futureskills-microsoft-launch-ai-classroom-series-skill-students/",
-      "pubDate": 1599716180000,
-      "vendor": "microsoft",
-      "category": "Release",
-      "impact": "high",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 4,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-1460121599",
-      "title": "Industry and research – better together",
-      "titleZh": "Industry and research – better together",
-      "summary": "By Sriram Rajamani, Distinguished Scientist and Managing Director, Microsoft Research India at Microsoft Manik Varma, researcher in the Microsoft Research (MSR) India lab was awarded the prestigious S…",
-      "link": "https://news.microsoft.com/en-in/industry-and-research-better-together-sriram-rajamani/",
-      "pubDate": 1598613057000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 4,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-1887675878",
-      "title": "NSDC and Microsoft collaborate to empower Indian youth with digital skills",
-      "titleZh": "NSDC和微软合作，为印度青年提供数字技能",
-      "summary": "The initiative aims at skilling over 1 lakh youth in the next 12 months New Delhi, July 08, 2020: With a vision to transform India into a skilled nation, the National Skill Development Corporation (NS…",
-      "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
-      "pubDate": 1594186160000,
-      "vendor": "microsoft",
-      "category": "Release",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 4,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "652542494",
-      "title": "Empowering developers to achieve more at the Microsoft Developer Conference",
-      "titleZh": "帮助开发人员在Microsoft开发者大会上取得更大成就",
-      "summary": "New Delhi, June 18, 2020: Underlining the critical role of developers in innovations that will power economic recovery, the Microsoft Developer Conference brought together developers and tech professi…",
-      "link": "https://news.microsoft.com/en-in/microsoft-developer-conference/",
-      "pubDate": 1592461746000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 2,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "-150806068",
-      "title": "Microsoft announces program to accelerate growth of agritech startups in India",
-      "titleZh": "微软宣布加速印度农业科技创业公司发展的计划",
-      "summary": "New Delhi, June 03, 2020: Microsoft announced the launch of a program for agritech startups in India that are committed to driving transformation in agriculture. The Microsoft for Agritech Startups pr…",
-      "link": "https://news.microsoft.com/en-in/microsoft-agritech-startups-program-india-launch/",
-      "pubDate": 1591162175000,
-      "vendor": "microsoft",
-      "category": "Release",
-      "impact": "high",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 5,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "297070690",
-      "title": "Microsoft empowers startups in India to achieve more",
-      "titleZh": "微软助力印度初创企业实现更多",
-      "summary": "Five startups showcase their unique propositions at Future Decoded Tech Summit Bengaluru, February 25, 2020: Startups are an indisputable innovation engine, and Microsoft is partnering with startups a…",
-      "link": "https://news.microsoft.com/en-in/microsoft-empowers-startups-in-india-to-achieve-more/",
-      "pubDate": 1582633175000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 4,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
-    },
-    {
-      "id": "1830923333",
-      "title": "Myntra accelerates its digital transformation journey with Microsoft Cloud",
-      "titleZh": "Myntra借助微软云加速其数字化转型之旅",
-      "summary": "reimagines online shopping experience for customers Azure powers biggest-ever End of Reason Sale New Delhi, February 19, 2020: Myntra, India’s leading destination for fashion and lifestyle, has partne…",
-      "link": "https://news.microsoft.com/en-in/myntra-digital-transformation-microsoft-cloud/",
-      "pubDate": 1582092103000,
-      "vendor": "microsoft",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 0,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Microsoft"
     }
   ]
 }
