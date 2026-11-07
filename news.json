@@ -1,239 +1,8 @@
 {
-  "updated": "2026-11-07T02:28:48.046Z",
-  "count": 47,
-  "sources": 5,
+  "updated": "2026-11-07T09:02:58.278Z",
+  "count": 39,
+  "sources": 4,
   "items": [
-    {
-      "id": "1635811436",
-      "title": "Crusoe sells troubled Wyoming data center project to Google",
-      "titleZh": "Crusoe将陷入困境的怀俄明州数据中心项目出售给谷歌",
-      "summary": "The deal highlights the challenges of developing massive AI data centers.",
-      "link": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
-      "pubDate": 1794015628000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 5,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-625191844",
-      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-      "titleZh": "据报道， OpenAI以1.25万亿美元的估值额外筹集了110亿美元",
-      "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
-      "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-      "pubDate": 1794005626000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "high",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 20,
-        "st": 8,
-        "rc": 4,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1175490281",
-      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-      "titleZh": "数百个公开暴露在网络中的Artex AI黑客工具",
-      "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
-      "link": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-      "pubDate": 1793990678000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 22,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1375124579",
-      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
-      "titleZh": "Meta引入了Spaces ，这是一种与Muse代理进行协作的新方法",
-      "summary": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
-      "link": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
-      "pubDate": 1793990660000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-935656379",
-      "title": "How a Blue Wave midterm might reshape the AI industry",
-      "titleZh": "Blue Wave期中考试如何重塑人工智能行业",
-      "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the …",
-      "link": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
-      "pubDate": 1793988000000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "250375212",
-      "title": "After the midterms, is the AI industry in for a rough two years?",
-      "titleZh": "期中考试结束后，人工智能行业是否会持续两年？",
-      "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the …",
-      "link": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
-      "pubDate": 1793985832000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-281301681",
-      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-      "titleZh": "RAMP数据显示，随着Anthropic接近首次公开募股，人工智能支出停滞不前",
-      "summary": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
-      "link": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-      "pubDate": 1793980487000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "high",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 20,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "173019594",
-      "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
-      "titleZh": "在阻止Muse之后，亚马逊现在允许用户通过短信Alexa帮助他们购物",
-      "summary": "Amazon said that the feature will roll out to millions of users in coming weeks.",
-      "link": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
-      "pubDate": 1793974200000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-2135608025",
-      "title": "China’s AI models, led by Kimi, rule open-source enterprise spending",
-      "titleZh": "China’s AI models, led by Kimi, rule open-source enterprise spending",
-      "summary": "China’s AI models, led by Kimi, rule open-source enterprise spending South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNazMxSWVtZVBLd3E5MTdKTmFVblp2Uk1Jb09HeW9WeURBS3B1c241VWJ1UC12b3lvX1VLTG1lOWxCWlo3bC1aejBiejFzUmZxU3FkUW1NNVJlektIeHVSWE5ZbnprMVBudTVMbVpReFo2cjJWelhPTGVmejJDOUxnc0RVa2d0dDdWeW1uNFVnRG1iLXJsRjlLYThmVEJ3TGdxQWZ6SXVleTZmYmNyQXV4Y0RZRHVwMl8ya2pFMg?oc=5",
-      "pubDate": 1793971809000,
-      "vendor": "kimi",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 12,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1942938501",
-      "title": "Underdog shows off a 32MB speech model in new demo",
-      "titleZh": "Underdog在新演示中展示了32MB的语音模型",
-      "summary": "Despite its small size, Underdog's new model can generate both speech and music.",
-      "link": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
-      "pubDate": 1793970136000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 22,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1964462947",
-      "title": "Physicl raises $10M to make the digital world real enough for robots",
-      "titleZh": "Physicl筹集了$ 1000万，使数字世界对机器人来说足够真实",
-      "summary": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
-      "link": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
-      "pubDate": 1793970000000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 20,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
     {
       "id": "1348746069",
       "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
@@ -244,13 +13,13 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 54,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
@@ -340,67 +109,25 @@
       "source": "Google AI"
     },
     {
-      "id": "1517369114",
-      "title": "Kimi K3.1 Pro Goes Open-Weight: 2.8T Parameters [2026]",
-      "titleZh": "Kimi K3.1 Pro开放重量： 2.8T参数[2026]",
-      "summary": "Kimi K3.1 Pro Goes Open-Weight: 2.8T Parameters [2026] shattered.io",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMFNjQ1dJbHRhTDg0d1ZBYzVlUHI4M1lMeXp4Unk5QThnUVJwd1VuTTlsZmhJVGJQbW1WMkVKWkRSNHRFMV94eFpfcnJkMW0xZ01OYUFDWU1Td3lobzBYX0tJWXRmLWVZQ3Q3WFROTlBReDRVM3FmMHJKckgwaWJLUmtNTW1GRXZwMEQwdkJsSQ?oc=5",
-      "pubDate": 1793889786000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-227562363",
-      "title": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC",
-      "titleZh": "消息人士告诉CNBC ，在美国中国限制的情况下，中国人工智能实验室Moonshot转向欧洲获得Nvidia Blackwell的访问权限",
-      "summary": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC CNBC",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUc0JXdFFrNXJHSkxKclVRQkdfMXZNbmk5akFqZDA2dWFQbXV2MUd1d2V1TFhfVW9uT2F5WXJJVHZoNUZUUEtLVFF2aWotaHBVTk9kcFpvZkFucXppMlp3YzZvaWdXVmZ3ZUZJdzFsV3kzaXBMWnpiSjJ4aUhxcVHSAYQBQVVfeXFMTXVzSHktMk1IYUR5bm45MWpEQmRpZkkwbS1LSVNZZm02Q05uZE56ekhLZjBKV0RLWlVhdVoteHFra2hPOFdMNXEweDc4eUhvWTlqQWxwcXpMdURoMzVmUnBaMFRBc0RtTG1FQXhSekFZeDhSM25Yc3o2THdGckl0cEtLSG9q?oc=5",
-      "pubDate": 1793885654000,
-      "vendor": "kimi",
+      "id": "-712176126",
+      "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+      "titleZh": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+      "summary": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works clos…",
+      "link": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
+      "pubDate": 1793894400000,
+      "vendor": "nvidia",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 62,
       "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
+        "cq": 24,
+        "kv": 10,
         "cw": 15,
-        "st": 12,
+        "st": 10,
         "rc": 2,
         "cs": 1
       },
-      "source": "Google News"
-    },
-    {
-      "id": "-304758884",
-      "title": "Moonshot AI Publishes Kimi K3.1 Pro Weights on Hugging Face",
-      "titleZh": "Moonshot AI在拥抱脸上发布Kimi K3.1专业配重",
-      "summary": "Moonshot AI Publishes Kimi K3.1 Pro Weights on Hugging Face www.tokenpost.com",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FV2ROOGlfZC1mOU1EUTFyVjdIMlBnSElscXdfNDNiU2JkYlMxUHVhWnd0aE5NUzlVcjQtc3plaFdWSmpVcWpkc1pNSkF3bWpsa2JZSUtYUkVVTDQ?oc=5",
-      "pubDate": 1793876661000,
-      "vendor": "kimi",
-      "category": "Product",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
+      "source": "NVIDIA"
     },
     {
       "id": "257181949",
@@ -412,13 +139,13 @@
       "vendor": "openai",
       "category": "Release",
       "impact": "med",
-      "score": 66,
+      "score": 65,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 1,
         "cw": 25,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -433,58 +160,16 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "255844403",
-      "title": "Moonshot AI releases Kimi K3.1 Pro model weights",
-      "titleZh": "Moonshot AI发布Kimi K3.1 Pro模型权重",
-      "summary": "Moonshot AI releases Kimi K3.1 Pro model weights TechNode",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ3ZqcjR1SkNXOHhVeXNqeWQ4dW5WZ2hOeENPcFlFaUZzbXAzQXVfYlZjU3Flc1k2aFRGRF94NWtGN2ozY2VVU1VmT2lSc0Q5MDZRM2Y5U0F6Q1RLM3JJSTZiUHhxajdDU0FXRVlCWFRPbWZoQ01JTzRGRGdKZzVsZUstNzBBNkUt?oc=5",
-      "pubDate": 1793858494000,
-      "vendor": "kimi",
-      "category": "Release",
-      "impact": "high",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1123186332",
-      "title": "Moonshot AI Releases Full Weights For 2.8 Trillion Parameter Kimi K3.1 Pro",
-      "titleZh": "Moonshot AI发布2.8万亿参数Kimi K3.1 Pro的全重量",
-      "summary": "Moonshot AI Releases Full Weights For 2.8 Trillion Parameter Kimi K3.1 Pro Startup Fortune",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYWs1Vy1EU1F2U0Y5UWloMjl6bHNDZGc0NUk5aGE0SHdqMFhSVHZ2dHUwVkJMYTZ6TmFVbWpzOUFzdkdKTFRlaF9rai1LYVd3bXlyOW1KemxXM3BlRGhSSGx2VG9Nc1VKMkREcVBJMVhhT0RuRWJVbzNRdWR1ejhQcWFpbmZNaTQ3bzBSRXZQaW0ySGpYQVRlUXMxNXJyck03bFE?oc=5",
-      "pubDate": 1793847348000,
-      "vendor": "kimi",
-      "category": "Release",
-      "impact": "high",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 25,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-725796707",
@@ -571,6 +256,69 @@
       "source": "OpenAI"
     },
     {
+      "id": "1811090021",
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "titleZh": "Google Antigravity代理化学信息学",
+      "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "link": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "pubDate": 1793725309000,
+      "vendor": "deepmind",
+      "category": "Agent",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 1,
+        "cw": 12,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "DeepMind"
+    },
+    {
+      "id": "-1389563085",
+      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "titleZh": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "summary": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a m…",
+      "link": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+      "pubDate": 1793721645000,
+      "vendor": "nvidia",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 0,
+        "cw": 15,
+        "st": 10,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
+      "id": "-1724592542",
+      "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+      "titleZh": "全球城市通过NVIDIA物理和Agent AI构建和扩展AI服务",
+      "summary": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physica…",
+      "link": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+      "pubDate": 1793689212000,
+      "vendor": "nvidia",
+      "category": "Agent",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 11,
+        "cw": 12,
+        "st": 10,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
       "id": "1456554177",
       "title": "The latest AI news we announced in October 2026",
       "titleZh": "我们在2026年10月宣布的最新人工智能新闻",
@@ -590,6 +338,111 @@
         "cs": 1
       },
       "source": "Google AI"
+    },
+    {
+      "id": "-2100012386",
+      "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+      "titleZh": "夜间哔哔声：智能人工智能加入对外星信号的搜索",
+      "summary": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestr…",
+      "link": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+      "pubDate": 1793372410000,
+      "vendor": "nvidia",
+      "category": "Agent",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 4,
+        "cw": 12,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
+      "id": "367274020",
+      "title": "Speeding up planning decisions with AI",
+      "titleZh": "利用人工智能加快规划决策",
+      "summary": "Google DeepMind and UK government work together to reduce planning assessment times",
+      "link": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+      "pubDate": 1793369910000,
+      "vendor": "deepmind",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "DeepMind"
+    },
+    {
+      "id": "454192783",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "titleZh": "Gemini 4 Carbon ：我们的下一个前沿车型",
+      "summary": "Gemini 4 Carbon: Our next frontier model",
+      "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "pubDate": 1793206858000,
+      "vendor": "deepmind",
+      "category": "Product",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "DeepMind"
+    },
+    {
+      "id": "314283158",
+      "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+      "titleZh": "轻薄轻便，面向一切： NVIDIA RTX Spark Windows笔记本电脑获得新型号、代理工具和游戏",
+      "summary": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These p…",
+      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+      "pubDate": 1793199646000,
+      "vendor": "nvidia",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 8,
+        "cw": 22,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
+      "id": "1572333532",
+      "title": "Genie 4: A new generation of world simulation",
+      "titleZh": "精灵4 ：新一代世界模拟",
+      "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+      "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "pubDate": 1793116898000,
+      "vendor": "deepmind",
+      "category": "Research",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "DeepMind"
     },
     {
       "id": "-769727414",
@@ -613,46 +466,88 @@
       "source": "Google AI"
     },
     {
-      "id": "809931334",
-      "title": "Moonshot AI Releases Kimi K3.1 Pro, First Model in New K3.1 Series",
-      "titleZh": "Moonshot AI发布全新K3.1系列首款机型Kimi K3.1 Pro",
-      "summary": "Moonshot AI Releases Kimi K3.1 Pro, First Model in New K3.1 Series Unite.AI",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5",
-      "pubDate": 1792738800000,
-      "vendor": "kimi",
+      "id": "-65426783",
+      "title": "Kazakhstan Expands Compute for Its AI Future",
+      "titleZh": "哈萨克斯坦扩大人工智能未来的计算能力",
+      "summary": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. The announcements below — co…",
+      "link": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
+      "pubDate": 1792720813000,
+      "vendor": "nvidia",
       "category": "Release",
-      "impact": "high",
-      "score": 63,
+      "impact": "med",
+      "score": 68,
       "scoreBreakdown": {
-        "cq": 20,
-        "kv": 5,
+        "cq": 24,
+        "kv": 8,
         "cw": 25,
-        "st": 12,
+        "st": 10,
         "rc": 0,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "NVIDIA"
     },
     {
-      "id": "1047758860",
-      "title": "Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattacks",
-      "titleZh": "随着人们对人工智能网络攻击的担忧加剧， Moonshot抑制了新的Kimi模型的黑客能力",
-      "summary": "Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattacks Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWlpZNXVZQXBxZ1hCTzA4X0VZYUh0QkhJb281X3VmMUt0VVZRY0N2N1Fja1dyZlB4cGlsTGktdjRaRzEzSDgtR01QS1F4V0ZsN0lsbzdTRjhRbG1MMlhfMkluTkxwTXFhOG1XZVVpRlRJX29ULXBEcUdTQUpoa2NkUmRMZFhDbkF3a0N3SDlqbTg1QnR3aFkwSW9LS181X0hsbXM1bXF2a0ZTWldQdlBMSlJRSzFoOGI2aFRF?oc=5",
-      "pubDate": 1792738800000,
-      "vendor": "kimi",
-      "category": "Research",
+      "id": "974761533",
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "titleZh": "Beyond tree cover: mapping the world’s forest types",
+      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+      "link": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "pubDate": 1792679424000,
+      "vendor": "deepmind",
+      "category": "Product",
       "impact": "med",
-      "score": 55,
+      "score": 45,
       "scoreBreakdown": {
-        "cq": 20,
+        "cq": 14,
         "kv": 0,
-        "cw": 22,
-        "st": 12,
+        "cw": 15,
+        "st": 15,
         "rc": 0,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "DeepMind"
+    },
+    {
+      "id": "-173082362",
+      "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
+      "titleZh": "将火花带到欧洲：本地情报为下一波特工提供动力",
+      "summary": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling…",
+      "link": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
+      "pubDate": 1792579837000,
+      "vendor": "nvidia",
+      "category": "Release",
+      "impact": "high",
+      "score": 74,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 14,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
+      "id": "-1138623970",
+      "title": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
+      "titleZh": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
+      "summary": "Founded in a tent near the Berlin Wall in 1980, the Tempodrom moved several times before settling near Anhalter Bahnhof in 2001. Its permanent home has since hosted concerts, galas and political event…",
+      "link": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
+      "pubDate": 1792575016000,
+      "vendor": "nvidia",
+      "category": "Agent",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 11,
+        "cw": 12,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
     },
     {
       "id": "955791379",
@@ -674,6 +569,132 @@
         "cs": 1
       },
       "source": "Google AI"
+    },
+    {
+      "id": "738780645",
+      "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
+      "titleZh": "西班牙初创公司携手巴塞罗那超级计算中心推进区域创新",
+      "summary": "The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and trai…",
+      "link": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
+      "pubDate": 1792472400000,
+      "vendor": "nvidia",
+      "category": "Product",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 7,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
+      "id": "1448480548",
+      "title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
+      "titleZh": "NVIDIA推进媒体代理安全，从欧洲公共服务广播到全球内容制作",
+      "summary": "At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to th…",
+      "link": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
+      "pubDate": 1792422031000,
+      "vendor": "nvidia",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
+      "id": "-2130920934",
+      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "titleZh": "使用Google Antigravity加速寻找抗菌肽",
+      "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+      "link": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "pubDate": 1792080483000,
+      "vendor": "deepmind",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "DeepMind"
+    },
+    {
+      "id": "468880872",
+      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "titleZh": "谷歌DeepMind与新加坡政府合作构建用于诈骗检测的微调人工智能模型",
+      "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+      "link": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "pubDate": 1791943214000,
+      "vendor": "deepmind",
+      "category": "Research",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "DeepMind"
+    },
+    {
+      "id": "-1131656509",
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "titleZh": "负责任和安全地开发Gemini 4 Argon",
+      "summary": "Developing Gemini 4 Argon responsibly and safely",
+      "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "pubDate": 1791920587000,
+      "vendor": "deepmind",
+      "category": "Product",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "DeepMind"
+    },
+    {
+      "id": "-816735613",
+      "title": "Gemini 4 Argon for Robotics",
+      "titleZh": "Gemini 4 Argon机器人",
+      "summary": "Gemini 4 Argon for Robotics",
+      "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "pubDate": 1791907318000,
+      "vendor": "deepmind",
+      "category": "Product",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 9,
+        "kv": 2,
+        "cw": 15,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "DeepMind"
     },
     {
       "id": "323274282",
@@ -800,195 +821,6 @@
         "cs": 1
       },
       "source": "Google AI"
-    },
-    {
-      "id": "-1400242576",
-      "title": "Introducing Kimi K3 on Amazon Bedrock | Artificial Intelligence",
-      "titleZh": "在Amazon Bedrock上推出Kimi K3 |人工智能",
-      "summary": "Introducing Kimi K3 on Amazon Bedrock | Artificial Intelligence Amazon Web Services (AWS)",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZEc4TDRPSkJzZUl2bHJoNm5HNkhpcGtBX2U0V1l3dVJDRlh5YkpwRkZaTDkwcDBfZVN3UU1ackFYY0NPMU5sRU5LVVFmRHhySUJwVjZlWXlNTkw4b0swYW1zUVZQSldHV19aTzBfeC1waGFOeGd0MThBOEo5bnVFSDl2VkIxSndKVWZYWA?oc=5",
-      "pubDate": 1789714800000,
-      "vendor": "kimi",
-      "category": "Release",
-      "impact": "high",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-1770700903",
-      "title": "A Chinese AI company just connected its model to Wall Street's leading data providers",
-      "titleZh": "一家中国人工智能公司刚刚将其模型连接到华尔街领先的数据提供商",
-      "summary": "A Chinese AI company just connected its model to Wall Street's leading data providers CNBC",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOWlmNmR0T1BVWmdrUS1pdHJ0N3htUjFnM2V0WGs5RV81TExhdXRIM3JJMzNvT1VZUG9HTzZyT3luOGJZSHRsR2xWWkpad2JnWEtTU1U1THNZb3lOYUJtLUFGTjluRGE0Rm9Xdy1oZTN0R21BTUlVSVZrNnhCcEMtUtIBhgFBVV95cUxQNWlURkQ4dDgtaGVkczdMZjRSWnc1eFY1WWxJbGpXdHFHLTRtMi1Ra25USHNiZHVoeDVwTEVwVXBxY3JRWFBGdWFPSHBlank1alpwcmRIdlJIdnVfZWR5YlhNYUxEYmdyeWR4bnhEYWVXS2lMT1B5NU1XcUNsbU1kUHRBcHBqUQ?oc=5",
-      "pubDate": 1789628400000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "2147151731",
-      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
-      "titleZh": "企业AI的真正风险不是自主代理。这是它们之间的复杂性。",
-      "summary": "Presented by GraviteeRead more",
-      "link": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
-      "pubDate": 1787839260000,
-      "vendor": "venturebeat",
-      "category": "Agent",
-      "impact": "med",
-      "score": 33,
-      "scoreBreakdown": {
-        "cq": 12,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
-      "id": "-1183454760",
-      "title": "When agents act on their own, governance has to live in the data layer",
-      "titleZh": "当代理自行行动时，治理必须位于数据层",
-      "summary": "Presented by EDBRead more",
-      "link": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
-      "pubDate": 1787832060000,
-      "vendor": "venturebeat",
-      "category": "Agent",
-      "impact": "med",
-      "score": 34,
-      "scoreBreakdown": {
-        "cq": 12,
-        "kv": 1,
-        "cw": 12,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
-      "id": "-1500538370",
-      "title": "Orchestration is the new challenge for CX in the age of AI agents",
-      "titleZh": "编排是人工智能代理时代CX面临的新挑战",
-      "summary": "Presented by Tata CommunicationsRead more",
-      "link": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
-      "pubDate": 1787754600000,
-      "vendor": "venturebeat",
-      "category": "Agent",
-      "impact": "med",
-      "score": 33,
-      "scoreBreakdown": {
-        "cq": 12,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
-      "id": "74193009",
-      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
-      "titleZh": "VentureBeat任命Rob Strechay为其首位首席分析师，扩大其企业人工智能研究推动力",
-      "summary": "Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a founding analyst of VentureBeat Research. His arrival i…",
-      "link": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
-      "pubDate": 1787149092000,
-      "vendor": "venturebeat",
-      "category": "Research",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 22,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
-      "id": "-1093452510",
-      "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
-      "titleZh": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
-      "summary": "For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On T…",
-      "link": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
-      "pubDate": 1779212700000,
-      "vendor": "venturebeat",
-      "category": "Product",
-      "impact": "med",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
-      "id": "-1380991222",
-      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
-      "titleZh": "Railway获得1亿美元$ ，通过AI原生云基础设施挑战AWS",
-      "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B fundi…",
-      "link": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
-      "pubDate": 1769090400000,
-      "vendor": "venturebeat",
-      "category": "Funding",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 20,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
-    },
-    {
-      "id": "749662964",
-      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
-      "titleZh": "Claude Code每月的费用高达$ 200。Goose免费做同样的事情。",
-      "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive.Read more",
-      "link": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
-      "pubDate": 1768831200000,
-      "vendor": "venturebeat",
-      "category": "Product",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 15,
-        "st": 8,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "VentureBeat"
     }
   ]
 }
