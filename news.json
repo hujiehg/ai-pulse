@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-07T23:16:56.632Z",
-  "count": 117,
-  "sources": 6,
+  "updated": "2026-11-08T02:37:58.142Z",
+  "count": 126,
+  "sources": 7,
   "items": [
     {
       "id": "-514552035",
@@ -13,13 +13,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 14,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -34,13 +34,13 @@
       "vendor": "techcrunch",
       "category": "Safety",
       "impact": "med",
-      "score": 45,
+      "score": 44,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 1,
         "cw": 10,
         "st": 8,
-        "rc": 5,
+        "rc": 4,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -97,13 +97,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -128,27 +128,6 @@
         "cs": 1
       },
       "source": "TechCrunch"
-    },
-    {
-      "id": "-453576481",
-      "title": "DeepSeek V4.1 Flash hits 848 tokens per second on Nvidia’s GB300 NVL72",
-      "titleZh": "DeepSeek V4.1 Flash hits 848 tokens per second on Nvidia’s GB300 NVL72",
-      "summary": "DeepSeek V4.1 Flash hits 848 tokens per second on Nvidia’s GB300 NVL72 Crypto Briefing",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9raDdMcFZJTUFTR2d3VVF0bF9LMXl2QlNVcHB6MlprYmd3X3kxWFFsRXdlcThSSTBjUU5FNmMxR1F6MDA1RXltSTA1UzlEckdvSkFoZnFfQTk5UDdpUlg1NTdEVHRRUmp6MnREbzI2ck5DUkk?oc=5",
-      "pubDate": 1793997452000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 2,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1175490281",
@@ -580,13 +559,13 @@
       "vendor": "openai",
       "category": "Research",
       "impact": "med",
-      "score": 59,
+      "score": 58,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 22,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "OpenAI"
@@ -601,13 +580,13 @@
       "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 15,
         "st": 14,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -676,25 +655,25 @@
       "source": "OpenAI"
     },
     {
-      "id": "900671429",
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "titleZh": "Gemini Omni 1.2闪光灯：快速且经济实惠，剪辑更长",
-      "summary": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "pubDate": 1793898000000,
-      "vendor": "google",
+      "id": "-712176126",
+      "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+      "titleZh": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+      "summary": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works clos…",
+      "link": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
+      "pubDate": 1793894400000,
+      "vendor": "nvidia",
       "category": "Product",
       "impact": "med",
-      "score": 54,
+      "score": 61,
       "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
+        "cq": 24,
+        "kv": 10,
         "cw": 15,
-        "st": 15,
+        "st": 10,
         "rc": 1,
         "cs": 1
       },
-      "source": "Google AI"
+      "source": "NVIDIA"
     },
     {
       "id": "257181949",
@@ -949,6 +928,27 @@
       "source": "HuggingFace"
     },
     {
+      "id": "-1389563085",
+      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "titleZh": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "summary": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a m…",
+      "link": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+      "pubDate": 1793721645000,
+      "vendor": "nvidia",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 0,
+        "cw": 15,
+        "st": 10,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
       "id": "1543252955",
       "title": "DeepSeek Takes Aim at Claude Code With Open-Source 'Super-Agent' That Can Work Without Constant Prompts",
       "titleZh": "DeepSeek采用开源“超级代理”瞄准Claude代码，无需不断提示即可工作",
@@ -968,6 +968,27 @@
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "-1724592542",
+      "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+      "titleZh": "全球城市通过NVIDIA物理和Agent AI构建和扩展AI服务",
+      "summary": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physica…",
+      "link": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+      "pubDate": 1793689212000,
+      "vendor": "nvidia",
+      "category": "Agent",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 11,
+        "cw": 12,
+        "st": 10,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "NVIDIA"
     },
     {
       "id": "815864036",
@@ -1054,27 +1075,6 @@
       "source": "Google News"
     },
     {
-      "id": "1456554177",
-      "title": "The latest AI news we announced in October 2026",
-      "titleZh": "我们在2026年10月宣布的最新人工智能新闻",
-      "summary": "Here are Google’s latest AI updates from October 2026",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
-      "pubDate": 1793641500000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google AI"
-    },
-    {
       "id": "554163820",
       "title": "DeepSeek Boosts AI Agent Offering With New Creator Mode",
       "titleZh": "DeepSeek推出全新创作者模式，提升人工智能代理服务",
@@ -1138,6 +1138,27 @@
       "source": "Google News"
     },
     {
+      "id": "-2100012386",
+      "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+      "titleZh": "夜间哔哔声：智能人工智能加入对外星信号的搜索",
+      "summary": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestr…",
+      "link": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+      "pubDate": 1793372410000,
+      "vendor": "nvidia",
+      "category": "Agent",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 4,
+        "cw": 12,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
       "id": "443092476",
       "title": "Granite Switch 4.1.1 — Update models like you update software",
       "titleZh": "Granite Switch 4.1.1 — Update models like you update software",
@@ -1180,46 +1201,88 @@
       "source": "HuggingFace"
     },
     {
-      "id": "-769727414",
-      "title": "Our newest AI Quest: Mapping the human brain",
-      "titleZh": "我们最新的人工智能任务：映射人脑",
-      "summary": "Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”",
-      "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
-      "pubDate": 1793030400000,
-      "vendor": "google",
-      "category": "Product",
+      "id": "314283158",
+      "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+      "titleZh": "轻薄轻便，面向一切： NVIDIA RTX Spark Windows笔记本电脑获得新型号、代理工具和游戏",
+      "summary": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These p…",
+      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+      "pubDate": 1793199646000,
+      "vendor": "nvidia",
+      "category": "Research",
       "impact": "med",
-      "score": 47,
+      "score": 63,
       "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
+        "cq": 22,
+        "kv": 8,
+        "cw": 22,
+        "st": 10,
         "rc": 0,
         "cs": 1
       },
-      "source": "Google AI"
+      "source": "NVIDIA"
     },
     {
-      "id": "955791379",
-      "title": "Southeast Asia’s digital economy to hit $368 billion",
-      "titleZh": "Southeast Asia’s digital economy to hit $368 billion",
-      "summary": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
-      "link": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
-      "pubDate": 1792555200000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "high",
-      "score": 48,
+      "id": "-65426783",
+      "title": "Kazakhstan Expands Compute for Its AI Future",
+      "titleZh": "哈萨克斯坦扩大人工智能未来的计算能力",
+      "summary": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. The announcements below — co…",
+      "link": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
+      "pubDate": 1792720813000,
+      "vendor": "nvidia",
+      "category": "Release",
+      "impact": "med",
+      "score": 68,
       "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 15,
-        "st": 15,
+        "cq": 24,
+        "kv": 8,
+        "cw": 25,
+        "st": 10,
         "rc": 0,
         "cs": 1
       },
-      "source": "Google AI"
+      "source": "NVIDIA"
+    },
+    {
+      "id": "-173082362",
+      "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
+      "titleZh": "将火花带到欧洲：本地情报为下一波特工提供动力",
+      "summary": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling…",
+      "link": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
+      "pubDate": 1792579837000,
+      "vendor": "nvidia",
+      "category": "Release",
+      "impact": "high",
+      "score": 74,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 14,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
+      "id": "-1138623970",
+      "title": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
+      "titleZh": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
+      "summary": "Founded in a tent near the Berlin Wall in 1980, the Tempodrom moved several times before settling near Anhalter Bahnhof in 2001. Its permanent home has since hosted concerts, galas and political event…",
+      "link": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
+      "pubDate": 1792575016000,
+      "vendor": "nvidia",
+      "category": "Agent",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 11,
+        "cw": 12,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
     },
     {
       "id": "983680020",
@@ -1243,6 +1306,48 @@
       "source": "Google News"
     },
     {
+      "id": "738780645",
+      "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
+      "titleZh": "西班牙初创公司携手巴塞罗那超级计算中心推进区域创新",
+      "summary": "The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and trai…",
+      "link": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
+      "pubDate": 1792472400000,
+      "vendor": "nvidia",
+      "category": "Product",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 7,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
+      "id": "1448480548",
+      "title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
+      "titleZh": "NVIDIA推进媒体代理安全，从欧洲公共服务广播到全球内容制作",
+      "summary": "At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to th…",
+      "link": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
+      "pubDate": 1792422031000,
+      "vendor": "nvidia",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
       "id": "487918830",
       "title": "US bans China's DeepSeek from government in race for AI dominance",
       "titleZh": "美国禁止中国的DeepSeek与政府争夺人工智能主导地位",
@@ -1262,132 +1367,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "323274282",
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "titleZh": "Gemini 4 Argon ：专为解决您最棘手的问题而设计",
-      "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "pubDate": 1791907200000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
-    },
-    {
-      "id": "-707716531",
-      "title": "Introducing Playground: Create and play custom games",
-      "titleZh": "Playground简介：创建和玩自定义游戏",
-      "summary": "Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-      "pubDate": 1791374400000,
-      "vendor": "google",
-      "category": "Release",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 25,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
-    },
-    {
-      "id": "-1618984669",
-      "title": "The latest AI news we announced in September 2026",
-      "titleZh": "我们在2026年9月宣布的最新人工智能新闻",
-      "summary": "Here are Google’s latest AI updates from September 2026",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-      "pubDate": 1790953200000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
-    },
-    {
-      "id": "-1464852399",
-      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "titleZh": "观看Future Vision XPRIZE的获奖预告片《The Gifted》。",
-      "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
-      "pubDate": 1790622000000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 14,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
-    },
-    {
-      "id": "-770369360",
-      "title": "Google Beam expands with new regions, partners, and customers",
-      "titleZh": "Google Beam扩展到新的地区、合作伙伴和客户",
-      "summary": "We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network.",
-      "link": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
-      "pubDate": 1790186400000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
-    },
-    {
-      "id": "9772564",
-      "title": "New experts join Google’s AI &amp; Economy team",
-      "titleZh": "New experts join Google’s AI &amp; Economy team",
-      "summary": "We are expanding our AI Economy team with world-class academic advisors, fellows, and core internal researchers.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
-      "pubDate": 1789740000000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
     },
     {
       "id": "-2016155837",
@@ -1432,6 +1411,27 @@
       "source": "Google News"
     },
     {
+      "id": "-474484405",
+      "title": "DeepSeek AI Traffic Jumps To 17% As Startups Cut Costs",
+      "titleZh": "随着初创公司削减成本， DeepSeek AI流量跃升至17%",
+      "summary": "DeepSeek AI Traffic Jumps To 17% As Startups Cut Costs Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMGhIbFN5bXo2Zi1kQk4wNmVsYkZlMm5PQkZPdnpqTGczS0JPQjVxRkNXUUtUQ3VQSXpZZm5abWpIVXNPZlZtSEZaQnF5LTRaOXJqWkZsYlJ1OFAwQmt4THU3ZVg5UGNXOTVIbzUxZW9UTnA4cmFoLXFhd2lpTEtpNW1vemhPbTBvYm1jYmVxc0dhVjJEUHFR?oc=5",
+      "pubDate": 1783494000000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1983755932",
       "title": "CAISI Evaluation of DeepSeek V4 Pro",
       "titleZh": "DeepSeek V4 Pro的CAISI评估",
@@ -1446,48 +1446,6 @@
         "cq": 16,
         "kv": 3,
         "cw": 20,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1794204785",
-      "title": "China’s AI upstart DeepSeek drops new model. Will it make waves like last year? | CNN Business",
-      "titleZh": "China’s AI upstart DeepSeek drops new model. Will it make waves like last year? | CNN Business",
-      "summary": "China’s AI upstart DeepSeek drops new model. Will it make waves like last year? | CNN Business CNN",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE55Y1R1d1JabXdTbW9oWVZ1bFdUckNlTFNfcDV6dDl0VHUyc1ZmSHd5dmZDN05vamtkb09tVEVVRV9jcWdtZ0FqNVFKV1BzSXhJOG5rMUNkencwUjU3STRWY0N4ZXAxeWRyY2w3NXFFRDJwRlJp?oc=5",
-      "pubDate": 1777014000000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1003382997",
-      "title": "Mystery AI model revealed to be Xiaomi's following suspicions it was DeepSeek V4",
-      "titleZh": "神秘的人工智能模型透露是小米之后的怀疑是DeepSeek V4",
-      "summary": "Mystery AI model revealed to be Xiaomi's following suspicions it was DeepSeek V4 Reuters",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNclBvcWpScEJkOUV5UXVrakVPTm00WHU0S1N1bkEzQ2NtLUNqQ0pwaTB5eWgxaXpHbDdfQ1Fsdzk1RG1EVkFCdkdFdHN2VWVqaklJQTFWeEYxUHRYc1dxNjh1dkdEcThielUtWWdkbmp6Q21EWU00YmdZMWV2QktLYkhfQ3NrVnZBLVU5UWtUSzljd2tfU2dENW1IdzZONXhRNmp5UmllanhSX2tlU3pDOHphanRGVVdyZ1RaR25URmIwd21rb1d4T3p5VXAtdTBQ?oc=5",
-      "pubDate": 1773817200000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "high",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
         "st": 12,
         "rc": 0,
         "cs": 1
@@ -1768,6 +1726,27 @@
       "source": "Google News"
     },
     {
+      "id": "-322521248",
+      "title": "DeepSeek AI model generates info that can be used in crime, analyses show",
+      "titleZh": "分析显示， DeepSeek人工智能模型生成的信息可用于犯罪",
+      "summary": "DeepSeek AI model generates info that can be used in crime, analyses show The Straits Times",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOM0d0eC1YOVZHM01zUVUyNllNdXFMdmFjaHNLWEJJdWlSdF8yT3BoeWk4YnpQd3dMazJidENYbUpmV2NSaDE3OTZ4VmxRbGhNOGQ4T1p5VjVkajNxYVprRXdjRDhPZzRxVEktTXFiWHBGM0thOFVXQlVBWVlPcDF3NWdwVkN3TE1YTWxSS3V3b0ZRaHB4QzhtWDIwZlBBb213WVlwY3lpOWhDVC1oNS1lenAwdzJrcloyVldUZ0ZqSV8?oc=5",
+      "pubDate": 1744009200000,
+      "vendor": "deepseek",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "1596099868",
       "title": "I Used Deepseek AI Instead of ChatGPT for a Week – Here’s My Review",
       "titleZh": "I Used Deepseek AI Instead of ChatGPT for a Week – Here’s My Review",
@@ -1929,27 +1908,6 @@
         "cq": 18,
         "kv": 2,
         "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1044430908",
-      "title": "DeepSeek’s AI Innovation: A Shift in AI Model Efficiency and Cost Structure",
-      "titleZh": "DeepSeek’s AI Innovation: A Shift in AI Model Efficiency and Cost Structure",
-      "summary": "DeepSeek’s AI Innovation: A Shift in AI Model Efficiency and Cost Structure IDC | Trusted Tech Intelligence",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUks0U2NfanA0b1JjSlJ6aFEtNDlZdHJSNm1NNHFkeUlJQVBaMGlIXzV4S2hyNGdzRFhnR240TW9RWkNPWGVuenJzeXEyMS1OM01ueXAwdmhOQXM0dUVubGE0THhjRXBOYk5tZDVxOF9jYkpISzh2cUhTdkh5WlRqNm9OTWZSbWZSUW9OUUpqWGZtZmdxWloyX0xzSVRUaFRnc09EWGtaRl9teUFBSzlYY0ROeDIzdw?oc=5",
-      "pubDate": 1738310400000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
         "st": 12,
         "rc": 0,
         "cs": 1
@@ -2377,6 +2335,27 @@
       "source": "Google News"
     },
     {
+      "id": "1339648457",
+      "title": "What is DeepSeek, the Chinese AI startup that shook the tech world?",
+      "titleZh": "震撼科技界的中国人工智能初创公司DeepSeek是什么？",
+      "summary": "What is DeepSeek, the Chinese AI startup that shook the tech world? CNN",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBiMV9SamQxMXowUTlENmNQa3VtdzlHWktyVllBYlIxek1nbEtxUWlYUVNfRGFsM0VyaHc5VGVUNG9aX3kwLTZRSDlyNkJCOUlKVHZPTGx5cDVfSTdOY1lXRkxYekRuMjQy?oc=5",
+      "pubDate": 1737964800000,
+      "vendor": "deepseek",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1624271417",
       "title": "How Chinese AI Startup DeepSeek Made a Model that Rivals OpenAI",
       "titleZh": "中国人工智能初创公司DeepSeek如何打造与OpenAI相媲美的模型",
@@ -2459,6 +2438,216 @@
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "251294355",
+      "title": "Technology, recovery, and responsibility",
+      "titleZh": "技术、恢复和责任",
+      "summary": "By Sriram Rajamani, Managing Director, Microsoft Research India We started 2021 with the hope that the COVID-19 vaccines will immunize enough of the world’s population to give herd immunity in the com…",
+      "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
+      "pubDate": 1615961906000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 2,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "1792312368",
+      "title": "Directorate General of Training, Ministry of Skill Development and Entrepreneurship, partners with Microsoft and NASSCOM Foundation to empower students with next generation digital skills",
+      "titleZh": "技能发展和创业部培训总局与微软和NASSCOM基金会合作，为学生提供下一代数字技能",
+      "summary": "The blended curriculum will impact 1.2 lakh students across 3000 Industrial Training Institutes (ITI) in India New Delhi, January 7, 2021: With a vision to empower the next generation of learners, the…",
+      "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
+      "pubDate": 1610002951000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 3,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "58206720",
+      "title": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
+      "titleZh": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
+      "summary": "Multilingual omni-channel service reduces wait time for queries, improves customer satisfaction by 70% New Delhi, January 5, 2021 – Powered by Microsoft Azure, Indian Railway Catering and Tourism Corp…",
+      "link": "https://news.microsoft.com/en-in/microsoft-azure-powered-corover-developed-irctc-ai-chatbot-askdisha/",
+      "pubDate": 1609824612000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1890804461",
+      "title": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
+      "titleZh": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
+      "summary": "• The initiative aims to skill 1 million students in AI by 2021 • The AI Classroom Series will deliver Microsoft’s AI, machine learning and data science expertise to undergraduate students at no cost …",
+      "link": "https://news.microsoft.com/en-in/nasscom-futureskills-microsoft-launch-ai-classroom-series-skill-students/",
+      "pubDate": 1599716180000,
+      "vendor": "microsoft",
+      "category": "Release",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1460121599",
+      "title": "Industry and research – better together",
+      "titleZh": "Industry and research – better together",
+      "summary": "By Sriram Rajamani, Distinguished Scientist and Managing Director, Microsoft Research India at Microsoft Manik Varma, researcher in the Microsoft Research (MSR) India lab was awarded the prestigious S…",
+      "link": "https://news.microsoft.com/en-in/industry-and-research-better-together-sriram-rajamani/",
+      "pubDate": 1598613057000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1887675878",
+      "title": "NSDC and Microsoft collaborate to empower Indian youth with digital skills",
+      "titleZh": "NSDC和微软合作，为印度青年提供数字技能",
+      "summary": "The initiative aims at skilling over 1 lakh youth in the next 12 months New Delhi, July 08, 2020: With a vision to transform India into a skilled nation, the National Skill Development Corporation (NS…",
+      "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
+      "pubDate": 1594186160000,
+      "vendor": "microsoft",
+      "category": "Release",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 4,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "652542494",
+      "title": "Empowering developers to achieve more at the Microsoft Developer Conference",
+      "titleZh": "帮助开发人员在Microsoft开发者大会上取得更大成就",
+      "summary": "New Delhi, June 18, 2020: Underlining the critical role of developers in innovations that will power economic recovery, the Microsoft Developer Conference brought together developers and tech professi…",
+      "link": "https://news.microsoft.com/en-in/microsoft-developer-conference/",
+      "pubDate": 1592461746000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 2,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-150806068",
+      "title": "Microsoft announces program to accelerate growth of agritech startups in India",
+      "titleZh": "微软宣布加速印度农业科技创业公司发展的计划",
+      "summary": "New Delhi, June 03, 2020: Microsoft announced the launch of a program for agritech startups in India that are committed to driving transformation in agriculture. The Microsoft for Agritech Startups pr…",
+      "link": "https://news.microsoft.com/en-in/microsoft-agritech-startups-program-india-launch/",
+      "pubDate": 1591162175000,
+      "vendor": "microsoft",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 5,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "297070690",
+      "title": "Microsoft empowers startups in India to achieve more",
+      "titleZh": "微软助力印度初创企业实现更多",
+      "summary": "Five startups showcase their unique propositions at Future Decoded Tech Summit Bengaluru, February 25, 2020: Startups are an indisputable innovation engine, and Microsoft is partnering with startups a…",
+      "link": "https://news.microsoft.com/en-in/microsoft-empowers-startups-in-india-to-achieve-more/",
+      "pubDate": 1582633175000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 4,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "1830923333",
+      "title": "Myntra accelerates its digital transformation journey with Microsoft Cloud",
+      "titleZh": "Myntra借助微软云加速其数字化转型之旅",
+      "summary": "reimagines online shopping experience for customers Azure powers biggest-ever End of Reason Sale New Delhi, February 19, 2020: Myntra, India’s leading destination for fashion and lifestyle, has partne…",
+      "link": "https://news.microsoft.com/en-in/myntra-digital-transformation-microsoft-cloud/",
+      "pubDate": 1582092103000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 0,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
     }
   ]
 }
