@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-13T08:19:24.575Z",
-  "count": 40,
-  "sources": 4,
+  "updated": "2026-11-13T16:38:30.388Z",
+  "count": 47,
+  "sources": 5,
   "items": [
     {
       "id": "-567672994",
@@ -25,9 +25,30 @@
       "source": "OpenAI"
     },
     {
+      "id": "-2023982533",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "titleZh": "LLMON：一种LLM原生标记语言，现已在Granite 4.1 3B和8B中推出",
+      "summary": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "pubDate": 1794510455000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
       "id": "620076292",
       "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "titleZh": "Google搜索借助Gemini 4 Hydrogen实现了重大升级",
+      "titleZh": "Google 搜索借助 Gemini 4 Hydrogen 迎来重大升级",
       "summary": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
       "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
       "pubDate": 1794506400000,
@@ -55,37 +76,79 @@
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
     },
     {
+      "id": "2068247814",
+      "title": "Alibaba launches flagship AI model Qwen 4 Max",
+      "titleZh": "阿里巴巴推出旗舰人工智能模型Qwen 4 Max",
+      "summary": "Alibaba launches flagship AI model Qwen 4 Max mobidevices.com",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE41bU1pNkJ6QW9OZXIxaWNYcVRfNFo4bWc4dDBoY0NkekxZQTdTRXhqSXZOdkdKeHdSaHQxT1NMVEdOVXZVRGxRUEdoTjBncW01Si1idk4wNFk?oc=5",
+      "pubDate": 1794481117000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1142905116",
       "title": "Holiday Extras is rethinking what it can build with Codex",
-      "titleZh": "Holiday Extras正在重新思考可以利用Codex打造什么",
+      "titleZh": "Holiday Extras正在重新思考它可以利用Codex打造什么",
       "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
       "link": "https://openai.com/business/customer-stories/holidays-extras-codex",
       "pubDate": 1794475800000,
       "vendor": "openai",
       "category": "Product",
       "impact": "med",
-      "score": 50,
+      "score": 49,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "-548547027",
+      "title": "Alibaba Qwen4-Max-Preview Retires November 25 With No Benchmarks, Model Card or Price",
+      "titleZh": "阿里巴巴Qwen4-Max-Preview将于11月25日下架，无基准测试、模型卡或价格信息",
+      "summary": "Alibaba Qwen4-Max-Preview Retires November 25 With No Benchmarks, Model Card or Price Tech Times",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZXFTN01ObWlhVk1leDIyVEtab2I3WGRZZ29qYjN2Wk4xMHkwbkItbHU5N2huSmNkVF9JaE5WT0ZVY19yQ0VXdDFXV0gyS0I2aG4yM2JEZks1Y2poVjlmUE1GVGs2ZVFtbENKY2hBOGhMQTVlMnhxdlQ3LUNTWEk4VnNNakc5aC1sb09JVzAxZEROWkJtdUhCMUJDUUhEX2tfUVUzZHZiVjhTajV1b3M3aW1pMXNDQnBKc04zVUl0WnV1dDNQZW5XZUR1aw?oc=5",
+      "pubDate": 1794466821000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "high",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 3,
+        "cw": 22,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1909623546",
@@ -111,7 +174,7 @@
     {
       "id": "1119414631",
       "title": "Gilbert + Tobin rethinks the business of law with AI",
-      "titleZh": "Gilbert + Tobin利用人工智能重新思考法律业务",
+      "titleZh": "Gilbert + Tobin借助人工智能重新思考法律业务",
       "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
       "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
       "pubDate": 1794441600000,
@@ -128,6 +191,27 @@
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "-1676687609",
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "titleZh": "3D 生成模型的权威性微调指南",
+      "summary": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "link": "https://huggingface.co/blog/3d-lora-finetuning",
+      "pubDate": 1794441600000,
+      "vendor": "huggingface",
+      "category": "Research",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 22,
+        "st": 14,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "HuggingFace"
     },
     {
       "id": "-1190219334",
@@ -160,13 +244,13 @@
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 51,
+      "score": 50,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google AI"
@@ -174,20 +258,20 @@
     {
       "id": "1446753858",
       "title": "Experience the art and legacy of Dr. Esther Mahlangu",
-      "titleZh": "体验埃斯特尔·马兰古博士的艺术和传承",
+      "titleZh": "体验Esther Mahlangu博士的艺术和传承",
       "summary": "A new online archive of Esther Mahlangu’s life and art is now on Google Arts Culture.",
       "link": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
       "pubDate": 1794387600000,
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 48,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "Google AI"
@@ -214,214 +298,67 @@
       "source": "OpenAI"
     },
     {
-      "id": "2008198659",
-      "title": "Auditable Human-Agent Teams for Autonomous X-ray Experimentation",
-      "titleZh": "用于自主X射线实验的可审计人机团队",
-      "summary": "arXiv:2611.12933v1 Announce Type: new Abstract: Closed-loop autonomous experimentation can accelerate scientific discovery, but implementation effort limits accessibility. Agentic systems may lower th…",
-      "link": "https://arxiv.org/abs/2611.12933",
-      "pubDate": 1794373200000,
-      "vendor": "arxiv",
+      "id": "-1940572131",
+      "title": "Alibaba Folds Qoder's Harness Into Qwen Code 1.0 Preview and Open-Sources the Combined Agent Core",
+      "titleZh": "阿里巴巴将 Qoder 的 Harness 集成到 Qwen Code 1.0 预览版中，并开源了合并后的 Agent Core",
+      "summary": "Alibaba Folds Qoder's Harness Into Qwen Code 1.0 Preview and Open-Sources the Combined Agent Core Pandaily",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbk5oM3JOSDludmtlT1k0S2NjRGVoejB0dnowWmpwNXZITEVIM20ycnhVcFU5czVYNjBJZGJIZnMwTnNVS0dORnNNNjA5OWJoOU41dzgwRDkxMnNBM3F1dktZVndra3FETElQU1cwLTNmamhudFhCSnhHdUlXVmN3SndnUGVWdTZpR2llX2hvQVU?oc=5",
+      "pubDate": 1794383028000,
+      "vendor": "qwen",
       "category": "Agent",
       "impact": "med",
       "score": 48,
       "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 12,
-        "st": 13,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-49113267",
-      "title": "EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery",
-      "titleZh": "EarthRecord：借助多模态代理，从像素到土地变化，历经四十年的卫星影像",
-      "summary": "arXiv:2611.12934v1 Announce Type: new Abstract: While multimodal agents now carry out complex data analysis with tools, their ability to turn decades of satellite imagery into reliable land-change ana…",
-      "link": "https://arxiv.org/abs/2611.12934",
-      "pubDate": 1794373200000,
-      "vendor": "arxiv",
-      "category": "Product",
-      "impact": "med",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 6,
-        "cw": 15,
-        "st": 13,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1013338641",
-      "title": "Train on prefill, monitor at decode: Using sparse autoencoders for topic monitoring",
-      "titleZh": "在预填充时训练，在解码时监控：使用稀疏自编码器进行主题监控",
-      "summary": "arXiv:2611.12935v1 Announce Type: new Abstract: Topic monitoring is the task of labelling the topic of each token in a model's response during generation. Activation-based monitors that run at generat…",
-      "link": "https://arxiv.org/abs/2611.12935",
-      "pubDate": 1794373200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "168180352",
-      "title": "LandslideFM: A Foundation Model Towards Unified Landslide Perception and Understanding",
-      "titleZh": "LandslideFM：一种旨在实现统一的滑坡感知和理解的基础模型",
-      "summary": "arXiv:2611.12936v1 Announce Type: new Abstract: Intelligent landslide detection is essential for disaster prevention. However, existing models primarily focus on isolated visual tasks, require extensi…",
-      "link": "https://arxiv.org/abs/2611.12936",
-      "pubDate": 1794373200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 10,
-        "cw": 22,
-        "st": 13,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1381573638",
-      "title": "Tracing Psychometric Inference in Large Language Models",
-      "titleZh": "在大型语言模型中追踪心理计量学推断",
-      "summary": "arXiv:2611.12937v1 Announce Type: new Abstract: Do large language models represent psychological constructs internally, or do they only generate outputs that resemble psychometric structure? We addres…",
-      "link": "https://arxiv.org/abs/2611.12937",
-      "pubDate": 1794373200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 63,
-      "scoreBreakdown": {
         "cq": 20,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
+        "kv": 2,
+        "cw": 12,
+        "st": 12,
         "rc": 1,
         "cs": 1
       },
-      "source": "arXiv"
+      "source": "Google News"
     },
     {
-      "id": "-1007587066",
-      "title": "Graph Visualizations in Prompts for Knowledge Graph Question Answering",
-      "titleZh": "知识图谱问答提示中的图可视化",
-      "summary": "arXiv:2611.12938v1 Announce Type: new Abstract: We study when and how multimodal input improves knowledge graph question answering (KGQA) in large vision--language models. Using a controlled evaluatio…",
-      "link": "https://arxiv.org/abs/2611.12938",
-      "pubDate": 1794373200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1550163499",
-      "title": "Reinforcement Learning based control of Cancer Chemotherapy treatments",
-      "titleZh": "基于强化学习的癌症化疗治疗控制",
-      "summary": "arXiv:2611.12940v1 Announce Type: new Abstract: Reinforcement Learning has achieved tremendous success in recent years. Extending its scope from the traditional complex games such as Atari, Go, Pokema…",
-      "link": "https://arxiv.org/abs/2611.12940",
-      "pubDate": 1794373200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 7,
-        "cw": 22,
-        "st": 13,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-129887688",
-      "title": "AI Governance Should Prioritize Control and Knowledge Boundaries Over Limiting Intelligence",
-      "titleZh": "人工智能治理应优先考虑控制和知识边界，而非限制智能",
-      "summary": "arXiv:2611.12941v1 Announce Type: new Abstract: The rapid proliferation of autonomously acting AI agents makes the governance of agentic systems urgent. We propose the competence circuit, summarized a…",
-      "link": "https://arxiv.org/abs/2611.12941",
-      "pubDate": 1794373200000,
-      "vendor": "arxiv",
-      "category": "Product",
+      "id": "-1886205848",
+      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "titleZh": "BotPsy：搭载不到十亿参数的智能体语言模型的设备端个人助理",
+      "summary": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "link": "https://huggingface.co/blog/qvac/botpsy",
+      "pubDate": 1794373276000,
+      "vendor": "huggingface",
+      "category": "Agent",
       "impact": "high",
-      "score": 53,
+      "score": 40,
       "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 15,
-        "st": 13,
+        "cq": 11,
+        "kv": 1,
+        "cw": 12,
+        "st": 14,
         "rc": 1,
         "cs": 1
       },
-      "source": "arXiv"
+      "source": "HuggingFace"
     },
     {
-      "id": "332643539",
-      "title": "Tabular Foundation Models vs Tuned Gradient Boosting for Telecom Churn: A Profit- and Calibration-Aware Evaluation",
-      "titleZh": "用于电信客户流失的表格基础模型与调优梯度提升算法：一项兼顾利润和校准的评估",
-      "summary": "arXiv:2611.12942v1 Announce Type: new Abstract: Tabular foundation models (TFMs) predict from a labelled context in a single forward pass. A recent benchmark reported that they decisively outperform t…",
-      "link": "https://arxiv.org/abs/2611.12942",
-      "pubDate": 1794373200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
+      "id": "-1804513842",
+      "title": "Alibaba's Qwen4-Max Preview Launches Abruptly, Targeting Complex Coding and Professional Software Operations",
+      "titleZh": "阿里巴巴的Qwen4-Max预览版突然上线，瞄准复杂编码和专业软件操作",
+      "summary": "Alibaba's Qwen4-Max Preview Launches Abruptly, Targeting Complex Coding and Professional Software Operations BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9sR3YtS0VVdzJPT3lmOExUaFJsUmJEcVRzTWZva2h1cUg5NjJ5TGN4VzdMTHJuWlNteWI1Q3NmSzNKSnpHZjByTFNCYUZ1OUR3N2pSaUJXVmlnYlFBZ2FjSFlyZm1rNjl6SEl5ZTkzeTJnOEJPUHc?oc=5",
+      "pubDate": 1794371100000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
       "score": 60,
       "scoreBreakdown": {
         "cq": 16,
-        "kv": 7,
-        "cw": 22,
-        "st": 13,
+        "kv": 5,
+        "cw": 25,
+        "st": 12,
         "rc": 1,
         "cs": 1
       },
-      "source": "arXiv"
-    },
-    {
-      "id": "1448937000",
-      "title": "SetPrint: Black-Box LLM Fingerprinting via Setwise Correspondence of Response Changes",
-      "titleZh": "SetPrint：通过响应变化的集合对应关系进行黑盒LLM指纹识别",
-      "summary": "arXiv:2611.12950v1 Announce Type: new Abstract: Black-box LLM fingerprinting aims to determine whether a target model was derived from a source model when only the output responses to input queries ar…",
-      "link": "https://arxiv.org/abs/2611.12950",
-      "pubDate": 1794373200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "arXiv"
+      "source": "Google News"
     },
     {
       "id": "-1506246892",
@@ -445,6 +382,27 @@
       "source": "OpenAI"
     },
     {
+      "id": "1059473582",
+      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "titleZh": "针对多向量嵌入模型的“令牌池化感知”训练",
+      "summary": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "link": "https://huggingface.co/blog/token-pooling",
+      "pubDate": 1794355200000,
+      "vendor": "huggingface",
+      "category": "Research",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 22,
+        "st": 14,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
       "id": "276359823",
       "title": "Gemini Intelligence: New features, on more devices",
       "titleZh": "Gemini 智能：新功能，更多设备",
@@ -464,27 +422,6 @@
         "cs": 1
       },
       "source": "Google AI"
-    },
-    {
-      "id": "899819864",
-      "title": "NVIDIA Expands Open Source Commitment With OpenShell Contribution and New AI Infrastructure",
-      "titleZh": "NVIDIA通过OpenShell贡献和全新AI基础设施，进一步践行开源承诺",
-      "summary": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVID…",
-      "link": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
-      "pubDate": 1794326403000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 8,
-        "cw": 15,
-        "st": 10,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "NVIDIA"
     },
     {
       "id": "726129971",
@@ -510,7 +447,7 @@
     {
       "id": "-705836792",
       "title": "Google Cloud launches Gemini for healthcare.",
-      "titleZh": "Google Cloud推出面向医疗保健行业的Gemini。",
+      "titleZh": "Google Cloud 推出面向医疗保健行业的 Gemini。",
       "summary": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
       "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
       "pubDate": 1794315600000,
@@ -531,7 +468,7 @@
     {
       "id": "-1396986280",
       "title": "Helping caregivers use AI in everyday life",
-      "titleZh": "帮助护理人员在日常生活中使用人工智能",
+      "titleZh": "帮助照护者在日常生活中使用人工智能",
       "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
       "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
       "pubDate": 1794312000000,
@@ -573,7 +510,7 @@
     {
       "id": "1554902514",
       "title": "Closing the AI guidance gap in education",
-      "titleZh": "弥合教育领域的人工智能指导缺口",
+      "titleZh": "弥合教育领域的人工智能指导鸿沟",
       "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
       "link": "https://openai.com/index/closing-ai-guidance-gap-education",
       "pubDate": 1794301200000,
@@ -592,30 +529,198 @@
       "source": "OpenAI"
     },
     {
-      "id": "-1749705399",
-      "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
-      "titleZh": "熟能生巧：在CoRL上，NVIDIA及其合作伙伴揭示了机器人如何在模拟中演练精细工作",
-      "summary": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cable…",
-      "link": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
-      "pubDate": 1794232801000,
-      "vendor": "nvidia",
-      "category": "Research",
+      "id": "973798691",
+      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "titleZh": "使用您的 Google Cloud 账户为 Hugging Face Hub 付费",
+      "summary": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "link": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "pubDate": 1794268800000,
+      "vendor": "huggingface",
+      "category": "Product",
       "impact": "med",
-      "score": 69,
+      "score": 44,
       "scoreBreakdown": {
-        "cq": 22,
-        "kv": 13,
-        "cw": 22,
-        "st": 10,
+        "cq": 13,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
         "rc": 1,
         "cs": 1
       },
-      "source": "NVIDIA"
+      "source": "HuggingFace"
+    },
+    {
+      "id": "-2107337342",
+      "title": "Decision Models in Hugging Face",
+      "titleZh": "Hugging Face 中的决策模型",
+      "summary": "Decision Models in Hugging Face",
+      "link": "https://huggingface.co/blog/decision",
+      "pubDate": 1794268800000,
+      "vendor": "huggingface",
+      "category": "Research",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 7,
+        "kv": 0,
+        "cw": 22,
+        "st": 14,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
+      "id": "-421161703",
+      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "titleZh": "Nemotron-Personas-Finance-Japan：捕捉日本人口统计和金融背景的合成数据集",
+      "summary": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "pubDate": 1794236757000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
+      "id": "-1932843365",
+      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "titleZh": "您的专家有合作伙伴。有希望让他们团结在一起",
+      "summary": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "link": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "pubDate": 1794227669000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
+      "id": "-941689662",
+      "title": "Alibaba's Qoder makes a mystery coding model called Qoduck free to use",
+      "titleZh": "阿里巴巴的Qoder推出一款名为Qoduck的神秘编码模型，可免费使用",
+      "summary": "Alibaba's Qoder makes a mystery coding model called Qoduck free to use Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOODV2VzFHaWRERnl6UjhOZ3daZHRKYVI5cHBpSzJrUGlhN2xQX1h6dmYyVld6UHA4S3k5UkhqaVF5Mk1BTWNJLW0zQV9vYVU1VVVoQy1VVDFwMUI5M3YxU0I3T1F6Yk42bWM2V0I4LXQxd3JiWjBtTE51UWhTNHNkaFdwV0ZrdnRlcUV3bXJDM1MwNHpTWEFwRjJOdWJTZw?oc=5",
+      "pubDate": 1794097348000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1041526569",
+      "title": "Qwen by Alibaba on a Home PC: Instructions, Requirements, and Unexpected Test Results",
+      "titleZh": "在家用电脑上使用阿里巴巴的Qwen：说明、要求和意外测试结果",
+      "summary": "Qwen by Alibaba on a Home PC: Instructions, Requirements, and Unexpected Test Results Incrypted",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1PaEVUMVRfT3Fpc3FTT3gzZHVhOWJUNDBMSmhmTTJNQ2VkZ1N0TVItLUx3d2g0QVVFYmotS1RRaV9qYkhSNEsxaHRFNHBHSHhaeEVsNWwtQXFwNVlGVkY0ZTRVYkk?oc=5",
+      "pubDate": 1793976974000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1502180657",
+      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "titleZh": "ToyBlocks：一个用于机器人学习和评估的受控世界",
+      "summary": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "link": "https://huggingface.co/blog/allenai/toyblocks",
+      "pubDate": 1793973648000,
+      "vendor": "huggingface",
+      "category": "Funding",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 1,
+        "cw": 20,
+        "st": 14,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
+      "id": "-1114393052",
+      "title": "Qwen 4 Release Date: What We Know So Far",
+      "titleZh": "Qwen 4 发布日期：我们目前所知的信息",
+      "summary": "Qwen 4 Release Date: What We Know So Far Fello AI",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBfTjduVmhuVzQ2N1p5Z0RvMHJOWVBMbkk4ZnBRQ3lLdnlmZnpXajZ0UV9RakZtdllEN1BsaC1OTXo?oc=5",
+      "pubDate": 1793945296000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "343630092",
+      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "titleZh": "埃及英语和尼日利亚英语加入开放式ASR排行榜",
+      "summary": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "link": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "pubDate": 1793923200000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 41,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "HuggingFace"
     },
     {
       "id": "900671429",
       "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "titleZh": "Gemini Omni 1.2 Flash：快速且经济高效，可拍摄更长的片段",
+      "titleZh": "Gemini Omni 1.2 Flash：快速且经济高效，可生成更长的片段",
       "summary": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
       "pubDate": 1793898000000,
@@ -634,67 +739,25 @@
       "source": "Google AI"
     },
     {
-      "id": "-712176126",
-      "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
-      "titleZh": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
-      "summary": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works clos…",
-      "link": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
-      "pubDate": 1793894400000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "med",
+      "id": "-202311253",
+      "title": "Qwen 4 Launch: Alibaba Open-Source Promise in Doubt",
+      "titleZh": "Qwen 4发布：阿里巴巴的开源承诺存疑",
+      "summary": "Qwen 4 Launch: Alibaba Open-Source Promise in Doubt shattered.io",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQampWbG5WUTgzWGd1Sld6UHBNTmN4dEVMMUVSZXdoc2JpeTl3MHplX09MWTdzRk9HeDVoaFVnaGV0Uk11Z0xDSWgyMVI4RVFUNzA3VkZ5U2phaXNyb1RKLVJ1VjJfOS15TXQzYWZIX05VSEhqbG5kWlplZjJZcWxXWG90dGNrRjJTa0lUNQ?oc=5",
+      "pubDate": 1793692800000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
       "score": 60,
       "scoreBreakdown": {
-        "cq": 24,
-        "kv": 10,
-        "cw": 15,
-        "st": 10,
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
         "rc": 0,
         "cs": 1
       },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "-1389563085",
-      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
-      "titleZh": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
-      "summary": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a m…",
-      "link": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
-      "pubDate": 1793721645000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 0,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "-1724592542",
-      "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
-      "titleZh": "世界各地的城市正在利用 NVIDIA 的物理 AI 和智能体 AI 来构建和扩展 AI 服务",
-      "summary": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physica…",
-      "link": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
-      "pubDate": 1793689212000,
-      "vendor": "nvidia",
-      "category": "Agent",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 11,
-        "cw": 12,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
+      "source": "Google News"
     },
     {
       "id": "1456554177",
@@ -718,46 +781,25 @@
       "source": "Google AI"
     },
     {
-      "id": "-2100012386",
-      "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
-      "titleZh": "夜幕下的哔哔声：自主人工智能加入地外信号的搜寻",
-      "summary": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestr…",
-      "link": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
-      "pubDate": 1793372410000,
-      "vendor": "nvidia",
-      "category": "Agent",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 4,
-        "cw": 12,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "314283158",
-      "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
-      "titleZh": "纤薄轻盈，功能全面：NVIDIA RTX Spark Windows 笔记本电脑推出新机型、代理工具和游戏",
-      "summary": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These p…",
-      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
-      "pubDate": 1793199646000,
-      "vendor": "nvidia",
+      "id": "1500463131",
+      "title": "Cohere: Alibaba Qwen Model Tried to Send Data to Beijing",
+      "titleZh": "Cohere：阿里巴巴通义千问模型曾试图向北京发送数据",
+      "summary": "Cohere: Alibaba Qwen Model Tried to Send Data to Beijing Cyber Magazine",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOU9aSmppTk9hNXprc0tkQjJ1NFNMN3FZOWFnRy0zdktuZGxaaHZsVFZTaFZGNS1uRHRwU1R5SVpnM2FjcG5HV2NSZWw2TW1ndnpKbUwyaTNkRHpKeFpmbDJDNnZxWWJGR1Z1ZUxYRnkyUFQzUlJabGUxMUhadmtUSkdzeURFLUZUUGhvaDRCZw?oc=5",
+      "pubDate": 1793084400000,
+      "vendor": "qwen",
       "category": "Research",
       "impact": "med",
-      "score": 63,
+      "score": 55,
       "scoreBreakdown": {
-        "cq": 22,
-        "kv": 8,
+        "cq": 18,
+        "kv": 2,
         "cw": 22,
-        "st": 10,
+        "st": 12,
         "rc": 0,
         "cs": 1
       },
-      "source": "NVIDIA"
+      "source": "Google News"
     },
     {
       "id": "-769727414",
@@ -781,67 +823,172 @@
       "source": "Google AI"
     },
     {
-      "id": "-65426783",
-      "title": "Kazakhstan Expands Compute for Its AI Future",
-      "titleZh": "哈萨克斯坦为迎接人工智能的未来而扩展计算能力",
-      "summary": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. The announcements below — co…",
-      "link": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
-      "pubDate": 1792720813000,
-      "vendor": "nvidia",
-      "category": "Release",
+      "id": "886376623",
+      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+      "titleZh": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+      "summary": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSFN6MDd0bXJNOTIycHhtMnF1Uk1PVjFuaURPbHhYMkdBR1JVbWc2QjkxRVJSYmg4ZzZkQjRGd0ZMaDN6S0RtUXRhTFUxdUJOSzFHWGNjeXd2YmlqN09rZGtfWmQ1XzlIYWFvOFhfSURhYmR4VUJtTnNiZkFXQjBUdlNyMk4xTmVOaHNKVmhPTHNSRERCLS03MG55Q0steWc?oc=5",
+      "pubDate": 1792998000000,
+      "vendor": "qwen",
+      "category": "Research",
       "impact": "med",
-      "score": 68,
+      "score": 55,
       "scoreBreakdown": {
-        "cq": 24,
-        "kv": 8,
-        "cw": 25,
-        "st": 10,
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
         "rc": 0,
         "cs": 1
       },
-      "source": "NVIDIA"
+      "source": "Google News"
     },
     {
-      "id": "-173082362",
-      "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-      "titleZh": "将火花带到欧洲：本地情报推动下一波代理人发展",
-      "summary": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling…",
-      "link": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
-      "pubDate": 1792579837000,
-      "vendor": "nvidia",
-      "category": "Release",
-      "impact": "high",
-      "score": 74,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 14,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "-1138623970",
-      "title": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
-      "titleZh": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
-      "summary": "Founded in a tent near the Berlin Wall in 1980, the Tempodrom moved several times before settling near Anhalter Bahnhof in 2001. Its permanent home has since hosted concerts, galas and political event…",
-      "link": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
-      "pubDate": 1792575016000,
-      "vendor": "nvidia",
+      "id": "2147151731",
+      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
+      "titleZh": "企业人工智能的真正风险并不是自主代理。而是它们之间的复杂性。",
+      "summary": "Presented by GraviteeRead more",
+      "link": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
+      "pubDate": 1787839260000,
+      "vendor": "venturebeat",
       "category": "Agent",
       "impact": "med",
-      "score": 58,
+      "score": 33,
       "scoreBreakdown": {
-        "cq": 24,
-        "kv": 11,
+        "cq": 12,
+        "kv": 0,
         "cw": 12,
-        "st": 10,
+        "st": 8,
         "rc": 0,
         "cs": 1
       },
-      "source": "NVIDIA"
+      "source": "VentureBeat"
+    },
+    {
+      "id": "-1183454760",
+      "title": "When agents act on their own, governance has to live in the data layer",
+      "titleZh": "当代理自行行动时，治理必须存在于数据层中",
+      "summary": "Presented by EDBRead more",
+      "link": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
+      "pubDate": 1787832060000,
+      "vendor": "venturebeat",
+      "category": "Agent",
+      "impact": "med",
+      "score": 34,
+      "scoreBreakdown": {
+        "cq": 12,
+        "kv": 1,
+        "cw": 12,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "-1500538370",
+      "title": "Orchestration is the new challenge for CX in the age of AI agents",
+      "titleZh": "在 AI 代理的时代，编排是 CX 面临的新挑战",
+      "summary": "Presented by Tata CommunicationsRead more",
+      "link": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
+      "pubDate": 1787754600000,
+      "vendor": "venturebeat",
+      "category": "Agent",
+      "impact": "med",
+      "score": 33,
+      "scoreBreakdown": {
+        "cq": 12,
+        "kv": 0,
+        "cw": 12,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "74193009",
+      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
+      "titleZh": "VentureBeat任命Rob Strechay为其首位首席分析师，以拓展其企业人工智能研究工作",
+      "summary": "Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a founding analyst of VentureBeat Research. His arrival i…",
+      "link": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
+      "pubDate": 1787149092000,
+      "vendor": "venturebeat",
+      "category": "Research",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 22,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "-1093452510",
+      "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
+      "titleZh": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
+      "summary": "For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On T…",
+      "link": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
+      "pubDate": 1779212700000,
+      "vendor": "venturebeat",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "-1380991222",
+      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+      "titleZh": "Railway 获得1亿美元融资，以AI原生云基础设施挑战AWS",
+      "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B fundi…",
+      "link": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+      "pubDate": 1769090400000,
+      "vendor": "venturebeat",
+      "category": "Funding",
+      "impact": "high",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 5,
+        "cw": 20,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
+    },
+    {
+      "id": "749662964",
+      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+      "titleZh": "Claude Code 的费用高达每月 200 美元。Goose 免费提供同样的功能。",
+      "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive.Read more",
+      "link": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+      "pubDate": 1768831200000,
+      "vendor": "venturebeat",
+      "category": "Product",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 2,
+        "cw": 15,
+        "st": 8,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "VentureBeat"
     }
   ]
 }
