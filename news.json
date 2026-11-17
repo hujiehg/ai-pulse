@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T00:35:35.543Z",
+  "updated": "2026-11-17T08:42:03.197Z",
   "count": 40,
   "sources": 4,
   "items": [
@@ -13,13 +13,13 @@
       "vendor": "techcrunch",
       "category": "Funding",
       "impact": "high",
-      "score": 55,
+      "score": 53,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 5,
         "cw": 20,
         "st": 8,
-        "rc": 5,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -34,13 +34,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 52,
+      "score": 51,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -55,13 +55,13 @@
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 43,
+      "score": 42,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 12,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -76,13 +76,13 @@
       "vendor": "techcrunch",
       "category": "Safety",
       "impact": "med",
-      "score": 40,
+      "score": 39,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 1,
         "cw": 10,
         "st": 8,
-        "rc": 4,
+        "rc": 3,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -172,6 +172,48 @@
       "source": "TechCrunch"
     },
     {
+      "id": "172953032",
+      "title": "Broadening access to AI for scientists",
+      "titleZh": "拓宽科学家使用人工智能的渠道",
+      "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+      "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "pubDate": 1794848400000,
+      "vendor": "openai",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "883936396",
+      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "titleZh": "利用新工具和支持措施加强打击网上儿童性虐待行为",
+      "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+      "link": "https://openai.com/index/strengthening-online-child-safety",
+      "pubDate": 1794848400000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
       "id": "-534176702",
       "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
       "titleZh": "OpenAI发布新的图像分类器和ChatGPT警告，以打击CSAM",
@@ -191,6 +233,48 @@
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "-813510184",
+      "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+      "titleZh": "Lambda 利用 NVIDIA 光学技术提升 AI 工厂的弹性和效率",
+      "summary": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-pac…",
+      "link": "https://blogs.nvidia.com/blog/lambda-photonics/",
+      "pubDate": 1794844851000,
+      "vendor": "nvidia",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 2,
+        "cw": 22,
+        "st": 10,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
+      "id": "-1871167854",
+      "title": "CUDA at 20: How the Platform Transformed Scientific Computing",
+      "titleZh": "CUDA 20周年：该平台如何改变科学计算",
+      "summary": "This week at SC26, NVIDIA is marking two decades of CUDA by honoring the researchers, developers and engineers who helped make GPU computing a foundation for modern science and AI. CUDA’s 20th anniver…",
+      "link": "https://blogs.nvidia.com/blog/20-years-cuda/",
+      "pubDate": 1794844811000,
+      "vendor": "nvidia",
+      "category": "Research",
+      "impact": "med",
+      "score": 67,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 7,
+        "cw": 22,
+        "st": 10,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "NVIDIA"
     },
     {
       "id": "2046663751",
@@ -214,319 +298,172 @@
       "source": "TechCrunch"
     },
     {
-      "id": "1332388714",
-      "title": "Is Qwen safe to use? Where your data goes with Qwen4-Max, and what US agencies have said",
-      "titleZh": "使用通义千问安全吗？使用 Qwen4-Max 时您的数据会去哪里，以及美国政府机构对此有何说法",
-      "summary": "Is Qwen safe to use? Where your data goes with Qwen4-Max, and what US agencies have said Nacionale",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLUNWS2JORHJIc2dhbkFPNnpYR2YzNmtWR0RKZXcxbFZ5TjhMT2xyZGhua2xtS0dpSmxlbnd6djdyaUE1bU5tM3NhVXdkaHQ3MU1PU3hhdGstb0VmSmszbTdXLXlEeXk4RVEtOTNya19IRWtOdHB3VjZNRGtBNTgyTjhGVVJzR0xtVmhMcWZid3RCOGM2WmJETlRJYTBXYW8?oc=5",
-      "pubDate": 1794830186000,
-      "vendor": "qwen",
+      "id": "1929914522",
+      "title": "Science at the Frontier: How scientists use ChatGPT",
+      "titleZh": "前沿科学：科学家如何使用ChatGPT",
+      "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+      "link": "https://openai.com/index/science-at-the-frontier",
+      "pubDate": 1794830400000,
+      "vendor": "openai",
       "category": "Product",
-      "impact": "high",
-      "score": 51,
+      "impact": "med",
+      "score": 54,
       "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
+        "cq": 20,
+        "kv": 0,
         "cw": 15,
-        "st": 12,
+        "st": 15,
         "rc": 3,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "OpenAI"
     },
     {
-      "id": "-1068384272",
-      "title": "Alibaba Launches Qwen4-Max AI Model with 2.4 Trillion Parameters",
-      "titleZh": "阿里巴巴推出拥有2.4万亿参数的Qwen4-Max AI模型",
-      "summary": "Alibaba Launches Qwen4-Max AI Model with 2.4 Trillion Parameters ForkLog",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOV0llVDN6V1dUODNxdTUtajZ6aElDeUp1cXc3UzdnS0JEbVpTZTJ2cVdFS0VtQV83TmdMRU55RGZSU3dfTF9rYVBGcGN6VzRCREJhMGdVeU9EMmVkUjR6TnVsSmdtcGpfdC00UUFoaC00VG9tZHBXZHZlUUF2Y0dTNVd2eDdIbkhKeFVuQVcyeU1MQQ?oc=5",
-      "pubDate": 1794826491000,
-      "vendor": "qwen",
+      "id": "746583073",
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "titleZh": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "link": "https://openai.com/index/lvmh-media-division-partnership",
+      "pubDate": 1794819600000,
+      "vendor": "openai",
       "category": "Release",
-      "impact": "high",
-      "score": 61,
+      "impact": "med",
+      "score": 68,
       "scoreBreakdown": {
-        "cq": 16,
-        "kv": 4,
+        "cq": 22,
+        "kv": 2,
         "cw": 25,
-        "st": 12,
+        "st": 15,
         "rc": 3,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "OpenAI"
     },
     {
-      "id": "1200956345",
-      "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
-      "titleZh": "LLM 代理应何时遗忘？查询关键解析器错误下的记忆过滤",
-      "summary": "arXiv:2611.17338v1 Announce Type: new Abstract: LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors del…",
-      "link": "https://arxiv.org/abs/2611.17338",
-      "pubDate": 1794805200000,
-      "vendor": "arxiv",
+      "id": "-1925210825",
+      "title": "Our first phase of embedded assessments",
+      "titleZh": "我们的第一阶段嵌入式评估",
+      "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+      "link": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "pubDate": 1794816000000,
+      "vendor": "openai",
       "category": "Research",
       "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "15503405",
-      "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
-      "titleZh": "排名是否可靠？针对小型、量化、端上大语言模型的幻觉检测器的从业者导向型审计",
-      "summary": "arXiv:2611.17339v1 Announce Type: new Abstract: Hallucination detection for large language models is dominated by methods evaluated on 7B-70B research models with abundant sampling budgets and exact-m…",
-      "link": "https://arxiv.org/abs/2611.17339",
-      "pubDate": 1794805200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 66,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 7,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1469588385",
-      "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
-      "titleZh": "LoRAWeaver：LoRA表示空间中的定向适配器路由",
-      "summary": "arXiv:2611.17340v1 Announce Type: new Abstract: Large language models are expensive to update through full retraining. Parameter-efficient fine-tuning reduces the cost of adaptation, but repeated adap…",
-      "link": "https://arxiv.org/abs/2611.17340",
-      "pubDate": 1794805200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1988212211",
-      "title": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
-      "titleZh": "将表格化人群先验信息作为结构化检索，用于EHR用药方案预测",
-      "summary": "arXiv:2611.17341v1 Announce Type: new Abstract: Medication prediction from electronic health records is a fixed vocabulary structured prediction problem, yet recent clinical RAG systems often treat it…",
-      "link": "https://arxiv.org/abs/2611.17341",
-      "pubDate": 1794805200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1057856121",
-      "title": "An Operationalization of Opaque Serial Depth",
-      "titleZh": "不透明序列深度的操作化",
-      "summary": "arXiv:2611.17495v1 Announce Type: new Abstract: Chain-of-thought (CoT) is currently a valuable tool for overseeing AI models, but some architectural shifts could significantly reduce CoT monitorabilit…",
-      "link": "https://arxiv.org/abs/2611.17495",
-      "pubDate": 1794805200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1445604200",
-      "title": "Advancing Quantization for R&amp;R Models with Microscaling Formats",
-      "titleZh": "使用微缩放格式推进 R&amp;R 模型的量化",
-      "summary": "arXiv:2611.17501v1 Announce Type: new Abstract: Recommendation and Ranking (R R) models, particularly in digital advertising, require massive inference throughput but exhibit extreme sensitivity to pr…",
-      "link": "https://arxiv.org/abs/2611.17501",
-      "pubDate": 1794805200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 65,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 8,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "323135381",
-      "title": "A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent",
-      "titleZh": "推山效应：长期大语言模型代理中框架效应和内部状态干预对合谋行为的影响",
-      "summary": "arXiv:2611.17515v1 Announce Type: new Abstract: Can sustained gain-loss (valence) framing sway an LLM agent toward market manipulation? We place Gemma 3 12B into the seat of a defendant in the London …",
-      "link": "https://arxiv.org/abs/2611.17515",
-      "pubDate": 1794805200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 59,
+      "score": 57,
       "scoreBreakdown": {
         "cq": 16,
-        "kv": 4,
+        "kv": 1,
         "cw": 22,
-        "st": 13,
-        "rc": 3,
+        "st": 15,
+        "rc": 2,
         "cs": 1
       },
-      "source": "arXiv"
+      "source": "OpenAI"
     },
     {
-      "id": "1113217712",
-      "title": "Model Annealing: Data-Efficient Learning through Review and Consolidation",
-      "titleZh": "模型退火：通过复习和巩固实现数据高效学习",
-      "summary": "arXiv:2611.17524v1 Announce Type: new Abstract: A small labelled dataset is memorized long before the training budget runs out, and the one-hot labels that remain to be fitted then mostly sharpen conf…",
-      "link": "https://arxiv.org/abs/2611.17524",
-      "pubDate": 1794805200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1162313494",
-      "title": "Astrocyte Biocomputing: Astrocytic Contributions to Neural Network Computation",
-      "titleZh": "星形胶质细胞生物计算：星形胶质细胞对神经网络计算的贡献",
-      "summary": "arXiv:2611.17532v1 Announce Type: new Abstract: Conductors are critical for the performance of an orchestra even though they do not emit sound. Basic research and clinical studies in the last decade a…",
-      "link": "https://arxiv.org/abs/2611.17532",
-      "pubDate": 1794805200000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "1462833323",
-      "title": "Verifiable pXRD: Hill-climbing pXRD structure determination with LLM agents",
-      "titleZh": "可验证的 pXRD：使用 LLM 代理进行爬山法 pXRD 结构测定",
-      "summary": "arXiv:2611.17539v1 Announce Type: new Abstract: Autonomous crystal-structure determination from powder X-ray diffraction (pXRD) remains a key bottleneck for self-driving materials laboratories. We for…",
-      "link": "https://arxiv.org/abs/2611.17539",
-      "pubDate": 1794805200000,
-      "vendor": "arxiv",
+      "id": "-984537106",
+      "title": "Advancing computer-use agents for healthcare teams",
+      "titleZh": "为医疗保健团队提供先进的计算机使用代理",
+      "summary": "Advancing computer-use agents for healthcare teams",
+      "link": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "pubDate": 1794808800000,
+      "vendor": "openai",
       "category": "Agent",
       "impact": "med",
-      "score": 53,
+      "score": 41,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 12,
+        "st": 15,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "-914149179",
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "titleZh": "使用面向医疗保健行业的ChatGPT，以更多方式推动医疗保健事业的发展",
+      "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+      "link": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "pubDate": 1794808800000,
+      "vendor": "openai",
+      "category": "Release",
+      "impact": "med",
+      "score": 61,
       "scoreBreakdown": {
         "cq": 18,
-        "kv": 6,
-        "cw": 12,
-        "st": 13,
-        "rc": 3,
+        "kv": 0,
+        "cw": 25,
+        "st": 15,
+        "rc": 2,
         "cs": 1
       },
-      "source": "arXiv"
+      "source": "OpenAI"
     },
     {
-      "id": "380586596",
-      "title": "Alibaba launches Qwen4-Max model with strict cybersecurity guardrails",
-      "titleZh": "阿里巴巴推出配备严格网络安全防护措施的Qwen4-Max模型",
-      "summary": "Alibaba launches Qwen4-Max model with strict cybersecurity guardrails South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaHl0ZVByMTFnMVVaU2h5UFBhMzFaVmFKQi1pcGhPb3lLeTdjdGh4TkpnU0FPUVAyMU9rYjV2UkhFdjhOUHRDVUFMRm9seUVzWDRzeno1YllqLVpmY3R6WmI5bnJSS1lkeFAzSm1lM1pkWnAtclpOQmxRWFVwMmZaVjE2cy1KYzRJcEw5RUVIbVExdlhveFJYLU1HRTFSVERTV2VzdHFtS1J2SE1PMjBFbVNYMFNRSmZmT3FtV2kxYUd0QmdBSkJMb3pGUWJTUGFzcC1wYtIB1AFBVV95cUxPWS1MdnU4cWMyN3ktNnVyR2Vtcnhqa1hUVHUxeUxTRDhIUVRjRkJsNmlIM1RDWUFGSkgxeHIxR0h2NUU4WUJ5d3h2eFhKVXU2ekdLRkhSbmpVdHVRaDJrOXhOTkpyOW4ya2dpdDVQb0JVd3Y3UXFfU19fLXNHelFNUnhncDMwTS1yQWFkc1F3SFZoM0ZMZGFIRGhwNS1CRzd4UXRXOUtnS21UMHRZLUNUNlp0cmZtMWVvRUhSaE53UFFrbmQ3SHRQaTRxUVRFVmE4VmZZdw?oc=5",
-      "pubDate": 1794801413000,
-      "vendor": "qwen",
+      "id": "1598710799",
+      "title": "The King’s Trust and OpenAI launch £1m partnership",
+      "titleZh": "The King’s Trust and OpenAI launch £1m partnership",
+      "summary": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+      "link": "https://openai.com/index/the-kings-trust-and-openai",
+      "pubDate": 1794787200000,
+      "vendor": "openai",
       "category": "Release",
       "impact": "high",
-      "score": 62,
+      "score": 65,
       "scoreBreakdown": {
-        "cq": 16,
-        "kv": 5,
+        "cq": 20,
+        "kv": 2,
         "cw": 25,
-        "st": 12,
-        "rc": 3,
+        "st": 15,
+        "rc": 2,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "OpenAI"
     },
     {
-      "id": "-1330590804",
-      "title": "Alibaba Launches Qwen4-Max With Lower API Prices",
-      "titleZh": "阿里巴巴推出Qwen4-Max，API价格更低",
-      "summary": "Alibaba Launches Qwen4-Max With Lower API Prices The Defiant",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxON1l1QWRja2lMdGVUTXhpSXpuVVkzWnRSS0x5QmRTRWFiUm4xWFR4LU4xNDNpZDJvTG9zc3JIMER3NWpJaXBhdUlFRVZ4S1BNZXRiR0dnMGdrRWRKYk5DZlVnbUVWQjVHRGNna2ZwX3I4RGJiVWk0X3RlbU5LNXNoNTdxMHNLUkM5U3c?oc=5",
-      "pubDate": 1794799333000,
-      "vendor": "qwen",
+      "id": "-1922158075",
+      "title": "At Holiday Extras, dots get to work before anyone asks",
+      "titleZh": "在Holiday Extras，Dots在任何人提出要求之前就已经开始工作了",
+      "summary": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
+      "link": "https://openai.com/business/customer-stories/holiday-extras-dots",
+      "pubDate": 1794787200000,
+      "vendor": "openai",
       "category": "Release",
       "impact": "high",
       "score": 61,
       "scoreBreakdown": {
         "cq": 16,
-        "kv": 4,
+        "kv": 2,
         "cw": 25,
-        "st": 12,
-        "rc": 3,
+        "st": 15,
+        "rc": 2,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "OpenAI"
     },
     {
-      "id": "-2074594791",
-      "title": "Qwen3.8-27B censorship cut by US AI lab’s tuning",
-      "titleZh": "Qwen3.8-27B censorship cut by US AI lab’s tuning",
-      "summary": "Qwen3.8-27B censorship cut by US AI lab’s tuning Cybernews",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOY0VwUF9VdXZoTEVncGhEQ2I1d3doUDAyWllGbW1uc1VSeFBtWF9zbWFKazA2SDlTbmlSakhoWWQxaDhnSjEwdzUxRWdSeEE1V1NoMW91dXlyVVdqLUZ6ZXowSG4tREt5N29tM3dZOWg5aTJsbTVnVjVwSExIUHBYMw?oc=5",
-      "pubDate": 1794573602000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "high",
-      "score": 47,
+      "id": "-2111615766",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "titleZh": "朝着在格子上定义标准模型迈出的一步",
+      "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "link": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "pubDate": 1794780001000,
+      "vendor": "openai",
+      "category": "Research",
+      "impact": "med",
+      "score": 58,
       "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
+        "cq": 18,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 2,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "OpenAI"
     },
     {
       "id": "1351289236",
@@ -592,6 +529,27 @@
       "source": "DeepMind"
     },
     {
+      "id": "899819864",
+      "title": "NVIDIA Expands Open Source Commitment With OpenShell Contribution and New AI Infrastructure",
+      "titleZh": "NVIDIA通过OpenShell贡献和全新AI基础设施，进一步践行开源承诺",
+      "summary": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVID…",
+      "link": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+      "pubDate": 1794326403000,
+      "vendor": "nvidia",
+      "category": "Product",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 8,
+        "cw": 15,
+        "st": 10,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
       "id": "-926922395",
       "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
       "titleZh": "隆重推出 AlphaProof Code：深入验证复杂软件的突破性技术",
@@ -655,6 +613,27 @@
       "source": "DeepMind"
     },
     {
+      "id": "-1749705399",
+      "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+      "titleZh": "熟能生巧：在 CoRL 上，NVIDIA 和合作伙伴揭示了机器人如何在模拟中练习精细作业",
+      "summary": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cable…",
+      "link": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "pubDate": 1794232801000,
+      "vendor": "nvidia",
+      "category": "Research",
+      "impact": "med",
+      "score": 68,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 13,
+        "cw": 22,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
       "id": "-1299904440",
       "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
       "titleZh": "Gemini Omni 1.2 Flash：快速且经济高效，可生成更长的片段",
@@ -676,6 +655,27 @@
       "source": "DeepMind"
     },
     {
+      "id": "-712176126",
+      "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+      "titleZh": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+      "summary": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works clos…",
+      "link": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
+      "pubDate": 1793894400000,
+      "vendor": "nvidia",
+      "category": "Product",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 10,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
       "id": "1811090021",
       "title": "Agentic cheminformatics with Google Antigravity",
       "titleZh": "基于 Google Antigravity 的代理化学信息学",
@@ -695,6 +695,69 @@
         "cs": 1
       },
       "source": "DeepMind"
+    },
+    {
+      "id": "-1389563085",
+      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "titleZh": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "summary": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a m…",
+      "link": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+      "pubDate": 1793721645000,
+      "vendor": "nvidia",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 0,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
+      "id": "-1724592542",
+      "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+      "titleZh": "世界各地的城市正在利用 NVIDIA 的物理 AI 和自主 AI 来构建和扩展 AI 服务",
+      "summary": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physica…",
+      "link": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+      "pubDate": 1793689212000,
+      "vendor": "nvidia",
+      "category": "Agent",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 11,
+        "cw": 12,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
+      "id": "-2100012386",
+      "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+      "titleZh": "夜间发出哔哔声的东西：自主人工智能加入地外信号的搜索",
+      "summary": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestr…",
+      "link": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+      "pubDate": 1793372410000,
+      "vendor": "nvidia",
+      "category": "Agent",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 4,
+        "cw": 12,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
     },
     {
       "id": "367274020",
@@ -739,109 +802,46 @@
       "source": "DeepMind"
     },
     {
-      "id": "1500463131",
-      "title": "Cohere: Alibaba Qwen Model Tried to Send Data to Beijing",
-      "titleZh": "Cohere：阿里巴巴通义千问模型曾试图向北京发送数据",
-      "summary": "Cohere: Alibaba Qwen Model Tried to Send Data to Beijing Cyber Magazine",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOU9aSmppTk9hNXprc0tkQjJ1NFNMN3FZOWFnRy0zdktuZGxaaHZsVFZTaFZGNS1uRHRwU1R5SVpnM2FjcG5HV2NSZWw2TW1ndnpKbUwyaTNkRHpKeFpmbDJDNnZxWWJGR1Z1ZUxYRnkyUFQzUlJabGUxMUhadmtUSkdzeURFLUZUUGhvaDRCZw?oc=5",
-      "pubDate": 1793084400000,
-      "vendor": "qwen",
+      "id": "314283158",
+      "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+      "titleZh": "纤薄轻巧，功能全面：NVIDIA RTX Spark Windows 笔记本电脑推出新款机型、代理工具和游戏",
+      "summary": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These p…",
+      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+      "pubDate": 1793199646000,
+      "vendor": "nvidia",
       "category": "Research",
       "impact": "med",
-      "score": 55,
+      "score": 63,
       "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
+        "cq": 22,
+        "kv": 8,
         "cw": 22,
-        "st": 12,
+        "st": 10,
         "rc": 0,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "NVIDIA"
     },
     {
-      "id": "990900",
-      "title": "Alibaba's latest Qwen models routed some requests through company servers, researchers find",
-      "titleZh": "研究人员发现，阿里巴巴最新的Qwen模型将一些请求路由至公司服务器",
-      "summary": "Alibaba's latest Qwen models routed some requests through company servers, researchers find The Decoder",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTkdTbXRzc1hjc0pnVlBFbS05WmlUQ3FqTV9pYkd0X3pyX2hYSGp5WGc3akJDTUYzb1FZZkJDM0c1OElDT3RWdnVhbXhudDdTa0NtNV9HZUh4LTBUX3YzSERoM2xlUmNyWDFLazFxN0JiemxuUDBDVjh6NnBrcGhUc1BPSmtYQV9oaEF0aHg1RjBPdllUSjhGZ0lERThUeFEyenRTaGFtdndjNDdVRFVDVVdVbEI?oc=5",
-      "pubDate": 1793084400000,
-      "vendor": "qwen",
-      "category": "Research",
+      "id": "-65426783",
+      "title": "Kazakhstan Expands Compute for Its AI Future",
+      "titleZh": "哈萨克斯坦为人工智能的未来扩展计算能力",
+      "summary": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. The announcements below — co…",
+      "link": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
+      "pubDate": 1792720813000,
+      "vendor": "nvidia",
+      "category": "Release",
       "impact": "med",
-      "score": 57,
+      "score": 68,
       "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
+        "cq": 24,
+        "kv": 8,
+        "cw": 25,
+        "st": 10,
         "rc": 0,
         "cs": 1
       },
-      "source": "Google News"
-    },
-    {
-      "id": "2022337276",
-      "title": "Alibaba AI model secretly tried to reach Beijing server in test, rival Cohere says",
-      "titleZh": "竞争对手Cohere称，阿里巴巴的AI模型在测试中秘密尝试连接北京的服务器",
-      "summary": "Alibaba AI model secretly tried to reach Beijing server in test, rival Cohere says Reuters",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcHVNeUo5OThtcHVOdE1HTHhlQjV0TXR0RkVpMEk2Qm1hQjdPNzlkaXZaZU5oX1Y3eFoyUW1FZGZ5YmJOX0d0eGRHUUtRaEtvbzRvcWtOenFzSWowam1ZMlQyTmJleGN3dU1JbVhiemduMnZRY0E0a3U4V1N2bUZhLXBRTXNySFdNeE92S3pPeWRmUDRRd0VLYWRCNklpZ2c2NDhOckpzTE5tbnItcXV5VVE2ajJwRG9UeHFOcWpsNmRqbUh0bVpR?oc=5",
-      "pubDate": 1792998000000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "886376623",
-      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-      "titleZh": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-      "summary": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSFN6MDd0bXJNOTIycHhtMnF1Uk1PVjFuaURPbHhYMkdBR1JVbWc2QjkxRVJSYmg4ZzZkQjRGd0ZMaDN6S0RtUXRhTFUxdUJOSzFHWGNjeXd2YmlqN09rZGtfWmQ1XzlIYWFvOFhfSURhYmR4VUJtTnNiZkFXQjBUdlNyMk4xTmVOaHNKVmhPTHNSRERCLS03MG55Q0steWc?oc=5",
-      "pubDate": 1792998000000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "397187581",
-      "title": "Alibaba's Qwen AI caught trying to contact server in China",
-      "titleZh": "阿里巴巴的通义千问人工智能被发现试图联系中国的服务器",
-      "summary": "Alibaba's Qwen AI caught trying to contact server in China The Register",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMExUejU2dkFxX2s5V09haXptOTRudmh4a3FxT0Zld2ZwYzhGTHkzTExXTmlZdWY3eDVIOHJfUnMtSmd1Rnk2UnQ0b3BLUjllREl4Vm1hOWRZSnBrZXVLeHhYUVVZQzgyQlJ6SVhfRGJrdVBoOWE3V2gxdjdJMXBIY3BVQlUwMnhWaFN3d1dQbkRQSFNmaDloSnRURWZLR3VJOVBMMDF3WExwREdjZmZ3Q3hTY3M?oc=5",
-      "pubDate": 1792998000000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
+      "source": "NVIDIA"
     }
   ]
 }
