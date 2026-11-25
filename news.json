@@ -1,8 +1,428 @@
 {
-  "updated": "2026-11-25T11:54:53.655Z",
-  "count": 36,
-  "sources": 4,
+  "updated": "2026-11-25T20:53:03.168Z",
+  "count": 86,
+  "sources": 9,
   "items": [
+    {
+      "id": "-1481754279",
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "titleZh": "OpenAI表示，随着ChatGPT将聊天和工作功能合并，重度用户可能更快达到使用上限。",
+      "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+      "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "pubDate": 1795637007000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1942940497",
+      "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+      "titleZh": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+      "summary": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
+      "link": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+      "pubDate": 1795636497000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1598017034",
+      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+      "titleZh": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+      "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model devel…",
+      "link": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+      "pubDate": 1795635864000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 0,
+        "cw": 22,
+        "st": 8,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1409213089",
+      "title": "Where scientists draw the line on AI agents",
+      "titleZh": "科学家们在哪些方面对人工智能体划定了界限",
+      "summary": "Where scientists draw the line on AI agents",
+      "link": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "pubDate": 1795632775000,
+      "vendor": "huggingface",
+      "category": "Agent",
+      "impact": "med",
+      "score": 41,
+      "scoreBreakdown": {
+        "cq": 9,
+        "kv": 0,
+        "cw": 12,
+        "st": 14,
+        "rc": 5,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
+      "id": "1739596387",
+      "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+      "titleZh": "想在这个圣诞节给孩子买一个人工智能玩具吗？在纽约不行",
+      "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional develop…",
+      "link": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+      "pubDate": 1795630306000,
+      "vendor": "techcrunch",
+      "category": "Safety",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 10,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1961253264",
+      "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+      "titleZh": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+      "summary": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
+      "link": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+      "pubDate": 1795628158000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1882289216",
+      "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+      "titleZh": "人工智能数据中心越来越难建，新云正在感受到这一点",
+      "summary": "⁠Nvidia has made clear⁠ it won’t backstop an AI data center until it’s nearly ready to run, and that’s landing just as neoclouds report construction delays and more expensive debt. The message to deve…",
+      "link": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+      "pubDate": 1795621303000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 4,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-704675883",
+      "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+      "titleZh": "据报道，亚马逊和Meta正在就解除对AI代理Muse的封锁进行谈判",
+      "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
+      "link": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+      "pubDate": 1795615818000,
+      "vendor": "techcrunch",
+      "category": "Agent",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 12,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1220041231",
+      "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
+      "titleZh": "黄仁勋和英伟达仍需回答的有关Megaspeed的问题",
+      "summary": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurance…",
+      "link": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+      "pubDate": 1795611600000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "354012031",
+      "title": "An Indic Voice Agent with CUGA",
+      "titleZh": "使用 CUGA 的印度语语音客服",
+      "summary": "An Indic Voice Agent with CUGA",
+      "link": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "pubDate": 1795602129000,
+      "vendor": "huggingface",
+      "category": "Agent",
+      "impact": "med",
+      "score": 37,
+      "scoreBreakdown": {
+        "cq": 7,
+        "kv": 0,
+        "cw": 12,
+        "st": 14,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
+      "id": "-910924622",
+      "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
+      "titleZh": "自主代理系统的不可约治理结构：公平分配、策略稳健性和多尺度组合",
+      "summary": "arXiv:2611.31284v1 Announce Type: new Abstract: Autonomous agent governance is commonly framed as a problem of enforcing correct execution. However, in multi-agent systems, an equally fundamental ques…",
+      "link": "https://arxiv.org/abs/2611.31284",
+      "pubDate": 1795582800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 5,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1010233810",
+      "title": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
+      "titleZh": "MOZAIC：用于识别虚假内容的视听深伪基准",
+      "summary": "arXiv:2611.31301v1 Announce Type: new Abstract: Audio-video (AV) deepfakes can fake the face, the voice, or both. Most benchmarks only ask whether a clip is real or fake, so they cannot show whether a…",
+      "link": "https://arxiv.org/abs/2611.31301",
+      "pubDate": 1795582800000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "high",
+      "score": 73,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 11,
+        "cw": 25,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-1852202094",
+      "title": "Conservative Overlap Fuzzy Rough Sets for Incomplete Data",
+      "titleZh": "用于不完整数据的保守重叠模糊粗糙集",
+      "summary": "arXiv:2611.31329v1 Announce Type: new Abstract: Attribute reduction in incomplete information systems is difficult because missing values break the equivalence-class structure of rough set theory. We …",
+      "link": "https://arxiv.org/abs/2611.31329",
+      "pubDate": 1795582800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "285084126",
+      "title": "Beyond Static Charts: Benchmarking Interactive Chart-to-Code Generation for MLLMs",
+      "titleZh": "超越静态图表：MLLM 交互式图表到代码生成的基准测试",
+      "summary": "arXiv:2611.31345v1 Announce Type: new Abstract: In recent years, multimodal large language models (MLLMs) have achieved significant progress in chart-to-code generation. However, existing benchmarks m…",
+      "link": "https://arxiv.org/abs/2611.31345",
+      "pubDate": 1795582800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 63,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "550247011",
+      "title": "What People Choose Not to Say: A Multimodal Benchmark for Fine-Grained Information Manipulation in Conversations",
+      "titleZh": "人们选择不说的内容：用于对话中细粒度信息操纵的多模态基准",
+      "summary": "arXiv:2611.31346v1 Announce Type: new Abstract: Recent advances in MLLMs have improved social understanding, enabling models to recognize emotions and distinguish truthful from deceptive behaviors. Ho…",
+      "link": "https://arxiv.org/abs/2611.31346",
+      "pubDate": 1795582800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 7,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1836978018",
+      "title": "Antares-Smaug: Adversarial Names, Tokens and Attack Rewrites: Sanitisers Miss Unseen Generalisations",
+      "titleZh": "Antares-Smaug：对抗性名称、令牌和攻击重写：净化器漏掉了看不见的泛化",
+      "summary": "arXiv:2611.31347v1 Announce Type: new Abstract: Laya is an open decision model: given a text, a question and K named options with descriptions, it returns one probability per option in a single pass, …",
+      "link": "https://arxiv.org/abs/2611.31347",
+      "pubDate": 1795582800000,
+      "vendor": "arxiv",
+      "category": "Release",
+      "impact": "high",
+      "score": 66,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 6,
+        "cw": 25,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "1320420559",
+      "title": "ContextLure: Exploiting Benign Conversation History for Indirect Prompt Injection",
+      "titleZh": "ContextLure：利用良性对话历史进行间接提示注入",
+      "summary": "arXiv:2611.31424v1 Announce Type: new Abstract: As LLMs become more capable, agents can perform more complex tasks with tools and maintain longer interactions with users. These benign conversations co…",
+      "link": "https://arxiv.org/abs/2611.31424",
+      "pubDate": 1795582800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 3,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "-271113315",
+      "title": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
+      "titleZh": "学习“什么”与学习“如何”：在自主性训练中分解任务和界面能力",
+      "summary": "arXiv:2611.31427v1 Announce Type: new Abstract: LLM agents operate through harnesses that define system prompts, action formats, feedback loops, and resource constraints. A model may possess the knowl…",
+      "link": "https://arxiv.org/abs/2611.31427",
+      "pubDate": 1795582800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 8,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "197154754",
+      "title": "Taxi: Analyzing Agents at (Real) Scale",
+      "titleZh": "Taxi：大规模（真实）分析代理",
+      "summary": "arXiv:2611.31457v1 Announce Type: new Abstract: In this technical report, we present Taxi -- a system for debugging, clustering, and monitoring agents at scale. Taxi scales to millions of steps effici…",
+      "link": "https://arxiv.org/abs/2611.31457",
+      "pubDate": 1795582800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 4,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
+    {
+      "id": "661986065",
+      "title": "SpatialCraft: Evolving Procedural Intelligence from Experience and Skills for Spatial Reasoning Agents",
+      "titleZh": "SpatialCraft：从经验和技能中演化出用于空间推理智能体的程序性智能",
+      "summary": "arXiv:2611.31475v1 Announce Type: new Abstract: Spatial reasoning agents increasingly rely on external tools, such as 3D reconstruction, segmentation, and geometric computation, to answer questions th…",
+      "link": "https://arxiv.org/abs/2611.31475",
+      "pubDate": 1795582800000,
+      "vendor": "arxiv",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 6,
+        "cw": 22,
+        "st": 13,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "arXiv"
+    },
     {
       "id": "-2103487959",
       "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
@@ -23,6 +443,27 @@
         "cs": 1
       },
       "source": "TechCrunch"
+    },
+    {
+      "id": "-831264154",
+      "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+      "titleZh": "在一块 RTX PRO 6000 上进行 Hill-climbing Inkling 2 Mini 推理",
+      "summary": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+      "link": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "pubDate": 1795564800000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 44,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "HuggingFace"
     },
     {
       "id": "-970546243",
@@ -46,172 +487,424 @@
       "source": "TechCrunch"
     },
     {
-      "id": "1666625647",
-      "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
-      "titleZh": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
-      "summary": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
-      "link": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
-      "pubDate": 1795556907000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1910732938",
-      "title": "Even the best AI agents struggle with everyday life",
-      "titleZh": "即使是最好的 AI 代理也难以应对日常生活",
-      "summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new prob…",
-      "link": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
-      "pubDate": 1795556009000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 22,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "862067229",
-      "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
-      "titleZh": "沃尔玛与Meta合作，将黑色星期五优惠带到AI代理Muse",
-      "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
-      "link": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
-      "pubDate": 1795555958000,
-      "vendor": "techcrunch",
-      "category": "Agent",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "698334998",
-      "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
-      "titleZh": "Maple筹集530万美元，用于开发能够保护您的数据（甚至免受AI自身侵害）的AI产品",
-      "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
-      "link": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
-      "pubDate": 1795555192000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 44,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1318049837",
-      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
-      "titleZh": "Anthropic股价跌破IPO价格，这对人工智能初创公司来说是一个令人担忧的信号",
-      "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
-      "link": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
-      "pubDate": 1795545042000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "high",
-      "score": 52,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 20,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-121081975",
-      "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
-      "titleZh": "英国警告称，由人工智能驱动的网络攻击正揭示多年来存在的安全漏洞",
-      "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
-      "link": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
-      "pubDate": 1795543379000,
-      "vendor": "techcrunch",
-      "category": "Safety",
-      "impact": "med",
-      "score": 39,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 10,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-246647209",
-      "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
-      "titleZh": "Meta 将其 Muse AI 助手直接引入 Instagram 私信",
-      "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
-      "link": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
-      "pubDate": 1795539600000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 45,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "824344884",
-      "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
-      "titleZh": "Tidal将禁用并删除数百万首由人工智能生成的曲目，因为人工智能垃圾正在淹没音乐流媒体平台",
-      "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
-      "link": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
-      "pubDate": 1795538760000,
-      "vendor": "techcrunch",
+      "id": "1372893050",
+      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "titleZh": "Microduck 避障：使用 Isaac Lab 和 Newton 的 Sim2Real 工作流程",
+      "summary": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "link": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "pubDate": 1795538053000,
+      "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
       "score": 43,
       "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
+      "id": "-805598154",
+      "title": "Cursor is reportedly exploring a phase-out of PRC-developed open-weight models",
+      "titleZh": "据报道，Cursor正在探索逐步淘汰中国开发的开放权重模型",
+      "summary": "Cursor is reportedly exploring a phase-out of PRC-developed open-weight models NeoTeo",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQ0NlYzMza1dOeXhLcUVVM3BTUUVvZExqRkQ2MXYzQ253WFNvTm0ycjdHdjRfRVhUMk1BMnBPQWpzdTMxdnEyY3FXUW1wSmdQNmhtaWluY1BNMlF5QzloX19udVZjMGFLOXZwT0V1eFBWLVRXVDRWdGdzbXFEa2Z6QW0xSktOMmFueUZhbnlxVjB6MzlfM1huWE9uZ21FOUdRa0prQWJHcw?oc=5",
+      "pubDate": 1795531781000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-330547765",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "titleZh": "GPT-6模型展现出内在的蛋白质设计能力",
+      "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "pubDate": 1795525200000,
+      "vendor": "openai",
+      "category": "Research",
+      "impact": "med",
+      "score": 61,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 1,
+        "cw": 22,
+        "st": 15,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "-1807419760",
+      "title": "Kimi K4 Release Date: What We Know So Far",
+      "titleZh": "Kimi K4 发布日期：我们目前所知的信息",
+      "summary": "Kimi K4 Release Date: What We Know So Far Fello AI",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9HREdZR0drZDBrV21mSmdXNGFqVkFqYXllb1FIakZHZ1N3Z1RsREUzdi1yN2Q2YnE3dEw3eW9oLWFhdw?oc=5",
+      "pubDate": 1795521953000,
+      "vendor": "kimi",
+      "category": "Release",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1599656641",
+      "title": "Searching for distant planets with Astra",
+      "titleZh": "使用 Astra 搜索遥远的行星",
+      "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "link": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "pubDate": 1795518000000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
-        "st": 8,
-        "rc": 3,
+        "st": 15,
+        "rc": 2,
         "cs": 1
       },
-      "source": "TechCrunch"
+      "source": "OpenAI"
+    },
+    {
+      "id": "-1979783733",
+      "title": "China's Moonshot AI \"Kimi K3.1 Pro\" Closes In on US Frontier Models: Real-World Testing Reveals Its Strengths and Adoption Barriers",
+      "titleZh": "中国“登月级”人工智能“Kimi K3.1 Pro”逼近美国前沿模型：实地测试揭示其优势和应用障碍",
+      "summary": "China's Moonshot AI \"Kimi K3.1 Pro\" Closes In on US Frontier Models: Real-World Testing Reveals Its Strengths and Adoption Barriers BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ZTThna1RsX05Qal9EZkx3eG90YTU3MVFtT3RLZ1F4dDFLRVNiQU5ra3ZvY0JlWGpkOThmbDVPR2VVQzJNQWhOVWxsc2tuTlRFXzdvdlhVYTNJTFd2QUV6M3E0SDdENlRXQ1lRa1I5SG1Qd0ZrNXc?oc=5",
+      "pubDate": 1795481700000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "991439145",
+      "title": "How Intentful uses dots to make more time for growth",
+      "titleZh": "Intentful 如何利用点来腾出更多时间用于发展",
+      "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "link": "https://openai.com/business/customer-stories/intentful-dots",
+      "pubDate": 1795478400000,
+      "vendor": "openai",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 22,
+        "st": 15,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "1109888857",
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "titleZh": "iFood 如何在 15,000 个代码仓库中扩展编码代理",
+      "summary": "How iFood scales coding agents across 15,000 repositories",
+      "link": "https://openai.com/business/customer-stories/ifood",
+      "pubDate": 1795478400000,
+      "vendor": "openai",
+      "category": "Agent",
+      "impact": "med",
+      "score": 41,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 12,
+        "st": 15,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "465597790",
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "titleZh": "Clay 通过 Codex 和 ChatGPT 帮助销售团队赢得胜利",
+      "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "link": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "pubDate": 1795478400000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 1,
+        "cw": 15,
+        "st": 15,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "1605618140",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "titleZh": "OpenAI 和思科推出 Shirudo",
+      "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "link": "https://openai.com/index/introducing-shirudo",
+      "pubDate": 1795468800000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 2,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "755451169",
+      "title": "Connected intelligence for in-house legal",
+      "titleZh": "面向内部法务的互联智能",
+      "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get …",
+      "link": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "pubDate": 1795420800000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "488441483",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "titleZh": "Richpanel 帮助公司在 30 天内实现 50% 的支持自动化",
+      "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "pubDate": 1795420800000,
+      "vendor": "openai",
+      "category": "Agent",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 0,
+        "cw": 12,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "-1393655127",
+      "title": "How to build and maintain an agentic evaluation",
+      "titleZh": "如何建立和维持能动性评估",
+      "summary": "How to build and maintain an agentic evaluation",
+      "link": "https://huggingface.co/blog/agentic-evals",
+      "pubDate": 1795392000000,
+      "vendor": "huggingface",
+      "category": "Agent",
+      "impact": "med",
+      "score": 38,
+      "scoreBreakdown": {
+        "cq": 9,
+        "kv": 1,
+        "cw": 12,
+        "st": 14,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
+      "id": "-237513234",
+      "title": "Perplexity and Intelligence",
+      "titleZh": "困惑度和智能",
+      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "link": "https://openai.com/index/perplexity-and-intelligence",
+      "pubDate": 1795305600000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 46,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "-817593568",
+      "title": "Moonshot AI Eyes IPO as Kimi K3 Drives ARR to $300M",
+      "titleZh": "随着Kimi K3将ARR推至3亿美元，Moonshot AI正考虑IPO",
+      "summary": "Moonshot AI Eyes IPO as Kimi K3 Drives ARR to $300M TechRepublic",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5RT2tDYU1XQk9RUHpwZUhxbUttN3Y4UnVaeC1IUkJkbkJSVVdFZXNiMnl4TVhtY3dDaE5wQ0psTWF0S2tqUU9iQnFpcVlzWGRaSmRwYWlIc3pVYk9uaUhoc3VZWGFrczdVV0hKUkh2a2JqSVpIRE45Qnlzak4?oc=5",
+      "pubDate": 1795232187000,
+      "vendor": "kimi",
+      "category": "Funding",
+      "impact": "high",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 3,
+        "cw": 20,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-242617022",
+      "title": "Combatting adversarial distillation",
+      "titleZh": "对抗对抗性蒸馏",
+      "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "link": "https://openai.com/index/combatting-adversarial-distillation",
+      "pubDate": 1795168800000,
+      "vendor": "openai",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 0,
+        "cw": 15,
+        "st": 15,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "OpenAI"
+    },
+    {
+      "id": "-1120522679",
+      "title": "Kimi K3.1 Pro: 2.8T Open Weights, 1M Context [2026]",
+      "titleZh": "Kimi K3.1 Pro：2.8T 开源权重，100 万上下文 [2026]",
+      "summary": "Kimi K3.1 Pro: 2.8T Open Weights, 1M Context [2026] shattered.io",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMFNjQ1dJbHRhTDg0d1ZBYzVlUHI4M1lMeXp4Unk5QThnUVJwd1VuTTlsZmhJVGJQbW1WMkVKWkRSNHRFMV94eFpfcnJkMW0xZ01OYUFDWU1Td3lobzBYX0tJWXRmLWVZQ3Q3WFROTlBReDRVM3FmMHJKckgwaWJLUmtNTW1GRXZwMEQwdkJsSQ?oc=5",
+      "pubDate": 1795161600000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "high",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-251793841",
+      "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+      "titleZh": "欢迎使用 Inkling 2 Mini，为您的本地设置提供尖端性能",
+      "summary": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+      "link": "https://huggingface.co/blog/inkling2mini",
+      "pubDate": 1795132800000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
+      "id": "2022659830",
+      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "titleZh": "隆重推出线束适配器：将您喜爱的型号适配到您的线束上，以提高性能并降低成本",
+      "summary": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "link": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "pubDate": 1795132800000,
+      "vendor": "huggingface",
+      "category": "Release",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 14,
+        "kv": 0,
+        "cw": 25,
+        "st": 14,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
+      "id": "1059894088",
+      "title": "China’s Moonshot AI Scraps $150 Million Deal to Access Nvidia Chips in Indonesia",
+      "titleZh": "China’s Moonshot AI Scraps $150 Million Deal to Access Nvidia Chips in Indonesia",
+      "summary": "China’s Moonshot AI Scraps $150 Million Deal to Access Nvidia Chips in Indonesia The Information",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdE5MUDNQNXlvMGk2ZmF5ellRVVpSekxPd0NmZnI2cWJkbGJVdTFUZkl6Z1o3d1NjeDVoQUtUUHhDQjhfNjQ3RUM3R3lmXzZYRkVydTBjeE1MVzFjQXpVX3FNTG1Qb3p3UV9veTlCMEVISnpxcXFERUlERnNrNWJWcTRZNXRoZmVQbjM4YkItQlZxQzNDMDJtWGYxaHRjeFZEWnZvOHJmSFgxQ19XWC0zNjhR?oc=5",
+      "pubDate": 1795082400000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 49,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1778908407",
@@ -235,22 +928,64 @@
       "source": "Google News"
     },
     {
+      "id": "54863041",
+      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "titleZh": "DaisyRose-27B：突破训练后效率的极限",
+      "summary": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "link": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "pubDate": 1795031696000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 41,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
+      "id": "1855651170",
+      "title": "Why your fine-tuning job takes longer than the FLOPs say",
+      "titleZh": "为什么您的微调任务所需时间比 FLOP 所述的时间更长",
+      "summary": "Why your fine-tuning job takes longer than the FLOPs say",
+      "link": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "pubDate": 1795028023000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 41,
+      "scoreBreakdown": {
+        "cq": 11,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "HuggingFace"
+    },
+    {
       "id": "-109484596",
       "title": "Donald Trump administration weighs forcing US firms to disclose Chinese AI use",
-      "titleZh": "特朗普政府考虑迫使美国公司披露使用中国人工智能的情况",
+      "titleZh": "特朗普政府正考虑迫使美国公司披露使用中国人工智能的情况",
       "summary": "Donald Trump administration weighs forcing US firms to disclose Chinese AI use The Jerusalem Post",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1lbVJyd0lPSHJuOUJUeV9KNkJNRGg2dThvTUw0Y3B4OTFuR2hPTE9sTEY4X0xCRE02U1FGVWExbFBlT21Fc2hIVFY5UVBYREZZb0VDdFZvTUpoTmFnaFNr?oc=5",
       "pubDate": 1795026356000,
       "vendor": "google",
       "category": "Product",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 15,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google News"
@@ -265,13 +1000,13 @@
       "vendor": "nvidia",
       "category": "Research",
       "impact": "med",
-      "score": 68,
+      "score": 67,
       "scoreBreakdown": {
         "cq": 24,
         "kv": 10,
         "cw": 22,
         "st": 10,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "NVIDIA"
@@ -279,7 +1014,7 @@
     {
       "id": "-1766625874",
       "title": "Microsoft Foundry adds Baseten, DeepSeek AI inference (MSFT:NASDAQ)",
-      "titleZh": "Microsoft Foundry新增Baseten、DeepSeek AI推理（MSFT：NASDAQ）",
+      "titleZh": "Microsoft Foundry新增Baseten、DeepSeek AI推理（MSFT:NASDAQ）",
       "summary": "Microsoft Foundry adds Baseten, DeepSeek AI inference (MSFT:NASDAQ) Seeking Alpha",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUjZKNTRLeGlFbEtrZGNiRThIb2lUaTNGRG1HQ0Q4LTE0X0VoQUtoWWhqaWJza09zd2ZXRFU5QUYtLWxIdDlUSjlydnVGTHItaWFWUFo3d2lNZFFoRnJoZ1RrWG5MNUVsbi1VZFU5Y3E2OEItZ041VUkyejluSTFnLXBCeXNVWVM5dk5rUkxIWmhYU0xx?oc=5",
       "pubDate": 1794980349000,
@@ -317,6 +1052,27 @@
         "cs": 1
       },
       "source": "Google News"
+    },
+    {
+      "id": "732362673",
+      "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+      "titleZh": "1800 亿参数，32GB 内存：使用 Transformer 将 MoE 推理推向极限",
+      "summary": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+      "link": "https://huggingface.co/blog/moe-expert-streaming",
+      "pubDate": 1794960000000,
+      "vendor": "huggingface",
+      "category": "Product",
+      "impact": "med",
+      "score": 45,
+      "scoreBreakdown": {
+        "cq": 13,
+        "kv": 2,
+        "cw": 15,
+        "st": 14,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "HuggingFace"
     },
     {
       "id": "-1344783723",
@@ -384,7 +1140,7 @@
     {
       "id": "-1871167854",
       "title": "CUDA at 20: How the Platform Transformed Scientific Computing",
-      "titleZh": "CUDA 20 周年：该平台如何改变科学计算",
+      "titleZh": "CUDA 20周年：该平台如何改变科学计算",
       "summary": "This week at SC26, NVIDIA is marking two decades of CUDA by honoring the researchers, developers and engineers who helped make GPU computing a foundation for modern science and AI. CUDA’s 20th anniver…",
       "link": "https://blogs.nvidia.com/blog/20-years-cuda/",
       "pubDate": 1794844811000,
@@ -401,6 +1157,48 @@
         "cs": 1
       },
       "source": "NVIDIA"
+    },
+    {
+      "id": "1068220548",
+      "title": "Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten",
+      "titleZh": "随着基准得分的增长趋于平缓，月之暗面 AI 将 Kimi 模型从编码转向科学",
+      "summary": "Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten The Decoder",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOR0U1Q09VT0FiYVVVZklnTjB6a3MzQm4wTXExdTRqSG1LdXpfWWU3MUdrNjg3M3RnSzliZmJiN21ScldFT0QyOHQxRFlkcGJTSXNWTVRtWU1zaEoyVnRsWTlSMHBLdzV3dWNJT0FCdjNfN18xandubGlWc2IzN19jbWdhQXp5d083T3FCYUVXc2xWa25IVTJadW5RN2ZRcUt2UDNCYV8wY0Q?oc=5",
+      "pubDate": 1794816000000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 1,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "750444979",
+      "title": "China’s Moonshot AI puts Kimi models into race for scientific discoveries",
+      "titleZh": "China’s Moonshot AI puts Kimi models into race for scientific discoveries",
+      "summary": "China’s Moonshot AI puts Kimi models into race for scientific discoveries South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPekpucXFHMllYak5sZ0xCX2gzaUttVldTLVhuMjdmTTBQMHBsYnlxUVNfYU05Y3ZrQzM4YWxnaG9ZRllhLUxNUXFObEtPTWdLZTQwR1J5NG9VYW5Hak1aT1VoV2Y3M2x3WnV5Nmp2d1VRUlp0blRYRUFJcGw1ZTlQdUl4S3BkeWFVUkY5N1EtbkJCb0JWeDU4MHhaYmotZjd0YThrTdIBpAFBVV95cUxPSDh1S2RyczlzTnc4RnNEVnNRMl9SWW1jQXVPZVNXVmEzVW1kWnFZT29oRFQ1R0hWTGFKenBWeTZOUkZvWERUUjNlWlVHY21iMnJDX2dueTFxT2dLRVozcGlkaG5BNFlGZ09FOFpubGIyRjJ5Tll1NDR3dkV6VUdfN1B6Y1JRMjUxaTRXb3Nodk8xcVFWUWJhNnFIZnExMTlDckg5UQ?oc=5",
+      "pubDate": 1794814208000,
+      "vendor": "kimi",
+      "category": "Research",
+      "impact": "med",
+      "score": 55,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "1563111287",
@@ -426,7 +1224,7 @@
     {
       "id": "899819864",
       "title": "NVIDIA Expands Open Source Commitment With OpenShell Contribution and New AI Infrastructure",
-      "titleZh": "NVIDIA 通过 OpenShell 贡献和全新 AI 基础设施，进一步践行开源承诺",
+      "titleZh": "NVIDIA 通过 OpenShell 贡献和全新 AI 基础设施进一步践行开源承诺",
       "summary": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVID…",
       "link": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
       "pubDate": 1794326403000,
@@ -445,9 +1243,30 @@
       "source": "NVIDIA"
     },
     {
+      "id": "1772203323",
+      "title": "Introducing Kimi K3.1 Pro on Amazon Bedrock | Amazon Web Services",
+      "titleZh": "隆重推出 Amazon Bedrock 上的 Kimi K3.1 Pro | Amazon Web Services",
+      "summary": "Introducing Kimi K3.1 Pro on Amazon Bedrock | Amazon Web Services Amazon Web Services",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPU2hGMmxMbEowUFJId01GM2tWekRqZURpT1ZjcjhiZUdzRFV1SEJ5OXRCRms2THkyVC1MbkQxZDBXNHlUY0lNeVdaX1lLZ08zQTg0ZHl5b0xiOGFDM19WakZ2QmFCU0djQlRCQ3I1THZTd3IxX0Q5bW5TdXV0enNkSjJkZmR4S09xRDlhTHo0bmItaXEz?oc=5",
+      "pubDate": 1794297600000,
+      "vendor": "kimi",
+      "category": "Release",
+      "impact": "high",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1749705399",
       "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
-      "titleZh": "熟能生巧：在 CoRL 上，NVIDIA 和合作伙伴展示了机器人如何在模拟中演练精细作业",
+      "titleZh": "熟能生巧：在CoRL上，NVIDIA及其合作伙伴展示了机器人如何在模拟中练习精细作业",
       "summary": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cable…",
       "link": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
       "pubDate": 1794232801000,
@@ -487,6 +1306,27 @@
       "source": "NVIDIA"
     },
     {
+      "id": "-227562363",
+      "title": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC",
+      "titleZh": "消息人士告诉CNBC，由于中美关系紧张，中国人工智能实验室Moonshot转向欧洲寻求Nvidia Blackwell的访问权限。",
+      "summary": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC CNBC",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUc0JXdFFrNXJHSkxKclVRQkdfMXZNbmk5akFqZDA2dWFQbXV2MUd1d2V1TFhfVW9uT2F5WXJJVHZoNUZUUEtLVFF2aWotaHBVTk9kcFpvZkFucXppMlp3YzZvaWdXVmZ3ZUZJdzFsV3kzaXBMWnpiSjJ4aUhxcVHSAYQBQVVfeXFMTXVzSHktMk1IYUR5bm45MWpEQmRpZkkwbS1LSVNZZm02Q05uZE56ekhLZjBKV0RLWlVhdVoteHFra2hPOFdMNXEweDc4eUhvWTlqQWxwcXpMdURoMzVmUnBaMFRBc0RtTG1FQXhSekFZeDhSM25Yc3o2THdGckl0cEtLSG9q?oc=5",
+      "pubDate": 1793865600000,
+      "vendor": "kimi",
+      "category": "Product",
+      "impact": "med",
+      "score": 48,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 0,
+        "cw": 15,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "-1389563085",
       "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
       "titleZh": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
@@ -510,7 +1350,7 @@
     {
       "id": "-1724592542",
       "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
-      "titleZh": "世界各地的城市正在利用 NVIDIA 的物理 AI 和智能体 AI 构建和扩展 AI 服务",
+      "titleZh": "全球多座城市借助 NVIDIA 物理 AI 和智能体 AI 构建和扩展 AI 服务",
       "summary": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physica…",
       "link": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
       "pubDate": 1793689212000,
@@ -615,7 +1455,7 @@
     {
       "id": "-1183454760",
       "title": "When agents act on their own, governance has to live in the data layer",
-      "titleZh": "当代理自行行动时，治理必须存在于数据层中",
+      "titleZh": "当代理自行行动时，治理必须存在于数据层",
       "summary": "Presented by EDBRead more",
       "link": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
       "pubDate": 1787832060000,
@@ -636,7 +1476,7 @@
     {
       "id": "-1500538370",
       "title": "Orchestration is the new challenge for CX in the age of AI agents",
-      "titleZh": "在 AI 代理的时代，编排是客户体验 (CX) 面临的新挑战",
+      "titleZh": "在 AI 代理的时代，编排是 CX 面临的新挑战",
       "summary": "Presented by Tata CommunicationsRead more",
       "link": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
       "pubDate": 1787754600000,
@@ -678,7 +1518,7 @@
     {
       "id": "-1937431074",
       "title": "DeepSeek's new bargain model accelerates AI's race to zero",
-      "titleZh": "DeepSeek的新款廉价模型加速了人工智能的零成本竞赛",
+      "titleZh": "DeepSeek 的新廉价模型加速了人工智能的零成本竞赛",
       "summary": "DeepSeek's new bargain model accelerates AI's race to zero Axios",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04emlXWXpVQXhNcjJsU1d5ZmhnU1J2TFRyeFlxM2hqUUNUNVR2UmxFQUNBanYwWnd5ZUpTRnptVEh2TXU2NU5aa0FRbFV6ejVPd2wxWFNXa3RoaTZPQ0dQSHc0Tkk4WE93Q1JwV0tIWGNBaGNG?oc=5",
       "pubDate": 1785567600000,
@@ -720,7 +1560,7 @@
     {
       "id": "-1380991222",
       "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
-      "titleZh": "Railway 获得1亿美元融资，以AI原生云基础设施向AWS发起挑战",
+      "titleZh": "Railway 获得 1 亿美元融资，以 AI 原生云基础设施挑战 AWS",
       "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B fundi…",
       "link": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
       "pubDate": 1769090400000,
@@ -758,6 +1598,216 @@
         "cs": 1
       },
       "source": "VentureBeat"
+    },
+    {
+      "id": "251294355",
+      "title": "Technology, recovery, and responsibility",
+      "titleZh": "技术、回收和责任",
+      "summary": "By Sriram Rajamani, Managing Director, Microsoft Research India We started 2021 with the hope that the COVID-19 vaccines will immunize enough of the world’s population to give herd immunity in the com…",
+      "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
+      "pubDate": 1615961906000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 2,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "1792312368",
+      "title": "Directorate General of Training, Ministry of Skill Development and Entrepreneurship, partners with Microsoft and NASSCOM Foundation to empower students with next generation digital skills",
+      "titleZh": "技能发展与创业部培训总局与微软和NASSCOM基金会合作，为学生赋能下一代数字技能",
+      "summary": "The blended curriculum will impact 1.2 lakh students across 3000 Industrial Training Institutes (ITI) in India New Delhi, January 7, 2021: With a vision to empower the next generation of learners, the…",
+      "link": "https://news.microsoft.com/en-in/directorate-general-of-training-ministry-of-skill-development-and-entrepreneurship-partners-with-microsoft-and-nasscom-foundation-to-empower-students-with-next-generation-digital-skills/",
+      "pubDate": 1610002951000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 3,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "58206720",
+      "title": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
+      "titleZh": "Powered by Microsoft Azure and developed by CoRover, IRCTC’s AI chatbot AskDISHA enhances user experience",
+      "summary": "Multilingual omni-channel service reduces wait time for queries, improves customer satisfaction by 70% New Delhi, January 5, 2021 – Powered by Microsoft Azure, Indian Railway Catering and Tourism Corp…",
+      "link": "https://news.microsoft.com/en-in/microsoft-azure-powered-corover-developed-irctc-ai-chatbot-askdisha/",
+      "pubDate": 1609824612000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 2,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1890804461",
+      "title": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
+      "titleZh": "NASSCOM FutureSkills and Microsoft launch AI Classroom Series to skill India’s future workforce with AI capabilities",
+      "summary": "• The initiative aims to skill 1 million students in AI by 2021 • The AI Classroom Series will deliver Microsoft’s AI, machine learning and data science expertise to undergraduate students at no cost …",
+      "link": "https://news.microsoft.com/en-in/nasscom-futureskills-microsoft-launch-ai-classroom-series-skill-students/",
+      "pubDate": 1599716180000,
+      "vendor": "microsoft",
+      "category": "Release",
+      "impact": "high",
+      "score": 62,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1460121599",
+      "title": "Industry and research – better together",
+      "titleZh": "Industry and research – better together",
+      "summary": "By Sriram Rajamani, Distinguished Scientist and Managing Director, Microsoft Research India at Microsoft Manik Varma, researcher in the Microsoft Research (MSR) India lab was awarded the prestigious S…",
+      "link": "https://news.microsoft.com/en-in/industry-and-research-better-together-sriram-rajamani/",
+      "pubDate": 1598613057000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 4,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-1887675878",
+      "title": "NSDC and Microsoft collaborate to empower Indian youth with digital skills",
+      "titleZh": "NSDC与微软合作，为印度青年赋能数字技能",
+      "summary": "The initiative aims at skilling over 1 lakh youth in the next 12 months New Delhi, July 08, 2020: With a vision to transform India into a skilled nation, the National Skill Development Corporation (NS…",
+      "link": "https://news.microsoft.com/en-in/nsdc-microsoft-collaborate-empower-youth-digital-skills/",
+      "pubDate": 1594186160000,
+      "vendor": "microsoft",
+      "category": "Release",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 4,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "652542494",
+      "title": "Empowering developers to achieve more at the Microsoft Developer Conference",
+      "titleZh": "在微软开发者大会上赋能开发者，助其取得更多成就",
+      "summary": "New Delhi, June 18, 2020: Underlining the critical role of developers in innovations that will power economic recovery, the Microsoft Developer Conference brought together developers and tech professi…",
+      "link": "https://news.microsoft.com/en-in/microsoft-developer-conference/",
+      "pubDate": 1592461746000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 52,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 2,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "-150806068",
+      "title": "Microsoft announces program to accelerate growth of agritech startups in India",
+      "titleZh": "微软宣布推出一项计划，以加速印度农业科技初创企业的成长",
+      "summary": "New Delhi, June 03, 2020: Microsoft announced the launch of a program for agritech startups in India that are committed to driving transformation in agriculture. The Microsoft for Agritech Startups pr…",
+      "link": "https://news.microsoft.com/en-in/microsoft-agritech-startups-program-india-launch/",
+      "pubDate": 1591162175000,
+      "vendor": "microsoft",
+      "category": "Release",
+      "impact": "high",
+      "score": 65,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 5,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "297070690",
+      "title": "Microsoft empowers startups in India to achieve more",
+      "titleZh": "微软助力印度的初创企业取得更多成就",
+      "summary": "Five startups showcase their unique propositions at Future Decoded Tech Summit Bengaluru, February 25, 2020: Startups are an indisputable innovation engine, and Microsoft is partnering with startups a…",
+      "link": "https://news.microsoft.com/en-in/microsoft-empowers-startups-in-india-to-achieve-more/",
+      "pubDate": 1582633175000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 4,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
+    },
+    {
+      "id": "1830923333",
+      "title": "Myntra accelerates its digital transformation journey with Microsoft Cloud",
+      "titleZh": "Myntra借助微软云加速其数字化转型之旅",
+      "summary": "reimagines online shopping experience for customers Azure powers biggest-ever End of Reason Sale New Delhi, February 19, 2020: Myntra, India’s leading destination for fashion and lifestyle, has partne…",
+      "link": "https://news.microsoft.com/en-in/myntra-digital-transformation-microsoft-cloud/",
+      "pubDate": 1582092103000,
+      "vendor": "microsoft",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 0,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Microsoft"
     }
   ]
 }
