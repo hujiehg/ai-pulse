@@ -1,217 +1,28 @@
 {
-  "updated": "2026-11-27T14:07:34.429Z",
-  "count": 107,
-  "sources": 11,
+  "updated": "2026-11-27T22:51:20.077Z",
+  "count": 77,
+  "sources": 7,
   "items": [
     {
-      "id": "-1396091982",
-      "title": "Context Scaling: A New Frontier of AI Scaling",
-      "titleZh": "上下文扩展：人工智能扩展的新前沿",
-      "summary": "arXiv:2611.33160v1 Announce Type: new Abstract: Many failures of deployed AI arise not from weak inference but from a mismatch between the state a task depends on and the context available when the sy…",
-      "link": "https://arxiv.org/abs/2611.33160",
-      "pubDate": 1795755600000,
-      "vendor": "arxiv",
-      "category": "Research",
+      "id": "1260849400",
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "titleZh": "将 Trainium3 用于训练：使用 LTX-2.5 生成视频",
+      "summary": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "link": "https://huggingface.co/blog/video-trainium3",
+      "pubDate": 1795737600000,
+      "vendor": "huggingface",
+      "category": "Product",
       "impact": "med",
-      "score": 62,
+      "score": 44,
       "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
+        "cq": 11,
+        "kv": 0,
+        "cw": 15,
+        "st": 14,
         "rc": 3,
         "cs": 1
       },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1651404853",
-      "title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
-      "titleZh": "针对大语言模型（LLM）和视觉语言模型（VLM）候选模型选择的约束感知测试时评分",
-      "summary": "arXiv:2611.33161v1 Announce Type: new Abstract: When an LLM or VLM produces several candidate answers, picking the best one usually relies on the model's own confidence, a learned judge model, or a do…",
-      "link": "https://arxiv.org/abs/2611.33161",
-      "pubDate": 1795755600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1717012340",
-      "title": "AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics",
-      "titleZh": "AutoformBench：用于高级数学的精益形式化基准",
-      "summary": "arXiv:2611.33165v1 Announce Type: new Abstract: AI systems are increasingly capable of producing machine-checked Lean proofs of advanced mathematical results. Real mathematical formalization, however,…",
-      "link": "https://arxiv.org/abs/2611.33165",
-      "pubDate": 1795755600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1022123146",
-      "title": "General-Purpose Decision Models for AI Configuration Tuning",
-      "titleZh": "用于 AI 配置优化的通用决策模型",
-      "summary": "arXiv:2611.33190v1 Announce Type: new Abstract: AI configuration tuning searches for settings that improve the performance of AI systems under a limited budget. Existing tuners use different sampling …",
-      "link": "https://arxiv.org/abs/2611.33190",
-      "pubDate": 1795755600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-1338713582",
-      "title": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
-      "titleZh": "什么、谁和何时：通过简短推理对心理健康安全进行结构化伤害评估",
-      "summary": "arXiv:2611.33263v1 Announce Type: new Abstract: The growing use of large language models (LLMs) for mental health support raises important safety concerns. Existing guard models primarily identify cat…",
-      "link": "https://arxiv.org/abs/2611.33263",
-      "pubDate": 1795755600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 68,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 11,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "699890393",
-      "title": "Certify What You Plant: Shortcut-Free Proof Depth in Logical Reasoning Data",
-      "titleZh": "认证您所种植的内容：逻辑推理数据中无捷径的深度证明",
-      "summary": "arXiv:2611.33303v1 Announce Type: new Abstract: Procedurally generated logic problems are used to both evaluate and train reasoning in language models. Their difficulty is usually set by planting a pr…",
-      "link": "https://arxiv.org/abs/2611.33303",
-      "pubDate": 1795755600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "high",
-      "score": 63,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 6,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-826475258",
-      "title": "The Platonic Representation Hypothesis in Jacobian-Space: Language and Vision Models Agree Approximately Up to a Rotation",
-      "titleZh": "雅可比空间中的柏拉图式表征假设：语言和视觉模型在旋转之前大致一致",
-      "summary": "arXiv:2611.33304v1 Announce Type: new Abstract: The Platonic Representation Hypothesis (PRH) posits that AI models converge toward a shared representation of the world, even when trained on different …",
-      "link": "https://arxiv.org/abs/2611.33304",
-      "pubDate": 1795755600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "945620059",
-      "title": "Brand Recall and Category Accuracy in Language Models: An Audit of 1,000 B2B SaaS Brands",
-      "titleZh": "语言模型中的品牌记忆度和类别准确性：对 1,000 个 B2B SaaS 品牌的审核",
-      "summary": "arXiv:2611.33322v1 Announce Type: new Abstract: A language model can name a brand without classifying it correctly. This study measures these outcomes separately for 1,000 B2B SaaS brands across 333 p…",
-      "link": "https://arxiv.org/abs/2611.33322",
-      "pubDate": 1795755600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "-706277381",
-      "title": "Confidence scores for gated automation of large language models",
-      "titleZh": "大型语言模型门控自动化的置信度得分",
-      "summary": "arXiv:2611.33394v1 Announce Type: new Abstract: AI agents built on large language models (LLMs) demonstrate strong capabilities in automated decision-making. However, LLMs may produce incorrect answer…",
-      "link": "https://arxiv.org/abs/2611.33394",
-      "pubDate": 1795755600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 61,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 4,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
-    },
-    {
-      "id": "77125752",
-      "title": "Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows",
-      "titleZh": "部分路由：针对资源高效的智能体工作流的跟踪调优委派",
-      "summary": "arXiv:2611.33402v1 Announce Type: new Abstract: AI models vary enormously in capability and price. Model routing exploits this by sending easier tasks to cheaper models. However, a single agentic task…",
-      "link": "https://arxiv.org/abs/2611.33402",
-      "pubDate": 1795755600000,
-      "vendor": "arxiv",
-      "category": "Research",
-      "impact": "med",
-      "score": 62,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 5,
-        "cw": 22,
-        "st": 13,
-        "rc": 3,
-        "cs": 1
-      },
-      "source": "arXiv"
+      "source": "HuggingFace"
     },
     {
       "id": "146623694",
@@ -223,13 +34,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 47,
+      "score": 46,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -244,13 +55,13 @@
       "vendor": "techcrunch",
       "category": "Release",
       "impact": "high",
-      "score": 57,
+      "score": 56,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 25,
         "st": 8,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -319,22 +130,22 @@
       "source": "HuggingFace"
     },
     {
-      "id": "1412601597",
-      "title": "S&amp;P considers Nvidia credit downgrade over governance and ‘key man’ risks",
-      "titleZh": "S&amp;P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "id": "1412498310",
+      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "titleZh": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
       "summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
       "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
       "pubDate": 1795646672000,
       "vendor": "techcrunch",
       "category": "Safety",
       "impact": "med",
-      "score": 39,
+      "score": 38,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 10,
         "st": 8,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -342,20 +153,20 @@
     {
       "id": "-1481754279",
       "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-      "titleZh": "OpenAI表示，随着ChatGPT将聊天和工作功能合并，重度用户可能会更快达到使用上限。",
+      "titleZh": "OpenAI表示，随着ChatGPT将聊天和工作功能合并，重度用户可能更快达到使用上限。",
       "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
       "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
       "pubDate": 1795637007000,
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 48,
+      "score": 47,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -370,13 +181,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -391,13 +202,13 @@
       "vendor": "techcrunch",
       "category": "Research",
       "impact": "med",
-      "score": 55,
+      "score": 54,
       "scoreBreakdown": {
         "cq": 22,
         "kv": 0,
         "cw": 22,
         "st": 8,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -405,20 +216,20 @@
     {
       "id": "1409213089",
       "title": "Where scientists draw the line on AI agents",
-      "titleZh": "科学家们在人工智能代理方面划定的界限",
+      "titleZh": "科学家们在哪些方面对人工智能体划定了界限",
       "summary": "Where scientists draw the line on AI agents",
       "link": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
       "pubDate": 1795632775000,
       "vendor": "huggingface",
       "category": "Agent",
       "impact": "med",
-      "score": 38,
+      "score": 37,
       "scoreBreakdown": {
         "cq": 9,
         "kv": 0,
         "cw": 12,
         "st": 14,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -433,13 +244,13 @@
       "vendor": "techcrunch",
       "category": "Safety",
       "impact": "med",
-      "score": 40,
+      "score": 39,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 1,
         "cw": 10,
         "st": 8,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -454,13 +265,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 42,
+      "score": 41,
       "scoreBreakdown": {
         "cq": 16,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -475,13 +286,13 @@
       "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 46,
+      "score": 45,
       "scoreBreakdown": {
         "cq": 20,
         "kv": 0,
         "cw": 15,
         "st": 8,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -489,20 +300,41 @@
     {
       "id": "-704675883",
       "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
-      "titleZh": "据报道，亚马逊和Meta正在就解除对AI代理Muse的封锁进行谈判",
+      "titleZh": "据报道，亚马逊和Meta正在商讨解除对AI代理Muse的封锁",
       "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
       "link": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
       "pubDate": 1795615818000,
       "vendor": "techcrunch",
       "category": "Agent",
       "impact": "med",
-      "score": 41,
+      "score": 40,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 0,
         "cw": 12,
         "st": 8,
-        "rc": 2,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1220041231",
+      "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
+      "titleZh": "黄仁勋和英伟达仍需回答有关Megaspeed的问题",
+      "summary": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurance…",
+      "link": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+      "pubDate": 1795611600000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 47,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 1,
         "cs": 1
       },
       "source": "TechCrunch"
@@ -529,30 +361,30 @@
       "source": "HuggingFace"
     },
     {
-      "id": "215502235",
-      "title": "Belgian municipalities hit by data breach affecting 1.2M people",
-      "titleZh": "比利时多个市镇遭遇数据泄露，影响 120 万人",
-      "summary": "Belgian municipalities hit by data breach affecting 1.2M people Anadolu Ajansı",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNd2dqSE1Wd19hZ3RoTEwxVjN3NGZTcDJJMUNiYl9sZmFLRlVwbXpUZzJGM2ttYVFTZjQ2V2VfSVhMTlFVMWtJRDd1RUd4M0wxeFh4S0tBbUxSZkJsQWowSTF5R3h5cGQ0NEl0R3ZjdU11WlF6THpOR3libFFETkQ2dUtYdHlSZ0VIeDF5U1JiXzZ0TUdxdnluV0NHY2RvRm9LYmw3Qw?oc=5",
-      "pubDate": 1795601165000,
-      "vendor": "google",
+      "id": "-2103487959",
+      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+      "titleZh": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+      "summary": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"…",
+      "link": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+      "pubDate": 1795565522000,
+      "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 49,
+      "score": 47,
       "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
+        "cq": 22,
+        "kv": 0,
         "cw": 15,
-        "st": 15,
+        "st": 8,
         "rc": 1,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "TechCrunch"
     },
     {
       "id": "-831264154",
       "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
-      "titleZh": "在单块 RTX PRO 6000 上进行 Hill-climbing Inkling 2 迷你推理",
+      "titleZh": "在一块 RTX PRO 6000 上进行的 Hill-climbing Inkling 2 Mini 推理",
       "summary": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
       "link": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
       "pubDate": 1795564800000,
@@ -571,30 +403,177 @@
       "source": "HuggingFace"
     },
     {
-      "id": "-1230742310",
-      "title": "How Gemini is changing the game for Golden State's organization and fans.",
-      "titleZh": "Gemini如何为金州勇士队组织和球迷带来颠覆性变革。",
-      "summary": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
-      "link": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
-      "pubDate": 1795536000000,
-      "vendor": "google",
+      "id": "-970546243",
+      "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
+      "titleZh": "黄仁勋仍然认为继任计划会造成不必要的层级关系",
+      "summary": "It's a remarkable stance for a company that spent the last two weeks finding out what happens without its founder.",
+      "link": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
+      "pubDate": 1795559272000,
+      "vendor": "techcrunch",
       "category": "Product",
       "impact": "med",
-      "score": 56,
+      "score": 41,
       "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
+        "cq": 16,
+        "kv": 0,
         "cw": 15,
-        "st": 15,
+        "st": 8,
         "rc": 1,
         "cs": 1
       },
-      "source": "Google AI"
+      "source": "TechCrunch"
+    },
+    {
+      "id": "1666625647",
+      "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
+      "titleZh": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
+      "summary": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
+      "link": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+      "pubDate": 1795556907000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 43,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1910732938",
+      "title": "Even the best AI agents struggle with everyday life",
+      "titleZh": "即使是最好的 AI 代理也难以应对日常生活",
+      "summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new prob…",
+      "link": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+      "pubDate": 1795556009000,
+      "vendor": "techcrunch",
+      "category": "Research",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 1,
+        "cw": 22,
+        "st": 8,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "862067229",
+      "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+      "titleZh": "沃尔玛与Meta合作，将黑色星期五优惠带到AI代理Muse",
+      "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+      "link": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+      "pubDate": 1795555958000,
+      "vendor": "techcrunch",
+      "category": "Agent",
+      "impact": "med",
+      "score": 40,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 12,
+        "st": 8,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "698334998",
+      "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+      "titleZh": "Maple筹集530万美元，用于开发能够保护您的数据（甚至免受AI自身侵害）的AI产品",
+      "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
+      "link": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+      "pubDate": 1795555192000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 42,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 1,
+        "cw": 15,
+        "st": 8,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-1318049837",
+      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+      "titleZh": "Anthropic股价跌破IPO价格，这对人工智能初创企业来说是一个令人担忧的信号",
+      "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
+      "link": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+      "pubDate": 1795545042000,
+      "vendor": "techcrunch",
+      "category": "Funding",
+      "impact": "high",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 20,
+        "st": 8,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-121081975",
+      "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+      "titleZh": "英国警告称，由人工智能驱动的网络攻击正揭示多年来存在的安全漏洞",
+      "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
+      "link": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+      "pubDate": 1795543379000,
+      "vendor": "techcrunch",
+      "category": "Safety",
+      "impact": "med",
+      "score": 37,
+      "scoreBreakdown": {
+        "cq": 16,
+        "kv": 1,
+        "cw": 10,
+        "st": 8,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "TechCrunch"
+    },
+    {
+      "id": "-246647209",
+      "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+      "titleZh": "Meta 将其 Muse AI 助手直接引入 Instagram 私信",
+      "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+      "link": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+      "pubDate": 1795539600000,
+      "vendor": "techcrunch",
+      "category": "Product",
+      "impact": "med",
+      "score": 43,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 0,
+        "cw": 15,
+        "st": 8,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "TechCrunch"
     },
     {
       "id": "-327343939",
       "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
-      "titleZh": "从谱图到结构：使用质谱技术为Google Antigravity鉴定分子",
+      "titleZh": "从谱图到结构：使用质谱技术为 Google Antigravity 鉴定分子",
       "summary": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
       "link": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
       "pubDate": 1795525673000,
@@ -678,7 +657,7 @@
     {
       "id": "1109888857",
       "title": "How iFood scales coding agents across 15,000 repositories",
-      "titleZh": "iFood如何跨15,000个代码仓库扩展编码代理",
+      "titleZh": "iFood 如何在 15,000 个代码仓库中扩展编码代理",
       "summary": "How iFood scales coding agents across 15,000 repositories",
       "link": "https://openai.com/business/customer-stories/ifood",
       "pubDate": 1795478400000,
@@ -699,7 +678,7 @@
     {
       "id": "465597790",
       "title": "Clay helps sales teams win with Codex and ChatGPT",
-      "titleZh": "Clay 通过 Codex 和 ChatGPT 帮助销售团队取得成功",
+      "titleZh": "Clay 通过 Codex 和 ChatGPT 帮助销售团队赢得胜利",
       "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
       "link": "https://openai.com/business/customer-stories/clay-plugins-openai",
       "pubDate": 1795478400000,
@@ -716,27 +695,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "1569469427",
-      "title": "The Chinese AI Aspirants Drawing Big Bets to Take on DeepSeek",
-      "titleZh": "中国的人工智能追随者正下大赌注，以挑战DeepSeek",
-      "summary": "The Chinese AI Aspirants Drawing Big Bets to Take on DeepSeek Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaGh4OFdnTFBETXN3eURLLTF2MG8wOEFxTGRNT2F0NUNuUS1lTEhBWU0xWEc0S2xfM3B3NlVHZXVOQ1hkdHhVc25mNkZrVzlUTWZlQld0dVZNdTZFTDhhVk0taTJKd0ZjeENHNGY4LVBTem9scnh5U2NpY2UzZXdaYVZwRloyTDRRRjhzU2ExOTNXYTVkYW5lUWhMbU9FUUtHaUtJaS1hSnBybUNxX0Joa0R3?oc=5",
-      "pubDate": 1795474800000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1605618140",
@@ -760,30 +718,9 @@
       "source": "OpenAI"
     },
     {
-      "id": "2143563140",
-      "title": "A more tailored Google Search that’s uniquely yours",
-      "titleZh": "A more tailored Google Search that’s uniquely yours",
-      "summary": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
-      "link": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
-      "pubDate": 1795453200000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 15,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google AI"
-    },
-    {
       "id": "-1581328225",
       "title": "Finding faster quantum algorithms with agents and formal verification",
-      "titleZh": "借助代理和形式化验证找到更快的量子算法",
+      "titleZh": "利用代理和形式化验证寻找更快的量子算法",
       "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
       "link": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
       "pubDate": 1795453180000,
@@ -804,7 +741,7 @@
     {
       "id": "-284772762",
       "title": "Weekly Recap: Bernstein lifts target and Qwen use faces proposed U.S. rule",
-      "titleZh": "每周回顾：伯恩斯坦上调目标价，Qwen的使用面临美国拟议的监管规定",
+      "titleZh": "每周回顾：伯恩斯坦上调目标价，Qwen的使用面临拟议的美国法规",
       "summary": "Weekly Recap: Bernstein lifts target and Qwen use faces proposed U.S. rule TradingView",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTmxRcWViRGx0eVNYc2xKT0RRZzJlc0NhWkRpczduQkxVc3JSZEFfZm1RVHJuWkY0X1poWWFjUHVBLWotcjJ1NlFsZ2swT3NxcFIzb3JTenJzQVJmWVR6YkFZWXdOeTRMZmNDWTZ0VXhiaEU5Sk5KNDhxRWxKNThHTEVlTGJkWEJ1Ym0tQ1R5bDN0ZEF5LTM0U3ZhV2xFMzlUbUVzTU0wVnFFMUtfRHAxRUctY1dmUF82T05KOTVvcnlXcmVGZzNyVk1wZzV3c2M?oc=5",
       "pubDate": 1795431600000,
@@ -886,48 +823,6 @@
       "source": "HuggingFace"
     },
     {
-      "id": "-174679878",
-      "title": "Compare ChatGPT, Gemini, DeepSeek, and other AI models — stop juggling AI tabs for $54.97",
-      "titleZh": "Compare ChatGPT, Gemini, DeepSeek, and other AI models — stop juggling AI tabs for $54.97",
-      "summary": "Compare ChatGPT, Gemini, DeepSeek, and other AI models — stop juggling AI tabs for $54.97 Mashable",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYnlVbThDM2xLeU5XUWtuXzJyNy1EUm9nVGx2N2ZTZnM3SEJKUlE0aU1UcE0xVVhnVFBCSnlhOTN4ZDBvUkJOaUJaQ1QxUWstUEc5SmF5ay1DLU5BSm9rQVFYZGYwaG9iQ0lPd19wVnFHZ1lxN3hDbjNtTzlvVk9teGRQQ0JzNXJwQ3JGeTh3bE5Hdw?oc=5",
-      "pubDate": 1795338000000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 4,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "353907710",
-      "title": "China’s open-weight AI models are coming for America’s market",
-      "titleZh": "China’s open-weight AI models are coming for America’s market",
-      "summary": "China’s open-weight AI models are coming for America’s market Asia Times",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaFFzWWZEcm1aRGpHRDRxRDBUbTBQVkFDRDZxOW91MDB4U3RNTGJrVkZhcElVWHJhR096Z0JvdmpZMjBkV215T2JtZzY5ZjREeXZfUDIteV9KcnRCZ2NrQllNdzJ0ODFFaGtNUkRDbzU1R2l3VDFpSW0xTDB2MEcxekEzT0E3TjdnZms0aTFNU1dsUEhv?oc=5",
-      "pubDate": 1795318959000,
-      "vendor": "google",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "-237513234",
       "title": "Perplexity and Intelligence",
       "titleZh": "困惑度和智能",
@@ -958,13 +853,13 @@
       "vendor": "qwen",
       "category": "Research",
       "impact": "med",
-      "score": 56,
+      "score": 55,
       "scoreBreakdown": {
         "cq": 18,
         "kv": 2,
         "cw": 22,
         "st": 12,
-        "rc": 1,
+        "rc": 0,
         "cs": 1
       },
       "source": "Google News"
@@ -1035,7 +930,7 @@
     {
       "id": "-1085222487",
       "title": "Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering",
-      "titleZh": "通义千问事件表明，自托管人工智能模型需要更强有力的引导",
+      "titleZh": "通义千问事件表明，自托管人工智能模型需要更强有力的指导",
       "summary": "Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering Dark Reading",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV0EtTUxWem9OeU1YaTk5YXhsbWZXTW15LTRIdnBUeEVQalJURkotQlhabFppbnFwZkNSaDkyY2pIYmRnYURHdUJ2RnExS2IxRk9XNHVYdF9UQmJmSFR3UkZnVlhDVGN0OHU3UEdubDIyX05TXzBvbDFtNkU3QjlQa2dydGktR21CV0NlX2tsMGI5a1A4d0lDRg?oc=5",
       "pubDate": 1795129076000,
@@ -1052,48 +947,6 @@
         "cs": 1
       },
       "source": "Google News"
-    },
-    {
-      "id": "-1916012315",
-      "title": "Introducing Tool Retrieval in the Gemini API",
-      "titleZh": "Gemini API 中工具检索的简介",
-      "summary": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
-      "pubDate": 1795111200000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
-    },
-    {
-      "id": "1342133570",
-      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
-      "titleZh": "Walter Isaacson谈论人工智能时代的好奇心和创造力。",
-      "summary": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
-      "pubDate": 1795107600000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
     },
     {
       "id": "-596624996",
@@ -1138,27 +991,6 @@
       "source": "DeepMind"
     },
     {
-      "id": "54863041",
-      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
-      "titleZh": "DaisyRose-27B：突破训练后效率的极限",
-      "summary": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
-      "link": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-      "pubDate": 1795031696000,
-      "vendor": "huggingface",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 11,
-        "kv": 0,
-        "cw": 15,
-        "st": 14,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "HuggingFace"
-    },
-    {
       "id": "232694903",
       "title": "Genie 4 is now available",
       "titleZh": "Genie 4现已上市",
@@ -1178,111 +1010,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "-1432287385",
-      "title": "The Gemini app is now available on lower-memory Android devices.",
-      "titleZh": "Gemini 应用现已在内存较少的安卓设备上推出。",
-      "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
-      "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
-      "pubDate": 1795021200000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
-    },
-    {
-      "id": "980294",
-      "title": "NVIDIA RTX Spark Compact Desktops Out Now",
-      "titleZh": "NVIDIA RTX Spark紧凑型台式机现已上市",
-      "summary": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128…",
-      "link": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
-      "pubDate": 1795010431000,
-      "vendor": "nvidia",
-      "category": "Research",
-      "impact": "med",
-      "score": 67,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 10,
-        "cw": 22,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "-1766625874",
-      "title": "Microsoft Foundry adds Baseten, DeepSeek AI inference (MSFT:NASDAQ)",
-      "titleZh": "Microsoft Foundry新增Baseten、DeepSeek AI推理（MSFT：NASDAQ）",
-      "summary": "Microsoft Foundry adds Baseten, DeepSeek AI inference (MSFT:NASDAQ) Seeking Alpha",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUjZKNTRLeGlFbEtrZGNiRThIb2lUaTNGRG1HQ0Q4LTE0X0VoQUtoWWhqaWJza09zd2ZXRFU5QUYtLWxIdDlUSjlydnVGTHItaWFWUFo3d2lNZFFoRnJoZ1RrWG5MNUVsbi1VZFU5Y3E2OEItZ041VUkyejluSTFnLXBCeXNVWVM5dk5rUkxIWmhYU0xx?oc=5",
-      "pubDate": 1794988800000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "888607476",
-      "title": "Put Gemini to work for you",
-      "titleZh": "让Gemini为您效劳",
-      "summary": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
-      "link": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
-      "pubDate": 1794934800000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 53,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
-    },
-    {
-      "id": "-1344783723",
-      "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
-      "titleZh": "NVIDIA DGX Spark开发者套件将办公桌变成超级计算实验室",
-      "summary": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node …",
-      "link": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
-      "pubDate": 1794870005000,
-      "vendor": "nvidia",
-      "category": "Release",
-      "impact": "med",
-      "score": 67,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 7,
-        "cw": 25,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
     },
     {
       "id": "449765135",
@@ -1327,90 +1054,6 @@
       "source": "Google News"
     },
     {
-      "id": "1010823263",
-      "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
-      "titleZh": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
-      "summary": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has ma…",
-      "link": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
-      "pubDate": 1794859237000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "med",
-      "score": 54,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 4,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "-813510184",
-      "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
-      "titleZh": "Lambda 利用 NVIDIA 光子技术提升 AI 工厂的弹性和效率",
-      "summary": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-pac…",
-      "link": "https://blogs.nvidia.com/blog/lambda-photonics/",
-      "pubDate": 1794844851000,
-      "vendor": "nvidia",
-      "category": "Research",
-      "impact": "med",
-      "score": 59,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 2,
-        "cw": 22,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "-1871167854",
-      "title": "CUDA at 20: How the Platform Transformed Scientific Computing",
-      "titleZh": "CUDA 20周年：该平台如何改变科学计算",
-      "summary": "This week at SC26, NVIDIA is marking two decades of CUDA by honoring the researchers, developers and engineers who helped make GPU computing a foundation for modern science and AI. CUDA’s 20th anniver…",
-      "link": "https://blogs.nvidia.com/blog/20-years-cuda/",
-      "pubDate": 1794844811000,
-      "vendor": "nvidia",
-      "category": "Research",
-      "impact": "med",
-      "score": 64,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 7,
-        "cw": 22,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "1612820262",
-      "title": "New Ask Maps features to help with holiday travel and prep",
-      "titleZh": "全新“询问地图”功能，助您轻松规划和准备假期出行",
-      "summary": "Plan holiday road trips, get route tips, find local appointments, and search your saved lists with new Ask Maps features.",
-      "link": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
-      "pubDate": 1794837600000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
-    },
-    {
       "id": "380586596",
       "title": "Alibaba launches Qwen4-Max model with strict cybersecurity guardrails",
       "titleZh": "阿里巴巴推出Qwen4-Max模型，配备严格的网络安全防护措施",
@@ -1425,48 +1068,6 @@
         "cq": 16,
         "kv": 5,
         "cw": 25,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1432460963",
-      "title": "DeepSeek Blackwell Claim: Hidden AI Chip Fingerprints",
-      "titleZh": "DeepSeek Blackwell 声明：隐藏的 AI 芯片指纹",
-      "summary": "DeepSeek Blackwell Claim: Hidden AI Chip Fingerprints Brave New Coin",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTFlCWjZyTENkYl90dXRCSXFDSU8xR0JFOTlVcmJPR1hqWVBaeGtkLTdQS0ZTQ2VhWFY3M0Q5V0s1NjRxZ3YwcmJlNEk3ZHNyWkFmM1RzNWhLQ2NQQ3RUY0Fpc0lwbW95RHFiSVp5dUVweDVfdktnRGs5REFPVkpFdlFxSkFIWVljU3RhQw?oc=5",
-      "pubDate": 1794643200000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 48,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "1563111287",
-      "title": "DeepSeek AI Model Files Point to Training on Nvidia Blackwell Chips",
-      "titleZh": "DeepSeek AI模型文件表明其在Nvidia Blackwell芯片上进行训练",
-      "summary": "DeepSeek AI Model Files Point to Training on Nvidia Blackwell Chips WinBuzzer",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbS1wYjJXbTRMbnA5aWI3eEpkRHdMUmp2MlJJaFVJajF6STNMMTRLVGNIRlV1RG9FOGlPSVg5MU1qVUszYjJBRUlGUHViRnd3ZTdXZ3lkRnVUSkR6SEotX1JFdzB6U1dranF2Sm9mVVVrMlgydmVCM2NVV3NsMkxfX3RTRTFQNW1YbU9rWHJxbXBsRm5MTGJfU25Za0U?oc=5",
-      "pubDate": 1794556800000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
         "st": 12,
         "rc": 0,
         "cs": 1
@@ -1493,69 +1094,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "620076292",
-      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "titleZh": "Google搜索借助Gemini 4 Hydrogen实现了重大升级",
-      "summary": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
-      "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-      "pubDate": 1794506400000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 2,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
-    },
-    {
-      "id": "-1190219334",
-      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-      "titleZh": "Gemini Decisions API：快速、经过校准的多模态决策",
-      "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "pubDate": 1794420000000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 5,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
-    },
-    {
-      "id": "-1470483878",
-      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-      "titleZh": "试试 Tabletop：可定制的协作空间，供团队共同规划、游玩和开展更多活动。",
-      "summary": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-      "pubDate": 1794412800000,
-      "vendor": "google",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google AI"
     },
     {
       "id": "-366920509",
@@ -1598,27 +1136,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "899819864",
-      "title": "NVIDIA Expands Open Source Commitment With OpenShell Contribution and New AI Infrastructure",
-      "titleZh": "NVIDIA 通过 OpenShell 贡献和全新 AI 基础设施，进一步践行开源承诺",
-      "summary": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVID…",
-      "link": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
-      "pubDate": 1794326403000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 8,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
     },
     {
       "id": "-926922395",
@@ -1665,7 +1182,7 @@
     {
       "id": "872357346",
       "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
-      "titleZh": "Gemini Robotics 2.5 加速实现真实世界的一般灵巧性",
+      "titleZh": "Gemini Robotics 2.5 加速实现现实世界的一般灵巧性",
       "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
       "link": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
       "pubDate": 1794253907000,
@@ -1682,132 +1199,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "-1749705399",
-      "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
-      "titleZh": "熟能生巧：在 CoRL 上，NVIDIA 和合作伙伴展示了机器人如何在模拟中练习精细作业",
-      "summary": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cable…",
-      "link": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
-      "pubDate": 1794232801000,
-      "vendor": "nvidia",
-      "category": "Research",
-      "impact": "med",
-      "score": 68,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 13,
-        "cw": 22,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "-1860645942",
-      "title": "Who Owns DeepSeek, The Chinese AI Company?",
-      "titleZh": "中国人工智能公司DeepSeek归谁所有？",
-      "summary": "Who Owns DeepSeek, The Chinese AI Company? BGR",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ia290ZXNtM2dLektvdUJXRHp6dVJjeEdZTFY3OHRENnJKblk1N2hKcVRxMV9qYl81aFZ6Yk1yUk11V3ZqUGpKVDZmQjlTMklISEpRdjVZM1dQX043UkE?oc=5",
-      "pubDate": 1794038400000,
-      "vendor": "deepseek",
-      "category": "Product",
-      "impact": "med",
-      "score": 46,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-712176126",
-      "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
-      "titleZh": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
-      "summary": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works clos…",
-      "link": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
-      "pubDate": 1793894400000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "med",
-      "score": 60,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 10,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "-1389563085",
-      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
-      "titleZh": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
-      "summary": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a m…",
-      "link": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
-      "pubDate": 1793721645000,
-      "vendor": "nvidia",
-      "category": "Product",
-      "impact": "med",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 0,
-        "cw": 15,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "-1724592542",
-      "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
-      "titleZh": "全球多座城市正借助 NVIDIA 的物理 AI 和智能体 AI 构建和扩展 AI 服务",
-      "summary": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physica…",
-      "link": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
-      "pubDate": 1793689212000,
-      "vendor": "nvidia",
-      "category": "Agent",
-      "impact": "med",
-      "score": 58,
-      "scoreBreakdown": {
-        "cq": 24,
-        "kv": 11,
-        "cw": 12,
-        "st": 10,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "NVIDIA"
-    },
-    {
-      "id": "-2142391915",
-      "title": "DeepSeek AI model shows safety gaps in independent tests",
-      "titleZh": "独立测试显示DeepSeek AI模型存在安全漏洞",
-      "summary": "DeepSeek AI model shows safety gaps in independent tests Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2VtNkRpTEd1M2w3YzYwUE9XV1BYblFJODQxWnhPVngzX2NHNkZjZV9fcTZwVWZpeWVYa3hmQ1hnbjR1M2p6b0FId28xR0xFaF9oLUQ5RU1fd0NXVDV1UTJPeERPZTU0UHkxbEtDNkRSdEFDVk9wazVKZjhsT1dNTTVNYTJOb19nVEdscGltelV1d1pRMjRLeXBvQUpVaHg3N0ow?oc=5",
-      "pubDate": 1793606400000,
-      "vendor": "deepseek",
-      "category": "Research",
-      "impact": "med",
-      "score": 56,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 3,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "1500463131",
@@ -1867,27 +1258,6 @@
         "kv": 0,
         "cw": 22,
         "st": 15,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-2022391147",
-      "title": "Deepseek's latest AI model is smarter than ever, but its low running costs come at a price — uses only one-quarter of the HBM and one-eighth of SSD storage but still battles hallucinations in agentic workloads",
-      "titleZh": "Deepseek's latest AI model is smarter than ever, but its low running costs come at a price — uses only one-quarter of the HBM and one-eighth of SSD storage but still battles hallucinations in agentic workloads",
-      "summary": "Deepseek's latest AI model is smarter than ever, but its low running costs come at a price — uses only one-quarter of the HBM and one-eighth of SSD storage but still battles hallucinations in agentic …",
-      "link": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxORG9YWXBTSEx5UGZiTmtTVHZXLUE1TlVvRTlWbDNlbGg0Q3paX2llTlYweWR6cEJJUW1SeXY0VHBtb19PUll1d2xLRUFacDNDelZrUkkydGwtT2YwMU5CZXZmZFFTLWJydmk0NHVyWE9DV1E0UGUwbjVKUnhjbVZRaGJsVGg4YjRkaHBtRFY2eGhpMnlJUlBnQnJZaXNLaWVPR2htenVvSks3ZUtzeVpubWI4TVl6M2xZR25HZU9OWW1yT0xYRVVLQW1POE5HMkg5bUpyUjlVblBUeDIzd1JhVm9tX3JDLTVTSVV0Um9xLWRxZFloYXdkSU1wTGpBdUtEVVBTM0RkX2s3SjEtWlg2d0NOZ0hMY2xnVlFlZ3d6MmFyUmNhZHdlYm13X0pWelZYa0JMdFJpb0FPU3FITFJnRFZ0dndEdXg2V2RjdUlRQTFCSkdzTjZKM245WXgwM0dXMTdSTlYtel9WUEZzVGl2M1E4cF9Hc0pCelY2SFg5bw?oc=5",
-      "pubDate": 1792738800000,
-      "vendor": "deepseek",
-      "category": "Agent",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 12,
-        "st": 12,
         "rc": 0,
         "cs": 1
       },
@@ -2001,7 +1371,7 @@
     {
       "id": "-1380991222",
       "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
-      "titleZh": "Railway 获得 1 亿美元融资，以 AI 原生云基础设施挑战 AWS",
+      "titleZh": "Railway 获得1亿美元融资，以AI原生云基础设施挑战AWS",
       "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B fundi…",
       "link": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
       "pubDate": 1769090400000,
@@ -2022,7 +1392,7 @@
     {
       "id": "749662964",
       "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
-      "titleZh": "Claude Code 的费用高达每月 200 美元。Goose 免费提供同样的功能。",
+      "titleZh": "Claude Code的费用高达每月200美元。Goose 免费提供同样的功能。",
       "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive.Read more",
       "link": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
       "pubDate": 1768831200000,
@@ -2043,7 +1413,7 @@
     {
       "id": "251294355",
       "title": "Technology, recovery, and responsibility",
-      "titleZh": "技术、回收和责任",
+      "titleZh": "技术、恢复和责任",
       "summary": "By Sriram Rajamani, Managing Director, Microsoft Research India We started 2021 with the hope that the COVID-19 vaccines will immunize enough of the world’s population to give herd immunity in the com…",
       "link": "https://news.microsoft.com/en-in/technology-recovery-and-responsibility-sriram-rajamani/",
       "pubDate": 1615961906000,
@@ -2190,7 +1560,7 @@
     {
       "id": "-150806068",
       "title": "Microsoft announces program to accelerate growth of agritech startups in India",
-      "titleZh": "微软宣布一项计划，以加速印度农业科技初创企业的成长",
+      "titleZh": "微软宣布推出一项计划，以加速印度农业科技初创企业的成长",
       "summary": "New Delhi, June 03, 2020: Microsoft announced the launch of a program for agritech startups in India that are committed to driving transformation in agriculture. The Microsoft for Agritech Startups pr…",
       "link": "https://news.microsoft.com/en-in/microsoft-agritech-startups-program-india-launch/",
       "pubDate": 1591162175000,
@@ -2211,7 +1581,7 @@
     {
       "id": "297070690",
       "title": "Microsoft empowers startups in India to achieve more",
-      "titleZh": "微软助力印度的初创企业取得更多成就",
+      "titleZh": "微软助力印度的初创企业成就更多",
       "summary": "Five startups showcase their unique propositions at Future Decoded Tech Summit Bengaluru, February 25, 2020: Startups are an indisputable innovation engine, and Microsoft is partnering with startups a…",
       "link": "https://news.microsoft.com/en-in/microsoft-empowers-startups-in-india-to-achieve-more/",
       "pubDate": 1582633175000,
