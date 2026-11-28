@@ -1,25 +1,88 @@
 {
-  "updated": "2026-11-27T22:51:20.077Z",
+  "updated": "2026-11-28T04:27:01.345Z",
   "count": 77,
-  "sources": 7,
+  "sources": 8,
   "items": [
+    {
+      "id": "-340831421",
+      "title": "Alibaba's Qwen denies post-training chief Zhou Hao has left, plans to sue",
+      "titleZh": "阿里巴巴的Qwen否认负责后训练的负责人周昊已离职，并计划提起诉讼",
+      "summary": "Alibaba's Qwen denies post-training chief Zhou Hao has left, plans to sue MLQ.ai",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWGZscTdEZTBCc1hLLXlybzhvdXRzazdwUTl3UlJ5N21ZVC1FdE0yX05QalF6Tl9LMVdWa2x3dGY3aWJ6bHhsQmNWZFBkOElfY3Y0eUtycWtyTFB6Tld5OXlyZmN4OXRwMzFPZzFzU2ZCQ0drUGJCblVuOVhsMUJCX1NHQTF2MzlXYW41cnJ4cWFBdEIxSVRF?oc=5",
+      "pubDate": 1795793453000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-250407777",
+      "title": "Alibaba denies Qwen post-training chief’s departure, plans lawsuit over rumor",
+      "titleZh": "Alibaba denies Qwen post-training chief’s departure, plans lawsuit over rumor",
+      "summary": "Alibaba denies Qwen post-training chief’s departure, plans lawsuit over rumor TechNode",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSGdEQ1NSd0Z2OUJrOWNpWHNWT1Vad3gzUGViT1lvQW1SanVmWHA0ZzhVYzRnNFJLOHpWSlE1blZHS3BRaUN5bVRXdW5GajF0eXY3ay10bzkwUktZY3FhSXQ0NUxHOHd1cTZ3MjVTOVFFaHBwMUpTN1dtb2NMS29laThLMVBzNzE0YXNKWGtaNGljcV9Pa1RUcGFDelVpZHVMWXFpSzlLbGxzZTJq?oc=5",
+      "pubDate": 1795787312000,
+      "vendor": "qwen",
+      "category": "Product",
+      "impact": "med",
+      "score": 51,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "-1180000837",
+      "title": "Alibaba Expands North America Hiring for Top AI Researchers, Qwen Team Adds Hundreds This Year",
+      "titleZh": "阿里巴巴扩大北美招聘，招募顶尖人工智能研究人员，Qwen团队今年将增加数百名员工",
+      "summary": "Alibaba Expands North America Hiring for Top AI Researchers, Qwen Team Adds Hundreds This Year BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBtLVE3RHN0eHFmODRNcVVHcF9hbHpscXBKRzAwRV84UmpIdld2ck9henU3amFsdWlGenhkcWxqQ2hhV3ZkTHBXNk1xdlF5XzRJcHZfY3hzcmdZaGVtckJMUHhOa3lkOFhuSVNxT25XTGx3cWI1YUE?oc=5",
+      "pubDate": 1795764300000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 3,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
     {
       "id": "1260849400",
       "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
-      "titleZh": "将 Trainium3 用于训练：使用 LTX-2.5 生成视频",
+      "titleZh": "将 Trainium3 带上正轨：使用 LTX-2.5 生成视频",
       "summary": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
       "link": "https://huggingface.co/blog/video-trainium3",
       "pubDate": 1795737600000,
       "vendor": "huggingface",
       "category": "Product",
       "impact": "med",
-      "score": 44,
+      "score": 43,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 15,
         "st": 14,
-        "rc": 3,
+        "rc": 2,
         "cs": 1
       },
       "source": "HuggingFace"
@@ -118,21 +181,21 @@
       "vendor": "huggingface",
       "category": "Agent",
       "impact": "med",
-      "score": 40,
+      "score": 39,
       "scoreBreakdown": {
         "cq": 11,
         "kv": 0,
         "cw": 12,
         "st": 14,
-        "rc": 2,
+        "rc": 1,
         "cs": 1
       },
       "source": "HuggingFace"
     },
     {
-      "id": "1412498310",
-      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
-      "titleZh": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "id": "1412601597",
+      "title": "S&amp;P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "titleZh": "S&amp;P considers Nvidia credit downgrade over governance and ‘key man’ risks",
       "summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
       "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
       "pubDate": 1795646672000,
@@ -216,7 +279,7 @@
     {
       "id": "1409213089",
       "title": "Where scientists draw the line on AI agents",
-      "titleZh": "科学家们在哪些方面对人工智能体划定了界限",
+      "titleZh": "科学家们在哪些方面对人工智能体划定界限",
       "summary": "Where scientists draw the line on AI agents",
       "link": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
       "pubDate": 1795632775000,
@@ -300,7 +363,7 @@
     {
       "id": "-704675883",
       "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
-      "titleZh": "据报道，亚马逊和Meta正在商讨解除对AI代理Muse的封锁",
+      "titleZh": "据报道，亚马逊和Meta正在就解除对AI代理Muse的封锁进行谈判",
       "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
       "link": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
       "pubDate": 1795615818000,
@@ -319,30 +382,9 @@
       "source": "TechCrunch"
     },
     {
-      "id": "1220041231",
-      "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
-      "titleZh": "黄仁勋和英伟达仍需回答有关Megaspeed的问题",
-      "summary": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurance…",
-      "link": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
-      "pubDate": 1795611600000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
       "id": "354012031",
       "title": "An Indic Voice Agent with CUGA",
-      "titleZh": "使用 CUGA 的印度语语音客服代表",
+      "titleZh": "使用 CUGA 的印度语语音客服",
       "summary": "An Indic Voice Agent with CUGA",
       "link": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
       "pubDate": 1795602129000,
@@ -359,27 +401,6 @@
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "-2103487959",
-      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
-      "titleZh": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
-      "summary": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"…",
-      "link": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
-      "pubDate": 1795565522000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 47,
-      "scoreBreakdown": {
-        "cq": 22,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "-831264154",
@@ -401,174 +422,6 @@
         "cs": 1
       },
       "source": "HuggingFace"
-    },
-    {
-      "id": "-970546243",
-      "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
-      "titleZh": "黄仁勋仍然认为继任计划会造成不必要的层级关系",
-      "summary": "It's a remarkable stance for a company that spent the last two weeks finding out what happens without its founder.",
-      "link": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
-      "pubDate": 1795559272000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 41,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "1666625647",
-      "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
-      "titleZh": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
-      "summary": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
-      "link": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
-      "pubDate": 1795556907000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1910732938",
-      "title": "Even the best AI agents struggle with everyday life",
-      "titleZh": "即使是最好的 AI 代理也难以应对日常生活",
-      "summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new prob…",
-      "link": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
-      "pubDate": 1795556009000,
-      "vendor": "techcrunch",
-      "category": "Research",
-      "impact": "med",
-      "score": 51,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 1,
-        "cw": 22,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "862067229",
-      "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
-      "titleZh": "沃尔玛与Meta合作，将黑色星期五优惠带到AI代理Muse",
-      "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
-      "link": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
-      "pubDate": 1795555958000,
-      "vendor": "techcrunch",
-      "category": "Agent",
-      "impact": "med",
-      "score": 40,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 12,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "698334998",
-      "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
-      "titleZh": "Maple筹集530万美元，用于开发能够保护您的数据（甚至免受AI自身侵害）的AI产品",
-      "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
-      "link": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
-      "pubDate": 1795555192000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 42,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-1318049837",
-      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
-      "titleZh": "Anthropic股价跌破IPO价格，这对人工智能初创企业来说是一个令人担忧的信号",
-      "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
-      "link": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
-      "pubDate": 1795545042000,
-      "vendor": "techcrunch",
-      "category": "Funding",
-      "impact": "high",
-      "score": 50,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 20,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-121081975",
-      "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
-      "titleZh": "英国警告称，由人工智能驱动的网络攻击正揭示多年来存在的安全漏洞",
-      "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
-      "link": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
-      "pubDate": 1795543379000,
-      "vendor": "techcrunch",
-      "category": "Safety",
-      "impact": "med",
-      "score": 37,
-      "scoreBreakdown": {
-        "cq": 16,
-        "kv": 1,
-        "cw": 10,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
-    },
-    {
-      "id": "-246647209",
-      "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
-      "titleZh": "Meta 将其 Muse AI 助手直接引入 Instagram 私信",
-      "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
-      "link": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
-      "pubDate": 1795539600000,
-      "vendor": "techcrunch",
-      "category": "Product",
-      "impact": "med",
-      "score": 43,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 0,
-        "cw": 15,
-        "st": 8,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "TechCrunch"
     },
     {
       "id": "-327343939",
@@ -594,7 +447,7 @@
     {
       "id": "-330547765",
       "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-      "titleZh": "GPT-6模型展示了内在的蛋白质设计能力",
+      "titleZh": "GPT-6模型展现出内在的蛋白质设计能力",
       "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
       "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
       "pubDate": 1795525200000,
@@ -632,6 +485,27 @@
         "cs": 1
       },
       "source": "OpenAI"
+    },
+    {
+      "id": "-2128767216",
+      "title": "Qwen model rewrites its own weights in AI study",
+      "titleZh": "Qwen模型在人工智能研究中重写了自己的权重",
+      "summary": "Qwen model rewrites its own weights in AI study TNGlobal",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9wVXpqbWxHRHpyeDhKeFFvLVlFSDBFdVZXX1pBNmwxcGJ0eWc1eXBNUXk1cl9EMS1rNV9IUTJaNkhQd19HVlMxV0ZlemxPdHd0UFFtN0Q4cTYzR1psaFhvTUVvRTBCQ2NNR0g0cGR2d0Q1R3JPX1E?oc=5",
+      "pubDate": 1795508522000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 56,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 1,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "991439145",
@@ -678,7 +552,7 @@
     {
       "id": "465597790",
       "title": "Clay helps sales teams win with Codex and ChatGPT",
-      "titleZh": "Clay 通过 Codex 和 ChatGPT 帮助销售团队赢得胜利",
+      "titleZh": "Clay 通过 Codex 和 ChatGPT 帮助销售团队取得成功",
       "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
       "link": "https://openai.com/business/customer-stories/clay-plugins-openai",
       "pubDate": 1795478400000,
@@ -720,7 +594,7 @@
     {
       "id": "-1581328225",
       "title": "Finding faster quantum algorithms with agents and formal verification",
-      "titleZh": "利用代理和形式化验证寻找更快的量子算法",
+      "titleZh": "借助代理和形式化验证找到更快的量子算法",
       "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
       "link": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
       "pubDate": 1795453180000,
@@ -737,27 +611,6 @@
         "cs": 1
       },
       "source": "DeepMind"
-    },
-    {
-      "id": "-284772762",
-      "title": "Weekly Recap: Bernstein lifts target and Qwen use faces proposed U.S. rule",
-      "titleZh": "每周回顾：伯恩斯坦上调目标价，Qwen的使用面临拟议的美国法规",
-      "summary": "Weekly Recap: Bernstein lifts target and Qwen use faces proposed U.S. rule TradingView",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTmxRcWViRGx0eVNYc2xKT0RRZzJlc0NhWkRpczduQkxVc3JSZEFfZm1RVHJuWkY0X1poWWFjUHVBLWotcjJ1NlFsZ2swT3NxcFIzb3JTenJzQVJmWVR6YkFZWXdOeTRMZmNDWTZ0VXhiaEU5Sk5KNDhxRWxKNThHTEVlTGJkWEJ1Ym0tQ1R5bDN0ZEF5LTM0U3ZhV2xFMzlUbUVzTU0wVnFFMUtfRHAxRUctY1dmUF82T05KOTVvcnlXcmVGZzNyVk1wZzV3c2M?oc=5",
-      "pubDate": 1795431600000,
-      "vendor": "qwen",
-      "category": "Product",
-      "impact": "med",
-      "score": 49,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 15,
-        "st": 12,
-        "rc": 1,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "755451169",
@@ -783,7 +636,7 @@
     {
       "id": "488441483",
       "title": "Richpanel helps companies automate 50% of support in 30 days",
-      "titleZh": "Richpanel 帮助公司在 30 天内实现 50% 的支持自动化",
+      "titleZh": "Richpanel 帮助公司在 30 天内实现 50% 的客服自动化",
       "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
       "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
       "pubDate": 1795420800000,
@@ -804,7 +657,7 @@
     {
       "id": "-1393655127",
       "title": "How to build and maintain an agentic evaluation",
-      "titleZh": "如何建立和维持能动性评估",
+      "titleZh": "如何建立和维持自主性评估",
       "summary": "How to build and maintain an agentic evaluation",
       "link": "https://huggingface.co/blog/agentic-evals",
       "pubDate": 1795392000000,
@@ -842,27 +695,6 @@
         "cs": 1
       },
       "source": "OpenAI"
-    },
-    {
-      "id": "-2063160553",
-      "title": "Alibaba uses its own chips to train next-generation Qwen model",
-      "titleZh": "阿里巴巴使用自研芯片训练下一代Qwen模型",
-      "summary": "Alibaba uses its own chips to train next-generation Qwen model TechNode",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZ2hBSEZVclQwb0hIYXFPNG9Ta0JLd00wUHhVSXhYUG9jQkxjb1h6SnFnWXZFUXRMaVdsN0g4UmVlcG9wVU1ZbjZhOGt1QmdiWkRqd3hrYkZRYTZhdFBpbkxhYnBoaDI1SERVUjdibHZOTkl5cGROaHNtVTJXVEdTT1VnanhBdU9nekV0RDQwNnRSYm5paGl1U0xHMA?oc=5",
-      "pubDate": 1795184059000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
     },
     {
       "id": "-242617022",
@@ -928,48 +760,6 @@
       "source": "HuggingFace"
     },
     {
-      "id": "-1085222487",
-      "title": "Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering",
-      "titleZh": "通义千问事件表明，自托管人工智能模型需要更强有力的指导",
-      "summary": "Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering Dark Reading",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV0EtTUxWem9OeU1YaTk5YXhsbWZXTW15LTRIdnBUeEVQalJURkotQlhabFppbnFwZkNSaDkyY2pIYmRnYURHdUJ2RnExS2IxRk9XNHVYdF9UQmJmSFR3UkZnVlhDVGN0OHU3UEdubDIyX05TXzBvbDFtNkU3QjlQa2dydGktR21CV0NlX2tsMGI5a1A4d0lDRg?oc=5",
-      "pubDate": 1795129076000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 55,
-      "scoreBreakdown": {
-        "cq": 18,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "-596624996",
-      "title": "Alibaba says next-gen Qwen trained on in-house chips amid intensive roll-out of Chinese AI models",
-      "titleZh": "阿里巴巴表示，在新一代中国人工智能模型密集推出之际，下一代Qwen已在内部芯片上接受训练。",
-      "summary": "Alibaba says next-gen Qwen trained on in-house chips amid intensive roll-out of Chinese AI models Global Times",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE80SWctaUM2YXVqb2o3aUg3VzRvTUJiOVZoTVdNWWctaXh0UWNlaVBHcUVnSnlhT0lkOXloT05QZURIZjBPOUJKSFRUTi1vSzYxTFFPNGxKVUpPcmpNNXFGcTB3?oc=5",
-      "pubDate": 1795099620000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
       "id": "807132584",
       "title": "Introducing Gemini 4 Neon",
       "titleZh": "隆重推出Gemini 4 Neon",
@@ -1012,67 +802,109 @@
       "source": "DeepMind"
     },
     {
-      "id": "449765135",
-      "title": "Alibaba's new Qwen AI model poses challenge for Anthropic",
-      "titleZh": "阿里巴巴的新Qwen AI模型对Anthropic构成挑战",
-      "summary": "Alibaba's new Qwen AI model poses challenge for Anthropic Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPLU01QlpaNzl4cTRrMU9XTVY3aUx5Mmx4NUNVQ1RBckVpdE1kai1yVzBhVUFXMTNxOUdtdmRLcTJHQ1BqZHJBdHJQcUNkUXhUQVd4NDhXWkk1UTE3MTlXSFhfN2gyWmRORXFmbVV2MlU2LVM0bENPWUxUa09INGhXcWttckhZb0F1aU45N2tkWWpZcE8wTllWSlhHaTNCcXlINHAyZnBR?oc=5",
-      "pubDate": 1794866460000,
-      "vendor": "qwen",
+      "id": "980294",
+      "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+      "titleZh": "NVIDIA RTX Spark紧凑型台式机现已上市",
+      "summary": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128…",
+      "link": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+      "pubDate": 1795010431000,
+      "vendor": "nvidia",
       "category": "Research",
       "impact": "med",
-      "score": 57,
+      "score": 67,
       "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
+        "cq": 24,
+        "kv": 10,
         "cw": 22,
-        "st": 12,
+        "st": 10,
         "rc": 0,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "NVIDIA"
     },
     {
-      "id": "-1095277193",
-      "title": "Alibaba Takes on Anthropic With New Qwen AI Model",
-      "titleZh": "阿里巴巴推出全新Qwen AI模型，向Anthropic发起挑战",
-      "summary": "Alibaba Takes on Anthropic With New Qwen AI Model PYMNTS.com",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcGttNXBHbVBUMmE2bVpXOE5FMkpVcENuSEhuYl9pY21pdFhEU1RBUHhyWjF5dnN5eEd3MmE2VnA5bVhrZjZmZExQOW5zd2t3aW82ajZoY3ZtN2R5akxyc2Naa2ktRnJPMkRtS1plQXE1XzVyOXpPalFVbG9zQzNJQVlqSDV1b0Q1VmVqYjlLWjJxZGlDVUVtNy1ybzRDdlJRMjhqMHBEUDk1azg?oc=5",
-      "pubDate": 1794864748000,
-      "vendor": "qwen",
-      "category": "Research",
-      "impact": "med",
-      "score": 57,
-      "scoreBreakdown": {
-        "cq": 20,
-        "kv": 2,
-        "cw": 22,
-        "st": 12,
-        "rc": 0,
-        "cs": 1
-      },
-      "source": "Google News"
-    },
-    {
-      "id": "380586596",
-      "title": "Alibaba launches Qwen4-Max model with strict cybersecurity guardrails",
-      "titleZh": "阿里巴巴推出Qwen4-Max模型，配备严格的网络安全防护措施",
-      "summary": "Alibaba launches Qwen4-Max model with strict cybersecurity guardrails South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaHl0ZVByMTFnMVVaU2h5UFBhMzFaVmFKQi1pcGhPb3lLeTdjdGh4TkpnU0FPUVAyMU9rYjV2UkhFdjhOUHRDVUFMRm9seUVzWDRzeno1YllqLVpmY3R6WmI5bnJSS1lkeFAzSm1lM1pkWnAtclpOQmxRWFVwMmZaVjE2cy1KYzRJcEw5RUVIbVExdlhveFJYLU1HRTFSVERTV2VzdHFtS1J2SE1PMjBFbVNYMFNRSmZmT3FtV2kxYUd0QmdBSkJMb3pGUWJTUGFzcC1wYtIB1AFBVV95cUxPWS1MdnU4cWMyN3ktNnVyR2Vtcnhqa1hUVHUxeUxTRDhIUVRjRkJsNmlIM1RDWUFGSkgxeHIxR0h2NUU4WUJ5d3h2eFhKVXU2ekdLRkhSbmpVdHVRaDJrOXhOTkpyOW4ya2dpdDVQb0JVd3Y3UXFfU19fLXNHelFNUnhncDMwTS1yQWFkc1F3SFZoM0ZMZGFIRGhwNS1CRzd4UXRXOUtnS21UMHRZLUNUNlp0cmZtMWVvRUhSaE53UFFrbmQ3SHRQaTRxUVRFVmE4VmZZdw?oc=5",
-      "pubDate": 1794801413000,
-      "vendor": "qwen",
+      "id": "-1344783723",
+      "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+      "titleZh": "NVIDIA DGX Spark开发者套件将办公桌变成超级计算实验室",
+      "summary": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node …",
+      "link": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+      "pubDate": 1794870005000,
+      "vendor": "nvidia",
       "category": "Release",
-      "impact": "high",
+      "impact": "med",
+      "score": 67,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 7,
+        "cw": 25,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
+      "id": "1010823263",
+      "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+      "titleZh": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+      "summary": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has ma…",
+      "link": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
+      "pubDate": 1794859237000,
+      "vendor": "nvidia",
+      "category": "Product",
+      "impact": "med",
+      "score": 54,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 4,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
+      "id": "-813510184",
+      "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+      "titleZh": "Lambda 利用 NVIDIA 光学技术提升 AI 工厂的弹性和效率",
+      "summary": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-pac…",
+      "link": "https://blogs.nvidia.com/blog/lambda-photonics/",
+      "pubDate": 1794844851000,
+      "vendor": "nvidia",
+      "category": "Research",
+      "impact": "med",
       "score": 59,
       "scoreBreakdown": {
-        "cq": 16,
-        "kv": 5,
-        "cw": 25,
-        "st": 12,
+        "cq": 24,
+        "kv": 2,
+        "cw": 22,
+        "st": 10,
         "rc": 0,
         "cs": 1
       },
-      "source": "Google News"
+      "source": "NVIDIA"
+    },
+    {
+      "id": "-1871167854",
+      "title": "CUDA at 20: How the Platform Transformed Scientific Computing",
+      "titleZh": "CUDA 20周年：该平台如何改变科学计算",
+      "summary": "This week at SC26, NVIDIA is marking two decades of CUDA by honoring the researchers, developers and engineers who helped make GPU computing a foundation for modern science and AI. CUDA’s 20th anniver…",
+      "link": "https://blogs.nvidia.com/blog/20-years-cuda/",
+      "pubDate": 1794844811000,
+      "vendor": "nvidia",
+      "category": "Research",
+      "impact": "med",
+      "score": 64,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 7,
+        "cw": 22,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
     },
     {
       "id": "1351289236",
@@ -1138,6 +970,27 @@
       "source": "DeepMind"
     },
     {
+      "id": "899819864",
+      "title": "NVIDIA Expands Open Source Commitment With OpenShell Contribution and New AI Infrastructure",
+      "titleZh": "NVIDIA 通过 OpenShell 贡献和全新 AI 基础设施拓展开源承诺",
+      "summary": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVID…",
+      "link": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+      "pubDate": 1794326403000,
+      "vendor": "nvidia",
+      "category": "Product",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 8,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
       "id": "-926922395",
       "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
       "titleZh": "隆重推出 AlphaProof Code：深入验证复杂软件的突破性技术",
@@ -1201,6 +1054,90 @@
       "source": "DeepMind"
     },
     {
+      "id": "-1749705399",
+      "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+      "titleZh": "熟能生巧：在 CoRL 上，NVIDIA 和合作伙伴揭示了机器人如何在模拟中演练精细工作",
+      "summary": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cable…",
+      "link": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "pubDate": 1794232801000,
+      "vendor": "nvidia",
+      "category": "Research",
+      "impact": "med",
+      "score": 68,
+      "scoreBreakdown": {
+        "cq": 22,
+        "kv": 13,
+        "cw": 22,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
+      "id": "-712176126",
+      "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+      "titleZh": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+      "summary": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works clos…",
+      "link": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
+      "pubDate": 1793894400000,
+      "vendor": "nvidia",
+      "category": "Product",
+      "impact": "med",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 10,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
+      "id": "-1389563085",
+      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "titleZh": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "summary": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a m…",
+      "link": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+      "pubDate": 1793721645000,
+      "vendor": "nvidia",
+      "category": "Product",
+      "impact": "med",
+      "score": 50,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 0,
+        "cw": 15,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
+      "id": "-1724592542",
+      "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+      "titleZh": "世界各地的城市正在利用 NVIDIA 的物理 AI 和智能体 AI 来构建和扩展 AI 服务",
+      "summary": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physica…",
+      "link": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+      "pubDate": 1793689212000,
+      "vendor": "nvidia",
+      "category": "Agent",
+      "impact": "med",
+      "score": 58,
+      "scoreBreakdown": {
+        "cq": 24,
+        "kv": 11,
+        "cw": 12,
+        "st": 10,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "NVIDIA"
+    },
+    {
       "id": "1500463131",
       "title": "Cohere: Alibaba Qwen Model Tried to Send Data to Beijing",
       "titleZh": "Cohere：阿里巴巴通义千问模型曾试图向北京发送数据",
@@ -1213,6 +1150,27 @@
       "score": 55,
       "scoreBreakdown": {
         "cq": 18,
+        "kv": 2,
+        "cw": 22,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
+      "id": "990900",
+      "title": "Alibaba's latest Qwen models routed some requests through company servers, researchers find",
+      "titleZh": "研究人员发现，阿里巴巴最新的Qwen模型将一些请求路由至公司服务器",
+      "summary": "Alibaba's latest Qwen models routed some requests through company servers, researchers find The Decoder",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTkdTbXRzc1hjc0pnVlBFbS05WmlUQ3FqTV9pYkd0X3pyX2hYSGp5WGc3akJDTUYzb1FZZkJDM0c1OElDT3RWdnVhbXhudDdTa0NtNV9HZUh4LTBUX3YzSERoM2xlUmNyWDFLazFxN0JiemxuUDBDVjh6NnBrcGhUc1BPSmtYQV9oaEF0aHg1RjBPdllUSjhGZ0lERThUeFEyenRTaGFtdndjNDdVRFVDVVdVbEI?oc=5",
+      "pubDate": 1793084400000,
+      "vendor": "qwen",
+      "category": "Research",
+      "impact": "med",
+      "score": 57,
+      "scoreBreakdown": {
+        "cq": 20,
         "kv": 2,
         "cw": 22,
         "st": 12,
@@ -1243,21 +1201,21 @@
       "source": "Google News"
     },
     {
-      "id": "2022337276",
-      "title": "Alibaba AI model secretly tried to reach Beijing server in test, rival Cohere says",
-      "titleZh": "竞争对手Cohere称，阿里巴巴的AI模型在测试中秘密尝试连接北京的服务器",
-      "summary": "Alibaba AI model secretly tried to reach Beijing server in test, rival Cohere says Reuters",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcHVNeUo5OThtcHVOdE1HTHhlQjV0TXR0RkVpMEk2Qm1hQjdPNzlkaXZaZU5oX1Y3eFoyUW1FZGZ5YmJOX0d0eGRHUUtRaEtvbzRvcWtOenFzSWowam1ZMlQyTmJleGN3dU1JbVhiemduMnZRY0E0a3U4V1N2bUZhLXBRTXNySFdNeE92S3pPeWRmUDRRd0VLYWRCNklpZ2c2NDhOckpzTE5tbnItcXV5VVE2ajJwRG9UeHFOcWpsNmRqbUh0bVpR?oc=5",
+      "id": "397187581",
+      "title": "Alibaba's Qwen AI caught trying to contact server in China",
+      "titleZh": "阿里巴巴的通义千问（Qwen）人工智能被发现试图联系中国的服务器",
+      "summary": "Alibaba's Qwen AI caught trying to contact server in China The Register",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMExUejU2dkFxX2s5V09haXptOTRudmh4a3FxT0Zld2ZwYzhGTHkzTExXTmlZdWY3eDVIOHJfUnMtSmd1Rnk2UnQ0b3BLUjllREl4Vm1hOWRZSnBrZXVLeHhYUVVZQzgyQlJ6SVhfRGJrdVBoOWE3V2gxdjdJMXBIY3BVQlUwMnhWaFN3d1dQbkRQSFNmaDloSnRURWZLR3VJOVBMMDF3WExwREdjZmZ3Q3hTY3M?oc=5",
       "pubDate": 1792998000000,
-      "vendor": "google",
-      "category": "Research",
+      "vendor": "qwen",
+      "category": "Product",
       "impact": "med",
-      "score": 54,
+      "score": 48,
       "scoreBreakdown": {
-        "cq": 16,
-        "kv": 0,
-        "cw": 22,
-        "st": 15,
+        "cq": 18,
+        "kv": 2,
+        "cw": 15,
+        "st": 12,
         "rc": 0,
         "cs": 1
       },
@@ -1287,7 +1245,7 @@
     {
       "id": "-1183454760",
       "title": "When agents act on their own, governance has to live in the data layer",
-      "titleZh": "当代理自行行动时，治理必须存在于数据层中",
+      "titleZh": "当代理自行行动时，治理必须存在于数据层",
       "summary": "Presented by EDBRead more",
       "link": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
       "pubDate": 1787832060000,
@@ -1327,6 +1285,27 @@
       "source": "VentureBeat"
     },
     {
+      "id": "780556249",
+      "title": "Alibaba's Qwen launches Qwen3.8-Flash AI model with lower training costs",
+      "titleZh": "阿里巴巴的Qwen推出训练成本更低的Qwen3.8-Flash AI模型",
+      "summary": "Alibaba's Qwen launches Qwen3.8-Flash AI model with lower training costs Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNFBiN0MydXZkUlB3UHdHb0xzNGNqVVhKdzZVMkQwalM4WWozbUxWSkZuRTljSXdfdjdOUjZkMWN2SEVRSnBXTEJwSlJfdkNqNzJreVp5MDNULVdDZ1ozSzE1YXp6dWR6MzZsOFBlRllhdlZEQmVBa1Eyb1hpQWlMWmdUaGlzeFpUZFlDZUszLU5KRG9SblF0VTNFT092TllTQnVqVlZHY2J3Uk1WblBfOUJGRmFob041dzEwRV9WaU5TWjlxbkswcTVJRQ?oc=5",
+      "pubDate": 1787727600000,
+      "vendor": "qwen",
+      "category": "Release",
+      "impact": "high",
+      "score": 60,
+      "scoreBreakdown": {
+        "cq": 18,
+        "kv": 4,
+        "cw": 25,
+        "st": 12,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
+    },
+    {
       "id": "74193009",
       "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
       "titleZh": "VentureBeat任命Rob Strechay为其首位首席分析师，以拓展其企业人工智能研究工作",
@@ -1346,6 +1325,27 @@
         "cs": 1
       },
       "source": "VentureBeat"
+    },
+    {
+      "id": "812540910",
+      "title": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google",
+      "titleZh": "阿里巴巴AI模型下载量达30亿次，超过Meta和谷歌",
+      "summary": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNkdXS05xRW1WQ2ItQmhUZEd1SVowVkJISVhwQ1Z5STF5dnJkV2pVRmExN1JoLXNEMkZKdGV1eGZnWnVvV2I1QllUZ3JJTktoeFdKa3JtY3NSMFlBRUYta3k5d2RJdnFzVUJIMGVGY2V0SThGTG94SlEzMl9KQWRsZkduN0RycGx1SjBGOVViQVNvbXE4TS1WdTU2MGhLNjhZLUtUVHM2WVF3ZGZKalBmOURR?oc=5",
+      "pubDate": 1786777200000,
+      "vendor": "google",
+      "category": "Research",
+      "impact": "high",
+      "score": 59,
+      "scoreBreakdown": {
+        "cq": 20,
+        "kv": 1,
+        "cw": 22,
+        "st": 15,
+        "rc": 0,
+        "cs": 1
+      },
+      "source": "Google News"
     },
     {
       "id": "-1093452510",
@@ -1392,7 +1392,7 @@
     {
       "id": "749662964",
       "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
-      "titleZh": "Claude Code的费用高达每月200美元。Goose 免费提供同样的功能。",
+      "titleZh": "Claude Code 的费用高达每月 200 美元。Goose 免费提供同样的功能。",
       "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive.Read more",
       "link": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
       "pubDate": 1768831200000,
@@ -1581,7 +1581,7 @@
     {
       "id": "297070690",
       "title": "Microsoft empowers startups in India to achieve more",
-      "titleZh": "微软助力印度的初创企业成就更多",
+      "titleZh": "微软助力印度初创企业成就更多",
       "summary": "Five startups showcase their unique propositions at Future Decoded Tech Summit Bengaluru, February 25, 2020: Startups are an indisputable innovation engine, and Microsoft is partnering with startups a…",
       "link": "https://news.microsoft.com/en-in/microsoft-empowers-startups-in-india-to-achieve-more/",
       "pubDate": 1582633175000,
@@ -1602,7 +1602,7 @@
     {
       "id": "1830923333",
       "title": "Myntra accelerates its digital transformation journey with Microsoft Cloud",
-      "titleZh": "Myntra借助微软云加速其数字化转型之旅",
+      "titleZh": "Myntra借助微软云加速数字化转型之旅",
       "summary": "reimagines online shopping experience for customers Azure powers biggest-ever End of Reason Sale New Delhi, February 19, 2020: Myntra, India’s leading destination for fashion and lifestyle, has partne…",
       "link": "https://news.microsoft.com/en-in/myntra-digital-transformation-microsoft-cloud/",
       "pubDate": 1582092103000,
